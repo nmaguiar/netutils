@@ -30,6 +30,10 @@ RUN gzip /etc/netutils\
  && echo "alias help='source /etc/bash/start.sh'" >> /etc/bash/start.sh\
  && cp /etc/bash/start.sh /etc/profile.d/start.sh
     
+# Add bash completion
+# -------------------
+RUN curl -s https://ojob.io/autoComplete.sh -o /etc/.openaf-ojobio-complete\
+ && echo "source /etc/.openaf-ojobio-complete" >> /etc/bash/start.sh 
 
 # -------------------
 FROM scratch as final
