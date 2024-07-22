@@ -36,7 +36,7 @@ jobs:
       with:
         key : mitmproxy-${{ runner.arch }}
         path: |
-          mitmproxy
+          ./mitmproxy
 
     - name: Build mitmproxy
       run : |
@@ -80,7 +80,7 @@ jobs:
       with:
         key : mitmproxy-${{ runner.arch }}
         path: |
-          mitmproxy
+          ./mitmproxy
 
     - name: Build mitmproxy
       run : |
