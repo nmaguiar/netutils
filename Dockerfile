@@ -2,7 +2,7 @@ FROM openaf/oaf:t8 as main
 
 USER root
 RUN apk update\
- && apk --no-cache add tar gzip bash tmux iperf tcpdump nmap iftop drill netcat-openbsd iproute2 ctop termshark curl bash-completion\
+ && apk --no-cache add tar gzip bash tmux iperf tcpdump nmap iftop drill netcat-openbsd iproute2 ctop termshark curl bash-completion python3\
  && mkdir /openaf/ojobs\
  && /openaf/ojob ojob.io/get job=ojob.io/oaf/colorFormats.yaml > /openaf/ojobs/colorFormats.yaml\
  && /openaf/oaf --sb /openaf/ojobs/colorFormats.yaml\
@@ -35,13 +35,36 @@ RUN gzip /etc/netutils\
 RUN curl -s https://ojob.io/autoComplete.sh -o /etc/.openaf-ojobio-complete\
  && echo "source /etc/.openaf-ojobio-complete" >> /etc/bash/start.sh 
 
+# ------------------------
+FROM alpine:latest as mitm
+
+RUN apk update && apk add --no-cache python3 py3-pip gcc g++ musl-dev libffi-dev openssl-dev python3-dev cargo rust make linux-headers bsd-compat-headers
+
+RUN mkdir -p /opt/mitmproxy\
+ && python3 -m venv /opt/mitmproxy\
+ && . /opt/mitmproxy/bin/activate\
+ && pip install mitmproxy
+
+RUN mkdir -p /usr/local/bin && \
+    cp /opt/mitmproxy/bin/mitm* /usr/bin/
+
+# ----------------------
+FROM scratch as prefinal
+
+COPY --from=main / /
+COPY --from=mitm /opt/mitmproxy /opt/mitmproxy
+
+RUN cp /opt/mitmproxy/bin/mitm* /usr/bin/
+
 # -------------------
 FROM scratch as final
 
-COPY --from=main / /
+COPY --from=prefinal / /
 
 ENV OAF_HOME=/openaf
 ENV PATH=$PATH:$OAF_HOME:$OAF_HOME/ojobs
 USER openaf
 
 WORKDIR /netutils
+
+
