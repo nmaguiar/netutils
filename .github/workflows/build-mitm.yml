@@ -1,0 +1,47 @@
+name: Build mitmproxy
+
+on:
+    workflow_dispatch:
+    push:
+        branches: [ "main" ]
+    pull_request:
+        branches: [ "main" ]
+
+jobs:
+    build-x86:
+
+        runs-on: ubuntu-latest
+    
+        steps:
+        - name: Checkout
+          uses: actions/checkout@v2
+
+        - name: build
+          run : |
+            docker build -t dev -f Dockerfile.mitm .
+            docker create --name dev dev
+            docker cp dev:/opt/mitmproxy mitmproxy_x64
+
+        - name: Upload artifact
+          uses: actions/upload-artifact@v2
+          with:
+            name: mitmproxy_x64
+
+    build-arm64:
+
+        runs-on: self-hosted
+    
+        steps:
+        - name: Checkout
+          uses: actions/checkout@v2
+
+        - name: build
+          run : |
+            docker build -t dev -f Dockerfile.mitm .
+            docker create --name dev dev
+            docker cp dev:/opt/mitmproxy mitmproxy_arm64
+
+        - name: Upload artifact
+          uses: actions/upload-artifact@v2
+          with:
+            name: mitmproxy_arm64
