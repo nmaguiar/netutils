@@ -16,7 +16,7 @@ jobs:
           run : |
             docker system prune -f
             rm -rf mitmproxy
-            docker build -t dev -f Dockerfile.mitm .
+            docker build --no-cache -t dev -f Dockerfile.mitm .
             docker create --name dev dev
             docker cp dev:/opt/mitmproxy mitmproxy
 
@@ -39,7 +39,7 @@ jobs:
           run : |
             docker system prune -f
             rm -rf mitmproxy
-            docker build -t dev -f Dockerfile.mitm .
+            docker build --no-cache -t dev -f Dockerfile.mitm .
             docker create --name dev dev
             docker cp dev:/opt/mitmproxy mitmproxy
 
