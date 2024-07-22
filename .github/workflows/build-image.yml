@@ -16,6 +16,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
     - name: Set up QEMU
       uses: docker/setup-qemu-action@v2
 
@@ -38,6 +41,7 @@ jobs:
     - name: Build mitmproxy
       run : |
         if [ ! -d mitmproxy ]; then
+          docker system prune -y
           docker build -t dev -f Dockerfile.mitm .
           docker create --name dev dev
           docker cp dev:/opt/mitmproxy mitmproxy
@@ -56,6 +60,9 @@ jobs:
     runs-on: self-hosted
 
     steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      
     - name: Set up QEMU
       uses: docker/setup-qemu-action@v2
 
@@ -78,6 +85,7 @@ jobs:
     - name: Build mitmproxy
       run : |
         if [ ! -d mitmproxy ]; then
+          docker system prune -y
           docker build -t dev -f Dockerfile.mitm .
           docker create --name dev dev
           docker cp dev:/opt/mitmproxy mitmproxy
