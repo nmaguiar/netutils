@@ -51,6 +51,8 @@ jobs:
     - uses: docker/build-push-action@v3
       name: Build and push
       with:
+        context: .
+        file: ./Dockerfile
         platforms: linux/amd64
         tags: nmaguiar/netutils:build-x64
 
@@ -95,6 +97,8 @@ jobs:
     - uses: docker/build-push-action@v3
       name: Build and push
       with:
+        context: .
+        file: ./Dockerfile
         platforms: linux/arm64
         tags: nmaguiar/netutils:build-arm64
 
