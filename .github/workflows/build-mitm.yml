@@ -2,10 +2,6 @@ name: Build mitmproxy
 
 on:
     workflow_dispatch:
-    push:
-        branches: [ "main" ]
-    pull_request:
-        branches: [ "main" ]
 
 jobs:
     build-x86:
@@ -26,6 +22,7 @@ jobs:
           uses: actions/upload-artifact@v2
           with:
             name: mitmproxy_x64
+            path: mitmproxy_x64
 
     build-arm64:
 
@@ -45,3 +42,4 @@ jobs:
           uses: actions/upload-artifact@v2
           with:
             name: mitmproxy_arm64
+            path: mitmproxy_arm64
