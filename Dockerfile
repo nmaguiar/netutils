@@ -52,7 +52,7 @@ RUN curl -s https://ojob.io/autoComplete.sh -o /etc/.openaf-ojobio-complete\
 FROM scratch as prefinal
 
 COPY --from=main / /
-COPY mitmproxy /opt/mitmproxy
+COPY ./mitmproxy /opt/mitmproxy
 
 RUN cp /opt/mitmproxy/bin/mitm* /usr/bin/
 

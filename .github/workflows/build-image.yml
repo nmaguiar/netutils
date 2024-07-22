@@ -40,8 +40,8 @@ jobs:
 
     - name: Build mitmproxy
       run : |
+        docker system prune -f
         if [ ! -d mitmproxy ]; then
-          docker system prune -f
           docker build -t dev -f Dockerfile.mitm .
           docker create --name dev dev
           docker cp dev:/opt/mitmproxy mitmproxy
@@ -84,8 +84,8 @@ jobs:
 
     - name: Build mitmproxy
       run : |
+        docker system prune -f
         if [ ! -d mitmproxy ]; then
-          docker system prune -f
           docker build -t dev -f Dockerfile.mitm .
           docker create --name dev dev
           docker cp dev:/opt/mitmproxy mitmproxy
