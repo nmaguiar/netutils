@@ -52,7 +52,6 @@ jobs:
       name: Build and push
       with:
         platforms: linux/amd64
-        push: false
         tags: nmaguiar/netutils:build-x64
 
 
@@ -97,7 +96,6 @@ jobs:
       name: Build and push
       with:
         platforms: linux/arm64
-        push: false
         tags: nmaguiar/netutils:build-arm64
 
   manifest:
