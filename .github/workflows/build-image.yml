@@ -31,12 +31,12 @@ jobs:
     - name: Get artifact mitmproxy-x64
       uses: actions/download-artifact@v2
       with:
-        name: mitmproxy-x64
+        name: mitmproxy_x64
 
     - name: Get artifact mitmproxy-arm64
       uses: actions/download-artifact@v2
       with:
-        name: mitmproxy-arm64
+        name: mitmproxy_arm64
 
     - name: Select an artifact based on architecture
       run: |
