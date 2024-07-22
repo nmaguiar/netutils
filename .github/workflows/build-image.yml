@@ -75,7 +75,12 @@ jobs:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-
+    - name: Cache mitmproxy
+      uses: actions/cache@v3
+      with:
+        key : mitmproxy-${{ runner.arch }}
+        path: |
+          ./mitmproxy
 
     - name: Build mitmproxy
       run : |
