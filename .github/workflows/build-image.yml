@@ -120,7 +120,4 @@ jobs:
 
     - name: Create and push multi-arch manifest
       run : |
-        docker pull nmaguiar/netutils:build-x64
-        docker pull nmaguiar/netutils:build-arm64
-        docker manifest create nmaguiar/netutils:build nmaguiar/netutils:build-x64 nmaguiar/netutils:build-arm64
-        docker manifest push nmaguiar/netutils:build
+        docker buildx imagetools create --tag nmaguiar/netutils:build nmaguiar/netutils:build-x64 nmaguiar/netutils:build-arm64
