@@ -1,4 +1,4 @@
-FROM alpine:latest as mitm
+FROM alpine:latest
 
 RUN apk update && apk add --no-cache python3 py3-pip gcc g++ musl-dev libffi-dev openssl-dev python3-dev cargo rust make linux-headers bsd-compat-headers
 

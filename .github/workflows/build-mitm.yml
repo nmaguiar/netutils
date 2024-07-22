@@ -15,6 +15,7 @@ jobs:
         - name: build
           run : |
             docker system prune -f
+            rm -rf mitmproxy
             docker build -t dev -f Dockerfile.mitm .
             docker create --name dev dev
             docker cp dev:/opt/mitmproxy mitmproxy
@@ -37,6 +38,7 @@ jobs:
         - name: build
           run : |
             docker system prune -f
+            rm -rf mitmproxy
             docker build -t dev -f Dockerfile.mitm .
             docker create --name dev dev
             docker cp dev:/opt/mitmproxy mitmproxy
