@@ -20,11 +20,11 @@ jobs:
             docker cp dev:/opt/mitmproxy mitmproxy
 
         - name: Cache mitmproxy
-          uses: actions/cache@v3
+          uses: actions/cache@v4
           with:
             key : mitmproxy-${{ runner.arch }}
             path: |
-              ./mitmproxy
+              mitmproxy
 
     build-arm64:
 
@@ -42,8 +42,8 @@ jobs:
             docker cp dev:/opt/mitmproxy mitmproxy
 
         - name: Cache mitmproxy
-          uses: actions/cache@v3
+          uses: actions/cache@v4
           with:
             key : mitmproxy-${{ runner.arch }}
             path: |
-              ./mitmproxy
+              mitmproxy
