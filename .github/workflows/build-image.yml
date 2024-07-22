@@ -28,6 +28,24 @@ jobs:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
 
+    - name: Get artifact mitmproxy-x64
+      uses: actions/download-artifact@v2
+      with:
+        name: mitmproxy-x64
+
+    - name: Get artifact mitmproxy-arm64
+      uses: actions/download-artifact@v2
+      with:
+        name: mitmproxy-arm64
+
+    - name: Select an artifact based on architecture
+      run: |
+        if [ "$(uname -m)" = "x86_64" ]; then
+          mv -r mitmproxy-x64/* mitmproxy
+        else
+          mv -r mitmproxy-arm64/* mitmproxy
+        fi
+
     - uses: docker/build-push-action@v3
       name: Build and push
       with:

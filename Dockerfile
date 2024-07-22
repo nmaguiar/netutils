@@ -35,24 +35,24 @@ RUN gzip /etc/netutils\
 RUN curl -s https://ojob.io/autoComplete.sh -o /etc/.openaf-ojobio-complete\
  && echo "source /etc/.openaf-ojobio-complete" >> /etc/bash/start.sh 
 
-# ------------------------
-FROM alpine:latest as mitm
+# # ------------------------
+# FROM alpine:latest as mitm
 
-RUN apk update && apk add --no-cache python3 py3-pip gcc g++ musl-dev libffi-dev openssl-dev python3-dev cargo rust make linux-headers bsd-compat-headers
+# RUN apk update && apk add --no-cache python3 py3-pip gcc g++ musl-dev libffi-dev openssl-dev python3-dev cargo rust make linux-headers bsd-compat-headers
 
-RUN mkdir -p /opt/mitmproxy\
- && python3 -m venv /opt/mitmproxy\
- && . /opt/mitmproxy/bin/activate\
- && pip install mitmproxy
+# RUN mkdir -p /opt/mitmproxy\
+#  && python3 -m venv /opt/mitmproxy\
+#  && . /opt/mitmproxy/bin/activate\
+#  && pip install mitmproxy
 
-RUN mkdir -p /usr/local/bin && \
-    cp /opt/mitmproxy/bin/mitm* /usr/bin/
+# RUN mkdir -p /usr/local/bin && \
+#     cp /opt/mitmproxy/bin/mitm* /usr/bin/
 
 # ----------------------
 FROM scratch as prefinal
 
 COPY --from=main / /
-COPY --from=mitm /opt/mitmproxy /opt/mitmproxy
+COPY mitmproxy /opt/mitmproxy
 
 RUN cp /opt/mitmproxy/bin/mitm* /usr/bin/
 
