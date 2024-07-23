@@ -49,20 +49,13 @@ RUN gzip /etc/netutils\
 RUN curl -s https://ojob.io/autoComplete.sh -o /etc/.openaf-ojobio-complete\
  && echo "source /etc/.openaf-ojobio-complete" >> /etc/bash/start.sh 
 
-# # ------------------------
-# FROM alpine:latest as mitm
-
-# RUN apk update && apk add --no-cache python3 py3-pip gcc g++ musl-dev libffi-dev openssl-dev python3-dev cargo rust make linux-headers bsd-compat-headers
-
-# RUN mkdir -p /opt/mitmproxy\
-#  && python3 -m venv /opt/mitmproxy\
-#  && . /opt/mitmproxy/bin/activate\
-#  && pip install mitmproxy
-
-# RUN mkdir -p /usr/local/bin && \
-#     cp /opt/mitmproxy/bin/mitm* /usr/bin/
-
+# Documentation
+# -------------
 COPY USAGE.md /USAGE.md
+RUN gzip /USAGE.md\
+ && echo "#!/bin/sh" > /usr/bin/usage-help\
+ && echo "zcat /USAGE.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/usage-help\
+ && chmod a+x /usr/bin/usage-help
 
 # ----------------------
 FROM scratch as prefinal
