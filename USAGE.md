@@ -21,10 +21,10 @@ Welcome to the NetUtils image.
 | iperf | Measuring network bandwidth and performance. |
 | iptraf-ng | Real-time console-based network monitoring utility. |
 | lnstat | Displaying Linux network statistics. |
+| lynx | Text-based web browser for browsing the internet. |
 | mitmproxy | Proxy to intercept, inspect, modify and replay web traffic such as HTTP/1, HTTP/2, WebSockets, or any other SSL/TLS-protected protocols. |
 | mtr | Combines the functionality of ping and traceroute to diagnose network issues. |
 | nc | Network communication and debugging (also known as netcat). |
-| ngrep | Network packet analyzer that matches regular expressions. |
 | ngrep | Network packet analyzer that matches regular expressions. |
 | nmap | Network discovery and security auditing. |
 | nstat | Displaying network statistics and performance metrics. |
