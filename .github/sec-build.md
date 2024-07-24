@@ -1,5 +1,5 @@
 ````yaml
-╭ [0] ╭ Target: nmaguiar/netutils:build (alpine 3.20.1) 
+╭ [0] ╭ Target: nmaguiar/netutils:build (alpine 3.20.2) 
 │     ├ Class : os-pkgs 
 │     ╰ Type  : alpine 
 ├ [1] ╭ Target         : Java 
@@ -13,10 +13,10 @@
 │                       │     ├ InstalledVersion: 3.5.3 
 │                       │     ├ FixedVersion    : 3.6.0 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:124b6ee63c85302572df572f02e0d820d8f6edd015acd
-│                       │     │                  │         7500f6d2fcfcb809be6 
-│                       │     │                  ╰ DiffID: sha256:53a98393ca7d787722018f481df587be223fb593ca4df
-│                       │     │                            51c4c6ce9653e607bd8 
+│                       │     ├ Layer            ╭ Digest: sha256:10c08ff018acdc80eaa56f13f85492b8ce5c6fe5b2220
+│                       │     │                  │         e209240217fe54f42f3 
+│                       │     │                  ╰ DiffID: sha256:2a8566791de5003060ff829996eb946c570a6583ef647
+│                       │     │                            7bffe0d603f81f97362 
 │                       │     ├ SeveritySource  : ghsa 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-25638 
 │                       │     ├ DataSource       ╭ ID  : ghsa 
@@ -57,10 +57,10 @@
 │                       │     ├ InstalledVersion: 3.5.3 
 │                       │     ├ FixedVersion    : 3.6.0 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:124b6ee63c85302572df572f02e0d820d8f6edd015acd
-│                       │     │                  │         7500f6d2fcfcb809be6 
-│                       │     │                  ╰ DiffID: sha256:53a98393ca7d787722018f481df587be223fb593ca4df
-│                       │     │                            51c4c6ce9653e607bd8 
+│                       │     ├ Layer            ╭ Digest: sha256:10c08ff018acdc80eaa56f13f85492b8ce5c6fe5b2220
+│                       │     │                  │         e209240217fe54f42f3 
+│                       │     │                  ╰ DiffID: sha256:2a8566791de5003060ff829996eb946c570a6583ef647
+│                       │     │                            7bffe0d603f81f97362 
 │                       │     ├ SeveritySource  : ghsa 
 │                       │     ├ PrimaryURL      : https://github.com/advisories/GHSA-crjg-w57m-rqqf 
 │                       │     ├ DataSource       ╭ ID  : ghsa 
@@ -102,10 +102,10 @@
 │                             ├ InstalledVersion: 3.5.3 
 │                             ├ FixedVersion    : 3.6.0 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:124b6ee63c85302572df572f02e0d820d8f6edd015acd
-│                             │                  │         7500f6d2fcfcb809be6 
-│                             │                  ╰ DiffID: sha256:53a98393ca7d787722018f481df587be223fb593ca4df
-│                             │                            51c4c6ce9653e607bd8 
+│                             ├ Layer            ╭ Digest: sha256:10c08ff018acdc80eaa56f13f85492b8ce5c6fe5b2220
+│                             │                  │         e209240217fe54f42f3 
+│                             │                  ╰ DiffID: sha256:2a8566791de5003060ff829996eb946c570a6583ef647
+│                             │                            7bffe0d603f81f97362 
 │                             ├ SeveritySource  : ghsa 
 │                             ├ PrimaryURL      : https://github.com/advisories/GHSA-mmwx-rj87-vfgr 
 │                             ├ DataSource       ╭ ID  : ghsa 
@@ -149,10 +149,10 @@
                         │     ├ InstalledVersion: 6.4 
                         │     ├ FixedVersion    : 6.4.1 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:124b6ee63c85302572df572f02e0d820d8f6edd015acd
-                        │     │                  │         7500f6d2fcfcb809be6 
-                        │     │                  ╰ DiffID: sha256:53a98393ca7d787722018f481df587be223fb593ca4df
-                        │     │                            51c4c6ce9653e607bd8 
+                        │     ├ Layer            ╭ Digest: sha256:10c08ff018acdc80eaa56f13f85492b8ce5c6fe5b2220
+                        │     │                  │         e209240217fe54f42f3 
+                        │     │                  ╰ DiffID: sha256:2a8566791de5003060ff829996eb946c570a6583ef647
+                        │     │                            7bffe0d603f81f97362 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://github.com/advisories/GHSA-753j-mpmx-qq6g 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -255,10 +255,10 @@
                               ├ InstalledVersion: 6.4 
                               ├ FixedVersion    : 6.4.1 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:124b6ee63c85302572df572f02e0d820d8f6edd015acd
-                              │                  │         7500f6d2fcfcb809be6 
-                              │                  ╰ DiffID: sha256:53a98393ca7d787722018f481df587be223fb593ca4df
-                              │                            51c4c6ce9653e607bd8 
+                              ├ Layer            ╭ Digest: sha256:10c08ff018acdc80eaa56f13f85492b8ce5c6fe5b2220
+                              │                  │         e209240217fe54f42f3 
+                              │                  ╰ DiffID: sha256:2a8566791de5003060ff829996eb946c570a6583ef647
+                              │                            7bffe0d603f81f97362 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://github.com/advisories/GHSA-w235-7p84-xx57 
                               ├ DataSource       ╭ ID  : ghsa 
