@@ -75,5 +75,4 @@ ENV PATH=$PATH:$OAF_HOME:$OAF_HOME/ojobs
 USER openaf
 
 WORKDIR /netutils
-
-
+CMD ["/usr/bin/usage-help"]
