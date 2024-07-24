@@ -16,6 +16,10 @@ Container network:
 
 {{{$acolor 'FAINT,ITALIC' 'docker run --rm -ti --net container:some_other_container nmaguiar/netutils /bin/bash'}}}
 
+With permissions for termshark:
+
+{{{$acolor 'FAINT,ITALIC' 'docker run --rm -ti --cap-add=NET_ADMIN --cap-add=NET_RAW --net container:some_other_container nmaguiar/netutils /bin/bash'}}}
+
 ---
 
 ## 🤓 Deploy using nerdctl
