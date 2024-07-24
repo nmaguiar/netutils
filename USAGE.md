@@ -1,6 +1,50 @@
 # NetUtils usage
 
-Welcome to the NetUtils image.
+Welcome to the NetUtils image. Check the deployment options available and the list of available tools (in the end).
+
+---
+
+## 🐳 Deploy using docker
+
+{{{$acolor 'FAINT,ITALIC' 'docker run --rm -ti nmaguiar/netutils /bin/bash'}}}
+
+Host network:
+
+{{{$acolor 'FAINT,ITALIC' 'docker run --rm -ti --net host nmaguiar/netutils /bin/bash'}}}
+
+Container network:
+
+{{{$acolor 'FAINT,ITALIC' 'docker run --rm -ti --net container:some_other_container nmaguiar/netutils /bin/bash'}}}
+
+---
+
+## 🤓 Deploy using nerdctl
+
+{{{$acolor 'FAINT,ITALIC' 'nerdctl run --rm -ti nmaguiar/netutils /bin/bash'}}}
+
+Host network:
+
+{{{$acolor 'FAINT,ITALIC' 'nerdctl run --rm -ti --net host nmaguiar/netutils /bin/bash'}}}
+
+Container network:
+
+{{{$acolor 'FAINT,ITALIC' 'nerdctl run --rm -ti --net container:some_other_container nmaguiar/netutils /bin/bash'}}}
+
+---
+
+## ⚙️  Deploy using kubectl
+
+{{{$acolor 'FAINT,ITALIC' 'kubectl run netutils --rm -it --image nmaguiar/netutils -- /bin/bash'}}}
+
+{{{$acolor 'FAINT,ITALIC' 'kubectl debug pod-to-debug -it --image nmaguiar/netutils --container=container-to-debug -- /bin/bash'}}}
+
+{{{$acolor 'FAINT,ITALIC' 'NODENAME=node-server-0 NAME=netutils NS=kube-system  /bin/sh -c \'kubectl run -n $NS $NAME --rm -ti --image=nmaguiar/netutils  --overrides="{\"apiVersion\":\"v1\",\"spec\":{\"nodeName\":\"$NODENAME\",\"containers\":[{\"name\":\"$NAME\",\"image\":\"nmaguiar/netutils\",\"stdin\":true,\"stdinOnce\":true,\"tty\":true,\"args\":[\"/bin/bash\"]}]}}" -- /bin/bash\''}}}
+
+Host network:
+
+{{{$acolor 'FAINT,ITALIC' 'NODENAME=node-server-0 NAME=netutils NS=kube-system  /bin/sh -c \'kubectl run -n $NS $NAME --rm -ti --image=nmaguiar/netutils  --overrides="{\"apiVersion\":\"v1\",\"spec\":{\"hostNetwork\":true,\"nodeName\":\"$NODENAME\",\"containers\":[{\"name\":\"$NAME\",\"image\":\"nmaguiar/netutils\",\"stdin\":true,\"stdinOnce\":true,\"tty\":true,\"args\":[\"/bin/bash\"]}]}}" -- /bin/bash\''}}}
+
+---
 
 ## Utils available in this image
 
