@@ -1,4 +1,4 @@
-- Target: nmaguiar/netutils:build (alpine 3.20.1)
+- Target: nmaguiar/netutils:build (alpine 3.20.2)
   Class: os-pkgs
   Type: alpine
 - Target: Java
@@ -15,8 +15,8 @@
     FixedVersion: 3.6.0
     Status: fixed
     Layer:
-      Digest: sha256:124b6ee63c85302572df572f02e0d820d8f6edd015acd7500f6d2fcfcb809be6
-      DiffID: sha256:53a98393ca7d787722018f481df587be223fb593ca4df51c4c6ce9653e607bd8
+      Digest: sha256:10c08ff018acdc80eaa56f13f85492b8ce5c6fe5b2220e209240217fe54f42f3
+      DiffID: sha256:2a8566791de5003060ff829996eb946c570a6583ef6477bffe0d603f81f97362
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-25638
     DataSource:
@@ -58,8 +58,8 @@
     FixedVersion: 3.6.0
     Status: fixed
     Layer:
-      Digest: sha256:124b6ee63c85302572df572f02e0d820d8f6edd015acd7500f6d2fcfcb809be6
-      DiffID: sha256:53a98393ca7d787722018f481df587be223fb593ca4df51c4c6ce9653e607bd8
+      Digest: sha256:10c08ff018acdc80eaa56f13f85492b8ce5c6fe5b2220e209240217fe54f42f3
+      DiffID: sha256:2a8566791de5003060ff829996eb946c570a6583ef6477bffe0d603f81f97362
     SeveritySource: ghsa
     PrimaryURL: https://github.com/advisories/GHSA-crjg-w57m-rqqf
     DataSource:
@@ -101,8 +101,8 @@
     FixedVersion: 3.6.0
     Status: fixed
     Layer:
-      Digest: sha256:124b6ee63c85302572df572f02e0d820d8f6edd015acd7500f6d2fcfcb809be6
-      DiffID: sha256:53a98393ca7d787722018f481df587be223fb593ca4df51c4c6ce9653e607bd8
+      Digest: sha256:10c08ff018acdc80eaa56f13f85492b8ce5c6fe5b2220e209240217fe54f42f3
+      DiffID: sha256:2a8566791de5003060ff829996eb946c570a6583ef6477bffe0d603f81f97362
     SeveritySource: ghsa
     PrimaryURL: https://github.com/advisories/GHSA-mmwx-rj87-vfgr
     DataSource:
@@ -147,8 +147,8 @@
     FixedVersion: 6.4.1
     Status: fixed
     Layer:
-      Digest: sha256:124b6ee63c85302572df572f02e0d820d8f6edd015acd7500f6d2fcfcb809be6
-      DiffID: sha256:53a98393ca7d787722018f481df587be223fb593ca4df51c4c6ce9653e607bd8
+      Digest: sha256:10c08ff018acdc80eaa56f13f85492b8ce5c6fe5b2220e209240217fe54f42f3
+      DiffID: sha256:2a8566791de5003060ff829996eb946c570a6583ef6477bffe0d603f81f97362
     SeveritySource: ghsa
     PrimaryURL: https://github.com/advisories/GHSA-753j-mpmx-qq6g
     DataSource:
@@ -234,8 +234,8 @@
     FixedVersion: 6.4.1
     Status: fixed
     Layer:
-      Digest: sha256:124b6ee63c85302572df572f02e0d820d8f6edd015acd7500f6d2fcfcb809be6
-      DiffID: sha256:53a98393ca7d787722018f481df587be223fb593ca4df51c4c6ce9653e607bd8
+      Digest: sha256:10c08ff018acdc80eaa56f13f85492b8ce5c6fe5b2220e209240217fe54f42f3
+      DiffID: sha256:2a8566791de5003060ff829996eb946c570a6583ef6477bffe0d603f81f97362
     SeveritySource: ghsa
     PrimaryURL: https://github.com/advisories/GHSA-w235-7p84-xx57
     DataSource:
