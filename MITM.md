@@ -25,8 +25,14 @@ Check: https://docs.mitmproxy.org/stable/concepts-certificates/#installing-the-m
 
 ## Usage
 
-> Before or after check the previous chapter to understand how to setup the generated ca-certificate.
-> Keep in mind that it will be regenerated each time this container restarts.
+There are [several modes](https://docs.mitmproxy.org/stable/concepts-modes/) of operation for mitmproxy. The default is to act as a HTTP/HTTPS proxy for which you should check, before or after starting, the previous chapter to understand how to setup the generated ca-certificate. Keep in mind that it will be regenerated each time this container restarts.
+
+Some quick guidance on operating modes:
+* To set as a reverse proxy just add the command-line argument: ```--mode reverse:https://my.target:1234```
+* To set as a SOCKS proxy just add the command-line argument: ```--mode socks5```
+* To set as a DNS server, expose the port 53 and add the command-line argument: ```--mode dns```
+
+You can also use a different port from 8080 by adding the command-line argument ```-p 1234``` and adding that port to the container exposed ports.
 
 ### Command-line UI
 
