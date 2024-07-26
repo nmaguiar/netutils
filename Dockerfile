@@ -42,7 +42,7 @@ RUN gzip /etc/netutils\
  && echo "alias oaf-light-theme='colorFormats.yaml op=set theme=thin-light-bold'" >> /etc/bash/start.sh\
  && echo "alias oaf-dark-theme='colorFormats.yaml op=set theme=thin-intense-bold'" >> /etc/bash/start.sh\
  && echo "alias help='source /etc/bash/start.sh'" >> /etc/bash/start.sh\
- && echo "export PATH=$PATH:/openaf/ojobs" >> /etc/bash/start.sh\
+ && echo "export PATH=$PATH:/openaf:/openaf/ojobs" >> /etc/bash/start.sh\
  && cp /etc/bash/start.sh /etc/profile.d/start.sh
     
 # Add bash completion
@@ -57,9 +57,11 @@ COPY MITM.md /openaf/MITM.md
 RUN gzip /USAGE.md\
  && gzip /openaf/MITM.md\
  && echo "#!/bin/sh" > /usr/bin/usage-help\
+ && echo "#!/bin/sh" > /usr/bin/mitm-help\
  && echo "zcat /USAGE.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/usage-help\
  && echo "zcat /openaf/MITM.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/mitm-help\
- && chmod a+x /usr/bin/usage-help
+ && chmod a+x /usr/bin/usage-help\
+ && chmod a+x /usr/bin/mitm-help
 
 # ----------------------
 FROM scratch as prefinal
