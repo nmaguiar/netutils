@@ -6,6 +6,8 @@ List of examples:
 |----------|---------------|
 | Performance | Network performance between two points |
 | Performance | Connectivity to a database via JDBC |
+| Monitoring | Monitors network usage |
+| Monitoring | Monitor Java memory |
 
 > To search for a specific example type '/Network performance<ENTER>' and use the arrow keys to navigate
 
@@ -46,3 +48,34 @@ jdbc.yaml jdbc=jdbc:postgresql://hh-pgsql-public.ebi.ac.uk:5432/pfmegrnargs user
 ```
 
 > To check more options just execute ```jdbc.yaml```
+
+---
+
+## 🔍 Monitors network usage
+
+To monitor the network usage, and bandwidth, on a specific network device (e.g. eth0), execute:
+
+```bash
+sudo iftop -i eth0 -P
+```
+
+---
+
+## 🔍 Monitor Java memory
+
+This is possible by starting a debug container for an existing Kubernetes pod where a Java application is running (execute 'usage-help' to get more details on how to start a Kubernetes debug container).
+
+In the debugger container identify the running Java process:
+
+```bash
+ps -axf
+```
+
+> PIDs are "shared" between the target container and the debug container
+
+After identifying the Java pid of the target container execute a similar command changing the HSPERF variable value (the example is assuming pid 12 running under "myuser"):
+
+```bash
+HSPERF=/proc/12/root/tmp/hsperfdata_myuser/12 && oafp $HSPERF in=hsperf path=java out=grid grid="[[(title:Threads,type:chart,obj:'int threads.live:green:live threads.livePeak:red:peak threads.daemon:blue:daemon -min:0')|(title:Class Loaders,type:chart,obj:'int cls.loadedClasses:blue:loaded cls.unloadedClasses:red:unloaded')]|[(title:Heap,type:chart,obj:'bytes __mem.total:red:total __mem.used:blue:used -min:0')|(title:Metaspace,type:chart,obj:'bytes __mem.metaTotal:blue:total __mem.metaUsed:green:used -min:0')]]" loop=1
+```
+
