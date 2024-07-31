@@ -79,3 +79,8 @@ After identifying the Java pid of the target container execute a similar command
 HSPERF=/proc/12/root/tmp/hsperfdata_myuser/12 && oafp $HSPERF in=hsperf path=java out=grid grid="[[(title:Threads,type:chart,obj:'int threads.live:green:live threads.livePeak:red:peak threads.daemon:blue:daemon -min:0')|(title:Class Loaders,type:chart,obj:'int cls.loadedClasses:blue:loaded cls.unloadedClasses:red:unloaded')]|[(title:Heap,type:chart,obj:'bytes __mem.total:red:total __mem.used:blue:used -min:0')|(title:Metaspace,type:chart,obj:'bytes __mem.metaTotal:blue:total __mem.metaUsed:green:used -min:0')]]" loop=1
 ```
 
+You can also check a more complete dashboard with:
+
+```bash
+javaGC.yaml file=/proc/12/root/tmp/hsperfdata_myuser/12
+```

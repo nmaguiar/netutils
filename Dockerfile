@@ -12,6 +12,10 @@ RUN apk update\
  && /openaf/ojob ojob.io/get job=ojob.io/net/sslDates.yaml > /openaf/ojobs/sslDates.yaml\
  && /openaf/ojob ojob.io/get job=ojob.io/net/whois.yaml > /openaf/ojobs/whois.yaml\
  && /openaf/ojob ojob.io/get job=ojob.io/email/send.yaml > /openaf/ojobs/emailSend.yaml\
+ && cd /openaf/ojobs\
+ && /openaf/ojob ojob.io/get airgap=true job=ojob.io/grid/data/gc2\
+ && mv ojob.io_grid_data_gc2.yaml javaGC.yaml\
+ && sed javaGC.yaml -i -e "s/ojob.io_grid_show.yaml/\/openaf\/ojobs\/ojob.io_grid_show.yaml/"\
  && /openaf/oaf --sb /openaf/ojobs/colorFormats.yaml\
  && /openaf/oaf --sb /openaf/ojobs/doh.yaml\
  && /openaf/oaf --sb /openaf/ojobs/jdbc.yaml\
@@ -20,6 +24,7 @@ RUN apk update\
  && /openaf/oaf --sb /openaf/ojobs/sslDates.yaml\
  && /openaf/oaf --sb /openaf/ojobs/whois.yaml\
  && /openaf/oaf --sb /openaf/ojobs/emailSend.yaml\
+ && /openaf/oaf --sb /openaf/ojobs/javaGC.yaml\
  && chown -R openaf:0 /openaf\
  && chown openaf:0 /openaf/.opack.db\
  && chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
