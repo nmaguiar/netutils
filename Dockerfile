@@ -29,7 +29,8 @@ RUN apk update\
  && chown openaf:0 /openaf/.opack.db\
  && chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
  && chmod a+rwx /openaf\
- && sudo chmod g+w /openaf/.opack.db
+ && sudo chmod g+w /openaf/.opack.db\
+ && sudo adduser mitm -D 2>/dev/null
 
 # Setup netutils folder
 # ---------------------
@@ -72,6 +73,12 @@ RUN gzip /USAGE.md\
  && chmod a+x /usr/bin/usage-help\
  && chmod a+x /usr/bin/examples-help\
  && chmod a+x /usr/bin/mitm-help
+
+# Copy scripts
+# ------------
+COPY scripts/* /usr/bin/
+RUN chmod a+x /usr/bin/mitm-transparent*\
+ && chmod a+x /usr/bin/mitm-gencerts.sh
 
 # ----------------------
 FROM scratch as prefinal
