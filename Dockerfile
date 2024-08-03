@@ -1,4 +1,4 @@
-FROM openaf/oaf:t8 as main
+FROM openaf/oaf:nightly as main
 
 USER root
 RUN apk update\
