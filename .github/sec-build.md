@@ -17,10 +17,10 @@
                         │     ├ InstalledVersion: 6.4 
                         │     ├ FixedVersion    : 6.4.1 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:b5245561cdb851fb7c9d2617cc57587977f0b0be7b4a9
-                        │     │                  │         1f9ec61d76cc7337bb5 
-                        │     │                  ╰ DiffID: sha256:75b6dfbce0f3dd8e3eb3755e67a56b84e55a27e531007
-                        │     │                            91e0e6945e7a1b679c4 
+                        │     ├ Layer            ╭ Digest: sha256:e55f9b528b41120c5a5e2fc99ece37667a50f4ad8a456
+                        │     │                  │         d4ba83c4cd3ca43ef02 
+                        │     │                  ╰ DiffID: sha256:d0b42e99e60d71c22310727b23f677eef99d0f07c7f7d
+                        │     │                            8e83f4419f0a9dae14b 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://github.com/advisories/GHSA-753j-mpmx-qq6g 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -123,10 +123,10 @@
                               ├ InstalledVersion: 6.4 
                               ├ FixedVersion    : 6.4.1 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:b5245561cdb851fb7c9d2617cc57587977f0b0be7b4a9
-                              │                  │         1f9ec61d76cc7337bb5 
-                              │                  ╰ DiffID: sha256:75b6dfbce0f3dd8e3eb3755e67a56b84e55a27e531007
-                              │                            91e0e6945e7a1b679c4 
+                              ├ Layer            ╭ Digest: sha256:e55f9b528b41120c5a5e2fc99ece37667a50f4ad8a456
+                              │                  │         d4ba83c4cd3ca43ef02 
+                              │                  ╰ DiffID: sha256:d0b42e99e60d71c22310727b23f677eef99d0f07c7f7d
+                              │                            8e83f4419f0a9dae14b 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://github.com/advisories/GHSA-w235-7p84-xx57 
                               ├ DataSource       ╭ ID  : ghsa 
