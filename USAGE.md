@@ -40,7 +40,11 @@ Container network:
 
 {{{$acolor 'FAINT,ITALIC' 'kubectl run netutils --rm -it --image nmaguiar/netutils -- /bin/bash'}}}
 
+Attach to a container to debug:
+
 {{{$acolor 'FAINT,ITALIC' 'kubectl debug pod-to-debug -it --image nmaguiar/netutils --target=container-to-debug -- /bin/bash'}}}
+
+Start in a specific node:
 
 {{{$acolor 'FAINT,ITALIC' 'NODENAME=node-server-0 NAME=netutils NS=kube-system  /bin/sh -c \'kubectl run -n $NS $NAME --rm -ti --image=nmaguiar/netutils  --overrides="{\"apiVersion\":\"v1\",\"spec\":{\"nodeName\":\"$NODENAME\",\"containers\":[{\"name\":\"$NAME\",\"image\":\"nmaguiar/netutils\",\"stdin\":true,\"stdinOnce\":true,\"tty\":true,\"args\":[\"/bin/bash\"]}]}}" -- /bin/bash\''}}}
 
