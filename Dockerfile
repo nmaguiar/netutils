@@ -80,7 +80,8 @@ COPY scripts/* /usr/bin/
 RUN chmod a+x /usr/bin/mitm-transparent*\
  && chmod a+x /usr/bin/mitm-gencerts.sh\
  && chmod a+x /usr/bin/sysstat-start.sh\
- && chmod a+x /usr/bin/sysstat-stop.sh
+ && chmod a+x /usr/bin/sysstat-stop.sh\
+ && chmod a+x /usr/bin/switch-user-by-pid.sh
 
 # ----------------------
 FROM scratch as prefinal
