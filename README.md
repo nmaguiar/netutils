@@ -1,6 +1,6 @@
 # NetUtils
 
-Welcome to the NetUtils image. Check the deployment options available and the list of available tools (in the end).
+Alpine based image ("nmaguiar/netutils") with tools for network connectivity debugging (with the right permissions) among other troubleshooting utilities.
 
 ## Image security scans
 
