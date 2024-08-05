@@ -2,7 +2,7 @@ FROM openaf/oaf:nightly as main
 
 USER root
 RUN apk update\
- && apk --no-cache add tar gzip bash tmux vim iperf tcpdump nmap iftop drill netcat-openbsd lynx iproute2 iptables fping conntrack-tools ctop iputils iptraf-ng ngrep tcptraceroute socat mtr termshark curl inetutils-telnet websocat bash-completion python3 sysstat iotop htop\
+ && apk --no-cache add tar gzip bash tmux vim iperf tcpdump nmap iftop drill netcat-openbsd lynx iproute2 iptables fping conntrack-tools ctop iputils iptraf-ng ngrep tcptraceroute socat mtr termshark curl inetutils-telnet websocat bash-completion python3 sysstat iotop htop mc\
  && mkdir /openaf/ojobs\
  && /openaf/ojob ojob.io/get job=ojob.io/oaf/colorFormats.yaml > /openaf/ojobs/colorFormats.yaml\
  && /openaf/ojob ojob.io/get job=ojob.io/net/doh.yaml > /openaf/ojobs/doh.yaml\
