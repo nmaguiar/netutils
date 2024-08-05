@@ -2,6 +2,20 @@
 
 Alpine based image ("nmaguiar/netutils") with tools for network connectivity debugging (with the right permissions) among other troubleshooting utilities.
 
+Some of the included tools:
+
+- mitmproxy
+- termshark
+- openaf
+- iotop
+- iperf
+- tcpdump
+- nmap
+- iftop
+- drill
+- socat
+- websocat
+
 ## Image security scans
 
 [![.github/sec-build.svg](.github/sec-build.svg)](.github/sec-build.md)<br>
