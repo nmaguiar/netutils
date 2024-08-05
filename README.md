@@ -19,6 +19,7 @@ Some of the included tools:
 ## Image security scans
 
 [![.github/sec-build.svg](.github/sec-build.svg)](.github/sec-build.md)<br>
+[![.github/sec-latest.svg](.github/sec-latest.svg)](.github/sec-latest.md)<br>
 
 ## Usage
 
