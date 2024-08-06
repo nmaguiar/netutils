@@ -12,6 +12,7 @@ RUN apk update\
  && /openaf/ojob ojob.io/get job=ojob.io/net/sslDates.yaml > /openaf/ojobs/sslDates.yaml\
  && /openaf/ojob ojob.io/get job=ojob.io/net/whois.yaml > /openaf/ojobs/whois.yaml\
  && /openaf/ojob ojob.io/get job=ojob.io/email/send.yaml > /openaf/ojobs/emailSend.yaml\
+ && /openaf/ojob ojob.io/get job=ojob.io/ssh/tunnel.yaml > /openaf/ojobs/tunnel.yaml\
  && cd /openaf/ojobs\
  && /openaf/ojob ojob.io/get airgap=true job=ojob.io/grid/data/gc2\
  && mv ojob.io_grid_data_gc2.yaml javaGC.yaml\
@@ -25,12 +26,13 @@ RUN apk update\
  && /openaf/oaf --sb /openaf/ojobs/whois.yaml\
  && /openaf/oaf --sb /openaf/ojobs/emailSend.yaml\
  && /openaf/oaf --sb /openaf/ojobs/javaGC.yaml\
+ && /openaf/oaf --sb /openaf/ojobs/tunnel.yaml\
  && chown -R openaf:0 /openaf\
  && chown openaf:0 /openaf/.opack.db\
  && chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
  && chmod a+rwx /openaf\
  && sudo chmod g+w /openaf/.opack.db\
- && sudo adduser mitm -D 2>/dev/null
+ && sudo adduser mitm -u 666 -D 2>/dev/null
 
 # Setup netutils folder
 # ---------------------
