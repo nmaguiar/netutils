@@ -17,4 +17,4 @@ sudo iptables -t nat -A OUTPUT -m mark --mark 1 -j RETURN
 # Redirect the traffic to the proxy
 sudo iptables -t nat -A OUTPUT -p tcp -d $1 --dport $2 -j DNAT --to-destination 127.0.0.1:8080
 # Start mitmproxy in transparent mode
-sudo -u bypass mitmproxy --mode transparent --showhost
+sudo -u mitm mitmproxy --mode transparent --showhost
