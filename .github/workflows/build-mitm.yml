@@ -12,13 +12,6 @@ jobs:
         - name: Checkout
           uses: actions/checkout@v2
 
-        - name: Cache mitmproxy
-          uses: actions/cache@v4
-          with:
-            key : mitmproxy-${{ runner.arch }}
-            path: |
-              mitmproxy
-
         - name: build
           run : |
             docker system prune -f
@@ -26,6 +19,13 @@ jobs:
             docker build --no-cache -t dev -f Dockerfile.mitm .
             docker create --name dev dev
             docker cp dev:/opt/mitmproxy mitmproxy
+
+        - name: Cache mitmproxy save
+          uses: actions/cache/save@v3
+          with:
+            key : mitmproxy-${{ runner.arch }}
+            path: |
+              mitmproxy
 
     build-arm64:
 
@@ -35,13 +35,6 @@ jobs:
         - name: Checkout
           uses: actions/checkout@v2
 
-        - name: Cache mitmproxy
-          uses: actions/cache@v4
-          with:
-            key : mitmproxy-${{ runner.arch }}
-            path: |
-              mitmproxy
-
         - name: build
           run : |
             docker system prune -f
@@ -49,3 +42,10 @@ jobs:
             docker build --no-cache -t dev -f Dockerfile.mitm .
             docker create --name dev dev
             docker cp dev:/opt/mitmproxy mitmproxy
+
+        - name: Cache mitmproxy save
+          uses: actions/cache/save@v3
+          with:
+            key : mitmproxy-${{ runner.arch }}
+            path: |
+              mitmproxy
