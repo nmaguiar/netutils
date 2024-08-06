@@ -1,11 +1,16 @@
 FROM alpine:edge
 
-RUN apk update && apk add --no-cache python3 py3-pip gcc g++ musl-dev libffi-dev openssl-dev python3-dev cargo rust make linux-headers bsd-compat-headers
+RUN apk update\
+ && apk upgrade\
+ && apk add --no-cache python3 py3-pip gcc g++ musl-dev libffi-dev openssl-dev python3-dev cargo rust make linux-headers bsd-compat-headers build-base yaml-dev libc-dev yaml
 
 RUN mkdir -p /opt/mitmproxy\
  && python3 -m venv /opt/mitmproxy\
  && . /opt/mitmproxy/bin/activate\
+ && pip install --upgrade pip\
+ && pip install "ruamel.yaml<0.17.34"\
  && pip install mitmproxy
 
 RUN mkdir -p /usr/local/bin && \
     cp /opt/mitmproxy/bin/mitm* /usr/bin/
+    
