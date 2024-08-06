@@ -18,8 +18,8 @@
     FixedVersion: 6.4.1
     Status: fixed
     Layer:
-      Digest: sha256:95ee4822bc547f4bde79fbfed7aff756aad48f781d4448b6f072788dcdeb8d53
-      DiffID: sha256:1c83c096d547703ee948bbb3ed980f58c9b3d861f1d762f7e15c56eb371b7878
+      Digest: sha256:d47c2cb15eec1f11b313da04468abd2363d4237169c898e1415bc71a35356d9a
+      DiffID: sha256:1a755e5dd081994d5f46d1be13cf265c24159d08430f48d9dac84148466c08ef
     SeveritySource: ghsa
     PrimaryURL: https://github.com/advisories/GHSA-753j-mpmx-qq6g
     DataSource:
@@ -105,8 +105,8 @@
     FixedVersion: 6.4.1
     Status: fixed
     Layer:
-      Digest: sha256:95ee4822bc547f4bde79fbfed7aff756aad48f781d4448b6f072788dcdeb8d53
-      DiffID: sha256:1c83c096d547703ee948bbb3ed980f58c9b3d861f1d762f7e15c56eb371b7878
+      Digest: sha256:d47c2cb15eec1f11b313da04468abd2363d4237169c898e1415bc71a35356d9a
+      DiffID: sha256:1a755e5dd081994d5f46d1be13cf265c24159d08430f48d9dac84148466c08ef
     SeveritySource: ghsa
     PrimaryURL: https://github.com/advisories/GHSA-w235-7p84-xx57
     DataSource:
