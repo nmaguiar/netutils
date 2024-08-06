@@ -42,7 +42,7 @@ Container network:
 
 Attach to a container to debug:
 
-{{{$acolor 'FAINT,ITALIC' 'kubectl debug pod-to-debug -it --image nmaguiar/netutils --target=container-to-debug -- /bin/bash'}}}
+{{{$acolor 'FAINT,ITALIC' 'kubectl debug pod-to-debug -it --image nmaguiar/netutils --target=container-to-debug --profile=netadmin -- /bin/bash'}}}
 
 Start in a specific node:
 
