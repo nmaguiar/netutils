@@ -11,3 +11,4 @@ fi
 # Remove cron job for sa1
 sudo crontab -l | grep -v "/usr/lib/sa/sa1" | sudo crontab -
 sudo crontab -l | grep -v "/usr/lib/sa/sa2" | sudo crontab -
+
