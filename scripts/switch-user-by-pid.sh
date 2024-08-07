@@ -30,4 +30,4 @@ GROUP=$(echo $PROCESS_INFO | awk '{print $3}')
 
 # Switch to the user and group of the process
 echo "Switching to user '$USER' and group '$GROUP' based on process with PID $PID."
-sudo -g $GROUP -u $USER bash
+sudo -g $GROUP -u $USER /bin/sh -c "cd /proc/$PID/root && bash"

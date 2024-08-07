@@ -32,13 +32,19 @@ docker run --rm -ti nmaguiar/netutils /bin/bash
 Host network:
 
 ```bash
-docker run --rm -ti --net host nmaguiar/netutils /bin/bash
+docker run --rm -ti --net host -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/netutils /bin/bash
+```
+
+Container network:
+
+```bash
+CONTAINER=some_other_container && docker run --rm -ti --net container:$CONTAINER --pid container:$CONTAINER -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/netutils --volumes-from=$CONTAINER /bin/bash
 ```
 
 With permissions for termshark:
 
 ```bash
-docker run --rm -ti --cap-add=NET_ADMIN --cap-add=NET_RAW --net container:some_other_container nmaguiar/netutils /bin/bash
+CONTAINER=some_other_container && docker run --rm -ti --cap-add=NET_ADMIN --cap-add=NET_RAW -v /var/run/docker.sock:/var/run/docker.sock --volumes-from=$CONTAINER --net container:$CONTAINER --pid container:$CONTAINER  nmaguiar/netutils /bin/bash
 ```
 
 ### ⚙️  Deploy using kubectl
