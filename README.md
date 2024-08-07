@@ -50,7 +50,7 @@ kubectl run netutils --rm -it --image nmaguiar/netutils -- /bin/bash
 Attach to a container to debug:
 
 ```bash
-kubectl debug pod-to-debug -it --image nmaguiar/netutils --target=container-to-debug -- /bin/bash
+kubectl debug pod-to-debug -it --image nmaguiar/netutils --target=container-to-debug --profile='netadmin' -- /bin/bash
 ```
 
 Start in a specific node:

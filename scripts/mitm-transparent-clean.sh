@@ -1,12 +1,13 @@
 #!/bin/bash
 
 # Usage: mitm-transparent-clean.sh
-# Example: mitm-transparent-clean.sh www.google.com 443
+# Example: mitm-transparent-clean.sh 443
 
 if [ "$#" -ne 2 ]; then
-    echo "Usage: mitm-transparent-clean.sh <host> <port>"
+    echo "Usage: mitm-transparent-clean.sh <port>"
     exit 1
 fi
 
 # Remove the redirection to the proxy
-sudo iptables -t nat -D OUTPUT -p tcp -d $1 --dport $2 -j DNAT --to-destination
+sudo iptables -t nat -D OUTPUT -p tcp --dport $1
+sudo ip6tables -t nat -D OUTPUT -p tcp --dport $1
