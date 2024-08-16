@@ -4,6 +4,7 @@ List of examples:
 
 | Category | Example title |
 |----------|---------------|
+| Debug | Run a program in another pid namespace |
 | Performance | Network performance between two points |
 | Performance | Connectivity to a database via JDBC |
 | Monitoring | Monitors network usage |
@@ -83,4 +84,21 @@ You can also check a more complete dashboard with:
 
 ```bash
 javaGC.yaml file=/proc/12/root/tmp/hsperfdata_myuser/12
+```
+
+---
+
+## 🪳 Run a program in another pid namespace
+
+You can execute a program (including a shell) in another's pid namespace. 
+If you are using ```kubectl debug```:
+
+```bash
+nsenter -t [target pid] -m -u -n -i sh
+```
+
+or if you are using ```docker run -it --rm --privileged --pid=host nmaguiar/netutils``` you can run:
+
+```bash
+nsenter -t 1 -m -u -n -i sh
 ```

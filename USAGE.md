@@ -83,6 +83,7 @@ Host network:
 | nc | Network communication and debugging (also known as netcat). | |
 | ngrep | Network packet analyzer that matches regular expressions. | |
 | nmap | Network discovery and security auditing. | |
+| nsenter | Run a program in different namespaces | |
 | nstat | Displaying network statistics and performance metrics. | |
 | openaf | A 'swiss-army knife' devops tool & runtime. | |
 | pidstat | Provides detailed statistics about processes and threads. Particularly useful for monitoring system performance and identifying performance bottlenecks. | |
