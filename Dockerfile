@@ -1,7 +1,9 @@
 FROM openaf/oaf as main
 
 USER root
-RUN apk update\
+RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
+ && apk update\
+ && apk upgrade --available\
  && apk --no-cache add tar gzip bash tmux vim iperf iperf-doc tcpdump tcpdump-doc nmap nmap-doc iftop iftop-doc drill netcat-openbsd netcat-openbsd-doc lynx lynx-doc iproute2 iproute2-doc iptables iptables-doc fping fping-doc conntrack-tools conntrack-tools-doc ctop iputils iptraf-ng iptraf-ng-doc ngrep ngrep-doc tcptraceroute tcptraceroute-doc socat socat-doc mtr mtr-doc termshark curl curl-doc inetutils-telnet websocat bash-completion python3 sysstat sysstat-doc iotop iotop-doc htop htop-doc mc mandoc man-pages util-linux-doc\
  && mkdir /openaf/ojobs\
  && /openaf/ojob ojob.io/get job=ojob.io/oaf/colorFormats.yaml > /openaf/ojobs/colorFormats.yaml\
