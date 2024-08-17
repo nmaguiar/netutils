@@ -36,6 +36,8 @@ RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
  && sudo chmod g+w /openaf/.opack.db\
  && sudo adduser mitm -u 666 -D 2>/dev/null
 
+COPY softVersions.yaml /openaf/ojobs/softVersions.yaml
+
 # Setup netutils folder
 # ---------------------
 RUN mkdir /netutils\

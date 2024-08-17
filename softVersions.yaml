@@ -1,0 +1,117 @@
+init:
+  packs:
+  - name: arping
+    cmd : arping -V
+  - name: bridge
+    cmd : bridge -V
+  - name: cifsiostat
+    cmd : cifsiostat -V
+  - name: conntrack
+    cmd : conntrack -V
+  - name: ctop
+    cmd : ctop -v
+  - name: ctstat
+    cmd : ctstat -V
+  - name: curl
+    cmd : curl -V
+  - name: drill
+    cmd : drill -v
+  - name: fping
+    cmd : fping -v
+  - name: genl
+    cmd : genl -V
+  - name: htop
+    cmd : htop -V
+  - name: ifstat
+    cmd : ifstat -v
+  - name: iftop
+    cmd : iftop -v
+  - name: iperf
+    cmd : iperf -v
+  - name: iptraf-ng
+    cmd : apk search iptraf-ng
+  - name: iostat
+    cmd : iostat -V
+  - name: lnstat
+    cmd : lnstat -v
+  - name: lynx
+    cmd : lynx -version
+  - name: mitmproxy
+    cmd : mitmproxy --version
+  - name: mtr
+    cmd : mtr -v
+  - name: mpstat
+    cmd : mpstat -V
+  - name: nc
+    cmd : apk info netcat-openbsd
+  - name: ngrep
+    cmd : ngrep -V
+  - name: nmap
+    cmd : nmap -v
+  - name: nsenter
+    cmd : nsenter -v
+  - name: nstat
+    cmd : nstat -v
+  - name: openaf
+    cmd : openaf -v
+  - name: pidstat
+    cmd : pidstat -V
+  - name: ping 
+    cmd : ping -V
+  - name: rtacct
+    cmd : rtacct -v
+  - name: rtmon
+    cmd : rtmon -V
+  - name: rtstat
+    cmd : rtstat -V
+  - name: sadf
+    cmd : sadf -V
+  - name: sar
+    cmd : sar -V
+  - name: socat 
+    cmd : socat -V
+  - name: tcpdump
+    cmd : tcpdump -V
+  - name: tcptraceroute
+    cmd : tcptraceroute -v
+  - name: telnet
+    cmd : telnet -V
+  - name: termshark
+    cmd : termshark -v
+  - name: tracepath 
+    cmd : tracepath -V
+  - name: websocat
+    cmd : websocat -V
+  - name: whois
+    cmd : whois -V
+    
+# Author: Nuno Aguiar
+help:
+  text   : List software versions on the nmaguiar/netutils image
+  # expects: 
+  # - name     : something
+  #   desc     : To do something
+  #   example  : aValueExample
+  #   mandatory: false
+
+todo:
+- Check versions
+
+jobs:
+# --------------------
+- name: Check versions
+  exec: |
+    var res = pForEach(args.init.packs, pack => {
+                var _r = $sh(pack.cmd).get(0)
+                _r = _r.stdout + _r.stderr
+                var _sv = _r.match(/((\d+\.)+\d+)/)
+                if (isNull(_sv)) {
+                  _sv = _r.match(/(\d{8})/)
+                }
+                if (isArray(_sv) && isDef(_sv[1])) {
+                  return { pack: pack.name, version: _sv[1] }
+                } else {
+                  return { pack: pack.name, version: __ }
+                }
+              })
+    ow.oJob.output(res, args)
