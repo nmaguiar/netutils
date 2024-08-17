@@ -24,7 +24,7 @@ jobs:
 
     - name: Get versions
       run : |
-        docker run --rm -ti nmaguiar/netutils:build /openaf/ojob /openaf/ojobs/softVersions.yaml -json > .github/softVersions-build.json
+        docker run --rm nmaguiar/netutils:build /openaf/ojob /openaf/ojobs/softVersions.yaml -json > .github/softVersions-build.json
 
     - uses: openaf/ojob-action@v4
       name: Check latest
