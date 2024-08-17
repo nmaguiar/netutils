@@ -3,7 +3,7 @@ name: Scan Versions
 on:
   workflow_dispatch:
   schedule:
-  - cron: '07 7 * * *'
+  - cron: '37 8 * * *'
 
 jobs:
   Scan-Versions:
