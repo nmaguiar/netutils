@@ -6,7 +6,7 @@ on:
   - cron: '07 7 * * *'
 
 jobs:
-  Scan-Images:
+  Scan-Versions:
     runs-on    : ubuntu-latest
     permissions:
       contents: write
@@ -22,16 +22,14 @@ jobs:
         key : oaf-nightly
         path: /tmp/oaf
 
-    - name: Get versions
+    - name: Get versions build
       run : |
         docker run --rm nmaguiar/netutils:build /openaf/ojob /openaf/ojobs/softVersions.yaml -json > .github/softVersions-build.json
 
-    - uses: openaf/ojob-action@v4
-      name: Check latest
-      with:
-        ojob: 'ojob.io/sec/genSecBadge'
-        args: 'image=nmaguiar/netutils:latest file=.github/sec-latest.svg reportFile=.github/sec-latest.yaml'
-        dist: 'nightly'
+    - name: Get versions latest
+      run : |
+        docker run --rm nmaguiar/netutils:latest /openaf/ojob /openaf/ojobs/softVersions.yaml -json > .github/softVersions-latest.json
+
 
     - uses: openaf/ojob-action@v4
       name: Update files
