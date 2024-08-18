@@ -13,6 +13,7 @@ RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
  && /openaf/ojob ojob.io/get job=ojob.io/net/publicIP.yaml > /openaf/ojobs/publicIP.yaml\
  && /openaf/ojob ojob.io/get job=ojob.io/net/sslDates.yaml > /openaf/ojobs/sslDates.yaml\
  && /openaf/ojob ojob.io/get job=ojob.io/net/whois.yaml > /openaf/ojobs/whois.yaml\
+ && /openaf/ojob ojob.io/get job=ojob.io/net/testHosts.yaml > /openaf/ojobs/testHosts.yaml\
  && /openaf/ojob ojob.io/get job=ojob.io/email/send.yaml > /openaf/ojobs/emailSend.yaml\
  && /openaf/ojob ojob.io/get job=ojob.io/ssh/tunnel.yaml > /openaf/ojobs/tunnel.yaml\
  && cd /openaf/ojobs\
@@ -26,6 +27,7 @@ RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
  && /openaf/oaf --sb /openaf/ojobs/publicIP.yaml\
  && /openaf/oaf --sb /openaf/ojobs/sslDates.yaml\
  && /openaf/oaf --sb /openaf/ojobs/whois.yaml\
+ && /openaf/oaf --sb /openaf/ojobs/testHosts.yaml\
  && /openaf/oaf --sb /openaf/ojobs/emailSend.yaml\
  && /openaf/oaf --sb /openaf/ojobs/javaGC.yaml\
  && /openaf/oaf --sb /openaf/ojobs/tunnel.yaml\
