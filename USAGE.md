@@ -88,6 +88,7 @@ Host network:
 | ojob jdbc.yaml | Tries to reach a database through a JDBC driver and measure the round-trip. | |
 | ojob publicIP.yaml | Provides public IP information from the current internet connection or a provided ip address. | |
 | ojob sslDates.yaml | Get a HTTPS host SSL certificate dates. | | 
+| ojob testHosts.yaml | Test one or more hosts through ICMP (ping) and/or socket test. | |
 | openaf | A 'swiss-army knife' devops tool & runtime. |  |
 | pidstat | Provides detailed statistics about processes and threads. Particularly useful for monitoring system performance and identifying performance bottlenecks. |  |
 | ping | Testing the reachability of a host on a network. |  |
