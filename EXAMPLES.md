@@ -5,12 +5,32 @@ List of examples:
 | Category | Example title |
 |----------|---------------|
 | Debug | Run a program in another pid namespace |
-| Performance | Network performance between two points |
-| Performance | Connectivity to a database via JDBC |
 | Monitoring | Monitors network usage |
 | Monitoring | Monitor Java memory |
+| Performance | Network performance between two points |
+| Performance | Connectivity to a database via JDBC |
+| Test | Test TCP port reachability and/or ping |
 
 > To search for a specific example type '/Network performance<ENTER>' and use the arrow keys to navigate
+
+---
+
+## 📡 Test TCP port reachability and/or ping
+
+You can provide a comma delimited list of hosts and ports to test if those TCP ports are reachable:
+
+```bash
+testHosts.yaml targets=a.host:1234,b.host:2345,c.host:3456
+```
+
+This will return a table indicating if the TCP ports are reachable including the time it took to receive the acknowledgement.
+
+If the port is not specified it will also perform a "ping" (ICMP) test. 
+You can also export the results to CSV if necessary:
+
+```bash
+testHosts.yaml targets=a.host:1234,a.host,b.host:2345,b.host __format=csv
+```
 
 ---
 
