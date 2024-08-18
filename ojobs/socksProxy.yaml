@@ -1,0 +1,98 @@
+# Author: Nuno Aguiar
+# From  : nmaguiar/socksd
+help:
+  text   : Starts a socks server 
+  expects: 
+  - name     : ONLY_LOCAL
+    desc     : If "true" filters by requests only for private IP addresses (DOMAINFILTERS and FILTERS are ignored)
+    example  : "true"
+    mandatory: false
+  - name     : LOGS
+    desc     : If "true" basic connection logging will be output
+    example  : "true"
+    mandatory: false
+  - name     : LOGS_DETAIL
+    desc     : If "true" and (LOGS=true) verbose logging will be output
+    example  : "true"
+    mandatory: false
+  - name     : FILTERS
+    desc     : A list of IP addressed CIDR separated by commas.
+    example  : "192.168.1.0/16,fc00::/7"
+    mandatory: false
+  - name     : DOMAINFILTERS
+    desc     : A list of domains separated by commas.
+    example  : "mydomain.com,myotherdomain.com"
+    mandatory: false
+  - name     : DNSTIMEOUT
+    desc     : If defined sets a different DNS resolution timeout (in seconds) from the default (10 seconds)
+    example  : 10
+    mandatory: false
+  - name     : INITOJOB
+    desc     : Run an oJob upon start of the pod
+    example  : setDNS.yaml
+    mandatory: false
+  - name     : INITOJOBARGS
+    desc     : The arguments to use with the defined INITOJOB (in slon format)
+    example  : "(abc:123,xyz:abc)"
+    mandatory: false
+  - name     : HTTPPROXY
+    desc     : Boolean flag to start a tinyproxy server for http/https proxy support
+    example  : "true"
+    mandatory: false
+
+todo:
+- Socks Server
+
+ojob:
+  opacks      :
+  - openaf     : 20230704
+  - SocksServer: 20240120
+  catch       : printErrnl("[" + job.name + "] "); if (isDef(exception.javaException)) exception.javaException.printStackTrace(); else printErr(exception)
+  logToConsole: false   # to change when finished
+  argsFromEnvs: true
+  daemon      : true
+  loadLibs    :
+  - socksServer.js
+
+jobs:
+# -------------------
+- name : Socks Server
+  check:
+    in:
+      ONLY_LOCAL   : toBoolean.isBoolean.default(false)
+      LOGS         : toBoolean.isBoolean.default(false)
+      LOGS_DETAIL  : toBoolean.isBoolean.default(false)
+      FILTERS      : isString.default(__)
+      DOMAINFILTERS: isString.default(__)
+      DNSTIMEOUT   : toNumber.isNumber.default(10000)
+      INITOJOB     : isString.default(__)
+      INITOJOBARGS : isString.default("{}")
+      HTTPPROXY    : toBoolean.isBoolean.default(false)
+  exec : |
+    if (isDef(args.INITOJOB)) {
+      log("Running " + args.INITOJOB + "...")
+      var _args = af.fromSLON(args.INITOJOBARGS)
+      var _txtArgs = Object.keys(_args).map(k => k + "=" + _args[k] )
+      $do(() => $sh([ getOpenAFPath() + "/ojob", args.INITOJOB ].concat(_txtArgs)).exec() )
+    }
+
+    // Set DNS timeout
+    log("Set DNS cache TTL: " + args.DNSTIMEOUT)
+    java.security.Security.setProperty("networkaddress.cache.ttl", args.DNSTIMEOUT)
+
+    // Start Socks server
+    var s = new SocksServer()
+
+    s.start(1080, args.ONLY_LOCAL ? s.getLocalNetCallback(args.LOGS, args.LOGS_DETAIL)
+                                  : ((isDef(args.FILTERS) || isDef(args.DOMAINFILTERS)) 
+                                    ? s.getCallback( s.getNetFilter( isDef(args.FILTERS) ? args.FILTERS.split(',').map(r=>r.trim()) : __, isDef(args.DOMAINFILTERS) ? args.DOMAINFILTERS.split(',').map(r=>r.trim()) : __ ), args.LOGS, args.LOGS_DETAIL )
+                                    : s.getLogCallback( args.LOGS, args.LOGS_DETAIL )
+                                    )
+            )
+            
+    if (toBoolean(args.HTTPPROXY)) {
+      log("Starting http proxy (tinyproxy)...")
+      $sh("tinyproxy").prefix("tinyproxy").get()
+    }
+
+    log('READY!')

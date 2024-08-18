@@ -41,10 +41,14 @@ RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
  && sudo adduser mitm -u 666 -D 2>/dev/null
 
 COPY ojobs/softVersions.yaml /openaf/ojobs/softVersions.yaml
+COPY ojobs/socksProxy.yaml /openaf/ojobs/socksProxy.yaml
 
 RUN /openaf/oaf --sb /openaf/ojobs/softVersions.yaml\
  && chown openaf:0 /openaf/ojobs/softVersions.yaml\
- && chmod u+rwx,g+rwx,o+rx /openaf/ojobs/softVersions.yaml
+ && chmod u+rwx,g+rwx,o+rx /openaf/ojobs/softVersions.yaml\
+ && /openaf/oaf --sb /openaf/ojobs/socksProxy.yaml\
+ && chown openaf:0 /openaf/ojobs/socksProxy.yaml\
+ && chmod u+rwx,g+rwx,o+rx /openaf/ojobs/socksProxy.yaml
 
 # Setup netutils folder
 # ---------------------

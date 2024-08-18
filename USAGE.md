@@ -87,6 +87,7 @@ Host network:
 | nstat | Displaying network statistics and performance metrics. |  |
 | ojob jdbc.yaml | Tries to reach a database through a JDBC driver and measure the round-trip. | |
 | ojob publicIP.yaml | Provides public IP information from the current internet connection or a provided ip address. | |
+| ojob socksProxy.yaml | Provides a SOCKS proxy (equivalent to nmaguiar/socksd) | |e
 | ojob sslDates.yaml | Get a HTTPS host SSL certificate dates. | | 
 | ojob testHosts.yaml | Test one or more hosts through ICMP (ping) and/or socket test. | |
 | openaf | A 'swiss-army knife' devops tool & runtime. |  |
@@ -103,6 +104,7 @@ Host network:
 | tcptraceroute | Tracing the path packets take to a network host using TCP. |  |
 | telnet | Connecting to remote servers and testing network services. |  |
 | termshark | Terminal-based network packet analyzer. |  |
+| tinyproxy | A light-weight HTTP proxy daemon | |
 | tracepath | Tracing the path to a network host and measuring the path MTU. |  |
 | websocat | WebSocket client and server for command-line. |  |
 | whois | Querying information about domain names and IP addresses. |  |
