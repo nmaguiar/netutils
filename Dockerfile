@@ -40,6 +40,10 @@ RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
 
 COPY ojobs/softVersions.yaml /openaf/ojobs/softVersions.yaml
 
+RUN /openaf/oaf --sb /openaf/ojobs/softVersions.yaml\
+ && chown openaf:0 /openaf/ojobs/softVersions.yaml\
+ && chmod u+rwx,g+rwx /openaf/ojobs/softVersions.yaml
+
 # Setup netutils folder
 # ---------------------
 RUN mkdir /netutils\
