@@ -1,7 +1,7 @@
 # Author: Nuno Aguiar
 # From  : nmaguiar/socksd
 help:
-  text   : Starts a socks server 
+  text   : Starts a socks server on port 1080 and, optionally, configures an existing tinyproxy to connect to it on port 8888 (nmaguiar/socksd)
   expects: 
   - name     : ONLY_LOCAL
     desc     : If "true" filters by requests only for private IP addresses (DOMAINFILTERS and FILTERS are ignored)
@@ -39,6 +39,14 @@ help:
     desc     : Boolean flag to start a tinyproxy server for http/https proxy support
     example  : "true"
     mandatory: false
+  - name     : port
+    desc     : The port to start the socks server on
+    example  : 1080
+    mandatory: false
+  - name     : httpport
+    desc     : The port to start the http proxy server on
+    example  : 8888
+    mandatory: false
 
 todo:
 - Socks Server
@@ -54,6 +62,19 @@ ojob:
   loadLibs    :
   - socksServer.js
 
+init:
+  tinyproxy: |
+    User nobody
+    Group nobody
+    Port {{httpport}}
+    Timeout 600
+    DefaultErrorFile "/usr/share/tinyproxy/default.html" 
+    StatFile "/usr/share/tinyproxy/stats.html"
+    LogLevel Info
+
+    Upstream socks5 127.0.0.1:{{port}}
+    BindSame yes
+
 jobs:
 # -------------------
 - name : Socks Server
@@ -68,6 +89,8 @@ jobs:
       INITOJOB     : isString.default(__)
       INITOJOBARGS : isString.default("{}")
       HTTPPROXY    : toBoolean.isBoolean.default(false)
+      port         : toNumber.isNumber.default(1080)
+      httpport     : toNumber.isNumber.default(8888)
   exec : |
     if (isDef(args.INITOJOB)) {
       log("Running " + args.INITOJOB + "...")
@@ -83,7 +106,7 @@ jobs:
     // Start Socks server
     var s = new SocksServer()
 
-    s.start(1080, args.ONLY_LOCAL ? s.getLocalNetCallback(args.LOGS, args.LOGS_DETAIL)
+    s.start(args.port, args.ONLY_LOCAL ? s.getLocalNetCallback(args.LOGS, args.LOGS_DETAIL)
                                   : ((isDef(args.FILTERS) || isDef(args.DOMAINFILTERS)) 
                                     ? s.getCallback( s.getNetFilter( isDef(args.FILTERS) ? args.FILTERS.split(',').map(r=>r.trim()) : __, isDef(args.DOMAINFILTERS) ? args.DOMAINFILTERS.split(',').map(r=>r.trim()) : __ ), args.LOGS, args.LOGS_DETAIL )
                                     : s.getLogCallback( args.LOGS, args.LOGS_DETAIL )
@@ -92,7 +115,9 @@ jobs:
             
     if (toBoolean(args.HTTPPROXY)) {
       log("Starting http proxy (tinyproxy)...")
-      $sh("tinyproxy").prefix("tinyproxy").get()
+      var _ftiny = io.createTempFile("tinyproxy", ".conf")
+      io.writeFileString(_ftiny, $t(args.init.tinyproxy, args))
+      $sh("tinyproxy -c " + _ftiny).prefix("tinyproxy").get()
     }
 
     log('READY!')
