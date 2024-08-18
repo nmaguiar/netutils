@@ -42,7 +42,7 @@ COPY ojobs/softVersions.yaml /openaf/ojobs/softVersions.yaml
 
 RUN /openaf/oaf --sb /openaf/ojobs/softVersions.yaml\
  && chown openaf:0 /openaf/ojobs/softVersions.yaml\
- && chmod u+rwx,g+rwx /openaf/ojobs/softVersions.yaml
+ && chmod u+rwx,g+rwx,o+rx /openaf/ojobs/softVersions.yaml
 
 # Setup netutils folder
 # ---------------------
