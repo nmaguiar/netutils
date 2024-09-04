@@ -2,7 +2,229 @@
 ╭ [0] ╭ Target         : nmaguiar/netutils:build (alpine 3.20.2) 
 │     ├ Class          : os-pkgs 
 │     ├ Type           : alpine 
-│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-43790 
+│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-6119 
+│                       │     ├ PkgID           : libcrypto3@3.3.1-r3 
+│                       │     ├ PkgName         : libcrypto3 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.3.1-r3?arch=x86_64&distro=
+│                       │     │                  │       3.20.2 
+│                       │     │                  ╰ UID : 4f05413ca0b9f28e 
+│                       │     ├ InstalledVersion: 3.3.1-r3 
+│                       │     ├ FixedVersion    : 3.3.2-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:392d1a12caab2c676c7eb1101602d51136ce2eb3c797b
+│                       │     │                  │         f1eb41bc16bc571c5db 
+│                       │     │                  ╰ DiffID: sha256:2a920f2cc7f2e7946faee2fe54222c7acf15f676d3777
+│                       │     │                            6e2121f4778733f7e52 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6119 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : Issue summary: Applications performing certificate name
+│                       │     │                   checks (e.g.,  ... 
+│                       │     ├ Description     : Issue summary: Applications performing certificate name
+│                       │     │                   checks (e.g., TLS
+│                       │     │                   clients checking server certificates) may attempt to read an
+│                       │     │                   invalid memory
+│                       │     │                   address resulting in abnormal termination of the application
+│                       │     │                   process.
+│                       │     │                   
+│                       │     │                   Impact summary: Abnormal termination of an application can a
+│                       │     │                   cause a denial of
+│                       │     │                   service.
+│                       │     │                   
+│                       │     │                   Applications performing certificate name checks (e.g., TLS
+│                       │     │                   clients checking
+│                       │     │                   server certificates) may attempt to read an invalid memory
+│                       │     │                   address when
+│                       │     │                   comparing the expected name with an `otherName` subject
+│                       │     │                   alternative name of an
+│                       │     │                   X.509 certificate. This may result in an exception that
+│                       │     │                   terminates the
+│                       │     │                   application program.
+│                       │     │                   
+│                       │     │                   Note that basic certificate chain validation (signatures,
+│                       │     │                   dates, ...) is not
+│                       │     │                   affected, the denial of service can occur only when the
+│                       │     │                   application also
+│                       │     │                   specifies an expected DNS name, Email address or IP address.
+│                       │     │                   
+│                       │     │                   TLS servers rarely solicit client certificates, and even when
+│                       │     │                    they do, they
+│                       │     │                   generally don't perform a name check against a reference
+│                       │     │                   identifier (expected
+│                       │     │                   identity), but rather extract the presented identity after
+│                       │     │                   checking the
+│                       │     │                   certificate chain.  So TLS servers are generally not affected
+│                       │     │                    and the severity
+│                       │     │                   of the issue is Moderate.
+│                       │     │                   
+│                       │     │                   The FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected by
+│                       │     │                    this issue. 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ CweIDs           ─ [0]: CWE-843 
+│                       │     ├ VendorSeverity   ─ ubuntu: 2 
+│                       │     ├ References       ╭ [0]: https://github.com/openssl/openssl/commit/05f360d9e849a
+│                       │     │                  │      1b277db628f1f13083a7f8dd04f 
+│                       │     │                  ├ [1]: https://github.com/openssl/openssl/commit/06d1dc3fa96a2
+│                       │     │                  │      ba5a3e22735a033012aadc9f0d6 
+│                       │     │                  ├ [2]: https://github.com/openssl/openssl/commit/621f3729831b0
+│                       │     │                  │      5ee828a3203eddb621d014ff2b2 
+│                       │     │                  ├ [3]: https://github.com/openssl/openssl/commit/7dfcee2cd2a63
+│                       │     │                  │      b2c64b9b4b0850be64cb695b0a0 
+│                       │     │                  ├ [4]: https://openssl-library.org/news/secadv/20240903.txt 
+│                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-6986-1 
+│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6119 
+│                       │     ├ PublishedDate   : 2024-09-03T16:15:07.177Z 
+│                       │     ╰ LastModifiedDate: 2024-09-03T21:35:12.987Z 
+│                       ├ [1] ╭ VulnerabilityID : CVE-2024-6119 
+│                       │     ├ PkgID           : libssl3@3.3.1-r3 
+│                       │     ├ PkgName         : libssl3 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.3.1-r3?arch=x86_64&distro=3.2
+│                       │     │                  │       0.2 
+│                       │     │                  ╰ UID : b7f76deee5754980 
+│                       │     ├ InstalledVersion: 3.3.1-r3 
+│                       │     ├ FixedVersion    : 3.3.2-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:392d1a12caab2c676c7eb1101602d51136ce2eb3c797b
+│                       │     │                  │         f1eb41bc16bc571c5db 
+│                       │     │                  ╰ DiffID: sha256:2a920f2cc7f2e7946faee2fe54222c7acf15f676d3777
+│                       │     │                            6e2121f4778733f7e52 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6119 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : Issue summary: Applications performing certificate name
+│                       │     │                   checks (e.g.,  ... 
+│                       │     ├ Description     : Issue summary: Applications performing certificate name
+│                       │     │                   checks (e.g., TLS
+│                       │     │                   clients checking server certificates) may attempt to read an
+│                       │     │                   invalid memory
+│                       │     │                   address resulting in abnormal termination of the application
+│                       │     │                   process.
+│                       │     │                   
+│                       │     │                   Impact summary: Abnormal termination of an application can a
+│                       │     │                   cause a denial of
+│                       │     │                   service.
+│                       │     │                   
+│                       │     │                   Applications performing certificate name checks (e.g., TLS
+│                       │     │                   clients checking
+│                       │     │                   server certificates) may attempt to read an invalid memory
+│                       │     │                   address when
+│                       │     │                   comparing the expected name with an `otherName` subject
+│                       │     │                   alternative name of an
+│                       │     │                   X.509 certificate. This may result in an exception that
+│                       │     │                   terminates the
+│                       │     │                   application program.
+│                       │     │                   
+│                       │     │                   Note that basic certificate chain validation (signatures,
+│                       │     │                   dates, ...) is not
+│                       │     │                   affected, the denial of service can occur only when the
+│                       │     │                   application also
+│                       │     │                   specifies an expected DNS name, Email address or IP address.
+│                       │     │                   
+│                       │     │                   TLS servers rarely solicit client certificates, and even when
+│                       │     │                    they do, they
+│                       │     │                   generally don't perform a name check against a reference
+│                       │     │                   identifier (expected
+│                       │     │                   identity), but rather extract the presented identity after
+│                       │     │                   checking the
+│                       │     │                   certificate chain.  So TLS servers are generally not affected
+│                       │     │                    and the severity
+│                       │     │                   of the issue is Moderate.
+│                       │     │                   
+│                       │     │                   The FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected by
+│                       │     │                    this issue. 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ CweIDs           ─ [0]: CWE-843 
+│                       │     ├ VendorSeverity   ─ ubuntu: 2 
+│                       │     ├ References       ╭ [0]: https://github.com/openssl/openssl/commit/05f360d9e849a
+│                       │     │                  │      1b277db628f1f13083a7f8dd04f 
+│                       │     │                  ├ [1]: https://github.com/openssl/openssl/commit/06d1dc3fa96a2
+│                       │     │                  │      ba5a3e22735a033012aadc9f0d6 
+│                       │     │                  ├ [2]: https://github.com/openssl/openssl/commit/621f3729831b0
+│                       │     │                  │      5ee828a3203eddb621d014ff2b2 
+│                       │     │                  ├ [3]: https://github.com/openssl/openssl/commit/7dfcee2cd2a63
+│                       │     │                  │      b2c64b9b4b0850be64cb695b0a0 
+│                       │     │                  ├ [4]: https://openssl-library.org/news/secadv/20240903.txt 
+│                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-6986-1 
+│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6119 
+│                       │     ├ PublishedDate   : 2024-09-03T16:15:07.177Z 
+│                       │     ╰ LastModifiedDate: 2024-09-03T21:35:12.987Z 
+│                       ├ [2] ╭ VulnerabilityID : CVE-2024-6119 
+│                       │     ├ PkgID           : openssl@3.3.1-r3 
+│                       │     ├ PkgName         : openssl 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.3.1-r3?arch=x86_64&distro=3.2
+│                       │     │                  │       0.2 
+│                       │     │                  ╰ UID : 597e5ded61f9c18 
+│                       │     ├ InstalledVersion: 3.3.1-r3 
+│                       │     ├ FixedVersion    : 3.3.2-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:392d1a12caab2c676c7eb1101602d51136ce2eb3c797b
+│                       │     │                  │         f1eb41bc16bc571c5db 
+│                       │     │                  ╰ DiffID: sha256:2a920f2cc7f2e7946faee2fe54222c7acf15f676d3777
+│                       │     │                            6e2121f4778733f7e52 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6119 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : Issue summary: Applications performing certificate name
+│                       │     │                   checks (e.g.,  ... 
+│                       │     ├ Description     : Issue summary: Applications performing certificate name
+│                       │     │                   checks (e.g., TLS
+│                       │     │                   clients checking server certificates) may attempt to read an
+│                       │     │                   invalid memory
+│                       │     │                   address resulting in abnormal termination of the application
+│                       │     │                   process.
+│                       │     │                   
+│                       │     │                   Impact summary: Abnormal termination of an application can a
+│                       │     │                   cause a denial of
+│                       │     │                   service.
+│                       │     │                   
+│                       │     │                   Applications performing certificate name checks (e.g., TLS
+│                       │     │                   clients checking
+│                       │     │                   server certificates) may attempt to read an invalid memory
+│                       │     │                   address when
+│                       │     │                   comparing the expected name with an `otherName` subject
+│                       │     │                   alternative name of an
+│                       │     │                   X.509 certificate. This may result in an exception that
+│                       │     │                   terminates the
+│                       │     │                   application program.
+│                       │     │                   
+│                       │     │                   Note that basic certificate chain validation (signatures,
+│                       │     │                   dates, ...) is not
+│                       │     │                   affected, the denial of service can occur only when the
+│                       │     │                   application also
+│                       │     │                   specifies an expected DNS name, Email address or IP address.
+│                       │     │                   
+│                       │     │                   TLS servers rarely solicit client certificates, and even when
+│                       │     │                    they do, they
+│                       │     │                   generally don't perform a name check against a reference
+│                       │     │                   identifier (expected
+│                       │     │                   identity), but rather extract the presented identity after
+│                       │     │                   checking the
+│                       │     │                   certificate chain.  So TLS servers are generally not affected
+│                       │     │                    and the severity
+│                       │     │                   of the issue is Moderate.
+│                       │     │                   
+│                       │     │                   The FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected by
+│                       │     │                    this issue. 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ CweIDs           ─ [0]: CWE-843 
+│                       │     ├ VendorSeverity   ─ ubuntu: 2 
+│                       │     ├ References       ╭ [0]: https://github.com/openssl/openssl/commit/05f360d9e849a
+│                       │     │                  │      1b277db628f1f13083a7f8dd04f 
+│                       │     │                  ├ [1]: https://github.com/openssl/openssl/commit/06d1dc3fa96a2
+│                       │     │                  │      ba5a3e22735a033012aadc9f0d6 
+│                       │     │                  ├ [2]: https://github.com/openssl/openssl/commit/621f3729831b0
+│                       │     │                  │      5ee828a3203eddb621d014ff2b2 
+│                       │     │                  ├ [3]: https://github.com/openssl/openssl/commit/7dfcee2cd2a63
+│                       │     │                  │      b2c64b9b4b0850be64cb695b0a0 
+│                       │     │                  ├ [4]: https://openssl-library.org/news/secadv/20240903.txt 
+│                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-6986-1 
+│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6119 
+│                       │     ├ PublishedDate   : 2024-09-03T16:15:07.177Z 
+│                       │     ╰ LastModifiedDate: 2024-09-03T21:35:12.987Z 
+│                       ├ [3] ╭ VulnerabilityID : CVE-2024-43790 
 │                       │     ├ PkgID           : vim@9.1.0678-r0 
 │                       │     ├ PkgName         : vim 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.1.0678-r0?arch=x86_64&distro=3.20.2 
@@ -45,7 +267,7 @@
 │                       │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-43790 
 │                       │     ├ PublishedDate   : 2024-08-22T22:15:05.317Z 
 │                       │     ╰ LastModifiedDate: 2024-08-23T16:18:28.547Z 
-│                       ├ [1] ╭ VulnerabilityID : CVE-2024-43802 
+│                       ├ [4] ╭ VulnerabilityID : CVE-2024-43802 
 │                       │     ├ PkgID           : vim@9.1.0678-r0 
 │                       │     ├ PkgName         : vim 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.1.0678-r0?arch=x86_64&distro=3.20.2 
@@ -97,7 +319,7 @@
 │                       │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-43802 
 │                       │     ├ PublishedDate   : 2024-08-26T19:15:07.943Z 
 │                       │     ╰ LastModifiedDate: 2024-08-27T13:02:05.683Z 
-│                       ├ [2] ╭ VulnerabilityID : CVE-2024-43790 
+│                       ├ [5] ╭ VulnerabilityID : CVE-2024-43790 
 │                       │     ├ PkgID           : vim-common@9.1.0678-r0 
 │                       │     ├ PkgName         : vim-common 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.1.0678-r0?arch=x86_64&dist
@@ -141,7 +363,7 @@
 │                       │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-43790 
 │                       │     ├ PublishedDate   : 2024-08-22T22:15:05.317Z 
 │                       │     ╰ LastModifiedDate: 2024-08-23T16:18:28.547Z 
-│                       ├ [3] ╭ VulnerabilityID : CVE-2024-43802 
+│                       ├ [6] ╭ VulnerabilityID : CVE-2024-43802 
 │                       │     ├ PkgID           : vim-common@9.1.0678-r0 
 │                       │     ├ PkgName         : vim-common 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.1.0678-r0?arch=x86_64&dist
@@ -194,7 +416,7 @@
 │                       │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-43802 
 │                       │     ├ PublishedDate   : 2024-08-26T19:15:07.943Z 
 │                       │     ╰ LastModifiedDate: 2024-08-27T13:02:05.683Z 
-│                       ├ [4] ╭ VulnerabilityID : CVE-2024-43790 
+│                       ├ [7] ╭ VulnerabilityID : CVE-2024-43790 
 │                       │     ├ PkgID           : xxd@9.1.0678-r0 
 │                       │     ├ PkgName         : xxd 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.1.0678-r0?arch=x86_64&distro=3.20.2 
@@ -237,7 +459,7 @@
 │                       │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-43790 
 │                       │     ├ PublishedDate   : 2024-08-22T22:15:05.317Z 
 │                       │     ╰ LastModifiedDate: 2024-08-23T16:18:28.547Z 
-│                       ╰ [5] ╭ VulnerabilityID : CVE-2024-43802 
+│                       ╰ [8] ╭ VulnerabilityID : CVE-2024-43802 
 │                             ├ PkgID           : xxd@9.1.0678-r0 
 │                             ├ PkgName         : xxd 
 │                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.1.0678-r0?arch=x86_64&distro=3.20.2 
@@ -292,7 +514,45 @@
 ├ [1] ╭ Target: Java 
 │     ├ Class : lang-pkgs 
 │     ╰ Type  : jar 
-╰ [2] ╭ Target: Python 
-      ├ Class : lang-pkgs 
-      ╰ Type  : python-pkg 
+╰ [2] ╭ Target         : Python 
+      ├ Class          : lang-pkgs 
+      ├ Type           : python-pkg 
+      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : GHSA-h4gh-qq45-vh27 
+                              ├ PkgName         : cryptography 
+                              ├ PkgPath         : opt/mitmproxy/lib/python3.12/site-packages/cryptography-43.0.
+                              │                   0.dist-info/METADATA 
+                              ├ PkgIdentifier    ╭ PURL: pkg:pypi/cryptography@43.0.0 
+                              │                  ╰ UID : 71956b7d3af70a96 
+                              ├ InstalledVersion: 43.0.0 
+                              ├ FixedVersion    : 43.0.1 
+                              ├ Status          : fixed 
+                              ├ Layer            ╭ Digest: sha256:392d1a12caab2c676c7eb1101602d51136ce2eb3c797b
+                              │                  │         f1eb41bc16bc571c5db 
+                              │                  ╰ DiffID: sha256:2a920f2cc7f2e7946faee2fe54222c7acf15f676d3777
+                              │                            6e2121f4778733f7e52 
+                              ├ SeveritySource  : ghsa 
+                              ├ PrimaryURL      : https://github.com/advisories/GHSA-h4gh-qq45-vh27 
+                              ├ DataSource       ╭ ID  : ghsa 
+                              │                  ├ Name: GitHub Security Advisory pip 
+                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+                              │                          osystem%3Apip 
+                              ├ Title           : pyca/cryptography has a vulnerable OpenSSL included in
+                              │                   cryptography wheels 
+                              ├ Description     : pyca/cryptography's wheels include a statically linked copy
+                              │                   of OpenSSL. The versions of OpenSSL included in cryptography
+                              │                   37.0.0-43.0.0 are vulnerable to a security issue. More
+                              │                   details about the vulnerability itself can be found in
+                              │                   https://openssl-library.org/news/secadv/20240903.txt.
+                              │                   
+                              │                   If you are building cryptography source ("sdist") then you
+                              │                   are responsible for upgrading your copy of OpenSSL. Only
+                              │                   users installing from wheels built by the cryptography
+                              │                   project (i.e., those distributed on PyPI) need to update
+                              │                   their cryptography versions. 
+                              ├ Severity        : MEDIUM 
+                              ├ VendorSeverity   ─ ghsa: 2 
+                              ╰ References       ╭ [0]: https://github.com/pyca/cryptography 
+                                                 ├ [1]: https://github.com/pyca/cryptography/security/advisorie
+                                                 │      s/GHSA-h4gh-qq45-vh27 
+                                                 ╰ [2]: https://openssl-library.org/news/secadv/20240903.txt 
 ````
