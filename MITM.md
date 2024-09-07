@@ -29,7 +29,7 @@ Common linux distributions ca certificates location:
 | RedHat-based | /etc/pki/tls/certs/ca-bundle.crt | /etc/pki/java/cacerts |
 | Debian-based | /etc/ssl/certs/ca-certificates.crt | /etc/ssl/certs/java/cacerts |
  
-You can retrieve these files using OpenAF's oJob _ojob.io/docker/expand_ to extract, append the _mitm_ certificate and then overwrite it on the image (using ojob.io/docker/collapse_ or a K8s config map or similar method).
+You can retrieve these files using OpenAF's oJob _ojob.io/docker/expand_ to extract, append the _mitm_ certificate and then overwrite it on the image (using _ojob.io/docker/collapse_ or a K8s config map or similar method).
 
 > You can append _/home/mitm/.mitmproxy/mitmproxy-ca-cert.pem_ to these ca certificates crt files.
 > For Java you need to use _key-tool_ or OpenAF's oJob _ojob.io/java/certs_. Depending on the image the cacerts file might be located in _[java home]/lib/security/cacerts_.
