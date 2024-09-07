@@ -24,7 +24,7 @@ export https_proxy=http://127.0.0.1:8080
 Common linux distributions ca certificates location:
 
 | Distribution | Location | Java Location |
-|--------------|----------|---------------d|
+|--------------|----------|---------------|
 | Alpine       | /etc/ssl/certs/ca-certificates.crt | /etc/ssl/certs/java/cacerts |
 | RedHat-based | /etc/pki/tls/certs/ca-bundle.crt | /etc/pki/java/cacerts |
 | Debian-based | /etc/ssl/certs/ca-certificates.crt | /etc/ssl/certs/java/cacerts |
