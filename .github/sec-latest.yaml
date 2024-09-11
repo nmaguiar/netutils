@@ -91,14 +91,10 @@
     - CWE-400
     VendorSeverity:
       azure: 3
-      bitnami: 3
       cbl-mariner: 3
       nvd: 3
       redhat: 1
     CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -380,14 +376,10 @@
     - CWE-400
     VendorSeverity:
       azure: 3
-      bitnami: 3
       cbl-mariner: 3
       nvd: 3
       redhat: 1
     CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -669,14 +661,10 @@
     - CWE-400
     VendorSeverity:
       azure: 3
-      bitnami: 3
       cbl-mariner: 3
       nvd: 3
       redhat: 1
     CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -958,14 +946,10 @@
     - CWE-400
     VendorSeverity:
       azure: 3
-      bitnami: 3
       cbl-mariner: 3
       nvd: 3
       redhat: 1
     CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
