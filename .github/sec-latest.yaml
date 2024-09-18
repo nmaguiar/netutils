@@ -174,12 +174,12 @@
     References:
     - http://python.org
     - https://access.redhat.com/articles/7051467
-    - https://access.redhat.com/errata/RHSA-2024:3062
+    - https://access.redhat.com/errata/RHSA-2024:2292
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
     - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
-    - https://errata.almalinux.org/8/ALSA-2024-3062.html
+    - https://errata.almalinux.org/9/ALSA-2024-2292.html
     - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
@@ -238,7 +238,7 @@
     CweIDs:
     - CWE-697
     VendorSeverity:
-      alma: 2
+      alma: 1
       bitnami: 3
       oracle-oval: 2
       photon: 1
@@ -253,13 +253,10 @@
         V3Score: 3.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/17/3
-    - https://access.redhat.com/errata/RHSA-2024:5962
+    - https://access.redhat.com/errata/RHSA-2024:4779
     - https://access.redhat.com/security/cve/CVE-2024-4032
     - https://bugzilla.redhat.com/2292921
-    - https://bugzilla.redhat.com/2297771
-    - https://bugzilla.redhat.com/2302255
-    - https://bugzilla.redhat.com/2307370
-    - https://errata.almalinux.org/8/ALSA-2024-5962.html
+    - https://errata.almalinux.org/9/ALSA-2024-4779.html
     - https://github.com/advisories/GHSA-mh6q-v4mp-2cc7
     - https://github.com/python/cpython/commit/22adf29da8d99933ffed8647d3e0726edd16f7f8
     - https://github.com/python/cpython/commit/40d75c2b7f5c67e254d0a025e0f2e2c7ada7f69f
@@ -475,12 +472,12 @@
     References:
     - http://python.org
     - https://access.redhat.com/articles/7051467
-    - https://access.redhat.com/errata/RHSA-2024:3062
+    - https://access.redhat.com/errata/RHSA-2024:2292
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
     - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
-    - https://errata.almalinux.org/8/ALSA-2024-3062.html
+    - https://errata.almalinux.org/9/ALSA-2024-2292.html
     - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
@@ -539,7 +536,7 @@
     CweIDs:
     - CWE-697
     VendorSeverity:
-      alma: 2
+      alma: 1
       bitnami: 3
       oracle-oval: 2
       photon: 1
@@ -554,13 +551,10 @@
         V3Score: 3.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/17/3
-    - https://access.redhat.com/errata/RHSA-2024:5962
+    - https://access.redhat.com/errata/RHSA-2024:4779
     - https://access.redhat.com/security/cve/CVE-2024-4032
     - https://bugzilla.redhat.com/2292921
-    - https://bugzilla.redhat.com/2297771
-    - https://bugzilla.redhat.com/2302255
-    - https://bugzilla.redhat.com/2307370
-    - https://errata.almalinux.org/8/ALSA-2024-5962.html
+    - https://errata.almalinux.org/9/ALSA-2024-4779.html
     - https://github.com/advisories/GHSA-mh6q-v4mp-2cc7
     - https://github.com/python/cpython/commit/22adf29da8d99933ffed8647d3e0726edd16f7f8
     - https://github.com/python/cpython/commit/40d75c2b7f5c67e254d0a025e0f2e2c7ada7f69f
@@ -776,12 +770,12 @@
     References:
     - http://python.org
     - https://access.redhat.com/articles/7051467
-    - https://access.redhat.com/errata/RHSA-2024:3062
+    - https://access.redhat.com/errata/RHSA-2024:2292
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
     - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
-    - https://errata.almalinux.org/8/ALSA-2024-3062.html
+    - https://errata.almalinux.org/9/ALSA-2024-2292.html
     - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
@@ -840,7 +834,7 @@
     CweIDs:
     - CWE-697
     VendorSeverity:
-      alma: 2
+      alma: 1
       bitnami: 3
       oracle-oval: 2
       photon: 1
@@ -855,13 +849,10 @@
         V3Score: 3.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/17/3
-    - https://access.redhat.com/errata/RHSA-2024:5962
+    - https://access.redhat.com/errata/RHSA-2024:4779
     - https://access.redhat.com/security/cve/CVE-2024-4032
     - https://bugzilla.redhat.com/2292921
-    - https://bugzilla.redhat.com/2297771
-    - https://bugzilla.redhat.com/2302255
-    - https://bugzilla.redhat.com/2307370
-    - https://errata.almalinux.org/8/ALSA-2024-5962.html
+    - https://errata.almalinux.org/9/ALSA-2024-4779.html
     - https://github.com/advisories/GHSA-mh6q-v4mp-2cc7
     - https://github.com/python/cpython/commit/22adf29da8d99933ffed8647d3e0726edd16f7f8
     - https://github.com/python/cpython/commit/40d75c2b7f5c67e254d0a025e0f2e2c7ada7f69f
@@ -1077,12 +1068,12 @@
     References:
     - http://python.org
     - https://access.redhat.com/articles/7051467
-    - https://access.redhat.com/errata/RHSA-2024:3062
+    - https://access.redhat.com/errata/RHSA-2024:2292
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
     - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
-    - https://errata.almalinux.org/8/ALSA-2024-3062.html
+    - https://errata.almalinux.org/9/ALSA-2024-2292.html
     - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
@@ -1141,7 +1132,7 @@
     CweIDs:
     - CWE-697
     VendorSeverity:
-      alma: 2
+      alma: 1
       bitnami: 3
       oracle-oval: 2
       photon: 1
@@ -1156,13 +1147,10 @@
         V3Score: 3.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/17/3
-    - https://access.redhat.com/errata/RHSA-2024:5962
+    - https://access.redhat.com/errata/RHSA-2024:4779
     - https://access.redhat.com/security/cve/CVE-2024-4032
     - https://bugzilla.redhat.com/2292921
-    - https://bugzilla.redhat.com/2297771
-    - https://bugzilla.redhat.com/2302255
-    - https://bugzilla.redhat.com/2307370
-    - https://errata.almalinux.org/8/ALSA-2024-5962.html
+    - https://errata.almalinux.org/9/ALSA-2024-4779.html
     - https://github.com/advisories/GHSA-mh6q-v4mp-2cc7
     - https://github.com/python/cpython/commit/22adf29da8d99933ffed8647d3e0726edd16f7f8
     - https://github.com/python/cpython/commit/40d75c2b7f5c67e254d0a025e0f2e2c7ada7f69f
