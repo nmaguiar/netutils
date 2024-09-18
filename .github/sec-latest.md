@@ -190,13 +190,13 @@
 │                       │      │                            ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://python.org 
 │                       │      │                  ├ [1] : https://access.redhat.com/articles/7051467 
-│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:3062 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:2292 
 │                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-27043 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2196183 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2196183 
 │                       │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       23-27043 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-3062.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2292.html 
 │                       │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:0256 
 │                       │      │                  ├ [9] : https://github.com/python/cpython/issues/102988 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/pull/102990 
@@ -300,7 +300,7 @@
 │                       │      │                    these registries and thus have the intended behavior. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-697 
-│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 1 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
@@ -313,44 +313,41 @@
 │                       │      │                            │           N/A:L 
 │                       │      │                            ╰ V3Score : 3.7 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/06/17/3 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:5962 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4779 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-4032 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2292921 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297771 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2302255 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2307370 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-5962.html 
-│                       │      │                  ├ [8] : https://github.com/advisories/GHSA-mh6q-v4mp-2cc7 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/22adf29da8d9
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2024-4779.html 
+│                       │      │                  ├ [5] : https://github.com/advisories/GHSA-mh6q-v4mp-2cc7 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/22adf29da8d9
 │                       │      │                  │       9933ffed8647d3e0726edd16f7f8 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/40d75c2b7f5c
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/40d75c2b7f5c
 │                       │      │                  │       67e254d0a025e0f2e2c7ada7f69f 
-│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/40d75c2b7f5c
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/40d75c2b7f5c
 │                       │      │                  │       67e254d0a025e0f2e2c7ada7f69f (3.13) 
-│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/895f7e2ac23e
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/895f7e2ac23e
 │                       │      │                  │       ff4743143beef0f0c5ac71ea27d3 
-│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/ba431579efdc
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/ba431579efdc
 │                       │      │                  │       baed7a96f2ac4ea0775879a332fb 
-│                       │      │                  ├ [14]: https://github.com/python/cpython/commit/c62c9e518b78
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/c62c9e518b78
 │                       │      │                  │       4fe44432a3f4fc265fb95b651906 
-│                       │      │                  ├ [15]: https://github.com/python/cpython/commit/f86b17ac511e
+│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/f86b17ac511e
 │                       │      │                  │       68192ba71f27e752321a3252cee3 
-│                       │      │                  ├ [16]: https://github.com/python/cpython/issues/113171 
-│                       │      │                  ├ [17]: https://github.com/python/cpython/pull/113179 
-│                       │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-4032.html 
-│                       │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-5962.html 
-│                       │      │                  ├ [20]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [13]: https://github.com/python/cpython/issues/113171 
+│                       │      │                  ├ [14]: https://github.com/python/cpython/pull/113179 
+│                       │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-4032.html 
+│                       │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-5962.html 
+│                       │      │                  ├ [17]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCKU3RZA
 │                       │      │                  │       / 
-│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
-│                       │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240726-00
+│                       │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
+│                       │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-20240726-00
 │                       │      │                  │       04/ 
-│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6928-1 
-│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6941-1 
-│                       │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
-│                       │      │                  ├ [26]: https://www.iana.org/assignments/iana-ipv4-special-re
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6928-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6941-1 
+│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
+│                       │      │                  ├ [23]: https://www.iana.org/assignments/iana-ipv4-special-re
 │                       │      │                  │       gistry/iana-ipv4-special-registry.xhtml 
-│                       │      │                  ╰ [27]: https://www.iana.org/assignments/iana-ipv6-special-re
+│                       │      │                  ╰ [24]: https://www.iana.org/assignments/iana-ipv6-special-re
 │                       │      │                          gistry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                       │      ╰ LastModifiedDate: 2024-08-29T21:35:11.017Z 
@@ -568,13 +565,13 @@
 │                       │      │                            ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://python.org 
 │                       │      │                  ├ [1] : https://access.redhat.com/articles/7051467 
-│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:3062 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:2292 
 │                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-27043 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2196183 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2196183 
 │                       │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       23-27043 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-3062.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2292.html 
 │                       │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:0256 
 │                       │      │                  ├ [9] : https://github.com/python/cpython/issues/102988 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/pull/102990 
@@ -679,7 +676,7 @@
 │                       │      │                    these registries and thus have the intended behavior. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-697 
-│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 1 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
@@ -692,44 +689,41 @@
 │                       │      │                            │           N/A:L 
 │                       │      │                            ╰ V3Score : 3.7 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/06/17/3 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:5962 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4779 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-4032 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2292921 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297771 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2302255 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2307370 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-5962.html 
-│                       │      │                  ├ [8] : https://github.com/advisories/GHSA-mh6q-v4mp-2cc7 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/22adf29da8d9
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2024-4779.html 
+│                       │      │                  ├ [5] : https://github.com/advisories/GHSA-mh6q-v4mp-2cc7 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/22adf29da8d9
 │                       │      │                  │       9933ffed8647d3e0726edd16f7f8 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/40d75c2b7f5c
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/40d75c2b7f5c
 │                       │      │                  │       67e254d0a025e0f2e2c7ada7f69f 
-│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/40d75c2b7f5c
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/40d75c2b7f5c
 │                       │      │                  │       67e254d0a025e0f2e2c7ada7f69f (3.13) 
-│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/895f7e2ac23e
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/895f7e2ac23e
 │                       │      │                  │       ff4743143beef0f0c5ac71ea27d3 
-│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/ba431579efdc
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/ba431579efdc
 │                       │      │                  │       baed7a96f2ac4ea0775879a332fb 
-│                       │      │                  ├ [14]: https://github.com/python/cpython/commit/c62c9e518b78
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/c62c9e518b78
 │                       │      │                  │       4fe44432a3f4fc265fb95b651906 
-│                       │      │                  ├ [15]: https://github.com/python/cpython/commit/f86b17ac511e
+│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/f86b17ac511e
 │                       │      │                  │       68192ba71f27e752321a3252cee3 
-│                       │      │                  ├ [16]: https://github.com/python/cpython/issues/113171 
-│                       │      │                  ├ [17]: https://github.com/python/cpython/pull/113179 
-│                       │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-4032.html 
-│                       │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-5962.html 
-│                       │      │                  ├ [20]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [13]: https://github.com/python/cpython/issues/113171 
+│                       │      │                  ├ [14]: https://github.com/python/cpython/pull/113179 
+│                       │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-4032.html 
+│                       │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-5962.html 
+│                       │      │                  ├ [17]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCKU3RZA
 │                       │      │                  │       / 
-│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
-│                       │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240726-00
+│                       │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
+│                       │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-20240726-00
 │                       │      │                  │       04/ 
-│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6928-1 
-│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6941-1 
-│                       │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
-│                       │      │                  ├ [26]: https://www.iana.org/assignments/iana-ipv4-special-re
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6928-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6941-1 
+│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
+│                       │      │                  ├ [23]: https://www.iana.org/assignments/iana-ipv4-special-re
 │                       │      │                  │       gistry/iana-ipv4-special-registry.xhtml 
-│                       │      │                  ╰ [27]: https://www.iana.org/assignments/iana-ipv6-special-re
+│                       │      │                  ╰ [24]: https://www.iana.org/assignments/iana-ipv6-special-re
 │                       │      │                          gistry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                       │      ╰ LastModifiedDate: 2024-08-29T21:35:11.017Z 
@@ -948,13 +942,13 @@
 │                       │      │                            ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://python.org 
 │                       │      │                  ├ [1] : https://access.redhat.com/articles/7051467 
-│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:3062 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:2292 
 │                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-27043 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2196183 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2196183 
 │                       │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       23-27043 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-3062.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2292.html 
 │                       │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:0256 
 │                       │      │                  ├ [9] : https://github.com/python/cpython/issues/102988 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/pull/102990 
@@ -1059,7 +1053,7 @@
 │                       │      │                    these registries and thus have the intended behavior. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-697 
-│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 1 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
@@ -1072,44 +1066,41 @@
 │                       │      │                            │           N/A:L 
 │                       │      │                            ╰ V3Score : 3.7 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/06/17/3 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:5962 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4779 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-4032 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2292921 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297771 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2302255 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2307370 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-5962.html 
-│                       │      │                  ├ [8] : https://github.com/advisories/GHSA-mh6q-v4mp-2cc7 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/22adf29da8d9
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2024-4779.html 
+│                       │      │                  ├ [5] : https://github.com/advisories/GHSA-mh6q-v4mp-2cc7 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/22adf29da8d9
 │                       │      │                  │       9933ffed8647d3e0726edd16f7f8 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/40d75c2b7f5c
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/40d75c2b7f5c
 │                       │      │                  │       67e254d0a025e0f2e2c7ada7f69f 
-│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/40d75c2b7f5c
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/40d75c2b7f5c
 │                       │      │                  │       67e254d0a025e0f2e2c7ada7f69f (3.13) 
-│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/895f7e2ac23e
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/895f7e2ac23e
 │                       │      │                  │       ff4743143beef0f0c5ac71ea27d3 
-│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/ba431579efdc
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/ba431579efdc
 │                       │      │                  │       baed7a96f2ac4ea0775879a332fb 
-│                       │      │                  ├ [14]: https://github.com/python/cpython/commit/c62c9e518b78
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/c62c9e518b78
 │                       │      │                  │       4fe44432a3f4fc265fb95b651906 
-│                       │      │                  ├ [15]: https://github.com/python/cpython/commit/f86b17ac511e
+│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/f86b17ac511e
 │                       │      │                  │       68192ba71f27e752321a3252cee3 
-│                       │      │                  ├ [16]: https://github.com/python/cpython/issues/113171 
-│                       │      │                  ├ [17]: https://github.com/python/cpython/pull/113179 
-│                       │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-4032.html 
-│                       │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-5962.html 
-│                       │      │                  ├ [20]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [13]: https://github.com/python/cpython/issues/113171 
+│                       │      │                  ├ [14]: https://github.com/python/cpython/pull/113179 
+│                       │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-4032.html 
+│                       │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-5962.html 
+│                       │      │                  ├ [17]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCKU3RZA
 │                       │      │                  │       / 
-│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
-│                       │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240726-00
+│                       │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
+│                       │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-20240726-00
 │                       │      │                  │       04/ 
-│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6928-1 
-│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6941-1 
-│                       │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
-│                       │      │                  ├ [26]: https://www.iana.org/assignments/iana-ipv4-special-re
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6928-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6941-1 
+│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
+│                       │      │                  ├ [23]: https://www.iana.org/assignments/iana-ipv4-special-re
 │                       │      │                  │       gistry/iana-ipv4-special-registry.xhtml 
-│                       │      │                  ╰ [27]: https://www.iana.org/assignments/iana-ipv6-special-re
+│                       │      │                  ╰ [24]: https://www.iana.org/assignments/iana-ipv6-special-re
 │                       │      │                          gistry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                       │      ╰ LastModifiedDate: 2024-08-29T21:35:11.017Z 
@@ -1328,13 +1319,13 @@
 │                       │      │                            ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://python.org 
 │                       │      │                  ├ [1] : https://access.redhat.com/articles/7051467 
-│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:3062 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:2292 
 │                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-27043 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2196183 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2196183 
 │                       │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       23-27043 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-3062.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2292.html 
 │                       │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:0256 
 │                       │      │                  ├ [9] : https://github.com/python/cpython/issues/102988 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/pull/102990 
@@ -1439,7 +1430,7 @@
 │                       │      │                    these registries and thus have the intended behavior. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-697 
-│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 1 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
@@ -1452,44 +1443,41 @@
 │                       │      │                            │           N/A:L 
 │                       │      │                            ╰ V3Score : 3.7 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/06/17/3 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:5962 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4779 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-4032 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2292921 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297771 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2302255 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2307370 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-5962.html 
-│                       │      │                  ├ [8] : https://github.com/advisories/GHSA-mh6q-v4mp-2cc7 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/22adf29da8d9
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2024-4779.html 
+│                       │      │                  ├ [5] : https://github.com/advisories/GHSA-mh6q-v4mp-2cc7 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/22adf29da8d9
 │                       │      │                  │       9933ffed8647d3e0726edd16f7f8 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/40d75c2b7f5c
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/40d75c2b7f5c
 │                       │      │                  │       67e254d0a025e0f2e2c7ada7f69f 
-│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/40d75c2b7f5c
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/40d75c2b7f5c
 │                       │      │                  │       67e254d0a025e0f2e2c7ada7f69f (3.13) 
-│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/895f7e2ac23e
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/895f7e2ac23e
 │                       │      │                  │       ff4743143beef0f0c5ac71ea27d3 
-│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/ba431579efdc
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/ba431579efdc
 │                       │      │                  │       baed7a96f2ac4ea0775879a332fb 
-│                       │      │                  ├ [14]: https://github.com/python/cpython/commit/c62c9e518b78
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/c62c9e518b78
 │                       │      │                  │       4fe44432a3f4fc265fb95b651906 
-│                       │      │                  ├ [15]: https://github.com/python/cpython/commit/f86b17ac511e
+│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/f86b17ac511e
 │                       │      │                  │       68192ba71f27e752321a3252cee3 
-│                       │      │                  ├ [16]: https://github.com/python/cpython/issues/113171 
-│                       │      │                  ├ [17]: https://github.com/python/cpython/pull/113179 
-│                       │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-4032.html 
-│                       │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-5962.html 
-│                       │      │                  ├ [20]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [13]: https://github.com/python/cpython/issues/113171 
+│                       │      │                  ├ [14]: https://github.com/python/cpython/pull/113179 
+│                       │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-4032.html 
+│                       │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-5962.html 
+│                       │      │                  ├ [17]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCKU3RZA
 │                       │      │                  │       / 
-│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
-│                       │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240726-00
+│                       │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
+│                       │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-20240726-00
 │                       │      │                  │       04/ 
-│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6928-1 
-│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6941-1 
-│                       │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
-│                       │      │                  ├ [26]: https://www.iana.org/assignments/iana-ipv4-special-re
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6928-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6941-1 
+│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
+│                       │      │                  ├ [23]: https://www.iana.org/assignments/iana-ipv4-special-re
 │                       │      │                  │       gistry/iana-ipv4-special-registry.xhtml 
-│                       │      │                  ╰ [27]: https://www.iana.org/assignments/iana-ipv6-special-re
+│                       │      │                  ╰ [24]: https://www.iana.org/assignments/iana-ipv6-special-re
 │                       │      │                          gistry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                       │      ╰ LastModifiedDate: 2024-08-29T21:35:11.017Z 
