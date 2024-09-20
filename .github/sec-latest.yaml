@@ -60,6 +60,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
     - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
     - https://www.cve.org/CVERecord?id=CVE-2024-6232
     PublishedDate: '2024-09-03T13:15:05.363Z'
     LastModifiedDate: '2024-09-04T21:15:14.48Z'
@@ -125,6 +126,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
     - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7592
     PublishedDate: '2024-08-19T19:15:08.18Z'
     LastModifiedDate: '2024-09-04T21:15:14.643Z'
@@ -358,6 +360,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
     - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
     - https://www.cve.org/CVERecord?id=CVE-2024-6232
     PublishedDate: '2024-09-03T13:15:05.363Z'
     LastModifiedDate: '2024-09-04T21:15:14.48Z'
@@ -423,6 +426,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
     - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7592
     PublishedDate: '2024-08-19T19:15:08.18Z'
     LastModifiedDate: '2024-09-04T21:15:14.643Z'
@@ -656,6 +660,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
     - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
     - https://www.cve.org/CVERecord?id=CVE-2024-6232
     PublishedDate: '2024-09-03T13:15:05.363Z'
     LastModifiedDate: '2024-09-04T21:15:14.48Z'
@@ -721,6 +726,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
     - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7592
     PublishedDate: '2024-08-19T19:15:08.18Z'
     LastModifiedDate: '2024-09-04T21:15:14.643Z'
@@ -954,6 +960,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
     - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
     - https://www.cve.org/CVERecord?id=CVE-2024-6232
     PublishedDate: '2024-09-03T13:15:05.363Z'
     LastModifiedDate: '2024-09-04T21:15:14.48Z'
@@ -1019,6 +1026,7 @@
     - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
     - https://ubuntu.com/security/notices/USN-7015-1
+    - https://ubuntu.com/security/notices/USN-7015-2
     - https://www.cve.org/CVERecord?id=CVE-2024-7592
     PublishedDate: '2024-08-19T19:15:08.18Z'
     LastModifiedDate: '2024-09-04T21:15:14.643Z'
