@@ -18,6 +18,13 @@ RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
  && /openaf/ojob ojob.io/get job=ojob.io/net/testHosts.yaml > /openaf/ojobs/testHosts.yaml\
  && /openaf/ojob ojob.io/get job=ojob.io/email/send.yaml > /openaf/ojobs/emailSend.yaml\
  && /openaf/ojob ojob.io/get job=ojob.io/ssh/tunnel.yaml > /openaf/ojobs/tunnel.yaml\
+ && /openaf/ojob ojob.io/get job=ojob.io/httpServers/EasyHTTPSd.yaml > /openaf/ojobs/EasyHTTPSd.yaml\
+ && /openaf/ojob ojob.io/get job=ojob.io/httpServers/EasyHTTPd.yaml > /openaf/ojobs/EasyHTTPd.yaml\
+ && /openaf/ojob ojob.io/get job=ojob.io/httpServers/EchoHTTPd.yaml > /openaf/ojobs/EchoHTTPd.yaml\
+ && /openaf/ojob ojob.io/get job=ojob.io/httpServers/MetricsHTTPd.yaml > /openaf/ojobs/MetricsHTTPd.yaml\
+ && /openaf/ojob ojob.io/get job=ojob.io/httpServers/RedirectHTTPd.yaml > /openaf/ojobs/RedirectHTTPd.yaml\
+ && /openaf/ojob ojob.io/get job=ojob.io/httpServers/uploadHTTPSd.yaml > /openaf/ojobs/uploadHTTPSd.yaml\
+ && /openaf/ojob ojob.io/get job=ojob.io/httpServers/uploadHTTPd.yaml > /openaf/ojobs/uploadHTTPd.yaml\
  && cd /openaf/ojobs\
  && /openaf/ojob ojob.io/get airgap=true job=ojob.io/grid/data/gc2\
  && mv ojob.io_grid_data_gc2.yaml javaGC.yaml\
@@ -33,6 +40,13 @@ RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
  && /openaf/oaf --sb /openaf/ojobs/emailSend.yaml\
  && /openaf/oaf --sb /openaf/ojobs/javaGC.yaml\
  && /openaf/oaf --sb /openaf/ojobs/tunnel.yaml\
+ && /openaf/oaf --sb /openaf/ojobs/EasyHTTPSd.yaml\
+ && /openaf/oaf --sb /openaf/ojobs/EasyHTTPd.yaml\
+ && /openaf/oaf --sb /openaf/ojobs/EchoHTTPd.yaml\
+ && /openaf/oaf --sb /openaf/ojobs/MetricsHTTPd.yaml\
+ && /openaf/oaf --sb /openaf/ojobs/RedirectHTTPd.yaml\
+ && /openaf/oaf --sb /openaf/ojobs/uploadHTTPSd.yaml\
+ && /openaf/oaf --sb /openaf/ojobs/uploadHTTPd.yaml\
  && chown -R openaf:0 /openaf\
  && chown openaf:0 /openaf/.opack.db\
  && chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
