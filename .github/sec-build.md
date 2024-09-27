@@ -17,10 +17,10 @@
                               ├ InstalledVersion: 43.0.0 
                               ├ FixedVersion    : 43.0.1 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:00506de8b973767c9805a716eae8fa8b335094951eea9
-                              │                  │         b7995b0fa68ded2e36c 
-                              │                  ╰ DiffID: sha256:b6df464d64e8ce9331341e51ab499295a6edd10a3ee01
-                              │                            f8fdb72b17757e47ad6 
+                              ├ Layer            ╭ Digest: sha256:7d2b42ac289850536696d084f933ebbad630308d1ee02
+                              │                  │         4f4fb3d39840bf29a8a 
+                              │                  ╰ DiffID: sha256:3028b4f6b01191d32749dc102760079183147e3a7a871
+                              │                            6e1a303fe4d20f88576 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://github.com/advisories/GHSA-h4gh-qq45-vh27 
                               ├ DataSource       ╭ ID  : ghsa 
