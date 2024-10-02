@@ -2,7 +2,7 @@ FROM alpine:edge
 
 RUN apk update\
  && apk upgrade\
- && apk add --no-cache python3 py3-pip gcc g++ musl-dev libffi-dev openssl-dev python3-dev cargo rust make linux-headers bsd-compat-headers build-base yaml-dev libc-dev yaml
+ && apk add --no-cache python3 py3-pip gcc g++ musl-dev libffi-dev openssl-dev python3-dev cargo rust make linux-headers bsd-compat-headers yaml-dev libc-dev yaml xxhash-dev gcompat
 
 RUN mkdir -p /opt/mitmproxy\
  && python3 -m venv /opt/mitmproxy\
