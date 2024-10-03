@@ -1,174 +1,172 @@
 ````yaml
-╭ [0] ╭ Target         : nmaguiar/netutils:latest (alpine 3.20.2) 
-│     ├ Class          : os-pkgs 
-│     ├ Type           : alpine 
-│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-8096 
-│                       │     ├ PkgID           : curl@8.9.1-r2 
-│                       │     ├ PkgName         : curl 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.9.1-r2?arch=x86_64&distro=3.20.2 
-│                       │     │                  ╰ UID : b82aab4b5d6d9514 
-│                       │     ├ InstalledVersion: 8.9.1-r2 
-│                       │     ├ FixedVersion    : 8.10.0-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:00506de8b973767c9805a716eae8fa8b335094951eea9
-│                       │     │                  │         b7995b0fa68ded2e36c 
-│                       │     │                  ╰ DiffID: sha256:b6df464d64e8ce9331341e51ab499295a6edd10a3ee01
-│                       │     │                            f8fdb72b17757e47ad6 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8096 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : curl: OCSP stapling bypass with GnuTLS 
-│                       │     ├ Description     : When curl is told to use the Certificate Status Request TLS
-│                       │     │                   extension, often referred to as OCSP stapling, to verify that
-│                       │     │                    the server certificate is valid, it might fail to detect
-│                       │     │                   some OCSP problems and instead wrongly consider the response
-│                       │     │                   as fine.  If the returned status reports another error than
-│                       │     │                   'revoked' (like for example 'unauthorized') it is not treated
-│                       │     │                    as a bad certficate. 
-│                       │     ├ Severity        : MEDIUM 
-│                       │     ├ CweIDs           ─ [0]: CWE-295 
-│                       │     ├ VendorSeverity   ╭ cbl-mariner: 2 
-│                       │     │                  ├ redhat     : 2 
-│                       │     │                  ╰ ubuntu     : 2 
-│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/
-│                       │     │                           │           A:N 
-│                       │     │                           ╰ V3Score : 6.5 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-8096 
-│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2024-8096.html 
-│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2024-8096.json 
-│                       │     │                  ├ [3]: https://hackerone.com/reports/2669852 
-│                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-8096 
-│                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-7012-1 
-│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-8096 
-│                       │     ├ PublishedDate   : 2024-09-11T10:15:02.883Z 
-│                       │     ╰ LastModifiedDate: 2024-09-11T16:26:11.92Z 
-│                       ├ [1] ╭ VulnerabilityID : CVE-2024-8096 
-│                       │     ├ PkgID           : curl-doc@8.9.1-r2 
-│                       │     ├ PkgName         : curl-doc 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.9.1-r2?arch=x86_64&distro=3.
-│                       │     │                  │       20.2 
-│                       │     │                  ╰ UID : c9b2fcc4654965a3 
-│                       │     ├ InstalledVersion: 8.9.1-r2 
-│                       │     ├ FixedVersion    : 8.10.0-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:00506de8b973767c9805a716eae8fa8b335094951eea9
-│                       │     │                  │         b7995b0fa68ded2e36c 
-│                       │     │                  ╰ DiffID: sha256:b6df464d64e8ce9331341e51ab499295a6edd10a3ee01
-│                       │     │                            f8fdb72b17757e47ad6 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8096 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : curl: OCSP stapling bypass with GnuTLS 
-│                       │     ├ Description     : When curl is told to use the Certificate Status Request TLS
-│                       │     │                   extension, often referred to as OCSP stapling, to verify that
-│                       │     │                    the server certificate is valid, it might fail to detect
-│                       │     │                   some OCSP problems and instead wrongly consider the response
-│                       │     │                   as fine.  If the returned status reports another error than
-│                       │     │                   'revoked' (like for example 'unauthorized') it is not treated
-│                       │     │                    as a bad certficate. 
-│                       │     ├ Severity        : MEDIUM 
-│                       │     ├ CweIDs           ─ [0]: CWE-295 
-│                       │     ├ VendorSeverity   ╭ cbl-mariner: 2 
-│                       │     │                  ├ redhat     : 2 
-│                       │     │                  ╰ ubuntu     : 2 
-│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/
-│                       │     │                           │           A:N 
-│                       │     │                           ╰ V3Score : 6.5 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-8096 
-│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2024-8096.html 
-│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2024-8096.json 
-│                       │     │                  ├ [3]: https://hackerone.com/reports/2669852 
-│                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-8096 
-│                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-7012-1 
-│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-8096 
-│                       │     ├ PublishedDate   : 2024-09-11T10:15:02.883Z 
-│                       │     ╰ LastModifiedDate: 2024-09-11T16:26:11.92Z 
-│                       ╰ [2] ╭ VulnerabilityID : CVE-2024-8096 
-│                             ├ PkgID           : libcurl@8.9.1-r2 
-│                             ├ PkgName         : libcurl 
-│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.9.1-r2?arch=x86_64&distro=3.2
-│                             │                  │       0.2 
-│                             │                  ╰ UID : 9e1e8ddef30cabc5 
-│                             ├ InstalledVersion: 8.9.1-r2 
-│                             ├ FixedVersion    : 8.10.0-r0 
-│                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:00506de8b973767c9805a716eae8fa8b335094951eea9
-│                             │                  │         b7995b0fa68ded2e36c 
-│                             │                  ╰ DiffID: sha256:b6df464d64e8ce9331341e51ab499295a6edd10a3ee01
-│                             │                            f8fdb72b17757e47ad6 
-│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8096 
-│                             ├ DataSource       ╭ ID  : alpine 
-│                             │                  ├ Name: Alpine Secdb 
-│                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Title           : curl: OCSP stapling bypass with GnuTLS 
-│                             ├ Description     : When curl is told to use the Certificate Status Request TLS
-│                             │                   extension, often referred to as OCSP stapling, to verify that
-│                             │                    the server certificate is valid, it might fail to detect
-│                             │                   some OCSP problems and instead wrongly consider the response
-│                             │                   as fine.  If the returned status reports another error than
-│                             │                   'revoked' (like for example 'unauthorized') it is not treated
-│                             │                    as a bad certficate. 
-│                             ├ Severity        : MEDIUM 
-│                             ├ CweIDs           ─ [0]: CWE-295 
-│                             ├ VendorSeverity   ╭ cbl-mariner: 2 
-│                             │                  ├ redhat     : 2 
-│                             │                  ╰ ubuntu     : 2 
-│                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/
-│                             │                           │           A:N 
-│                             │                           ╰ V3Score : 6.5 
-│                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-8096 
-│                             │                  ├ [1]: https://curl.se/docs/CVE-2024-8096.html 
-│                             │                  ├ [2]: https://curl.se/docs/CVE-2024-8096.json 
-│                             │                  ├ [3]: https://hackerone.com/reports/2669852 
-│                             │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-8096 
-│                             │                  ├ [5]: https://ubuntu.com/security/notices/USN-7012-1 
-│                             │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-8096 
-│                             ├ PublishedDate   : 2024-09-11T10:15:02.883Z 
-│                             ╰ LastModifiedDate: 2024-09-11T16:26:11.92Z 
-├ [1] ╭ Target: Java 
-│     ├ Class : lang-pkgs 
-│     ╰ Type  : jar 
-╰ [2] ╭ Target         : Python 
-      ├ Class          : lang-pkgs 
-      ├ Type           : python-pkg 
-      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : GHSA-h4gh-qq45-vh27 
-                              ├ PkgName         : cryptography 
-                              ├ PkgPath         : opt/mitmproxy/lib/python3.12/site-packages/cryptography-43.0.
-                              │                   0.dist-info/METADATA 
-                              ├ PkgIdentifier    ╭ PURL: pkg:pypi/cryptography@43.0.0 
-                              │                  ╰ UID : 71956b7d3af70a96 
-                              ├ InstalledVersion: 43.0.0 
-                              ├ FixedVersion    : 43.0.1 
-                              ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:00506de8b973767c9805a716eae8fa8b335094951eea9
-                              │                  │         b7995b0fa68ded2e36c 
-                              │                  ╰ DiffID: sha256:b6df464d64e8ce9331341e51ab499295a6edd10a3ee01
-                              │                            f8fdb72b17757e47ad6 
-                              ├ SeveritySource  : ghsa 
-                              ├ PrimaryURL      : https://github.com/advisories/GHSA-h4gh-qq45-vh27 
-                              ├ DataSource       ╭ ID  : ghsa 
-                              │                  ├ Name: GitHub Security Advisory pip 
-                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
-                              │                          osystem%3Apip 
-                              ├ Title           : pyca/cryptography has a vulnerable OpenSSL included in
-                              │                   cryptography wheels 
-                              ├ Description     : pyca/cryptography's wheels include a statically linked copy
-                              │                   of OpenSSL. The versions of OpenSSL included in cryptography
-                              │                   37.0.0-43.0.0 are vulnerable to a security issue. More
-                              │                   details about the vulnerability itself can be found in
-                              │                   https://openssl-library.org/news/secadv/20240903.txt.
-                              │                   
-                              │                   If you are building cryptography source ("sdist") then you
-                              │                   are responsible for upgrading your copy of OpenSSL. Only
-                              │                   users installing from wheels built by the cryptography
-                              │                   project (i.e., those distributed on PyPI) need to update
-                              │                   their cryptography versions. 
-                              ├ Severity        : MEDIUM 
-                              ├ VendorSeverity   ─ ghsa: 2 
-                              ╰ References       ╭ [0]: https://github.com/pyca/cryptography 
-                                                 ├ [1]: https://github.com/pyca/cryptography/security/advisorie
-                                                 │      s/GHSA-h4gh-qq45-vh27 
-                                                 ╰ [2]: https://openssl-library.org/news/secadv/20240903.txt 
+╭ stdout   
+├ stderr  : latest: Pulling from aquasec/trivy
+│           43c4264eed91: Already exists
+│           a614f65bf3d4: Pulling fs layer
+│           b3805e8267bc: Pulling fs layer
+│           da758d7eb143: Pulling fs layer
+│           da758d7eb143: Verifying Checksum
+│           a614f65bf3d4: Download complete
+│           b3805e8267bc: Verifying Checksum
+│           b3805e8267bc: Download complete
+│           a614f65bf3d4: Pull complete
+│           b3805e8267bc: Pull complete
+│           da758d7eb143: Pull complete
+│           Digest: sha256:e682a9f8db9db6f09731fe2f63e4234d240ec67a811d90974b5af3d40497f843
+│           Status: Downloaded newer image for aquasec/trivy:latest
+│           2024-10-03T07:13:30Z	INFO	[vulndb] Need to update DB
+│           2024-10-03T07:13:30Z	INFO	[vulndb] Downloading vulnerability DB...
+│           2024-10-03T07:13:30Z	INFO	[vulndb] Downloading artifact...	repo="ghcr.io/aquasecurity/trivy-db:2"
+│           53.95 MiB / 53.95 MiB [----------------------------------------------------------->] 100.00% ? p/s
+│           ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->] 100.00% ? p/s
+│            ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->] 100.00% ?
+│           p/s ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->] 100.00% ?
+│            p/s ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->] 100.00%
+│           ? p/s ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->] 100.00%
+│            ? p/s ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->]
+│           100.00% ? p/s ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->]
+│            100.00% ? p/s ?53.95 MiB / 53.95 MiB [-------------------------------------------------] 100.00%
+│           34.40 MiB p/s 1.8s2024-10-03T07:13:32Z	INFO	[vulndb] Artifact successfully
+│           downloaded	repo="ghcr.io/aquasecurity/trivy-db:2"
+│           2024-10-03T07:13:32Z	INFO	[vuln] Vulnerability scanning is enabled
+│           2024-10-03T07:13:32Z	INFO	[secret] Secret scanning is enabled
+│           2024-10-03T07:13:32Z	INFO	[secret] If your scanning is slow, please try '--scanners vuln' to
+│           disable secret scanning
+│           2024-10-03T07:13:32Z	INFO	[secret] Please see also
+│           https://aquasecurity.github.io/trivy/v0.56/docs/scanner/secret#recommendation for faster secret
+│           detection
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="Brotli" version="1.1.0"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="MarkupSafe" version="2.1.5"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="aioquic" version="1.2.0"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="asgiref" version="3.8.1"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="certifi" version="2024.7.4"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="cffi" version="1.17.0"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="click" version="8.1.7"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="cryptography" version="43.0.0"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="h11" version="0.14.0"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="h2" version="4.1.0"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="hpack" version="4.0.0"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="hyperframe" version="6.0.1"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="kaitaistruct" version="0.10"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="ldap3" version="2.9.1"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="mitmproxy" version="10.4.2"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="msgpack" version="1.0.8"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="pip" version="24.2"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="publicsuffix2" version="2.20191221"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="pyOpenSSL" version="24.2.1"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="pyasn1" version="0.6.0"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="pyasn1_modules" version="0.4.0"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="pycparser" version="2.22"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="pylsqpack" version="0.3.18"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="pyperclip" version="1.9.0"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="ruamel.yaml" version="0.17.33"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="sortedcontainers" version="2.4.0"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="tornado" version="6.4.1"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="urwid" version="2.6.15"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="wcwidth" version="0.2.13"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="wsproto" version="1.2.0"
+│           2024-10-03T07:13:48Z	INFO	[python] License acquired from METADATA classifiers may be subject to
+│           additional terms	name="zstandard" version="0.23.0"
+│           2024-10-03T07:13:48Z	INFO	[javadb] Downloading Java DB...
+│           2024-10-03T07:13:48Z	INFO	[javadb] Downloading
+│           artifact...	repo="ghcr.io/aquasecurity/trivy-java-db:1"
+│           58.32 MiB / 649.13 MiB [----->_______________________________________________________] 8.98% ? p/s
+│           ?123.65 MiB / 649.13 MiB [----------->_______________________________________________] 19.05% ? p/s
+│            ?192.72 MiB / 649.13 MiB [----------------->_________________________________________] 29.69% ?
+│           p/s ?258.32 MiB / 649.13 MiB [----------------->___________________________] 39.80% 333.01 MiB p/s
+│           ETA 1s324.89 MiB / 649.13 MiB [---------------------->______________________] 50.05% 333.01 MiB p/s
+│            ETA 0s389.14 MiB / 649.13 MiB [-------------------------->__________________] 59.95% 333.01 MiB
+│           p/s ETA 0s453.97 MiB / 649.13 MiB [------------------------------->_____________] 69.93% 332.58 MiB
+│            p/s ETA 0s522.04 MiB / 649.13 MiB [------------------------------------>________] 80.42% 332.58
+│           MiB p/s ETA 0s589.11 MiB / 649.13 MiB [---------------------------------------->____] 90.75% 332.58
+│            MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00%
+│           332.09 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00%
+│            332.09 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->]
+│           100.00% 332.09 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->]
+│            100.00% 310.66 MiB p/s ETA 0s649.13 MiB / 649.13 MiB
+│           [------------------------------------------->] 100.00% 310.66 MiB p/s ETA 0s649.13 MiB / 649.13 MiB
+│            [------------------------------------------->] 100.00% 310.66 MiB p/s ETA 0s649.13 MiB / 649.13
+│           MiB [------------------------------------------->] 100.00% 290.62 MiB p/s ETA 0s649.13 MiB / 649.13
+│            MiB [------------------------------------------->] 100.00% 290.62 MiB p/s ETA 0s649.13 MiB /
+│           649.13 MiB [------------------------------------------->] 100.00% 290.62 MiB p/s ETA 0s649.13 MiB /
+│            649.13 MiB [------------------------------------------->] 100.00% 271.87 MiB p/s ETA 0s649.13 MiB
+│           / 649.13 MiB [------------------------------------------->] 100.00% 271.87 MiB p/s ETA 0s649.13 MiB
+│            / 649.13 MiB [------------------------------------------->] 100.00% 271.87 MiB p/s ETA 0s649.13
+│           MiB / 649.13 MiB [------------------------------------------->] 100.00% 254.33 MiB p/s ETA 0s649.13
+│            MiB / 649.13 MiB [------------------------------------------->] 100.00% 254.33 MiB p/s ETA
+│           0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 254.33 MiB p/s ETA
+│            0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 237.92 MiB p/s
+│           ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 237.92 MiB p/s
+│            ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 237.92 MiB
+│           p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 222.57 MiB
+│            p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 222.57
+│           MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 222.57
+│            MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00%
+│           208.21 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00%
+│            208.21 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->]
+│           100.00% 208.21 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->]
+│            100.00% 194.78 MiB p/s ETA 0s649.13 MiB / 649.13 MiB
+│           [------------------------------------------->] 100.00% 194.78 MiB p/s ETA 0s649.13 MiB / 649.13 MiB
+│            [------------------------------------------->] 100.00% 194.78 MiB p/s ETA 0s649.13 MiB / 649.13
+│           MiB [------------------------------------------->] 100.00% 182.21 MiB p/s ETA 0s649.13 MiB / 649.13
+│            MiB [------------------------------------------->] 100.00% 182.21 MiB p/s ETA 0s649.13 MiB /
+│           649.13 MiB [------------------------------------------->] 100.00% 182.21 MiB p/s ETA 0s649.13 MiB /
+│            649.13 MiB [------------------------------------------->] 100.00% 170.46 MiB p/s ETA 0s649.13 MiB
+│           / 649.13 MiB [------------------------------------------->] 100.00% 170.46 MiB p/s ETA 0s649.13 MiB
+│            / 649.13 MiB [------------------------------------------->] 100.00% 170.46 MiB p/s ETA 0s649.13
+│           MiB / 649.13 MiB [------------------------------------------->] 100.00% 159.46 MiB p/s ETA 0s649.13
+│            MiB / 649.13 MiB [------------------------------------------->] 100.00% 159.46 MiB p/s ETA
+│           0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 159.46 MiB p/s ETA
+│            0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 149.17 MiB p/s
+│           ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 149.17 MiB p/s
+│            ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 149.17 MiB
+│           p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 139.55 MiB
+│            p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 139.55
+│           MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 139.55
+│            MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00%
+│           130.54 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00%
+│            130.54 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->]
+│           100.00% 130.54 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->]
+│            100.00% 122.12 MiB p/s ETA 0s649.13 MiB / 649.13 MiB
+│           [------------------------------------------->] 100.00% 122.12 MiB p/s ETA 0s649.13 MiB / 649.13 MiB
+│            [------------------------------------------------] 100.00% 58.54 MiB p/s
+│           11s2024-10-03T07:14:00Z	INFO	[javadb] Artifact successfully
+│           downloaded	repo="ghcr.io/aquasecurity/trivy-java-db:1"
+│           2024-10-03T07:14:00Z	FATAL	Fatal error	image scan error: scan error: scan failed: failed analysis:
+│           analyze error: pipeline error: failed to analyze layer
+│           (sha256:b6df464d64e8ce9331341e51ab499295a6edd10a3ee01f8fdb72b17757e47ad6): post analysis error:
+│           post analysis error: Unable to initialize the Java DB: Java DB update failed: OCI artifact error:
+│           failed to download Java DB from any source 
+├ exitcode: 1 
+╰ cmd     : docker run --pull always --rm  aquasec/trivy -f json  image nmaguiar/netutils:latest 
 ````
