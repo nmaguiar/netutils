@@ -85,11 +85,21 @@ Host network:
 | nmap | Network discovery and security auditing. |  |
 | nsenter | Run a program in different namespaces. |  |
 | nstat | Displaying network statistics and performance metrics. |  |
+| ojob EasyHTTPSd.yaml | Starts a very simple HTTPS server on the provided port with a simple file browser | |
+| ojob EasyHTTPd.yaml | Starts a very simple HTTP server on the provided port with a simple file browser | |
+| ojob EchoHTTPd.yaml | Creates a quick echo server for testing that will output the request received and send as plain text back to the sender. | |
+| ojob MetricsHTTPd.yaml | Creates a quick echo server for testing, with /metrics, that will output the request received and send as plain text back to the sender. | |
+| ojob doh.yaml | Tries to retrieve DNS over HTTPs information. | |
+| ojob emailSend.yaml | Sends an email | |
+| ojob javaGC.yaml | Shows basic Java GC information | |
 | ojob jdbc.yaml | Tries to reach a database through a JDBC driver and measure the round-trip. | |
 | ojob publicIP.yaml | Provides public IP information from the current internet connection or a provided ip address. | |
-| ojob socksProxy.yaml | Provides a SOCKS proxy (equivalent to nmaguiar/socksd) | |e
+| ojob socksProxy.yaml | Provides a SOCKS proxy (equivalent to nmaguiar/socksd) | |
 | ojob sslDates.yaml | Get a HTTPS host SSL certificate dates. | | 
 | ojob testHosts.yaml | Test one or more hosts through ICMP (ping) and/or socket test. | |
+| ojob tunnel.yaml | Establishes a SSH tunnel to a remote server. | |
+| ojob uploadHTTPSd.yaml | Starts a very simple HTTPS server on the provided port for file upload | |
+| ojob uploadHTTPd.yaml | Starts a very simple HTTP server on the provided port for file upload | |
 | openaf | A 'swiss-army knife' devops tool & runtime. |  |
 | pidstat | Provides detailed statistics about processes and threads. Particularly useful for monitoring system performance and identifying performance bottlenecks. |  |
 | ping | Testing the reachability of a host on a network. |  |
