@@ -10,6 +10,7 @@ List of examples:
 | Performance | Network performance between two points |
 | Performance | Connectivity to a database via JDBC |
 | Test | Test TCP port reachability and/or ping |
+| Test | Start an echo web server |
 
 > To search for a specific example type '/Network performance<ENTER>' and use the arrow keys to navigate
 
@@ -105,6 +106,18 @@ You can also check a more complete dashboard with:
 ```bash
 javaGC.yaml file=/proc/12/root/tmp/hsperfdata_myuser/12
 ```
+
+---
+
+## 🪃  Start an echo web server
+
+You can start an echo web server to repeat whatever requests it receives. Every request will be logged and also sent back as a reply. To start just execute:
+
+```bash
+EchoHTTPd.yaml port=8080
+```
+
+> You can start it directly by executing ```docker run --rm -p 8080:8080 nmaguiar/netutils EchoHTTPd.yaml port=8080```
 
 ---
 
