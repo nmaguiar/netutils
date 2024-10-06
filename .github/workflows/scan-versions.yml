@@ -14,7 +14,7 @@ jobs:
     name       : Scan version
     steps      :
     - uses: actions/checkout@v4
-      name: Checkoout
+      name: Checkout
 
     - name: Cache OpenAF runtime
       uses: actions/cache@v3
