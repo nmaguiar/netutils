@@ -1,4 +1,4 @@
-FROM openaf/oaf:nigthly as main
+FROM openaf/oaf:nightly as main
 
 USER root
 RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
