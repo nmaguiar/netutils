@@ -8,15 +8,15 @@
 │     ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2024-6763 
 │                             ├ PkgName         : org.eclipse.jetty:jetty-http 
 │                             ├ PkgPath         : openaf/openaf.jar 
-│                             ├ PkgIdentifier    ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-http@9.4.56.v20240826 
-│                             │                  ╰ UID : 16a78109ae818b93 
-│                             ├ InstalledVersion: 9.4.56.v20240826 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-http@9.4.55.v20240627 
+│                             │                  ╰ UID : f7c6df4b894e0ce 
+│                             ├ InstalledVersion: 9.4.55.v20240627 
 │                             ├ FixedVersion    : 12.0.12 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:985d2bfdf579c970c8c28c9b176973b6283112d9d5bc7
-│                             │                  │         58a909b04f050eefe2a 
-│                             │                  ╰ DiffID: sha256:f8c7019ebbfd1bb72ffb6df70e02b15299637a560dcaf
-│                             │                            4666b3b16ef3e47a391 
+│                             ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac0
+│                             │                  │         be5e2911554c5b051dd 
+│                             │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575d
+│                             │                            684c92cd808f179b657 
 │                             ├ SeveritySource  : ghsa 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6763 
 │                             ├ DataSource       ╭ ID  : ghsa 
