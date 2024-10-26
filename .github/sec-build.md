@@ -49,7 +49,8 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
 │                       │     │                  ├ oracle-oval: 2 
-│                       │     │                  ╰ redhat     : 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 4.8 
@@ -60,7 +61,7 @@
 │                       │     │                  ├ [4] : https://bugzilla.redhat.com/2318526 
 │                       │     │                  ├ [5] : https://bugzilla.redhat.com/2318530 
 │                       │     │                  ├ [6] : https://bugzilla.redhat.com/2318534 
-│                       │     │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │     │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21235.html 
 │                       │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-8127.html 
 │                       │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21235 
@@ -112,7 +113,8 @@
 │                       │     ├ Severity        : LOW 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
 │                       │     │                  ├ oracle-oval: 2 
-│                       │     │                  ╰ redhat     : 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ ubuntu     : 1 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
 │                       │     │                           │           A:L 
 │                       │     │                           ╰ V3Score : 3.7 
@@ -123,7 +125,7 @@
 │                       │     │                  ├ [4] : https://bugzilla.redhat.com/2318526 
 │                       │     │                  ├ [5] : https://bugzilla.redhat.com/2318530 
 │                       │     │                  ├ [6] : https://bugzilla.redhat.com/2318534 
-│                       │     │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │     │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21208.html 
 │                       │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-8127.html 
 │                       │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21208 
@@ -169,7 +171,8 @@
 │                       │     ├ Severity        : LOW 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
 │                       │     │                  ├ oracle-oval: 2 
-│                       │     │                  ╰ redhat     : 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ ubuntu     : 1 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 3.7 
@@ -180,7 +183,7 @@
 │                       │     │                  ├ [4] : https://bugzilla.redhat.com/2318526 
 │                       │     │                  ├ [5] : https://bugzilla.redhat.com/2318530 
 │                       │     │                  ├ [6] : https://bugzilla.redhat.com/2318534 
-│                       │     │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │     │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21210.html 
 │                       │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-8127.html 
 │                       │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21210 
@@ -284,7 +287,8 @@
 │                       │     ├ Severity        : LOW 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
 │                       │     │                  ├ oracle-oval: 2 
-│                       │     │                  ╰ redhat     : 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ ubuntu     : 1 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
 │                       │     │                           │           A:L 
 │                       │     │                           ╰ V3Score : 3.7 
@@ -295,7 +299,7 @@
 │                       │     │                  ├ [4] : https://bugzilla.redhat.com/2318526 
 │                       │     │                  ├ [5] : https://bugzilla.redhat.com/2318530 
 │                       │     │                  ├ [6] : https://bugzilla.redhat.com/2318534 
-│                       │     │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │     │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21217.html 
 │                       │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-8127.html 
 │                       │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21217 
@@ -350,7 +354,8 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
 │                       │     │                  ├ oracle-oval: 2 
-│                       │     │                  ╰ redhat     : 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 4.8 
@@ -361,7 +366,7 @@
 │                       │     │                  ├ [4] : https://bugzilla.redhat.com/2318526 
 │                       │     │                  ├ [5] : https://bugzilla.redhat.com/2318530 
 │                       │     │                  ├ [6] : https://bugzilla.redhat.com/2318534 
-│                       │     │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │     │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21235.html 
 │                       │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-8127.html 
 │                       │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21235 
@@ -413,7 +418,8 @@
 │                       │     ├ Severity        : LOW 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
 │                       │     │                  ├ oracle-oval: 2 
-│                       │     │                  ╰ redhat     : 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ ubuntu     : 1 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
 │                       │     │                           │           A:L 
 │                       │     │                           ╰ V3Score : 3.7 
@@ -424,7 +430,7 @@
 │                       │     │                  ├ [4] : https://bugzilla.redhat.com/2318526 
 │                       │     │                  ├ [5] : https://bugzilla.redhat.com/2318530 
 │                       │     │                  ├ [6] : https://bugzilla.redhat.com/2318534 
-│                       │     │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │     │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21208.html 
 │                       │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-8127.html 
 │                       │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21208 
@@ -470,7 +476,8 @@
 │                       │     ├ Severity        : LOW 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
 │                       │     │                  ├ oracle-oval: 2 
-│                       │     │                  ╰ redhat     : 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ ubuntu     : 1 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 3.7 
@@ -481,7 +488,7 @@
 │                       │     │                  ├ [4] : https://bugzilla.redhat.com/2318526 
 │                       │     │                  ├ [5] : https://bugzilla.redhat.com/2318530 
 │                       │     │                  ├ [6] : https://bugzilla.redhat.com/2318534 
-│                       │     │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │     │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21210.html 
 │                       │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-8127.html 
 │                       │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21210 
@@ -585,7 +592,8 @@
 │                             ├ Severity        : LOW 
 │                             ├ VendorSeverity   ╭ alma       : 2 
 │                             │                  ├ oracle-oval: 2 
-│                             │                  ╰ redhat     : 2 
+│                             │                  ├ redhat     : 2 
+│                             │                  ╰ ubuntu     : 1 
 │                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
 │                             │                           │           A:L 
 │                             │                           ╰ V3Score : 3.7 
@@ -596,7 +604,7 @@
 │                             │                  ├ [4] : https://bugzilla.redhat.com/2318526 
 │                             │                  ├ [5] : https://bugzilla.redhat.com/2318530 
 │                             │                  ├ [6] : https://bugzilla.redhat.com/2318534 
-│                             │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                             │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                             │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21217.html 
 │                             │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-8127.html 
 │                             │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21217 
@@ -666,7 +674,108 @@
 │                             │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6763 
 │                             ├ PublishedDate   : 2024-10-14T16:15:04.163Z 
 │                             ╰ LastModifiedDate: 2024-10-15T12:57:46.88Z 
-╰ [2] ╭ Target: Python 
-      ├ Class : lang-pkgs 
-      ╰ Type  : python-pkg 
+╰ [2] ╭ Target         : Python 
+      ├ Class          : lang-pkgs 
+      ├ Type           : python-pkg 
+      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-49766 
+                        │     ├ PkgName         : Werkzeug 
+                        │     ├ PkgPath         : opt/mitmproxy/lib/python3.12/site-packages/werkzeug-3.0.4.dis
+                        │     │                   t-info/METADATA 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:pypi/werkzeug@3.0.4 
+                        │     │                  ╰ UID : 4f3794170a33ab73 
+                        │     ├ InstalledVersion: 3.0.4 
+                        │     ├ FixedVersion    : 3.0.6 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:dd2a1f0f10538fb5b1fd2b9ebdc1375cd3cd6d26d23d9
+                        │     │                  │         2944e03bbd37af8eb3e 
+                        │     │                  ╰ DiffID: sha256:145472c607c610027f2d2516965a0be311023bc60292f
+                        │     │                            427d3b119e2f06ce20a 
+                        │     ├ SeveritySource  : ghsa 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-49766 
+                        │     ├ DataSource       ╭ ID  : ghsa 
+                        │     │                  ├ Name: GitHub Security Advisory pip 
+                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+                        │     │                          osystem%3Apip 
+                        │     ├ Title           : werkzeug: python-werkzeug: Werkzeug safe_join not safe on
+                        │     │                   Windows 
+                        │     ├ Description     : Werkzeug is a Web Server Gateway Interface web application
+                        │     │                   library. On Python < 3.11 on Windows, os.path.isabs() does
+                        │     │                   not catch UNC paths like //server/share. Werkzeug's
+                        │     │                   safe_join() relies on this check, and so can produce a path
+                        │     │                   that is not safe, potentially allowing unintended access to
+                        │     │                   data. Applications using Python >= 3.11, or not using
+                        │     │                   Windows, are not vulnerable. Werkzeug version 3.0.6 contains
+                        │     │                   a patch. 
+                        │     ├ Severity        : MEDIUM 
+                        │     ├ CweIDs           ─ [0]: CWE-22 
+                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+                        │     │                  ╰ redhat: 2 
+                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/
+                        │     │                           │           A:N 
+                        │     │                           ╰ V3Score : 3.7 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-49766 
+                        │     │                  ├ [1]: https://github.com/pallets/werkzeug 
+                        │     │                  ├ [2]: https://github.com/pallets/werkzeug/commit/2767bcb10a7d
+                        │     │                  │      d1c297d812cc5e6d11a474c1f092 
+                        │     │                  ├ [3]: https://github.com/pallets/werkzeug/releases/tag/3.0.6 
+                        │     │                  ├ [4]: https://github.com/pallets/werkzeug/security/advisories
+                        │     │                  │      /GHSA-f9vj-2wh5-fj8j 
+                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-49766 
+                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-49766 
+                        │     ├ PublishedDate   : 2024-10-25T20:15:04.41Z 
+                        │     ╰ LastModifiedDate: 2024-10-25T20:15:04.41Z 
+                        ╰ [1] ╭ VulnerabilityID : CVE-2024-49767 
+                              ├ PkgName         : Werkzeug 
+                              ├ PkgPath         : opt/mitmproxy/lib/python3.12/site-packages/werkzeug-3.0.4.dis
+                              │                   t-info/METADATA 
+                              ├ PkgIdentifier    ╭ PURL: pkg:pypi/werkzeug@3.0.4 
+                              │                  ╰ UID : 4f3794170a33ab73 
+                              ├ InstalledVersion: 3.0.4 
+                              ├ FixedVersion    : 3.0.6 
+                              ├ Status          : fixed 
+                              ├ Layer            ╭ Digest: sha256:dd2a1f0f10538fb5b1fd2b9ebdc1375cd3cd6d26d23d9
+                              │                  │         2944e03bbd37af8eb3e 
+                              │                  ╰ DiffID: sha256:145472c607c610027f2d2516965a0be311023bc60292f
+                              │                            427d3b119e2f06ce20a 
+                              ├ SeveritySource  : ghsa 
+                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-49767 
+                              ├ DataSource       ╭ ID  : ghsa 
+                              │                  ├ Name: GitHub Security Advisory pip 
+                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+                              │                          osystem%3Apip 
+                              ├ Title           : werkzeug: python-werkzeug: Werkzeug possible resource
+                              │                   exhaustion when parsing file data in forms 
+                              ├ Description     : Werkzeug is a Web Server Gateway Interface web application
+                              │                   library. Applications using
+                              │                   `werkzeug.formparser.MultiPartParser` corresponding to a
+                              │                   version of Werkzeug prior to 3.0.6 to parse
+                              │                   `multipart/form-data` requests (e.g. all flask applications)
+                              │                   are vulnerable to a relatively simple but effective resource
+                              │                   exhaustion (denial of service) attack. A specifically crafted
+                              │                    form submission request can cause the parser to allocate and
+                              │                    block 3 to 8 times the upload size in main memory. There is
+                              │                   no upper limit; a single upload at 1 Gbit/s can exhaust 32 GB
+                              │                    of RAM in less than 60 seconds. Werkzeug version 3.0.6 fixes
+                              │                    this issue. 
+                              ├ Severity        : MEDIUM 
+                              ├ CweIDs           ╭ [0]: CWE-400 
+                              │                  ╰ [1]: CWE-770 
+                              ├ VendorSeverity   ╭ ghsa  : 2 
+                              │                  ╰ redhat: 2 
+                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+                              │                           │           A:L 
+                              │                           ╰ V3Score : 5.3 
+                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-49767 
+                              │                  ├ [1]: https://github.com/pallets/quart/commit/5e78c4169b8eb66
+                              │                  │      b91ead3e62d44721b9e1644ee 
+                              │                  ├ [2]: https://github.com/pallets/werkzeug 
+                              │                  ├ [3]: https://github.com/pallets/werkzeug/commit/50cfeebcb072
+                              │                  │      7e18cc52ffbeb125f4a66551179b 
+                              │                  ├ [4]: https://github.com/pallets/werkzeug/releases/tag/3.0.6 
+                              │                  ├ [5]: https://github.com/pallets/werkzeug/security/advisories
+                              │                  │      /GHSA-q34m-jh98-gwm2 
+                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-49767 
+                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-49767 
+                              ├ PublishedDate   : 2024-10-25T20:15:04.53Z 
+                              ╰ LastModifiedDate: 2024-10-25T20:15:04.53Z 
 ````
