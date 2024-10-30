@@ -977,7 +977,7 @@
                         │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-49766 
                         │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-49766 
                         │     ├ PublishedDate   : 2024-10-25T20:15:04.41Z 
-                        │     ╰ LastModifiedDate: 2024-10-25T20:15:04.41Z 
+                        │     ╰ LastModifiedDate: 2024-10-28T13:58:09.23Z 
                         ╰ [1] ╭ VulnerabilityID : CVE-2024-49767 
                               ├ PkgName         : Werkzeug 
                               ├ PkgPath         : opt/mitmproxy/lib/python3.12/site-packages/werkzeug-3.0.4.dis
@@ -1031,5 +1031,5 @@
                               │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-49767 
                               │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-49767 
                               ├ PublishedDate   : 2024-10-25T20:15:04.53Z 
-                              ╰ LastModifiedDate: 2024-10-25T20:15:04.53Z 
+                              ╰ LastModifiedDate: 2024-10-28T13:58:09.23Z 
 ````
