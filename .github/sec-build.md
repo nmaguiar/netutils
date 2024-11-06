@@ -151,9 +151,16 @@
                               ├ CweIDs           ╭ [0]: CWE-400 
                               │                  ╰ [1]: CWE-770 
                               ├ VendorSeverity   ╭ ghsa  : 2 
+                              │                  ├ nvd   : 3 
                               │                  ├ redhat: 2 
                               │                  ╰ ubuntu: 2 
-                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+                              │                  │        │           A:H 
+                              │                  │        ╰ V3Score : 7.5 
+                              │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+                              │                  │        │           A:H 
+                              │                  │        ╰ V3Score : 7.5 
+                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
                               │                           │           A:L 
                               │                           ╰ V3Score : 5.3 
                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-49767 
@@ -166,7 +173,8 @@
                               │                  ├ [5]: https://github.com/pallets/werkzeug/security/advisories
                               │                  │      /GHSA-q34m-jh98-gwm2 
                               │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-49767 
-                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-49767 
+                              │                  ├ [7]: https://ubuntu.com/security/notices/USN-7093-1 
+                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-49767 
                               ├ PublishedDate   : 2024-10-25T20:15:04.53Z 
-                              ╰ LastModifiedDate: 2024-10-28T13:58:09.23Z 
+                              ╰ LastModifiedDate: 2024-11-05T20:03:04.847Z 
 ````
