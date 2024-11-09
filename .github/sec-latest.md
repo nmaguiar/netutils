@@ -1,76 +1,1415 @@
 ````yaml
-╭ stdout   
-├ stderr  : latest: Pulling from aquasec/trivy
-│           43c4264eed91: Already exists
-│           0dfd797035b5: Pulling fs layer
-│           845650bd88f7: Pulling fs layer
-│           a317ace4ab4b: Pulling fs layer
-│           a317ace4ab4b: Download complete
-│           0dfd797035b5: Verifying Checksum
-│           0dfd797035b5: Download complete
-│           845650bd88f7: Verifying Checksum
-│           845650bd88f7: Download complete
-│           0dfd797035b5: Pull complete
-│           845650bd88f7: Pull complete
-│           a317ace4ab4b: Pull complete
-│           Digest: sha256:cad5cc4c273b98de4e84d19b481399fae19cd2ba09914239e9d0597fa227a8e4
-│           Status: Downloaded newer image for aquasec/trivy:latest
-│           2024-11-09T04:10:30Z	INFO	[vuln] Vulnerability scanning is enabled
-│           2024-11-09T04:10:30Z	INFO	[secret] Secret scanning is enabled
-│           2024-11-09T04:10:30Z	INFO	[secret] If your scanning is slow, please try '--scanners vuln' to
-│           disable secret scanning
-│           2024-11-09T04:10:30Z	INFO	[secret] Please see also
-│           https://aquasecurity.github.io/trivy/v0.57/docs/scanner/secret#recommendation for faster secret
-│           detection
-│           2024-11-09T04:10:45Z	INFO	[python] License acquired from METADATA classifiers may be subject to
-│           additional terms	name="Brotli" version="1.1.0"
-│           additional terms	name="MarkupSafe" version="2.1.5"
-│           additional terms	name="aioquic" version="1.2.0"
-│           additional terms	name="asgiref" version="3.8.1"
-│           additional terms	name="certifi" version="2024.8.30"
-│           additional terms	name="cffi" version="1.17.1"
-│           additional terms	name="click" version="8.1.7"
-│           additional terms	name="cryptography" version="43.0.1"
-│           additional terms	name="h11" version="0.14.0"
-│           additional terms	name="h2" version="4.1.0"
-│           additional terms	name="hpack" version="4.0.0"
-│           additional terms	name="hyperframe" version="6.0.1"
-│           additional terms	name="kaitaistruct" version="0.10"
-│           additional terms	name="ldap3" version="2.9.1"
-│           additional terms	name="mitmproxy" version="11.0.0"
-│           additional terms	name="msgpack" version="1.1.0"
-│           additional terms	name="pip" version="24.2"
-│           additional terms	name="publicsuffix2" version="2.20191221"
-│           additional terms	name="pyOpenSSL" version="24.2.1"
-│           additional terms	name="pyasn1" version="0.6.1"
-│           additional terms	name="pyasn1_modules" version="0.4.1"
-│           additional terms	name="pycparser" version="2.22"
-│           additional terms	name="pylsqpack" version="0.3.18"
-│           additional terms	name="pyperclip" version="1.9.0"
-│           additional terms	name="ruamel.yaml" version="0.16.13"
-│           additional terms	name="sortedcontainers" version="2.4.0"
-│           additional terms	name="tornado" version="6.4.1"
-│           additional terms	name="urwid" version="2.6.15"
-│           additional terms	name="wcwidth" version="0.2.13"
-│           additional terms	name="wsproto" version="1.2.0"
-│           additional terms	name="zstandard" version="0.23.0"
-│           2024-11-09T04:10:45Z	INFO	[javadb] Downloading Java DB...
-│           2024-11-09T04:10:45Z	INFO	[javadb] Downloading
-│           artifact...	repo="ghcr.io/aquasecurity/trivy-java-db:1"
-│           2024-11-09T04:10:45Z	ERROR	[javadb] Failed to download
-│           artifact	repo="ghcr.io/aquasecurity/trivy-java-db:1" err="OCI repository error: 1 error
-│           occurred:\n\t* GET https://ghcr.io/v2/aquasecurity/trivy-java-db/manifests/1: TOOMANYREQUESTS:
-│           retry-after: 233.739µs, allowed: 44000/minute\n\n"
-│           2024-11-09T04:10:45Z	FATAL	Fatal error	image scan error: scan error: scan failed: failed analysis:
-│           analyze error: pipeline error: failed to analyze layer
-│           (sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575d684c92cd808f179b657): post analysis error:
-│           post analysis error: Unable to initialize the Java DB: Java DB update failed: OCI artifact error:
-│           failed to download Java DB: failed to download artifact from any source: 1 error occurred:
-│           	* OCI repository error: 1 error occurred:
-│           	* GET https://ghcr.io/v2/aquasecurity/trivy-java-db/manifests/1: TOOMANYREQUESTS: retry-after:
-│           233.739µs, allowed: 44000/minute
-│            
-├ exitcode: 1 
-╰ cmd     : docker run --pull always --rm -v trivy-db:/root/.cache/trivy aquasec/trivy -f json  image
-            nmaguiar/netutils:latest 
+╭ [0] ╭ Target         : nmaguiar/netutils:latest (alpine 3.20.3) 
+│     ├ Class          : os-pkgs 
+│     ├ Type           : alpine 
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2024-9681 
+│                       │      ├ PkgID           : curl@8.10.1-r0 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.10.1-r0?arch=x86_64&distro=3.20.3 
+│                       │      │                  ╰ UID : 925e7252fd6a5850 
+│                       │      ├ InstalledVersion: 8.10.1-r0 
+│                       │      ├ FixedVersion    : 8.11.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac
+│                       │      │                  │         0be5e2911554c5b051dd 
+│                       │      │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575
+│                       │      │                            d684c92cd808f179b657 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9681 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : When curl is asked to use HSTS, the expiry time for a
+│                       │      │                   subdomain might  ... 
+│                       │      ├ Description     : When curl is asked to use HSTS, the expiry time for a
+│                       │      │                   subdomain might
+│                       │      │                   overwrite a parent domain's cache entry, making it end
+│                       │      │                   sooner or later than
+│                       │      │                   otherwise intended.
+│                       │      │                   
+│                       │      │                   This affects curl using applications that enable HSTS and
+│                       │      │                   use URLs with the
+│                       │      │                   insecure `HTTP://` scheme and perform transfers with hosts
+│                       │      │                   like
+│                       │      │                   `x.example.com` as well as `example.com` where the first
+│                       │      │                   host is a subdomain
+│                       │      │                   of the second host.
+│                       │      │                   (The HSTS cache either needs to have been populated manually
+│                       │      │                    or there needs to
+│                       │      │                   have been previous HTTPS accesses done as the cache needs to
+│                       │      │                    have entries for
+│                       │      │                   the domains involved to trigger this problem.)
+│                       │      │                   When `x.example.com` responds with
+│                       │      │                   `Strict-Transport-Security:` headers, this
+│                       │      │                   bug can make the subdomain's expiry timeout *bleed over* and
+│                       │      │                    get set for the
+│                       │      │                   parent domain `example.com` in curl's HSTS cache.
+│                       │      │                   The result of a triggered bug is that HTTP accesses to
+│                       │      │                   `example.com` get
+│                       │      │                   converted to HTTPS for a different period of time than what
+│                       │      │                   was asked for by
+│                       │      │                   the origin server. If `example.com` for example stops
+│                       │      │                   supporting HTTPS at its
+│                       │      │                   expiry time, curl might then fail to access
+│                       │      │                   `http://example.com` until the
+│                       │      │                   (wrongly set) timeout expires. This bug can also expire the
+│                       │      │                   parent's entry
+│                       │      │                   *earlier*, thus making curl inadvertently switch back to
+│                       │      │                   insecure HTTP earlier
+│                       │      │                   than otherwise intended. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2024-9681.html 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.json 
+│                       │      │                  ├ [2]: https://hackerone.com/reports/2764830 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
+│                       │      ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2024-9681 
+│                       │      ├ PkgID           : curl-doc@8.10.1-r0 
+│                       │      ├ PkgName         : curl-doc 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.10.1-r0?arch=x86_64&distro=
+│                       │      │                  │       3.20.3 
+│                       │      │                  ╰ UID : bf25cb05082a070 
+│                       │      ├ InstalledVersion: 8.10.1-r0 
+│                       │      ├ FixedVersion    : 8.11.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac
+│                       │      │                  │         0be5e2911554c5b051dd 
+│                       │      │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575
+│                       │      │                            d684c92cd808f179b657 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9681 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : When curl is asked to use HSTS, the expiry time for a
+│                       │      │                   subdomain might  ... 
+│                       │      ├ Description     : When curl is asked to use HSTS, the expiry time for a
+│                       │      │                   subdomain might
+│                       │      │                   overwrite a parent domain's cache entry, making it end
+│                       │      │                   sooner or later than
+│                       │      │                   otherwise intended.
+│                       │      │                   
+│                       │      │                   This affects curl using applications that enable HSTS and
+│                       │      │                   use URLs with the
+│                       │      │                   insecure `HTTP://` scheme and perform transfers with hosts
+│                       │      │                   like
+│                       │      │                   `x.example.com` as well as `example.com` where the first
+│                       │      │                   host is a subdomain
+│                       │      │                   of the second host.
+│                       │      │                   (The HSTS cache either needs to have been populated manually
+│                       │      │                    or there needs to
+│                       │      │                   have been previous HTTPS accesses done as the cache needs to
+│                       │      │                    have entries for
+│                       │      │                   the domains involved to trigger this problem.)
+│                       │      │                   When `x.example.com` responds with
+│                       │      │                   `Strict-Transport-Security:` headers, this
+│                       │      │                   bug can make the subdomain's expiry timeout *bleed over* and
+│                       │      │                    get set for the
+│                       │      │                   parent domain `example.com` in curl's HSTS cache.
+│                       │      │                   The result of a triggered bug is that HTTP accesses to
+│                       │      │                   `example.com` get
+│                       │      │                   converted to HTTPS for a different period of time than what
+│                       │      │                   was asked for by
+│                       │      │                   the origin server. If `example.com` for example stops
+│                       │      │                   supporting HTTPS at its
+│                       │      │                   expiry time, curl might then fail to access
+│                       │      │                   `http://example.com` until the
+│                       │      │                   (wrongly set) timeout expires. This bug can also expire the
+│                       │      │                   parent's entry
+│                       │      │                   *earlier*, thus making curl inadvertently switch back to
+│                       │      │                   insecure HTTP earlier
+│                       │      │                   than otherwise intended. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2024-9681.html 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.json 
+│                       │      │                  ├ [2]: https://hackerone.com/reports/2764830 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
+│                       │      ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2024-9143 
+│                       │      ├ PkgID           : libcrypto3@3.3.2-r2 
+│                       │      ├ PkgName         : libcrypto3 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.3.2-r2?arch=x86_64&distro
+│                       │      │                  │       =3.20.3 
+│                       │      │                  ╰ UID : 5d613baae9ab2990 
+│                       │      ├ InstalledVersion: 3.3.2-r2 
+│                       │      ├ FixedVersion    : 3.3.2-r3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac
+│                       │      │                  │         0be5e2911554c5b051dd 
+│                       │      │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575
+│                       │      │                            d684c92cd808f179b657 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9143 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openssl: Low-level invalid GF(2^m) parameters lead to OOB
+│                       │      │                   memory access 
+│                       │      ├ Description     : Issue summary: Use of the low-level GF(2^m) elliptic curve
+│                       │      │                   APIs with untrusted
+│                       │      │                   explicit values for the field polynomial can lead to
+│                       │      │                   out-of-bounds memory reads
+│                       │      │                   or writes.
+│                       │      │                   
+│                       │      │                   Impact summary: Out of bound memory writes can lead to an
+│                       │      │                   application crash or
+│                       │      │                   even a possibility of a remote code execution, however, in
+│                       │      │                   all the protocols
+│                       │      │                   involving Elliptic Curve Cryptography that we're aware of,
+│                       │      │                   either only "named
+│                       │      │                   curves" are supported, or, if explicit curve parameters are
+│                       │      │                   supported, they
+│                       │      │                   specify an X9.62 encoding of binary (GF(2^m)) curves that
+│                       │      │                   can't represent
+│                       │      │                   problematic input values. Thus the likelihood of existence
+│                       │      │                   of a vulnerable
+│                       │      │                   application is low.
+│                       │      │                   In particular, the X9.62 encoding is used for ECC keys in
+│                       │      │                   X.509 certificates,
+│                       │      │                   so problematic inputs cannot occur in the context of
+│                       │      │                   processing X.509
+│                       │      │                   certificates.  Any problematic use-cases would have to be
+│                       │      │                   using an "exotic"
+│                       │      │                   curve encoding.
+│                       │      │                   The affected APIs include: EC_GROUP_new_curve_GF2m(),
+│                       │      │                   EC_GROUP_new_from_params(),
+│                       │      │                   and various supporting BN_GF2m_*() functions.
+│                       │      │                   Applications working with "exotic" explicit binary (GF(2^m))
+│                       │      │                    curve parameters,
+│                       │      │                   that make it possible to represent invalid field polynomials
+│                       │      │                    with a zero
+│                       │      │                   constant term, via the above or similar APIs, may terminate
+│                       │      │                   abruptly as a
+│                       │      │                   result of reading or writing outside of array bounds. 
+│                       │      │                   Remote code execution
+│                       │      │                   cannot easily be ruled out.
+│                       │      │                   The FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected
+│                       │      │                   by this issue. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-787 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9143 
+│                       │      │                  ├ [1]: https://github.com/openssl/openssl/commit/72ae83ad214d
+│                       │      │                  │      2eef262461365a1975707f862712 
+│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/bc7e04d7c8d5
+│                       │      │                  │      09fb78fc0e285aa948fb0da04700 
+│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/c0d3e4d32d28
+│                       │      │                  │      05f49bec30547f225bc4d092e1f4 
+│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/fdf6723362ca
+│                       │      │                  │      51bd883295efe206cb5b1cfa5154 
+│                       │      │                  ├ [5]: https://github.openssl.org/openssl/extended-releases/c
+│                       │      │                  │      ommit/8efc0cbaa8ebba8e116f7b81a876a4123594d86a 
+│                       │      │                  ├ [6]: https://github.openssl.org/openssl/extended-releases/c
+│                       │      │                  │      ommit/9d576994cec2b7aa37a91740ea7e680810957e41 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-9143 
+│                       │      │                  ├ [8]: https://openssl-library.org/news/secadv/20241016.txt 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-9143 
+│                       │      ├ PublishedDate   : 2024-10-16T17:15:18.13Z 
+│                       │      ╰ LastModifiedDate: 2024-11-08T16:35:21.58Z 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2024-9681 
+│                       │      ├ PkgID           : libcurl@8.10.1-r0 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3
+│                       │      │                  │       .20.3 
+│                       │      │                  ╰ UID : aa9a0ebf61a4faa2 
+│                       │      ├ InstalledVersion: 8.10.1-r0 
+│                       │      ├ FixedVersion    : 8.11.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac
+│                       │      │                  │         0be5e2911554c5b051dd 
+│                       │      │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575
+│                       │      │                            d684c92cd808f179b657 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9681 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : When curl is asked to use HSTS, the expiry time for a
+│                       │      │                   subdomain might  ... 
+│                       │      ├ Description     : When curl is asked to use HSTS, the expiry time for a
+│                       │      │                   subdomain might
+│                       │      │                   overwrite a parent domain's cache entry, making it end
+│                       │      │                   sooner or later than
+│                       │      │                   otherwise intended.
+│                       │      │                   
+│                       │      │                   This affects curl using applications that enable HSTS and
+│                       │      │                   use URLs with the
+│                       │      │                   insecure `HTTP://` scheme and perform transfers with hosts
+│                       │      │                   like
+│                       │      │                   `x.example.com` as well as `example.com` where the first
+│                       │      │                   host is a subdomain
+│                       │      │                   of the second host.
+│                       │      │                   (The HSTS cache either needs to have been populated manually
+│                       │      │                    or there needs to
+│                       │      │                   have been previous HTTPS accesses done as the cache needs to
+│                       │      │                    have entries for
+│                       │      │                   the domains involved to trigger this problem.)
+│                       │      │                   When `x.example.com` responds with
+│                       │      │                   `Strict-Transport-Security:` headers, this
+│                       │      │                   bug can make the subdomain's expiry timeout *bleed over* and
+│                       │      │                    get set for the
+│                       │      │                   parent domain `example.com` in curl's HSTS cache.
+│                       │      │                   The result of a triggered bug is that HTTP accesses to
+│                       │      │                   `example.com` get
+│                       │      │                   converted to HTTPS for a different period of time than what
+│                       │      │                   was asked for by
+│                       │      │                   the origin server. If `example.com` for example stops
+│                       │      │                   supporting HTTPS at its
+│                       │      │                   expiry time, curl might then fail to access
+│                       │      │                   `http://example.com` until the
+│                       │      │                   (wrongly set) timeout expires. This bug can also expire the
+│                       │      │                   parent's entry
+│                       │      │                   *earlier*, thus making curl inadvertently switch back to
+│                       │      │                   insecure HTTP earlier
+│                       │      │                   than otherwise intended. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2024-9681.html 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.json 
+│                       │      │                  ├ [2]: https://hackerone.com/reports/2764830 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
+│                       │      ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2024-50602 
+│                       │      ├ PkgID           : libexpat@2.6.3-r0 
+│                       │      ├ PkgName         : libexpat 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.6.3-r0?arch=x86_64&distro=3
+│                       │      │                  │       .20.3 
+│                       │      │                  ╰ UID : 8a9ebc519bfed1e5 
+│                       │      ├ InstalledVersion: 2.6.3-r0 
+│                       │      ├ FixedVersion    : 2.6.4-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac
+│                       │      │                  │         0be5e2911554c5b051dd 
+│                       │      │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575
+│                       │      │                            d684c92cd808f179b657 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-50602 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : libexpat: expat: DoS via XML_ResumeParser 
+│                       │      ├ Description     : An issue was discovered in libexpat before 2.6.4. There is a
+│                       │      │                    crash within the XML_ResumeParser function because
+│                       │      │                   XML_StopParser can stop/suspend an unstarted parser. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-754 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-50602 
+│                       │      │                  ├ [1]: https://github.com/libexpat/libexpat/pull/915 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-50602 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-50602 
+│                       │      ├ PublishedDate   : 2024-10-27T05:15:04.09Z 
+│                       │      ╰ LastModifiedDate: 2024-10-30T18:35:16.237Z 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2024-9143 
+│                       │      ├ PkgID           : libssl3@3.3.2-r2 
+│                       │      ├ PkgName         : libssl3 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.3.2-r2?arch=x86_64&distro=3.
+│                       │      │                  │       20.3 
+│                       │      │                  ╰ UID : 9b9fc9b6b3b55ca7 
+│                       │      ├ InstalledVersion: 3.3.2-r2 
+│                       │      ├ FixedVersion    : 3.3.2-r3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac
+│                       │      │                  │         0be5e2911554c5b051dd 
+│                       │      │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575
+│                       │      │                            d684c92cd808f179b657 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9143 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openssl: Low-level invalid GF(2^m) parameters lead to OOB
+│                       │      │                   memory access 
+│                       │      ├ Description     : Issue summary: Use of the low-level GF(2^m) elliptic curve
+│                       │      │                   APIs with untrusted
+│                       │      │                   explicit values for the field polynomial can lead to
+│                       │      │                   out-of-bounds memory reads
+│                       │      │                   or writes.
+│                       │      │                   
+│                       │      │                   Impact summary: Out of bound memory writes can lead to an
+│                       │      │                   application crash or
+│                       │      │                   even a possibility of a remote code execution, however, in
+│                       │      │                   all the protocols
+│                       │      │                   involving Elliptic Curve Cryptography that we're aware of,
+│                       │      │                   either only "named
+│                       │      │                   curves" are supported, or, if explicit curve parameters are
+│                       │      │                   supported, they
+│                       │      │                   specify an X9.62 encoding of binary (GF(2^m)) curves that
+│                       │      │                   can't represent
+│                       │      │                   problematic input values. Thus the likelihood of existence
+│                       │      │                   of a vulnerable
+│                       │      │                   application is low.
+│                       │      │                   In particular, the X9.62 encoding is used for ECC keys in
+│                       │      │                   X.509 certificates,
+│                       │      │                   so problematic inputs cannot occur in the context of
+│                       │      │                   processing X.509
+│                       │      │                   certificates.  Any problematic use-cases would have to be
+│                       │      │                   using an "exotic"
+│                       │      │                   curve encoding.
+│                       │      │                   The affected APIs include: EC_GROUP_new_curve_GF2m(),
+│                       │      │                   EC_GROUP_new_from_params(),
+│                       │      │                   and various supporting BN_GF2m_*() functions.
+│                       │      │                   Applications working with "exotic" explicit binary (GF(2^m))
+│                       │      │                    curve parameters,
+│                       │      │                   that make it possible to represent invalid field polynomials
+│                       │      │                    with a zero
+│                       │      │                   constant term, via the above or similar APIs, may terminate
+│                       │      │                   abruptly as a
+│                       │      │                   result of reading or writing outside of array bounds. 
+│                       │      │                   Remote code execution
+│                       │      │                   cannot easily be ruled out.
+│                       │      │                   The FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected
+│                       │      │                   by this issue. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-787 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9143 
+│                       │      │                  ├ [1]: https://github.com/openssl/openssl/commit/72ae83ad214d
+│                       │      │                  │      2eef262461365a1975707f862712 
+│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/bc7e04d7c8d5
+│                       │      │                  │      09fb78fc0e285aa948fb0da04700 
+│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/c0d3e4d32d28
+│                       │      │                  │      05f49bec30547f225bc4d092e1f4 
+│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/fdf6723362ca
+│                       │      │                  │      51bd883295efe206cb5b1cfa5154 
+│                       │      │                  ├ [5]: https://github.openssl.org/openssl/extended-releases/c
+│                       │      │                  │      ommit/8efc0cbaa8ebba8e116f7b81a876a4123594d86a 
+│                       │      │                  ├ [6]: https://github.openssl.org/openssl/extended-releases/c
+│                       │      │                  │      ommit/9d576994cec2b7aa37a91740ea7e680810957e41 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-9143 
+│                       │      │                  ├ [8]: https://openssl-library.org/news/secadv/20241016.txt 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-9143 
+│                       │      ├ PublishedDate   : 2024-10-16T17:15:18.13Z 
+│                       │      ╰ LastModifiedDate: 2024-11-08T16:35:21.58Z 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2024-21235 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.4_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.4_p7-r0?arch=x86_64
+│                       │      │                  │       &distro=3.20.3 
+│                       │      │                  ╰ UID : 85988c7a734349fe 
+│                       │      ├ InstalledVersion: 21.0.4_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.5_p11-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac
+│                       │      │                  │         0be5e2911554c5b051dd 
+│                       │      │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575
+│                       │      │                            d684c92cd808f179b657 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-21235 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : JDK: Integer conversion error leads to incorrect range check
+│                       │      │                    (8332644) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Hotspot).  Supported versions that are affected
+│                       │      │                    are Oracle Java SE: 8u421, 8u421-perf, 11.0.24, 17.0.12,
+│                       │      │                   21.0.4, 23;   Oracle GraalVM for JDK: 17.0.12, 21.0.4, 23;  
+│                       │      │                    Oracle GraalVM Enterprise Edition: 20.3.15 and  21.3.11.
+│                       │      │                   Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in  unauthorized update, insert or
+│                       │      │                   delete access to some of Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK, Oracle GraalVM Enterprise Edition accessible data as
+│                       │      │                   well as  unauthorized read access to a subset of Oracle Java
+│                       │      │                    SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition accessible data. Note: This vulnerability can be
+│                       │      │                   exploited by using APIs in the specified Component, e.g.,
+│                       │      │                   through a web service which supplies data to the APIs. This
+│                       │      │                   vulnerability also applies to Java deployments, typically in
+│                       │      │                    clients running sandboxed Java Web Start applications or
+│                       │      │                   sandboxed Java applets, that load and run untrusted code
+│                       │      │                   (e.g., code that comes from the internet) and rely on the
+│                       │      │                   Java sandbox for security. CVSS 3.1 Base Score 4.8
+│                       │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 2 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 4.8 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8127 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-21235 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2251025 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2318524 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2318526 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2318530 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318534 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2251025 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2318524 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2318526 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2318530 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2318534 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       23-48161 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21208 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21210 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21217 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21235 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21235.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21235 
+│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-21235 
+│                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
+│                       │      ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2024-21208 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.4_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.4_p7-r0?arch=x86_64
+│                       │      │                  │       &distro=3.20.3 
+│                       │      │                  ╰ UID : 85988c7a734349fe 
+│                       │      ├ InstalledVersion: 21.0.4_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.5_p11-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac
+│                       │      │                  │         0be5e2911554c5b051dd 
+│                       │      │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575
+│                       │      │                            d684c92cd808f179b657 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-21208 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : JDK: HTTP client improper handling of maxHeaderSize (8328286) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Networking).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 8u421, 8u421-perf, 11.0.24,
+│                       │      │                   17.0.12, 21.0.4, 23; Oracle GraalVM for JDK: 17.0.12,
+│                       │      │                   21.0.4, 23; Oracle GraalVM Enterprise Edition: 20.3.15 and 
+│                       │      │                   21.3.11. Difficult to exploit vulnerability allows
+│                       │      │                   unauthenticated attacker with network access via multiple
+│                       │      │                   protocols to compromise Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK, Oracle GraalVM Enterprise Edition.  Successful attacks
+│                       │      │                   of this vulnerability can result in unauthorized ability to
+│                       │      │                   cause a partial denial of service (partial DOS) of Oracle
+│                       │      │                   Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition. Note: This vulnerability applies to Java
+│                       │      │                   deployments, typically in clients running sandboxed Java Web
+│                       │      │                    Start applications or sandboxed Java applets, that load and
+│                       │      │                    run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. This
+│                       │      │                   vulnerability does not apply to Java deployments, typically
+│                       │      │                   in servers, that load and run only trusted code (e.g., code
+│                       │      │                   installed by an administrator). CVSS 3.1 Base Score 3.7
+│                       │      │                   (Availability impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L). 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-203 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 2 
+│                       │      │                  ╰ ubuntu     : 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8127 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-21208 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2251025 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2318524 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2318526 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2318530 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318534 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2251025 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2318524 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2318526 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2318530 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2318534 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       23-48161 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21208 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21210 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21217 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21235 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21208.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21208 
+│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-21208 
+│                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
+│                       │      ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2024-21210 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.4_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.4_p7-r0?arch=x86_64
+│                       │      │                  │       &distro=3.20.3 
+│                       │      │                  ╰ UID : 85988c7a734349fe 
+│                       │      ├ InstalledVersion: 21.0.4_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.5_p11-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac
+│                       │      │                  │         0be5e2911554c5b051dd 
+│                       │      │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575
+│                       │      │                            d684c92cd808f179b657 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-21210 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : JDK: Array indexing integer overflow (8328544) 
+│                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Hotspot). 
+│                       │      │                   Supported versions that are affected are Oracle Java SE:
+│                       │      │                   8u421, 8u421-perf, 11.0.24, 17.0.12, 21.0.4 and  23.
+│                       │      │                   Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE.  Successful attacks of this
+│                       │      │                   vulnerability can result in  unauthorized update, insert or
+│                       │      │                   delete access to some of Oracle Java SE accessible data.
+│                       │      │                   Note: This vulnerability can be exploited by using APIs in
+│                       │      │                   the specified Component, e.g., through a web service which
+│                       │      │                   supplies data to the APIs. This vulnerability also applies
+│                       │      │                   to Java deployments, typically in clients running sandboxed
+│                       │      │                   Java Web Start applications or sandboxed Java applets, that
+│                       │      │                   load and run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. CVSS
+│                       │      │                   3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N). 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-203 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 2 
+│                       │      │                  ╰ ubuntu     : 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8127 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-21210 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2251025 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2318524 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2318526 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2318530 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318534 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2251025 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2318524 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2318526 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2318530 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2318534 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       23-48161 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21208 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21210 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21217 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21235 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21210.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21210 
+│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-21210 
+│                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
+│                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2024-21211 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.4_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.4_p7-r0?arch=x86_64
+│                       │      │                  │       &distro=3.20.3 
+│                       │      │                  ╰ UID : 85988c7a734349fe 
+│                       │      ├ InstalledVersion: 21.0.4_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.5_p11-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac
+│                       │      │                  │         0be5e2911554c5b051dd 
+│                       │      │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575
+│                       │      │                            d684c92cd808f179b657 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-21211 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : JDK: Compiler unspecified vulnerability (CPU Oct 2024) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Compiler).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 23; Oracle GraalVM for JDK:
+│                       │      │                   17.0.12, 21.0.4, 23; Oracle GraalVM Enterprise Edition:
+│                       │      │                   20.3.15 and  21.3.11. Difficult to exploit vulnerability
+│                       │      │                   allows unauthenticated attacker with network access via
+│                       │      │                   multiple protocols to compromise Oracle Java SE, Oracle
+│                       │      │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition. 
+│                       │      │                   Successful attacks of this vulnerability can result in 
+│                       │      │                   unauthorized update, insert or delete access to some of
+│                       │      │                   Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM
+│                       │      │                   Enterprise Edition accessible data. Note: This vulnerability
+│                       │      │                    can be exploited by using APIs in the specified Component,
+│                       │      │                   e.g., through a web service which supplies data to the APIs.
+│                       │      │                    This vulnerability also applies to Java deployments,
+│                       │      │                   typically in clients running sandboxed Java Web Start
+│                       │      │                   applications or sandboxed Java applets, that load and run
+│                       │      │                   untrusted code (e.g., code that comes from the internet) and
+│                       │      │                    rely on the Java sandbox for security. CVSS 3.1 Base Score
+│                       │      │                   3.7 (Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N). 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-922 
+│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-21211 
+│                       │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-21211 
+│                       │      │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-21211 
+│                       │      │                  ├ [3]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ╰ [4]: https://www.oracle.com/security-alerts/cpuoct2024.html
+│                       │      │                         #AppendixJAVA 
+│                       │      ├ PublishedDate   : 2024-10-15T20:15:10.05Z 
+│                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.843Z 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2024-21217 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.4_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.4_p7-r0?arch=x86_64
+│                       │      │                  │       &distro=3.20.3 
+│                       │      │                  ╰ UID : 85988c7a734349fe 
+│                       │      ├ InstalledVersion: 21.0.4_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.5_p11-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac
+│                       │      │                  │         0be5e2911554c5b051dd 
+│                       │      │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575
+│                       │      │                            d684c92cd808f179b657 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-21217 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : JDK: Unbounded allocation leads to out-of-memory error
+│                       │      │                   (8331446) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Serialization).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 8u421, 8u421-perf, 11.0.24,
+│                       │      │                   17.0.12, 21.0.4, 23; Oracle GraalVM for JDK: 17.0.12,
+│                       │      │                   21.0.4, 23; Oracle GraalVM Enterprise Edition: 20.3.15 and 
+│                       │      │                   21.3.11. Difficult to exploit vulnerability allows
+│                       │      │                   unauthenticated attacker with network access via multiple
+│                       │      │                   protocols to compromise Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK, Oracle GraalVM Enterprise Edition.  Successful attacks
+│                       │      │                   of this vulnerability can result in unauthorized ability to
+│                       │      │                   cause a partial denial of service (partial DOS) of Oracle
+│                       │      │                   Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition. Note: This vulnerability can be exploited by using
+│                       │      │                   APIs in the specified Component, e.g., through a web service
+│                       │      │                    which supplies data to the APIs. This vulnerability also
+│                       │      │                   applies to Java deployments, typically in clients running
+│                       │      │                   sandboxed Java Web Start applications or sandboxed Java
+│                       │      │                   applets, that load and run untrusted code (e.g., code that
+│                       │      │                   comes from the internet) and rely on the Java sandbox for
+│                       │      │                   security. CVSS 3.1 Base Score 3.7 (Availability impacts). 
+│                       │      │                   CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L). 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 2 
+│                       │      │                  ╰ ubuntu     : 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8127 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-21217 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2251025 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2318524 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2318526 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2318530 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318534 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2251025 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2318524 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2318526 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2318530 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2318534 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       23-48161 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21208 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21210 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21217 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21235 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21217.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21217 
+│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-21217 
+│                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
+│                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2024-21235 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.4_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.4_p7-r0?ar
+│                       │      │                  │       ch=x86_64&distro=3.20.3 
+│                       │      │                  ╰ UID : 9db3ec1535c64402 
+│                       │      ├ InstalledVersion: 21.0.4_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.5_p11-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac
+│                       │      │                  │         0be5e2911554c5b051dd 
+│                       │      │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575
+│                       │      │                            d684c92cd808f179b657 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-21235 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : JDK: Integer conversion error leads to incorrect range check
+│                       │      │                    (8332644) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Hotspot).  Supported versions that are affected
+│                       │      │                    are Oracle Java SE: 8u421, 8u421-perf, 11.0.24, 17.0.12,
+│                       │      │                   21.0.4, 23;   Oracle GraalVM for JDK: 17.0.12, 21.0.4, 23;  
+│                       │      │                    Oracle GraalVM Enterprise Edition: 20.3.15 and  21.3.11.
+│                       │      │                   Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in  unauthorized update, insert or
+│                       │      │                   delete access to some of Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK, Oracle GraalVM Enterprise Edition accessible data as
+│                       │      │                   well as  unauthorized read access to a subset of Oracle Java
+│                       │      │                    SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition accessible data. Note: This vulnerability can be
+│                       │      │                   exploited by using APIs in the specified Component, e.g.,
+│                       │      │                   through a web service which supplies data to the APIs. This
+│                       │      │                   vulnerability also applies to Java deployments, typically in
+│                       │      │                    clients running sandboxed Java Web Start applications or
+│                       │      │                   sandboxed Java applets, that load and run untrusted code
+│                       │      │                   (e.g., code that comes from the internet) and rely on the
+│                       │      │                   Java sandbox for security. CVSS 3.1 Base Score 4.8
+│                       │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 2 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 4.8 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8127 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-21235 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2251025 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2318524 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2318526 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2318530 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318534 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2251025 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2318524 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2318526 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2318530 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2318534 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       23-48161 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21208 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21210 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21217 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21235 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21235.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21235 
+│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-21235 
+│                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
+│                       │      ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2024-21208 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.4_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.4_p7-r0?ar
+│                       │      │                  │       ch=x86_64&distro=3.20.3 
+│                       │      │                  ╰ UID : 9db3ec1535c64402 
+│                       │      ├ InstalledVersion: 21.0.4_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.5_p11-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac
+│                       │      │                  │         0be5e2911554c5b051dd 
+│                       │      │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575
+│                       │      │                            d684c92cd808f179b657 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-21208 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : JDK: HTTP client improper handling of maxHeaderSize (8328286) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Networking).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 8u421, 8u421-perf, 11.0.24,
+│                       │      │                   17.0.12, 21.0.4, 23; Oracle GraalVM for JDK: 17.0.12,
+│                       │      │                   21.0.4, 23; Oracle GraalVM Enterprise Edition: 20.3.15 and 
+│                       │      │                   21.3.11. Difficult to exploit vulnerability allows
+│                       │      │                   unauthenticated attacker with network access via multiple
+│                       │      │                   protocols to compromise Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK, Oracle GraalVM Enterprise Edition.  Successful attacks
+│                       │      │                   of this vulnerability can result in unauthorized ability to
+│                       │      │                   cause a partial denial of service (partial DOS) of Oracle
+│                       │      │                   Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition. Note: This vulnerability applies to Java
+│                       │      │                   deployments, typically in clients running sandboxed Java Web
+│                       │      │                    Start applications or sandboxed Java applets, that load and
+│                       │      │                    run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. This
+│                       │      │                   vulnerability does not apply to Java deployments, typically
+│                       │      │                   in servers, that load and run only trusted code (e.g., code
+│                       │      │                   installed by an administrator). CVSS 3.1 Base Score 3.7
+│                       │      │                   (Availability impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L). 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-203 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 2 
+│                       │      │                  ╰ ubuntu     : 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8127 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-21208 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2251025 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2318524 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2318526 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2318530 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318534 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2251025 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2318524 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2318526 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2318530 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2318534 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       23-48161 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21208 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21210 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21217 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21235 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21208.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21208 
+│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-21208 
+│                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
+│                       │      ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2024-21210 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.4_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.4_p7-r0?ar
+│                       │      │                  │       ch=x86_64&distro=3.20.3 
+│                       │      │                  ╰ UID : 9db3ec1535c64402 
+│                       │      ├ InstalledVersion: 21.0.4_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.5_p11-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac
+│                       │      │                  │         0be5e2911554c5b051dd 
+│                       │      │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575
+│                       │      │                            d684c92cd808f179b657 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-21210 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : JDK: Array indexing integer overflow (8328544) 
+│                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Hotspot). 
+│                       │      │                   Supported versions that are affected are Oracle Java SE:
+│                       │      │                   8u421, 8u421-perf, 11.0.24, 17.0.12, 21.0.4 and  23.
+│                       │      │                   Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE.  Successful attacks of this
+│                       │      │                   vulnerability can result in  unauthorized update, insert or
+│                       │      │                   delete access to some of Oracle Java SE accessible data.
+│                       │      │                   Note: This vulnerability can be exploited by using APIs in
+│                       │      │                   the specified Component, e.g., through a web service which
+│                       │      │                   supplies data to the APIs. This vulnerability also applies
+│                       │      │                   to Java deployments, typically in clients running sandboxed
+│                       │      │                   Java Web Start applications or sandboxed Java applets, that
+│                       │      │                   load and run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. CVSS
+│                       │      │                   3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N). 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-203 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 2 
+│                       │      │                  ╰ ubuntu     : 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8127 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-21210 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2251025 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2318524 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2318526 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2318530 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318534 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2251025 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2318524 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2318526 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2318530 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2318534 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       23-48161 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21208 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21210 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21217 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21235 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21210.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21210 
+│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-21210 
+│                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
+│                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2024-21211 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.4_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.4_p7-r0?ar
+│                       │      │                  │       ch=x86_64&distro=3.20.3 
+│                       │      │                  ╰ UID : 9db3ec1535c64402 
+│                       │      ├ InstalledVersion: 21.0.4_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.5_p11-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac
+│                       │      │                  │         0be5e2911554c5b051dd 
+│                       │      │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575
+│                       │      │                            d684c92cd808f179b657 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-21211 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : JDK: Compiler unspecified vulnerability (CPU Oct 2024) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Compiler).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 23; Oracle GraalVM for JDK:
+│                       │      │                   17.0.12, 21.0.4, 23; Oracle GraalVM Enterprise Edition:
+│                       │      │                   20.3.15 and  21.3.11. Difficult to exploit vulnerability
+│                       │      │                   allows unauthenticated attacker with network access via
+│                       │      │                   multiple protocols to compromise Oracle Java SE, Oracle
+│                       │      │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition. 
+│                       │      │                   Successful attacks of this vulnerability can result in 
+│                       │      │                   unauthorized update, insert or delete access to some of
+│                       │      │                   Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM
+│                       │      │                   Enterprise Edition accessible data. Note: This vulnerability
+│                       │      │                    can be exploited by using APIs in the specified Component,
+│                       │      │                   e.g., through a web service which supplies data to the APIs.
+│                       │      │                    This vulnerability also applies to Java deployments,
+│                       │      │                   typically in clients running sandboxed Java Web Start
+│                       │      │                   applications or sandboxed Java applets, that load and run
+│                       │      │                   untrusted code (e.g., code that comes from the internet) and
+│                       │      │                    rely on the Java sandbox for security. CVSS 3.1 Base Score
+│                       │      │                   3.7 (Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N). 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-922 
+│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-21211 
+│                       │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-21211 
+│                       │      │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-21211 
+│                       │      │                  ├ [3]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ╰ [4]: https://www.oracle.com/security-alerts/cpuoct2024.html
+│                       │      │                         #AppendixJAVA 
+│                       │      ├ PublishedDate   : 2024-10-15T20:15:10.05Z 
+│                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.843Z 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2024-21217 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.4_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.4_p7-r0?ar
+│                       │      │                  │       ch=x86_64&distro=3.20.3 
+│                       │      │                  ╰ UID : 9db3ec1535c64402 
+│                       │      ├ InstalledVersion: 21.0.4_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.5_p11-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac
+│                       │      │                  │         0be5e2911554c5b051dd 
+│                       │      │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575
+│                       │      │                            d684c92cd808f179b657 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-21217 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : JDK: Unbounded allocation leads to out-of-memory error
+│                       │      │                   (8331446) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Serialization).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 8u421, 8u421-perf, 11.0.24,
+│                       │      │                   17.0.12, 21.0.4, 23; Oracle GraalVM for JDK: 17.0.12,
+│                       │      │                   21.0.4, 23; Oracle GraalVM Enterprise Edition: 20.3.15 and 
+│                       │      │                   21.3.11. Difficult to exploit vulnerability allows
+│                       │      │                   unauthenticated attacker with network access via multiple
+│                       │      │                   protocols to compromise Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK, Oracle GraalVM Enterprise Edition.  Successful attacks
+│                       │      │                   of this vulnerability can result in unauthorized ability to
+│                       │      │                   cause a partial denial of service (partial DOS) of Oracle
+│                       │      │                   Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition. Note: This vulnerability can be exploited by using
+│                       │      │                   APIs in the specified Component, e.g., through a web service
+│                       │      │                    which supplies data to the APIs. This vulnerability also
+│                       │      │                   applies to Java deployments, typically in clients running
+│                       │      │                   sandboxed Java Web Start applications or sandboxed Java
+│                       │      │                   applets, that load and run untrusted code (e.g., code that
+│                       │      │                   comes from the internet) and rely on the Java sandbox for
+│                       │      │                   security. CVSS 3.1 Base Score 3.7 (Availability impacts). 
+│                       │      │                   CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L). 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 2 
+│                       │      │                  ╰ ubuntu     : 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:8127 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-21217 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2251025 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2318524 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2318526 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2318530 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318534 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2251025 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2318524 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2318526 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2318530 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2318534 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       23-48161 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21208 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21210 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21217 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21235 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21217.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21217 
+│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-21217 
+│                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
+│                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
+│                       ╰ [16] ╭ VulnerabilityID : CVE-2024-9143 
+│                              ├ PkgID           : openssl@3.3.2-r2 
+│                              ├ PkgName         : openssl 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.3.2-r2?arch=x86_64&distro=3.
+│                              │                  │       20.3 
+│                              │                  ╰ UID : a237cfcc87cfc205 
+│                              ├ InstalledVersion: 3.3.2-r2 
+│                              ├ FixedVersion    : 3.3.2-r3 
+│                              ├ Status          : fixed 
+│                              ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac
+│                              │                  │         0be5e2911554c5b051dd 
+│                              │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575
+│                              │                            d684c92cd808f179b657 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9143 
+│                              ├ DataSource       ╭ ID  : alpine 
+│                              │                  ├ Name: Alpine Secdb 
+│                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                              ├ Title           : openssl: Low-level invalid GF(2^m) parameters lead to OOB
+│                              │                   memory access 
+│                              ├ Description     : Issue summary: Use of the low-level GF(2^m) elliptic curve
+│                              │                   APIs with untrusted
+│                              │                   explicit values for the field polynomial can lead to
+│                              │                   out-of-bounds memory reads
+│                              │                   or writes.
+│                              │                   
+│                              │                   Impact summary: Out of bound memory writes can lead to an
+│                              │                   application crash or
+│                              │                   even a possibility of a remote code execution, however, in
+│                              │                   all the protocols
+│                              │                   involving Elliptic Curve Cryptography that we're aware of,
+│                              │                   either only "named
+│                              │                   curves" are supported, or, if explicit curve parameters are
+│                              │                   supported, they
+│                              │                   specify an X9.62 encoding of binary (GF(2^m)) curves that
+│                              │                   can't represent
+│                              │                   problematic input values. Thus the likelihood of existence
+│                              │                   of a vulnerable
+│                              │                   application is low.
+│                              │                   In particular, the X9.62 encoding is used for ECC keys in
+│                              │                   X.509 certificates,
+│                              │                   so problematic inputs cannot occur in the context of
+│                              │                   processing X.509
+│                              │                   certificates.  Any problematic use-cases would have to be
+│                              │                   using an "exotic"
+│                              │                   curve encoding.
+│                              │                   The affected APIs include: EC_GROUP_new_curve_GF2m(),
+│                              │                   EC_GROUP_new_from_params(),
+│                              │                   and various supporting BN_GF2m_*() functions.
+│                              │                   Applications working with "exotic" explicit binary (GF(2^m))
+│                              │                    curve parameters,
+│                              │                   that make it possible to represent invalid field polynomials
+│                              │                    with a zero
+│                              │                   constant term, via the above or similar APIs, may terminate
+│                              │                   abruptly as a
+│                              │                   result of reading or writing outside of array bounds. 
+│                              │                   Remote code execution
+│                              │                   cannot easily be ruled out.
+│                              │                   The FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected
+│                              │                   by this issue. 
+│                              ├ Severity        : LOW 
+│                              ├ CweIDs           ─ [0]: CWE-787 
+│                              ├ VendorSeverity   ╭ redhat: 1 
+│                              │                  ╰ ubuntu: 1 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                              │                           │           /A:L 
+│                              │                           ╰ V3Score : 3.7 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9143 
+│                              │                  ├ [1]: https://github.com/openssl/openssl/commit/72ae83ad214d
+│                              │                  │      2eef262461365a1975707f862712 
+│                              │                  ├ [2]: https://github.com/openssl/openssl/commit/bc7e04d7c8d5
+│                              │                  │      09fb78fc0e285aa948fb0da04700 
+│                              │                  ├ [3]: https://github.com/openssl/openssl/commit/c0d3e4d32d28
+│                              │                  │      05f49bec30547f225bc4d092e1f4 
+│                              │                  ├ [4]: https://github.com/openssl/openssl/commit/fdf6723362ca
+│                              │                  │      51bd883295efe206cb5b1cfa5154 
+│                              │                  ├ [5]: https://github.openssl.org/openssl/extended-releases/c
+│                              │                  │      ommit/8efc0cbaa8ebba8e116f7b81a876a4123594d86a 
+│                              │                  ├ [6]: https://github.openssl.org/openssl/extended-releases/c
+│                              │                  │      ommit/9d576994cec2b7aa37a91740ea7e680810957e41 
+│                              │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-9143 
+│                              │                  ├ [8]: https://openssl-library.org/news/secadv/20241016.txt 
+│                              │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-9143 
+│                              ├ PublishedDate   : 2024-10-16T17:15:18.13Z 
+│                              ╰ LastModifiedDate: 2024-11-08T16:35:21.58Z 
+├ [1] ╭ Target         : Java 
+│     ├ Class          : lang-pkgs 
+│     ├ Type           : jar 
+│     ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2024-6763 
+│                             ├ PkgName         : org.eclipse.jetty:jetty-http 
+│                             ├ PkgPath         : openaf/openaf.jar 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-http@9.4.55.v20240627 
+│                             │                  ╰ UID : f7c6df4b894e0ce 
+│                             ├ InstalledVersion: 9.4.55.v20240627 
+│                             ├ FixedVersion    : 12.0.12 
+│                             ├ Status          : fixed 
+│                             ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac0
+│                             │                  │         be5e2911554c5b051dd 
+│                             │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575d
+│                             │                            684c92cd808f179b657 
+│                             ├ SeveritySource  : ghsa 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6763 
+│                             ├ DataSource       ╭ ID  : ghsa 
+│                             │                  ├ Name: GitHub Security Advisory Maven 
+│                             │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+│                             │                          osystem%3Amaven 
+│                             ├ Title           : org.eclipse.jetty:jetty-http: jetty: Jetty URI parsing of
+│                             │                   invalid authority 
+│                             ├ Description     : Eclipse Jetty is a lightweight, highly scalable, Java-based
+│                             │                   web server and Servlet engine . It includes a utility class,
+│                             │                   HttpURI, for URI/URL parsing.
+│                             │                   
+│                             │                   The HttpURI class does insufficient validation on the
+│                             │                   authority segment of a URI.  However the behaviour of
+│                             │                   HttpURI
+│                             │                    differs from the common browsers in how it handles a URI
+│                             │                   that would be 
+│                             │                   considered invalid if fully validated against the RRC. 
+│                             │                   Specifically HttpURI
+│                             │                    and the browser may differ on the value of the host
+│                             │                   extracted from an 
+│                             │                   invalid URI and thus a combination of Jetty and a vulnerable
+│                             │                   browser may
+│                             │                    be vulnerable to a open redirect attack or to a SSRF attack
+│                             │                   if the URI 
+│                             │                   is used after passing validation checks. 
+│                             ├ Severity        : LOW 
+│                             ├ CweIDs           ─ [0]: CWE-1286 
+│                             ├ VendorSeverity   ╭ ghsa  : 1 
+│                             │                  ╰ redhat: 1 
+│                             ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/
+│                             │                  │        │           A:N 
+│                             │                  │        ╰ V3Score : 3.7 
+│                             │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/
+│                             │                           │           A:N 
+│                             │                           ╰ V3Score : 3.7 
+│                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-6763 
+│                             │                  ├ [1]: https://github.com/jetty/jetty.project 
+│                             │                  ├ [2]: https://github.com/jetty/jetty.project/pull/12012 
+│                             │                  ├ [3]: https://github.com/jetty/jetty.project/security/advisor
+│                             │                  │      ies/GHSA-qh8g-58pp-2wxh 
+│                             │                  ├ [4]: https://gitlab.eclipse.org/security/cve-assignement/-/i
+│                             │                  │      ssues/25 
+│                             │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-6763 
+│                             │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6763 
+│                             ├ PublishedDate   : 2024-10-14T16:15:04.163Z 
+│                             ╰ LastModifiedDate: 2024-10-15T12:57:46.88Z 
+╰ [2] ╭ Target         : Python 
+      ├ Class          : lang-pkgs 
+      ├ Type           : python-pkg 
+      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-49766 
+                        │     ├ PkgName         : Werkzeug 
+                        │     ├ PkgPath         : opt/mitmproxy/lib/python3.12/site-packages/werkzeug-3.0.4.dis
+                        │     │                   t-info/METADATA 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:pypi/werkzeug@3.0.4 
+                        │     │                  ╰ UID : 4f3794170a33ab73 
+                        │     ├ InstalledVersion: 3.0.4 
+                        │     ├ FixedVersion    : 3.0.6 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac0
+                        │     │                  │         be5e2911554c5b051dd 
+                        │     │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575d
+                        │     │                            684c92cd808f179b657 
+                        │     ├ SeveritySource  : ghsa 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-49766 
+                        │     ├ DataSource       ╭ ID  : ghsa 
+                        │     │                  ├ Name: GitHub Security Advisory pip 
+                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+                        │     │                          osystem%3Apip 
+                        │     ├ Title           : werkzeug: python-werkzeug: Werkzeug safe_join not safe on
+                        │     │                   Windows 
+                        │     ├ Description     : Werkzeug is a Web Server Gateway Interface web application
+                        │     │                   library. On Python < 3.11 on Windows, os.path.isabs() does
+                        │     │                   not catch UNC paths like //server/share. Werkzeug's
+                        │     │                   safe_join() relies on this check, and so can produce a path
+                        │     │                   that is not safe, potentially allowing unintended access to
+                        │     │                   data. Applications using Python >= 3.11, or not using
+                        │     │                   Windows, are not vulnerable. Werkzeug version 3.0.6 contains
+                        │     │                   a patch. 
+                        │     ├ Severity        : MEDIUM 
+                        │     ├ CweIDs           ─ [0]: CWE-22 
+                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+                        │     │                  ╰ redhat: 2 
+                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/
+                        │     │                           │           A:N 
+                        │     │                           ╰ V3Score : 3.7 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-49766 
+                        │     │                  ├ [1]: https://github.com/pallets/werkzeug 
+                        │     │                  ├ [2]: https://github.com/pallets/werkzeug/commit/2767bcb10a7d
+                        │     │                  │      d1c297d812cc5e6d11a474c1f092 
+                        │     │                  ├ [3]: https://github.com/pallets/werkzeug/releases/tag/3.0.6 
+                        │     │                  ├ [4]: https://github.com/pallets/werkzeug/security/advisories
+                        │     │                  │      /GHSA-f9vj-2wh5-fj8j 
+                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-49766 
+                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-49766 
+                        │     ├ PublishedDate   : 2024-10-25T20:15:04.41Z 
+                        │     ╰ LastModifiedDate: 2024-10-28T13:58:09.23Z 
+                        ╰ [1] ╭ VulnerabilityID : CVE-2024-49767 
+                              ├ PkgName         : Werkzeug 
+                              ├ PkgPath         : opt/mitmproxy/lib/python3.12/site-packages/werkzeug-3.0.4.dis
+                              │                   t-info/METADATA 
+                              ├ PkgIdentifier    ╭ PURL: pkg:pypi/werkzeug@3.0.4 
+                              │                  ╰ UID : 4f3794170a33ab73 
+                              ├ InstalledVersion: 3.0.4 
+                              ├ FixedVersion    : 3.0.6 
+                              ├ Status          : fixed 
+                              ├ Layer            ╭ Digest: sha256:d6f42b3f639d3f5d6efa3e120af5e95b34eb0fcbfcac0
+                              │                  │         be5e2911554c5b051dd 
+                              │                  ╰ DiffID: sha256:ae4faff829b14d8120a96115bb9ddaeacddf69163575d
+                              │                            684c92cd808f179b657 
+                              ├ SeveritySource  : ghsa 
+                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-49767 
+                              ├ DataSource       ╭ ID  : ghsa 
+                              │                  ├ Name: GitHub Security Advisory pip 
+                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+                              │                          osystem%3Apip 
+                              ├ Title           : werkzeug: python-werkzeug: Werkzeug possible resource
+                              │                   exhaustion when parsing file data in forms 
+                              ├ Description     : Werkzeug is a Web Server Gateway Interface web application
+                              │                   library. Applications using
+                              │                   `werkzeug.formparser.MultiPartParser` corresponding to a
+                              │                   version of Werkzeug prior to 3.0.6 to parse
+                              │                   `multipart/form-data` requests (e.g. all flask applications)
+                              │                   are vulnerable to a relatively simple but effective resource
+                              │                   exhaustion (denial of service) attack. A specifically crafted
+                              │                    form submission request can cause the parser to allocate and
+                              │                    block 3 to 8 times the upload size in main memory. There is
+                              │                   no upper limit; a single upload at 1 Gbit/s can exhaust 32 GB
+                              │                    of RAM in less than 60 seconds. Werkzeug version 3.0.6 fixes
+                              │                    this issue. 
+                              ├ Severity        : MEDIUM 
+                              ├ CweIDs           ╭ [0]: CWE-400 
+                              │                  ╰ [1]: CWE-770 
+                              ├ VendorSeverity   ╭ ghsa  : 2 
+                              │                  ├ nvd   : 3 
+                              │                  ├ redhat: 2 
+                              │                  ╰ ubuntu: 2 
+                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+                              │                  │        │           A:H 
+                              │                  │        ╰ V3Score : 7.5 
+                              │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+                              │                  │        │           A:H 
+                              │                  │        ╰ V3Score : 7.5 
+                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+                              │                           │           A:L 
+                              │                           ╰ V3Score : 5.3 
+                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-49767 
+                              │                  ├ [1]: https://github.com/pallets/quart/commit/5e78c4169b8eb66
+                              │                  │      b91ead3e62d44721b9e1644ee 
+                              │                  ├ [2]: https://github.com/pallets/werkzeug 
+                              │                  ├ [3]: https://github.com/pallets/werkzeug/commit/50cfeebcb072
+                              │                  │      7e18cc52ffbeb125f4a66551179b 
+                              │                  ├ [4]: https://github.com/pallets/werkzeug/releases/tag/3.0.6 
+                              │                  ├ [5]: https://github.com/pallets/werkzeug/security/advisories
+                              │                  │      /GHSA-q34m-jh98-gwm2 
+                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-49767 
+                              │                  ├ [7]: https://ubuntu.com/security/notices/USN-7093-1 
+                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-49767 
+                              ├ PublishedDate   : 2024-10-25T20:15:04.53Z 
+                              ╰ LastModifiedDate: 2024-11-05T20:03:04.847Z 
 ````
