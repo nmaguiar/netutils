@@ -65,6 +65,15 @@ RUN /openaf/oaf --sb /openaf/ojobs/softVersions.yaml\
  && chown openaf:0 /openaf/ojobs/socksProxy.yaml\
  && chmod u+rwx,g+rwx,o+rx /openaf/ojobs/socksProxy.yaml
 
+# Setup posting
+# -------------
+RUN apk add pipx\
+ && export PIPX_HOME=/opt/python/venvs\
+ && export PIPX_BIN_DIR=/opt/python/bin\
+ && pipx install posting\
+ && rm -rf /root/.local\
+ && apk del pipx
+
 # Setup netutils folder
 # ---------------------
 RUN mkdir /netutils\
@@ -81,7 +90,7 @@ RUN gzip /etc/netutils\
  && echo "alias oaf-light-theme='colorFormats.yaml op=set theme=thin-light-bold'" >> /etc/bash/start.sh\
  && echo "alias oaf-dark-theme='colorFormats.yaml op=set theme=thin-intense-bold'" >> /etc/bash/start.sh\
  && echo "alias help='source /etc/bash/start.sh'" >> /etc/bash/start.sh\
- && echo "export PATH=$PATH:/openaf:/openaf/ojobs" >> /etc/bash/start.sh\
+ && echo "export PATH=$PATH:/openaf:/openaf/ojobs:/opt/python/bin" >> /etc/bash/start.sh\
  && cp /etc/bash/start.sh /etc/profile.d/start.sh
     
 # Add bash completion
