@@ -119,3 +119,4 @@ Host network:
 | posting | A powerful HTTP client that lives in your terminal. Posting is an HTTP client, not unlike Postman and Insomnia | |
 | websocat | WebSocket client and server for command-line. |  |
 | whois | Querying information about domain names and IP addresses. |  |
+
