@@ -13,10 +13,10 @@
 │                             ├ InstalledVersion: 9.4.55.v20240627 
 │                             ├ FixedVersion    : 12.0.12 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:4e6c2c817acb497c5fcb6eb801b45a437b1e42a46a519
-│                             │                  │         dd90dbe8b1724d0d9f0 
-│                             │                  ╰ DiffID: sha256:70d9075019bf4f3a6f62c8a105bceb3b471ff91fd4e23
-│                             │                            baa58a511caca8b1375 
+│                             ├ Layer            ╭ Digest: sha256:96d13c8d8455625438a25e24f14f97606515d3d192c28
+│                             │                  │         6e3edc04eb81be3f6a8 
+│                             │                  ╰ DiffID: sha256:9bf76274ac002b027dd7c680774317aa32811f3afc49c
+│                             │                            59ff932d4fecd89e990 
 │                             ├ SeveritySource  : ghsa 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6763 
 │                             ├ DataSource       ╭ ID  : ghsa 
@@ -68,117 +68,7 @@
 │                             │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6763 
 │                             ├ PublishedDate   : 2024-10-14T16:15:04.163Z 
 │                             ╰ LastModifiedDate: 2024-11-08T21:15:57.677Z 
-╰ [2] ╭ Target         : Python 
-      ├ Class          : lang-pkgs 
-      ├ Type           : python-pkg 
-      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-49766 
-                        │     ├ PkgName         : Werkzeug 
-                        │     ├ PkgPath         : opt/mitmproxy/lib/python3.12/site-packages/werkzeug-3.0.4.dis
-                        │     │                   t-info/METADATA 
-                        │     ├ PkgIdentifier    ╭ PURL: pkg:pypi/werkzeug@3.0.4 
-                        │     │                  ╰ UID : 4f3794170a33ab73 
-                        │     ├ InstalledVersion: 3.0.4 
-                        │     ├ FixedVersion    : 3.0.6 
-                        │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:4e6c2c817acb497c5fcb6eb801b45a437b1e42a46a519
-                        │     │                  │         dd90dbe8b1724d0d9f0 
-                        │     │                  ╰ DiffID: sha256:70d9075019bf4f3a6f62c8a105bceb3b471ff91fd4e23
-                        │     │                            baa58a511caca8b1375 
-                        │     ├ SeveritySource  : ghsa 
-                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-49766 
-                        │     ├ DataSource       ╭ ID  : ghsa 
-                        │     │                  ├ Name: GitHub Security Advisory pip 
-                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
-                        │     │                          osystem%3Apip 
-                        │     ├ Title           : werkzeug: python-werkzeug: Werkzeug safe_join not safe on
-                        │     │                   Windows 
-                        │     ├ Description     : Werkzeug is a Web Server Gateway Interface web application
-                        │     │                   library. On Python < 3.11 on Windows, os.path.isabs() does
-                        │     │                   not catch UNC paths like //server/share. Werkzeug's
-                        │     │                   safe_join() relies on this check, and so can produce a path
-                        │     │                   that is not safe, potentially allowing unintended access to
-                        │     │                   data. Applications using Python >= 3.11, or not using
-                        │     │                   Windows, are not vulnerable. Werkzeug version 3.0.6 contains
-                        │     │                   a patch. 
-                        │     ├ Severity        : MEDIUM 
-                        │     ├ CweIDs           ─ [0]: CWE-22 
-                        │     ├ VendorSeverity   ╭ ghsa  : 2 
-                        │     │                  ╰ redhat: 2 
-                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/
-                        │     │                           │           A:N 
-                        │     │                           ╰ V3Score : 3.7 
-                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-49766 
-                        │     │                  ├ [1]: https://github.com/pallets/werkzeug 
-                        │     │                  ├ [2]: https://github.com/pallets/werkzeug/commit/2767bcb10a7d
-                        │     │                  │      d1c297d812cc5e6d11a474c1f092 
-                        │     │                  ├ [3]: https://github.com/pallets/werkzeug/releases/tag/3.0.6 
-                        │     │                  ├ [4]: https://github.com/pallets/werkzeug/security/advisories
-                        │     │                  │      /GHSA-f9vj-2wh5-fj8j 
-                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-49766 
-                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-49766 
-                        │     ├ PublishedDate   : 2024-10-25T20:15:04.41Z 
-                        │     ╰ LastModifiedDate: 2024-10-28T13:58:09.23Z 
-                        ╰ [1] ╭ VulnerabilityID : CVE-2024-49767 
-                              ├ PkgName         : Werkzeug 
-                              ├ PkgPath         : opt/mitmproxy/lib/python3.12/site-packages/werkzeug-3.0.4.dis
-                              │                   t-info/METADATA 
-                              ├ PkgIdentifier    ╭ PURL: pkg:pypi/werkzeug@3.0.4 
-                              │                  ╰ UID : 4f3794170a33ab73 
-                              ├ InstalledVersion: 3.0.4 
-                              ├ FixedVersion    : 3.0.6 
-                              ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:4e6c2c817acb497c5fcb6eb801b45a437b1e42a46a519
-                              │                  │         dd90dbe8b1724d0d9f0 
-                              │                  ╰ DiffID: sha256:70d9075019bf4f3a6f62c8a105bceb3b471ff91fd4e23
-                              │                            baa58a511caca8b1375 
-                              ├ SeveritySource  : ghsa 
-                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-49767 
-                              ├ DataSource       ╭ ID  : ghsa 
-                              │                  ├ Name: GitHub Security Advisory pip 
-                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
-                              │                          osystem%3Apip 
-                              ├ Title           : werkzeug: python-werkzeug: Werkzeug possible resource
-                              │                   exhaustion when parsing file data in forms 
-                              ├ Description     : Werkzeug is a Web Server Gateway Interface web application
-                              │                   library. Applications using
-                              │                   `werkzeug.formparser.MultiPartParser` corresponding to a
-                              │                   version of Werkzeug prior to 3.0.6 to parse
-                              │                   `multipart/form-data` requests (e.g. all flask applications)
-                              │                   are vulnerable to a relatively simple but effective resource
-                              │                   exhaustion (denial of service) attack. A specifically crafted
-                              │                    form submission request can cause the parser to allocate and
-                              │                    block 3 to 8 times the upload size in main memory. There is
-                              │                   no upper limit; a single upload at 1 Gbit/s can exhaust 32 GB
-                              │                    of RAM in less than 60 seconds. Werkzeug version 3.0.6 fixes
-                              │                    this issue. 
-                              ├ Severity        : MEDIUM 
-                              ├ CweIDs           ╭ [0]: CWE-400 
-                              │                  ╰ [1]: CWE-770 
-                              ├ VendorSeverity   ╭ ghsa  : 2 
-                              │                  ├ nvd   : 3 
-                              │                  ├ redhat: 2 
-                              │                  ╰ ubuntu: 2 
-                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
-                              │                  │        │           A:H 
-                              │                  │        ╰ V3Score : 7.5 
-                              │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
-                              │                  │        │           A:H 
-                              │                  │        ╰ V3Score : 7.5 
-                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
-                              │                           │           A:L 
-                              │                           ╰ V3Score : 5.3 
-                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-49767 
-                              │                  ├ [1]: https://github.com/pallets/quart/commit/5e78c4169b8eb66
-                              │                  │      b91ead3e62d44721b9e1644ee 
-                              │                  ├ [2]: https://github.com/pallets/werkzeug 
-                              │                  ├ [3]: https://github.com/pallets/werkzeug/commit/50cfeebcb072
-                              │                  │      7e18cc52ffbeb125f4a66551179b 
-                              │                  ├ [4]: https://github.com/pallets/werkzeug/releases/tag/3.0.6 
-                              │                  ├ [5]: https://github.com/pallets/werkzeug/security/advisories
-                              │                  │      /GHSA-q34m-jh98-gwm2 
-                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-49767 
-                              │                  ├ [7]: https://ubuntu.com/security/notices/USN-7093-1 
-                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-49767 
-                              ├ PublishedDate   : 2024-10-25T20:15:04.53Z 
-                              ╰ LastModifiedDate: 2024-11-05T20:03:04.847Z 
+╰ [2] ╭ Target: Python 
+      ├ Class : lang-pkgs 
+      ╰ Type  : python-pkg 
 ````
