@@ -116,6 +116,6 @@ Host network:
 | termshark | Terminal-based network packet analyzer. |  |
 | tinyproxy | A light-weight HTTP proxy daemon | |
 | tracepath | Tracing the path to a network host and measuring the path MTU. |  |
+| posting | A powerful HTTP client that lives in your terminal. Posting is an HTTP client, not unlike Postman and Insomnia | |
 | websocat | WebSocket client and server for command-line. |  |
 | whois | Querying information about domain names and IP addresses. |  |
-
