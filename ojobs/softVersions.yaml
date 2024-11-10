@@ -29,7 +29,7 @@ init:
   - name: iperf
     cmd : iperf -v
   - name: iptraf-ng
-    cmd : apk search iptraf-ng
+    cmd : sudo apk list iptraf-ng
   - name: iostat
     cmd : iostat -V
   - name: lnstat
@@ -80,6 +80,8 @@ init:
     cmd : termshark -v
   - name: tracepath 
     cmd : tracepath -V
+  - name: posting            
+    cmd : "cd /usr/lib/python3.12/site-packages && ls -d posting-*"
   - name: websocat
     cmd : websocat -V
   - name: whois

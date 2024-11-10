@@ -15,6 +15,7 @@ Some of the included tools:
 - drill
 - socat
 - websocat
+- posting
 
 ## Image security scans
 
