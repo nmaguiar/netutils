@@ -67,12 +67,11 @@ RUN /openaf/oaf --sb /openaf/ojobs/softVersions.yaml\
 
 # Setup posting
 # -------------
-RUN apk add pipx\
- && export PIPX_HOME=/opt/python/venvs\
- && export PIPX_BIN_DIR=/opt/python/bin\
- && pipx install posting\
- && rm -rf /root/.local\
- && apk del pipx
+RUN apk add --no-cache py3-pip\
+ && pip install posting --break-system-packages\
+ && apk del py3-pip\
+ && rm -rf /var/cache/apk/*\
+ && rm -rf /root/.local
 
 # Setup netutils folder
 # ---------------------
