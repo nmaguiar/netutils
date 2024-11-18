@@ -20,5 +20,6 @@ echo "---"
 echo ""
 tar -czf - -C "$COLLECTION_PATH" . | base64 -w 0
 echo ""
+echo ""
 echo "---"
 echo ""
