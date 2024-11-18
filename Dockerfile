@@ -94,8 +94,11 @@ RUN gzip /etc/netutils\
     
 # Add bash completion
 # -------------------
-RUN curl -s https://ojob.io/autoComplete.sh -o /etc/.openaf-ojobio-complete\
- && echo "source /etc/.openaf-ojobio-complete" >> /etc/bash/start.sh 
+
+RUN /openaf/oaf --bashcompletion all > /openaf/.openaf_completion.sh\
+ && chmod a+x /openaf/.openaf_*.sh\
+ && chown openaf:openaf /openaf/.openaf_*.sh\
+ && echo ". /openaf/.openaf_completion.sh" >> /etc/bash/start.sh
 
 # Documentation
 # -------------
