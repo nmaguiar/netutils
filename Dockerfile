@@ -26,6 +26,7 @@ RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
  && /openaf/ojob ojob.io/get job=ojob.io/httpServers/RedirectHTTPd.yaml > /openaf/ojobs/RedirectHTTPd.yaml\
  && /openaf/ojob ojob.io/get job=ojob.io/httpServers/uploadHTTPSd.yaml > /openaf/ojobs/uploadHTTPSd.yaml\
  && /openaf/ojob ojob.io/get job=ojob.io/httpServers/uploadHTTPd.yaml > /openaf/ojobs/uploadHTTPd.yaml\
+ && /openaf/ojob ojob.io/get job=ojob.io/formats/postman2posting.yaml > /openaf/ojobs/postman2posting.yaml\
  && cd /openaf/ojobs\
  && /openaf/ojob ojob.io/get airgap=true job=ojob.io/grid/data/gc2\
  && mv ojob.io_grid_data_gc2.yaml javaGC.yaml\
@@ -48,6 +49,7 @@ RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
  && /openaf/oaf --sb /openaf/ojobs/RedirectHTTPd.yaml\
  && /openaf/oaf --sb /openaf/ojobs/uploadHTTPSd.yaml\
  && /openaf/oaf --sb /openaf/ojobs/uploadHTTPd.yaml\
+ && /openaf/oaf --sb /openaf/ojobs/postman2posting.yaml\
  && chown -R openaf:0 /openaf\
  && chown openaf:0 /openaf/.opack.db\
  && chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\

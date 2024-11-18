@@ -93,6 +93,7 @@ Host network:
 | ojob emailSend.yaml | Sends an email | |
 | ojob javaGC.yaml | Shows basic Java GC information | |
 | ojob jdbc.yaml | Tries to reach a database through a JDBC driver and measure the round-trip. | |
+| ojob postman2posting.yaml | Tries to convert a Postman JSON into a Posting folder. |
 | ojob publicIP.yaml | Provides public IP information from the current internet connection or a provided ip address. | |
 | ojob socksProxy.yaml | Provides a SOCKS proxy (equivalent to nmaguiar/socksd) | |
 | ojob sslDates.yaml | Get a HTTPS host SSL certificate dates. | | 
