@@ -18,7 +18,7 @@ echo "[2mLater you can use 'posting-import.sh $COLLECTION_PATH' to restore it a
 echo ""
 echo "---" 
 echo ""
-tar -czf - -C "$COLLECTION_PATH" . | base64
+tar -czf - -C "$COLLECTION_PATH" . | base64 -w 0
 echo ""
 echo "---"
 echo ""

@@ -19,7 +19,7 @@ echo ""
 BASE64_DATA=$(cat)
 
 # Decode and extract the data to the collection path
-echo "$BASE64_DATA" | base64 -d | tar -xz -C "$COLLECTION_PATH"
+echo "$BASE64_DATA" | base64 -d -w 0 | tar -xz -C "$COLLECTION_PATH"
 echo ""
 echo "---"
 echo ""
