@@ -105,18 +105,23 @@ RUN /openaf/oaf --bashcompletion all > /openaf/.openaf_completion.sh\
 COPY USAGE.md /USAGE.md
 COPY EXAMPLES.md /EXAMPLES.md
 COPY MITM.md /openaf/MITM.md
+COPY POSTING.md /openaf/POSTING.md
 RUN gzip /USAGE.md\
  && gzip /EXAMPLES.md\
  && gzip /openaf/MITM.md\
+ && gzip /openaf/POSTING.md\
  && echo "#!/bin/sh" > /usr/bin/usage-help\
  && echo "#!/bin/sh" > /usr/bin/examples-help\
  && echo "#!/bin/sh" > /usr/bin/mitm-help\
+ && echo "#!/bin/sh" > /usr/bin/posting-help\
  && echo "zcat /USAGE.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/usage-help\
  && echo "zcat /EXAMPLES.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/examples-help\
  && echo "zcat /openaf/MITM.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/mitm-help\
+ && echo "zcat /openaf/POSTING.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/posting-help\
  && chmod a+x /usr/bin/usage-help\
  && chmod a+x /usr/bin/examples-help\
- && chmod a+x /usr/bin/mitm-help
+ && chmod a+x /usr/bin/mitm-help\
+ && chmod a+x /usr/bin/posting-help
 
 # Copy scripts
 # ------------
@@ -125,7 +130,9 @@ RUN chmod a+x /usr/bin/mitm-transparent*\
  && chmod a+x /usr/bin/mitm-gencerts.sh\
  && chmod a+x /usr/bin/sysstat-start.sh\
  && chmod a+x /usr/bin/sysstat-stop.sh\
- && chmod a+x /usr/bin/switch-user-by-pid.sh
+ && chmod a+x /usr/bin/switch-user-by-pid.sh\
+ && chmod a+x /usr/bin/posting-export.sh\
+ && chmod a+x /usr/bin/posting-import.sh
 
 # ----------------------
 FROM scratch as prefinal
