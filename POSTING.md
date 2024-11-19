@@ -1,5 +1,15 @@
 # posting
 
+| Topics |
+|--------------------------|
+| Creating your collection |
+| Converting from Postman |
+| Exporting a collection |
+| Importing a collection |
+| See more |
+
+> To search for a specific example type '/Exporting a collection' and use the arrow keys to navigate
+
 ---
 
 ## ✨ Creating your collection
@@ -11,12 +21,25 @@ To create your own _posting_ collection you will need to:
 
 ---
 
-## ⬇️  Exporting a collection
+## 🔄  Converting from Postman
+
+While Posting doesn't support importing Postman collections there is some limited support for it. To try to convert try to copy the Postman JSON export (or copy+paste to a file using _vi_) and then:
+
+```bash
+
+postman2posting.yaml input=my-postman-collection.json output=my-collection
+posting --collection my-collection
+
+```
+
+---
+
+## ⬇️  Exporting a collection 
 
 After you create you _posting_ collection you will probably want to save it to reuse again.
 To export the default collection just execute:
 
-```
+```bash
 
 posting-export.sh
 
@@ -26,7 +49,7 @@ posting-export.sh
 
 To export a specific collection given the collection folder you created execute:
 
-```
+```bash
 
 posting-export.sh myfolder
 
@@ -34,12 +57,12 @@ posting-export.sh myfolder
 
 ---
 
-## ⬆️  Importing a collection
+## ⬆️  Importing a collection 
 
 If you have exported previously a _posting_ collection in base64 you might now want to restore it.
 To import to the default collection just execute:
 
-```
+```bash
 
 posting-import.sh
 
@@ -49,7 +72,7 @@ posting-import.sh
 
 To import a specific collection to a specific collection folder:
 
-```
+```bash
 
 posting-import.sh myfolder
 
@@ -59,6 +82,6 @@ posting-import.sh myfolder
 
 ---
 
-## See more
+## 📚  See more
 
 You can see more in [https://posting.sh](https://posting.sh).
