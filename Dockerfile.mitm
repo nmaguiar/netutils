@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:edge as main
 
 RUN apk update\
  && apk upgrade\
@@ -14,3 +14,5 @@ RUN mkdir -p /opt/mitmproxy\
 RUN mkdir -p /usr/local/bin && \
     cp /opt/mitmproxy/bin/mitm* /usr/bin/
     
+FROM scratch
+COPY --from=main /opt/mitmproxy /

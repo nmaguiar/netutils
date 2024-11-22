@@ -43,9 +43,7 @@ jobs:
         docker system prune -f
         ls -lad *
         if [ ! -d mitmproxy ]; then
-          docker build -t dev -f Dockerfile.mitm .
-          docker create --name dev dev
-          docker cp dev:/opt/mitmproxy mitmproxy
+          docker build --no-cache -f Dockerfile.mitm -o mitmproxy .
         fi
 
     - uses: docker/build-push-action@v3
@@ -90,9 +88,7 @@ jobs:
         docker system prune -f
         ls -lad *
         if [ ! -d mitmproxy ]; then
-          docker build -t dev -f Dockerfile.mitm .
-          docker create --name dev dev
-          docker cp dev:/opt/mitmproxy mitmproxy
+          docker build --no-cache -f Dockerfile.mitm -o mitmproxy .
         fi
 
     - uses: docker/build-push-action@v3

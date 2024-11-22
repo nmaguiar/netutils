@@ -16,9 +16,7 @@ jobs:
           run : |
             docker system prune -f
             rm -rf mitmproxy
-            docker build --no-cache -t dev -f Dockerfile.mitm .
-            docker create --name dev dev
-            docker cp dev:/opt/mitmproxy mitmproxy
+            docker build --no-cache -f Dockerfile.mitm -o mitmproxy .
 
         - name: Cache mitmproxy save
           uses: actions/cache/save@v3
@@ -39,9 +37,7 @@ jobs:
           run : |
             docker system prune -f
             rm -rf mitmproxy
-            docker build --no-cache -t dev -f Dockerfile.mitm .
-            docker create --name dev dev
-            docker cp dev:/opt/mitmproxy mitmproxy
+            docker build --no-cache -f Dockerfile.mitm -o mitmproxy .
 
         - name: Cache mitmproxy save
           uses: actions/cache/save@v3
