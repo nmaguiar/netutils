@@ -86,6 +86,8 @@ init:
     cmd : websocat -V
   - name: whois
     cmd : whois -V
+  - name: strace
+    cmd : strace -V
     
 # Author: Nuno Aguiar
 help:
