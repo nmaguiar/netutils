@@ -9,6 +9,7 @@ RUN mkdir -p /opt/mitmproxy\
  && . /opt/mitmproxy/bin/activate\
  && pip install --upgrade pip\
  && pip install ruamel.yaml>=0.16.13\
+ && pip install tornado>=6.4.2\
  && pip install mitmproxy
 
 RUN mkdir -p /usr/local/bin && \
