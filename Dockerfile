@@ -133,6 +133,7 @@ RUN chmod a+x /usr/bin/mitm-transparent*\
  && chmod a+x /usr/bin/sysstat-start.sh\
  && chmod a+x /usr/bin/sysstat-stop.sh\
  && chmod a+x /usr/bin/switch-user-by-pid.sh\
+ && chmod a+x /usr/bin/switch-fs-by-pid.sh\
  && chmod a+x /usr/bin/posting-export.sh\
  && chmod a+x /usr/bin/posting-import.sh
 
