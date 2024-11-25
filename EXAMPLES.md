@@ -124,7 +124,7 @@ EchoHTTPd.yaml port=8080
 ## 🪳 Run a program in another pid namespace
 
 You can execute a program (including a shell) in another's pid namespace. 
-If you are using ```kubectl debug```:
+If you are using ```kubectl debug pod-to-debug -it --image nmaguiar/netutils --target=container-to-debug --profile=sysadmin -- /bin/bash```:
 
 ```bash
 nsenter -t [target pid] -m -u -n -i sh
