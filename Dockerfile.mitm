@@ -8,9 +8,10 @@ RUN mkdir -p /opt/mitmproxy\
  && python3 -m venv /opt/mitmproxy\
  && . /opt/mitmproxy/bin/activate\
  && pip install --upgrade pip\
- && pip install ruamel.yaml>=0.16.13\
- && pip install tornado>=6.4.2\
- && pip install mitmproxy
+ && pip install mitmproxy\
+ && cd /opt/mitmproxy\
+ && sed -i 's/tornado<=6.4.1,>=6.4.1"/tornado<=6.4.2,>=6.4.2"/' lib/python3.12/site-packages/mitmproxy-11.0.1.dist-info/METADATA\
+ && pip install --upgrade tornado==6.4.2
 
 RUN mkdir -p /usr/local/bin && \
     cp /opt/mitmproxy/bin/mitm* /usr/bin/
