@@ -16,6 +16,7 @@ Some of the included tools:
 - socat
 - websocat
 - posting
+- strace
 
 ## Image security scans
 
