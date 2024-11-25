@@ -8,7 +8,7 @@ RUN mkdir -p /opt/mitmproxy\
  && python3 -m venv /opt/mitmproxy\
  && . /opt/mitmproxy/bin/activate\
  && pip install --upgrade pip\
- && pip install ruamel.yaml>=0.16.13,<=0.18.6\
+ && pip install ruamel.yaml>=0.16.13\
  && pip install mitmproxy
 
 RUN mkdir -p /usr/local/bin && \
