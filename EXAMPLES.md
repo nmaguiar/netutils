@@ -4,7 +4,9 @@ List of examples:
 
 | Category | Example title |
 |----------|---------------|
-| Debug | Run a program in another pid namespace |
+| Debug | Run a program in another namespace's pid |
+| Debug | Access the filesystem of another namespace's pid |
+| Debug | Monitor the CPU/IO/Memory used by another namespace's pid |
 | Monitoring | Monitors network usage |
 | Monitoring | Monitor Java memory |
 | Performance | Network performance between two points |
@@ -90,7 +92,7 @@ This is possible by starting a debug container for an existing Kubernetes pod wh
 In the debugger container identify the running Java process:
 
 ```bash
-ps -axf
+ps axf
 ```
 
 > PIDs are "shared" between the target container and the debug container
@@ -121,9 +123,9 @@ EchoHTTPd.yaml port=8080
 
 ---
 
-## 🪳 Run a program in another pid namespace
+## 🪳 Run a program in another namespace's pid 
 
-You can execute a program (including a shell) in another's pid namespace. 
+You can execute a program (including a shell) in another namespace's pid. 
 If you are using ```kubectl debug pod-to-debug -it --image nmaguiar/netutils --target=container-to-debug --profile=sysadmin -- /bin/bash```:
 
 ```bash
@@ -134,4 +136,31 @@ or if you are using ```docker run -it --rm --privileged --pid=host nmaguiar/netu
 
 ```bash
 nsenter -t 1 -m -u -n -i sh
+```
+
+---
+
+## 🔍 Access the filesystem of another namespace's pid
+
+If you are using ```kubectl debug pod-to-debug -it --image nmaguiar/netutils --target=container-to-debug --profile=sysadmin -- /bin/bash``` or ```docker run -it --rm --privileged --pid=host nmaguiar/netutils``` and you need to access the other namespace pid filesystem execute:
+
+```bash
+switch-fs-by-pid.sh 1234
+```
+
+---
+
+## 🔍 Monitor the CPU/IO/Memory used by another namespace's pid
+
+If you are using ```kubectl debug pod-to-debug -it --image nmaguiar/netutils --target=container-to-debug --profile=sysadmin -- /bin/bash``` or ```docker run -it --rm --privileged --pid=host nmaguiar/netutils``` and you need to access the other namespace pid filesystem execute:
+
+```bash
+# CPU of 1234 every 1 sec
+pidstat -p 1234 1
+
+# IO of 1234 every 1 sec
+pidstat -p 1234 -d 1
+
+# Memory of 1234 every 1 sec
+pidstat -p 1234 -r 1
 ```
