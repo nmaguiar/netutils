@@ -17,10 +17,10 @@
                               ├ InstalledVersion: 6.4.1 
                               ├ FixedVersion    : 6.4.2 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:2a383569988c3c629d933aad126c36b0959d783b85c56
-                              │                  │         ea3b8e0af3687cf5110 
-                              │                  ╰ DiffID: sha256:d647a7f3e19006b13c10de77ea97adf06e741857f2c32
-                              │                            31900b952a245afed68 
+                              ├ Layer            ╭ Digest: sha256:19d1627dd363f9e1b75fc958d329b0d08a87ee5a20ccd
+                              │                  │         604230b6dd03db3ea5c 
+                              │                  ╰ DiffID: sha256:438e252fa1332e64ff16c0d55572fb2afa40639950bd1
+                              │                            b0c4efa8f8d68eaf384 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-52804 
                               ├ DataSource       ╭ ID  : ghsa 
