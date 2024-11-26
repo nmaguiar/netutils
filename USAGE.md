@@ -8,15 +8,15 @@ Welcome to the NetUtils image. Check the deployment options available and the li
 
 {{{$acolor 'FAINT,ITALIC' 'docker run --rm -ti nmaguiar/netutils /bin/bash'}}}
 
-Host network:
+**Host network:**
 
 {{{$acolor 'FAINT,ITALIC' 'docker run --rm -ti --net host -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/netutils /bin/bash'}}}
 
-Container network:
+**Container network:**
 
 {{{$acolor 'FAINT,ITALIC' 'CONTAINER=some_other_container && docker run --rm -ti --net container:$CONTAINER --pid container:$CONTAINER -v /var/run/docker.sock:/var/run/docker.sock --volumes-from=$CONTAINER nmaguiar/netutils /bin/bash'}}}
 
-With permissions for termshark:
+**With permissions for termshark:**
 
 {{{$acolor 'FAINT,ITALIC' 'CONTAINER=some_other_container && docker run --rm -ti --cap-add=NET_ADMIN --cap-add=NET_RAW -v /var/run/docker.sock:/var/run/docker.sock --volumes-from=$CONTAINER --net container:$CONTAINER --pid container:$CONTAINER  nmaguiar/netutils /bin/bash'}}}
 
@@ -26,29 +26,38 @@ With permissions for termshark:
 
 {{{$acolor 'FAINT,ITALIC' 'nerdctl run --rm -ti nmaguiar/netutils /bin/bash'}}}
 
-Host network:
+**Host network:**
 
 {{{$acolor 'FAINT,ITALIC' 'nerdctl run --rm -ti --net host nmaguiar/netutils /bin/bash'}}}
 
-Container network:
+**Container network:**
 
 {{{$acolor 'FAINT,ITALIC' 'nerdctl run --rm -ti --net container:some_other_container nmaguiar/netutils /bin/bash'}}}
 
 ---
 
-## ⚙️  Deploy using kubectl
+## ⚙️  Deploy using kubectl 
 
 {{{$acolor 'FAINT,ITALIC' 'kubectl run netutils --rm -it --image nmaguiar/netutils -- /bin/bash'}}}
 
-Attach to a container to debug:
+**Attach to a container to debug:**
 
 {{{$acolor 'FAINT,ITALIC' 'kubectl debug pod-to-debug -it --image nmaguiar/netutils --target=container-to-debug --profile=netadmin -- /bin/bash'}}}
 
-Start in a specific node:
+Profiles:
+
+| Profile | Description |
+|---------|-------------|
+| netadmin | Network Administrator privileges (NET_ADMIN and NET_RAW). |
+| sysadmin | System Administrator (root) privileges. |
+| general | A reasonable set of defaults tailored for each debuging journey (SYS_PTRACE). |
+| auto | Automatically choose between general, baseline, and restricted. |
+
+**Start in a specific node:**
 
 {{{$acolor 'FAINT,ITALIC' 'NODENAME=node-server-0 NAME=netutils NS=kube-system  /bin/sh -c \'kubectl run -n $NS $NAME --rm -ti --image=nmaguiar/netutils  --overrides="{\"apiVersion\":\"v1\",\"spec\":{\"nodeName\":\"$NODENAME\",\"containers\":[{\"name\":\"$NAME\",\"image\":\"nmaguiar/netutils\",\"stdin\":true,\"stdinOnce\":true,\"tty\":true,\"args\":[\"/bin/bash\"]}]}}" -- /bin/bash\''}}}
 
-Host network:
+**Host network:**
 
 {{{$acolor 'FAINT,ITALIC' 'NODENAME=node-server-0 NAME=netutils NS=kube-system  /bin/sh -c \'kubectl run -n $NS $NAME --rm -ti --image=nmaguiar/netutils  --overrides="{\"apiVersion\":\"v1\",\"spec\":{\"hostNetwork\":true,\"nodeName\":\"$NODENAME\",\"containers\":[{\"name\":\"$NAME\",\"image\":\"nmaguiar/netutils\",\"stdin\":true,\"stdinOnce\":true,\"tty\":true,\"args\":[\"/bin/bash\"]}]}}" -- /bin/bash\''}}}
 
