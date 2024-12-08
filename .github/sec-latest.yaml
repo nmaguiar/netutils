@@ -55,6 +55,54 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-9287
     PublishedDate: '2024-10-22T17:15:06.697Z'
     LastModifiedDate: '2024-11-04T18:15:05.627Z'
+  - VulnerabilityID: CVE-2024-12254
+    PkgID: pyc@3.12.7-r1
+    PkgName: pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/pyc@3.12.7-r1?arch=x86_64&distro=3.20.3
+      UID: e17c1fb957ed096e
+    InstalledVersion: 3.12.7-r1
+    FixedVersion: 3.12.8-r1
+    Status: fixed
+    Layer:
+      Digest: sha256:596ec53de6a8d0a29423fe6e667e38110a8fff379a96cc8c33a7f5b5bbda2692
+      DiffID: sha256:1554555737a223f614e9cc320a8df537f3bb1b932420801c57ab45faf123ef46
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12254
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: Starting in Python 3.12.0, the asyncio._SelectorSocketTransport.writel ...
+    Description: |-
+      Starting in Python 3.12.0, the asyncio._SelectorSocketTransport.writelines()
+       method would not "pause" writing and signal to the Protocol to drain 
+      the buffer to the wire once the write buffer reached the "high-water 
+      mark". Because of this, Protocols would not periodically drain the write
+       buffer potentially leading to memory exhaustion.
+
+
+
+
+
+      This
+       vulnerability likely impacts a small number of users, you must be using
+       Python 3.12.0 or later, on macOS or Linux, using the asyncio module 
+      with protocols, and using .writelines() method which had new 
+      zero-copy-on-write behavior in Python 3.12.0 and later. If not all of 
+      these factors are true then your usage of Python is unaffected.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-400
+    - CWE-770
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/12/06/1
+    - https://github.com/python/cpython/commit/71e8429ac8e2adc10084ab5ec29a62f4b6671a82
+    - https://github.com/python/cpython/commit/9aa0deb2eef2655a1029ba228527b152353135b5
+    - https://github.com/python/cpython/issues/127655
+    - https://github.com/python/cpython/pull/127656
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROORB/
+    PublishedDate: '2024-12-06T16:15:20.623Z'
+    LastModifiedDate: '2024-12-06T19:15:10.983Z'
   - VulnerabilityID: CVE-2024-9287
     PkgID: python3@3.12.7-r1
     PkgName: python3
@@ -108,6 +156,54 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-9287
     PublishedDate: '2024-10-22T17:15:06.697Z'
     LastModifiedDate: '2024-11-04T18:15:05.627Z'
+  - VulnerabilityID: CVE-2024-12254
+    PkgID: python3@3.12.7-r1
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3@3.12.7-r1?arch=x86_64&distro=3.20.3
+      UID: 736bdbe107f5b3a6
+    InstalledVersion: 3.12.7-r1
+    FixedVersion: 3.12.8-r1
+    Status: fixed
+    Layer:
+      Digest: sha256:596ec53de6a8d0a29423fe6e667e38110a8fff379a96cc8c33a7f5b5bbda2692
+      DiffID: sha256:1554555737a223f614e9cc320a8df537f3bb1b932420801c57ab45faf123ef46
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12254
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: Starting in Python 3.12.0, the asyncio._SelectorSocketTransport.writel ...
+    Description: |-
+      Starting in Python 3.12.0, the asyncio._SelectorSocketTransport.writelines()
+       method would not "pause" writing and signal to the Protocol to drain 
+      the buffer to the wire once the write buffer reached the "high-water 
+      mark". Because of this, Protocols would not periodically drain the write
+       buffer potentially leading to memory exhaustion.
+
+
+
+
+
+      This
+       vulnerability likely impacts a small number of users, you must be using
+       Python 3.12.0 or later, on macOS or Linux, using the asyncio module 
+      with protocols, and using .writelines() method which had new 
+      zero-copy-on-write behavior in Python 3.12.0 and later. If not all of 
+      these factors are true then your usage of Python is unaffected.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-400
+    - CWE-770
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/12/06/1
+    - https://github.com/python/cpython/commit/71e8429ac8e2adc10084ab5ec29a62f4b6671a82
+    - https://github.com/python/cpython/commit/9aa0deb2eef2655a1029ba228527b152353135b5
+    - https://github.com/python/cpython/issues/127655
+    - https://github.com/python/cpython/pull/127656
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROORB/
+    PublishedDate: '2024-12-06T16:15:20.623Z'
+    LastModifiedDate: '2024-12-06T19:15:10.983Z'
   - VulnerabilityID: CVE-2024-9287
     PkgID: python3-pyc@3.12.7-r1
     PkgName: python3-pyc
@@ -161,6 +257,54 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-9287
     PublishedDate: '2024-10-22T17:15:06.697Z'
     LastModifiedDate: '2024-11-04T18:15:05.627Z'
+  - VulnerabilityID: CVE-2024-12254
+    PkgID: python3-pyc@3.12.7-r1
+    PkgName: python3-pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pyc@3.12.7-r1?arch=x86_64&distro=3.20.3
+      UID: ba298e51877022c1
+    InstalledVersion: 3.12.7-r1
+    FixedVersion: 3.12.8-r1
+    Status: fixed
+    Layer:
+      Digest: sha256:596ec53de6a8d0a29423fe6e667e38110a8fff379a96cc8c33a7f5b5bbda2692
+      DiffID: sha256:1554555737a223f614e9cc320a8df537f3bb1b932420801c57ab45faf123ef46
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12254
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: Starting in Python 3.12.0, the asyncio._SelectorSocketTransport.writel ...
+    Description: |-
+      Starting in Python 3.12.0, the asyncio._SelectorSocketTransport.writelines()
+       method would not "pause" writing and signal to the Protocol to drain 
+      the buffer to the wire once the write buffer reached the "high-water 
+      mark". Because of this, Protocols would not periodically drain the write
+       buffer potentially leading to memory exhaustion.
+
+
+
+
+
+      This
+       vulnerability likely impacts a small number of users, you must be using
+       Python 3.12.0 or later, on macOS or Linux, using the asyncio module 
+      with protocols, and using .writelines() method which had new 
+      zero-copy-on-write behavior in Python 3.12.0 and later. If not all of 
+      these factors are true then your usage of Python is unaffected.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-400
+    - CWE-770
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/12/06/1
+    - https://github.com/python/cpython/commit/71e8429ac8e2adc10084ab5ec29a62f4b6671a82
+    - https://github.com/python/cpython/commit/9aa0deb2eef2655a1029ba228527b152353135b5
+    - https://github.com/python/cpython/issues/127655
+    - https://github.com/python/cpython/pull/127656
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROORB/
+    PublishedDate: '2024-12-06T16:15:20.623Z'
+    LastModifiedDate: '2024-12-06T19:15:10.983Z'
   - VulnerabilityID: CVE-2024-9287
     PkgID: python3-pycache-pyc0@3.12.7-r1
     PkgName: python3-pycache-pyc0
@@ -214,6 +358,54 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-9287
     PublishedDate: '2024-10-22T17:15:06.697Z'
     LastModifiedDate: '2024-11-04T18:15:05.627Z'
+  - VulnerabilityID: CVE-2024-12254
+    PkgID: python3-pycache-pyc0@3.12.7-r1
+    PkgName: python3-pycache-pyc0
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pycache-pyc0@3.12.7-r1?arch=x86_64&distro=3.20.3
+      UID: 60cfd04adac22571
+    InstalledVersion: 3.12.7-r1
+    FixedVersion: 3.12.8-r1
+    Status: fixed
+    Layer:
+      Digest: sha256:596ec53de6a8d0a29423fe6e667e38110a8fff379a96cc8c33a7f5b5bbda2692
+      DiffID: sha256:1554555737a223f614e9cc320a8df537f3bb1b932420801c57ab45faf123ef46
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12254
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: Starting in Python 3.12.0, the asyncio._SelectorSocketTransport.writel ...
+    Description: |-
+      Starting in Python 3.12.0, the asyncio._SelectorSocketTransport.writelines()
+       method would not "pause" writing and signal to the Protocol to drain 
+      the buffer to the wire once the write buffer reached the "high-water 
+      mark". Because of this, Protocols would not periodically drain the write
+       buffer potentially leading to memory exhaustion.
+
+
+
+
+
+      This
+       vulnerability likely impacts a small number of users, you must be using
+       Python 3.12.0 or later, on macOS or Linux, using the asyncio module 
+      with protocols, and using .writelines() method which had new 
+      zero-copy-on-write behavior in Python 3.12.0 and later. If not all of 
+      these factors are true then your usage of Python is unaffected.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-400
+    - CWE-770
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/12/06/1
+    - https://github.com/python/cpython/commit/71e8429ac8e2adc10084ab5ec29a62f4b6671a82
+    - https://github.com/python/cpython/commit/9aa0deb2eef2655a1029ba228527b152353135b5
+    - https://github.com/python/cpython/issues/127655
+    - https://github.com/python/cpython/pull/127656
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROORB/
+    PublishedDate: '2024-12-06T16:15:20.623Z'
+    LastModifiedDate: '2024-12-06T19:15:10.983Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
