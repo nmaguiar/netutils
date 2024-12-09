@@ -18,8 +18,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : Starting in Python 3.12.0, the
-│                       │     │                   asyncio._SelectorSocketTransport.writel ... 
+│                       │     ├ Title           : python: Unbounded memory buffering in
+│                       │     │                   SelectorSocketTransport.writelines() 
 │                       │     ├ Description     : Starting in Python 3.12.0, the
 │                       │     │                   asyncio._SelectorSocketTransport.writelines()
 │                       │     │                    method would not "pause" writing and signal to the Protocol
@@ -40,18 +40,25 @@
 │                       │     │                   not all of 
 │                       │     │                   these factors are true then your usage of Python is
 │                       │     │                   unaffected. 
-│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ Severity        : HIGH 
 │                       │     ├ CweIDs           ╭ [0]: CWE-400 
 │                       │     │                  ╰ [1]: CWE-770 
+│                       │     ├ VendorSeverity   ─ redhat: 3 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 7.5 
 │                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/06/1 
-│                       │     │                  ├ [1]: https://github.com/python/cpython/commit/71e8429ac8e2ad
+│                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-12254 
+│                       │     │                  ├ [2]: https://github.com/python/cpython/commit/71e8429ac8e2ad
 │                       │     │                  │      c10084ab5ec29a62f4b6671a82 
-│                       │     │                  ├ [2]: https://github.com/python/cpython/commit/9aa0deb2eef265
+│                       │     │                  ├ [3]: https://github.com/python/cpython/commit/9aa0deb2eef265
 │                       │     │                  │      5a1029ba228527b152353135b5 
-│                       │     │                  ├ [3]: https://github.com/python/cpython/issues/127655 
-│                       │     │                  ├ [4]: https://github.com/python/cpython/pull/127656 
-│                       │     │                  ╰ [5]: https://mail.python.org/archives/list/security-announce
-│                       │     │                         @python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROORB/ 
+│                       │     │                  ├ [4]: https://github.com/python/cpython/issues/127655 
+│                       │     │                  ├ [5]: https://github.com/python/cpython/pull/127656 
+│                       │     │                  ├ [6]: https://mail.python.org/archives/list/security-announce
+│                       │     │                  │      @python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROORB/ 
+│                       │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-12254 
+│                       │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-12254 
 │                       │     ├ PublishedDate   : 2024-12-06T16:15:20.623Z 
 │                       │     ╰ LastModifiedDate: 2024-12-06T19:15:10.983Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2024-12254 
@@ -71,8 +78,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : Starting in Python 3.12.0, the
-│                       │     │                   asyncio._SelectorSocketTransport.writel ... 
+│                       │     ├ Title           : python: Unbounded memory buffering in
+│                       │     │                   SelectorSocketTransport.writelines() 
 │                       │     ├ Description     : Starting in Python 3.12.0, the
 │                       │     │                   asyncio._SelectorSocketTransport.writelines()
 │                       │     │                    method would not "pause" writing and signal to the Protocol
@@ -93,18 +100,25 @@
 │                       │     │                   not all of 
 │                       │     │                   these factors are true then your usage of Python is
 │                       │     │                   unaffected. 
-│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ Severity        : HIGH 
 │                       │     ├ CweIDs           ╭ [0]: CWE-400 
 │                       │     │                  ╰ [1]: CWE-770 
+│                       │     ├ VendorSeverity   ─ redhat: 3 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 7.5 
 │                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/06/1 
-│                       │     │                  ├ [1]: https://github.com/python/cpython/commit/71e8429ac8e2ad
+│                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-12254 
+│                       │     │                  ├ [2]: https://github.com/python/cpython/commit/71e8429ac8e2ad
 │                       │     │                  │      c10084ab5ec29a62f4b6671a82 
-│                       │     │                  ├ [2]: https://github.com/python/cpython/commit/9aa0deb2eef265
+│                       │     │                  ├ [3]: https://github.com/python/cpython/commit/9aa0deb2eef265
 │                       │     │                  │      5a1029ba228527b152353135b5 
-│                       │     │                  ├ [3]: https://github.com/python/cpython/issues/127655 
-│                       │     │                  ├ [4]: https://github.com/python/cpython/pull/127656 
-│                       │     │                  ╰ [5]: https://mail.python.org/archives/list/security-announce
-│                       │     │                         @python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROORB/ 
+│                       │     │                  ├ [4]: https://github.com/python/cpython/issues/127655 
+│                       │     │                  ├ [5]: https://github.com/python/cpython/pull/127656 
+│                       │     │                  ├ [6]: https://mail.python.org/archives/list/security-announce
+│                       │     │                  │      @python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROORB/ 
+│                       │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-12254 
+│                       │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-12254 
 │                       │     ├ PublishedDate   : 2024-12-06T16:15:20.623Z 
 │                       │     ╰ LastModifiedDate: 2024-12-06T19:15:10.983Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2024-12254 
@@ -124,8 +138,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : Starting in Python 3.12.0, the
-│                       │     │                   asyncio._SelectorSocketTransport.writel ... 
+│                       │     ├ Title           : python: Unbounded memory buffering in
+│                       │     │                   SelectorSocketTransport.writelines() 
 │                       │     ├ Description     : Starting in Python 3.12.0, the
 │                       │     │                   asyncio._SelectorSocketTransport.writelines()
 │                       │     │                    method would not "pause" writing and signal to the Protocol
@@ -146,18 +160,25 @@
 │                       │     │                   not all of 
 │                       │     │                   these factors are true then your usage of Python is
 │                       │     │                   unaffected. 
-│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ Severity        : HIGH 
 │                       │     ├ CweIDs           ╭ [0]: CWE-400 
 │                       │     │                  ╰ [1]: CWE-770 
+│                       │     ├ VendorSeverity   ─ redhat: 3 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 7.5 
 │                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/06/1 
-│                       │     │                  ├ [1]: https://github.com/python/cpython/commit/71e8429ac8e2ad
+│                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-12254 
+│                       │     │                  ├ [2]: https://github.com/python/cpython/commit/71e8429ac8e2ad
 │                       │     │                  │      c10084ab5ec29a62f4b6671a82 
-│                       │     │                  ├ [2]: https://github.com/python/cpython/commit/9aa0deb2eef265
+│                       │     │                  ├ [3]: https://github.com/python/cpython/commit/9aa0deb2eef265
 │                       │     │                  │      5a1029ba228527b152353135b5 
-│                       │     │                  ├ [3]: https://github.com/python/cpython/issues/127655 
-│                       │     │                  ├ [4]: https://github.com/python/cpython/pull/127656 
-│                       │     │                  ╰ [5]: https://mail.python.org/archives/list/security-announce
-│                       │     │                         @python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROORB/ 
+│                       │     │                  ├ [4]: https://github.com/python/cpython/issues/127655 
+│                       │     │                  ├ [5]: https://github.com/python/cpython/pull/127656 
+│                       │     │                  ├ [6]: https://mail.python.org/archives/list/security-announce
+│                       │     │                  │      @python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROORB/ 
+│                       │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-12254 
+│                       │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-12254 
 │                       │     ├ PublishedDate   : 2024-12-06T16:15:20.623Z 
 │                       │     ╰ LastModifiedDate: 2024-12-06T19:15:10.983Z 
 │                       ╰ [3] ╭ VulnerabilityID : CVE-2024-12254 
@@ -177,8 +198,8 @@
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Title           : Starting in Python 3.12.0, the
-│                             │                   asyncio._SelectorSocketTransport.writel ... 
+│                             ├ Title           : python: Unbounded memory buffering in
+│                             │                   SelectorSocketTransport.writelines() 
 │                             ├ Description     : Starting in Python 3.12.0, the
 │                             │                   asyncio._SelectorSocketTransport.writelines()
 │                             │                    method would not "pause" writing and signal to the Protocol
@@ -199,18 +220,25 @@
 │                             │                   not all of 
 │                             │                   these factors are true then your usage of Python is
 │                             │                   unaffected. 
-│                             ├ Severity        : UNKNOWN 
+│                             ├ Severity        : HIGH 
 │                             ├ CweIDs           ╭ [0]: CWE-400 
 │                             │                  ╰ [1]: CWE-770 
+│                             ├ VendorSeverity   ─ redhat: 3 
+│                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+│                             │                           │           A:H 
+│                             │                           ╰ V3Score : 7.5 
 │                             ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/06/1 
-│                             │                  ├ [1]: https://github.com/python/cpython/commit/71e8429ac8e2ad
+│                             │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-12254 
+│                             │                  ├ [2]: https://github.com/python/cpython/commit/71e8429ac8e2ad
 │                             │                  │      c10084ab5ec29a62f4b6671a82 
-│                             │                  ├ [2]: https://github.com/python/cpython/commit/9aa0deb2eef265
+│                             │                  ├ [3]: https://github.com/python/cpython/commit/9aa0deb2eef265
 │                             │                  │      5a1029ba228527b152353135b5 
-│                             │                  ├ [3]: https://github.com/python/cpython/issues/127655 
-│                             │                  ├ [4]: https://github.com/python/cpython/pull/127656 
-│                             │                  ╰ [5]: https://mail.python.org/archives/list/security-announce
-│                             │                         @python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROORB/ 
+│                             │                  ├ [4]: https://github.com/python/cpython/issues/127655 
+│                             │                  ├ [5]: https://github.com/python/cpython/pull/127656 
+│                             │                  ├ [6]: https://mail.python.org/archives/list/security-announce
+│                             │                  │      @python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROORB/ 
+│                             │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-12254 
+│                             │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-12254 
 │                             ├ PublishedDate   : 2024-12-06T16:15:20.623Z 
 │                             ╰ LastModifiedDate: 2024-12-06T19:15:10.983Z 
 ├ [1] ╭ Target: Java 
