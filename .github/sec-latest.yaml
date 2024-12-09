@@ -19,7 +19,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: Starting in Python 3.12.0, the asyncio._SelectorSocketTransport.writel ...
+    Title: 'python: Unbounded memory buffering in SelectorSocketTransport.writelines()'
     Description: |-
       Starting in Python 3.12.0, the asyncio._SelectorSocketTransport.writelines()
        method would not "pause" writing and signal to the Protocol to drain 
@@ -37,17 +37,26 @@
       with protocols, and using .writelines() method which had new 
       zero-copy-on-write behavior in Python 3.12.0 and later. If not all of 
       these factors are true then your usage of Python is unaffected.
-    Severity: UNKNOWN
+    Severity: HIGH
     CweIDs:
     - CWE-400
     - CWE-770
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/06/1
+    - https://access.redhat.com/security/cve/CVE-2024-12254
     - https://github.com/python/cpython/commit/71e8429ac8e2adc10084ab5ec29a62f4b6671a82
     - https://github.com/python/cpython/commit/9aa0deb2eef2655a1029ba228527b152353135b5
     - https://github.com/python/cpython/issues/127655
     - https://github.com/python/cpython/pull/127656
     - https://mail.python.org/archives/list/security-announce@python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROORB/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-12254
+    - https://www.cve.org/CVERecord?id=CVE-2024-12254
     PublishedDate: '2024-12-06T16:15:20.623Z'
     LastModifiedDate: '2024-12-06T19:15:10.983Z'
   - VulnerabilityID: CVE-2024-12254
@@ -67,7 +76,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: Starting in Python 3.12.0, the asyncio._SelectorSocketTransport.writel ...
+    Title: 'python: Unbounded memory buffering in SelectorSocketTransport.writelines()'
     Description: |-
       Starting in Python 3.12.0, the asyncio._SelectorSocketTransport.writelines()
        method would not "pause" writing and signal to the Protocol to drain 
@@ -85,17 +94,26 @@
       with protocols, and using .writelines() method which had new 
       zero-copy-on-write behavior in Python 3.12.0 and later. If not all of 
       these factors are true then your usage of Python is unaffected.
-    Severity: UNKNOWN
+    Severity: HIGH
     CweIDs:
     - CWE-400
     - CWE-770
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/06/1
+    - https://access.redhat.com/security/cve/CVE-2024-12254
     - https://github.com/python/cpython/commit/71e8429ac8e2adc10084ab5ec29a62f4b6671a82
     - https://github.com/python/cpython/commit/9aa0deb2eef2655a1029ba228527b152353135b5
     - https://github.com/python/cpython/issues/127655
     - https://github.com/python/cpython/pull/127656
     - https://mail.python.org/archives/list/security-announce@python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROORB/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-12254
+    - https://www.cve.org/CVERecord?id=CVE-2024-12254
     PublishedDate: '2024-12-06T16:15:20.623Z'
     LastModifiedDate: '2024-12-06T19:15:10.983Z'
   - VulnerabilityID: CVE-2024-12254
@@ -115,7 +133,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: Starting in Python 3.12.0, the asyncio._SelectorSocketTransport.writel ...
+    Title: 'python: Unbounded memory buffering in SelectorSocketTransport.writelines()'
     Description: |-
       Starting in Python 3.12.0, the asyncio._SelectorSocketTransport.writelines()
        method would not "pause" writing and signal to the Protocol to drain 
@@ -133,17 +151,26 @@
       with protocols, and using .writelines() method which had new 
       zero-copy-on-write behavior in Python 3.12.0 and later. If not all of 
       these factors are true then your usage of Python is unaffected.
-    Severity: UNKNOWN
+    Severity: HIGH
     CweIDs:
     - CWE-400
     - CWE-770
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/06/1
+    - https://access.redhat.com/security/cve/CVE-2024-12254
     - https://github.com/python/cpython/commit/71e8429ac8e2adc10084ab5ec29a62f4b6671a82
     - https://github.com/python/cpython/commit/9aa0deb2eef2655a1029ba228527b152353135b5
     - https://github.com/python/cpython/issues/127655
     - https://github.com/python/cpython/pull/127656
     - https://mail.python.org/archives/list/security-announce@python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROORB/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-12254
+    - https://www.cve.org/CVERecord?id=CVE-2024-12254
     PublishedDate: '2024-12-06T16:15:20.623Z'
     LastModifiedDate: '2024-12-06T19:15:10.983Z'
   - VulnerabilityID: CVE-2024-12254
@@ -163,7 +190,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: Starting in Python 3.12.0, the asyncio._SelectorSocketTransport.writel ...
+    Title: 'python: Unbounded memory buffering in SelectorSocketTransport.writelines()'
     Description: |-
       Starting in Python 3.12.0, the asyncio._SelectorSocketTransport.writelines()
        method would not "pause" writing and signal to the Protocol to drain 
@@ -181,17 +208,26 @@
       with protocols, and using .writelines() method which had new 
       zero-copy-on-write behavior in Python 3.12.0 and later. If not all of 
       these factors are true then your usage of Python is unaffected.
-    Severity: UNKNOWN
+    Severity: HIGH
     CweIDs:
     - CWE-400
     - CWE-770
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/06/1
+    - https://access.redhat.com/security/cve/CVE-2024-12254
     - https://github.com/python/cpython/commit/71e8429ac8e2adc10084ab5ec29a62f4b6671a82
     - https://github.com/python/cpython/commit/9aa0deb2eef2655a1029ba228527b152353135b5
     - https://github.com/python/cpython/issues/127655
     - https://github.com/python/cpython/pull/127656
     - https://mail.python.org/archives/list/security-announce@python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROORB/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-12254
+    - https://www.cve.org/CVERecord?id=CVE-2024-12254
     PublishedDate: '2024-12-06T16:15:20.623Z'
     LastModifiedDate: '2024-12-06T19:15:10.983Z'
 - Target: Java
