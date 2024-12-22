@@ -41,10 +41,10 @@
 │                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 7 
-│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:6569 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:7010 
 │                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-33204 
 │                       │     │                  ├ [2] : https://bugzilla.redhat.com/2208270 
-│                       │     │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2023-6569.html 
+│                       │     │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2023-7010.html 
 │                       │     │                  ├ [4] : https://github.com/sysstat/sysstat/commit/954ff2e2673c
 │                       │     │                  │       ef48f0ed44668c466eab041db387 
 │                       │     │                  ├ [5] : https://github.com/sysstat/sysstat/pull/360 
@@ -102,10 +102,10 @@
 │                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 7 
-│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:6569 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:7010 
 │                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-33204 
 │                       │     │                  ├ [2] : https://bugzilla.redhat.com/2208270 
-│                       │     │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2023-6569.html 
+│                       │     │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2023-7010.html 
 │                       │     │                  ├ [4] : https://github.com/sysstat/sysstat/commit/954ff2e2673c
 │                       │     │                  │       ef48f0ed44668c466eab041db387 
 │                       │     │                  ├ [5] : https://github.com/sysstat/sysstat/pull/360 
