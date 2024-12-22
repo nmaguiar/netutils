@@ -42,10 +42,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7
     References:
-    - https://access.redhat.com/errata/RHSA-2023:6569
+    - https://access.redhat.com/errata/RHSA-2023:7010
     - https://access.redhat.com/security/cve/CVE-2023-33204
     - https://bugzilla.redhat.com/2208270
-    - https://errata.almalinux.org/9/ALSA-2023-6569.html
+    - https://errata.almalinux.org/8/ALSA-2023-7010.html
     - https://github.com/sysstat/sysstat/commit/954ff2e2673cef48f0ed44668c466eab041db387
     - https://github.com/sysstat/sysstat/pull/360
     - https://linux.oracle.com/cve/CVE-2023-33204.html
@@ -98,10 +98,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7
     References:
-    - https://access.redhat.com/errata/RHSA-2023:6569
+    - https://access.redhat.com/errata/RHSA-2023:7010
     - https://access.redhat.com/security/cve/CVE-2023-33204
     - https://bugzilla.redhat.com/2208270
-    - https://errata.almalinux.org/9/ALSA-2023-6569.html
+    - https://errata.almalinux.org/8/ALSA-2023-7010.html
     - https://github.com/sysstat/sysstat/commit/954ff2e2673cef48f0ed44668c466eab041db387
     - https://github.com/sysstat/sysstat/pull/360
     - https://linux.oracle.com/cve/CVE-2023-33204.html
