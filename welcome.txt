@@ -1,7 +1,7 @@
            |         |    o|         
  ,---.,---.|--- .   .|--- .|    ,---.
  |   ||---'|    |   ||    ||    `---.
- `   '`---'`---'`---'`---'``---'`---'  (v0.0.11)
+ `   '`---'`---'`---'`---'``---'`---'  (v0.0.12)
 
  For image deploy usage type & execute [1m'usage-help'[m, for examples [1m'examples-help'[m
  See more in [2mhttps://github.com/nmaguiar/netutils[m
