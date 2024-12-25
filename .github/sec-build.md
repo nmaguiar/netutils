@@ -27,7 +27,8 @@
                         │     │                  ├ Name: GitHub Security Advisory pip 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Apip 
-                        │     ├ Title           : Jinja has a sandbox breakout through malicious filenames 
+                        │     ├ Title           : jinja2: Jinja has a sandbox breakout through malicious
+                        │     │                   filenames 
                         │     ├ Description     : Jinja is an extensible templating engine. Prior to 3.1.5, a
                         │     │                   bug in the Jinja compiler allows an attacker that controls
                         │     │                   both the content and filename of a template to execute
@@ -41,17 +42,23 @@
                         │     │                   fixed in 3.1.5. 
                         │     ├ Severity        : MEDIUM 
                         │     ├ CweIDs           ─ [0]: CWE-150 
-                        │     ├ VendorSeverity   ─ ghsa: 2 
-                        │     ├ References       ╭ [0]: https://github.com/pallets/jinja 
-                        │     │                  ├ [1]: https://github.com/pallets/jinja/commit/767b23617628419
+                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+                        │     │                  ╰ redhat: 3 
+                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/
+                        │     │                           │           A:H 
+                        │     │                           ╰ V3Score : 7.3 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-56201 
+                        │     │                  ├ [1]: https://github.com/pallets/jinja 
+                        │     │                  ├ [2]: https://github.com/pallets/jinja/commit/767b23617628419
                         │     │                  │      ae3709ccfb02f9602ae9fe51f 
-                        │     │                  ├ [2]: https://github.com/pallets/jinja/issues/1792 
-                        │     │                  ├ [3]: https://github.com/pallets/jinja/releases/tag/3.1.5 
-                        │     │                  ├ [4]: https://github.com/pallets/jinja/security/advisories/GH
+                        │     │                  ├ [3]: https://github.com/pallets/jinja/issues/1792 
+                        │     │                  ├ [4]: https://github.com/pallets/jinja/releases/tag/3.1.5 
+                        │     │                  ├ [5]: https://github.com/pallets/jinja/security/advisories/GH
                         │     │                  │      SA-gmj6-6f8f-6699 
-                        │     │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-56201 
+                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-56201 
+                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-56201 
                         │     ├ PublishedDate   : 2024-12-23T16:15:07.41Z 
-                        │     ╰ LastModifiedDate: 2024-12-23T16:15:07.41Z 
+                        │     ╰ LastModifiedDate: 2024-12-24T02:15:06.58Z 
                         ╰ [1] ╭ VulnerabilityID : CVE-2024-56326 
                               ├ PkgName         : Jinja2 
                               ├ PkgPath         : opt/mitmproxy/lib/python3.12/site-packages/jinja2-3.1.4.dist-
@@ -71,8 +78,8 @@
                               │                  ├ Name: GitHub Security Advisory pip 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                               │                          osystem%3Apip 
-                              ├ Title           : Jinja has a sandbox breakout through indirect reference to
-                              │                   format method 
+                              ├ Title           : jinja2: Jinja has a sandbox breakout through indirect
+                              │                   reference to format method 
                               ├ Description     : Jinja is an extensible templating engine. Prior to 3.1.5, An
                               │                   oversight in how the Jinja sandboxed environment detects
                               │                   calls to str.format allows an attacker that controls the
@@ -92,14 +99,20 @@
                               ├ Severity        : MEDIUM 
                               ├ CweIDs           ╭ [0]: CWE-693 
                               │                  ╰ [1]: CWE-1336 
-                              ├ VendorSeverity   ─ ghsa: 2 
-                              ├ References       ╭ [0]: https://github.com/pallets/jinja 
-                              │                  ├ [1]: https://github.com/pallets/jinja/commit/48b0687e05a5466
+                              ├ VendorSeverity   ╭ ghsa  : 2 
+                              │                  ╰ redhat: 3 
+                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/
+                              │                           │           A:H 
+                              │                           ╰ V3Score : 7.3 
+                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-56326 
+                              │                  ├ [1]: https://github.com/pallets/jinja 
+                              │                  ├ [2]: https://github.com/pallets/jinja/commit/48b0687e05a5466
                               │                  │      a91cd5812d604fa37ad0943b4 
-                              │                  ├ [2]: https://github.com/pallets/jinja/releases/tag/3.1.5 
-                              │                  ├ [3]: https://github.com/pallets/jinja/security/advisories/GH
+                              │                  ├ [3]: https://github.com/pallets/jinja/releases/tag/3.1.5 
+                              │                  ├ [4]: https://github.com/pallets/jinja/security/advisories/GH
                               │                  │      SA-q2x7-8rv6-6q7h 
-                              │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-56326 
+                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-56326 
+                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-56326 
                               ├ PublishedDate   : 2024-12-23T16:15:07.59Z 
-                              ╰ LastModifiedDate: 2024-12-23T16:15:07.59Z 
+                              ╰ LastModifiedDate: 2024-12-24T02:15:06.74Z 
 ````
