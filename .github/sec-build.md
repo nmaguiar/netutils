@@ -1,5 +1,5 @@
 ````yaml
-╭ [0] ╭ Target: nmaguiar/netutils:build (alpine 3.21.0) 
+╭ [0] ╭ Target: nmaguiar/netutils:build (alpine 3.22.0_alpha20241224) 
 │     ├ Class : os-pkgs 
 │     ╰ Type  : alpine 
 ├ [1] ╭ Target: Java 
@@ -17,10 +17,10 @@
                         │     ├ InstalledVersion: 3.1.4 
                         │     ├ FixedVersion    : 3.1.5 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:7a452a0a7a35e590241c884c332b949acdbe13dd93378
-                        │     │                  │         057b1caa8173b78aad1 
-                        │     │                  ╰ DiffID: sha256:1ef0ea6b42165d4d93cf43a2d299e9f65209e459f38ca
-                        │     │                            8acad0ce57a91e2aef5 
+                        │     ├ Layer            ╭ Digest: sha256:02588201368ad4a3913b1a48c6a0edc23bc2712f803ea
+                        │     │                  │         288b4b88191ecf1ada0 
+                        │     │                  ╰ DiffID: sha256:8d119e0ce62d22f4e1c1553f69e278e9f0c0848682f5b
+                        │     │                            4b0d4dfdf39b1a4b918 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56201 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -44,7 +44,10 @@
                         │     ├ CweIDs           ─ [0]: CWE-150 
                         │     ├ VendorSeverity   ╭ ghsa  : 2 
                         │     │                  ╰ redhat: 3 
-                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/
+                        │     │                  │        │           A:H 
+                        │     │                  │        ╰ V3Score : 8.8 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/
                         │     │                           │           A:H 
                         │     │                           ╰ V3Score : 7.3 
                         │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-56201 
@@ -68,10 +71,10 @@
                               ├ InstalledVersion: 3.1.4 
                               ├ FixedVersion    : 3.1.5 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:7a452a0a7a35e590241c884c332b949acdbe13dd93378
-                              │                  │         057b1caa8173b78aad1 
-                              │                  ╰ DiffID: sha256:1ef0ea6b42165d4d93cf43a2d299e9f65209e459f38ca
-                              │                            8acad0ce57a91e2aef5 
+                              ├ Layer            ╭ Digest: sha256:02588201368ad4a3913b1a48c6a0edc23bc2712f803ea
+                              │                  │         288b4b88191ecf1ada0 
+                              │                  ╰ DiffID: sha256:8d119e0ce62d22f4e1c1553f69e278e9f0c0848682f5b
+                              │                            4b0d4dfdf39b1a4b918 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56326 
                               ├ DataSource       ╭ ID  : ghsa 
@@ -101,7 +104,10 @@
                               │                  ╰ [1]: CWE-1336 
                               ├ VendorSeverity   ╭ ghsa  : 2 
                               │                  ╰ redhat: 3 
-                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/
+                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/
+                              │                  │        │           A:H 
+                              │                  │        ╰ V3Score : 10 
+                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/
                               │                           │           A:H 
                               │                           ╰ V3Score : 7.3 
                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-56326 
