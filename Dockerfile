@@ -79,7 +79,8 @@ RUN apk add --no-cache py3-pip\
 # ---------------------
 RUN mkdir /netutils\
  && chmod a+rwx /netutils\
- && chown openaf:0 /netutils
+ && chown openaf:0 /netutils\
+ && mkdir -p /run/lock
 
 # Setup welcome message and vars
 # ------------------------------
