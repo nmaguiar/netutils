@@ -122,7 +122,7 @@ Profiles:
 | socat | Multipurpose relay for bidirectional data transfer between two independent data channels. |  |
 | strace | Trace system calls and signals. | |
 | switch-fs-by-pid.sh | Switches to the filesystem of a provided pid. | |
-| swtich-user-by-pid.sh | Switches to the user of a provided pid. | |
+| switch-user-by-pid.sh | Switches to the user of a provided pid. | |
 | tcpdump | Capturing and analyzing network packets. |  |
 | tcptraceroute | Tracing the path packets take to a network host using TCP. |  |
 | telnet | Connecting to remote servers and testing network services. |  |
