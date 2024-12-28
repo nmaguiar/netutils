@@ -104,9 +104,9 @@
                               │                  ╰ [1]: CWE-1336 
                               ├ VendorSeverity   ╭ ghsa  : 2 
                               │                  ╰ redhat: 3 
-                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/
+                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/
                               │                  │        │           A:H 
-                              │                  │        ╰ V3Score : 10 
+                              │                  │        ╰ V3Score : 7.8 
                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/
                               │                           │           A:H 
                               │                           ╰ V3Score : 7.3 
