@@ -107,9 +107,9 @@
                               ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/
                               │                  │        │           A:H 
                               │                  │        ╰ V3Score : 7.8 
-                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/
+                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/
                               │                           │           A:H 
-                              │                           ╰ V3Score : 7.3 
+                              │                           ╰ V3Score : 6.3 
                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-56326 
                               │                  ├ [1]: https://github.com/pallets/jinja 
                               │                  ├ [2]: https://github.com/pallets/jinja/commit/48b0687e05a5466
