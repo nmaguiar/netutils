@@ -43,7 +43,8 @@
                         │     ├ Severity        : MEDIUM 
                         │     ├ CweIDs           ─ [0]: CWE-150 
                         │     ├ VendorSeverity   ╭ ghsa  : 2 
-                        │     │                  ╰ redhat: 3 
+                        │     │                  ├ redhat: 3 
+                        │     │                  ╰ ubuntu: 2 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/
                         │     │                  │        │           A:H 
                         │     │                  │        ╰ V3Score : 8.8 
@@ -103,7 +104,8 @@
                               ├ CweIDs           ╭ [0]: CWE-693 
                               │                  ╰ [1]: CWE-1336 
                               ├ VendorSeverity   ╭ ghsa  : 2 
-                              │                  ╰ redhat: 3 
+                              │                  ├ redhat: 3 
+                              │                  ╰ ubuntu: 2 
                               ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/
                               │                  │        │           A:H 
                               │                  │        ╰ V3Score : 7.8 
