@@ -1,5 +1,5 @@
 ````yaml
-╭ [0] ╭ Target: nmaguiar/netutils:build (alpine 3.22.0_alpha20241224) 
+╭ [0] ╭ Target: nmaguiar/netutils:build (alpine 3.22.0_alpha20250108) 
 │     ├ Class : os-pkgs 
 │     ╰ Type  : alpine 
 ├ [1] ╭ Target: Java 
@@ -17,10 +17,10 @@
                         │     ├ InstalledVersion: 3.1.4 
                         │     ├ FixedVersion    : 3.1.5 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:fb42f06f1bd58848a5a8b6478ea683174a8e9f29daaad
-                        │     │                  │         ae016a5b715584c8d2f 
-                        │     │                  ╰ DiffID: sha256:28579eca2440cdde7b4c5a13e7d4c915986863142f1a8
-                        │     │                            279e63ba1bbd6f3f9c2 
+                        │     ├ Layer            ╭ Digest: sha256:c93295005b3be0f562acb7ed12db9e5e483afbe190821
+                        │     │                  │         995c0de92c294fed206 
+                        │     │                  ╰ DiffID: sha256:ed14e3bf8fa027268cae79825bbf3c2fda14cfe84703d
+                        │     │                            4c0dd3c71192e8bb612 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56201 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -72,10 +72,10 @@
                               ├ InstalledVersion: 3.1.4 
                               ├ FixedVersion    : 3.1.5 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:fb42f06f1bd58848a5a8b6478ea683174a8e9f29daaad
-                              │                  │         ae016a5b715584c8d2f 
-                              │                  ╰ DiffID: sha256:28579eca2440cdde7b4c5a13e7d4c915986863142f1a8
-                              │                            279e63ba1bbd6f3f9c2 
+                              ├ Layer            ╭ Digest: sha256:c93295005b3be0f562acb7ed12db9e5e483afbe190821
+                              │                  │         995c0de92c294fed206 
+                              │                  ╰ DiffID: sha256:ed14e3bf8fa027268cae79825bbf3c2fda14cfe84703d
+                              │                            4c0dd3c71192e8bb612 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56326 
                               ├ DataSource       ╭ ID  : ghsa 
