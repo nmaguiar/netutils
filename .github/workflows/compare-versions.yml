@@ -40,7 +40,7 @@ jobs:
     - name: Joining the versions retrieved to produce a markdown table
       run : |
         oafp chs="[(name: v, type: file, options: (file: /tmp/_tmp.json))|(name: l, type: file, options: (file: /tmp/_tmpl.json))]"\
-            /tmp/_tmpMain.json\
+            data="[]"\
             path="ch('v','getall',__,__).{tool:pack,buildVersion:version,latestVersion:ch('l','get',{tool:pack},__).version}"\
             out=mdtable\
             sql="select * order by tool" > .github/compare-versions.md
