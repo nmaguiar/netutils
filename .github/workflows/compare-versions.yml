@@ -29,19 +29,19 @@ jobs:
 
     - name: Preparing a lookup table for the build versions of the tools
       run : |
-        oafp .github/softVersions-build.json out=ch ch="(type: file, options: (file: /tmp/_tmp.json))" chkey="tool"
+        oafp .github/softVersions-build.json out=ch ch="(type: file, options: (file: /tmp/_tmp.json))" chkey="pack"
         oafp /tmp/_tmp.json
 
     - name: Preparing a lookup table for the latest versions of the tools
       run : |
-        oafp .github/softVersions-latest.json out=ch ch="(type: file, options: (file: /tmp/_tmpl.json))" chkey="tool"
+        oafp .github/softVersions-latest.json out=ch ch="(type: file, options: (file: /tmp/_tmpl.json))" chkey="pack"
         oafp /tmp/_tmpl.json
 
     - name: Joining the versions retrieved to produce a markdown table
       run : |
         oafp chs="[(name: v, type: file, options: (file: /tmp/_tmp.json))|(name: l, type: file, options: (file: /tmp/_tmpl.json))]"\
             data="[]"\
-            path="ch('v','getall',__,__).{tool:pack,buildVersion:version,latestVersion:ch('l','get',{tool:pack},__).version}"\
+            path="ch('v','getAll',__,__)[].{tool:pack,buildVersion:version,latestVersion:ch('l','get',{pack:pack},__).version}"\
             out=mdtable\
             sql="select * order by tool" > .github/compare-versions.md
 
