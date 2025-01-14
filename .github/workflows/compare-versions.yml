@@ -1,0 +1,55 @@
+name: Compare Versions
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '07 8 * * *'
+
+jobs:
+  Compare-Versions:
+    runs-on    : ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    name       : Compare Versions
+    steps      :
+    - uses: actions/checkout@v4
+      name: Checkout
+
+    - name: Cache OpenAF runtime
+      uses: actions/cache@v4
+      with:
+        key : oaf-t8
+        path: /tmp/oaf
+    
+    - name: Setup OpenAF
+      uses: openaf/action-setup@v2
+      with:
+        dist: t8
+
+    - name: Preparing a lookup table for the build versions of the tools
+      run : |
+        oafp .github/softVersions-build.json out=ch ch="(type: file, options: (file: /tmp/_tmp.json))" chkey="tool"
+        oafp /tmp/_tmp.json
+
+    - name: Preparing a lookup table for the latest versions of the tools
+      run : |
+        oafp .github/softVersions-latest.json out=ch ch="(type: file, options: (file: /tmp/_tmpl.json))" chkey="tool"
+        oafp /tmp/_tmpl.json
+
+    - name: Joining the versions retrieved to produce a markdown table
+      run : |
+        oafp chs="[(name: v, type: file, options: (file: /tmp/_tmp.json))|(name: l, type: file, options: (file: /tmp/_tmpl.json))]"\
+            /tmp/_tmpMain.json\
+            path="ch('v','getall',__,__).{tool:pack,buildVersion:version,latestVersion:ch('l','get',{tool:pack},__).version}"\
+            out=mdtable\
+            sql="select * order by tool" > .github/compare-versions.md
+
+    - uses: openaf/ojob-action@v7
+      name: Update table
+      env :
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        ojob: 'ojob.io/git/hub/contentIn'
+        args: 'message="update\ versions\ table\ {{date}}/{{time}}" title="Update\ table" paths=.github/'
+        dist: t8
