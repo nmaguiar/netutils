@@ -2,13 +2,20 @@ FROM alpine:edge as main
 
 RUN apk update\
  && apk upgrade\
- && apk add --no-cache python3 py3-pip gcc g++ musl-dev libffi-dev openssl-dev python3-dev cargo rust make linux-headers bsd-compat-headers yaml-dev libc-dev yaml xxhash-dev gcompat
+ && apk add --no-cache python3 py3-pip build-base gcc g++ llvm19 llvm19-dev musl-dev rustup libffi-dev openssl-dev python3-dev cargo rust make linux-headers bsd-compat-headers yaml-dev libc-dev yaml xxhash-dev gcompat
 
-RUN mkdir -p /opt/mitmproxy\
+RUN rustup-init -q -y\
+ && export PATH=/root/.cargo/bin:$PATH\
+ && mkdir -p /root/.cargo/lib\
+ && rustup default nightly\ 
+ && cargo install bpf-linker
+
+RUN export PATH=/root/.cargo/bin:$PATH\
+ && mkdir -p /opt/mitmproxy\
  && python3 -m venv /opt/mitmproxy\
  && . /opt/mitmproxy/bin/activate\
  && pip install --upgrade pip\
- && pip install mitmproxy\
+ && pip install mitmproxy --verbose\
  && cd /opt/mitmproxy
 
 RUN mkdir -p /usr/local/bin && \
