@@ -18,8 +18,7 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : When switching to other buffers using the :all command and
-│                       │     │                   visual mode ... 
+│                       │     ├ Title           : vim: heap-buffer-overflow with visual mode in Vim < 9.1.1003 
 │                       │     ├ Description     : When switching to other buffers using the :all command and
 │                       │     │                   visual mode still being active, this may cause a heap-buffer
 │                       │     │                   overflow, because Vim does not properly end visual mode and
@@ -33,13 +32,20 @@
 │                       │     │                   command. The Vim project would like to thank github user
 │                       │     │                   gandalf4a for reporting this issue. The issue has been fixed
 │                       │     │                   as of Vim patch v9.1.1003 
-│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-122 
+│                       │     ├ VendorSeverity   ─ redhat: 2 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/
+│                       │     │                           │           A:L 
+│                       │     │                           ╰ V3Score : 4.2 
 │                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/11/1 
-│                       │     │                  ├ [1]: https://github.com/vim/vim/commit/c9a1e257f1630a0866447
+│                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22134 
+│                       │     │                  ├ [2]: https://github.com/vim/vim/commit/c9a1e257f1630a0866447
 │                       │     │                  │      e53a564f7ff96a80ead 
-│                       │     │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-5rg
-│                       │     │                         f-26wj-48v8 
+│                       │     │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5rg
+│                       │     │                  │      f-26wj-48v8 
+│                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22134 
+│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
 │                       │     ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
 │                       │     ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2025-22134 
@@ -59,8 +65,7 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : When switching to other buffers using the :all command and
-│                       │     │                   visual mode ... 
+│                       │     ├ Title           : vim: heap-buffer-overflow with visual mode in Vim < 9.1.1003 
 │                       │     ├ Description     : When switching to other buffers using the :all command and
 │                       │     │                   visual mode still being active, this may cause a heap-buffer
 │                       │     │                   overflow, because Vim does not properly end visual mode and
@@ -74,13 +79,20 @@
 │                       │     │                   command. The Vim project would like to thank github user
 │                       │     │                   gandalf4a for reporting this issue. The issue has been fixed
 │                       │     │                   as of Vim patch v9.1.1003 
-│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-122 
+│                       │     ├ VendorSeverity   ─ redhat: 2 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/
+│                       │     │                           │           A:L 
+│                       │     │                           ╰ V3Score : 4.2 
 │                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/11/1 
-│                       │     │                  ├ [1]: https://github.com/vim/vim/commit/c9a1e257f1630a0866447
+│                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22134 
+│                       │     │                  ├ [2]: https://github.com/vim/vim/commit/c9a1e257f1630a0866447
 │                       │     │                  │      e53a564f7ff96a80ead 
-│                       │     │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-5rg
-│                       │     │                         f-26wj-48v8 
+│                       │     │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5rg
+│                       │     │                  │      f-26wj-48v8 
+│                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22134 
+│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
 │                       │     ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
 │                       │     ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
 │                       ╰ [2] ╭ VulnerabilityID : CVE-2025-22134 
@@ -99,8 +111,7 @@
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Title           : When switching to other buffers using the :all command and
-│                             │                   visual mode ... 
+│                             ├ Title           : vim: heap-buffer-overflow with visual mode in Vim < 9.1.1003 
 │                             ├ Description     : When switching to other buffers using the :all command and
 │                             │                   visual mode still being active, this may cause a heap-buffer
 │                             │                   overflow, because Vim does not properly end visual mode and
@@ -114,13 +125,20 @@
 │                             │                   command. The Vim project would like to thank github user
 │                             │                   gandalf4a for reporting this issue. The issue has been fixed
 │                             │                   as of Vim patch v9.1.1003 
-│                             ├ Severity        : UNKNOWN 
+│                             ├ Severity        : MEDIUM 
 │                             ├ CweIDs           ─ [0]: CWE-122 
+│                             ├ VendorSeverity   ─ redhat: 2 
+│                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/
+│                             │                           │           A:L 
+│                             │                           ╰ V3Score : 4.2 
 │                             ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/11/1 
-│                             │                  ├ [1]: https://github.com/vim/vim/commit/c9a1e257f1630a0866447
+│                             │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22134 
+│                             │                  ├ [2]: https://github.com/vim/vim/commit/c9a1e257f1630a0866447
 │                             │                  │      e53a564f7ff96a80ead 
-│                             │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-5rg
-│                             │                         f-26wj-48v8 
+│                             │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5rg
+│                             │                  │      f-26wj-48v8 
+│                             │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22134 
+│                             │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
 │                             ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
 │                             ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
 ├ [1] ╭ Target: Java 
@@ -163,9 +181,10 @@
                         │     │                   vulnerability is fixed in 3.1.5. 
                         │     ├ Severity        : MEDIUM 
                         │     ├ CweIDs           ─ [0]: CWE-150 
-                        │     ├ VendorSeverity   ╭ ghsa  : 2 
-                        │     │                  ├ redhat: 3 
-                        │     │                  ╰ ubuntu: 2 
+                        │     ├ VendorSeverity   ╭ cbl-mariner: 2 
+                        │     │                  ├ ghsa       : 2 
+                        │     │                  ├ redhat     : 3 
+                        │     │                  ╰ ubuntu     : 2 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/
                         │     │                  │        │           A:H 
                         │     │                  │        ╰ V3Score : 8.8 
@@ -224,9 +243,10 @@
                               ├ Severity        : MEDIUM 
                               ├ CweIDs           ╭ [0]: CWE-693 
                               │                  ╰ [1]: CWE-1336 
-                              ├ VendorSeverity   ╭ ghsa  : 2 
-                              │                  ├ redhat: 3 
-                              │                  ╰ ubuntu: 2 
+                              ├ VendorSeverity   ╭ cbl-mariner: 2 
+                              │                  ├ ghsa       : 2 
+                              │                  ├ redhat     : 3 
+                              │                  ╰ ubuntu     : 2 
                               ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/
                               │                  │        │           A:H 
                               │                  │        ╰ V3Score : 7.8 
