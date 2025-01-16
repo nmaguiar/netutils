@@ -17,10 +17,10 @@
                         │     ├ InstalledVersion: 3.1.4 
                         │     ├ FixedVersion    : 3.1.5 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:9776fb2fb1d92600f467fa1fe7e128cbfa05e6a62f9be
-                        │     │                  │         653ebf56dbc99d4c40d 
-                        │     │                  ╰ DiffID: sha256:4e9bb90ea806d1cbedf9147f7c3454bf12e160dfc692b
-                        │     │                            7f18a666712c5ae4aa5 
+                        │     ├ Layer            ╭ Digest: sha256:7491005863a871479c530a74993d927ab16506ceb1cb5
+                        │     │                  │         ab3ce4287d4d31ff51a 
+                        │     │                  ╰ DiffID: sha256:ff1a798afee71054c253716149ab5580050bf0929707a
+                        │     │                            f2a156f03939274a7bd 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56201 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -42,9 +42,10 @@
                         │     │                   vulnerability is fixed in 3.1.5. 
                         │     ├ Severity        : MEDIUM 
                         │     ├ CweIDs           ─ [0]: CWE-150 
-                        │     ├ VendorSeverity   ╭ ghsa  : 2 
-                        │     │                  ├ redhat: 3 
-                        │     │                  ╰ ubuntu: 2 
+                        │     ├ VendorSeverity   ╭ cbl-mariner: 2 
+                        │     │                  ├ ghsa       : 2 
+                        │     │                  ├ redhat     : 3 
+                        │     │                  ╰ ubuntu     : 2 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/
                         │     │                  │        │           A:H 
                         │     │                  │        ╰ V3Score : 8.8 
@@ -72,10 +73,10 @@
                               ├ InstalledVersion: 3.1.4 
                               ├ FixedVersion    : 3.1.5 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:9776fb2fb1d92600f467fa1fe7e128cbfa05e6a62f9be
-                              │                  │         653ebf56dbc99d4c40d 
-                              │                  ╰ DiffID: sha256:4e9bb90ea806d1cbedf9147f7c3454bf12e160dfc692b
-                              │                            7f18a666712c5ae4aa5 
+                              ├ Layer            ╭ Digest: sha256:7491005863a871479c530a74993d927ab16506ceb1cb5
+                              │                  │         ab3ce4287d4d31ff51a 
+                              │                  ╰ DiffID: sha256:ff1a798afee71054c253716149ab5580050bf0929707a
+                              │                            f2a156f03939274a7bd 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56326 
                               ├ DataSource       ╭ ID  : ghsa 
@@ -103,9 +104,10 @@
                               ├ Severity        : MEDIUM 
                               ├ CweIDs           ╭ [0]: CWE-693 
                               │                  ╰ [1]: CWE-1336 
-                              ├ VendorSeverity   ╭ ghsa  : 2 
-                              │                  ├ redhat: 3 
-                              │                  ╰ ubuntu: 2 
+                              ├ VendorSeverity   ╭ cbl-mariner: 2 
+                              │                  ├ ghsa       : 2 
+                              │                  ├ redhat     : 3 
+                              │                  ╰ ubuntu     : 2 
                               ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/
                               │                  │        │           A:H 
                               │                  │        ╰ V3Score : 7.8 
