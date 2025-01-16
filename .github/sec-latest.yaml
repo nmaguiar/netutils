@@ -19,15 +19,24 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: When switching to other buffers using the :all command and visual mode ...
+    Title: 'vim: heap-buffer-overflow with visual mode in Vim < 9.1.1003'
     Description: When switching to other buffers using the :all command and visual mode still being active, this may cause a heap-buffer overflow, because Vim does not properly end visual mode and therefore may try to access beyond the end of a line in a buffer. In Patch 9.1.1003 Vim will correctly reset the visual mode before opening other windows and buffers and therefore fix this bug. In addition it does verify that it won't try to access a position if the position is greater than the corresponding buffer line. Impact is medium since the user must have switched on visual mode when executing the :all ex command. The Vim project would like to thank github user gandalf4a for reporting this issue. The issue has been fixed as of Vim patch v9.1.1003
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-122
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.2
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/11/1
+    - https://access.redhat.com/security/cve/CVE-2025-22134
     - https://github.com/vim/vim/commit/c9a1e257f1630a0866447e53a564f7ff96a80ead
     - https://github.com/vim/vim/security/advisories/GHSA-5rgf-26wj-48v8
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-22134
+    - https://www.cve.org/CVERecord?id=CVE-2025-22134
     PublishedDate: '2025-01-13T21:15:14.333Z'
     LastModifiedDate: '2025-01-13T21:15:14.333Z'
   - VulnerabilityID: CVE-2025-22134
@@ -47,15 +56,24 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: When switching to other buffers using the :all command and visual mode ...
+    Title: 'vim: heap-buffer-overflow with visual mode in Vim < 9.1.1003'
     Description: When switching to other buffers using the :all command and visual mode still being active, this may cause a heap-buffer overflow, because Vim does not properly end visual mode and therefore may try to access beyond the end of a line in a buffer. In Patch 9.1.1003 Vim will correctly reset the visual mode before opening other windows and buffers and therefore fix this bug. In addition it does verify that it won't try to access a position if the position is greater than the corresponding buffer line. Impact is medium since the user must have switched on visual mode when executing the :all ex command. The Vim project would like to thank github user gandalf4a for reporting this issue. The issue has been fixed as of Vim patch v9.1.1003
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-122
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.2
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/11/1
+    - https://access.redhat.com/security/cve/CVE-2025-22134
     - https://github.com/vim/vim/commit/c9a1e257f1630a0866447e53a564f7ff96a80ead
     - https://github.com/vim/vim/security/advisories/GHSA-5rgf-26wj-48v8
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-22134
+    - https://www.cve.org/CVERecord?id=CVE-2025-22134
     PublishedDate: '2025-01-13T21:15:14.333Z'
     LastModifiedDate: '2025-01-13T21:15:14.333Z'
   - VulnerabilityID: CVE-2025-22134
@@ -75,15 +93,24 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: When switching to other buffers using the :all command and visual mode ...
+    Title: 'vim: heap-buffer-overflow with visual mode in Vim < 9.1.1003'
     Description: When switching to other buffers using the :all command and visual mode still being active, this may cause a heap-buffer overflow, because Vim does not properly end visual mode and therefore may try to access beyond the end of a line in a buffer. In Patch 9.1.1003 Vim will correctly reset the visual mode before opening other windows and buffers and therefore fix this bug. In addition it does verify that it won't try to access a position if the position is greater than the corresponding buffer line. Impact is medium since the user must have switched on visual mode when executing the :all ex command. The Vim project would like to thank github user gandalf4a for reporting this issue. The issue has been fixed as of Vim patch v9.1.1003
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-122
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.2
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/11/1
+    - https://access.redhat.com/security/cve/CVE-2025-22134
     - https://github.com/vim/vim/commit/c9a1e257f1630a0866447e53a564f7ff96a80ead
     - https://github.com/vim/vim/security/advisories/GHSA-5rgf-26wj-48v8
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-22134
+    - https://www.cve.org/CVERecord?id=CVE-2025-22134
     PublishedDate: '2025-01-13T21:15:14.333Z'
     LastModifiedDate: '2025-01-13T21:15:14.333Z'
 - Target: Java
@@ -117,6 +144,7 @@
     CweIDs:
     - CWE-150
     VendorSeverity:
+      cbl-mariner: 2
       ghsa: 2
       redhat: 3
       ubuntu: 2
@@ -163,6 +191,7 @@
     - CWE-693
     - CWE-1336
     VendorSeverity:
+      cbl-mariner: 2
       ghsa: 2
       redhat: 3
       ubuntu: 2
