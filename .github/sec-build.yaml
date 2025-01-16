@@ -18,8 +18,8 @@
     FixedVersion: 3.1.5
     Status: fixed
     Layer:
-      Digest: sha256:9776fb2fb1d92600f467fa1fe7e128cbfa05e6a62f9be653ebf56dbc99d4c40d
-      DiffID: sha256:4e9bb90ea806d1cbedf9147f7c3454bf12e160dfc692b7f18a666712c5ae4aa5
+      Digest: sha256:7491005863a871479c530a74993d927ab16506ceb1cb5ab3ce4287d4d31ff51a
+      DiffID: sha256:ff1a798afee71054c253716149ab5580050bf0929707af2a156f03939274a7bd
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56201
     DataSource:
@@ -32,6 +32,7 @@
     CweIDs:
     - CWE-150
     VendorSeverity:
+      cbl-mariner: 2
       ghsa: 2
       redhat: 3
       ubuntu: 2
@@ -63,8 +64,8 @@
     FixedVersion: 3.1.5
     Status: fixed
     Layer:
-      Digest: sha256:9776fb2fb1d92600f467fa1fe7e128cbfa05e6a62f9be653ebf56dbc99d4c40d
-      DiffID: sha256:4e9bb90ea806d1cbedf9147f7c3454bf12e160dfc692b7f18a666712c5ae4aa5
+      Digest: sha256:7491005863a871479c530a74993d927ab16506ceb1cb5ab3ce4287d4d31ff51a
+      DiffID: sha256:ff1a798afee71054c253716149ab5580050bf0929707af2a156f03939274a7bd
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56326
     DataSource:
@@ -78,6 +79,7 @@
     - CWE-693
     - CWE-1336
     VendorSeverity:
+      cbl-mariner: 2
       ghsa: 2
       redhat: 3
       ubuntu: 2
