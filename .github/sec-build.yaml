@@ -32,8 +32,10 @@
     CweIDs:
     - CWE-150
     VendorSeverity:
+      alma: 3
       cbl-mariner: 2
       ghsa: 2
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -44,12 +46,16 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:0308
     - https://access.redhat.com/security/cve/CVE-2024-56201
+    - https://errata.almalinux.org/9/ALSA-2025-0308.html
     - https://github.com/pallets/jinja
     - https://github.com/pallets/jinja/commit/767b23617628419ae3709ccfb02f9602ae9fe51f
     - https://github.com/pallets/jinja/issues/1792
     - https://github.com/pallets/jinja/releases/tag/3.1.5
     - https://github.com/pallets/jinja/security/advisories/GHSA-gmj6-6f8f-6699
+    - https://linux.oracle.com/cve/CVE-2024-56201.html
+    - https://linux.oracle.com/errata/ELSA-2025-0308.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-56201
     - https://www.cve.org/CVERecord?id=CVE-2024-56201
     PublishedDate: '2024-12-23T16:15:07.41Z'
@@ -79,8 +85,10 @@
     - CWE-693
     - CWE-1336
     VendorSeverity:
+      alma: 3
       cbl-mariner: 2
       ghsa: 2
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -91,11 +99,15 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H
         V3Score: 6.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:0308
     - https://access.redhat.com/security/cve/CVE-2024-56326
+    - https://errata.almalinux.org/9/ALSA-2025-0308.html
     - https://github.com/pallets/jinja
     - https://github.com/pallets/jinja/commit/48b0687e05a5466a91cd5812d604fa37ad0943b4
     - https://github.com/pallets/jinja/releases/tag/3.1.5
     - https://github.com/pallets/jinja/security/advisories/GHSA-q2x7-8rv6-6q7h
+    - https://linux.oracle.com/cve/CVE-2024-56326.html
+    - https://linux.oracle.com/errata/ELSA-2025-0308.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-56326
     - https://www.cve.org/CVERecord?id=CVE-2024-56326
     PublishedDate: '2024-12-23T16:15:07.59Z'
