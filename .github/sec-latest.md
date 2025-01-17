@@ -181,8 +181,10 @@
                         │     │                   vulnerability is fixed in 3.1.5. 
                         │     ├ Severity        : MEDIUM 
                         │     ├ CweIDs           ─ [0]: CWE-150 
-                        │     ├ VendorSeverity   ╭ cbl-mariner: 2 
+                        │     ├ VendorSeverity   ╭ alma       : 3 
+                        │     │                  ├ cbl-mariner: 2 
                         │     │                  ├ ghsa       : 2 
+                        │     │                  ├ oracle-oval: 3 
                         │     │                  ├ redhat     : 3 
                         │     │                  ╰ ubuntu     : 2 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/
@@ -191,16 +193,20 @@
                         │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/
                         │     │                           │           A:H 
                         │     │                           ╰ V3Score : 7.3 
-                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-56201 
-                        │     │                  ├ [1]: https://github.com/pallets/jinja 
-                        │     │                  ├ [2]: https://github.com/pallets/jinja/commit/767b23617628419
-                        │     │                  │      ae3709ccfb02f9602ae9fe51f 
-                        │     │                  ├ [3]: https://github.com/pallets/jinja/issues/1792 
-                        │     │                  ├ [4]: https://github.com/pallets/jinja/releases/tag/3.1.5 
-                        │     │                  ├ [5]: https://github.com/pallets/jinja/security/advisories/GH
-                        │     │                  │      SA-gmj6-6f8f-6699 
-                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-56201 
-                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-56201 
+                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:0308 
+                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56201 
+                        │     │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-0308.html 
+                        │     │                  ├ [3] : https://github.com/pallets/jinja 
+                        │     │                  ├ [4] : https://github.com/pallets/jinja/commit/767b2361762841
+                        │     │                  │       9ae3709ccfb02f9602ae9fe51f 
+                        │     │                  ├ [5] : https://github.com/pallets/jinja/issues/1792 
+                        │     │                  ├ [6] : https://github.com/pallets/jinja/releases/tag/3.1.5 
+                        │     │                  ├ [7] : https://github.com/pallets/jinja/security/advisories/G
+                        │     │                  │       HSA-gmj6-6f8f-6699 
+                        │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-56201.html 
+                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-0308.html 
+                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-56201 
+                        │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-56201 
                         │     ├ PublishedDate   : 2024-12-23T16:15:07.41Z 
                         │     ╰ LastModifiedDate: 2025-01-08T16:15:36.387Z 
                         ╰ [1] ╭ VulnerabilityID : CVE-2024-56326 
@@ -243,8 +249,10 @@
                               ├ Severity        : MEDIUM 
                               ├ CweIDs           ╭ [0]: CWE-693 
                               │                  ╰ [1]: CWE-1336 
-                              ├ VendorSeverity   ╭ cbl-mariner: 2 
+                              ├ VendorSeverity   ╭ alma       : 3 
+                              │                  ├ cbl-mariner: 2 
                               │                  ├ ghsa       : 2 
+                              │                  ├ oracle-oval: 3 
                               │                  ├ redhat     : 3 
                               │                  ╰ ubuntu     : 2 
                               ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/
@@ -253,15 +261,19 @@
                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/
                               │                           │           A:H 
                               │                           ╰ V3Score : 6.3 
-                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-56326 
-                              │                  ├ [1]: https://github.com/pallets/jinja 
-                              │                  ├ [2]: https://github.com/pallets/jinja/commit/48b0687e05a5466
-                              │                  │      a91cd5812d604fa37ad0943b4 
-                              │                  ├ [3]: https://github.com/pallets/jinja/releases/tag/3.1.5 
-                              │                  ├ [4]: https://github.com/pallets/jinja/security/advisories/GH
-                              │                  │      SA-q2x7-8rv6-6q7h 
-                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-56326 
-                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-56326 
+                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:0308 
+                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56326 
+                              │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-0308.html 
+                              │                  ├ [3] : https://github.com/pallets/jinja 
+                              │                  ├ [4] : https://github.com/pallets/jinja/commit/48b0687e05a546
+                              │                  │       6a91cd5812d604fa37ad0943b4 
+                              │                  ├ [5] : https://github.com/pallets/jinja/releases/tag/3.1.5 
+                              │                  ├ [6] : https://github.com/pallets/jinja/security/advisories/G
+                              │                  │       HSA-q2x7-8rv6-6q7h 
+                              │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-56326.html 
+                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-0308.html 
+                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-56326 
+                              │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-56326 
                               ├ PublishedDate   : 2024-12-23T16:15:07.59Z 
                               ╰ LastModifiedDate: 2024-12-27T18:15:38.947Z 
 ````
