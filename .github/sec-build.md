@@ -17,10 +17,10 @@
                         │     ├ InstalledVersion: 3.1.4 
                         │     ├ FixedVersion    : 3.1.5 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:7491005863a871479c530a74993d927ab16506ceb1cb5
-                        │     │                  │         ab3ce4287d4d31ff51a 
-                        │     │                  ╰ DiffID: sha256:ff1a798afee71054c253716149ab5580050bf0929707a
-                        │     │                            f2a156f03939274a7bd 
+                        │     ├ Layer            ╭ Digest: sha256:dc8d9d218052575e97d159935b2548a62a8fcdc6b4058
+                        │     │                  │         a54f9792fcd2a02c37f 
+                        │     │                  ╰ DiffID: sha256:457ca7de4d85398015f90f19c55cfb611b7ffe13e4a6d
+                        │     │                            16b916a0a123577fae9 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56201 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -43,6 +43,7 @@
                         │     ├ Severity        : MEDIUM 
                         │     ├ CweIDs           ─ [0]: CWE-150 
                         │     ├ VendorSeverity   ╭ alma       : 3 
+                        │     │                  ├ azure      : 2 
                         │     │                  ├ cbl-mariner: 2 
                         │     │                  ├ ghsa       : 2 
                         │     │                  ├ oracle-oval: 3 
@@ -79,10 +80,10 @@
                               ├ InstalledVersion: 3.1.4 
                               ├ FixedVersion    : 3.1.5 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:7491005863a871479c530a74993d927ab16506ceb1cb5
-                              │                  │         ab3ce4287d4d31ff51a 
-                              │                  ╰ DiffID: sha256:ff1a798afee71054c253716149ab5580050bf0929707a
-                              │                            f2a156f03939274a7bd 
+                              ├ Layer            ╭ Digest: sha256:dc8d9d218052575e97d159935b2548a62a8fcdc6b4058
+                              │                  │         a54f9792fcd2a02c37f 
+                              │                  ╰ DiffID: sha256:457ca7de4d85398015f90f19c55cfb611b7ffe13e4a6d
+                              │                            16b916a0a123577fae9 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56326 
                               ├ DataSource       ╭ ID  : ghsa 
@@ -111,6 +112,7 @@
                               ├ CweIDs           ╭ [0]: CWE-693 
                               │                  ╰ [1]: CWE-1336 
                               ├ VendorSeverity   ╭ alma       : 3 
+                              │                  ├ azure      : 2 
                               │                  ├ cbl-mariner: 2 
                               │                  ├ ghsa       : 2 
                               │                  ├ oracle-oval: 3 
