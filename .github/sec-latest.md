@@ -182,6 +182,7 @@
                         │     ├ Severity        : MEDIUM 
                         │     ├ CweIDs           ─ [0]: CWE-150 
                         │     ├ VendorSeverity   ╭ alma       : 3 
+                        │     │                  ├ azure      : 2 
                         │     │                  ├ cbl-mariner: 2 
                         │     │                  ├ ghsa       : 2 
                         │     │                  ├ oracle-oval: 3 
@@ -250,6 +251,7 @@
                               ├ CweIDs           ╭ [0]: CWE-693 
                               │                  ╰ [1]: CWE-1336 
                               ├ VendorSeverity   ╭ alma       : 3 
+                              │                  ├ azure      : 2 
                               │                  ├ cbl-mariner: 2 
                               │                  ├ ghsa       : 2 
                               │                  ├ oracle-oval: 3 
