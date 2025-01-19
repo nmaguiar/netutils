@@ -34,7 +34,8 @@
 │                       │     │                   as of Vim patch v9.1.1003 
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-122 
-│                       │     ├ VendorSeverity   ─ redhat: 2 
+│                       │     ├ VendorSeverity   ╭ azure : 2 
+│                       │     │                  ╰ redhat: 1 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/
 │                       │     │                           │           A:L 
 │                       │     │                           ╰ V3Score : 4.2 
@@ -81,7 +82,8 @@
 │                       │     │                   as of Vim patch v9.1.1003 
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-122 
-│                       │     ├ VendorSeverity   ─ redhat: 2 
+│                       │     ├ VendorSeverity   ╭ azure : 2 
+│                       │     │                  ╰ redhat: 1 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/
 │                       │     │                           │           A:L 
 │                       │     │                           ╰ V3Score : 4.2 
@@ -127,7 +129,8 @@
 │                             │                   as of Vim patch v9.1.1003 
 │                             ├ Severity        : MEDIUM 
 │                             ├ CweIDs           ─ [0]: CWE-122 
-│                             ├ VendorSeverity   ─ redhat: 2 
+│                             ├ VendorSeverity   ╭ azure : 2 
+│                             │                  ╰ redhat: 1 
 │                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/
 │                             │                           │           A:L 
 │                             │                           ╰ V3Score : 4.2 
