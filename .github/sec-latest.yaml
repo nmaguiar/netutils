@@ -25,7 +25,8 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
-      redhat: 2
+      azure: 2
+      redhat: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
@@ -62,7 +63,8 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
-      redhat: 2
+      azure: 2
+      redhat: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
@@ -99,7 +101,8 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
-      redhat: 2
+      azure: 2
+      redhat: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
