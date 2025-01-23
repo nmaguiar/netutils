@@ -34,8 +34,10 @@
 │                       │     │                   as of Vim patch v9.1.1003 
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-122 
-│                       │     ├ VendorSeverity   ╭ azure : 2 
-│                       │     │                  ╰ redhat: 1 
+│                       │     ├ VendorSeverity   ╭ azure      : 2 
+│                       │     │                  ├ cbl-mariner: 2 
+│                       │     │                  ├ redhat     : 1 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/
 │                       │     │                           │           A:L 
 │                       │     │                           ╰ V3Score : 4.2 
@@ -46,7 +48,8 @@
 │                       │     │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5rg
 │                       │     │                  │      f-26wj-48v8 
 │                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22134 
-│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
+│                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-7220-1 
+│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
 │                       │     ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
 │                       │     ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2025-22134 
@@ -82,8 +85,10 @@
 │                       │     │                   as of Vim patch v9.1.1003 
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-122 
-│                       │     ├ VendorSeverity   ╭ azure : 2 
-│                       │     │                  ╰ redhat: 1 
+│                       │     ├ VendorSeverity   ╭ azure      : 2 
+│                       │     │                  ├ cbl-mariner: 2 
+│                       │     │                  ├ redhat     : 1 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/
 │                       │     │                           │           A:L 
 │                       │     │                           ╰ V3Score : 4.2 
@@ -94,7 +99,8 @@
 │                       │     │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5rg
 │                       │     │                  │      f-26wj-48v8 
 │                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22134 
-│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
+│                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-7220-1 
+│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
 │                       │     ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
 │                       │     ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
 │                       ╰ [2] ╭ VulnerabilityID : CVE-2025-22134 
@@ -129,8 +135,10 @@
 │                             │                   as of Vim patch v9.1.1003 
 │                             ├ Severity        : MEDIUM 
 │                             ├ CweIDs           ─ [0]: CWE-122 
-│                             ├ VendorSeverity   ╭ azure : 2 
-│                             │                  ╰ redhat: 1 
+│                             ├ VendorSeverity   ╭ azure      : 2 
+│                             │                  ├ cbl-mariner: 2 
+│                             │                  ├ redhat     : 1 
+│                             │                  ╰ ubuntu     : 2 
 │                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/
 │                             │                           │           A:L 
 │                             │                           ╰ V3Score : 4.2 
@@ -141,7 +149,8 @@
 │                             │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5rg
 │                             │                  │      f-26wj-48v8 
 │                             │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22134 
-│                             │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
+│                             │                  ├ [5]: https://ubuntu.com/security/notices/USN-7220-1 
+│                             │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
 │                             ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
 │                             ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
 ├ [1] ╭ Target: Java 
