@@ -17,10 +17,10 @@
                         │     ├ InstalledVersion: 3.1.4 
                         │     ├ FixedVersion    : 3.1.5 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:dc8d9d218052575e97d159935b2548a62a8fcdc6b4058
-                        │     │                  │         a54f9792fcd2a02c37f 
-                        │     │                  ╰ DiffID: sha256:457ca7de4d85398015f90f19c55cfb611b7ffe13e4a6d
-                        │     │                            16b916a0a123577fae9 
+                        │     ├ Layer            ╭ Digest: sha256:d44641dd3644fd2d30d3eadd363087ac35f01e8b6d2a5
+                        │     │                  │         717906f55f02c97b005 
+                        │     │                  ╰ DiffID: sha256:d90c64411ed6187abcf5a4d952b19d3419af79984eb25
+                        │     │                            15c0c4dfb4e6d055eb9 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56201 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -80,10 +80,10 @@
                               ├ InstalledVersion: 3.1.4 
                               ├ FixedVersion    : 3.1.5 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:dc8d9d218052575e97d159935b2548a62a8fcdc6b4058
-                              │                  │         a54f9792fcd2a02c37f 
-                              │                  ╰ DiffID: sha256:457ca7de4d85398015f90f19c55cfb611b7ffe13e4a6d
-                              │                            16b916a0a123577fae9 
+                              ├ Layer            ╭ Digest: sha256:d44641dd3644fd2d30d3eadd363087ac35f01e8b6d2a5
+                              │                  │         717906f55f02c97b005 
+                              │                  ╰ DiffID: sha256:d90c64411ed6187abcf5a4d952b19d3419af79984eb25
+                              │                            15c0c4dfb4e6d055eb9 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56326 
                               ├ DataSource       ╭ ID  : ghsa 
@@ -134,7 +134,7 @@
                               │                  ├ [6] : https://github.com/pallets/jinja/security/advisories/G
                               │                  │       HSA-q2x7-8rv6-6q7h 
                               │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-56326.html 
-                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-0308.html 
+                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-0667.html 
                               │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-56326 
                               │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-56326 
                               ├ PublishedDate   : 2024-12-23T16:15:07.59Z 
