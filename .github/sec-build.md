@@ -43,6 +43,7 @@
                         │     ├ Severity        : MEDIUM 
                         │     ├ CweIDs           ─ [0]: CWE-150 
                         │     ├ VendorSeverity   ╭ alma       : 3 
+                        │     │                  ├ amazon     : 3 
                         │     │                  ├ azure      : 2 
                         │     │                  ├ cbl-mariner: 2 
                         │     │                  ├ ghsa       : 2 
@@ -112,6 +113,7 @@
                               ├ CweIDs           ╭ [0]: CWE-693 
                               │                  ╰ [1]: CWE-1336 
                               ├ VendorSeverity   ╭ alma       : 3 
+                              │                  ├ amazon     : 3 
                               │                  ├ azure      : 2 
                               │                  ├ cbl-mariner: 2 
                               │                  ├ ghsa       : 2 
