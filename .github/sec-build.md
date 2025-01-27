@@ -126,19 +126,20 @@
                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/
                               │                           │           A:H 
                               │                           ╰ V3Score : 6.3 
-                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:0308 
+                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:0667 
                               │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56326 
-                              │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-0308.html 
-                              │                  ├ [3] : https://github.com/pallets/jinja 
-                              │                  ├ [4] : https://github.com/pallets/jinja/commit/48b0687e05a546
+                              │                  ├ [2] : https://bugzilla.redhat.com/2333856 
+                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-0667.html 
+                              │                  ├ [4] : https://github.com/pallets/jinja 
+                              │                  ├ [5] : https://github.com/pallets/jinja/commit/48b0687e05a546
                               │                  │       6a91cd5812d604fa37ad0943b4 
-                              │                  ├ [5] : https://github.com/pallets/jinja/releases/tag/3.1.5 
-                              │                  ├ [6] : https://github.com/pallets/jinja/security/advisories/G
+                              │                  ├ [6] : https://github.com/pallets/jinja/releases/tag/3.1.5 
+                              │                  ├ [7] : https://github.com/pallets/jinja/security/advisories/G
                               │                  │       HSA-q2x7-8rv6-6q7h 
-                              │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-56326.html 
-                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-0667.html 
-                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-56326 
-                              │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-56326 
+                              │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-56326.html 
+                              │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-0667.html 
+                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-56326 
+                              │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-56326 
                               ├ PublishedDate   : 2024-12-23T16:15:07.59Z 
                               ╰ LastModifiedDate: 2024-12-27T18:15:38.947Z 
 ````
