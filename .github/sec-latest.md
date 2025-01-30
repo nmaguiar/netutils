@@ -288,7 +288,7 @@
                               │                  ├ [7] : https://github.com/pallets/jinja/security/advisories/G
                               │                  │       HSA-q2x7-8rv6-6q7h 
                               │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-56326.html 
-                              │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-0667.html 
+                              │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-0711.html 
                               │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-56326 
                               │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-56326 
                               ├ PublishedDate   : 2024-12-23T16:15:07.59Z 
