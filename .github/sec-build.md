@@ -69,7 +69,8 @@
                         │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-56201.html 
                         │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-0308.html 
                         │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-56201 
-                        │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-56201 
+                        │     │                  ├ [11]: https://ubuntu.com/security/notices/USN-7244-1 
+                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-56201 
                         │     ├ PublishedDate   : 2024-12-23T16:15:07.41Z 
                         │     ╰ LastModifiedDate: 2025-01-08T16:15:36.387Z 
                         ╰ [1] ╭ VulnerabilityID : CVE-2024-56326 
@@ -139,7 +140,8 @@
                               │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-56326.html 
                               │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-0711.html 
                               │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-56326 
-                              │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-56326 
+                              │                  ├ [11]: https://ubuntu.com/security/notices/USN-7244-1 
+                              │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-56326 
                               ├ PublishedDate   : 2024-12-23T16:15:07.59Z 
                               ╰ LastModifiedDate: 2024-12-27T18:15:38.947Z 
 ````
