@@ -119,7 +119,7 @@
                               │                  ├ cbl-mariner: 2 
                               │                  ├ ghsa       : 2 
                               │                  ├ oracle-oval: 3 
-                              │                  ├ redhat     : 3 
+                              │                  ├ redhat     : 2 
                               │                  ╰ ubuntu     : 2 
                               ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/
                               │                  │        │           A:H 
@@ -127,10 +127,10 @@
                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/
                               │                           │           A:H 
                               │                           ╰ V3Score : 6.3 
-                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:0711 
+                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:0667 
                               │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56326 
                               │                  ├ [2] : https://bugzilla.redhat.com/2333856 
-                              │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2025-0711.html 
+                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-0667.html 
                               │                  ├ [4] : https://github.com/pallets/jinja 
                               │                  ├ [5] : https://github.com/pallets/jinja/commit/48b0687e05a546
                               │                  │       6a91cd5812d604fa37ad0943b4 
