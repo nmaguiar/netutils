@@ -104,10 +104,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H
         V3Score: 6.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:0667
+    - https://access.redhat.com/errata/RHSA-2025:0711
     - https://access.redhat.com/security/cve/CVE-2024-56326
     - https://bugzilla.redhat.com/2333856
-    - https://errata.almalinux.org/9/ALSA-2025-0667.html
+    - https://errata.almalinux.org/8/ALSA-2025-0711.html
     - https://github.com/pallets/jinja
     - https://github.com/pallets/jinja/commit/48b0687e05a5466a91cd5812d604fa37ad0943b4
     - https://github.com/pallets/jinja/releases/tag/3.1.5
