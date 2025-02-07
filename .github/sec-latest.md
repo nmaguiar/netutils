@@ -2,157 +2,462 @@
 ╭ [0] ╭ Target         : nmaguiar/netutils:latest (alpine 3.21.0) 
 │     ├ Class          : os-pkgs 
 │     ├ Type           : alpine 
-│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2025-22134 
-│                       │     ├ PkgID           : vim@9.1.0936-r0 
-│                       │     ├ PkgName         : vim 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.1.0936-r0?arch=x86_64&distro=3.21.0 
-│                       │     │                  ╰ UID : 1bd40a3ac05ad413 
-│                       │     ├ InstalledVersion: 9.1.0936-r0 
-│                       │     ├ FixedVersion    : 9.1.1003-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda76
-│                       │     │                  │         1d2e6b7a8ea94be9ee9 
-│                       │     │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e133893
-│                       │     │                            620e5b02d3f0dffc251 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22134 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : vim: heap-buffer-overflow with visual mode in Vim < 9.1.1003 
-│                       │     ├ Description     : When switching to other buffers using the :all command and
-│                       │     │                   visual mode still being active, this may cause a heap-buffer
-│                       │     │                   overflow, because Vim does not properly end visual mode and
-│                       │     │                   therefore may try to access beyond the end of a line in a
-│                       │     │                   buffer. In Patch 9.1.1003 Vim will correctly reset the visual
-│                       │     │                    mode before opening other windows and buffers and therefore
-│                       │     │                   fix this bug. In addition it does verify that it won't try to
-│                       │     │                    access a position if the position is greater than the
-│                       │     │                   corresponding buffer line. Impact is medium since the user
-│                       │     │                   must have switched on visual mode when executing the :all ex
-│                       │     │                   command. The Vim project would like to thank github user
-│                       │     │                   gandalf4a for reporting this issue. The issue has been fixed
-│                       │     │                   as of Vim patch v9.1.1003 
-│                       │     ├ Severity        : MEDIUM 
-│                       │     ├ CweIDs           ─ [0]: CWE-122 
-│                       │     ├ VendorSeverity   ╭ azure      : 2 
-│                       │     │                  ├ cbl-mariner: 2 
-│                       │     │                  ├ redhat     : 1 
-│                       │     │                  ╰ ubuntu     : 2 
-│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/
-│                       │     │                           │           A:L 
-│                       │     │                           ╰ V3Score : 4.2 
-│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/11/1 
-│                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22134 
-│                       │     │                  ├ [2]: https://github.com/vim/vim/commit/c9a1e257f1630a0866447
-│                       │     │                  │      e53a564f7ff96a80ead 
-│                       │     │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5rg
-│                       │     │                  │      f-26wj-48v8 
-│                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22134 
-│                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-7220-1 
-│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
-│                       │     ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
-│                       │     ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
-│                       ├ [1] ╭ VulnerabilityID : CVE-2025-22134 
-│                       │     ├ PkgID           : vim-common@9.1.0936-r0 
-│                       │     ├ PkgName         : vim-common 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.1.0936-r0?arch=x86_64&dist
-│                       │     │                  │       ro=3.21.0 
-│                       │     │                  ╰ UID : 856ca7dead248249 
-│                       │     ├ InstalledVersion: 9.1.0936-r0 
-│                       │     ├ FixedVersion    : 9.1.1003-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda76
-│                       │     │                  │         1d2e6b7a8ea94be9ee9 
-│                       │     │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e133893
-│                       │     │                            620e5b02d3f0dffc251 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22134 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : vim: heap-buffer-overflow with visual mode in Vim < 9.1.1003 
-│                       │     ├ Description     : When switching to other buffers using the :all command and
-│                       │     │                   visual mode still being active, this may cause a heap-buffer
-│                       │     │                   overflow, because Vim does not properly end visual mode and
-│                       │     │                   therefore may try to access beyond the end of a line in a
-│                       │     │                   buffer. In Patch 9.1.1003 Vim will correctly reset the visual
-│                       │     │                    mode before opening other windows and buffers and therefore
-│                       │     │                   fix this bug. In addition it does verify that it won't try to
-│                       │     │                    access a position if the position is greater than the
-│                       │     │                   corresponding buffer line. Impact is medium since the user
-│                       │     │                   must have switched on visual mode when executing the :all ex
-│                       │     │                   command. The Vim project would like to thank github user
-│                       │     │                   gandalf4a for reporting this issue. The issue has been fixed
-│                       │     │                   as of Vim patch v9.1.1003 
-│                       │     ├ Severity        : MEDIUM 
-│                       │     ├ CweIDs           ─ [0]: CWE-122 
-│                       │     ├ VendorSeverity   ╭ azure      : 2 
-│                       │     │                  ├ cbl-mariner: 2 
-│                       │     │                  ├ redhat     : 1 
-│                       │     │                  ╰ ubuntu     : 2 
-│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/
-│                       │     │                           │           A:L 
-│                       │     │                           ╰ V3Score : 4.2 
-│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/11/1 
-│                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22134 
-│                       │     │                  ├ [2]: https://github.com/vim/vim/commit/c9a1e257f1630a0866447
-│                       │     │                  │      e53a564f7ff96a80ead 
-│                       │     │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5rg
-│                       │     │                  │      f-26wj-48v8 
-│                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22134 
-│                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-7220-1 
-│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
-│                       │     ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
-│                       │     ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
-│                       ╰ [2] ╭ VulnerabilityID : CVE-2025-22134 
-│                             ├ PkgID           : xxd@9.1.0936-r0 
-│                             ├ PkgName         : xxd 
-│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.1.0936-r0?arch=x86_64&distro=3.21.0 
-│                             │                  ╰ UID : cb52e760c8ff70ed 
-│                             ├ InstalledVersion: 9.1.0936-r0 
-│                             ├ FixedVersion    : 9.1.1003-r0 
-│                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda76
-│                             │                  │         1d2e6b7a8ea94be9ee9 
-│                             │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e133893
-│                             │                            620e5b02d3f0dffc251 
-│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22134 
-│                             ├ DataSource       ╭ ID  : alpine 
-│                             │                  ├ Name: Alpine Secdb 
-│                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Title           : vim: heap-buffer-overflow with visual mode in Vim < 9.1.1003 
-│                             ├ Description     : When switching to other buffers using the :all command and
-│                             │                   visual mode still being active, this may cause a heap-buffer
-│                             │                   overflow, because Vim does not properly end visual mode and
-│                             │                   therefore may try to access beyond the end of a line in a
-│                             │                   buffer. In Patch 9.1.1003 Vim will correctly reset the visual
-│                             │                    mode before opening other windows and buffers and therefore
-│                             │                   fix this bug. In addition it does verify that it won't try to
-│                             │                    access a position if the position is greater than the
-│                             │                   corresponding buffer line. Impact is medium since the user
-│                             │                   must have switched on visual mode when executing the :all ex
-│                             │                   command. The Vim project would like to thank github user
-│                             │                   gandalf4a for reporting this issue. The issue has been fixed
-│                             │                   as of Vim patch v9.1.1003 
-│                             ├ Severity        : MEDIUM 
-│                             ├ CweIDs           ─ [0]: CWE-122 
-│                             ├ VendorSeverity   ╭ azure      : 2 
-│                             │                  ├ cbl-mariner: 2 
-│                             │                  ├ redhat     : 1 
-│                             │                  ╰ ubuntu     : 2 
-│                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/
-│                             │                           │           A:L 
-│                             │                           ╰ V3Score : 4.2 
-│                             ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/11/1 
-│                             │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22134 
-│                             │                  ├ [2]: https://github.com/vim/vim/commit/c9a1e257f1630a0866447
-│                             │                  │      e53a564f7ff96a80ead 
-│                             │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5rg
-│                             │                  │      f-26wj-48v8 
-│                             │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22134 
-│                             │                  ├ [5]: https://ubuntu.com/security/notices/USN-7220-1 
-│                             │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
-│                             ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
-│                             ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2025-0167 
+│                       │      ├ PkgID           : curl@8.11.1-r0 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.11.1-r0?arch=x86_64&distro=3.21.0 
+│                       │      │                  ╰ UID : dceb0b717c2c124b 
+│                       │      ├ InstalledVersion: 8.11.1-r0 
+│                       │      ├ FixedVersion    : 8.12.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda7
+│                       │      │                  │         61d2e6b7a8ea94be9ee9 
+│                       │      │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e13389
+│                       │      │                            3620e5b02d3f0dffc251 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0167 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : When asked to use a `.netrc` file for credentials **and** to
+│                       │      │                    follow HT ... 
+│                       │      ├ Description     : When asked to use a `.netrc` file for credentials **and** to
+│                       │      │                    follow HTTP
+│                       │      │                   redirects, curl could leak the password used for the first
+│                       │      │                   host to the
+│                       │      │                   followed-to host under certain circumstances.
+│                       │      │                   
+│                       │      │                   This flaw only manifests itself if the netrc file has a
+│                       │      │                   `default` entry that
+│                       │      │                   omits both login and password. A rare circumstance. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
+│                       │      │                  ├ [2]: https://hackerone.com/reports/2917232 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
+│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
+│                       │      ╰ LastModifiedDate: 2025-02-06T15:15:16.967Z 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2025-0665 
+│                       │      ├ PkgID           : curl@8.11.1-r0 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.11.1-r0?arch=x86_64&distro=3.21.0 
+│                       │      │                  ╰ UID : dceb0b717c2c124b 
+│                       │      ├ InstalledVersion: 8.11.1-r0 
+│                       │      ├ FixedVersion    : 8.12.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda7
+│                       │      │                  │         61d2e6b7a8ea94be9ee9 
+│                       │      │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e13389
+│                       │      │                            3620e5b02d3f0dffc251 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0665 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : libcurl would wrongly close the same eventfd file descriptor
+│                       │      │                    twice whe ... 
+│                       │      ├ Description     : libcurl would wrongly close the same eventfd file descriptor
+│                       │      │                    twice when taking
+│                       │      │                   down a connection channel after having completed a threaded
+│                       │      │                   name resolve. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-1341 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/2 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-0665.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-0665.json 
+│                       │      │                  ╰ [4]: https://hackerone.com/reports/2954286 
+│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
+│                       │      ╰ LastModifiedDate: 2025-02-05T20:15:45.31Z 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2025-0725 
+│                       │      ├ PkgID           : curl@8.11.1-r0 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.11.1-r0?arch=x86_64&distro=3.21.0 
+│                       │      │                  ╰ UID : dceb0b717c2c124b 
+│                       │      ├ InstalledVersion: 8.11.1-r0 
+│                       │      ├ FixedVersion    : 8.12.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda7
+│                       │      │                  │         61d2e6b7a8ea94be9ee9 
+│                       │      │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e13389
+│                       │      │                            3620e5b02d3f0dffc251 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0725 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : When libcurl is asked to perform automatic gzip
+│                       │      │                   decompression of conte ... 
+│                       │      ├ Description     : When libcurl is asked to perform automatic gzip
+│                       │      │                   decompression of
+│                       │      │                   content-encoded HTTP responses with the
+│                       │      │                   `CURLOPT_ACCEPT_ENCODING` option,
+│                       │      │                   **using zlib 1.2.0.3 or older**, an attacker-controlled
+│                       │      │                   integer overflow would
+│                       │      │                   make libcurl perform a buffer overflow. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/3 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/06/2 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-0725.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-0725.json 
+│                       │      │                  ╰ [4]: https://hackerone.com/reports/2956023 
+│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.98Z 
+│                       │      ╰ LastModifiedDate: 2025-02-06T11:15:09.683Z 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-0167 
+│                       │      ├ PkgID           : curl-doc@8.11.1-r0 
+│                       │      ├ PkgName         : curl-doc 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.11.1-r0?arch=x86_64&distro=
+│                       │      │                  │       3.21.0 
+│                       │      │                  ╰ UID : 847342e32bebf73b 
+│                       │      ├ InstalledVersion: 8.11.1-r0 
+│                       │      ├ FixedVersion    : 8.12.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda7
+│                       │      │                  │         61d2e6b7a8ea94be9ee9 
+│                       │      │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e13389
+│                       │      │                            3620e5b02d3f0dffc251 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0167 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : When asked to use a `.netrc` file for credentials **and** to
+│                       │      │                    follow HT ... 
+│                       │      ├ Description     : When asked to use a `.netrc` file for credentials **and** to
+│                       │      │                    follow HTTP
+│                       │      │                   redirects, curl could leak the password used for the first
+│                       │      │                   host to the
+│                       │      │                   followed-to host under certain circumstances.
+│                       │      │                   
+│                       │      │                   This flaw only manifests itself if the netrc file has a
+│                       │      │                   `default` entry that
+│                       │      │                   omits both login and password. A rare circumstance. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
+│                       │      │                  ├ [2]: https://hackerone.com/reports/2917232 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
+│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
+│                       │      ╰ LastModifiedDate: 2025-02-06T15:15:16.967Z 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-0665 
+│                       │      ├ PkgID           : curl-doc@8.11.1-r0 
+│                       │      ├ PkgName         : curl-doc 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.11.1-r0?arch=x86_64&distro=
+│                       │      │                  │       3.21.0 
+│                       │      │                  ╰ UID : 847342e32bebf73b 
+│                       │      ├ InstalledVersion: 8.11.1-r0 
+│                       │      ├ FixedVersion    : 8.12.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda7
+│                       │      │                  │         61d2e6b7a8ea94be9ee9 
+│                       │      │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e13389
+│                       │      │                            3620e5b02d3f0dffc251 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0665 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : libcurl would wrongly close the same eventfd file descriptor
+│                       │      │                    twice whe ... 
+│                       │      ├ Description     : libcurl would wrongly close the same eventfd file descriptor
+│                       │      │                    twice when taking
+│                       │      │                   down a connection channel after having completed a threaded
+│                       │      │                   name resolve. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-1341 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/2 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-0665.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-0665.json 
+│                       │      │                  ╰ [4]: https://hackerone.com/reports/2954286 
+│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
+│                       │      ╰ LastModifiedDate: 2025-02-05T20:15:45.31Z 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-0725 
+│                       │      ├ PkgID           : curl-doc@8.11.1-r0 
+│                       │      ├ PkgName         : curl-doc 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.11.1-r0?arch=x86_64&distro=
+│                       │      │                  │       3.21.0 
+│                       │      │                  ╰ UID : 847342e32bebf73b 
+│                       │      ├ InstalledVersion: 8.11.1-r0 
+│                       │      ├ FixedVersion    : 8.12.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda7
+│                       │      │                  │         61d2e6b7a8ea94be9ee9 
+│                       │      │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e13389
+│                       │      │                            3620e5b02d3f0dffc251 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0725 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : When libcurl is asked to perform automatic gzip
+│                       │      │                   decompression of conte ... 
+│                       │      ├ Description     : When libcurl is asked to perform automatic gzip
+│                       │      │                   decompression of
+│                       │      │                   content-encoded HTTP responses with the
+│                       │      │                   `CURLOPT_ACCEPT_ENCODING` option,
+│                       │      │                   **using zlib 1.2.0.3 or older**, an attacker-controlled
+│                       │      │                   integer overflow would
+│                       │      │                   make libcurl perform a buffer overflow. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/3 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/06/2 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-0725.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-0725.json 
+│                       │      │                  ╰ [4]: https://hackerone.com/reports/2956023 
+│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.98Z 
+│                       │      ╰ LastModifiedDate: 2025-02-06T11:15:09.683Z 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-0167 
+│                       │      ├ PkgID           : libcurl@8.11.1-r0 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.11.1-r0?arch=x86_64&distro=3
+│                       │      │                  │       .21.0 
+│                       │      │                  ╰ UID : 6f72238bcb280429 
+│                       │      ├ InstalledVersion: 8.11.1-r0 
+│                       │      ├ FixedVersion    : 8.12.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda7
+│                       │      │                  │         61d2e6b7a8ea94be9ee9 
+│                       │      │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e13389
+│                       │      │                            3620e5b02d3f0dffc251 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0167 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : When asked to use a `.netrc` file for credentials **and** to
+│                       │      │                    follow HT ... 
+│                       │      ├ Description     : When asked to use a `.netrc` file for credentials **and** to
+│                       │      │                    follow HTTP
+│                       │      │                   redirects, curl could leak the password used for the first
+│                       │      │                   host to the
+│                       │      │                   followed-to host under certain circumstances.
+│                       │      │                   
+│                       │      │                   This flaw only manifests itself if the netrc file has a
+│                       │      │                   `default` entry that
+│                       │      │                   omits both login and password. A rare circumstance. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
+│                       │      │                  ├ [2]: https://hackerone.com/reports/2917232 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
+│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
+│                       │      ╰ LastModifiedDate: 2025-02-06T15:15:16.967Z 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-0665 
+│                       │      ├ PkgID           : libcurl@8.11.1-r0 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.11.1-r0?arch=x86_64&distro=3
+│                       │      │                  │       .21.0 
+│                       │      │                  ╰ UID : 6f72238bcb280429 
+│                       │      ├ InstalledVersion: 8.11.1-r0 
+│                       │      ├ FixedVersion    : 8.12.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda7
+│                       │      │                  │         61d2e6b7a8ea94be9ee9 
+│                       │      │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e13389
+│                       │      │                            3620e5b02d3f0dffc251 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0665 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : libcurl would wrongly close the same eventfd file descriptor
+│                       │      │                    twice whe ... 
+│                       │      ├ Description     : libcurl would wrongly close the same eventfd file descriptor
+│                       │      │                    twice when taking
+│                       │      │                   down a connection channel after having completed a threaded
+│                       │      │                   name resolve. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-1341 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/2 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-0665.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-0665.json 
+│                       │      │                  ╰ [4]: https://hackerone.com/reports/2954286 
+│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
+│                       │      ╰ LastModifiedDate: 2025-02-05T20:15:45.31Z 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-0725 
+│                       │      ├ PkgID           : libcurl@8.11.1-r0 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.11.1-r0?arch=x86_64&distro=3
+│                       │      │                  │       .21.0 
+│                       │      │                  ╰ UID : 6f72238bcb280429 
+│                       │      ├ InstalledVersion: 8.11.1-r0 
+│                       │      ├ FixedVersion    : 8.12.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda7
+│                       │      │                  │         61d2e6b7a8ea94be9ee9 
+│                       │      │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e13389
+│                       │      │                            3620e5b02d3f0dffc251 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0725 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : When libcurl is asked to perform automatic gzip
+│                       │      │                   decompression of conte ... 
+│                       │      ├ Description     : When libcurl is asked to perform automatic gzip
+│                       │      │                   decompression of
+│                       │      │                   content-encoded HTTP responses with the
+│                       │      │                   `CURLOPT_ACCEPT_ENCODING` option,
+│                       │      │                   **using zlib 1.2.0.3 or older**, an attacker-controlled
+│                       │      │                   integer overflow would
+│                       │      │                   make libcurl perform a buffer overflow. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/3 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/06/2 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-0725.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-0725.json 
+│                       │      │                  ╰ [4]: https://hackerone.com/reports/2956023 
+│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.98Z 
+│                       │      ╰ LastModifiedDate: 2025-02-06T11:15:09.683Z 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-22134 
+│                       │      ├ PkgID           : vim@9.1.0936-r0 
+│                       │      ├ PkgName         : vim 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.1.0936-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       1.0 
+│                       │      │                  ╰ UID : 1bd40a3ac05ad413 
+│                       │      ├ InstalledVersion: 9.1.0936-r0 
+│                       │      ├ FixedVersion    : 9.1.1003-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda7
+│                       │      │                  │         61d2e6b7a8ea94be9ee9 
+│                       │      │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e13389
+│                       │      │                            3620e5b02d3f0dffc251 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22134 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : vim: heap-buffer-overflow with visual mode in Vim < 9.1.1003 
+│                       │      ├ Description     : When switching to other buffers using the :all command and
+│                       │      │                   visual mode still being active, this may cause a heap-buffer
+│                       │      │                    overflow, because Vim does not properly end visual mode and
+│                       │      │                    therefore may try to access beyond the end of a line in a
+│                       │      │                   buffer. In Patch 9.1.1003 Vim will correctly reset the
+│                       │      │                   visual mode before opening other windows and buffers and
+│                       │      │                   therefore fix this bug. In addition it does verify that it
+│                       │      │                   won't try to access a position if the position is greater
+│                       │      │                   than the corresponding buffer line. Impact is medium since
+│                       │      │                   the user must have switched on visual mode when executing
+│                       │      │                   the :all ex command. The Vim project would like to thank
+│                       │      │                   github user gandalf4a for reporting this issue. The issue
+│                       │      │                   has been fixed as of Vim patch v9.1.1003 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-122 
+│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 4.2 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/11/1 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22134 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/c9a1e257f1630a086644
+│                       │      │                  │      7e53a564f7ff96a80ead 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5r
+│                       │      │                  │      gf-26wj-48v8 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22134 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7220-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
+│                       │      ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
+│                       │      ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2025-22134 
+│                       │      ├ PkgID           : vim-common@9.1.0936-r0 
+│                       │      ├ PkgName         : vim-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.1.0936-r0?arch=x86_64&dis
+│                       │      │                  │       tro=3.21.0 
+│                       │      │                  ╰ UID : 856ca7dead248249 
+│                       │      ├ InstalledVersion: 9.1.0936-r0 
+│                       │      ├ FixedVersion    : 9.1.1003-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda7
+│                       │      │                  │         61d2e6b7a8ea94be9ee9 
+│                       │      │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e13389
+│                       │      │                            3620e5b02d3f0dffc251 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22134 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : vim: heap-buffer-overflow with visual mode in Vim < 9.1.1003 
+│                       │      ├ Description     : When switching to other buffers using the :all command and
+│                       │      │                   visual mode still being active, this may cause a heap-buffer
+│                       │      │                    overflow, because Vim does not properly end visual mode and
+│                       │      │                    therefore may try to access beyond the end of a line in a
+│                       │      │                   buffer. In Patch 9.1.1003 Vim will correctly reset the
+│                       │      │                   visual mode before opening other windows and buffers and
+│                       │      │                   therefore fix this bug. In addition it does verify that it
+│                       │      │                   won't try to access a position if the position is greater
+│                       │      │                   than the corresponding buffer line. Impact is medium since
+│                       │      │                   the user must have switched on visual mode when executing
+│                       │      │                   the :all ex command. The Vim project would like to thank
+│                       │      │                   github user gandalf4a for reporting this issue. The issue
+│                       │      │                   has been fixed as of Vim patch v9.1.1003 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-122 
+│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 4.2 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/11/1 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22134 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/c9a1e257f1630a086644
+│                       │      │                  │      7e53a564f7ff96a80ead 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5r
+│                       │      │                  │      gf-26wj-48v8 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22134 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7220-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
+│                       │      ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
+│                       │      ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
+│                       ╰ [11] ╭ VulnerabilityID : CVE-2025-22134 
+│                              ├ PkgID           : xxd@9.1.0936-r0 
+│                              ├ PkgName         : xxd 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.1.0936-r0?arch=x86_64&distro=3.2
+│                              │                  │       1.0 
+│                              │                  ╰ UID : cb52e760c8ff70ed 
+│                              ├ InstalledVersion: 9.1.0936-r0 
+│                              ├ FixedVersion    : 9.1.1003-r0 
+│                              ├ Status          : fixed 
+│                              ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda7
+│                              │                  │         61d2e6b7a8ea94be9ee9 
+│                              │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e13389
+│                              │                            3620e5b02d3f0dffc251 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22134 
+│                              ├ DataSource       ╭ ID  : alpine 
+│                              │                  ├ Name: Alpine Secdb 
+│                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                              ├ Title           : vim: heap-buffer-overflow with visual mode in Vim < 9.1.1003 
+│                              ├ Description     : When switching to other buffers using the :all command and
+│                              │                   visual mode still being active, this may cause a heap-buffer
+│                              │                    overflow, because Vim does not properly end visual mode and
+│                              │                    therefore may try to access beyond the end of a line in a
+│                              │                   buffer. In Patch 9.1.1003 Vim will correctly reset the
+│                              │                   visual mode before opening other windows and buffers and
+│                              │                   therefore fix this bug. In addition it does verify that it
+│                              │                   won't try to access a position if the position is greater
+│                              │                   than the corresponding buffer line. Impact is medium since
+│                              │                   the user must have switched on visual mode when executing
+│                              │                   the :all ex command. The Vim project would like to thank
+│                              │                   github user gandalf4a for reporting this issue. The issue
+│                              │                   has been fixed as of Vim patch v9.1.1003 
+│                              ├ Severity        : MEDIUM 
+│                              ├ CweIDs           ─ [0]: CWE-122 
+│                              ├ VendorSeverity   ╭ azure      : 2 
+│                              │                  ├ cbl-mariner: 2 
+│                              │                  ├ redhat     : 1 
+│                              │                  ╰ ubuntu     : 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
+│                              │                           │           /A:L 
+│                              │                           ╰ V3Score : 4.2 
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/11/1 
+│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22134 
+│                              │                  ├ [2]: https://github.com/vim/vim/commit/c9a1e257f1630a086644
+│                              │                  │      7e53a564f7ff96a80ead 
+│                              │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5r
+│                              │                  │      gf-26wj-48v8 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22134 
+│                              │                  ├ [5]: https://ubuntu.com/security/notices/USN-7220-1 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
+│                              ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
+│                              ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
 ├ [1] ╭ Target: Java 
 │     ├ Class : lang-pkgs 
 │     ╰ Type  : jar 
@@ -224,75 +529,140 @@
                         │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-56201 
                         │     ├ PublishedDate   : 2024-12-23T16:15:07.41Z 
                         │     ╰ LastModifiedDate: 2025-01-08T16:15:36.387Z 
-                        ╰ [1] ╭ VulnerabilityID : CVE-2024-56326 
-                              ├ PkgName         : Jinja2 
-                              ├ PkgPath         : opt/mitmproxy/lib/python3.12/site-packages/jinja2-3.1.4.dist-
-                              │                   info/METADATA 
-                              ├ PkgIdentifier    ╭ PURL: pkg:pypi/jinja2@3.1.4 
-                              │                  ╰ UID : bf6339712af5866c 
-                              ├ InstalledVersion: 3.1.4 
-                              ├ FixedVersion    : 3.1.5 
+                        ├ [1] ╭ VulnerabilityID : CVE-2024-56326 
+                        │     ├ PkgName         : Jinja2 
+                        │     ├ PkgPath         : opt/mitmproxy/lib/python3.12/site-packages/jinja2-3.1.4.dist-
+                        │     │                   info/METADATA 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:pypi/jinja2@3.1.4 
+                        │     │                  ╰ UID : bf6339712af5866c 
+                        │     ├ InstalledVersion: 3.1.4 
+                        │     ├ FixedVersion    : 3.1.5 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda76
+                        │     │                  │         1d2e6b7a8ea94be9ee9 
+                        │     │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e133893
+                        │     │                            620e5b02d3f0dffc251 
+                        │     ├ SeveritySource  : ghsa 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56326 
+                        │     ├ DataSource       ╭ ID  : ghsa 
+                        │     │                  ├ Name: GitHub Security Advisory pip 
+                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+                        │     │                          osystem%3Apip 
+                        │     ├ Title           : jinja2: Jinja has a sandbox breakout through indirect
+                        │     │                   reference to format method 
+                        │     ├ Description     : Jinja is an extensible templating engine. Prior to 3.1.5, An
+                        │     │                   oversight in how the Jinja sandboxed environment detects
+                        │     │                   calls to str.format allows an attacker that controls the
+                        │     │                   content of a template to execute arbitrary Python code. To
+                        │     │                   exploit the vulnerability, an attacker needs to control the
+                        │     │                   content of a template. Whether that is the case depends on
+                        │     │                   the type of application using Jinja. This vulnerability
+                        │     │                   impacts users of applications which execute untrusted
+                        │     │                   templates. Jinja's sandbox does catch calls to str.format and
+                        │     │                    ensures they don't escape the sandbox. However, it's
+                        │     │                   possible to store a reference to a malicious string's format
+                        │     │                   method, then pass that to a filter that calls it. No such
+                        │     │                   filters are built-in to Jinja, but could be present through
+                        │     │                   custom filters in an application. After the fix, such
+                        │     │                   indirect calls are also handled by the sandbox. This
+                        │     │                   vulnerability is fixed in 3.1.5. 
+                        │     ├ Severity        : MEDIUM 
+                        │     ├ CweIDs           ╭ [0]: CWE-693 
+                        │     │                  ╰ [1]: CWE-1336 
+                        │     ├ VendorSeverity   ╭ alma       : 3 
+                        │     │                  ├ amazon     : 3 
+                        │     │                  ├ azure      : 2 
+                        │     │                  ├ cbl-mariner: 2 
+                        │     │                  ├ ghsa       : 2 
+                        │     │                  ├ oracle-oval: 3 
+                        │     │                  ├ redhat     : 2 
+                        │     │                  ╰ ubuntu     : 2 
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/
+                        │     │                  │        │           A:H 
+                        │     │                  │        ╰ V3Score : 7.8 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/
+                        │     │                           │           A:H 
+                        │     │                           ╰ V3Score : 6.3 
+                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:0667 
+                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56326 
+                        │     │                  ├ [2] : https://bugzilla.redhat.com/2333856 
+                        │     │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-0667.html 
+                        │     │                  ├ [4] : https://github.com/pallets/jinja 
+                        │     │                  ├ [5] : https://github.com/pallets/jinja/commit/48b0687e05a546
+                        │     │                  │       6a91cd5812d604fa37ad0943b4 
+                        │     │                  ├ [6] : https://github.com/pallets/jinja/releases/tag/3.1.5 
+                        │     │                  ├ [7] : https://github.com/pallets/jinja/security/advisories/G
+                        │     │                  │       HSA-q2x7-8rv6-6q7h 
+                        │     │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-56326.html 
+                        │     │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-0711.html 
+                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-56326 
+                        │     │                  ├ [11]: https://ubuntu.com/security/notices/USN-7244-1 
+                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-56326 
+                        │     ├ PublishedDate   : 2024-12-23T16:15:07.59Z 
+                        │     ╰ LastModifiedDate: 2024-12-27T18:15:38.947Z 
+                        ╰ [2] ╭ VulnerabilityID : CVE-2025-23217 
+                              ├ PkgName         : mitmproxy 
+                              ├ PkgPath         : opt/mitmproxy/lib/python3.12/site-packages/mitmproxy-11.0.2.d
+                              │                   ist-info/METADATA 
+                              ├ PkgIdentifier    ╭ PURL: pkg:pypi/mitmproxy@11.0.2 
+                              │                  ╰ UID : 6b369dbabbb32323 
+                              ├ InstalledVersion: 11.0.2 
+                              ├ FixedVersion    : 11.1.2 
                               ├ Status          : fixed 
                               ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda76
                               │                  │         1d2e6b7a8ea94be9ee9 
                               │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e133893
                               │                            620e5b02d3f0dffc251 
                               ├ SeveritySource  : ghsa 
-                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56326 
+                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-23217 
                               ├ DataSource       ╭ ID  : ghsa 
                               │                  ├ Name: GitHub Security Advisory pip 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                               │                          osystem%3Apip 
-                              ├ Title           : jinja2: Jinja has a sandbox breakout through indirect
-                              │                   reference to format method 
-                              ├ Description     : Jinja is an extensible templating engine. Prior to 3.1.5, An
-                              │                   oversight in how the Jinja sandboxed environment detects
-                              │                   calls to str.format allows an attacker that controls the
-                              │                   content of a template to execute arbitrary Python code. To
-                              │                   exploit the vulnerability, an attacker needs to control the
-                              │                   content of a template. Whether that is the case depends on
-                              │                   the type of application using Jinja. This vulnerability
-                              │                   impacts users of applications which execute untrusted
-                              │                   templates. Jinja's sandbox does catch calls to str.format and
-                              │                    ensures they don't escape the sandbox. However, it's
-                              │                   possible to store a reference to a malicious string's format
-                              │                   method, then pass that to a filter that calls it. No such
-                              │                   filters are built-in to Jinja, but could be present through
-                              │                   custom filters in an application. After the fix, such
-                              │                   indirect calls are also handled by the sandbox. This
-                              │                   vulnerability is fixed in 3.1.5. 
-                              ├ Severity        : MEDIUM 
-                              ├ CweIDs           ╭ [0]: CWE-693 
-                              │                  ╰ [1]: CWE-1336 
-                              ├ VendorSeverity   ╭ alma       : 3 
-                              │                  ├ amazon     : 3 
-                              │                  ├ azure      : 2 
-                              │                  ├ cbl-mariner: 2 
-                              │                  ├ ghsa       : 2 
-                              │                  ├ oracle-oval: 3 
-                              │                  ├ redhat     : 2 
-                              │                  ╰ ubuntu     : 2 
-                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/
-                              │                  │        │           A:H 
-                              │                  │        ╰ V3Score : 7.8 
-                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/
-                              │                           │           A:H 
-                              │                           ╰ V3Score : 6.3 
-                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:0667 
-                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56326 
-                              │                  ├ [2] : https://bugzilla.redhat.com/2333856 
-                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-0667.html 
-                              │                  ├ [4] : https://github.com/pallets/jinja 
-                              │                  ├ [5] : https://github.com/pallets/jinja/commit/48b0687e05a546
-                              │                  │       6a91cd5812d604fa37ad0943b4 
-                              │                  ├ [6] : https://github.com/pallets/jinja/releases/tag/3.1.5 
-                              │                  ├ [7] : https://github.com/pallets/jinja/security/advisories/G
-                              │                  │       HSA-q2x7-8rv6-6q7h 
-                              │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-56326.html 
-                              │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-0711.html 
-                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-56326 
-                              │                  ├ [11]: https://ubuntu.com/security/notices/USN-7244-1 
-                              │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-56326 
-                              ├ PublishedDate   : 2024-12-23T16:15:07.59Z 
-                              ╰ LastModifiedDate: 2024-12-27T18:15:38.947Z 
+                              ├ Title           : Mitmweb API Authentication Bypass Using Proxy Server 
+                              ├ Description     : ### Impact
+                              │                   In mitmweb 11.1.0 and below, a malicious client can use
+                              │                   mitmweb's proxy server (bound to `*:8080` by default) to
+                              │                   access mitmweb's internal API (bound to `127.0.0.1:8081` by
+                              │                   default). In other words, while the client cannot access the
+                              │                   API directly (good), they can access the API through the
+                              │                   proxy (bad). An attacker may be able to escalate this
+                              │                   [SSRF](https://en.wikipedia.org/wiki/Server-side_request_forg
+                              │                   ery)-style access to remote code execution.
+                              │                   
+                              │                   The mitmproxy and mitmdump tools are unaffected. Only mitmweb
+                              │                    is affected. The `block_global` option, which is enabled by
+                              │                   default, blocks connections originating from
+                              │                   publicly-routable IP addresses in the proxy. The attacker
+                              │                   needs to be in the same local network.
+                              │                   ### Patches
+                              │                   The vulnerability has been fixed in mitmproxy 11.1.2 and
+                              │                   above.
+                              │                   ### Acknowledgements
+                              │                   We thank Stefan Grönke (@gronke) for reporting this
+                              │                   vulnerability as part of a security audit by [Radically Open
+                              │                   Security](https://www.radicallyopensecurity.com/). This audit
+                              │                    was supported by the [NGI0 Entrust
+                              │                   fund](https://nlnet.nl/entrust/) established by
+                              │                   [NLnet](https://nlnet.nl/).
+                              │                   ### Timeline
+                              │                   - **2025-01-14**: Received initial report. 
+                              │                   - **2025-01-14**: Verified report and confirmed receipt.
+                              │                   - **2025-01-19**: Shared patch with researcher.
+                              │                   - **2025-02-04**: Received final confirmation that patch is
+                              │                   working.
+                              │                   - **2025-02-05**: Published patched release and advisory. 
+                              ├ Severity        : HIGH 
+                              ├ VendorSeverity   ─ ghsa: 3 
+                              ╰ References       ╭ [0]: https://en.wikipedia.org/wiki/Server-side_request_forgery 
+                                                 ├ [1]: https://github.com/mitmproxy/mitmproxy 
+                                                 ├ [2]: https://github.com/mitmproxy/mitmproxy/blob/main/CHANGE
+                                                 │      LOG.md 
+                                                 ├ [3]: https://github.com/mitmproxy/mitmproxy/blob/main/CHANGE
+                                                 │      LOG.md#06-february-2025-mitmproxy-1112 
+                                                 ├ [4]: https://github.com/mitmproxy/mitmproxy/commit/fa89055e1
+                                                 │      96d953f11fd241e36ee37858993486a 
+                                                 ├ [5]: https://github.com/mitmproxy/mitmproxy/security/advisor
+                                                 │      ies/GHSA-wg33-5h85-7q5p 
+                                                 ╰ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-23217 
 ````
