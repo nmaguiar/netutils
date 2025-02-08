@@ -1,313 +1,7 @@
 ````yaml
-╭ [0] ╭ Target         : nmaguiar/netutils:build (alpine 3.22.0_alpha20250108) 
-│     ├ Class          : os-pkgs 
-│     ├ Type           : alpine 
-│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2025-0167 
-│                       │     ├ PkgID           : curl@8.11.1-r1 
-│                       │     ├ PkgName         : curl 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.11.1-r1?arch=x86_64&distro=3.22.
-│                       │     │                  │       0_alpha20250108 
-│                       │     │                  ╰ UID : d983b519bda75ed2 
-│                       │     ├ InstalledVersion: 8.11.1-r1 
-│                       │     ├ FixedVersion    : 8.12.0-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:95cf947ba0ae31231027d65e7f16d2914b0924b8715a8
-│                       │     │                  │         d1b3c39d14da56c9af1 
-│                       │     │                  ╰ DiffID: sha256:59d7b5c340005f049a6334327bc22980313a0ea504dc3
-│                       │     │                            acbefa5590531c828c8 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0167 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : When asked to use a `.netrc` file for credentials **and** to
-│                       │     │                   follow HT ... 
-│                       │     ├ Description     : When asked to use a `.netrc` file for credentials **and** to
-│                       │     │                   follow HTTP
-│                       │     │                   redirects, curl could leak the password used for the first
-│                       │     │                   host to the
-│                       │     │                   followed-to host under certain circumstances.
-│                       │     │                   
-│                       │     │                   This flaw only manifests itself if the netrc file has a
-│                       │     │                   `default` entry that
-│                       │     │                   omits both login and password. A rare circumstance. 
-│                       │     ├ Severity        : LOW 
-│                       │     ├ VendorSeverity   ─ ubuntu: 1 
-│                       │     ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
-│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
-│                       │     │                  ├ [2]: https://hackerone.com/reports/2917232 
-│                       │     │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
-│                       │     ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
-│                       │     ╰ LastModifiedDate: 2025-02-06T15:15:16.967Z 
-│                       ├ [1] ╭ VulnerabilityID : CVE-2025-0665 
-│                       │     ├ PkgID           : curl@8.11.1-r1 
-│                       │     ├ PkgName         : curl 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.11.1-r1?arch=x86_64&distro=3.22.
-│                       │     │                  │       0_alpha20250108 
-│                       │     │                  ╰ UID : d983b519bda75ed2 
-│                       │     ├ InstalledVersion: 8.11.1-r1 
-│                       │     ├ FixedVersion    : 8.12.0-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:95cf947ba0ae31231027d65e7f16d2914b0924b8715a8
-│                       │     │                  │         d1b3c39d14da56c9af1 
-│                       │     │                  ╰ DiffID: sha256:59d7b5c340005f049a6334327bc22980313a0ea504dc3
-│                       │     │                            acbefa5590531c828c8 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0665 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : libcurl would wrongly close the same eventfd file descriptor
-│                       │     │                   twice whe ... 
-│                       │     ├ Description     : libcurl would wrongly close the same eventfd file descriptor
-│                       │     │                   twice when taking
-│                       │     │                   down a connection channel after having completed a threaded
-│                       │     │                   name resolve. 
-│                       │     ├ Severity        : UNKNOWN 
-│                       │     ├ CweIDs           ─ [0]: CWE-1341 
-│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/2 
-│                       │     │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
-│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2025-0665.html 
-│                       │     │                  ├ [3]: https://curl.se/docs/CVE-2025-0665.json 
-│                       │     │                  ╰ [4]: https://hackerone.com/reports/2954286 
-│                       │     ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
-│                       │     ╰ LastModifiedDate: 2025-02-05T20:15:45.31Z 
-│                       ├ [2] ╭ VulnerabilityID : CVE-2025-0725 
-│                       │     ├ PkgID           : curl@8.11.1-r1 
-│                       │     ├ PkgName         : curl 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.11.1-r1?arch=x86_64&distro=3.22.
-│                       │     │                  │       0_alpha20250108 
-│                       │     │                  ╰ UID : d983b519bda75ed2 
-│                       │     ├ InstalledVersion: 8.11.1-r1 
-│                       │     ├ FixedVersion    : 8.12.0-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:95cf947ba0ae31231027d65e7f16d2914b0924b8715a8
-│                       │     │                  │         d1b3c39d14da56c9af1 
-│                       │     │                  ╰ DiffID: sha256:59d7b5c340005f049a6334327bc22980313a0ea504dc3
-│                       │     │                            acbefa5590531c828c8 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0725 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : When libcurl is asked to perform automatic gzip decompression
-│                       │     │                    of conte ... 
-│                       │     ├ Description     : When libcurl is asked to perform automatic gzip decompression
-│                       │     │                    of
-│                       │     │                   content-encoded HTTP responses with the
-│                       │     │                   `CURLOPT_ACCEPT_ENCODING` option,
-│                       │     │                   **using zlib 1.2.0.3 or older**, an attacker-controlled
-│                       │     │                   integer overflow would
-│                       │     │                   make libcurl perform a buffer overflow. 
-│                       │     ├ Severity        : UNKNOWN 
-│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/3 
-│                       │     │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/06/2 
-│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2025-0725.html 
-│                       │     │                  ├ [3]: https://curl.se/docs/CVE-2025-0725.json 
-│                       │     │                  ╰ [4]: https://hackerone.com/reports/2956023 
-│                       │     ├ PublishedDate   : 2025-02-05T10:15:22.98Z 
-│                       │     ╰ LastModifiedDate: 2025-02-06T11:15:09.683Z 
-│                       ├ [3] ╭ VulnerabilityID : CVE-2025-0167 
-│                       │     ├ PkgID           : curl-doc@8.11.1-r1 
-│                       │     ├ PkgName         : curl-doc 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.11.1-r1?arch=x86_64&distro=3
-│                       │     │                  │       .22.0_alpha20250108 
-│                       │     │                  ╰ UID : 647803f0596e16f5 
-│                       │     ├ InstalledVersion: 8.11.1-r1 
-│                       │     ├ FixedVersion    : 8.12.0-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:95cf947ba0ae31231027d65e7f16d2914b0924b8715a8
-│                       │     │                  │         d1b3c39d14da56c9af1 
-│                       │     │                  ╰ DiffID: sha256:59d7b5c340005f049a6334327bc22980313a0ea504dc3
-│                       │     │                            acbefa5590531c828c8 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0167 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : When asked to use a `.netrc` file for credentials **and** to
-│                       │     │                   follow HT ... 
-│                       │     ├ Description     : When asked to use a `.netrc` file for credentials **and** to
-│                       │     │                   follow HTTP
-│                       │     │                   redirects, curl could leak the password used for the first
-│                       │     │                   host to the
-│                       │     │                   followed-to host under certain circumstances.
-│                       │     │                   
-│                       │     │                   This flaw only manifests itself if the netrc file has a
-│                       │     │                   `default` entry that
-│                       │     │                   omits both login and password. A rare circumstance. 
-│                       │     ├ Severity        : LOW 
-│                       │     ├ VendorSeverity   ─ ubuntu: 1 
-│                       │     ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
-│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
-│                       │     │                  ├ [2]: https://hackerone.com/reports/2917232 
-│                       │     │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
-│                       │     ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
-│                       │     ╰ LastModifiedDate: 2025-02-06T15:15:16.967Z 
-│                       ├ [4] ╭ VulnerabilityID : CVE-2025-0665 
-│                       │     ├ PkgID           : curl-doc@8.11.1-r1 
-│                       │     ├ PkgName         : curl-doc 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.11.1-r1?arch=x86_64&distro=3
-│                       │     │                  │       .22.0_alpha20250108 
-│                       │     │                  ╰ UID : 647803f0596e16f5 
-│                       │     ├ InstalledVersion: 8.11.1-r1 
-│                       │     ├ FixedVersion    : 8.12.0-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:95cf947ba0ae31231027d65e7f16d2914b0924b8715a8
-│                       │     │                  │         d1b3c39d14da56c9af1 
-│                       │     │                  ╰ DiffID: sha256:59d7b5c340005f049a6334327bc22980313a0ea504dc3
-│                       │     │                            acbefa5590531c828c8 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0665 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : libcurl would wrongly close the same eventfd file descriptor
-│                       │     │                   twice whe ... 
-│                       │     ├ Description     : libcurl would wrongly close the same eventfd file descriptor
-│                       │     │                   twice when taking
-│                       │     │                   down a connection channel after having completed a threaded
-│                       │     │                   name resolve. 
-│                       │     ├ Severity        : UNKNOWN 
-│                       │     ├ CweIDs           ─ [0]: CWE-1341 
-│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/2 
-│                       │     │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
-│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2025-0665.html 
-│                       │     │                  ├ [3]: https://curl.se/docs/CVE-2025-0665.json 
-│                       │     │                  ╰ [4]: https://hackerone.com/reports/2954286 
-│                       │     ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
-│                       │     ╰ LastModifiedDate: 2025-02-05T20:15:45.31Z 
-│                       ├ [5] ╭ VulnerabilityID : CVE-2025-0725 
-│                       │     ├ PkgID           : curl-doc@8.11.1-r1 
-│                       │     ├ PkgName         : curl-doc 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.11.1-r1?arch=x86_64&distro=3
-│                       │     │                  │       .22.0_alpha20250108 
-│                       │     │                  ╰ UID : 647803f0596e16f5 
-│                       │     ├ InstalledVersion: 8.11.1-r1 
-│                       │     ├ FixedVersion    : 8.12.0-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:95cf947ba0ae31231027d65e7f16d2914b0924b8715a8
-│                       │     │                  │         d1b3c39d14da56c9af1 
-│                       │     │                  ╰ DiffID: sha256:59d7b5c340005f049a6334327bc22980313a0ea504dc3
-│                       │     │                            acbefa5590531c828c8 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0725 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : When libcurl is asked to perform automatic gzip decompression
-│                       │     │                    of conte ... 
-│                       │     ├ Description     : When libcurl is asked to perform automatic gzip decompression
-│                       │     │                    of
-│                       │     │                   content-encoded HTTP responses with the
-│                       │     │                   `CURLOPT_ACCEPT_ENCODING` option,
-│                       │     │                   **using zlib 1.2.0.3 or older**, an attacker-controlled
-│                       │     │                   integer overflow would
-│                       │     │                   make libcurl perform a buffer overflow. 
-│                       │     ├ Severity        : UNKNOWN 
-│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/3 
-│                       │     │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/06/2 
-│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2025-0725.html 
-│                       │     │                  ├ [3]: https://curl.se/docs/CVE-2025-0725.json 
-│                       │     │                  ╰ [4]: https://hackerone.com/reports/2956023 
-│                       │     ├ PublishedDate   : 2025-02-05T10:15:22.98Z 
-│                       │     ╰ LastModifiedDate: 2025-02-06T11:15:09.683Z 
-│                       ├ [6] ╭ VulnerabilityID : CVE-2025-0167 
-│                       │     ├ PkgID           : libcurl@8.11.1-r1 
-│                       │     ├ PkgName         : libcurl 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.11.1-r1?arch=x86_64&distro=3.
-│                       │     │                  │       22.0_alpha20250108 
-│                       │     │                  ╰ UID : 6c77bf13220af880 
-│                       │     ├ InstalledVersion: 8.11.1-r1 
-│                       │     ├ FixedVersion    : 8.12.0-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:95cf947ba0ae31231027d65e7f16d2914b0924b8715a8
-│                       │     │                  │         d1b3c39d14da56c9af1 
-│                       │     │                  ╰ DiffID: sha256:59d7b5c340005f049a6334327bc22980313a0ea504dc3
-│                       │     │                            acbefa5590531c828c8 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0167 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : When asked to use a `.netrc` file for credentials **and** to
-│                       │     │                   follow HT ... 
-│                       │     ├ Description     : When asked to use a `.netrc` file for credentials **and** to
-│                       │     │                   follow HTTP
-│                       │     │                   redirects, curl could leak the password used for the first
-│                       │     │                   host to the
-│                       │     │                   followed-to host under certain circumstances.
-│                       │     │                   
-│                       │     │                   This flaw only manifests itself if the netrc file has a
-│                       │     │                   `default` entry that
-│                       │     │                   omits both login and password. A rare circumstance. 
-│                       │     ├ Severity        : LOW 
-│                       │     ├ VendorSeverity   ─ ubuntu: 1 
-│                       │     ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
-│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
-│                       │     │                  ├ [2]: https://hackerone.com/reports/2917232 
-│                       │     │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
-│                       │     ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
-│                       │     ╰ LastModifiedDate: 2025-02-06T15:15:16.967Z 
-│                       ├ [7] ╭ VulnerabilityID : CVE-2025-0665 
-│                       │     ├ PkgID           : libcurl@8.11.1-r1 
-│                       │     ├ PkgName         : libcurl 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.11.1-r1?arch=x86_64&distro=3.
-│                       │     │                  │       22.0_alpha20250108 
-│                       │     │                  ╰ UID : 6c77bf13220af880 
-│                       │     ├ InstalledVersion: 8.11.1-r1 
-│                       │     ├ FixedVersion    : 8.12.0-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:95cf947ba0ae31231027d65e7f16d2914b0924b8715a8
-│                       │     │                  │         d1b3c39d14da56c9af1 
-│                       │     │                  ╰ DiffID: sha256:59d7b5c340005f049a6334327bc22980313a0ea504dc3
-│                       │     │                            acbefa5590531c828c8 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0665 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : libcurl would wrongly close the same eventfd file descriptor
-│                       │     │                   twice whe ... 
-│                       │     ├ Description     : libcurl would wrongly close the same eventfd file descriptor
-│                       │     │                   twice when taking
-│                       │     │                   down a connection channel after having completed a threaded
-│                       │     │                   name resolve. 
-│                       │     ├ Severity        : UNKNOWN 
-│                       │     ├ CweIDs           ─ [0]: CWE-1341 
-│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/2 
-│                       │     │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
-│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2025-0665.html 
-│                       │     │                  ├ [3]: https://curl.se/docs/CVE-2025-0665.json 
-│                       │     │                  ╰ [4]: https://hackerone.com/reports/2954286 
-│                       │     ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
-│                       │     ╰ LastModifiedDate: 2025-02-05T20:15:45.31Z 
-│                       ╰ [8] ╭ VulnerabilityID : CVE-2025-0725 
-│                             ├ PkgID           : libcurl@8.11.1-r1 
-│                             ├ PkgName         : libcurl 
-│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.11.1-r1?arch=x86_64&distro=3.
-│                             │                  │       22.0_alpha20250108 
-│                             │                  ╰ UID : 6c77bf13220af880 
-│                             ├ InstalledVersion: 8.11.1-r1 
-│                             ├ FixedVersion    : 8.12.0-r0 
-│                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:95cf947ba0ae31231027d65e7f16d2914b0924b8715a8
-│                             │                  │         d1b3c39d14da56c9af1 
-│                             │                  ╰ DiffID: sha256:59d7b5c340005f049a6334327bc22980313a0ea504dc3
-│                             │                            acbefa5590531c828c8 
-│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0725 
-│                             ├ DataSource       ╭ ID  : alpine 
-│                             │                  ├ Name: Alpine Secdb 
-│                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Title           : When libcurl is asked to perform automatic gzip decompression
-│                             │                    of conte ... 
-│                             ├ Description     : When libcurl is asked to perform automatic gzip decompression
-│                             │                    of
-│                             │                   content-encoded HTTP responses with the
-│                             │                   `CURLOPT_ACCEPT_ENCODING` option,
-│                             │                   **using zlib 1.2.0.3 or older**, an attacker-controlled
-│                             │                   integer overflow would
-│                             │                   make libcurl perform a buffer overflow. 
-│                             ├ Severity        : UNKNOWN 
-│                             ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/3 
-│                             │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/06/2 
-│                             │                  ├ [2]: https://curl.se/docs/CVE-2025-0725.html 
-│                             │                  ├ [3]: https://curl.se/docs/CVE-2025-0725.json 
-│                             │                  ╰ [4]: https://hackerone.com/reports/2956023 
-│                             ├ PublishedDate   : 2025-02-05T10:15:22.98Z 
-│                             ╰ LastModifiedDate: 2025-02-06T11:15:09.683Z 
+╭ [0] ╭ Target: nmaguiar/netutils:build (alpine 3.22.0_alpha20250108) 
+│     ├ Class : os-pkgs 
+│     ╰ Type  : alpine 
 ├ [1] ╭ Target: Java 
 │     ├ Class : lang-pkgs 
 │     ╰ Type  : jar 
@@ -323,10 +17,10 @@
                         │     ├ InstalledVersion: 3.1.4 
                         │     ├ FixedVersion    : 3.1.5 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:95cf947ba0ae31231027d65e7f16d2914b0924b8715a8
-                        │     │                  │         d1b3c39d14da56c9af1 
-                        │     │                  ╰ DiffID: sha256:59d7b5c340005f049a6334327bc22980313a0ea504dc3
-                        │     │                            acbefa5590531c828c8 
+                        │     ├ Layer            ╭ Digest: sha256:0b9b8c3bdb688e9be33f42e82f2bd07e54518048fcf94
+                        │     │                  │         ba897bda160ae2d7efb 
+                        │     │                  ╰ DiffID: sha256:78eb85d47fe12de5e10316d98bf0b50f0804639d3468a
+                        │     │                            4b1e9c990ff22975499 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56201 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -388,10 +82,10 @@
                         │     ├ InstalledVersion: 3.1.4 
                         │     ├ FixedVersion    : 3.1.5 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:95cf947ba0ae31231027d65e7f16d2914b0924b8715a8
-                        │     │                  │         d1b3c39d14da56c9af1 
-                        │     │                  ╰ DiffID: sha256:59d7b5c340005f049a6334327bc22980313a0ea504dc3
-                        │     │                            acbefa5590531c828c8 
+                        │     ├ Layer            ╭ Digest: sha256:0b9b8c3bdb688e9be33f42e82f2bd07e54518048fcf94
+                        │     │                  │         ba897bda160ae2d7efb 
+                        │     │                  ╰ DiffID: sha256:78eb85d47fe12de5e10316d98bf0b50f0804639d3468a
+                        │     │                            4b1e9c990ff22975499 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56326 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -459,60 +153,46 @@
                               ├ InstalledVersion: 11.0.2 
                               ├ FixedVersion    : 11.1.2 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:95cf947ba0ae31231027d65e7f16d2914b0924b8715a8
-                              │                  │         d1b3c39d14da56c9af1 
-                              │                  ╰ DiffID: sha256:59d7b5c340005f049a6334327bc22980313a0ea504dc3
-                              │                            acbefa5590531c828c8 
+                              ├ Layer            ╭ Digest: sha256:0b9b8c3bdb688e9be33f42e82f2bd07e54518048fcf94
+                              │                  │         ba897bda160ae2d7efb 
+                              │                  ╰ DiffID: sha256:78eb85d47fe12de5e10316d98bf0b50f0804639d3468a
+                              │                            4b1e9c990ff22975499 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-23217 
                               ├ DataSource       ╭ ID  : ghsa 
                               │                  ├ Name: GitHub Security Advisory pip 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                               │                          osystem%3Apip 
-                              ├ Title           : Mitmweb API Authentication Bypass Using Proxy Server 
-                              ├ Description     : ### Impact
-                              │                   In mitmweb 11.1.0 and below, a malicious client can use
-                              │                   mitmweb's proxy server (bound to `*:8080` by default) to
-                              │                   access mitmweb's internal API (bound to `127.0.0.1:8081` by
-                              │                   default). In other words, while the client cannot access the
-                              │                   API directly (good), they can access the API through the
-                              │                   proxy (bad). An attacker may be able to escalate this
-                              │                   [SSRF](https://en.wikipedia.org/wiki/Server-side_request_forg
-                              │                   ery)-style access to remote code execution.
-                              │                   
-                              │                   The mitmproxy and mitmdump tools are unaffected. Only mitmweb
-                              │                    is affected. The `block_global` option, which is enabled by
-                              │                   default, blocks connections originating from
-                              │                   publicly-routable IP addresses in the proxy. The attacker
-                              │                   needs to be in the same local network.
-                              │                   ### Patches
-                              │                   The vulnerability has been fixed in mitmproxy 11.1.2 and
-                              │                   above.
-                              │                   ### Acknowledgements
-                              │                   We thank Stefan Grönke (@gronke) for reporting this
-                              │                   vulnerability as part of a security audit by [Radically Open
-                              │                   Security](https://www.radicallyopensecurity.com/). This audit
-                              │                    was supported by the [NGI0 Entrust
-                              │                   fund](https://nlnet.nl/entrust/) established by
-                              │                   [NLnet](https://nlnet.nl/).
-                              │                   ### Timeline
-                              │                   - **2025-01-14**: Received initial report. 
-                              │                   - **2025-01-14**: Verified report and confirmed receipt.
-                              │                   - **2025-01-19**: Shared patch with researcher.
-                              │                   - **2025-02-04**: Received final confirmation that patch is
-                              │                   working.
-                              │                   - **2025-02-05**: Published patched release and advisory. 
+                              ├ Title           : mitmproxy is a interactive TLS-capable intercepting HTTP
+                              │                   proxy for pen ... 
+                              ├ Description     : mitmproxy is a interactive TLS-capable intercepting HTTP
+                              │                   proxy for penetration testers and software developers and
+                              │                   mitmweb is a web-based interface for mitmproxy. In mitmweb
+                              │                   11.1.1 and below, a malicious client can use mitmweb's proxy
+                              │                   server (bound to `*:8080` by default) to access mitmweb's
+                              │                   internal API (bound to `127.0.0.1:8081` by default). In other
+                              │                    words, while the cannot access the API directly, they can
+                              │                   access the API through the proxy. An attacker may be able to
+                              │                   escalate this SSRF-style access to remote code execution. The
+                              │                    mitmproxy and mitmdump tools are unaffected. Only mitmweb is
+                              │                    affected. This vulnerability has been fixed in mitmproxy
+                              │                   11.1.2 and above. Users are advised to upgrade. There are no
+                              │                   known workarounds for this vulnerability. 
                               ├ Severity        : HIGH 
+                              ├ CweIDs           ╭ [0]: CWE-288 
+                              │                  ╰ [1]: CWE-441 
                               ├ VendorSeverity   ─ ghsa: 3 
-                              ╰ References       ╭ [0]: https://en.wikipedia.org/wiki/Server-side_request_forgery 
-                                                 ├ [1]: https://github.com/mitmproxy/mitmproxy 
-                                                 ├ [2]: https://github.com/mitmproxy/mitmproxy/blob/main/CHANGE
-                                                 │      LOG.md 
-                                                 ├ [3]: https://github.com/mitmproxy/mitmproxy/blob/main/CHANGE
-                                                 │      LOG.md#06-february-2025-mitmproxy-1112 
-                                                 ├ [4]: https://github.com/mitmproxy/mitmproxy/commit/fa89055e1
-                                                 │      96d953f11fd241e36ee37858993486a 
-                                                 ├ [5]: https://github.com/mitmproxy/mitmproxy/security/advisor
-                                                 │      ies/GHSA-wg33-5h85-7q5p 
-                                                 ╰ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-23217 
+                              ├ References       ╭ [0]: https://en.wikipedia.org/wiki/Server-side_request_forgery 
+                              │                  ├ [1]: https://github.com/mitmproxy/mitmproxy 
+                              │                  ├ [2]: https://github.com/mitmproxy/mitmproxy/blob/main/CHANGE
+                              │                  │      LOG.md 
+                              │                  ├ [3]: https://github.com/mitmproxy/mitmproxy/blob/main/CHANGE
+                              │                  │      LOG.md#06-february-2025-mitmproxy-1112 
+                              │                  ├ [4]: https://github.com/mitmproxy/mitmproxy/commit/fa89055e1
+                              │                  │      96d953f11fd241e36ee37858993486a 
+                              │                  ├ [5]: https://github.com/mitmproxy/mitmproxy/security/advisor
+                              │                  │      ies/GHSA-wg33-5h85-7q5p 
+                              │                  ╰ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-23217 
+                              ├ PublishedDate   : 2025-02-06T18:15:32.667Z 
+                              ╰ LastModifiedDate: 2025-02-06T18:15:32.667Z 
 ````
