@@ -55,6 +55,15 @@ jobs:
         platforms: linux/amd64
         tags: nmaguiar/netutils:build-x64
 
+    - uses: docker/build-push-action@v3
+      name: Build and push deb
+      with:
+        context: .
+        file: ./Dockerfile.deb
+        push: true
+        platforms: linux/amd64
+        tags: nmaguiar/netutils:deb-build-x64
+
 
   build-arm64:
 
@@ -100,6 +109,15 @@ jobs:
         push: true
         tags: nmaguiar/netutils:build-arm64
 
+    - uses: docker/build-push-action@v3
+      name: Build and push deb
+      with:
+        context: .
+        file: ./Dockerfile.deb
+        platforms: linux/arm64
+        push: true
+        tags: nmaguiar/netutils:deb-build-arm64
+
   manifest:
 
     runs-on: ubuntu-latest
@@ -117,3 +135,7 @@ jobs:
     - name: Create and push multi-arch manifest
       run : |
         docker buildx imagetools create --tag nmaguiar/netutils:build nmaguiar/netutils:build-x64 nmaguiar/netutils:build-arm64
+
+    - name: Create and push multi-arch manifest deb
+      run : |
+        docker buildx imagetools create --tag nmaguiar/netutils:deb-build nmaguiar/netutils:deb-build-x64 nmaguiar/netutils:deb-build-arm64
