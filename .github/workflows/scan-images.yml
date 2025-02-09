@@ -56,6 +56,20 @@ jobs:
         dist: 'nightly'
 
     - uses: openaf/ojob-action@v4
+      name: Check build deb
+      with:
+        ojob: 'ojob.io/sec/genSecBadge'
+        args: 'image=nmaguiar/netutils:deb-build file=.github/sec-deb-build.svg reportFile=.github/sec-deb-build.yaml'
+        dist: 'nightly'
+
+    - uses: openaf/ojob-action@v4
+      name: Generate sec-deb-build.md
+      with:
+        ojob: 'ojob.io/util/toMDTree'
+        args: 'inputFile=.github/sec-deb-build.yaml file=.github/sec-deb-build.md'
+        dist: 'nightly'
+
+    - uses: openaf/ojob-action@v4
       name: Update badges
       env :
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
