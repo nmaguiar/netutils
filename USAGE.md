@@ -72,7 +72,6 @@ Profiles:
 | cifsiostat | Tool used for monitoring CIFS (Common Internet File System) file system performance. |  |
 | clockdiff | Calculating the time difference between two hosts. |  |
 | conntrack-tools | Tools for managing and monitoring connection tracking in Linux. |  |
-| ctop | Monitoring container metrics in real-time. |  |
 | ctstat | Displaying statistics for container networking. |  |
 | curl | Transferring data with URLs, supporting various protocols. |  |
 | drill | DNS lookup and querying DNS servers. |  |
@@ -84,6 +83,7 @@ Profiles:
 | iostat | Utility used for monitoring system input/output device loading useful to understand how system resources are being used (disk usage, CPU load and network file system) |  |
 | iperf | Measuring network bandwidth and performance. |  |
 | iptraf-ng | Real-time console-based network monitoring utility. |  |
+| lazydocker | Monitoring container metrics in real-time. |  |
 | lnstat | Displaying Linux network statistics. |  |
 | lynx | Text-based web browser for browsing the internet. |  |
 | mitmproxy | Proxy to intercept, inspect, modify and replay web traffic such as HTTP/1, HTTP/2, WebSockets, or any other SSL/TLS-protected protocols. | mitm-help |

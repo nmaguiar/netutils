@@ -8,8 +8,6 @@ init:
     cmd : cifsiostat -V
   - name: conntrack
     cmd : conntrack -V
-  - name: ctop
-    cmd : ctop -v
   - name: ctstat
     cmd : ctstat -V
   - name: curl
@@ -32,6 +30,8 @@ init:
     cmd : sudo apk list iptraf-ng
   - name: iostat
     cmd : iostat -V
+  - name: lazydocker
+    cmd : sudo apk list lazydocker
   - name: lnstat
     cmd : lnstat -v
   - name: lynx
