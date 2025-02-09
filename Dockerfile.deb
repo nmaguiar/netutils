@@ -6,9 +6,6 @@ RUN apt update\
  && apt dist-upgrade -y\
  && apt autoremove -y\
  && DEBIAN_FRONTEND="noninteractive" apt-get install -y -qq less man-db manpages tar wget gzip bash tmux vim iperf tcpdump nmap ldnsutils iftop netcat-openbsd lynx iproute2 iptables fping conntrack iputils-ping iputils-tracepath iputils-arping iputils-clockdiff iptraf-ng ngrep tcptraceroute socat mtr termshark curl inetutils-telnet bash-completion python3 sysstat iotop htop mc iproute2-doc tinyproxy mitmproxy strace\
- && CTOP_VERSION=$(/openaf/oafp url="https://api.github.com/repos/bcicen/ctop/releases" from="equals(draft, false).equals(prerelease, false).sort(-published_at).at(0)" opath="replace(tag_name,'^v','','')")\
- && wget -L https://github.com/bcicen/ctop/releases/download/v$CTOP_VERSION/ctop-$CTOP_VERSION-linux-$(if [ "$(uname -m)" = "x86_64" ]; then echo 'amd64'; else echo 'arm64'; fi) -O /usr/bin/ctop\
- && chmod +x /usr/bin/ctop\
  && wget -O /usr/bin/websocat https://github.com/vi/websocat/releases/latest/download/websocat.$(uname -m)-unknown-linux-musl\
  && chmod +x /usr/bin/websocat\
  && /openaf/opack install SocksServer\
@@ -152,10 +149,21 @@ RUN chmod a+x /usr/bin/mitm-transparent*\
  && chmod a+x /usr/bin/posting-export.sh\
  && chmod a+x /usr/bin/posting-import.sh
 
+# --------------------------------------
+FROM golang:latest AS lazydocker-builder
+
+RUN go install github.com/jesseduffield/lazydocker@latest
+
+# ----------------------
+FROM scratch as prefinal
+
+COPY --from=main / /
+COPY --from=lazydocker-builder /go/bin/lazydocker /usr/bin/lazydocker
+
 # -------------------
 FROM scratch as final
 
-COPY --from=main / /
+COPY --from=prefinal / /
 
 ENV OAF_HOME=/openaf
 ENV PATH=$PATH:$OAF_HOME:$OAF_HOME/ojobs
