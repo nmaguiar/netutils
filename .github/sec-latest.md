@@ -489,7 +489,28 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ╰ Severity        : UNKNOWN 
+│                       │      ├ Title           : libtasn1: Inefficient DER Decoding in libtasn1 Leading to
+│                       │      │                   Potential Remote DoS 
+│                       │      ├ Description     : A flaw in libtasn1 causes inefficient handling of specific
+│                       │      │                   certificate data. When processing a large number of elements
+│                       │      │                    in a certificate, libtasn1 takes much longer than expected,
+│                       │      │                    which can slow down or even crash the system. This flaw
+│                       │      │                   allows an attacker to send a specially crafted certificate,
+│                       │      │                   causing a denial of service attack. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-407 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/06/6 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-12133 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2344611 
+│                       │      │                  ├ [3]: https://gitlab.com/gnutls/libtasn1/-/issues/52 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-12133 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-12133 
+│                       │      ├ PublishedDate   : 2025-02-10T16:15:37.26Z 
+│                       │      ╰ LastModifiedDate: 2025-02-10T16:15:37.26Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2025-21502 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.5_p11-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
@@ -1197,7 +1218,81 @@
                         │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-56326 
                         │     ├ PublishedDate   : 2024-12-23T16:15:07.59Z 
                         │     ╰ LastModifiedDate: 2024-12-27T18:15:38.947Z 
-                        ╰ [2] ╭ VulnerabilityID : CVE-2025-23217 
+                        ├ [2] ╭ VulnerabilityID : CVE-2024-12797 
+                        │     ├ PkgName         : cryptography 
+                        │     ├ PkgPath         : opt/mitmproxy/lib/python3.12/site-packages/cryptography-44.0.
+                        │     │                   0.dist-info/METADATA 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:pypi/cryptography@44.0.0 
+                        │     │                  ╰ UID : 671eaaf5fe5818e7 
+                        │     ├ InstalledVersion: 44.0.0 
+                        │     ├ FixedVersion    : 44.0.1 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda76
+                        │     │                  │         1d2e6b7a8ea94be9ee9 
+                        │     │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e133893
+                        │     │                            620e5b02d3f0dffc251 
+                        │     ├ SeveritySource  : ghsa 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-12797 
+                        │     ├ DataSource       ╭ ID  : ghsa 
+                        │     │                  ├ Name: GitHub Security Advisory pip 
+                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+                        │     │                          osystem%3Apip 
+                        │     ├ Title           : Issue summary: Clients using RFC7250 Raw Public Keys (RPKs)
+                        │     │                   to authent ... 
+                        │     ├ Description     : Issue summary: Clients using RFC7250 Raw Public Keys (RPKs)
+                        │     │                   to authenticate a
+                        │     │                   server may fail to notice that the server was not
+                        │     │                   authenticated, because
+                        │     │                   handshakes don't abort as expected when the SSL_VERIFY_PEER
+                        │     │                   verification mode
+                        │     │                   is set.
+                        │     │                   
+                        │     │                   Impact summary: TLS and DTLS connections using raw public
+                        │     │                   keys may be
+                        │     │                   vulnerable to man-in-middle attacks when server
+                        │     │                   authentication failure is not
+                        │     │                   detected by clients.
+                        │     │                   RPKs are disabled by default in both TLS clients and TLS
+                        │     │                   servers.  The issue
+                        │     │                   only arises when TLS clients explicitly enable RPK use by the
+                        │     │                    server, and the
+                        │     │                   server, likewise, enables sending of an RPK instead of an
+                        │     │                   X.509 certificate
+                        │     │                   chain.  The affected clients are those that then rely on the
+                        │     │                   handshake to
+                        │     │                   fail when the server's RPK fails to match one of the expected
+                        │     │                    public keys,
+                        │     │                   by setting the verification mode to SSL_VERIFY_PEER.
+                        │     │                   Clients that enable server-side raw public keys can still
+                        │     │                   find out that raw
+                        │     │                   public key verification failed by calling
+                        │     │                   SSL_get_verify_result(), and those
+                        │     │                   that do, and take appropriate action, are not affected.  This
+                        │     │                    issue was
+                        │     │                   introduced in the initial implementation of RPK support in
+                        │     │                   OpenSSL 3.2.
+                        │     │                   The FIPS modules in 3.4, 3.3, 3.2, 3.1 and 3.0 are not
+                        │     │                   affected by this issue. 
+                        │     ├ Severity        : LOW 
+                        │     ├ CweIDs           ─ [0]: CWE-392 
+                        │     ├ VendorSeverity   ╭ ghsa  : 1 
+                        │     │                  ╰ ubuntu: 3 
+                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/11/3 
+                        │     │                  ├ [1]: https://github.com/openssl/openssl/commit/738d4f9fdeaad
+                        │     │                  │      57660dcba50a619fafced3fd5e9 
+                        │     │                  ├ [2]: https://github.com/openssl/openssl/commit/798779d434945
+                        │     │                  │      49b611233f92652f0da5328fbe7 
+                        │     │                  ├ [3]: https://github.com/openssl/openssl/commit/87ebd203feffc
+                        │     │                  │      f92ad5889df92f90bb0ee10a699 
+                        │     │                  ├ [4]: https://github.com/pyca/cryptography 
+                        │     │                  ├ [5]: https://github.com/pyca/cryptography/security/advisorie
+                        │     │                  │      s/GHSA-79v4-65xg-pq4g 
+                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-12797 
+                        │     │                  ├ [7]: https://openssl-library.org/news/secadv/20250211.txt 
+                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
+                        │     ├ PublishedDate   : 2025-02-11T16:15:38.827Z 
+                        │     ╰ LastModifiedDate: 2025-02-11T16:15:38.827Z 
+                        ╰ [3] ╭ VulnerabilityID : CVE-2025-23217 
                               ├ PkgName         : mitmproxy 
                               ├ PkgPath         : opt/mitmproxy/lib/python3.12/site-packages/mitmproxy-11.0.2.d
                               │                   ist-info/METADATA 
