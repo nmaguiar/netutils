@@ -17,10 +17,10 @@
                               ├ InstalledVersion: 11.0.2 
                               ├ FixedVersion    : 11.1.2 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:2331affbfe147ff05b3c7a5dcc1030f4afb3f5793a8db
-                              │                  │         32fe62708da5a971e0f 
-                              │                  ╰ DiffID: sha256:a5036c5567b9e44222fcd4fc1816df77a6f48e3ca61d5
-                              │                            681a7561fb38e2d7dda 
+                              ├ Layer            ╭ Digest: sha256:edf77f3d6ee7432227cd977d75ce57b313bfbbf3d8992
+                              │                  │         0dac2da74ba5cddfb67 
+                              │                  ╰ DiffID: sha256:18aaf87693485cec8c7e554b746d0a0f46cea6628c23f
+                              │                            a62ec22760c624a5676 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-23217 
                               ├ DataSource       ╭ ID  : ghsa 
