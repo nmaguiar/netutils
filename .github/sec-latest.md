@@ -272,28 +272,35 @@
 │                       │      │                   affected by this issue. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-392 
-│                       │      ├ VendorSeverity   ╭ ghsa  : 1 
-│                       │      │                  ├ redhat: 3 
-│                       │      │                  ╰ ubuntu: 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ ghsa       : 1 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.4 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/02/11/3 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/02/11/4 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-12797 
-│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/738d4f9fdea
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:1330 
+│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-12797 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2342757 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-1330.html 
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/738d4f9fdea
 │                       │      │                  │       ad57660dcba50a619fafced3fd5e9 
-│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/798779d4349
+│                       │      │                  ├ [7] : https://github.com/openssl/openssl/commit/798779d4349
 │                       │      │                  │       4549b611233f92652f0da5328fbe7 
-│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/87ebd203fef
+│                       │      │                  ├ [8] : https://github.com/openssl/openssl/commit/87ebd203fef
 │                       │      │                  │       fcf92ad5889df92f90bb0ee10a699 
-│                       │      │                  ├ [6] : https://github.com/pyca/cryptography 
-│                       │      │                  ├ [7] : https://github.com/pyca/cryptography/security/advisor
+│                       │      │                  ├ [9] : https://github.com/pyca/cryptography 
+│                       │      │                  ├ [10]: https://github.com/pyca/cryptography/security/advisor
 │                       │      │                  │       ies/GHSA-79v4-65xg-pq4g 
-│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-12797 
-│                       │      │                  ├ [9] : https://openssl-library.org/news/secadv/20250211.txt 
-│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7264-1 
-│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
+│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-12797.html 
+│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-1330.html 
+│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-12797 
+│                       │      │                  ├ [14]: https://openssl-library.org/news/secadv/20250211.txt 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7264-1 
+│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
 │                       │      ├ PublishedDate   : 2025-02-11T16:15:38.827Z 
 │                       │      ╰ LastModifiedDate: 2025-02-11T23:15:08.807Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2024-13176 
@@ -534,28 +541,35 @@
 │                       │      │                   affected by this issue. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-392 
-│                       │      ├ VendorSeverity   ╭ ghsa  : 1 
-│                       │      │                  ├ redhat: 3 
-│                       │      │                  ╰ ubuntu: 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ ghsa       : 1 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.4 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/02/11/3 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/02/11/4 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-12797 
-│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/738d4f9fdea
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:1330 
+│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-12797 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2342757 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-1330.html 
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/738d4f9fdea
 │                       │      │                  │       ad57660dcba50a619fafced3fd5e9 
-│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/798779d4349
+│                       │      │                  ├ [7] : https://github.com/openssl/openssl/commit/798779d4349
 │                       │      │                  │       4549b611233f92652f0da5328fbe7 
-│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/87ebd203fef
+│                       │      │                  ├ [8] : https://github.com/openssl/openssl/commit/87ebd203fef
 │                       │      │                  │       fcf92ad5889df92f90bb0ee10a699 
-│                       │      │                  ├ [6] : https://github.com/pyca/cryptography 
-│                       │      │                  ├ [7] : https://github.com/pyca/cryptography/security/advisor
+│                       │      │                  ├ [9] : https://github.com/pyca/cryptography 
+│                       │      │                  ├ [10]: https://github.com/pyca/cryptography/security/advisor
 │                       │      │                  │       ies/GHSA-79v4-65xg-pq4g 
-│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-12797 
-│                       │      │                  ├ [9] : https://openssl-library.org/news/secadv/20250211.txt 
-│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7264-1 
-│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
+│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-12797.html 
+│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-1330.html 
+│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-12797 
+│                       │      │                  ├ [14]: https://openssl-library.org/news/secadv/20250211.txt 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7264-1 
+│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
 │                       │      ├ PublishedDate   : 2025-02-11T16:15:38.827Z 
 │                       │      ╰ LastModifiedDate: 2025-02-11T23:15:08.807Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2024-13176 
@@ -671,7 +685,40 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-12133 
 │                       │      ├ PublishedDate   : 2025-02-10T16:15:37.26Z 
 │                       │      ╰ LastModifiedDate: 2025-02-10T16:15:37.26Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2025-21502 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2025-26519 
+│                       │      ├ PkgID           : musl@1.2.5-r8 
+│                       │      ├ PkgName         : musl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl@1.2.5-r8?arch=x86_64&distro=3.21.0 
+│                       │      │                  ╰ UID : 936f1fd92822db90 
+│                       │      ├ InstalledVersion: 1.2.5-r8 
+│                       │      ├ FixedVersion    : 1.2.5-r10 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda7
+│                       │      │                  │         61d2e6b7a8ea94be9ee9 
+│                       │      │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e13389
+│                       │      │                            3620e5b02d3f0dffc251 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ╰ Severity        : UNKNOWN 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2025-26519 
+│                       │      ├ PkgID           : musl-utils@1.2.5-r8 
+│                       │      ├ PkgName         : musl-utils 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl-utils@1.2.5-r8?arch=x86_64&distro
+│                       │      │                  │       =3.21.0 
+│                       │      │                  ╰ UID : f25fd050ed07b9ad 
+│                       │      ├ InstalledVersion: 1.2.5-r8 
+│                       │      ├ FixedVersion    : 1.2.5-r10 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda7
+│                       │      │                  │         61d2e6b7a8ea94be9ee9 
+│                       │      │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e13389
+│                       │      │                            3620e5b02d3f0dffc251 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ╰ Severity        : UNKNOWN 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2025-21502 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.5_p11-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.5_p11-r0?arch=x86_6
@@ -747,7 +794,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-01-21T21:15:15.18Z 
 │                       │      ╰ LastModifiedDate: 2025-02-07T11:15:10.717Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2025-21502 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2025-21502 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.5_p11-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.5_p11-r0?a
@@ -823,7 +870,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-01-21T21:15:15.18Z 
 │                       │      ╰ LastModifiedDate: 2025-02-07T11:15:10.717Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2024-12797 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2024-12797 
 │                       │      ├ PkgID           : openssl@3.3.2-r4 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.3.2-r4?arch=x86_64&distro=3.
@@ -878,31 +925,38 @@
 │                       │      │                   affected by this issue. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-392 
-│                       │      ├ VendorSeverity   ╭ ghsa  : 1 
-│                       │      │                  ├ redhat: 3 
-│                       │      │                  ╰ ubuntu: 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ ghsa       : 1 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.4 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/02/11/3 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/02/11/4 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-12797 
-│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/738d4f9fdea
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:1330 
+│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-12797 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2342757 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-1330.html 
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/738d4f9fdea
 │                       │      │                  │       ad57660dcba50a619fafced3fd5e9 
-│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/798779d4349
+│                       │      │                  ├ [7] : https://github.com/openssl/openssl/commit/798779d4349
 │                       │      │                  │       4549b611233f92652f0da5328fbe7 
-│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/87ebd203fef
+│                       │      │                  ├ [8] : https://github.com/openssl/openssl/commit/87ebd203fef
 │                       │      │                  │       fcf92ad5889df92f90bb0ee10a699 
-│                       │      │                  ├ [6] : https://github.com/pyca/cryptography 
-│                       │      │                  ├ [7] : https://github.com/pyca/cryptography/security/advisor
+│                       │      │                  ├ [9] : https://github.com/pyca/cryptography 
+│                       │      │                  ├ [10]: https://github.com/pyca/cryptography/security/advisor
 │                       │      │                  │       ies/GHSA-79v4-65xg-pq4g 
-│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-12797 
-│                       │      │                  ├ [9] : https://openssl-library.org/news/secadv/20250211.txt 
-│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7264-1 
-│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
+│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-12797.html 
+│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-1330.html 
+│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-12797 
+│                       │      │                  ├ [14]: https://openssl-library.org/news/secadv/20250211.txt 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7264-1 
+│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
 │                       │      ├ PublishedDate   : 2025-02-11T16:15:38.827Z 
 │                       │      ╰ LastModifiedDate: 2025-02-11T23:15:08.807Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2024-13176 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2024-13176 
 │                       │      ├ PkgID           : openssl@3.3.2-r4 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.3.2-r4?arch=x86_64&distro=3.
@@ -976,7 +1030,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
 │                       │      ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
 │                       │      ╰ LastModifiedDate: 2025-01-27T21:15:11.907Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2025-0938 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2025-0938 
 │                       │      ├ PkgID           : pyc@3.12.8-r1 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.12.8-r1?arch=x86_64&distro=3.21.0 
@@ -1022,7 +1076,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │      ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
 │                       │      ╰ LastModifiedDate: 2025-02-04T21:15:27.543Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2025-0938 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2025-0938 
 │                       │      ├ PkgID           : python3@3.12.8-r1 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.12.8-r1?arch=x86_64&distro=3
@@ -1069,7 +1123,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │      ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
 │                       │      ╰ LastModifiedDate: 2025-02-04T21:15:27.543Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2025-0938 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2025-0938 
 │                       │      ├ PkgID           : python3-pyc@3.12.8-r1 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.12.8-r1?arch=x86_64&dist
@@ -1116,7 +1170,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │      ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
 │                       │      ╰ LastModifiedDate: 2025-02-04T21:15:27.543Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2025-0938 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2025-0938 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.12.8-r1 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.12.8-r1?arch=x8
@@ -1163,113 +1217,12 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │      ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
 │                       │      ╰ LastModifiedDate: 2025-02-04T21:15:27.543Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2025-22134 
-│                       │      ├ PkgID           : vim@9.1.0936-r0 
-│                       │      ├ PkgName         : vim 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.1.0936-r0?arch=x86_64&distro=3.2
-│                       │      │                  │       1.0 
-│                       │      │                  ╰ UID : 1bd40a3ac05ad413 
-│                       │      ├ InstalledVersion: 9.1.0936-r0 
-│                       │      ├ FixedVersion    : 9.1.1003-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda7
-│                       │      │                  │         61d2e6b7a8ea94be9ee9 
-│                       │      │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e13389
-│                       │      │                            3620e5b02d3f0dffc251 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22134 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : vim: heap-buffer-overflow with visual mode in Vim < 9.1.1003 
-│                       │      ├ Description     : When switching to other buffers using the :all command and
-│                       │      │                   visual mode still being active, this may cause a heap-buffer
-│                       │      │                    overflow, because Vim does not properly end visual mode and
-│                       │      │                    therefore may try to access beyond the end of a line in a
-│                       │      │                   buffer. In Patch 9.1.1003 Vim will correctly reset the
-│                       │      │                   visual mode before opening other windows and buffers and
-│                       │      │                   therefore fix this bug. In addition it does verify that it
-│                       │      │                   won't try to access a position if the position is greater
-│                       │      │                   than the corresponding buffer line. Impact is medium since
-│                       │      │                   the user must have switched on visual mode when executing
-│                       │      │                   the :all ex command. The Vim project would like to thank
-│                       │      │                   github user gandalf4a for reporting this issue. The issue
-│                       │      │                   has been fixed as of Vim patch v9.1.1003 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
-│                       │      │                  ├ cbl-mariner: 2 
-│                       │      │                  ├ redhat     : 1 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 4.2 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/11/1 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22134 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/c9a1e257f1630a086644
-│                       │      │                  │      7e53a564f7ff96a80ead 
-│                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5r
-│                       │      │                  │      gf-26wj-48v8 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22134 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7220-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
-│                       │      ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
-│                       │      ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2025-24014 
-│                       │      ├ PkgID           : vim@9.1.0936-r0 
-│                       │      ├ PkgName         : vim 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.1.0936-r0?arch=x86_64&distro=3.2
-│                       │      │                  │       1.0 
-│                       │      │                  ╰ UID : 1bd40a3ac05ad413 
-│                       │      ├ InstalledVersion: 9.1.0936-r0 
-│                       │      ├ FixedVersion    : 9.1.1105-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda7
-│                       │      │                  │         61d2e6b7a8ea94be9ee9 
-│                       │      │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e13389
-│                       │      │                            3620e5b02d3f0dffc251 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-24014 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : vim: segmentation fault in win_line() in Vim < 9.1.1043 
-│                       │      ├ Description     : Vim is an open source, command line text editor. A
-│                       │      │                   segmentation fault was found in Vim before 9.1.1043. In
-│                       │      │                   silent Ex mode (-s -e), Vim typically doesn't show a screen
-│                       │      │                   and just operates silently in batch mode. However, it is
-│                       │      │                   still possible to trigger the function that handles the
-│                       │      │                   scrolling of a gui version of Vim by feeding some binary
-│                       │      │                   characters to Vim. The function that handles the scrolling
-│                       │      │                   however may be triggering a redraw, which will access the
-│                       │      │                   ScreenLines pointer, even so this variable hasn't been
-│                       │      │                   allocated (since there is no screen). This vulnerability is
-│                       │      │                   fixed in 9.1.1043. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
-│                       │      │                  ├ cbl-mariner: 2 
-│                       │      │                  ├ redhat     : 1 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 4.2 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/20/4 
-│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/01/21/1 
-│                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2025-24014 
-│                       │      │                  ├ [3]: https://github.com/vim/vim/commit/9d1bed5eccdbb46a26b8
-│                       │      │                  │      a484f5e9163c40e63919 
-│                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-j3
-│                       │      │                  │      g9-wg22-v955 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-24014 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7261-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
-│                       │      ├ PublishedDate   : 2025-01-20T23:15:07.73Z 
-│                       │      ╰ LastModifiedDate: 2025-01-21T03:15:06.393Z 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2025-22134 
-│                       │      ├ PkgID           : vim-common@9.1.0936-r0 
-│                       │      ├ PkgName         : vim-common 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.1.0936-r0?arch=x86_64&dis
-│                       │      │                  │       tro=3.21.0 
-│                       │      │                  ╰ UID : 856ca7dead248249 
+│                       │      ├ PkgID           : vim@9.1.0936-r0 
+│                       │      ├ PkgName         : vim 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.1.0936-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       1.0 
+│                       │      │                  ╰ UID : 1bd40a3ac05ad413 
 │                       │      ├ InstalledVersion: 9.1.0936-r0 
 │                       │      ├ FixedVersion    : 9.1.1003-r0 
 │                       │      ├ Status          : fixed 
@@ -1316,6 +1269,107 @@
 │                       │      ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
 │                       │      ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
 │                       ├ [25] ╭ VulnerabilityID : CVE-2025-24014 
+│                       │      ├ PkgID           : vim@9.1.0936-r0 
+│                       │      ├ PkgName         : vim 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.1.0936-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       1.0 
+│                       │      │                  ╰ UID : 1bd40a3ac05ad413 
+│                       │      ├ InstalledVersion: 9.1.0936-r0 
+│                       │      ├ FixedVersion    : 9.1.1105-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda7
+│                       │      │                  │         61d2e6b7a8ea94be9ee9 
+│                       │      │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e13389
+│                       │      │                            3620e5b02d3f0dffc251 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-24014 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : vim: segmentation fault in win_line() in Vim < 9.1.1043 
+│                       │      ├ Description     : Vim is an open source, command line text editor. A
+│                       │      │                   segmentation fault was found in Vim before 9.1.1043. In
+│                       │      │                   silent Ex mode (-s -e), Vim typically doesn't show a screen
+│                       │      │                   and just operates silently in batch mode. However, it is
+│                       │      │                   still possible to trigger the function that handles the
+│                       │      │                   scrolling of a gui version of Vim by feeding some binary
+│                       │      │                   characters to Vim. The function that handles the scrolling
+│                       │      │                   however may be triggering a redraw, which will access the
+│                       │      │                   ScreenLines pointer, even so this variable hasn't been
+│                       │      │                   allocated (since there is no screen). This vulnerability is
+│                       │      │                   fixed in 9.1.1043. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-787 
+│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 4.2 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/20/4 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/01/21/1 
+│                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2025-24014 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/commit/9d1bed5eccdbb46a26b8
+│                       │      │                  │      a484f5e9163c40e63919 
+│                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-j3
+│                       │      │                  │      g9-wg22-v955 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-24014 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7261-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
+│                       │      ├ PublishedDate   : 2025-01-20T23:15:07.73Z 
+│                       │      ╰ LastModifiedDate: 2025-01-21T03:15:06.393Z 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2025-22134 
+│                       │      ├ PkgID           : vim-common@9.1.0936-r0 
+│                       │      ├ PkgName         : vim-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.1.0936-r0?arch=x86_64&dis
+│                       │      │                  │       tro=3.21.0 
+│                       │      │                  ╰ UID : 856ca7dead248249 
+│                       │      ├ InstalledVersion: 9.1.0936-r0 
+│                       │      ├ FixedVersion    : 9.1.1003-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:250a4eb10fd83d0776259bfb464eb31db1a0ffe6eda7
+│                       │      │                  │         61d2e6b7a8ea94be9ee9 
+│                       │      │                  ╰ DiffID: sha256:859013e74dc2caebbc109aa15fff8e7183b164e13389
+│                       │      │                            3620e5b02d3f0dffc251 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22134 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : vim: heap-buffer-overflow with visual mode in Vim < 9.1.1003 
+│                       │      ├ Description     : When switching to other buffers using the :all command and
+│                       │      │                   visual mode still being active, this may cause a heap-buffer
+│                       │      │                    overflow, because Vim does not properly end visual mode and
+│                       │      │                    therefore may try to access beyond the end of a line in a
+│                       │      │                   buffer. In Patch 9.1.1003 Vim will correctly reset the
+│                       │      │                   visual mode before opening other windows and buffers and
+│                       │      │                   therefore fix this bug. In addition it does verify that it
+│                       │      │                   won't try to access a position if the position is greater
+│                       │      │                   than the corresponding buffer line. Impact is medium since
+│                       │      │                   the user must have switched on visual mode when executing
+│                       │      │                   the :all ex command. The Vim project would like to thank
+│                       │      │                   github user gandalf4a for reporting this issue. The issue
+│                       │      │                   has been fixed as of Vim patch v9.1.1003 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-122 
+│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 4.2 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/01/11/1 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-22134 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/c9a1e257f1630a086644
+│                       │      │                  │      7e53a564f7ff96a80ead 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-5r
+│                       │      │                  │      gf-26wj-48v8 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22134 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7220-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
+│                       │      ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
+│                       │      ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2025-24014 
 │                       │      ├ PkgID           : vim-common@9.1.0936-r0 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.1.0936-r0?arch=x86_64&dis
@@ -1365,7 +1419,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-24014 
 │                       │      ├ PublishedDate   : 2025-01-20T23:15:07.73Z 
 │                       │      ╰ LastModifiedDate: 2025-01-21T03:15:06.393Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2025-22134 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2025-22134 
 │                       │      ├ PkgID           : xxd@9.1.0936-r0 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.1.0936-r0?arch=x86_64&distro=3.2
@@ -1416,7 +1470,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22134 
 │                       │      ├ PublishedDate   : 2025-01-13T21:15:14.333Z 
 │                       │      ╰ LastModifiedDate: 2025-01-13T21:15:14.333Z 
-│                       ╰ [27] ╭ VulnerabilityID : CVE-2025-24014 
+│                       ╰ [29] ╭ VulnerabilityID : CVE-2025-24014 
 │                              ├ PkgID           : xxd@9.1.0936-r0 
 │                              ├ PkgName         : xxd 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.1.0936-r0?arch=x86_64&distro=3.2
@@ -1665,28 +1719,35 @@
                         │     │                   affected by this issue. 
                         │     ├ Severity        : LOW 
                         │     ├ CweIDs           ─ [0]: CWE-392 
-                        │     ├ VendorSeverity   ╭ ghsa  : 1 
-                        │     │                  ├ redhat: 3 
-                        │     │                  ╰ ubuntu: 3 
+                        │     ├ VendorSeverity   ╭ alma       : 3 
+                        │     │                  ├ ghsa       : 1 
+                        │     │                  ├ oracle-oval: 3 
+                        │     │                  ├ redhat     : 3 
+                        │     │                  ╰ ubuntu     : 3 
                         │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
                         │     │                           │           A:N 
                         │     │                           ╰ V3Score : 7.4 
                         │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/02/11/3 
                         │     │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/02/11/4 
-                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-12797 
-                        │     │                  ├ [3] : https://github.com/openssl/openssl/commit/738d4f9fdeaa
+                        │     │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:1330 
+                        │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-12797 
+                        │     │                  ├ [4] : https://bugzilla.redhat.com/2342757 
+                        │     │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-1330.html 
+                        │     │                  ├ [6] : https://github.com/openssl/openssl/commit/738d4f9fdeaa
                         │     │                  │       d57660dcba50a619fafced3fd5e9 
-                        │     │                  ├ [4] : https://github.com/openssl/openssl/commit/798779d43494
+                        │     │                  ├ [7] : https://github.com/openssl/openssl/commit/798779d43494
                         │     │                  │       549b611233f92652f0da5328fbe7 
-                        │     │                  ├ [5] : https://github.com/openssl/openssl/commit/87ebd203feff
+                        │     │                  ├ [8] : https://github.com/openssl/openssl/commit/87ebd203feff
                         │     │                  │       cf92ad5889df92f90bb0ee10a699 
-                        │     │                  ├ [6] : https://github.com/pyca/cryptography 
-                        │     │                  ├ [7] : https://github.com/pyca/cryptography/security/advisori
+                        │     │                  ├ [9] : https://github.com/pyca/cryptography 
+                        │     │                  ├ [10]: https://github.com/pyca/cryptography/security/advisori
                         │     │                  │       es/GHSA-79v4-65xg-pq4g 
-                        │     │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-12797 
-                        │     │                  ├ [9] : https://openssl-library.org/news/secadv/20250211.txt 
-                        │     │                  ├ [10]: https://ubuntu.com/security/notices/USN-7264-1 
-                        │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
+                        │     │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-12797.html 
+                        │     │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-1330.html 
+                        │     │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-12797 
+                        │     │                  ├ [14]: https://openssl-library.org/news/secadv/20250211.txt 
+                        │     │                  ├ [15]: https://ubuntu.com/security/notices/USN-7264-1 
+                        │     │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
                         │     ├ PublishedDate   : 2025-02-11T16:15:38.827Z 
                         │     ╰ LastModifiedDate: 2025-02-11T23:15:08.807Z 
                         ╰ [3] ╭ VulnerabilityID : CVE-2025-23217 
