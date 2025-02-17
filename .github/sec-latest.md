@@ -824,7 +824,7 @@
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-21502 
 │                       │      │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-21502 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-0426.html 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-0426.html 
 │                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:0426 
 │                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-21502.html 
 │                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-0426.html 
@@ -904,7 +904,7 @@
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-21502 
 │                       │      │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-21502 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-0426.html 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-0426.html 
 │                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:0426 
 │                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-21502.html 
 │                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-0426.html 
@@ -1703,13 +1703,13 @@
                         │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/
                         │     │                           │           A:H 
                         │     │                           ╰ V3Score : 6.3 
-                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:0711 
+                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:0667 
                         │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56326 
                         │     │                  ├ [2] : https://bugzilla.redhat.com/2333856 
                         │     │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2333856 
                         │     │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
                         │     │                  │       4-56326 
-                        │     │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-0711.html 
+                        │     │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-0667.html 
                         │     │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:0711 
                         │     │                  ├ [7] : https://github.com/pallets/jinja 
                         │     │                  ├ [8] : https://github.com/pallets/jinja/commit/48b0687e05a546
