@@ -35,7 +35,14 @@ fi
 
 # Create the user if it doesn't exist
 if ! getent passwd "$USER" > /dev/null 2>&1; then
-  useradd -g "$GROUP" "$USER"
+  if command -v useradd > /dev/null 2>&1; then
+    useradd -g "$GROUP" "$USER"
+  elif command -v adduser > /dev/null 2>&1; then
+    adduser --ingroup "$GROUP" "$USER"
+  else
+    echo "Neither useradd nor adduser command is available."
+    exit 1
+  fi
 fi
 
 # Switch to the user and group of the process
