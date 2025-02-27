@@ -36,8 +36,9 @@
 │                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-56171 
 │                       │     │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/828 
 │                       │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-56171 
-│                       │     │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-56171 
-│                       │     │                  ╰ [4]: https://www.openwall.com/lists/oss-security/2025/02/18/2 
+│                       │     │                  ├ [3]: https://ubuntu.com/security/notices/USN-7302-1 
+│                       │     │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-56171 
+│                       │     │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2025/02/18/2 
 │                       │     ├ PublishedDate   : 2025-02-18T22:15:12.797Z 
 │                       │     ╰ LastModifiedDate: 2025-02-18T23:15:09.413Z 
 │                       ╰ [1] ╭ VulnerabilityID : CVE-2025-24928 
@@ -75,8 +76,9 @@
 │                             │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/847 
 │                             │                  ├ [2]: https://issues.oss-fuzz.com/issues/392687022 
 │                             │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-24928 
-│                             │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-24928 
-│                             │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2025/02/18/2 
+│                             │                  ├ [4]: https://ubuntu.com/security/notices/USN-7302-1 
+│                             │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-24928 
+│                             │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/02/18/2 
 │                             ├ PublishedDate   : 2025-02-18T23:15:10.25Z 
 │                             ╰ LastModifiedDate: 2025-02-18T23:15:10.25Z 
 ├ [1] ╭ Target: Java 
