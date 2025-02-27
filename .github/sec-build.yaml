@@ -35,6 +35,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-56171
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/828
     - https://nvd.nist.gov/vuln/detail/CVE-2024-56171
+    - https://ubuntu.com/security/notices/USN-7302-1
     - https://www.cve.org/CVERecord?id=CVE-2024-56171
     - https://www.openwall.com/lists/oss-security/2025/02/18/2
     PublishedDate: '2025-02-18T22:15:12.797Z'
@@ -73,6 +74,7 @@
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/847
     - https://issues.oss-fuzz.com/issues/392687022
     - https://nvd.nist.gov/vuln/detail/CVE-2025-24928
+    - https://ubuntu.com/security/notices/USN-7302-1
     - https://www.cve.org/CVERecord?id=CVE-2025-24928
     - https://www.openwall.com/lists/oss-security/2025/02/18/2
     PublishedDate: '2025-02-18T23:15:10.25Z'
