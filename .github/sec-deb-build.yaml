@@ -11,8 +11,8 @@
     InstalledVersion: 9.4-3ubuntu6
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-2781
     DataSource:
@@ -62,8 +62,8 @@
     InstalledVersion: 8.5.0-2ubuntu10.6
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0167
     DataSource:
@@ -98,8 +98,8 @@
     InstalledVersion: 2.4.4-2ubuntu17
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -142,8 +142,8 @@
     InstalledVersion: 1:1.2.1-1build3
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52949
     DataSource:
@@ -181,8 +181,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26462
     DataSource:
@@ -235,8 +235,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26458
     DataSource:
@@ -290,8 +290,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26461
     DataSource:
@@ -347,8 +347,8 @@
     InstalledVersion: 0.8-13ubuntu6
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52615
     DataSource:
@@ -386,8 +386,8 @@
     InstalledVersion: 0.8-13ubuntu6
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52616
     DataSource:
@@ -427,8 +427,8 @@
     InstalledVersion: 0.8-13ubuntu6
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52615
     DataSource:
@@ -466,8 +466,8 @@
     InstalledVersion: 0.8-13ubuntu6
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52616
     DataSource:
@@ -507,8 +507,8 @@
     InstalledVersion: 0.8-13ubuntu6
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52615
     DataSource:
@@ -546,8 +546,8 @@
     InstalledVersion: 0.8-13ubuntu6
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52616
     DataSource:
@@ -587,8 +587,8 @@
     InstalledVersion: 2.39-0ubuntu8.4
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -624,8 +624,8 @@
     InstalledVersion: 2.39-0ubuntu8.4
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -661,8 +661,8 @@
     InstalledVersion: 1.18.0-3build1
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2017-7475
     DataSource:
@@ -714,8 +714,8 @@
     InstalledVersion: 1.18.0-3build1
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2018-18064
     DataSource:
@@ -758,8 +758,8 @@
     InstalledVersion: 1.18.0-3build1
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2019-6461
     DataSource:
@@ -804,8 +804,8 @@
     InstalledVersion: 1.18.0-3build1
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2017-7475
     DataSource:
@@ -857,8 +857,8 @@
     InstalledVersion: 1.18.0-3build1
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2018-18064
     DataSource:
@@ -901,8 +901,8 @@
     InstalledVersion: 1.18.0-3build1
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2019-6461
     DataSource:
@@ -938,95 +938,17 @@
     - https://www.cve.org/CVERecord?id=CVE-2019-6461
     PublishedDate: '2019-01-16T18:29:00.51Z'
     LastModifiedDate: '2024-11-21T04:46:29.91Z'
-  - VulnerabilityID: CVE-2025-1390
-    PkgID: libcap2@1:2.66-5ubuntu2.1
-    PkgName: libcap2
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libcap2@2.66-5ubuntu2.1?arch=amd64&distro=ubuntu-24.04&epoch=1
-      UID: 4c75c706fa9a02ae
-    InstalledVersion: 1:2.66-5ubuntu2.1
-    FixedVersion: 1:2.66-5ubuntu2.2
-    Status: fixed
-    Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1390
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'libcap: pam_cap: Fix potential configuration parsing error'
-    Description: The PAM module pam_cap.so of libcap configuration supports group names starting with “@”, during actual parsing, configurations not starting with “@” are incorrectly recognized as group names. This may result in nonintended users being granted an inherited capability set, potentially leading to security risks. Attackers can exploit this vulnerability to achieve local privilege escalation on systems where /etc/security/capability.conf is used to configure user inherited privileges by constructing specific usernames.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-284
-    VendorSeverity:
-      cbl-mariner: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
-        V3Score: 6.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-1390
-    - https://bugzilla.openanolis.cn/show_bug.cgi?id=18804
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-1390
-    - https://ubuntu.com/security/notices/USN-7287-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-1390
-    PublishedDate: '2025-02-18T03:15:10.447Z'
-    LastModifiedDate: '2025-02-18T03:15:10.447Z'
-  - VulnerabilityID: CVE-2025-1390
-    PkgID: libcap2-bin@1:2.66-5ubuntu2.1
-    PkgName: libcap2-bin
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libcap2-bin@2.66-5ubuntu2.1?arch=amd64&distro=ubuntu-24.04&epoch=1
-      UID: 9dac95d3c8bf8e49
-    InstalledVersion: 1:2.66-5ubuntu2.1
-    FixedVersion: 1:2.66-5ubuntu2.2
-    Status: fixed
-    Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1390
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'libcap: pam_cap: Fix potential configuration parsing error'
-    Description: The PAM module pam_cap.so of libcap configuration supports group names starting with “@”, during actual parsing, configurations not starting with “@” are incorrectly recognized as group names. This may result in nonintended users being granted an inherited capability set, potentially leading to security risks. Attackers can exploit this vulnerability to achieve local privilege escalation on systems where /etc/security/capability.conf is used to configure user inherited privileges by constructing specific usernames.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-284
-    VendorSeverity:
-      cbl-mariner: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
-        V3Score: 6.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-1390
-    - https://bugzilla.openanolis.cn/show_bug.cgi?id=18804
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-1390
-    - https://ubuntu.com/security/notices/USN-7287-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-1390
-    PublishedDate: '2025-02-18T03:15:10.447Z'
-    LastModifiedDate: '2025-02-18T03:15:10.447Z'
   - VulnerabilityID: CVE-2025-0167
     PkgID: libcurl4t64@8.5.0-2ubuntu10.6
     PkgName: libcurl4t64
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libcurl4t64@8.5.0-2ubuntu10.6?arch=amd64&distro=ubuntu-24.04
-      UID: d38f9103acac3cad
+      UID: 1affc7d07a525f4a
     InstalledVersion: 8.5.0-2ubuntu10.6
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0167
     DataSource:
@@ -1061,8 +983,8 @@
     InstalledVersion: 2.13.2+dfsg-1build3
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-23022
     DataSource:
@@ -1102,8 +1024,8 @@
     InstalledVersion: 1.10.3-2build1
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2236
     DataSource:
@@ -1142,49 +1064,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2024-11-21T09:09:19.41Z'
-  - VulnerabilityID: CVE-2024-12243
-    PkgID: libgnutls30t64@3.8.3-1.1ubuntu3.2
-    PkgName: libgnutls30t64
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.3-1.1ubuntu3.2?arch=amd64&distro=ubuntu-24.04
-      UID: a3469faf06a4c01a
-    InstalledVersion: 3.8.3-1.1ubuntu3.2
-    FixedVersion: 3.8.3-1.1ubuntu3.3
-    Status: fixed
-    Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12243
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'gnutls: GnuTLS Impacted by Inefficient DER Decoding in libtasn1 Leading to Remote DoS'
-    Description: A flaw was found in GnuTLS, which relies on libtasn1 for ASN.1 data processing. Due to an inefficient algorithm in libtasn1, decoding certain DER-encoded certificate data can take excessive time, leading to increased resource consumption. This flaw allows a remote attacker to send a specially crafted certificate, causing GnuTLS to become unresponsive or slow, resulting in a denial-of-service condition.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-407
-    VendorSeverity:
-      photon: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-12243
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2344615
-    - https://gitlab.com/gnutls/libtasn1/-/issues/52
-    - https://lists.debian.org/debian-lts-announce/2025/02/msg00027.html
-    - https://lists.gnupg.org/pipermail/gnutls-help/2025-February/004875.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-12243
-    - https://ubuntu.com/security/notices/USN-7281-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-12243
-    - https://www.gnutls.org/security-new.html#GNUTLS-SA-2025-02-07
-    PublishedDate: '2025-02-10T16:15:37.423Z'
-    LastModifiedDate: '2025-02-21T22:15:11.89Z'
   - VulnerabilityID: CVE-2024-26462
     PkgID: libgssapi-krb5-2@1.20.1-6ubuntu2.4
     PkgName: libgssapi-krb5-2
@@ -1194,8 +1073,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26462
     DataSource:
@@ -1248,8 +1127,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26458
     DataSource:
@@ -1303,8 +1182,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26461
     DataSource:
@@ -1360,8 +1239,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26462
     DataSource:
@@ -1414,8 +1293,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26458
     DataSource:
@@ -1469,8 +1348,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26461
     DataSource:
@@ -1522,12 +1401,12 @@
     PkgName: libkrb5-3
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
-      UID: 7a7ddf77550995d
+      UID: d65342dbe27c8452
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26462
     DataSource:
@@ -1576,12 +1455,12 @@
     PkgName: libkrb5-3
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
-      UID: 7a7ddf77550995d
+      UID: d65342dbe27c8452
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26458
     DataSource:
@@ -1631,12 +1510,12 @@
     PkgName: libkrb5-3
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
-      UID: 7a7ddf77550995d
+      UID: d65342dbe27c8452
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26461
     DataSource:
@@ -1692,8 +1571,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26462
     DataSource:
@@ -1746,8 +1625,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26458
     DataSource:
@@ -1801,8 +1680,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26461
     DataSource:
@@ -1849,45 +1728,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
     LastModifiedDate: '2024-11-21T09:02:26.477Z'
-  - VulnerabilityID: CVE-2025-1390
-    PkgID: libpam-cap@1:2.66-5ubuntu2.1
-    PkgName: libpam-cap
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam-cap@2.66-5ubuntu2.1?arch=amd64&distro=ubuntu-24.04&epoch=1
-      UID: 48184906efcae715
-    InstalledVersion: 1:2.66-5ubuntu2.1
-    FixedVersion: 1:2.66-5ubuntu2.2
-    Status: fixed
-    Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1390
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'libcap: pam_cap: Fix potential configuration parsing error'
-    Description: The PAM module pam_cap.so of libcap configuration supports group names starting with “@”, during actual parsing, configurations not starting with “@” are incorrectly recognized as group names. This may result in nonintended users being granted an inherited capability set, potentially leading to security risks. Attackers can exploit this vulnerability to achieve local privilege escalation on systems where /etc/security/capability.conf is used to configure user inherited privileges by constructing specific usernames.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-284
-    VendorSeverity:
-      cbl-mariner: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
-        V3Score: 6.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-1390
-    - https://bugzilla.openanolis.cn/show_bug.cgi?id=18804
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-1390
-    - https://ubuntu.com/security/notices/USN-7287-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-1390
-    PublishedDate: '2025-02-18T03:15:10.447Z'
-    LastModifiedDate: '2025-02-18T03:15:10.447Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-modules@1.5.3-5ubuntu5.1
     PkgName: libpam-modules
@@ -1897,8 +1737,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -1948,8 +1788,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -2002,8 +1842,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -2053,8 +1893,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -2107,8 +1947,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -2158,8 +1998,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -2212,8 +2052,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -2263,8 +2103,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -2317,8 +2157,8 @@
     InstalledVersion: 0.42.2-1build1
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-37769
     DataSource:
@@ -2342,213 +2182,17 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-37769
     PublishedDate: '2023-07-17T20:15:13.547Z'
     LastModifiedDate: '2024-11-21T08:12:14.547Z'
-  - VulnerabilityID: CVE-2025-0938
-    PkgID: libpython3.12-minimal@3.12.3-1ubuntu0.4
-    PkgName: libpython3.12-minimal
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpython3.12-minimal@3.12.3-1ubuntu0.4?arch=amd64&distro=ubuntu-24.04
-      UID: c391c3f497520d1e
-    InstalledVersion: 3.12.3-1ubuntu0.4
-    FixedVersion: 3.12.3-1ubuntu0.5
-    Status: fixed
-    Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0938
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'python: cpython: URL parser allowed square brackets in domain names'
-    Description: The Python standard library functions `urllib.parse.urlsplit` and `urlparse` accepted domain names that included square brackets which isn't valid according to RFC 3986. Square brackets are only meant to be used as delimiters for specifying IPv6 and IPvFuture hosts in URLs. This could result in differential parsing across the Python URL parser and other specification-compliant URL parsers.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-20
-    VendorSeverity:
-      cbl-mariner: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
-        V3Score: 6.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-0938
-    - https://github.com/python/cpython/commit/90e526ae67b172ed7c6c56e7edad36263b0f9403
-    - https://github.com/python/cpython/commit/a7084f6075c9595ba60119ce8c62f1496f50c568
-    - https://github.com/python/cpython/commit/d89a5f6a6e65511a5f6e0618c4c30a7aa5aba56a
-    - https://github.com/python/cpython/issues/105704
-    - https://github.com/python/cpython/pull/129418
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
-    - https://ubuntu.com/security/notices/USN-7280-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-0938
-    PublishedDate: '2025-01-31T18:15:38.053Z'
-    LastModifiedDate: '2025-02-04T21:15:27.543Z'
-  - VulnerabilityID: CVE-2025-0938
-    PkgID: libpython3.12-stdlib@3.12.3-1ubuntu0.4
-    PkgName: libpython3.12-stdlib
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpython3.12-stdlib@3.12.3-1ubuntu0.4?arch=amd64&distro=ubuntu-24.04
-      UID: fc4e82d9437408f1
-    InstalledVersion: 3.12.3-1ubuntu0.4
-    FixedVersion: 3.12.3-1ubuntu0.5
-    Status: fixed
-    Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0938
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'python: cpython: URL parser allowed square brackets in domain names'
-    Description: The Python standard library functions `urllib.parse.urlsplit` and `urlparse` accepted domain names that included square brackets which isn't valid according to RFC 3986. Square brackets are only meant to be used as delimiters for specifying IPv6 and IPvFuture hosts in URLs. This could result in differential parsing across the Python URL parser and other specification-compliant URL parsers.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-20
-    VendorSeverity:
-      cbl-mariner: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
-        V3Score: 6.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-0938
-    - https://github.com/python/cpython/commit/90e526ae67b172ed7c6c56e7edad36263b0f9403
-    - https://github.com/python/cpython/commit/a7084f6075c9595ba60119ce8c62f1496f50c568
-    - https://github.com/python/cpython/commit/d89a5f6a6e65511a5f6e0618c4c30a7aa5aba56a
-    - https://github.com/python/cpython/issues/105704
-    - https://github.com/python/cpython/pull/129418
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
-    - https://ubuntu.com/security/notices/USN-7280-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-0938
-    PublishedDate: '2025-01-31T18:15:38.053Z'
-    LastModifiedDate: '2025-02-04T21:15:27.543Z'
-  - VulnerabilityID: CVE-2025-0938
-    PkgID: libpython3.12t64@3.12.3-1ubuntu0.4
-    PkgName: libpython3.12t64
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpython3.12t64@3.12.3-1ubuntu0.4?arch=amd64&distro=ubuntu-24.04
-      UID: 2a6cfeb9228c9f2e
-    InstalledVersion: 3.12.3-1ubuntu0.4
-    FixedVersion: 3.12.3-1ubuntu0.5
-    Status: fixed
-    Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0938
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'python: cpython: URL parser allowed square brackets in domain names'
-    Description: The Python standard library functions `urllib.parse.urlsplit` and `urlparse` accepted domain names that included square brackets which isn't valid according to RFC 3986. Square brackets are only meant to be used as delimiters for specifying IPv6 and IPvFuture hosts in URLs. This could result in differential parsing across the Python URL parser and other specification-compliant URL parsers.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-20
-    VendorSeverity:
-      cbl-mariner: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
-        V3Score: 6.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-0938
-    - https://github.com/python/cpython/commit/90e526ae67b172ed7c6c56e7edad36263b0f9403
-    - https://github.com/python/cpython/commit/a7084f6075c9595ba60119ce8c62f1496f50c568
-    - https://github.com/python/cpython/commit/d89a5f6a6e65511a5f6e0618c4c30a7aa5aba56a
-    - https://github.com/python/cpython/issues/105704
-    - https://github.com/python/cpython/pull/129418
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
-    - https://ubuntu.com/security/notices/USN-7280-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-0938
-    PublishedDate: '2025-01-31T18:15:38.053Z'
-    LastModifiedDate: '2025-02-04T21:15:27.543Z'
-  - VulnerabilityID: CVE-2024-13176
-    PkgID: libssl3t64@3.0.13-0ubuntu3.4
-    PkgName: libssl3t64
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.4?arch=amd64&distro=ubuntu-24.04
-      UID: 312d18ce92e2a8b2
-    InstalledVersion: 3.0.13-0ubuntu3.4
-    FixedVersion: 3.0.13-0ubuntu3.5
-    Status: fixed
-    Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-13176
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'openssl: Timing side-channel in ECDSA signature computation'
-    Description: |-
-      Issue summary: A timing side-channel which could potentially allow recovering
-      the private key exists in the ECDSA signature computation.
-
-      Impact summary: A timing side-channel in ECDSA signature computations
-      could allow recovering the private key by an attacker. However, measuring
-      the timing would require either local access to the signing application or
-      a very fast network connection with low latency.
-
-      There is a timing signal of around 300 nanoseconds when the top word of
-      the inverted ECDSA nonce value is zero. This can happen with significant
-      probability only for some of the supported elliptic curves. In particular
-      the NIST P-521 curve is affected. To be able to measure this leak, the attacker
-      process must either be located in the same physical computer or must
-      have a very fast network connection with low latency. For that reason
-      the severity of this vulnerability is Low.
-    Severity: LOW
-    CweIDs:
-    - CWE-385
-    VendorSeverity:
-      amazon: 2
-      redhat: 1
-      ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/01/20/2
-    - https://access.redhat.com/security/cve/CVE-2024-13176
-    - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
-    - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
-    - https://github.com/openssl/openssl/commit/392dcb336405a0c94486aa6655057f59fd3a0902
-    - https://github.com/openssl/openssl/commit/4b1cb94a734a7d4ec363ac0a215a25c181e11f65
-    - https://github.com/openssl/openssl/commit/77c608f4c8857e63e98e66444e2e761c9627916f
-    - https://github.openssl.org/openssl/extended-releases/commit/0d5fd1ab987f7571e2c955d8d8b638fc0fb54ded
-    - https://github.openssl.org/openssl/extended-releases/commit/a2639000db19878d5d89586ae7b725080592ae86
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-13176
-    - https://openssl-library.org/news/secadv/20250120.txt
-    - https://security.netapp.com/advisory/ntap-20250124-0005/
-    - https://ubuntu.com/security/notices/USN-7264-1
-    - https://ubuntu.com/security/notices/USN-7278-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-13176
-    PublishedDate: '2025-01-20T14:15:26.247Z'
-    LastModifiedDate: '2025-01-27T21:15:11.907Z'
   - VulnerabilityID: CVE-2024-41996
-    PkgID: libssl3t64@3.0.13-0ubuntu3.4
+    PkgID: libssl3t64@3.0.13-0ubuntu3.5
     PkgName: libssl3t64
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.4?arch=amd64&distro=ubuntu-24.04
-      UID: 312d18ce92e2a8b2
-    InstalledVersion: 3.0.13-0ubuntu3.4
+      PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.5?arch=amd64&distro=ubuntu-24.04
+      UID: f7dd30a98cc0b1a
+    InstalledVersion: 3.0.13-0ubuntu3.5
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-41996
     DataSource:
@@ -2580,128 +2224,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
     PublishedDate: '2024-08-26T06:15:04.603Z'
     LastModifiedDate: '2024-08-26T16:35:11.247Z'
-  - VulnerabilityID: CVE-2024-9143
-    PkgID: libssl3t64@3.0.13-0ubuntu3.4
-    PkgName: libssl3t64
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.4?arch=amd64&distro=ubuntu-24.04
-      UID: 312d18ce92e2a8b2
-    InstalledVersion: 3.0.13-0ubuntu3.4
-    FixedVersion: 3.0.13-0ubuntu3.5
-    Status: fixed
-    Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9143
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'openssl: Low-level invalid GF(2^m) parameters lead to OOB memory access'
-    Description: |-
-      Issue summary: Use of the low-level GF(2^m) elliptic curve APIs with untrusted
-      explicit values for the field polynomial can lead to out-of-bounds memory reads
-      or writes.
-
-      Impact summary: Out of bound memory writes can lead to an application crash or
-      even a possibility of a remote code execution, however, in all the protocols
-      involving Elliptic Curve Cryptography that we're aware of, either only "named
-      curves" are supported, or, if explicit curve parameters are supported, they
-      specify an X9.62 encoding of binary (GF(2^m)) curves that can't represent
-      problematic input values. Thus the likelihood of existence of a vulnerable
-      application is low.
-
-      In particular, the X9.62 encoding is used for ECC keys in X.509 certificates,
-      so problematic inputs cannot occur in the context of processing X.509
-      certificates.  Any problematic use-cases would have to be using an "exotic"
-      curve encoding.
-
-      The affected APIs include: EC_GROUP_new_curve_GF2m(), EC_GROUP_new_from_params(),
-      and various supporting BN_GF2m_*() functions.
-
-      Applications working with "exotic" explicit binary (GF(2^m)) curve parameters,
-      that make it possible to represent invalid field polynomials with a zero
-      constant term, via the above or similar APIs, may terminate abruptly as a
-      result of reading or writing outside of array bounds.  Remote code execution
-      cannot easily be ruled out.
-
-      The FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected by this issue.
-    Severity: LOW
-    CweIDs:
-    - CWE-787
-    VendorSeverity:
-      amazon: 3
-      photon: 2
-      redhat: 1
-      ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 3.7
-    References:
-    - http://www.openwall.com/lists/oss-security/2024/10/16/1
-    - http://www.openwall.com/lists/oss-security/2024/10/23/1
-    - http://www.openwall.com/lists/oss-security/2024/10/24/1
-    - https://access.redhat.com/security/cve/CVE-2024-9143
-    - https://github.com/openssl/openssl/commit/72ae83ad214d2eef262461365a1975707f862712
-    - https://github.com/openssl/openssl/commit/bc7e04d7c8d509fb78fc0e285aa948fb0da04700
-    - https://github.com/openssl/openssl/commit/c0d3e4d32d2805f49bec30547f225bc4d092e1f4
-    - https://github.com/openssl/openssl/commit/fdf6723362ca51bd883295efe206cb5b1cfa5154
-    - https://github.openssl.org/openssl/extended-releases/commit/8efc0cbaa8ebba8e116f7b81a876a4123594d86a
-    - https://github.openssl.org/openssl/extended-releases/commit/9d576994cec2b7aa37a91740ea7e680810957e41
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-9143
-    - https://openssl-library.org/news/secadv/20241016.txt
-    - https://security.netapp.com/advisory/ntap-20241101-0001/
-    - https://ubuntu.com/security/notices/USN-7264-1
-    - https://ubuntu.com/security/notices/USN-7278-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-9143
-    PublishedDate: '2024-10-16T17:15:18.13Z'
-    LastModifiedDate: '2024-11-21T09:54:04.817Z'
-  - VulnerabilityID: CVE-2024-12133
-    PkgID: libtasn1-6@4.19.0-3build1
-    PkgName: libtasn1-6
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libtasn1-6@4.19.0-3build1?arch=amd64&distro=ubuntu-24.04
-      UID: d966aa095a4eff86
-    InstalledVersion: 4.19.0-3build1
-    FixedVersion: 4.19.0-3ubuntu0.24.04.1
-    Status: fixed
-    Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12133
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'libtasn1: Inefficient DER Decoding in libtasn1 Leading to Potential Remote DoS'
-    Description: A flaw in libtasn1 causes inefficient handling of specific certificate data. When processing a large number of elements in a certificate, libtasn1 takes much longer than expected, which can slow down or even crash the system. This flaw allows an attacker to send a specially crafted certificate, causing a denial of service attack.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-407
-    VendorSeverity:
-      photon: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/02/06/6
-    - https://access.redhat.com/security/cve/CVE-2024-12133
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2344611
-    - https://gitlab.com/gnutls/libtasn1/-/blob/master/doc/security/CVE-2024-12133.md?ref_type=heads
-    - https://gitlab.com/gnutls/libtasn1/-/issues/52
-    - https://lists.debian.org/debian-lts-announce/2025/02/msg00025.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-12133
-    - https://ubuntu.com/security/notices/USN-7275-1
-    - https://ubuntu.com/security/notices/USN-7275-2
-    - https://www.cve.org/CVERecord?id=CVE-2024-12133
-    PublishedDate: '2025-02-10T16:15:37.26Z'
-    LastModifiedDate: '2025-02-21T13:15:10.43Z'
   - VulnerabilityID: CVE-2024-6716
     PkgID: libtiff6@4.5.1+git230720-4ubuntu2.2
     PkgName: libtiff6
@@ -2711,8 +2233,8 @@
     InstalledVersion: 4.5.1+git230720-4ubuntu2.2
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6716
     DataSource:
@@ -2736,8 +2258,8 @@
     InstalledVersion: 4.2.2-1.1build3
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
     DataSource:
@@ -2783,12 +2305,12 @@
     PkgName: libwireshark17t64
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libwireshark17t64@4.2.2-1.1build3?arch=amd64&distro=ubuntu-24.04
-      UID: 7897a750d8a6b6a3
+      UID: 147ef8f4fee7f631
     InstalledVersion: 4.2.2-1.1build3
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
     DataSource:
@@ -2838,8 +2360,8 @@
     InstalledVersion: 4.2.2-1.1build3
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
     DataSource:
@@ -2885,12 +2407,12 @@
     PkgName: libwsutil15t64
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libwsutil15t64@4.2.2-1.1build3?arch=amd64&distro=ubuntu-24.04
-      UID: 8322e0379a639c9c
+      UID: daad45f79359ed14
     InstalledVersion: 4.2.2-1.1build3
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
     DataSource:
@@ -2931,131 +2453,6 @@
     - https://www.wireshark.org/security/wnpa-sec-2021-15.html
     PublishedDate: '2021-11-18T19:15:08.333Z'
     LastModifiedDate: '2024-11-21T06:20:33.82Z'
-  - VulnerabilityID: CVE-2024-56171
-    PkgID: libxml2@2.9.14+dfsg-1.3ubuntu3.1
-    PkgName: libxml2
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libxml2@2.9.14%2Bdfsg-1.3ubuntu3.1?arch=amd64&distro=ubuntu-24.04
-      UID: d03ea1417da9cc89
-    InstalledVersion: 2.9.14+dfsg-1.3ubuntu3.1
-    FixedVersion: 2.9.14+dfsg-1.3ubuntu3.2
-    Status: fixed
-    Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56171
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'libxml2: Use-After-Free in libxml2'
-    Description: libxml2 before 2.12.10 and 2.13.x before 2.13.6 has a use-after-free in xmlSchemaIDCFillNodeTables and xmlSchemaBubbleIDCNodeTables in xmlschemas.c. To exploit this, a crafted XML document must be validated against an XML schema with certain identity constraints, or a crafted XML schema must be used.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    VendorSeverity:
-      cbl-mariner: 3
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-56171
-    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/828
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-56171
-    - https://ubuntu.com/security/notices/USN-7302-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-56171
-    - https://www.openwall.com/lists/oss-security/2025/02/18/2
-    PublishedDate: '2025-02-18T22:15:12.797Z'
-    LastModifiedDate: '2025-02-18T23:15:09.413Z'
-  - VulnerabilityID: CVE-2025-24928
-    PkgID: libxml2@2.9.14+dfsg-1.3ubuntu3.1
-    PkgName: libxml2
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libxml2@2.9.14%2Bdfsg-1.3ubuntu3.1?arch=amd64&distro=ubuntu-24.04
-      UID: d03ea1417da9cc89
-    InstalledVersion: 2.9.14+dfsg-1.3ubuntu3.1
-    FixedVersion: 2.9.14+dfsg-1.3ubuntu3.2
-    Status: fixed
-    Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-24928
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'libxml2: Stack-based buffer overflow in xmlSnprintfElements of libxml2'
-    Description: 'libxml2 before 2.12.10 and 2.13.x before 2.13.6 has a stack-based buffer overflow in xmlSnprintfElements in valid.c. To exploit this, DTD validation must occur for an untrusted document or untrusted DTD. NOTE: this is similar to CVE-2017-9047.'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-121
-    VendorSeverity:
-      cbl-mariner: 3
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-24928
-    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/847
-    - https://issues.oss-fuzz.com/issues/392687022
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-24928
-    - https://ubuntu.com/security/notices/USN-7302-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-24928
-    - https://www.openwall.com/lists/oss-security/2025/02/18/2
-    PublishedDate: '2025-02-18T23:15:10.25Z'
-    LastModifiedDate: '2025-02-18T23:15:10.25Z'
-  - VulnerabilityID: CVE-2025-27113
-    PkgID: libxml2@2.9.14+dfsg-1.3ubuntu3.1
-    PkgName: libxml2
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libxml2@2.9.14%2Bdfsg-1.3ubuntu3.1?arch=amd64&distro=ubuntu-24.04
-      UID: d03ea1417da9cc89
-    InstalledVersion: 2.9.14+dfsg-1.3ubuntu3.1
-    FixedVersion: 2.9.14+dfsg-1.3ubuntu3.2
-    Status: fixed
-    Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-27113
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'libxml2: NULL Pointer Dereference in libxml2 xmlPatMatch'
-    Description: libxml2 before 2.12.10 and 2.13.x before 2.13.6 has a NULL pointer dereference in xmlPatMatch in pattern.c.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-476
-    VendorSeverity:
-      cbl-mariner: 1
-      nvd: 3
-      redhat: 1
-      ubuntu: 2
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 2.9
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-27113
-    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/861
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-27113
-    - https://ubuntu.com/security/notices/USN-7302-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-27113
-    - https://www.openwall.com/lists/oss-security/2025/02/18/2
-    PublishedDate: '2025-02-18T23:15:10.96Z'
-    LastModifiedDate: '2025-02-27T20:18:12.583Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: login@1:4.13+dfsg1-4ubuntu3.2
     PkgName: login
@@ -3065,8 +2462,8 @@
     InstalledVersion: 1:4.13+dfsg1-4ubuntu3.2
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -3094,81 +2491,17 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2024-12-26T09:15:07.267Z'
-  - VulnerabilityID: CVE-2024-13176
-    PkgID: openssl@3.0.13-0ubuntu3.4
-    PkgName: openssl
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.4?arch=amd64&distro=ubuntu-24.04
-      UID: e66ab4a7df6ee7c2
-    InstalledVersion: 3.0.13-0ubuntu3.4
-    FixedVersion: 3.0.13-0ubuntu3.5
-    Status: fixed
-    Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-13176
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'openssl: Timing side-channel in ECDSA signature computation'
-    Description: |-
-      Issue summary: A timing side-channel which could potentially allow recovering
-      the private key exists in the ECDSA signature computation.
-
-      Impact summary: A timing side-channel in ECDSA signature computations
-      could allow recovering the private key by an attacker. However, measuring
-      the timing would require either local access to the signing application or
-      a very fast network connection with low latency.
-
-      There is a timing signal of around 300 nanoseconds when the top word of
-      the inverted ECDSA nonce value is zero. This can happen with significant
-      probability only for some of the supported elliptic curves. In particular
-      the NIST P-521 curve is affected. To be able to measure this leak, the attacker
-      process must either be located in the same physical computer or must
-      have a very fast network connection with low latency. For that reason
-      the severity of this vulnerability is Low.
-    Severity: LOW
-    CweIDs:
-    - CWE-385
-    VendorSeverity:
-      amazon: 2
-      redhat: 1
-      ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/01/20/2
-    - https://access.redhat.com/security/cve/CVE-2024-13176
-    - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
-    - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
-    - https://github.com/openssl/openssl/commit/392dcb336405a0c94486aa6655057f59fd3a0902
-    - https://github.com/openssl/openssl/commit/4b1cb94a734a7d4ec363ac0a215a25c181e11f65
-    - https://github.com/openssl/openssl/commit/77c608f4c8857e63e98e66444e2e761c9627916f
-    - https://github.openssl.org/openssl/extended-releases/commit/0d5fd1ab987f7571e2c955d8d8b638fc0fb54ded
-    - https://github.openssl.org/openssl/extended-releases/commit/a2639000db19878d5d89586ae7b725080592ae86
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-13176
-    - https://openssl-library.org/news/secadv/20250120.txt
-    - https://security.netapp.com/advisory/ntap-20250124-0005/
-    - https://ubuntu.com/security/notices/USN-7264-1
-    - https://ubuntu.com/security/notices/USN-7278-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-13176
-    PublishedDate: '2025-01-20T14:15:26.247Z'
-    LastModifiedDate: '2025-01-27T21:15:11.907Z'
   - VulnerabilityID: CVE-2024-41996
-    PkgID: openssl@3.0.13-0ubuntu3.4
+    PkgID: openssl@3.0.13-0ubuntu3.5
     PkgName: openssl
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.4?arch=amd64&distro=ubuntu-24.04
-      UID: e66ab4a7df6ee7c2
-    InstalledVersion: 3.0.13-0ubuntu3.4
+      PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.5?arch=amd64&distro=ubuntu-24.04
+      UID: 9833b0131d231716
+    InstalledVersion: 3.0.13-0ubuntu3.5
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-41996
     DataSource:
@@ -3200,84 +2533,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
     PublishedDate: '2024-08-26T06:15:04.603Z'
     LastModifiedDate: '2024-08-26T16:35:11.247Z'
-  - VulnerabilityID: CVE-2024-9143
-    PkgID: openssl@3.0.13-0ubuntu3.4
-    PkgName: openssl
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.4?arch=amd64&distro=ubuntu-24.04
-      UID: e66ab4a7df6ee7c2
-    InstalledVersion: 3.0.13-0ubuntu3.4
-    FixedVersion: 3.0.13-0ubuntu3.5
-    Status: fixed
-    Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9143
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'openssl: Low-level invalid GF(2^m) parameters lead to OOB memory access'
-    Description: |-
-      Issue summary: Use of the low-level GF(2^m) elliptic curve APIs with untrusted
-      explicit values for the field polynomial can lead to out-of-bounds memory reads
-      or writes.
-
-      Impact summary: Out of bound memory writes can lead to an application crash or
-      even a possibility of a remote code execution, however, in all the protocols
-      involving Elliptic Curve Cryptography that we're aware of, either only "named
-      curves" are supported, or, if explicit curve parameters are supported, they
-      specify an X9.62 encoding of binary (GF(2^m)) curves that can't represent
-      problematic input values. Thus the likelihood of existence of a vulnerable
-      application is low.
-
-      In particular, the X9.62 encoding is used for ECC keys in X.509 certificates,
-      so problematic inputs cannot occur in the context of processing X.509
-      certificates.  Any problematic use-cases would have to be using an "exotic"
-      curve encoding.
-
-      The affected APIs include: EC_GROUP_new_curve_GF2m(), EC_GROUP_new_from_params(),
-      and various supporting BN_GF2m_*() functions.
-
-      Applications working with "exotic" explicit binary (GF(2^m)) curve parameters,
-      that make it possible to represent invalid field polynomials with a zero
-      constant term, via the above or similar APIs, may terminate abruptly as a
-      result of reading or writing outside of array bounds.  Remote code execution
-      cannot easily be ruled out.
-
-      The FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected by this issue.
-    Severity: LOW
-    CweIDs:
-    - CWE-787
-    VendorSeverity:
-      amazon: 3
-      photon: 2
-      redhat: 1
-      ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 3.7
-    References:
-    - http://www.openwall.com/lists/oss-security/2024/10/16/1
-    - http://www.openwall.com/lists/oss-security/2024/10/23/1
-    - http://www.openwall.com/lists/oss-security/2024/10/24/1
-    - https://access.redhat.com/security/cve/CVE-2024-9143
-    - https://github.com/openssl/openssl/commit/72ae83ad214d2eef262461365a1975707f862712
-    - https://github.com/openssl/openssl/commit/bc7e04d7c8d509fb78fc0e285aa948fb0da04700
-    - https://github.com/openssl/openssl/commit/c0d3e4d32d2805f49bec30547f225bc4d092e1f4
-    - https://github.com/openssl/openssl/commit/fdf6723362ca51bd883295efe206cb5b1cfa5154
-    - https://github.openssl.org/openssl/extended-releases/commit/8efc0cbaa8ebba8e116f7b81a876a4123594d86a
-    - https://github.openssl.org/openssl/extended-releases/commit/9d576994cec2b7aa37a91740ea7e680810957e41
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-9143
-    - https://openssl-library.org/news/secadv/20241016.txt
-    - https://security.netapp.com/advisory/ntap-20241101-0001/
-    - https://ubuntu.com/security/notices/USN-7264-1
-    - https://ubuntu.com/security/notices/USN-7278-1
-    - https://www.cve.org/CVERecord?id=CVE-2024-9143
-    PublishedDate: '2024-10-16T17:15:18.13Z'
-    LastModifiedDate: '2024-11-21T09:54:04.817Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: passwd@1:4.13+dfsg1-4ubuntu3.2
     PkgName: passwd
@@ -3287,8 +2542,8 @@
     InstalledVersion: 1:4.13+dfsg1-4ubuntu3.2
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -3316,94 +2571,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2024-12-26T09:15:07.267Z'
-  - VulnerabilityID: CVE-2025-0938
-    PkgID: python3.12@3.12.3-1ubuntu0.4
-    PkgName: python3.12
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/python3.12@3.12.3-1ubuntu0.4?arch=amd64&distro=ubuntu-24.04
-      UID: 671b93eb210ecb4b
-    InstalledVersion: 3.12.3-1ubuntu0.4
-    FixedVersion: 3.12.3-1ubuntu0.5
-    Status: fixed
-    Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0938
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'python: cpython: URL parser allowed square brackets in domain names'
-    Description: The Python standard library functions `urllib.parse.urlsplit` and `urlparse` accepted domain names that included square brackets which isn't valid according to RFC 3986. Square brackets are only meant to be used as delimiters for specifying IPv6 and IPvFuture hosts in URLs. This could result in differential parsing across the Python URL parser and other specification-compliant URL parsers.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-20
-    VendorSeverity:
-      cbl-mariner: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
-        V3Score: 6.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-0938
-    - https://github.com/python/cpython/commit/90e526ae67b172ed7c6c56e7edad36263b0f9403
-    - https://github.com/python/cpython/commit/a7084f6075c9595ba60119ce8c62f1496f50c568
-    - https://github.com/python/cpython/commit/d89a5f6a6e65511a5f6e0618c4c30a7aa5aba56a
-    - https://github.com/python/cpython/issues/105704
-    - https://github.com/python/cpython/pull/129418
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
-    - https://ubuntu.com/security/notices/USN-7280-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-0938
-    PublishedDate: '2025-01-31T18:15:38.053Z'
-    LastModifiedDate: '2025-02-04T21:15:27.543Z'
-  - VulnerabilityID: CVE-2025-0938
-    PkgID: python3.12-minimal@3.12.3-1ubuntu0.4
-    PkgName: python3.12-minimal
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/python3.12-minimal@3.12.3-1ubuntu0.4?arch=amd64&distro=ubuntu-24.04
-      UID: 97b44c549681fb5a
-    InstalledVersion: 3.12.3-1ubuntu0.4
-    FixedVersion: 3.12.3-1ubuntu0.5
-    Status: fixed
-    Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0938
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'python: cpython: URL parser allowed square brackets in domain names'
-    Description: The Python standard library functions `urllib.parse.urlsplit` and `urlparse` accepted domain names that included square brackets which isn't valid according to RFC 3986. Square brackets are only meant to be used as delimiters for specifying IPv6 and IPvFuture hosts in URLs. This could result in differential parsing across the Python URL parser and other specification-compliant URL parsers.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-20
-    VendorSeverity:
-      cbl-mariner: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
-        V3Score: 6.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-0938
-    - https://github.com/python/cpython/commit/90e526ae67b172ed7c6c56e7edad36263b0f9403
-    - https://github.com/python/cpython/commit/a7084f6075c9595ba60119ce8c62f1496f50c568
-    - https://github.com/python/cpython/commit/d89a5f6a6e65511a5f6e0618c4c30a7aa5aba56a
-    - https://github.com/python/cpython/issues/105704
-    - https://github.com/python/cpython/pull/129418
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-0938
-    - https://ubuntu.com/security/notices/USN-7280-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-0938
-    PublishedDate: '2025-01-31T18:15:38.053Z'
-    LastModifiedDate: '2025-02-04T21:15:27.543Z'
   - VulnerabilityID: CVE-2021-39920
     PkgID: tshark@4.2.2-1.1build3
     PkgName: tshark
@@ -3413,8 +2580,8 @@
     InstalledVersion: 4.2.2-1.1build3
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
     DataSource:
@@ -3460,12 +2627,12 @@
     PkgName: wget
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/wget@1.21.4-1ubuntu4.1?arch=amd64&distro=ubuntu-24.04
-      UID: 1eb9ff31230b501f
+      UID: 96161d6c104c53f0
     InstalledVersion: 1.21.4-1ubuntu4.1
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-31879
     DataSource:
@@ -3507,12 +2674,12 @@
     PkgName: wireshark-common
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/wireshark-common@4.2.2-1.1build3?arch=amd64&distro=ubuntu-24.04
-      UID: 8524e1d32a0786dc
+      UID: 6c1b900b6ea81a0e
     InstalledVersion: 4.2.2-1.1build3
     Status: affected
     Layer:
-      Digest: sha256:45d63557bacdaaedfcef925750801e0e1d91b5269036eeba2d2ca0962a117061
-      DiffID: sha256:11e63cccf25f1f4ec7fd319587046080f2ae5b002d5f45c1a8a0582a24b21bb3
+      Digest: sha256:425c600472a04544a31385ce0ad3e7bb1c22cef87a9bce5ef8b11b3083a20c3c
+      DiffID: sha256:65467cc7963ad10e6d8be7b429746b503e2deec49e7db3014111d20edfc0b349
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
     DataSource:
