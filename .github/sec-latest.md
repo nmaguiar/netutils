@@ -32,8 +32,8 @@
 │                       │     │                  ├ redhat     : 3 
 │                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/
-│                       │     │                           │           A:N 
-│                       │     │                           ╰ V3Score : 7.8 
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 8.1 
 │                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-56171 
 │                       │     │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/828 
 │                       │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-56171 
