@@ -18,8 +18,8 @@
     FixedVersion: 11.1.2
     Status: fixed
     Layer:
-      Digest: sha256:3ba78ea60f5bdbba57152ec1a38e8f3894176a298b007c68d8124d6e78268a25
-      DiffID: sha256:7707ea020ab3ad8220c1a2eefe919a03c4d98a975953df95e9741c3ee3619554
+      Digest: sha256:6e31eb0bcc0381b62800208c571781591f9434a77b8220f3712e35c0b3e91b2e
+      DiffID: sha256:620e5c65933084454fa330266f05f2969aa76d082d870b26fbffba4481a40052
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-23217
     DataSource:
