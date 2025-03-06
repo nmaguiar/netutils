@@ -231,6 +231,39 @@
   Class: lang-pkgs
   Type: python-pkg
   Vulnerabilities:
+  - VulnerabilityID: CVE-2025-27516
+    PkgName: Jinja2
+    PkgPath: opt/mitmproxy/lib/python3.12/site-packages/jinja2-3.1.5.dist-info/METADATA
+    PkgIdentifier:
+      PURL: pkg:pypi/jinja2@3.1.5
+      UID: 759f263d0b2bf566
+    InstalledVersion: 3.1.5
+    FixedVersion: 3.1.6
+    Status: fixed
+    Layer:
+      Digest: sha256:6e31eb0bcc0381b62800208c571781591f9434a77b8220f3712e35c0b3e91b2e
+      DiffID: sha256:620e5c65933084454fa330266f05f2969aa76d082d870b26fbffba4481a40052
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-27516
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory pip
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip
+    Title: Jinja2 vulnerable to sandbox breakout through attr filter selecting format method
+    Description: |-
+      An oversight in how the Jinja sandboxed environment interacts with the `|attr` filter allows an attacker that controls the content of a template to execute arbitrary Python code.
+
+      To exploit the vulnerability, an attacker needs to control the content of a template. Whether that is the case depends on the type of application using Jinja. This vulnerability impacts users of applications which execute untrusted templates.
+
+      Jinja's sandbox does catch calls to `str.format` and ensures they don't escape the sandbox. However, it's possible to use the `|attr` filter to get a reference to a string's plain format method, bypassing the sandbox. After the fix, the `|attr` filter no longer bypasses the environment's attribute lookup.
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+    References:
+    - https://github.com/pallets/jinja
+    - https://github.com/pallets/jinja/commit/90457bbf33b8662926ae65cdde4c4c32e756e403
+    - https://github.com/pallets/jinja/security/advisories/GHSA-cpwx-vrp4-4pq7
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-27516
   - VulnerabilityID: CVE-2025-23217
     PkgName: mitmproxy
     PkgPath: opt/mitmproxy/lib/python3.12/site-packages/mitmproxy-11.0.2.dist-info/METADATA
