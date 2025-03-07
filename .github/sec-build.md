@@ -327,31 +327,40 @@
                         │     │                  ├ Name: GitHub Security Advisory pip 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Apip 
-                        │     ├ Title           : Jinja2 vulnerable to sandbox breakout through attr filter
-                        │     │                   selecting format method 
-                        │     ├ Description     : An oversight in how the Jinja sandboxed environment interacts
-                        │     │                    with the `|attr` filter allows an attacker that controls the
-                        │     │                    content of a template to execute arbitrary Python code.
-                        │     │                   
-                        │     │                   To exploit the vulnerability, an attacker needs to control
-                        │     │                   the content of a template. Whether that is the case depends
-                        │     │                   on the type of application using Jinja. This vulnerability
+                        │     ├ Title           : jinja2: Jinja sandbox breakout through attr filter selecting
+                        │     │                   format method 
+                        │     ├ Description     : Jinja is an extensible templating engine. Prior to 3.1.6, an
+                        │     │                   oversight in how the Jinja sandboxed environment interacts
+                        │     │                   with the |attr filter allows an attacker that controls the
+                        │     │                   content of a template to execute arbitrary Python code. To
+                        │     │                   exploit the vulnerability, an attacker needs to control the
+                        │     │                   content of a template. Whether that is the case depends on
+                        │     │                   the type of application using Jinja. This vulnerability
                         │     │                   impacts users of applications which execute untrusted
-                        │     │                   templates.
-                        │     │                   Jinja's sandbox does catch calls to `str.format` and ensures
-                        │     │                   they don't escape the sandbox. However, it's possible to use
-                        │     │                   the `|attr` filter to get a reference to a string's plain
-                        │     │                   format method, bypassing the sandbox. After the fix, the
-                        │     │                   `|attr` filter no longer bypasses the environment's attribute
-                        │     │                    lookup. 
+                        │     │                   templates. Jinja's sandbox does catch calls to str.format and
+                        │     │                    ensures they don't escape the sandbox. However, it's
+                        │     │                   possible to use the |attr filter to get a reference to a
+                        │     │                   string's plain format method, bypassing the sandbox. After
+                        │     │                   the fix, the |attr filter no longer bypasses the
+                        │     │                   environment's attribute lookup. This vulnerability is fixed
+                        │     │                   in 3.1.6. 
                         │     ├ Severity        : MEDIUM 
-                        │     ├ VendorSeverity   ─ ghsa: 2 
-                        │     ╰ References       ╭ [0]: https://github.com/pallets/jinja 
-                        │                        ├ [1]: https://github.com/pallets/jinja/commit/90457bbf33b8662
-                        │                        │      926ae65cdde4c4c32e756e403 
-                        │                        ├ [2]: https://github.com/pallets/jinja/security/advisories/GH
-                        │                        │      SA-cpwx-vrp4-4pq7 
-                        │                        ╰ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-27516 
+                        │     ├ CweIDs           ─ [0]: CWE-1336 
+                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+                        │     │                  ╰ redhat: 3 
+                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/
+                        │     │                           │           A:H 
+                        │     │                           ╰ V3Score : 7.3 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-27516 
+                        │     │                  ├ [1]: https://github.com/pallets/jinja 
+                        │     │                  ├ [2]: https://github.com/pallets/jinja/commit/90457bbf33b8662
+                        │     │                  │      926ae65cdde4c4c32e756e403 
+                        │     │                  ├ [3]: https://github.com/pallets/jinja/security/advisories/GH
+                        │     │                  │      SA-cpwx-vrp4-4pq7 
+                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-27516 
+                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-27516 
+                        │     ├ PublishedDate   : 2025-03-05T21:15:20.073Z 
+                        │     ╰ LastModifiedDate: 2025-03-05T21:15:20.073Z 
                         ╰ [1] ╭ VulnerabilityID : CVE-2025-23217 
                               ├ PkgName         : mitmproxy 
                               ├ PkgPath         : opt/mitmproxy/lib/python3.12/site-packages/mitmproxy-11.0.2.d
