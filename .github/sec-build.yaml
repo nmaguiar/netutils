@@ -63,6 +63,7 @@
     CweIDs:
     - CWE-77
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 2
     CVSS:
       redhat:
@@ -138,6 +139,7 @@
     CweIDs:
     - CWE-77
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 2
     CVSS:
       redhat:
@@ -213,6 +215,7 @@
     CweIDs:
     - CWE-77
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 2
     CVSS:
       redhat:
@@ -258,8 +261,10 @@
     CweIDs:
     - CWE-1336
     VendorSeverity:
+      cbl-mariner: 2
       ghsa: 2
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
