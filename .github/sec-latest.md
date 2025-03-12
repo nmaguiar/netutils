@@ -85,7 +85,50 @@
 │                       │     │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/02/18/2 
 │                       │     ├ PublishedDate   : 2025-02-18T23:15:10.25Z 
 │                       │     ╰ LastModifiedDate: 2025-02-18T23:15:10.25Z 
-│                       ├ [2] ╭ VulnerabilityID : CVE-2025-26603 
+│                       ├ [2] ╭ VulnerabilityID : CVE-2025-27113 
+│                       │     ├ PkgID           : libxml2@2.13.4-r3 
+│                       │     ├ PkgName         : libxml2 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxml2@2.13.4-r3?arch=x86_64&distro=3.
+│                       │     │                  │       22.0_alpha20250108 
+│                       │     │                  ╰ UID : 25db9d8350ef2e5a 
+│                       │     ├ InstalledVersion: 2.13.4-r3 
+│                       │     ├ FixedVersion    : 2.13.6-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:00f19dd58a1529b2043f694b571828acf17cac3b07479
+│                       │     │                  │         33a3a0e57dc650ff17d 
+│                       │     │                  ╰ DiffID: sha256:8023ce50c72afb3634be2f5a190d34b330bfd9ebd0f77
+│                       │     │                            f8d1342584189737ee5 
+│                       │     ├ SeveritySource  : nvd 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-27113 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : libxml2: NULL Pointer Dereference in libxml2 xmlPatMatch 
+│                       │     ├ Description     : libxml2 before 2.12.10 and 2.13.x before 2.13.6 has a NULL
+│                       │     │                   pointer dereference in xmlPatMatch in pattern.c. 
+│                       │     ├ Severity        : HIGH 
+│                       │     ├ CweIDs           ─ [0]: CWE-476 
+│                       │     ├ VendorSeverity   ╭ cbl-mariner: 1 
+│                       │     │                  ├ nvd        : 3 
+│                       │     │                  ├ photon     : 3 
+│                       │     │                  ├ redhat     : 1 
+│                       │     │                  ╰ ubuntu     : 2 
+│                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+│                       │     │                  │        │           A:H 
+│                       │     │                  │        ╰ V3Score : 7.5 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/
+│                       │     │                           │           A:L 
+│                       │     │                           ╰ V3Score : 2.9 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-27113 
+│                       │     │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/861 
+│                       │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-27113 
+│                       │     │                  ├ [3]: https://security.netapp.com/advisory/ntap-20250306-0004/ 
+│                       │     │                  ├ [4]: https://ubuntu.com/security/notices/USN-7302-1 
+│                       │     │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-27113 
+│                       │     │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/02/18/2 
+│                       │     ├ PublishedDate   : 2025-02-18T23:15:10.96Z 
+│                       │     ╰ LastModifiedDate: 2025-03-07T01:15:12.823Z 
+│                       ├ [3] ╭ VulnerabilityID : CVE-2025-26603 
 │                       │     ├ PkgID           : vim@9.1.1105-r0 
 │                       │     ├ PkgName         : vim 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.1.1105-r0?arch=x86_64&distro=3.22
@@ -141,7 +184,7 @@
 │                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-26603 
 │                       │     ├ PublishedDate   : 2025-02-18T19:15:29.387Z 
 │                       │     ╰ LastModifiedDate: 2025-03-07T01:15:12.7Z 
-│                       ├ [3] ╭ VulnerabilityID : CVE-2025-27423 
+│                       ├ [4] ╭ VulnerabilityID : CVE-2025-27423 
 │                       │     ├ PkgID           : vim@9.1.1105-r0 
 │                       │     ├ PkgName         : vim 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.1.1105-r0?arch=x86_64&distro=3.22
@@ -171,7 +214,8 @@
 │                       │     │                   $SHELL). The issue has been fixed as of Vim patch v9.1.1164 
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-77 
-│                       │     ├ VendorSeverity   ─ redhat: 2 
+│                       │     ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │     │                  ╰ redhat     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:L/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 6.1 
@@ -186,7 +230,7 @@
 │                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-27423 
 │                       │     ├ PublishedDate   : 2025-03-03T17:15:15.943Z 
 │                       │     ╰ LastModifiedDate: 2025-03-03T17:15:15.943Z 
-│                       ├ [4] ╭ VulnerabilityID : CVE-2025-26603 
+│                       ├ [5] ╭ VulnerabilityID : CVE-2025-26603 
 │                       │     ├ PkgID           : vim-common@9.1.1105-r0 
 │                       │     ├ PkgName         : vim-common 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.1.1105-r0?arch=x86_64&dist
@@ -242,7 +286,7 @@
 │                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-26603 
 │                       │     ├ PublishedDate   : 2025-02-18T19:15:29.387Z 
 │                       │     ╰ LastModifiedDate: 2025-03-07T01:15:12.7Z 
-│                       ├ [5] ╭ VulnerabilityID : CVE-2025-27423 
+│                       ├ [6] ╭ VulnerabilityID : CVE-2025-27423 
 │                       │     ├ PkgID           : vim-common@9.1.1105-r0 
 │                       │     ├ PkgName         : vim-common 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.1.1105-r0?arch=x86_64&dist
@@ -272,7 +316,8 @@
 │                       │     │                   $SHELL). The issue has been fixed as of Vim patch v9.1.1164 
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-77 
-│                       │     ├ VendorSeverity   ─ redhat: 2 
+│                       │     ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │     │                  ╰ redhat     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:L/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 6.1 
@@ -287,7 +332,7 @@
 │                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-27423 
 │                       │     ├ PublishedDate   : 2025-03-03T17:15:15.943Z 
 │                       │     ╰ LastModifiedDate: 2025-03-03T17:15:15.943Z 
-│                       ├ [6] ╭ VulnerabilityID : CVE-2025-26603 
+│                       ├ [7] ╭ VulnerabilityID : CVE-2025-26603 
 │                       │     ├ PkgID           : xxd@9.1.1105-r0 
 │                       │     ├ PkgName         : xxd 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.1.1105-r0?arch=x86_64&distro=3.22
@@ -343,7 +388,7 @@
 │                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-26603 
 │                       │     ├ PublishedDate   : 2025-02-18T19:15:29.387Z 
 │                       │     ╰ LastModifiedDate: 2025-03-07T01:15:12.7Z 
-│                       ╰ [7] ╭ VulnerabilityID : CVE-2025-27423 
+│                       ╰ [8] ╭ VulnerabilityID : CVE-2025-27423 
 │                             ├ PkgID           : xxd@9.1.1105-r0 
 │                             ├ PkgName         : xxd 
 │                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.1.1105-r0?arch=x86_64&distro=3.22
@@ -373,7 +418,8 @@
 │                             │                   $SHELL). The issue has been fixed as of Vim patch v9.1.1164 
 │                             ├ Severity        : MEDIUM 
 │                             ├ CweIDs           ─ [0]: CWE-77 
-│                             ├ VendorSeverity   ─ redhat: 2 
+│                             ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                             │                  ╰ redhat     : 2 
 │                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:L/
 │                             │                           │           A:N 
 │                             │                           ╰ V3Score : 6.1 
@@ -432,8 +478,10 @@
                         │     │                   in 3.1.6. 
                         │     ├ Severity        : MEDIUM 
                         │     ├ CweIDs           ─ [0]: CWE-1336 
-                        │     ├ VendorSeverity   ╭ ghsa  : 2 
-                        │     │                  ╰ redhat: 3 
+                        │     ├ VendorSeverity   ╭ cbl-mariner: 2 
+                        │     │                  ├ ghsa       : 2 
+                        │     │                  ├ redhat     : 3 
+                        │     │                  ╰ ubuntu     : 2 
                         │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/
                         │     │                           │           A:H 
                         │     │                           ╰ V3Score : 7.3 
