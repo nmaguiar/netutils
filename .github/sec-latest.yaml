@@ -83,6 +83,52 @@
     - https://www.openwall.com/lists/oss-security/2025/02/18/2
     PublishedDate: '2025-02-18T23:15:10.25Z'
     LastModifiedDate: '2025-02-18T23:15:10.25Z'
+  - VulnerabilityID: CVE-2025-27113
+    PkgID: libxml2@2.13.4-r3
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.4-r3?arch=x86_64&distro=3.22.0_alpha20250108
+      UID: 25db9d8350ef2e5a
+    InstalledVersion: 2.13.4-r3
+    FixedVersion: 2.13.6-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:00f19dd58a1529b2043f694b571828acf17cac3b0747933a3a0e57dc650ff17d
+      DiffID: sha256:8023ce50c72afb3634be2f5a190d34b330bfd9ebd0f77f8d1342584189737ee5
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-27113
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'libxml2: NULL Pointer Dereference in libxml2 xmlPatMatch'
+    Description: libxml2 before 2.12.10 and 2.13.x before 2.13.6 has a NULL pointer dereference in xmlPatMatch in pattern.c.
+    Severity: HIGH
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      cbl-mariner: 1
+      nvd: 3
+      photon: 3
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-27113
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/861
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-27113
+    - https://security.netapp.com/advisory/ntap-20250306-0004/
+    - https://ubuntu.com/security/notices/USN-7302-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-27113
+    - https://www.openwall.com/lists/oss-security/2025/02/18/2
+    PublishedDate: '2025-02-18T23:15:10.96Z'
+    LastModifiedDate: '2025-03-07T01:15:12.823Z'
   - VulnerabilityID: CVE-2025-26603
     PkgID: vim@9.1.1105-r0
     PkgName: vim
@@ -144,6 +190,7 @@
     CweIDs:
     - CWE-77
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 2
     CVSS:
       redhat:
@@ -219,6 +266,7 @@
     CweIDs:
     - CWE-77
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 2
     CVSS:
       redhat:
@@ -294,6 +342,7 @@
     CweIDs:
     - CWE-77
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 2
     CVSS:
       redhat:
@@ -339,8 +388,10 @@
     CweIDs:
     - CWE-1336
     VendorSeverity:
+      cbl-mariner: 2
       ghsa: 2
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
