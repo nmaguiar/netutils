@@ -88,7 +88,8 @@
 │                       │     │                   $SHELL). The issue has been fixed as of Vim patch v9.1.1164 
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-77 
-│                       │     ├ VendorSeverity   ─ redhat: 2 
+│                       │     ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │     │                  ╰ redhat     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:L/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 6.1 
@@ -189,7 +190,8 @@
 │                       │     │                   $SHELL). The issue has been fixed as of Vim patch v9.1.1164 
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-77 
-│                       │     ├ VendorSeverity   ─ redhat: 2 
+│                       │     ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │     │                  ╰ redhat     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:L/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 6.1 
@@ -290,7 +292,8 @@
 │                             │                   $SHELL). The issue has been fixed as of Vim patch v9.1.1164 
 │                             ├ Severity        : MEDIUM 
 │                             ├ CweIDs           ─ [0]: CWE-77 
-│                             ├ VendorSeverity   ─ redhat: 2 
+│                             ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                             │                  ╰ redhat     : 2 
 │                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:L/
 │                             │                           │           A:N 
 │                             │                           ╰ V3Score : 6.1 
@@ -349,8 +352,10 @@
                         │     │                   in 3.1.6. 
                         │     ├ Severity        : MEDIUM 
                         │     ├ CweIDs           ─ [0]: CWE-1336 
-                        │     ├ VendorSeverity   ╭ ghsa  : 2 
-                        │     │                  ╰ redhat: 3 
+                        │     ├ VendorSeverity   ╭ cbl-mariner: 2 
+                        │     │                  ├ ghsa       : 2 
+                        │     │                  ├ redhat     : 3 
+                        │     │                  ╰ ubuntu     : 2 
                         │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/
                         │     │                           │           A:H 
                         │     │                           ╰ V3Score : 7.3 
