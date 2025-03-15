@@ -85,13 +85,15 @@
 │                       │      │                   `default` entry that
 │                       │      │                   omits both login and password. A rare circumstance. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      ├ VendorSeverity   ╭ azure : 1 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
 │                       │      │                  ├ [2]: https://hackerone.com/reports/2917232 
-│                       │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-20250306-0008/ 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-0167 
+│                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-20250306-0008/ 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
 │                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.11Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2022-3219 
@@ -136,7 +138,7 @@
 │                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-20230324-0001/ 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T07:19:04.727Z 
+│                       │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2024-52949 
 │                       │      ├ PkgID           : iptraf-ng@1:1.2.1-1build3 
 │                       │      ├ PkgName         : iptraf-ng 
@@ -267,7 +269,7 @@
 │                       │                         ├ [1]: https://github.com/krb5/krb5/commit/78ceba024b64d49612
 │                       │                         │      375be4a12d1c066b0bfbd0 
 │                       │                         ├ [2]: https://linux.oracle.com/cve/CVE-2025-24528.html 
-│                       │                         ├ [3]: https://linux.oracle.com/errata/ELSA-2025-1352.html 
+│                       │                         ├ [3]: https://linux.oracle.com/errata/ELSA-2025-2722.html 
 │                       │                         ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-24528 
 │                       │                         ├ [5]: https://ubuntu.com/security/notices/USN-7314-1 
 │                       │                         ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-24528 
@@ -1046,13 +1048,15 @@
 │                       │      │                   `default` entry that
 │                       │      │                   omits both login and password. A rare circumstance. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      ├ VendorSeverity   ╭ azure : 1 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
 │                       │      │                  ├ [2]: https://hackerone.com/reports/2917232 
-│                       │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-20250306-0008/ 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-0167 
+│                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-20250306-0008/ 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
 │                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.11Z 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2025-23022 
@@ -1237,7 +1241,7 @@
 │                       │                         ├ [1]: https://github.com/krb5/krb5/commit/78ceba024b64d49612
 │                       │                         │      375be4a12d1c066b0bfbd0 
 │                       │                         ├ [2]: https://linux.oracle.com/cve/CVE-2025-24528.html 
-│                       │                         ├ [3]: https://linux.oracle.com/errata/ELSA-2025-1352.html 
+│                       │                         ├ [3]: https://linux.oracle.com/errata/ELSA-2025-2722.html 
 │                       │                         ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-24528 
 │                       │                         ├ [5]: https://ubuntu.com/security/notices/USN-7314-1 
 │                       │                         ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-24528 
@@ -1453,7 +1457,7 @@
 │                       │                         ├ [1]: https://github.com/krb5/krb5/commit/78ceba024b64d49612
 │                       │                         │      375be4a12d1c066b0bfbd0 
 │                       │                         ├ [2]: https://linux.oracle.com/cve/CVE-2025-24528.html 
-│                       │                         ├ [3]: https://linux.oracle.com/errata/ELSA-2025-1352.html 
+│                       │                         ├ [3]: https://linux.oracle.com/errata/ELSA-2025-2722.html 
 │                       │                         ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-24528 
 │                       │                         ├ [5]: https://ubuntu.com/security/notices/USN-7314-1 
 │                       │                         ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-24528 
@@ -1669,7 +1673,7 @@
 │                       │                         ├ [1]: https://github.com/krb5/krb5/commit/78ceba024b64d49612
 │                       │                         │      375be4a12d1c066b0bfbd0 
 │                       │                         ├ [2]: https://linux.oracle.com/cve/CVE-2025-24528.html 
-│                       │                         ├ [3]: https://linux.oracle.com/errata/ELSA-2025-1352.html 
+│                       │                         ├ [3]: https://linux.oracle.com/errata/ELSA-2025-2722.html 
 │                       │                         ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-24528 
 │                       │                         ├ [5]: https://ubuntu.com/security/notices/USN-7314-1 
 │                       │                         ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-24528 
@@ -1885,7 +1889,7 @@
 │                       │                         ├ [1]: https://github.com/krb5/krb5/commit/78ceba024b64d49612
 │                       │                         │      375be4a12d1c066b0bfbd0 
 │                       │                         ├ [2]: https://linux.oracle.com/cve/CVE-2025-24528.html 
-│                       │                         ├ [3]: https://linux.oracle.com/errata/ELSA-2025-1352.html 
+│                       │                         ├ [3]: https://linux.oracle.com/errata/ELSA-2025-2722.html 
 │                       │                         ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-24528 
 │                       │                         ├ [5]: https://ubuntu.com/security/notices/USN-7314-1 
 │                       │                         ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-24528 
