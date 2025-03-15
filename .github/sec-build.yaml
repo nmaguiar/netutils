@@ -2,6 +2,42 @@
   Class: os-pkgs
   Type: alpine
   Vulnerabilities:
+  - VulnerabilityID: CVE-2024-8176
+    PkgID: libexpat@2.6.4-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.6.4-r0?arch=x86_64&distro=3.22.0_alpha20250108
+      UID: fa5c22848b3ff5fd
+    InstalledVersion: 2.6.4-r0
+    FixedVersion: 2.7.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:6e31eb0bcc0381b62800208c571781591f9434a77b8220f3712e35c0b3e91b2e
+      DiffID: sha256:620e5c65933084454fa330266f05f2969aa76d082d870b26fbffba4481a40052
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8176
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'libexpat: expat: Improper Restriction of XML Entity Expansion Depth in libexpat'
+    Description: A stack overflow vulnerability exists in the libexpat library due to the way it handles recursive entity expansion in XML documents. When parsing an XML document with deeply nested entity references, libexpat can be forced to recurse indefinitely, exhausting the stack space and causing a crash. This issue could lead to denial of service (DoS) or, in some cases, exploitable memory corruption, depending on the environment and library usage.
+    Severity: HIGH
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-8176
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2310137
+    - https://github.com/libexpat/libexpat/issues/893
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-8176
+    - https://www.cve.org/CVERecord?id=CVE-2024-8176
+    PublishedDate: '2025-03-14T09:15:14.157Z'
+    LastModifiedDate: '2025-03-14T09:15:14.157Z'
   - VulnerabilityID: CVE-2025-26603
     PkgID: vim@9.1.1105-r0
     PkgName: vim
@@ -25,6 +61,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 1
     CVSS:
@@ -63,6 +100,7 @@
     CweIDs:
     - CWE-77
     VendorSeverity:
+      azure: 3
       cbl-mariner: 3
       redhat: 2
     CVSS:
@@ -101,6 +139,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 1
     CVSS:
@@ -139,6 +178,7 @@
     CweIDs:
     - CWE-77
     VendorSeverity:
+      azure: 3
       cbl-mariner: 3
       redhat: 2
     CVSS:
@@ -177,6 +217,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 1
     CVSS:
@@ -215,6 +256,7 @@
     CweIDs:
     - CWE-77
     VendorSeverity:
+      azure: 3
       cbl-mariner: 3
       redhat: 2
     CVSS:
@@ -275,6 +317,7 @@
     - https://github.com/pallets/jinja/commit/90457bbf33b8662926ae65cdde4c4c32e756e403
     - https://github.com/pallets/jinja/security/advisories/GHSA-cpwx-vrp4-4pq7
     - https://nvd.nist.gov/vuln/detail/CVE-2025-27516
+    - https://ubuntu.com/security/notices/USN-7343-1
     - https://www.cve.org/CVERecord?id=CVE-2025-27516
     PublishedDate: '2025-03-05T21:15:20.073Z'
     LastModifiedDate: '2025-03-05T21:15:20.073Z'
