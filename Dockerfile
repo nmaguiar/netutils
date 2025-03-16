@@ -5,28 +5,26 @@ RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
  && apk update\
  && apk upgrade --available\
  && apk --no-cache add tar gzip bash tmux vim iperf iperf-doc tcpdump tcpdump-doc nmap nmap-doc iftop iftop-doc drill netcat-openbsd netcat-openbsd-doc lynx lynx-doc iproute2 iproute2-doc iptables iptables-doc fping fping-doc conntrack-tools conntrack-tools-doc lazydocker iputils iptraf-ng iptraf-ng-doc ngrep ngrep-doc tcptraceroute tcptraceroute-doc socat socat-doc mtr mtr-doc termshark curl curl-doc inetutils-telnet websocat bash-completion python3 sysstat sysstat-doc iotop iotop-doc htop htop-doc mc mandoc man-pages util-linux-doc tinyproxy tinyproxy-doc strace strace-doc\
- && /openaf/opack install SocksServer\
- && /openaf/opack install Morse\
- && /openaf/opack install oJob-common\
+ && /openaf/opack install SocksServer Morse oJob-common\
  && mkdir /openaf/ojobs\
- && /openaf/ojob ojob.io/get job=ojob.io/oaf/colorFormats.yaml > /openaf/ojobs/colorFormats.yaml\
- && /openaf/ojob ojob.io/get job=ojob.io/net/doh.yaml > /openaf/ojobs/doh.yaml\
- && /openaf/ojob ojob.io/get job=ojob.io/net/jdbc.yaml > /openaf/ojobs/jdbc.yaml\
- && /openaf/ojob ojob.io/get job=ojob.io/net/latency.yaml > /openaf/ojobs/latency.yaml\
- && /openaf/ojob ojob.io/get job=ojob.io/net/publicIP.yaml > /openaf/ojobs/publicIP.yaml\
- && /openaf/ojob ojob.io/get job=ojob.io/net/sslDates.yaml > /openaf/ojobs/sslDates.yaml\
- && /openaf/ojob ojob.io/get job=ojob.io/net/whois.yaml > /openaf/ojobs/whois.yaml\
- && /openaf/ojob ojob.io/get job=ojob.io/net/testHosts.yaml > /openaf/ojobs/testHosts.yaml\
- && /openaf/ojob ojob.io/get job=ojob.io/email/send.yaml > /openaf/ojobs/emailSend.yaml\
- && /openaf/ojob ojob.io/get job=ojob.io/ssh/tunnel.yaml > /openaf/ojobs/tunnel.yaml\
- && /openaf/ojob ojob.io/get job=ojob.io/httpServers/EasyHTTPSd.yaml > /openaf/ojobs/EasyHTTPSd.yaml\
- && /openaf/ojob ojob.io/get job=ojob.io/httpServers/EasyHTTPd.yaml > /openaf/ojobs/EasyHTTPd.yaml\
- && /openaf/ojob ojob.io/get job=ojob.io/httpServers/EchoHTTPd.yaml > /openaf/ojobs/EchoHTTPd.yaml\
- && /openaf/ojob ojob.io/get job=ojob.io/httpServers/MetricsHTTPd.yaml > /openaf/ojobs/MetricsHTTPd.yaml\
- && /openaf/ojob ojob.io/get job=ojob.io/httpServers/RedirectHTTPd.yaml > /openaf/ojobs/RedirectHTTPd.yaml\
- && /openaf/ojob ojob.io/get job=ojob.io/httpServers/uploadHTTPSd.yaml > /openaf/ojobs/uploadHTTPSd.yaml\
- && /openaf/ojob ojob.io/get job=ojob.io/httpServers/uploadHTTPd.yaml > /openaf/ojobs/uploadHTTPd.yaml\
- && /openaf/ojob ojob.io/get job=ojob.io/formats/postman2posting.yaml > /openaf/ojobs/postman2posting.yaml\
+ && curl -s https://ojob.io/oaf/colorFormats.yaml > /openaf/ojobs/colorFormats.yaml\
+ && curl -s https://ojob.io/net/doh.yaml > /openaf/ojobs/doh.yaml\
+ && curl -s https://ojob.io/net/jdbc.yaml > /openaf/ojobs/jdbc.yaml\
+ && curl -s https://ojob.io/net/latency.yaml > /openaf/ojobs/latency.yaml\
+ && curl -s https://ojob.io/net/publicIP.yaml > /openaf/ojobs/publicIP.yaml\
+ && curl -s https://ojob.io/net/sslDates.yaml > /openaf/ojobs/sslDates.yaml\
+ && curl -s https://ojob.io/net/whois.yaml > /openaf/ojobs/whois.yaml\
+ && curl -s https://ojob.io/net/testHosts.yaml > /openaf/ojobs/testHosts.yaml\
+ && curl -s https://ojob.io/email/send.yaml > /openaf/ojobs/emailSend.yaml\
+ && curl -s https://ojob.io/ssh/tunnel.yaml > /openaf/ojobs/tunnel.yaml\
+ && curl -s https://ojob.io/httpServers/EasyHTTPSd.yaml > /openaf/ojobs/EasyHTTPSd.yaml\
+ && curl -s https://ojob.io/httpServers/EasyHTTPd.yaml > /openaf/ojobs/EasyHTTPd.yaml\
+ && curl -s https://ojob.io/httpServers/EchoHTTPd.yaml > /openaf/ojobs/EchoHTTPd.yaml\
+ && curl -s https://ojob.io/httpServers/MetricsHTTPd.yaml > /openaf/ojobs/MetricsHTTPd.yaml\
+ && curl -s https://ojob.io/httpServers/RedirectHTTPd.yaml > /openaf/ojobs/RedirectHTTPd.yaml\
+ && curl -s https://ojob.io/httpServers/uploadHTTPSd.yaml > /openaf/ojobs/uploadHTTPSd.yaml\
+ && curl -s https://ojob.io/httpServers/uploadHTTPd.yaml > /openaf/ojobs/uploadHTTPd.yaml\
+ && curl -s https://ojob.io/formats/postman2posting.yaml > /openaf/ojobs/postman2posting.yaml\
  && cd /openaf/ojobs\
  && /openaf/ojob ojob.io/get airgap=true job=ojob.io/grid/data/gc2\
  && mv ojob.io_grid_data_gc2.yaml javaGC.yaml\
@@ -69,9 +67,9 @@ RUN /openaf/oaf --sb /openaf/ojobs/softVersions.yaml\
 
 # Setup posting
 # -------------
-RUN apk add --no-cache py3-pip gcc musl-dev python3-dev\
+RUN apk add --no-cache py3-pip gcc musl-dev python3-dev tree-sitter \
  && pip install posting --break-system-packages \
- && apk del py3-pip gcc musl-dev python3-dev\
+ && apk del py3-pip gcc musl-dev python3-dev tree-sitter \
  && rm -rf /var/cache/apk/*\
  && rm -rf /root/.local
 
