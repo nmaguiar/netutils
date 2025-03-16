@@ -69,9 +69,9 @@ RUN /openaf/oaf --sb /openaf/ojobs/softVersions.yaml\
 
 # Setup posting
 # -------------
-RUN apk add --no-cache py3-pip\
- && pip install posting --break-system-packages\
- && apk del py3-pip\
+RUN apk add --no-cache py3-pip gcc musl-dev \
+ && pip install posting --break-system-packages \
+ && apk del py3-pip gcc musl-dev \
  && rm -rf /var/cache/apk/*\
  && rm -rf /root/.local
 
