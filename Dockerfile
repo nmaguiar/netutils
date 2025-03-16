@@ -1,10 +1,13 @@
-FROM openaf/oaf as main
+FROM openaf/oaf:deb as main
 
 USER root
-RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
- && apk update\
- && apk upgrade --available\
- && apk --no-cache add tar gzip bash tmux vim iperf iperf-doc tcpdump tcpdump-doc nmap nmap-doc iftop iftop-doc drill netcat-openbsd netcat-openbsd-doc lynx lynx-doc iproute2 iproute2-doc iptables iptables-doc fping fping-doc conntrack-tools conntrack-tools-doc lazydocker iputils iptraf-ng iptraf-ng-doc ngrep ngrep-doc tcptraceroute tcptraceroute-doc socat socat-doc mtr mtr-doc termshark curl curl-doc inetutils-telnet websocat bash-completion python3 sysstat sysstat-doc iotop iotop-doc htop htop-doc mc mandoc man-pages util-linux-doc tinyproxy tinyproxy-doc strace strace-doc\
+RUN apt update\
+ && apt upgrade -y\
+ && apt dist-upgrade -y\
+ && apt autoremove -y\
+ && DEBIAN_FRONTEND="noninteractive" apt-get install -y -qq less man-db manpages tar wget gzip bash tmux vim iperf tcpdump nmap ldnsutils iftop netcat-openbsd lynx iproute2 iptables fping conntrack iputils-ping iputils-tracepath iputils-arping iputils-clockdiff iptraf-ng ngrep tcptraceroute socat mtr termshark curl inetutils-telnet bash-completion python3 sysstat iotop htop mc iproute2-doc tinyproxy mitmproxy strace\
+ && wget -O /usr/bin/websocat https://github.com/vi/websocat/releases/latest/download/websocat_max.$(uname -m)-unknown-linux-musl\
+ && chmod +x /usr/bin/websocat\
  && /openaf/opack install SocksServer Morse oJob-common\
  && mkdir /openaf/ojobs\
  && curl -s https://ojob.io/oaf/colorFormats.yaml > /openaf/ojobs/colorFormats.yaml\
@@ -53,7 +56,7 @@ RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
  && chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
  && chmod a+rwx /openaf\
  && sudo chmod g+w /openaf/.opack.db\
- && sudo adduser mitm -u 666 -D 2>/dev/null
+ && sudo useradd -u 666 -m --shell /bin/bash mitm 2>/dev/null
 
 COPY ojobs/softVersions.yaml /openaf/ojobs/softVersions.yaml
 COPY ojobs/socksProxy.yaml /openaf/ojobs/socksProxy.yaml
@@ -67,11 +70,18 @@ RUN /openaf/oaf --sb /openaf/ojobs/softVersions.yaml\
 
 # Setup posting
 # -------------
-RUN apk add --no-cache py3-pip gcc musl-dev python3-dev tree-sitter \
- && pip install posting --break-system-packages \
- && apk del py3-pip gcc musl-dev python3-dev tree-sitter \
- && rm -rf /var/cache/apk/*\
- && rm -rf /root/.local
+RUN apt-get install -y -qq python3-pip python3-certifi python3-h11\
+ && apt-get remove -y python3-typing-extensions\
+ && pip install posting --break-system-packages\
+ && apt-get remove -y python3-pip\
+ && apt-get autoremove -y\
+ && apt-get clean -y\
+ && rm -rf /var/lib/apt/lists/*\
+ && rm -rf /tmp/*\
+ && rm -rf /var/tmp/*\
+ && rm -rf /var/cache/apt/archives/*\
+ && rm -rf /var/cache/debconf/*\
+ && rm -rf /var/cache/dictionaries-common/*
 
 # Setup netutils folder
 # ---------------------
@@ -84,6 +94,7 @@ RUN mkdir /netutils\
 # ------------------------------
 COPY welcome.txt /etc/netutils
 RUN gzip /etc/netutils\
+ && mkdir /etc/bash\
  && echo "zcat /etc/netutils.gz" >> /etc/bash/start.sh\
  && echo "echo ''" >> /etc/bash/start.sh\
  && echo "alias oafptab='oafp in=lines linesvisual=true linesjoin=true out=ctable'" >> /etc/bash/start.sh\
@@ -98,7 +109,7 @@ RUN gzip /etc/netutils\
 
 RUN /openaf/oaf --bashcompletion all > /openaf/.openaf_completion.sh\
  && chmod a+x /openaf/.openaf_*.sh\
- && chown openaf:openaf /openaf/.openaf_*.sh\
+ && chown openaf:0 /openaf/.openaf_*.sh\
  && echo ". /openaf/.openaf_completion.sh" >> /etc/bash/start.sh
 
 # Documentation
@@ -136,13 +147,16 @@ RUN chmod a+x /usr/bin/mitm-transparent*\
  && chmod a+x /usr/bin/posting-export.sh\
  && chmod a+x /usr/bin/posting-import.sh
 
+# --------------------------------------
+FROM golang:latest AS lazydocker-builder
+
+RUN go install github.com/jesseduffield/lazydocker@latest
+
 # ----------------------
 FROM scratch as prefinal
 
 COPY --from=main / /
-COPY mitmproxy /opt/mitmproxy
-
-RUN cp /opt/mitmproxy/bin/mitm* /usr/bin/
+COPY --from=lazydocker-builder /go/bin/lazydocker /usr/bin/lazydocker
 
 # -------------------
 FROM scratch as final
