@@ -31,15 +31,18 @@
 │                       │     │                   environment and library usage. 
 │                       │     ├ Severity        : HIGH 
 │                       │     ├ CweIDs           ─ [0]: CWE-674 
-│                       │     ├ VendorSeverity   ─ redhat: 2 
+│                       │     ├ VendorSeverity   ╭ redhat: 2 
+│                       │     │                  ╰ ubuntu: 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 7.5 
 │                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-8176 
-│                       │     │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2310137 
-│                       │     │                  ├ [2]: https://github.com/libexpat/libexpat/issues/893 
-│                       │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
-│                       │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
+│                       │     │                  ├ [1]: https://blog.hartwork.org/posts/expat-2-7-0-released/ 
+│                       │     │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2310137 
+│                       │     │                  ├ [3]: https://github.com/libexpat/libexpat/issues/893 
+│                       │     │                  ├ [4]: https://github.com/libexpat/libexpat/pull/973 
+│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
+│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
 │                       │     ├ PublishedDate   : 2025-03-14T09:15:14.157Z 
 │                       │     ╰ LastModifiedDate: 2025-03-14T09:15:14.157Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2024-56171 
