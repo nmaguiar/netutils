@@ -2445,31 +2445,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
     PublishedDate: '2024-08-26T06:15:04.603Z'
     LastModifiedDate: '2024-08-26T16:35:11.247Z'
-  - VulnerabilityID: CVE-2024-6716
-    PkgID: libtiff6@4.5.1+git230720-4ubuntu2.2
-    PkgName: libtiff6
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libtiff6@4.5.1%2Bgit230720-4ubuntu2.2?arch=amd64&distro=ubuntu-24.04
-      UID: a71f8cc20a9b0192
-    InstalledVersion: 4.5.1+git230720-4ubuntu2.2
-    Status: affected
-    Layer:
-      Digest: sha256:8620ff749a8d3bc7e38ce71af447f1cced1ff168ddb1d13cfa9dcb5b98de41ba
-      DiffID: sha256:e3e1c7ebd55bf6d574e67f50c276fac620ed765de353306945ef9bfd93c9ea42
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6716
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Description: 'Rejected reason: Invalid security issue.'
-    Severity: LOW
-    VendorSeverity:
-      ubuntu: 1
-    References:
-    - https://www.cve.org/CVERecord?id=CVE-2024-6716
-    PublishedDate: '2024-07-15T15:15:10.9Z'
-    LastModifiedDate: '2024-09-04T14:15:14.457Z'
   - VulnerabilityID: CVE-2021-39920
     PkgID: libwireshark-data@4.2.2-1.1build3
     PkgName: libwireshark-data
