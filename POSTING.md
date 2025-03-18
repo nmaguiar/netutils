@@ -6,6 +6,7 @@
 | Converting from Postman |
 | Exporting a collection |
 | Importing a collection |
+| Using mouse in Mac OS |
 | See more |
 
 > To search for a specific example type '/Exporting a collection' and use the arrow keys to navigate
@@ -79,6 +80,18 @@ posting-import.sh myfolder
 ```
 
 > This is equivalent to the previous command for the default collection but will automatically create the collection folder if it doesn't exist. It will provide you also with instructions on how to start using it.
+
+---
+
+## 🖱️ Using mouse in Mac OS
+
+To use your mouse with posting on Mac OS (and specially when using iTerm) just execute:
+
+```bash
+
+export LC_TERMINAL=iTerm2
+
+```
 
 ---
 
