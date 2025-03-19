@@ -31,20 +31,20 @@ jobs:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-    - name: Cache mitmproxy
-      uses: actions/cache@v3
-      with:
-        key : mitmproxy-${{ runner.arch }}
-        path: |
-          mitmproxy
+    # - name: Cache mitmproxy
+    #   uses: actions/cache@v3
+    #   with:
+    #     key : mitmproxy-${{ runner.arch }}
+    #     path: |
+    #       mitmproxy
 
-    - name: Build mitmproxy
-      run : |
-        docker system prune -f
-        ls -lad *
-        if [ ! -d mitmproxy ]; then
-          docker build --no-cache -f Dockerfile.mitm -o mitmproxy .
-        fi
+    # - name: Build mitmproxy
+    #   run : |
+    #     docker system prune -f
+    #     ls -lad *
+    #     if [ ! -d mitmproxy ]; then
+    #       docker build --no-cache -f Dockerfile.mitm -o mitmproxy .
+    #     fi
 
     - uses: docker/build-push-action@v3
       name: Build and push
@@ -54,6 +54,15 @@ jobs:
         push: true
         platforms: linux/amd64
         tags: nmaguiar/netutils:build-x64
+
+    - uses: docker/build-push-action@v3
+      name: Build and push lite
+      with:
+        context: .
+        file: ./Dockerfile.lite
+        push: true
+        platforms: linux/amd64
+        tags: nmaguiar/netutils:build-lite-x64
 
     #- uses: docker/build-push-action@v3
     #  name: Build and push deb
@@ -85,20 +94,20 @@ jobs:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-    - name: Cache mitmproxy
-      uses: actions/cache@v3
-      with:
-        key : mitmproxy-${{ runner.arch }}
-        path: |
-          mitmproxy
+    # - name: Cache mitmproxy
+    #   uses: actions/cache@v3
+    #   with:
+    #     key : mitmproxy-${{ runner.arch }}
+    #     path: |
+    #       mitmproxy
 
-    - name: Build mitmproxy
-      run : |
-        docker system prune -f
-        ls -lad *
-        if [ ! -d mitmproxy ]; then
-          docker build --no-cache -f Dockerfile.mitm -o mitmproxy .
-        fi
+    # - name: Build mitmproxy
+    #   run : |
+    #     docker system prune -f
+    #     ls -lad *
+    #     if [ ! -d mitmproxy ]; then
+    #       docker build --no-cache -f Dockerfile.mitm -o mitmproxy .
+    #     fi
 
     - uses: docker/build-push-action@v3
       name: Build and push
@@ -108,6 +117,15 @@ jobs:
         platforms: linux/arm64
         push: true
         tags: nmaguiar/netutils:build-arm64
+
+    - uses: docker/build-push-action@v3
+      name: Build and push lite
+      with:
+        context: .
+        file: ./Dockerfile.lite
+        platforms: linux/arm64
+        push: true
+        tags: nmaguiar/netutils:build-lite-arm64
 
     #- uses: docker/build-push-action@v3
     #  name: Build and push deb
@@ -135,6 +153,11 @@ jobs:
     - name: Create and push multi-arch manifest
       run : |
         docker buildx imagetools create --tag nmaguiar/netutils:build nmaguiar/netutils:build-x64 nmaguiar/netutils:build-arm64
+
+    - name: Create and push multi-arch manifest lite
+      run : |
+        docker buildx imagetools create --tag nmaguiar/netutils:build-lite nmaguiar/netutils:build-lite-x64 nmaguiar/netutils:build-lite-arm64
+
 
     #- name: Create and push multi-arch manifest deb
     #  run : |

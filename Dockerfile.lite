@@ -67,11 +67,11 @@ RUN /openaf/oaf --sb /openaf/ojobs/softVersions.yaml\
 
 # Setup posting
 # -------------
-RUN apk add --no-cache py3-pip gcc musl-dev rust cargo python3-dev tree-sitter tree-sitter-dev libtree-sitter-dev tree-sitter-grammars\
- && CFLAGS="-I/usr/include/tree-sitter" pip install posting --break-system-packages\
- && apk del py3-pip gcc musl-dev python3-dev rust cargo tree-sitter tree-sitter-dev libtree-sitter-dev tree-sitter-grammars\
- && rm -rf /var/cache/apk/*\
- && rm -rf /root/.local
+# RUN apk add --no-cache py3-pip gcc musl-dev rust cargo python3-dev tree-sitter tree-sitter-dev libtree-sitter-dev tree-sitter-grammars\
+#  && CFLAGS="-I/usr/include/tree-sitter" pip install posting --break-system-packages\
+#  && apk del py3-pip gcc musl-dev python3-dev rust cargo tree-sitter tree-sitter-dev libtree-sitter-dev tree-sitter-grammars\
+#  && rm -rf /var/cache/apk/*\
+#  && rm -rf /root/.local
 
 # Setup netutils folder
 # ---------------------
@@ -137,17 +137,17 @@ RUN chmod a+x /usr/bin/mitm-transparent*\
  && chmod a+x /usr/bin/posting-import.sh
 
 # ----------------------
-FROM scratch as prefinal
+# FROM scratch as prefinal
 
-COPY --from=main / /
-COPY mitmproxy /opt/mitmproxy
+# COPY --from=main / /
+# COPY mitmproxy /opt/mitmproxy
 
-RUN cp /opt/mitmproxy/bin/mitm* /usr/bin/
+# RUN cp /opt/mitmproxy/bin/mitm* /usr/bin/
 
 # -------------------
 FROM scratch as final
 
-COPY --from=prefinal / /
+COPY --from=main / /
 
 ENV OAF_HOME=/openaf
 ENV PATH=$PATH:$OAF_HOME:$OAF_HOME/ojobs
