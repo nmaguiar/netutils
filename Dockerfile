@@ -5,7 +5,7 @@ RUN apt update\
  && apt upgrade -y\
  && apt dist-upgrade -y\
  && apt autoremove -y\
- && DEBIAN_FRONTEND="noninteractive" apt-get install -y -qq less man-db manpages tar wget gzip bash tmux vim iperf tcpdump nmap ldnsutils iftop netcat-openbsd lynx iproute2 iptables fping conntrack iputils-ping iputils-tracepath iputils-arping iputils-clockdiff iptraf-ng ngrep tcptraceroute socat mtr termshark curl inetutils-telnet bash-completion python3 sysstat iotop htop mc iproute2-doc tinyproxy mitmproxy strace\
+ && DEBIAN_FRONTEND="noninteractive" apt-get install -y -qq less man-db manpages tar wget gzip bash tmux vim iperf tcpdump nmap ldnsutils iftop netcat-openbsd lynx iproute2 iptables fping conntrack iputils-ping iputils-tracepath iputils-arping iputils-clockdiff iptraf-ng ngrep tcptraceroute socat mtr termshark curl inetutils-telnet bash-completion python3 sysstat iotop htop mc iproute2-doc tinyproxy strace\
  && wget -O /usr/bin/websocat https://github.com/vi/websocat/releases/latest/download/websocat_max.$(uname -m)-unknown-linux-musl\
  && chmod +x /usr/bin/websocat\
  && /openaf/opack install SocksServer Morse oJob-common\
@@ -82,6 +82,24 @@ RUN apt-get install -y -qq python3-pip python3-certifi python3-h11\
  && rm -rf /var/cache/apt/archives/*\
  && rm -rf /var/cache/debconf/*\
  && rm -rf /var/cache/dictionaries-common/*
+
+# Setup mitmproxy
+# ---------------
+RUN if [ "$(uname -m)" = "x86_64" ]; then ARCH="x86_64"; else ARCH="aarch64"; fi\
+ && VERSION=$(curl -s https://api.github.com/repos/mitmproxy/mitmproxy/releases/latest | grep tag_name | cut -d '"' -f 4 | sed 's/^v//')\
+ && wget -O /tmp/mitmproxy.tar.gz https://downloads.mitmproxy.org/$VERSION/mitmproxy-$VERSION-linux-$ARCH.tar.gz\
+ && tar -xzf /tmp/mitmproxy.tar.gz -C /tmp\
+ && mkdir -p /opt/mitmproxy\
+ && mv /tmp/mitmdump /opt/mitmproxy/mitmdump\
+ && mv /tmp/mitmproxy /opt/mitmproxy/mitmproxy\
+ && mv /tmp/mitmweb /opt/mitmproxy/mitmweb\
+ && ln -s /opt/mitmproxy/mitmproxy /usr/bin/mitmproxy\
+ && ln -s /opt/mitmproxy/mitmdump /usr/bin/mitmdump\
+ && ln -s /opt/mitmproxy/mitmweb /usr/bin/mitmweb\
+ && chown -R openaf:0 /opt/mitmproxy\
+ && chmod -R u+rwx,g+rwx,o+rx,o-w /opt/mitmproxy\
+ && rm -rf /tmp/mitmproxy.tar.gz\
+ && rm -rf /tmp/mitmproxy-$VERSION-linux-$ARCH
 
 # Setup netutils folder
 # ---------------------
