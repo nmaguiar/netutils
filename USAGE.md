@@ -95,7 +95,7 @@ Profiles:
 | ngrep | yes | Network packet analyzer that matches regular expressions. |  |
 | nmap | yes | Network discovery and security auditing. |  |
 | nsenter | yes | Run a program in different namespaces. |  |
-| nstat | Dyes | isplaying network statistics and performance metrics. |  |
+| nstat | yes | isplaying network statistics and performance metrics. |  |
 | EasyHTTPSd.yaml | yes | Starts a very simple HTTPS server on the provided port with a simple file browser | |
 | EasyHTTPd.yaml | yes | Starts a very simple HTTP server on the provided port with a simple file browser | |
 | EchoHTTPd.yaml | yes | Creates a quick echo server for testing that will output the request received and send as plain text back to the sender. | |
