@@ -28,7 +28,7 @@ jobs:
 
     - name: Get versions build lite
       run : |
-        docker run --rm nmaguiar/netutils:build-lite /openaf/ojob /openaf/ojobs/softVersions.yaml -json > .github/softVersions-build-lite.json
+        docker run --rm nmaguiar/netutils:build-lite /openaf/ojob /openaf/ojobs/softVersions.yaml isLite=true -json > .github/softVersions-build-lite.json
 
     - name: Get versions latest
       run : |

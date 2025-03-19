@@ -38,6 +38,7 @@ init:
     cmd : lynx -version
   - name: mitmproxy
     cmd : mitmproxy --version
+    lite: false
   - name: mtr
     cmd : mtr -v
   - name: mpstat
@@ -82,6 +83,7 @@ init:
     cmd : tracepath -V
   - name: posting            
     cmd : "cd /usr/lib/python3.12/site-packages && ls -d posting-*"
+    lite: false
   - name: websocat
     cmd : websocat -V
   - name: whois
@@ -102,10 +104,13 @@ todo:
 - Check versions
 
 jobs:
-# --------------------
-- name: Check versions
-  exec: |
-    var res = pForEach(args.init.packs, pack => {
+# ---------------------
+- name : Check versions
+  check:
+    in:
+      isLite: toBoolean.isBoolean.default(false)
+  exec : |
+    var res = pForEach(args.isLite ? args.init.packs.filter(r => isUnDef(r.lite) || r.lite) : args.init.packs, pack => {
                 var _r = $sh(pack.cmd).get(0)
                 _r = _r.stdout + _r.stderr
                 var _sv = _r.match(/((\d+\.)+\d+)/)
