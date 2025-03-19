@@ -23,8 +23,7 @@ RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
  && curl -s https://ojob.io/httpServers/MetricsHTTPd.yaml > /openaf/ojobs/MetricsHTTPd.yaml\
  && curl -s https://ojob.io/httpServers/RedirectHTTPd.yaml > /openaf/ojobs/RedirectHTTPd.yaml\
  && curl -s https://ojob.io/httpServers/uploadHTTPSd.yaml > /openaf/ojobs/uploadHTTPSd.yaml\
- && curl -s https://ojob.io/httpServers/uploadHTTPd.yaml > /openaf/ojobs/uploadHTTPd.yaml\
- && curl -s https://ojob.io/formats/postman2posting.yaml > /openaf/ojobs/postman2posting.yaml\
+ && curl -s https://ojob.io/httpServers/uploadHTTPd.yaml > /openaf/ojobs/uploadHTTPd.yaml
  && cd /openaf/ojobs\
  && /openaf/ojob ojob.io/get airgap=true job=ojob.io/grid/data/gc2\
  && mv ojob.io_grid_data_gc2.yaml javaGC.yaml\
@@ -46,8 +45,7 @@ RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
  && /openaf/oaf --sb /openaf/ojobs/MetricsHTTPd.yaml\
  && /openaf/oaf --sb /openaf/ojobs/RedirectHTTPd.yaml\
  && /openaf/oaf --sb /openaf/ojobs/uploadHTTPSd.yaml\
- && /openaf/oaf --sb /openaf/ojobs/uploadHTTPd.yaml\
- && /openaf/oaf --sb /openaf/ojobs/postman2posting.yaml\
+ && /openaf/oaf --sb /openaf/ojobs/uploadHTTPd.yaml
  && chown -R openaf:0 /openaf\
  && chown openaf:0 /openaf/.opack.db\
  && chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
@@ -105,44 +103,22 @@ RUN /openaf/oaf --bashcompletion all > /openaf/.openaf_completion.sh\
 # -------------
 COPY USAGE.md /USAGE.md
 COPY EXAMPLES.md /EXAMPLES.md
-COPY MITM.md /openaf/MITM.md
-COPY POSTING.md /openaf/POSTING.md
 RUN gzip /USAGE.md\
  && gzip /EXAMPLES.md\
- && gzip /openaf/MITM.md\
- && gzip /openaf/POSTING.md\
  && echo "#!/bin/sh" > /usr/bin/usage-help\
  && echo "#!/bin/sh" > /usr/bin/examples-help\
- && echo "#!/bin/sh" > /usr/bin/mitm-help\
- && echo "#!/bin/sh" > /usr/bin/posting-help\
  && echo "zcat /USAGE.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/usage-help\
  && echo "zcat /EXAMPLES.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/examples-help\
- && echo "zcat /openaf/MITM.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/mitm-help\
- && echo "zcat /openaf/POSTING.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/posting-help\
  && chmod a+x /usr/bin/usage-help\
- && chmod a+x /usr/bin/examples-help\
- && chmod a+x /usr/bin/mitm-help\
- && chmod a+x /usr/bin/posting-help
+ && chmod a+x /usr/bin/examples-help
 
 # Copy scripts
 # ------------
 COPY scripts/* /usr/bin/
-RUN chmod a+x /usr/bin/mitm-transparent*\
- && chmod a+x /usr/bin/mitm-gencerts.sh\
- && chmod a+x /usr/bin/sysstat-start.sh\
+RUN chmod a+x /usr/bin/sysstat-start.sh\
  && chmod a+x /usr/bin/sysstat-stop.sh\
  && chmod a+x /usr/bin/switch-user-by-pid.sh\
- && chmod a+x /usr/bin/switch-fs-by-pid.sh\
- && chmod a+x /usr/bin/posting-export.sh\
- && chmod a+x /usr/bin/posting-import.sh
-
-# ----------------------
-# FROM scratch as prefinal
-
-# COPY --from=main / /
-# COPY mitmproxy /opt/mitmproxy
-
-# RUN cp /opt/mitmproxy/bin/mitm* /usr/bin/
+ && chmod a+x /usr/bin/switch-fs-by-pid.sh
 
 # -------------------
 FROM scratch as final
