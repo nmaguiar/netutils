@@ -63,14 +63,6 @@ RUN /openaf/oaf --sb /openaf/ojobs/softVersions.yaml\
  && chown openaf:0 /openaf/ojobs/socksProxy.yaml\
  && chmod u+rwx,g+rwx,o+rx /openaf/ojobs/socksProxy.yaml
 
-# Setup posting
-# -------------
-# RUN apk add --no-cache py3-pip gcc musl-dev rust cargo python3-dev tree-sitter tree-sitter-dev libtree-sitter-dev tree-sitter-grammars\
-#  && CFLAGS="-I/usr/include/tree-sitter" pip install posting --break-system-packages\
-#  && apk del py3-pip gcc musl-dev python3-dev rust cargo tree-sitter tree-sitter-dev libtree-sitter-dev tree-sitter-grammars\
-#  && rm -rf /var/cache/apk/*\
-#  && rm -rf /root/.local
-
 # Setup netutils folder
 # ---------------------
 RUN mkdir /netutils\
@@ -81,7 +73,8 @@ RUN mkdir /netutils\
 # Setup welcome message and vars
 # ------------------------------
 COPY welcome.txt /etc/netutils
-RUN gzip /etc/netutils\
+RUN echo " (lite version)" >> /etc/netutils\
+ && gzip /etc/netutils\
  && echo "zcat /etc/netutils.gz" >> /etc/bash/start.sh\
  && echo "echo ''" >> /etc/bash/start.sh\
  && echo "alias oafptab='oafp in=lines linesvisual=true linesjoin=true out=ctable'" >> /etc/bash/start.sh\
