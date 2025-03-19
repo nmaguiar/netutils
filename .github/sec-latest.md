@@ -44,14 +44,13 @@
 │                       │      │                  ├ [5] : https://github.com/libexpat/libexpat/blob/R_2_7_0/exp
 │                       │      │                  │       at/Changes#L40-L52 
 │                       │      │                  ├ [6] : https://github.com/libexpat/libexpat/issues/893 
-│                       │      │                  ├ [7] : https://github.com/libexpat/libexpat/pull/973 
-│                       │      │                  ├ [8] : https://gitlab.alpinelinux.org/alpine/aports/-/commit
+│                       │      │                  ├ [7] : https://gitlab.alpinelinux.org/alpine/aports/-/commit
 │                       │      │                  │       /d068c3ff36fc6f4789988a09c69b434db757db53 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
-│                       │      │                  ├ [10]: https://security-tracker.debian.org/tracker/CVE-2024-
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
+│                       │      │                  ├ [9] : https://security-tracker.debian.org/tracker/CVE-2024-
 │                       │      │                  │       8176 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/CVE-2024-8176 
-│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/CVE-2024-8176 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
 │                       │      ├ PublishedDate   : 2025-03-14T09:15:14.157Z 
 │                       │      ╰ LastModifiedDate: 2025-03-17T17:15:36.167Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2024-56171 
@@ -682,7 +681,8 @@
                         │     │                   in 3.1.6. 
                         │     ├ Severity        : MEDIUM 
                         │     ├ CweIDs           ─ [0]: CWE-1336 
-                        │     ├ VendorSeverity   ╭ cbl-mariner: 2 
+                        │     ├ VendorSeverity   ╭ azure      : 2 
+                        │     │                  ├ cbl-mariner: 2 
                         │     │                  ├ ghsa       : 2 
                         │     │                  ├ redhat     : 3 
                         │     │                  ╰ ubuntu     : 2 
