@@ -39,7 +39,6 @@
     - https://bugzilla.suse.com/show_bug.cgi?id=1239618
     - https://github.com/libexpat/libexpat/blob/R_2_7_0/expat/Changes#L40-L52
     - https://github.com/libexpat/libexpat/issues/893
-    - https://github.com/libexpat/libexpat/pull/973
     - https://gitlab.alpinelinux.org/alpine/aports/-/commit/d068c3ff36fc6f4789988a09c69b434db757db53
     - https://nvd.nist.gov/vuln/detail/CVE-2024-8176
     - https://security-tracker.debian.org/tracker/CVE-2024-8176
@@ -568,6 +567,7 @@
     CweIDs:
     - CWE-1336
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       ghsa: 2
       redhat: 3
