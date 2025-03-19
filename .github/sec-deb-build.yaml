@@ -253,6 +253,7 @@
     Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -261,7 +262,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:2722
     - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://bugzilla.redhat.com/2342796
+    - https://errata.almalinux.org/8/ALSA-2025-2722.html
     - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
     - https://linux.oracle.com/cve/CVE-2025-24528.html
     - https://linux.oracle.com/errata/ELSA-2025-2722.html
@@ -1023,6 +1027,300 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-0167
     PublishedDate: '2025-02-05T10:15:22.71Z'
     LastModifiedDate: '2025-03-07T01:15:12.11Z'
+  - VulnerabilityID: CVE-2025-1352
+    PkgID: libelf1t64@0.190-1.1build4.1
+    PkgName: libelf1t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libelf1t64@0.190-1.1build4.1?arch=amd64&distro=ubuntu-24.04
+      UID: fae2e99bf4936d6c
+    InstalledVersion: 0.190-1.1build4.1
+    Status: affected
+    Layer:
+      Digest: sha256:8620ff749a8d3bc7e38ce71af447f1cced1ff168ddb1d13cfa9dcb5b98de41ba
+      DiffID: sha256:e3e1c7ebd55bf6d574e67f50c276fac620ed765de353306945ef9bfd93c9ea42
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1352
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'elfutils: GNU elfutils eu-readelf libdw_alloc.c __libdw_thread_tail memory corruption'
+    Description: A vulnerability has been found in GNU elfutils 0.192 and classified as critical. This vulnerability affects the function __libdw_thread_tail in the library libdw_alloc.c of the component eu-readelf. The manipulation of the argument w leads to memory corruption. The attack can be initiated remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The name of the patch is 2636426a091bd6c6f7f02e49ab20d4cdc6bfc753. It is recommended to apply a patch to fix this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1352
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1352
+    - https://sourceware.org/bugzilla/attachment.cgi?id=15923
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32650
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32650#c2
+    - https://vuldb.com/?ctiid.295960
+    - https://vuldb.com/?id.295960
+    - https://vuldb.com/?submit.495965
+    - https://www.cve.org/CVERecord?id=CVE-2025-1352
+    - https://www.gnu.org/
+    PublishedDate: '2025-02-16T15:15:09.133Z'
+    LastModifiedDate: '2025-02-16T15:15:09.133Z'
+  - VulnerabilityID: CVE-2025-1365
+    PkgID: libelf1t64@0.190-1.1build4.1
+    PkgName: libelf1t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libelf1t64@0.190-1.1build4.1?arch=amd64&distro=ubuntu-24.04
+      UID: fae2e99bf4936d6c
+    InstalledVersion: 0.190-1.1build4.1
+    Status: affected
+    Layer:
+      Digest: sha256:8620ff749a8d3bc7e38ce71af447f1cced1ff168ddb1d13cfa9dcb5b98de41ba
+      DiffID: sha256:e3e1c7ebd55bf6d574e67f50c276fac620ed765de353306945ef9bfd93c9ea42
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1365
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'elfutils: GNU elfutils eu-readelf readelf.c process_symtab buffer overflow'
+    Description: A vulnerability, which was classified as critical, was found in GNU elfutils 0.192. This affects the function process_symtab of the file readelf.c of the component eu-readelf. The manipulation of the argument D/a leads to buffer overflow. Local access is required to approach this attack. The exploit has been disclosed to the public and may be used. The identifier of the patch is 5e5c0394d82c53e97750fe7b18023e6f84157b81. It is recommended to apply a patch to fix this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    - CWE-120
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1365
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1365
+    - https://sourceware.org/bugzilla/attachment.cgi?id=15925
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32654
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32654#c2
+    - https://vuldb.com/?ctiid.295977
+    - https://vuldb.com/?id.295977
+    - https://vuldb.com/?submit.496483
+    - https://www.cve.org/CVERecord?id=CVE-2025-1365
+    - https://www.gnu.org/
+    PublishedDate: '2025-02-17T00:15:09.14Z'
+    LastModifiedDate: '2025-02-17T00:15:09.14Z'
+  - VulnerabilityID: CVE-2025-1371
+    PkgID: libelf1t64@0.190-1.1build4.1
+    PkgName: libelf1t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libelf1t64@0.190-1.1build4.1?arch=amd64&distro=ubuntu-24.04
+      UID: fae2e99bf4936d6c
+    InstalledVersion: 0.190-1.1build4.1
+    Status: affected
+    Layer:
+      Digest: sha256:8620ff749a8d3bc7e38ce71af447f1cced1ff168ddb1d13cfa9dcb5b98de41ba
+      DiffID: sha256:e3e1c7ebd55bf6d574e67f50c276fac620ed765de353306945ef9bfd93c9ea42
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1371
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'elfutils: GNU elfutils eu-read readelf.c handle_dynamic_symtab null pointer dereference'
+    Description: A vulnerability has been found in GNU elfutils 0.192 and classified as problematic. This vulnerability affects the function handle_dynamic_symtab of the file readelf.c of the component eu-read. The manipulation leads to null pointer dereference. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used. The patch is identified as b38e562a4c907e08171c76b8b2def8464d5a104a. It is recommended to apply a patch to fix this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-404
+    - CWE-476
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1371
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1371
+    - https://sourceware.org/bugzilla/attachment.cgi?id=15926
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32655
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32655#c2
+    - https://vuldb.com/?ctiid.295978
+    - https://vuldb.com/?id.295978
+    - https://vuldb.com/?submit.496484
+    - https://www.cve.org/CVERecord?id=CVE-2025-1371
+    - https://www.gnu.org/
+    PublishedDate: '2025-02-17T03:15:09.4Z'
+    LastModifiedDate: '2025-02-18T20:15:24.36Z'
+  - VulnerabilityID: CVE-2025-1372
+    PkgID: libelf1t64@0.190-1.1build4.1
+    PkgName: libelf1t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libelf1t64@0.190-1.1build4.1?arch=amd64&distro=ubuntu-24.04
+      UID: fae2e99bf4936d6c
+    InstalledVersion: 0.190-1.1build4.1
+    Status: affected
+    Layer:
+      Digest: sha256:8620ff749a8d3bc7e38ce71af447f1cced1ff168ddb1d13cfa9dcb5b98de41ba
+      DiffID: sha256:e3e1c7ebd55bf6d574e67f50c276fac620ed765de353306945ef9bfd93c9ea42
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1372
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'elfutils: GNU elfutils eu-readelf readelf.c print_string_section buffer overflow'
+    Description: A vulnerability was found in GNU elfutils 0.192. It has been declared as critical. Affected by this vulnerability is the function dump_data_section/print_string_section of the file readelf.c of the component eu-readelf. The manipulation of the argument z/x leads to buffer overflow. An attack has to be approached locally. The exploit has been disclosed to the public and may be used. The identifier of the patch is 73db9d2021cab9e23fd734b0a76a612d52a6f1db. It is recommended to apply a patch to fix this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    - CWE-120
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1372
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1372
+    - https://sourceware.org/bugzilla/attachment.cgi?id=15927
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32656
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32656#c3
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32657
+    - https://vuldb.com/?ctiid.295981
+    - https://vuldb.com/?id.295981
+    - https://vuldb.com/?submit.496485
+    - https://www.cve.org/CVERecord?id=CVE-2025-1372
+    - https://www.gnu.org/
+    PublishedDate: '2025-02-17T03:15:09.573Z'
+    LastModifiedDate: '2025-02-17T03:15:09.573Z'
+  - VulnerabilityID: CVE-2025-1376
+    PkgID: libelf1t64@0.190-1.1build4.1
+    PkgName: libelf1t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libelf1t64@0.190-1.1build4.1?arch=amd64&distro=ubuntu-24.04
+      UID: fae2e99bf4936d6c
+    InstalledVersion: 0.190-1.1build4.1
+    Status: affected
+    Layer:
+      Digest: sha256:8620ff749a8d3bc7e38ce71af447f1cced1ff168ddb1d13cfa9dcb5b98de41ba
+      DiffID: sha256:e3e1c7ebd55bf6d574e67f50c276fac620ed765de353306945ef9bfd93c9ea42
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1376
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'elfutils: GNU elfutils eu-strip elf_strptr.c elf_strptr denial of service'
+    Description: A vulnerability classified as problematic was found in GNU elfutils 0.192. This vulnerability affects the function elf_strptr in the library /libelf/elf_strptr.c of the component eu-strip. The manipulation leads to denial of service. It is possible to launch the attack on the local host. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The name of the patch is b16f441cca0a4841050e3215a9f120a6d8aea918. It is recommended to apply a patch to fix this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-404
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1376
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1376
+    - https://sourceware.org/bugzilla/attachment.cgi?id=15940
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32672
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32672#c3
+    - https://vuldb.com/?ctiid.295984
+    - https://vuldb.com/?id.295984
+    - https://vuldb.com/?submit.497538
+    - https://www.cve.org/CVERecord?id=CVE-2025-1376
+    - https://www.gnu.org/
+    PublishedDate: '2025-02-17T05:15:09.807Z'
+    LastModifiedDate: '2025-02-17T05:15:09.807Z'
+  - VulnerabilityID: CVE-2025-1377
+    PkgID: libelf1t64@0.190-1.1build4.1
+    PkgName: libelf1t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libelf1t64@0.190-1.1build4.1?arch=amd64&distro=ubuntu-24.04
+      UID: fae2e99bf4936d6c
+    InstalledVersion: 0.190-1.1build4.1
+    Status: affected
+    Layer:
+      Digest: sha256:8620ff749a8d3bc7e38ce71af447f1cced1ff168ddb1d13cfa9dcb5b98de41ba
+      DiffID: sha256:e3e1c7ebd55bf6d574e67f50c276fac620ed765de353306945ef9bfd93c9ea42
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1377
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'elfutils: GNU elfutils eu-strip strip.c gelf_getsymshndx denial of service'
+    Description: A vulnerability, which was classified as problematic, has been found in GNU elfutils 0.192. This issue affects the function gelf_getsymshndx of the file strip.c of the component eu-strip. The manipulation leads to denial of service. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used. The identifier of the patch is fbf1df9ca286de3323ae541973b08449f8d03aba. It is recommended to apply a patch to fix this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-404
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1377
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1377
+    - https://sourceware.org/bugzilla/attachment.cgi?id=15941
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32673
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32673#c2
+    - https://vuldb.com/?ctiid.295985
+    - https://vuldb.com/?id.295985
+    - https://vuldb.com/?submit.497539
+    - https://www.cve.org/CVERecord?id=CVE-2025-1377
+    - https://www.gnu.org/
+    PublishedDate: '2025-02-17T05:15:10.09Z'
+    LastModifiedDate: '2025-02-17T05:15:10.09Z'
+  - VulnerabilityID: CVE-2024-25260
+    PkgID: libelf1t64@0.190-1.1build4.1
+    PkgName: libelf1t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libelf1t64@0.190-1.1build4.1?arch=amd64&distro=ubuntu-24.04
+      UID: fae2e99bf4936d6c
+    InstalledVersion: 0.190-1.1build4.1
+    Status: affected
+    Layer:
+      Digest: sha256:8620ff749a8d3bc7e38ce71af447f1cced1ff168ddb1d13cfa9dcb5b98de41ba
+      DiffID: sha256:e3e1c7ebd55bf6d574e67f50c276fac620ed765de353306945ef9bfd93c9ea42
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-25260
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'elfutils: global-buffer-overflow exists in the function ebl_machine_flag_name in eblmachineflagname.c'
+    Description: elfutils v0.189 was discovered to contain a NULL pointer dereference via the handle_verdef() function at readelf.c.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-25260
+    - https://github.com/schsiung/fuzzer_issues/issues/1
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-25260
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=31058
+    - https://sourceware.org/elfutils/
+    - https://www.cve.org/CVERecord?id=CVE-2024-25260
+    PublishedDate: '2024-02-20T18:15:52.88Z'
+    LastModifiedDate: '2024-11-21T09:00:33Z'
   - VulnerabilityID: CVE-2025-23022
     PkgID: libfreetype6@2.13.2+dfsg-1build3
     PkgName: libfreetype6
@@ -1191,6 +1489,7 @@
     Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -1199,7 +1498,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:2722
     - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://bugzilla.redhat.com/2342796
+    - https://errata.almalinux.org/8/ALSA-2025-2722.html
     - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
     - https://linux.oracle.com/cve/CVE-2025-24528.html
     - https://linux.oracle.com/errata/ELSA-2025-2722.html
@@ -1400,6 +1702,7 @@
     Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -1408,7 +1711,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:2722
     - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://bugzilla.redhat.com/2342796
+    - https://errata.almalinux.org/8/ALSA-2025-2722.html
     - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
     - https://linux.oracle.com/cve/CVE-2025-24528.html
     - https://linux.oracle.com/errata/ELSA-2025-2722.html
@@ -1609,6 +1915,7 @@
     Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -1617,7 +1924,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:2722
     - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://bugzilla.redhat.com/2342796
+    - https://errata.almalinux.org/8/ALSA-2025-2722.html
     - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
     - https://linux.oracle.com/cve/CVE-2025-24528.html
     - https://linux.oracle.com/errata/ELSA-2025-2722.html
@@ -1818,6 +2128,7 @@
     Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -1826,7 +2137,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:2722
     - https://access.redhat.com/security/cve/CVE-2025-24528
+    - https://bugzilla.redhat.com/2342796
+    - https://errata.almalinux.org/8/ALSA-2025-2722.html
     - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
     - https://linux.oracle.com/cve/CVE-2025-24528.html
     - https://linux.oracle.com/errata/ELSA-2025-2722.html
@@ -2668,12 +2982,12 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'shadow-utils: Default subordinate ID configuration in /etc/login.defs could lead to compromise'
     Description: 'shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /etc/subuid behavior (e.g., uid 100000 through 165535 for the first user account) that can realistically conflict with the uids of users defined on locally administered networks, potentially leading to account takeover, e.g., by leveraging newuidmap for access to an NFS home directory (or same-host resources in the case of remote logins by these local network users). NOTE: it may also be argued that system administrators should not have assigned uids, within local networks, that are within the range that can occur in /etc/subuid.'
-    Severity: MEDIUM
+    Severity: LOW
     CweIDs:
     - CWE-1188
     VendorSeverity:
       redhat: 1
-      ubuntu: 2
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
@@ -2748,12 +3062,12 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'shadow-utils: Default subordinate ID configuration in /etc/login.defs could lead to compromise'
     Description: 'shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /etc/subuid behavior (e.g., uid 100000 through 165535 for the first user account) that can realistically conflict with the uids of users defined on locally administered networks, potentially leading to account takeover, e.g., by leveraging newuidmap for access to an NFS home directory (or same-host resources in the case of remote logins by these local network users). NOTE: it may also be argued that system administrators should not have assigned uids, within local networks, that are within the range that can occur in /etc/subuid.'
-    Severity: MEDIUM
+    Severity: LOW
     CweIDs:
     - CWE-1188
     VendorSeverity:
       redhat: 1
-      ubuntu: 2
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
