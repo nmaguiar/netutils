@@ -23,7 +23,7 @@ RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
  && curl -s https://ojob.io/httpServers/MetricsHTTPd.yaml > /openaf/ojobs/MetricsHTTPd.yaml\
  && curl -s https://ojob.io/httpServers/RedirectHTTPd.yaml > /openaf/ojobs/RedirectHTTPd.yaml\
  && curl -s https://ojob.io/httpServers/uploadHTTPSd.yaml > /openaf/ojobs/uploadHTTPSd.yaml\
- && curl -s https://ojob.io/httpServers/uploadHTTPd.yaml > /openaf/ojobs/uploadHTTPd.yaml
+ && curl -s https://ojob.io/httpServers/uploadHTTPd.yaml > /openaf/ojobs/uploadHTTPd.yaml\
  && cd /openaf/ojobs\
  && /openaf/ojob ojob.io/get airgap=true job=ojob.io/grid/data/gc2\
  && mv ojob.io_grid_data_gc2.yaml javaGC.yaml\
