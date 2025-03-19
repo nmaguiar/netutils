@@ -27,49 +27,49 @@ jobs:
         wget https://openaf.io/trivy-db.tgz
         docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
 
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Check latest
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=nmaguiar/netutils:latest file=.github/sec-latest.svg reportFile=.github/sec-latest.yaml'
         dist: 'nightly'
 
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Generate sec-latest.md
       with:
         ojob: 'ojob.io/util/toMDTree'
         args: 'inputFile=.github/sec-latest.yaml file=.github/sec-latest.md'
         dist: 'nightly'
 
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Check build
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=nmaguiar/netutils:build file=.github/sec-build.svg reportFile=.github/sec-build.yaml'
         dist: 'nightly'
 
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Generate sec-build.md
       with:
         ojob: 'ojob.io/util/toMDTree'
         args: 'inputFile=.github/sec-build.yaml file=.github/sec-build.md'
         dist: 'nightly'
 
-    - uses: openaf/ojob-action@v4
-      name: Check build deb
+    - uses: openaf/ojob-action@v7
+      name: Check build lite
       with:
         ojob: 'ojob.io/sec/genSecBadge'
-        args: 'image=nmaguiar/netutils:deb-build file=.github/sec-deb-build.svg reportFile=.github/sec-deb-build.yaml'
+        args: 'image=nmaguiar/netutils:build-lite file=.github/sec-build-lite.svg reportFile=.github/sec-build-lite.yaml'
         dist: 'nightly'
 
-    - uses: openaf/ojob-action@v4
-      name: Generate sec-deb-build.md
+    - uses: openaf/ojob-action@v7
+      name: Generate sec-build-lite.md
       with:
         ojob: 'ojob.io/util/toMDTree'
-        args: 'inputFile=.github/sec-deb-build.yaml file=.github/sec-deb-build.md'
+        args: 'inputFile=.github/sec-build-lite.yaml file=.github/sec-build-lite.md'
         dist: 'nightly'
 
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Update badges
       env :
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
