@@ -46,7 +46,7 @@ jobs:
       run : |
         oafp chs="[(name: v, type: file, options: (file: /tmp/_tmp.json))|(name: bl, type: file, options: (file: /tmp/_tmpbl.json))|(name: l, type: file, options: (file: /tmp/_tmpl.json))]"\
             data="[]"\
-            path="ch('v','getAll',__,__)[].{tool:pack,buildVersion:version,buildLiteVersion:ch('bl','get',{pack:pack},__).version),latestVersion:ch('l','get',{pack:pack},__).version}"\
+            path="ch('v','getAll',__,__)[].{tool:pack,buildVersion:nvl(version,'n/a'),buildLiteVersion:nvl(ch('bl','get',{pack:pack},__).version,'n/a'),latestVersion:nvl(ch('l','get',{pack:pack},__).version,'n/a')}"\
             out=mdtable\
             sql="select * order by tool" > .github/compare-versions.md
 
