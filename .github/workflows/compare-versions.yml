@@ -32,6 +32,11 @@ jobs:
         oafp .github/softVersions-build.json out=ch ch="(type: file, options: (file: /tmp/_tmp.json))" chkey="pack"
         oafp /tmp/_tmp.json
 
+    - name: Preparing a lookup table for the build lite versions of the tools
+      run : |
+        oafp .github/softVersions-build-lite.json out=ch ch="(type: file, options: (file: /tmp/_tmpbl.json))" chkey="pack"
+        oafp /tmp/_tmpbl.json
+
     - name: Preparing a lookup table for the latest versions of the tools
       run : |
         oafp .github/softVersions-latest.json out=ch ch="(type: file, options: (file: /tmp/_tmpl.json))" chkey="pack"
@@ -39,9 +44,9 @@ jobs:
 
     - name: Joining the versions retrieved to produce a markdown table
       run : |
-        oafp chs="[(name: v, type: file, options: (file: /tmp/_tmp.json))|(name: l, type: file, options: (file: /tmp/_tmpl.json))]"\
+        oafp chs="[(name: v, type: file, options: (file: /tmp/_tmp.json))|(name: bl, type: file, options: (file: /tmp/_tmpbl.json))|(name: l, type: file, options: (file: /tmp/_tmpl.json))]"\
             data="[]"\
-            path="ch('v','getAll',__,__)[].{tool:pack,buildVersion:version,latestVersion:ch('l','get',{pack:pack},__).version}"\
+            path="ch('v','getAll',__,__)[].{tool:pack,buildVersion:version,buildLiteVersion:ch('bl','get',{pack:pack},__).version),latestVersion:ch('l','get',{pack:pack},__).version}"\
             out=mdtable\
             sql="select * order by tool" > .github/compare-versions.md
 
