@@ -16,7 +16,7 @@ fi
 PID=$1
 
 # Get process details for the given PID
-PROCESS_INFO=$(ps -o pid=,user=,group= | egrep "^\s+$PID" 2>/dev/null)
+PROCESS_INFO=$(ps -ax -o pid=,user=,group= | egrep "^\s+$PID" 2>/dev/null)
 
 # Check if the process exists
 if [ -z "$PROCESS_INFO" ]; then
