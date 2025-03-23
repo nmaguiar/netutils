@@ -142,11 +142,12 @@
     - https://linux.oracle.com/cve/CVE-2025-24928.html
     - https://linux.oracle.com/errata/ELSA-2025-2686.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-24928
+    - https://security.netapp.com/advisory/ntap-20250321-0006/
     - https://ubuntu.com/security/notices/USN-7302-1
     - https://www.cve.org/CVERecord?id=CVE-2025-24928
     - https://www.openwall.com/lists/oss-security/2025/02/18/2
     PublishedDate: '2025-02-18T23:15:10.25Z'
-    LastModifiedDate: '2025-02-18T23:15:10.25Z'
+    LastModifiedDate: '2025-03-21T18:15:34.86Z'
   - VulnerabilityID: CVE-2025-27113
     PkgID: libxml2@2.13.4-r3
     PkgName: libxml2
