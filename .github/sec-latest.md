@@ -152,12 +152,14 @@
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-24928.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-2686.html 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-24928 
-│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7302-1 
-│                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-24928 
-│                       │      │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2025/02/1
+│                       │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20250321-00
+│                       │      │                  │       06/ 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7302-1 
+│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2025-24928 
+│                       │      │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2025/02/1
 │                       │      │                          8/2 
 │                       │      ├ PublishedDate   : 2025-02-18T23:15:10.25Z 
-│                       │      ╰ LastModifiedDate: 2025-02-18T23:15:10.25Z 
+│                       │      ╰ LastModifiedDate: 2025-03-21T18:15:34.86Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2025-27113 
 │                       │      ├ PkgID           : libxml2@2.13.4-r3 
 │                       │      ├ PkgName         : libxml2 
