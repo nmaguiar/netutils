@@ -183,7 +183,8 @@
 │                       │      │                   pointer dereference in xmlPatMatch in pattern.c. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ╭ azure      : 1 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 1 
 │                       │      │                  ├ cbl-mariner: 1 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ photon     : 3 
@@ -336,7 +337,8 @@
 │                       │      │                   patch v9.1.1198. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-88 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      │                  ╰ redhat     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.4 
@@ -481,7 +483,8 @@
 │                       │      │                   patch v9.1.1198. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-88 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      │                  ╰ redhat     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.4 
@@ -626,7 +629,8 @@
 │                              │                   patch v9.1.1198. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-88 
-│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                              │                  ╰ redhat     : 2 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
 │                              │                           │           /A:N 
 │                              │                           ╰ V3Score : 4.4 
@@ -683,9 +687,11 @@
                         │     │                   in 3.1.6. 
                         │     ├ Severity        : MEDIUM 
                         │     ├ CweIDs           ─ [0]: CWE-1336 
-                        │     ├ VendorSeverity   ╭ azure      : 2 
+                        │     ├ VendorSeverity   ╭ amazon     : 3 
+                        │     │                  ├ azure      : 2 
                         │     │                  ├ cbl-mariner: 2 
                         │     │                  ├ ghsa       : 2 
+                        │     │                  ├ oracle-oval: 3 
                         │     │                  ├ redhat     : 3 
                         │     │                  ╰ ubuntu     : 2 
                         │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/
@@ -697,9 +703,11 @@
                         │     │                  │      926ae65cdde4c4c32e756e403 
                         │     │                  ├ [3]: https://github.com/pallets/jinja/security/advisories/GH
                         │     │                  │      SA-cpwx-vrp4-4pq7 
-                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-27516 
-                        │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-7343-1 
-                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-27516 
+                        │     │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-27516.html 
+                        │     │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-3113.html 
+                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-27516 
+                        │     │                  ├ [7]: https://ubuntu.com/security/notices/USN-7343-1 
+                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-27516 
                         │     ├ PublishedDate   : 2025-03-05T21:15:20.073Z 
                         │     ╰ LastModifiedDate: 2025-03-05T21:15:20.073Z 
                         ╰ [1] ╭ VulnerabilityID : CVE-2025-23217 
