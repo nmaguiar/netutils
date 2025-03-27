@@ -172,6 +172,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      amazon: 3
       azure: 1
       cbl-mariner: 1
       nvd: 3
@@ -296,6 +297,7 @@
     CweIDs:
     - CWE-88
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 2
     CVSS:
       redhat:
@@ -410,6 +412,7 @@
     CweIDs:
     - CWE-88
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 2
     CVSS:
       redhat:
@@ -524,6 +527,7 @@
     CweIDs:
     - CWE-88
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 2
     CVSS:
       redhat:
@@ -568,9 +572,11 @@
     CweIDs:
     - CWE-1336
     VendorSeverity:
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       ghsa: 2
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -582,6 +588,8 @@
     - https://github.com/pallets/jinja
     - https://github.com/pallets/jinja/commit/90457bbf33b8662926ae65cdde4c4c32e756e403
     - https://github.com/pallets/jinja/security/advisories/GHSA-cpwx-vrp4-4pq7
+    - https://linux.oracle.com/cve/CVE-2025-27516.html
+    - https://linux.oracle.com/errata/ELSA-2025-3113.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-27516
     - https://ubuntu.com/security/notices/USN-7343-1
     - https://www.cve.org/CVERecord?id=CVE-2025-27516
