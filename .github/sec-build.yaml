@@ -1105,6 +1105,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 2
       ubuntu: 2
     CVSS:
