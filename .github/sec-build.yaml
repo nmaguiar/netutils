@@ -940,10 +940,11 @@
     - https://gitlab.alpinelinux.org/alpine/aports/-/commit/d068c3ff36fc6f4789988a09c69b434db757db53
     - https://nvd.nist.gov/vuln/detail/CVE-2024-8176
     - https://security-tracker.debian.org/tracker/CVE-2024-8176
+    - https://security.netapp.com/advisory/ntap-20250328-0009/
     - https://ubuntu.com/security/CVE-2024-8176
     - https://www.cve.org/CVERecord?id=CVE-2024-8176
     PublishedDate: '2025-03-14T09:15:14.157Z'
-    LastModifiedDate: '2025-03-17T17:15:36.167Z'
+    LastModifiedDate: '2025-03-28T15:15:46.157Z'
   - VulnerabilityID: CVE-2025-23022
     PkgID: libfreetype6@2.13.3+dfsg-1
     PkgName: libfreetype6
