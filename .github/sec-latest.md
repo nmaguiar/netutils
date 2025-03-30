@@ -50,10 +50,12 @@
 │                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
 │                       │      │                  ├ [9] : https://security-tracker.debian.org/tracker/CVE-2024-
 │                       │      │                  │       8176 
-│                       │      │                  ├ [10]: https://ubuntu.com/security/CVE-2024-8176 
-│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
+│                       │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20250328-00
+│                       │      │                  │       09/ 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/CVE-2024-8176 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
 │                       │      ├ PublishedDate   : 2025-03-14T09:15:14.157Z 
-│                       │      ╰ LastModifiedDate: 2025-03-17T17:15:36.167Z 
+│                       │      ╰ LastModifiedDate: 2025-03-28T15:15:46.157Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2024-56171 
 │                       │      ├ PkgID           : libxml2@2.13.4-r3 
 │                       │      ├ PkgName         : libxml2 
@@ -100,12 +102,14 @@
 │                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-56171.html 
 │                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-2686.html 
 │                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-56171 
-│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7302-1 
-│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-56171 
-│                       │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2025/02/1
+│                       │      │                  ├ [9] : https://security.netapp.com/advisory/ntap-20250328-00
+│                       │      │                  │       10/ 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7302-1 
+│                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-56171 
+│                       │      │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2025/02/1
 │                       │      │                          8/2 
 │                       │      ├ PublishedDate   : 2025-02-18T22:15:12.797Z 
-│                       │      ╰ LastModifiedDate: 2025-02-18T23:15:09.413Z 
+│                       │      ╰ LastModifiedDate: 2025-03-28T15:15:46.003Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2025-24928 
 │                       │      ├ PkgID           : libxml2@2.13.4-r3 
 │                       │      ├ PkgName         : libxml2 
@@ -338,7 +342,8 @@
 │                       │      │                   patch v9.1.1198. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-88 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ╰ redhat     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
@@ -484,7 +489,8 @@
 │                       │      │                   patch v9.1.1198. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-88 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ╰ redhat     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
@@ -630,7 +636,8 @@
 │                              │                   patch v9.1.1198. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-88 
-│                              ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                              ├ VendorSeverity   ╭ azure      : 2 
+│                              │                  ├ cbl-mariner: 2 
 │                              │                  ╰ redhat     : 2 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
 │                              │                           │           /A:N 
