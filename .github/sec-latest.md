@@ -712,7 +712,7 @@
                         │     │                  ├ [3]: https://github.com/pallets/jinja/security/advisories/GH
                         │     │                  │      SA-cpwx-vrp4-4pq7 
                         │     │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-27516.html 
-                        │     │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-3113.html 
+                        │     │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-3406.html 
                         │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-27516 
                         │     │                  ├ [7]: https://ubuntu.com/security/notices/USN-7343-1 
                         │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-27516 
