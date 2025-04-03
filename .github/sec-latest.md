@@ -695,7 +695,8 @@
                         │     │                   in 3.1.6. 
                         │     ├ Severity        : MEDIUM 
                         │     ├ CweIDs           ─ [0]: CWE-1336 
-                        │     ├ VendorSeverity   ╭ amazon     : 3 
+                        │     ├ VendorSeverity   ╭ alma       : 3 
+                        │     │                  ├ amazon     : 3 
                         │     │                  ├ azure      : 2 
                         │     │                  ├ cbl-mariner: 2 
                         │     │                  ├ ghsa       : 2 
@@ -705,17 +706,20 @@
                         │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/
                         │     │                           │           A:H 
                         │     │                           ╰ V3Score : 7.3 
-                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-27516 
-                        │     │                  ├ [1]: https://github.com/pallets/jinja 
-                        │     │                  ├ [2]: https://github.com/pallets/jinja/commit/90457bbf33b8662
-                        │     │                  │      926ae65cdde4c4c32e756e403 
-                        │     │                  ├ [3]: https://github.com/pallets/jinja/security/advisories/GH
-                        │     │                  │      SA-cpwx-vrp4-4pq7 
-                        │     │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-27516.html 
-                        │     │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-3406.html 
-                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-27516 
-                        │     │                  ├ [7]: https://ubuntu.com/security/notices/USN-7343-1 
-                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-27516 
+                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3406 
+                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-27516 
+                        │     │                  ├ [2] : https://bugzilla.redhat.com/2350190 
+                        │     │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-3406.html 
+                        │     │                  ├ [4] : https://github.com/pallets/jinja 
+                        │     │                  ├ [5] : https://github.com/pallets/jinja/commit/90457bbf33b866
+                        │     │                  │       2926ae65cdde4c4c32e756e403 
+                        │     │                  ├ [6] : https://github.com/pallets/jinja/security/advisories/G
+                        │     │                  │       HSA-cpwx-vrp4-4pq7 
+                        │     │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-27516.html 
+                        │     │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-3406.html 
+                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-27516 
+                        │     │                  ├ [10]: https://ubuntu.com/security/notices/USN-7343-1 
+                        │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-27516 
                         │     ├ PublishedDate   : 2025-03-05T21:15:20.073Z 
                         │     ╰ LastModifiedDate: 2025-03-05T21:15:20.073Z 
                         ╰ [1] ╭ VulnerabilityID : CVE-2025-23217 
