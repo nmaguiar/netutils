@@ -32,30 +32,34 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-674 
 │                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/03/15/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-8176 
-│                       │      │                  ├ [2] : https://blog.hartwork.org/posts/expat-2-7-0-released/ 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2310137 
-│                       │      │                  ├ [4] : https://bugzilla.suse.com/show_bug.cgi?id=1239618 
-│                       │      │                  ├ [5] : https://github.com/libexpat/libexpat/blob/R_2_7_0/exp
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:3531 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-8176 
+│                       │      │                  ├ [3] : https://blog.hartwork.org/posts/expat-2-7-0-released/ 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2310137 
+│                       │      │                  ├ [5] : https://bugzilla.suse.com/show_bug.cgi?id=1239618 
+│                       │      │                  ├ [6] : https://github.com/libexpat/libexpat/blob/R_2_7_0/exp
 │                       │      │                  │       at/Changes#L40-L52 
-│                       │      │                  ├ [6] : https://github.com/libexpat/libexpat/issues/893 
-│                       │      │                  ├ [7] : https://gitlab.alpinelinux.org/alpine/aports/-/commit
+│                       │      │                  ├ [7] : https://github.com/libexpat/libexpat/issues/893 
+│                       │      │                  ├ [8] : https://gitlab.alpinelinux.org/alpine/aports/-/commit
 │                       │      │                  │       /d068c3ff36fc6f4789988a09c69b434db757db53 
-│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
-│                       │      │                  ├ [9] : https://security-tracker.debian.org/tracker/CVE-2024-
+│                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-8176.html 
+│                       │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-3531.html 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
+│                       │      │                  ├ [12]: https://security-tracker.debian.org/tracker/CVE-2024-
 │                       │      │                  │       8176 
-│                       │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20250328-00
+│                       │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-20250328-00
 │                       │      │                  │       09/ 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/CVE-2024-8176 
-│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/CVE-2024-8176 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
 │                       │      ├ PublishedDate   : 2025-03-14T09:15:14.157Z 
-│                       │      ╰ LastModifiedDate: 2025-03-28T15:15:46.157Z 
+│                       │      ╰ LastModifiedDate: 2025-04-02T15:15:57.987Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2024-56171 
 │                       │      ├ PkgID           : libxml2@2.13.4-r3 
 │                       │      ├ PkgName         : libxml2 
@@ -93,11 +97,11 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 8.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:2679 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:2686 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56171 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2346416 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2346421 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-2679.html 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-2686.html 
 │                       │      │                  ├ [5] : https://gitlab.gnome.org/GNOME/libxml2/-/issues/828 
 │                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-56171.html 
 │                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-2686.html 
@@ -147,11 +151,11 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:2679 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:2686 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-24928 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2346416 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2346421 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-2679.html 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-2686.html 
 │                       │      │                  ├ [5] : https://gitlab.gnome.org/GNOME/libxml2/-/issues/847 
 │                       │      │                  ├ [6] : https://issues.oss-fuzz.com/issues/392687022 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-24928.html 
