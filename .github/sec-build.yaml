@@ -838,6 +838,7 @@
     CweIDs:
     - CWE-119
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -924,6 +925,7 @@
     - CWE-674
     VendorSeverity:
       cbl-mariner: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -932,6 +934,7 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/03/15/1
+    - https://access.redhat.com/errata/RHSA-2025:3531
     - https://access.redhat.com/security/cve/CVE-2024-8176
     - https://blog.hartwork.org/posts/expat-2-7-0-released/
     - https://bugzilla.redhat.com/show_bug.cgi?id=2310137
@@ -939,13 +942,15 @@
     - https://github.com/libexpat/libexpat/blob/R_2_7_0/expat/Changes#L40-L52
     - https://github.com/libexpat/libexpat/issues/893
     - https://gitlab.alpinelinux.org/alpine/aports/-/commit/d068c3ff36fc6f4789988a09c69b434db757db53
+    - https://linux.oracle.com/cve/CVE-2024-8176.html
+    - https://linux.oracle.com/errata/ELSA-2025-3531.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-8176
     - https://security-tracker.debian.org/tracker/CVE-2024-8176
     - https://security.netapp.com/advisory/ntap-20250328-0009/
     - https://ubuntu.com/security/CVE-2024-8176
     - https://www.cve.org/CVERecord?id=CVE-2024-8176
     PublishedDate: '2025-03-14T09:15:14.157Z'
-    LastModifiedDate: '2025-03-28T15:15:46.157Z'
+    LastModifiedDate: '2025-04-02T15:15:57.987Z'
   - VulnerabilityID: CVE-2025-23022
     PkgID: libfreetype6@2.13.3+dfsg-1
     PkgName: libfreetype6
@@ -1022,6 +1027,8 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2024:9404
+    - https://access.redhat.com/errata/RHSA-2025:3530
+    - https://access.redhat.com/errata/RHSA-2025:3534
     - https://access.redhat.com/security/cve/CVE-2024-2236
     - https://bugzilla.redhat.com/2245218
     - https://bugzilla.redhat.com/show_bug.cgi?id=2245218
@@ -1036,7 +1043,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2236
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
-    LastModifiedDate: '2024-11-21T09:09:19.41Z'
+    LastModifiedDate: '2025-04-02T17:15:37.79Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-modules@1.5.3-7ubuntu2
     PkgName: libpam-modules
@@ -1060,7 +1067,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       oracle-oval: 2
       redhat: 2
@@ -1076,11 +1083,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1129,12 +1137,13 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1165,7 +1174,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       oracle-oval: 2
       redhat: 2
@@ -1181,11 +1190,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1234,12 +1244,13 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1270,7 +1281,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       oracle-oval: 2
       redhat: 2
@@ -1286,11 +1297,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1339,12 +1351,13 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1375,7 +1388,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       oracle-oval: 2
       redhat: 2
@@ -1391,11 +1404,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1444,12 +1458,13 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1906,6 +1921,138 @@
     - https://www.wireshark.org/security/wnpa-sec-2021-15.html
     PublishedDate: '2021-11-18T19:15:08.333Z'
     LastModifiedDate: '2024-11-21T06:20:33.82Z'
+  - VulnerabilityID: CVE-2025-1215
+    PkgID: vim@2:9.1.0496-1ubuntu6.4
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.0496-1ubuntu6.4?arch=amd64&distro=ubuntu-24.10&epoch=2
+      UID: 1d06811aa36f1eab
+    InstalledVersion: 2:9.1.0496-1ubuntu6.4
+    Status: affected
+    Layer:
+      Digest: sha256:24deb268aa1e4d5533c45bb012a416c6a62fee14e52bd6bbf8ede4b1a71dbc29
+      DiffID: sha256:5e50b306eca42686cf62c38071f267948ce4878137066bb59c37b09936188978
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1215
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: vim main.c memory corruption'
+    Description: A vulnerability classified as problematic was found in vim up to 9.1.1096. This vulnerability affects unknown code of the file src/main.c. The manipulation of the argument --log leads to memory corruption. It is possible to launch the attack on the local host. Upgrading to version 9.1.1097 is able to address this issue. The patch is identified as c5654b84480822817bb7b69ebc97c174c91185e9. It is recommended to upgrade the affected component.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 2.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1215
+    - https://github.com/vim/vim/commit/c5654b84480822817bb7b69ebc97c174c91185e9
+    - https://github.com/vim/vim/issues/16606
+    - https://github.com/vim/vim/releases/tag/v9.1.1097
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1215
+    - https://security.netapp.com/advisory/ntap-20250321-0005/
+    - https://vuldb.com/?ctiid.295174
+    - https://vuldb.com/?id.295174
+    - https://vuldb.com/?submit.497546
+    - https://www.cve.org/CVERecord?id=CVE-2025-1215
+    PublishedDate: '2025-02-12T19:15:10.23Z'
+    LastModifiedDate: '2025-03-21T18:15:34.29Z'
+  - VulnerabilityID: CVE-2025-1215
+    PkgID: vim-common@2:9.1.0496-1ubuntu6.4
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.0496-1ubuntu6.4?arch=all&distro=ubuntu-24.10&epoch=2
+      UID: 9538ad650d7d4fc
+    InstalledVersion: 2:9.1.0496-1ubuntu6.4
+    Status: affected
+    Layer:
+      Digest: sha256:24deb268aa1e4d5533c45bb012a416c6a62fee14e52bd6bbf8ede4b1a71dbc29
+      DiffID: sha256:5e50b306eca42686cf62c38071f267948ce4878137066bb59c37b09936188978
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1215
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: vim main.c memory corruption'
+    Description: A vulnerability classified as problematic was found in vim up to 9.1.1096. This vulnerability affects unknown code of the file src/main.c. The manipulation of the argument --log leads to memory corruption. It is possible to launch the attack on the local host. Upgrading to version 9.1.1097 is able to address this issue. The patch is identified as c5654b84480822817bb7b69ebc97c174c91185e9. It is recommended to upgrade the affected component.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 2.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1215
+    - https://github.com/vim/vim/commit/c5654b84480822817bb7b69ebc97c174c91185e9
+    - https://github.com/vim/vim/issues/16606
+    - https://github.com/vim/vim/releases/tag/v9.1.1097
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1215
+    - https://security.netapp.com/advisory/ntap-20250321-0005/
+    - https://vuldb.com/?ctiid.295174
+    - https://vuldb.com/?id.295174
+    - https://vuldb.com/?submit.497546
+    - https://www.cve.org/CVERecord?id=CVE-2025-1215
+    PublishedDate: '2025-02-12T19:15:10.23Z'
+    LastModifiedDate: '2025-03-21T18:15:34.29Z'
+  - VulnerabilityID: CVE-2025-1215
+    PkgID: vim-runtime@2:9.1.0496-1ubuntu6.4
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.0496-1ubuntu6.4?arch=all&distro=ubuntu-24.10&epoch=2
+      UID: d01d837a64e4e5d4
+    InstalledVersion: 2:9.1.0496-1ubuntu6.4
+    Status: affected
+    Layer:
+      Digest: sha256:24deb268aa1e4d5533c45bb012a416c6a62fee14e52bd6bbf8ede4b1a71dbc29
+      DiffID: sha256:5e50b306eca42686cf62c38071f267948ce4878137066bb59c37b09936188978
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1215
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: vim main.c memory corruption'
+    Description: A vulnerability classified as problematic was found in vim up to 9.1.1096. This vulnerability affects unknown code of the file src/main.c. The manipulation of the argument --log leads to memory corruption. It is possible to launch the attack on the local host. Upgrading to version 9.1.1097 is able to address this issue. The patch is identified as c5654b84480822817bb7b69ebc97c174c91185e9. It is recommended to upgrade the affected component.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 2.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1215
+    - https://github.com/vim/vim/commit/c5654b84480822817bb7b69ebc97c174c91185e9
+    - https://github.com/vim/vim/issues/16606
+    - https://github.com/vim/vim/releases/tag/v9.1.1097
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1215
+    - https://security.netapp.com/advisory/ntap-20250321-0005/
+    - https://vuldb.com/?ctiid.295174
+    - https://vuldb.com/?id.295174
+    - https://vuldb.com/?submit.497546
+    - https://www.cve.org/CVERecord?id=CVE-2025-1215
+    PublishedDate: '2025-02-12T19:15:10.23Z'
+    LastModifiedDate: '2025-03-21T18:15:34.29Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.24.5-1ubuntu2
     PkgName: wget
@@ -2004,6 +2151,50 @@
     - https://www.wireshark.org/security/wnpa-sec-2021-15.html
     PublishedDate: '2021-11-18T19:15:08.333Z'
     LastModifiedDate: '2024-11-21T06:20:33.82Z'
+  - VulnerabilityID: CVE-2025-1215
+    PkgID: xxd@2:9.1.0496-1ubuntu6.4
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.0496-1ubuntu6.4?arch=amd64&distro=ubuntu-24.10&epoch=2
+      UID: 82694743fd1b3a38
+    InstalledVersion: 2:9.1.0496-1ubuntu6.4
+    Status: affected
+    Layer:
+      Digest: sha256:24deb268aa1e4d5533c45bb012a416c6a62fee14e52bd6bbf8ede4b1a71dbc29
+      DiffID: sha256:5e50b306eca42686cf62c38071f267948ce4878137066bb59c37b09936188978
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1215
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: vim main.c memory corruption'
+    Description: A vulnerability classified as problematic was found in vim up to 9.1.1096. This vulnerability affects unknown code of the file src/main.c. The manipulation of the argument --log leads to memory corruption. It is possible to launch the attack on the local host. Upgrading to version 9.1.1097 is able to address this issue. The patch is identified as c5654b84480822817bb7b69ebc97c174c91185e9. It is recommended to upgrade the affected component.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 2.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1215
+    - https://github.com/vim/vim/commit/c5654b84480822817bb7b69ebc97c174c91185e9
+    - https://github.com/vim/vim/issues/16606
+    - https://github.com/vim/vim/releases/tag/v9.1.1097
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1215
+    - https://security.netapp.com/advisory/ntap-20250321-0005/
+    - https://vuldb.com/?ctiid.295174
+    - https://vuldb.com/?id.295174
+    - https://vuldb.com/?submit.497546
+    - https://www.cve.org/CVERecord?id=CVE-2025-1215
+    PublishedDate: '2025-02-12T19:15:10.23Z'
+    LastModifiedDate: '2025-03-21T18:15:34.29Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
