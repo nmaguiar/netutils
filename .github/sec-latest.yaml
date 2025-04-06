@@ -554,6 +554,51 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-29768
     PublishedDate: '2025-03-13T17:15:37.623Z'
     LastModifiedDate: '2025-03-13T17:15:37.623Z'
+  - VulnerabilityID: CVE-2025-31115
+    PkgID: xz-libs@5.6.4-r0
+    PkgName: xz-libs
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/xz-libs@5.6.4-r0?arch=x86_64&distro=3.22.0_alpha20250108
+      UID: 4e157913e37d4cc3
+    InstalledVersion: 5.6.4-r0
+    FixedVersion: 5.8.1-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:00f19dd58a1529b2043f694b571828acf17cac3b0747933a3a0e57dc650ff17d
+      DiffID: sha256:8023ce50c72afb3634be2f5a190d34b330bfd9ebd0f77f8d1342584189737ee5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-31115
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'xz: XZ has a heap-use-after-free bug in threaded .xz decoder'
+    Description: XZ Utils provide a general-purpose data-compression library plus command-line tools. In XZ Utils 5.3.3alpha to 5.8.0, the multithreaded .xz decoder in liblzma has a bug where invalid input can at least result in a crash. The effects include heap use after free and writing to an address based on the null pointer plus an offset. Applications and libraries that use the lzma_stream_decoder_mt function are affected. The bug has been fixed in XZ Utils 5.8.1, and the fix has been committed to the v5.4, v5.6, v5.8, and master branches in the xz Git repository. No new release packages will be made from the old stable branches, but a standalone patch is available that applies to all affected releases.
+    Severity: HIGH
+    CweIDs:
+    - CWE-366
+    - CWE-416
+    - CWE-476
+    - CWE-826
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/04/03/1
+    - http://www.openwall.com/lists/oss-security/2025/04/03/2
+    - http://www.openwall.com/lists/oss-security/2025/04/03/3
+    - https://access.redhat.com/security/cve/CVE-2025-31115
+    - https://github.com/tukaani-project/xz/commit/d5a2ffe41bb77b918a8c96084885d4dbe4bf6480
+    - https://github.com/tukaani-project/xz/security/advisories/GHSA-6cc8-p5mm-29w2
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-31115
+    - https://tukaani.org/xz/xz-cve-2025-31115.patch
+    - https://ubuntu.com/security/notices/USN-7414-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-31115
+    PublishedDate: '2025-04-03T17:15:30.54Z'
+    LastModifiedDate: '2025-04-03T20:15:25.113Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
