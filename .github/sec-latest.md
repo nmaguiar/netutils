@@ -616,48 +616,102 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-27423 
 │                       │      ├ PublishedDate   : 2025-03-03T17:15:15.943Z 
 │                       │      ╰ LastModifiedDate: 2025-03-03T17:15:15.943Z 
-│                       ╰ [12] ╭ VulnerabilityID : CVE-2025-29768 
-│                              ├ PkgID           : xxd@9.1.1105-r0 
-│                              ├ PkgName         : xxd 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.1.1105-r0?arch=x86_64&distro=3.2
-│                              │                  │       2.0_alpha20250108 
-│                              │                  ╰ UID : eb71e19c1c42892c 
-│                              ├ InstalledVersion: 9.1.1105-r0 
-│                              ├ FixedVersion    : 9.1.1202-r0 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2025-29768 
+│                       │      ├ PkgID           : xxd@9.1.1105-r0 
+│                       │      ├ PkgName         : xxd 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.1.1105-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       2.0_alpha20250108 
+│                       │      │                  ╰ UID : eb71e19c1c42892c 
+│                       │      ├ InstalledVersion: 9.1.1105-r0 
+│                       │      ├ FixedVersion    : 9.1.1202-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:00f19dd58a1529b2043f694b571828acf17cac3b0747
+│                       │      │                  │         933a3a0e57dc650ff17d 
+│                       │      │                  ╰ DiffID: sha256:8023ce50c72afb3634be2f5a190d34b330bfd9ebd0f7
+│                       │      │                            7f8d1342584189737ee5 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-29768 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : vim: Vim vulnerable to potential data loss with zip.vim and
+│                       │      │                   special crafted zip files 
+│                       │      ├ Description     : Vim, a text editor, is vulnerable to potential data loss
+│                       │      │                   with zip.vim and special crafted zip files in versions prior
+│                       │      │                    to 9.1.1198. The impact is medium because a user must be
+│                       │      │                   made to view such an archive with Vim and then press 'x' on
+│                       │      │                   such a strange filename. The issue has been fixed as of Vim
+│                       │      │                   patch v9.1.1198. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-88 
+│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ╰ redhat     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 4.4 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-29768 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/commit/f209dcd3defb95bae21b
+│                       │      │                  │      2740910e6aa7bb940531 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-69
+│                       │      │                  │      3p-m996-3rmf 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-29768 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-29768 
+│                       │      ├ PublishedDate   : 2025-03-13T17:15:37.623Z 
+│                       │      ╰ LastModifiedDate: 2025-03-13T17:15:37.623Z 
+│                       ╰ [13] ╭ VulnerabilityID : CVE-2025-31115 
+│                              ├ PkgID           : xz-libs@5.6.4-r0 
+│                              ├ PkgName         : xz-libs 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xz-libs@5.6.4-r0?arch=x86_64&distro=3.
+│                              │                  │       22.0_alpha20250108 
+│                              │                  ╰ UID : 4e157913e37d4cc3 
+│                              ├ InstalledVersion: 5.6.4-r0 
+│                              ├ FixedVersion    : 5.8.1-r0 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:00f19dd58a1529b2043f694b571828acf17cac3b0747
 │                              │                  │         933a3a0e57dc650ff17d 
 │                              │                  ╰ DiffID: sha256:8023ce50c72afb3634be2f5a190d34b330bfd9ebd0f7
 │                              │                            7f8d1342584189737ee5 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-29768 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-31115 
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                              ├ Title           : vim: Vim vulnerable to potential data loss with zip.vim and
-│                              │                   special crafted zip files 
-│                              ├ Description     : Vim, a text editor, is vulnerable to potential data loss
-│                              │                   with zip.vim and special crafted zip files in versions prior
-│                              │                    to 9.1.1198. The impact is medium because a user must be
-│                              │                   made to view such an archive with Vim and then press 'x' on
-│                              │                   such a strange filename. The issue has been fixed as of Vim
-│                              │                   patch v9.1.1198. 
-│                              ├ Severity        : MEDIUM 
-│                              ├ CweIDs           ─ [0]: CWE-88 
-│                              ├ VendorSeverity   ╭ azure      : 2 
-│                              │                  ├ cbl-mariner: 2 
-│                              │                  ╰ redhat     : 2 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
-│                              │                           │           /A:N 
-│                              │                           ╰ V3Score : 4.4 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-29768 
-│                              │                  ├ [1]: https://github.com/vim/vim/commit/f209dcd3defb95bae21b
-│                              │                  │      2740910e6aa7bb940531 
-│                              │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-69
-│                              │                  │      3p-m996-3rmf 
-│                              │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-29768 
-│                              │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-29768 
-│                              ├ PublishedDate   : 2025-03-13T17:15:37.623Z 
-│                              ╰ LastModifiedDate: 2025-03-13T17:15:37.623Z 
+│                              ├ Title           : xz: XZ has a heap-use-after-free bug in threaded .xz decoder 
+│                              ├ Description     : XZ Utils provide a general-purpose data-compression library
+│                              │                   plus command-line tools. In XZ Utils 5.3.3alpha to 5.8.0,
+│                              │                   the multithreaded .xz decoder in liblzma has a bug where
+│                              │                   invalid input can at least result in a crash. The effects
+│                              │                   include heap use after free and writing to an address based
+│                              │                   on the null pointer plus an offset. Applications and
+│                              │                   libraries that use the lzma_stream_decoder_mt function are
+│                              │                   affected. The bug has been fixed in XZ Utils 5.8.1, and the
+│                              │                   fix has been committed to the v5.4, v5.6, v5.8, and master
+│                              │                   branches in the xz Git repository. No new release packages
+│                              │                   will be made from the old stable branches, but a standalone
+│                              │                   patch is available that applies to all affected releases. 
+│                              ├ Severity        : HIGH 
+│                              ├ CweIDs           ╭ [0]: CWE-366 
+│                              │                  ├ [1]: CWE-416 
+│                              │                  ├ [2]: CWE-476 
+│                              │                  ╰ [3]: CWE-826 
+│                              ├ VendorSeverity   ╭ redhat: 3 
+│                              │                  ╰ ubuntu: 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                              │                           │           /A:H 
+│                              │                           ╰ V3Score : 7.5 
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/03/1 
+│                              │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/04/03/2 
+│                              │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/04/03/3 
+│                              │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-31115 
+│                              │                  ├ [4]: https://github.com/tukaani-project/xz/commit/d5a2ffe41
+│                              │                  │      bb77b918a8c96084885d4dbe4bf6480 
+│                              │                  ├ [5]: https://github.com/tukaani-project/xz/security/advisor
+│                              │                  │      ies/GHSA-6cc8-p5mm-29w2 
+│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-31115 
+│                              │                  ├ [7]: https://tukaani.org/xz/xz-cve-2025-31115.patch 
+│                              │                  ├ [8]: https://ubuntu.com/security/notices/USN-7414-1 
+│                              │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-31115 
+│                              ├ PublishedDate   : 2025-04-03T17:15:30.54Z 
+│                              ╰ LastModifiedDate: 2025-04-03T20:15:25.113Z 
 ├ [1] ╭ Target: Java 
 │     ├ Class : lang-pkgs 
 │     ╰ Type  : jar 
