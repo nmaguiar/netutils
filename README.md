@@ -1,6 +1,6 @@
 # NetUtils
 
-Alpine based image ("nmaguiar/netutils") with tools for network connectivity debugging (with the right permissions) among other troubleshooting utilities.
+Image ("nmaguiar/netutils") with tools for network connectivity debugging (with the right permissions) among other troubleshooting utilities. The image is provided in two versions: Debian-based (nmaguiar/netutils:based) and Alpine-based (nmaguiar/netutils:lite). This is because some tools might not be available in the Alpine version.
 
 Some of the included tools:
 
