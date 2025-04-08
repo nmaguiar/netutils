@@ -1,0 +1,6 @@
+- Target: nmaguiar/netutils:lite (alpine 3.22.0_alpha20250108)
+  Class: os-pkgs
+  Type: alpine
+- Target: Java
+  Class: lang-pkgs
+  Type: jar
