@@ -22,6 +22,7 @@ Some of the included tools:
 
 [![.github/sec-build.svg](.github/sec-build.svg)](.github/sec-build.md)<br>
 [![.github/sec-build-lite.svg](.github/sec-build-lite.svg)](.github/sec-build-lite.md)<br>
+[![.github/sec-lite.svg](.github/sec-lite.svg)](.github/sec-lite.md)<br>
 [![.github/sec-latest.svg](.github/sec-latest.svg)](.github/sec-latest.md)<br>
 
 ## Usage
