@@ -88,7 +88,7 @@ Profiles:
 | lazydocker | yes | Monitoring container metrics in real-time. |  |
 | lnstat | yes | Displaying Linux network statistics. |  |
 | lynx | yes | Text-based web browser for browsing the internet. |  |
-| mitmproxy | no | Proxy to intercept, inspect, modify and replay web traffic such as HTTP/1, HTTP/2, WebSockets, or any other SSL/TLS-protected protocols. | mitm-help |
+| mitmproxy (*) | no | Proxy to intercept, inspect, modify and replay web traffic such as HTTP/1, HTTP/2, WebSockets, or any other SSL/TLS-protected protocols. | mitm-help |
 | mpstat | yes | Tool used for monitoring CPU activity. Provides detailed statistic on CPU usage per processor or globally across all processors. |  |
 | mtr | yes | Combines the functionality of ping and traceroute to diagnose network issues. |  |
 | nc | yes | Network communication and debugging (also known as netcat). |  |
@@ -131,7 +131,8 @@ Profiles:
 | termshark | yes | Terminal-based network packet analyzer. |  |
 | tinyproxy | yes | A light-weight HTTP proxy daemon | |
 | tracepath | yes | Tracing the path to a network host and measuring the path MTU. |  |
-| posting | no | A powerful HTTP client that lives in your terminal. Posting is an HTTP client, not unlike Postman and Insomnia | posting-help |
+| posting (*) | no | A powerful HTTP client that lives in your terminal. Posting is an HTTP client, not unlike Postman and Insomnia | posting-help |
 | websocat | yes | WebSocket client and server for command-line. |  |
 | whois | yes | Querying information about domain names and IP addresses. |  |
 
+> (*) Some tools are not available on the nmaguiar/netutils:lite image tag. Please use nmaguiar/netutils:latest if you need them.
