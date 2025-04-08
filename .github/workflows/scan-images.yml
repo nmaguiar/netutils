@@ -42,6 +42,20 @@ jobs:
         dist: 'nightly'
 
     - uses: openaf/ojob-action@v7
+      name: Check lite
+      with:
+        ojob: 'ojob.io/sec/genSecBadge'
+        args: 'image=nmaguiar/netutils:lite file=.github/sec-lite.svg reportFile=.github/sec-lite.yaml'
+        dist: 'nightly'
+
+    - uses: openaf/ojob-action@v7
+      name: Generate sec-lite.md
+      with:
+        ojob: 'ojob.io/util/toMDTree'
+        args: 'inputFile=.github/sec-lite.yaml file=.github/sec-lite.md'
+        dist: 'nightly'
+
+    - uses: openaf/ojob-action@v7
       name: Check build
       with:
         ojob: 'ojob.io/sec/genSecBadge'
