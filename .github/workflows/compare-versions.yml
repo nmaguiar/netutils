@@ -42,6 +42,11 @@ jobs:
         oafp .github/softVersions-latest.json out=ch ch="(type: file, options: (file: /tmp/_tmpl.json))" chkey="pack"
         oafp /tmp/_tmpl.json
 
+    - name: Preparing a lookup table for the lite versions of the tools
+      run : |
+        oafp .github/softVersions-lite.json out=ch ch="(type: file, options: (file: /tmp/_tmpll.json))" chkey="pack"
+        oafp /tmp/_tmpll.json        
+
     - name: Joining the versions retrieved to produce a markdown table
       run : |
         oafp chs="[(name: v, type: file, options: (file: /tmp/_tmp.json))|(name: bl, type: file, options: (file: /tmp/_tmpbl.json))|(name: l, type: file, options: (file: /tmp/_tmpl.json))]"\
