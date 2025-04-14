@@ -34,9 +34,9 @@ jobs:
       run : |
         docker run --rm nmaguiar/netutils:latest /openaf/ojob /openaf/ojobs/softVersions.yaml -json > .github/softVersions-latest.json
 
-    # - name: Get versions latest lite
-    #   run : |
-    #     docker run --rm nmaguiar/netutils:lite /openaf/ojob /openaf/ojobs/softVersions.yaml -json > .github/softVersions-latest-lite.json
+    - name: Get versions latest lite
+      run : |
+        docker run --rm nmaguiar/netutils:lite /openaf/ojob /openaf/ojobs/softVersions.yaml -json > .github/softVersions-lite.json
 
     - uses: openaf/ojob-action@v7
       name: Update files
