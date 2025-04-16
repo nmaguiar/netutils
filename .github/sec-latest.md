@@ -995,48 +995,7 @@
 │                       │      │                  ╰ [9]: https://www.gnu.org/ 
 │                       │      ├ PublishedDate   : 2025-02-17T05:15:09.807Z 
 │                       │      ╰ LastModifiedDate: 2025-02-17T05:15:09.807Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2025-23022 
-│                       │      ├ PkgID           : libfreetype6@2.13.3+dfsg-1 
-│                       │      ├ PkgName         : libfreetype6 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libfreetype6@2.13.3%2Bdfsg-1?arch=amd6
-│                       │      │                  │       4&distro=ubuntu-24.10 
-│                       │      │                  ╰ UID : 9b486085aef636fb 
-│                       │      ├ InstalledVersion: 2.13.3+dfsg-1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:d866e48c7f49fa27a0e61d9b040f17d79f3a2090820b
-│                       │      │                  │         3e0af895fc00b089efc2 
-│                       │      │                  ╰ DiffID: sha256:c28897c931dc7f61a7506f0214018f6ef6c4692faf06
-│                       │      │                            be62dd95d1570742724f 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-23022 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : freetype: signed integer overflow in cf2_doFlex 
-│                       │      ├ Description     : FreeType 2.8.1 has a signed integer overflow in cf2_doFlex
-│                       │      │                   in cff/cf2intrp.c. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-190 
-│                       │      ├ VendorSeverity   ╭ amazon: 3 
-│                       │      │                  ├ nvd   : 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                       │      │                  │        │           /A:H 
-│                       │      │                  │        ╰ V3Score : 6.2 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
-│                       │      │                           │           /A:H 
-│                       │      │                           ╰ V3Score : 5.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-23022 
-│                       │      │                  ├ [1]: https://gitlab.freedesktop.org/freetype/freetype/-/iss
-│                       │      │                  │      ues/1312 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-23022 
-│                       │      │                  ├ [3]: https://security-tracker.debian.org/tracker/CVE-2025-2
-│                       │      │                  │      3022 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-23022 
-│                       │      ├ PublishedDate   : 2025-01-10T15:15:16.967Z 
-│                       │      ╰ LastModifiedDate: 2025-01-16T21:12:15.537Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2024-2236 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2024-2236 
 │                       │      ├ PkgID           : libgcrypt20@1.11.0-6ubuntu1 
 │                       │      ├ PkgName         : libgcrypt20 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.11.0-6ubuntu1?arch=amd64
@@ -1089,7 +1048,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                       │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                       │      ╰ LastModifiedDate: 2025-04-02T17:15:37.79Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2024-10041 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2024-10041 
 │                       │      ├ PkgID           : libpam-modules@1.5.3-7ubuntu2 
 │                       │      ├ PkgName         : libpam-modules 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu2?arch=amd
@@ -1144,7 +1103,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                       │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                       │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2024-10963 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2024-10963 
 │                       │      ├ PkgID           : libpam-modules@1.5.3-7ubuntu2 
 │                       │      ├ PkgName         : libpam-modules 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu2?arch=amd
@@ -1203,7 +1162,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2024-10041 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2024-10041 
 │                       │      ├ PkgID           : libpam-modules-bin@1.5.3-7ubuntu2 
 │                       │      ├ PkgName         : libpam-modules-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu2?arch
@@ -1258,7 +1217,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                       │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                       │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2024-10963 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2024-10963 
 │                       │      ├ PkgID           : libpam-modules-bin@1.5.3-7ubuntu2 
 │                       │      ├ PkgName         : libpam-modules-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu2?arch
@@ -1317,7 +1276,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2024-10041 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2024-10041 
 │                       │      ├ PkgID           : libpam-runtime@1.5.3-7ubuntu2 
 │                       │      ├ PkgName         : libpam-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu2?arch=all
@@ -1372,7 +1331,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                       │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                       │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2024-10963 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2024-10963 
 │                       │      ├ PkgID           : libpam-runtime@1.5.3-7ubuntu2 
 │                       │      ├ PkgName         : libpam-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu2?arch=all
@@ -1431,7 +1390,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2024-10041 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2024-10041 
 │                       │      ├ PkgID           : libpam0g@1.5.3-7ubuntu2 
 │                       │      ├ PkgName         : libpam0g 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu2?arch=amd64&dis
@@ -1486,7 +1445,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                       │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                       │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2024-10963 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2024-10963 
 │                       │      ├ PkgID           : libpam0g@1.5.3-7ubuntu2 
 │                       │      ├ PkgName         : libpam0g 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu2?arch=amd64&dis
@@ -1545,6 +1504,54 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2024-56406 
+│                       │      ├ PkgID           : libperl5.38t64@5.38.2-5 
+│                       │      ├ PkgName         : libperl5.38t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libperl5.38t64@5.38.2-5?arch=amd64&dis
+│                       │      │                  │       tro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 42abbd6659f452b2 
+│                       │      ├ InstalledVersion: 5.38.2-5 
+│                       │      ├ FixedVersion    : 5.38.2-5ubuntu0.1 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d866e48c7f49fa27a0e61d9b040f17d79f3a2090820b
+│                       │      │                  │         3e0af895fc00b089efc2 
+│                       │      │                  ╰ DiffID: sha256:c28897c931dc7f61a7506f0214018f6ef6c4692faf06
+│                       │      │                            be62dd95d1570742724f 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56406 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : A heap buffer overflow vulnerability was discovered in Perl.
+│                       │      │                      Release ... 
+│                       │      ├ Description     : A heap buffer overflow vulnerability was discovered in Perl.
+│                       │      │                    
+│                       │      │                   
+│                       │      │                   Release branches 5.34, 5.36, 5.38 and 5.40 are affected,
+│                       │      │                   including development versions from 5.33.1 through 5.41.10.
+│                       │      │                   When there are non-ASCII bytes in the left-hand-side of the
+│                       │      │                   `tr` operator, `S_do_trans_invmap` can overflow the
+│                       │      │                   destination pointer `d`.
+│                       │      │                      $ perl -e '$_ = "\x{FF}" x 1000000; tr/\xFF/\x{100}/;' 
+│                       │      │                      Segmentation fault (core dumped)
+│                       │      │                   It is believed that this vulnerability can enable Denial of
+│                       │      │                   Service and possibly Code Execution attacks on platforms
+│                       │      │                   that lack sufficient defenses. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-122 
+│                       │      │                  ╰ [1]: CWE-787 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/13/3 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/04/13/4 
+│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/04/13/5 
+│                       │      │                  ├ [3]: https://github.com/Perl/perl5/commit/87f42aa0e0096e9a3
+│                       │      │                  │      46c9672aa3a0bd3bef8c1dd.patch 
+│                       │      │                  ├ [4]: https://metacpan.org/release/SHAY/perl-5.38.4/changes 
+│                       │      │                  ├ [5]: https://metacpan.org/release/SHAY/perl-5.40.2/changes 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7434-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
+│                       │      ├ PublishedDate   : 2025-04-13T14:15:14.527Z 
+│                       │      ╰ LastModifiedDate: 2025-04-13T22:15:12.767Z 
 │                       ├ [32] ╭ VulnerabilityID : CVE-2023-37769 
 │                       │      ├ PkgID           : libpixman-1-0@0.42.2-1build1 
 │                       │      ├ PkgName         : libpixman-1-0 
@@ -1577,7 +1584,52 @@
 │                       │      │                  ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2023-37769 
 │                       │      ├ PublishedDate   : 2023-07-17T20:15:13.547Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:12:14.547Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2024-41996 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2025-29087 
+│                       │      ├ PkgID           : libsqlite3-0@3.46.1-1 
+│                       │      ├ PkgName         : libsqlite3-0 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsqlite3-0@3.46.1-1?arch=amd64&distr
+│                       │      │                  │       o=ubuntu-24.10 
+│                       │      │                  ╰ UID : d47783a0d6415972 
+│                       │      ├ InstalledVersion: 3.46.1-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:d866e48c7f49fa27a0e61d9b040f17d79f3a2090820b
+│                       │      │                  │         3e0af895fc00b089efc2 
+│                       │      │                  ╰ DiffID: sha256:c28897c931dc7f61a7506f0214018f6ef6c4692faf06
+│                       │      │                            be62dd95d1570742724f 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-29087 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : sqlite: Integer Overflow in SQLite concat Function 
+│                       │      ├ Description     : In SQLite 3.44.0 through 3.49.0 before 3.49.1, the
+│                       │      │                   concat_ws() SQL function can cause memory to be written
+│                       │      │                   beyond the end of a malloc-allocated buffer. If the
+│                       │      │                   separator argument is attacker-controlled and has a large
+│                       │      │                   string (e.g., 2MB or more), an integer overflow occurs in
+│                       │      │                   calculating the size of the result buffer, and thus malloc
+│                       │      │                   may not allocate enough memory. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-190 
+│                       │      ├ VendorSeverity   ╭ bitnami: 4 
+│                       │      │                  ├ redhat : 2 
+│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                       │      │                  │         │           H/A:H 
+│                       │      │                  │         ╰ V3Score : 9.8 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
+│                       │      │                            │           N/A:H 
+│                       │      │                            ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-29087 
+│                       │      │                  ├ [1]: https://gist.github.com/ylwango613/a44a29f1ef074fa783e
+│                       │      │                  │      29f04a0afd62a 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-29087 
+│                       │      │                  ├ [3]: https://sqlite.org/releaselog/3_49_1.html 
+│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-29087 
+│                       │      │                  ╰ [5]: https://www.sqlite.org/cves.html 
+│                       │      ├ PublishedDate   : 2025-04-07T20:15:20.253Z 
+│                       │      ╰ LastModifiedDate: 2025-04-14T14:15:23.813Z 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2024-41996 
 │                       │      ├ PkgID           : libssl3t64@3.3.1-2ubuntu2.1 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.3.1-2ubuntu2.1?arch=amd64
@@ -1627,7 +1679,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                       │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                       │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwireshark-data@4.2.6-1 
 │                       │      ├ PkgName         : libwireshark-data 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.2.6-1?arch=all&dis
@@ -1681,7 +1733,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwireshark17t64@4.2.6-1 
 │                       │      ├ PkgName         : libwireshark17t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark17t64@4.2.6-1?arch=amd64&d
@@ -1735,7 +1787,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwiretap14t64@4.2.6-1 
 │                       │      ├ PkgName         : libwiretap14t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap14t64@4.2.6-1?arch=amd64&dis
@@ -1789,7 +1841,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwsutil15t64@4.2.6-1 
 │                       │      ├ PkgName         : libwsutil15t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil15t64@4.2.6-1?arch=amd64&dist
@@ -1843,7 +1895,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login@1:4.15.3-3ubuntu2 
 │                       │      ├ PkgName         : login 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.15.3-3ubuntu2?arch=amd64&distr
@@ -1890,7 +1942,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2024-41996 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2024-41996 
 │                       │      ├ PkgID           : openssl@3.3.1-2ubuntu2.1 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.3.1-2ubuntu2.1?arch=amd64&di
@@ -1940,7 +1992,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                       │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                       │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.15.3-3ubuntu2 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.15.3-3ubuntu2?arch=amd64&dist
@@ -1987,7 +2039,151 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2024-56406 
+│                       │      ├ PkgID           : perl@5.38.2-5 
+│                       │      ├ PkgName         : perl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl@5.38.2-5?arch=amd64&distro=ubuntu
+│                       │      │                  │       -24.10 
+│                       │      │                  ╰ UID : c78025b15dca4aad 
+│                       │      ├ InstalledVersion: 5.38.2-5 
+│                       │      ├ FixedVersion    : 5.38.2-5ubuntu0.1 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d866e48c7f49fa27a0e61d9b040f17d79f3a2090820b
+│                       │      │                  │         3e0af895fc00b089efc2 
+│                       │      │                  ╰ DiffID: sha256:c28897c931dc7f61a7506f0214018f6ef6c4692faf06
+│                       │      │                            be62dd95d1570742724f 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56406 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : A heap buffer overflow vulnerability was discovered in Perl.
+│                       │      │                      Release ... 
+│                       │      ├ Description     : A heap buffer overflow vulnerability was discovered in Perl.
+│                       │      │                    
+│                       │      │                   
+│                       │      │                   Release branches 5.34, 5.36, 5.38 and 5.40 are affected,
+│                       │      │                   including development versions from 5.33.1 through 5.41.10.
+│                       │      │                   When there are non-ASCII bytes in the left-hand-side of the
+│                       │      │                   `tr` operator, `S_do_trans_invmap` can overflow the
+│                       │      │                   destination pointer `d`.
+│                       │      │                      $ perl -e '$_ = "\x{FF}" x 1000000; tr/\xFF/\x{100}/;' 
+│                       │      │                      Segmentation fault (core dumped)
+│                       │      │                   It is believed that this vulnerability can enable Denial of
+│                       │      │                   Service and possibly Code Execution attacks on platforms
+│                       │      │                   that lack sufficient defenses. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-122 
+│                       │      │                  ╰ [1]: CWE-787 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/13/3 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/04/13/4 
+│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/04/13/5 
+│                       │      │                  ├ [3]: https://github.com/Perl/perl5/commit/87f42aa0e0096e9a3
+│                       │      │                  │      46c9672aa3a0bd3bef8c1dd.patch 
+│                       │      │                  ├ [4]: https://metacpan.org/release/SHAY/perl-5.38.4/changes 
+│                       │      │                  ├ [5]: https://metacpan.org/release/SHAY/perl-5.40.2/changes 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7434-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
+│                       │      ├ PublishedDate   : 2025-04-13T14:15:14.527Z 
+│                       │      ╰ LastModifiedDate: 2025-04-13T22:15:12.767Z 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2024-56406 
+│                       │      ├ PkgID           : perl-base@5.38.2-5 
+│                       │      ├ PkgName         : perl-base 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl-base@5.38.2-5?arch=amd64&distro=u
+│                       │      │                  │       buntu-24.10 
+│                       │      │                  ╰ UID : 77ab4151461517eb 
+│                       │      ├ InstalledVersion: 5.38.2-5 
+│                       │      ├ FixedVersion    : 5.38.2-5ubuntu0.1 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d866e48c7f49fa27a0e61d9b040f17d79f3a2090820b
+│                       │      │                  │         3e0af895fc00b089efc2 
+│                       │      │                  ╰ DiffID: sha256:c28897c931dc7f61a7506f0214018f6ef6c4692faf06
+│                       │      │                            be62dd95d1570742724f 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56406 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : A heap buffer overflow vulnerability was discovered in Perl.
+│                       │      │                      Release ... 
+│                       │      ├ Description     : A heap buffer overflow vulnerability was discovered in Perl.
+│                       │      │                    
+│                       │      │                   
+│                       │      │                   Release branches 5.34, 5.36, 5.38 and 5.40 are affected,
+│                       │      │                   including development versions from 5.33.1 through 5.41.10.
+│                       │      │                   When there are non-ASCII bytes in the left-hand-side of the
+│                       │      │                   `tr` operator, `S_do_trans_invmap` can overflow the
+│                       │      │                   destination pointer `d`.
+│                       │      │                      $ perl -e '$_ = "\x{FF}" x 1000000; tr/\xFF/\x{100}/;' 
+│                       │      │                      Segmentation fault (core dumped)
+│                       │      │                   It is believed that this vulnerability can enable Denial of
+│                       │      │                   Service and possibly Code Execution attacks on platforms
+│                       │      │                   that lack sufficient defenses. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-122 
+│                       │      │                  ╰ [1]: CWE-787 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/13/3 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/04/13/4 
+│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/04/13/5 
+│                       │      │                  ├ [3]: https://github.com/Perl/perl5/commit/87f42aa0e0096e9a3
+│                       │      │                  │      46c9672aa3a0bd3bef8c1dd.patch 
+│                       │      │                  ├ [4]: https://metacpan.org/release/SHAY/perl-5.38.4/changes 
+│                       │      │                  ├ [5]: https://metacpan.org/release/SHAY/perl-5.40.2/changes 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7434-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
+│                       │      ├ PublishedDate   : 2025-04-13T14:15:14.527Z 
+│                       │      ╰ LastModifiedDate: 2025-04-13T22:15:12.767Z 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2024-56406 
+│                       │      ├ PkgID           : perl-modules-5.38@5.38.2-5 
+│                       │      ├ PkgName         : perl-modules-5.38 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl-modules-5.38@5.38.2-5?arch=all&di
+│                       │      │                  │       stro=ubuntu-24.10 
+│                       │      │                  ╰ UID : ff527c42bac4db7e 
+│                       │      ├ InstalledVersion: 5.38.2-5 
+│                       │      ├ FixedVersion    : 5.38.2-5ubuntu0.1 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d866e48c7f49fa27a0e61d9b040f17d79f3a2090820b
+│                       │      │                  │         3e0af895fc00b089efc2 
+│                       │      │                  ╰ DiffID: sha256:c28897c931dc7f61a7506f0214018f6ef6c4692faf06
+│                       │      │                            be62dd95d1570742724f 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56406 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : A heap buffer overflow vulnerability was discovered in Perl.
+│                       │      │                      Release ... 
+│                       │      ├ Description     : A heap buffer overflow vulnerability was discovered in Perl.
+│                       │      │                    
+│                       │      │                   
+│                       │      │                   Release branches 5.34, 5.36, 5.38 and 5.40 are affected,
+│                       │      │                   including development versions from 5.33.1 through 5.41.10.
+│                       │      │                   When there are non-ASCII bytes in the left-hand-side of the
+│                       │      │                   `tr` operator, `S_do_trans_invmap` can overflow the
+│                       │      │                   destination pointer `d`.
+│                       │      │                      $ perl -e '$_ = "\x{FF}" x 1000000; tr/\xFF/\x{100}/;' 
+│                       │      │                      Segmentation fault (core dumped)
+│                       │      │                   It is believed that this vulnerability can enable Denial of
+│                       │      │                   Service and possibly Code Execution attacks on platforms
+│                       │      │                   that lack sufficient defenses. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-122 
+│                       │      │                  ╰ [1]: CWE-787 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/13/3 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/04/13/4 
+│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/04/13/5 
+│                       │      │                  ├ [3]: https://github.com/Perl/perl5/commit/87f42aa0e0096e9a3
+│                       │      │                  │      46c9672aa3a0bd3bef8c1dd.patch 
+│                       │      │                  ├ [4]: https://metacpan.org/release/SHAY/perl-5.38.4/changes 
+│                       │      │                  ├ [5]: https://metacpan.org/release/SHAY/perl-5.40.2/changes 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7434-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
+│                       │      ├ PublishedDate   : 2025-04-13T14:15:14.527Z 
+│                       │      ╰ LastModifiedDate: 2025-04-13T22:15:12.767Z 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : tshark@4.2.6-1 
 │                       │      ├ PkgName         : tshark 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.2.6-1?arch=amd64&distro=ubunt
@@ -2041,7 +2237,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.24.5-1ubuntu2 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.24.5-1ubuntu2?arch=amd64&distro
@@ -2087,7 +2283,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                       ╰ [43] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ╰ [47] ╭ VulnerabilityID : CVE-2021-39920 
 │                              ├ PkgID           : wireshark-common@4.2.6-1 
 │                              ├ PkgName         : wireshark-common 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&di
