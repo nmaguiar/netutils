@@ -1716,7 +1716,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7434-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
 │                       │      ├ PublishedDate   : 2025-04-13T14:15:14.527Z 
-│                       │      ╰ LastModifiedDate: 2025-04-15T18:39:27.967Z 
+│                       │      ╰ LastModifiedDate: 2025-04-18T17:15:34.37Z 
 │                       ├ [37] ╭ VulnerabilityID : CVE-2023-37769 
 │                       │      ├ PkgID           : libpixman-1-0@0.42.2-1build1 
 │                       │      ├ PkgName         : libpixman-1-0 
@@ -2287,7 +2287,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7434-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
 │                       │      ├ PublishedDate   : 2025-04-13T14:15:14.527Z 
-│                       │      ╰ LastModifiedDate: 2025-04-15T18:39:27.967Z 
+│                       │      ╰ LastModifiedDate: 2025-04-18T17:15:34.37Z 
 │                       ├ [49] ╭ VulnerabilityID : CVE-2024-56406 
 │                       │      ├ PkgID           : perl-base@5.38.2-5 
 │                       │      ├ PkgName         : perl-base 
@@ -2335,7 +2335,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7434-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
 │                       │      ├ PublishedDate   : 2025-04-13T14:15:14.527Z 
-│                       │      ╰ LastModifiedDate: 2025-04-15T18:39:27.967Z 
+│                       │      ╰ LastModifiedDate: 2025-04-18T17:15:34.37Z 
 │                       ├ [50] ╭ VulnerabilityID : CVE-2024-56406 
 │                       │      ├ PkgID           : perl-modules-5.38@5.38.2-5 
 │                       │      ├ PkgName         : perl-modules-5.38 
@@ -2383,7 +2383,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7434-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
 │                       │      ├ PublishedDate   : 2025-04-13T14:15:14.527Z 
-│                       │      ╰ LastModifiedDate: 2025-04-15T18:39:27.967Z 
+│                       │      ╰ LastModifiedDate: 2025-04-18T17:15:34.37Z 
 │                       ├ [51] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : tshark@4.2.6-1 
 │                       │      ├ PkgName         : tshark 
