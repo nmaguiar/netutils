@@ -48,6 +48,7 @@
 │                       │     ├ Severity        : HIGH 
 │                       │     ├ CweIDs           ─ [0]: CWE-284 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
+│                       │     │                  ├ amazon     : 3 
 │                       │     │                  ├ oracle-oval: 2 
 │                       │     │                  ├ redhat     : 2 
 │                       │     │                  ╰ ubuntu     : 2 
@@ -73,7 +74,7 @@
 │                       │     │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-21587 
 │                       │     │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │     ├ PublishedDate   : 2025-04-15T21:15:54.293Z 
-│                       │     ╰ LastModifiedDate: 2025-04-16T16:15:29.73Z 
+│                       │     ╰ LastModifiedDate: 2025-04-29T20:03:13.79Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2025-23083 
 │                       │     ├ PkgID           : openjdk21-jre@21.0.6_p7-r1 
 │                       │     ├ PkgName         : openjdk21-jre 
@@ -170,6 +171,7 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-284 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
+│                       │     │                  ├ amazon     : 3 
 │                       │     │                  ├ oracle-oval: 2 
 │                       │     │                  ├ redhat     : 2 
 │                       │     │                  ╰ ubuntu     : 2 
@@ -246,6 +248,7 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-284 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
+│                       │     │                  ├ amazon     : 3 
 │                       │     │                  ├ oracle-oval: 2 
 │                       │     │                  ├ redhat     : 2 
 │                       │     │                  ╰ ubuntu     : 2 
@@ -271,7 +274,7 @@
 │                       │     │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-30698 
 │                       │     │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │     ├ PublishedDate   : 2025-04-15T21:15:59.137Z 
-│                       │     ╰ LastModifiedDate: 2025-04-16T16:15:33.397Z 
+│                       │     ╰ LastModifiedDate: 2025-04-29T20:03:21.7Z 
 │                       ├ [4] ╭ VulnerabilityID : CVE-2025-21587 
 │                       │     ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r1 
 │                       │     ├ PkgName         : openjdk21-jre-headless 
@@ -318,6 +321,7 @@
 │                       │     ├ Severity        : HIGH 
 │                       │     ├ CweIDs           ─ [0]: CWE-284 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
+│                       │     │                  ├ amazon     : 3 
 │                       │     │                  ├ oracle-oval: 2 
 │                       │     │                  ├ redhat     : 2 
 │                       │     │                  ╰ ubuntu     : 2 
@@ -343,7 +347,7 @@
 │                       │     │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-21587 
 │                       │     │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │     ├ PublishedDate   : 2025-04-15T21:15:54.293Z 
-│                       │     ╰ LastModifiedDate: 2025-04-16T16:15:29.73Z 
+│                       │     ╰ LastModifiedDate: 2025-04-29T20:03:13.79Z 
 │                       ├ [5] ╭ VulnerabilityID : CVE-2025-23083 
 │                       │     ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r1 
 │                       │     ├ PkgName         : openjdk21-jre-headless 
@@ -440,6 +444,7 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-284 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
+│                       │     │                  ├ amazon     : 3 
 │                       │     │                  ├ oracle-oval: 2 
 │                       │     │                  ├ redhat     : 2 
 │                       │     │                  ╰ ubuntu     : 2 
@@ -516,6 +521,7 @@
 │                             ├ Severity        : MEDIUM 
 │                             ├ CweIDs           ─ [0]: CWE-284 
 │                             ├ VendorSeverity   ╭ alma       : 2 
+│                             │                  ├ amazon     : 3 
 │                             │                  ├ oracle-oval: 2 
 │                             │                  ├ redhat     : 2 
 │                             │                  ╰ ubuntu     : 2 
@@ -541,7 +547,7 @@
 │                             │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-30698 
 │                             │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                             ├ PublishedDate   : 2025-04-15T21:15:59.137Z 
-│                             ╰ LastModifiedDate: 2025-04-16T16:15:33.397Z 
+│                             ╰ LastModifiedDate: 2025-04-29T20:03:21.7Z 
 ╰ [1] ╭ Target: Java 
       ├ Class : lang-pkgs 
       ╰ Type  : jar 
