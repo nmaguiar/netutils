@@ -880,7 +880,8 @@
 │                       │      │                   This vulnerability is fixed in 1.34.5. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ azure : 3 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ azure : 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
@@ -1779,7 +1780,55 @@
 │                       │      │                  ╰ [5]: https://www.sqlite.org/cves.html 
 │                       │      ├ PublishedDate   : 2025-04-07T20:15:20.253Z 
 │                       │      ╰ LastModifiedDate: 2025-04-15T16:16:06.233Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2025-3277 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2025-29088 
+│                       │      ├ PkgID           : libsqlite3-0@3.46.1-1 
+│                       │      ├ PkgName         : libsqlite3-0 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsqlite3-0@3.46.1-1?arch=amd64&distr
+│                       │      │                  │       o=ubuntu-24.10 
+│                       │      │                  ╰ UID : d47783a0d6415972 
+│                       │      ├ InstalledVersion: 3.46.1-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:5ea6d5f902dcb9e1638304c134fe36afcfe0e14540c7
+│                       │      │                  │         2d70b9550a588c1b4ff1 
+│                       │      │                  ╰ DiffID: sha256:98a8f666c6a775260c18c9bc86e4e10e0eb61385b779
+│                       │      │                            860b3c9d68b31b33143c 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-29088 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : sqlite: Denial of Service in SQLite 
+│                       │      ├ Description     : In SQLite 3.49.0 before 3.49.1, certain argument values to
+│                       │      │                   sqlite3_db_config (in the C-language API) can cause a denial
+│                       │      │                    of service (application crash). An sz*nBig multiplication
+│                       │      │                   is not cast to a 64-bit integer, and consequently some
+│                       │      │                   memory allocations may be incorrect. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-190 
+│                       │      │                  ╰ [1]: CWE-400 
+│                       │      ├ VendorSeverity   ╭ bitnami: 3 
+│                       │      │                  ├ photon : 3 
+│                       │      │                  ├ redhat : 2 
+│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                  │         │           N/A:H 
+│                       │      │                  │         ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
+│                       │      │                            │           N/A:H 
+│                       │      │                            ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-29088 
+│                       │      │                  ├ [1]: https://gist.github.com/ylwango613/d3883fb9f6ba8a78086
+│                       │      │                  │      356779ce88248 
+│                       │      │                  ├ [2]: https://github.com/sqlite/sqlite/commit/56d2fd008b1081
+│                       │      │                  │      09f489339f5fd55212bb50afd4 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-29088 
+│                       │      │                  ├ [4]: https://sqlite.org/forum/forumpost/48f365daec 
+│                       │      │                  ├ [5]: https://sqlite.org/releaselog/3_49_1.html 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-29088 
+│                       │      │                  ╰ [7]: https://www.sqlite.org/cves.html 
+│                       │      ├ PublishedDate   : 2025-04-10T14:15:27.163Z 
+│                       │      ╰ LastModifiedDate: 2025-04-14T14:15:23.993Z 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2025-3277 
 │                       │      ├ PkgID           : libsqlite3-0@3.46.1-1 
 │                       │      ├ PkgName         : libsqlite3-0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsqlite3-0@3.46.1-1?arch=amd64&distr
@@ -1812,14 +1861,12 @@
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 7.3 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-3277 
-│                       │      │                  ├ [1]: https://github.com/sqlite/sqlite/commit/e1e67abc5cf67f
-│                       │      │                  │      931aab1e471eda23d73f51d456 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-3277 
-│                       │      │                  ├ [3]: https://sqlite.org/src/info/498e3f1cf57f164f 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-3277 
+│                       │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-3277 
+│                       │      │                  ├ [2]: https://sqlite.org/src/info/498e3f1cf57f164f 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-3277 
 │                       │      ├ PublishedDate   : 2025-04-14T17:15:27.297Z 
 │                       │      ╰ LastModifiedDate: 2025-04-15T18:39:27.967Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2024-41996 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2024-41996 
 │                       │      ├ PkgID           : libssl3t64@3.3.1-2ubuntu2.1 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.3.1-2ubuntu2.1?arch=amd64
@@ -1869,7 +1916,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                       │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                       │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwireshark-data@4.2.6-1 
 │                       │      ├ PkgName         : libwireshark-data 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.2.6-1?arch=all&dis
@@ -1923,7 +1970,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwireshark17t64@4.2.6-1 
 │                       │      ├ PkgName         : libwireshark17t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark17t64@4.2.6-1?arch=amd64&d
@@ -1977,7 +2024,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwiretap14t64@4.2.6-1 
 │                       │      ├ PkgName         : libwiretap14t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap14t64@4.2.6-1?arch=amd64&dis
@@ -2031,7 +2078,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwsutil15t64@4.2.6-1 
 │                       │      ├ PkgName         : libwsutil15t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil15t64@4.2.6-1?arch=amd64&dist
@@ -2085,7 +2132,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login@1:4.15.3-3ubuntu2 
 │                       │      ├ PkgName         : login 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.15.3-3ubuntu2?arch=amd64&distr
@@ -2133,7 +2180,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2024-41996 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2024-41996 
 │                       │      ├ PkgID           : openssl@3.3.1-2ubuntu2.1 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.3.1-2ubuntu2.1?arch=amd64&di
@@ -2183,7 +2230,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                       │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                       │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.15.3-3ubuntu2 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.15.3-3ubuntu2?arch=amd64&dist
@@ -2231,7 +2278,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [47] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : tshark@4.2.6-1 
 │                       │      ├ PkgName         : tshark 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.2.6-1?arch=amd64&distro=ubunt
@@ -2285,7 +2332,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [48] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [49] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.24.5-1ubuntu2 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.24.5-1ubuntu2?arch=amd64&distro
@@ -2331,7 +2378,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                       ╰ [49] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ╰ [50] ╭ VulnerabilityID : CVE-2021-39920 
 │                              ├ PkgID           : wireshark-common@4.2.6-1 
 │                              ├ PkgName         : wireshark-common 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&di
