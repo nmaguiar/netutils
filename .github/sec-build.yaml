@@ -836,6 +836,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 2
       azure: 3
       redhat: 2
       ubuntu: 2
@@ -1675,6 +1676,52 @@
     - https://www.sqlite.org/cves.html
     PublishedDate: '2025-04-07T20:15:20.253Z'
     LastModifiedDate: '2025-04-15T16:16:06.233Z'
+  - VulnerabilityID: CVE-2025-29088
+    PkgID: libsqlite3-0@3.46.1-1
+    PkgName: libsqlite3-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsqlite3-0@3.46.1-1?arch=amd64&distro=ubuntu-24.10
+      UID: d47783a0d6415972
+    InstalledVersion: 3.46.1-1
+    Status: affected
+    Layer:
+      Digest: sha256:5ea6d5f902dcb9e1638304c134fe36afcfe0e14540c72d70b9550a588c1b4ff1
+      DiffID: sha256:98a8f666c6a775260c18c9bc86e4e10e0eb61385b779860b3c9d68b31b33143c
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-29088
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'sqlite: Denial of Service in SQLite'
+    Description: In SQLite 3.49.0 before 3.49.1, certain argument values to sqlite3_db_config (in the C-language API) can cause a denial of service (application crash). An sz*nBig multiplication is not cast to a 64-bit integer, and consequently some memory allocations may be incorrect.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    - CWE-400
+    VendorSeverity:
+      bitnami: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-29088
+    - https://gist.github.com/ylwango613/d3883fb9f6ba8a78086356779ce88248
+    - https://github.com/sqlite/sqlite/commit/56d2fd008b108109f489339f5fd55212bb50afd4
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-29088
+    - https://sqlite.org/forum/forumpost/48f365daec
+    - https://sqlite.org/releaselog/3_49_1.html
+    - https://www.cve.org/CVERecord?id=CVE-2025-29088
+    - https://www.sqlite.org/cves.html
+    PublishedDate: '2025-04-10T14:15:27.163Z'
+    LastModifiedDate: '2025-04-14T14:15:23.993Z'
   - VulnerabilityID: CVE-2025-3277
     PkgID: libsqlite3-0@3.46.1-1
     PkgName: libsqlite3-0
@@ -1706,7 +1753,6 @@
         V3Score: 7.3
     References:
     - https://access.redhat.com/security/cve/CVE-2025-3277
-    - https://github.com/sqlite/sqlite/commit/e1e67abc5cf67f931aab1e471eda23d73f51d456
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3277
     - https://sqlite.org/src/info/498e3f1cf57f164f
     - https://www.cve.org/CVERecord?id=CVE-2025-3277
