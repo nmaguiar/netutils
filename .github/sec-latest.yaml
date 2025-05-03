@@ -453,6 +453,46 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-52616
     PublishedDate: '2024-11-21T21:15:24.14Z'
     LastModifiedDate: '2024-11-21T21:15:24.14Z'
+  - VulnerabilityID: CVE-2025-29481
+    PkgID: libbpf1@1:1.4.5-1
+    PkgName: libbpf1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libbpf1@1.4.5-1?arch=amd64&distro=ubuntu-24.10&epoch=1
+      UID: 751b575aeae2acdc
+    InstalledVersion: 1:1.4.5-1
+    Status: affected
+    Layer:
+      Digest: sha256:d866e48c7f49fa27a0e61d9b040f17d79f3a2090820b3e0af895fc00b089efc2
+      DiffID: sha256:c28897c931dc7f61a7506f0214018f6ef6c4692faf06be62dd95d1570742724f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-29481
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libbpf: Heap Buffer Overflow in libbpf'
+    Description: Buffer Overflow vulnerability in libbpf 1.5.0 allows a local attacker to execute arbitrary code via the bpf_object__init_prog` function of libbpf.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-120
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-29481
+    - https://github.com/lmarch2/poc/blob/main/libbpf/libbpf.md
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-29481
+    - https://www.cve.org/CVERecord?id=CVE-2025-29481
+    PublishedDate: '2025-04-07T20:15:20.72Z'
+    LastModifiedDate: '2025-04-15T15:42:59.65Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc-bin@2.40-1ubuntu3.1
     PkgName: libc-bin
