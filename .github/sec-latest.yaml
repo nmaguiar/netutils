@@ -476,7 +476,9 @@
     CweIDs:
     - CWE-120
     VendorSeverity:
+      azure: 2
       bitnami: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -879,6 +881,7 @@
     VendorSeverity:
       amazon: 2
       azure: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -891,6 +894,8 @@
     - https://github.com/c-ares/c-ares/commit/29d38719112639d8c0ba910254a3dd4f482ea2d1
     - https://github.com/c-ares/c-ares/pull/821
     - https://github.com/c-ares/c-ares/security/advisories/GHSA-6hxc-62jh-p29v
+    - https://linux.oracle.com/cve/CVE-2025-31498.html
+    - https://linux.oracle.com/errata/ELSA-2025-4461.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-31498
     - https://ubuntu.com/security/notices/USN-7477-1
     - https://www.cve.org/CVERecord?id=CVE-2025-31498
@@ -1241,7 +1246,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 3
+      alma: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -1258,12 +1263,11 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-11250.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1312,13 +1316,12 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
-    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-10244.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1349,7 +1352,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 3
+      alma: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -1366,12 +1369,11 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-11250.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1420,13 +1422,12 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
-    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-10244.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1457,7 +1458,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 3
+      alma: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -1474,12 +1475,11 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-11250.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1528,13 +1528,12 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
-    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-10244.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1565,7 +1564,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 3
+      alma: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -1582,12 +1581,11 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-11250.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1636,13 +1634,12 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
-    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-10244.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1847,6 +1844,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1855,6 +1853,8 @@
         V3Score: 7.3
     References:
     - https://access.redhat.com/security/cve/CVE-2025-3277
+    - https://linux.oracle.com/cve/CVE-2025-3277.html
+    - https://linux.oracle.com/errata/ELSA-2025-4459.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3277
     - https://sqlite.org/src/info/498e3f1cf57f164f
     - https://www.cve.org/CVERecord?id=CVE-2025-3277
@@ -2132,6 +2132,7 @@
     - CWE-252
     VendorSeverity:
       nvd: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2459,6 +2460,48 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56406
     PublishedDate: '2025-04-13T14:15:14.527Z'
     LastModifiedDate: '2025-04-30T15:21:11.547Z'
+  - VulnerabilityID: CVE-2025-43859
+    PkgID: python3-h11@0.14.0-1
+    PkgName: python3-h11
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3-h11@0.14.0-1?arch=all&distro=ubuntu-24.10
+      UID: 47512557cb90f1f7
+    InstalledVersion: 0.14.0-1
+    Status: affected
+    Layer:
+      Digest: sha256:d866e48c7f49fa27a0e61d9b040f17d79f3a2090820b3e0af895fc00b089efc2
+      DiffID: sha256:c28897c931dc7f61a7506f0214018f6ef6c4692faf06be62dd95d1570742724f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-43859
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'h11: h11 accepts some malformed Chunked-Encoding bodies'
+    Description: h11 is a Python implementation of HTTP/1.1. Prior to version 0.16.0, a leniency in h11's parsing of line terminators in chunked-coding message bodies can lead to request smuggling vulnerabilities under certain conditions. This issue has been patched in version 0.16.0. Since exploitation requires the combination of buggy h11 with a buggy (reverse) proxy, fixing either component is sufficient to mitigate this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-444
+    VendorSeverity:
+      ghsa: 4
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 9.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-43859
+    - https://github.com/python-hyper/h11
+    - https://github.com/python-hyper/h11/commit/114803a29ce50116dc47951c690ad4892b1a36ed
+    - https://github.com/python-hyper/h11/security/advisories/GHSA-vqfr-h8mv-ghfj
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-43859
+    - https://www.cve.org/CVERecord?id=CVE-2025-43859
+    PublishedDate: '2025-04-24T19:15:47.06Z'
+    LastModifiedDate: '2025-04-29T13:52:28.49Z'
   - VulnerabilityID: CVE-2021-39920
     PkgID: tshark@4.2.6-1
     PkgName: tshark
