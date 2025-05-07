@@ -57,7 +57,7 @@
 │                       │     │                           ╰ V3Score : 7.4 
 │                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3845 
 │                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-21587 
-│                       │     │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3845.html 
+│                       │     │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3845.html 
 │                       │     │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/2adb01e8c5fbc
 │                       │     │                  │       c3dfa9f82df3deccb3a1705bf13 (jdk-11.0.27-ga) 
 │                       │     │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/73aa304234f2e
@@ -71,8 +71,13 @@
 │                       │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-21587 
 │                       │     │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/20
 │                       │     │                  │       25-04-15 
-│                       │     │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-21587 
-│                       │     │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │     │                  ├ [11]: https://ubuntu.com/security/notices/USN-7480-1 
+│                       │     │                  ├ [12]: https://ubuntu.com/security/notices/USN-7481-1 
+│                       │     │                  ├ [13]: https://ubuntu.com/security/notices/USN-7482-1 
+│                       │     │                  ├ [14]: https://ubuntu.com/security/notices/USN-7483-1 
+│                       │     │                  ├ [15]: https://ubuntu.com/security/notices/USN-7484-1 
+│                       │     │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-21587 
+│                       │     │                  ╰ [17]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │     ├ PublishedDate   : 2025-04-15T21:15:54.293Z 
 │                       │     ╰ LastModifiedDate: 2025-04-29T20:03:13.79Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2025-23083 
@@ -116,12 +121,12 @@
 │                       │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H
 │                       │     │                            │           /A:N 
 │                       │     │                            ╰ V3Score : 7.7 
-│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:1611 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:1613 
 │                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-23083 
 │                       │     │                  ├ [2] : https://bugzilla.redhat.com/2339176 
 │                       │     │                  ├ [3] : https://bugzilla.redhat.com/2339392 
 │                       │     │                  ├ [4] : https://bugzilla.redhat.com/2342618 
-│                       │     │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-1611.html 
+│                       │     │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-1613.html 
 │                       │     │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-23083.html 
 │                       │     │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-1613.html 
 │                       │     │                  ├ [8] : https://nodejs.org/en/blog/vulnerability/january-2025-
@@ -180,7 +185,7 @@
 │                       │     │                           ╰ V3Score : 4.8 
 │                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3845 
 │                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30691 
-│                       │     │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3845.html 
+│                       │     │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3845.html 
 │                       │     │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/2b70822671cf5
 │                       │     │                  │       f9b37956949421e7c77da082c8e (jdk-11.0.27-ga) 
 │                       │     │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/5b0a5f436fb98
@@ -195,8 +200,13 @@
 │                       │     │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/20
 │                       │     │                  │       25-04-15 
 │                       │     │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250418-0004/ 
-│                       │     │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2025-30691 
-│                       │     │                  ╰ [13]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │     │                  ├ [12]: https://ubuntu.com/security/notices/USN-7480-1 
+│                       │     │                  ├ [13]: https://ubuntu.com/security/notices/USN-7481-1 
+│                       │     │                  ├ [14]: https://ubuntu.com/security/notices/USN-7482-1 
+│                       │     │                  ├ [15]: https://ubuntu.com/security/notices/USN-7483-1 
+│                       │     │                  ├ [16]: https://ubuntu.com/security/notices/USN-7484-1 
+│                       │     │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2025-30691 
+│                       │     │                  ╰ [18]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │     ├ PublishedDate   : 2025-04-15T21:15:58.36Z 
 │                       │     ╰ LastModifiedDate: 2025-04-19T01:15:44.85Z 
 │                       ├ [3] ╭ VulnerabilityID : CVE-2025-30698 
@@ -257,7 +267,7 @@
 │                       │     │                           ╰ V3Score : 5.6 
 │                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3845 
 │                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30698 
-│                       │     │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3845.html 
+│                       │     │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3845.html 
 │                       │     │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/ea1389c971827
 │                       │     │                  │       876134a6d1d3ab2934681e9f3d6 (jdk-11.0.27-ga) 
 │                       │     │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/0a89eb2588334
@@ -271,8 +281,13 @@
 │                       │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-30698 
 │                       │     │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/20
 │                       │     │                  │       25-04-15 
-│                       │     │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-30698 
-│                       │     │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │     │                  ├ [11]: https://ubuntu.com/security/notices/USN-7480-1 
+│                       │     │                  ├ [12]: https://ubuntu.com/security/notices/USN-7481-1 
+│                       │     │                  ├ [13]: https://ubuntu.com/security/notices/USN-7482-1 
+│                       │     │                  ├ [14]: https://ubuntu.com/security/notices/USN-7483-1 
+│                       │     │                  ├ [15]: https://ubuntu.com/security/notices/USN-7484-1 
+│                       │     │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-30698 
+│                       │     │                  ╰ [17]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │     ├ PublishedDate   : 2025-04-15T21:15:59.137Z 
 │                       │     ╰ LastModifiedDate: 2025-04-29T20:03:21.7Z 
 │                       ├ [4] ╭ VulnerabilityID : CVE-2025-21587 
@@ -330,7 +345,7 @@
 │                       │     │                           ╰ V3Score : 7.4 
 │                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3845 
 │                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-21587 
-│                       │     │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3845.html 
+│                       │     │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3845.html 
 │                       │     │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/2adb01e8c5fbc
 │                       │     │                  │       c3dfa9f82df3deccb3a1705bf13 (jdk-11.0.27-ga) 
 │                       │     │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/73aa304234f2e
@@ -344,8 +359,13 @@
 │                       │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-21587 
 │                       │     │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/20
 │                       │     │                  │       25-04-15 
-│                       │     │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-21587 
-│                       │     │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │     │                  ├ [11]: https://ubuntu.com/security/notices/USN-7480-1 
+│                       │     │                  ├ [12]: https://ubuntu.com/security/notices/USN-7481-1 
+│                       │     │                  ├ [13]: https://ubuntu.com/security/notices/USN-7482-1 
+│                       │     │                  ├ [14]: https://ubuntu.com/security/notices/USN-7483-1 
+│                       │     │                  ├ [15]: https://ubuntu.com/security/notices/USN-7484-1 
+│                       │     │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-21587 
+│                       │     │                  ╰ [17]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │     ├ PublishedDate   : 2025-04-15T21:15:54.293Z 
 │                       │     ╰ LastModifiedDate: 2025-04-29T20:03:13.79Z 
 │                       ├ [5] ╭ VulnerabilityID : CVE-2025-23083 
@@ -389,12 +409,12 @@
 │                       │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H
 │                       │     │                            │           /A:N 
 │                       │     │                            ╰ V3Score : 7.7 
-│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:1611 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:1613 
 │                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-23083 
 │                       │     │                  ├ [2] : https://bugzilla.redhat.com/2339176 
 │                       │     │                  ├ [3] : https://bugzilla.redhat.com/2339392 
 │                       │     │                  ├ [4] : https://bugzilla.redhat.com/2342618 
-│                       │     │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-1611.html 
+│                       │     │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-1613.html 
 │                       │     │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-23083.html 
 │                       │     │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-1613.html 
 │                       │     │                  ├ [8] : https://nodejs.org/en/blog/vulnerability/january-2025-
@@ -453,7 +473,7 @@
 │                       │     │                           ╰ V3Score : 4.8 
 │                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3845 
 │                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30691 
-│                       │     │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3845.html 
+│                       │     │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3845.html 
 │                       │     │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/2b70822671cf5
 │                       │     │                  │       f9b37956949421e7c77da082c8e (jdk-11.0.27-ga) 
 │                       │     │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/5b0a5f436fb98
@@ -468,8 +488,13 @@
 │                       │     │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/20
 │                       │     │                  │       25-04-15 
 │                       │     │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250418-0004/ 
-│                       │     │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2025-30691 
-│                       │     │                  ╰ [13]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │     │                  ├ [12]: https://ubuntu.com/security/notices/USN-7480-1 
+│                       │     │                  ├ [13]: https://ubuntu.com/security/notices/USN-7481-1 
+│                       │     │                  ├ [14]: https://ubuntu.com/security/notices/USN-7482-1 
+│                       │     │                  ├ [15]: https://ubuntu.com/security/notices/USN-7483-1 
+│                       │     │                  ├ [16]: https://ubuntu.com/security/notices/USN-7484-1 
+│                       │     │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2025-30691 
+│                       │     │                  ╰ [18]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │     ├ PublishedDate   : 2025-04-15T21:15:58.36Z 
 │                       │     ╰ LastModifiedDate: 2025-04-19T01:15:44.85Z 
 │                       ╰ [7] ╭ VulnerabilityID : CVE-2025-30698 
@@ -530,7 +555,7 @@
 │                             │                           ╰ V3Score : 5.6 
 │                             ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3845 
 │                             │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30698 
-│                             │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3845.html 
+│                             │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3845.html 
 │                             │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/ea1389c971827
 │                             │                  │       876134a6d1d3ab2934681e9f3d6 (jdk-11.0.27-ga) 
 │                             │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/0a89eb2588334
@@ -544,8 +569,13 @@
 │                             │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-30698 
 │                             │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/20
 │                             │                  │       25-04-15 
-│                             │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-30698 
-│                             │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                             │                  ├ [11]: https://ubuntu.com/security/notices/USN-7480-1 
+│                             │                  ├ [12]: https://ubuntu.com/security/notices/USN-7481-1 
+│                             │                  ├ [13]: https://ubuntu.com/security/notices/USN-7482-1 
+│                             │                  ├ [14]: https://ubuntu.com/security/notices/USN-7483-1 
+│                             │                  ├ [15]: https://ubuntu.com/security/notices/USN-7484-1 
+│                             │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-30698 
+│                             │                  ╰ [17]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                             ├ PublishedDate   : 2025-04-15T21:15:59.137Z 
 │                             ╰ LastModifiedDate: 2025-04-29T20:03:21.7Z 
 ╰ [1] ╭ Target: Java 
