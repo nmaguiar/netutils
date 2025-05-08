@@ -954,11 +954,11 @@
 │                       │      │                   disclosed to the public and may be used. The name of the
 │                       │      │                   patch is 2636426a091bd6c6f7f02e49ab20d4cdc6bfc753. It is
 │                       │      │                   recommended to apply a patch to fix this issue. 
-│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-119 
 │                       │      ├ VendorSeverity   ╭ photon: 3 
 │                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5 
@@ -1003,12 +1003,12 @@
 │                       │      │                   disclosed to the public and may be used. The name of the
 │                       │      │                   patch is b16f441cca0a4841050e3215a9f120a6d8aea918. It is
 │                       │      │                   recommended to apply a patch to fix this issue. 
-│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-404 
 │                       │      ├ VendorSeverity   ╭ azure : 1 
 │                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 2.5 
@@ -2418,60 +2418,117 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                       ╰ [51] ╭ VulnerabilityID : CVE-2021-39920 
-│                              ├ PkgID           : wireshark-common@4.2.6-1 
-│                              ├ PkgName         : wireshark-common 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&di
-│                              │                  │       stro=ubuntu-24.10 
-│                              │                  ╰ UID : 429c771d1ae7f1a6 
-│                              ├ InstalledVersion: 4.2.6-1 
+│                       ├ [51] ╭ VulnerabilityID : CVE-2021-39920 
+│                       │      ├ PkgID           : wireshark-common@4.2.6-1 
+│                       │      ├ PkgName         : wireshark-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&di
+│                       │      │                  │       stro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 429c771d1ae7f1a6 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:fcb2be7fbcdae9c836440c6aa56b13ca3628c6182a80
+│                       │      │                  │         9e1640237c6d7cefc67e 
+│                       │      │                  ╰ DiffID: sha256:68a82448323c23d402840b97852f062a62d4c92a9e3b
+│                       │      │                            4856496ec7540ede6ba0 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-39920 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: IPPUSB dissector crash 
+│                       │      ├ Description     : NULL pointer exception in the IPPUSB dissector in Wireshark
+│                       │      │                   3.4.0 to 3.4.9 allows denial of service via packet injection
+│                       │      │                    or crafted capture file 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-476 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 1 
+│                       │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P 
+│                       │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ├ V2Score : 5 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-39920 
+│                       │      │                  ├ [1]: https://gitlab.com/gitlab-org/cves/-/blob/master/2021/
+│                       │      │                  │      CVE-2021-39920.json 
+│                       │      │                  ├ [2]: https://gitlab.com/wireshark/wireshark/-/issues/17705 
+│                       │      │                  ├ [3]: https://lists.fedoraproject.org/archives/list/package-
+│                       │      │                  │      announce%40lists.fedoraproject.org/message/A6AJFIYIHS3
+│                       │      │                  │      TYDD2EBYBJ5KKE52X34BJ/ 
+│                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/package-
+│                       │      │                  │      announce%40lists.fedoraproject.org/message/YEWTIRMC2MF
+│                       │      │                  │      QBZ2O5M4CJHJM4JPBHLXH/ 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2021-39920 
+│                       │      │                  ├ [6]: https://security.gentoo.org/glsa/202210-04 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2021-39920 
+│                       │      │                  ├ [8]: https://www.debian.org/security/2021/dsa-5019 
+│                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
+│                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
+│                       ╰ [52] ╭ VulnerabilityID : CVE-2023-5574 
+│                              ├ PkgID           : x11-common@1:7.7+23ubuntu3 
+│                              ├ PkgName         : x11-common 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/x11-common@7.7%2B23ubuntu3?arch=all&di
+│                              │                  │       stro=ubuntu-24.10&epoch=1 
+│                              │                  ╰ UID : 23bfcb78d09a2f96 
+│                              ├ InstalledVersion: 1:7.7+23ubuntu3 
 │                              ├ Status          : affected 
 │                              ├ Layer            ╭ Digest: sha256:fcb2be7fbcdae9c836440c6aa56b13ca3628c6182a80
 │                              │                  │         9e1640237c6d7cefc67e 
 │                              │                  ╰ DiffID: sha256:68a82448323c23d402840b97852f062a62d4c92a9e3b
 │                              │                            4856496ec7540ede6ba0 
 │                              ├ SeveritySource  : ubuntu 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-39920 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-5574 
 │                              ├ DataSource       ╭ ID  : ubuntu 
 │                              │                  ├ Name: Ubuntu CVE Tracker 
 │                              │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                              ├ Title           : wireshark: IPPUSB dissector crash 
-│                              ├ Description     : NULL pointer exception in the IPPUSB dissector in Wireshark
-│                              │                   3.4.0 to 3.4.9 allows denial of service via packet injection
-│                              │                    or crafted capture file 
+│                              ├ Title           : xorg-x11-server: Use-after-free bug in DamageDestroy 
+│                              ├ Description     : A use-after-free flaw was found in xorg-x11-server-Xvfb.
+│                              │                   This issue occurs in Xvfb with a very specific and legacy
+│                              │                   configuration (a multi-screen setup with multiple protocol
+│                              │                   screens, also known as Zaphod mode). If the pointer is
+│                              │                   warped from a screen 1 to a screen 0, a use-after-free issue
+│                              │                    may be triggered during shutdown or reset of the Xvfb
+│                              │                   server, allowing for possible escalation of privileges or
+│                              │                   denial of service. 
 │                              ├ Severity        : LOW 
-│                              ├ CweIDs           ─ [0]: CWE-476 
-│                              ├ VendorSeverity   ╭ amazon     : 2 
+│                              ├ CweIDs           ─ [0]: CWE-416 
+│                              ├ VendorSeverity   ╭ alma       : 3 
+│                              │                  ├ amazon     : 3 
 │                              │                  ├ cbl-mariner: 3 
 │                              │                  ├ nvd        : 3 
-│                              │                  ├ photon     : 3 
-│                              │                  ├ redhat     : 2 
+│                              │                  ├ oracle-oval: 3 
+│                              │                  ├ redhat     : 3 
 │                              │                  ╰ ubuntu     : 1 
-│                              ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P 
-│                              │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                              ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H
 │                              │                  │        │           /A:H 
-│                              │                  │        ├ V2Score : 5 
-│                              │                  │        ╰ V3Score : 7.5 
-│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                              │                  │        ╰ V3Score : 7 
+│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H
 │                              │                           │           /A:H 
-│                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-39920 
-│                              │                  ├ [1]: https://gitlab.com/gitlab-org/cves/-/blob/master/2021/
-│                              │                  │      CVE-2021-39920.json 
-│                              │                  ├ [2]: https://gitlab.com/wireshark/wireshark/-/issues/17705 
-│                              │                  ├ [3]: https://lists.fedoraproject.org/archives/list/package-
-│                              │                  │      announce%40lists.fedoraproject.org/message/A6AJFIYIHS3
-│                              │                  │      TYDD2EBYBJ5KKE52X34BJ/ 
-│                              │                  ├ [4]: https://lists.fedoraproject.org/archives/list/package-
-│                              │                  │      announce%40lists.fedoraproject.org/message/YEWTIRMC2MF
-│                              │                  │      QBZ2O5M4CJHJM4JPBHLXH/ 
-│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2021-39920 
-│                              │                  ├ [6]: https://security.gentoo.org/glsa/202210-04 
-│                              │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2021-39920 
-│                              │                  ├ [8]: https://www.debian.org/security/2021/dsa-5019 
-│                              │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
-│                              ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
-│                              ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
+│                              │                           ╰ V3Score : 7 
+│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:2298 
+│                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-5574 
+│                              │                  ├ [2] : https://bugzilla.redhat.com/2244735 
+│                              │                  ├ [3] : https://bugzilla.redhat.com/2244736 
+│                              │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2244735 
+│                              │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-2298.html 
+│                              │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-5574.html 
+│                              │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-2298.html 
+│                              │                  ├ [8] : https://lists.x.org/archives/xorg-announce/2023-Octob
+│                              │                  │       er/003430.html 
+│                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-5574 
+│                              │                  ├ [10]: https://security.netapp.com/advisory/ntap-20231130-00
+│                              │                  │       04/ 
+│                              │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-5574 
+│                              ├ PublishedDate   : 2023-10-25T20:15:18.717Z 
+│                              ╰ LastModifiedDate: 2024-11-21T08:42:02.79Z 
 ├ [1] ╭ Target: Java 
 │     ├ Class : lang-pkgs 
 │     ╰ Type  : jar 
