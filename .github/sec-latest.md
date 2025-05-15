@@ -253,16 +253,17 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-52616 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
-│                       │      │                  ├ [2]: https://github.com/avahi/avahi/issues/254#issuecomment
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7437 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52616 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
+│                       │      │                  ├ [3]: https://github.com/avahi/avahi/issues/254#issuecomment
 │                       │      │                  │      -2480519212 
-│                       │      │                  ├ [3]: https://github.com/avahi/avahi/security/advisories/GHS
+│                       │      │                  ├ [4]: https://github.com/avahi/avahi/security/advisories/GHS
 │                       │      │                  │      A-r9j3-vjjh-p8vm 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
 │                       │      ├ PublishedDate   : 2024-11-21T21:15:24.14Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T21:15:24.14Z 
+│                       │      ╰ LastModifiedDate: 2025-05-14T00:15:17.52Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2024-52615 
 │                       │      ├ PkgID           : libavahi-common-data@0.8-13ubuntu6 
 │                       │      ├ PkgName         : libavahi-common-data 
@@ -336,16 +337,17 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-52616 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
-│                       │      │                  ├ [2]: https://github.com/avahi/avahi/issues/254#issuecomment
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7437 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52616 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
+│                       │      │                  ├ [3]: https://github.com/avahi/avahi/issues/254#issuecomment
 │                       │      │                  │      -2480519212 
-│                       │      │                  ├ [3]: https://github.com/avahi/avahi/security/advisories/GHS
+│                       │      │                  ├ [4]: https://github.com/avahi/avahi/security/advisories/GHS
 │                       │      │                  │      A-r9j3-vjjh-p8vm 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
 │                       │      ├ PublishedDate   : 2024-11-21T21:15:24.14Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T21:15:24.14Z 
+│                       │      ╰ LastModifiedDate: 2025-05-14T00:15:17.52Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2024-52615 
 │                       │      ├ PkgID           : libavahi-common3@0.8-13ubuntu6 
 │                       │      ├ PkgName         : libavahi-common3 
@@ -419,16 +421,17 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-52616 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
-│                       │      │                  ├ [2]: https://github.com/avahi/avahi/issues/254#issuecomment
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7437 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52616 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
+│                       │      │                  ├ [3]: https://github.com/avahi/avahi/issues/254#issuecomment
 │                       │      │                  │      -2480519212 
-│                       │      │                  ├ [3]: https://github.com/avahi/avahi/security/advisories/GHS
+│                       │      │                  ├ [4]: https://github.com/avahi/avahi/security/advisories/GHS
 │                       │      │                  │      A-r9j3-vjjh-p8vm 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
 │                       │      ├ PublishedDate   : 2024-11-21T21:15:24.14Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T21:15:24.14Z 
+│                       │      ╰ LastModifiedDate: 2025-05-14T00:15:17.52Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2025-29481 
 │                       │      ├ PkgID           : libbpf1@1:1.4.5-1 
 │                       │      ├ PkgName         : libbpf1 
@@ -918,7 +921,8 @@
 │                       │      │                   recommended to apply a patch to fix this issue. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-119 
-│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L
@@ -1606,7 +1610,8 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ╭ [0]: CWE-190 
 │                       │      │                  ╰ [1]: CWE-400 
-│                       │      ├ VendorSeverity   ╭ bitnami: 3 
+│                       │      ├ VendorSeverity   ╭ amazon : 2 
+│                       │      │                  ├ bitnami: 3 
 │                       │      │                  ├ photon : 3 
 │                       │      │                  ├ redhat : 2 
 │                       │      │                  ╰ ubuntu : 2 
