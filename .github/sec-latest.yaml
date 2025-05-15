@@ -249,6 +249,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:7437
     - https://access.redhat.com/security/cve/CVE-2024-52616
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326429
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
@@ -256,7 +257,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52616
     - https://www.cve.org/CVERecord?id=CVE-2024-52616
     PublishedDate: '2024-11-21T21:15:24.14Z'
-    LastModifiedDate: '2024-11-21T21:15:24.14Z'
+    LastModifiedDate: '2025-05-14T00:15:17.52Z'
   - VulnerabilityID: CVE-2024-52615
     PkgID: libavahi-common-data@0.8-13ubuntu6
     PkgName: libavahi-common-data
@@ -329,6 +330,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:7437
     - https://access.redhat.com/security/cve/CVE-2024-52616
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326429
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
@@ -336,7 +338,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52616
     - https://www.cve.org/CVERecord?id=CVE-2024-52616
     PublishedDate: '2024-11-21T21:15:24.14Z'
-    LastModifiedDate: '2024-11-21T21:15:24.14Z'
+    LastModifiedDate: '2025-05-14T00:15:17.52Z'
   - VulnerabilityID: CVE-2024-52615
     PkgID: libavahi-common3@0.8-13ubuntu6
     PkgName: libavahi-common3
@@ -409,6 +411,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:7437
     - https://access.redhat.com/security/cve/CVE-2024-52616
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326429
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
@@ -416,7 +419,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52616
     - https://www.cve.org/CVERecord?id=CVE-2024-52616
     PublishedDate: '2024-11-21T21:15:24.14Z'
-    LastModifiedDate: '2024-11-21T21:15:24.14Z'
+    LastModifiedDate: '2025-05-14T00:15:17.52Z'
   - VulnerabilityID: CVE-2025-29481
     PkgID: libbpf1@1:1.4.5-1
     PkgName: libbpf1
@@ -882,6 +885,7 @@
     CweIDs:
     - CWE-119
     VendorSeverity:
+      amazon: 2
       photon: 3
       redhat: 2
       ubuntu: 1
@@ -1525,6 +1529,7 @@
     - CWE-190
     - CWE-400
     VendorSeverity:
+      amazon: 2
       bitnami: 3
       photon: 3
       redhat: 2
