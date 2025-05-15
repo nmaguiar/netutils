@@ -29,7 +29,8 @@
 │                       │     ├ Severity        : HIGH 
 │                       │     ├ CweIDs           ╭ [0]: CWE-393 
 │                       │     │                  ╰ [1]: CWE-252 
-│                       │     ├ VendorSeverity   ╭ nvd   : 3 
+│                       │     ├ VendorSeverity   ╭ amazon: 2 
+│                       │     │                  ├ nvd   : 3 
 │                       │     │                  ├ photon: 3 
 │                       │     │                  ├ redhat: 2 
 │                       │     │                  ╰ ubuntu: 2 
@@ -74,7 +75,8 @@
 │                             ├ Severity        : HIGH 
 │                             ├ CweIDs           ╭ [0]: CWE-1284 
 │                             │                  ╰ [1]: CWE-125 
-│                             ├ VendorSeverity   ╭ nvd   : 3 
+│                             ├ VendorSeverity   ╭ amazon: 2 
+│                             │                  ├ nvd   : 3 
 │                             │                  ├ photon: 1 
 │                             │                  ├ redhat: 1 
 │                             │                  ╰ ubuntu: 2 
