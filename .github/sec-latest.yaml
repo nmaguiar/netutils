@@ -1881,6 +1881,44 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2024-12-26T09:15:07.267Z'
+  - VulnerabilityID: CVE-2025-46836
+    PkgID: net-tools@2.10-1.1ubuntu1
+    PkgName: net-tools
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/net-tools@2.10-1.1ubuntu1?arch=amd64&distro=ubuntu-24.10
+      UID: f64ded68fb2c0511
+    InstalledVersion: 2.10-1.1ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:fcb2be7fbcdae9c836440c6aa56b13ca3628c6182a809e1640237c6d7cefc67e
+      DiffID: sha256:68a82448323c23d402840b97852f062a62d4c92a9e3b4856496ec7540ede6ba0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-46836
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'net-tools: net-tools Stack Buffer Overflow'
+    Description: net-tools is a collection of programs that form the base set of the NET-3 networking distribution for the Linux operating system. Inn versions up to and including 2.10, the Linux network utilities (like ifconfig) from the net-tools package do not properly validate the structure of /proc files when showing interfaces. `get_name()` in `interface.c` copies interface labels from `/proc/net/dev` into a fixed 16-byte stack buffer without bounds checking, leading to possible arbitrary code execution or crash. The known attack path does not require privilege but also does not provide privilege escalation in this scenario. A patch is available and expected to be part of version 2.20.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-20
+    - CWE-121
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:H
+        V3Score: 6.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-46836
+    - https://github.com/ecki/net-tools/commit/7a8f42fb20013a1493d8cae1c43436f85e656f2d
+    - https://github.com/ecki/net-tools/security/advisories/GHSA-pfwf-h6m3-63wf
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-46836
+    - https://www.cve.org/CVERecord?id=CVE-2025-46836
+    PublishedDate: '2025-05-14T23:15:48.073Z'
+    LastModifiedDate: '2025-05-16T14:43:26.16Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: openssl@3.3.1-2ubuntu2.1
     PkgName: openssl
