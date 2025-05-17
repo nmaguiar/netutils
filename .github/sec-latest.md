@@ -1993,7 +1993,54 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2024-41996 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2025-46836 
+│                       │      ├ PkgID           : net-tools@2.10-1.1ubuntu1 
+│                       │      ├ PkgName         : net-tools 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/net-tools@2.10-1.1ubuntu1?arch=amd64&d
+│                       │      │                  │       istro=ubuntu-24.10 
+│                       │      │                  ╰ UID : f64ded68fb2c0511 
+│                       │      ├ InstalledVersion: 2.10-1.1ubuntu1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:fcb2be7fbcdae9c836440c6aa56b13ca3628c6182a80
+│                       │      │                  │         9e1640237c6d7cefc67e 
+│                       │      │                  ╰ DiffID: sha256:68a82448323c23d402840b97852f062a62d4c92a9e3b
+│                       │      │                            4856496ec7540ede6ba0 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-46836 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : net-tools: net-tools Stack Buffer Overflow 
+│                       │      ├ Description     : net-tools is a collection of programs that form the base set
+│                       │      │                    of the NET-3 networking distribution for the Linux
+│                       │      │                   operating system. Inn versions up to and including 2.10, the
+│                       │      │                    Linux network utilities (like ifconfig) from the net-tools
+│                       │      │                   package do not properly validate the structure of /proc
+│                       │      │                   files when showing interfaces. `get_name()` in `interface.c`
+│                       │      │                    copies interface labels from `/proc/net/dev` into a fixed
+│                       │      │                   16-byte stack buffer without bounds checking, leading to
+│                       │      │                   possible arbitrary code execution or crash. The known attack
+│                       │      │                    path does not require privilege but also does not provide
+│                       │      │                   privilege escalation in this scenario. A patch is available
+│                       │      │                   and expected to be part of version 2.20. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-20 
+│                       │      │                  ╰ [1]: CWE-121 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.6 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-46836 
+│                       │      │                  ├ [1]: https://github.com/ecki/net-tools/commit/7a8f42fb20013
+│                       │      │                  │      a1493d8cae1c43436f85e656f2d 
+│                       │      │                  ├ [2]: https://github.com/ecki/net-tools/security/advisories/
+│                       │      │                  │      GHSA-pfwf-h6m3-63wf 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-46836 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-46836 
+│                       │      ├ PublishedDate   : 2025-05-14T23:15:48.073Z 
+│                       │      ╰ LastModifiedDate: 2025-05-16T14:43:26.16Z 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2024-41996 
 │                       │      ├ PkgID           : openssl@3.3.1-2ubuntu2.1 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.3.1-2ubuntu2.1?arch=amd64&di
@@ -2043,7 +2090,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                       │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                       │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.15.3-3ubuntu2 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.15.3-3ubuntu2?arch=amd64&dist
@@ -2091,7 +2138,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2025-43859 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2025-43859 
 │                       │      ├ PkgID           : python3-h11@0.14.0-1 
 │                       │      ├ PkgName         : python3-h11 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3-h11@0.14.0-1?arch=all&distro=u
@@ -2140,7 +2187,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-43859 
 │                       │      ├ PublishedDate   : 2025-04-24T19:15:47.06Z 
 │                       │      ╰ LastModifiedDate: 2025-04-29T13:52:28.49Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : tshark@4.2.6-1 
 │                       │      ├ PkgName         : tshark 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.2.6-1?arch=amd64&distro=ubunt
@@ -2194,7 +2241,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.24.5-1ubuntu2 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.24.5-1ubuntu2?arch=amd64&distro
@@ -2240,7 +2287,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : wireshark-common@4.2.6-1 
 │                       │      ├ PkgName         : wireshark-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&di
@@ -2294,7 +2341,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ╰ [47] ╭ VulnerabilityID : CVE-2023-5574 
+│                       ╰ [48] ╭ VulnerabilityID : CVE-2023-5574 
 │                              ├ PkgID           : x11-common@1:7.7+23ubuntu3 
 │                              ├ PkgName         : x11-common 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/x11-common@7.7%2B23ubuntu3?arch=all&di
