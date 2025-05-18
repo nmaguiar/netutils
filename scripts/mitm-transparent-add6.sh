@@ -8,9 +8,11 @@ if [ "$#" -lt 1 ]; then
     exit 1
 fi
 
+MITM_PORT="${MITM_PORT:-8080}"
+
 # Redirect the traffic to the proxy
 if [ "$#" -eq 2 ]; then
-    sudo ip6tables -t nat -A OUTPUT -p tcp -d $2 --dport $1 -j DNAT --to-destination [::1]:8080
+    sudo ip6tables -t nat -A OUTPUT -p tcp -d $2 --dport $1 -j DNAT --to-destination [::1]:$MITM_PORT
 else
-    sudo ip6tables -t nat -A OUTPUT -p tcp --dport $1 -j DNAT --to-destination [::1]:8080
+    sudo ip6tables -t nat -A OUTPUT -p tcp --dport $1 -j DNAT --to-destination [::1]:$MITM_PORT
 fi

@@ -3,6 +3,9 @@
 # Usage: mitm-transparent-clean.sh
 # Example: mitm-transparent-clean.sh 443
 
+# MITM_PORT is defined for consistency with related scripts, though not used here.
+MITM_PORT="${MITM_PORT:-8080}"
+
 if [ "$#" -ne 1 ]; then
     echo "Usage: mitm-transparent-clean.sh <port> [<host>]"
     exit 1
