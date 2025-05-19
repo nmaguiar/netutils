@@ -63,7 +63,7 @@ You can run mitmproxy in transparent mode using the helper scripts in the `scrip
 1. **Set up the iptables bypass chain** so that mitmproxy’s own traffic isn’t re-intercepted:
 
 ```bash
-./scripts/mitm-transparent-set.sh
+mitm-transparent-set.sh
 ```
 
 2. **Redirect traffic to the transparent proxy** (choose one):
@@ -71,31 +71,31 @@ You can run mitmproxy in transparent mode using the helper scripts in the `scrip
 - Outgoing IPv4 TCP:
 
 ```bash
-./scripts/mitm-transparent-add.sh <port> [<host>]
+mitm-transparent-add.sh <port> [<host>]
 ```
 
 - Outgoing IPv6 TCP:
 
 ```bash
-./scripts/mitm-transparent-add6.sh <port> [<host>]
+mitm-transparent-add6.sh <port> [<host>]
 ```
 
 - Incoming IPv4 on `eth0`:
 
 ```bash
-./scripts/mitm-transparent-add-incoming.sh <port> [<host>]
+mitm-transparent-add-incoming.sh <port> [<host>]
 ```
 
 - Incoming IPv6 on `eth0`:
 
 ```bash
-./scripts/mitm-transparent-add6-incoming.sh <port> [<host>]
+mitm-transparent-add6-incoming.sh <port> [<host>]
 ```
 
 3. **Start mitmproxy in transparent mode** (runs as user `mitm`, default port `8080`):
 
 ```bash
-./scripts/mitm-transparent-start.sh
+mitm-transparent-start.sh
 ```
 
 4. **Remove individual redirection rules** when done:
@@ -103,10 +103,10 @@ You can run mitmproxy in transparent mode using the helper scripts in the `scrip
 Use one or more of the following:
 
 ```bash
-./scripts/mitm-transparent-clean.sh <port> [<host>]
-./scripts/mitm-transparent-clean6.sh <port> [<host>]
-./scripts/mitm-transparent-clean-incoming.sh <port> [<host>]
-./scripts/mitm-transparent-clean6-incoming.sh <port> [<host>]
+mitm-transparent-clean.sh <port> [<host>]
+mitm-transparent-clean6.sh <port> [<host>]
+mitm-transparent-clean-incoming.sh <port> [<host>]
+mitm-transparent-clean6-incoming.sh <port> [<host>]
 ```
 
 OR simply,
@@ -114,5 +114,5 @@ OR simply,
 5. **Clean up all mitmproxy iptables chains** (bypass, NAT, etc.):
 
 ```bash
-./scripts/mitm-transparent-cleanall.sh
+mitm-transparent-cleanall.sh
 ```
