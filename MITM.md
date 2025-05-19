@@ -1,6 +1,6 @@
 # mitmproxy
 
-## Copying the CA certificate
+## 🔐 Copying the CA certificate
 
 ### IOS, Android, Windows or Mac
 
@@ -36,7 +36,7 @@ You can retrieve these files using OpenAF's oJob _ojob.io/docker/expand_ to extr
 
 Check also: https://docs.mitmproxy.org/stable/concepts-certificates/#installing-the-mitmproxy-ca-certificate-manually
 
-## Usage
+## ⚙️  Usage
 
 There are [several modes](https://docs.mitmproxy.org/stable/concepts-modes/) of operation for mitmproxy. The default is to act as a HTTP/HTTPS proxy for which you should check, before or after starting, the previous chapter to understand how to setup the generated ca-certificate. Keep in mind that it will be regenerated each time this container restarts.
 
@@ -55,3 +55,64 @@ Execute ```mitmproxy``` directly on this container.
 
 1. Expose this container port 8081 (which might require restart)
 2. Execute ```mitmweb --web-host 0.0.0.0```
+
+### Transparent Mode Helper Scripts
+
+You can run mitmproxy in transparent mode using the helper scripts in the `scripts/` directory:
+
+1. **Set up the iptables bypass chain** so that mitmproxy’s own traffic isn’t re-intercepted:
+
+```bash
+./scripts/mitm-transparent-set.sh
+```
+
+2. **Redirect traffic to the transparent proxy** (choose one):
+
+- Outgoing IPv4 TCP:
+
+```bash
+./scripts/mitm-transparent-add.sh <port> [<host>]
+```
+
+- Outgoing IPv6 TCP:
+
+```bash
+./scripts/mitm-transparent-add6.sh <port> [<host>]
+```
+
+- Incoming IPv4 on `eth0`:
+
+```bash
+./scripts/mitm-transparent-add-incoming.sh <port> [<host>]
+```
+
+- Incoming IPv6 on `eth0`:
+
+```bash
+./scripts/mitm-transparent-add6-incoming.sh <port> [<host>]
+```
+
+3. **Start mitmproxy in transparent mode** (runs as user `mitm`, default port `8080`):
+
+```bash
+./scripts/mitm-transparent-start.sh
+```
+
+4. **Remove individual redirection rules** when done:
+
+Use one or more of the following:
+
+```bash
+./scripts/mitm-transparent-clean.sh <port> [<host>]
+./scripts/mitm-transparent-clean6.sh <port> [<host>]
+./scripts/mitm-transparent-clean-incoming.sh <port> [<host>]
+./scripts/mitm-transparent-clean6-incoming.sh <port> [<host>]
+```
+
+OR simply,
+
+5. **Clean up all mitmproxy iptables chains** (bypass, NAT, etc.):
+
+```bash
+./scripts/mitm-transparent-cleanall.sh
+```
