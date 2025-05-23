@@ -167,6 +167,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L
@@ -175,9 +176,11 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-52949 
 │                       │      │                  ├ [1]: https://github.com/iptraf-ng/iptraf-ng/releases/tag/v1
 │                       │      │                  │      .2.1 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-52949 
-│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-52949 
-│                       │      │                  ╰ [4]: https://www.gruppotim.it/it/footer/red-team.html 
+│                       │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-52949.html 
+│                       │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2025-7064.html 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-52949 
+│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2024-52949 
+│                       │      │                  ╰ [6]: https://www.gruppotim.it/it/footer/red-team.html 
 │                       │      ├ PublishedDate   : 2024-12-16T22:15:06.863Z 
 │                       │      ╰ LastModifiedDate: 2025-01-29T09:15:07.317Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2024-52615 
@@ -245,7 +248,8 @@
 │                       │      │                   attackers to guess transaction IDs. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-334 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -255,13 +259,15 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7437 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52616 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
-│                       │      │                  ├ [3]: https://github.com/avahi/avahi/issues/254#issuecomment
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2326429 
+│                       │      │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
+│                       │      │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2025-7437.html 
+│                       │      │                  ├ [5]: https://github.com/avahi/avahi/issues/254#issuecomment
 │                       │      │                  │      -2480519212 
-│                       │      │                  ├ [4]: https://github.com/avahi/avahi/security/advisories/GHS
+│                       │      │                  ├ [6]: https://github.com/avahi/avahi/security/advisories/GHS
 │                       │      │                  │      A-r9j3-vjjh-p8vm 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
 │                       │      ├ PublishedDate   : 2024-11-21T21:15:24.14Z 
 │                       │      ╰ LastModifiedDate: 2025-05-14T00:15:17.52Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2024-52615 
@@ -329,7 +335,8 @@
 │                       │      │                   attackers to guess transaction IDs. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-334 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -339,13 +346,15 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7437 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52616 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
-│                       │      │                  ├ [3]: https://github.com/avahi/avahi/issues/254#issuecomment
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2326429 
+│                       │      │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
+│                       │      │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2025-7437.html 
+│                       │      │                  ├ [5]: https://github.com/avahi/avahi/issues/254#issuecomment
 │                       │      │                  │      -2480519212 
-│                       │      │                  ├ [4]: https://github.com/avahi/avahi/security/advisories/GHS
+│                       │      │                  ├ [6]: https://github.com/avahi/avahi/security/advisories/GHS
 │                       │      │                  │      A-r9j3-vjjh-p8vm 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
 │                       │      ├ PublishedDate   : 2024-11-21T21:15:24.14Z 
 │                       │      ╰ LastModifiedDate: 2025-05-14T00:15:17.52Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2024-52615 
@@ -413,7 +422,8 @@
 │                       │      │                   attackers to guess transaction IDs. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-334 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -423,13 +433,15 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7437 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52616 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
-│                       │      │                  ├ [3]: https://github.com/avahi/avahi/issues/254#issuecomment
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2326429 
+│                       │      │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
+│                       │      │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2025-7437.html 
+│                       │      │                  ├ [5]: https://github.com/avahi/avahi/issues/254#issuecomment
 │                       │      │                  │      -2480519212 
-│                       │      │                  ├ [4]: https://github.com/avahi/avahi/security/advisories/GHS
+│                       │      │                  ├ [6]: https://github.com/avahi/avahi/security/advisories/GHS
 │                       │      │                  │      A-r9j3-vjjh-p8vm 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
 │                       │      ├ PublishedDate   : 2024-11-21T21:15:24.14Z 
 │                       │      ╰ LastModifiedDate: 2025-05-14T00:15:17.52Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2025-29481 
@@ -1667,11 +1679,11 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 7.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:4459 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7433 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-3277 
 │                       │      │                  ├ [2]: https://bugzilla.redhat.com/2358271 
 │                       │      │                  ├ [3]: https://bugzilla.redhat.com/2359553 
-│                       │      │                  ├ [4]: https://errata.almalinux.org/8/ALSA-2025-4459.html 
+│                       │      │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2025-7433.html 
 │                       │      │                  ├ [5]: https://linux.oracle.com/cve/CVE-2025-3277.html 
 │                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2025-4459.html 
 │                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-3277 
