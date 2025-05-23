@@ -48,52 +48,216 @@
 │                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32414 
 │                       │     ├ PublishedDate   : 2025-04-08T03:15:15.94Z 
 │                       │     ╰ LastModifiedDate: 2025-04-23T19:09:35.517Z 
-│                       ╰ [1] ╭ VulnerabilityID : CVE-2025-32415 
-│                             ├ PkgID           : libxml2@2.13.7-r1 
-│                             ├ PkgName         : libxml2 
-│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxml2@2.13.7-r1?arch=x86_64&distro=3.
-│                             │                  │       22.0_alpha20250108 
-│                             │                  ╰ UID : 9002eb5f953c114c 
-│                             ├ InstalledVersion: 2.13.7-r1 
-│                             ├ FixedVersion    : 2.13.8-r0 
+│                       ├ [1] ╭ VulnerabilityID : CVE-2025-32415 
+│                       │     ├ PkgID           : libxml2@2.13.7-r1 
+│                       │     ├ PkgName         : libxml2 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxml2@2.13.7-r1?arch=x86_64&distro=3.
+│                       │     │                  │       22.0_alpha20250108 
+│                       │     │                  ╰ UID : 9002eb5f953c114c 
+│                       │     ├ InstalledVersion: 2.13.7-r1 
+│                       │     ├ FixedVersion    : 2.13.8-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:c1ab0379ad68a5ce2cb85a007f81d6954a06c07b0309a
+│                       │     │                  │         c2b30964e44da39fc23 
+│                       │     │                  ╰ DiffID: sha256:f7f88401107c621c5e94004e356ecba2b6a261f147f06
+│                       │     │                            69ee29015c2945312bd 
+│                       │     ├ SeveritySource  : nvd 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32415 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : libxml2: Out-of-bounds Read in xmlSchemaIDCFillNodeTables 
+│                       │     ├ Description     : In libxml2 before 2.13.8 and 2.14.x before 2.14.2,
+│                       │     │                   xmlSchemaIDCFillNodeTables in xmlschemas.c has a heap-based
+│                       │     │                   buffer under-read. To exploit this, a crafted XML document
+│                       │     │                   must be validated against an XML schema with certain identity
+│                       │     │                    constraints, or a crafted XML schema must be used. 
+│                       │     ├ Severity        : HIGH 
+│                       │     ├ CweIDs           ╭ [0]: CWE-1284 
+│                       │     │                  ╰ [1]: CWE-125 
+│                       │     ├ VendorSeverity   ╭ amazon: 2 
+│                       │     │                  ├ nvd   : 3 
+│                       │     │                  ├ photon: 1 
+│                       │     │                  ├ redhat: 1 
+│                       │     │                  ╰ ubuntu: 2 
+│                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+│                       │     │                  │        │           A:H 
+│                       │     │                  │        ╰ V3Score : 7.5 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/
+│                       │     │                           │           A:L 
+│                       │     │                           ╰ V3Score : 2.9 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32415 
+│                       │     │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/890 
+│                       │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-32415 
+│                       │     │                  ├ [3]: https://ubuntu.com/security/notices/USN-7467-1 
+│                       │     │                  ├ [4]: https://ubuntu.com/security/notices/USN-7467-2 
+│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32415 
+│                       │     ├ PublishedDate   : 2025-04-17T17:15:33.733Z 
+│                       │     ╰ LastModifiedDate: 2025-04-23T18:17:52.053Z 
+│                       ├ [2] ╭ VulnerabilityID : CVE-2025-4516 
+│                       │     ├ PkgID           : pyc@3.12.10-r0 
+│                       │     ├ PkgName         : pyc 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.12.10-r0?arch=x86_64&distro=3.22.
+│                       │     │                  │       0_alpha20250108 
+│                       │     │                  ╰ UID : 6354bcd545dc10c4 
+│                       │     ├ InstalledVersion: 3.12.10-r0 
+│                       │     ├ FixedVersion    : 3.12.10-r1 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:c1ab0379ad68a5ce2cb85a007f81d6954a06c07b0309a
+│                       │     │                  │         c2b30964e44da39fc23 
+│                       │     │                  ╰ DiffID: sha256:f7f88401107c621c5e94004e356ecba2b6a261f147f06
+│                       │     │                            69ee29015c2945312bd 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4516 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : There is an issue in CPython when using
+│                       │     │                   `bytes.decode("unicode_escape" ... 
+│                       │     ├ Description     : There is an issue in CPython when using
+│                       │     │                   `bytes.decode("unicode_escape", error="ignore|replace")`. If
+│                       │     │                   you are not using the "unicode_escape" encoding or an error
+│                       │     │                   handler your usage is not affected. To work-around this issue
+│                       │     │                    you may stop using the error= handler and instead wrap the
+│                       │     │                   bytes.decode() call in a try-except catching the
+│                       │     │                   DecodeError. 
+│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ CweIDs           ─ [0]: CWE-416 
+│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/05/16/4 
+│                       │     │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/05/19/1 
+│                       │     │                  ├ [2]: https://github.com/python/cpython/commit/69b4387f78f413
+│                       │     │                  │      e8c47572a85b3478c47eba8142 
+│                       │     │                  ├ [3]: https://github.com/python/cpython/commit/9f69a58623bd01
+│                       │     │                  │      349a18ba0c7a9cb1dad6a51e8e 
+│                       │     │                  ├ [4]: https://github.com/python/cpython/issues/133767 
+│                       │     │                  ├ [5]: https://github.com/python/cpython/pull/129648 
+│                       │     │                  ├ [6]: https://mail.python.org/archives/list/security-announce
+│                       │     │                  │      @python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/ 
+│                       │     │                  ╰ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │     ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
+│                       │     ╰ LastModifiedDate: 2025-05-19T10:15:21.153Z 
+│                       ├ [3] ╭ VulnerabilityID : CVE-2025-4516 
+│                       │     ├ PkgID           : python3@3.12.10-r0 
+│                       │     ├ PkgName         : python3 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.12.10-r0?arch=x86_64&distro=3
+│                       │     │                  │       .22.0_alpha20250108 
+│                       │     │                  ╰ UID : b4c7d06519274261 
+│                       │     ├ InstalledVersion: 3.12.10-r0 
+│                       │     ├ FixedVersion    : 3.12.10-r1 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:c1ab0379ad68a5ce2cb85a007f81d6954a06c07b0309a
+│                       │     │                  │         c2b30964e44da39fc23 
+│                       │     │                  ╰ DiffID: sha256:f7f88401107c621c5e94004e356ecba2b6a261f147f06
+│                       │     │                            69ee29015c2945312bd 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4516 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : There is an issue in CPython when using
+│                       │     │                   `bytes.decode("unicode_escape" ... 
+│                       │     ├ Description     : There is an issue in CPython when using
+│                       │     │                   `bytes.decode("unicode_escape", error="ignore|replace")`. If
+│                       │     │                   you are not using the "unicode_escape" encoding or an error
+│                       │     │                   handler your usage is not affected. To work-around this issue
+│                       │     │                    you may stop using the error= handler and instead wrap the
+│                       │     │                   bytes.decode() call in a try-except catching the
+│                       │     │                   DecodeError. 
+│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ CweIDs           ─ [0]: CWE-416 
+│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/05/16/4 
+│                       │     │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/05/19/1 
+│                       │     │                  ├ [2]: https://github.com/python/cpython/commit/69b4387f78f413
+│                       │     │                  │      e8c47572a85b3478c47eba8142 
+│                       │     │                  ├ [3]: https://github.com/python/cpython/commit/9f69a58623bd01
+│                       │     │                  │      349a18ba0c7a9cb1dad6a51e8e 
+│                       │     │                  ├ [4]: https://github.com/python/cpython/issues/133767 
+│                       │     │                  ├ [5]: https://github.com/python/cpython/pull/129648 
+│                       │     │                  ├ [6]: https://mail.python.org/archives/list/security-announce
+│                       │     │                  │      @python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/ 
+│                       │     │                  ╰ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │     ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
+│                       │     ╰ LastModifiedDate: 2025-05-19T10:15:21.153Z 
+│                       ├ [4] ╭ VulnerabilityID : CVE-2025-4516 
+│                       │     ├ PkgID           : python3-pyc@3.12.10-r0 
+│                       │     ├ PkgName         : python3-pyc 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.12.10-r0?arch=x86_64&dist
+│                       │     │                  │       ro=3.22.0_alpha20250108 
+│                       │     │                  ╰ UID : bb3a06740bdf8061 
+│                       │     ├ InstalledVersion: 3.12.10-r0 
+│                       │     ├ FixedVersion    : 3.12.10-r1 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:c1ab0379ad68a5ce2cb85a007f81d6954a06c07b0309a
+│                       │     │                  │         c2b30964e44da39fc23 
+│                       │     │                  ╰ DiffID: sha256:f7f88401107c621c5e94004e356ecba2b6a261f147f06
+│                       │     │                            69ee29015c2945312bd 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4516 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : There is an issue in CPython when using
+│                       │     │                   `bytes.decode("unicode_escape" ... 
+│                       │     ├ Description     : There is an issue in CPython when using
+│                       │     │                   `bytes.decode("unicode_escape", error="ignore|replace")`. If
+│                       │     │                   you are not using the "unicode_escape" encoding or an error
+│                       │     │                   handler your usage is not affected. To work-around this issue
+│                       │     │                    you may stop using the error= handler and instead wrap the
+│                       │     │                   bytes.decode() call in a try-except catching the
+│                       │     │                   DecodeError. 
+│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ CweIDs           ─ [0]: CWE-416 
+│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/05/16/4 
+│                       │     │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/05/19/1 
+│                       │     │                  ├ [2]: https://github.com/python/cpython/commit/69b4387f78f413
+│                       │     │                  │      e8c47572a85b3478c47eba8142 
+│                       │     │                  ├ [3]: https://github.com/python/cpython/commit/9f69a58623bd01
+│                       │     │                  │      349a18ba0c7a9cb1dad6a51e8e 
+│                       │     │                  ├ [4]: https://github.com/python/cpython/issues/133767 
+│                       │     │                  ├ [5]: https://github.com/python/cpython/pull/129648 
+│                       │     │                  ├ [6]: https://mail.python.org/archives/list/security-announce
+│                       │     │                  │      @python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/ 
+│                       │     │                  ╰ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │     ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
+│                       │     ╰ LastModifiedDate: 2025-05-19T10:15:21.153Z 
+│                       ╰ [5] ╭ VulnerabilityID : CVE-2025-4516 
+│                             ├ PkgID           : python3-pycache-pyc0@3.12.10-r0 
+│                             ├ PkgName         : python3-pycache-pyc0 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.12.10-r0?arch=x8
+│                             │                  │       6_64&distro=3.22.0_alpha20250108 
+│                             │                  ╰ UID : b5e1467243065b12 
+│                             ├ InstalledVersion: 3.12.10-r0 
+│                             ├ FixedVersion    : 3.12.10-r1 
 │                             ├ Status          : fixed 
 │                             ├ Layer            ╭ Digest: sha256:c1ab0379ad68a5ce2cb85a007f81d6954a06c07b0309a
 │                             │                  │         c2b30964e44da39fc23 
 │                             │                  ╰ DiffID: sha256:f7f88401107c621c5e94004e356ecba2b6a261f147f06
 │                             │                            69ee29015c2945312bd 
-│                             ├ SeveritySource  : nvd 
-│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32415 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4516 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Title           : libxml2: Out-of-bounds Read in xmlSchemaIDCFillNodeTables 
-│                             ├ Description     : In libxml2 before 2.13.8 and 2.14.x before 2.14.2,
-│                             │                   xmlSchemaIDCFillNodeTables in xmlschemas.c has a heap-based
-│                             │                   buffer under-read. To exploit this, a crafted XML document
-│                             │                   must be validated against an XML schema with certain identity
-│                             │                    constraints, or a crafted XML schema must be used. 
-│                             ├ Severity        : HIGH 
-│                             ├ CweIDs           ╭ [0]: CWE-1284 
-│                             │                  ╰ [1]: CWE-125 
-│                             ├ VendorSeverity   ╭ amazon: 2 
-│                             │                  ├ nvd   : 3 
-│                             │                  ├ photon: 1 
-│                             │                  ├ redhat: 1 
-│                             │                  ╰ ubuntu: 2 
-│                             ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
-│                             │                  │        │           A:H 
-│                             │                  │        ╰ V3Score : 7.5 
-│                             │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/
-│                             │                           │           A:L 
-│                             │                           ╰ V3Score : 2.9 
-│                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32415 
-│                             │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/890 
-│                             │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-32415 
-│                             │                  ├ [3]: https://ubuntu.com/security/notices/USN-7467-1 
-│                             │                  ├ [4]: https://ubuntu.com/security/notices/USN-7467-2 
-│                             │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32415 
-│                             ├ PublishedDate   : 2025-04-17T17:15:33.733Z 
-│                             ╰ LastModifiedDate: 2025-04-23T18:17:52.053Z 
+│                             ├ Title           : There is an issue in CPython when using
+│                             │                   `bytes.decode("unicode_escape" ... 
+│                             ├ Description     : There is an issue in CPython when using
+│                             │                   `bytes.decode("unicode_escape", error="ignore|replace")`. If
+│                             │                   you are not using the "unicode_escape" encoding or an error
+│                             │                   handler your usage is not affected. To work-around this issue
+│                             │                    you may stop using the error= handler and instead wrap the
+│                             │                   bytes.decode() call in a try-except catching the
+│                             │                   DecodeError. 
+│                             ├ Severity        : UNKNOWN 
+│                             ├ CweIDs           ─ [0]: CWE-416 
+│                             ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/05/16/4 
+│                             │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/05/19/1 
+│                             │                  ├ [2]: https://github.com/python/cpython/commit/69b4387f78f413
+│                             │                  │      e8c47572a85b3478c47eba8142 
+│                             │                  ├ [3]: https://github.com/python/cpython/commit/9f69a58623bd01
+│                             │                  │      349a18ba0c7a9cb1dad6a51e8e 
+│                             │                  ├ [4]: https://github.com/python/cpython/issues/133767 
+│                             │                  ├ [5]: https://github.com/python/cpython/pull/129648 
+│                             │                  ├ [6]: https://mail.python.org/archives/list/security-announce
+│                             │                  │      @python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/ 
+│                             │                  ╰ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                             ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
+│                             ╰ LastModifiedDate: 2025-05-19T10:15:21.153Z 
 ╰ [1] ╭ Target: Java 
       ├ Class : lang-pkgs 
       ╰ Type  : jar 
