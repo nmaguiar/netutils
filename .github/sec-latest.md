@@ -252,22 +252,25 @@
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7437 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52616 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2326429 
-│                       │      │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
-│                       │      │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2025-7437.html 
-│                       │      │                  ├ [5]: https://github.com/avahi/avahi/issues/254#issuecomment
-│                       │      │                  │      -2480519212 
-│                       │      │                  ├ [6]: https://github.com/avahi/avahi/security/advisories/GHS
-│                       │      │                  │      A-r9j3-vjjh-p8vm 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7437 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52616 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2326429 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-7437.html 
+│                       │      │                  ├ [5] : https://github.com/avahi/avahi/issues/254#issuecommen
+│                       │      │                  │       t-2480519212 
+│                       │      │                  ├ [6] : https://github.com/avahi/avahi/security/advisories/GH
+│                       │      │                  │       SA-r9j3-vjjh-p8vm 
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-52616.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-7437.html 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
 │                       │      ├ PublishedDate   : 2024-11-21T21:15:24.14Z 
 │                       │      ╰ LastModifiedDate: 2025-05-14T00:15:17.52Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2024-52615 
@@ -339,22 +342,25 @@
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7437 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52616 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2326429 
-│                       │      │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
-│                       │      │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2025-7437.html 
-│                       │      │                  ├ [5]: https://github.com/avahi/avahi/issues/254#issuecomment
-│                       │      │                  │      -2480519212 
-│                       │      │                  ├ [6]: https://github.com/avahi/avahi/security/advisories/GHS
-│                       │      │                  │      A-r9j3-vjjh-p8vm 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7437 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52616 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2326429 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-7437.html 
+│                       │      │                  ├ [5] : https://github.com/avahi/avahi/issues/254#issuecommen
+│                       │      │                  │       t-2480519212 
+│                       │      │                  ├ [6] : https://github.com/avahi/avahi/security/advisories/GH
+│                       │      │                  │       SA-r9j3-vjjh-p8vm 
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-52616.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-7437.html 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
 │                       │      ├ PublishedDate   : 2024-11-21T21:15:24.14Z 
 │                       │      ╰ LastModifiedDate: 2025-05-14T00:15:17.52Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2024-52615 
@@ -426,22 +432,25 @@
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7437 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52616 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2326429 
-│                       │      │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
-│                       │      │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2025-7437.html 
-│                       │      │                  ├ [5]: https://github.com/avahi/avahi/issues/254#issuecomment
-│                       │      │                  │      -2480519212 
-│                       │      │                  ├ [6]: https://github.com/avahi/avahi/security/advisories/GHS
-│                       │      │                  │      A-r9j3-vjjh-p8vm 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7437 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52616 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2326429 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-7437.html 
+│                       │      │                  ├ [5] : https://github.com/avahi/avahi/issues/254#issuecommen
+│                       │      │                  │       t-2480519212 
+│                       │      │                  ├ [6] : https://github.com/avahi/avahi/security/advisories/GH
+│                       │      │                  │       SA-r9j3-vjjh-p8vm 
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-52616.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-7437.html 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
 │                       │      ├ PublishedDate   : 2024-11-21T21:15:24.14Z 
 │                       │      ╰ LastModifiedDate: 2025-05-14T00:15:17.52Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2025-29481 
@@ -1554,7 +1563,8 @@
 │                       │      │                  │       o=ubuntu-24.10 
 │                       │      │                  ╰ UID : d47783a0d6415972 
 │                       │      ├ InstalledVersion: 3.46.1-1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 3.46.1-1ubuntu0.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:fcb2be7fbcdae9c836440c6aa56b13ca3628c6182a80
 │                       │      │                  │         9e1640237c6d7cefc67e 
 │                       │      │                  ╰ DiffID: sha256:68a82448323c23d402840b97852f062a62d4c92a9e3b
@@ -1592,8 +1602,9 @@
 │                       │      │                  │      29f04a0afd62a 
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-29087 
 │                       │      │                  ├ [3]: https://sqlite.org/releaselog/3_49_1.html 
-│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-29087 
-│                       │      │                  ╰ [5]: https://www.sqlite.org/cves.html 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7528-1 
+│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-29087 
+│                       │      │                  ╰ [6]: https://www.sqlite.org/cves.html 
 │                       │      ├ PublishedDate   : 2025-04-07T20:15:20.253Z 
 │                       │      ╰ LastModifiedDate: 2025-04-30T12:43:22.31Z 
 │                       ├ [33] ╭ VulnerabilityID : CVE-2025-29088 
@@ -1603,7 +1614,8 @@
 │                       │      │                  │       o=ubuntu-24.10 
 │                       │      │                  ╰ UID : d47783a0d6415972 
 │                       │      ├ InstalledVersion: 3.46.1-1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 3.46.1-1ubuntu0.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:fcb2be7fbcdae9c836440c6aa56b13ca3628c6182a80
 │                       │      │                  │         9e1640237c6d7cefc67e 
 │                       │      │                  ╰ DiffID: sha256:68a82448323c23d402840b97852f062a62d4c92a9e3b
@@ -1641,8 +1653,9 @@
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-29088 
 │                       │      │                  ├ [4]: https://sqlite.org/forum/forumpost/48f365daec 
 │                       │      │                  ├ [5]: https://sqlite.org/releaselog/3_49_1.html 
-│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-29088 
-│                       │      │                  ╰ [7]: https://www.sqlite.org/cves.html 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7528-1 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-29088 
+│                       │      │                  ╰ [8]: https://www.sqlite.org/cves.html 
 │                       │      ├ PublishedDate   : 2025-04-10T14:15:27.163Z 
 │                       │      ╰ LastModifiedDate: 2025-04-30T16:40:41.543Z 
 │                       ├ [34] ╭ VulnerabilityID : CVE-2025-3277 
@@ -1652,7 +1665,8 @@
 │                       │      │                  │       o=ubuntu-24.10 
 │                       │      │                  ╰ UID : d47783a0d6415972 
 │                       │      ├ InstalledVersion: 3.46.1-1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 3.46.1-1ubuntu0.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:fcb2be7fbcdae9c836440c6aa56b13ca3628c6182a80
 │                       │      │                  │         9e1640237c6d7cefc67e 
 │                       │      │                  ╰ DiffID: sha256:68a82448323c23d402840b97852f062a62d4c92a9e3b
@@ -1679,16 +1693,17 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 7.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7433 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-3277 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2358271 
-│                       │      │                  ├ [3]: https://bugzilla.redhat.com/2359553 
-│                       │      │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2025-7433.html 
-│                       │      │                  ├ [5]: https://linux.oracle.com/cve/CVE-2025-3277.html 
-│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2025-4459.html 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-3277 
-│                       │      │                  ├ [8]: https://sqlite.org/src/info/498e3f1cf57f164f 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-3277 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7433 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-3277 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2358271 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2359553 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-7433.html 
+│                       │      │                  ├ [5] : https://linux.oracle.com/cve/CVE-2025-3277.html 
+│                       │      │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-7433.html 
+│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2025-3277 
+│                       │      │                  ├ [8] : https://sqlite.org/src/info/498e3f1cf57f164f 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7528-1 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-3277 
 │                       │      ├ PublishedDate   : 2025-04-14T17:15:27.297Z 
 │                       │      ╰ LastModifiedDate: 2025-04-15T18:39:27.967Z 
 │                       ├ [35] ╭ VulnerabilityID : CVE-2024-41996 
