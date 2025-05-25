@@ -68,6 +68,8 @@ mitm-transparent-set.sh
 
 2. **Redirect traffic to the transparent proxy** (choose one):
 
+> If you need to redirect port 8080 and since this is the port used by mitmproxy you can set the environment variable MITM_PORT to a different port to avoid the collision.
+
 - Outgoing IPv4 TCP:
 
 ```bash
