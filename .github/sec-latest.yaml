@@ -93,6 +93,47 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-0167
     PublishedDate: '2025-02-05T10:15:22.71Z'
     LastModifiedDate: '2025-03-07T01:15:12.11Z'
+  - VulnerabilityID: CVE-2025-4373
+    PkgID: gir1.2-glib-2.0@2.82.1-0ubuntu1
+    PkgName: gir1.2-glib-2.0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gir1.2-glib-2.0@2.82.1-0ubuntu1?arch=amd64&distro=ubuntu-24.10
+      UID: 29b0179f5b6b896e
+    InstalledVersion: 2.82.1-0ubuntu1
+    FixedVersion: 2.82.1-0ubuntu1.1
+    Status: fixed
+    Layer:
+      Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc7667bc7d4c38e318aa8697
+      DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38f0948c50a245438ce2e3a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4373
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glib: Buffer Underflow on GLib through glib/gstring.c via function g_string_insert_unichar'
+    Description: A flaw was found in GLib, which is vulnerable to an integer overflow in the g_string_insert_unichar() function. When the position at which to insert the character is large, the position will overflow, leading to a buffer underwrite.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-124
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-4373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2364265
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3677
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4588
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4592
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4373
+    - https://ubuntu.com/security/notices/USN-7532-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4373
+    PublishedDate: '2025-05-06T15:16:05.32Z'
+    LastModifiedDate: '2025-05-07T14:13:20.483Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpgv@2.4.4-2ubuntu18.2
     PkgName: gpgv
@@ -1022,6 +1063,88 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2025-04-02T17:15:37.79Z'
+  - VulnerabilityID: CVE-2025-4373
+    PkgID: libglib2.0-0t64@2.82.1-0ubuntu1
+    PkgName: libglib2.0-0t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-0t64@2.82.1-0ubuntu1?arch=amd64&distro=ubuntu-24.10
+      UID: 256d5acf9416833e
+    InstalledVersion: 2.82.1-0ubuntu1
+    FixedVersion: 2.82.1-0ubuntu1.1
+    Status: fixed
+    Layer:
+      Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc7667bc7d4c38e318aa8697
+      DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38f0948c50a245438ce2e3a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4373
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glib: Buffer Underflow on GLib through glib/gstring.c via function g_string_insert_unichar'
+    Description: A flaw was found in GLib, which is vulnerable to an integer overflow in the g_string_insert_unichar() function. When the position at which to insert the character is large, the position will overflow, leading to a buffer underwrite.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-124
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-4373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2364265
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3677
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4588
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4592
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4373
+    - https://ubuntu.com/security/notices/USN-7532-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4373
+    PublishedDate: '2025-05-06T15:16:05.32Z'
+    LastModifiedDate: '2025-05-07T14:13:20.483Z'
+  - VulnerabilityID: CVE-2025-4373
+    PkgID: libglib2.0-data@2.82.1-0ubuntu1
+    PkgName: libglib2.0-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-data@2.82.1-0ubuntu1?arch=all&distro=ubuntu-24.10
+      UID: 6ed9fa72ce0b444d
+    InstalledVersion: 2.82.1-0ubuntu1
+    FixedVersion: 2.82.1-0ubuntu1.1
+    Status: fixed
+    Layer:
+      Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc7667bc7d4c38e318aa8697
+      DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38f0948c50a245438ce2e3a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4373
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glib: Buffer Underflow on GLib through glib/gstring.c via function g_string_insert_unichar'
+    Description: A flaw was found in GLib, which is vulnerable to an integer overflow in the g_string_insert_unichar() function. When the position at which to insert the character is large, the position will overflow, leading to a buffer underwrite.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-124
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-4373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2364265
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3677
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4588
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4592
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4373
+    - https://ubuntu.com/security/notices/USN-7532-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4373
+    PublishedDate: '2025-05-06T15:16:05.32Z'
+    LastModifiedDate: '2025-05-07T14:13:20.483Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-modules@1.5.3-7ubuntu2
     PkgName: libpam-modules
@@ -1045,7 +1168,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -1062,11 +1185,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1115,12 +1239,13 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1151,7 +1276,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -1168,11 +1293,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1221,12 +1347,13 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1257,7 +1384,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -1274,11 +1401,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1327,12 +1455,13 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1363,7 +1492,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -1380,11 +1509,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1433,12 +1563,13 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
