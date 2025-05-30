@@ -1771,7 +1771,251 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                       │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                       │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2024-11595 
+│                       │      ├ PkgID           : libwireshark-data@4.2.6-1 
+│                       │      ├ PkgName         : libwireshark-data 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.2.6-1?arch=all&dis
+│                       │      │                  │       tro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 17fcec3834d0944f 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11595 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Loop with Unreachable Exit Condition ('Infinite
+│                       │      │                   Loop') in Wireshark 
+│                       │      ├ Description     : FiveCo RAP dissector infinite loop in Wireshark 4.4.0 to
+│                       │      │                   4.4.1 and 4.2.0 to 4.2.8 allows denial of service via packet
+│                       │      │                    injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-835 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11595 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20176 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-11595 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-11595 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-14.html 
+│                       │      ├ PublishedDate   : 2024-11-21T11:15:32.82Z 
+│                       │      ╰ LastModifiedDate: 2025-05-07T16:52:44.627Z 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2024-11596 
+│                       │      ├ PkgID           : libwireshark-data@4.2.6-1 
+│                       │      ├ PkgName         : libwireshark-data 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.2.6-1?arch=all&dis
+│                       │      │                  │       tro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 17fcec3834d0944f 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11596 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Buffer Over-read in Wireshark 
+│                       │      ├ Description     : ECMP dissector crash in Wireshark 4.4.0 to 4.4.1 and 4.2.0
+│                       │      │                   to 4.2.8 allows denial of service via packet injection or
+│                       │      │                   crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-126 
+│                       │      │                  ╰ [1]: CWE-125 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11596 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20214 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-11596 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-11596 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-15.html 
+│                       │      ├ PublishedDate   : 2024-11-21T11:15:33.35Z 
+│                       │      ╰ LastModifiedDate: 2025-05-07T16:52:28.1Z 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2024-8250 
+│                       │      ├ PkgID           : libwireshark-data@4.2.6-1 
+│                       │      ├ PkgName         : libwireshark-data 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.2.6-1?arch=all&dis
+│                       │      │                  │       tro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 17fcec3834d0944f 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8250 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: NTLMSSP dissector crash 
+│                       │      ├ Description     : NTLMSSP dissector crash in Wireshark 4.2.0 to 4.0.6 and
+│                       │      │                   4.0.0 to 4.0.16 allows denial of service via packet
+│                       │      │                   injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-825 
+│                       │      │                  ╰ [1]: CWE-787 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-8250 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/19943 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-8250 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-8250 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-11.html 
+│                       │      ├ PublishedDate   : 2024-08-29T00:15:09.37Z 
+│                       │      ╰ LastModifiedDate: 2024-08-30T16:32:16.917Z 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2024-9780 
+│                       │      ├ PkgID           : libwireshark-data@4.2.6-1 
+│                       │      ├ PkgName         : libwireshark-data 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.2.6-1?arch=all&dis
+│                       │      │                  │       tro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 17fcec3834d0944f 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9780 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Missing Initialization of a Variable in Wireshark 
+│                       │      ├ Description     : ITS dissector crash in Wireshark 4.4.0 allows denial of
+│                       │      │                   service via packet injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-456 
+│                       │      │                  ╰ [1]: CWE-909 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9780 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20026 
+│                       │      │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-9780 
+│                       │      │                  ╰ [3]: https://www.wireshark.org/security/wnpa-sec-2024-12.html 
+│                       │      ├ PublishedDate   : 2024-10-10T07:15:03.727Z 
+│                       │      ╰ LastModifiedDate: 2024-10-17T14:18:18.433Z 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2024-9781 
+│                       │      ├ PkgID           : libwireshark-data@4.2.6-1 
+│                       │      ├ PkgName         : libwireshark-data 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.2.6-1?arch=all&dis
+│                       │      │                  │       tro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 17fcec3834d0944f 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9781 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Improper Handling of Missing Values in Wireshark 
+│                       │      ├ Description     : AppleTalk and RELOAD Framing dissector crash in Wireshark
+│                       │      │                   4.4.0 and 4.2.0 to 4.2.7 allows denial of service via packet
+│                       │      │                    injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-230 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9781 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20114 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-9781 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9781 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-13.html 
+│                       │      ├ PublishedDate   : 2024-10-10T07:15:04.1Z 
+│                       │      ╰ LastModifiedDate: 2024-11-25T18:09:33.853Z 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2025-1492 
+│                       │      ├ PkgID           : libwireshark-data@4.2.6-1 
+│                       │      ├ PkgName         : libwireshark-data 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.2.6-1?arch=all&dis
+│                       │      │                  │       tro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 17fcec3834d0944f 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1492 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Uncontrolled Recursion in Wireshark 
+│                       │      ├ Description     : Bundle Protocol and CBOR dissector crashes in Wireshark
+│                       │      │                   4.4.0 to 4.4.3 and 4.2.0 to 4.2.10 allows denial of service
+│                       │      │                   via packet injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-674 
+│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1492 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20373 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-1492 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-1492 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2025-01.html 
+│                       │      ├ PublishedDate   : 2025-02-20T02:15:38.553Z 
+│                       │      ╰ LastModifiedDate: 2025-04-10T20:03:01.333Z 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwireshark-data@4.2.6-1 
 │                       │      ├ PkgName         : libwireshark-data 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.2.6-1?arch=all&dis
@@ -1825,7 +2069,293 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2024-8645 
+│                       │      ├ PkgID           : libwireshark-data@4.2.6-1 
+│                       │      ├ PkgName         : libwireshark-data 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.2.6-1?arch=all&dis
+│                       │      │                  │       tro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 17fcec3834d0944f 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8645 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Denial of Service via SPRT Dissector Crash in
+│                       │      │                   Wireshark 
+│                       │      ├ Description     : SPRT dissector crash in Wireshark 4.2.0 to 4.0.5 and 4.0.0
+│                       │      │                   to 4.0.15 allows denial of service via packet injection or
+│                       │      │                   crafted capture file 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-824 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ photon: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-8645 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/19559 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-8645 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-8645 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-10.html 
+│                       │      ├ PublishedDate   : 2024-09-10T10:15:14.113Z 
+│                       │      ╰ LastModifiedDate: 2025-04-11T17:19:58.673Z 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2024-11595 
+│                       │      ├ PkgID           : libwireshark17t64@4.2.6-1 
+│                       │      ├ PkgName         : libwireshark17t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark17t64@4.2.6-1?arch=amd64&d
+│                       │      │                  │       istro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 1df193450f37741c 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11595 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Loop with Unreachable Exit Condition ('Infinite
+│                       │      │                   Loop') in Wireshark 
+│                       │      ├ Description     : FiveCo RAP dissector infinite loop in Wireshark 4.4.0 to
+│                       │      │                   4.4.1 and 4.2.0 to 4.2.8 allows denial of service via packet
+│                       │      │                    injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-835 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11595 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20176 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-11595 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-11595 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-14.html 
+│                       │      ├ PublishedDate   : 2024-11-21T11:15:32.82Z 
+│                       │      ╰ LastModifiedDate: 2025-05-07T16:52:44.627Z 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2024-11596 
+│                       │      ├ PkgID           : libwireshark17t64@4.2.6-1 
+│                       │      ├ PkgName         : libwireshark17t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark17t64@4.2.6-1?arch=amd64&d
+│                       │      │                  │       istro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 1df193450f37741c 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11596 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Buffer Over-read in Wireshark 
+│                       │      ├ Description     : ECMP dissector crash in Wireshark 4.4.0 to 4.4.1 and 4.2.0
+│                       │      │                   to 4.2.8 allows denial of service via packet injection or
+│                       │      │                   crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-126 
+│                       │      │                  ╰ [1]: CWE-125 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11596 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20214 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-11596 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-11596 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-15.html 
+│                       │      ├ PublishedDate   : 2024-11-21T11:15:33.35Z 
+│                       │      ╰ LastModifiedDate: 2025-05-07T16:52:28.1Z 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2024-8250 
+│                       │      ├ PkgID           : libwireshark17t64@4.2.6-1 
+│                       │      ├ PkgName         : libwireshark17t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark17t64@4.2.6-1?arch=amd64&d
+│                       │      │                  │       istro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 1df193450f37741c 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8250 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: NTLMSSP dissector crash 
+│                       │      ├ Description     : NTLMSSP dissector crash in Wireshark 4.2.0 to 4.0.6 and
+│                       │      │                   4.0.0 to 4.0.16 allows denial of service via packet
+│                       │      │                   injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-825 
+│                       │      │                  ╰ [1]: CWE-787 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-8250 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/19943 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-8250 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-8250 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-11.html 
+│                       │      ├ PublishedDate   : 2024-08-29T00:15:09.37Z 
+│                       │      ╰ LastModifiedDate: 2024-08-30T16:32:16.917Z 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2024-9780 
+│                       │      ├ PkgID           : libwireshark17t64@4.2.6-1 
+│                       │      ├ PkgName         : libwireshark17t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark17t64@4.2.6-1?arch=amd64&d
+│                       │      │                  │       istro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 1df193450f37741c 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9780 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Missing Initialization of a Variable in Wireshark 
+│                       │      ├ Description     : ITS dissector crash in Wireshark 4.4.0 allows denial of
+│                       │      │                   service via packet injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-456 
+│                       │      │                  ╰ [1]: CWE-909 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9780 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20026 
+│                       │      │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-9780 
+│                       │      │                  ╰ [3]: https://www.wireshark.org/security/wnpa-sec-2024-12.html 
+│                       │      ├ PublishedDate   : 2024-10-10T07:15:03.727Z 
+│                       │      ╰ LastModifiedDate: 2024-10-17T14:18:18.433Z 
+│                       ├ [49] ╭ VulnerabilityID : CVE-2024-9781 
+│                       │      ├ PkgID           : libwireshark17t64@4.2.6-1 
+│                       │      ├ PkgName         : libwireshark17t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark17t64@4.2.6-1?arch=amd64&d
+│                       │      │                  │       istro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 1df193450f37741c 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9781 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Improper Handling of Missing Values in Wireshark 
+│                       │      ├ Description     : AppleTalk and RELOAD Framing dissector crash in Wireshark
+│                       │      │                   4.4.0 and 4.2.0 to 4.2.7 allows denial of service via packet
+│                       │      │                    injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-230 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9781 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20114 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-9781 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9781 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-13.html 
+│                       │      ├ PublishedDate   : 2024-10-10T07:15:04.1Z 
+│                       │      ╰ LastModifiedDate: 2024-11-25T18:09:33.853Z 
+│                       ├ [50] ╭ VulnerabilityID : CVE-2025-1492 
+│                       │      ├ PkgID           : libwireshark17t64@4.2.6-1 
+│                       │      ├ PkgName         : libwireshark17t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark17t64@4.2.6-1?arch=amd64&d
+│                       │      │                  │       istro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 1df193450f37741c 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1492 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Uncontrolled Recursion in Wireshark 
+│                       │      ├ Description     : Bundle Protocol and CBOR dissector crashes in Wireshark
+│                       │      │                   4.4.0 to 4.4.3 and 4.2.0 to 4.2.10 allows denial of service
+│                       │      │                   via packet injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-674 
+│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1492 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20373 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-1492 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-1492 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2025-01.html 
+│                       │      ├ PublishedDate   : 2025-02-20T02:15:38.553Z 
+│                       │      ╰ LastModifiedDate: 2025-04-10T20:03:01.333Z 
+│                       ├ [51] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwireshark17t64@4.2.6-1 
 │                       │      ├ PkgName         : libwireshark17t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark17t64@4.2.6-1?arch=amd64&d
@@ -1879,7 +2409,293 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2024-8645 
+│                       │      ├ PkgID           : libwireshark17t64@4.2.6-1 
+│                       │      ├ PkgName         : libwireshark17t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark17t64@4.2.6-1?arch=amd64&d
+│                       │      │                  │       istro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 1df193450f37741c 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8645 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Denial of Service via SPRT Dissector Crash in
+│                       │      │                   Wireshark 
+│                       │      ├ Description     : SPRT dissector crash in Wireshark 4.2.0 to 4.0.5 and 4.0.0
+│                       │      │                   to 4.0.15 allows denial of service via packet injection or
+│                       │      │                   crafted capture file 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-824 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ photon: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-8645 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/19559 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-8645 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-8645 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-10.html 
+│                       │      ├ PublishedDate   : 2024-09-10T10:15:14.113Z 
+│                       │      ╰ LastModifiedDate: 2025-04-11T17:19:58.673Z 
+│                       ├ [53] ╭ VulnerabilityID : CVE-2024-11595 
+│                       │      ├ PkgID           : libwiretap14t64@4.2.6-1 
+│                       │      ├ PkgName         : libwiretap14t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap14t64@4.2.6-1?arch=amd64&dis
+│                       │      │                  │       tro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 3df3b1703ccf3179 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11595 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Loop with Unreachable Exit Condition ('Infinite
+│                       │      │                   Loop') in Wireshark 
+│                       │      ├ Description     : FiveCo RAP dissector infinite loop in Wireshark 4.4.0 to
+│                       │      │                   4.4.1 and 4.2.0 to 4.2.8 allows denial of service via packet
+│                       │      │                    injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-835 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11595 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20176 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-11595 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-11595 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-14.html 
+│                       │      ├ PublishedDate   : 2024-11-21T11:15:32.82Z 
+│                       │      ╰ LastModifiedDate: 2025-05-07T16:52:44.627Z 
+│                       ├ [54] ╭ VulnerabilityID : CVE-2024-11596 
+│                       │      ├ PkgID           : libwiretap14t64@4.2.6-1 
+│                       │      ├ PkgName         : libwiretap14t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap14t64@4.2.6-1?arch=amd64&dis
+│                       │      │                  │       tro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 3df3b1703ccf3179 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11596 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Buffer Over-read in Wireshark 
+│                       │      ├ Description     : ECMP dissector crash in Wireshark 4.4.0 to 4.4.1 and 4.2.0
+│                       │      │                   to 4.2.8 allows denial of service via packet injection or
+│                       │      │                   crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-126 
+│                       │      │                  ╰ [1]: CWE-125 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11596 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20214 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-11596 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-11596 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-15.html 
+│                       │      ├ PublishedDate   : 2024-11-21T11:15:33.35Z 
+│                       │      ╰ LastModifiedDate: 2025-05-07T16:52:28.1Z 
+│                       ├ [55] ╭ VulnerabilityID : CVE-2024-8250 
+│                       │      ├ PkgID           : libwiretap14t64@4.2.6-1 
+│                       │      ├ PkgName         : libwiretap14t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap14t64@4.2.6-1?arch=amd64&dis
+│                       │      │                  │       tro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 3df3b1703ccf3179 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8250 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: NTLMSSP dissector crash 
+│                       │      ├ Description     : NTLMSSP dissector crash in Wireshark 4.2.0 to 4.0.6 and
+│                       │      │                   4.0.0 to 4.0.16 allows denial of service via packet
+│                       │      │                   injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-825 
+│                       │      │                  ╰ [1]: CWE-787 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-8250 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/19943 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-8250 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-8250 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-11.html 
+│                       │      ├ PublishedDate   : 2024-08-29T00:15:09.37Z 
+│                       │      ╰ LastModifiedDate: 2024-08-30T16:32:16.917Z 
+│                       ├ [56] ╭ VulnerabilityID : CVE-2024-9780 
+│                       │      ├ PkgID           : libwiretap14t64@4.2.6-1 
+│                       │      ├ PkgName         : libwiretap14t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap14t64@4.2.6-1?arch=amd64&dis
+│                       │      │                  │       tro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 3df3b1703ccf3179 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9780 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Missing Initialization of a Variable in Wireshark 
+│                       │      ├ Description     : ITS dissector crash in Wireshark 4.4.0 allows denial of
+│                       │      │                   service via packet injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-456 
+│                       │      │                  ╰ [1]: CWE-909 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9780 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20026 
+│                       │      │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-9780 
+│                       │      │                  ╰ [3]: https://www.wireshark.org/security/wnpa-sec-2024-12.html 
+│                       │      ├ PublishedDate   : 2024-10-10T07:15:03.727Z 
+│                       │      ╰ LastModifiedDate: 2024-10-17T14:18:18.433Z 
+│                       ├ [57] ╭ VulnerabilityID : CVE-2024-9781 
+│                       │      ├ PkgID           : libwiretap14t64@4.2.6-1 
+│                       │      ├ PkgName         : libwiretap14t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap14t64@4.2.6-1?arch=amd64&dis
+│                       │      │                  │       tro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 3df3b1703ccf3179 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9781 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Improper Handling of Missing Values in Wireshark 
+│                       │      ├ Description     : AppleTalk and RELOAD Framing dissector crash in Wireshark
+│                       │      │                   4.4.0 and 4.2.0 to 4.2.7 allows denial of service via packet
+│                       │      │                    injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-230 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9781 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20114 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-9781 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9781 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-13.html 
+│                       │      ├ PublishedDate   : 2024-10-10T07:15:04.1Z 
+│                       │      ╰ LastModifiedDate: 2024-11-25T18:09:33.853Z 
+│                       ├ [58] ╭ VulnerabilityID : CVE-2025-1492 
+│                       │      ├ PkgID           : libwiretap14t64@4.2.6-1 
+│                       │      ├ PkgName         : libwiretap14t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap14t64@4.2.6-1?arch=amd64&dis
+│                       │      │                  │       tro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 3df3b1703ccf3179 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1492 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Uncontrolled Recursion in Wireshark 
+│                       │      ├ Description     : Bundle Protocol and CBOR dissector crashes in Wireshark
+│                       │      │                   4.4.0 to 4.4.3 and 4.2.0 to 4.2.10 allows denial of service
+│                       │      │                   via packet injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-674 
+│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1492 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20373 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-1492 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-1492 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2025-01.html 
+│                       │      ├ PublishedDate   : 2025-02-20T02:15:38.553Z 
+│                       │      ╰ LastModifiedDate: 2025-04-10T20:03:01.333Z 
+│                       ├ [59] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwiretap14t64@4.2.6-1 
 │                       │      ├ PkgName         : libwiretap14t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap14t64@4.2.6-1?arch=amd64&dis
@@ -1933,7 +2749,293 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [60] ╭ VulnerabilityID : CVE-2024-8645 
+│                       │      ├ PkgID           : libwiretap14t64@4.2.6-1 
+│                       │      ├ PkgName         : libwiretap14t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap14t64@4.2.6-1?arch=amd64&dis
+│                       │      │                  │       tro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 3df3b1703ccf3179 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8645 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Denial of Service via SPRT Dissector Crash in
+│                       │      │                   Wireshark 
+│                       │      ├ Description     : SPRT dissector crash in Wireshark 4.2.0 to 4.0.5 and 4.0.0
+│                       │      │                   to 4.0.15 allows denial of service via packet injection or
+│                       │      │                   crafted capture file 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-824 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ photon: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-8645 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/19559 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-8645 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-8645 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-10.html 
+│                       │      ├ PublishedDate   : 2024-09-10T10:15:14.113Z 
+│                       │      ╰ LastModifiedDate: 2025-04-11T17:19:58.673Z 
+│                       ├ [61] ╭ VulnerabilityID : CVE-2024-11595 
+│                       │      ├ PkgID           : libwsutil15t64@4.2.6-1 
+│                       │      ├ PkgName         : libwsutil15t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil15t64@4.2.6-1?arch=amd64&dist
+│                       │      │                  │       ro=ubuntu-24.10 
+│                       │      │                  ╰ UID : d622eb9dff67aef5 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11595 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Loop with Unreachable Exit Condition ('Infinite
+│                       │      │                   Loop') in Wireshark 
+│                       │      ├ Description     : FiveCo RAP dissector infinite loop in Wireshark 4.4.0 to
+│                       │      │                   4.4.1 and 4.2.0 to 4.2.8 allows denial of service via packet
+│                       │      │                    injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-835 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11595 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20176 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-11595 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-11595 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-14.html 
+│                       │      ├ PublishedDate   : 2024-11-21T11:15:32.82Z 
+│                       │      ╰ LastModifiedDate: 2025-05-07T16:52:44.627Z 
+│                       ├ [62] ╭ VulnerabilityID : CVE-2024-11596 
+│                       │      ├ PkgID           : libwsutil15t64@4.2.6-1 
+│                       │      ├ PkgName         : libwsutil15t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil15t64@4.2.6-1?arch=amd64&dist
+│                       │      │                  │       ro=ubuntu-24.10 
+│                       │      │                  ╰ UID : d622eb9dff67aef5 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11596 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Buffer Over-read in Wireshark 
+│                       │      ├ Description     : ECMP dissector crash in Wireshark 4.4.0 to 4.4.1 and 4.2.0
+│                       │      │                   to 4.2.8 allows denial of service via packet injection or
+│                       │      │                   crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-126 
+│                       │      │                  ╰ [1]: CWE-125 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11596 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20214 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-11596 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-11596 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-15.html 
+│                       │      ├ PublishedDate   : 2024-11-21T11:15:33.35Z 
+│                       │      ╰ LastModifiedDate: 2025-05-07T16:52:28.1Z 
+│                       ├ [63] ╭ VulnerabilityID : CVE-2024-8250 
+│                       │      ├ PkgID           : libwsutil15t64@4.2.6-1 
+│                       │      ├ PkgName         : libwsutil15t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil15t64@4.2.6-1?arch=amd64&dist
+│                       │      │                  │       ro=ubuntu-24.10 
+│                       │      │                  ╰ UID : d622eb9dff67aef5 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8250 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: NTLMSSP dissector crash 
+│                       │      ├ Description     : NTLMSSP dissector crash in Wireshark 4.2.0 to 4.0.6 and
+│                       │      │                   4.0.0 to 4.0.16 allows denial of service via packet
+│                       │      │                   injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-825 
+│                       │      │                  ╰ [1]: CWE-787 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-8250 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/19943 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-8250 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-8250 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-11.html 
+│                       │      ├ PublishedDate   : 2024-08-29T00:15:09.37Z 
+│                       │      ╰ LastModifiedDate: 2024-08-30T16:32:16.917Z 
+│                       ├ [64] ╭ VulnerabilityID : CVE-2024-9780 
+│                       │      ├ PkgID           : libwsutil15t64@4.2.6-1 
+│                       │      ├ PkgName         : libwsutil15t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil15t64@4.2.6-1?arch=amd64&dist
+│                       │      │                  │       ro=ubuntu-24.10 
+│                       │      │                  ╰ UID : d622eb9dff67aef5 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9780 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Missing Initialization of a Variable in Wireshark 
+│                       │      ├ Description     : ITS dissector crash in Wireshark 4.4.0 allows denial of
+│                       │      │                   service via packet injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-456 
+│                       │      │                  ╰ [1]: CWE-909 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9780 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20026 
+│                       │      │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-9780 
+│                       │      │                  ╰ [3]: https://www.wireshark.org/security/wnpa-sec-2024-12.html 
+│                       │      ├ PublishedDate   : 2024-10-10T07:15:03.727Z 
+│                       │      ╰ LastModifiedDate: 2024-10-17T14:18:18.433Z 
+│                       ├ [65] ╭ VulnerabilityID : CVE-2024-9781 
+│                       │      ├ PkgID           : libwsutil15t64@4.2.6-1 
+│                       │      ├ PkgName         : libwsutil15t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil15t64@4.2.6-1?arch=amd64&dist
+│                       │      │                  │       ro=ubuntu-24.10 
+│                       │      │                  ╰ UID : d622eb9dff67aef5 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9781 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Improper Handling of Missing Values in Wireshark 
+│                       │      ├ Description     : AppleTalk and RELOAD Framing dissector crash in Wireshark
+│                       │      │                   4.4.0 and 4.2.0 to 4.2.7 allows denial of service via packet
+│                       │      │                    injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-230 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9781 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20114 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-9781 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9781 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-13.html 
+│                       │      ├ PublishedDate   : 2024-10-10T07:15:04.1Z 
+│                       │      ╰ LastModifiedDate: 2024-11-25T18:09:33.853Z 
+│                       ├ [66] ╭ VulnerabilityID : CVE-2025-1492 
+│                       │      ├ PkgID           : libwsutil15t64@4.2.6-1 
+│                       │      ├ PkgName         : libwsutil15t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil15t64@4.2.6-1?arch=amd64&dist
+│                       │      │                  │       ro=ubuntu-24.10 
+│                       │      │                  ╰ UID : d622eb9dff67aef5 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1492 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Uncontrolled Recursion in Wireshark 
+│                       │      ├ Description     : Bundle Protocol and CBOR dissector crashes in Wireshark
+│                       │      │                   4.4.0 to 4.4.3 and 4.2.0 to 4.2.10 allows denial of service
+│                       │      │                   via packet injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-674 
+│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1492 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20373 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-1492 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-1492 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2025-01.html 
+│                       │      ├ PublishedDate   : 2025-02-20T02:15:38.553Z 
+│                       │      ╰ LastModifiedDate: 2025-04-10T20:03:01.333Z 
+│                       ├ [67] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwsutil15t64@4.2.6-1 
 │                       │      ├ PkgName         : libwsutil15t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil15t64@4.2.6-1?arch=amd64&dist
@@ -1987,7 +3089,49 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [68] ╭ VulnerabilityID : CVE-2024-8645 
+│                       │      ├ PkgID           : libwsutil15t64@4.2.6-1 
+│                       │      ├ PkgName         : libwsutil15t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil15t64@4.2.6-1?arch=amd64&dist
+│                       │      │                  │       ro=ubuntu-24.10 
+│                       │      │                  ╰ UID : d622eb9dff67aef5 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8645 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Denial of Service via SPRT Dissector Crash in
+│                       │      │                   Wireshark 
+│                       │      ├ Description     : SPRT dissector crash in Wireshark 4.2.0 to 4.0.5 and 4.0.0
+│                       │      │                   to 4.0.15 allows denial of service via packet injection or
+│                       │      │                   crafted capture file 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-824 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ photon: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-8645 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/19559 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-8645 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-8645 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-10.html 
+│                       │      ├ PublishedDate   : 2024-09-10T10:15:14.113Z 
+│                       │      ╰ LastModifiedDate: 2025-04-11T17:19:58.673Z 
+│                       ├ [69] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login@1:4.15.3-3ubuntu2 
 │                       │      ├ PkgName         : login 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.15.3-3ubuntu2?arch=amd64&distr
@@ -2020,7 +3164,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1188 
 │                       │      ├ VendorSeverity   ╭ azure : 1 
-│                       │      │                  ├ redhat: 1 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
@@ -2035,14 +3179,14 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2025-46836 
+│                       ├ [70] ╭ VulnerabilityID : CVE-2025-46836 
 │                       │      ├ PkgID           : net-tools@2.10-1.1ubuntu1 
 │                       │      ├ PkgName         : net-tools 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/net-tools@2.10-1.1ubuntu1?arch=amd64&d
 │                       │      │                  │       istro=ubuntu-24.10 
 │                       │      │                  ╰ UID : f64ded68fb2c0511 
 │                       │      ├ InstalledVersion: 2.10-1.1ubuntu1 
-│                       │      ├ FixedVersion    : 2.10-1.1ubuntu1.24.10.1 
+│                       │      ├ FixedVersion    : 2.10-1.1ubuntu1.24.10.4 
 │                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
 │                       │      │                  │         4996f0df743f3e43751e 
@@ -2081,10 +3225,11 @@
 │                       │      │                  │      GHSA-pfwf-h6m3-63wf 
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-46836 
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7537-1 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-46836 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7537-2 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-46836 
 │                       │      ├ PublishedDate   : 2025-05-14T23:15:48.073Z 
 │                       │      ╰ LastModifiedDate: 2025-05-16T14:43:26.16Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2024-41996 
+│                       ├ [71] ╭ VulnerabilityID : CVE-2024-41996 
 │                       │      ├ PkgID           : openssl@3.3.1-2ubuntu2.1 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.3.1-2ubuntu2.1?arch=amd64&di
@@ -2134,7 +3279,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                       │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                       │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [72] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.15.3-3ubuntu2 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.15.3-3ubuntu2?arch=amd64&dist
@@ -2167,7 +3312,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1188 
 │                       │      ├ VendorSeverity   ╭ azure : 1 
-│                       │      │                  ├ redhat: 1 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
@@ -2182,7 +3327,251 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [73] ╭ VulnerabilityID : CVE-2024-11595 
+│                       │      ├ PkgID           : tshark@4.2.6-1 
+│                       │      ├ PkgName         : tshark 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.2.6-1?arch=amd64&distro=ubunt
+│                       │      │                  │       u-24.10 
+│                       │      │                  ╰ UID : 432813055833e6df 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11595 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Loop with Unreachable Exit Condition ('Infinite
+│                       │      │                   Loop') in Wireshark 
+│                       │      ├ Description     : FiveCo RAP dissector infinite loop in Wireshark 4.4.0 to
+│                       │      │                   4.4.1 and 4.2.0 to 4.2.8 allows denial of service via packet
+│                       │      │                    injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-835 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11595 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20176 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-11595 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-11595 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-14.html 
+│                       │      ├ PublishedDate   : 2024-11-21T11:15:32.82Z 
+│                       │      ╰ LastModifiedDate: 2025-05-07T16:52:44.627Z 
+│                       ├ [74] ╭ VulnerabilityID : CVE-2024-11596 
+│                       │      ├ PkgID           : tshark@4.2.6-1 
+│                       │      ├ PkgName         : tshark 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.2.6-1?arch=amd64&distro=ubunt
+│                       │      │                  │       u-24.10 
+│                       │      │                  ╰ UID : 432813055833e6df 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11596 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Buffer Over-read in Wireshark 
+│                       │      ├ Description     : ECMP dissector crash in Wireshark 4.4.0 to 4.4.1 and 4.2.0
+│                       │      │                   to 4.2.8 allows denial of service via packet injection or
+│                       │      │                   crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-126 
+│                       │      │                  ╰ [1]: CWE-125 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11596 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20214 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-11596 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-11596 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-15.html 
+│                       │      ├ PublishedDate   : 2024-11-21T11:15:33.35Z 
+│                       │      ╰ LastModifiedDate: 2025-05-07T16:52:28.1Z 
+│                       ├ [75] ╭ VulnerabilityID : CVE-2024-8250 
+│                       │      ├ PkgID           : tshark@4.2.6-1 
+│                       │      ├ PkgName         : tshark 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.2.6-1?arch=amd64&distro=ubunt
+│                       │      │                  │       u-24.10 
+│                       │      │                  ╰ UID : 432813055833e6df 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8250 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: NTLMSSP dissector crash 
+│                       │      ├ Description     : NTLMSSP dissector crash in Wireshark 4.2.0 to 4.0.6 and
+│                       │      │                   4.0.0 to 4.0.16 allows denial of service via packet
+│                       │      │                   injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-825 
+│                       │      │                  ╰ [1]: CWE-787 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-8250 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/19943 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-8250 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-8250 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-11.html 
+│                       │      ├ PublishedDate   : 2024-08-29T00:15:09.37Z 
+│                       │      ╰ LastModifiedDate: 2024-08-30T16:32:16.917Z 
+│                       ├ [76] ╭ VulnerabilityID : CVE-2024-9780 
+│                       │      ├ PkgID           : tshark@4.2.6-1 
+│                       │      ├ PkgName         : tshark 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.2.6-1?arch=amd64&distro=ubunt
+│                       │      │                  │       u-24.10 
+│                       │      │                  ╰ UID : 432813055833e6df 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9780 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Missing Initialization of a Variable in Wireshark 
+│                       │      ├ Description     : ITS dissector crash in Wireshark 4.4.0 allows denial of
+│                       │      │                   service via packet injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-456 
+│                       │      │                  ╰ [1]: CWE-909 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9780 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20026 
+│                       │      │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-9780 
+│                       │      │                  ╰ [3]: https://www.wireshark.org/security/wnpa-sec-2024-12.html 
+│                       │      ├ PublishedDate   : 2024-10-10T07:15:03.727Z 
+│                       │      ╰ LastModifiedDate: 2024-10-17T14:18:18.433Z 
+│                       ├ [77] ╭ VulnerabilityID : CVE-2024-9781 
+│                       │      ├ PkgID           : tshark@4.2.6-1 
+│                       │      ├ PkgName         : tshark 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.2.6-1?arch=amd64&distro=ubunt
+│                       │      │                  │       u-24.10 
+│                       │      │                  ╰ UID : 432813055833e6df 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9781 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Improper Handling of Missing Values in Wireshark 
+│                       │      ├ Description     : AppleTalk and RELOAD Framing dissector crash in Wireshark
+│                       │      │                   4.4.0 and 4.2.0 to 4.2.7 allows denial of service via packet
+│                       │      │                    injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-230 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9781 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20114 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-9781 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9781 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-13.html 
+│                       │      ├ PublishedDate   : 2024-10-10T07:15:04.1Z 
+│                       │      ╰ LastModifiedDate: 2024-11-25T18:09:33.853Z 
+│                       ├ [78] ╭ VulnerabilityID : CVE-2025-1492 
+│                       │      ├ PkgID           : tshark@4.2.6-1 
+│                       │      ├ PkgName         : tshark 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.2.6-1?arch=amd64&distro=ubunt
+│                       │      │                  │       u-24.10 
+│                       │      │                  ╰ UID : 432813055833e6df 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1492 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Uncontrolled Recursion in Wireshark 
+│                       │      ├ Description     : Bundle Protocol and CBOR dissector crashes in Wireshark
+│                       │      │                   4.4.0 to 4.4.3 and 4.2.0 to 4.2.10 allows denial of service
+│                       │      │                   via packet injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-674 
+│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1492 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20373 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-1492 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-1492 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2025-01.html 
+│                       │      ├ PublishedDate   : 2025-02-20T02:15:38.553Z 
+│                       │      ╰ LastModifiedDate: 2025-04-10T20:03:01.333Z 
+│                       ├ [79] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : tshark@4.2.6-1 
 │                       │      ├ PkgName         : tshark 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.2.6-1?arch=amd64&distro=ubunt
@@ -2236,7 +3625,49 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [80] ╭ VulnerabilityID : CVE-2024-8645 
+│                       │      ├ PkgID           : tshark@4.2.6-1 
+│                       │      ├ PkgName         : tshark 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.2.6-1?arch=amd64&distro=ubunt
+│                       │      │                  │       u-24.10 
+│                       │      │                  ╰ UID : 432813055833e6df 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8645 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Denial of Service via SPRT Dissector Crash in
+│                       │      │                   Wireshark 
+│                       │      ├ Description     : SPRT dissector crash in Wireshark 4.2.0 to 4.0.5 and 4.0.0
+│                       │      │                   to 4.0.15 allows denial of service via packet injection or
+│                       │      │                   crafted capture file 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-824 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ photon: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-8645 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/19559 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-8645 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-8645 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-10.html 
+│                       │      ├ PublishedDate   : 2024-09-10T10:15:14.113Z 
+│                       │      ╰ LastModifiedDate: 2025-04-11T17:19:58.673Z 
+│                       ├ [81] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.24.5-1ubuntu2 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.24.5-1ubuntu2?arch=amd64&distro
@@ -2282,7 +3713,251 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                       ├ [47] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [82] ╭ VulnerabilityID : CVE-2024-11595 
+│                       │      ├ PkgID           : wireshark-common@4.2.6-1 
+│                       │      ├ PkgName         : wireshark-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&di
+│                       │      │                  │       stro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 429c771d1ae7f1a6 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11595 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Loop with Unreachable Exit Condition ('Infinite
+│                       │      │                   Loop') in Wireshark 
+│                       │      ├ Description     : FiveCo RAP dissector infinite loop in Wireshark 4.4.0 to
+│                       │      │                   4.4.1 and 4.2.0 to 4.2.8 allows denial of service via packet
+│                       │      │                    injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-835 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11595 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20176 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-11595 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-11595 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-14.html 
+│                       │      ├ PublishedDate   : 2024-11-21T11:15:32.82Z 
+│                       │      ╰ LastModifiedDate: 2025-05-07T16:52:44.627Z 
+│                       ├ [83] ╭ VulnerabilityID : CVE-2024-11596 
+│                       │      ├ PkgID           : wireshark-common@4.2.6-1 
+│                       │      ├ PkgName         : wireshark-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&di
+│                       │      │                  │       stro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 429c771d1ae7f1a6 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11596 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Buffer Over-read in Wireshark 
+│                       │      ├ Description     : ECMP dissector crash in Wireshark 4.4.0 to 4.4.1 and 4.2.0
+│                       │      │                   to 4.2.8 allows denial of service via packet injection or
+│                       │      │                   crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-126 
+│                       │      │                  ╰ [1]: CWE-125 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11596 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20214 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-11596 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-11596 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-15.html 
+│                       │      ├ PublishedDate   : 2024-11-21T11:15:33.35Z 
+│                       │      ╰ LastModifiedDate: 2025-05-07T16:52:28.1Z 
+│                       ├ [84] ╭ VulnerabilityID : CVE-2024-8250 
+│                       │      ├ PkgID           : wireshark-common@4.2.6-1 
+│                       │      ├ PkgName         : wireshark-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&di
+│                       │      │                  │       stro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 429c771d1ae7f1a6 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8250 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: NTLMSSP dissector crash 
+│                       │      ├ Description     : NTLMSSP dissector crash in Wireshark 4.2.0 to 4.0.6 and
+│                       │      │                   4.0.0 to 4.0.16 allows denial of service via packet
+│                       │      │                   injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-825 
+│                       │      │                  ╰ [1]: CWE-787 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-8250 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/19943 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-8250 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-8250 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-11.html 
+│                       │      ├ PublishedDate   : 2024-08-29T00:15:09.37Z 
+│                       │      ╰ LastModifiedDate: 2024-08-30T16:32:16.917Z 
+│                       ├ [85] ╭ VulnerabilityID : CVE-2024-9780 
+│                       │      ├ PkgID           : wireshark-common@4.2.6-1 
+│                       │      ├ PkgName         : wireshark-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&di
+│                       │      │                  │       stro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 429c771d1ae7f1a6 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9780 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Missing Initialization of a Variable in Wireshark 
+│                       │      ├ Description     : ITS dissector crash in Wireshark 4.4.0 allows denial of
+│                       │      │                   service via packet injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-456 
+│                       │      │                  ╰ [1]: CWE-909 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9780 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20026 
+│                       │      │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-9780 
+│                       │      │                  ╰ [3]: https://www.wireshark.org/security/wnpa-sec-2024-12.html 
+│                       │      ├ PublishedDate   : 2024-10-10T07:15:03.727Z 
+│                       │      ╰ LastModifiedDate: 2024-10-17T14:18:18.433Z 
+│                       ├ [86] ╭ VulnerabilityID : CVE-2024-9781 
+│                       │      ├ PkgID           : wireshark-common@4.2.6-1 
+│                       │      ├ PkgName         : wireshark-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&di
+│                       │      │                  │       stro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 429c771d1ae7f1a6 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9781 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Improper Handling of Missing Values in Wireshark 
+│                       │      ├ Description     : AppleTalk and RELOAD Framing dissector crash in Wireshark
+│                       │      │                   4.4.0 and 4.2.0 to 4.2.7 allows denial of service via packet
+│                       │      │                    injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-230 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9781 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20114 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-9781 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9781 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-13.html 
+│                       │      ├ PublishedDate   : 2024-10-10T07:15:04.1Z 
+│                       │      ╰ LastModifiedDate: 2024-11-25T18:09:33.853Z 
+│                       ├ [87] ╭ VulnerabilityID : CVE-2025-1492 
+│                       │      ├ PkgID           : wireshark-common@4.2.6-1 
+│                       │      ├ PkgName         : wireshark-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&di
+│                       │      │                  │       stro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 429c771d1ae7f1a6 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1492 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Uncontrolled Recursion in Wireshark 
+│                       │      ├ Description     : Bundle Protocol and CBOR dissector crashes in Wireshark
+│                       │      │                   4.4.0 to 4.4.3 and 4.2.0 to 4.2.10 allows denial of service
+│                       │      │                   via packet injection or crafted capture file 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-674 
+│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1492 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/20373 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-1492 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-1492 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2025-01.html 
+│                       │      ├ PublishedDate   : 2025-02-20T02:15:38.553Z 
+│                       │      ╰ LastModifiedDate: 2025-04-10T20:03:01.333Z 
+│                       ├ [88] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : wireshark-common@4.2.6-1 
 │                       │      ├ PkgName         : wireshark-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&di
@@ -2336,7 +4011,49 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ╰ [48] ╭ VulnerabilityID : CVE-2023-5574 
+│                       ├ [89] ╭ VulnerabilityID : CVE-2024-8645 
+│                       │      ├ PkgID           : wireshark-common@4.2.6-1 
+│                       │      ├ PkgName         : wireshark-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&di
+│                       │      │                  │       stro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 429c771d1ae7f1a6 
+│                       │      ├ InstalledVersion: 4.2.6-1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:b96880caa59f1e3408abe53e3466c50682d6393ec29e
+│                       │      │                  │         4996f0df743f3e43751e 
+│                       │      │                  ╰ DiffID: sha256:45486ec6561adcd5505e860af4384288b7f88c962dd0
+│                       │      │                            c4998aacbff7668eeb55 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8645 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : wireshark: Denial of Service via SPRT Dissector Crash in
+│                       │      │                   Wireshark 
+│                       │      ├ Description     : SPRT dissector crash in Wireshark 4.2.0 to 4.0.5 and 4.0.0
+│                       │      │                   to 4.0.15 allows denial of service via packet injection or
+│                       │      │                   crafted capture file 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-824 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ photon: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-8645 
+│                       │      │                  ├ [1]: https://gitlab.com/wireshark/wireshark/-/issues/19559 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-8645 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-8645 
+│                       │      │                  ╰ [4]: https://www.wireshark.org/security/wnpa-sec-2024-10.html 
+│                       │      ├ PublishedDate   : 2024-09-10T10:15:14.113Z 
+│                       │      ╰ LastModifiedDate: 2025-04-11T17:19:58.673Z 
+│                       ╰ [90] ╭ VulnerabilityID : CVE-2023-5574 
 │                              ├ PkgID           : x11-common@1:7.7+23ubuntu3 
 │                              ├ PkgName         : x11-common 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/x11-common@7.7%2B23ubuntu3?arch=all&di
