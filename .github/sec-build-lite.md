@@ -65,7 +65,7 @@
 │                       │     │                  ├ [2]: https://curl.se/docs/CVE-2025-5025.json 
 │                       │     │                  ╰ [3]: https://hackerone.com/reports/3153497 
 │                       │     ├ PublishedDate   : 2025-05-28T07:15:24.91Z 
-│                       │     ╰ LastModifiedDate: 2025-05-28T15:01:30.72Z 
+│                       │     ╰ LastModifiedDate: 2025-05-30T17:15:30.2Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2025-4947 
 │                       │     ├ PkgID           : curl-doc@8.13.0-r1 
 │                       │     ├ PkgName         : curl-doc 
@@ -129,7 +129,7 @@
 │                       │     │                  ├ [2]: https://curl.se/docs/CVE-2025-5025.json 
 │                       │     │                  ╰ [3]: https://hackerone.com/reports/3153497 
 │                       │     ├ PublishedDate   : 2025-05-28T07:15:24.91Z 
-│                       │     ╰ LastModifiedDate: 2025-05-28T15:01:30.72Z 
+│                       │     ╰ LastModifiedDate: 2025-05-30T17:15:30.2Z 
 │                       ├ [4] ╭ VulnerabilityID : CVE-2025-4947 
 │                       │     ├ PkgID           : libcurl@8.13.0-r1 
 │                       │     ├ PkgName         : libcurl 
@@ -193,7 +193,7 @@
 │                             │                  ├ [2]: https://curl.se/docs/CVE-2025-5025.json 
 │                             │                  ╰ [3]: https://hackerone.com/reports/3153497 
 │                             ├ PublishedDate   : 2025-05-28T07:15:24.91Z 
-│                             ╰ LastModifiedDate: 2025-05-28T15:01:30.72Z 
+│                             ╰ LastModifiedDate: 2025-05-30T17:15:30.2Z 
 ╰ [1] ╭ Target: Java 
       ├ Class : lang-pkgs 
       ╰ Type  : jar 
