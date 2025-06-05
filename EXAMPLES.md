@@ -9,6 +9,7 @@ List of examples:
 | Debug | Monitor the CPU/IO/Memory used by another namespace's pid |
 | Monitoring | Monitors network usage |
 | Monitoring | Monitor Java memory |
+| Network | Start a SOCKS server |
 | Performance | Network performance between two points |
 | Performance | Connectivity to a database via JDBC |
 | Test | Test TCP port reachability and/or ping |
@@ -164,3 +165,35 @@ pidstat -p 1234 -d 1
 # Memory of 1234 every 1 sec
 pidstat -p 1234 -r 1
 ```
+
+---
+
+## 📡 Start a SOCKS server
+
+A SOCKS server allows you to use a browser or other client application to access the docker or Kubernetes network where _nmaguiar/netutils_ is ruunning on:
+
+```bash
+kubectl run netutils --rm -it --image nmaguiar/netutils -- socksProxy.yaml
+```
+
+Then start a port-forward where you client (e.g. browser) is installed:
+
+```bash
+kubectl port-forward pod/netutils 11080:1080
+```
+
+To test you can use curl to access a service or a pod IP address:
+
+```bash
+curl http://test.my-namespace.svc:12345 --proxy socks5h://127.0.0.1:11080
+```
+
+To start a Chrome browser to connect to the socks proxy:
+
+| OS | Command |
+|----|---------|
+| Linux/WSL | ```curl https://ojob.io/unix/newChrome.sh | sh -s default localhost:11080``` |
+| Mac | ```curl https://ojob.io/mac/newChrome.sh | sh -s default localhost:11080``` |
+| Windows | ```curl https://ojob.io/win/newChrome.bat -O newChrome.bat [enter] newChrome.bat default localhost:11080``` |
+
+> Check https://github.com/nmaguiar/socksd for more details to connect different clients 
