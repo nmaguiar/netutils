@@ -12,6 +12,8 @@ List of examples:
 | Network | Start a SOCKS server |
 | Performance | Network performance between two points |
 | Performance | Connectivity to a database via JDBC |
+| Security | Get a remote host TLS/SSL certificate details |
+| Security | Export a remote host TLS/SSL certificate |
 | Test | Test TCP port reachability and/or ping |
 | Test | Start an echo web server |
 
@@ -197,3 +199,35 @@ To start a Chrome browser to connect to the socks proxy:
 | Windows | ```curl https://ojob.io/win/newChrome.bat -O newChrome.bat [enter] newChrome.bat default localhost:11080``` |
 
 > Check https://github.com/nmaguiar/socksd for more details to connect different clients 
+
+---
+
+## 🔐 Get a remote host TLS/SSL certificate details
+
+To get details about a remote host TLS/SSL certificate you can execute:
+
+```bash
+DOMAIN=example.com && oaf -c "sprint(ow.loadNet().getTLSCertificates('$DOMAIN',443))" | oafp path="[].{issuer:issuerDN,subject:subjectDN,notBefore:notBefore,notAfter:notAfter,alternatives:join(' | ',sort(map(&[1],nvl(alternatives,\`[]\`))))}" out=ctree
+```
+
+For complete details you can also run:
+
+```bash
+openssl s_client -connect example.com:443 -servername example.com </dev/null 2>/dev/null | openssl x509 -text
+```
+
+---
+
+## 🔐 Export a remote host TLS/SSL certificate
+
+To export the PEM file for a remote host TLS/SSL certificate execute:
+
+```bash
+openssl s_client -connect example.com:443 -servername example.com </dev/null 2>/dev/null | openssl x509 -outform PEM -out example_com_cert.pem
+```
+
+To verify the exported certificate execute:
+
+```bash
+openssl x509 -in example_com_cert.pem -text -noout
+```
