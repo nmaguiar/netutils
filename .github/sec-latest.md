@@ -1281,36 +1281,40 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 4.7 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4598 
-│                       │       │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
-│                       │       │                  ├ [2] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/0
+│                       │       │                  │       5/1 
+│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/06/0
+│                       │       │                  │       5/3 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4598 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
+│                       │       │                  ├ [4] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f
 │                       │       │                  │       23d422ca8a5a8bdea 
-│                       │       │                  ├ [3] : https://github.com/systemd/systemd/commit/0c49e0049b
+│                       │       │                  ├ [5] : https://github.com/systemd/systemd/commit/0c49e0049b
 │                       │       │                  │       7665bb7769a13ef346fef92e1ad4d6 (main) 
-│                       │       │                  ├ [4] : https://github.com/systemd/systemd/commit/13902e0253
+│                       │       │                  ├ [6] : https://github.com/systemd/systemd/commit/13902e0253
 │                       │       │                  │       21242b1d95c6d8b4e482b37f58cdef (main) 
-│                       │       │                  ├ [5] : https://github.com/systemd/systemd/commit/49f1f2d4a7
+│                       │       │                  ├ [7] : https://github.com/systemd/systemd/commit/49f1f2d4a7
 │                       │       │                  │       612bbed5211a73d11d6a94fbe3bb69 (main) 
-│                       │       │                  ├ [6] : https://github.com/systemd/systemd/commit/76e0ab49c4
+│                       │       │                  ├ [8] : https://github.com/systemd/systemd/commit/76e0ab49c4
 │                       │       │                  │       7965877c19772a2b3bf55f6417ca39 (main) 
-│                       │       │                  ├ [7] : https://github.com/systemd/systemd/commit/868d95577e
+│                       │       │                  ├ [9] : https://github.com/systemd/systemd/commit/868d95577e
 │                       │       │                  │       c9f862580ad365726515459be582fc (main) 
-│                       │       │                  ├ [8] : https://github.com/systemd/systemd/commit/8fc7b2a211
+│                       │       │                  ├ [10]: https://github.com/systemd/systemd/commit/8fc7b2a211
 │                       │       │                  │       eb13ef1a94250b28e1c79cab8bdcb9 (main) 
-│                       │       │                  ├ [9] : https://github.com/systemd/systemd/commit/9ce8e3e449
+│                       │       │                  ├ [11]: https://github.com/systemd/systemd/commit/9ce8e3e449
 │                       │       │                  │       def92c75ada41b7d10c5bc3946be77 (main) 
-│                       │       │                  ├ [10]: https://github.com/systemd/systemd/commit/e6a8687b93
+│                       │       │                  ├ [12]: https://github.com/systemd/systemd/commit/e6a8687b93
 │                       │       │                  │       9ab21854f12f59a3cce703e32768cf (main) 
-│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-4598.html 
-│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
-│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                       │       │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/05/
+│                       │       │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
+│                       │       │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
+│                       │       │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
+│                       │       │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                       │       │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/05/
 │                       │       │                  │       29/3 
-│                       │       │                  ╰ [16]: https://www.qualys.com/2025/05/29/apport-coredump/ap
+│                       │       │                  ╰ [18]: https://www.qualys.com/2025/05/29/apport-coredump/ap
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
-│                       │       ╰ LastModifiedDate: 2025-05-30T16:31:03.107Z 
+│                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
 │                       ├ [28]  ╭ VulnerabilityID : CVE-2024-10041 
 │                       │       ├ PkgID           : libpam-modules@1.5.3-7ubuntu2 
 │                       │       ├ PkgName         : libpam-modules 
@@ -1706,36 +1710,40 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 4.7 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4598 
-│                       │       │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
-│                       │       │                  ├ [2] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/0
+│                       │       │                  │       5/1 
+│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/06/0
+│                       │       │                  │       5/3 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4598 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
+│                       │       │                  ├ [4] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f
 │                       │       │                  │       23d422ca8a5a8bdea 
-│                       │       │                  ├ [3] : https://github.com/systemd/systemd/commit/0c49e0049b
+│                       │       │                  ├ [5] : https://github.com/systemd/systemd/commit/0c49e0049b
 │                       │       │                  │       7665bb7769a13ef346fef92e1ad4d6 (main) 
-│                       │       │                  ├ [4] : https://github.com/systemd/systemd/commit/13902e0253
+│                       │       │                  ├ [6] : https://github.com/systemd/systemd/commit/13902e0253
 │                       │       │                  │       21242b1d95c6d8b4e482b37f58cdef (main) 
-│                       │       │                  ├ [5] : https://github.com/systemd/systemd/commit/49f1f2d4a7
+│                       │       │                  ├ [7] : https://github.com/systemd/systemd/commit/49f1f2d4a7
 │                       │       │                  │       612bbed5211a73d11d6a94fbe3bb69 (main) 
-│                       │       │                  ├ [6] : https://github.com/systemd/systemd/commit/76e0ab49c4
+│                       │       │                  ├ [8] : https://github.com/systemd/systemd/commit/76e0ab49c4
 │                       │       │                  │       7965877c19772a2b3bf55f6417ca39 (main) 
-│                       │       │                  ├ [7] : https://github.com/systemd/systemd/commit/868d95577e
+│                       │       │                  ├ [9] : https://github.com/systemd/systemd/commit/868d95577e
 │                       │       │                  │       c9f862580ad365726515459be582fc (main) 
-│                       │       │                  ├ [8] : https://github.com/systemd/systemd/commit/8fc7b2a211
+│                       │       │                  ├ [10]: https://github.com/systemd/systemd/commit/8fc7b2a211
 │                       │       │                  │       eb13ef1a94250b28e1c79cab8bdcb9 (main) 
-│                       │       │                  ├ [9] : https://github.com/systemd/systemd/commit/9ce8e3e449
+│                       │       │                  ├ [11]: https://github.com/systemd/systemd/commit/9ce8e3e449
 │                       │       │                  │       def92c75ada41b7d10c5bc3946be77 (main) 
-│                       │       │                  ├ [10]: https://github.com/systemd/systemd/commit/e6a8687b93
+│                       │       │                  ├ [12]: https://github.com/systemd/systemd/commit/e6a8687b93
 │                       │       │                  │       9ab21854f12f59a3cce703e32768cf (main) 
-│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-4598.html 
-│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
-│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                       │       │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/05/
+│                       │       │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
+│                       │       │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
+│                       │       │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
+│                       │       │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                       │       │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/05/
 │                       │       │                  │       29/3 
-│                       │       │                  ╰ [16]: https://www.qualys.com/2025/05/29/apport-coredump/ap
+│                       │       │                  ╰ [18]: https://www.qualys.com/2025/05/29/apport-coredump/ap
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
-│                       │       ╰ LastModifiedDate: 2025-05-30T16:31:03.107Z 
+│                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
 │                       ├ [35]  ╭ VulnerabilityID : CVE-2024-10041 
 │                       │       ├ PkgID           : libpam0g@1.5.3-7ubuntu2 
 │                       │       ├ PkgName         : libpam0g 
@@ -1982,36 +1990,40 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 4.7 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4598 
-│                       │       │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
-│                       │       │                  ├ [2] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/0
+│                       │       │                  │       5/1 
+│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/06/0
+│                       │       │                  │       5/3 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4598 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
+│                       │       │                  ├ [4] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f
 │                       │       │                  │       23d422ca8a5a8bdea 
-│                       │       │                  ├ [3] : https://github.com/systemd/systemd/commit/0c49e0049b
+│                       │       │                  ├ [5] : https://github.com/systemd/systemd/commit/0c49e0049b
 │                       │       │                  │       7665bb7769a13ef346fef92e1ad4d6 (main) 
-│                       │       │                  ├ [4] : https://github.com/systemd/systemd/commit/13902e0253
+│                       │       │                  ├ [6] : https://github.com/systemd/systemd/commit/13902e0253
 │                       │       │                  │       21242b1d95c6d8b4e482b37f58cdef (main) 
-│                       │       │                  ├ [5] : https://github.com/systemd/systemd/commit/49f1f2d4a7
+│                       │       │                  ├ [7] : https://github.com/systemd/systemd/commit/49f1f2d4a7
 │                       │       │                  │       612bbed5211a73d11d6a94fbe3bb69 (main) 
-│                       │       │                  ├ [6] : https://github.com/systemd/systemd/commit/76e0ab49c4
+│                       │       │                  ├ [8] : https://github.com/systemd/systemd/commit/76e0ab49c4
 │                       │       │                  │       7965877c19772a2b3bf55f6417ca39 (main) 
-│                       │       │                  ├ [7] : https://github.com/systemd/systemd/commit/868d95577e
+│                       │       │                  ├ [9] : https://github.com/systemd/systemd/commit/868d95577e
 │                       │       │                  │       c9f862580ad365726515459be582fc (main) 
-│                       │       │                  ├ [8] : https://github.com/systemd/systemd/commit/8fc7b2a211
+│                       │       │                  ├ [10]: https://github.com/systemd/systemd/commit/8fc7b2a211
 │                       │       │                  │       eb13ef1a94250b28e1c79cab8bdcb9 (main) 
-│                       │       │                  ├ [9] : https://github.com/systemd/systemd/commit/9ce8e3e449
+│                       │       │                  ├ [11]: https://github.com/systemd/systemd/commit/9ce8e3e449
 │                       │       │                  │       def92c75ada41b7d10c5bc3946be77 (main) 
-│                       │       │                  ├ [10]: https://github.com/systemd/systemd/commit/e6a8687b93
+│                       │       │                  ├ [12]: https://github.com/systemd/systemd/commit/e6a8687b93
 │                       │       │                  │       9ab21854f12f59a3cce703e32768cf (main) 
-│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-4598.html 
-│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
-│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                       │       │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/05/
+│                       │       │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
+│                       │       │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
+│                       │       │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
+│                       │       │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                       │       │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/05/
 │                       │       │                  │       29/3 
-│                       │       │                  ╰ [16]: https://www.qualys.com/2025/05/29/apport-coredump/ap
+│                       │       │                  ╰ [18]: https://www.qualys.com/2025/05/29/apport-coredump/ap
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
-│                       │       ╰ LastModifiedDate: 2025-05-30T16:31:03.107Z 
+│                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
 │                       ├ [40]  ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : libsystemd0@256.5-2ubuntu3.1 
 │                       │       ├ PkgName         : libsystemd0 
@@ -2059,36 +2071,40 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 4.7 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4598 
-│                       │       │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
-│                       │       │                  ├ [2] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/0
+│                       │       │                  │       5/1 
+│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/06/0
+│                       │       │                  │       5/3 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4598 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
+│                       │       │                  ├ [4] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f
 │                       │       │                  │       23d422ca8a5a8bdea 
-│                       │       │                  ├ [3] : https://github.com/systemd/systemd/commit/0c49e0049b
+│                       │       │                  ├ [5] : https://github.com/systemd/systemd/commit/0c49e0049b
 │                       │       │                  │       7665bb7769a13ef346fef92e1ad4d6 (main) 
-│                       │       │                  ├ [4] : https://github.com/systemd/systemd/commit/13902e0253
+│                       │       │                  ├ [6] : https://github.com/systemd/systemd/commit/13902e0253
 │                       │       │                  │       21242b1d95c6d8b4e482b37f58cdef (main) 
-│                       │       │                  ├ [5] : https://github.com/systemd/systemd/commit/49f1f2d4a7
+│                       │       │                  ├ [7] : https://github.com/systemd/systemd/commit/49f1f2d4a7
 │                       │       │                  │       612bbed5211a73d11d6a94fbe3bb69 (main) 
-│                       │       │                  ├ [6] : https://github.com/systemd/systemd/commit/76e0ab49c4
+│                       │       │                  ├ [8] : https://github.com/systemd/systemd/commit/76e0ab49c4
 │                       │       │                  │       7965877c19772a2b3bf55f6417ca39 (main) 
-│                       │       │                  ├ [7] : https://github.com/systemd/systemd/commit/868d95577e
+│                       │       │                  ├ [9] : https://github.com/systemd/systemd/commit/868d95577e
 │                       │       │                  │       c9f862580ad365726515459be582fc (main) 
-│                       │       │                  ├ [8] : https://github.com/systemd/systemd/commit/8fc7b2a211
+│                       │       │                  ├ [10]: https://github.com/systemd/systemd/commit/8fc7b2a211
 │                       │       │                  │       eb13ef1a94250b28e1c79cab8bdcb9 (main) 
-│                       │       │                  ├ [9] : https://github.com/systemd/systemd/commit/9ce8e3e449
+│                       │       │                  ├ [11]: https://github.com/systemd/systemd/commit/9ce8e3e449
 │                       │       │                  │       def92c75ada41b7d10c5bc3946be77 (main) 
-│                       │       │                  ├ [10]: https://github.com/systemd/systemd/commit/e6a8687b93
+│                       │       │                  ├ [12]: https://github.com/systemd/systemd/commit/e6a8687b93
 │                       │       │                  │       9ab21854f12f59a3cce703e32768cf (main) 
-│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-4598.html 
-│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
-│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                       │       │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/05/
+│                       │       │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
+│                       │       │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
+│                       │       │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
+│                       │       │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                       │       │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/05/
 │                       │       │                  │       29/3 
-│                       │       │                  ╰ [16]: https://www.qualys.com/2025/05/29/apport-coredump/ap
+│                       │       │                  ╰ [18]: https://www.qualys.com/2025/05/29/apport-coredump/ap
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
-│                       │       ╰ LastModifiedDate: 2025-05-30T16:31:03.107Z 
+│                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
 │                       ├ [41]  ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : libudev1@256.5-2ubuntu3.1 
 │                       │       ├ PkgName         : libudev1 
@@ -2136,36 +2152,40 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 4.7 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4598 
-│                       │       │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
-│                       │       │                  ├ [2] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/0
+│                       │       │                  │       5/1 
+│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/06/0
+│                       │       │                  │       5/3 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4598 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
+│                       │       │                  ├ [4] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f
 │                       │       │                  │       23d422ca8a5a8bdea 
-│                       │       │                  ├ [3] : https://github.com/systemd/systemd/commit/0c49e0049b
+│                       │       │                  ├ [5] : https://github.com/systemd/systemd/commit/0c49e0049b
 │                       │       │                  │       7665bb7769a13ef346fef92e1ad4d6 (main) 
-│                       │       │                  ├ [4] : https://github.com/systemd/systemd/commit/13902e0253
+│                       │       │                  ├ [6] : https://github.com/systemd/systemd/commit/13902e0253
 │                       │       │                  │       21242b1d95c6d8b4e482b37f58cdef (main) 
-│                       │       │                  ├ [5] : https://github.com/systemd/systemd/commit/49f1f2d4a7
+│                       │       │                  ├ [7] : https://github.com/systemd/systemd/commit/49f1f2d4a7
 │                       │       │                  │       612bbed5211a73d11d6a94fbe3bb69 (main) 
-│                       │       │                  ├ [6] : https://github.com/systemd/systemd/commit/76e0ab49c4
+│                       │       │                  ├ [8] : https://github.com/systemd/systemd/commit/76e0ab49c4
 │                       │       │                  │       7965877c19772a2b3bf55f6417ca39 (main) 
-│                       │       │                  ├ [7] : https://github.com/systemd/systemd/commit/868d95577e
+│                       │       │                  ├ [9] : https://github.com/systemd/systemd/commit/868d95577e
 │                       │       │                  │       c9f862580ad365726515459be582fc (main) 
-│                       │       │                  ├ [8] : https://github.com/systemd/systemd/commit/8fc7b2a211
+│                       │       │                  ├ [10]: https://github.com/systemd/systemd/commit/8fc7b2a211
 │                       │       │                  │       eb13ef1a94250b28e1c79cab8bdcb9 (main) 
-│                       │       │                  ├ [9] : https://github.com/systemd/systemd/commit/9ce8e3e449
+│                       │       │                  ├ [11]: https://github.com/systemd/systemd/commit/9ce8e3e449
 │                       │       │                  │       def92c75ada41b7d10c5bc3946be77 (main) 
-│                       │       │                  ├ [10]: https://github.com/systemd/systemd/commit/e6a8687b93
+│                       │       │                  ├ [12]: https://github.com/systemd/systemd/commit/e6a8687b93
 │                       │       │                  │       9ab21854f12f59a3cce703e32768cf (main) 
-│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-4598.html 
-│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
-│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                       │       │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/05/
+│                       │       │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
+│                       │       │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
+│                       │       │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
+│                       │       │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                       │       │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/05/
 │                       │       │                  │       29/3 
-│                       │       │                  ╰ [16]: https://www.qualys.com/2025/05/29/apport-coredump/ap
+│                       │       │                  ╰ [18]: https://www.qualys.com/2025/05/29/apport-coredump/ap
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
-│                       │       ╰ LastModifiedDate: 2025-05-30T16:31:03.107Z 
+│                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
 │                       ├ [42]  ╭ VulnerabilityID : CVE-2024-11595 
 │                       │       ├ PkgID           : libwireshark-data@4.2.6-1 
 │                       │       ├ PkgName         : libwireshark-data 
@@ -3803,36 +3823,40 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 4.7 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4598 
-│                       │       │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
-│                       │       │                  ├ [2] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/0
+│                       │       │                  │       5/1 
+│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/06/0
+│                       │       │                  │       5/3 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4598 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
+│                       │       │                  ├ [4] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f
 │                       │       │                  │       23d422ca8a5a8bdea 
-│                       │       │                  ├ [3] : https://github.com/systemd/systemd/commit/0c49e0049b
+│                       │       │                  ├ [5] : https://github.com/systemd/systemd/commit/0c49e0049b
 │                       │       │                  │       7665bb7769a13ef346fef92e1ad4d6 (main) 
-│                       │       │                  ├ [4] : https://github.com/systemd/systemd/commit/13902e0253
+│                       │       │                  ├ [6] : https://github.com/systemd/systemd/commit/13902e0253
 │                       │       │                  │       21242b1d95c6d8b4e482b37f58cdef (main) 
-│                       │       │                  ├ [5] : https://github.com/systemd/systemd/commit/49f1f2d4a7
+│                       │       │                  ├ [7] : https://github.com/systemd/systemd/commit/49f1f2d4a7
 │                       │       │                  │       612bbed5211a73d11d6a94fbe3bb69 (main) 
-│                       │       │                  ├ [6] : https://github.com/systemd/systemd/commit/76e0ab49c4
+│                       │       │                  ├ [8] : https://github.com/systemd/systemd/commit/76e0ab49c4
 │                       │       │                  │       7965877c19772a2b3bf55f6417ca39 (main) 
-│                       │       │                  ├ [7] : https://github.com/systemd/systemd/commit/868d95577e
+│                       │       │                  ├ [9] : https://github.com/systemd/systemd/commit/868d95577e
 │                       │       │                  │       c9f862580ad365726515459be582fc (main) 
-│                       │       │                  ├ [8] : https://github.com/systemd/systemd/commit/8fc7b2a211
+│                       │       │                  ├ [10]: https://github.com/systemd/systemd/commit/8fc7b2a211
 │                       │       │                  │       eb13ef1a94250b28e1c79cab8bdcb9 (main) 
-│                       │       │                  ├ [9] : https://github.com/systemd/systemd/commit/9ce8e3e449
+│                       │       │                  ├ [11]: https://github.com/systemd/systemd/commit/9ce8e3e449
 │                       │       │                  │       def92c75ada41b7d10c5bc3946be77 (main) 
-│                       │       │                  ├ [10]: https://github.com/systemd/systemd/commit/e6a8687b93
+│                       │       │                  ├ [12]: https://github.com/systemd/systemd/commit/e6a8687b93
 │                       │       │                  │       9ab21854f12f59a3cce703e32768cf (main) 
-│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-4598.html 
-│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
-│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                       │       │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/05/
+│                       │       │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
+│                       │       │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
+│                       │       │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
+│                       │       │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                       │       │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/05/
 │                       │       │                  │       29/3 
-│                       │       │                  ╰ [16]: https://www.qualys.com/2025/05/29/apport-coredump/ap
+│                       │       │                  ╰ [18]: https://www.qualys.com/2025/05/29/apport-coredump/ap
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
-│                       │       ╰ LastModifiedDate: 2025-05-30T16:31:03.107Z 
+│                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
 │                       ├ [79]  ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : systemd-cryptsetup@256.5-2ubuntu3.1 
 │                       │       ├ PkgName         : systemd-cryptsetup 
@@ -3880,36 +3904,40 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 4.7 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4598 
-│                       │       │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
-│                       │       │                  ├ [2] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/0
+│                       │       │                  │       5/1 
+│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/06/0
+│                       │       │                  │       5/3 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4598 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
+│                       │       │                  ├ [4] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f
 │                       │       │                  │       23d422ca8a5a8bdea 
-│                       │       │                  ├ [3] : https://github.com/systemd/systemd/commit/0c49e0049b
+│                       │       │                  ├ [5] : https://github.com/systemd/systemd/commit/0c49e0049b
 │                       │       │                  │       7665bb7769a13ef346fef92e1ad4d6 (main) 
-│                       │       │                  ├ [4] : https://github.com/systemd/systemd/commit/13902e0253
+│                       │       │                  ├ [6] : https://github.com/systemd/systemd/commit/13902e0253
 │                       │       │                  │       21242b1d95c6d8b4e482b37f58cdef (main) 
-│                       │       │                  ├ [5] : https://github.com/systemd/systemd/commit/49f1f2d4a7
+│                       │       │                  ├ [7] : https://github.com/systemd/systemd/commit/49f1f2d4a7
 │                       │       │                  │       612bbed5211a73d11d6a94fbe3bb69 (main) 
-│                       │       │                  ├ [6] : https://github.com/systemd/systemd/commit/76e0ab49c4
+│                       │       │                  ├ [8] : https://github.com/systemd/systemd/commit/76e0ab49c4
 │                       │       │                  │       7965877c19772a2b3bf55f6417ca39 (main) 
-│                       │       │                  ├ [7] : https://github.com/systemd/systemd/commit/868d95577e
+│                       │       │                  ├ [9] : https://github.com/systemd/systemd/commit/868d95577e
 │                       │       │                  │       c9f862580ad365726515459be582fc (main) 
-│                       │       │                  ├ [8] : https://github.com/systemd/systemd/commit/8fc7b2a211
+│                       │       │                  ├ [10]: https://github.com/systemd/systemd/commit/8fc7b2a211
 │                       │       │                  │       eb13ef1a94250b28e1c79cab8bdcb9 (main) 
-│                       │       │                  ├ [9] : https://github.com/systemd/systemd/commit/9ce8e3e449
+│                       │       │                  ├ [11]: https://github.com/systemd/systemd/commit/9ce8e3e449
 │                       │       │                  │       def92c75ada41b7d10c5bc3946be77 (main) 
-│                       │       │                  ├ [10]: https://github.com/systemd/systemd/commit/e6a8687b93
+│                       │       │                  ├ [12]: https://github.com/systemd/systemd/commit/e6a8687b93
 │                       │       │                  │       9ab21854f12f59a3cce703e32768cf (main) 
-│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-4598.html 
-│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
-│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                       │       │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/05/
+│                       │       │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
+│                       │       │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
+│                       │       │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
+│                       │       │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                       │       │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/05/
 │                       │       │                  │       29/3 
-│                       │       │                  ╰ [16]: https://www.qualys.com/2025/05/29/apport-coredump/ap
+│                       │       │                  ╰ [18]: https://www.qualys.com/2025/05/29/apport-coredump/ap
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
-│                       │       ╰ LastModifiedDate: 2025-05-30T16:31:03.107Z 
+│                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
 │                       ├ [80]  ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : systemd-resolved@256.5-2ubuntu3.1 
 │                       │       ├ PkgName         : systemd-resolved 
@@ -3957,36 +3985,40 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 4.7 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4598 
-│                       │       │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
-│                       │       │                  ├ [2] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/0
+│                       │       │                  │       5/1 
+│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/06/0
+│                       │       │                  │       5/3 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4598 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
+│                       │       │                  ├ [4] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f
 │                       │       │                  │       23d422ca8a5a8bdea 
-│                       │       │                  ├ [3] : https://github.com/systemd/systemd/commit/0c49e0049b
+│                       │       │                  ├ [5] : https://github.com/systemd/systemd/commit/0c49e0049b
 │                       │       │                  │       7665bb7769a13ef346fef92e1ad4d6 (main) 
-│                       │       │                  ├ [4] : https://github.com/systemd/systemd/commit/13902e0253
+│                       │       │                  ├ [6] : https://github.com/systemd/systemd/commit/13902e0253
 │                       │       │                  │       21242b1d95c6d8b4e482b37f58cdef (main) 
-│                       │       │                  ├ [5] : https://github.com/systemd/systemd/commit/49f1f2d4a7
+│                       │       │                  ├ [7] : https://github.com/systemd/systemd/commit/49f1f2d4a7
 │                       │       │                  │       612bbed5211a73d11d6a94fbe3bb69 (main) 
-│                       │       │                  ├ [6] : https://github.com/systemd/systemd/commit/76e0ab49c4
+│                       │       │                  ├ [8] : https://github.com/systemd/systemd/commit/76e0ab49c4
 │                       │       │                  │       7965877c19772a2b3bf55f6417ca39 (main) 
-│                       │       │                  ├ [7] : https://github.com/systemd/systemd/commit/868d95577e
+│                       │       │                  ├ [9] : https://github.com/systemd/systemd/commit/868d95577e
 │                       │       │                  │       c9f862580ad365726515459be582fc (main) 
-│                       │       │                  ├ [8] : https://github.com/systemd/systemd/commit/8fc7b2a211
+│                       │       │                  ├ [10]: https://github.com/systemd/systemd/commit/8fc7b2a211
 │                       │       │                  │       eb13ef1a94250b28e1c79cab8bdcb9 (main) 
-│                       │       │                  ├ [9] : https://github.com/systemd/systemd/commit/9ce8e3e449
+│                       │       │                  ├ [11]: https://github.com/systemd/systemd/commit/9ce8e3e449
 │                       │       │                  │       def92c75ada41b7d10c5bc3946be77 (main) 
-│                       │       │                  ├ [10]: https://github.com/systemd/systemd/commit/e6a8687b93
+│                       │       │                  ├ [12]: https://github.com/systemd/systemd/commit/e6a8687b93
 │                       │       │                  │       9ab21854f12f59a3cce703e32768cf (main) 
-│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-4598.html 
-│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
-│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                       │       │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/05/
+│                       │       │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
+│                       │       │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
+│                       │       │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
+│                       │       │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                       │       │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/05/
 │                       │       │                  │       29/3 
-│                       │       │                  ╰ [16]: https://www.qualys.com/2025/05/29/apport-coredump/ap
+│                       │       │                  ╰ [18]: https://www.qualys.com/2025/05/29/apport-coredump/ap
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
-│                       │       ╰ LastModifiedDate: 2025-05-30T16:31:03.107Z 
+│                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
 │                       ├ [81]  ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : systemd-sysv@256.5-2ubuntu3.1 
 │                       │       ├ PkgName         : systemd-sysv 
@@ -4034,36 +4066,40 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 4.7 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4598 
-│                       │       │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
-│                       │       │                  ├ [2] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/0
+│                       │       │                  │       5/1 
+│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/06/0
+│                       │       │                  │       5/3 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4598 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
+│                       │       │                  ├ [4] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f
 │                       │       │                  │       23d422ca8a5a8bdea 
-│                       │       │                  ├ [3] : https://github.com/systemd/systemd/commit/0c49e0049b
+│                       │       │                  ├ [5] : https://github.com/systemd/systemd/commit/0c49e0049b
 │                       │       │                  │       7665bb7769a13ef346fef92e1ad4d6 (main) 
-│                       │       │                  ├ [4] : https://github.com/systemd/systemd/commit/13902e0253
+│                       │       │                  ├ [6] : https://github.com/systemd/systemd/commit/13902e0253
 │                       │       │                  │       21242b1d95c6d8b4e482b37f58cdef (main) 
-│                       │       │                  ├ [5] : https://github.com/systemd/systemd/commit/49f1f2d4a7
+│                       │       │                  ├ [7] : https://github.com/systemd/systemd/commit/49f1f2d4a7
 │                       │       │                  │       612bbed5211a73d11d6a94fbe3bb69 (main) 
-│                       │       │                  ├ [6] : https://github.com/systemd/systemd/commit/76e0ab49c4
+│                       │       │                  ├ [8] : https://github.com/systemd/systemd/commit/76e0ab49c4
 │                       │       │                  │       7965877c19772a2b3bf55f6417ca39 (main) 
-│                       │       │                  ├ [7] : https://github.com/systemd/systemd/commit/868d95577e
+│                       │       │                  ├ [9] : https://github.com/systemd/systemd/commit/868d95577e
 │                       │       │                  │       c9f862580ad365726515459be582fc (main) 
-│                       │       │                  ├ [8] : https://github.com/systemd/systemd/commit/8fc7b2a211
+│                       │       │                  ├ [10]: https://github.com/systemd/systemd/commit/8fc7b2a211
 │                       │       │                  │       eb13ef1a94250b28e1c79cab8bdcb9 (main) 
-│                       │       │                  ├ [9] : https://github.com/systemd/systemd/commit/9ce8e3e449
+│                       │       │                  ├ [11]: https://github.com/systemd/systemd/commit/9ce8e3e449
 │                       │       │                  │       def92c75ada41b7d10c5bc3946be77 (main) 
-│                       │       │                  ├ [10]: https://github.com/systemd/systemd/commit/e6a8687b93
+│                       │       │                  ├ [12]: https://github.com/systemd/systemd/commit/e6a8687b93
 │                       │       │                  │       9ab21854f12f59a3cce703e32768cf (main) 
-│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-4598.html 
-│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
-│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                       │       │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/05/
+│                       │       │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
+│                       │       │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
+│                       │       │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
+│                       │       │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                       │       │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/05/
 │                       │       │                  │       29/3 
-│                       │       │                  ╰ [16]: https://www.qualys.com/2025/05/29/apport-coredump/ap
+│                       │       │                  ╰ [18]: https://www.qualys.com/2025/05/29/apport-coredump/ap
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
-│                       │       ╰ LastModifiedDate: 2025-05-30T16:31:03.107Z 
+│                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
 │                       ├ [82]  ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : systemd-timesyncd@256.5-2ubuntu3.1 
 │                       │       ├ PkgName         : systemd-timesyncd 
@@ -4111,36 +4147,40 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 4.7 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4598 
-│                       │       │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
-│                       │       │                  ├ [2] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/0
+│                       │       │                  │       5/1 
+│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/06/0
+│                       │       │                  │       5/3 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4598 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
+│                       │       │                  ├ [4] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f
 │                       │       │                  │       23d422ca8a5a8bdea 
-│                       │       │                  ├ [3] : https://github.com/systemd/systemd/commit/0c49e0049b
+│                       │       │                  ├ [5] : https://github.com/systemd/systemd/commit/0c49e0049b
 │                       │       │                  │       7665bb7769a13ef346fef92e1ad4d6 (main) 
-│                       │       │                  ├ [4] : https://github.com/systemd/systemd/commit/13902e0253
+│                       │       │                  ├ [6] : https://github.com/systemd/systemd/commit/13902e0253
 │                       │       │                  │       21242b1d95c6d8b4e482b37f58cdef (main) 
-│                       │       │                  ├ [5] : https://github.com/systemd/systemd/commit/49f1f2d4a7
+│                       │       │                  ├ [7] : https://github.com/systemd/systemd/commit/49f1f2d4a7
 │                       │       │                  │       612bbed5211a73d11d6a94fbe3bb69 (main) 
-│                       │       │                  ├ [6] : https://github.com/systemd/systemd/commit/76e0ab49c4
+│                       │       │                  ├ [8] : https://github.com/systemd/systemd/commit/76e0ab49c4
 │                       │       │                  │       7965877c19772a2b3bf55f6417ca39 (main) 
-│                       │       │                  ├ [7] : https://github.com/systemd/systemd/commit/868d95577e
+│                       │       │                  ├ [9] : https://github.com/systemd/systemd/commit/868d95577e
 │                       │       │                  │       c9f862580ad365726515459be582fc (main) 
-│                       │       │                  ├ [8] : https://github.com/systemd/systemd/commit/8fc7b2a211
+│                       │       │                  ├ [10]: https://github.com/systemd/systemd/commit/8fc7b2a211
 │                       │       │                  │       eb13ef1a94250b28e1c79cab8bdcb9 (main) 
-│                       │       │                  ├ [9] : https://github.com/systemd/systemd/commit/9ce8e3e449
+│                       │       │                  ├ [11]: https://github.com/systemd/systemd/commit/9ce8e3e449
 │                       │       │                  │       def92c75ada41b7d10c5bc3946be77 (main) 
-│                       │       │                  ├ [10]: https://github.com/systemd/systemd/commit/e6a8687b93
+│                       │       │                  ├ [12]: https://github.com/systemd/systemd/commit/e6a8687b93
 │                       │       │                  │       9ab21854f12f59a3cce703e32768cf (main) 
-│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-4598.html 
-│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
-│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                       │       │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/05/
+│                       │       │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
+│                       │       │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
+│                       │       │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
+│                       │       │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                       │       │                  ├ [17]: https://www.openwall.com/lists/oss-security/2025/05/
 │                       │       │                  │       29/3 
-│                       │       │                  ╰ [16]: https://www.qualys.com/2025/05/29/apport-coredump/ap
+│                       │       │                  ╰ [18]: https://www.qualys.com/2025/05/29/apport-coredump/ap
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
-│                       │       ╰ LastModifiedDate: 2025-05-30T16:31:03.107Z 
+│                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
 │                       ├ [83]  ╭ VulnerabilityID : CVE-2024-11595 
 │                       │       ├ PkgID           : tshark@4.2.6-1 
 │                       │       ├ PkgName         : tshark 
