@@ -2,12 +2,42 @@
 
 ## 🔐 Copying the CA certificate
 
-### IOS, Android, Windows or Mac
+To be able to use _mitm_ for HTTPS you need to have the a custom generated CA certificate in the connection source system/container. 
+
+### Pre-generating
+
+To pre-generate these custom generated CA certificates just execute:
+
+```bash
+docker run --rm -ti nmaguiar/netutils mitm-gencerts.sh
+```
+
+The result will be an unix command that, when executed, will create several files, in the current folder, with custom generated CA certificate in different formats for you to copy to the communication source system.
+
+> In some cases (like in MacOS) you might need to open 'vi' paste the copied contents, save to a temporary file and then execute it.
+
+Then, before setting up _mitm_ on the nmaguiar/netutils container execute:
+
+```bash
+sudo -u mitm bash
+mkdir -p ~/.mitmproxy
+cd ~/.mitmproxy
+# execute the provided unix command from the first mitm-generate.sh execution
+```
+
+Now you can start the _mitm_ tool.
+
+
+#### To retrieve them with mitm running
+
+When _mitm_ is running you can use the following method to retrieve the current CA certificate in use.
+
+##### IOS, Android, Windows or Mac
 
 1. Set your system proxy to port 8080.
 2. Access http://mitm.it/
 
-### Alpine Linux
+##### Alpine Linux
 
 1. Obtain the ```~/.mitmproxy/mitmproxy-ca-cert.pem``` and copy it to the target container ```/usr/local/share/ca-certificates/mitmproxy-ca-cert.crt```
 2. Execute ```update-ca-certificates```
@@ -19,7 +49,7 @@ export http_proxy=http://127.0.0.1:8080
 export https_proxy=http://127.0.0.1:8080
 ```
 
-### Others
+##### Others
 
 Common linux distributions ca certificates location:
 
@@ -73,25 +103,25 @@ mitm-transparent-set.sh
 - Outgoing IPv4 TCP:
 
 ```bash
-mitm-transparent-add.sh <port> [<host>]
+mitm-transparent-add.sh port [host]
 ```
 
 - Outgoing IPv6 TCP:
 
 ```bash
-mitm-transparent-add6.sh <port> [<host>]
+mitm-transparent-add6.sh port [host]
 ```
 
 - Incoming IPv4 on `eth0`:
 
 ```bash
-mitm-transparent-add-incoming.sh <port> [<host>]
+mitm-transparent-add-incoming.sh port [host]
 ```
 
 - Incoming IPv6 on `eth0`:
 
 ```bash
-mitm-transparent-add6-incoming.sh <port> [<host>]
+mitm-transparent-add6-incoming.sh port [host]
 ```
 
 3. **Start mitmproxy in transparent mode** (runs as user `mitm`, default port `8080`):
@@ -105,10 +135,10 @@ mitm-transparent-start.sh
 Use one or more of the following:
 
 ```bash
-mitm-transparent-clean.sh <port> [<host>]
-mitm-transparent-clean6.sh <port> [<host>]
-mitm-transparent-clean-incoming.sh <port> [<host>]
-mitm-transparent-clean6-incoming.sh <port> [<host>]
+mitm-transparent-clean.sh port [host]
+mitm-transparent-clean6.sh port [host]
+mitm-transparent-clean-incoming.sh port [host]
+mitm-transparent-clean6-incoming.sh port [host]
 ```
 
 OR simply,
