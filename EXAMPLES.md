@@ -194,8 +194,8 @@ To start a Chrome browser to connect to the socks proxy:
 
 | OS | Command |
 |----|---------|
-| Linux/WSL | curl https://ojob.io/unix/newChrome.sh | sh -s default localhost:11080 |
-| Mac | curl https://ojob.io/mac/newChrome.sh | sh -s default localhost:11080 |
+| Linux/WSL | curl https://ojob.io/unix/newChrome.sh \| sh -s default localhost:11080 |
+| Mac | curl https://ojob.io/mac/newChrome.sh \| sh -s default localhost:11080 |
 | Windows | curl https://ojob.io/win/newChrome.bat -O newChrome.bat && newChrome.bat default localhost:11080 |
 
 > Check https://github.com/nmaguiar/socksd for more details to connect different clients 
