@@ -108,7 +108,7 @@
     - https://curl.se/docs/CVE-2025-5399.json
     - https://hackerone.com/reports/3168039
     PublishedDate: '2025-06-07T08:15:20.687Z'
-    LastModifiedDate: '2025-06-07T08:15:20.687Z'
+    LastModifiedDate: '2025-06-09T14:15:23.47Z'
   - VulnerabilityID: CVE-2025-4947
     PkgID: curl-doc@8.13.0-r1
     PkgName: curl-doc
@@ -215,7 +215,7 @@
     - https://curl.se/docs/CVE-2025-5399.json
     - https://hackerone.com/reports/3168039
     PublishedDate: '2025-06-07T08:15:20.687Z'
-    LastModifiedDate: '2025-06-07T08:15:20.687Z'
+    LastModifiedDate: '2025-06-09T14:15:23.47Z'
   - VulnerabilityID: CVE-2025-4947
     PkgID: libcurl@8.13.0-r1
     PkgName: libcurl
@@ -322,7 +322,7 @@
     - https://curl.se/docs/CVE-2025-5399.json
     - https://hackerone.com/reports/3168039
     PublishedDate: '2025-06-07T08:15:20.687Z'
-    LastModifiedDate: '2025-06-07T08:15:20.687Z'
+    LastModifiedDate: '2025-06-09T14:15:23.47Z'
   - VulnerabilityID: CVE-2024-12718
     PkgID: pyc@3.12.10-r1
     PkgName: pyc
