@@ -95,8 +95,7 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : Due to a mistake in libcurl's WebSocket code, a malicious
-│                       │      │                   server can s ... 
+│                       │      ├ Title           : curl: libcurl: WebSocket endless loop 
 │                       │      ├ Description     : Due to a mistake in libcurl's WebSocket code, a malicious
 │                       │      │                   server can send a
 │                       │      │                   particularly crafted packet which makes libcurl get trapped
@@ -107,11 +106,18 @@
 │                       │      │                   this loop other
 │                       │      │                   than killing the thread/process.
 │                       │      │                   This might be used to DoS libcurl-using application. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 4.3 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/06/04/2 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-5399.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-5399.json 
-│                       │      │                  ╰ [3]: https://hackerone.com/reports/3168039 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-5399 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-5399.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-5399.json 
+│                       │      │                  ├ [4]: https://hackerone.com/reports/3168039 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-5399 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5399 
 │                       │      ├ PublishedDate   : 2025-06-07T08:15:20.687Z 
 │                       │      ╰ LastModifiedDate: 2025-06-09T14:15:23.47Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2025-4947 
@@ -207,8 +213,7 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : Due to a mistake in libcurl's WebSocket code, a malicious
-│                       │      │                   server can s ... 
+│                       │      ├ Title           : curl: libcurl: WebSocket endless loop 
 │                       │      ├ Description     : Due to a mistake in libcurl's WebSocket code, a malicious
 │                       │      │                   server can send a
 │                       │      │                   particularly crafted packet which makes libcurl get trapped
@@ -219,11 +224,18 @@
 │                       │      │                   this loop other
 │                       │      │                   than killing the thread/process.
 │                       │      │                   This might be used to DoS libcurl-using application. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 4.3 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/06/04/2 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-5399.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-5399.json 
-│                       │      │                  ╰ [3]: https://hackerone.com/reports/3168039 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-5399 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-5399.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-5399.json 
+│                       │      │                  ├ [4]: https://hackerone.com/reports/3168039 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-5399 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5399 
 │                       │      ├ PublishedDate   : 2025-06-07T08:15:20.687Z 
 │                       │      ╰ LastModifiedDate: 2025-06-09T14:15:23.47Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2025-4947 
@@ -319,8 +331,7 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : Due to a mistake in libcurl's WebSocket code, a malicious
-│                       │      │                   server can s ... 
+│                       │      ├ Title           : curl: libcurl: WebSocket endless loop 
 │                       │      ├ Description     : Due to a mistake in libcurl's WebSocket code, a malicious
 │                       │      │                   server can send a
 │                       │      │                   particularly crafted packet which makes libcurl get trapped
@@ -331,11 +342,18 @@
 │                       │      │                   this loop other
 │                       │      │                   than killing the thread/process.
 │                       │      │                   This might be used to DoS libcurl-using application. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 4.3 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/06/04/2 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-5399.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-5399.json 
-│                       │      │                  ╰ [3]: https://hackerone.com/reports/3168039 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-5399 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-5399.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-5399.json 
+│                       │      │                  ├ [4]: https://hackerone.com/reports/3168039 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-5399 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5399 
 │                       │      ├ PublishedDate   : 2025-06-07T08:15:20.687Z 
 │                       │      ╰ LastModifiedDate: 2025-06-09T14:15:23.47Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2024-12718 
