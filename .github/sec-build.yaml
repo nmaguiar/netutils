@@ -11,8 +11,8 @@
     InstalledVersion: 9.4-3.1ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-2781
     DataSource:
@@ -62,8 +62,8 @@
     InstalledVersion: 8.9.1-2ubuntu2.2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0167
     DataSource:
@@ -102,8 +102,8 @@
     InstalledVersion: 2.4.4-2ubuntu18.2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -146,8 +146,8 @@
     InstalledVersion: 1:1.2.1-2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52949
     DataSource:
@@ -189,8 +189,8 @@
     InstalledVersion: 0.8-13ubuntu6
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52615
     DataSource:
@@ -228,8 +228,8 @@
     InstalledVersion: 0.8-13ubuntu6
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52616
     DataSource:
@@ -276,8 +276,8 @@
     InstalledVersion: 0.8-13ubuntu6
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52615
     DataSource:
@@ -315,8 +315,8 @@
     InstalledVersion: 0.8-13ubuntu6
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52616
     DataSource:
@@ -363,8 +363,8 @@
     InstalledVersion: 0.8-13ubuntu6
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52615
     DataSource:
@@ -402,8 +402,8 @@
     InstalledVersion: 0.8-13ubuntu6
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52616
     DataSource:
@@ -450,8 +450,8 @@
     InstalledVersion: 1:1.4.5-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-29481
     DataSource:
@@ -492,8 +492,8 @@
     InstalledVersion: 2.40-1ubuntu3.1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -529,8 +529,8 @@
     InstalledVersion: 2.40-1ubuntu3.1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -566,8 +566,8 @@
     InstalledVersion: 1.18.2-2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2017-7475
     DataSource:
@@ -619,8 +619,8 @@
     InstalledVersion: 1.18.2-2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2018-18064
     DataSource:
@@ -663,8 +663,8 @@
     InstalledVersion: 1.18.2-2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2019-6461
     DataSource:
@@ -709,8 +709,8 @@
     InstalledVersion: 1.18.2-2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2017-7475
     DataSource:
@@ -762,8 +762,8 @@
     InstalledVersion: 1.18.2-2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2018-18064
     DataSource:
@@ -806,8 +806,8 @@
     InstalledVersion: 1.18.2-2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2019-6461
     DataSource:
@@ -852,8 +852,8 @@
     InstalledVersion: 8.9.1-2ubuntu2.2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0167
     DataSource:
@@ -892,8 +892,8 @@
     InstalledVersion: 0.191-2ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1352
     DataSource:
@@ -936,8 +936,8 @@
     InstalledVersion: 0.191-2ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1376
     DataSource:
@@ -980,8 +980,8 @@
     InstalledVersion: 1.11.0-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2236
     DataSource:
@@ -1031,8 +1031,8 @@
     InstalledVersion: 74.2-1ubuntu4
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5222
     DataSource:
@@ -1058,63 +1058,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-5222
     PublishedDate: '2025-05-27T21:15:23.03Z'
     LastModifiedDate: '2025-05-28T15:01:30.72Z'
-  - VulnerabilityID: CVE-2025-4598
-    PkgID: libnss-systemd@256.5-2ubuntu3.1
-    PkgName: libnss-systemd
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libnss-systemd@256.5-2ubuntu3.1?arch=amd64&distro=ubuntu-24.10
-      UID: 5a68abd09a8146a6
-    InstalledVersion: 256.5-2ubuntu3.1
-    FixedVersion: 256.5-2ubuntu3.3
-    Status: fixed
-    Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
-    Description: |-
-      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
-
-      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-364
-    VendorSeverity:
-      oracle-oval: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/06/05/1
-    - http://www.openwall.com/lists/oss-security/2025/06/05/3
-    - https://access.redhat.com/security/cve/CVE-2025-4598
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
-    - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
-    - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
-    - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
-    - https://github.com/systemd/systemd/commit/49f1f2d4a7612bbed5211a73d11d6a94fbe3bb69 (main)
-    - https://github.com/systemd/systemd/commit/76e0ab49c47965877c19772a2b3bf55f6417ca39 (main)
-    - https://github.com/systemd/systemd/commit/868d95577ec9f862580ad365726515459be582fc (main)
-    - https://github.com/systemd/systemd/commit/8fc7b2a211eb13ef1a94250b28e1c79cab8bdcb9 (main)
-    - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
-    - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
-    - https://linux.oracle.com/cve/CVE-2025-4598.html
-    - https://linux.oracle.com/errata/ELSA-2025-20344.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
-    - https://ubuntu.com/security/notices/USN-7559-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4598
-    - https://www.openwall.com/lists/oss-security/2025/05/29/3
-    - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
-    PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-06-05T07:15:23.047Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-modules@1.5.3-7ubuntu2
     PkgName: libpam-modules
@@ -1124,8 +1067,8 @@
     InstalledVersion: 1.5.3-7ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -1176,8 +1119,8 @@
     InstalledVersion: 1.5.3-7ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -1226,12 +1169,12 @@
     PkgName: libpam-modules-bin
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu2?arch=amd64&distro=ubuntu-24.10
-      UID: 52023e3d863fbfc8
+      UID: 1e86c03b0723d06
     InstalledVersion: 1.5.3-7ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -1278,12 +1221,12 @@
     PkgName: libpam-modules-bin
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu2?arch=amd64&distro=ubuntu-24.10
-      UID: 52023e3d863fbfc8
+      UID: 1e86c03b0723d06
     InstalledVersion: 1.5.3-7ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -1336,8 +1279,8 @@
     InstalledVersion: 1.5.3-7ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -1388,8 +1331,8 @@
     InstalledVersion: 1.5.3-7ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -1433,63 +1376,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
     LastModifiedDate: '2025-02-06T06:15:29.24Z'
-  - VulnerabilityID: CVE-2025-4598
-    PkgID: libpam-systemd@256.5-2ubuntu3.1
-    PkgName: libpam-systemd
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam-systemd@256.5-2ubuntu3.1?arch=amd64&distro=ubuntu-24.10
-      UID: f5201f6736df6135
-    InstalledVersion: 256.5-2ubuntu3.1
-    FixedVersion: 256.5-2ubuntu3.3
-    Status: fixed
-    Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
-    Description: |-
-      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
-
-      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-364
-    VendorSeverity:
-      oracle-oval: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/06/05/1
-    - http://www.openwall.com/lists/oss-security/2025/06/05/3
-    - https://access.redhat.com/security/cve/CVE-2025-4598
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
-    - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
-    - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
-    - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
-    - https://github.com/systemd/systemd/commit/49f1f2d4a7612bbed5211a73d11d6a94fbe3bb69 (main)
-    - https://github.com/systemd/systemd/commit/76e0ab49c47965877c19772a2b3bf55f6417ca39 (main)
-    - https://github.com/systemd/systemd/commit/868d95577ec9f862580ad365726515459be582fc (main)
-    - https://github.com/systemd/systemd/commit/8fc7b2a211eb13ef1a94250b28e1c79cab8bdcb9 (main)
-    - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
-    - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
-    - https://linux.oracle.com/cve/CVE-2025-4598.html
-    - https://linux.oracle.com/errata/ELSA-2025-20344.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
-    - https://ubuntu.com/security/notices/USN-7559-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4598
-    - https://www.openwall.com/lists/oss-security/2025/05/29/3
-    - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
-    PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-06-05T07:15:23.047Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam0g@1.5.3-7ubuntu2
     PkgName: libpam0g
@@ -1499,8 +1385,8 @@
     InstalledVersion: 1.5.3-7ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -1551,8 +1437,8 @@
     InstalledVersion: 1.5.3-7ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -1605,8 +1491,8 @@
     InstalledVersion: 0.42.2-1build1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-37769
     DataSource:
@@ -1639,8 +1525,8 @@
     InstalledVersion: 3.3.1-2ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-41996
     DataSource:
@@ -1672,177 +1558,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
     PublishedDate: '2024-08-26T06:15:04.603Z'
     LastModifiedDate: '2024-08-26T16:35:11.247Z'
-  - VulnerabilityID: CVE-2025-4598
-    PkgID: libsystemd-shared@256.5-2ubuntu3.1
-    PkgName: libsystemd-shared
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libsystemd-shared@256.5-2ubuntu3.1?arch=amd64&distro=ubuntu-24.10
-      UID: 70d0c63b83e34c36
-    InstalledVersion: 256.5-2ubuntu3.1
-    FixedVersion: 256.5-2ubuntu3.3
-    Status: fixed
-    Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
-    Description: |-
-      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
-
-      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-364
-    VendorSeverity:
-      oracle-oval: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/06/05/1
-    - http://www.openwall.com/lists/oss-security/2025/06/05/3
-    - https://access.redhat.com/security/cve/CVE-2025-4598
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
-    - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
-    - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
-    - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
-    - https://github.com/systemd/systemd/commit/49f1f2d4a7612bbed5211a73d11d6a94fbe3bb69 (main)
-    - https://github.com/systemd/systemd/commit/76e0ab49c47965877c19772a2b3bf55f6417ca39 (main)
-    - https://github.com/systemd/systemd/commit/868d95577ec9f862580ad365726515459be582fc (main)
-    - https://github.com/systemd/systemd/commit/8fc7b2a211eb13ef1a94250b28e1c79cab8bdcb9 (main)
-    - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
-    - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
-    - https://linux.oracle.com/cve/CVE-2025-4598.html
-    - https://linux.oracle.com/errata/ELSA-2025-20344.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
-    - https://ubuntu.com/security/notices/USN-7559-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4598
-    - https://www.openwall.com/lists/oss-security/2025/05/29/3
-    - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
-    PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-06-05T07:15:23.047Z'
-  - VulnerabilityID: CVE-2025-4598
-    PkgID: libsystemd0@256.5-2ubuntu3.1
-    PkgName: libsystemd0
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libsystemd0@256.5-2ubuntu3.1?arch=amd64&distro=ubuntu-24.10
-      UID: f7340a89617e2d74
-    InstalledVersion: 256.5-2ubuntu3.1
-    FixedVersion: 256.5-2ubuntu3.3
-    Status: fixed
-    Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
-    Description: |-
-      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
-
-      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-364
-    VendorSeverity:
-      oracle-oval: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/06/05/1
-    - http://www.openwall.com/lists/oss-security/2025/06/05/3
-    - https://access.redhat.com/security/cve/CVE-2025-4598
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
-    - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
-    - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
-    - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
-    - https://github.com/systemd/systemd/commit/49f1f2d4a7612bbed5211a73d11d6a94fbe3bb69 (main)
-    - https://github.com/systemd/systemd/commit/76e0ab49c47965877c19772a2b3bf55f6417ca39 (main)
-    - https://github.com/systemd/systemd/commit/868d95577ec9f862580ad365726515459be582fc (main)
-    - https://github.com/systemd/systemd/commit/8fc7b2a211eb13ef1a94250b28e1c79cab8bdcb9 (main)
-    - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
-    - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
-    - https://linux.oracle.com/cve/CVE-2025-4598.html
-    - https://linux.oracle.com/errata/ELSA-2025-20344.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
-    - https://ubuntu.com/security/notices/USN-7559-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4598
-    - https://www.openwall.com/lists/oss-security/2025/05/29/3
-    - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
-    PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-06-05T07:15:23.047Z'
-  - VulnerabilityID: CVE-2025-4598
-    PkgID: libudev1@256.5-2ubuntu3.1
-    PkgName: libudev1
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libudev1@256.5-2ubuntu3.1?arch=amd64&distro=ubuntu-24.10
-      UID: 841103bf19bdab52
-    InstalledVersion: 256.5-2ubuntu3.1
-    FixedVersion: 256.5-2ubuntu3.3
-    Status: fixed
-    Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
-    Description: |-
-      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
-
-      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-364
-    VendorSeverity:
-      oracle-oval: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/06/05/1
-    - http://www.openwall.com/lists/oss-security/2025/06/05/3
-    - https://access.redhat.com/security/cve/CVE-2025-4598
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
-    - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
-    - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
-    - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
-    - https://github.com/systemd/systemd/commit/49f1f2d4a7612bbed5211a73d11d6a94fbe3bb69 (main)
-    - https://github.com/systemd/systemd/commit/76e0ab49c47965877c19772a2b3bf55f6417ca39 (main)
-    - https://github.com/systemd/systemd/commit/868d95577ec9f862580ad365726515459be582fc (main)
-    - https://github.com/systemd/systemd/commit/8fc7b2a211eb13ef1a94250b28e1c79cab8bdcb9 (main)
-    - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
-    - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
-    - https://linux.oracle.com/cve/CVE-2025-4598.html
-    - https://linux.oracle.com/errata/ELSA-2025-20344.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
-    - https://ubuntu.com/security/notices/USN-7559-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4598
-    - https://www.openwall.com/lists/oss-security/2025/05/29/3
-    - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
-    PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-06-05T07:15:23.047Z'
   - VulnerabilityID: CVE-2024-11595
     PkgID: libwireshark-data@4.2.6-1
     PkgName: libwireshark-data
@@ -1852,8 +1567,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11595
     DataSource:
@@ -1894,8 +1609,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11596
     DataSource:
@@ -1938,8 +1653,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8250
     DataSource:
@@ -1982,8 +1697,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9780
     DataSource:
@@ -2023,8 +1738,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9781
     DataSource:
@@ -2066,8 +1781,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1492
     DataSource:
@@ -2108,8 +1823,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
     DataSource:
@@ -2159,8 +1874,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8645
     DataSource:
@@ -2202,8 +1917,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11595
     DataSource:
@@ -2244,8 +1959,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11596
     DataSource:
@@ -2288,8 +2003,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8250
     DataSource:
@@ -2332,8 +2047,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9780
     DataSource:
@@ -2373,8 +2088,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9781
     DataSource:
@@ -2416,8 +2131,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1492
     DataSource:
@@ -2458,8 +2173,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
     DataSource:
@@ -2509,8 +2224,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8645
     DataSource:
@@ -2552,8 +2267,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11595
     DataSource:
@@ -2594,8 +2309,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11596
     DataSource:
@@ -2638,8 +2353,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8250
     DataSource:
@@ -2682,8 +2397,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9780
     DataSource:
@@ -2723,8 +2438,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9781
     DataSource:
@@ -2766,8 +2481,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1492
     DataSource:
@@ -2808,8 +2523,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
     DataSource:
@@ -2859,8 +2574,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8645
     DataSource:
@@ -2902,8 +2617,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11595
     DataSource:
@@ -2944,8 +2659,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11596
     DataSource:
@@ -2988,8 +2703,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8250
     DataSource:
@@ -3032,8 +2747,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9780
     DataSource:
@@ -3073,8 +2788,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9781
     DataSource:
@@ -3116,8 +2831,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1492
     DataSource:
@@ -3158,8 +2873,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
     DataSource:
@@ -3209,8 +2924,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8645
     DataSource:
@@ -3252,8 +2967,8 @@
     InstalledVersion: 2.40-1ubuntu3.1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -3285,12 +3000,12 @@
     PkgName: login
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/login@4.15.3-3ubuntu2?arch=amd64&distro=ubuntu-24.10&epoch=1
-      UID: 40d8bcd89e02a7ed
+      UID: 8024ad19754fd697
     InstalledVersion: 1:4.15.3-3ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -3328,8 +3043,8 @@
     InstalledVersion: 3.3.1-2ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-41996
     DataSource:
@@ -3370,8 +3085,8 @@
     InstalledVersion: 1:4.15.3-3ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -3400,291 +3115,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2024-12-26T09:15:07.267Z'
-  - VulnerabilityID: CVE-2025-4598
-    PkgID: systemd@256.5-2ubuntu3.1
-    PkgName: systemd
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/systemd@256.5-2ubuntu3.1?arch=amd64&distro=ubuntu-24.10
-      UID: 8a685176f2c8571a
-    InstalledVersion: 256.5-2ubuntu3.1
-    FixedVersion: 256.5-2ubuntu3.3
-    Status: fixed
-    Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
-    Description: |-
-      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
-
-      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-364
-    VendorSeverity:
-      oracle-oval: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/06/05/1
-    - http://www.openwall.com/lists/oss-security/2025/06/05/3
-    - https://access.redhat.com/security/cve/CVE-2025-4598
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
-    - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
-    - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
-    - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
-    - https://github.com/systemd/systemd/commit/49f1f2d4a7612bbed5211a73d11d6a94fbe3bb69 (main)
-    - https://github.com/systemd/systemd/commit/76e0ab49c47965877c19772a2b3bf55f6417ca39 (main)
-    - https://github.com/systemd/systemd/commit/868d95577ec9f862580ad365726515459be582fc (main)
-    - https://github.com/systemd/systemd/commit/8fc7b2a211eb13ef1a94250b28e1c79cab8bdcb9 (main)
-    - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
-    - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
-    - https://linux.oracle.com/cve/CVE-2025-4598.html
-    - https://linux.oracle.com/errata/ELSA-2025-20344.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
-    - https://ubuntu.com/security/notices/USN-7559-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4598
-    - https://www.openwall.com/lists/oss-security/2025/05/29/3
-    - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
-    PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-06-05T07:15:23.047Z'
-  - VulnerabilityID: CVE-2025-4598
-    PkgID: systemd-cryptsetup@256.5-2ubuntu3.1
-    PkgName: systemd-cryptsetup
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/systemd-cryptsetup@256.5-2ubuntu3.1?arch=amd64&distro=ubuntu-24.10
-      UID: 79fd64da3ab13d51
-    InstalledVersion: 256.5-2ubuntu3.1
-    FixedVersion: 256.5-2ubuntu3.3
-    Status: fixed
-    Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
-    Description: |-
-      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
-
-      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-364
-    VendorSeverity:
-      oracle-oval: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/06/05/1
-    - http://www.openwall.com/lists/oss-security/2025/06/05/3
-    - https://access.redhat.com/security/cve/CVE-2025-4598
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
-    - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
-    - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
-    - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
-    - https://github.com/systemd/systemd/commit/49f1f2d4a7612bbed5211a73d11d6a94fbe3bb69 (main)
-    - https://github.com/systemd/systemd/commit/76e0ab49c47965877c19772a2b3bf55f6417ca39 (main)
-    - https://github.com/systemd/systemd/commit/868d95577ec9f862580ad365726515459be582fc (main)
-    - https://github.com/systemd/systemd/commit/8fc7b2a211eb13ef1a94250b28e1c79cab8bdcb9 (main)
-    - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
-    - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
-    - https://linux.oracle.com/cve/CVE-2025-4598.html
-    - https://linux.oracle.com/errata/ELSA-2025-20344.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
-    - https://ubuntu.com/security/notices/USN-7559-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4598
-    - https://www.openwall.com/lists/oss-security/2025/05/29/3
-    - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
-    PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-06-05T07:15:23.047Z'
-  - VulnerabilityID: CVE-2025-4598
-    PkgID: systemd-resolved@256.5-2ubuntu3.1
-    PkgName: systemd-resolved
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/systemd-resolved@256.5-2ubuntu3.1?arch=amd64&distro=ubuntu-24.10
-      UID: e6dccf9809225552
-    InstalledVersion: 256.5-2ubuntu3.1
-    FixedVersion: 256.5-2ubuntu3.3
-    Status: fixed
-    Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
-    Description: |-
-      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
-
-      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-364
-    VendorSeverity:
-      oracle-oval: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/06/05/1
-    - http://www.openwall.com/lists/oss-security/2025/06/05/3
-    - https://access.redhat.com/security/cve/CVE-2025-4598
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
-    - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
-    - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
-    - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
-    - https://github.com/systemd/systemd/commit/49f1f2d4a7612bbed5211a73d11d6a94fbe3bb69 (main)
-    - https://github.com/systemd/systemd/commit/76e0ab49c47965877c19772a2b3bf55f6417ca39 (main)
-    - https://github.com/systemd/systemd/commit/868d95577ec9f862580ad365726515459be582fc (main)
-    - https://github.com/systemd/systemd/commit/8fc7b2a211eb13ef1a94250b28e1c79cab8bdcb9 (main)
-    - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
-    - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
-    - https://linux.oracle.com/cve/CVE-2025-4598.html
-    - https://linux.oracle.com/errata/ELSA-2025-20344.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
-    - https://ubuntu.com/security/notices/USN-7559-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4598
-    - https://www.openwall.com/lists/oss-security/2025/05/29/3
-    - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
-    PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-06-05T07:15:23.047Z'
-  - VulnerabilityID: CVE-2025-4598
-    PkgID: systemd-sysv@256.5-2ubuntu3.1
-    PkgName: systemd-sysv
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/systemd-sysv@256.5-2ubuntu3.1?arch=amd64&distro=ubuntu-24.10
-      UID: c2d667cf94287419
-    InstalledVersion: 256.5-2ubuntu3.1
-    FixedVersion: 256.5-2ubuntu3.3
-    Status: fixed
-    Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
-    Description: |-
-      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
-
-      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-364
-    VendorSeverity:
-      oracle-oval: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/06/05/1
-    - http://www.openwall.com/lists/oss-security/2025/06/05/3
-    - https://access.redhat.com/security/cve/CVE-2025-4598
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
-    - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
-    - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
-    - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
-    - https://github.com/systemd/systemd/commit/49f1f2d4a7612bbed5211a73d11d6a94fbe3bb69 (main)
-    - https://github.com/systemd/systemd/commit/76e0ab49c47965877c19772a2b3bf55f6417ca39 (main)
-    - https://github.com/systemd/systemd/commit/868d95577ec9f862580ad365726515459be582fc (main)
-    - https://github.com/systemd/systemd/commit/8fc7b2a211eb13ef1a94250b28e1c79cab8bdcb9 (main)
-    - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
-    - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
-    - https://linux.oracle.com/cve/CVE-2025-4598.html
-    - https://linux.oracle.com/errata/ELSA-2025-20344.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
-    - https://ubuntu.com/security/notices/USN-7559-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4598
-    - https://www.openwall.com/lists/oss-security/2025/05/29/3
-    - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
-    PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-06-05T07:15:23.047Z'
-  - VulnerabilityID: CVE-2025-4598
-    PkgID: systemd-timesyncd@256.5-2ubuntu3.1
-    PkgName: systemd-timesyncd
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/systemd-timesyncd@256.5-2ubuntu3.1?arch=amd64&distro=ubuntu-24.10
-      UID: 63fea29d8bc0938
-    InstalledVersion: 256.5-2ubuntu3.1
-    FixedVersion: 256.5-2ubuntu3.3
-    Status: fixed
-    Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
-    Description: |-
-      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
-
-      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-364
-    VendorSeverity:
-      oracle-oval: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/06/05/1
-    - http://www.openwall.com/lists/oss-security/2025/06/05/3
-    - https://access.redhat.com/security/cve/CVE-2025-4598
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
-    - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
-    - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
-    - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
-    - https://github.com/systemd/systemd/commit/49f1f2d4a7612bbed5211a73d11d6a94fbe3bb69 (main)
-    - https://github.com/systemd/systemd/commit/76e0ab49c47965877c19772a2b3bf55f6417ca39 (main)
-    - https://github.com/systemd/systemd/commit/868d95577ec9f862580ad365726515459be582fc (main)
-    - https://github.com/systemd/systemd/commit/8fc7b2a211eb13ef1a94250b28e1c79cab8bdcb9 (main)
-    - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
-    - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
-    - https://linux.oracle.com/cve/CVE-2025-4598.html
-    - https://linux.oracle.com/errata/ELSA-2025-20344.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
-    - https://ubuntu.com/security/notices/USN-7559-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-4598
-    - https://www.openwall.com/lists/oss-security/2025/05/29/3
-    - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
-    PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-06-05T07:15:23.047Z'
   - VulnerabilityID: CVE-2024-11595
     PkgID: tshark@4.2.6-1
     PkgName: tshark
@@ -3694,8 +3124,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11595
     DataSource:
@@ -3736,8 +3166,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11596
     DataSource:
@@ -3780,8 +3210,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8250
     DataSource:
@@ -3824,8 +3254,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9780
     DataSource:
@@ -3865,8 +3295,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9781
     DataSource:
@@ -3908,8 +3338,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1492
     DataSource:
@@ -3950,8 +3380,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
     DataSource:
@@ -4001,8 +3431,8 @@
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8645
     DataSource:
@@ -4044,8 +3474,8 @@
     InstalledVersion: 1.24.5-1ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-31879
     DataSource:
@@ -4087,12 +3517,12 @@
     PkgName: wireshark-common
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&distro=ubuntu-24.10
-      UID: 9bac0976118c8a4f
+      UID: 60b67f679677fc27
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11595
     DataSource:
@@ -4129,12 +3559,12 @@
     PkgName: wireshark-common
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&distro=ubuntu-24.10
-      UID: 9bac0976118c8a4f
+      UID: 60b67f679677fc27
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11596
     DataSource:
@@ -4173,12 +3603,12 @@
     PkgName: wireshark-common
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&distro=ubuntu-24.10
-      UID: 9bac0976118c8a4f
+      UID: 60b67f679677fc27
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8250
     DataSource:
@@ -4217,12 +3647,12 @@
     PkgName: wireshark-common
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&distro=ubuntu-24.10
-      UID: 9bac0976118c8a4f
+      UID: 60b67f679677fc27
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9780
     DataSource:
@@ -4258,12 +3688,12 @@
     PkgName: wireshark-common
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&distro=ubuntu-24.10
-      UID: 9bac0976118c8a4f
+      UID: 60b67f679677fc27
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9781
     DataSource:
@@ -4301,12 +3731,12 @@
     PkgName: wireshark-common
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&distro=ubuntu-24.10
-      UID: 9bac0976118c8a4f
+      UID: 60b67f679677fc27
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1492
     DataSource:
@@ -4343,12 +3773,12 @@
     PkgName: wireshark-common
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&distro=ubuntu-24.10
-      UID: 9bac0976118c8a4f
+      UID: 60b67f679677fc27
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
     DataSource:
@@ -4394,12 +3824,12 @@
     PkgName: wireshark-common
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&distro=ubuntu-24.10
-      UID: 9bac0976118c8a4f
+      UID: 60b67f679677fc27
     InstalledVersion: 4.2.6-1
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-8645
     DataSource:
@@ -4441,8 +3871,8 @@
     InstalledVersion: 1:7.7+23ubuntu3
     Status: affected
     Layer:
-      Digest: sha256:a71bf60aa9047e07fd705c43a7f1433ae6c58e698b4e6cc01f3bed0c67998a08
-      DiffID: sha256:d1f97f3db2ddd8ace489bba40d7df0851493c942967571d245c961af6cdec88d
+      Digest: sha256:566726dc1493b6110a8b574bb7f41e6f9c9d1bf2e6487080360c6ccd7a339087
+      DiffID: sha256:18efbbfa60cbbe878ac48508a44f0d645178308630d7f0d806f13010dbe51410
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5574
     DataSource:
