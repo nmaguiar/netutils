@@ -5010,7 +5010,43 @@
 ╰ [3] ╭ Target         : usr/bin/lazydocker 
       ├ Class          : lang-pkgs 
       ├ Type           : gobinary 
-      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2025-4673 
+      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2025-22874 
+                        │     ├ PkgID           : stdlib@v1.24.3 
+                        │     ├ PkgName         : stdlib 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.3 
+                        │     │                  ╰ UID : 5ed4d493ac26b598 
+                        │     ├ InstalledVersion: v1.24.3 
+                        │     ├ FixedVersion    : 1.23.10, 1.24.4 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc766
+                        │     │                  │         7bc7d4c38e318aa8697 
+                        │     │                  ╰ DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38f0
+                        │     │                            948c50a245438ce2e3a 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22874 
+                        │     ├ DataSource       ╭ ID  : govulndb 
+                        │     │                  ├ Name: The Go Vulnerability Database 
+                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+                        │     ├ Title           : crypto/x509: Usage of ExtKeyUsageAny disables policy
+                        │     │                   validation in crypto/x509 
+                        │     ├ Description     : Calling Verify with a VerifyOptions.KeyUsages that contains
+                        │     │                   ExtKeyUsageAny unintentionally disabledpolicy validation.
+                        │     │                   This only affected certificate chains which contain policy
+                        │     │                   graphs, which are rather uncommon. 
+                        │     ├ Severity        : HIGH 
+                        │     ├ VendorSeverity   ─ redhat: 3 
+                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/
+                        │     │                           │           A:N 
+                        │     │                           ╰ V3Score : 7.5 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-22874 
+                        │     │                  ├ [1]: https://go.dev/cl/670375 
+                        │     │                  ├ [2]: https://go.dev/issue/73612 
+                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A 
+                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-22874 
+                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3749 
+                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-22874 
+                        │     ├ PublishedDate   : 2025-06-11T17:15:42.167Z 
+                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
+                        ├ [1] ╭ VulnerabilityID : CVE-2025-4673 
                         │     ├ PkgID           : stdlib@v1.24.3 
                         │     ├ PkgName         : stdlib 
                         │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.3 
@@ -5039,39 +5075,8 @@
                         │     │                  ├ [3]: https://pkg.go.dev/vuln/GO-2025-3751 
                         │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
                         │     ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
-                        │     ╰ LastModifiedDate: 2025-06-11T17:15:42.993Z 
-                        ├ [1] ╭ VulnerabilityID : CVE-2025-0913 
-                        │     ├ PkgID           : stdlib@v1.24.3 
-                        │     ├ PkgName         : stdlib 
-                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.3 
-                        │     │                  ╰ UID : 5ed4d493ac26b598 
-                        │     ├ InstalledVersion: v1.24.3 
-                        │     ├ FixedVersion    : 1.23.10, 1.24.4 
-                        │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc766
-                        │     │                  │         7bc7d4c38e318aa8697 
-                        │     │                  ╰ DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38f0
-                        │     │                            948c50a245438ce2e3a 
-                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0913 
-                        │     ├ DataSource       ╭ ID  : govulndb 
-                        │     │                  ├ Name: The Go Vulnerability Database 
-                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                        │     ├ Title           : Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows
-                        │     │                   in os in syscall 
-                        │     ├ Description     : os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on
-                        │     │                   Unix and Windows systems when the target path was a dangling
-                        │     │                   symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL
-                        │     │                   flags never follows symlinks. On Windows, when the target
-                        │     │                   path was a symlink to a nonexistent location, OpenFile would
-                        │     │                   create a file in that location. OpenFile now always returns
-                        │     │                   an error when the O_CREATE and O_EXCL flags are both set and
-                        │     │                   the target path is a symlink. 
-                        │     ├ Severity        : UNKNOWN 
-                        │     ╰ References       ╭ [0]: https://go.dev/cl/672396 
-                        │                        ├ [1]: https://go.dev/issue/73702 
-                        │                        ├ [2]: https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A 
-                        │                        ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3750 
-                        ╰ [2] ╭ VulnerabilityID : CVE-2025-22874 
+                        │     ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
+                        ╰ [2] ╭ VulnerabilityID : CVE-2025-0913 
                               ├ PkgID           : stdlib@v1.24.3 
                               ├ PkgName         : stdlib 
                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.3 
@@ -5083,21 +5088,25 @@
                               │                  │         7bc7d4c38e318aa8697 
                               │                  ╰ DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38f0
                               │                            948c50a245438ce2e3a 
-                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-22874 
+                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0913 
                               ├ DataSource       ╭ ID  : govulndb 
                               │                  ├ Name: The Go Vulnerability Database 
                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                              ├ Title           : Calling Verify with a VerifyOptions.KeyUsages that contains
-                              │                   ExtKeyUsag ... 
-                              ├ Description     : Calling Verify with a VerifyOptions.KeyUsages that contains
-                              │                   ExtKeyUsageAny unintentionally disabledpolicy validation.
-                              │                   This only affected certificate chains which contain policy
-                              │                   graphs, which are rather uncommon. 
+                              ├ Title           : Inconsistent handling of O_CREATE|O_EXCL on Unix and Windows
+                              │                   in os in syscall 
+                              ├ Description     : os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on
+                              │                   Unix and Windows systems when the target path was a dangling
+                              │                   symlink. On Unix systems, OpenFile with O_CREATE and O_EXCL
+                              │                   flags never follows symlinks. On Windows, when the target
+                              │                   path was a symlink to a nonexistent location, OpenFile would
+                              │                   create a file in that location. OpenFile now always returns
+                              │                   an error when the O_CREATE and O_EXCL flags are both set and
+                              │                   the target path is a symlink. 
                               ├ Severity        : UNKNOWN 
-                              ├ References       ╭ [0]: https://go.dev/cl/670375 
-                              │                  ├ [1]: https://go.dev/issue/73612 
+                              ├ References       ╭ [0]: https://go.dev/cl/672396 
+                              │                  ├ [1]: https://go.dev/issue/73702 
                               │                  ├ [2]: https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A 
-                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3749 
-                              ├ PublishedDate   : 2025-06-11T17:15:42.167Z 
-                              ╰ LastModifiedDate: 2025-06-11T17:15:42.167Z 
+                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3750 
+                              ├ PublishedDate   : 2025-06-11T18:15:24.627Z 
+                              ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 ````
