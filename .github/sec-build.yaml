@@ -1054,10 +1054,11 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-5222
     - https://bugzilla.redhat.com/show_bug.cgi?id=2368600
+    - https://lists.debian.org/debian-lts-announce/2025/06/msg00015.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5222
     - https://www.cve.org/CVERecord?id=CVE-2025-5222
     PublishedDate: '2025-05-27T21:15:23.03Z'
-    LastModifiedDate: '2025-05-28T15:01:30.72Z'
+    LastModifiedDate: '2025-06-15T23:15:18.303Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-modules@1.5.3-7ubuntu2
     PkgName: libpam-modules
@@ -1516,6 +1517,141 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-37769
     PublishedDate: '2023-07-17T20:15:13.547Z'
     LastModifiedDate: '2024-11-21T08:12:14.547Z'
+  - VulnerabilityID: CVE-2025-4516
+    PkgID: libpython3.12-minimal@3.12.7-1ubuntu2
+    PkgName: libpython3.12-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.12-minimal@3.12.7-1ubuntu2?arch=amd64&distro=ubuntu-24.10
+      UID: d77c6237b78757e2
+    InstalledVersion: 3.12.7-1ubuntu2
+    FixedVersion: 3.12.7-1ubuntu2.1
+    Status: fixed
+    Layer:
+      Digest: sha256:7055b5c15e49b00fbf63d634cd6b57e626ca42368d9c6d76bf8226d8d3599c20
+      DiffID: sha256:33628c2b447a05fb7b6de8b99df9cf94534cee8af7dab104faaaa457f0c155e8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/4
+    - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
+    - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
+    - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
+    - https://github.com/python/cpython/commit/69b4387f78f413e8c47572a85b3478c47eba8142
+    - https://github.com/python/cpython/commit/73b3040f592436385007918887b7e2132aa8431f
+    - https://github.com/python/cpython/commit/8d35fd1b34935221aff23a1ab69a429dd156be77
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e (main)
+    - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
+    - https://github.com/python/cpython/issues/133767
+    - https://github.com/python/cpython/pull/129648
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4516
+    PublishedDate: '2025-05-15T14:15:31.753Z'
+    LastModifiedDate: '2025-06-03T14:15:49.697Z'
+  - VulnerabilityID: CVE-2025-4516
+    PkgID: libpython3.12-stdlib@3.12.7-1ubuntu2
+    PkgName: libpython3.12-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.12-stdlib@3.12.7-1ubuntu2?arch=amd64&distro=ubuntu-24.10
+      UID: a72f8524c3b625dc
+    InstalledVersion: 3.12.7-1ubuntu2
+    FixedVersion: 3.12.7-1ubuntu2.1
+    Status: fixed
+    Layer:
+      Digest: sha256:7055b5c15e49b00fbf63d634cd6b57e626ca42368d9c6d76bf8226d8d3599c20
+      DiffID: sha256:33628c2b447a05fb7b6de8b99df9cf94534cee8af7dab104faaaa457f0c155e8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/4
+    - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
+    - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
+    - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
+    - https://github.com/python/cpython/commit/69b4387f78f413e8c47572a85b3478c47eba8142
+    - https://github.com/python/cpython/commit/73b3040f592436385007918887b7e2132aa8431f
+    - https://github.com/python/cpython/commit/8d35fd1b34935221aff23a1ab69a429dd156be77
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e (main)
+    - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
+    - https://github.com/python/cpython/issues/133767
+    - https://github.com/python/cpython/pull/129648
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4516
+    PublishedDate: '2025-05-15T14:15:31.753Z'
+    LastModifiedDate: '2025-06-03T14:15:49.697Z'
+  - VulnerabilityID: CVE-2025-4516
+    PkgID: libpython3.12t64@3.12.7-1ubuntu2
+    PkgName: libpython3.12t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.12t64@3.12.7-1ubuntu2?arch=amd64&distro=ubuntu-24.10
+      UID: d530a3caa49cf433
+    InstalledVersion: 3.12.7-1ubuntu2
+    FixedVersion: 3.12.7-1ubuntu2.1
+    Status: fixed
+    Layer:
+      Digest: sha256:7055b5c15e49b00fbf63d634cd6b57e626ca42368d9c6d76bf8226d8d3599c20
+      DiffID: sha256:33628c2b447a05fb7b6de8b99df9cf94534cee8af7dab104faaaa457f0c155e8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/4
+    - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
+    - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
+    - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
+    - https://github.com/python/cpython/commit/69b4387f78f413e8c47572a85b3478c47eba8142
+    - https://github.com/python/cpython/commit/73b3040f592436385007918887b7e2132aa8431f
+    - https://github.com/python/cpython/commit/8d35fd1b34935221aff23a1ab69a429dd156be77
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e (main)
+    - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
+    - https://github.com/python/cpython/issues/133767
+    - https://github.com/python/cpython/pull/129648
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4516
+    PublishedDate: '2025-05-15T14:15:31.753Z'
+    LastModifiedDate: '2025-06-03T14:15:49.697Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: libssl3t64@3.3.1-2ubuntu2.1
     PkgName: libssl3t64
@@ -3115,6 +3251,96 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2024-12-26T09:15:07.267Z'
+  - VulnerabilityID: CVE-2025-4516
+    PkgID: python3.12@3.12.7-1ubuntu2
+    PkgName: python3.12
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.12@3.12.7-1ubuntu2?arch=amd64&distro=ubuntu-24.10
+      UID: afb35209e3d7f6ce
+    InstalledVersion: 3.12.7-1ubuntu2
+    FixedVersion: 3.12.7-1ubuntu2.1
+    Status: fixed
+    Layer:
+      Digest: sha256:7055b5c15e49b00fbf63d634cd6b57e626ca42368d9c6d76bf8226d8d3599c20
+      DiffID: sha256:33628c2b447a05fb7b6de8b99df9cf94534cee8af7dab104faaaa457f0c155e8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/4
+    - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
+    - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
+    - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
+    - https://github.com/python/cpython/commit/69b4387f78f413e8c47572a85b3478c47eba8142
+    - https://github.com/python/cpython/commit/73b3040f592436385007918887b7e2132aa8431f
+    - https://github.com/python/cpython/commit/8d35fd1b34935221aff23a1ab69a429dd156be77
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e (main)
+    - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
+    - https://github.com/python/cpython/issues/133767
+    - https://github.com/python/cpython/pull/129648
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4516
+    PublishedDate: '2025-05-15T14:15:31.753Z'
+    LastModifiedDate: '2025-06-03T14:15:49.697Z'
+  - VulnerabilityID: CVE-2025-4516
+    PkgID: python3.12-minimal@3.12.7-1ubuntu2
+    PkgName: python3.12-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.12-minimal@3.12.7-1ubuntu2?arch=amd64&distro=ubuntu-24.10
+      UID: df7a4885213ca551
+    InstalledVersion: 3.12.7-1ubuntu2
+    FixedVersion: 3.12.7-1ubuntu2.1
+    Status: fixed
+    Layer:
+      Digest: sha256:7055b5c15e49b00fbf63d634cd6b57e626ca42368d9c6d76bf8226d8d3599c20
+      DiffID: sha256:33628c2b447a05fb7b6de8b99df9cf94534cee8af7dab104faaaa457f0c155e8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/16/4
+    - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
+    - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
+    - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
+    - https://github.com/python/cpython/commit/69b4387f78f413e8c47572a85b3478c47eba8142
+    - https://github.com/python/cpython/commit/73b3040f592436385007918887b7e2132aa8431f
+    - https://github.com/python/cpython/commit/8d35fd1b34935221aff23a1ab69a429dd156be77
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e
+    - https://github.com/python/cpython/commit/9f69a58623bd01349a18ba0c7a9cb1dad6a51e8e (main)
+    - https://github.com/python/cpython/commit/ab9893c40609935e0d40a6d2a7307ea51aec598b
+    - https://github.com/python/cpython/issues/133767
+    - https://github.com/python/cpython/pull/129648
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4516
+    - https://ubuntu.com/security/notices/USN-7570-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4516
+    PublishedDate: '2025-05-15T14:15:31.753Z'
+    LastModifiedDate: '2025-06-03T14:15:49.697Z'
   - VulnerabilityID: CVE-2024-11595
     PkgID: tshark@4.2.6-1
     PkgName: tshark
