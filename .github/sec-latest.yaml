@@ -1210,6 +1210,7 @@
     - CWE-364
     VendorSeverity:
       oracle-oval: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1585,6 +1586,7 @@
     - CWE-364
     VendorSeverity:
       oracle-oval: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1959,6 +1961,7 @@
     - CWE-364
     VendorSeverity:
       oracle-oval: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2016,6 +2019,7 @@
     - CWE-364
     VendorSeverity:
       oracle-oval: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2073,6 +2077,7 @@
     - CWE-364
     VendorSeverity:
       oracle-oval: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3782,6 +3787,7 @@
     - CWE-364
     VendorSeverity:
       oracle-oval: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3839,6 +3845,7 @@
     - CWE-364
     VendorSeverity:
       oracle-oval: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3896,6 +3903,7 @@
     - CWE-364
     VendorSeverity:
       oracle-oval: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3953,6 +3961,7 @@
     - CWE-364
     VendorSeverity:
       oracle-oval: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -4010,6 +4019,7 @@
     - CWE-364
     VendorSeverity:
       oracle-oval: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
