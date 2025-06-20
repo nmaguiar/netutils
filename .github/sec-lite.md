@@ -454,8 +454,9 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : cpython: Bypassing extraction filter to create symlinks to
-│                       │      │                   arbitrary targets outside extraction directory 
+│                       │      ├ Title           : cpython: python: Bypassing extraction filter to create
+│                       │      │                   symlinks to arbitrary targets outside extraction directory[
+│                       │      │                   m 
 │                       │      ├ Description     : Allows the extraction filter to be ignored, allowing symlink
 │                       │      │                    targets to point outside the destination directory, and the
 │                       │      │                    modification of some file metadata.
@@ -532,7 +533,7 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : cpython: Arbitrary writes via tarfile realpath overflow 
+│                       │      ├ Title           : python: Arbitrary writes via tarfile realpath overflow 
 │                       │      ├ Description     : Allows arbitrary filesystem writes outside the extraction
 │                       │      │                   directory during extraction with filter="data".
 │                       │      │                   
@@ -767,8 +768,9 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : cpython: Bypassing extraction filter to create symlinks to
-│                       │      │                   arbitrary targets outside extraction directory 
+│                       │      ├ Title           : cpython: python: Bypassing extraction filter to create
+│                       │      │                   symlinks to arbitrary targets outside extraction directory[
+│                       │      │                   m 
 │                       │      ├ Description     : Allows the extraction filter to be ignored, allowing symlink
 │                       │      │                    targets to point outside the destination directory, and the
 │                       │      │                    modification of some file metadata.
@@ -845,7 +847,7 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : cpython: Arbitrary writes via tarfile realpath overflow 
+│                       │      ├ Title           : python: Arbitrary writes via tarfile realpath overflow 
 │                       │      ├ Description     : Allows arbitrary filesystem writes outside the extraction
 │                       │      │                   directory during extraction with filter="data".
 │                       │      │                   
@@ -1080,8 +1082,9 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : cpython: Bypassing extraction filter to create symlinks to
-│                       │      │                   arbitrary targets outside extraction directory 
+│                       │      ├ Title           : cpython: python: Bypassing extraction filter to create
+│                       │      │                   symlinks to arbitrary targets outside extraction directory[
+│                       │      │                   m 
 │                       │      ├ Description     : Allows the extraction filter to be ignored, allowing symlink
 │                       │      │                    targets to point outside the destination directory, and the
 │                       │      │                    modification of some file metadata.
@@ -1158,7 +1161,7 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : cpython: Arbitrary writes via tarfile realpath overflow 
+│                       │      ├ Title           : python: Arbitrary writes via tarfile realpath overflow 
 │                       │      ├ Description     : Allows arbitrary filesystem writes outside the extraction
 │                       │      │                   directory during extraction with filter="data".
 │                       │      │                   
@@ -1393,8 +1396,9 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : cpython: Bypassing extraction filter to create symlinks to
-│                       │      │                   arbitrary targets outside extraction directory 
+│                       │      ├ Title           : cpython: python: Bypassing extraction filter to create
+│                       │      │                   symlinks to arbitrary targets outside extraction directory[
+│                       │      │                   m 
 │                       │      ├ Description     : Allows the extraction filter to be ignored, allowing symlink
 │                       │      │                    targets to point outside the destination directory, and the
 │                       │      │                    modification of some file metadata.
@@ -1471,7 +1475,7 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : cpython: Arbitrary writes via tarfile realpath overflow 
+│                       │      ├ Title           : python: Arbitrary writes via tarfile realpath overflow 
 │                       │      ├ Description     : Allows arbitrary filesystem writes outside the extraction
 │                       │      │                   directory during extraction with filter="data".
 │                       │      │                   
