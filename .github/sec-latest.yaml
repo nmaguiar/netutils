@@ -1346,6 +1346,46 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
     LastModifiedDate: '2025-02-06T06:15:29.24Z'
+  - VulnerabilityID: CVE-2025-6020
+    PkgID: libpam-modules@1.5.3-7ubuntu2
+    PkgName: libpam-modules
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu2?arch=amd64&distro=ubuntu-24.10
+      UID: b6583972609b9d73
+    InstalledVersion: 1.5.3-7ubuntu2
+    FixedVersion: 1.5.3-7ubuntu2.3
+    Status: fixed
+    Layer:
+      Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc7667bc7d4c38e318aa8697
+      DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38f0948c50a245438ce2e3a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6020
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'linux-pam: Linux-pam directory Traversal'
+    Description: A flaw was found in linux-pam. The module pam_namespace may use access user-controlled paths without proper protection, allowing local users to elevate their privileges to root via multiple symlink attacks and race conditions.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/17/1
+    - https://access.redhat.com/security/cve/CVE-2025-6020
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6020
+    - https://ubuntu.com/security/notices/USN-7580-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-6020
+    - https://www.openwall.com/lists/oss-security/2025/06/17/1
+    PublishedDate: '2025-06-17T13:15:21.66Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-modules-bin@1.5.3-7ubuntu2
     PkgName: libpam-modules-bin
@@ -1452,6 +1492,46 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
     LastModifiedDate: '2025-02-06T06:15:29.24Z'
+  - VulnerabilityID: CVE-2025-6020
+    PkgID: libpam-modules-bin@1.5.3-7ubuntu2
+    PkgName: libpam-modules-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu2?arch=amd64&distro=ubuntu-24.10
+      UID: 52023e3d863fbfc8
+    InstalledVersion: 1.5.3-7ubuntu2
+    FixedVersion: 1.5.3-7ubuntu2.3
+    Status: fixed
+    Layer:
+      Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc7667bc7d4c38e318aa8697
+      DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38f0948c50a245438ce2e3a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6020
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'linux-pam: Linux-pam directory Traversal'
+    Description: A flaw was found in linux-pam. The module pam_namespace may use access user-controlled paths without proper protection, allowing local users to elevate their privileges to root via multiple symlink attacks and race conditions.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/17/1
+    - https://access.redhat.com/security/cve/CVE-2025-6020
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6020
+    - https://ubuntu.com/security/notices/USN-7580-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-6020
+    - https://www.openwall.com/lists/oss-security/2025/06/17/1
+    PublishedDate: '2025-06-17T13:15:21.66Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-runtime@1.5.3-7ubuntu2
     PkgName: libpam-runtime
@@ -1558,6 +1638,46 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
     LastModifiedDate: '2025-02-06T06:15:29.24Z'
+  - VulnerabilityID: CVE-2025-6020
+    PkgID: libpam-runtime@1.5.3-7ubuntu2
+    PkgName: libpam-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu2?arch=all&distro=ubuntu-24.10
+      UID: 52dd5a3dac5cc9ec
+    InstalledVersion: 1.5.3-7ubuntu2
+    FixedVersion: 1.5.3-7ubuntu2.3
+    Status: fixed
+    Layer:
+      Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc7667bc7d4c38e318aa8697
+      DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38f0948c50a245438ce2e3a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6020
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'linux-pam: Linux-pam directory Traversal'
+    Description: A flaw was found in linux-pam. The module pam_namespace may use access user-controlled paths without proper protection, allowing local users to elevate their privileges to root via multiple symlink attacks and race conditions.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/17/1
+    - https://access.redhat.com/security/cve/CVE-2025-6020
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6020
+    - https://ubuntu.com/security/notices/USN-7580-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-6020
+    - https://www.openwall.com/lists/oss-security/2025/06/17/1
+    PublishedDate: '2025-06-17T13:15:21.66Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2025-4598
     PkgID: libpam-systemd@256.5-2ubuntu3.1
     PkgName: libpam-systemd
@@ -1722,6 +1842,46 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
     LastModifiedDate: '2025-02-06T06:15:29.24Z'
+  - VulnerabilityID: CVE-2025-6020
+    PkgID: libpam0g@1.5.3-7ubuntu2
+    PkgName: libpam0g
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu2?arch=amd64&distro=ubuntu-24.10
+      UID: ef18bc8de4c4b9a5
+    InstalledVersion: 1.5.3-7ubuntu2
+    FixedVersion: 1.5.3-7ubuntu2.3
+    Status: fixed
+    Layer:
+      Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc7667bc7d4c38e318aa8697
+      DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38f0948c50a245438ce2e3a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6020
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'linux-pam: Linux-pam directory Traversal'
+    Description: A flaw was found in linux-pam. The module pam_namespace may use access user-controlled paths without proper protection, allowing local users to elevate their privileges to root via multiple symlink attacks and race conditions.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/17/1
+    - https://access.redhat.com/security/cve/CVE-2025-6020
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6020
+    - https://ubuntu.com/security/notices/USN-7580-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-6020
+    - https://www.openwall.com/lists/oss-security/2025/06/17/1
+    PublishedDate: '2025-06-17T13:15:21.66Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2023-37769
     PkgID: libpixman-1-0@0.42.2-1build1
     PkgName: libpixman-1-0
@@ -4949,22 +5109,28 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: Proxy-Authorization and Proxy-Authenticate headers persisted on cross- ...
+    Title: 'net/http: Sensitive headers not cleared on cross-origin redirect in net/http'
     Description: Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.
     Severity: MEDIUM
     VendorSeverity:
       bitnami: 2
+      redhat: 2
       ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
         V3Score: 6.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
+        V3Score: 6.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-4673
     - https://go.dev/cl/679257
     - https://go.dev/issue/73816
     - https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4673
     - https://pkg.go.dev/vuln/GO-2025-3751
+    - https://ubuntu.com/security/notices/USN-7574-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4673
     PublishedDate: '2025-06-11T17:15:42.993Z'
     LastModifiedDate: '2025-06-12T16:06:20.18Z'
