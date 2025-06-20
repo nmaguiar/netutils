@@ -1436,7 +1436,48 @@
 │                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │       ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │       ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                       ├ [30]  ╭ VulnerabilityID : CVE-2024-10041 
+│                       ├ [30]  ╭ VulnerabilityID : CVE-2025-6020 
+│                       │       ├ PkgID           : libpam-modules@1.5.3-7ubuntu2 
+│                       │       ├ PkgName         : libpam-modules 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu2?arch=am
+│                       │       │                  │       d64&distro=ubuntu-24.10 
+│                       │       │                  ╰ UID : b6583972609b9d73 
+│                       │       ├ InstalledVersion: 1.5.3-7ubuntu2 
+│                       │       ├ FixedVersion    : 1.5.3-7ubuntu2.3 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc7
+│                       │       │                  │         667bc7d4c38e318aa8697 
+│                       │       │                  ╰ DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38
+│                       │       │                            f0948c50a245438ce2e3a 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6020 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : linux-pam: Linux-pam directory Traversal 
+│                       │       ├ Description     : A flaw was found in linux-pam. The module pam_namespace may
+│                       │       │                    use access user-controlled paths without proper
+│                       │       │                   protection, allowing local users to elevate their
+│                       │       │                   privileges to root via multiple symlink attacks and race
+│                       │       │                   conditions. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-22 
+│                       │       ├ VendorSeverity   ╭ redhat: 3 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/06/17/1 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-6020 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7580-1 
+│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                       │       │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/06/1
+│                       │       │                         7/1 
+│                       │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
+│                       │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                       ├ [31]  ╭ VulnerabilityID : CVE-2024-10041 
 │                       │       ├ PkgID           : libpam-modules-bin@1.5.3-7ubuntu2 
 │                       │       ├ PkgName         : libpam-modules-bin 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu2?arc
@@ -1493,7 +1534,7 @@
 │                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                       │       ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                       │       ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                       ├ [31]  ╭ VulnerabilityID : CVE-2024-10963 
+│                       ├ [32]  ╭ VulnerabilityID : CVE-2024-10963 
 │                       │       ├ PkgID           : libpam-modules-bin@1.5.3-7ubuntu2 
 │                       │       ├ PkgName         : libpam-modules-bin 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu2?arc
@@ -1552,7 +1593,48 @@
 │                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │       ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │       ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                       ├ [32]  ╭ VulnerabilityID : CVE-2024-10041 
+│                       ├ [33]  ╭ VulnerabilityID : CVE-2025-6020 
+│                       │       ├ PkgID           : libpam-modules-bin@1.5.3-7ubuntu2 
+│                       │       ├ PkgName         : libpam-modules-bin 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu2?arc
+│                       │       │                  │       h=amd64&distro=ubuntu-24.10 
+│                       │       │                  ╰ UID : 52023e3d863fbfc8 
+│                       │       ├ InstalledVersion: 1.5.3-7ubuntu2 
+│                       │       ├ FixedVersion    : 1.5.3-7ubuntu2.3 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc7
+│                       │       │                  │         667bc7d4c38e318aa8697 
+│                       │       │                  ╰ DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38
+│                       │       │                            f0948c50a245438ce2e3a 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6020 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : linux-pam: Linux-pam directory Traversal 
+│                       │       ├ Description     : A flaw was found in linux-pam. The module pam_namespace may
+│                       │       │                    use access user-controlled paths without proper
+│                       │       │                   protection, allowing local users to elevate their
+│                       │       │                   privileges to root via multiple symlink attacks and race
+│                       │       │                   conditions. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-22 
+│                       │       ├ VendorSeverity   ╭ redhat: 3 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/06/17/1 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-6020 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7580-1 
+│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                       │       │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/06/1
+│                       │       │                         7/1 
+│                       │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
+│                       │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                       ├ [34]  ╭ VulnerabilityID : CVE-2024-10041 
 │                       │       ├ PkgID           : libpam-runtime@1.5.3-7ubuntu2 
 │                       │       ├ PkgName         : libpam-runtime 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu2?arch=al
@@ -1609,7 +1691,7 @@
 │                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                       │       ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                       │       ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                       ├ [33]  ╭ VulnerabilityID : CVE-2024-10963 
+│                       ├ [35]  ╭ VulnerabilityID : CVE-2024-10963 
 │                       │       ├ PkgID           : libpam-runtime@1.5.3-7ubuntu2 
 │                       │       ├ PkgName         : libpam-runtime 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu2?arch=al
@@ -1668,7 +1750,48 @@
 │                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │       ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │       ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                       ├ [34]  ╭ VulnerabilityID : CVE-2025-4598 
+│                       ├ [36]  ╭ VulnerabilityID : CVE-2025-6020 
+│                       │       ├ PkgID           : libpam-runtime@1.5.3-7ubuntu2 
+│                       │       ├ PkgName         : libpam-runtime 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu2?arch=al
+│                       │       │                  │       l&distro=ubuntu-24.10 
+│                       │       │                  ╰ UID : 52dd5a3dac5cc9ec 
+│                       │       ├ InstalledVersion: 1.5.3-7ubuntu2 
+│                       │       ├ FixedVersion    : 1.5.3-7ubuntu2.3 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc7
+│                       │       │                  │         667bc7d4c38e318aa8697 
+│                       │       │                  ╰ DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38
+│                       │       │                            f0948c50a245438ce2e3a 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6020 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : linux-pam: Linux-pam directory Traversal 
+│                       │       ├ Description     : A flaw was found in linux-pam. The module pam_namespace may
+│                       │       │                    use access user-controlled paths without proper
+│                       │       │                   protection, allowing local users to elevate their
+│                       │       │                   privileges to root via multiple symlink attacks and race
+│                       │       │                   conditions. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-22 
+│                       │       ├ VendorSeverity   ╭ redhat: 3 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/06/17/1 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-6020 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7580-1 
+│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                       │       │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/06/1
+│                       │       │                         7/1 
+│                       │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
+│                       │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                       ├ [37]  ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : libpam-systemd@256.5-2ubuntu3.1 
 │                       │       ├ PkgName         : libpam-systemd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-systemd@256.5-2ubuntu3.1?arch=
@@ -1752,7 +1875,7 @@
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
-│                       ├ [35]  ╭ VulnerabilityID : CVE-2024-10041 
+│                       ├ [38]  ╭ VulnerabilityID : CVE-2024-10041 
 │                       │       ├ PkgID           : libpam0g@1.5.3-7ubuntu2 
 │                       │       ├ PkgName         : libpam0g 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu2?arch=amd64&di
@@ -1809,7 +1932,7 @@
 │                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                       │       ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                       │       ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                       ├ [36]  ╭ VulnerabilityID : CVE-2024-10963 
+│                       ├ [39]  ╭ VulnerabilityID : CVE-2024-10963 
 │                       │       ├ PkgID           : libpam0g@1.5.3-7ubuntu2 
 │                       │       ├ PkgName         : libpam0g 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu2?arch=amd64&di
@@ -1868,7 +1991,48 @@
 │                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │       ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │       ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                       ├ [37]  ╭ VulnerabilityID : CVE-2023-37769 
+│                       ├ [40]  ╭ VulnerabilityID : CVE-2025-6020 
+│                       │       ├ PkgID           : libpam0g@1.5.3-7ubuntu2 
+│                       │       ├ PkgName         : libpam0g 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu2?arch=amd64&di
+│                       │       │                  │       stro=ubuntu-24.10 
+│                       │       │                  ╰ UID : ef18bc8de4c4b9a5 
+│                       │       ├ InstalledVersion: 1.5.3-7ubuntu2 
+│                       │       ├ FixedVersion    : 1.5.3-7ubuntu2.3 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc7
+│                       │       │                  │         667bc7d4c38e318aa8697 
+│                       │       │                  ╰ DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38
+│                       │       │                            f0948c50a245438ce2e3a 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6020 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : linux-pam: Linux-pam directory Traversal 
+│                       │       ├ Description     : A flaw was found in linux-pam. The module pam_namespace may
+│                       │       │                    use access user-controlled paths without proper
+│                       │       │                   protection, allowing local users to elevate their
+│                       │       │                   privileges to root via multiple symlink attacks and race
+│                       │       │                   conditions. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-22 
+│                       │       ├ VendorSeverity   ╭ redhat: 3 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/06/17/1 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-6020 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-7580-1 
+│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                       │       │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2025/06/1
+│                       │       │                         7/1 
+│                       │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
+│                       │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                       ├ [41]  ╭ VulnerabilityID : CVE-2023-37769 
 │                       │       ├ PkgID           : libpixman-1-0@0.42.2-1build1 
 │                       │       ├ PkgName         : libpixman-1-0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpixman-1-0@0.42.2-1build1?arch=amd
@@ -1901,7 +2065,7 @@
 │                       │       │                  ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2023-37769 
 │                       │       ├ PublishedDate   : 2023-07-17T20:15:13.547Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T08:12:14.547Z 
-│                       ├ [38]  ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [42]  ╭ VulnerabilityID : CVE-2025-4516 
 │                       │       ├ PkgID           : libpython3.12-minimal@3.12.7-1ubuntu2 
 │                       │       ├ PkgName         : libpython3.12-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12-minimal@3.12.7-1ubuntu2
@@ -1963,7 +2127,7 @@
 │                       │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │       ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │       ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [39]  ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [43]  ╭ VulnerabilityID : CVE-2025-4516 
 │                       │       ├ PkgID           : libpython3.12-stdlib@3.12.7-1ubuntu2 
 │                       │       ├ PkgName         : libpython3.12-stdlib 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12-stdlib@3.12.7-1ubuntu2?
@@ -2025,7 +2189,7 @@
 │                       │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │       ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │       ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [40]  ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [44]  ╭ VulnerabilityID : CVE-2025-4516 
 │                       │       ├ PkgID           : libpython3.12t64@3.12.7-1ubuntu2 
 │                       │       ├ PkgName         : libpython3.12t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.12t64@3.12.7-1ubuntu2?arch
@@ -2087,7 +2251,7 @@
 │                       │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │       ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │       ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [41]  ╭ VulnerabilityID : CVE-2024-41996 
+│                       ├ [45]  ╭ VulnerabilityID : CVE-2024-41996 
 │                       │       ├ PkgID           : libssl3t64@3.3.1-2ubuntu2.1 
 │                       │       ├ PkgName         : libssl3t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.3.1-2ubuntu2.1?arch=amd6
@@ -2137,7 +2301,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                       │       ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                       │       ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                       ├ [42]  ╭ VulnerabilityID : CVE-2025-4598 
+│                       ├ [46]  ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : libsystemd-shared@256.5-2ubuntu3.1 
 │                       │       ├ PkgName         : libsystemd-shared 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd-shared@256.5-2ubuntu3.1?ar
@@ -2221,7 +2385,7 @@
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
-│                       ├ [43]  ╭ VulnerabilityID : CVE-2025-4598 
+│                       ├ [47]  ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : libsystemd0@256.5-2ubuntu3.1 
 │                       │       ├ PkgName         : libsystemd0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd0@256.5-2ubuntu3.1?arch=amd
@@ -2305,7 +2469,7 @@
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
-│                       ├ [44]  ╭ VulnerabilityID : CVE-2025-4598 
+│                       ├ [48]  ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : libudev1@256.5-2ubuntu3.1 
 │                       │       ├ PkgName         : libudev1 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libudev1@256.5-2ubuntu3.1?arch=amd64&
@@ -2389,7 +2553,7 @@
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
-│                       ├ [45]  ╭ VulnerabilityID : CVE-2024-11595 
+│                       ├ [49]  ╭ VulnerabilityID : CVE-2024-11595 
 │                       │       ├ PkgID           : libwireshark-data@4.2.6-1 
 │                       │       ├ PkgName         : libwireshark-data 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.2.6-1?arch=all&di
@@ -2431,7 +2595,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-11-21T11:15:32.82Z 
 │                       │       ╰ LastModifiedDate: 2025-05-07T16:52:44.627Z 
-│                       ├ [46]  ╭ VulnerabilityID : CVE-2024-11596 
+│                       ├ [50]  ╭ VulnerabilityID : CVE-2024-11596 
 │                       │       ├ PkgID           : libwireshark-data@4.2.6-1 
 │                       │       ├ PkgName         : libwireshark-data 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.2.6-1?arch=all&di
@@ -2474,7 +2638,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-11-21T11:15:33.35Z 
 │                       │       ╰ LastModifiedDate: 2025-05-07T16:52:28.1Z 
-│                       ├ [47]  ╭ VulnerabilityID : CVE-2024-8250 
+│                       ├ [51]  ╭ VulnerabilityID : CVE-2024-8250 
 │                       │       ├ PkgID           : libwireshark-data@4.2.6-1 
 │                       │       ├ PkgName         : libwireshark-data 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.2.6-1?arch=all&di
@@ -2517,7 +2681,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-08-29T00:15:09.37Z 
 │                       │       ╰ LastModifiedDate: 2024-08-30T16:32:16.917Z 
-│                       ├ [48]  ╭ VulnerabilityID : CVE-2024-9780 
+│                       ├ [52]  ╭ VulnerabilityID : CVE-2024-9780 
 │                       │       ├ PkgID           : libwireshark-data@4.2.6-1 
 │                       │       ├ PkgName         : libwireshark-data 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.2.6-1?arch=all&di
@@ -2556,7 +2720,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-10-10T07:15:03.727Z 
 │                       │       ╰ LastModifiedDate: 2024-10-17T14:18:18.433Z 
-│                       ├ [49]  ╭ VulnerabilityID : CVE-2024-9781 
+│                       ├ [53]  ╭ VulnerabilityID : CVE-2024-9781 
 │                       │       ├ PkgID           : libwireshark-data@4.2.6-1 
 │                       │       ├ PkgName         : libwireshark-data 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.2.6-1?arch=all&di
@@ -2598,7 +2762,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-10-10T07:15:04.1Z 
 │                       │       ╰ LastModifiedDate: 2024-11-25T18:09:33.853Z 
-│                       ├ [50]  ╭ VulnerabilityID : CVE-2025-1492 
+│                       ├ [54]  ╭ VulnerabilityID : CVE-2025-1492 
 │                       │       ├ PkgID           : libwireshark-data@4.2.6-1 
 │                       │       ├ PkgName         : libwireshark-data 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.2.6-1?arch=all&di
@@ -2639,7 +2803,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2025-02-20T02:15:38.553Z 
 │                       │       ╰ LastModifiedDate: 2025-04-10T20:03:01.333Z 
-│                       ├ [51]  ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [55]  ╭ VulnerabilityID : CVE-2021-39920 
 │                       │       ├ PkgID           : libwireshark-data@4.2.6-1 
 │                       │       ├ PkgName         : libwireshark-data 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.2.6-1?arch=all&di
@@ -2694,7 +2858,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [52]  ╭ VulnerabilityID : CVE-2024-8645 
+│                       ├ [56]  ╭ VulnerabilityID : CVE-2024-8645 
 │                       │       ├ PkgID           : libwireshark-data@4.2.6-1 
 │                       │       ├ PkgName         : libwireshark-data 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.2.6-1?arch=all&di
@@ -2737,7 +2901,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-09-10T10:15:14.113Z 
 │                       │       ╰ LastModifiedDate: 2025-04-11T17:19:58.673Z 
-│                       ├ [53]  ╭ VulnerabilityID : CVE-2024-11595 
+│                       ├ [57]  ╭ VulnerabilityID : CVE-2024-11595 
 │                       │       ├ PkgID           : libwireshark17t64@4.2.6-1 
 │                       │       ├ PkgName         : libwireshark17t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark17t64@4.2.6-1?arch=amd64&
@@ -2779,7 +2943,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-11-21T11:15:32.82Z 
 │                       │       ╰ LastModifiedDate: 2025-05-07T16:52:44.627Z 
-│                       ├ [54]  ╭ VulnerabilityID : CVE-2024-11596 
+│                       ├ [58]  ╭ VulnerabilityID : CVE-2024-11596 
 │                       │       ├ PkgID           : libwireshark17t64@4.2.6-1 
 │                       │       ├ PkgName         : libwireshark17t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark17t64@4.2.6-1?arch=amd64&
@@ -2822,7 +2986,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-11-21T11:15:33.35Z 
 │                       │       ╰ LastModifiedDate: 2025-05-07T16:52:28.1Z 
-│                       ├ [55]  ╭ VulnerabilityID : CVE-2024-8250 
+│                       ├ [59]  ╭ VulnerabilityID : CVE-2024-8250 
 │                       │       ├ PkgID           : libwireshark17t64@4.2.6-1 
 │                       │       ├ PkgName         : libwireshark17t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark17t64@4.2.6-1?arch=amd64&
@@ -2865,7 +3029,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-08-29T00:15:09.37Z 
 │                       │       ╰ LastModifiedDate: 2024-08-30T16:32:16.917Z 
-│                       ├ [56]  ╭ VulnerabilityID : CVE-2024-9780 
+│                       ├ [60]  ╭ VulnerabilityID : CVE-2024-9780 
 │                       │       ├ PkgID           : libwireshark17t64@4.2.6-1 
 │                       │       ├ PkgName         : libwireshark17t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark17t64@4.2.6-1?arch=amd64&
@@ -2904,7 +3068,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-10-10T07:15:03.727Z 
 │                       │       ╰ LastModifiedDate: 2024-10-17T14:18:18.433Z 
-│                       ├ [57]  ╭ VulnerabilityID : CVE-2024-9781 
+│                       ├ [61]  ╭ VulnerabilityID : CVE-2024-9781 
 │                       │       ├ PkgID           : libwireshark17t64@4.2.6-1 
 │                       │       ├ PkgName         : libwireshark17t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark17t64@4.2.6-1?arch=amd64&
@@ -2946,7 +3110,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-10-10T07:15:04.1Z 
 │                       │       ╰ LastModifiedDate: 2024-11-25T18:09:33.853Z 
-│                       ├ [58]  ╭ VulnerabilityID : CVE-2025-1492 
+│                       ├ [62]  ╭ VulnerabilityID : CVE-2025-1492 
 │                       │       ├ PkgID           : libwireshark17t64@4.2.6-1 
 │                       │       ├ PkgName         : libwireshark17t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark17t64@4.2.6-1?arch=amd64&
@@ -2987,7 +3151,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2025-02-20T02:15:38.553Z 
 │                       │       ╰ LastModifiedDate: 2025-04-10T20:03:01.333Z 
-│                       ├ [59]  ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [63]  ╭ VulnerabilityID : CVE-2021-39920 
 │                       │       ├ PkgID           : libwireshark17t64@4.2.6-1 
 │                       │       ├ PkgName         : libwireshark17t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark17t64@4.2.6-1?arch=amd64&
@@ -3042,7 +3206,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [60]  ╭ VulnerabilityID : CVE-2024-8645 
+│                       ├ [64]  ╭ VulnerabilityID : CVE-2024-8645 
 │                       │       ├ PkgID           : libwireshark17t64@4.2.6-1 
 │                       │       ├ PkgName         : libwireshark17t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark17t64@4.2.6-1?arch=amd64&
@@ -3085,7 +3249,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-09-10T10:15:14.113Z 
 │                       │       ╰ LastModifiedDate: 2025-04-11T17:19:58.673Z 
-│                       ├ [61]  ╭ VulnerabilityID : CVE-2024-11595 
+│                       ├ [65]  ╭ VulnerabilityID : CVE-2024-11595 
 │                       │       ├ PkgID           : libwiretap14t64@4.2.6-1 
 │                       │       ├ PkgName         : libwiretap14t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap14t64@4.2.6-1?arch=amd64&di
@@ -3127,7 +3291,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-11-21T11:15:32.82Z 
 │                       │       ╰ LastModifiedDate: 2025-05-07T16:52:44.627Z 
-│                       ├ [62]  ╭ VulnerabilityID : CVE-2024-11596 
+│                       ├ [66]  ╭ VulnerabilityID : CVE-2024-11596 
 │                       │       ├ PkgID           : libwiretap14t64@4.2.6-1 
 │                       │       ├ PkgName         : libwiretap14t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap14t64@4.2.6-1?arch=amd64&di
@@ -3170,7 +3334,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-11-21T11:15:33.35Z 
 │                       │       ╰ LastModifiedDate: 2025-05-07T16:52:28.1Z 
-│                       ├ [63]  ╭ VulnerabilityID : CVE-2024-8250 
+│                       ├ [67]  ╭ VulnerabilityID : CVE-2024-8250 
 │                       │       ├ PkgID           : libwiretap14t64@4.2.6-1 
 │                       │       ├ PkgName         : libwiretap14t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap14t64@4.2.6-1?arch=amd64&di
@@ -3213,7 +3377,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-08-29T00:15:09.37Z 
 │                       │       ╰ LastModifiedDate: 2024-08-30T16:32:16.917Z 
-│                       ├ [64]  ╭ VulnerabilityID : CVE-2024-9780 
+│                       ├ [68]  ╭ VulnerabilityID : CVE-2024-9780 
 │                       │       ├ PkgID           : libwiretap14t64@4.2.6-1 
 │                       │       ├ PkgName         : libwiretap14t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap14t64@4.2.6-1?arch=amd64&di
@@ -3252,7 +3416,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-10-10T07:15:03.727Z 
 │                       │       ╰ LastModifiedDate: 2024-10-17T14:18:18.433Z 
-│                       ├ [65]  ╭ VulnerabilityID : CVE-2024-9781 
+│                       ├ [69]  ╭ VulnerabilityID : CVE-2024-9781 
 │                       │       ├ PkgID           : libwiretap14t64@4.2.6-1 
 │                       │       ├ PkgName         : libwiretap14t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap14t64@4.2.6-1?arch=amd64&di
@@ -3294,7 +3458,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-10-10T07:15:04.1Z 
 │                       │       ╰ LastModifiedDate: 2024-11-25T18:09:33.853Z 
-│                       ├ [66]  ╭ VulnerabilityID : CVE-2025-1492 
+│                       ├ [70]  ╭ VulnerabilityID : CVE-2025-1492 
 │                       │       ├ PkgID           : libwiretap14t64@4.2.6-1 
 │                       │       ├ PkgName         : libwiretap14t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap14t64@4.2.6-1?arch=amd64&di
@@ -3335,7 +3499,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2025-02-20T02:15:38.553Z 
 │                       │       ╰ LastModifiedDate: 2025-04-10T20:03:01.333Z 
-│                       ├ [67]  ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [71]  ╭ VulnerabilityID : CVE-2021-39920 
 │                       │       ├ PkgID           : libwiretap14t64@4.2.6-1 
 │                       │       ├ PkgName         : libwiretap14t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap14t64@4.2.6-1?arch=amd64&di
@@ -3390,7 +3554,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [68]  ╭ VulnerabilityID : CVE-2024-8645 
+│                       ├ [72]  ╭ VulnerabilityID : CVE-2024-8645 
 │                       │       ├ PkgID           : libwiretap14t64@4.2.6-1 
 │                       │       ├ PkgName         : libwiretap14t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap14t64@4.2.6-1?arch=amd64&di
@@ -3433,7 +3597,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-09-10T10:15:14.113Z 
 │                       │       ╰ LastModifiedDate: 2025-04-11T17:19:58.673Z 
-│                       ├ [69]  ╭ VulnerabilityID : CVE-2024-11595 
+│                       ├ [73]  ╭ VulnerabilityID : CVE-2024-11595 
 │                       │       ├ PkgID           : libwsutil15t64@4.2.6-1 
 │                       │       ├ PkgName         : libwsutil15t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil15t64@4.2.6-1?arch=amd64&dis
@@ -3475,7 +3639,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-11-21T11:15:32.82Z 
 │                       │       ╰ LastModifiedDate: 2025-05-07T16:52:44.627Z 
-│                       ├ [70]  ╭ VulnerabilityID : CVE-2024-11596 
+│                       ├ [74]  ╭ VulnerabilityID : CVE-2024-11596 
 │                       │       ├ PkgID           : libwsutil15t64@4.2.6-1 
 │                       │       ├ PkgName         : libwsutil15t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil15t64@4.2.6-1?arch=amd64&dis
@@ -3518,7 +3682,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-11-21T11:15:33.35Z 
 │                       │       ╰ LastModifiedDate: 2025-05-07T16:52:28.1Z 
-│                       ├ [71]  ╭ VulnerabilityID : CVE-2024-8250 
+│                       ├ [75]  ╭ VulnerabilityID : CVE-2024-8250 
 │                       │       ├ PkgID           : libwsutil15t64@4.2.6-1 
 │                       │       ├ PkgName         : libwsutil15t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil15t64@4.2.6-1?arch=amd64&dis
@@ -3561,7 +3725,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-08-29T00:15:09.37Z 
 │                       │       ╰ LastModifiedDate: 2024-08-30T16:32:16.917Z 
-│                       ├ [72]  ╭ VulnerabilityID : CVE-2024-9780 
+│                       ├ [76]  ╭ VulnerabilityID : CVE-2024-9780 
 │                       │       ├ PkgID           : libwsutil15t64@4.2.6-1 
 │                       │       ├ PkgName         : libwsutil15t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil15t64@4.2.6-1?arch=amd64&dis
@@ -3600,7 +3764,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-10-10T07:15:03.727Z 
 │                       │       ╰ LastModifiedDate: 2024-10-17T14:18:18.433Z 
-│                       ├ [73]  ╭ VulnerabilityID : CVE-2024-9781 
+│                       ├ [77]  ╭ VulnerabilityID : CVE-2024-9781 
 │                       │       ├ PkgID           : libwsutil15t64@4.2.6-1 
 │                       │       ├ PkgName         : libwsutil15t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil15t64@4.2.6-1?arch=amd64&dis
@@ -3642,7 +3806,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-10-10T07:15:04.1Z 
 │                       │       ╰ LastModifiedDate: 2024-11-25T18:09:33.853Z 
-│                       ├ [74]  ╭ VulnerabilityID : CVE-2025-1492 
+│                       ├ [78]  ╭ VulnerabilityID : CVE-2025-1492 
 │                       │       ├ PkgID           : libwsutil15t64@4.2.6-1 
 │                       │       ├ PkgName         : libwsutil15t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil15t64@4.2.6-1?arch=amd64&dis
@@ -3683,7 +3847,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2025-02-20T02:15:38.553Z 
 │                       │       ╰ LastModifiedDate: 2025-04-10T20:03:01.333Z 
-│                       ├ [75]  ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [79]  ╭ VulnerabilityID : CVE-2021-39920 
 │                       │       ├ PkgID           : libwsutil15t64@4.2.6-1 
 │                       │       ├ PkgName         : libwsutil15t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil15t64@4.2.6-1?arch=amd64&dis
@@ -3738,7 +3902,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [76]  ╭ VulnerabilityID : CVE-2024-8645 
+│                       ├ [80]  ╭ VulnerabilityID : CVE-2024-8645 
 │                       │       ├ PkgID           : libwsutil15t64@4.2.6-1 
 │                       │       ├ PkgName         : libwsutil15t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil15t64@4.2.6-1?arch=amd64&dis
@@ -3781,7 +3945,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-09-10T10:15:14.113Z 
 │                       │       ╰ LastModifiedDate: 2025-04-11T17:19:58.673Z 
-│                       ├ [77]  ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [81]  ╭ VulnerabilityID : CVE-2024-56433 
 │                       │       ├ PkgID           : login@1:4.15.3-3ubuntu2 
 │                       │       ├ PkgName         : login 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.15.3-3ubuntu2?arch=amd64&dist
@@ -3829,7 +3993,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │       ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [78]  ╭ VulnerabilityID : CVE-2025-46836 
+│                       ├ [82]  ╭ VulnerabilityID : CVE-2025-46836 
 │                       │       ├ PkgID           : net-tools@2.10-1.1ubuntu1 
 │                       │       ├ PkgName         : net-tools 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/net-tools@2.10-1.1ubuntu1?arch=amd64&
@@ -3881,7 +4045,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-46836 
 │                       │       ├ PublishedDate   : 2025-05-14T23:15:48.073Z 
 │                       │       ╰ LastModifiedDate: 2025-05-31T23:15:20.4Z 
-│                       ├ [79]  ╭ VulnerabilityID : CVE-2024-41996 
+│                       ├ [83]  ╭ VulnerabilityID : CVE-2024-41996 
 │                       │       ├ PkgID           : openssl@3.3.1-2ubuntu2.1 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.3.1-2ubuntu2.1?arch=amd64&d
@@ -3931,7 +4095,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                       │       ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                       │       ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                       ├ [80]  ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [84]  ╭ VulnerabilityID : CVE-2024-56433 
 │                       │       ├ PkgID           : passwd@1:4.15.3-3ubuntu2 
 │                       │       ├ PkgName         : passwd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.15.3-3ubuntu2?arch=amd64&dis
@@ -3979,7 +4143,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │       ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [81]  ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [85]  ╭ VulnerabilityID : CVE-2025-4516 
 │                       │       ├ PkgID           : python3.12@3.12.7-1ubuntu2 
 │                       │       ├ PkgName         : python3.12 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.12@3.12.7-1ubuntu2?arch=amd64
@@ -4041,7 +4205,7 @@
 │                       │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │       ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │       ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [82]  ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [86]  ╭ VulnerabilityID : CVE-2025-4516 
 │                       │       ├ PkgID           : python3.12-minimal@3.12.7-1ubuntu2 
 │                       │       ├ PkgName         : python3.12-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.12-minimal@3.12.7-1ubuntu2?ar
@@ -4103,7 +4267,7 @@
 │                       │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │       ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │       ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [83]  ╭ VulnerabilityID : CVE-2025-4598 
+│                       ├ [87]  ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : systemd@256.5-2ubuntu3.1 
 │                       │       ├ PkgName         : systemd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@256.5-2ubuntu3.1?arch=amd64&d
@@ -4187,7 +4351,7 @@
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
-│                       ├ [84]  ╭ VulnerabilityID : CVE-2025-4598 
+│                       ├ [88]  ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : systemd-cryptsetup@256.5-2ubuntu3.1 
 │                       │       ├ PkgName         : systemd-cryptsetup 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-cryptsetup@256.5-2ubuntu3.1?a
@@ -4271,7 +4435,7 @@
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
-│                       ├ [85]  ╭ VulnerabilityID : CVE-2025-4598 
+│                       ├ [89]  ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : systemd-resolved@256.5-2ubuntu3.1 
 │                       │       ├ PkgName         : systemd-resolved 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-resolved@256.5-2ubuntu3.1?arc
@@ -4355,7 +4519,7 @@
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
-│                       ├ [86]  ╭ VulnerabilityID : CVE-2025-4598 
+│                       ├ [90]  ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : systemd-sysv@256.5-2ubuntu3.1 
 │                       │       ├ PkgName         : systemd-sysv 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@256.5-2ubuntu3.1?arch=am
@@ -4439,7 +4603,7 @@
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
-│                       ├ [87]  ╭ VulnerabilityID : CVE-2025-4598 
+│                       ├ [91]  ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : systemd-timesyncd@256.5-2ubuntu3.1 
 │                       │       ├ PkgName         : systemd-timesyncd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@256.5-2ubuntu3.1?ar
@@ -4523,7 +4687,7 @@
 │                       │       │                          port-coredump.txt 
 │                       │       ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
 │                       │       ╰ LastModifiedDate: 2025-06-05T07:15:23.047Z 
-│                       ├ [88]  ╭ VulnerabilityID : CVE-2024-11595 
+│                       ├ [92]  ╭ VulnerabilityID : CVE-2024-11595 
 │                       │       ├ PkgID           : tshark@4.2.6-1 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.2.6-1?arch=amd64&distro=ubun
@@ -4565,7 +4729,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-11-21T11:15:32.82Z 
 │                       │       ╰ LastModifiedDate: 2025-05-07T16:52:44.627Z 
-│                       ├ [89]  ╭ VulnerabilityID : CVE-2024-11596 
+│                       ├ [93]  ╭ VulnerabilityID : CVE-2024-11596 
 │                       │       ├ PkgID           : tshark@4.2.6-1 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.2.6-1?arch=amd64&distro=ubun
@@ -4608,7 +4772,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-11-21T11:15:33.35Z 
 │                       │       ╰ LastModifiedDate: 2025-05-07T16:52:28.1Z 
-│                       ├ [90]  ╭ VulnerabilityID : CVE-2024-8250 
+│                       ├ [94]  ╭ VulnerabilityID : CVE-2024-8250 
 │                       │       ├ PkgID           : tshark@4.2.6-1 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.2.6-1?arch=amd64&distro=ubun
@@ -4651,7 +4815,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-08-29T00:15:09.37Z 
 │                       │       ╰ LastModifiedDate: 2024-08-30T16:32:16.917Z 
-│                       ├ [91]  ╭ VulnerabilityID : CVE-2024-9780 
+│                       ├ [95]  ╭ VulnerabilityID : CVE-2024-9780 
 │                       │       ├ PkgID           : tshark@4.2.6-1 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.2.6-1?arch=amd64&distro=ubun
@@ -4690,7 +4854,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-10-10T07:15:03.727Z 
 │                       │       ╰ LastModifiedDate: 2024-10-17T14:18:18.433Z 
-│                       ├ [92]  ╭ VulnerabilityID : CVE-2024-9781 
+│                       ├ [96]  ╭ VulnerabilityID : CVE-2024-9781 
 │                       │       ├ PkgID           : tshark@4.2.6-1 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.2.6-1?arch=amd64&distro=ubun
@@ -4732,7 +4896,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-10-10T07:15:04.1Z 
 │                       │       ╰ LastModifiedDate: 2024-11-25T18:09:33.853Z 
-│                       ├ [93]  ╭ VulnerabilityID : CVE-2025-1492 
+│                       ├ [97]  ╭ VulnerabilityID : CVE-2025-1492 
 │                       │       ├ PkgID           : tshark@4.2.6-1 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.2.6-1?arch=amd64&distro=ubun
@@ -4773,7 +4937,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2025-02-20T02:15:38.553Z 
 │                       │       ╰ LastModifiedDate: 2025-04-10T20:03:01.333Z 
-│                       ├ [94]  ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [98]  ╭ VulnerabilityID : CVE-2021-39920 
 │                       │       ├ PkgID           : tshark@4.2.6-1 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.2.6-1?arch=amd64&distro=ubun
@@ -4828,7 +4992,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [95]  ╭ VulnerabilityID : CVE-2024-8645 
+│                       ├ [99]  ╭ VulnerabilityID : CVE-2024-8645 
 │                       │       ├ PkgID           : tshark@4.2.6-1 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.2.6-1?arch=amd64&distro=ubun
@@ -4871,7 +5035,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-09-10T10:15:14.113Z 
 │                       │       ╰ LastModifiedDate: 2025-04-11T17:19:58.673Z 
-│                       ├ [96]  ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [100] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │       ├ PkgID           : wget@1.24.5-1ubuntu2 
 │                       │       ├ PkgName         : wget 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.24.5-1ubuntu2?arch=amd64&distr
@@ -4918,7 +5082,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │       ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                       ├ [97]  ╭ VulnerabilityID : CVE-2024-11595 
+│                       ├ [101] ╭ VulnerabilityID : CVE-2024-11595 
 │                       │       ├ PkgID           : wireshark-common@4.2.6-1 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&d
@@ -4960,7 +5124,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-11-21T11:15:32.82Z 
 │                       │       ╰ LastModifiedDate: 2025-05-07T16:52:44.627Z 
-│                       ├ [98]  ╭ VulnerabilityID : CVE-2024-11596 
+│                       ├ [102] ╭ VulnerabilityID : CVE-2024-11596 
 │                       │       ├ PkgID           : wireshark-common@4.2.6-1 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&d
@@ -5003,7 +5167,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-11-21T11:15:33.35Z 
 │                       │       ╰ LastModifiedDate: 2025-05-07T16:52:28.1Z 
-│                       ├ [99]  ╭ VulnerabilityID : CVE-2024-8250 
+│                       ├ [103] ╭ VulnerabilityID : CVE-2024-8250 
 │                       │       ├ PkgID           : wireshark-common@4.2.6-1 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&d
@@ -5046,7 +5210,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-08-29T00:15:09.37Z 
 │                       │       ╰ LastModifiedDate: 2024-08-30T16:32:16.917Z 
-│                       ├ [100] ╭ VulnerabilityID : CVE-2024-9780 
+│                       ├ [104] ╭ VulnerabilityID : CVE-2024-9780 
 │                       │       ├ PkgID           : wireshark-common@4.2.6-1 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&d
@@ -5085,7 +5249,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-10-10T07:15:03.727Z 
 │                       │       ╰ LastModifiedDate: 2024-10-17T14:18:18.433Z 
-│                       ├ [101] ╭ VulnerabilityID : CVE-2024-9781 
+│                       ├ [105] ╭ VulnerabilityID : CVE-2024-9781 
 │                       │       ├ PkgID           : wireshark-common@4.2.6-1 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&d
@@ -5127,7 +5291,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-10-10T07:15:04.1Z 
 │                       │       ╰ LastModifiedDate: 2024-11-25T18:09:33.853Z 
-│                       ├ [102] ╭ VulnerabilityID : CVE-2025-1492 
+│                       ├ [106] ╭ VulnerabilityID : CVE-2025-1492 
 │                       │       ├ PkgID           : wireshark-common@4.2.6-1 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&d
@@ -5168,7 +5332,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2025-02-20T02:15:38.553Z 
 │                       │       ╰ LastModifiedDate: 2025-04-10T20:03:01.333Z 
-│                       ├ [103] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [107] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │       ├ PkgID           : wireshark-common@4.2.6-1 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&d
@@ -5223,7 +5387,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [104] ╭ VulnerabilityID : CVE-2024-8645 
+│                       ├ [108] ╭ VulnerabilityID : CVE-2024-8645 
 │                       │       ├ PkgID           : wireshark-common@4.2.6-1 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.2.6-1?arch=amd64&d
@@ -5266,7 +5430,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2024-09-10T10:15:14.113Z 
 │                       │       ╰ LastModifiedDate: 2025-04-11T17:19:58.673Z 
-│                       ╰ [105] ╭ VulnerabilityID : CVE-2023-5574 
+│                       ╰ [109] ╭ VulnerabilityID : CVE-2023-5574 
 │                               ├ PkgID           : x11-common@1:7.7+23ubuntu3 
 │                               ├ PkgName         : x11-common 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/x11-common@7.7%2B23ubuntu3?arch=all&d
@@ -5426,23 +5590,29 @@
                               ├ DataSource       ╭ ID  : govulndb 
                               │                  ├ Name: The Go Vulnerability Database 
                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                              ├ Title           : Proxy-Authorization and Proxy-Authenticate headers persisted
-                              │                   on cross- ... 
+                              ├ Title           : net/http: Sensitive headers not cleared on cross-origin
+                              │                   redirect in net/http 
                               ├ Description     : Proxy-Authorization and Proxy-Authenticate headers persisted
                               │                   on cross-origin redirects potentially leaking sensitive
                               │                   information. 
                               ├ Severity        : MEDIUM 
                               ├ VendorSeverity   ╭ bitnami: 2 
+                              │                  ├ redhat : 2 
                               │                  ╰ ubuntu : 2 
-                              ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N
+                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N
+                              │                  │         │           /A:N 
+                              │                  │         ╰ V3Score : 6.8 
+                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N
                               │                            │           /A:N 
                               │                            ╰ V3Score : 6.8 
-                              ├ References       ╭ [0]: https://go.dev/cl/679257 
-                              │                  ├ [1]: https://go.dev/issue/73816 
-                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A 
-                              │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
-                              │                  ├ [4]: https://pkg.go.dev/vuln/GO-2025-3751 
-                              │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
+                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-4673 
+                              │                  ├ [1]: https://go.dev/cl/679257 
+                              │                  ├ [2]: https://go.dev/issue/73816 
+                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/ufZ8WpEsA3A 
+                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-4673 
+                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3751 
+                              │                  ├ [6]: https://ubuntu.com/security/notices/USN-7574-1 
+                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-4673 
                               ├ PublishedDate   : 2025-06-11T17:15:42.993Z 
                               ╰ LastModifiedDate: 2025-06-12T16:06:20.18Z 
 ````
