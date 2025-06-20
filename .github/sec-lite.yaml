@@ -418,7 +418,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: 'cpython: Bypassing extraction filter to create symlinks to arbitrary targets outside extraction directory'
+    Title: 'cpython: python: Bypassing extraction filter to create symlinks to arbitrary targets outside extraction directory'
     Description: "Allows the extraction filter to be ignored, allowing symlink targets to point outside the destination directory, and the modification of some file metadata.\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -468,7 +468,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: 'cpython: Arbitrary writes via tarfile realpath overflow'
+    Title: 'python: Arbitrary writes via tarfile realpath overflow'
     Description: "Allows arbitrary filesystem writes outside the extraction directory during extraction with filter=\"data\".\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -619,7 +619,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: 'cpython: Bypassing extraction filter to create symlinks to arbitrary targets outside extraction directory'
+    Title: 'cpython: python: Bypassing extraction filter to create symlinks to arbitrary targets outside extraction directory'
     Description: "Allows the extraction filter to be ignored, allowing symlink targets to point outside the destination directory, and the modification of some file metadata.\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -669,7 +669,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: 'cpython: Arbitrary writes via tarfile realpath overflow'
+    Title: 'python: Arbitrary writes via tarfile realpath overflow'
     Description: "Allows arbitrary filesystem writes outside the extraction directory during extraction with filter=\"data\".\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -820,7 +820,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: 'cpython: Bypassing extraction filter to create symlinks to arbitrary targets outside extraction directory'
+    Title: 'cpython: python: Bypassing extraction filter to create symlinks to arbitrary targets outside extraction directory'
     Description: "Allows the extraction filter to be ignored, allowing symlink targets to point outside the destination directory, and the modification of some file metadata.\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -870,7 +870,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: 'cpython: Arbitrary writes via tarfile realpath overflow'
+    Title: 'python: Arbitrary writes via tarfile realpath overflow'
     Description: "Allows arbitrary filesystem writes outside the extraction directory during extraction with filter=\"data\".\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -1021,7 +1021,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: 'cpython: Bypassing extraction filter to create symlinks to arbitrary targets outside extraction directory'
+    Title: 'cpython: python: Bypassing extraction filter to create symlinks to arbitrary targets outside extraction directory'
     Description: "Allows the extraction filter to be ignored, allowing symlink targets to point outside the destination directory, and the modification of some file metadata.\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -1071,7 +1071,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: 'cpython: Arbitrary writes via tarfile realpath overflow'
+    Title: 'python: Arbitrary writes via tarfile realpath overflow'
     Description: "Allows arbitrary filesystem writes outside the extraction directory during extraction with filter=\"data\".\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
