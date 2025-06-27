@@ -25,6 +25,7 @@
 │                       │      │                   IP address in the URL. Therefore, it does not detect
 │                       │      │                   impostors or man-in-the-middle attacks. 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-295 
 │                       │      ├ VendorSeverity   ─ redhat: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
@@ -37,7 +38,7 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-4947 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-4947 
 │                       │      ├ PublishedDate   : 2025-05-28T07:15:24.78Z 
-│                       │      ╰ LastModifiedDate: 2025-05-28T15:01:30.72Z 
+│                       │      ╰ LastModifiedDate: 2025-06-26T15:08:21.52Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2025-5025 
 │                       │      ├ PkgID           : curl@8.13.0-r1 
 │                       │      ├ PkgName         : curl 
@@ -143,6 +144,7 @@
 │                       │      │                   IP address in the URL. Therefore, it does not detect
 │                       │      │                   impostors or man-in-the-middle attacks. 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-295 
 │                       │      ├ VendorSeverity   ─ redhat: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
@@ -155,7 +157,7 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-4947 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-4947 
 │                       │      ├ PublishedDate   : 2025-05-28T07:15:24.78Z 
-│                       │      ╰ LastModifiedDate: 2025-05-28T15:01:30.72Z 
+│                       │      ╰ LastModifiedDate: 2025-06-26T15:08:21.52Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2025-5025 
 │                       │      ├ PkgID           : curl-doc@8.13.0-r1 
 │                       │      ├ PkgName         : curl-doc 
@@ -261,6 +263,7 @@
 │                       │      │                   IP address in the URL. Therefore, it does not detect
 │                       │      │                   impostors or man-in-the-middle attacks. 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-295 
 │                       │      ├ VendorSeverity   ─ redhat: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
@@ -273,7 +276,7 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-4947 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-4947 
 │                       │      ├ PublishedDate   : 2025-05-28T07:15:24.78Z 
-│                       │      ╰ LastModifiedDate: 2025-05-28T15:01:30.72Z 
+│                       │      ╰ LastModifiedDate: 2025-06-26T15:08:21.52Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2025-5025 
 │                       │      ├ PkgID           : libcurl@8.13.0-r1 
 │                       │      ├ PkgName         : libcurl 
