@@ -240,13 +240,13 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'avahi: Avahi Wide-Area DNS Uses Constant Source Port'
     Description: A flaw was found in Avahi-daemon, which relies on fixed source ports for wide-area DNS queries. This issue simplifies attacks where malicious DNS responses are injected.
-    Severity: MEDIUM
+    Severity: LOW
     CweIDs:
     - CWE-330
     VendorSeverity:
       amazon: 2
       redhat: 2
-      ubuntu: 2
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -279,7 +279,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'avahi: Avahi Wide-Area DNS Predictable Transaction IDs'
     Description: A flaw was found in the Avahi-daemon, where it initializes DNS transaction IDs randomly only once at startup, incrementing them sequentially after that. This predictable behavior facilitates DNS spoofing attacks, allowing attackers to guess transaction IDs.
-    Severity: MEDIUM
+    Severity: LOW
     CweIDs:
     - CWE-334
     VendorSeverity:
@@ -289,7 +289,7 @@
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
-      ubuntu: 2
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -327,13 +327,13 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'avahi: Avahi Wide-Area DNS Uses Constant Source Port'
     Description: A flaw was found in Avahi-daemon, which relies on fixed source ports for wide-area DNS queries. This issue simplifies attacks where malicious DNS responses are injected.
-    Severity: MEDIUM
+    Severity: LOW
     CweIDs:
     - CWE-330
     VendorSeverity:
       amazon: 2
       redhat: 2
-      ubuntu: 2
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -366,7 +366,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'avahi: Avahi Wide-Area DNS Predictable Transaction IDs'
     Description: A flaw was found in the Avahi-daemon, where it initializes DNS transaction IDs randomly only once at startup, incrementing them sequentially after that. This predictable behavior facilitates DNS spoofing attacks, allowing attackers to guess transaction IDs.
-    Severity: MEDIUM
+    Severity: LOW
     CweIDs:
     - CWE-334
     VendorSeverity:
@@ -376,7 +376,7 @@
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
-      ubuntu: 2
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -414,13 +414,13 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'avahi: Avahi Wide-Area DNS Uses Constant Source Port'
     Description: A flaw was found in Avahi-daemon, which relies on fixed source ports for wide-area DNS queries. This issue simplifies attacks where malicious DNS responses are injected.
-    Severity: MEDIUM
+    Severity: LOW
     CweIDs:
     - CWE-330
     VendorSeverity:
       amazon: 2
       redhat: 2
-      ubuntu: 2
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -453,7 +453,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'avahi: Avahi Wide-Area DNS Predictable Transaction IDs'
     Description: A flaw was found in the Avahi-daemon, where it initializes DNS transaction IDs randomly only once at startup, incrementing them sequentially after that. This predictable behavior facilitates DNS spoofing attacks, allowing attackers to guess transaction IDs.
-    Severity: MEDIUM
+    Severity: LOW
     CweIDs:
     - CWE-334
     VendorSeverity:
@@ -463,7 +463,7 @@
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
-      ubuntu: 2
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
