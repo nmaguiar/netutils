@@ -250,11 +250,11 @@
 │                       │       │                   source ports for wide-area DNS queries. This issue
 │                       │       │                   simplifies attacks where malicious DNS responses are
 │                       │       │                   injected. 
-│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-330 
 │                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ redhat: 2 
-│                       │       │                  ╰ ubuntu: 2 
+│                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 5.3 
@@ -291,7 +291,7 @@
 │                       │       │                   incrementing them sequentially after that. This predictable
 │                       │       │                    behavior facilitates DNS spoofing attacks, allowing
 │                       │       │                   attackers to guess transaction IDs. 
-│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-334 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
 │                       │       │                  ├ amazon     : 2 
@@ -299,7 +299,7 @@
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ redhat     : 2 
-│                       │       │                  ╰ ubuntu     : 2 
+│                       │       │                  ╰ ubuntu     : 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 5.3 
@@ -340,11 +340,11 @@
 │                       │       │                   source ports for wide-area DNS queries. This issue
 │                       │       │                   simplifies attacks where malicious DNS responses are
 │                       │       │                   injected. 
-│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-330 
 │                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ redhat: 2 
-│                       │       │                  ╰ ubuntu: 2 
+│                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 5.3 
@@ -381,7 +381,7 @@
 │                       │       │                   incrementing them sequentially after that. This predictable
 │                       │       │                    behavior facilitates DNS spoofing attacks, allowing
 │                       │       │                   attackers to guess transaction IDs. 
-│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-334 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
 │                       │       │                  ├ amazon     : 2 
@@ -389,7 +389,7 @@
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ redhat     : 2 
-│                       │       │                  ╰ ubuntu     : 2 
+│                       │       │                  ╰ ubuntu     : 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 5.3 
@@ -430,11 +430,11 @@
 │                       │       │                   source ports for wide-area DNS queries. This issue
 │                       │       │                   simplifies attacks where malicious DNS responses are
 │                       │       │                   injected. 
-│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-330 
 │                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ redhat: 2 
-│                       │       │                  ╰ ubuntu: 2 
+│                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 5.3 
@@ -471,7 +471,7 @@
 │                       │       │                   incrementing them sequentially after that. This predictable
 │                       │       │                    behavior facilitates DNS spoofing attacks, allowing
 │                       │       │                   attackers to guess transaction IDs. 
-│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-334 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
 │                       │       │                  ├ amazon     : 2 
@@ -479,7 +479,7 @@
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ redhat     : 2 
-│                       │       │                  ╰ ubuntu     : 2 
+│                       │       │                  ╰ ubuntu     : 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 5.3 
