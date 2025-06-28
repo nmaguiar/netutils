@@ -1224,6 +1224,82 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-4330
     PublishedDate: '2025-06-03T13:15:20.503Z'
     LastModifiedDate: '2025-06-05T14:15:32.91Z'
+  - VulnerabilityID: CVE-2025-5601
+    PkgID: tshark@4.4.6-r0
+    PkgName: tshark
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/tshark@4.4.6-r0?arch=x86_64&distro=3.22.0_alpha20250108
+      UID: b028da4b41ea736c
+    InstalledVersion: 4.4.6-r0
+    FixedVersion: 4.4.7-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:d3b18c1cad172d32e2c844863f6415eff32f90a67bcd96c1095ddb5d66035e69
+      DiffID: sha256:e372ebe7e5c5dc9f3eaf19e4f2531dfc2bacf8a33af187008e71f1a460a8d7e6
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5601
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'wireshark: Buffer Overflow in Wireshark'
+    Description: Column handling crashes in Wireshark 4.4.0 to 4.4.6 and 4.2.0 to 4.2.12 allows denial of service via packet injection or crafted capture file
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-120
+    VendorSeverity:
+      photon: 3
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:L
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-5601
+    - https://gitlab.com/wireshark/wireshark/-/commit/53213086304caa3dfbdd7dc39c2668a3aea1a5c0
+    - https://gitlab.com/wireshark/wireshark/-/issues/20509
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5601
+    - https://www.cve.org/CVERecord?id=CVE-2025-5601
+    - https://www.wireshark.org/security/wnpa-sec-2025-02.html
+    PublishedDate: '2025-06-04T11:15:22.11Z'
+    LastModifiedDate: '2025-06-04T14:54:33.783Z'
+  - VulnerabilityID: CVE-2025-5601
+    PkgID: wireshark-common@4.4.6-r0
+    PkgName: wireshark-common
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/wireshark-common@4.4.6-r0?arch=x86_64&distro=3.22.0_alpha20250108
+      UID: 1be392f302f616ab
+    InstalledVersion: 4.4.6-r0
+    FixedVersion: 4.4.7-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:d3b18c1cad172d32e2c844863f6415eff32f90a67bcd96c1095ddb5d66035e69
+      DiffID: sha256:e372ebe7e5c5dc9f3eaf19e4f2531dfc2bacf8a33af187008e71f1a460a8d7e6
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5601
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'wireshark: Buffer Overflow in Wireshark'
+    Description: Column handling crashes in Wireshark 4.4.0 to 4.4.6 and 4.2.0 to 4.2.12 allows denial of service via packet injection or crafted capture file
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-120
+    VendorSeverity:
+      photon: 3
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:L
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-5601
+    - https://gitlab.com/wireshark/wireshark/-/commit/53213086304caa3dfbdd7dc39c2668a3aea1a5c0
+    - https://gitlab.com/wireshark/wireshark/-/issues/20509
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5601
+    - https://www.cve.org/CVERecord?id=CVE-2025-5601
+    - https://www.wireshark.org/security/wnpa-sec-2025-02.html
+    PublishedDate: '2025-06-04T11:15:22.11Z'
+    LastModifiedDate: '2025-06-04T14:54:33.783Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
