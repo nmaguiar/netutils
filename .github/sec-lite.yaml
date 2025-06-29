@@ -356,6 +356,150 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-5399
     PublishedDate: '2025-06-07T08:15:20.687Z'
     LastModifiedDate: '2025-06-09T14:15:23.47Z'
+  - VulnerabilityID: CVE-2025-5318
+    PkgID: libssh@0.11.1-r0
+    PkgName: libssh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh@0.11.1-r0?arch=x86_64&distro=3.22.0_alpha20250108
+      UID: afb1f278ee165fd6
+    InstalledVersion: 0.11.1-r0
+    FixedVersion: 0.11.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:d3b18c1cad172d32e2c844863f6415eff32f90a67bcd96c1095ddb5d66035e69
+      DiffID: sha256:e372ebe7e5c5dc9f3eaf19e4f2531dfc2bacf8a33af187008e71f1a460a8d7e6
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5318
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'libssh: out-of-bounds read in sftp_handle()'
+    Description: A flaw was found in the libssh library. An out-of-bounds read can be triggered in the sftp_handle function due to an incorrect comparison check that permits the function to access memory beyond the valid handle list and to return an invalid pointer, which is used in further processing. This vulnerability allows an authenticated remote attacker to potentially read unintended memory regions, exposing sensitive information or affect service behavior.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 5.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-5318
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2369131
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5318
+    - https://www.cve.org/CVERecord?id=CVE-2025-5318
+    - https://www.libssh.org/security/advisories/CVE-2025-5318.txt
+    PublishedDate: '2025-06-24T14:15:30.523Z'
+    LastModifiedDate: '2025-06-26T18:58:14.28Z'
+  - VulnerabilityID: CVE-2025-4877
+    PkgID: libssh@0.11.1-r0
+    PkgName: libssh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh@0.11.1-r0?arch=x86_64&distro=3.22.0_alpha20250108
+      UID: afb1f278ee165fd6
+    InstalledVersion: 0.11.1-r0
+    FixedVersion: 0.11.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:d3b18c1cad172d32e2c844863f6415eff32f90a67bcd96c1095ddb5d66035e69
+      DiffID: sha256:e372ebe7e5c5dc9f3eaf19e4f2531dfc2bacf8a33af187008e71f1a460a8d7e6
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4877
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Severity: UNKNOWN
+  - VulnerabilityID: CVE-2025-4878
+    PkgID: libssh@0.11.1-r0
+    PkgName: libssh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh@0.11.1-r0?arch=x86_64&distro=3.22.0_alpha20250108
+      UID: afb1f278ee165fd6
+    InstalledVersion: 0.11.1-r0
+    FixedVersion: 0.11.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:d3b18c1cad172d32e2c844863f6415eff32f90a67bcd96c1095ddb5d66035e69
+      DiffID: sha256:e372ebe7e5c5dc9f3eaf19e4f2531dfc2bacf8a33af187008e71f1a460a8d7e6
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4878
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Severity: UNKNOWN
+  - VulnerabilityID: CVE-2025-5351
+    PkgID: libssh@0.11.1-r0
+    PkgName: libssh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh@0.11.1-r0?arch=x86_64&distro=3.22.0_alpha20250108
+      UID: afb1f278ee165fd6
+    InstalledVersion: 0.11.1-r0
+    FixedVersion: 0.11.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:d3b18c1cad172d32e2c844863f6415eff32f90a67bcd96c1095ddb5d66035e69
+      DiffID: sha256:e372ebe7e5c5dc9f3eaf19e4f2531dfc2bacf8a33af187008e71f1a460a8d7e6
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5351
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Severity: UNKNOWN
+  - VulnerabilityID: CVE-2025-5372
+    PkgID: libssh@0.11.1-r0
+    PkgName: libssh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh@0.11.1-r0?arch=x86_64&distro=3.22.0_alpha20250108
+      UID: afb1f278ee165fd6
+    InstalledVersion: 0.11.1-r0
+    FixedVersion: 0.11.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:d3b18c1cad172d32e2c844863f6415eff32f90a67bcd96c1095ddb5d66035e69
+      DiffID: sha256:e372ebe7e5c5dc9f3eaf19e4f2531dfc2bacf8a33af187008e71f1a460a8d7e6
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5372
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Severity: UNKNOWN
+  - VulnerabilityID: CVE-2025-5449
+    PkgID: libssh@0.11.1-r0
+    PkgName: libssh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh@0.11.1-r0?arch=x86_64&distro=3.22.0_alpha20250108
+      UID: afb1f278ee165fd6
+    InstalledVersion: 0.11.1-r0
+    FixedVersion: 0.11.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:d3b18c1cad172d32e2c844863f6415eff32f90a67bcd96c1095ddb5d66035e69
+      DiffID: sha256:e372ebe7e5c5dc9f3eaf19e4f2531dfc2bacf8a33af187008e71f1a460a8d7e6
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5449
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Severity: UNKNOWN
+  - VulnerabilityID: CVE-2025-5987
+    PkgID: libssh@0.11.1-r0
+    PkgName: libssh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh@0.11.1-r0?arch=x86_64&distro=3.22.0_alpha20250108
+      UID: afb1f278ee165fd6
+    InstalledVersion: 0.11.1-r0
+    FixedVersion: 0.11.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:d3b18c1cad172d32e2c844863f6415eff32f90a67bcd96c1095ddb5d66035e69
+      DiffID: sha256:e372ebe7e5c5dc9f3eaf19e4f2531dfc2bacf8a33af187008e71f1a460a8d7e6
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5987
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Severity: UNKNOWN
   - VulnerabilityID: CVE-2024-12718
     PkgID: pyc@3.12.10-r1
     PkgName: pyc
