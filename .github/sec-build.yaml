@@ -1517,6 +1517,144 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-37769
     PublishedDate: '2023-07-17T20:15:13.547Z'
     LastModifiedDate: '2024-11-21T08:12:14.547Z'
+  - VulnerabilityID: CVE-2025-6069
+    PkgID: libpython3.12-minimal@3.12.7-1ubuntu2.2
+    PkgName: libpython3.12-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.12-minimal@3.12.7-1ubuntu2.2?arch=amd64&distro=ubuntu-24.10
+      UID: b6e58b9f5e4aca6b
+    InstalledVersion: 3.12.7-1ubuntu2.2
+    Status: affected
+    Layer:
+      Digest: sha256:7083aee52541b5b327e3734133e9cd239c9424b2cc0bcb6e3317bd3e5e5cef6a
+      DiffID: sha256:a54c49d05b5b0f970ac2ee9468a241925ce838c7ba232a75d075034141e49be9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Python HTMLParser quadratic complexity'
+    Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6069
+    - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
+    - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/issues/135462
+    - https://github.com/python/cpython/pull/135464
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://www.cve.org/CVERecord?id=CVE-2025-6069
+    PublishedDate: '2025-06-17T14:15:33.677Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
+  - VulnerabilityID: CVE-2025-6069
+    PkgID: libpython3.12-stdlib@3.12.7-1ubuntu2.2
+    PkgName: libpython3.12-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.12-stdlib@3.12.7-1ubuntu2.2?arch=amd64&distro=ubuntu-24.10
+      UID: fec8294f1ab37559
+    InstalledVersion: 3.12.7-1ubuntu2.2
+    Status: affected
+    Layer:
+      Digest: sha256:7083aee52541b5b327e3734133e9cd239c9424b2cc0bcb6e3317bd3e5e5cef6a
+      DiffID: sha256:a54c49d05b5b0f970ac2ee9468a241925ce838c7ba232a75d075034141e49be9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Python HTMLParser quadratic complexity'
+    Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6069
+    - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
+    - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/issues/135462
+    - https://github.com/python/cpython/pull/135464
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://www.cve.org/CVERecord?id=CVE-2025-6069
+    PublishedDate: '2025-06-17T14:15:33.677Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
+  - VulnerabilityID: CVE-2025-6069
+    PkgID: libpython3.12t64@3.12.7-1ubuntu2.2
+    PkgName: libpython3.12t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.12t64@3.12.7-1ubuntu2.2?arch=amd64&distro=ubuntu-24.10
+      UID: 73581ffbd8dfb47c
+    InstalledVersion: 3.12.7-1ubuntu2.2
+    Status: affected
+    Layer:
+      Digest: sha256:7083aee52541b5b327e3734133e9cd239c9424b2cc0bcb6e3317bd3e5e5cef6a
+      DiffID: sha256:a54c49d05b5b0f970ac2ee9468a241925ce838c7ba232a75d075034141e49be9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Python HTMLParser quadratic complexity'
+    Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6069
+    - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
+    - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/issues/135462
+    - https://github.com/python/cpython/pull/135464
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://www.cve.org/CVERecord?id=CVE-2025-6069
+    PublishedDate: '2025-06-17T14:15:33.677Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: libssl3t64@3.3.1-2ubuntu2.1
     PkgName: libssl3t64
@@ -1797,6 +1935,7 @@
     - CWE-674
     VendorSeverity:
       nvd: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -1810,6 +1949,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-1492
     - https://gitlab.com/wireshark/wireshark/-/issues/20373
+    - https://linux.oracle.com/cve/CVE-2025-1492.html
+    - https://linux.oracle.com/errata/ELSA-2025-9121.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-1492
     - https://www.cve.org/CVERecord?id=CVE-2025-1492
     - https://www.wireshark.org/security/wnpa-sec-2025-01.html
@@ -2147,6 +2288,7 @@
     - CWE-674
     VendorSeverity:
       nvd: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -2160,6 +2302,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-1492
     - https://gitlab.com/wireshark/wireshark/-/issues/20373
+    - https://linux.oracle.com/cve/CVE-2025-1492.html
+    - https://linux.oracle.com/errata/ELSA-2025-9121.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-1492
     - https://www.cve.org/CVERecord?id=CVE-2025-1492
     - https://www.wireshark.org/security/wnpa-sec-2025-01.html
@@ -2497,6 +2641,7 @@
     - CWE-674
     VendorSeverity:
       nvd: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -2510,6 +2655,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-1492
     - https://gitlab.com/wireshark/wireshark/-/issues/20373
+    - https://linux.oracle.com/cve/CVE-2025-1492.html
+    - https://linux.oracle.com/errata/ELSA-2025-9121.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-1492
     - https://www.cve.org/CVERecord?id=CVE-2025-1492
     - https://www.wireshark.org/security/wnpa-sec-2025-01.html
@@ -2847,6 +2994,7 @@
     - CWE-674
     VendorSeverity:
       nvd: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -2860,6 +3008,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-1492
     - https://gitlab.com/wireshark/wireshark/-/issues/20373
+    - https://linux.oracle.com/cve/CVE-2025-1492.html
+    - https://linux.oracle.com/errata/ELSA-2025-9121.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-1492
     - https://www.cve.org/CVERecord?id=CVE-2025-1492
     - https://www.wireshark.org/security/wnpa-sec-2025-01.html
@@ -3116,6 +3266,148 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2024-12-26T09:15:07.267Z'
+  - VulnerabilityID: CVE-2025-6069
+    PkgID: python3.12@3.12.7-1ubuntu2.2
+    PkgName: python3.12
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.12@3.12.7-1ubuntu2.2?arch=amd64&distro=ubuntu-24.10
+      UID: 9be2a8c9c129e776
+    InstalledVersion: 3.12.7-1ubuntu2.2
+    Status: affected
+    Layer:
+      Digest: sha256:7083aee52541b5b327e3734133e9cd239c9424b2cc0bcb6e3317bd3e5e5cef6a
+      DiffID: sha256:a54c49d05b5b0f970ac2ee9468a241925ce838c7ba232a75d075034141e49be9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Python HTMLParser quadratic complexity'
+    Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6069
+    - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
+    - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/issues/135462
+    - https://github.com/python/cpython/pull/135464
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://www.cve.org/CVERecord?id=CVE-2025-6069
+    PublishedDate: '2025-06-17T14:15:33.677Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
+  - VulnerabilityID: CVE-2025-6069
+    PkgID: python3.12-minimal@3.12.7-1ubuntu2.2
+    PkgName: python3.12-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.12-minimal@3.12.7-1ubuntu2.2?arch=amd64&distro=ubuntu-24.10
+      UID: d5157d8bfe6c757b
+    InstalledVersion: 3.12.7-1ubuntu2.2
+    Status: affected
+    Layer:
+      Digest: sha256:7083aee52541b5b327e3734133e9cd239c9424b2cc0bcb6e3317bd3e5e5cef6a
+      DiffID: sha256:a54c49d05b5b0f970ac2ee9468a241925ce838c7ba232a75d075034141e49be9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Python HTMLParser quadratic complexity'
+    Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6069
+    - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
+    - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
+    - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/issues/135462
+    - https://github.com/python/cpython/pull/135464
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://www.cve.org/CVERecord?id=CVE-2025-6069
+    PublishedDate: '2025-06-17T14:15:33.677Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
+  - VulnerabilityID: CVE-2025-32462
+    PkgID: sudo@1.9.15p5-3ubuntu5
+    PkgName: sudo
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/sudo@1.9.15p5-3ubuntu5?arch=amd64&distro=ubuntu-24.10
+      UID: d84a245301c676a1
+    InstalledVersion: 1.9.15p5-3ubuntu5
+    Status: affected
+    Layer:
+      Digest: sha256:7083aee52541b5b327e3734133e9cd239c9424b2cc0bcb6e3317bd3e5e5cef6a
+      DiffID: sha256:a54c49d05b5b0f970ac2ee9468a241925ce838c7ba232a75d075034141e49be9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32462
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[Local Privilege Escalation via host option]'
+    Description: Sudo's host (`-h` or `--host`) option is intended to be used in conjunction with the list option (`-l` or `--list`) to list a user's sudo privileges on a host other than the current one.  However, due to a bug it was not restricted to listing privileges and could be used when running a command via `sudo` or editing a file with `sudoedit`.  Depending on the rules present in the sudoers file this could allow a local privilege escalation attack. Sudo versions 1.8.8 to 1.9.17 inclusive are affected.
+    Severity: HIGH
+    VendorSeverity:
+      ubuntu: 3
+    References:
+    - https://www.cve.org/CVERecord?id=CVE-2025-32462
+    - https://www.sudo.ws/security/advisories/host_any/
+  - VulnerabilityID: CVE-2025-32463
+    PkgID: sudo@1.9.15p5-3ubuntu5
+    PkgName: sudo
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/sudo@1.9.15p5-3ubuntu5?arch=amd64&distro=ubuntu-24.10
+      UID: d84a245301c676a1
+    InstalledVersion: 1.9.15p5-3ubuntu5
+    Status: affected
+    Layer:
+      Digest: sha256:7083aee52541b5b327e3734133e9cd239c9424b2cc0bcb6e3317bd3e5e5cef6a
+      DiffID: sha256:a54c49d05b5b0f970ac2ee9468a241925ce838c7ba232a75d075034141e49be9
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32463
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[Local Privilege Escalation via chroot option]'
+    Description: An attacker can leverage sudo's `-R` (`--chroot`) option to run arbitrary commands as root, even if they are not listed in the sudoers file. Sudo versions 1.9.14 to 1.9.17 inclusive are affected.
+    Severity: HIGH
+    VendorSeverity:
+      ubuntu: 3
+    References:
+    - https://www.cve.org/CVERecord?id=CVE-2025-32463
+    - https://www.sudo.ws/security/advisories/chroot_bug/
   - VulnerabilityID: CVE-2024-11595
     PkgID: tshark@4.2.6-1
     PkgName: tshark
@@ -3354,6 +3646,7 @@
     - CWE-674
     VendorSeverity:
       nvd: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -3367,6 +3660,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-1492
     - https://gitlab.com/wireshark/wireshark/-/issues/20373
+    - https://linux.oracle.com/cve/CVE-2025-1492.html
+    - https://linux.oracle.com/errata/ELSA-2025-9121.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-1492
     - https://www.cve.org/CVERecord?id=CVE-2025-1492
     - https://www.wireshark.org/security/wnpa-sec-2025-01.html
@@ -3751,6 +4046,7 @@
     - CWE-674
     VendorSeverity:
       nvd: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -3764,6 +4060,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-1492
     - https://gitlab.com/wireshark/wireshark/-/issues/20373
+    - https://linux.oracle.com/cve/CVE-2025-1492.html
+    - https://linux.oracle.com/errata/ELSA-2025-9121.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-1492
     - https://www.cve.org/CVERecord?id=CVE-2025-1492
     - https://www.wireshark.org/security/wnpa-sec-2025-01.html
