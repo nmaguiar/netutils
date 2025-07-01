@@ -1847,7 +1847,64 @@
 │                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4330 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.503Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.91Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2025-5601 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2025-32462 
+│                       │      ├ PkgID           : sudo@1.9.16_p2-r1 
+│                       │      ├ PkgName         : sudo 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sudo@1.9.16_p2-r1?arch=x86_64&distro=3
+│                       │      │                  │       .22.0_alpha20250108 
+│                       │      │                  ╰ UID : 9c53bcdc15a33df6 
+│                       │      ├ InstalledVersion: 1.9.16_p2-r1 
+│                       │      ├ FixedVersion    : 1.9.17_p1-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d3b18c1cad172d32e2c844863f6415eff32f90a67bcd
+│                       │      │                  │         96c1095ddb5d66035e69 
+│                       │      │                  ╰ DiffID: sha256:e372ebe7e5c5dc9f3eaf19e4f2531dfc2bacf8a33af1
+│                       │      │                            87008e71f1a460a8d7e6 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32462 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : [Local Privilege Escalation via host option] 
+│                       │      ├ Description     : Sudo's host (`-h` or `--host`) option is intended to be used
+│                       │      │                    in conjunction with the list option (`-l` or `--list`) to
+│                       │      │                   list a user's sudo privileges on a host other than the
+│                       │      │                   current one.  However, due to a bug it was not restricted to
+│                       │      │                    listing privileges and could be used when running a command
+│                       │      │                    via `sudo` or editing a file with `sudoedit`.  Depending on
+│                       │      │                    the rules present in the sudoers file this could allow a
+│                       │      │                   local privilege escalation attack. Sudo versions 1.8.8 to
+│                       │      │                   1.9.17 inclusive are affected. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ VendorSeverity   ─ ubuntu: 3 
+│                       │      ╰ References       ╭ [0]: https://www.cve.org/CVERecord?id=CVE-2025-32462 
+│                       │                         ╰ [1]: https://www.sudo.ws/security/advisories/host_any/ 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2025-32463 
+│                       │      ├ PkgID           : sudo@1.9.16_p2-r1 
+│                       │      ├ PkgName         : sudo 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sudo@1.9.16_p2-r1?arch=x86_64&distro=3
+│                       │      │                  │       .22.0_alpha20250108 
+│                       │      │                  ╰ UID : 9c53bcdc15a33df6 
+│                       │      ├ InstalledVersion: 1.9.16_p2-r1 
+│                       │      ├ FixedVersion    : 1.9.17_p1-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:d3b18c1cad172d32e2c844863f6415eff32f90a67bcd
+│                       │      │                  │         96c1095ddb5d66035e69 
+│                       │      │                  ╰ DiffID: sha256:e372ebe7e5c5dc9f3eaf19e4f2531dfc2bacf8a33af1
+│                       │      │                            87008e71f1a460a8d7e6 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32463 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : [Local Privilege Escalation via chroot option] 
+│                       │      ├ Description     : An attacker can leverage sudo's `-R` (`--chroot`) option to
+│                       │      │                   run arbitrary commands as root, even if they are not listed
+│                       │      │                   in the sudoers file. Sudo versions 1.9.14 to 1.9.17
+│                       │      │                   inclusive are affected. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ VendorSeverity   ─ ubuntu: 3 
+│                       │      ╰ References       ╭ [0]: https://www.cve.org/CVERecord?id=CVE-2025-32463 
+│                       │                         ╰ [1]: https://www.sudo.ws/security/advisories/chroot_bug/ 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2025-5601 
 │                       │      ├ PkgID           : tshark@4.4.6-r0 
 │                       │      ├ PkgName         : tshark 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/tshark@4.4.6-r0?arch=x86_64&distro=3.2
@@ -1884,7 +1941,7 @@
 │                       │      │                  ╰ [5]: https://www.wireshark.org/security/wnpa-sec-2025-02.html 
 │                       │      ├ PublishedDate   : 2025-06-04T11:15:22.11Z 
 │                       │      ╰ LastModifiedDate: 2025-06-04T14:54:33.783Z 
-│                       ╰ [33] ╭ VulnerabilityID : CVE-2025-5601 
+│                       ╰ [35] ╭ VulnerabilityID : CVE-2025-5601 
 │                              ├ PkgID           : wireshark-common@4.4.6-r0 
 │                              ├ PkgName         : wireshark-common 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/wireshark-common@4.4.6-r0?arch=x86_64&
