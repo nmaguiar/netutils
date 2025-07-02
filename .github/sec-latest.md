@@ -1471,20 +1471,21 @@
 │                       │       │                           ╰ V3Score : 7.8 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/1
 │                       │       │                  │       7/1 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9526 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-6020 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2372512 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
-│                       │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                       │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-7580-1 
-│                       │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                       │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2025/06/
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:10024 
+│                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:9526 
+│                       │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-6020 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2372512 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                       │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-7580-1 
+│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                       │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2025/06/
 │                       │       │                          17/1 
 │                       │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
-│                       │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                       │       ╰ LastModifiedDate: 2025-07-01T14:15:41.26Z 
 │                       ├ [31]  ╭ VulnerabilityID : CVE-2024-10041 
 │                       │       ├ PkgID           : libpam-modules-bin@1.5.3-7ubuntu2 
 │                       │       ├ PkgName         : libpam-modules-bin 
@@ -1636,20 +1637,21 @@
 │                       │       │                           ╰ V3Score : 7.8 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/1
 │                       │       │                  │       7/1 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9526 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-6020 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2372512 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
-│                       │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                       │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-7580-1 
-│                       │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                       │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2025/06/
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:10024 
+│                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:9526 
+│                       │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-6020 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2372512 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                       │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-7580-1 
+│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                       │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2025/06/
 │                       │       │                          17/1 
 │                       │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
-│                       │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                       │       ╰ LastModifiedDate: 2025-07-01T14:15:41.26Z 
 │                       ├ [34]  ╭ VulnerabilityID : CVE-2024-10041 
 │                       │       ├ PkgID           : libpam-runtime@1.5.3-7ubuntu2 
 │                       │       ├ PkgName         : libpam-runtime 
@@ -1801,20 +1803,21 @@
 │                       │       │                           ╰ V3Score : 7.8 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/1
 │                       │       │                  │       7/1 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9526 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-6020 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2372512 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
-│                       │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                       │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-7580-1 
-│                       │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                       │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2025/06/
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:10024 
+│                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:9526 
+│                       │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-6020 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2372512 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                       │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-7580-1 
+│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                       │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2025/06/
 │                       │       │                          17/1 
 │                       │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
-│                       │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                       │       ╰ LastModifiedDate: 2025-07-01T14:15:41.26Z 
 │                       ├ [37]  ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : libpam-systemd@256.5-2ubuntu3.1 
 │                       │       ├ PkgName         : libpam-systemd 
@@ -2050,20 +2053,21 @@
 │                       │       │                           ╰ V3Score : 7.8 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/1
 │                       │       │                  │       7/1 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9526 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-6020 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2372512 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
-│                       │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                       │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-7580-1 
-│                       │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                       │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2025/06/
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:10024 
+│                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:9526 
+│                       │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-6020 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2372512 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                       │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-7580-1 
+│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                       │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/2025/06/
 │                       │       │                          17/1 
 │                       │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
-│                       │       ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
+│                       │       ╰ LastModifiedDate: 2025-07-01T14:15:41.26Z 
 │                       ├ [41]  ╭ VulnerabilityID : CVE-2023-37769 
 │                       │       ├ PkgID           : libpixman-1-0@0.42.2-1build1 
 │                       │       ├ PkgName         : libpixman-1-0 
@@ -2115,8 +2119,8 @@
 │                       │       ├ DataSource       ╭ ID  : ubuntu 
 │                       │       │                  ├ Name: Ubuntu CVE Tracker 
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │       ├ Title           : cpython: Bypass extraction filter to modify file metadata
-│                       │       │                   outside extraction directory 
+│                       │       ├ Title           : cpython: python: Bypass extraction filter to modify file
+│                       │       │                   metadata outside extraction directory 
 │                       │       ├ Description     : Allows modifying some file metadata (e.g. last modified)
 │                       │       │                   with filter="data" or file permissions (chmod) with
 │                       │       │                   filter="tar" of files outside the extraction directory.
@@ -2290,8 +2294,8 @@
 │                       │       ├ DataSource       ╭ ID  : ubuntu 
 │                       │       │                  ├ Name: Ubuntu CVE Tracker 
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │       ├ Title           : cpython: Extraction filter bypass for linking outside
-│                       │       │                   extraction directory 
+│                       │       ├ Title           : cpython: python: Extraction filter bypass for linking
+│                       │       │                   outside extraction directory 
 │                       │       ├ Description     : Allows the extraction filter to be ignored, allowing
 │                       │       │                   symlink targets to point outside the destination directory,
 │                       │       │                    and the modification of some file metadata.
@@ -2323,9 +2327,9 @@
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :H/A:N 
 │                       │       │                  │         ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I
 │                       │       │                            │           :H/A:N 
-│                       │       │                            ╰ V3Score : 5.7 
+│                       │       │                            ╰ V3Score : 7.3 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4330 
 │                       │       │                  ├ [1] : https://gist.github.com/sethmlarson/52398e33eff26132
 │                       │       │                  │       9a0180ac1d54f42f 
@@ -2391,9 +2395,9 @@
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :H/A:N 
 │                       │       │                  │         ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                            │           :H/A:N 
-│                       │       │                            ╰ V3Score : 5.7 
+│                       │       │                            ╰ V3Score : 7.5 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4435 
 │                       │       │                  ├ [1] : https://github.com/python/cpython/commit/19de092debb
 │                       │       │                  │       3d7e832e5672cc2f7b788d35951da 
@@ -2638,8 +2642,8 @@
 │                       │       ├ DataSource       ╭ ID  : ubuntu 
 │                       │       │                  ├ Name: Ubuntu CVE Tracker 
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │       ├ Title           : cpython: Bypass extraction filter to modify file metadata
-│                       │       │                   outside extraction directory 
+│                       │       ├ Title           : cpython: python: Bypass extraction filter to modify file
+│                       │       │                   metadata outside extraction directory 
 │                       │       ├ Description     : Allows modifying some file metadata (e.g. last modified)
 │                       │       │                   with filter="data" or file permissions (chmod) with
 │                       │       │                   filter="tar" of files outside the extraction directory.
@@ -2813,8 +2817,8 @@
 │                       │       ├ DataSource       ╭ ID  : ubuntu 
 │                       │       │                  ├ Name: Ubuntu CVE Tracker 
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │       ├ Title           : cpython: Extraction filter bypass for linking outside
-│                       │       │                   extraction directory 
+│                       │       ├ Title           : cpython: python: Extraction filter bypass for linking
+│                       │       │                   outside extraction directory 
 │                       │       ├ Description     : Allows the extraction filter to be ignored, allowing
 │                       │       │                   symlink targets to point outside the destination directory,
 │                       │       │                    and the modification of some file metadata.
@@ -2846,9 +2850,9 @@
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :H/A:N 
 │                       │       │                  │         ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I
 │                       │       │                            │           :H/A:N 
-│                       │       │                            ╰ V3Score : 5.7 
+│                       │       │                            ╰ V3Score : 7.3 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4330 
 │                       │       │                  ├ [1] : https://gist.github.com/sethmlarson/52398e33eff26132
 │                       │       │                  │       9a0180ac1d54f42f 
@@ -2914,9 +2918,9 @@
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :H/A:N 
 │                       │       │                  │         ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                            │           :H/A:N 
-│                       │       │                            ╰ V3Score : 5.7 
+│                       │       │                            ╰ V3Score : 7.5 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4435 
 │                       │       │                  ├ [1] : https://github.com/python/cpython/commit/19de092debb
 │                       │       │                  │       3d7e832e5672cc2f7b788d35951da 
@@ -3161,8 +3165,8 @@
 │                       │       ├ DataSource       ╭ ID  : ubuntu 
 │                       │       │                  ├ Name: Ubuntu CVE Tracker 
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │       ├ Title           : cpython: Bypass extraction filter to modify file metadata
-│                       │       │                   outside extraction directory 
+│                       │       ├ Title           : cpython: python: Bypass extraction filter to modify file
+│                       │       │                   metadata outside extraction directory 
 │                       │       ├ Description     : Allows modifying some file metadata (e.g. last modified)
 │                       │       │                   with filter="data" or file permissions (chmod) with
 │                       │       │                   filter="tar" of files outside the extraction directory.
@@ -3336,8 +3340,8 @@
 │                       │       ├ DataSource       ╭ ID  : ubuntu 
 │                       │       │                  ├ Name: Ubuntu CVE Tracker 
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │       ├ Title           : cpython: Extraction filter bypass for linking outside
-│                       │       │                   extraction directory 
+│                       │       ├ Title           : cpython: python: Extraction filter bypass for linking
+│                       │       │                   outside extraction directory 
 │                       │       ├ Description     : Allows the extraction filter to be ignored, allowing
 │                       │       │                   symlink targets to point outside the destination directory,
 │                       │       │                    and the modification of some file metadata.
@@ -3369,9 +3373,9 @@
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :H/A:N 
 │                       │       │                  │         ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I
 │                       │       │                            │           :H/A:N 
-│                       │       │                            ╰ V3Score : 5.7 
+│                       │       │                            ╰ V3Score : 7.3 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4330 
 │                       │       │                  ├ [1] : https://gist.github.com/sethmlarson/52398e33eff26132
 │                       │       │                  │       9a0180ac1d54f42f 
@@ -3437,9 +3441,9 @@
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :H/A:N 
 │                       │       │                  │         ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                            │           :H/A:N 
-│                       │       │                            ╰ V3Score : 5.7 
+│                       │       │                            ╰ V3Score : 7.5 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4435 
 │                       │       │                  ├ [1] : https://github.com/python/cpython/commit/19de092debb
 │                       │       │                  │       3d7e832e5672cc2f7b788d35951da 
@@ -5588,8 +5592,8 @@
 │                       │       ├ DataSource       ╭ ID  : ubuntu 
 │                       │       │                  ├ Name: Ubuntu CVE Tracker 
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │       ├ Title           : cpython: Bypass extraction filter to modify file metadata
-│                       │       │                   outside extraction directory 
+│                       │       ├ Title           : cpython: python: Bypass extraction filter to modify file
+│                       │       │                   metadata outside extraction directory 
 │                       │       ├ Description     : Allows modifying some file metadata (e.g. last modified)
 │                       │       │                   with filter="data" or file permissions (chmod) with
 │                       │       │                   filter="tar" of files outside the extraction directory.
@@ -5763,8 +5767,8 @@
 │                       │       ├ DataSource       ╭ ID  : ubuntu 
 │                       │       │                  ├ Name: Ubuntu CVE Tracker 
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │       ├ Title           : cpython: Extraction filter bypass for linking outside
-│                       │       │                   extraction directory 
+│                       │       ├ Title           : cpython: python: Extraction filter bypass for linking
+│                       │       │                   outside extraction directory 
 │                       │       ├ Description     : Allows the extraction filter to be ignored, allowing
 │                       │       │                   symlink targets to point outside the destination directory,
 │                       │       │                    and the modification of some file metadata.
@@ -5796,9 +5800,9 @@
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :H/A:N 
 │                       │       │                  │         ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I
 │                       │       │                            │           :H/A:N 
-│                       │       │                            ╰ V3Score : 5.7 
+│                       │       │                            ╰ V3Score : 7.3 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4330 
 │                       │       │                  ├ [1] : https://gist.github.com/sethmlarson/52398e33eff26132
 │                       │       │                  │       9a0180ac1d54f42f 
@@ -5864,9 +5868,9 @@
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :H/A:N 
 │                       │       │                  │         ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                            │           :H/A:N 
-│                       │       │                            ╰ V3Score : 5.7 
+│                       │       │                            ╰ V3Score : 7.5 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4435 
 │                       │       │                  ├ [1] : https://github.com/python/cpython/commit/19de092debb
 │                       │       │                  │       3d7e832e5672cc2f7b788d35951da 
@@ -6111,8 +6115,8 @@
 │                       │       ├ DataSource       ╭ ID  : ubuntu 
 │                       │       │                  ├ Name: Ubuntu CVE Tracker 
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │       ├ Title           : cpython: Bypass extraction filter to modify file metadata
-│                       │       │                   outside extraction directory 
+│                       │       ├ Title           : cpython: python: Bypass extraction filter to modify file
+│                       │       │                   metadata outside extraction directory 
 │                       │       ├ Description     : Allows modifying some file metadata (e.g. last modified)
 │                       │       │                   with filter="data" or file permissions (chmod) with
 │                       │       │                   filter="tar" of files outside the extraction directory.
@@ -6286,8 +6290,8 @@
 │                       │       ├ DataSource       ╭ ID  : ubuntu 
 │                       │       │                  ├ Name: Ubuntu CVE Tracker 
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │       ├ Title           : cpython: Extraction filter bypass for linking outside
-│                       │       │                   extraction directory 
+│                       │       ├ Title           : cpython: python: Extraction filter bypass for linking
+│                       │       │                   outside extraction directory 
 │                       │       ├ Description     : Allows the extraction filter to be ignored, allowing
 │                       │       │                   symlink targets to point outside the destination directory,
 │                       │       │                    and the modification of some file metadata.
@@ -6319,9 +6323,9 @@
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :H/A:N 
 │                       │       │                  │         ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I
 │                       │       │                            │           :H/A:N 
-│                       │       │                            ╰ V3Score : 5.7 
+│                       │       │                            ╰ V3Score : 7.3 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4330 
 │                       │       │                  ├ [1] : https://gist.github.com/sethmlarson/52398e33eff26132
 │                       │       │                  │       9a0180ac1d54f42f 
@@ -6387,9 +6391,9 @@
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │         │           :H/A:N 
 │                       │       │                  │         ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                            │           :H/A:N 
-│                       │       │                            ╰ V3Score : 5.7 
+│                       │       │                            ╰ V3Score : 7.5 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4435 
 │                       │       │                  ├ [1] : https://github.com/python/cpython/commit/19de092debb
 │                       │       │                  │       3d7e832e5672cc2f7b788d35951da 
@@ -6623,7 +6627,8 @@
 │                       │       │                  │       tro=ubuntu-24.10 
 │                       │       │                  ╰ UID : 90f578df02553520 
 │                       │       ├ InstalledVersion: 1.9.15p5-3ubuntu5 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 1.9.15p5-3ubuntu5.24.10.1 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc7
 │                       │       │                  │         667bc7d4c38e318aa8697 
 │                       │       │                  ╰ DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38
@@ -6633,20 +6638,35 @@
 │                       │       ├ DataSource       ╭ ID  : ubuntu 
 │                       │       │                  ├ Name: Ubuntu CVE Tracker 
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │       ├ Title           : [Local Privilege Escalation via host option] 
-│                       │       ├ Description     : Sudo's host (`-h` or `--host`) option is intended to be
-│                       │       │                   used in conjunction with the list option (`-l` or `--list`)
-│                       │       │                    to list a user's sudo privileges on a host other than the
-│                       │       │                   current one.  However, due to a bug it was not restricted
-│                       │       │                   to listing privileges and could be used when running a
-│                       │       │                   command via `sudo` or editing a file with `sudoedit`. 
-│                       │       │                   Depending on the rules present in the sudoers file this
-│                       │       │                   could allow a local privilege escalation attack. Sudo
-│                       │       │                   versions 1.8.8 to 1.9.17 inclusive are affected. 
+│                       │       ├ Title           : sudo: LPE via host option 
+│                       │       ├ Description     : Sudo before 1.9.17p1, when used with a sudoers file that
+│                       │       │                   specifies a host that is neither the current host nor ALL,
+│                       │       │                   allows listed users to execute commands on unintended
+│                       │       │                   machines. 
 │                       │       ├ Severity        : HIGH 
-│                       │       ├ VendorSeverity   ─ ubuntu: 3 
-│                       │       ╰ References       ╭ [0]: https://www.cve.org/CVERecord?id=CVE-2025-32462 
-│                       │                          ╰ [1]: https://www.sudo.ws/security/advisories/host_any/ 
+│                       │       ├ CweIDs           ─ [0]: CWE-863 
+│                       │       ├ VendorSeverity   ╭ oracle-oval: 3 
+│                       │       │                  ├ redhat     : 3 
+│                       │       │                  ╰ ubuntu     : 3 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 7 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-32462 
+│                       │       │                  ├ [1] : https://linux.oracle.com/cve/CVE-2025-32462.html 
+│                       │       │                  ├ [2] : https://linux.oracle.com/errata/ELSA-2025-9978.html 
+│                       │       │                  ├ [3] : https://nvd.nist.gov/vuln/detail/CVE-2025-32462 
+│                       │       │                  ├ [4] : https://ubuntu.com/security/notices/USN-7604-1 
+│                       │       │                  ├ [5] : https://ubuntu.com/security/notices/USN-7604-2 
+│                       │       │                  ├ [6] : https://www.cve.org/CVERecord?id=CVE-2025-32462 
+│                       │       │                  ├ [7] : https://www.openwall.com/lists/oss-security/2025/06/
+│                       │       │                  │       30/2 
+│                       │       │                  ├ [8] : https://www.stratascale.com/vulnerability-alert-CVE-
+│                       │       │                  │       2025-32462-sudo-host 
+│                       │       │                  ├ [9] : https://www.sudo.ws/releases/changelog/ 
+│                       │       │                  ├ [10]: https://www.sudo.ws/security/advisories/ 
+│                       │       │                  ╰ [11]: https://www.sudo.ws/security/advisories/host_any/ 
+│                       │       ├ PublishedDate   : 2025-06-30T21:15:30.08Z 
+│                       │       ╰ LastModifiedDate: 2025-06-30T21:15:30.08Z 
 │                       ├ [118] ╭ VulnerabilityID : CVE-2025-32463 
 │                       │       ├ PkgID           : sudo@1.9.15p5-3ubuntu5 
 │                       │       ├ PkgName         : sudo 
@@ -6654,7 +6674,8 @@
 │                       │       │                  │       tro=ubuntu-24.10 
 │                       │       │                  ╰ UID : 90f578df02553520 
 │                       │       ├ InstalledVersion: 1.9.15p5-3ubuntu5 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 1.9.15p5-3ubuntu5.24.10.1 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc7
 │                       │       │                  │         667bc7d4c38e318aa8697 
 │                       │       │                  ╰ DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38
@@ -6664,15 +6685,30 @@
 │                       │       ├ DataSource       ╭ ID  : ubuntu 
 │                       │       │                  ├ Name: Ubuntu CVE Tracker 
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │       ├ Title           : [Local Privilege Escalation via chroot option] 
-│                       │       ├ Description     : An attacker can leverage sudo's `-R` (`--chroot`) option to
-│                       │       │                    run arbitrary commands as root, even if they are not
-│                       │       │                   listed in the sudoers file. Sudo versions 1.9.14 to 1.9.17
-│                       │       │                   inclusive are affected. 
+│                       │       ├ Title           : sudo: LPE via chroot option 
+│                       │       ├ Description     : Sudo before 1.9.17p1 allows local users to obtain root
+│                       │       │                   access because /etc/nsswitch.conf from a user-controlled
+│                       │       │                   directory is used with the --chroot option. 
 │                       │       ├ Severity        : HIGH 
-│                       │       ├ VendorSeverity   ─ ubuntu: 3 
-│                       │       ╰ References       ╭ [0]: https://www.cve.org/CVERecord?id=CVE-2025-32463 
-│                       │                          ╰ [1]: https://www.sudo.ws/security/advisories/chroot_bug/ 
+│                       │       ├ CweIDs           ─ [0]: CWE-829 
+│                       │       ├ VendorSeverity   ╭ redhat: 3 
+│                       │       │                  ╰ ubuntu: 3 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32463 
+│                       │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-32463 
+│                       │       │                  ├ [2]: https://ubuntu.com/security/notices/USN-7604-1 
+│                       │       │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-32463 
+│                       │       │                  ├ [4]: https://www.openwall.com/lists/oss-security/2025/06/3
+│                       │       │                  │      0/3 
+│                       │       │                  ├ [5]: https://www.stratascale.com/vulnerability-alert-CVE-2
+│                       │       │                  │      025-32463-sudo-chroot 
+│                       │       │                  ├ [6]: https://www.sudo.ws/releases/changelog/ 
+│                       │       │                  ├ [7]: https://www.sudo.ws/security/advisories/ 
+│                       │       │                  ╰ [8]: https://www.sudo.ws/security/advisories/chroot_bug/ 
+│                       │       ├ PublishedDate   : 2025-06-30T21:15:30.257Z 
+│                       │       ╰ LastModifiedDate: 2025-06-30T21:15:30.257Z 
 │                       ├ [119] ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : systemd@256.5-2ubuntu3.1 
 │                       │       ├ PkgName         : systemd 
