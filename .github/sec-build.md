@@ -164,7 +164,8 @@
 │                       │      │                   overflow memory on the stack. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-120 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
@@ -173,14 +174,17 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 6.6 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-52949 
-│                       │      │                  ├ [1]: https://github.com/iptraf-ng/iptraf-ng/releases/tag/v1
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7064 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52949 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2332702 
+│                       │      │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-7064.html 
+│                       │      │                  ├ [4]: https://github.com/iptraf-ng/iptraf-ng/releases/tag/v1
 │                       │      │                  │      .2.1 
-│                       │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2024-52949.html 
-│                       │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2025-7064.html 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-52949 
-│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2024-52949 
-│                       │      │                  ╰ [6]: https://www.gruppotim.it/it/footer/red-team.html 
+│                       │      │                  ├ [5]: https://linux.oracle.com/cve/CVE-2024-52949.html 
+│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2025-7064.html 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-52949 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52949 
+│                       │      │                  ╰ [9]: https://www.gruppotim.it/it/footer/red-team.html 
 │                       │      ├ PublishedDate   : 2024-12-16T22:15:06.863Z 
 │                       │      ╰ LastModifiedDate: 2025-01-29T09:15:07.317Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2024-52615 
@@ -993,7 +997,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-404 
 │                       │      ├ VendorSeverity   ╭ azure : 1 
-│                       │      │                  ├ photon: 2 
+│                       │      │                  ├ photon: 1 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N
@@ -1819,7 +1823,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-835 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -1861,7 +1865,7 @@
 │                       │      │                  ╰ [1]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ nvd   : 2 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -1903,7 +1907,7 @@
 │                       │      │                  ╰ [1]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ nvd   : 2 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -2162,7 +2166,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-835 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -2204,7 +2208,7 @@
 │                       │      │                  ╰ [1]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ nvd   : 2 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -2246,7 +2250,7 @@
 │                       │      │                  ╰ [1]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ nvd   : 2 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -2505,7 +2509,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-835 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -2547,7 +2551,7 @@
 │                       │      │                  ╰ [1]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ nvd   : 2 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -2589,7 +2593,7 @@
 │                       │      │                  ╰ [1]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ nvd   : 2 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -2848,7 +2852,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-835 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -2890,7 +2894,7 @@
 │                       │      │                  ╰ [1]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ nvd   : 2 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -2932,7 +2936,7 @@
 │                       │      │                  ╰ [1]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ nvd   : 2 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -3473,28 +3477,33 @@
 │                       │      │                   machines. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-863 
-│                       │      ├ VendorSeverity   ╭ oracle-oval: 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-32462 
-│                       │      │                  ├ [1] : https://linux.oracle.com/cve/CVE-2025-32462.html 
-│                       │      │                  ├ [2] : https://linux.oracle.com/errata/ELSA-2025-9978.html 
-│                       │      │                  ├ [3] : https://nvd.nist.gov/vuln/detail/CVE-2025-32462 
-│                       │      │                  ├ [4] : https://ubuntu.com/security/notices/USN-7604-1 
-│                       │      │                  ├ [5] : https://ubuntu.com/security/notices/USN-7604-2 
-│                       │      │                  ├ [6] : https://www.cve.org/CVERecord?id=CVE-2025-32462 
-│                       │      │                  ├ [7] : https://www.openwall.com/lists/oss-security/2025/06/3
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:9978 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-32462 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2374692 
+│                       │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-9978.html 
+│                       │      │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-32462.html 
+│                       │      │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-9978.html 
+│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-32462 
+│                       │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-7604-1 
+│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7604-2 
+│                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-32462 
+│                       │      │                  ├ [10]: https://www.openwall.com/lists/oss-security/2025/06/3
 │                       │      │                  │       0/2 
-│                       │      │                  ├ [8] : https://www.stratascale.com/vulnerability-alert-CVE-2
+│                       │      │                  ├ [11]: https://www.stratascale.com/vulnerability-alert-CVE-2
 │                       │      │                  │       025-32462-sudo-host 
-│                       │      │                  ├ [9] : https://www.sudo.ws/releases/changelog/ 
-│                       │      │                  ├ [10]: https://www.sudo.ws/security/advisories/ 
-│                       │      │                  ╰ [11]: https://www.sudo.ws/security/advisories/host_any/ 
+│                       │      │                  ├ [12]: https://www.sudo.ws/releases/changelog/ 
+│                       │      │                  ├ [13]: https://www.sudo.ws/security/advisories/ 
+│                       │      │                  ╰ [14]: https://www.sudo.ws/security/advisories/host_any/ 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.08Z 
-│                       │      ╰ LastModifiedDate: 2025-06-30T21:15:30.08Z 
+│                       │      ╰ LastModifiedDate: 2025-07-03T15:14:12.767Z 
 │                       ├ [76] ╭ VulnerabilityID : CVE-2025-32463 
 │                       │      ├ PkgID           : sudo@1.9.15p5-3ubuntu5 
 │                       │      ├ PkgName         : sudo 
@@ -3519,23 +3528,33 @@
 │                       │      │                   directory is used with the --chroot option. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-829 
-│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      ├ VendorSeverity   ╭ photon: 4 
+│                       │      │                  ├ redhat: 3 
 │                       │      │                  ╰ ubuntu: 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32463 
-│                       │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-32463 
-│                       │      │                  ├ [2]: https://ubuntu.com/security/notices/USN-7604-1 
-│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-32463 
-│                       │      │                  ├ [4]: https://www.openwall.com/lists/oss-security/2025/06/30/3 
-│                       │      │                  ├ [5]: https://www.stratascale.com/vulnerability-alert-CVE-20
-│                       │      │                  │      25-32463-sudo-chroot 
-│                       │      │                  ├ [6]: https://www.sudo.ws/releases/changelog/ 
-│                       │      │                  ├ [7]: https://www.sudo.ws/security/advisories/ 
-│                       │      │                  ╰ [8]: https://www.sudo.ws/security/advisories/chroot_bug/ 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-32463 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/cve-2025-32463 
+│                       │      │                  ├ [2] : https://bugs.gentoo.org/show_bug.cgi?id=CVE-2025-32463 
+│                       │      │                  ├ [3] : https://explore.alas.aws.amazon.com/CVE-2025-32463.html 
+│                       │      │                  ├ [4] : https://nvd.nist.gov/vuln/detail/CVE-2025-32463 
+│                       │      │                  ├ [5] : https://security-tracker.debian.org/tracker/CVE-2025-
+│                       │      │                  │       32463 
+│                       │      │                  ├ [6] : https://ubuntu.com/security/notices/USN-7604-1 
+│                       │      │                  ├ [7] : https://www.cve.org/CVERecord?id=CVE-2025-32463 
+│                       │      │                  ├ [8] : https://www.openwall.com/lists/oss-security/2025/06/3
+│                       │      │                  │       0/3 
+│                       │      │                  ├ [9] : https://www.stratascale.com/vulnerability-alert-CVE-2
+│                       │      │                  │       025-32463-sudo-chroot 
+│                       │      │                  ├ [10]: https://www.sudo.ws/releases/changelog/ 
+│                       │      │                  ├ [11]: https://www.sudo.ws/security/advisories/ 
+│                       │      │                  ├ [12]: https://www.sudo.ws/security/advisories/chroot_bug/ 
+│                       │      │                  ├ [13]: https://www.suse.com/security/cve/CVE-2025-32463.html 
+│                       │      │                  ╰ [14]: https://www.suse.com/support/update/announcement/2025
+│                       │      │                          /suse-su-202502177-1/ 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.257Z 
-│                       │      ╰ LastModifiedDate: 2025-06-30T21:15:30.257Z 
+│                       │      ╰ LastModifiedDate: 2025-07-03T15:14:12.767Z 
 │                       ├ [77] ╭ VulnerabilityID : CVE-2024-11595 
 │                       │      ├ PkgID           : tshark@4.2.6-1 
 │                       │      ├ PkgName         : tshark 
@@ -3561,7 +3580,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-835 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -3603,7 +3622,7 @@
 │                       │      │                  ╰ [1]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ nvd   : 2 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -3645,7 +3664,7 @@
 │                       │      │                  ╰ [1]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ nvd   : 2 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -3950,7 +3969,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-835 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -3992,7 +4011,7 @@
 │                       │      │                  ╰ [1]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ nvd   : 2 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -4034,7 +4053,7 @@
 │                       │      │                  ╰ [1]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ nvd   : 2 
-│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
