@@ -238,6 +238,57 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-5399
     PublishedDate: '2025-06-07T08:15:20.687Z'
     LastModifiedDate: '2025-06-09T14:15:23.47Z'
+  - VulnerabilityID: CVE-2025-4575
+    PkgID: libcrypto3@3.5.0-r0
+    PkgName: libcrypto3
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcrypto3@3.5.0-r0?arch=x86_64&distro=3.22.0_alpha20250108
+      UID: 46cd700e0535dbbd
+    InstalledVersion: 3.5.0-r0
+    FixedVersion: 3.5.1-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:d3b18c1cad172d32e2c844863f6415eff32f90a67bcd96c1095ddb5d66035e69
+      DiffID: sha256:e372ebe7e5c5dc9f3eaf19e4f2531dfc2bacf8a33af187008e71f1a460a8d7e6
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4575
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'Issue summary: Use of -addreject option with the openssl x509 applicat ...'
+    Description: |-
+      Issue summary: Use of -addreject option with the openssl x509 application adds
+      a trusted use instead of a rejected use for a certificate.
+
+      Impact summary: If a user intends to make a trusted certificate rejected for
+      a particular use it will be instead marked as trusted for that use.
+
+      A copy & paste error during minor refactoring of the code introduced this
+      issue in the OpenSSL 3.5 version. If, for example, a trusted CA certificate
+      should be trusted only for the purpose of authenticating TLS servers but not
+      for CMS signature verification and the CMS signature verification is intended
+      to be marked as rejected with the -addreject option, the resulting CA
+      certificate will be trusted for CMS signature verification purpose instead.
+
+      Only users which use the trusted certificate format who use the openssl x509
+      command line application to add rejected uses are affected by this issue.
+      The issues affecting only the command line application are considered to
+      be Low severity.
+
+      The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this
+      issue.
+
+      OpenSSL 3.4, 3.3, 3.2, 3.1, 3.0, 1.1.1 and 1.0.2 are also not affected by this
+      issue.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-295
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/22/1
+    - https://github.com/openssl/openssl/commit/e96d22446e633d117e6c9904cb15b4693e956eaa
+    - https://openssl-library.org/news/secadv/20250522.txt
+    PublishedDate: '2025-05-22T14:16:07.63Z'
+    LastModifiedDate: '2025-05-23T15:55:02.04Z'
   - VulnerabilityID: CVE-2025-4947
     PkgID: libcurl@8.13.0-r1
     PkgName: libcurl
@@ -500,6 +551,108 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Severity: UNKNOWN
+  - VulnerabilityID: CVE-2025-4575
+    PkgID: libssl3@3.5.0-r0
+    PkgName: libssl3
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssl3@3.5.0-r0?arch=x86_64&distro=3.22.0_alpha20250108
+      UID: c5c3a9deda318749
+    InstalledVersion: 3.5.0-r0
+    FixedVersion: 3.5.1-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:d3b18c1cad172d32e2c844863f6415eff32f90a67bcd96c1095ddb5d66035e69
+      DiffID: sha256:e372ebe7e5c5dc9f3eaf19e4f2531dfc2bacf8a33af187008e71f1a460a8d7e6
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4575
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'Issue summary: Use of -addreject option with the openssl x509 applicat ...'
+    Description: |-
+      Issue summary: Use of -addreject option with the openssl x509 application adds
+      a trusted use instead of a rejected use for a certificate.
+
+      Impact summary: If a user intends to make a trusted certificate rejected for
+      a particular use it will be instead marked as trusted for that use.
+
+      A copy & paste error during minor refactoring of the code introduced this
+      issue in the OpenSSL 3.5 version. If, for example, a trusted CA certificate
+      should be trusted only for the purpose of authenticating TLS servers but not
+      for CMS signature verification and the CMS signature verification is intended
+      to be marked as rejected with the -addreject option, the resulting CA
+      certificate will be trusted for CMS signature verification purpose instead.
+
+      Only users which use the trusted certificate format who use the openssl x509
+      command line application to add rejected uses are affected by this issue.
+      The issues affecting only the command line application are considered to
+      be Low severity.
+
+      The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this
+      issue.
+
+      OpenSSL 3.4, 3.3, 3.2, 3.1, 3.0, 1.1.1 and 1.0.2 are also not affected by this
+      issue.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-295
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/22/1
+    - https://github.com/openssl/openssl/commit/e96d22446e633d117e6c9904cb15b4693e956eaa
+    - https://openssl-library.org/news/secadv/20250522.txt
+    PublishedDate: '2025-05-22T14:16:07.63Z'
+    LastModifiedDate: '2025-05-23T15:55:02.04Z'
+  - VulnerabilityID: CVE-2025-4575
+    PkgID: openssl@3.5.0-r0
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openssl@3.5.0-r0?arch=x86_64&distro=3.22.0_alpha20250108
+      UID: d589508f8bb04848
+    InstalledVersion: 3.5.0-r0
+    FixedVersion: 3.5.1-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:d3b18c1cad172d32e2c844863f6415eff32f90a67bcd96c1095ddb5d66035e69
+      DiffID: sha256:e372ebe7e5c5dc9f3eaf19e4f2531dfc2bacf8a33af187008e71f1a460a8d7e6
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4575
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'Issue summary: Use of -addreject option with the openssl x509 applicat ...'
+    Description: |-
+      Issue summary: Use of -addreject option with the openssl x509 application adds
+      a trusted use instead of a rejected use for a certificate.
+
+      Impact summary: If a user intends to make a trusted certificate rejected for
+      a particular use it will be instead marked as trusted for that use.
+
+      A copy & paste error during minor refactoring of the code introduced this
+      issue in the OpenSSL 3.5 version. If, for example, a trusted CA certificate
+      should be trusted only for the purpose of authenticating TLS servers but not
+      for CMS signature verification and the CMS signature verification is intended
+      to be marked as rejected with the -addreject option, the resulting CA
+      certificate will be trusted for CMS signature verification purpose instead.
+
+      Only users which use the trusted certificate format who use the openssl x509
+      command line application to add rejected uses are affected by this issue.
+      The issues affecting only the command line application are considered to
+      be Low severity.
+
+      The FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this
+      issue.
+
+      OpenSSL 3.4, 3.3, 3.2, 3.1, 3.0, 1.1.1 and 1.0.2 are also not affected by this
+      issue.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-295
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/22/1
+    - https://github.com/openssl/openssl/commit/e96d22446e633d117e6c9904cb15b4693e956eaa
+    - https://openssl-library.org/news/secadv/20250522.txt
+    PublishedDate: '2025-05-22T14:16:07.63Z'
+    LastModifiedDate: '2025-05-23T15:55:02.04Z'
   - VulnerabilityID: CVE-2024-12718
     PkgID: pyc@3.12.10-r1
     PkgName: pyc
@@ -523,8 +676,10 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 2
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -535,7 +690,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:L
         V3Score: 7.6
     References:
+    - https://access.redhat.com/errata/RHSA-2025:10189
     - https://access.redhat.com/security/cve/CVE-2024-12718
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370013
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://errata.almalinux.org/9/ALSA-2025-10189.html
     - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
     - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
@@ -549,6 +711,8 @@
     - https://github.com/python/cpython/issues/127987
     - https://github.com/python/cpython/issues/135034
     - https://github.com/python/cpython/pull/135037
+    - https://linux.oracle.com/cve/CVE-2024-12718.html
+    - https://linux.oracle.com/errata/ELSA-2025-10189.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12718
     - https://ubuntu.com/security/notices/USN-7583-1
@@ -578,8 +742,10 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 3
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -590,7 +756,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:10189
     - https://access.redhat.com/security/cve/CVE-2025-4138
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370013
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://errata.almalinux.org/9/ALSA-2025-10189.html
     - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
     - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
@@ -603,6 +776,8 @@
     - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
     - https://github.com/python/cpython/issues/135034
     - https://github.com/python/cpython/pull/135037
+    - https://linux.oracle.com/cve/CVE-2025-4138.html
+    - https://linux.oracle.com/errata/ELSA-2025-10189.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4138
     - https://ubuntu.com/security/notices/USN-7583-1
@@ -632,8 +807,10 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 3
+      oracle-oval: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -644,7 +821,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:10189
     - https://access.redhat.com/security/cve/CVE-2025-4330
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370013
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://errata.almalinux.org/9/ALSA-2025-10189.html
     - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
     - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
@@ -657,6 +841,8 @@
     - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
     - https://github.com/python/cpython/issues/135034
     - https://github.com/python/cpython/pull/135037
+    - https://linux.oracle.com/cve/CVE-2025-4330.html
+    - https://linux.oracle.com/errata/ELSA-2025-10189.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4330
     - https://ubuntu.com/security/notices/USN-7583-1
@@ -686,8 +872,10 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 4
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -698,7 +886,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:L
         V3Score: 7.6
     References:
+    - https://access.redhat.com/errata/RHSA-2025:10189
     - https://access.redhat.com/security/cve/CVE-2025-4517
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370013
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://errata.almalinux.org/9/ALSA-2025-10189.html
     - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
     - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
@@ -711,6 +906,8 @@
     - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
     - https://github.com/python/cpython/issues/135034
     - https://github.com/python/cpython/pull/135037
+    - https://linux.oracle.com/cve/CVE-2025-4517.html
+    - https://linux.oracle.com/errata/ELSA-2025-10189.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4517
     - https://ubuntu.com/security/notices/USN-7583-1
@@ -740,8 +937,10 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 2
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -752,7 +951,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:L
         V3Score: 7.6
     References:
+    - https://access.redhat.com/errata/RHSA-2025:10189
     - https://access.redhat.com/security/cve/CVE-2024-12718
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370013
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://errata.almalinux.org/9/ALSA-2025-10189.html
     - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
     - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
@@ -766,6 +972,8 @@
     - https://github.com/python/cpython/issues/127987
     - https://github.com/python/cpython/issues/135034
     - https://github.com/python/cpython/pull/135037
+    - https://linux.oracle.com/cve/CVE-2024-12718.html
+    - https://linux.oracle.com/errata/ELSA-2025-10189.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12718
     - https://ubuntu.com/security/notices/USN-7583-1
@@ -795,8 +1003,10 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 3
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -807,7 +1017,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:10189
     - https://access.redhat.com/security/cve/CVE-2025-4138
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370013
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://errata.almalinux.org/9/ALSA-2025-10189.html
     - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
     - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
@@ -820,6 +1037,8 @@
     - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
     - https://github.com/python/cpython/issues/135034
     - https://github.com/python/cpython/pull/135037
+    - https://linux.oracle.com/cve/CVE-2025-4138.html
+    - https://linux.oracle.com/errata/ELSA-2025-10189.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4138
     - https://ubuntu.com/security/notices/USN-7583-1
@@ -849,8 +1068,10 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 3
+      oracle-oval: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -861,7 +1082,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:10189
     - https://access.redhat.com/security/cve/CVE-2025-4330
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370013
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://errata.almalinux.org/9/ALSA-2025-10189.html
     - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
     - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
@@ -874,6 +1102,8 @@
     - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
     - https://github.com/python/cpython/issues/135034
     - https://github.com/python/cpython/pull/135037
+    - https://linux.oracle.com/cve/CVE-2025-4330.html
+    - https://linux.oracle.com/errata/ELSA-2025-10189.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4330
     - https://ubuntu.com/security/notices/USN-7583-1
@@ -903,8 +1133,10 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 4
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -915,7 +1147,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:L
         V3Score: 7.6
     References:
+    - https://access.redhat.com/errata/RHSA-2025:10189
     - https://access.redhat.com/security/cve/CVE-2025-4517
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370013
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://errata.almalinux.org/9/ALSA-2025-10189.html
     - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
     - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
@@ -928,6 +1167,8 @@
     - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
     - https://github.com/python/cpython/issues/135034
     - https://github.com/python/cpython/pull/135037
+    - https://linux.oracle.com/cve/CVE-2025-4517.html
+    - https://linux.oracle.com/errata/ELSA-2025-10189.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4517
     - https://ubuntu.com/security/notices/USN-7583-1
@@ -957,8 +1198,10 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 2
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -969,7 +1212,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:L
         V3Score: 7.6
     References:
+    - https://access.redhat.com/errata/RHSA-2025:10189
     - https://access.redhat.com/security/cve/CVE-2024-12718
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370013
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://errata.almalinux.org/9/ALSA-2025-10189.html
     - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
     - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
@@ -983,6 +1233,8 @@
     - https://github.com/python/cpython/issues/127987
     - https://github.com/python/cpython/issues/135034
     - https://github.com/python/cpython/pull/135037
+    - https://linux.oracle.com/cve/CVE-2024-12718.html
+    - https://linux.oracle.com/errata/ELSA-2025-10189.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12718
     - https://ubuntu.com/security/notices/USN-7583-1
@@ -1012,8 +1264,10 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 3
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1024,7 +1278,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:10189
     - https://access.redhat.com/security/cve/CVE-2025-4138
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370013
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://errata.almalinux.org/9/ALSA-2025-10189.html
     - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
     - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
@@ -1037,6 +1298,8 @@
     - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
     - https://github.com/python/cpython/issues/135034
     - https://github.com/python/cpython/pull/135037
+    - https://linux.oracle.com/cve/CVE-2025-4138.html
+    - https://linux.oracle.com/errata/ELSA-2025-10189.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4138
     - https://ubuntu.com/security/notices/USN-7583-1
@@ -1066,8 +1329,10 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 3
+      oracle-oval: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1078,7 +1343,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:10189
     - https://access.redhat.com/security/cve/CVE-2025-4330
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370013
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://errata.almalinux.org/9/ALSA-2025-10189.html
     - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
     - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
@@ -1091,6 +1363,8 @@
     - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
     - https://github.com/python/cpython/issues/135034
     - https://github.com/python/cpython/pull/135037
+    - https://linux.oracle.com/cve/CVE-2025-4330.html
+    - https://linux.oracle.com/errata/ELSA-2025-10189.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4330
     - https://ubuntu.com/security/notices/USN-7583-1
@@ -1120,8 +1394,10 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 4
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1132,7 +1408,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:L
         V3Score: 7.6
     References:
+    - https://access.redhat.com/errata/RHSA-2025:10189
     - https://access.redhat.com/security/cve/CVE-2025-4517
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370013
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://errata.almalinux.org/9/ALSA-2025-10189.html
     - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
     - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
@@ -1145,6 +1428,8 @@
     - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
     - https://github.com/python/cpython/issues/135034
     - https://github.com/python/cpython/pull/135037
+    - https://linux.oracle.com/cve/CVE-2025-4517.html
+    - https://linux.oracle.com/errata/ELSA-2025-10189.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4517
     - https://ubuntu.com/security/notices/USN-7583-1
@@ -1174,8 +1459,10 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 2
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1186,7 +1473,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:L
         V3Score: 7.6
     References:
+    - https://access.redhat.com/errata/RHSA-2025:10189
     - https://access.redhat.com/security/cve/CVE-2024-12718
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370013
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://errata.almalinux.org/9/ALSA-2025-10189.html
     - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
     - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
@@ -1200,6 +1494,8 @@
     - https://github.com/python/cpython/issues/127987
     - https://github.com/python/cpython/issues/135034
     - https://github.com/python/cpython/pull/135037
+    - https://linux.oracle.com/cve/CVE-2024-12718.html
+    - https://linux.oracle.com/errata/ELSA-2025-10189.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12718
     - https://ubuntu.com/security/notices/USN-7583-1
@@ -1229,8 +1525,10 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 3
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1241,7 +1539,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:10189
     - https://access.redhat.com/security/cve/CVE-2025-4138
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370013
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://errata.almalinux.org/9/ALSA-2025-10189.html
     - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
     - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
@@ -1254,6 +1559,8 @@
     - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
     - https://github.com/python/cpython/issues/135034
     - https://github.com/python/cpython/pull/135037
+    - https://linux.oracle.com/cve/CVE-2025-4138.html
+    - https://linux.oracle.com/errata/ELSA-2025-10189.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4138
     - https://ubuntu.com/security/notices/USN-7583-1
@@ -1283,8 +1590,10 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 3
+      oracle-oval: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1295,7 +1604,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:10189
     - https://access.redhat.com/security/cve/CVE-2025-4330
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370013
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://errata.almalinux.org/9/ALSA-2025-10189.html
     - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
     - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
@@ -1308,6 +1624,8 @@
     - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
     - https://github.com/python/cpython/issues/135034
     - https://github.com/python/cpython/pull/135037
+    - https://linux.oracle.com/cve/CVE-2025-4330.html
+    - https://linux.oracle.com/errata/ELSA-2025-10189.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4330
     - https://ubuntu.com/security/notices/USN-7583-1
@@ -1337,8 +1655,10 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 4
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1349,7 +1669,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:L
         V3Score: 7.6
     References:
+    - https://access.redhat.com/errata/RHSA-2025:10189
     - https://access.redhat.com/security/cve/CVE-2025-4517
+    - https://bugzilla.redhat.com/2370010
+    - https://bugzilla.redhat.com/2370013
+    - https://bugzilla.redhat.com/2370014
+    - https://bugzilla.redhat.com/2370016
+    - https://bugzilla.redhat.com/2372426
+    - https://errata.almalinux.org/9/ALSA-2025-10189.html
     - https://gist.github.com/sethmlarson/52398e33eff261329a0180ac1d54f42f
     - https://github.com/python/cpython/commit/19de092debb3d7e832e5672cc2f7b788d35951da
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
@@ -1362,6 +1689,8 @@
     - https://github.com/python/cpython/commit/dd8f187d0746da151e0025c51680979ac5b4cfb1
     - https://github.com/python/cpython/issues/135034
     - https://github.com/python/cpython/pull/135037
+    - https://linux.oracle.com/cve/CVE-2025-4517.html
+    - https://linux.oracle.com/errata/ELSA-2025-10189.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4517
     - https://ubuntu.com/security/notices/USN-7583-1
@@ -1391,7 +1720,9 @@
     CweIDs:
     - CWE-863
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
+      photon: 1
       redhat: 3
       ubuntu: 3
     CVSS:
@@ -1399,7 +1730,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7
     References:
+    - https://access.redhat.com/errata/RHSA-2025:9978
     - https://access.redhat.com/security/cve/CVE-2025-32462
+    - https://bugzilla.redhat.com/2374692
+    - https://errata.almalinux.org/9/ALSA-2025-9978.html
     - https://linux.oracle.com/cve/CVE-2025-32462.html
     - https://linux.oracle.com/errata/ELSA-2025-9978.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32462
@@ -1412,7 +1746,7 @@
     - https://www.sudo.ws/security/advisories/
     - https://www.sudo.ws/security/advisories/host_any/
     PublishedDate: '2025-06-30T21:15:30.08Z'
-    LastModifiedDate: '2025-06-30T21:15:30.08Z'
+    LastModifiedDate: '2025-07-03T15:14:12.767Z'
   - VulnerabilityID: CVE-2025-32463
     PkgID: sudo@1.9.16_p2-r1
     PkgName: sudo
@@ -1436,6 +1770,7 @@
     CweIDs:
     - CWE-829
     VendorSeverity:
+      photon: 4
       redhat: 3
       ubuntu: 3
     CVSS:
@@ -1444,7 +1779,11 @@
         V3Score: 7.8
     References:
     - https://access.redhat.com/security/cve/CVE-2025-32463
+    - https://access.redhat.com/security/cve/cve-2025-32463
+    - https://bugs.gentoo.org/show_bug.cgi?id=CVE-2025-32463
+    - https://explore.alas.aws.amazon.com/CVE-2025-32463.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32463
+    - https://security-tracker.debian.org/tracker/CVE-2025-32463
     - https://ubuntu.com/security/notices/USN-7604-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32463
     - https://www.openwall.com/lists/oss-security/2025/06/30/3
@@ -1452,8 +1791,10 @@
     - https://www.sudo.ws/releases/changelog/
     - https://www.sudo.ws/security/advisories/
     - https://www.sudo.ws/security/advisories/chroot_bug/
+    - https://www.suse.com/security/cve/CVE-2025-32463.html
+    - https://www.suse.com/support/update/announcement/2025/suse-su-202502177-1/
     PublishedDate: '2025-06-30T21:15:30.257Z'
-    LastModifiedDate: '2025-06-30T21:15:30.257Z'
+    LastModifiedDate: '2025-07-03T15:14:12.767Z'
   - VulnerabilityID: CVE-2025-5601
     PkgID: tshark@4.4.6-r0
     PkgName: tshark
