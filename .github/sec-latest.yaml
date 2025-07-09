@@ -1498,6 +1498,12 @@
     - https://access.redhat.com/errata/RHSA-2025:10024
     - https://access.redhat.com/errata/RHSA-2025:10027
     - https://access.redhat.com/errata/RHSA-2025:10180
+    - https://access.redhat.com/errata/RHSA-2025:10354
+    - https://access.redhat.com/errata/RHSA-2025:10357
+    - https://access.redhat.com/errata/RHSA-2025:10358
+    - https://access.redhat.com/errata/RHSA-2025:10359
+    - https://access.redhat.com/errata/RHSA-2025:10361
+    - https://access.redhat.com/errata/RHSA-2025:10362
     - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
     - https://bugzilla.redhat.com/2372512
@@ -1510,7 +1516,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6020
     - https://www.openwall.com/lists/oss-security/2025/06/17/1
     PublishedDate: '2025-06-17T13:15:21.66Z'
-    LastModifiedDate: '2025-07-02T08:15:22.41Z'
+    LastModifiedDate: '2025-07-07T08:15:25.46Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-modules-bin@1.5.3-7ubuntu2
     PkgName: libpam-modules-bin
@@ -1654,6 +1660,12 @@
     - https://access.redhat.com/errata/RHSA-2025:10024
     - https://access.redhat.com/errata/RHSA-2025:10027
     - https://access.redhat.com/errata/RHSA-2025:10180
+    - https://access.redhat.com/errata/RHSA-2025:10354
+    - https://access.redhat.com/errata/RHSA-2025:10357
+    - https://access.redhat.com/errata/RHSA-2025:10358
+    - https://access.redhat.com/errata/RHSA-2025:10359
+    - https://access.redhat.com/errata/RHSA-2025:10361
+    - https://access.redhat.com/errata/RHSA-2025:10362
     - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
     - https://bugzilla.redhat.com/2372512
@@ -1666,7 +1678,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6020
     - https://www.openwall.com/lists/oss-security/2025/06/17/1
     PublishedDate: '2025-06-17T13:15:21.66Z'
-    LastModifiedDate: '2025-07-02T08:15:22.41Z'
+    LastModifiedDate: '2025-07-07T08:15:25.46Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-runtime@1.5.3-7ubuntu2
     PkgName: libpam-runtime
@@ -1810,6 +1822,12 @@
     - https://access.redhat.com/errata/RHSA-2025:10024
     - https://access.redhat.com/errata/RHSA-2025:10027
     - https://access.redhat.com/errata/RHSA-2025:10180
+    - https://access.redhat.com/errata/RHSA-2025:10354
+    - https://access.redhat.com/errata/RHSA-2025:10357
+    - https://access.redhat.com/errata/RHSA-2025:10358
+    - https://access.redhat.com/errata/RHSA-2025:10359
+    - https://access.redhat.com/errata/RHSA-2025:10361
+    - https://access.redhat.com/errata/RHSA-2025:10362
     - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
     - https://bugzilla.redhat.com/2372512
@@ -1822,7 +1840,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6020
     - https://www.openwall.com/lists/oss-security/2025/06/17/1
     PublishedDate: '2025-06-17T13:15:21.66Z'
-    LastModifiedDate: '2025-07-02T08:15:22.41Z'
+    LastModifiedDate: '2025-07-07T08:15:25.46Z'
   - VulnerabilityID: CVE-2025-4598
     PkgID: libpam-systemd@256.5-2ubuntu3.1
     PkgName: libpam-systemd
@@ -2024,6 +2042,12 @@
     - https://access.redhat.com/errata/RHSA-2025:10024
     - https://access.redhat.com/errata/RHSA-2025:10027
     - https://access.redhat.com/errata/RHSA-2025:10180
+    - https://access.redhat.com/errata/RHSA-2025:10354
+    - https://access.redhat.com/errata/RHSA-2025:10357
+    - https://access.redhat.com/errata/RHSA-2025:10358
+    - https://access.redhat.com/errata/RHSA-2025:10359
+    - https://access.redhat.com/errata/RHSA-2025:10361
+    - https://access.redhat.com/errata/RHSA-2025:10362
     - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
     - https://bugzilla.redhat.com/2372512
@@ -2036,7 +2060,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6020
     - https://www.openwall.com/lists/oss-security/2025/06/17/1
     PublishedDate: '2025-06-17T13:15:21.66Z'
-    LastModifiedDate: '2025-07-02T08:15:22.41Z'
+    LastModifiedDate: '2025-07-07T08:15:25.46Z'
   - VulnerabilityID: CVE-2023-37769
     PkgID: libpixman-1-0@0.42.2-1build1
     PkgName: libpixman-1-0
@@ -2353,17 +2377,23 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Title: 'cpython: python: CPython DecodeError Handling Vulnerability'
     Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
     Severity: MEDIUM
     CweIDs:
     - CWE-416
     VendorSeverity:
       amazon: 3
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.1
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/4
     - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://access.redhat.com/security/cve/CVE-2025-4516
     - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
     - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
     - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
@@ -2485,14 +2515,18 @@
     - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
+    - https://github.com/python/cpython/commit/8d1b3dfa09135affbbf27fb8babcf3c11415df49
+    - https://github.com/python/cpython/commit/ab0893fd5c579d9cea30841680e6d35fc478afb5
     - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/commit/f3c6f882cddc8dc30320d2e73edf019e201394fc
+    - https://github.com/python/cpython/commit/fdc9d214c01cb4588f540cfa03726bbf2a33fc15
     - https://github.com/python/cpython/issues/135462
     - https://github.com/python/cpython/pull/135464
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
     - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
-    LastModifiedDate: '2025-06-17T20:50:23.507Z'
+    LastModifiedDate: '2025-07-07T18:15:29.15Z'
   - VulnerabilityID: CVE-2024-12718
     PkgID: libpython3.12-stdlib@3.12.7-1ubuntu2
     PkgName: libpython3.12-stdlib
@@ -2775,17 +2809,23 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Title: 'cpython: python: CPython DecodeError Handling Vulnerability'
     Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
     Severity: MEDIUM
     CweIDs:
     - CWE-416
     VendorSeverity:
       amazon: 3
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.1
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/4
     - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://access.redhat.com/security/cve/CVE-2025-4516
     - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
     - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
     - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
@@ -2907,14 +2947,18 @@
     - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
+    - https://github.com/python/cpython/commit/8d1b3dfa09135affbbf27fb8babcf3c11415df49
+    - https://github.com/python/cpython/commit/ab0893fd5c579d9cea30841680e6d35fc478afb5
     - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/commit/f3c6f882cddc8dc30320d2e73edf019e201394fc
+    - https://github.com/python/cpython/commit/fdc9d214c01cb4588f540cfa03726bbf2a33fc15
     - https://github.com/python/cpython/issues/135462
     - https://github.com/python/cpython/pull/135464
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
     - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
-    LastModifiedDate: '2025-06-17T20:50:23.507Z'
+    LastModifiedDate: '2025-07-07T18:15:29.15Z'
   - VulnerabilityID: CVE-2024-12718
     PkgID: libpython3.12t64@3.12.7-1ubuntu2
     PkgName: libpython3.12t64
@@ -3197,17 +3241,23 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Title: 'cpython: python: CPython DecodeError Handling Vulnerability'
     Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
     Severity: MEDIUM
     CweIDs:
     - CWE-416
     VendorSeverity:
       amazon: 3
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.1
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/4
     - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://access.redhat.com/security/cve/CVE-2025-4516
     - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
     - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
     - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
@@ -3329,14 +3379,242 @@
     - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
+    - https://github.com/python/cpython/commit/8d1b3dfa09135affbbf27fb8babcf3c11415df49
+    - https://github.com/python/cpython/commit/ab0893fd5c579d9cea30841680e6d35fc478afb5
     - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/commit/f3c6f882cddc8dc30320d2e73edf019e201394fc
+    - https://github.com/python/cpython/commit/fdc9d214c01cb4588f540cfa03726bbf2a33fc15
     - https://github.com/python/cpython/issues/135462
     - https://github.com/python/cpython/pull/135464
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
     - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
-    LastModifiedDate: '2025-06-17T20:50:23.507Z'
+    LastModifiedDate: '2025-07-07T18:15:29.15Z'
+  - VulnerabilityID: CVE-2025-4877
+    PkgID: libssh-4@0.10.6-3ubuntu1
+    PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.10.6-3ubuntu1?arch=amd64&distro=ubuntu-24.10
+      UID: ddcef6c2f3aa6a08
+    InstalledVersion: 0.10.6-3ubuntu1
+    FixedVersion: 0.10.6-3ubuntu1.1
+    Status: fixed
+    Layer:
+      Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc7667bc7d4c38e318aa8697
+      DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38f0948c50a245438ce2e3a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4877
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libssh: Write beyond bounds in binary to base64 conversion functions'
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 4.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-4877
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4877
+    - https://ubuntu.com/security/notices/USN-7619-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4877
+    - https://www.libssh.org/security/advisories/CVE-2025-4877.txt
+  - VulnerabilityID: CVE-2025-4878
+    PkgID: libssh-4@0.10.6-3ubuntu1
+    PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.10.6-3ubuntu1?arch=amd64&distro=ubuntu-24.10
+      UID: ddcef6c2f3aa6a08
+    InstalledVersion: 0.10.6-3ubuntu1
+    FixedVersion: 0.10.6-3ubuntu1.1
+    Status: fixed
+    Layer:
+      Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc7667bc7d4c38e318aa8697
+      DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38f0948c50a245438ce2e3a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4878
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libssh: Use of uninitialized variable in privatekey_from_file()'
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 3.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-4878
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4878
+    - https://ubuntu.com/security/notices/USN-7619-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-4878
+    - https://www.libssh.org/security/advisories/CVE-2025-4878.txt
+  - VulnerabilityID: CVE-2025-5318
+    PkgID: libssh-4@0.10.6-3ubuntu1
+    PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.10.6-3ubuntu1?arch=amd64&distro=ubuntu-24.10
+      UID: ddcef6c2f3aa6a08
+    InstalledVersion: 0.10.6-3ubuntu1
+    FixedVersion: 0.10.6-3ubuntu1.1
+    Status: fixed
+    Layer:
+      Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc7667bc7d4c38e318aa8697
+      DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38f0948c50a245438ce2e3a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5318
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libssh: out-of-bounds read in sftp_handle()'
+    Description: A flaw was found in the libssh library. An out-of-bounds read can be triggered in the sftp_handle function due to an incorrect comparison check that permits the function to access memory beyond the valid handle list and to return an invalid pointer, which is used in further processing. This vulnerability allows an authenticated remote attacker to potentially read unintended memory regions, exposing sensitive information or affect service behavior.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 5.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-5318
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2369131
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5318
+    - https://ubuntu.com/security/notices/USN-7619-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-5318
+    - https://www.libssh.org/security/advisories/CVE-2025-5318.txt
+    PublishedDate: '2025-06-24T14:15:30.523Z'
+    LastModifiedDate: '2025-06-26T18:58:14.28Z'
+  - VulnerabilityID: CVE-2025-5351
+    PkgID: libssh-4@0.10.6-3ubuntu1
+    PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.10.6-3ubuntu1?arch=amd64&distro=ubuntu-24.10
+      UID: ddcef6c2f3aa6a08
+    InstalledVersion: 0.10.6-3ubuntu1
+    FixedVersion: 0.10.6-3ubuntu1.1
+    Status: fixed
+    Layer:
+      Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc7667bc7d4c38e318aa8697
+      DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38f0948c50a245438ce2e3a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5351
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libssh: Double Free Vulnerability in libssh Key Export Functions'
+    Description: A flaw was found in the key export functionality of libssh. The issue occurs in the internal function responsible for converting cryptographic keys into serialized formats. During error handling, a memory structure is freed but not cleared, leading to a potential double free issue if an additional failure occurs later in the function. This condition may result in heap corruption or application instability in low-memory scenarios, posing a risk to system reliability where key export operations are performed.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-415
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-5351
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2369367
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5351
+    - https://ubuntu.com/security/notices/USN-7619-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-5351
+    - https://www.libssh.org/security/advisories/CVE-2025-5351.txt
+    PublishedDate: '2025-07-04T09:15:37.1Z'
+    LastModifiedDate: '2025-07-08T16:18:53.607Z'
+  - VulnerabilityID: CVE-2025-5372
+    PkgID: libssh-4@0.10.6-3ubuntu1
+    PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.10.6-3ubuntu1?arch=amd64&distro=ubuntu-24.10
+      UID: ddcef6c2f3aa6a08
+    InstalledVersion: 0.10.6-3ubuntu1
+    FixedVersion: 0.10.6-3ubuntu1.1
+    Status: fixed
+    Layer:
+      Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc7667bc7d4c38e318aa8697
+      DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38f0948c50a245438ce2e3a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5372
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libssh: Incorrect Return Code Handling in ssh_kdf() in libssh'
+    Description: A flaw was found in libssh versions built with OpenSSL versions older than 3.0, specifically in the ssh_kdf() function responsible for key derivation. Due to inconsistent interpretation of return values where OpenSSL uses 0 to indicate failure and libssh uses 0 for success—the function may mistakenly return a success status even when key derivation fails. This results in uninitialized cryptographic key buffers being used in subsequent communication, potentially compromising SSH sessions' confidentiality, integrity, and availability.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-682
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-5372
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2369388
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5372
+    - https://ubuntu.com/security/notices/USN-7619-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-5372
+    - https://www.libssh.org/security/advisories/CVE-2025-5372.txt
+    PublishedDate: '2025-07-04T06:15:24.93Z'
+    LastModifiedDate: '2025-07-08T16:18:53.607Z'
+  - VulnerabilityID: CVE-2025-5987
+    PkgID: libssh-4@0.10.6-3ubuntu1
+    PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.10.6-3ubuntu1?arch=amd64&distro=ubuntu-24.10
+      UID: ddcef6c2f3aa6a08
+    InstalledVersion: 0.10.6-3ubuntu1
+    FixedVersion: 0.10.6-3ubuntu1.1
+    Status: fixed
+    Layer:
+      Digest: sha256:da8661fd78c7ba0b27a984f1f3498393a267641efc7667bc7d4c38e318aa8697
+      DiffID: sha256:94f89963bf0807c4d7140dd3b28fbb7737d416e5b38f0948c50a245438ce2e3a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5987
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libssh: Invalid return code for chacha20 poly1305 with OpenSSL backend'
+    Description: A flaw was found in libssh when using the ChaCha20 cipher with the OpenSSL library. If an attacker manages to exhaust the heap space, this error is not detected and may lead to libssh using a partially initialized cipher context. This occurs because the OpenSSL error code returned aliases with the SSH_OK code, resulting in libssh not properly detecting the error returned by the OpenSSL library. This issue can lead to undefined behavior, including compromised data confidentiality and integrity or crashes.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-393
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-5987
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2376219
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5987
+    - https://ubuntu.com/security/notices/USN-7619-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-5987
+    - https://www.libssh.org/security/advisories/CVE-2025-5987.txt
+    PublishedDate: '2025-07-07T15:15:28.18Z'
+    LastModifiedDate: '2025-07-08T16:18:34.923Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: libssl3t64@3.3.1-2ubuntu2.1
     PkgName: libssl3t64
@@ -5409,17 +5687,23 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Title: 'cpython: python: CPython DecodeError Handling Vulnerability'
     Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
     Severity: MEDIUM
     CweIDs:
     - CWE-416
     VendorSeverity:
       amazon: 3
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.1
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/4
     - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://access.redhat.com/security/cve/CVE-2025-4516
     - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
     - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
     - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
@@ -5541,14 +5825,18 @@
     - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
+    - https://github.com/python/cpython/commit/8d1b3dfa09135affbbf27fb8babcf3c11415df49
+    - https://github.com/python/cpython/commit/ab0893fd5c579d9cea30841680e6d35fc478afb5
     - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/commit/f3c6f882cddc8dc30320d2e73edf019e201394fc
+    - https://github.com/python/cpython/commit/fdc9d214c01cb4588f540cfa03726bbf2a33fc15
     - https://github.com/python/cpython/issues/135462
     - https://github.com/python/cpython/pull/135464
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
     - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
-    LastModifiedDate: '2025-06-17T20:50:23.507Z'
+    LastModifiedDate: '2025-07-07T18:15:29.15Z'
   - VulnerabilityID: CVE-2024-12718
     PkgID: python3.12-minimal@3.12.7-1ubuntu2
     PkgName: python3.12-minimal
@@ -5831,17 +6119,23 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Title: 'cpython: python: CPython DecodeError Handling Vulnerability'
     Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
     Severity: MEDIUM
     CweIDs:
     - CWE-416
     VendorSeverity:
       amazon: 3
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.1
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/4
     - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://access.redhat.com/security/cve/CVE-2025-4516
     - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
     - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
     - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
@@ -5963,14 +6257,18 @@
     - https://github.com/python/cpython/commit/4455cbabf991e202185a25a631af206f60bbc949
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41
     - https://github.com/python/cpython/commit/6eb6c5dbfb528bd07d77b60fd71fd05d81d45c41 (main)
+    - https://github.com/python/cpython/commit/8d1b3dfa09135affbbf27fb8babcf3c11415df49
+    - https://github.com/python/cpython/commit/ab0893fd5c579d9cea30841680e6d35fc478afb5
     - https://github.com/python/cpython/commit/d851f8e258c7328814943e923a7df81bca15df4b
+    - https://github.com/python/cpython/commit/f3c6f882cddc8dc30320d2e73edf019e201394fc
+    - https://github.com/python/cpython/commit/fdc9d214c01cb4588f540cfa03726bbf2a33fc15
     - https://github.com/python/cpython/issues/135462
     - https://github.com/python/cpython/pull/135464
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
     - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
-    LastModifiedDate: '2025-06-17T20:50:23.507Z'
+    LastModifiedDate: '2025-07-07T18:15:29.15Z'
   - VulnerabilityID: CVE-2025-32462
     PkgID: sudo@1.9.15p5-3ubuntu5
     PkgName: sudo
