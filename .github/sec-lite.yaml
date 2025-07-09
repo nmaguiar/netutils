@@ -429,6 +429,7 @@
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L
@@ -436,7 +437,9 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-4877
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4877
+    - https://ubuntu.com/security/notices/USN-7619-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4877
+    - https://www.libssh.org/security/advisories/CVE-2025-4877.txt
   - VulnerabilityID: CVE-2025-5318
     PkgID: libssh@0.11.1-r0
     PkgName: libssh
@@ -461,6 +464,7 @@
     - CWE-125
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
@@ -469,6 +473,7 @@
     - https://access.redhat.com/security/cve/CVE-2025-5318
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369131
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5318
+    - https://ubuntu.com/security/notices/USN-7619-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5318
     - https://www.libssh.org/security/advisories/CVE-2025-5318.txt
     PublishedDate: '2025-06-24T14:15:30.523Z'
@@ -497,6 +502,7 @@
     - CWE-415
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
@@ -505,9 +511,11 @@
     - https://access.redhat.com/security/cve/CVE-2025-5351
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369367
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5351
+    - https://ubuntu.com/security/notices/USN-7619-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5351
+    - https://www.libssh.org/security/advisories/CVE-2025-5351.txt
     PublishedDate: '2025-07-04T09:15:37.1Z'
-    LastModifiedDate: '2025-07-04T09:15:37.1Z'
+    LastModifiedDate: '2025-07-08T16:18:53.607Z'
   - VulnerabilityID: CVE-2025-5372
     PkgID: libssh@0.11.1-r0
     PkgName: libssh
@@ -532,6 +540,7 @@
     - CWE-682
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L
@@ -540,9 +549,11 @@
     - https://access.redhat.com/security/cve/CVE-2025-5372
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369388
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5372
+    - https://ubuntu.com/security/notices/USN-7619-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5372
+    - https://www.libssh.org/security/advisories/CVE-2025-5372.txt
     PublishedDate: '2025-07-04T06:15:24.93Z'
-    LastModifiedDate: '2025-07-04T06:15:24.93Z'
+    LastModifiedDate: '2025-07-08T16:18:53.607Z'
   - VulnerabilityID: CVE-2025-5449
     PkgID: libssh@0.11.1-r0
     PkgName: libssh
@@ -565,6 +576,7 @@
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
@@ -572,7 +584,9 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-5449
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5449
+    - https://ubuntu.com/security/notices/USN-7619-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5449
+    - https://www.libssh.org/security/advisories/CVE-2025-5449.txt
   - VulnerabilityID: CVE-2025-5987
     PkgID: libssh@0.11.1-r0
     PkgName: libssh
@@ -591,18 +605,26 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Title: 'libssh: Invalid return code for chacha20 poly1305 with OpenSSL backend'
-    Description: No description is available for this CVE.
+    Description: A flaw was found in libssh when using the ChaCha20 cipher with the OpenSSL library. If an attacker manages to exhaust the heap space, this error is not detected and may lead to libssh using a partially initialized cipher context. This occurs because the OpenSSL error code returned aliases with the SSH_OK code, resulting in libssh not properly detecting the error returned by the OpenSSL library. This issue can lead to undefined behavior, including compromised data confidentiality and integrity or crashes.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-393
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L
         V3Score: 5
     References:
     - https://access.redhat.com/security/cve/CVE-2025-5987
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2376219
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5987
+    - https://ubuntu.com/security/notices/USN-7619-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5987
+    - https://www.libssh.org/security/advisories/CVE-2025-5987.txt
+    PublishedDate: '2025-07-07T15:15:28.18Z'
+    LastModifiedDate: '2025-07-08T16:18:34.923Z'
   - VulnerabilityID: CVE-2025-4878
     PkgID: libssh@0.11.1-r0
     PkgName: libssh
@@ -625,6 +647,7 @@
     Severity: LOW
     VendorSeverity:
       redhat: 1
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
@@ -632,7 +655,9 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-4878
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4878
+    - https://ubuntu.com/security/notices/USN-7619-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4878
+    - https://www.libssh.org/security/advisories/CVE-2025-4878.txt
   - VulnerabilityID: CVE-2025-4575
     PkgID: libssl3@3.5.0-r0
     PkgName: libssl3
