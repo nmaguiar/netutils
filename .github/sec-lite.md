@@ -862,6 +862,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -958,6 +959,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
@@ -1052,6 +1054,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -1242,6 +1245,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -1338,6 +1342,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
@@ -1432,6 +1437,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -1622,6 +1628,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -1718,6 +1725,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
@@ -1812,6 +1820,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -2002,6 +2011,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -2098,6 +2108,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
@@ -2192,6 +2203,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -2359,6 +2371,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-863 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 3 
@@ -2378,13 +2391,16 @@
 │                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-32462 
 │                       │      │                  ├ [10]: https://www.openwall.com/lists/oss-security/2025/06/3
 │                       │      │                  │       0/2 
-│                       │      │                  ├ [11]: https://www.stratascale.com/vulnerability-alert-CVE-2
+│                       │      │                  ├ [11]: https://www.secpod.com/blog/sudo-lpe-vulnerabilities-
+│                       │      │                  │       resolved-what-you-need-to-know-about-cve-2025-32462-a
+│                       │      │                  │       nd-cve-2025-32463/ 
+│                       │      │                  ├ [12]: https://www.stratascale.com/vulnerability-alert-CVE-2
 │                       │      │                  │       025-32462-sudo-host 
-│                       │      │                  ├ [12]: https://www.sudo.ws/releases/changelog/ 
-│                       │      │                  ├ [13]: https://www.sudo.ws/security/advisories/ 
-│                       │      │                  ╰ [14]: https://www.sudo.ws/security/advisories/host_any/ 
+│                       │      │                  ├ [13]: https://www.sudo.ws/releases/changelog/ 
+│                       │      │                  ├ [14]: https://www.sudo.ws/security/advisories/ 
+│                       │      │                  ╰ [15]: https://www.sudo.ws/security/advisories/host_any/ 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.08Z 
-│                       │      ╰ LastModifiedDate: 2025-07-03T15:14:12.767Z 
+│                       │      ╰ LastModifiedDate: 2025-07-09T18:15:22.93Z 
 │                       ├ [36] ╭ VulnerabilityID : CVE-2025-32463 
 │                       │      ├ PkgID           : sudo@1.9.16_p2-r1 
 │                       │      ├ PkgName         : sudo 
@@ -2408,7 +2424,8 @@
 │                       │      │                   directory is used with the --chroot option. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-829 
-│                       │      ├ VendorSeverity   ╭ photon: 4 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ photon: 4 
 │                       │      │                  ├ redhat: 3 
 │                       │      │                  ╰ ubuntu: 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
@@ -2425,16 +2442,19 @@
 │                       │      │                  ├ [7] : https://www.cve.org/CVERecord?id=CVE-2025-32463 
 │                       │      │                  ├ [8] : https://www.openwall.com/lists/oss-security/2025/06/3
 │                       │      │                  │       0/3 
-│                       │      │                  ├ [9] : https://www.stratascale.com/vulnerability-alert-CVE-2
+│                       │      │                  ├ [9] : https://www.secpod.com/blog/sudo-lpe-vulnerabilities-
+│                       │      │                  │       resolved-what-you-need-to-know-about-cve-2025-32462-a
+│                       │      │                  │       nd-cve-2025-32463/ 
+│                       │      │                  ├ [10]: https://www.stratascale.com/vulnerability-alert-CVE-2
 │                       │      │                  │       025-32463-sudo-chroot 
-│                       │      │                  ├ [10]: https://www.sudo.ws/releases/changelog/ 
-│                       │      │                  ├ [11]: https://www.sudo.ws/security/advisories/ 
-│                       │      │                  ├ [12]: https://www.sudo.ws/security/advisories/chroot_bug/ 
-│                       │      │                  ├ [13]: https://www.suse.com/security/cve/CVE-2025-32463.html 
-│                       │      │                  ╰ [14]: https://www.suse.com/support/update/announcement/2025
+│                       │      │                  ├ [11]: https://www.sudo.ws/releases/changelog/ 
+│                       │      │                  ├ [12]: https://www.sudo.ws/security/advisories/ 
+│                       │      │                  ├ [13]: https://www.sudo.ws/security/advisories/chroot_bug/ 
+│                       │      │                  ├ [14]: https://www.suse.com/security/cve/CVE-2025-32463.html 
+│                       │      │                  ╰ [15]: https://www.suse.com/support/update/announcement/2025
 │                       │      │                          /suse-su-202502177-1/ 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.257Z 
-│                       │      ╰ LastModifiedDate: 2025-07-03T15:14:12.767Z 
+│                       │      ╰ LastModifiedDate: 2025-07-09T18:15:23.847Z 
 │                       ├ [37] ╭ VulnerabilityID : CVE-2025-5601 
 │                       │      ├ PkgID           : tshark@4.4.6-r0 
 │                       │      ├ PkgName         : tshark 
