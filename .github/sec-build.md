@@ -84,7 +84,8 @@
 │                       │      │                   crashes or memory corruption. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-190 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
@@ -1233,7 +1234,8 @@
 │                       │      │                   crashes or memory corruption. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-190 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
@@ -1274,7 +1276,8 @@
 │                       │      │                   crashes or memory corruption. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-190 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
@@ -1802,7 +1805,8 @@
 │                       │      │                   potentially leading to amplified denial-of-service. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
-│                       │      ├ VendorSeverity   ╭ bitnami: 2 
+│                       │      ├ VendorSeverity   ╭ amazon : 2 
+│                       │      │                  ├ bitnami: 2 
 │                       │      │                  ├ redhat : 2 
 │                       │      │                  ╰ ubuntu : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:
@@ -1860,7 +1864,8 @@
 │                       │      │                   potentially leading to amplified denial-of-service. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
-│                       │      ├ VendorSeverity   ╭ bitnami: 2 
+│                       │      ├ VendorSeverity   ╭ amazon : 2 
+│                       │      │                  ├ bitnami: 2 
 │                       │      │                  ├ redhat : 2 
 │                       │      │                  ╰ ubuntu : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:
@@ -1918,7 +1923,8 @@
 │                       │      │                   potentially leading to amplified denial-of-service. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
-│                       │      ├ VendorSeverity   ╭ bitnami: 2 
+│                       │      ├ VendorSeverity   ╭ amazon : 2 
+│                       │      │                  ├ bitnami: 2 
 │                       │      │                  ├ redhat : 2 
 │                       │      │                  ╰ ubuntu : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:
@@ -2695,7 +2701,8 @@
 │                       │      │                   potentially leading to amplified denial-of-service. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
-│                       │      ├ VendorSeverity   ╭ bitnami: 2 
+│                       │      ├ VendorSeverity   ╭ amazon : 2 
+│                       │      │                  ├ bitnami: 2 
 │                       │      │                  ├ redhat : 2 
 │                       │      │                  ╰ ubuntu : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:
@@ -2753,7 +2760,8 @@
 │                       │      │                   potentially leading to amplified denial-of-service. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
-│                       │      ├ VendorSeverity   ╭ bitnami: 2 
+│                       │      ├ VendorSeverity   ╭ amazon : 2 
+│                       │      │                  ├ bitnami: 2 
 │                       │      │                  ├ redhat : 2 
 │                       │      │                  ╰ ubuntu : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:
