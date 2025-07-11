@@ -169,7 +169,8 @@
 │                       │       │                   crashes or memory corruption. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-190 
-│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:L 
@@ -1406,7 +1407,8 @@
 │                       │       │                   crashes or memory corruption. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-190 
-│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:L 
@@ -1490,7 +1492,8 @@
 │                       │       │                   crashes or memory corruption. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-190 
-│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:L 
@@ -1528,7 +1531,8 @@
 │                       │       │                   corruption and local arbitrary code execution. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-120 
-│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:
 │                       │       │                           │           H/A:H 
@@ -1785,20 +1789,21 @@
 │                       │       │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:10359 
 │                       │       │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:10361 
 │                       │       │                  ├ [9] : https://access.redhat.com/errata/RHSA-2025:10362 
-│                       │       │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:9526 
-│                       │       │                  ├ [11]: https://access.redhat.com/security/cve/CVE-2025-6020 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2372512 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │       │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2025-9526.html 
-│                       │       │                  ├ [15]: https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                       │       │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                       │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                       │       │                  ├ [18]: https://ubuntu.com/security/notices/USN-7580-1 
-│                       │       │                  ├ [19]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                       │       │                  ╰ [20]: https://www.openwall.com/lists/oss-security/2025/06/
+│                       │       │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:10735 
+│                       │       │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:9526 
+│                       │       │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2025-6020 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2372512 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │       │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                       │       │                  ├ [16]: https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                       │       │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                       │       │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                       │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-7580-1 
+│                       │       │                  ├ [20]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                       │       │                  ╰ [21]: https://www.openwall.com/lists/oss-security/2025/06/
 │                       │       │                          17/1 
 │                       │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
-│                       │       ╰ LastModifiedDate: 2025-07-07T08:15:25.46Z 
+│                       │       ╰ LastModifiedDate: 2025-07-09T20:15:32.16Z 
 │                       ├ [38]  ╭ VulnerabilityID : CVE-2024-10041 
 │                       │       ├ PkgID           : libpam-modules-bin@1.5.3-7ubuntu2 
 │                       │       ├ PkgName         : libpam-modules-bin 
@@ -1959,20 +1964,21 @@
 │                       │       │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:10359 
 │                       │       │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:10361 
 │                       │       │                  ├ [9] : https://access.redhat.com/errata/RHSA-2025:10362 
-│                       │       │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:9526 
-│                       │       │                  ├ [11]: https://access.redhat.com/security/cve/CVE-2025-6020 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2372512 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │       │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2025-9526.html 
-│                       │       │                  ├ [15]: https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                       │       │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                       │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                       │       │                  ├ [18]: https://ubuntu.com/security/notices/USN-7580-1 
-│                       │       │                  ├ [19]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                       │       │                  ╰ [20]: https://www.openwall.com/lists/oss-security/2025/06/
+│                       │       │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:10735 
+│                       │       │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:9526 
+│                       │       │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2025-6020 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2372512 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │       │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                       │       │                  ├ [16]: https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                       │       │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                       │       │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                       │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-7580-1 
+│                       │       │                  ├ [20]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                       │       │                  ╰ [21]: https://www.openwall.com/lists/oss-security/2025/06/
 │                       │       │                          17/1 
 │                       │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
-│                       │       ╰ LastModifiedDate: 2025-07-07T08:15:25.46Z 
+│                       │       ╰ LastModifiedDate: 2025-07-09T20:15:32.16Z 
 │                       ├ [41]  ╭ VulnerabilityID : CVE-2024-10041 
 │                       │       ├ PkgID           : libpam-runtime@1.5.3-7ubuntu2 
 │                       │       ├ PkgName         : libpam-runtime 
@@ -2133,20 +2139,21 @@
 │                       │       │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:10359 
 │                       │       │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:10361 
 │                       │       │                  ├ [9] : https://access.redhat.com/errata/RHSA-2025:10362 
-│                       │       │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:9526 
-│                       │       │                  ├ [11]: https://access.redhat.com/security/cve/CVE-2025-6020 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2372512 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │       │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2025-9526.html 
-│                       │       │                  ├ [15]: https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                       │       │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                       │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                       │       │                  ├ [18]: https://ubuntu.com/security/notices/USN-7580-1 
-│                       │       │                  ├ [19]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                       │       │                  ╰ [20]: https://www.openwall.com/lists/oss-security/2025/06/
+│                       │       │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:10735 
+│                       │       │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:9526 
+│                       │       │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2025-6020 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2372512 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │       │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                       │       │                  ├ [16]: https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                       │       │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                       │       │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                       │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-7580-1 
+│                       │       │                  ├ [20]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                       │       │                  ╰ [21]: https://www.openwall.com/lists/oss-security/2025/06/
 │                       │       │                          17/1 
 │                       │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
-│                       │       ╰ LastModifiedDate: 2025-07-07T08:15:25.46Z 
+│                       │       ╰ LastModifiedDate: 2025-07-09T20:15:32.16Z 
 │                       ├ [44]  ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : libpam-systemd@256.5-2ubuntu3.1 
 │                       │       ├ PkgName         : libpam-systemd 
@@ -2391,20 +2398,21 @@
 │                       │       │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:10359 
 │                       │       │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:10361 
 │                       │       │                  ├ [9] : https://access.redhat.com/errata/RHSA-2025:10362 
-│                       │       │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:9526 
-│                       │       │                  ├ [11]: https://access.redhat.com/security/cve/CVE-2025-6020 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/2372512 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │       │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2025-9526.html 
-│                       │       │                  ├ [15]: https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                       │       │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                       │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                       │       │                  ├ [18]: https://ubuntu.com/security/notices/USN-7580-1 
-│                       │       │                  ├ [19]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                       │       │                  ╰ [20]: https://www.openwall.com/lists/oss-security/2025/06/
+│                       │       │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:10735 
+│                       │       │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:9526 
+│                       │       │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2025-6020 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/2372512 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │       │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                       │       │                  ├ [16]: https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                       │       │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                       │       │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                       │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-7580-1 
+│                       │       │                  ├ [20]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                       │       │                  ╰ [21]: https://www.openwall.com/lists/oss-security/2025/06/
 │                       │       │                          17/1 
 │                       │       ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
-│                       │       ╰ LastModifiedDate: 2025-07-07T08:15:25.46Z 
+│                       │       ╰ LastModifiedDate: 2025-07-09T20:15:32.16Z 
 │                       ├ [48]  ╭ VulnerabilityID : CVE-2023-37769 
 │                       │       ├ PkgID           : libpixman-1-0@0.42.2-1build1 
 │                       │       ├ PkgName         : libpixman-1-0 
@@ -2489,6 +2497,7 @@
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -2587,6 +2596,7 @@
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I
@@ -2683,6 +2693,7 @@
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -2994,7 +3005,8 @@
 │                       │       │                    potentially leading to amplified denial-of-service. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-1333 
-│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 2 
+│                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ redhat : 2 
 │                       │       │                  ╰ ubuntu : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
@@ -3080,6 +3092,7 @@
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -3178,6 +3191,7 @@
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I
@@ -3274,6 +3288,7 @@
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -3585,7 +3600,8 @@
 │                       │       │                    potentially leading to amplified denial-of-service. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-1333 
-│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 2 
+│                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ redhat : 2 
 │                       │       │                  ╰ ubuntu : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
@@ -3671,6 +3687,7 @@
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -3769,6 +3786,7 @@
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I
@@ -3865,6 +3883,7 @@
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -4176,7 +4195,8 @@
 │                       │       │                    potentially leading to amplified denial-of-service. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-1333 
-│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 2 
+│                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ redhat : 2 
 │                       │       │                  ╰ ubuntu : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
@@ -6411,6 +6431,7 @@
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -6509,6 +6530,7 @@
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I
@@ -6605,6 +6627,7 @@
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -6916,7 +6939,8 @@
 │                       │       │                    potentially leading to amplified denial-of-service. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-1333 
-│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 2 
+│                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ redhat : 2 
 │                       │       │                  ╰ ubuntu : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
@@ -7002,6 +7026,7 @@
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -7100,6 +7125,7 @@
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I
@@ -7196,6 +7222,7 @@
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
@@ -7507,7 +7534,8 @@
 │                       │       │                    potentially leading to amplified denial-of-service. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-1333 
-│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 2 
+│                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ redhat : 2 
 │                       │       │                  ╰ ubuntu : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
@@ -7568,6 +7596,7 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-863 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 1 
 │                       │       │                  ├ redhat     : 3 
@@ -7587,13 +7616,16 @@
 │                       │       │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-32462 
 │                       │       │                  ├ [10]: https://www.openwall.com/lists/oss-security/2025/06/
 │                       │       │                  │       30/2 
-│                       │       │                  ├ [11]: https://www.stratascale.com/vulnerability-alert-CVE-
+│                       │       │                  ├ [11]: https://www.secpod.com/blog/sudo-lpe-vulnerabilities
+│                       │       │                  │       -resolved-what-you-need-to-know-about-cve-2025-32462
+│                       │       │                  │       -and-cve-2025-32463/ 
+│                       │       │                  ├ [12]: https://www.stratascale.com/vulnerability-alert-CVE-
 │                       │       │                  │       2025-32462-sudo-host 
-│                       │       │                  ├ [12]: https://www.sudo.ws/releases/changelog/ 
-│                       │       │                  ├ [13]: https://www.sudo.ws/security/advisories/ 
-│                       │       │                  ╰ [14]: https://www.sudo.ws/security/advisories/host_any/ 
+│                       │       │                  ├ [13]: https://www.sudo.ws/releases/changelog/ 
+│                       │       │                  ├ [14]: https://www.sudo.ws/security/advisories/ 
+│                       │       │                  ╰ [15]: https://www.sudo.ws/security/advisories/host_any/ 
 │                       │       ├ PublishedDate   : 2025-06-30T21:15:30.08Z 
-│                       │       ╰ LastModifiedDate: 2025-07-03T15:14:12.767Z 
+│                       │       ╰ LastModifiedDate: 2025-07-09T18:15:22.93Z 
 │                       ├ [131] ╭ VulnerabilityID : CVE-2025-32463 
 │                       │       ├ PkgID           : sudo@1.9.15p5-3ubuntu5 
 │                       │       ├ PkgName         : sudo 
@@ -7618,7 +7650,8 @@
 │                       │       │                   directory is used with the --chroot option. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-829 
-│                       │       ├ VendorSeverity   ╭ photon: 4 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ photon: 4 
 │                       │       │                  ├ redhat: 3 
 │                       │       │                  ╰ ubuntu: 3 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:
@@ -7636,16 +7669,19 @@
 │                       │       │                  ├ [7] : https://www.cve.org/CVERecord?id=CVE-2025-32463 
 │                       │       │                  ├ [8] : https://www.openwall.com/lists/oss-security/2025/06/
 │                       │       │                  │       30/3 
-│                       │       │                  ├ [9] : https://www.stratascale.com/vulnerability-alert-CVE-
+│                       │       │                  ├ [9] : https://www.secpod.com/blog/sudo-lpe-vulnerabilities
+│                       │       │                  │       -resolved-what-you-need-to-know-about-cve-2025-32462
+│                       │       │                  │       -and-cve-2025-32463/ 
+│                       │       │                  ├ [10]: https://www.stratascale.com/vulnerability-alert-CVE-
 │                       │       │                  │       2025-32463-sudo-chroot 
-│                       │       │                  ├ [10]: https://www.sudo.ws/releases/changelog/ 
-│                       │       │                  ├ [11]: https://www.sudo.ws/security/advisories/ 
-│                       │       │                  ├ [12]: https://www.sudo.ws/security/advisories/chroot_bug/ 
-│                       │       │                  ├ [13]: https://www.suse.com/security/cve/CVE-2025-32463.html 
-│                       │       │                  ╰ [14]: https://www.suse.com/support/update/announcement/202
+│                       │       │                  ├ [11]: https://www.sudo.ws/releases/changelog/ 
+│                       │       │                  ├ [12]: https://www.sudo.ws/security/advisories/ 
+│                       │       │                  ├ [13]: https://www.sudo.ws/security/advisories/chroot_bug/ 
+│                       │       │                  ├ [14]: https://www.suse.com/security/cve/CVE-2025-32463.html 
+│                       │       │                  ╰ [15]: https://www.suse.com/support/update/announcement/202
 │                       │       │                          5/suse-su-202502177-1/ 
 │                       │       ├ PublishedDate   : 2025-06-30T21:15:30.257Z 
-│                       │       ╰ LastModifiedDate: 2025-07-03T15:14:12.767Z 
+│                       │       ╰ LastModifiedDate: 2025-07-09T18:15:23.847Z 
 │                       ├ [132] ╭ VulnerabilityID : CVE-2025-4598 
 │                       │       ├ PkgID           : systemd@256.5-2ubuntu3.1 
 │                       │       ├ PkgName         : systemd 
