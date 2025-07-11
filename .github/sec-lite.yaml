@@ -787,6 +787,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
+      photon: 2
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -853,6 +854,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -918,6 +920,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1049,6 +1052,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
+      photon: 2
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1115,6 +1119,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1180,6 +1185,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1311,6 +1317,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
+      photon: 2
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1377,6 +1384,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1442,6 +1450,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1573,6 +1582,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
+      photon: 2
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1639,6 +1649,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1704,6 +1715,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1832,6 +1844,7 @@
     - CWE-863
     VendorSeverity:
       alma: 3
+      amazon: 3
       oracle-oval: 3
       photon: 1
       redhat: 3
@@ -1852,12 +1865,13 @@
     - https://ubuntu.com/security/notices/USN-7604-2
     - https://www.cve.org/CVERecord?id=CVE-2025-32462
     - https://www.openwall.com/lists/oss-security/2025/06/30/2
+    - https://www.secpod.com/blog/sudo-lpe-vulnerabilities-resolved-what-you-need-to-know-about-cve-2025-32462-and-cve-2025-32463/
     - https://www.stratascale.com/vulnerability-alert-CVE-2025-32462-sudo-host
     - https://www.sudo.ws/releases/changelog/
     - https://www.sudo.ws/security/advisories/
     - https://www.sudo.ws/security/advisories/host_any/
     PublishedDate: '2025-06-30T21:15:30.08Z'
-    LastModifiedDate: '2025-07-03T15:14:12.767Z'
+    LastModifiedDate: '2025-07-09T18:15:22.93Z'
   - VulnerabilityID: CVE-2025-32463
     PkgID: sudo@1.9.16_p2-r1
     PkgName: sudo
@@ -1881,6 +1895,7 @@
     CweIDs:
     - CWE-829
     VendorSeverity:
+      amazon: 3
       photon: 4
       redhat: 3
       ubuntu: 3
@@ -1898,6 +1913,7 @@
     - https://ubuntu.com/security/notices/USN-7604-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32463
     - https://www.openwall.com/lists/oss-security/2025/06/30/3
+    - https://www.secpod.com/blog/sudo-lpe-vulnerabilities-resolved-what-you-need-to-know-about-cve-2025-32462-and-cve-2025-32463/
     - https://www.stratascale.com/vulnerability-alert-CVE-2025-32463-sudo-chroot
     - https://www.sudo.ws/releases/changelog/
     - https://www.sudo.ws/security/advisories/
@@ -1905,7 +1921,7 @@
     - https://www.suse.com/security/cve/CVE-2025-32463.html
     - https://www.suse.com/support/update/announcement/2025/suse-su-202502177-1/
     PublishedDate: '2025-06-30T21:15:30.257Z'
-    LastModifiedDate: '2025-07-03T15:14:12.767Z'
+    LastModifiedDate: '2025-07-09T18:15:23.847Z'
   - VulnerabilityID: CVE-2025-5601
     PkgID: tshark@4.4.6-r0
     PkgName: tshark
