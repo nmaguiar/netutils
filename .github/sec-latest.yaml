@@ -157,6 +157,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      amazon: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1330,6 +1331,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      amazon: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1408,6 +1410,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      amazon: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1445,6 +1448,7 @@
     CweIDs:
     - CWE-120
     VendorSeverity:
+      amazon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -1666,6 +1670,7 @@
     - https://access.redhat.com/errata/RHSA-2025:10359
     - https://access.redhat.com/errata/RHSA-2025:10361
     - https://access.redhat.com/errata/RHSA-2025:10362
+    - https://access.redhat.com/errata/RHSA-2025:10735
     - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
     - https://bugzilla.redhat.com/2372512
@@ -1678,7 +1683,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6020
     - https://www.openwall.com/lists/oss-security/2025/06/17/1
     PublishedDate: '2025-06-17T13:15:21.66Z'
-    LastModifiedDate: '2025-07-07T08:15:25.46Z'
+    LastModifiedDate: '2025-07-09T20:15:32.16Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-modules-bin@1.5.3-7ubuntu2
     PkgName: libpam-modules-bin
@@ -1828,6 +1833,7 @@
     - https://access.redhat.com/errata/RHSA-2025:10359
     - https://access.redhat.com/errata/RHSA-2025:10361
     - https://access.redhat.com/errata/RHSA-2025:10362
+    - https://access.redhat.com/errata/RHSA-2025:10735
     - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
     - https://bugzilla.redhat.com/2372512
@@ -1840,7 +1846,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6020
     - https://www.openwall.com/lists/oss-security/2025/06/17/1
     PublishedDate: '2025-06-17T13:15:21.66Z'
-    LastModifiedDate: '2025-07-07T08:15:25.46Z'
+    LastModifiedDate: '2025-07-09T20:15:32.16Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-runtime@1.5.3-7ubuntu2
     PkgName: libpam-runtime
@@ -1990,6 +1996,7 @@
     - https://access.redhat.com/errata/RHSA-2025:10359
     - https://access.redhat.com/errata/RHSA-2025:10361
     - https://access.redhat.com/errata/RHSA-2025:10362
+    - https://access.redhat.com/errata/RHSA-2025:10735
     - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
     - https://bugzilla.redhat.com/2372512
@@ -2002,7 +2009,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6020
     - https://www.openwall.com/lists/oss-security/2025/06/17/1
     PublishedDate: '2025-06-17T13:15:21.66Z'
-    LastModifiedDate: '2025-07-07T08:15:25.46Z'
+    LastModifiedDate: '2025-07-09T20:15:32.16Z'
   - VulnerabilityID: CVE-2025-4598
     PkgID: libpam-systemd@256.5-2ubuntu3.1
     PkgName: libpam-systemd
@@ -2210,6 +2217,7 @@
     - https://access.redhat.com/errata/RHSA-2025:10359
     - https://access.redhat.com/errata/RHSA-2025:10361
     - https://access.redhat.com/errata/RHSA-2025:10362
+    - https://access.redhat.com/errata/RHSA-2025:10735
     - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
     - https://bugzilla.redhat.com/2372512
@@ -2222,7 +2230,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6020
     - https://www.openwall.com/lists/oss-security/2025/06/17/1
     PublishedDate: '2025-06-17T13:15:21.66Z'
-    LastModifiedDate: '2025-07-07T08:15:25.46Z'
+    LastModifiedDate: '2025-07-09T20:15:32.16Z'
   - VulnerabilityID: CVE-2023-37769
     PkgID: libpixman-1-0@0.42.2-1build1
     PkgName: libpixman-1-0
@@ -2285,6 +2293,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
+      photon: 2
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -2352,6 +2361,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -2418,6 +2428,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2663,6 +2674,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
+      amazon: 2
       bitnami: 2
       redhat: 2
       ubuntu: 2
@@ -2718,6 +2730,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
+      photon: 2
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -2785,6 +2798,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -2851,6 +2865,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3096,6 +3111,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
+      amazon: 2
       bitnami: 2
       redhat: 2
       ubuntu: 2
@@ -3151,6 +3167,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
+      photon: 2
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -3218,6 +3235,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -3284,6 +3302,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3529,6 +3548,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
+      amazon: 2
       bitnami: 2
       redhat: 2
       ubuntu: 2
@@ -5598,6 +5618,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
+      photon: 2
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -5665,6 +5686,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -5731,6 +5753,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -5976,6 +5999,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
+      amazon: 2
       bitnami: 2
       redhat: 2
       ubuntu: 2
@@ -6031,6 +6055,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
+      photon: 2
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -6098,6 +6123,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -6164,6 +6190,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -6409,6 +6436,7 @@
     CweIDs:
     - CWE-1333
     VendorSeverity:
+      amazon: 2
       bitnami: 2
       redhat: 2
       ubuntu: 2
@@ -6461,6 +6489,7 @@
     - CWE-863
     VendorSeverity:
       alma: 3
+      amazon: 3
       oracle-oval: 3
       photon: 1
       redhat: 3
@@ -6481,12 +6510,13 @@
     - https://ubuntu.com/security/notices/USN-7604-2
     - https://www.cve.org/CVERecord?id=CVE-2025-32462
     - https://www.openwall.com/lists/oss-security/2025/06/30/2
+    - https://www.secpod.com/blog/sudo-lpe-vulnerabilities-resolved-what-you-need-to-know-about-cve-2025-32462-and-cve-2025-32463/
     - https://www.stratascale.com/vulnerability-alert-CVE-2025-32462-sudo-host
     - https://www.sudo.ws/releases/changelog/
     - https://www.sudo.ws/security/advisories/
     - https://www.sudo.ws/security/advisories/host_any/
     PublishedDate: '2025-06-30T21:15:30.08Z'
-    LastModifiedDate: '2025-07-03T15:14:12.767Z'
+    LastModifiedDate: '2025-07-09T18:15:22.93Z'
   - VulnerabilityID: CVE-2025-32463
     PkgID: sudo@1.9.15p5-3ubuntu5
     PkgName: sudo
@@ -6511,6 +6541,7 @@
     CweIDs:
     - CWE-829
     VendorSeverity:
+      amazon: 3
       photon: 4
       redhat: 3
       ubuntu: 3
@@ -6528,6 +6559,7 @@
     - https://ubuntu.com/security/notices/USN-7604-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32463
     - https://www.openwall.com/lists/oss-security/2025/06/30/3
+    - https://www.secpod.com/blog/sudo-lpe-vulnerabilities-resolved-what-you-need-to-know-about-cve-2025-32462-and-cve-2025-32463/
     - https://www.stratascale.com/vulnerability-alert-CVE-2025-32463-sudo-chroot
     - https://www.sudo.ws/releases/changelog/
     - https://www.sudo.ws/security/advisories/
@@ -6535,7 +6567,7 @@
     - https://www.suse.com/security/cve/CVE-2025-32463.html
     - https://www.suse.com/support/update/announcement/2025/suse-su-202502177-1/
     PublishedDate: '2025-06-30T21:15:30.257Z'
-    LastModifiedDate: '2025-07-03T15:14:12.767Z'
+    LastModifiedDate: '2025-07-09T18:15:23.847Z'
   - VulnerabilityID: CVE-2025-4598
     PkgID: systemd@256.5-2ubuntu3.1
     PkgName: systemd
