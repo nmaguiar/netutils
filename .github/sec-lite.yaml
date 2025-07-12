@@ -25,6 +25,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      azure: 2
       redhat: 2
     CVSS:
       redhat:
@@ -61,6 +62,7 @@
     Description: libcurl supports *pinning* of the server certificate public key for HTTPS transfers. Due to an omission, this check is not performed when connecting with QUIC for HTTP/3, when the TLS backend is wolfSSL. Documentation says the option works with wolfSSL, failing to specify that it does not for QUIC and HTTP/3. Since pinning makes the transfer succeed if the pin is fine, users could unwittingly connect to an impostor server without noticing.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
       redhat: 2
     CVSS:
       redhat:
@@ -143,6 +145,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      azure: 2
       redhat: 2
     CVSS:
       redhat:
@@ -179,6 +182,7 @@
     Description: libcurl supports *pinning* of the server certificate public key for HTTPS transfers. Due to an omission, this check is not performed when connecting with QUIC for HTTP/3, when the TLS backend is wolfSSL. Documentation says the option works with wolfSSL, failing to specify that it does not for QUIC and HTTP/3. Since pinning makes the transfer succeed if the pin is fine, users could unwittingly connect to an impostor server without noticing.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
       redhat: 2
     CVSS:
       redhat:
@@ -312,6 +316,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      azure: 2
       redhat: 2
     CVSS:
       redhat:
@@ -348,6 +353,7 @@
     Description: libcurl supports *pinning* of the server certificate public key for HTTPS transfers. Due to an omission, this check is not performed when connecting with QUIC for HTTP/3, when the TLS backend is wolfSSL. Documentation says the option works with wolfSSL, failing to specify that it does not for QUIC and HTTP/3. Since pinning makes the transfer succeed if the pin is fine, users could unwittingly connect to an impostor server without noticing.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
       redhat: 2
     CVSS:
       redhat:
@@ -984,6 +990,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 4
       oracle-oval: 3
       photon: 4
@@ -1249,6 +1256,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 4
       oracle-oval: 3
       photon: 4
@@ -1514,6 +1522,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 4
       oracle-oval: 3
       photon: 4
@@ -1779,6 +1788,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 3
       bitnami: 4
       oracle-oval: 3
       photon: 4
@@ -1845,6 +1855,8 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 1
+      cbl-mariner: 1
       oracle-oval: 3
       photon: 1
       redhat: 3
@@ -1896,6 +1908,8 @@
     - CWE-829
     VendorSeverity:
       amazon: 3
+      azure: 4
+      cbl-mariner: 4
       photon: 4
       redhat: 3
       ubuntu: 3
