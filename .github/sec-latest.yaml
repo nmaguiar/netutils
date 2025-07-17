@@ -26,6 +26,7 @@
     CweIDs:
     - CWE-124
     VendorSeverity:
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -34,16 +35,19 @@
         V3Score: 4.8
     References:
     - https://access.redhat.com/errata/RHSA-2025:10855
+    - https://access.redhat.com/errata/RHSA-2025:11140
     - https://access.redhat.com/security/cve/CVE-2025-4373
     - https://bugzilla.redhat.com/show_bug.cgi?id=2364265
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3677
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4588
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4592
+    - https://linux.oracle.com/cve/CVE-2025-4373.html
+    - https://linux.oracle.com/errata/ELSA-2025-11140.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4373
     - https://ubuntu.com/security/notices/USN-7532-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4373
     PublishedDate: '2025-05-06T15:16:05.32Z'
-    LastModifiedDate: '2025-07-14T15:15:23.94Z'
+    LastModifiedDate: '2025-07-15T14:15:30.423Z'
   - VulnerabilityID: CVE-2025-4373
     PkgID: libglib2.0-0t64@2.82.1-0ubuntu1
     PkgName: libglib2.0-0t64
@@ -68,6 +72,7 @@
     CweIDs:
     - CWE-124
     VendorSeverity:
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -76,16 +81,19 @@
         V3Score: 4.8
     References:
     - https://access.redhat.com/errata/RHSA-2025:10855
+    - https://access.redhat.com/errata/RHSA-2025:11140
     - https://access.redhat.com/security/cve/CVE-2025-4373
     - https://bugzilla.redhat.com/show_bug.cgi?id=2364265
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3677
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4588
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4592
+    - https://linux.oracle.com/cve/CVE-2025-4373.html
+    - https://linux.oracle.com/errata/ELSA-2025-11140.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4373
     - https://ubuntu.com/security/notices/USN-7532-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4373
     PublishedDate: '2025-05-06T15:16:05.32Z'
-    LastModifiedDate: '2025-07-14T15:15:23.94Z'
+    LastModifiedDate: '2025-07-15T14:15:30.423Z'
   - VulnerabilityID: CVE-2025-4373
     PkgID: libglib2.0-data@2.82.1-0ubuntu1
     PkgName: libglib2.0-data
@@ -110,6 +118,7 @@
     CweIDs:
     - CWE-124
     VendorSeverity:
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -118,16 +127,19 @@
         V3Score: 4.8
     References:
     - https://access.redhat.com/errata/RHSA-2025:10855
+    - https://access.redhat.com/errata/RHSA-2025:11140
     - https://access.redhat.com/security/cve/CVE-2025-4373
     - https://bugzilla.redhat.com/show_bug.cgi?id=2364265
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3677
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4588
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4592
+    - https://linux.oracle.com/cve/CVE-2025-4373.html
+    - https://linux.oracle.com/errata/ELSA-2025-11140.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4373
     - https://ubuntu.com/security/notices/USN-7532-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4373
     PublishedDate: '2025-05-06T15:16:05.32Z'
-    LastModifiedDate: '2025-07-14T15:15:23.94Z'
+    LastModifiedDate: '2025-07-15T14:15:30.423Z'
   - VulnerabilityID: CVE-2025-4598
     PkgID: libnss-systemd@256.5-2ubuntu3.1
     PkgName: libnss-systemd
@@ -3305,7 +3317,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-48924
     - https://www.cve.org/CVERecord?id=CVE-2025-48924
     PublishedDate: '2025-07-11T15:15:24.347Z'
-    LastModifiedDate: '2025-07-14T17:15:33.027Z'
+    LastModifiedDate: '2025-07-15T13:14:49.98Z'
 - Target: Python
   Class: lang-pkgs
   Type: python-pkg
