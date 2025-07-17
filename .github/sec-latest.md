@@ -28,24 +28,28 @@
 │                       │      │                   position will overflow, leading to a buffer underwrite. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-124 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10855 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-4373 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2364265 
-│                       │      │                  ├ [3]: https://gitlab.gnome.org/GNOME/glib/-/issues/3677 
-│                       │      │                  ├ [4]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4
-│                       │      │                  │      588 
-│                       │      │                  ├ [5]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4
-│                       │      │                  │      592 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7532-1 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10855 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:11140 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4373 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2364265 
+│                       │      │                  ├ [4] : https://gitlab.gnome.org/GNOME/glib/-/issues/3677 
+│                       │      │                  ├ [5] : https://gitlab.gnome.org/GNOME/glib/-/merge_requests/
+│                       │      │                  │       4588 
+│                       │      │                  ├ [6] : https://gitlab.gnome.org/GNOME/glib/-/merge_requests/
+│                       │      │                  │       4592 
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4373.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-11140.html 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7532-1 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
 │                       │      ├ PublishedDate   : 2025-05-06T15:16:05.32Z 
-│                       │      ╰ LastModifiedDate: 2025-07-14T15:15:23.94Z 
+│                       │      ╰ LastModifiedDate: 2025-07-15T14:15:30.423Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2025-4373 
 │                       │      ├ PkgID           : libglib2.0-0t64@2.82.1-0ubuntu1 
 │                       │      ├ PkgName         : libglib2.0-0t64 
@@ -72,24 +76,28 @@
 │                       │      │                   position will overflow, leading to a buffer underwrite. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-124 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10855 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-4373 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2364265 
-│                       │      │                  ├ [3]: https://gitlab.gnome.org/GNOME/glib/-/issues/3677 
-│                       │      │                  ├ [4]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4
-│                       │      │                  │      588 
-│                       │      │                  ├ [5]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4
-│                       │      │                  │      592 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7532-1 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10855 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:11140 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4373 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2364265 
+│                       │      │                  ├ [4] : https://gitlab.gnome.org/GNOME/glib/-/issues/3677 
+│                       │      │                  ├ [5] : https://gitlab.gnome.org/GNOME/glib/-/merge_requests/
+│                       │      │                  │       4588 
+│                       │      │                  ├ [6] : https://gitlab.gnome.org/GNOME/glib/-/merge_requests/
+│                       │      │                  │       4592 
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4373.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-11140.html 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7532-1 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
 │                       │      ├ PublishedDate   : 2025-05-06T15:16:05.32Z 
-│                       │      ╰ LastModifiedDate: 2025-07-14T15:15:23.94Z 
+│                       │      ╰ LastModifiedDate: 2025-07-15T14:15:30.423Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2025-4373 
 │                       │      ├ PkgID           : libglib2.0-data@2.82.1-0ubuntu1 
 │                       │      ├ PkgName         : libglib2.0-data 
@@ -116,24 +124,28 @@
 │                       │      │                   position will overflow, leading to a buffer underwrite. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-124 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10855 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-4373 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2364265 
-│                       │      │                  ├ [3]: https://gitlab.gnome.org/GNOME/glib/-/issues/3677 
-│                       │      │                  ├ [4]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4
-│                       │      │                  │      588 
-│                       │      │                  ├ [5]: https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4
-│                       │      │                  │      592 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7532-1 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:10855 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:11140 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4373 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2364265 
+│                       │      │                  ├ [4] : https://gitlab.gnome.org/GNOME/glib/-/issues/3677 
+│                       │      │                  ├ [5] : https://gitlab.gnome.org/GNOME/glib/-/merge_requests/
+│                       │      │                  │       4588 
+│                       │      │                  ├ [6] : https://gitlab.gnome.org/GNOME/glib/-/merge_requests/
+│                       │      │                  │       4592 
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-4373.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-11140.html 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-4373 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7532-1 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-4373 
 │                       │      ├ PublishedDate   : 2025-05-06T15:16:05.32Z 
-│                       │      ╰ LastModifiedDate: 2025-07-14T15:15:23.94Z 
+│                       │      ╰ LastModifiedDate: 2025-07-15T14:15:30.423Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2025-4598 
 │                       │      ├ PkgID           : libnss-systemd@256.5-2ubuntu3.1 
 │                       │      ├ PkgName         : libnss-systemd 
@@ -4307,7 +4319,7 @@
 │                             │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-48924 
 │                             │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-48924 
 │                             ├ PublishedDate   : 2025-07-11T15:15:24.347Z 
-│                             ╰ LastModifiedDate: 2025-07-14T17:15:33.027Z 
+│                             ╰ LastModifiedDate: 2025-07-15T13:14:49.98Z 
 ├ [2] ╭ Target: Python 
 │     ├ Class : lang-pkgs 
 │     ╰ Type  : python-pkg 
