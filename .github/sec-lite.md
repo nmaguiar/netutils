@@ -120,7 +120,9 @@
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-5399.json 
 │                       │      │                  ├ [4]: https://hackerone.com/reports/3168039 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-5399 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5399 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5399 
+│                       │      │                  ╰ [7]: https://www.oracle.com/security-alerts/cpujul2025.html
+│                       │      │                         #AppendixMSQL 
 │                       │      ├ PublishedDate   : 2025-06-07T08:15:20.687Z 
 │                       │      ╰ LastModifiedDate: 2025-06-09T14:15:23.47Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2025-4947 
@@ -241,7 +243,9 @@
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-5399.json 
 │                       │      │                  ├ [4]: https://hackerone.com/reports/3168039 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-5399 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5399 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5399 
+│                       │      │                  ╰ [7]: https://www.oracle.com/security-alerts/cpujul2025.html
+│                       │      │                         #AppendixMSQL 
 │                       │      ├ PublishedDate   : 2025-06-07T08:15:20.687Z 
 │                       │      ╰ LastModifiedDate: 2025-06-09T14:15:23.47Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2025-4575 
@@ -422,7 +426,9 @@
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-5399.json 
 │                       │      │                  ├ [4]: https://hackerone.com/reports/3168039 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-5399 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5399 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5399 
+│                       │      │                  ╰ [7]: https://www.oracle.com/security-alerts/cpujul2025.html
+│                       │      │                         #AppendixMSQL 
 │                       │      ├ PublishedDate   : 2025-06-07T08:15:20.687Z 
 │                       │      ╰ LastModifiedDate: 2025-06-09T14:15:23.47Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2025-4877 
@@ -2369,6 +2375,7 @@
 │                       │      │                  │         96c1095ddb5d66035e69 
 │                       │      │                  ╰ DiffID: sha256:e372ebe7e5c5dc9f3eaf19e4f2531dfc2bacf8a33af1
 │                       │      │                            87008e71f1a460a8d7e6 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32462 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -2384,11 +2391,15 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 1 
 │                       │      │                  ├ cbl-mariner: 1 
+│                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 3 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 8.8 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:9978 
@@ -2412,7 +2423,7 @@
 │                       │      │                  ├ [14]: https://www.sudo.ws/security/advisories/ 
 │                       │      │                  ╰ [15]: https://www.sudo.ws/security/advisories/host_any/ 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.08Z 
-│                       │      ╰ LastModifiedDate: 2025-07-09T18:15:22.93Z 
+│                       │      ╰ LastModifiedDate: 2025-07-17T15:56:46.45Z 
 │                       ├ [36] ╭ VulnerabilityID : CVE-2025-32463 
 │                       │      ├ PkgID           : sudo@1.9.16_p2-r1 
 │                       │      ├ PkgName         : sudo 
@@ -2426,6 +2437,7 @@
 │                       │      │                  │         96c1095ddb5d66035e69 
 │                       │      │                  ╰ DiffID: sha256:e372ebe7e5c5dc9f3eaf19e4f2531dfc2bacf8a33af1
 │                       │      │                            87008e71f1a460a8d7e6 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32463 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -2439,10 +2451,14 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 4 
 │                       │      │                  ├ cbl-mariner: 4 
+│                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 3 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.8 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.8 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-32463 
@@ -2468,7 +2484,7 @@
 │                       │      │                  ╰ [15]: https://www.suse.com/support/update/announcement/2025
 │                       │      │                          /suse-su-202502177-1/ 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.257Z 
-│                       │      ╰ LastModifiedDate: 2025-07-09T18:15:23.847Z 
+│                       │      ╰ LastModifiedDate: 2025-07-17T15:56:53.31Z 
 │                       ├ [37] ╭ VulnerabilityID : CVE-2025-5601 
 │                       │      ├ PkgID           : tshark@4.4.6-r0 
 │                       │      ├ PkgName         : tshark 
