@@ -1178,6 +1178,7 @@
     CweIDs:
     - CWE-120
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1215,6 +1216,7 @@
     CweIDs:
     - CWE-120
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1252,6 +1254,7 @@
     CweIDs:
     - CWE-120
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2658,7 +2661,7 @@
     - https://www.gnu.org/software/tar/
     - https://www.gnu.org/software/tar/manual/html_node/Integrity.html#Integrity
     PublishedDate: '2025-07-11T17:15:37.183Z'
-    LastModifiedDate: '2025-07-15T13:14:49.98Z'
+    LastModifiedDate: '2025-07-17T13:09:39.997Z'
   - VulnerabilityID: CVE-2021-39920
     PkgID: tshark@4.4.5-1
     PkgName: tshark
