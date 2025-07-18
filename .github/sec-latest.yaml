@@ -26,6 +26,7 @@
     CweIDs:
     - CWE-124
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -36,18 +37,24 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:10855
     - https://access.redhat.com/errata/RHSA-2025:11140
+    - https://access.redhat.com/errata/RHSA-2025:11327
+    - https://access.redhat.com/errata/RHSA-2025:11373
+    - https://access.redhat.com/errata/RHSA-2025:11374
     - https://access.redhat.com/security/cve/CVE-2025-4373
+    - https://bugzilla.redhat.com/2325340
+    - https://bugzilla.redhat.com/2364265
     - https://bugzilla.redhat.com/show_bug.cgi?id=2364265
+    - https://errata.almalinux.org/9/ALSA-2025-11140.html
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3677
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4588
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4592
     - https://linux.oracle.com/cve/CVE-2025-4373.html
-    - https://linux.oracle.com/errata/ELSA-2025-11140.html
+    - https://linux.oracle.com/errata/ELSA-2025-11327.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4373
     - https://ubuntu.com/security/notices/USN-7532-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4373
     PublishedDate: '2025-05-06T15:16:05.32Z'
-    LastModifiedDate: '2025-07-15T14:15:30.423Z'
+    LastModifiedDate: '2025-07-17T14:15:31.95Z'
   - VulnerabilityID: CVE-2025-4373
     PkgID: libglib2.0-0t64@2.82.1-0ubuntu1
     PkgName: libglib2.0-0t64
@@ -72,6 +79,7 @@
     CweIDs:
     - CWE-124
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -82,18 +90,24 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:10855
     - https://access.redhat.com/errata/RHSA-2025:11140
+    - https://access.redhat.com/errata/RHSA-2025:11327
+    - https://access.redhat.com/errata/RHSA-2025:11373
+    - https://access.redhat.com/errata/RHSA-2025:11374
     - https://access.redhat.com/security/cve/CVE-2025-4373
+    - https://bugzilla.redhat.com/2325340
+    - https://bugzilla.redhat.com/2364265
     - https://bugzilla.redhat.com/show_bug.cgi?id=2364265
+    - https://errata.almalinux.org/9/ALSA-2025-11140.html
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3677
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4588
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4592
     - https://linux.oracle.com/cve/CVE-2025-4373.html
-    - https://linux.oracle.com/errata/ELSA-2025-11140.html
+    - https://linux.oracle.com/errata/ELSA-2025-11327.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4373
     - https://ubuntu.com/security/notices/USN-7532-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4373
     PublishedDate: '2025-05-06T15:16:05.32Z'
-    LastModifiedDate: '2025-07-15T14:15:30.423Z'
+    LastModifiedDate: '2025-07-17T14:15:31.95Z'
   - VulnerabilityID: CVE-2025-4373
     PkgID: libglib2.0-data@2.82.1-0ubuntu1
     PkgName: libglib2.0-data
@@ -118,6 +132,7 @@
     CweIDs:
     - CWE-124
     VendorSeverity:
+      alma: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -128,18 +143,24 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:10855
     - https://access.redhat.com/errata/RHSA-2025:11140
+    - https://access.redhat.com/errata/RHSA-2025:11327
+    - https://access.redhat.com/errata/RHSA-2025:11373
+    - https://access.redhat.com/errata/RHSA-2025:11374
     - https://access.redhat.com/security/cve/CVE-2025-4373
+    - https://bugzilla.redhat.com/2325340
+    - https://bugzilla.redhat.com/2364265
     - https://bugzilla.redhat.com/show_bug.cgi?id=2364265
+    - https://errata.almalinux.org/9/ALSA-2025-11140.html
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3677
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4588
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4592
     - https://linux.oracle.com/cve/CVE-2025-4373.html
-    - https://linux.oracle.com/errata/ELSA-2025-11140.html
+    - https://linux.oracle.com/errata/ELSA-2025-11327.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4373
     - https://ubuntu.com/security/notices/USN-7532-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4373
     PublishedDate: '2025-05-06T15:16:05.32Z'
-    LastModifiedDate: '2025-07-15T14:15:30.423Z'
+    LastModifiedDate: '2025-07-17T14:15:31.95Z'
   - VulnerabilityID: CVE-2025-4598
     PkgID: libnss-systemd@256.5-2ubuntu3.1
     PkgName: libnss-systemd
@@ -224,6 +245,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      cbl-mariner: 3
       oracle-oval: 3
       redhat: 3
       ubuntu: 2
@@ -283,6 +305,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      cbl-mariner: 3
       oracle-oval: 3
       redhat: 3
       ubuntu: 2
@@ -342,6 +365,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      cbl-mariner: 3
       oracle-oval: 3
       redhat: 3
       ubuntu: 2
@@ -459,6 +483,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      cbl-mariner: 3
       oracle-oval: 3
       redhat: 3
       ubuntu: 2
@@ -783,7 +808,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       redhat: 2
       ubuntu: 2
@@ -1171,7 +1196,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       redhat: 2
       ubuntu: 2
@@ -1559,7 +1584,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       redhat: 2
       ubuntu: 2
@@ -2389,7 +2414,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       redhat: 2
       ubuntu: 2
@@ -2777,7 +2802,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       redhat: 2
       ubuntu: 2
@@ -2902,11 +2927,15 @@
       amazon: 3
       azure: 1
       cbl-mariner: 1
+      nvd: 3
       oracle-oval: 3
       photon: 1
       redhat: 3
       ubuntu: 3
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 8.8
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7
@@ -2928,7 +2957,7 @@
     - https://www.sudo.ws/security/advisories/
     - https://www.sudo.ws/security/advisories/host_any/
     PublishedDate: '2025-06-30T21:15:30.08Z'
-    LastModifiedDate: '2025-07-09T18:15:22.93Z'
+    LastModifiedDate: '2025-07-17T15:56:46.45Z'
   - VulnerabilityID: CVE-2025-32463
     PkgID: sudo@1.9.15p5-3ubuntu5
     PkgName: sudo
@@ -2956,10 +2985,14 @@
       amazon: 3
       azure: 4
       cbl-mariner: 4
+      nvd: 3
       photon: 4
       redhat: 3
       ubuntu: 3
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
@@ -2981,7 +3014,7 @@
     - https://www.suse.com/security/cve/CVE-2025-32463.html
     - https://www.suse.com/support/update/announcement/2025/suse-su-202502177-1/
     PublishedDate: '2025-06-30T21:15:30.257Z'
-    LastModifiedDate: '2025-07-09T18:15:23.847Z'
+    LastModifiedDate: '2025-07-17T15:56:53.31Z'
   - VulnerabilityID: CVE-2025-4598
     PkgID: systemd@256.5-2ubuntu3.1
     PkgName: systemd
