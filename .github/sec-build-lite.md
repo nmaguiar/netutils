@@ -45,13 +45,14 @@
 │                       │     ├ Severity        : HIGH 
 │                       │     ├ VendorSeverity   ╭ alma       : 3 
 │                       │     │                  ├ oracle-oval: 3 
-│                       │     │                  ╰ redhat     : 3 
+│                       │     │                  ├ redhat     : 3 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 8.1 
 │                       │     ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
 │                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-30749 
-│                       │     │                  ├ [2]: https://errata.almalinux.org/8/ALSA-2025-10867.html 
+│                       │     │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
 │                       │     │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-30749.html 
 │                       │     │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
 │                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-30749 
@@ -115,7 +116,7 @@
 │                       │     │                           ╰ V3Score : 8.6 
 │                       │     ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
 │                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-50059 
-│                       │     │                  ├ [2]: https://errata.almalinux.org/8/ALSA-2025-10867.html 
+│                       │     │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
 │                       │     │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-50059.html 
 │                       │     │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
 │                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-50059 
@@ -169,13 +170,14 @@
 │                       │     ├ Severity        : HIGH 
 │                       │     ├ VendorSeverity   ╭ alma       : 3 
 │                       │     │                  ├ oracle-oval: 3 
-│                       │     │                  ╰ redhat     : 3 
+│                       │     │                  ├ redhat     : 3 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 8.1 
 │                       │     ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
 │                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-50106 
-│                       │     │                  ├ [2]: https://errata.almalinux.org/8/ALSA-2025-10867.html 
+│                       │     │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
 │                       │     │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-50106.html 
 │                       │     │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
 │                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-50106 
@@ -232,13 +234,14 @@
 │                       │     ├ CweIDs           ─ [0]: CWE-284 
 │                       │     ├ VendorSeverity   ╭ alma       : 3 
 │                       │     │                  ├ oracle-oval: 3 
-│                       │     │                  ╰ redhat     : 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 4.8 
 │                       │     ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
 │                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-30754 
-│                       │     │                  ├ [2]: https://errata.almalinux.org/8/ALSA-2025-10867.html 
+│                       │     │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
 │                       │     │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-30754.html 
 │                       │     │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
 │                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-30754 
@@ -291,13 +294,14 @@
 │                       │     ├ Severity        : HIGH 
 │                       │     ├ VendorSeverity   ╭ alma       : 3 
 │                       │     │                  ├ oracle-oval: 3 
-│                       │     │                  ╰ redhat     : 3 
+│                       │     │                  ├ redhat     : 3 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 8.1 
 │                       │     ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
 │                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-30749 
-│                       │     │                  ├ [2]: https://errata.almalinux.org/8/ALSA-2025-10867.html 
+│                       │     │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
 │                       │     │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-30749.html 
 │                       │     │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
 │                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-30749 
@@ -361,7 +365,7 @@
 │                       │     │                           ╰ V3Score : 8.6 
 │                       │     ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
 │                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-50059 
-│                       │     │                  ├ [2]: https://errata.almalinux.org/8/ALSA-2025-10867.html 
+│                       │     │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
 │                       │     │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-50059.html 
 │                       │     │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
 │                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-50059 
@@ -415,13 +419,14 @@
 │                       │     ├ Severity        : HIGH 
 │                       │     ├ VendorSeverity   ╭ alma       : 3 
 │                       │     │                  ├ oracle-oval: 3 
-│                       │     │                  ╰ redhat     : 3 
+│                       │     │                  ├ redhat     : 3 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 8.1 
 │                       │     ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
 │                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-50106 
-│                       │     │                  ├ [2]: https://errata.almalinux.org/8/ALSA-2025-10867.html 
+│                       │     │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
 │                       │     │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-50106.html 
 │                       │     │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
 │                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-50106 
@@ -478,13 +483,14 @@
 │                             ├ CweIDs           ─ [0]: CWE-284 
 │                             ├ VendorSeverity   ╭ alma       : 3 
 │                             │                  ├ oracle-oval: 3 
-│                             │                  ╰ redhat     : 2 
+│                             │                  ├ redhat     : 2 
+│                             │                  ╰ ubuntu     : 2 
 │                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/
 │                             │                           │           A:N 
 │                             │                           ╰ V3Score : 4.8 
 │                             ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
 │                             │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-30754 
-│                             │                  ├ [2]: https://errata.almalinux.org/8/ALSA-2025-10867.html 
+│                             │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
 │                             │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-30754.html 
 │                             │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
 │                             │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-30754 
