@@ -206,6 +206,7 @@
     - CWE-330
     VendorSeverity:
       amazon: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -213,14 +214,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:11402
     - https://access.redhat.com/security/cve/CVE-2024-52615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
+    - https://linux.oracle.com/cve/CVE-2024-52615.html
+    - https://linux.oracle.com/errata/ELSA-2025-11402.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52615
     - https://www.cve.org/CVERecord?id=CVE-2024-52615
     PublishedDate: '2024-11-21T21:15:23.807Z'
-    LastModifiedDate: '2024-11-21T21:15:23.807Z'
+    LastModifiedDate: '2025-07-21T08:15:23.727Z'
   - VulnerabilityID: CVE-2024-52616
     PkgID: libavahi-client3@0.8-16ubuntu2
     PkgName: libavahi-client3
@@ -293,6 +297,7 @@
     - CWE-330
     VendorSeverity:
       amazon: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -300,14 +305,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:11402
     - https://access.redhat.com/security/cve/CVE-2024-52615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
+    - https://linux.oracle.com/cve/CVE-2024-52615.html
+    - https://linux.oracle.com/errata/ELSA-2025-11402.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52615
     - https://www.cve.org/CVERecord?id=CVE-2024-52615
     PublishedDate: '2024-11-21T21:15:23.807Z'
-    LastModifiedDate: '2024-11-21T21:15:23.807Z'
+    LastModifiedDate: '2025-07-21T08:15:23.727Z'
   - VulnerabilityID: CVE-2024-52616
     PkgID: libavahi-common-data@0.8-16ubuntu2
     PkgName: libavahi-common-data
@@ -380,6 +388,7 @@
     - CWE-330
     VendorSeverity:
       amazon: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -387,14 +396,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2025:11402
     - https://access.redhat.com/security/cve/CVE-2024-52615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
+    - https://linux.oracle.com/cve/CVE-2024-52615.html
+    - https://linux.oracle.com/errata/ELSA-2025-11402.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52615
     - https://www.cve.org/CVERecord?id=CVE-2024-52615
     PublishedDate: '2024-11-21T21:15:23.807Z'
-    LastModifiedDate: '2024-11-21T21:15:23.807Z'
+    LastModifiedDate: '2025-07-21T08:15:23.727Z'
   - VulnerabilityID: CVE-2024-52616
     PkgID: libavahi-common3@0.8-16ubuntu2
     PkgName: libavahi-common3
@@ -518,10 +530,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 5.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:11066
+    - https://access.redhat.com/errata/RHSA-2025:9877
     - https://access.redhat.com/security/cve/CVE-2025-5702
     - https://bugzilla.redhat.com/2370472
-    - https://errata.almalinux.org/10/ALSA-2025-11066.html
+    - https://errata.almalinux.org/9/ALSA-2025-9877.html
     - https://linux.oracle.com/cve/CVE-2025-5702.html
     - https://linux.oracle.com/errata/ELSA-2025-9877.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
@@ -640,10 +652,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 5.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:11066
+    - https://access.redhat.com/errata/RHSA-2025:9877
     - https://access.redhat.com/security/cve/CVE-2025-5702
     - https://bugzilla.redhat.com/2370472
-    - https://errata.almalinux.org/10/ALSA-2025-11066.html
+    - https://errata.almalinux.org/9/ALSA-2025-9877.html
     - https://linux.oracle.com/cve/CVE-2025-5702.html
     - https://linux.oracle.com/errata/ELSA-2025-9877.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
@@ -1155,6 +1167,48 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2025-04-02T17:15:37.79Z'
+  - VulnerabilityID: CVE-2025-6199
+    PkgID: libgdk-pixbuf-2.0-0@2.42.12+dfsg-2
+    PkgName: libgdk-pixbuf-2.0-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgdk-pixbuf-2.0-0@2.42.12%2Bdfsg-2?arch=amd64&distro=ubuntu-25.04
+      UID: 6ad8c0d14522a804
+    InstalledVersion: 2.42.12+dfsg-2
+    FixedVersion: 2.42.12+dfsg-2ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:e07d191d67db61c361d48dd6db251a0a77de07e6a3b425ce59c3266183a25812
+      DiffID: sha256:0c99381a6380ac286732244f2bd3a718aacd5151622477dba7f68a091be713f2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6199
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gdk-pixbuf: Uninitialized Memory Disclosure in GdkPixbuf GIF LZW Decoder'
+    Description: A flaw was found in the GIF parser of GdkPixbuf’s LZW decoder. When an invalid symbol is encountered during decompression, the decoder sets the reported output size to the full buffer length rather than the actual number of written bytes. This logic error results in uninitialized sections of the buffer being included in the output, potentially leaking arbitrary memory contents in the processed image.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-200
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6199
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2373147
+    - https://gitlab.gnome.org/GNOME/gdk-pixbuf/-/issues/257
+    - https://gitlab.gnome.org/GNOME/gdk-pixbuf/-/merge_requests/191
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6199
+    - https://ubuntu.com/security/notices/USN-7662-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-6199
+    PublishedDate: '2025-06-17T15:15:54.307Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2025-7345
     PkgID: libgdk-pixbuf-2.0-0@2.42.12+dfsg-2
     PkgName: libgdk-pixbuf-2.0-0
@@ -1162,7 +1216,8 @@
       PURL: pkg:deb/ubuntu/libgdk-pixbuf-2.0-0@2.42.12%2Bdfsg-2?arch=amd64&distro=ubuntu-25.04
       UID: 6ad8c0d14522a804
     InstalledVersion: 2.42.12+dfsg-2
-    Status: affected
+    FixedVersion: 2.42.12+dfsg-2ubuntu0.1
+    Status: fixed
     Layer:
       Digest: sha256:e07d191d67db61c361d48dd6db251a0a77de07e6a3b425ce59c3266183a25812
       DiffID: sha256:0c99381a6380ac286732244f2bd3a718aacd5151622477dba7f68a091be713f2
@@ -1178,6 +1233,7 @@
     CweIDs:
     - CWE-120
     VendorSeverity:
+      azure: 3
       cbl-mariner: 3
       redhat: 2
       ubuntu: 2
@@ -1190,9 +1246,52 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2377063
     - https://gitlab.gnome.org/GNOME/gdk-pixbuf/-/issues/249
     - https://nvd.nist.gov/vuln/detail/CVE-2025-7345
+    - https://ubuntu.com/security/notices/USN-7662-1
     - https://www.cve.org/CVERecord?id=CVE-2025-7345
     PublishedDate: '2025-07-08T14:15:32.397Z'
     LastModifiedDate: '2025-07-09T08:15:25.153Z'
+  - VulnerabilityID: CVE-2025-6199
+    PkgID: libgdk-pixbuf2.0-bin@2.42.12+dfsg-2
+    PkgName: libgdk-pixbuf2.0-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgdk-pixbuf2.0-bin@2.42.12%2Bdfsg-2?arch=amd64&distro=ubuntu-25.04
+      UID: 87e28681f59fb750
+    InstalledVersion: 2.42.12+dfsg-2
+    FixedVersion: 2.42.12+dfsg-2ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:e07d191d67db61c361d48dd6db251a0a77de07e6a3b425ce59c3266183a25812
+      DiffID: sha256:0c99381a6380ac286732244f2bd3a718aacd5151622477dba7f68a091be713f2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6199
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gdk-pixbuf: Uninitialized Memory Disclosure in GdkPixbuf GIF LZW Decoder'
+    Description: A flaw was found in the GIF parser of GdkPixbuf’s LZW decoder. When an invalid symbol is encountered during decompression, the decoder sets the reported output size to the full buffer length rather than the actual number of written bytes. This logic error results in uninitialized sections of the buffer being included in the output, potentially leaking arbitrary memory contents in the processed image.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-200
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6199
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2373147
+    - https://gitlab.gnome.org/GNOME/gdk-pixbuf/-/issues/257
+    - https://gitlab.gnome.org/GNOME/gdk-pixbuf/-/merge_requests/191
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6199
+    - https://ubuntu.com/security/notices/USN-7662-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-6199
+    PublishedDate: '2025-06-17T15:15:54.307Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2025-7345
     PkgID: libgdk-pixbuf2.0-bin@2.42.12+dfsg-2
     PkgName: libgdk-pixbuf2.0-bin
@@ -1200,7 +1299,8 @@
       PURL: pkg:deb/ubuntu/libgdk-pixbuf2.0-bin@2.42.12%2Bdfsg-2?arch=amd64&distro=ubuntu-25.04
       UID: 87e28681f59fb750
     InstalledVersion: 2.42.12+dfsg-2
-    Status: affected
+    FixedVersion: 2.42.12+dfsg-2ubuntu0.1
+    Status: fixed
     Layer:
       Digest: sha256:e07d191d67db61c361d48dd6db251a0a77de07e6a3b425ce59c3266183a25812
       DiffID: sha256:0c99381a6380ac286732244f2bd3a718aacd5151622477dba7f68a091be713f2
@@ -1216,6 +1316,7 @@
     CweIDs:
     - CWE-120
     VendorSeverity:
+      azure: 3
       cbl-mariner: 3
       redhat: 2
       ubuntu: 2
@@ -1228,9 +1329,52 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2377063
     - https://gitlab.gnome.org/GNOME/gdk-pixbuf/-/issues/249
     - https://nvd.nist.gov/vuln/detail/CVE-2025-7345
+    - https://ubuntu.com/security/notices/USN-7662-1
     - https://www.cve.org/CVERecord?id=CVE-2025-7345
     PublishedDate: '2025-07-08T14:15:32.397Z'
     LastModifiedDate: '2025-07-09T08:15:25.153Z'
+  - VulnerabilityID: CVE-2025-6199
+    PkgID: libgdk-pixbuf2.0-common@2.42.12+dfsg-2
+    PkgName: libgdk-pixbuf2.0-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgdk-pixbuf2.0-common@2.42.12%2Bdfsg-2?arch=all&distro=ubuntu-25.04
+      UID: dbfd27b20f2ffce8
+    InstalledVersion: 2.42.12+dfsg-2
+    FixedVersion: 2.42.12+dfsg-2ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:e07d191d67db61c361d48dd6db251a0a77de07e6a3b425ce59c3266183a25812
+      DiffID: sha256:0c99381a6380ac286732244f2bd3a718aacd5151622477dba7f68a091be713f2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6199
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gdk-pixbuf: Uninitialized Memory Disclosure in GdkPixbuf GIF LZW Decoder'
+    Description: A flaw was found in the GIF parser of GdkPixbuf’s LZW decoder. When an invalid symbol is encountered during decompression, the decoder sets the reported output size to the full buffer length rather than the actual number of written bytes. This logic error results in uninitialized sections of the buffer being included in the output, potentially leaking arbitrary memory contents in the processed image.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-200
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6199
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2373147
+    - https://gitlab.gnome.org/GNOME/gdk-pixbuf/-/issues/257
+    - https://gitlab.gnome.org/GNOME/gdk-pixbuf/-/merge_requests/191
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6199
+    - https://ubuntu.com/security/notices/USN-7662-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-6199
+    PublishedDate: '2025-06-17T15:15:54.307Z'
+    LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2025-7345
     PkgID: libgdk-pixbuf2.0-common@2.42.12+dfsg-2
     PkgName: libgdk-pixbuf2.0-common
@@ -1238,7 +1382,8 @@
       PURL: pkg:deb/ubuntu/libgdk-pixbuf2.0-common@2.42.12%2Bdfsg-2?arch=all&distro=ubuntu-25.04
       UID: dbfd27b20f2ffce8
     InstalledVersion: 2.42.12+dfsg-2
-    Status: affected
+    FixedVersion: 2.42.12+dfsg-2ubuntu0.1
+    Status: fixed
     Layer:
       Digest: sha256:e07d191d67db61c361d48dd6db251a0a77de07e6a3b425ce59c3266183a25812
       DiffID: sha256:0c99381a6380ac286732244f2bd3a718aacd5151622477dba7f68a091be713f2
@@ -1254,6 +1399,7 @@
     CweIDs:
     - CWE-120
     VendorSeverity:
+      azure: 3
       cbl-mariner: 3
       redhat: 2
       ubuntu: 2
@@ -1266,6 +1412,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2377063
     - https://gitlab.gnome.org/GNOME/gdk-pixbuf/-/issues/249
     - https://nvd.nist.gov/vuln/detail/CVE-2025-7345
+    - https://ubuntu.com/security/notices/USN-7662-1
     - https://www.cve.org/CVERecord?id=CVE-2025-7345
     PublishedDate: '2025-07-08T14:15:32.397Z'
     LastModifiedDate: '2025-07-09T08:15:25.153Z'
@@ -1531,7 +1678,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 3
+      alma: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -1548,12 +1695,11 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-11250.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1602,13 +1748,12 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
-    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-10244.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1639,7 +1784,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 3
+      alma: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -1656,12 +1801,11 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-11250.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1710,13 +1854,12 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
-    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-10244.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1747,7 +1890,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 3
+      alma: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -1764,12 +1907,11 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-11250.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1818,13 +1960,12 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
-    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-10244.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1855,7 +1996,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 3
+      alma: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -1872,12 +2013,11 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-11250.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1926,13 +2066,12 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
-    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-10244.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1999,6 +2138,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2050,6 +2190,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2101,6 +2242,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2364,10 +2506,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 5.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:11066
+    - https://access.redhat.com/errata/RHSA-2025:9877
     - https://access.redhat.com/security/cve/CVE-2025-5702
     - https://bugzilla.redhat.com/2370472
-    - https://errata.almalinux.org/10/ALSA-2025-11066.html
+    - https://errata.almalinux.org/9/ALSA-2025-9877.html
     - https://linux.oracle.com/cve/CVE-2025-5702.html
     - https://linux.oracle.com/errata/ELSA-2025-9877.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
@@ -2556,6 +2698,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2607,6 +2750,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
