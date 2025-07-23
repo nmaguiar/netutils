@@ -26,6 +26,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
@@ -33,7 +34,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:10867
     - https://access.redhat.com/security/cve/CVE-2025-30749
-    - https://errata.almalinux.org/8/ALSA-2025-10867.html
+    - https://errata.almalinux.org/9/ALSA-2025-10867.html
     - https://linux.oracle.com/cve/CVE-2025-30749.html
     - https://linux.oracle.com/errata/ELSA-2025-10867.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30749
@@ -75,7 +76,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:10867
     - https://access.redhat.com/security/cve/CVE-2025-50059
-    - https://errata.almalinux.org/8/ALSA-2025-10867.html
+    - https://errata.almalinux.org/9/ALSA-2025-10867.html
     - https://linux.oracle.com/cve/CVE-2025-50059.html
     - https://linux.oracle.com/errata/ELSA-2025-10867.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50059
@@ -108,6 +109,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
@@ -115,7 +117,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:10867
     - https://access.redhat.com/security/cve/CVE-2025-50106
-    - https://errata.almalinux.org/8/ALSA-2025-10867.html
+    - https://errata.almalinux.org/9/ALSA-2025-10867.html
     - https://linux.oracle.com/cve/CVE-2025-50106.html
     - https://linux.oracle.com/errata/ELSA-2025-10867.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50106
@@ -150,6 +152,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
@@ -157,7 +160,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:10867
     - https://access.redhat.com/security/cve/CVE-2025-30754
-    - https://errata.almalinux.org/8/ALSA-2025-10867.html
+    - https://errata.almalinux.org/9/ALSA-2025-10867.html
     - https://linux.oracle.com/cve/CVE-2025-30754.html
     - https://linux.oracle.com/errata/ELSA-2025-10867.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30754
@@ -190,6 +193,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
@@ -197,7 +201,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:10867
     - https://access.redhat.com/security/cve/CVE-2025-30749
-    - https://errata.almalinux.org/8/ALSA-2025-10867.html
+    - https://errata.almalinux.org/9/ALSA-2025-10867.html
     - https://linux.oracle.com/cve/CVE-2025-30749.html
     - https://linux.oracle.com/errata/ELSA-2025-10867.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30749
@@ -239,7 +243,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:10867
     - https://access.redhat.com/security/cve/CVE-2025-50059
-    - https://errata.almalinux.org/8/ALSA-2025-10867.html
+    - https://errata.almalinux.org/9/ALSA-2025-10867.html
     - https://linux.oracle.com/cve/CVE-2025-50059.html
     - https://linux.oracle.com/errata/ELSA-2025-10867.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50059
@@ -272,6 +276,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
@@ -279,7 +284,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:10867
     - https://access.redhat.com/security/cve/CVE-2025-50106
-    - https://errata.almalinux.org/8/ALSA-2025-10867.html
+    - https://errata.almalinux.org/9/ALSA-2025-10867.html
     - https://linux.oracle.com/cve/CVE-2025-50106.html
     - https://linux.oracle.com/errata/ELSA-2025-10867.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50106
@@ -314,6 +319,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
@@ -321,7 +327,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:10867
     - https://access.redhat.com/security/cve/CVE-2025-30754
-    - https://errata.almalinux.org/8/ALSA-2025-10867.html
+    - https://errata.almalinux.org/9/ALSA-2025-10867.html
     - https://linux.oracle.com/cve/CVE-2025-30754.html
     - https://linux.oracle.com/errata/ELSA-2025-10867.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30754
