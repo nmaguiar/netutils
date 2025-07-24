@@ -891,7 +891,8 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ oracle-oval: 3 
-│                       │      │                  ╰ redhat     : 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 8.6 
@@ -1141,7 +1142,8 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ oracle-oval: 3 
-│                       │      │                  ╰ redhat     : 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 8.6 
@@ -2984,6 +2986,7 @@
 │                       │      │                  ├ azure      : 4 
 │                       │      │                  ├ cbl-mariner: 4 
 │                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 3 
@@ -3000,27 +3003,29 @@
 │                       │      │                  ├ [4] : https://iototsecnews.jp/2025/07/01/linux-sudo-chroot-
 │                       │      │                  │       vulnerability-enables-hackers-to-elevate-privileges-t
 │                       │      │                  │       o-root/ 
-│                       │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-32463 
-│                       │      │                  ├ [6] : https://security-tracker.debian.org/tracker/CVE-2025-
+│                       │      │                  ├ [5] : https://linux.oracle.com/cve/CVE-2025-32463.html 
+│                       │      │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-11537.html 
+│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2025-32463 
+│                       │      │                  ├ [8] : https://security-tracker.debian.org/tracker/CVE-2025-
 │                       │      │                  │       32463 
-│                       │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-7604-1 
-│                       │      │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2025-32463 
-│                       │      │                  ├ [9] : https://www.openwall.com/lists/oss-security/2025/06/3
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7604-1 
+│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-32463 
+│                       │      │                  ├ [11]: https://www.openwall.com/lists/oss-security/2025/06/3
 │                       │      │                  │       0/3 
-│                       │      │                  ├ [10]: https://www.secpod.com/blog/sudo-lpe-vulnerabilities-
+│                       │      │                  ├ [12]: https://www.secpod.com/blog/sudo-lpe-vulnerabilities-
 │                       │      │                  │       resolved-what-you-need-to-know-about-cve-2025-32462-a
 │                       │      │                  │       nd-cve-2025-32463/ 
-│                       │      │                  ├ [11]: https://www.stratascale.com/vulnerability-alert-CVE-2
+│                       │      │                  ├ [13]: https://www.stratascale.com/vulnerability-alert-CVE-2
 │                       │      │                  │       025-32463-sudo-chroot 
-│                       │      │                  ├ [12]: https://www.sudo.ws/releases/changelog/ 
-│                       │      │                  ├ [13]: https://www.sudo.ws/security/advisories/ 
-│                       │      │                  ├ [14]: https://www.sudo.ws/security/advisories/chroot_bug/ 
-│                       │      │                  ├ [15]: https://www.suse.com/security/cve/CVE-2025-32463.html 
-│                       │      │                  ├ [16]: https://www.suse.com/support/update/announcement/2025
+│                       │      │                  ├ [14]: https://www.sudo.ws/releases/changelog/ 
+│                       │      │                  ├ [15]: https://www.sudo.ws/security/advisories/ 
+│                       │      │                  ├ [16]: https://www.sudo.ws/security/advisories/chroot_bug/ 
+│                       │      │                  ├ [17]: https://www.suse.com/security/cve/CVE-2025-32463.html 
+│                       │      │                  ├ [18]: https://www.suse.com/support/update/announcement/2025
 │                       │      │                  │       /suse-su-202502177-1/ 
-│                       │      │                  ├ [17]: https://www.vicarius.io/vsociety/posts/cve-2025-32463
+│                       │      │                  ├ [19]: https://www.vicarius.io/vsociety/posts/cve-2025-32463
 │                       │      │                  │       -detect-sudo-vulnerability 
-│                       │      │                  ╰ [18]: https://www.vicarius.io/vsociety/posts/cve-2025-32463
+│                       │      │                  ╰ [20]: https://www.vicarius.io/vsociety/posts/cve-2025-32463
 │                       │      │                          -mitigate-sudo-vulnerability 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.257Z 
 │                       │      ╰ LastModifiedDate: 2025-07-22T15:15:26.15Z 
