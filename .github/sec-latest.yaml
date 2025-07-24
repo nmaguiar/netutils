@@ -819,7 +819,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -1212,7 +1212,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -1605,7 +1605,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -2453,7 +2453,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -2846,7 +2846,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -3032,6 +3032,7 @@
       azure: 4
       cbl-mariner: 4
       nvd: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 3
@@ -3048,6 +3049,8 @@
     - https://bugs.gentoo.org/show_bug.cgi?id=CVE-2025-32463
     - https://explore.alas.aws.amazon.com/CVE-2025-32463.html
     - https://iototsecnews.jp/2025/07/01/linux-sudo-chroot-vulnerability-enables-hackers-to-elevate-privileges-to-root/
+    - https://linux.oracle.com/cve/CVE-2025-32463.html
+    - https://linux.oracle.com/errata/ELSA-2025-11537.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32463
     - https://security-tracker.debian.org/tracker/CVE-2025-32463
     - https://ubuntu.com/security/notices/USN-7604-1
