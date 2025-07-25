@@ -2281,6 +2281,7 @@
     CweIDs:
     - CWE-829
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 4
       cbl-mariner: 4
@@ -2297,9 +2298,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - https://access.redhat.com/errata/RHSA-2025:11537
     - https://access.redhat.com/security/cve/CVE-2025-32463
     - https://access.redhat.com/security/cve/cve-2025-32463
     - https://bugs.gentoo.org/show_bug.cgi?id=CVE-2025-32463
+    - https://bugzilla.redhat.com/2374692
+    - https://bugzilla.redhat.com/2374693
+    - https://errata.almalinux.org/10/ALSA-2025-11537.html
     - https://explore.alas.aws.amazon.com/CVE-2025-32463.html
     - https://iototsecnews.jp/2025/07/01/linux-sudo-chroot-vulnerability-enables-hackers-to-elevate-privileges-to-root/
     - https://linux.oracle.com/cve/CVE-2025-32463.html
