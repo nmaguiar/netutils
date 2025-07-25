@@ -1520,6 +1520,7 @@
     - CWE-415
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1560,6 +1561,7 @@
     - CWE-295
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1600,6 +1602,7 @@
     - CWE-122
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1640,6 +1643,7 @@
     - CWE-476
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
