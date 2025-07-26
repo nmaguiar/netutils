@@ -681,7 +681,7 @@
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7583-1 
 │                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
-│                       │      ╰ LastModifiedDate: 2025-06-04T14:54:33.783Z 
+│                       │      ╰ LastModifiedDate: 2025-07-24T16:15:29.157Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2025-4138 
 │                       │      ├ PkgID           : libpython3.12-minimal@3.12.7-1ubuntu2 
 │                       │      ├ PkgName         : libpython3.12-minimal 
@@ -1216,7 +1216,7 @@
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7583-1 
 │                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
-│                       │      ╰ LastModifiedDate: 2025-06-04T14:54:33.783Z 
+│                       │      ╰ LastModifiedDate: 2025-07-24T16:15:29.157Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2025-4138 
 │                       │      ├ PkgID           : libpython3.12-stdlib@3.12.7-1ubuntu2 
 │                       │      ├ PkgName         : libpython3.12-stdlib 
@@ -1751,7 +1751,7 @@
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7583-1 
 │                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
-│                       │      ╰ LastModifiedDate: 2025-06-04T14:54:33.783Z 
+│                       │      ╰ LastModifiedDate: 2025-07-24T16:15:29.157Z 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2025-4138 
 │                       │      ├ PkgID           : libpython3.12t64@3.12.7-1ubuntu2 
 │                       │      ├ PkgName         : libpython3.12t64 
@@ -2260,7 +2260,7 @@
 │                       │      │                  ╰ [5]: https://www.libssh.org/security/advisories/CVE-2025-48
 │                       │      │                         78.txt 
 │                       │      ├ PublishedDate   : 2025-07-22T15:15:36.307Z 
-│                       │      ╰ LastModifiedDate: 2025-07-22T15:15:36.307Z 
+│                       │      ╰ LastModifiedDate: 2025-07-25T15:29:44.523Z 
 │                       ├ [29] ╭ VulnerabilityID : CVE-2025-5318 
 │                       │      ├ PkgID           : libssh-4@0.10.6-3ubuntu1 
 │                       │      ├ PkgName         : libssh-4 
@@ -2846,7 +2846,7 @@
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7583-1 
 │                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
-│                       │      ╰ LastModifiedDate: 2025-06-04T14:54:33.783Z 
+│                       │      ╰ LastModifiedDate: 2025-07-24T16:15:29.157Z 
 │                       ├ [38] ╭ VulnerabilityID : CVE-2025-4138 
 │                       │      ├ PkgID           : python3.12@3.12.7-1ubuntu2 
 │                       │      ├ PkgName         : python3.12 
@@ -3381,7 +3381,7 @@
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7583-1 
 │                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
-│                       │      ╰ LastModifiedDate: 2025-06-04T14:54:33.783Z 
+│                       │      ╰ LastModifiedDate: 2025-07-24T16:15:29.157Z 
 │                       ├ [44] ╭ VulnerabilityID : CVE-2025-4138 
 │                       │      ├ PkgID           : python3.12-minimal@3.12.7-1ubuntu2 
 │                       │      ├ PkgName         : python3.12-minimal 
@@ -3859,26 +3859,34 @@
 │                       │      │                           ╰ V3Score : 7 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:9978 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-32462 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2374692 
-│                       │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-9978.html 
-│                       │      │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-32462.html 
-│                       │      │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-9978.html 
-│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-32462 
-│                       │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-7604-1 
-│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7604-2 
-│                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-32462 
-│                       │      │                  ├ [10]: https://www.openwall.com/lists/oss-security/2025/06/3
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/cve-2025-32462 
+│                       │      │                  ├ [3] : https://bugs.gentoo.org/show_bug.cgi?id=CVE-2025-32462 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2374692 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-9978.html 
+│                       │      │                  ├ [6] : https://explore.alas.aws.amazon.com/CVE-2025-32462.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-32462.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-9978.html 
+│                       │      │                  ├ [9] : https://lists.debian.org/debian-security-announce/202
+│                       │      │                  │       5/msg00118.html 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-32462 
+│                       │      │                  ├ [11]: https://security-tracker.debian.org/tracker/CVE-2025-
+│                       │      │                  │       32462 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7604-1 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7604-2 
+│                       │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2025-32462 
+│                       │      │                  ├ [15]: https://www.openwall.com/lists/oss-security/2025/06/3
 │                       │      │                  │       0/2 
-│                       │      │                  ├ [11]: https://www.secpod.com/blog/sudo-lpe-vulnerabilities-
+│                       │      │                  ├ [16]: https://www.secpod.com/blog/sudo-lpe-vulnerabilities-
 │                       │      │                  │       resolved-what-you-need-to-know-about-cve-2025-32462-a
 │                       │      │                  │       nd-cve-2025-32463/ 
-│                       │      │                  ├ [12]: https://www.stratascale.com/vulnerability-alert-CVE-2
+│                       │      │                  ├ [17]: https://www.stratascale.com/vulnerability-alert-CVE-2
 │                       │      │                  │       025-32462-sudo-host 
-│                       │      │                  ├ [13]: https://www.sudo.ws/releases/changelog/ 
-│                       │      │                  ├ [14]: https://www.sudo.ws/security/advisories/ 
-│                       │      │                  ╰ [15]: https://www.sudo.ws/security/advisories/host_any/ 
+│                       │      │                  ├ [18]: https://www.sudo.ws/releases/changelog/ 
+│                       │      │                  ├ [19]: https://www.sudo.ws/security/advisories/ 
+│                       │      │                  ├ [20]: https://www.sudo.ws/security/advisories/host_any/ 
+│                       │      │                  ╰ [21]: https://www.suse.com/security/cve/CVE-2025-32462.html 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.08Z 
-│                       │      ╰ LastModifiedDate: 2025-07-19T03:15:21.643Z 
+│                       │      ╰ LastModifiedDate: 2025-07-25T15:15:26.497Z 
 │                       ├ [50] ╭ VulnerabilityID : CVE-2025-32463 
 │                       │      ├ PkgID           : sudo@1.9.15p5-3ubuntu5 
 │                       │      ├ PkgName         : sudo 
