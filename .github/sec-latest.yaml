@@ -1687,6 +1687,49 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-07-07T18:15:29.15Z'
+  - VulnerabilityID: CVE-2025-6965
+    PkgID: libsqlite3-0@3.46.1-3ubuntu0.1
+    PkgName: libsqlite3-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsqlite3-0@3.46.1-3ubuntu0.1?arch=amd64&distro=ubuntu-25.04
+      UID: 4dcc16f608b621dc
+    InstalledVersion: 3.46.1-3ubuntu0.1
+    FixedVersion: 3.46.1-3ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb14b13a8699d7e41ae4ed
+      DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413fb429ecda26bad8ae6775
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6965
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'sqlite: Integer Truncation in SQLite'
+    Description: There exists a vulnerability in SQLite versions before 3.50.2 where the number of aggregate terms could exceed the number of columns available. This could lead to a memory corruption issue. We recommend upgrading to version 3.50.2 or above.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-197
+    VendorSeverity:
+      bitnami: 3
+      nvd: 4
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:H/A:L
+        V3Score: 7.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6965
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6965
+    - https://ubuntu.com/security/notices/USN-7676-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-6965
+    - https://www.sqlite.org/src/info/5508b56fd24016c13981ec280ecdd833007c9d8dd595edb295b984c2b487b5c8
+    PublishedDate: '2025-07-15T14:15:31.08Z'
+    LastModifiedDate: '2025-07-22T17:06:21.51Z'
   - VulnerabilityID: CVE-2021-39920
     PkgID: libwireshark-data@4.4.5-1
     PkgName: libwireshark-data
