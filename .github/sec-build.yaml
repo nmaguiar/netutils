@@ -11,8 +11,8 @@
     InstalledVersion: 9.5-1ubuntu1.25.04.1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-2781
     DataSource:
@@ -62,8 +62,8 @@
     InstalledVersion: 2.84.1-1ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6052
     DataSource:
@@ -100,8 +100,8 @@
     InstalledVersion: 2.4.4-2ubuntu23.1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -144,8 +144,8 @@
     InstalledVersion: 1:1.2.1-2
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52949
     DataSource:
@@ -191,8 +191,8 @@
     InstalledVersion: 0.8-16ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52615
     DataSource:
@@ -234,8 +234,8 @@
     InstalledVersion: 0.8-16ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52616
     DataSource:
@@ -282,8 +282,8 @@
     InstalledVersion: 0.8-16ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52615
     DataSource:
@@ -325,8 +325,8 @@
     InstalledVersion: 0.8-16ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52616
     DataSource:
@@ -373,8 +373,8 @@
     InstalledVersion: 0.8-16ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52615
     DataSource:
@@ -416,8 +416,8 @@
     InstalledVersion: 0.8-16ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52616
     DataSource:
@@ -464,8 +464,8 @@
     InstalledVersion: 1:1.5.0-2
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-29481
     DataSource:
@@ -506,8 +506,8 @@
     InstalledVersion: 2.41-6ubuntu1.1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -543,8 +543,8 @@
     InstalledVersion: 2.41-6ubuntu1.1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -580,8 +580,8 @@
     InstalledVersion: 1.18.4-1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2017-7475
     DataSource:
@@ -633,8 +633,8 @@
     InstalledVersion: 1.18.4-1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2018-18064
     DataSource:
@@ -677,8 +677,8 @@
     InstalledVersion: 1.18.4-1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2019-6461
     DataSource:
@@ -723,8 +723,8 @@
     InstalledVersion: 1.18.4-1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2017-7475
     DataSource:
@@ -776,8 +776,8 @@
     InstalledVersion: 1.18.4-1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2018-18064
     DataSource:
@@ -820,8 +820,8 @@
     InstalledVersion: 1.18.4-1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2019-6461
     DataSource:
@@ -866,8 +866,8 @@
     InstalledVersion: 0.192-4ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1352
     DataSource:
@@ -911,8 +911,8 @@
     InstalledVersion: 0.192-4ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1376
     DataSource:
@@ -955,8 +955,8 @@
     InstalledVersion: 1.11.0-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2236
     DataSource:
@@ -1006,8 +1006,8 @@
     InstalledVersion: 2.84.1-1ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6052
     DataSource:
@@ -1044,8 +1044,8 @@
     InstalledVersion: 2.84.1-1ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6052
     DataSource:
@@ -1082,8 +1082,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -1096,7 +1096,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 3
+      alma: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -1113,12 +1113,11 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-11250.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1135,8 +1134,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -1167,13 +1166,12 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
-    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
+    - https://errata.almalinux.org/9/ALSA-2024-10244.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1190,8 +1188,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -1203,370 +1201,302 @@
     Severity: MEDIUM
     CweIDs:
     - CWE-922
-    VendorSeverity:
-      alma: 3
-      azure: 2
-      cbl-mariner: 2
-      oracle-oval: 2
-      redhat: 2
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:10379
-    - https://access.redhat.com/errata/RHSA-2024:11250
-    - https://access.redhat.com/errata/RHSA-2024:9941
-    - https://access.redhat.com/security/cve/CVE-2024-10041
-    - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/2324291
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10041.html
-    - https://linux.oracle.com/errata/ELSA-2024-11250.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
-    - https://www.cve.org/CVERecord?id=CVE-2024-10041
-    PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-12-18T10:15:05.85Z'
-  - VulnerabilityID: CVE-2024-10963
-    PkgID: libpam-modules-bin@1.5.3-7ubuntu4.3
-    PkgName: libpam-modules-bin
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
-      UID: 914231a75f77278f
-    InstalledVersion: 1.5.3-7ubuntu4.3
-    Status: affected
-    Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
-    Description: A flaw was found in pam_access, where certain rules in its configuration file are mistakenly treated as hostnames. This vulnerability allows attackers to trick the system by pretending to be a trusted hostname, gaining unauthorized access. This issue poses a risk for systems that rely on this feature to control who can access certain services or terminals.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-287
-    VendorSeverity:
-      alma: 3
-      azure: 3
-      oracle-oval: 3
-      redhat: 3
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
-        V3Score: 7.4
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:10232
-    - https://access.redhat.com/errata/RHSA-2024:10244
-    - https://access.redhat.com/errata/RHSA-2024:10379
-    - https://access.redhat.com/errata/RHSA-2024:10518
-    - https://access.redhat.com/errata/RHSA-2024:10528
-    - https://access.redhat.com/errata/RHSA-2024:10852
-    - https://access.redhat.com/security/cve/CVE-2024-10963
-    - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/2324291
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10963.html
-    - https://linux.oracle.com/errata/ELSA-2024-10379.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
-    - https://www.cve.org/CVERecord?id=CVE-2024-10963
-    PublishedDate: '2024-11-07T16:15:17.15Z'
-    LastModifiedDate: '2025-02-06T06:15:29.24Z'
-  - VulnerabilityID: CVE-2024-10041
-    PkgID: libpam-runtime@1.5.3-7ubuntu4.3
-    PkgName: libpam-runtime
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu4.3?arch=all&distro=ubuntu-25.04
-      UID: 1420d5870a0f1057
-    InstalledVersion: 1.5.3-7ubuntu4.3
-    Status: affected
-    Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: libpam: Libpam vulnerable to read hashed password'
-    Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this occurs, the attacker can train the branch predictor to execute an ROP chain speculatively. This flaw could result in leaked passwords, such as those found in /etc/shadow while performing authentications.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-922
-    VendorSeverity:
-      alma: 3
-      azure: 2
-      cbl-mariner: 2
-      oracle-oval: 2
-      redhat: 2
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:10379
-    - https://access.redhat.com/errata/RHSA-2024:11250
-    - https://access.redhat.com/errata/RHSA-2024:9941
-    - https://access.redhat.com/security/cve/CVE-2024-10041
-    - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/2324291
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10041.html
-    - https://linux.oracle.com/errata/ELSA-2024-11250.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
-    - https://www.cve.org/CVERecord?id=CVE-2024-10041
-    PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-12-18T10:15:05.85Z'
-  - VulnerabilityID: CVE-2024-10963
-    PkgID: libpam-runtime@1.5.3-7ubuntu4.3
-    PkgName: libpam-runtime
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu4.3?arch=all&distro=ubuntu-25.04
-      UID: 1420d5870a0f1057
-    InstalledVersion: 1.5.3-7ubuntu4.3
-    Status: affected
-    Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
-    Description: A flaw was found in pam_access, where certain rules in its configuration file are mistakenly treated as hostnames. This vulnerability allows attackers to trick the system by pretending to be a trusted hostname, gaining unauthorized access. This issue poses a risk for systems that rely on this feature to control who can access certain services or terminals.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-287
-    VendorSeverity:
-      alma: 3
-      azure: 3
-      oracle-oval: 3
-      redhat: 3
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
-        V3Score: 7.4
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:10232
-    - https://access.redhat.com/errata/RHSA-2024:10244
-    - https://access.redhat.com/errata/RHSA-2024:10379
-    - https://access.redhat.com/errata/RHSA-2024:10518
-    - https://access.redhat.com/errata/RHSA-2024:10528
-    - https://access.redhat.com/errata/RHSA-2024:10852
-    - https://access.redhat.com/security/cve/CVE-2024-10963
-    - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/2324291
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10963.html
-    - https://linux.oracle.com/errata/ELSA-2024-10379.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
-    - https://www.cve.org/CVERecord?id=CVE-2024-10963
-    PublishedDate: '2024-11-07T16:15:17.15Z'
-    LastModifiedDate: '2025-02-06T06:15:29.24Z'
-  - VulnerabilityID: CVE-2024-10041
-    PkgID: libpam0g@1.5.3-7ubuntu4.3
-    PkgName: libpam0g
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
-      UID: 78dc01c1ea68c9c2
-    InstalledVersion: 1.5.3-7ubuntu4.3
-    Status: affected
-    Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: libpam: Libpam vulnerable to read hashed password'
-    Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this occurs, the attacker can train the branch predictor to execute an ROP chain speculatively. This flaw could result in leaked passwords, such as those found in /etc/shadow while performing authentications.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-922
-    VendorSeverity:
-      alma: 3
-      azure: 2
-      cbl-mariner: 2
-      oracle-oval: 2
-      redhat: 2
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:10379
-    - https://access.redhat.com/errata/RHSA-2024:11250
-    - https://access.redhat.com/errata/RHSA-2024:9941
-    - https://access.redhat.com/security/cve/CVE-2024-10041
-    - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/2324291
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10041.html
-    - https://linux.oracle.com/errata/ELSA-2024-11250.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
-    - https://www.cve.org/CVERecord?id=CVE-2024-10041
-    PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-12-18T10:15:05.85Z'
-  - VulnerabilityID: CVE-2024-10963
-    PkgID: libpam0g@1.5.3-7ubuntu4.3
-    PkgName: libpam0g
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
-      UID: 78dc01c1ea68c9c2
-    InstalledVersion: 1.5.3-7ubuntu4.3
-    Status: affected
-    Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
-    Description: A flaw was found in pam_access, where certain rules in its configuration file are mistakenly treated as hostnames. This vulnerability allows attackers to trick the system by pretending to be a trusted hostname, gaining unauthorized access. This issue poses a risk for systems that rely on this feature to control who can access certain services or terminals.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-287
-    VendorSeverity:
-      alma: 3
-      azure: 3
-      oracle-oval: 3
-      redhat: 3
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
-        V3Score: 7.4
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:10232
-    - https://access.redhat.com/errata/RHSA-2024:10244
-    - https://access.redhat.com/errata/RHSA-2024:10379
-    - https://access.redhat.com/errata/RHSA-2024:10518
-    - https://access.redhat.com/errata/RHSA-2024:10528
-    - https://access.redhat.com/errata/RHSA-2024:10852
-    - https://access.redhat.com/security/cve/CVE-2024-10963
-    - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/2324291
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/8/ALSA-2024-10379.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10963.html
-    - https://linux.oracle.com/errata/ELSA-2024-10379.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
-    - https://www.cve.org/CVERecord?id=CVE-2024-10963
-    PublishedDate: '2024-11-07T16:15:17.15Z'
-    LastModifiedDate: '2025-02-06T06:15:29.24Z'
-  - VulnerabilityID: CVE-2025-40909
-    PkgID: libperl5.40@5.40.1-2ubuntu0.1
-    PkgName: libperl5.40
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libperl5.40@5.40.1-2ubuntu0.1?arch=amd64&distro=ubuntu-25.04
-      UID: 3b25b26fcc48aa94
-    InstalledVersion: 5.40.1-2ubuntu0.1
-    FixedVersion: 5.40.1-2ubuntu0.2
-    Status: fixed
-    Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-40909
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'perl: Perl threads have a working directory race condition where file operations may target unintended paths'
-    Description: "Perl threads have a working directory race condition where file operations may target unintended paths.\n\nIf a directory handle is open at thread creation, the process-wide current working directory is temporarily changed in order to clone\_that handle for the new thread, which is visible from any third (or\_more) thread already running. \n\nThis may lead to unintended operations\_such as loading code or accessing files from unexpected locations,\_which a local attacker may be able to exploit.\n\nThe bug was introduced in commit\_11a11ecf4bea72b17d250cfb43c897be1341861e and released in Perl version 5.13.6"
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-362
-    - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 3
+      azure: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
-        V3Score: 5.9
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
     References:
-    - http://www.openwall.com/lists/oss-security/2025/05/23/1
-    - http://www.openwall.com/lists/oss-security/2025/05/30/4
-    - http://www.openwall.com/lists/oss-security/2025/06/02/2
-    - http://www.openwall.com/lists/oss-security/2025/06/02/5
-    - http://www.openwall.com/lists/oss-security/2025/06/02/6
-    - http://www.openwall.com/lists/oss-security/2025/06/02/7
-    - http://www.openwall.com/lists/oss-security/2025/06/03/1
-    - https://access.redhat.com/errata/RHSA-2025:11805
-    - https://access.redhat.com/security/cve/CVE-2025-40909
-    - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1098226
-    - https://bugzilla.redhat.com/2369407
-    - https://errata.almalinux.org/8/ALSA-2025-11805.html
-    - https://github.com/Perl/perl5/commit/11a11ecf4bea72b17d250cfb43c897be1341861e
-    - https://github.com/Perl/perl5/commit/918bfff86ca8d6d4e4ec5b30994451e0bd74aba9.patch
-    - https://github.com/Perl/perl5/issues/10387
-    - https://github.com/Perl/perl5/issues/23010
-    - https://linux.oracle.com/cve/CVE-2025-40909.html
-    - https://linux.oracle.com/errata/ELSA-2025-12056.html
-    - https://lists.security.metacpan.org/cve-announce/msg/30017499/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-40909
-    - https://perldoc.perl.org/5.14.0/perl5136delta#Directory-handles-not-copied-to-threads
-    - https://ubuntu.com/security/notices/USN-7678-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-40909
-    - https://www.openwall.com/lists/oss-security/2025/05/22/2
-    PublishedDate: '2025-05-30T13:15:22.35Z'
-    LastModifiedDate: '2025-06-03T04:15:40.47Z'
+    - https://access.redhat.com/errata/RHSA-2024:10379
+    - https://access.redhat.com/errata/RHSA-2024:11250
+    - https://access.redhat.com/errata/RHSA-2024:9941
+    - https://access.redhat.com/security/cve/CVE-2024-10041
+    - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
+    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.rockylinux.org/RLSA-2024:10379
+    - https://linux.oracle.com/cve/CVE-2024-10041.html
+    - https://linux.oracle.com/errata/ELSA-2024-11250.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
+    - https://www.cve.org/CVERecord?id=CVE-2024-10041
+    PublishedDate: '2024-10-23T14:15:03.97Z'
+    LastModifiedDate: '2024-12-18T10:15:05.85Z'
+  - VulnerabilityID: CVE-2024-10963
+    PkgID: libpam-modules-bin@1.5.3-7ubuntu4.3
+    PkgName: libpam-modules-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
+      UID: 914231a75f77278f
+    InstalledVersion: 1.5.3-7ubuntu4.3
+    Status: affected
+    Layer:
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
+    Description: A flaw was found in pam_access, where certain rules in its configuration file are mistakenly treated as hostnames. This vulnerability allows attackers to trick the system by pretending to be a trusted hostname, gaining unauthorized access. This issue poses a risk for systems that rely on this feature to control who can access certain services or terminals.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-287
+    VendorSeverity:
+      alma: 3
+      azure: 3
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:10232
+    - https://access.redhat.com/errata/RHSA-2024:10244
+    - https://access.redhat.com/errata/RHSA-2024:10379
+    - https://access.redhat.com/errata/RHSA-2024:10518
+    - https://access.redhat.com/errata/RHSA-2024:10528
+    - https://access.redhat.com/errata/RHSA-2024:10852
+    - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2324291
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
+    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.rockylinux.org/RLSA-2024:10379
+    - https://linux.oracle.com/cve/CVE-2024-10963.html
+    - https://linux.oracle.com/errata/ELSA-2024-10379.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
+    - https://www.cve.org/CVERecord?id=CVE-2024-10963
+    PublishedDate: '2024-11-07T16:15:17.15Z'
+    LastModifiedDate: '2025-02-06T06:15:29.24Z'
+  - VulnerabilityID: CVE-2024-10041
+    PkgID: libpam-runtime@1.5.3-7ubuntu4.3
+    PkgName: libpam-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu4.3?arch=all&distro=ubuntu-25.04
+      UID: 1420d5870a0f1057
+    InstalledVersion: 1.5.3-7ubuntu4.3
+    Status: affected
+    Layer:
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'pam: libpam: Libpam vulnerable to read hashed password'
+    Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this occurs, the attacker can train the branch predictor to execute an ROP chain speculatively. This flaw could result in leaked passwords, such as those found in /etc/shadow while performing authentications.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-922
+    VendorSeverity:
+      alma: 2
+      azure: 2
+      cbl-mariner: 2
+      oracle-oval: 2
+      redhat: 2
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:10379
+    - https://access.redhat.com/errata/RHSA-2024:11250
+    - https://access.redhat.com/errata/RHSA-2024:9941
+    - https://access.redhat.com/security/cve/CVE-2024-10041
+    - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
+    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.rockylinux.org/RLSA-2024:10379
+    - https://linux.oracle.com/cve/CVE-2024-10041.html
+    - https://linux.oracle.com/errata/ELSA-2024-11250.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
+    - https://www.cve.org/CVERecord?id=CVE-2024-10041
+    PublishedDate: '2024-10-23T14:15:03.97Z'
+    LastModifiedDate: '2024-12-18T10:15:05.85Z'
+  - VulnerabilityID: CVE-2024-10963
+    PkgID: libpam-runtime@1.5.3-7ubuntu4.3
+    PkgName: libpam-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu4.3?arch=all&distro=ubuntu-25.04
+      UID: 1420d5870a0f1057
+    InstalledVersion: 1.5.3-7ubuntu4.3
+    Status: affected
+    Layer:
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
+    Description: A flaw was found in pam_access, where certain rules in its configuration file are mistakenly treated as hostnames. This vulnerability allows attackers to trick the system by pretending to be a trusted hostname, gaining unauthorized access. This issue poses a risk for systems that rely on this feature to control who can access certain services or terminals.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-287
+    VendorSeverity:
+      alma: 3
+      azure: 3
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:10232
+    - https://access.redhat.com/errata/RHSA-2024:10244
+    - https://access.redhat.com/errata/RHSA-2024:10379
+    - https://access.redhat.com/errata/RHSA-2024:10518
+    - https://access.redhat.com/errata/RHSA-2024:10528
+    - https://access.redhat.com/errata/RHSA-2024:10852
+    - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2324291
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
+    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.rockylinux.org/RLSA-2024:10379
+    - https://linux.oracle.com/cve/CVE-2024-10963.html
+    - https://linux.oracle.com/errata/ELSA-2024-10379.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
+    - https://www.cve.org/CVERecord?id=CVE-2024-10963
+    PublishedDate: '2024-11-07T16:15:17.15Z'
+    LastModifiedDate: '2025-02-06T06:15:29.24Z'
+  - VulnerabilityID: CVE-2024-10041
+    PkgID: libpam0g@1.5.3-7ubuntu4.3
+    PkgName: libpam0g
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
+      UID: 78dc01c1ea68c9c2
+    InstalledVersion: 1.5.3-7ubuntu4.3
+    Status: affected
+    Layer:
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'pam: libpam: Libpam vulnerable to read hashed password'
+    Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this occurs, the attacker can train the branch predictor to execute an ROP chain speculatively. This flaw could result in leaked passwords, such as those found in /etc/shadow while performing authentications.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-922
+    VendorSeverity:
+      alma: 2
+      azure: 2
+      cbl-mariner: 2
+      oracle-oval: 2
+      redhat: 2
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:10379
+    - https://access.redhat.com/errata/RHSA-2024:11250
+    - https://access.redhat.com/errata/RHSA-2024:9941
+    - https://access.redhat.com/security/cve/CVE-2024-10041
+    - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
+    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.rockylinux.org/RLSA-2024:10379
+    - https://linux.oracle.com/cve/CVE-2024-10041.html
+    - https://linux.oracle.com/errata/ELSA-2024-11250.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
+    - https://www.cve.org/CVERecord?id=CVE-2024-10041
+    PublishedDate: '2024-10-23T14:15:03.97Z'
+    LastModifiedDate: '2024-12-18T10:15:05.85Z'
+  - VulnerabilityID: CVE-2024-10963
+    PkgID: libpam0g@1.5.3-7ubuntu4.3
+    PkgName: libpam0g
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
+      UID: 78dc01c1ea68c9c2
+    InstalledVersion: 1.5.3-7ubuntu4.3
+    Status: affected
+    Layer:
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
+    Description: A flaw was found in pam_access, where certain rules in its configuration file are mistakenly treated as hostnames. This vulnerability allows attackers to trick the system by pretending to be a trusted hostname, gaining unauthorized access. This issue poses a risk for systems that rely on this feature to control who can access certain services or terminals.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-287
+    VendorSeverity:
+      alma: 3
+      azure: 3
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:10232
+    - https://access.redhat.com/errata/RHSA-2024:10244
+    - https://access.redhat.com/errata/RHSA-2024:10379
+    - https://access.redhat.com/errata/RHSA-2024:10518
+    - https://access.redhat.com/errata/RHSA-2024:10528
+    - https://access.redhat.com/errata/RHSA-2024:10852
+    - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2324291
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
+    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.rockylinux.org/RLSA-2024:10379
+    - https://linux.oracle.com/cve/CVE-2024-10963.html
+    - https://linux.oracle.com/errata/ELSA-2024-10379.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
+    - https://www.cve.org/CVERecord?id=CVE-2024-10963
+    PublishedDate: '2024-11-07T16:15:17.15Z'
+    LastModifiedDate: '2025-02-06T06:15:29.24Z'
   - VulnerabilityID: CVE-2023-37769
     PkgID: libpixman-1-0@0.44.0-3
     PkgName: libpixman-1-0
@@ -1576,8 +1506,8 @@
     InstalledVersion: 0.44.0-3
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-37769
     DataSource:
@@ -1610,8 +1540,8 @@
     InstalledVersion: 3.13.3-1ubuntu0.2
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
     DataSource:
@@ -1662,8 +1592,8 @@
     InstalledVersion: 3.13.3-1ubuntu0.2
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
     DataSource:
@@ -1710,12 +1640,12 @@
     PkgName: libpython3.13-stdlib
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libpython3.13-stdlib@3.13.3-1ubuntu0.2?arch=amd64&distro=ubuntu-25.04
-      UID: a2b2fc42284aeaaf
+      UID: 3cb56a383b21858
     InstalledVersion: 3.13.3-1ubuntu0.2
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
     DataSource:
@@ -1757,57 +1687,49 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-07-07T18:15:29.15Z'
-  - VulnerabilityID: CVE-2025-6965
-    PkgID: libsqlite3-0@3.46.1-3ubuntu0.1
-    PkgName: libsqlite3-0
+  - VulnerabilityID: CVE-2025-8176
+    PkgID: libtiff6@4.5.1+git230720-4ubuntu4
+    PkgName: libtiff6
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libsqlite3-0@3.46.1-3ubuntu0.1?arch=amd64&distro=ubuntu-25.04
-      UID: 8df742065dc11207
-    InstalledVersion: 3.46.1-3ubuntu0.1
-    FixedVersion: 3.46.1-3ubuntu0.2
-    Status: fixed
+      PURL: pkg:deb/ubuntu/libtiff6@4.5.1%2Bgit230720-4ubuntu4?arch=amd64&distro=ubuntu-25.04
+      UID: 9a17ce0aace20d7f
+    InstalledVersion: 4.5.1+git230720-4ubuntu4
+    Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6965
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8176
     DataSource:
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'sqlite: Integer Truncation in SQLite'
-    Description: There exists a vulnerability in SQLite versions before 3.50.2 where the number of aggregate terms could exceed the number of columns available. This could lead to a memory corruption issue. We recommend upgrading to version 3.50.2 or above.
-    Severity: MEDIUM
+    Title: 'libtiff: LibTIFF Use-After-Free Vulnerability'
+    Description: A vulnerability was found in LibTIFF up to 4.7.0. It has been declared as critical. This vulnerability affects the function get_histogram of the file tools/tiffmedian.c. The manipulation leads to use after free. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used. The patch is identified as fe10872e53efba9cc36c66ac4ab3b41a839d5172. It is recommended to apply a patch to fix this issue.
+    Severity: LOW
     CweIDs:
-    - CWE-197
+    - CWE-119
+    - CWE-416
     VendorSeverity:
-      alma: 3
-      bitnami: 3
-      nvd: 4
-      oracle-oval: 3
-      redhat: 3
-      ubuntu: 2
+      redhat: 2
+      ubuntu: 1
     CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 9.8
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:H/A:L
-        V3Score: 7.7
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:12010
-    - https://access.redhat.com/security/cve/CVE-2025-6965
-    - https://bugzilla.redhat.com/2380149
-    - https://errata.almalinux.org/8/ALSA-2025-12010.html
-    - https://linux.oracle.com/cve/CVE-2025-6965.html
-    - https://linux.oracle.com/errata/ELSA-2025-12010.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-6965
-    - https://ubuntu.com/security/notices/USN-7676-1
-    - https://ubuntu.com/security/notices/USN-7679-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-6965
-    - https://www.sqlite.org/src/info/5508b56fd24016c13981ec280ecdd833007c9d8dd595edb295b984c2b487b5c8
-    PublishedDate: '2025-07-15T14:15:31.08Z'
-    LastModifiedDate: '2025-07-22T17:06:21.51Z'
+    - http://www.libtiff.org/
+    - https://access.redhat.com/security/cve/CVE-2025-8176
+    - https://gitlab.com/libtiff/libtiff/-/commit/fe10872e53efba9cc36c66ac4ab3b41a839d5172
+    - https://gitlab.com/libtiff/libtiff/-/issues/707
+    - https://gitlab.com/libtiff/libtiff/-/merge_requests/727
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8176
+    - https://vuldb.com/?ctiid.317590
+    - https://vuldb.com/?id.317590
+    - https://vuldb.com/?submit.621796
+    - https://www.cve.org/CVERecord?id=CVE-2025-8176
+    PublishedDate: '2025-07-26T04:16:10.527Z'
+    LastModifiedDate: '2025-07-29T14:14:55.157Z'
   - VulnerabilityID: CVE-2021-39920
     PkgID: libwireshark-data@4.4.5-1
     PkgName: libwireshark-data
@@ -1817,8 +1739,8 @@
     InstalledVersion: 4.4.5-1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
     DataSource:
@@ -1868,8 +1790,8 @@
     InstalledVersion: 4.4.5-1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
     DataSource:
@@ -1919,8 +1841,8 @@
     InstalledVersion: 4.4.5-1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
     DataSource:
@@ -1970,8 +1892,8 @@
     InstalledVersion: 4.4.5-1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
     DataSource:
@@ -2021,8 +1943,8 @@
     InstalledVersion: 2.41-6ubuntu1.1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -2058,8 +1980,8 @@
     InstalledVersion: 1:4.16.0-7ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -2097,8 +2019,8 @@
     InstalledVersion: 1:4.16.0-7ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -2127,192 +2049,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2024-12-26T09:15:07.267Z'
-  - VulnerabilityID: CVE-2025-40909
-    PkgID: perl@5.40.1-2ubuntu0.1
-    PkgName: perl
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/perl@5.40.1-2ubuntu0.1?arch=amd64&distro=ubuntu-25.04
-      UID: 3028748aa830fc8f
-    InstalledVersion: 5.40.1-2ubuntu0.1
-    FixedVersion: 5.40.1-2ubuntu0.2
-    Status: fixed
-    Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-40909
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'perl: Perl threads have a working directory race condition where file operations may target unintended paths'
-    Description: "Perl threads have a working directory race condition where file operations may target unintended paths.\n\nIf a directory handle is open at thread creation, the process-wide current working directory is temporarily changed in order to clone\_that handle for the new thread, which is visible from any third (or\_more) thread already running. \n\nThis may lead to unintended operations\_such as loading code or accessing files from unexpected locations,\_which a local attacker may be able to exploit.\n\nThe bug was introduced in commit\_11a11ecf4bea72b17d250cfb43c897be1341861e and released in Perl version 5.13.6"
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-362
-    - CWE-426
-    VendorSeverity:
-      alma: 2
-      amazon: 3
-      cbl-mariner: 2
-      oracle-oval: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
-        V3Score: 5.9
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/05/23/1
-    - http://www.openwall.com/lists/oss-security/2025/05/30/4
-    - http://www.openwall.com/lists/oss-security/2025/06/02/2
-    - http://www.openwall.com/lists/oss-security/2025/06/02/5
-    - http://www.openwall.com/lists/oss-security/2025/06/02/6
-    - http://www.openwall.com/lists/oss-security/2025/06/02/7
-    - http://www.openwall.com/lists/oss-security/2025/06/03/1
-    - https://access.redhat.com/errata/RHSA-2025:11805
-    - https://access.redhat.com/security/cve/CVE-2025-40909
-    - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1098226
-    - https://bugzilla.redhat.com/2369407
-    - https://errata.almalinux.org/8/ALSA-2025-11805.html
-    - https://github.com/Perl/perl5/commit/11a11ecf4bea72b17d250cfb43c897be1341861e
-    - https://github.com/Perl/perl5/commit/918bfff86ca8d6d4e4ec5b30994451e0bd74aba9.patch
-    - https://github.com/Perl/perl5/issues/10387
-    - https://github.com/Perl/perl5/issues/23010
-    - https://linux.oracle.com/cve/CVE-2025-40909.html
-    - https://linux.oracle.com/errata/ELSA-2025-12056.html
-    - https://lists.security.metacpan.org/cve-announce/msg/30017499/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-40909
-    - https://perldoc.perl.org/5.14.0/perl5136delta#Directory-handles-not-copied-to-threads
-    - https://ubuntu.com/security/notices/USN-7678-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-40909
-    - https://www.openwall.com/lists/oss-security/2025/05/22/2
-    PublishedDate: '2025-05-30T13:15:22.35Z'
-    LastModifiedDate: '2025-06-03T04:15:40.47Z'
-  - VulnerabilityID: CVE-2025-40909
-    PkgID: perl-base@5.40.1-2ubuntu0.1
-    PkgName: perl-base
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/perl-base@5.40.1-2ubuntu0.1?arch=amd64&distro=ubuntu-25.04
-      UID: d890fbc6969495a8
-    InstalledVersion: 5.40.1-2ubuntu0.1
-    FixedVersion: 5.40.1-2ubuntu0.2
-    Status: fixed
-    Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-40909
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'perl: Perl threads have a working directory race condition where file operations may target unintended paths'
-    Description: "Perl threads have a working directory race condition where file operations may target unintended paths.\n\nIf a directory handle is open at thread creation, the process-wide current working directory is temporarily changed in order to clone\_that handle for the new thread, which is visible from any third (or\_more) thread already running. \n\nThis may lead to unintended operations\_such as loading code or accessing files from unexpected locations,\_which a local attacker may be able to exploit.\n\nThe bug was introduced in commit\_11a11ecf4bea72b17d250cfb43c897be1341861e and released in Perl version 5.13.6"
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-362
-    - CWE-426
-    VendorSeverity:
-      alma: 2
-      amazon: 3
-      cbl-mariner: 2
-      oracle-oval: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
-        V3Score: 5.9
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/05/23/1
-    - http://www.openwall.com/lists/oss-security/2025/05/30/4
-    - http://www.openwall.com/lists/oss-security/2025/06/02/2
-    - http://www.openwall.com/lists/oss-security/2025/06/02/5
-    - http://www.openwall.com/lists/oss-security/2025/06/02/6
-    - http://www.openwall.com/lists/oss-security/2025/06/02/7
-    - http://www.openwall.com/lists/oss-security/2025/06/03/1
-    - https://access.redhat.com/errata/RHSA-2025:11805
-    - https://access.redhat.com/security/cve/CVE-2025-40909
-    - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1098226
-    - https://bugzilla.redhat.com/2369407
-    - https://errata.almalinux.org/8/ALSA-2025-11805.html
-    - https://github.com/Perl/perl5/commit/11a11ecf4bea72b17d250cfb43c897be1341861e
-    - https://github.com/Perl/perl5/commit/918bfff86ca8d6d4e4ec5b30994451e0bd74aba9.patch
-    - https://github.com/Perl/perl5/issues/10387
-    - https://github.com/Perl/perl5/issues/23010
-    - https://linux.oracle.com/cve/CVE-2025-40909.html
-    - https://linux.oracle.com/errata/ELSA-2025-12056.html
-    - https://lists.security.metacpan.org/cve-announce/msg/30017499/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-40909
-    - https://perldoc.perl.org/5.14.0/perl5136delta#Directory-handles-not-copied-to-threads
-    - https://ubuntu.com/security/notices/USN-7678-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-40909
-    - https://www.openwall.com/lists/oss-security/2025/05/22/2
-    PublishedDate: '2025-05-30T13:15:22.35Z'
-    LastModifiedDate: '2025-06-03T04:15:40.47Z'
-  - VulnerabilityID: CVE-2025-40909
-    PkgID: perl-modules-5.40@5.40.1-2ubuntu0.1
-    PkgName: perl-modules-5.40
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/perl-modules-5.40@5.40.1-2ubuntu0.1?arch=all&distro=ubuntu-25.04
-      UID: 9f28f1f57be0dc18
-    InstalledVersion: 5.40.1-2ubuntu0.1
-    FixedVersion: 5.40.1-2ubuntu0.2
-    Status: fixed
-    Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-40909
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'perl: Perl threads have a working directory race condition where file operations may target unintended paths'
-    Description: "Perl threads have a working directory race condition where file operations may target unintended paths.\n\nIf a directory handle is open at thread creation, the process-wide current working directory is temporarily changed in order to clone\_that handle for the new thread, which is visible from any third (or\_more) thread already running. \n\nThis may lead to unintended operations\_such as loading code or accessing files from unexpected locations,\_which a local attacker may be able to exploit.\n\nThe bug was introduced in commit\_11a11ecf4bea72b17d250cfb43c897be1341861e and released in Perl version 5.13.6"
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-362
-    - CWE-426
-    VendorSeverity:
-      alma: 2
-      amazon: 3
-      cbl-mariner: 2
-      oracle-oval: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
-        V3Score: 5.9
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/05/23/1
-    - http://www.openwall.com/lists/oss-security/2025/05/30/4
-    - http://www.openwall.com/lists/oss-security/2025/06/02/2
-    - http://www.openwall.com/lists/oss-security/2025/06/02/5
-    - http://www.openwall.com/lists/oss-security/2025/06/02/6
-    - http://www.openwall.com/lists/oss-security/2025/06/02/7
-    - http://www.openwall.com/lists/oss-security/2025/06/03/1
-    - https://access.redhat.com/errata/RHSA-2025:11805
-    - https://access.redhat.com/security/cve/CVE-2025-40909
-    - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1098226
-    - https://bugzilla.redhat.com/2369407
-    - https://errata.almalinux.org/8/ALSA-2025-11805.html
-    - https://github.com/Perl/perl5/commit/11a11ecf4bea72b17d250cfb43c897be1341861e
-    - https://github.com/Perl/perl5/commit/918bfff86ca8d6d4e4ec5b30994451e0bd74aba9.patch
-    - https://github.com/Perl/perl5/issues/10387
-    - https://github.com/Perl/perl5/issues/23010
-    - https://linux.oracle.com/cve/CVE-2025-40909.html
-    - https://linux.oracle.com/errata/ELSA-2025-12056.html
-    - https://lists.security.metacpan.org/cve-announce/msg/30017499/
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-40909
-    - https://perldoc.perl.org/5.14.0/perl5136delta#Directory-handles-not-copied-to-threads
-    - https://ubuntu.com/security/notices/USN-7678-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-40909
-    - https://www.openwall.com/lists/oss-security/2025/05/22/2
-    PublishedDate: '2025-05-30T13:15:22.35Z'
-    LastModifiedDate: '2025-06-03T04:15:40.47Z'
   - VulnerabilityID: CVE-2025-6069
     PkgID: python3.13@3.13.3-1ubuntu0.2
     PkgName: python3.13
@@ -2322,8 +2058,8 @@
     InstalledVersion: 3.13.3-1ubuntu0.2
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
     DataSource:
@@ -2374,8 +2110,8 @@
     InstalledVersion: 3.13.3-1ubuntu0.2
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
     DataSource:
@@ -2426,8 +2162,8 @@
     InstalledVersion: 1.35+dfsg-3.1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-45582
     DataSource:
@@ -2464,8 +2200,8 @@
     InstalledVersion: 4.4.5-1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
     DataSource:
@@ -2515,8 +2251,8 @@
     InstalledVersion: 1.24.5-2ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-31879
     DataSource:
@@ -2562,8 +2298,8 @@
     InstalledVersion: 4.4.5-1
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
     DataSource:
@@ -2613,8 +2349,8 @@
     InstalledVersion: 1:7.7+23ubuntu4
     Status: affected
     Layer:
-      Digest: sha256:ffcda487ca1e4305bf5d41b49da817b401b4da8c5ca29354c8c3049a8712e9d4
-      DiffID: sha256:7a61a3162e82a172f524ab96c15b1290e45eb7067fb5955e52ae7d8ab5212f30
+      Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7ab540cd9285fed9031f1
+      DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197d0f4c42ca478d937672
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5574
     DataSource:
