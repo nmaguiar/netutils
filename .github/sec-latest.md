@@ -1911,6 +1911,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-197 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ nvd        : 4 
 │                       │      │                  ├ oracle-oval: 3 
