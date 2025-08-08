@@ -1645,6 +1645,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -1705,6 +1706,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -1765,6 +1767,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -2220,6 +2223,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -2280,6 +2284,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -2589,7 +2594,39 @@
 ├ [2] ╭ Target: Python 
 │     ├ Class : lang-pkgs 
 │     ╰ Type  : python-pkg 
-╰ [3] ╭ Target: usr/bin/lazydocker 
-      ├ Class : lang-pkgs 
-      ╰ Type  : gobinary 
+╰ [3] ╭ Target         : usr/bin/lazydocker 
+      ├ Class          : lang-pkgs 
+      ├ Type           : gobinary 
+      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2025-47907 
+                              ├ PkgID           : stdlib@v1.24.5 
+                              ├ PkgName         : stdlib 
+                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.24.5 
+                              │                  ╰ UID : f710c3c0c799c89d 
+                              ├ InstalledVersion: v1.24.5 
+                              ├ FixedVersion    : 1.23.12, 1.24.6 
+                              ├ Status          : fixed 
+                              ├ Layer            ╭ Digest: sha256:a4576752de77759a9dd5a1ec54bcd34cc8a474c7d2a7a
+                              │                  │         b540cd9285fed9031f1 
+                              │                  ╰ DiffID: sha256:3f3e435aa3875ecb03a9d66db4f55e749a19d900da197
+                              │                            d0f4c42ca478d937672 
+                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-47907 
+                              ├ DataSource       ╭ ID  : govulndb 
+                              │                  ├ Name: The Go Vulnerability Database 
+                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+                              ├ Title           : Cancelling a query (e.g. by cancelling the context passed to
+                              │                   one of th ... 
+                              ├ Description     : Cancelling a query (e.g. by cancelling the context passed to
+                              │                   one of the query methods) during a call to the Scan method of
+                              │                    the returned Rows can result in unexpected results if other
+                              │                   queries are being made in parallel. This can result in a race
+                              │                    condition that may overwrite the expected results with those
+                              │                    of another query, causing the call to Scan to return either
+                              │                   unexpected results from the other query or an error. 
+                              ├ Severity        : UNKNOWN 
+                              ├ References       ╭ [0]: https://go.dev/cl/693735 
+                              │                  ├ [1]: https://go.dev/issue/74831 
+                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML2yM 
+                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3849 
+                              ├ PublishedDate   : 2025-08-07T16:15:30.357Z 
+                              ╰ LastModifiedDate: 2025-08-07T16:15:30.357Z 
 ````
