@@ -3018,5 +3018,5 @@
                               │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML2yM 
                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3849 
                               ├ PublishedDate   : 2025-08-07T16:15:30.357Z 
-                              ╰ LastModifiedDate: 2025-08-07T16:15:30.357Z 
+                              ╰ LastModifiedDate: 2025-08-07T21:26:37.453Z 
 ````
