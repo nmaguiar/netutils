@@ -3012,11 +3012,16 @@
                               │                    condition that may overwrite the expected results with those
                               │                    of another query, causing the call to Scan to return either
                               │                   unexpected results from the other query or an error. 
-                              ├ Severity        : UNKNOWN 
+                              ├ Severity        : HIGH 
+                              ├ VendorSeverity   ─ bitnami: 3 
+                              ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L
+                              │                            │           /A:L 
+                              │                            ╰ V3Score : 7 
                               ├ References       ╭ [0]: https://go.dev/cl/693735 
                               │                  ├ [1]: https://go.dev/issue/74831 
                               │                  ├ [2]: https://groups.google.com/g/golang-announce/c/x5MKroML2yM 
-                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-3849 
+                              │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-47907 
+                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3849 
                               ├ PublishedDate   : 2025-08-07T16:15:30.357Z 
                               ╰ LastModifiedDate: 2025-08-07T21:26:37.453Z 
 ````
