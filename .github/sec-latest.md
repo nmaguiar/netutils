@@ -1627,7 +1627,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-362 
 │                       │      │                  ╰ [1]: CWE-426 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -2378,7 +2378,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-362 
 │                       │      │                  ╰ [1]: CWE-426 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -2461,7 +2461,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-362 
 │                       │      │                  ╰ [1]: CWE-426 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -2544,7 +2544,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-362 
 │                       │      │                  ╰ [1]: CWE-426 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
