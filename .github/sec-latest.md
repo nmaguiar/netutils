@@ -1627,7 +1627,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-362 
 │                       │      │                  ╰ [1]: CWE-426 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -1927,13 +1927,13 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:H
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 7.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:11992 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:11933 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-6965 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2380149 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2380149 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6965 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-11992.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-11933.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:12010 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-6965.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-12349.html 
@@ -2378,7 +2378,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-362 
 │                       │      │                  ╰ [1]: CWE-426 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -2461,7 +2461,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-362 
 │                       │      │                  ╰ [1]: CWE-426 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -2544,7 +2544,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-362 
 │                       │      │                  ╰ [1]: CWE-426 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
