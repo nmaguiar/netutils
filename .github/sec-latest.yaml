@@ -497,80 +497,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-29481
     PublishedDate: '2025-04-07T20:15:20.72Z'
     LastModifiedDate: '2025-04-15T15:42:59.65Z'
-  - VulnerabilityID: CVE-2016-20013
-    PkgID: libc-bin@2.41-6ubuntu1.1
-    PkgName: libc-bin
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libc-bin@2.41-6ubuntu1.1?arch=amd64&distro=ubuntu-25.04
-      UID: 798a8ba2010c8ddb
-    InstalledVersion: 2.41-6ubuntu1.1
-    Status: affected
-    Layer:
-      Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb14b13a8699d7e41ae4ed
-      DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413fb429ecda26bad8ae6775
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Description: sha256crypt and sha512crypt through 0.6 allow attackers to cause a denial of service (CPU consumption) because the algorithm's runtime is proportional to the square of the length of the password.
-    Severity: LOW
-    CweIDs:
-    - CWE-770
-    VendorSeverity:
-      nvd: 3
-      ubuntu: 1
-    CVSS:
-      nvd:
-        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V2Score: 5
-        V3Score: 7.5
-    References:
-    - https://akkadia.org/drepper/SHA-crypt.txt
-    - https://pthree.org/2018/05/23/do-not-use-sha256crypt-sha512crypt-theyre-dangerous/
-    - https://twitter.com/solardiz/status/795601240151457793
-    - https://www.cve.org/CVERecord?id=CVE-2016-20013
-    PublishedDate: '2022-02-19T05:15:09.413Z'
-    LastModifiedDate: '2024-11-21T02:47:33.427Z'
-  - VulnerabilityID: CVE-2016-20013
-    PkgID: libc6@2.41-6ubuntu1.1
-    PkgName: libc6
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libc6@2.41-6ubuntu1.1?arch=amd64&distro=ubuntu-25.04
-      UID: de34a93826490997
-    InstalledVersion: 2.41-6ubuntu1.1
-    Status: affected
-    Layer:
-      Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb14b13a8699d7e41ae4ed
-      DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413fb429ecda26bad8ae6775
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Description: sha256crypt and sha512crypt through 0.6 allow attackers to cause a denial of service (CPU consumption) because the algorithm's runtime is proportional to the square of the length of the password.
-    Severity: LOW
-    CweIDs:
-    - CWE-770
-    VendorSeverity:
-      nvd: 3
-      ubuntu: 1
-    CVSS:
-      nvd:
-        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V2Score: 5
-        V3Score: 7.5
-    References:
-    - https://akkadia.org/drepper/SHA-crypt.txt
-    - https://pthree.org/2018/05/23/do-not-use-sha256crypt-sha512crypt-theyre-dangerous/
-    - https://twitter.com/solardiz/status/795601240151457793
-    - https://www.cve.org/CVERecord?id=CVE-2016-20013
-    PublishedDate: '2022-02-19T05:15:09.413Z'
-    LastModifiedDate: '2024-11-21T02:47:33.427Z'
   - VulnerabilityID: CVE-2017-7475
     PkgID: libcairo-gobject2@1.18.4-1
     PkgName: libcairo-gobject2
@@ -1527,7 +1453,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -1787,6 +1713,7 @@
       alma: 3
       amazon: 2
       bitnami: 3
+      cbl-mariner: 3
       nvd: 4
       oracle-oval: 3
       redhat: 3
@@ -1800,12 +1727,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:H/A:L
         V3Score: 7.7
     References:
-    - https://access.redhat.com/errata/RHSA-2025:11933
+    - https://access.redhat.com/errata/RHSA-2025:11992
     - https://access.redhat.com/security/cve/CVE-2025-6965
     - https://bugzilla.redhat.com/2380149
     - https://bugzilla.redhat.com/show_bug.cgi?id=2380149
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6965
-    - https://errata.almalinux.org/10/ALSA-2025-11933.html
+    - https://errata.almalinux.org/9/ALSA-2025-11992.html
     - https://errata.rockylinux.org/RLSA-2025:12010
     - https://linux.oracle.com/cve/CVE-2025-6965.html
     - https://linux.oracle.com/errata/ELSA-2025-12349.html
@@ -2063,43 +1990,6 @@
     - https://www.wireshark.org/security/wnpa-sec-2021-15.html
     PublishedDate: '2021-11-18T19:15:08.333Z'
     LastModifiedDate: '2024-11-21T06:20:33.82Z'
-  - VulnerabilityID: CVE-2016-20013
-    PkgID: locales@2.41-6ubuntu1.1
-    PkgName: locales
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/locales@2.41-6ubuntu1.1?arch=all&distro=ubuntu-25.04
-      UID: 259a33310ff79685
-    InstalledVersion: 2.41-6ubuntu1.1
-    Status: affected
-    Layer:
-      Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb14b13a8699d7e41ae4ed
-      DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413fb429ecda26bad8ae6775
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Description: sha256crypt and sha512crypt through 0.6 allow attackers to cause a denial of service (CPU consumption) because the algorithm's runtime is proportional to the square of the length of the password.
-    Severity: LOW
-    CweIDs:
-    - CWE-770
-    VendorSeverity:
-      nvd: 3
-      ubuntu: 1
-    CVSS:
-      nvd:
-        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V2Score: 5
-        V3Score: 7.5
-    References:
-    - https://akkadia.org/drepper/SHA-crypt.txt
-    - https://pthree.org/2018/05/23/do-not-use-sha256crypt-sha512crypt-theyre-dangerous/
-    - https://twitter.com/solardiz/status/795601240151457793
-    - https://www.cve.org/CVERecord?id=CVE-2016-20013
-    PublishedDate: '2022-02-19T05:15:09.413Z'
-    LastModifiedDate: '2024-11-21T02:47:33.427Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: login.defs@1:4.16.0-7ubuntu1
     PkgName: login.defs
@@ -2204,7 +2094,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -2270,7 +2160,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -2336,7 +2226,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -2731,6 +2621,52 @@
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
+  - VulnerabilityID: CVE-2025-54410
+    PkgID: github.com/docker/docker@v27.1.1+incompatible
+    PkgName: github.com/docker/docker
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/docker/docker@v27.1.1%2Bincompatible
+      UID: 3384569f91ac6938
+    InstalledVersion: v27.1.1+incompatible
+    FixedVersion: 28.0.0
+    Status: fixed
+    Layer:
+      Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb14b13a8699d7e41ae4ed
+      DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413fb429ecda26bad8ae6775
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-54410
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: 'github.com/moby/moby: Moby''s Firewalld reload removes bridge network isolation'
+    Description: |-
+      Moby is an open source container framework developed by Docker Inc. that is distributed as Docker Engine, Mirantis Container Runtime, and various other downstream projects/products. A firewalld vulnerability affects Moby releases before 28.0.0. When firewalld reloads, Docker fails to re-create iptables rules that isolate bridge networks, allowing any container to access all ports on any other container across different bridge networks on the same host. This breaks network segmentation between containers that should be isolated, creating significant risk in multi-tenant environments. Only containers in --internal networks remain protected.
+      Workarounds include reloading firewalld and either restarting the docker daemon, re-creating bridge networks, or using rootless mode. Maintainers anticipate a fix for this issue in version 25.0.13.
+    Severity: LOW
+    CweIDs:
+    - CWE-909
+    VendorSeverity:
+      ghsa: 1
+      redhat: 1
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:N
+        V3Score: 3.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:N
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-54410
+    - https://firewalld.org/documentation/howto/reload-firewalld.html
+    - https://github.com/moby/moby
+    - https://github.com/moby/moby/pull/49443
+    - https://github.com/moby/moby/pull/49728
+    - https://github.com/moby/moby/security/advisories/GHSA-4vq8-7jfc-9cvp
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-54410
+    - https://www.cve.org/CVERecord?id=CVE-2025-54410
+    PublishedDate: '2025-07-30T14:15:28.9Z'
+    LastModifiedDate: '2025-07-31T18:42:37.87Z'
   - VulnerabilityID: CVE-2025-47907
     PkgID: stdlib@v1.24.5
     PkgName: stdlib
@@ -2748,20 +2684,26 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: Cancelling a query (e.g. by cancelling the context passed to one of th ...
+    Title: 'database/sql: Postgres Scan Race Condition'
     Description: Cancelling a query (e.g. by cancelling the context passed to one of the query methods) during a call to the Scan method of the returned Rows can result in unexpected results if other queries are being made in parallel. This can result in a race condition that may overwrite the expected results with those of another query, causing the call to Scan to return either unexpected results from the other query or an error.
     Severity: HIGH
     VendorSeverity:
       bitnami: 3
+      redhat: 3
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
         V3Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
+        V3Score: 7
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-47907
     - https://go.dev/cl/693735
     - https://go.dev/issue/74831
     - https://groups.google.com/g/golang-announce/c/x5MKroML2yM
     - https://nvd.nist.gov/vuln/detail/CVE-2025-47907
     - https://pkg.go.dev/vuln/GO-2025-3849
+    - https://www.cve.org/CVERecord?id=CVE-2025-47907
     PublishedDate: '2025-08-07T16:15:30.357Z'
     LastModifiedDate: '2025-08-07T21:26:37.453Z'
