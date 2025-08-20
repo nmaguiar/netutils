@@ -1903,7 +1903,8 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ╭ [0]: CWE-119 
 │                       │      │                  ╰ [1]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
@@ -2642,7 +2643,11 @@
 │                       │      │                   installation processes in which "tar xf" is run more than
 │                       │      │                   once (e.g., when installing a package can automatically
 │                       │      │                   install two dependencies that are set up as untrusted
-│                       │      │                   tarballs instead of official packages). 
+│                       │      │                   tarballs instead of official packages). NOTE: the official
+│                       │      │                   GNU Tar manual has an otherwise-empty directory for each
+│                       │      │                   "tar xf" in its Security Rules of Thumb; however,
+│                       │      │                   third-party advice leads users to run "tar xf" more than
+│                       │      │                   once into the same directory. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-24 
 │                       │      ├ VendorSeverity   ╭ redhat: 2 
@@ -2653,13 +2658,19 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-45582 
 │                       │      │                  ├ [1]: https://github.com/i900008/vulndb/blob/main/Gnu_tar_vu
 │                       │      │                  │      ln.md 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-45582 
-│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-45582 
-│                       │      │                  ├ [4]: https://www.gnu.org/software/tar/ 
-│                       │      │                  ╰ [5]: https://www.gnu.org/software/tar/manual/html_node/Inte
-│                       │      │                         grity.html#Integrity 
+│                       │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-tar/2025-08/msg
+│                       │      │                  │      00012.html 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-45582 
+│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-45582 
+│                       │      │                  ├ [5]: https://www.gnu.org/software/tar/ 
+│                       │      │                  ├ [6]: https://www.gnu.org/software/tar/manual/html_node/Inte
+│                       │      │                  │      grity.html 
+│                       │      │                  ├ [7]: https://www.gnu.org/software/tar/manual/html_node/Inte
+│                       │      │                  │      grity.html#Integrity 
+│                       │      │                  ╰ [8]: https://www.gnu.org/software/tar/manual/html_node/Secu
+│                       │      │                         rity-rules-of-thumb.html 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
-│                       │      ╰ LastModifiedDate: 2025-07-17T13:09:39.997Z 
+│                       │      ╰ LastModifiedDate: 2025-08-18T04:15:36.743Z 
 │                       ├ [49] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : tshark@4.4.5-1 
 │                       │      ├ PkgName         : tshark 
