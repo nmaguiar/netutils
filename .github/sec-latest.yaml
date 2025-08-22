@@ -1465,7 +1465,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -1755,6 +1755,96 @@
     - https://www.sqlite.org/src/info/5508b56fd24016c13981ec280ecdd833007c9d8dd595edb295b984c2b487b5c8
     PublishedDate: '2025-07-15T14:15:31.08Z'
     LastModifiedDate: '2025-07-22T17:06:21.51Z'
+  - VulnerabilityID: CVE-2025-8534
+    PkgID: libtiff6@4.5.1+git230720-4ubuntu4
+    PkgName: libtiff6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libtiff6@4.5.1%2Bgit230720-4ubuntu4?arch=amd64&distro=ubuntu-25.04
+      UID: 9a17ce0aace20d7f
+    InstalledVersion: 4.5.1+git230720-4ubuntu4
+    FixedVersion: 4.5.1+git230720-4ubuntu4.1
+    Status: fixed
+    Layer:
+      Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb14b13a8699d7e41ae4ed
+      DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413fb429ecda26bad8ae6775
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8534
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libtiff: Libtiff Null Pointer Dereference Vulnerability'
+    Description: A vulnerability classified as problematic was found in libtiff 4.6.0. This vulnerability affects the function PS_Lvl2page of the file tools/tiff2ps.c of the component tiff2ps. The manipulation leads to null pointer dereference. It is possible to launch the attack on the local host. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The name of the patch is 6ba36f159fd396ad11bf6b7874554197736ecc8b. It is recommended to apply a patch to fix this issue. One of the maintainers explains, that "[t]his error only occurs if DEFER_STRILE_LOAD (defer-strile-load:BOOL=ON) or TIFFOpen( .. "rD") option is used."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-404
+    - CWE-476
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.5
+    References:
+    - http://www.libtiff.org/
+    - https://access.redhat.com/security/cve/CVE-2025-8534
+    - https://drive.google.com/file/d/15JPA3kLYiYD-nRNJ8y8HmnYjhv9NE7k6/view?usp=drive_link
+    - https://gitlab.com/libtiff/libtiff/-/commit/6ba36f159fd396ad11bf6b7874554197736ecc8b
+    - https://gitlab.com/libtiff/libtiff/-/issues/718
+    - https://gitlab.com/libtiff/libtiff/-/merge_requests/746
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8534
+    - https://ubuntu.com/security/notices/USN-7707-1
+    - https://vuldb.com/?ctiid.318664
+    - https://vuldb.com/?id.318664
+    - https://vuldb.com/?submit.617831
+    - https://www.cve.org/CVERecord?id=CVE-2025-8534
+    PublishedDate: '2025-08-05T00:15:56.88Z'
+    LastModifiedDate: '2025-08-05T16:15:31.33Z'
+  - VulnerabilityID: CVE-2025-8851
+    PkgID: libtiff6@4.5.1+git230720-4ubuntu4
+    PkgName: libtiff6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libtiff6@4.5.1%2Bgit230720-4ubuntu4?arch=amd64&distro=ubuntu-25.04
+      UID: 9a17ce0aace20d7f
+    InstalledVersion: 4.5.1+git230720-4ubuntu4
+    FixedVersion: 4.5.1+git230720-4ubuntu4.1
+    Status: fixed
+    Layer:
+      Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb14b13a8699d7e41ae4ed
+      DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413fb429ecda26bad8ae6775
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8851
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libtiff: LibTIFF Stack-based buffer overflow'
+    Description: A vulnerability was determined in LibTIFF up to 4.5.1. Affected by this issue is the function readSeparateStripsetoBuffer of the file tools/tiffcrop.c of the component tiffcrop. The manipulation leads to stack-based buffer overflow. Local access is required to approach this attack. The patch is identified as 8a7a48d7a645992ca83062b3a1873c951661e2b3. It is recommended to apply a patch to fix this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    - CWE-121
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.3
+    References:
+    - http://www.libtiff.org/
+    - https://access.redhat.com/security/cve/CVE-2025-8851
+    - https://gitlab.com/libtiff/libtiff/-/commit/8a7a48d7a645992ca83062b3a1873c951661e2b3
+    - https://gitlab.com/libtiff/libtiff/-/commit/8a7a48d7a645992ca83062b3a1873c951661e2b3 (v4.7.0rc1)
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8851
+    - https://ubuntu.com/security/notices/USN-7707-1
+    - https://vuldb.com/?ctiid.319382
+    - https://vuldb.com/?id.319382
+    - https://vuldb.com/?submit.624604
+    - https://www.cve.org/CVERecord?id=CVE-2025-8851
+    PublishedDate: '2025-08-11T14:15:27.597Z'
+    LastModifiedDate: '2025-08-12T14:15:30.617Z'
   - VulnerabilityID: CVE-2025-8176
     PkgID: libtiff6@4.5.1+git230720-4ubuntu4
     PkgName: libtiff6
@@ -1762,7 +1852,8 @@
       PURL: pkg:deb/ubuntu/libtiff6@4.5.1%2Bgit230720-4ubuntu4?arch=amd64&distro=ubuntu-25.04
       UID: 9a17ce0aace20d7f
     InstalledVersion: 4.5.1+git230720-4ubuntu4
-    Status: affected
+    FixedVersion: 4.5.1+git230720-4ubuntu4.1
+    Status: fixed
     Layer:
       Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb14b13a8699d7e41ae4ed
       DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413fb429ecda26bad8ae6775
@@ -1793,6 +1884,7 @@
     - https://gitlab.com/libtiff/libtiff/-/issues/707
     - https://gitlab.com/libtiff/libtiff/-/merge_requests/727
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8176
+    - https://ubuntu.com/security/notices/USN-7707-1
     - https://vuldb.com/?ctiid.317590
     - https://vuldb.com/?id.317590
     - https://vuldb.com/?submit.621796
@@ -2367,7 +2459,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -2433,7 +2525,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
@@ -2499,7 +2591,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
