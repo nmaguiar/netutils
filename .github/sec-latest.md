@@ -1567,7 +1567,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-362 
 │                       │      │                  ╰ [1]: CWE-426 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -1886,14 +1886,120 @@
 │                       │      │                          c280ecdd833007c9d8dd595edb295b984c2b487b5c8 
 │                       │      ├ PublishedDate   : 2025-07-15T14:15:31.08Z 
 │                       │      ╰ LastModifiedDate: 2025-07-22T17:06:21.51Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2025-8176 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2025-8534 
 │                       │      ├ PkgID           : libtiff6@4.5.1+git230720-4ubuntu4 
 │                       │      ├ PkgName         : libtiff6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtiff6@4.5.1%2Bgit230720-4ubuntu4?ar
 │                       │      │                  │       ch=amd64&distro=ubuntu-25.04 
 │                       │      │                  ╰ UID : 9a17ce0aace20d7f 
 │                       │      ├ InstalledVersion: 4.5.1+git230720-4ubuntu4 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 4.5.1+git230720-4ubuntu4.1 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb
+│                       │      │                  │         14b13a8699d7e41ae4ed 
+│                       │      │                  ╰ DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413f
+│                       │      │                            b429ecda26bad8ae6775 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8534 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : libtiff: Libtiff Null Pointer Dereference Vulnerability 
+│                       │      ├ Description     : A vulnerability classified as problematic was found in
+│                       │      │                   libtiff 4.6.0. This vulnerability affects the function
+│                       │      │                   PS_Lvl2page of the file tools/tiff2ps.c of the component
+│                       │      │                   tiff2ps. The manipulation leads to null pointer dereference.
+│                       │      │                    It is possible to launch the attack on the local host. The
+│                       │      │                   complexity of an attack is rather high. The exploitation
+│                       │      │                   appears to be difficult. The exploit has been disclosed to
+│                       │      │                   the public and may be used. The name of the patch is
+│                       │      │                   6ba36f159fd396ad11bf6b7874554197736ecc8b. It is recommended
+│                       │      │                   to apply a patch to fix this issue. One of the maintainers
+│                       │      │                   explains, that "[t]his error only occurs if
+│                       │      │                   DEFER_STRILE_LOAD (defer-strile-load:BOOL=ON) or TIFFOpen(
+│                       │      │                   .. "rD") option is used." 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-404 
+│                       │      │                  ╰ [1]: CWE-476 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 2.5 
+│                       │      ├ References       ╭ [0] : http://www.libtiff.org/ 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-8534 
+│                       │      │                  ├ [2] : https://drive.google.com/file/d/15JPA3kLYiYD-nRNJ8y8H
+│                       │      │                  │       mnYjhv9NE7k6/view?usp=drive_link 
+│                       │      │                  ├ [3] : https://gitlab.com/libtiff/libtiff/-/commit/6ba36f159
+│                       │      │                  │       fd396ad11bf6b7874554197736ecc8b 
+│                       │      │                  ├ [4] : https://gitlab.com/libtiff/libtiff/-/issues/718 
+│                       │      │                  ├ [5] : https://gitlab.com/libtiff/libtiff/-/merge_requests/746 
+│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-8534 
+│                       │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-7707-1 
+│                       │      │                  ├ [8] : https://vuldb.com/?ctiid.318664 
+│                       │      │                  ├ [9] : https://vuldb.com/?id.318664 
+│                       │      │                  ├ [10]: https://vuldb.com/?submit.617831 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-8534 
+│                       │      ├ PublishedDate   : 2025-08-05T00:15:56.88Z 
+│                       │      ╰ LastModifiedDate: 2025-08-05T16:15:31.33Z 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2025-8851 
+│                       │      ├ PkgID           : libtiff6@4.5.1+git230720-4ubuntu4 
+│                       │      ├ PkgName         : libtiff6 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtiff6@4.5.1%2Bgit230720-4ubuntu4?ar
+│                       │      │                  │       ch=amd64&distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : 9a17ce0aace20d7f 
+│                       │      ├ InstalledVersion: 4.5.1+git230720-4ubuntu4 
+│                       │      ├ FixedVersion    : 4.5.1+git230720-4ubuntu4.1 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb
+│                       │      │                  │         14b13a8699d7e41ae4ed 
+│                       │      │                  ╰ DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413f
+│                       │      │                            b429ecda26bad8ae6775 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8851 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : libtiff: LibTIFF Stack-based buffer overflow 
+│                       │      ├ Description     : A vulnerability was determined in LibTIFF up to 4.5.1.
+│                       │      │                   Affected by this issue is the function
+│                       │      │                   readSeparateStripsetoBuffer of the file tools/tiffcrop.c of
+│                       │      │                   the component tiffcrop. The manipulation leads to
+│                       │      │                   stack-based buffer overflow. Local access is required to
+│                       │      │                   approach this attack. The patch is identified as
+│                       │      │                   8a7a48d7a645992ca83062b3a1873c951661e2b3. It is recommended
+│                       │      │                   to apply a patch to fix this issue. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-119 
+│                       │      │                  ╰ [1]: CWE-121 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0]: http://www.libtiff.org/ 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-8851 
+│                       │      │                  ├ [2]: https://gitlab.com/libtiff/libtiff/-/commit/8a7a48d7a6
+│                       │      │                  │      45992ca83062b3a1873c951661e2b3 
+│                       │      │                  ├ [3]: https://gitlab.com/libtiff/libtiff/-/commit/8a7a48d7a6
+│                       │      │                  │      45992ca83062b3a1873c951661e2b3 (v4.7.0rc1) 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-8851 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7707-1 
+│                       │      │                  ├ [6]: https://vuldb.com/?ctiid.319382 
+│                       │      │                  ├ [7]: https://vuldb.com/?id.319382 
+│                       │      │                  ├ [8]: https://vuldb.com/?submit.624604 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-8851 
+│                       │      ├ PublishedDate   : 2025-08-11T14:15:27.597Z 
+│                       │      ╰ LastModifiedDate: 2025-08-12T14:15:30.617Z 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2025-8176 
+│                       │      ├ PkgID           : libtiff6@4.5.1+git230720-4ubuntu4 
+│                       │      ├ PkgName         : libtiff6 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtiff6@4.5.1%2Bgit230720-4ubuntu4?ar
+│                       │      │                  │       ch=amd64&distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : 9a17ce0aace20d7f 
+│                       │      ├ InstalledVersion: 4.5.1+git230720-4ubuntu4 
+│                       │      ├ FixedVersion    : 4.5.1+git230720-4ubuntu4.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb
 │                       │      │                  │         14b13a8699d7e41ae4ed 
 │                       │      │                  ╰ DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413f
@@ -1921,20 +2027,21 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: http://www.libtiff.org/ 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-8176 
-│                       │      │                  ├ [2]: https://gitlab.com/libtiff/libtiff/-/commit/fe10872e53
-│                       │      │                  │      efba9cc36c66ac4ab3b41a839d5172 
-│                       │      │                  ├ [3]: https://gitlab.com/libtiff/libtiff/-/issues/707 
-│                       │      │                  ├ [4]: https://gitlab.com/libtiff/libtiff/-/merge_requests/727 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-8176 
-│                       │      │                  ├ [6]: https://vuldb.com/?ctiid.317590 
-│                       │      │                  ├ [7]: https://vuldb.com/?id.317590 
-│                       │      │                  ├ [8]: https://vuldb.com/?submit.621796 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-8176 
+│                       │      ├ References       ╭ [0] : http://www.libtiff.org/ 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-8176 
+│                       │      │                  ├ [2] : https://gitlab.com/libtiff/libtiff/-/commit/fe10872e5
+│                       │      │                  │       3efba9cc36c66ac4ab3b41a839d5172 
+│                       │      │                  ├ [3] : https://gitlab.com/libtiff/libtiff/-/issues/707 
+│                       │      │                  ├ [4] : https://gitlab.com/libtiff/libtiff/-/merge_requests/727 
+│                       │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-8176 
+│                       │      │                  ├ [6] : https://ubuntu.com/security/notices/USN-7707-1 
+│                       │      │                  ├ [7] : https://vuldb.com/?ctiid.317590 
+│                       │      │                  ├ [8] : https://vuldb.com/?id.317590 
+│                       │      │                  ├ [9] : https://vuldb.com/?submit.621796 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-8176 
 │                       │      ├ PublishedDate   : 2025-07-26T04:16:10.527Z 
 │                       │      ╰ LastModifiedDate: 2025-07-29T14:14:55.157Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwireshark-data@4.4.5-1 
 │                       │      ├ PkgName         : libwireshark-data 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.4.5-1?arch=all&dis
@@ -1988,7 +2095,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwireshark18@4.4.5-1 
 │                       │      ├ PkgName         : libwireshark18 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark18@4.4.5-1?arch=amd64&dist
@@ -2042,7 +2149,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwiretap15@4.4.5-1 
 │                       │      ├ PkgName         : libwiretap15 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap15@4.4.5-1?arch=amd64&distro
@@ -2096,7 +2203,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwsutil16@4.4.5-1 
 │                       │      ├ PkgName         : libwsutil16 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil16@4.4.5-1?arch=amd64&distro=
@@ -2150,7 +2257,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2025-49794 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2025-49794 
 │                       │      ├ PkgID           : libxml2@2.12.7+dfsg+really2.9.14-0.4ubuntu0.1 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-0
@@ -2226,7 +2333,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-49794 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:18.997Z 
 │                       │      ╰ LastModifiedDate: 2025-08-07T09:15:27.75Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2025-49796 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2025-49796 
 │                       │      ├ PkgID           : libxml2@2.12.7+dfsg+really2.9.14-0.4ubuntu0.1 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-0
@@ -2302,7 +2409,7 @@
 │                       │      │                  ╰ [30]: https://www.cve.org/CVERecord?id=CVE-2025-49796 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:19.37Z 
 │                       │      ╰ LastModifiedDate: 2025-08-07T09:15:27.99Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2025-6021 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2025-6021 
 │                       │      ├ PkgID           : libxml2@2.12.7+dfsg+really2.9.14-0.4ubuntu0.1 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-0
@@ -2380,7 +2487,7 @@
 │                       │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2025-6021 
 │                       │      ├ PublishedDate   : 2025-06-12T13:15:25.59Z 
 │                       │      ╰ LastModifiedDate: 2025-08-14T09:15:27.03Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2025-6170 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2025-6170 
 │                       │      ├ PkgID           : libxml2@2.12.7+dfsg+really2.9.14-0.4ubuntu0.1 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-0
@@ -2427,7 +2534,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6170 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:20.43Z 
 │                       │      ╰ LastModifiedDate: 2025-08-12T13:04:06.117Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.16.0-7ubuntu1?arch=all&di
@@ -2475,7 +2582,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.16.0-7ubuntu1?arch=amd64&dist
@@ -2523,7 +2630,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [47] ╭ VulnerabilityID : CVE-2025-40909 
+│                       ├ [49] ╭ VulnerabilityID : CVE-2025-40909 
 │                       │      ├ PkgID           : perl@5.40.1-2ubuntu0.1 
 │                       │      ├ PkgName         : perl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl@5.40.1-2ubuntu0.1?arch=amd64&dist
@@ -2561,7 +2668,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-362 
 │                       │      │                  ╰ [1]: CWE-426 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -2606,7 +2713,7 @@
 │                       │      │                          2/2 
 │                       │      ├ PublishedDate   : 2025-05-30T13:15:22.35Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T04:15:40.47Z 
-│                       ├ [48] ╭ VulnerabilityID : CVE-2025-40909 
+│                       ├ [50] ╭ VulnerabilityID : CVE-2025-40909 
 │                       │      ├ PkgID           : perl-base@5.40.1-2ubuntu0.1 
 │                       │      ├ PkgName         : perl-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl-base@5.40.1-2ubuntu0.1?arch=amd64
@@ -2644,7 +2751,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-362 
 │                       │      │                  ╰ [1]: CWE-426 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -2689,7 +2796,7 @@
 │                       │      │                          2/2 
 │                       │      ├ PublishedDate   : 2025-05-30T13:15:22.35Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T04:15:40.47Z 
-│                       ├ [49] ╭ VulnerabilityID : CVE-2025-40909 
+│                       ├ [51] ╭ VulnerabilityID : CVE-2025-40909 
 │                       │      ├ PkgID           : perl-modules-5.40@5.40.1-2ubuntu0.1 
 │                       │      ├ PkgName         : perl-modules-5.40 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl-modules-5.40@5.40.1-2ubuntu0.1?ar
@@ -2727,7 +2834,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-362 
 │                       │      │                  ╰ [1]: CWE-426 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -2772,7 +2879,7 @@
 │                       │      │                          2/2 
 │                       │      ├ PublishedDate   : 2025-05-30T13:15:22.35Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T04:15:40.47Z 
-│                       ├ [50] ╭ VulnerabilityID : CVE-2025-6069 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2025-6069 
 │                       │      ├ PkgID           : python3.13@3.13.3-1ubuntu0.2 
 │                       │      ├ PkgName         : python3.13 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.13@3.13.3-1ubuntu0.2?arch=amd6
@@ -2833,7 +2940,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                       │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                       │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                       ├ [51] ╭ VulnerabilityID : CVE-2025-6069 
+│                       ├ [53] ╭ VulnerabilityID : CVE-2025-6069 
 │                       │      ├ PkgID           : python3.13-minimal@3.13.3-1ubuntu0.2 
 │                       │      ├ PkgName         : python3.13-minimal 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.13-minimal@3.13.3-1ubuntu0.2?a
@@ -2894,7 +3001,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6069 
 │                       │      ├ PublishedDate   : 2025-06-17T14:15:33.677Z 
 │                       │      ╰ LastModifiedDate: 2025-07-07T18:15:29.15Z 
-│                       ├ [52] ╭ VulnerabilityID : CVE-2025-45582 
+│                       ├ [54] ╭ VulnerabilityID : CVE-2025-45582 
 │                       │      ├ PkgID           : tar@1.35+dfsg-3.1 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1?arch=amd64&distro=
@@ -2960,7 +3067,7 @@
 │                       │      │                         rity-rules-of-thumb.html 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │      ╰ LastModifiedDate: 2025-08-18T04:15:36.743Z 
-│                       ├ [53] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [55] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : tshark@4.4.5-1 
 │                       │      ├ PkgName         : tshark 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.4.5-1?arch=amd64&distro=ubunt
@@ -3014,7 +3121,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [54] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [56] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.24.5-2ubuntu1 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.24.5-2ubuntu1?arch=amd64&distro
@@ -3060,7 +3167,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                       ├ [55] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [57] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : wireshark-common@4.4.5-1 
 │                       │      ├ PkgName         : wireshark-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.4.5-1?arch=amd64&di
@@ -3114,7 +3221,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ╰ [56] ╭ VulnerabilityID : CVE-2023-5574 
+│                       ╰ [58] ╭ VulnerabilityID : CVE-2023-5574 
 │                              ├ PkgID           : x11-common@1:7.7+23ubuntu4 
 │                              ├ PkgName         : x11-common 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/x11-common@7.7%2B23ubuntu4?arch=all&di
