@@ -1034,7 +1034,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       azure: 2
       cbl-mariner: 2
@@ -1052,11 +1052,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1105,12 +1106,13 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1141,7 +1143,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       azure: 2
       cbl-mariner: 2
@@ -1159,11 +1161,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1212,12 +1215,13 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1248,7 +1252,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       azure: 2
       cbl-mariner: 2
@@ -1266,11 +1270,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1319,12 +1324,13 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1355,7 +1361,7 @@
     CweIDs:
     - CWE-922
     VendorSeverity:
-      alma: 2
+      alma: 3
       amazon: 2
       azure: 2
       cbl-mariner: 2
@@ -1373,11 +1379,12 @@
     - https://access.redhat.com/errata/RHSA-2024:9941
     - https://access.redhat.com/security/cve/CVE-2024-10041
     - https://bugzilla.redhat.com/2319212
+    - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10041.html
     - https://linux.oracle.com/errata/ELSA-2024-11250.html
@@ -1426,12 +1433,13 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
@@ -1546,7 +1554,8 @@
       PURL: pkg:deb/ubuntu/libpython3.13@3.13.3-1ubuntu0.2?arch=amd64&distro=ubuntu-25.04
       UID: 24409b48286c98a8
     InstalledVersion: 3.13.3-1ubuntu0.2
-    Status: affected
+    FixedVersion: 3.13.3-1ubuntu0.3
+    Status: fixed
     Layer:
       Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb14b13a8699d7e41ae4ed
       DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413fb429ecda26bad8ae6775
@@ -1589,9 +1598,60 @@
     - https://github.com/python/cpython/pull/135464
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://ubuntu.com/security/notices/USN-7710-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-07-07T18:15:29.15Z'
+  - VulnerabilityID: CVE-2025-8194
+    PkgID: libpython3.13@3.13.3-1ubuntu0.2
+    PkgName: libpython3.13
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.13@3.13.3-1ubuntu0.2?arch=amd64&distro=ubuntu-25.04
+      UID: 24409b48286c98a8
+    InstalledVersion: 3.13.3-1ubuntu0.2
+    FixedVersion: 3.13.3-1ubuntu0.3
+    Status: fixed
+    Layer:
+      Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb14b13a8699d7e41ae4ed
+      DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413fb429ecda26bad8ae6775
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8194
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Cpython infinite loop when parsing a tarfile'
+    Description: "There is a defect in the CPython “tarfile” module affecting the “TarFile” extraction and entry enumeration APIs. The tar implementation would process tar archives with negative offsets without error, resulting in an infinite loop and deadlock during the parsing of maliciously crafted tar archives. \n\nThis vulnerability can be mitigated by including the following patch after importing the “tarfile” module:\_ https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1"
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      amazon: 3
+      bitnami: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-8194
+    - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
+    - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
+    - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
+    - https://github.com/python/cpython/commit/cdae923ffe187d6ef916c0f665a31249619193fe
+    - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
+    - https://github.com/python/cpython/issues/130577
+    - https://github.com/python/cpython/pull/137027
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
+    - https://ubuntu.com/security/notices/USN-7710-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-8194
+    PublishedDate: '2025-07-28T19:15:43.793Z'
+    LastModifiedDate: '2025-08-07T21:15:29.78Z'
   - VulnerabilityID: CVE-2025-6069
     PkgID: libpython3.13-minimal@3.13.3-1ubuntu0.2
     PkgName: libpython3.13-minimal
@@ -1599,7 +1659,8 @@
       PURL: pkg:deb/ubuntu/libpython3.13-minimal@3.13.3-1ubuntu0.2?arch=amd64&distro=ubuntu-25.04
       UID: 9c7a65168b2ca24c
     InstalledVersion: 3.13.3-1ubuntu0.2
-    Status: affected
+    FixedVersion: 3.13.3-1ubuntu0.3
+    Status: fixed
     Layer:
       Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb14b13a8699d7e41ae4ed
       DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413fb429ecda26bad8ae6775
@@ -1642,9 +1703,60 @@
     - https://github.com/python/cpython/pull/135464
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://ubuntu.com/security/notices/USN-7710-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-07-07T18:15:29.15Z'
+  - VulnerabilityID: CVE-2025-8194
+    PkgID: libpython3.13-minimal@3.13.3-1ubuntu0.2
+    PkgName: libpython3.13-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.13-minimal@3.13.3-1ubuntu0.2?arch=amd64&distro=ubuntu-25.04
+      UID: 9c7a65168b2ca24c
+    InstalledVersion: 3.13.3-1ubuntu0.2
+    FixedVersion: 3.13.3-1ubuntu0.3
+    Status: fixed
+    Layer:
+      Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb14b13a8699d7e41ae4ed
+      DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413fb429ecda26bad8ae6775
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8194
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Cpython infinite loop when parsing a tarfile'
+    Description: "There is a defect in the CPython “tarfile” module affecting the “TarFile” extraction and entry enumeration APIs. The tar implementation would process tar archives with negative offsets without error, resulting in an infinite loop and deadlock during the parsing of maliciously crafted tar archives. \n\nThis vulnerability can be mitigated by including the following patch after importing the “tarfile” module:\_ https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1"
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      amazon: 3
+      bitnami: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-8194
+    - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
+    - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
+    - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
+    - https://github.com/python/cpython/commit/cdae923ffe187d6ef916c0f665a31249619193fe
+    - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
+    - https://github.com/python/cpython/issues/130577
+    - https://github.com/python/cpython/pull/137027
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
+    - https://ubuntu.com/security/notices/USN-7710-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-8194
+    PublishedDate: '2025-07-28T19:15:43.793Z'
+    LastModifiedDate: '2025-08-07T21:15:29.78Z'
   - VulnerabilityID: CVE-2025-6069
     PkgID: libpython3.13-stdlib@3.13.3-1ubuntu0.2
     PkgName: libpython3.13-stdlib
@@ -1652,7 +1764,8 @@
       PURL: pkg:deb/ubuntu/libpython3.13-stdlib@3.13.3-1ubuntu0.2?arch=amd64&distro=ubuntu-25.04
       UID: a2b2fc42284aeaaf
     InstalledVersion: 3.13.3-1ubuntu0.2
-    Status: affected
+    FixedVersion: 3.13.3-1ubuntu0.3
+    Status: fixed
     Layer:
       Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb14b13a8699d7e41ae4ed
       DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413fb429ecda26bad8ae6775
@@ -1695,9 +1808,60 @@
     - https://github.com/python/cpython/pull/135464
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://ubuntu.com/security/notices/USN-7710-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-07-07T18:15:29.15Z'
+  - VulnerabilityID: CVE-2025-8194
+    PkgID: libpython3.13-stdlib@3.13.3-1ubuntu0.2
+    PkgName: libpython3.13-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.13-stdlib@3.13.3-1ubuntu0.2?arch=amd64&distro=ubuntu-25.04
+      UID: a2b2fc42284aeaaf
+    InstalledVersion: 3.13.3-1ubuntu0.2
+    FixedVersion: 3.13.3-1ubuntu0.3
+    Status: fixed
+    Layer:
+      Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb14b13a8699d7e41ae4ed
+      DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413fb429ecda26bad8ae6775
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8194
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Cpython infinite loop when parsing a tarfile'
+    Description: "There is a defect in the CPython “tarfile” module affecting the “TarFile” extraction and entry enumeration APIs. The tar implementation would process tar archives with negative offsets without error, resulting in an infinite loop and deadlock during the parsing of maliciously crafted tar archives. \n\nThis vulnerability can be mitigated by including the following patch after importing the “tarfile” module:\_ https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1"
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      amazon: 3
+      bitnami: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-8194
+    - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
+    - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
+    - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
+    - https://github.com/python/cpython/commit/cdae923ffe187d6ef916c0f665a31249619193fe
+    - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
+    - https://github.com/python/cpython/issues/130577
+    - https://github.com/python/cpython/pull/137027
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
+    - https://ubuntu.com/security/notices/USN-7710-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-8194
+    PublishedDate: '2025-07-28T19:15:43.793Z'
+    LastModifiedDate: '2025-08-07T21:15:29.78Z'
   - VulnerabilityID: CVE-2025-6965
     PkgID: libsqlite3-0@3.46.1-3ubuntu0.1
     PkgName: libsqlite3-0
@@ -1739,12 +1903,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:H/A:L
         V3Score: 7.7
     References:
-    - https://access.redhat.com/errata/RHSA-2025:11992
+    - https://access.redhat.com/errata/RHSA-2025:14101
     - https://access.redhat.com/security/cve/CVE-2025-6965
     - https://bugzilla.redhat.com/2380149
     - https://bugzilla.redhat.com/show_bug.cgi?id=2380149
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6965
-    - https://errata.almalinux.org/9/ALSA-2025-11992.html
+    - https://errata.almalinux.org/8/ALSA-2025-14101.html
     - https://errata.rockylinux.org/RLSA-2025:12010
     - https://linux.oracle.com/cve/CVE-2025-6965.html
     - https://linux.oracle.com/errata/ELSA-2025-14101.html
@@ -1845,6 +2009,48 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-8851
     PublishedDate: '2025-08-11T14:15:27.597Z'
     LastModifiedDate: '2025-08-12T14:15:30.617Z'
+  - VulnerabilityID: CVE-2025-8961
+    PkgID: libtiff6@4.5.1+git230720-4ubuntu4
+    PkgName: libtiff6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libtiff6@4.5.1%2Bgit230720-4ubuntu4?arch=amd64&distro=ubuntu-25.04
+      UID: 9a17ce0aace20d7f
+    InstalledVersion: 4.5.1+git230720-4ubuntu4
+    Status: affected
+    Layer:
+      Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb14b13a8699d7e41ae4ed
+      DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413fb429ecda26bad8ae6775
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8961
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libtiff: LibTIFF memory corruption'
+    Description: A vulnerability was identified in LibTIFF 4.7.0. This issue affects the function May of the file tiffcrop.c of the component tiffcrop. The manipulation leads to memory corruption. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - http://www.libtiff.org/
+    - https://access.redhat.com/security/cve/CVE-2025-8961
+    - https://drive.google.com/file/d/15L4q2eD8GX3Aj3z6SWC3_FbqaM1ChUx2/view?usp=sharing
+    - https://gitlab.com/libtiff/libtiff/-/issues/721
+    - https://gitlab.com/libtiff/libtiff/-/issues/721#note_2670686960
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8961
+    - https://vuldb.com/?ctiid.319955
+    - https://vuldb.com/?id.319955
+    - https://vuldb.com/?submit.627957
+    - https://www.cve.org/CVERecord?id=CVE-2025-8961
+    PublishedDate: '2025-08-14T13:15:38.037Z'
+    LastModifiedDate: '2025-08-15T13:13:07.817Z'
   - VulnerabilityID: CVE-2025-8176
     PkgID: libtiff6@4.5.1+git230720-4ubuntu4
     PkgName: libtiff6
@@ -2155,7 +2361,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
-    - https://errata.almalinux.org/9/ALSA-2025-10699.html
+    - https://errata.almalinux.org/8/ALSA-2025-10698.html
     - https://errata.rockylinux.org/RLSA-2025:10698
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/931
     - https://linux.oracle.com/cve/CVE-2025-49794.html
@@ -2226,7 +2432,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
-    - https://errata.almalinux.org/9/ALSA-2025-10699.html
+    - https://errata.almalinux.org/8/ALSA-2025-10698.html
     - https://errata.rockylinux.org/RLSA-2025:10698
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/933
     - https://linux.oracle.com/cve/CVE-2025-49796.html
@@ -2300,7 +2506,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
-    - https://errata.almalinux.org/9/ALSA-2025-10699.html
+    - https://errata.almalinux.org/8/ALSA-2025-10698.html
     - https://errata.rockylinux.org/RLSA-2025:10698
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/926
     - https://linux.oracle.com/cve/CVE-2025-6021.html
@@ -2638,7 +2844,8 @@
       PURL: pkg:deb/ubuntu/python3.13@3.13.3-1ubuntu0.2?arch=amd64&distro=ubuntu-25.04
       UID: b231b26c3d510faa
     InstalledVersion: 3.13.3-1ubuntu0.2
-    Status: affected
+    FixedVersion: 3.13.3-1ubuntu0.3
+    Status: fixed
     Layer:
       Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb14b13a8699d7e41ae4ed
       DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413fb429ecda26bad8ae6775
@@ -2681,9 +2888,60 @@
     - https://github.com/python/cpython/pull/135464
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://ubuntu.com/security/notices/USN-7710-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-07-07T18:15:29.15Z'
+  - VulnerabilityID: CVE-2025-8194
+    PkgID: python3.13@3.13.3-1ubuntu0.2
+    PkgName: python3.13
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.13@3.13.3-1ubuntu0.2?arch=amd64&distro=ubuntu-25.04
+      UID: b231b26c3d510faa
+    InstalledVersion: 3.13.3-1ubuntu0.2
+    FixedVersion: 3.13.3-1ubuntu0.3
+    Status: fixed
+    Layer:
+      Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb14b13a8699d7e41ae4ed
+      DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413fb429ecda26bad8ae6775
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8194
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Cpython infinite loop when parsing a tarfile'
+    Description: "There is a defect in the CPython “tarfile” module affecting the “TarFile” extraction and entry enumeration APIs. The tar implementation would process tar archives with negative offsets without error, resulting in an infinite loop and deadlock during the parsing of maliciously crafted tar archives. \n\nThis vulnerability can be mitigated by including the following patch after importing the “tarfile” module:\_ https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1"
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      amazon: 3
+      bitnami: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-8194
+    - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
+    - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
+    - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
+    - https://github.com/python/cpython/commit/cdae923ffe187d6ef916c0f665a31249619193fe
+    - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
+    - https://github.com/python/cpython/issues/130577
+    - https://github.com/python/cpython/pull/137027
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
+    - https://ubuntu.com/security/notices/USN-7710-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-8194
+    PublishedDate: '2025-07-28T19:15:43.793Z'
+    LastModifiedDate: '2025-08-07T21:15:29.78Z'
   - VulnerabilityID: CVE-2025-6069
     PkgID: python3.13-minimal@3.13.3-1ubuntu0.2
     PkgName: python3.13-minimal
@@ -2691,7 +2949,8 @@
       PURL: pkg:deb/ubuntu/python3.13-minimal@3.13.3-1ubuntu0.2?arch=amd64&distro=ubuntu-25.04
       UID: 68b8d6fcb84c7775
     InstalledVersion: 3.13.3-1ubuntu0.2
-    Status: affected
+    FixedVersion: 3.13.3-1ubuntu0.3
+    Status: fixed
     Layer:
       Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb14b13a8699d7e41ae4ed
       DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413fb429ecda26bad8ae6775
@@ -2734,9 +2993,60 @@
     - https://github.com/python/cpython/pull/135464
     - https://mail.python.org/archives/list/security-announce@python.org/thread/K5PIYLR6EP3WR7ZOKKYQUWEDNQVUXOYM/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6069
+    - https://ubuntu.com/security/notices/USN-7710-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6069
     PublishedDate: '2025-06-17T14:15:33.677Z'
     LastModifiedDate: '2025-07-07T18:15:29.15Z'
+  - VulnerabilityID: CVE-2025-8194
+    PkgID: python3.13-minimal@3.13.3-1ubuntu0.2
+    PkgName: python3.13-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.13-minimal@3.13.3-1ubuntu0.2?arch=amd64&distro=ubuntu-25.04
+      UID: 68b8d6fcb84c7775
+    InstalledVersion: 3.13.3-1ubuntu0.2
+    FixedVersion: 3.13.3-1ubuntu0.3
+    Status: fixed
+    Layer:
+      Digest: sha256:5e24ff760d3510b3eff30e2c1b74904541fc8e6928eb14b13a8699d7e41ae4ed
+      DiffID: sha256:a3ae499fa5d93504d25eaf907be278ba37e5724f413fb429ecda26bad8ae6775
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8194
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cpython: Cpython infinite loop when parsing a tarfile'
+    Description: "There is a defect in the CPython “tarfile” module affecting the “TarFile” extraction and entry enumeration APIs. The tar implementation would process tar archives with negative offsets without error, resulting in an infinite loop and deadlock during the parsing of maliciously crafted tar archives. \n\nThis vulnerability can be mitigated by including the following patch after importing the “tarfile” module:\_ https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1"
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      amazon: 3
+      bitnami: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-8194
+    - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
+    - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
+    - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
+    - https://github.com/python/cpython/commit/cdae923ffe187d6ef916c0f665a31249619193fe
+    - https://github.com/python/cpython/commit/fbc2a0ca9ac8aff6887f8ddf79b87b4510277227
+    - https://github.com/python/cpython/issues/130577
+    - https://github.com/python/cpython/pull/137027
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
+    - https://ubuntu.com/security/notices/USN-7710-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-8194
+    PublishedDate: '2025-07-28T19:15:43.793Z'
+    LastModifiedDate: '2025-08-07T21:15:29.78Z'
   - VulnerabilityID: CVE-2025-45582
     PkgID: tar@1.35+dfsg-3.1
     PkgName: tar
@@ -3016,11 +3326,15 @@
     - CWE-909
     VendorSeverity:
       ghsa: 1
+      nvd: 2
       redhat: 1
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:N
         V3Score: 3.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N
+        V3Score: 5.2
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:N
         V3Score: 3.3
@@ -3034,7 +3348,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-54410
     - https://www.cve.org/CVERecord?id=CVE-2025-54410
     PublishedDate: '2025-07-30T14:15:28.9Z'
-    LastModifiedDate: '2025-07-31T18:42:37.87Z'
+    LastModifiedDate: '2025-08-22T17:27:29.677Z'
   - VulnerabilityID: CVE-2025-47907
     PkgID: stdlib@v1.24.5
     PkgName: stdlib
