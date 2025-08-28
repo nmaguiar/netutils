@@ -1561,7 +1561,49 @@
 │                       │      │                  ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2023-37769 
 │                       │      ├ PublishedDate   : 2023-07-17T20:15:13.547Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:12:14.547Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2025-8961 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2025-8114 
+│                       │      ├ PkgID           : libssh-4@0.11.1-1ubuntu0.1 
+│                       │      ├ PkgName         : libssh-4 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssh-4@0.11.1-1ubuntu0.1?arch=amd64&
+│                       │      │                  │       distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : b80b7a4f7df8df3a 
+│                       │      ├ InstalledVersion: 0.11.1-1ubuntu0.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:4ddff48dacfe7bfc4814cbf615a847fe6578fc5fcffc
+│                       │      │                  │         7b87dc8aca66213d3956 
+│                       │      │                  ╰ DiffID: sha256:1a8632e7c46c9dc82f2d99a36426120ac5ec75628554
+│                       │      │                            4b2dcad41ee7b27aa2bc 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8114 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : : NULL Pointer Dereference in libssh KEX Session ID
+│                       │      │                   Calculation 
+│                       │      ├ Description     : A flaw was found in libssh, a library that implements the
+│                       │      │                   SSH protocol. When calculating the session ID during the key
+│                       │      │                    exchange (KEX) process, an allocation failure in
+│                       │      │                   cryptographic functions may lead to a NULL pointer
+│                       │      │                   dereference. This issue can cause the client or server to
+│                       │      │                   crash. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-476 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 4.7 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 4.7 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8114 
+│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2383220 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-8114 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-8114 
+│                       │      ├ PublishedDate   : 2025-07-24T15:15:27.117Z 
+│                       │      ╰ LastModifiedDate: 2025-08-14T00:45:36.51Z 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2025-8961 
 │                       │      ├ PkgID           : libtiff6@4.5.1+git230720-4ubuntu4.1 
 │                       │      ├ PkgName         : libtiff6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtiff6@4.5.1%2Bgit230720-4ubuntu4.1?
@@ -1606,7 +1648,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-8961 
 │                       │      ├ PublishedDate   : 2025-08-14T13:15:38.037Z 
 │                       │      ╰ LastModifiedDate: 2025-08-23T16:15:34.78Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwireshark-data@4.4.5-1 
 │                       │      ├ PkgName         : libwireshark-data 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.4.5-1?arch=all&dis
@@ -1660,7 +1702,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwireshark18@4.4.5-1 
 │                       │      ├ PkgName         : libwireshark18 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark18@4.4.5-1?arch=amd64&dist
@@ -1714,7 +1756,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwiretap15@4.4.5-1 
 │                       │      ├ PkgName         : libwiretap15 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap15@4.4.5-1?arch=amd64&distro
@@ -1768,7 +1810,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwsutil16@4.4.5-1 
 │                       │      ├ PkgName         : libwsutil16 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil16@4.4.5-1?arch=amd64&distro=
@@ -1822,7 +1864,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.16.0-7ubuntu1?arch=all&di
@@ -1870,7 +1912,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.16.0-7ubuntu1?arch=amd64&dist
@@ -1918,7 +1960,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2025-45582 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2025-45582 
 │                       │      ├ PkgID           : tar@1.35+dfsg-3.1 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1?arch=amd64&distro=
@@ -1984,7 +2026,7 @@
 │                       │      │                         rity-rules-of-thumb.html 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │      ╰ LastModifiedDate: 2025-08-18T04:15:36.743Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : tshark@4.4.5-1 
 │                       │      ├ PkgName         : tshark 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.4.5-1?arch=amd64&distro=ubunt
@@ -2038,7 +2080,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.24.5-2ubuntu1 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.24.5-2ubuntu1?arch=amd64&distro
@@ -2084,7 +2126,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : wireshark-common@4.4.5-1 
 │                       │      ├ PkgName         : wireshark-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.4.5-1?arch=amd64&di
@@ -2138,7 +2180,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ╰ [42] ╭ VulnerabilityID : CVE-2023-5574 
+│                       ╰ [43] ╭ VulnerabilityID : CVE-2023-5574 
 │                              ├ PkgID           : x11-common@1:7.7+23ubuntu4 
 │                              ├ PkgName         : x11-common 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/x11-common@7.7%2B23ubuntu4?arch=all&di
