@@ -148,6 +148,7 @@ nsenter -t 1 -m -u -n -i sh
 If you are using ```kubectl debug pod-to-debug -it --image nmaguiar/netutils --target=container-to-debug --profile=sysadmin -- /bin/bash``` or ```docker run -it --rm --privileged --pid=host nmaguiar/netutils``` and you need to access the other namespace pid filesystem execute:
 
 ```bash
+sudo bash
 switch-fs-by-pid.sh 1234
 ```
 
