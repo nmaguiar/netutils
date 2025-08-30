@@ -19,8 +19,8 @@
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Title           : The PCRE2 library is a set of C functions that implement
-│                             │                   regular expre ... 
+│                             ├ Title           : pcre2: PCRE2: heap-buffer-overflow read in match_ref due to
+│                             │                   missing boundary restoration in SCS 
 │                             ├ Description     : The PCRE2 library is a set of C functions that implement
 │                             │                   regular expression pattern matching. In version 10.45, a
 │                             │                   heap-buffer-overflow read vulnerability exists in the PCRE2
@@ -31,17 +31,24 @@
 │                             │                   if the out-of-bounds data read during the memcmp affects the
 │                             │                   final match result in a way observable by the attacker. This
 │                             │                   issue has been resolved in version 10.46. 
-│                             ├ Severity        : UNKNOWN 
+│                             ├ Severity        : MEDIUM 
 │                             ├ CweIDs           ╭ [0]: CWE-122 
 │                             │                  ╰ [1]: CWE-125 
-│                             ├ References       ╭ [0]: https://github.com/PCRE2Project/pcre2/commit/a141712e59
+│                             ├ VendorSeverity   ─ redhat: 2 
+│                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/
+│                             │                           │           A:L 
+│                             │                           ╰ V3Score : 6.5 
+│                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-58050 
+│                             │                  ├ [1]: https://github.com/PCRE2Project/pcre2/commit/a141712e59
 │                             │                  │      67d448c7ce13090ab530c8e3d82254 
-│                             │                  ├ [1]: https://github.com/PCRE2Project/pcre2/releases/tag/pcre
+│                             │                  ├ [2]: https://github.com/PCRE2Project/pcre2/releases/tag/pcre
 │                             │                  │      2-10.46 
-│                             │                  ╰ [2]: https://github.com/PCRE2Project/pcre2/security/advisori
-│                             │                         es/GHSA-c2gv-xgf5-5cc2 
+│                             │                  ├ [3]: https://github.com/PCRE2Project/pcre2/security/advisori
+│                             │                  │      es/GHSA-c2gv-xgf5-5cc2 
+│                             │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58050 
+│                             │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-58050 
 │                             ├ PublishedDate   : 2025-08-27T19:15:37.56Z 
-│                             ╰ LastModifiedDate: 2025-08-27T20:15:33.8Z 
+│                             ╰ LastModifiedDate: 2025-08-29T16:24:09.86Z 
 ╰ [1] ╭ Target: Java 
       ├ Class : lang-pkgs 
       ╰ Type  : jar 
