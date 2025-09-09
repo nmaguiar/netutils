@@ -502,6 +502,110 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-29481
     PublishedDate: '2025-04-07T20:15:20.72Z'
     LastModifiedDate: '2025-04-15T15:42:59.65Z'
+  - VulnerabilityID: CVE-2025-8058
+    PkgID: libc-bin@2.41-6ubuntu1.1
+    PkgName: libc-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc-bin@2.41-6ubuntu1.1?arch=amd64&distro=ubuntu-25.04
+      UID: 798a8ba2010c8ddb
+    InstalledVersion: 2.41-6ubuntu1.1
+    Status: affected
+    Layer:
+      Digest: sha256:db6369f30ca6b01c94e86b102e0296824d7719896f873fe9e8ade9464b11ac68
+      DiffID: sha256:baa51ab5b18e9e524db59695a57558641c8b730b1749d2117491e8b3fcb8a7ce
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8058
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: Double free in glibc'
+    Description: |-
+      The regcomp function in the GNU C library version from 2.4 to 2.41 is 
+      subject to a double free if some previous allocation fails. It can be 
+      accomplished either by a malloc failure or by using an interposed malloc
+       that injects random malloc failures. The double free can allow buffer 
+      manipulation depending of how the regex is constructed. This issue 
+      affects all architectures and ABIs supported by the GNU C library.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-415
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.2
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:13240
+    - https://access.redhat.com/security/cve/CVE-2025-8058
+    - https://bugzilla.redhat.com/2383146
+    - https://errata.almalinux.org/10/ALSA-2025-13240.html
+    - https://linux.oracle.com/cve/CVE-2025-8058.html
+    - https://linux.oracle.com/errata/ELSA-2025-13240.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2025-0005
+    - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
+    - https://www.cve.org/CVERecord?id=CVE-2025-8058
+    PublishedDate: '2025-07-23T20:15:27.747Z'
+    LastModifiedDate: '2025-07-25T15:29:44.523Z'
+  - VulnerabilityID: CVE-2025-8058
+    PkgID: libc6@2.41-6ubuntu1.1
+    PkgName: libc6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc6@2.41-6ubuntu1.1?arch=amd64&distro=ubuntu-25.04
+      UID: de34a93826490997
+    InstalledVersion: 2.41-6ubuntu1.1
+    Status: affected
+    Layer:
+      Digest: sha256:db6369f30ca6b01c94e86b102e0296824d7719896f873fe9e8ade9464b11ac68
+      DiffID: sha256:baa51ab5b18e9e524db59695a57558641c8b730b1749d2117491e8b3fcb8a7ce
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8058
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: Double free in glibc'
+    Description: |-
+      The regcomp function in the GNU C library version from 2.4 to 2.41 is 
+      subject to a double free if some previous allocation fails. It can be 
+      accomplished either by a malloc failure or by using an interposed malloc
+       that injects random malloc failures. The double free can allow buffer 
+      manipulation depending of how the regex is constructed. This issue 
+      affects all architectures and ABIs supported by the GNU C library.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-415
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.2
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:13240
+    - https://access.redhat.com/security/cve/CVE-2025-8058
+    - https://bugzilla.redhat.com/2383146
+    - https://errata.almalinux.org/10/ALSA-2025-13240.html
+    - https://linux.oracle.com/cve/CVE-2025-8058.html
+    - https://linux.oracle.com/errata/ELSA-2025-13240.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2025-0005
+    - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
+    - https://www.cve.org/CVERecord?id=CVE-2025-8058
+    PublishedDate: '2025-07-23T20:15:27.747Z'
+    LastModifiedDate: '2025-07-25T15:29:44.523Z'
   - VulnerabilityID: CVE-2017-7475
     PkgID: libcairo-gobject2@1.18.4-1
     PkgName: libcairo-gobject2
@@ -1442,6 +1546,45 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
     LastModifiedDate: '2025-02-06T06:15:29.24Z'
+  - VulnerabilityID: CVE-2025-58050
+    PkgID: libpcre2-8-0@10.45-1
+    PkgName: libpcre2-8-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpcre2-8-0@10.45-1?arch=amd64&distro=ubuntu-25.04
+      UID: acc3f2b7a0c0ada6
+    InstalledVersion: 10.45-1
+    Status: affected
+    Layer:
+      Digest: sha256:db6369f30ca6b01c94e86b102e0296824d7719896f873fe9e8ade9464b11ac68
+      DiffID: sha256:baa51ab5b18e9e524db59695a57558641c8b730b1749d2117491e8b3fcb8a7ce
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58050
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'pcre2: PCRE2: heap-buffer-overflow read in match_ref due to missing boundary restoration in SCS'
+    Description: The PCRE2 library is a set of C functions that implement regular expression pattern matching. In version 10.45, a heap-buffer-overflow read vulnerability exists in the PCRE2 regular expression matching engine, specifically within the handling of the (*scs:...) (Scan SubString) verb when combined with (*ACCEPT) in src/pcre2_match.c. This vulnerability may potentially lead to information disclosure if the out-of-bounds data read during the memcmp affects the final match result in a way observable by the attacker. This issue has been resolved in version 10.46.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-58050
+    - https://github.com/PCRE2Project/pcre2/commit/a141712e5967d448c7ce13090ab530c8e3d82254
+    - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.46
+    - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-c2gv-xgf5-5cc2
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-58050
+    - https://www.cve.org/CVERecord?id=CVE-2025-58050
+    PublishedDate: '2025-08-27T19:15:37.56Z'
+    LastModifiedDate: '2025-08-29T16:24:09.86Z'
   - VulnerabilityID: CVE-2023-37769
     PkgID: libpixman-1-0@0.44.0-3
     PkgName: libpixman-1-0
@@ -1762,6 +1905,58 @@
     - https://www.wireshark.org/security/wnpa-sec-2021-15.html
     PublishedDate: '2021-11-18T19:15:08.333Z'
     LastModifiedDate: '2024-11-21T06:20:33.82Z'
+  - VulnerabilityID: CVE-2025-8058
+    PkgID: locales@2.41-6ubuntu1.1
+    PkgName: locales
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/locales@2.41-6ubuntu1.1?arch=all&distro=ubuntu-25.04
+      UID: 259a33310ff79685
+    InstalledVersion: 2.41-6ubuntu1.1
+    Status: affected
+    Layer:
+      Digest: sha256:db6369f30ca6b01c94e86b102e0296824d7719896f873fe9e8ade9464b11ac68
+      DiffID: sha256:baa51ab5b18e9e524db59695a57558641c8b730b1749d2117491e8b3fcb8a7ce
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8058
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: Double free in glibc'
+    Description: |-
+      The regcomp function in the GNU C library version from 2.4 to 2.41 is 
+      subject to a double free if some previous allocation fails. It can be 
+      accomplished either by a malloc failure or by using an interposed malloc
+       that injects random malloc failures. The double free can allow buffer 
+      manipulation depending of how the regex is constructed. This issue 
+      affects all architectures and ABIs supported by the GNU C library.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-415
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.2
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:13240
+    - https://access.redhat.com/security/cve/CVE-2025-8058
+    - https://bugzilla.redhat.com/2383146
+    - https://errata.almalinux.org/10/ALSA-2025-13240.html
+    - https://linux.oracle.com/cve/CVE-2025-8058.html
+    - https://linux.oracle.com/errata/ELSA-2025-13240.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2025-0005
+    - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
+    - https://www.cve.org/CVERecord?id=CVE-2025-8058
+    PublishedDate: '2025-07-23T20:15:27.747Z'
+    LastModifiedDate: '2025-07-25T15:29:44.523Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: login.defs@1:4.16.0-7ubuntu1
     PkgName: login.defs
