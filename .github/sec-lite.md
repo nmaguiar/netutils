@@ -34,7 +34,8 @@
 │                             ├ Severity        : MEDIUM 
 │                             ├ CweIDs           ╭ [0]: CWE-122 
 │                             │                  ╰ [1]: CWE-125 
-│                             ├ VendorSeverity   ─ redhat: 2 
+│                             ├ VendorSeverity   ╭ redhat: 2 
+│                             │                  ╰ ubuntu: 2 
 │                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/
 │                             │                           │           A:L 
 │                             │                           ╰ V3Score : 6.5 
