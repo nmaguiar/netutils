@@ -53,6 +53,31 @@
     - https://www.cve.org/CVERecord?id=CVE-2016-2781
     PublishedDate: '2017-02-07T15:59:00.333Z'
     LastModifiedDate: '2025-06-09T16:15:25.013Z'
+  - VulnerabilityID: CVE-2025-9086
+    PkgID: curl@8.12.1-3ubuntu1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.12.1-3ubuntu1?arch=amd64&distro=ubuntu-25.04
+      UID: 10b1fa91959ee993
+    InstalledVersion: 8.12.1-3ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:1eec1b5a91a3c7615fd57a0811d966d9351e9af428ae83d12a9631df8e3b4273
+      DiffID: sha256:417e27ccb82723c37af09a6ef36493f54aa54928889b6f8da25cf79558012058
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9086
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[Out of bounds read for cookie path]'
+    Description: Out-of-bounds read when dealing with cookies
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/docs/CVE-2025-9086.html
+    - https://www.cve.org/CVERecord?id=CVE-2025-9086
   - VulnerabilityID: CVE-2025-6052
     PkgID: gir1.2-glib-2.0@2.84.1-1ubuntu0.1
     PkgName: gir1.2-glib-2.0
@@ -535,16 +560,20 @@
       oracle-oval: 2
       photon: 3
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
         V3Score: 4.2
     References:
-    - https://access.redhat.com/errata/RHSA-2025:13240
+    - https://access.redhat.com/errata/RHSA-2025:12980
     - https://access.redhat.com/security/cve/CVE-2025-8058
     - https://bugzilla.redhat.com/2383146
-    - https://errata.almalinux.org/10/ALSA-2025-13240.html
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2383146
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8058
+    - https://errata.almalinux.org/8/ALSA-2025-12980.html
+    - https://errata.rockylinux.org/RLSA-2025:12980
     - https://linux.oracle.com/cve/CVE-2025-8058.html
     - https://linux.oracle.com/errata/ELSA-2025-13240.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
@@ -587,16 +616,20 @@
       oracle-oval: 2
       photon: 3
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
         V3Score: 4.2
     References:
-    - https://access.redhat.com/errata/RHSA-2025:13240
+    - https://access.redhat.com/errata/RHSA-2025:12980
     - https://access.redhat.com/security/cve/CVE-2025-8058
     - https://bugzilla.redhat.com/2383146
-    - https://errata.almalinux.org/10/ALSA-2025-13240.html
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2383146
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8058
+    - https://errata.almalinux.org/8/ALSA-2025-12980.html
+    - https://errata.rockylinux.org/RLSA-2025:12980
     - https://linux.oracle.com/cve/CVE-2025-8058.html
     - https://linux.oracle.com/errata/ELSA-2025-13240.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
@@ -892,6 +925,31 @@
     - https://www.cve.org/CVERecord?id=CVE-2019-6461
     PublishedDate: '2019-01-16T18:29:00.51Z'
     LastModifiedDate: '2024-11-21T04:46:29.91Z'
+  - VulnerabilityID: CVE-2025-9086
+    PkgID: libcurl4t64@8.12.1-3ubuntu1
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.12.1-3ubuntu1?arch=amd64&distro=ubuntu-25.04
+      UID: c4a83a72d7a57798
+    InstalledVersion: 8.12.1-3ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:1eec1b5a91a3c7615fd57a0811d966d9351e9af428ae83d12a9631df8e3b4273
+      DiffID: sha256:417e27ccb82723c37af09a6ef36493f54aa54928889b6f8da25cf79558012058
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9086
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[Out of bounds read for cookie path]'
+    Description: Out-of-bounds read when dealing with cookies
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/docs/CVE-2025-9086.html
+    - https://www.cve.org/CVERecord?id=CVE-2025-9086
   - VulnerabilityID: CVE-2025-1352
     PkgID: libelf1t64@0.192-4ubuntu1
     PkgName: libelf1t64
@@ -1569,10 +1627,15 @@
     CweIDs:
     - CWE-122
     - CWE-125
+    - CWE-787
     VendorSeverity:
+      nvd: 4
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 9.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L
         V3Score: 6.5
@@ -1584,7 +1647,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58050
     - https://www.cve.org/CVERecord?id=CVE-2025-58050
     PublishedDate: '2025-08-27T19:15:37.56Z'
-    LastModifiedDate: '2025-08-29T16:24:09.86Z'
+    LastModifiedDate: '2025-09-09T15:27:39.573Z'
   - VulnerabilityID: CVE-2023-37769
     PkgID: libpixman-1-0@0.44.0-3
     PkgName: libpixman-1-0
@@ -1938,16 +2001,20 @@
       oracle-oval: 2
       photon: 3
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
         V3Score: 4.2
     References:
-    - https://access.redhat.com/errata/RHSA-2025:13240
+    - https://access.redhat.com/errata/RHSA-2025:12980
     - https://access.redhat.com/security/cve/CVE-2025-8058
     - https://bugzilla.redhat.com/2383146
-    - https://errata.almalinux.org/10/ALSA-2025-13240.html
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2383146
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8058
+    - https://errata.almalinux.org/8/ALSA-2025-12980.html
+    - https://errata.rockylinux.org/RLSA-2025:12980
     - https://linux.oracle.com/cve/CVE-2025-8058.html
     - https://linux.oracle.com/errata/ELSA-2025-13240.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
