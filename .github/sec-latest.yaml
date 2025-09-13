@@ -53,6 +53,44 @@
     - https://www.cve.org/CVERecord?id=CVE-2016-2781
     PublishedDate: '2017-02-07T15:59:00.333Z'
     LastModifiedDate: '2025-06-09T16:15:25.013Z'
+  - VulnerabilityID: CVE-2025-10148
+    PkgID: curl@8.12.1-3ubuntu1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.12.1-3ubuntu1?arch=amd64&distro=ubuntu-25.04
+      UID: 10b1fa91959ee993
+    InstalledVersion: 8.12.1-3ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:1eec1b5a91a3c7615fd57a0811d966d9351e9af428ae83d12a9631df8e3b4273
+      DiffID: sha256:417e27ccb82723c37af09a6ef36493f54aa54928889b6f8da25cf79558012058
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10148
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: curl's websocket code did not update the 32 bit mask pattern for each  ...
+    Description: |-
+      curl's websocket code did not update the 32 bit mask pattern for each new
+       outgoing frame as the specification says. Instead it used a fixed mask that
+      persisted and was used throughout the entire connection.
+
+      A predictable mask pattern allows for a malicious server to induce traffic
+      between the two communicating parties that could be interpreted by an involved
+      proxy (configured or transparent) as genuine, real, HTTP traffic with content
+      and thereby poison its cache. That cached poisoned content could then be
+      served to all users of that proxy.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/docs/CVE-2025-10148.html
+    - https://curl.se/docs/CVE-2025-10148.json
+    - https://hackerone.com/reports/3330839
+    - https://www.cve.org/CVERecord?id=CVE-2025-10148
+    PublishedDate: '2025-09-12T06:15:40.02Z'
+    LastModifiedDate: '2025-09-12T06:15:40.02Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: curl@8.12.1-3ubuntu1
     PkgName: curl
@@ -70,14 +108,34 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: '[Out of bounds read for cookie path]'
-    Description: Out-of-bounds read when dealing with cookies
+    Title: 1. A cookie is set using the `secure` keyword for `https://target` 2.  ...
+    Description: |-
+      1. A cookie is set using the `secure` keyword for `https://target`
+      2. curl is redirected to or otherwise made to speak with `http://target` (same
+         hostname, but using clear text HTTP) using the same cookie set
+      3. The same cookie name is set - but with just a slash as path (`path='/'`).
+         Since this site is not secure, the cookie *should* just be ignored.
+      4. A bug in the path comparison logic makes curl read outside a heap buffer
+         boundary
+
+      The bug either causes a crash or it potentially makes the comparison come to
+      the wrong conclusion and lets the clear-text site override the contents of the
+      secure cookie, contrary to expectations and depending on the memory contents
+      immediately following the single-byte allocation that holds the path.
+
+      The presumed and correct behavior would be to plainly ignore the second set of
+      the cookie since it was already set as secure on a secure host so overriding
+      it on an insecure host should not be okay.
     Severity: LOW
     VendorSeverity:
       ubuntu: 1
     References:
     - https://curl.se/docs/CVE-2025-9086.html
+    - https://curl.se/docs/CVE-2025-9086.json
+    - https://hackerone.com/reports/3294999
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
+    PublishedDate: '2025-09-12T06:15:44.1Z'
+    LastModifiedDate: '2025-09-12T06:15:44.1Z'
   - VulnerabilityID: CVE-2025-6052
     PkgID: gir1.2-glib-2.0@2.84.1-1ubuntu0.1
     PkgName: gir1.2-glib-2.0
@@ -925,6 +983,133 @@
     - https://www.cve.org/CVERecord?id=CVE-2019-6461
     PublishedDate: '2019-01-16T18:29:00.51Z'
     LastModifiedDate: '2024-11-21T04:46:29.91Z'
+  - VulnerabilityID: CVE-2025-58060
+    PkgID: libcups2t64@2.4.12-0ubuntu1
+    PkgName: libcups2t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcups2t64@2.4.12-0ubuntu1?arch=amd64&distro=ubuntu-25.04
+      UID: c89a8ae097d9c39c
+    InstalledVersion: 2.4.12-0ubuntu1
+    FixedVersion: 2.4.12-0ubuntu1.1
+    Status: fixed
+    Layer:
+      Digest: sha256:1eec1b5a91a3c7615fd57a0811d966d9351e9af428ae83d12a9631df8e3b4273
+      DiffID: sha256:417e27ccb82723c37af09a6ef36493f54aa54928889b6f8da25cf79558012058
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58060
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cups: Authentication Bypass in CUPS Authorization Handling'
+    Description: 'OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. In versions 2.4.12 and earlier, when the `AuthType` is set to anything but `Basic`, if the request contains an `Authorization: Basic ...` header, the password is not checked. This results in authentication bypass. Any configuration that allows an `AuthType` that is not `Basic` is affected. Version 2.4.13 fixes the issue.'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-287
+    VendorSeverity:
+      alma: 3
+      oracle-oval: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H
+        V3Score: 8
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:15702
+    - https://access.redhat.com/security/cve/CVE-2025-58060
+    - https://bugzilla.redhat.com/2392595
+    - https://errata.almalinux.org/8/ALSA-2025-15702.html
+    - https://github.com/OpenPrinting/cups/commit/595d691075b1d396d2edfaa0a8fd0873a0a1f221
+    - https://github.com/OpenPrinting/cups/security/advisories/GHSA-4c68-qgrh-rmmq
+    - https://linux.oracle.com/cve/CVE-2025-58060.html
+    - https://linux.oracle.com/errata/ELSA-2025-15701.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-58060
+    - https://ubuntu.com/security/notices/USN-7745-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-58060
+    PublishedDate: '2025-09-11T18:15:34.787Z'
+    LastModifiedDate: '2025-09-11T18:15:34.787Z'
+  - VulnerabilityID: CVE-2025-58364
+    PkgID: libcups2t64@2.4.12-0ubuntu1
+    PkgName: libcups2t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcups2t64@2.4.12-0ubuntu1?arch=amd64&distro=ubuntu-25.04
+      UID: c89a8ae097d9c39c
+    InstalledVersion: 2.4.12-0ubuntu1
+    FixedVersion: 2.4.12-0ubuntu1.1
+    Status: fixed
+    Layer:
+      Digest: sha256:1eec1b5a91a3c7615fd57a0811d966d9351e9af428ae83d12a9631df8e3b4273
+      DiffID: sha256:417e27ccb82723c37af09a6ef36493f54aa54928889b6f8da25cf79558012058
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58364
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'cups: Null Pointer Dereference in CUPS ipp_read_io() Leading to Remote DoS'
+    Description: OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. In versions 2.4.12 and earlier, an unsafe deserialization and validation of printer attributes causes null dereference in the libcups library. This is a remote DoS vulnerability available in local subnet in default configurations. It can cause the cups & cups-browsed to crash, on all the machines in local network who are listening for printers (so by default for all regular linux machines). On systems where the vulnerability CVE-2024-47176 (cups-filters 1.x/cups-browsed 2.x vulnerability) was not fixed, and the firewall on the machine does not reject incoming communication to IPP port, and the machine is set to be available to public internet, attack vector "Network" is possible. The current versions of CUPS and cups-browsed projects have the attack vector "Adjacent" in their default configurations. Version 2.4.13 contains a patch for CVE-2025-58364.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-20
+    - CWE-476
+    VendorSeverity:
+      oracle-oval: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-58364
+    - https://github.com/OpenPrinting/cups/commit/e58cba9d6fceed4242980e51dbd1302cf638ab1d
+    - https://github.com/OpenPrinting/cups/security/advisories/GHSA-7qx3-r744-6qv4
+    - https://linux.oracle.com/cve/CVE-2025-58364.html
+    - https://linux.oracle.com/errata/ELSA-2025-15701.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-58364
+    - https://ubuntu.com/security/notices/USN-7745-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-58364
+    PublishedDate: '2025-09-11T18:15:35.38Z'
+    LastModifiedDate: '2025-09-11T18:15:35.38Z'
+  - VulnerabilityID: CVE-2025-10148
+    PkgID: libcurl4t64@8.12.1-3ubuntu1
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.12.1-3ubuntu1?arch=amd64&distro=ubuntu-25.04
+      UID: c4a83a72d7a57798
+    InstalledVersion: 8.12.1-3ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:1eec1b5a91a3c7615fd57a0811d966d9351e9af428ae83d12a9631df8e3b4273
+      DiffID: sha256:417e27ccb82723c37af09a6ef36493f54aa54928889b6f8da25cf79558012058
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10148
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: curl's websocket code did not update the 32 bit mask pattern for each  ...
+    Description: |-
+      curl's websocket code did not update the 32 bit mask pattern for each new
+       outgoing frame as the specification says. Instead it used a fixed mask that
+      persisted and was used throughout the entire connection.
+
+      A predictable mask pattern allows for a malicious server to induce traffic
+      between the two communicating parties that could be interpreted by an involved
+      proxy (configured or transparent) as genuine, real, HTTP traffic with content
+      and thereby poison its cache. That cached poisoned content could then be
+      served to all users of that proxy.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/docs/CVE-2025-10148.html
+    - https://curl.se/docs/CVE-2025-10148.json
+    - https://hackerone.com/reports/3330839
+    - https://www.cve.org/CVERecord?id=CVE-2025-10148
+    PublishedDate: '2025-09-12T06:15:40.02Z'
+    LastModifiedDate: '2025-09-12T06:15:40.02Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: libcurl4t64@8.12.1-3ubuntu1
     PkgName: libcurl4t64
@@ -942,14 +1127,34 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: '[Out of bounds read for cookie path]'
-    Description: Out-of-bounds read when dealing with cookies
+    Title: 1. A cookie is set using the `secure` keyword for `https://target` 2.  ...
+    Description: |-
+      1. A cookie is set using the `secure` keyword for `https://target`
+      2. curl is redirected to or otherwise made to speak with `http://target` (same
+         hostname, but using clear text HTTP) using the same cookie set
+      3. The same cookie name is set - but with just a slash as path (`path='/'`).
+         Since this site is not secure, the cookie *should* just be ignored.
+      4. A bug in the path comparison logic makes curl read outside a heap buffer
+         boundary
+
+      The bug either causes a crash or it potentially makes the comparison come to
+      the wrong conclusion and lets the clear-text site override the contents of the
+      secure cookie, contrary to expectations and depending on the memory contents
+      immediately following the single-byte allocation that holds the path.
+
+      The presumed and correct behavior would be to plainly ignore the second set of
+      the cookie since it was already set as secure on a secure host so overriding
+      it on an insecure host should not be okay.
     Severity: LOW
     VendorSeverity:
       ubuntu: 1
     References:
     - https://curl.se/docs/CVE-2025-9086.html
+    - https://curl.se/docs/CVE-2025-9086.json
+    - https://hackerone.com/reports/3294999
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
+    PublishedDate: '2025-09-12T06:15:44.1Z'
+    LastModifiedDate: '2025-09-12T06:15:44.1Z'
   - VulnerabilityID: CVE-2025-1352
     PkgID: libelf1t64@0.192-4ubuntu1
     PkgName: libelf1t64
