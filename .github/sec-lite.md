@@ -2,30 +2,7 @@
 ╭ [0] ╭ Target         : nmaguiar/netutils:lite (alpine 3.23.0_alpha20250612) 
 │     ├ Class          : os-pkgs 
 │     ├ Type           : alpine 
-│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2025-9086 
-│                       │      ├ PkgID           : curl@8.15.0-r1 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.15.0-r1?arch=x86_64&distro=3.23
-│                       │      │                  │       .0_alpha20250612 
-│                       │      │                  ╰ UID : 1e4774d17cac5563 
-│                       │      ├ InstalledVersion: 8.15.0-r1 
-│                       │      ├ FixedVersion    : 8.16.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:19ad0ccc6990d9b455380aa6ed06009a77c23197bc12
-│                       │      │                  │         035f61f726dbf359dfcf 
-│                       │      │                  ╰ DiffID: sha256:0988cadd2fb4652147d39ac892c3add65e1563e1c0b8
-│                       │      │                            c210ae3b55dd5a0325b4 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9086 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : [Out of bounds read for cookie path] 
-│                       │      ├ Description     : Out-of-bounds read when dealing with cookies 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
-│                       │      ╰ References       ╭ [0]: https://curl.se/docs/CVE-2025-9086.html 
-│                       │                         ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
-│                       ├ [1]  ╭ VulnerabilityID : CVE-2025-10148 
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2025-10148 
 │                       │      ├ PkgID           : curl@8.15.0-r1 
 │                       │      ├ PkgName         : curl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.15.0-r1?arch=x86_64&distro=3.23
@@ -42,14 +19,37 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : [predictable WebSocket mask] 
-│                       │      ╰ Severity        : UNKNOWN 
-│                       ├ [2]  ╭ VulnerabilityID : CVE-2025-9086 
-│                       │      ├ PkgID           : curl-doc@8.15.0-r1 
-│                       │      ├ PkgName         : curl-doc 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.15.0-r1?arch=x86_64&distro=
-│                       │      │                  │       3.23.0_alpha20250612 
-│                       │      │                  ╰ UID : 65bfd15c6c5f5411 
+│                       │      ├ Title           : curl's websocket code did not update the 32 bit mask pattern
+│                       │      │                    for each  ... 
+│                       │      ├ Description     : curl's websocket code did not update the 32 bit mask pattern
+│                       │      │                    for each new
+│                       │      │                    outgoing frame as the specification says. Instead it used a
+│                       │      │                    fixed mask that
+│                       │      │                   persisted and was used throughout the entire connection.
+│                       │      │                   
+│                       │      │                   A predictable mask pattern allows for a malicious server to
+│                       │      │                   induce traffic
+│                       │      │                   between the two communicating parties that could be
+│                       │      │                   interpreted by an involved
+│                       │      │                   proxy (configured or transparent) as genuine, real, HTTP
+│                       │      │                   traffic with content
+│                       │      │                   and thereby poison its cache. That cached poisoned content
+│                       │      │                   could then be
+│                       │      │                   served to all users of that proxy. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-10148.html 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-10148.json 
+│                       │      │                  ├ [2]: https://hackerone.com/reports/3330839 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
+│                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
+│                       │      ╰ LastModifiedDate: 2025-09-12T06:15:40.02Z 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2025-9086 
+│                       │      ├ PkgID           : curl@8.15.0-r1 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.15.0-r1?arch=x86_64&distro=3.23
+│                       │      │                  │       .0_alpha20250612 
+│                       │      │                  ╰ UID : 1e4774d17cac5563 
 │                       │      ├ InstalledVersion: 8.15.0-r1 
 │                       │      ├ FixedVersion    : 8.16.0-r0 
 │                       │      ├ Status          : fixed 
@@ -61,13 +61,44 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : [Out of bounds read for cookie path] 
-│                       │      ├ Description     : Out-of-bounds read when dealing with cookies 
+│                       │      ├ Title           : 1. A cookie is set using the `secure` keyword for
+│                       │      │                   `https://target` 2.  ... 
+│                       │      ├ Description     : 1. A cookie is set using the `secure` keyword for
+│                       │      │                   `https://target`
+│                       │      │                   2. curl is redirected to or otherwise made to speak with
+│                       │      │                   `http://target` (same
+│                       │      │                      hostname, but using clear text HTTP) using the same
+│                       │      │                   cookie set
+│                       │      │                   3. The same cookie name is set - but with just a slash as
+│                       │      │                   path (`path='/'`).
+│                       │      │                      Since this site is not secure, the cookie *should* just
+│                       │      │                   be ignored.
+│                       │      │                   4. A bug in the path comparison logic makes curl read
+│                       │      │                   outside a heap buffer
+│                       │      │                      boundary
+│                       │      │                   
+│                       │      │                   The bug either causes a crash or it potentially makes the
+│                       │      │                   comparison come to
+│                       │      │                   the wrong conclusion and lets the clear-text site override
+│                       │      │                   the contents of the
+│                       │      │                   secure cookie, contrary to expectations and depending on the
+│                       │      │                    memory contents
+│                       │      │                   immediately following the single-byte allocation that holds
+│                       │      │                   the path.
+│                       │      │                   The presumed and correct behavior would be to plainly ignore
+│                       │      │                    the second set of
+│                       │      │                   the cookie since it was already set as secure on a secure
+│                       │      │                   host so overriding
+│                       │      │                   it on an insecure host should not be okay. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ─ ubuntu: 1 
-│                       │      ╰ References       ╭ [0]: https://curl.se/docs/CVE-2025-9086.html 
-│                       │                         ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-10148 
+│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-9086.html 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-9086.json 
+│                       │      │                  ├ [2]: https://hackerone.com/reports/3294999 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
+│                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
+│                       │      ╰ LastModifiedDate: 2025-09-12T06:15:44.1Z 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2025-10148 
 │                       │      ├ PkgID           : curl-doc@8.15.0-r1 
 │                       │      ├ PkgName         : curl-doc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.15.0-r1?arch=x86_64&distro=
@@ -84,14 +115,37 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : [predictable WebSocket mask] 
-│                       │      ╰ Severity        : UNKNOWN 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-9086 
-│                       │      ├ PkgID           : libcurl@8.15.0-r1 
-│                       │      ├ PkgName         : libcurl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.15.0-r1?arch=x86_64&distro=3
-│                       │      │                  │       .23.0_alpha20250612 
-│                       │      │                  ╰ UID : 207617dd56a7519f 
+│                       │      ├ Title           : curl's websocket code did not update the 32 bit mask pattern
+│                       │      │                    for each  ... 
+│                       │      ├ Description     : curl's websocket code did not update the 32 bit mask pattern
+│                       │      │                    for each new
+│                       │      │                    outgoing frame as the specification says. Instead it used a
+│                       │      │                    fixed mask that
+│                       │      │                   persisted and was used throughout the entire connection.
+│                       │      │                   
+│                       │      │                   A predictable mask pattern allows for a malicious server to
+│                       │      │                   induce traffic
+│                       │      │                   between the two communicating parties that could be
+│                       │      │                   interpreted by an involved
+│                       │      │                   proxy (configured or transparent) as genuine, real, HTTP
+│                       │      │                   traffic with content
+│                       │      │                   and thereby poison its cache. That cached poisoned content
+│                       │      │                   could then be
+│                       │      │                   served to all users of that proxy. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-10148.html 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-10148.json 
+│                       │      │                  ├ [2]: https://hackerone.com/reports/3330839 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
+│                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
+│                       │      ╰ LastModifiedDate: 2025-09-12T06:15:40.02Z 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-9086 
+│                       │      ├ PkgID           : curl-doc@8.15.0-r1 
+│                       │      ├ PkgName         : curl-doc 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.15.0-r1?arch=x86_64&distro=
+│                       │      │                  │       3.23.0_alpha20250612 
+│                       │      │                  ╰ UID : 65bfd15c6c5f5411 
 │                       │      ├ InstalledVersion: 8.15.0-r1 
 │                       │      ├ FixedVersion    : 8.16.0-r0 
 │                       │      ├ Status          : fixed 
@@ -103,13 +157,44 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : [Out of bounds read for cookie path] 
-│                       │      ├ Description     : Out-of-bounds read when dealing with cookies 
+│                       │      ├ Title           : 1. A cookie is set using the `secure` keyword for
+│                       │      │                   `https://target` 2.  ... 
+│                       │      ├ Description     : 1. A cookie is set using the `secure` keyword for
+│                       │      │                   `https://target`
+│                       │      │                   2. curl is redirected to or otherwise made to speak with
+│                       │      │                   `http://target` (same
+│                       │      │                      hostname, but using clear text HTTP) using the same
+│                       │      │                   cookie set
+│                       │      │                   3. The same cookie name is set - but with just a slash as
+│                       │      │                   path (`path='/'`).
+│                       │      │                      Since this site is not secure, the cookie *should* just
+│                       │      │                   be ignored.
+│                       │      │                   4. A bug in the path comparison logic makes curl read
+│                       │      │                   outside a heap buffer
+│                       │      │                      boundary
+│                       │      │                   
+│                       │      │                   The bug either causes a crash or it potentially makes the
+│                       │      │                   comparison come to
+│                       │      │                   the wrong conclusion and lets the clear-text site override
+│                       │      │                   the contents of the
+│                       │      │                   secure cookie, contrary to expectations and depending on the
+│                       │      │                    memory contents
+│                       │      │                   immediately following the single-byte allocation that holds
+│                       │      │                   the path.
+│                       │      │                   The presumed and correct behavior would be to plainly ignore
+│                       │      │                    the second set of
+│                       │      │                   the cookie since it was already set as secure on a secure
+│                       │      │                   host so overriding
+│                       │      │                   it on an insecure host should not be okay. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ─ ubuntu: 1 
-│                       │      ╰ References       ╭ [0]: https://curl.se/docs/CVE-2025-9086.html 
-│                       │                         ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-10148 
+│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-9086.html 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-9086.json 
+│                       │      │                  ├ [2]: https://hackerone.com/reports/3294999 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
+│                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
+│                       │      ╰ LastModifiedDate: 2025-09-12T06:15:44.1Z 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-10148 
 │                       │      ├ PkgID           : libcurl@8.15.0-r1 
 │                       │      ├ PkgName         : libcurl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.15.0-r1?arch=x86_64&distro=3
@@ -126,8 +211,85 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : [predictable WebSocket mask] 
-│                       │      ╰ Severity        : UNKNOWN 
+│                       │      ├ Title           : curl's websocket code did not update the 32 bit mask pattern
+│                       │      │                    for each  ... 
+│                       │      ├ Description     : curl's websocket code did not update the 32 bit mask pattern
+│                       │      │                    for each new
+│                       │      │                    outgoing frame as the specification says. Instead it used a
+│                       │      │                    fixed mask that
+│                       │      │                   persisted and was used throughout the entire connection.
+│                       │      │                   
+│                       │      │                   A predictable mask pattern allows for a malicious server to
+│                       │      │                   induce traffic
+│                       │      │                   between the two communicating parties that could be
+│                       │      │                   interpreted by an involved
+│                       │      │                   proxy (configured or transparent) as genuine, real, HTTP
+│                       │      │                   traffic with content
+│                       │      │                   and thereby poison its cache. That cached poisoned content
+│                       │      │                   could then be
+│                       │      │                   served to all users of that proxy. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-10148.html 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-10148.json 
+│                       │      │                  ├ [2]: https://hackerone.com/reports/3330839 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
+│                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
+│                       │      ╰ LastModifiedDate: 2025-09-12T06:15:40.02Z 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-9086 
+│                       │      ├ PkgID           : libcurl@8.15.0-r1 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.15.0-r1?arch=x86_64&distro=3
+│                       │      │                  │       .23.0_alpha20250612 
+│                       │      │                  ╰ UID : 207617dd56a7519f 
+│                       │      ├ InstalledVersion: 8.15.0-r1 
+│                       │      ├ FixedVersion    : 8.16.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:19ad0ccc6990d9b455380aa6ed06009a77c23197bc12
+│                       │      │                  │         035f61f726dbf359dfcf 
+│                       │      │                  ╰ DiffID: sha256:0988cadd2fb4652147d39ac892c3add65e1563e1c0b8
+│                       │      │                            c210ae3b55dd5a0325b4 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9086 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : 1. A cookie is set using the `secure` keyword for
+│                       │      │                   `https://target` 2.  ... 
+│                       │      ├ Description     : 1. A cookie is set using the `secure` keyword for
+│                       │      │                   `https://target`
+│                       │      │                   2. curl is redirected to or otherwise made to speak with
+│                       │      │                   `http://target` (same
+│                       │      │                      hostname, but using clear text HTTP) using the same
+│                       │      │                   cookie set
+│                       │      │                   3. The same cookie name is set - but with just a slash as
+│                       │      │                   path (`path='/'`).
+│                       │      │                      Since this site is not secure, the cookie *should* just
+│                       │      │                   be ignored.
+│                       │      │                   4. A bug in the path comparison logic makes curl read
+│                       │      │                   outside a heap buffer
+│                       │      │                      boundary
+│                       │      │                   
+│                       │      │                   The bug either causes a crash or it potentially makes the
+│                       │      │                   comparison come to
+│                       │      │                   the wrong conclusion and lets the clear-text site override
+│                       │      │                   the contents of the
+│                       │      │                   secure cookie, contrary to expectations and depending on the
+│                       │      │                    memory contents
+│                       │      │                   immediately following the single-byte allocation that holds
+│                       │      │                   the path.
+│                       │      │                   The presumed and correct behavior would be to plainly ignore
+│                       │      │                    the second set of
+│                       │      │                   the cookie since it was already set as secure on a secure
+│                       │      │                   host so overriding
+│                       │      │                   it on an insecure host should not be okay. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-9086.html 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-9086.json 
+│                       │      │                  ├ [2]: https://hackerone.com/reports/3294999 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
+│                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
+│                       │      ╰ LastModifiedDate: 2025-09-12T06:15:44.1Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2025-49794 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
@@ -381,29 +543,30 @@
 │                       │      │                  ├ [15]: https://access.redhat.com/errata/RHSA-2025:13336 
 │                       │      │                  ├ [16]: https://access.redhat.com/errata/RHSA-2025:14059 
 │                       │      │                  ├ [17]: https://access.redhat.com/errata/RHSA-2025:14396 
-│                       │      │                  ├ [18]: https://access.redhat.com/security/cve/CVE-2025-6021 
-│                       │      │                  ├ [19]: https://bugzilla.redhat.com/2372373 
-│                       │      │                  ├ [20]: https://bugzilla.redhat.com/2372385 
-│                       │      │                  ├ [21]: https://bugzilla.redhat.com/2372406 
-│                       │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
-│                       │      │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
-│                       │      │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
-│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-49794 
+│                       │      │                  ├ [18]: https://access.redhat.com/errata/RHSA-2025:15308 
+│                       │      │                  ├ [19]: https://access.redhat.com/security/cve/CVE-2025-6021 
+│                       │      │                  ├ [20]: https://bugzilla.redhat.com/2372373 
+│                       │      │                  ├ [21]: https://bugzilla.redhat.com/2372385 
+│                       │      │                  ├ [22]: https://bugzilla.redhat.com/2372406 
+│                       │      │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
+│                       │      │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
+│                       │      │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
 │                       │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-49796 
+│                       │      │                  │       25-49794 
 │                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-49796 
+│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6021 
-│                       │      │                  ├ [28]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
-│                       │      │                  ├ [29]: https://errata.rockylinux.org/RLSA-2025:10698 
-│                       │      │                  ├ [30]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/926 
-│                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2025-6021.html 
-│                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
-│                       │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2025-6021 
-│                       │      │                  ├ [34]: https://ubuntu.com/security/notices/USN-7694-1 
-│                       │      │                  ╰ [35]: https://www.cve.org/CVERecord?id=CVE-2025-6021 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
+│                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2025:10698 
+│                       │      │                  ├ [31]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/926 
+│                       │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2025-6021.html 
+│                       │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
+│                       │      │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2025-6021 
+│                       │      │                  ├ [35]: https://ubuntu.com/security/notices/USN-7694-1 
+│                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-6021 
 │                       │      ├ PublishedDate   : 2025-06-12T13:15:25.59Z 
-│                       │      ╰ LastModifiedDate: 2025-09-03T15:15:48.473Z 
+│                       │      ╰ LastModifiedDate: 2025-09-11T18:15:35.79Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2025-6170 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
