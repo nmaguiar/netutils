@@ -48,7 +48,7 @@
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                       │      ╰ LastModifiedDate: 2025-09-12T18:15:33.233Z 
+│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2025-9086 
 │                       │      ├ PkgID           : curl@8.15.0-r1 
 │                       │      ├ PkgName         : curl 
@@ -109,7 +109,7 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
-│                       │      ╰ LastModifiedDate: 2025-09-12T18:15:35.167Z 
+│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2025-10148 
 │                       │      ├ PkgID           : curl-doc@8.15.0-r1 
 │                       │      ├ PkgName         : curl-doc 
@@ -156,7 +156,7 @@
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                       │      ╰ LastModifiedDate: 2025-09-12T18:15:33.233Z 
+│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2025-9086 
 │                       │      ├ PkgID           : curl-doc@8.15.0-r1 
 │                       │      ├ PkgName         : curl-doc 
@@ -217,7 +217,7 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
-│                       │      ╰ LastModifiedDate: 2025-09-12T18:15:35.167Z 
+│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2025-10148 
 │                       │      ├ PkgID           : libcurl@8.15.0-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -264,7 +264,7 @@
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                       │      ╰ LastModifiedDate: 2025-09-12T18:15:33.233Z 
+│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2025-9086 
 │                       │      ├ PkgID           : libcurl@8.15.0-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -325,7 +325,7 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
-│                       │      ╰ LastModifiedDate: 2025-09-12T18:15:35.167Z 
+│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2025-49794 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
@@ -378,29 +378,30 @@
 │                       │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2025:12240 
 │                       │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:12241 
 │                       │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:13335 
-│                       │      │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2025-49794 
-│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2372373 
-│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2372385 
-│                       │      │                  ├ [15]: https://bugzilla.redhat.com/2372406 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
-│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
-│                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-49794 
+│                       │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:15828 
+│                       │      │                  ├ [13]: https://access.redhat.com/security/cve/CVE-2025-49794 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2372373 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/2372385 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2372406 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
 │                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-49796 
+│                       │      │                  │       25-49794 
 │                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-49796 
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6021 
-│                       │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
-│                       │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:10698 
-│                       │      │                  ├ [24]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/931 
-│                       │      │                  ├ [25]: https://linux.oracle.com/cve/CVE-2025-49794.html 
-│                       │      │                  ├ [26]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
-│                       │      │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2025-49794 
-│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7694-1 
-│                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-49794 
+│                       │      │                  ├ [23]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
+│                       │      │                  ├ [24]: https://errata.rockylinux.org/RLSA-2025:10698 
+│                       │      │                  ├ [25]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/931 
+│                       │      │                  ├ [26]: https://linux.oracle.com/cve/CVE-2025-49794.html 
+│                       │      │                  ├ [27]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
+│                       │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2025-49794 
+│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-7694-1 
+│                       │      │                  ╰ [30]: https://www.cve.org/CVERecord?id=CVE-2025-49794 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:18.997Z 
-│                       │      ╰ LastModifiedDate: 2025-08-07T09:15:27.75Z 
+│                       │      ╰ LastModifiedDate: 2025-09-15T16:15:38.727Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2025-49796 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
@@ -453,29 +454,30 @@
 │                       │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:12241 
 │                       │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:13267 
 │                       │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:13335 
-│                       │      │                  ├ [13]: https://access.redhat.com/security/cve/CVE-2025-49796 
-│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2372373 
-│                       │      │                  ├ [15]: https://bugzilla.redhat.com/2372385 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2372406 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
-│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
-│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
-│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-49794 
+│                       │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:15828 
+│                       │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-49796 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/2372373 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2372385 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2372406 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
+│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
 │                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-49796 
+│                       │      │                  │       25-49794 
 │                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-49796 
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6021 
-│                       │      │                  ├ [23]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
-│                       │      │                  ├ [24]: https://errata.rockylinux.org/RLSA-2025:10698 
-│                       │      │                  ├ [25]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/933 
-│                       │      │                  ├ [26]: https://linux.oracle.com/cve/CVE-2025-49796.html 
-│                       │      │                  ├ [27]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
-│                       │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2025-49796 
-│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-7694-1 
-│                       │      │                  ╰ [30]: https://www.cve.org/CVERecord?id=CVE-2025-49796 
+│                       │      │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
+│                       │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2025:10698 
+│                       │      │                  ├ [26]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/933 
+│                       │      │                  ├ [27]: https://linux.oracle.com/cve/CVE-2025-49796.html 
+│                       │      │                  ├ [28]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
+│                       │      │                  ├ [29]: https://nvd.nist.gov/vuln/detail/CVE-2025-49796 
+│                       │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7694-1 
+│                       │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2025-49796 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:19.37Z 
-│                       │      ╰ LastModifiedDate: 2025-08-07T09:15:27.99Z 
+│                       │      ╰ LastModifiedDate: 2025-09-15T16:15:38.92Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2025-49795 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
