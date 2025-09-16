@@ -46,7 +46,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-10148
     - https://www.cve.org/CVERecord?id=CVE-2025-10148
     PublishedDate: '2025-09-12T06:15:40.02Z'
-    LastModifiedDate: '2025-09-12T18:15:33.233Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: curl@8.15.0-r1
     PkgName: curl
@@ -99,7 +99,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2025-09-12T18:15:35.167Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
   - VulnerabilityID: CVE-2025-10148
     PkgID: curl-doc@8.15.0-r1
     PkgName: curl-doc
@@ -144,7 +144,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-10148
     - https://www.cve.org/CVERecord?id=CVE-2025-10148
     PublishedDate: '2025-09-12T06:15:40.02Z'
-    LastModifiedDate: '2025-09-12T18:15:33.233Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: curl-doc@8.15.0-r1
     PkgName: curl-doc
@@ -197,7 +197,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2025-09-12T18:15:35.167Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
   - VulnerabilityID: CVE-2025-10148
     PkgID: libcurl@8.15.0-r1
     PkgName: libcurl
@@ -242,7 +242,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-10148
     - https://www.cve.org/CVERecord?id=CVE-2025-10148
     PublishedDate: '2025-09-12T06:15:40.02Z'
-    LastModifiedDate: '2025-09-12T18:15:33.233Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: libcurl@8.15.0-r1
     PkgName: libcurl
@@ -295,7 +295,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2025-09-12T18:15:35.167Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
   - VulnerabilityID: CVE-2025-49794
     PkgID: libxml2@2.13.8-r0
     PkgName: libxml2
@@ -345,6 +345,7 @@
     - https://access.redhat.com/errata/RHSA-2025:12240
     - https://access.redhat.com/errata/RHSA-2025:12241
     - https://access.redhat.com/errata/RHSA-2025:13335
+    - https://access.redhat.com/errata/RHSA-2025:15828
     - https://access.redhat.com/security/cve/CVE-2025-49794
     - https://bugzilla.redhat.com/2372373
     - https://bugzilla.redhat.com/2372385
@@ -364,7 +365,7 @@
     - https://ubuntu.com/security/notices/USN-7694-1
     - https://www.cve.org/CVERecord?id=CVE-2025-49794
     PublishedDate: '2025-06-16T16:15:18.997Z'
-    LastModifiedDate: '2025-08-07T09:15:27.75Z'
+    LastModifiedDate: '2025-09-15T16:15:38.727Z'
   - VulnerabilityID: CVE-2025-49796
     PkgID: libxml2@2.13.8-r0
     PkgName: libxml2
@@ -415,6 +416,7 @@
     - https://access.redhat.com/errata/RHSA-2025:12241
     - https://access.redhat.com/errata/RHSA-2025:13267
     - https://access.redhat.com/errata/RHSA-2025:13335
+    - https://access.redhat.com/errata/RHSA-2025:15828
     - https://access.redhat.com/security/cve/CVE-2025-49796
     - https://bugzilla.redhat.com/2372373
     - https://bugzilla.redhat.com/2372385
@@ -434,7 +436,7 @@
     - https://ubuntu.com/security/notices/USN-7694-1
     - https://www.cve.org/CVERecord?id=CVE-2025-49796
     PublishedDate: '2025-06-16T16:15:19.37Z'
-    LastModifiedDate: '2025-08-07T09:15:27.99Z'
+    LastModifiedDate: '2025-09-15T16:15:38.92Z'
   - VulnerabilityID: CVE-2025-49795
     PkgID: libxml2@2.13.8-r0
     PkgName: libxml2
