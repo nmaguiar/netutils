@@ -345,6 +345,7 @@
     - https://access.redhat.com/errata/RHSA-2025:12240
     - https://access.redhat.com/errata/RHSA-2025:12241
     - https://access.redhat.com/errata/RHSA-2025:13335
+    - https://access.redhat.com/errata/RHSA-2025:15827
     - https://access.redhat.com/errata/RHSA-2025:15828
     - https://access.redhat.com/security/cve/CVE-2025-49794
     - https://bugzilla.redhat.com/2372373
@@ -356,7 +357,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
-    - https://errata.almalinux.org/9/ALSA-2025-10699.html
+    - https://errata.almalinux.org/8/ALSA-2025-10698.html
     - https://errata.rockylinux.org/RLSA-2025:10698
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/931
     - https://linux.oracle.com/cve/CVE-2025-49794.html
@@ -365,7 +366,7 @@
     - https://ubuntu.com/security/notices/USN-7694-1
     - https://www.cve.org/CVERecord?id=CVE-2025-49794
     PublishedDate: '2025-06-16T16:15:18.997Z'
-    LastModifiedDate: '2025-09-15T16:15:38.727Z'
+    LastModifiedDate: '2025-09-15T18:15:38.41Z'
   - VulnerabilityID: CVE-2025-49796
     PkgID: libxml2@2.13.8-r0
     PkgName: libxml2
@@ -416,6 +417,7 @@
     - https://access.redhat.com/errata/RHSA-2025:12241
     - https://access.redhat.com/errata/RHSA-2025:13267
     - https://access.redhat.com/errata/RHSA-2025:13335
+    - https://access.redhat.com/errata/RHSA-2025:15827
     - https://access.redhat.com/errata/RHSA-2025:15828
     - https://access.redhat.com/security/cve/CVE-2025-49796
     - https://bugzilla.redhat.com/2372373
@@ -427,7 +429,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
-    - https://errata.almalinux.org/9/ALSA-2025-10699.html
+    - https://errata.almalinux.org/8/ALSA-2025-10698.html
     - https://errata.rockylinux.org/RLSA-2025:10698
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/933
     - https://linux.oracle.com/cve/CVE-2025-49796.html
@@ -436,7 +438,7 @@
     - https://ubuntu.com/security/notices/USN-7694-1
     - https://www.cve.org/CVERecord?id=CVE-2025-49796
     PublishedDate: '2025-06-16T16:15:19.37Z'
-    LastModifiedDate: '2025-09-15T16:15:38.92Z'
+    LastModifiedDate: '2025-09-15T18:15:38.57Z'
   - VulnerabilityID: CVE-2025-49795
     PkgID: libxml2@2.13.8-r0
     PkgName: libxml2
@@ -550,7 +552,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
-    - https://errata.almalinux.org/9/ALSA-2025-10699.html
+    - https://errata.almalinux.org/8/ALSA-2025-10698.html
     - https://errata.rockylinux.org/RLSA-2025:10698
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/926
     - https://linux.oracle.com/cve/CVE-2025-6021.html
