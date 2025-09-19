@@ -296,6 +296,46 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
     LastModifiedDate: '2025-09-15T15:21:42.937Z'
+  - VulnerabilityID: CVE-2025-8114
+    PkgID: libssh@0.11.2-r0
+    PkgName: libssh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh@0.11.2-r0?arch=x86_64&distro=3.23.0_alpha20250612
+      UID: ab6246fe127e9a8a
+    InstalledVersion: 0.11.2-r0
+    FixedVersion: 0.11.3-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:19ad0ccc6990d9b455380aa6ed06009a77c23197bc12035f61f726dbf359dfcf
+      DiffID: sha256:0988cadd2fb4652147d39ac892c3add65e1563e1c0b8c210ae3b55dd5a0325b4
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8114
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: ': NULL Pointer Dereference in libssh KEX Session ID Calculation'
+    Description: A flaw was found in libssh, a library that implements the SSH protocol. When calculating the session ID during the key exchange (KEX) process, an allocation failure in cryptographic functions may lead to a NULL pointer dereference. This issue can cause the client or server to crash.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-8114
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2383220
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8114
+    - https://www.cve.org/CVERecord?id=CVE-2025-8114
+    PublishedDate: '2025-07-24T15:15:27.117Z'
+    LastModifiedDate: '2025-08-14T00:45:36.51Z'
   - VulnerabilityID: CVE-2025-49794
     PkgID: libxml2@2.13.8-r0
     PkgName: libxml2
@@ -357,7 +397,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
-    - https://errata.almalinux.org/8/ALSA-2025-10698.html
+    - https://errata.almalinux.org/9/ALSA-2025-10699.html
     - https://errata.rockylinux.org/RLSA-2025:10698
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/931
     - https://linux.oracle.com/cve/CVE-2025-49794.html
@@ -429,7 +469,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
-    - https://errata.almalinux.org/8/ALSA-2025-10698.html
+    - https://errata.almalinux.org/9/ALSA-2025-10699.html
     - https://errata.rockylinux.org/RLSA-2025:10698
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/933
     - https://linux.oracle.com/cve/CVE-2025-49796.html
@@ -542,6 +582,7 @@
     - https://access.redhat.com/errata/RHSA-2025:14059
     - https://access.redhat.com/errata/RHSA-2025:14396
     - https://access.redhat.com/errata/RHSA-2025:15308
+    - https://access.redhat.com/errata/RHSA-2025:15672
     - https://access.redhat.com/security/cve/CVE-2025-6021
     - https://bugzilla.redhat.com/2372373
     - https://bugzilla.redhat.com/2372385
@@ -552,7 +593,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
-    - https://errata.almalinux.org/8/ALSA-2025-10698.html
+    - https://errata.almalinux.org/9/ALSA-2025-10699.html
     - https://errata.rockylinux.org/RLSA-2025:10698
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/926
     - https://linux.oracle.com/cve/CVE-2025-6021.html
@@ -561,7 +602,7 @@
     - https://ubuntu.com/security/notices/USN-7694-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6021
     PublishedDate: '2025-06-12T13:15:25.59Z'
-    LastModifiedDate: '2025-09-11T18:15:35.79Z'
+    LastModifiedDate: '2025-09-18T10:15:34.863Z'
   - VulnerabilityID: CVE-2025-6170
     PkgID: libxml2@2.13.8-r0
     PkgName: libxml2
