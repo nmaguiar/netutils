@@ -326,7 +326,49 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
 │                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-49794 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-8114 
+│                       │      ├ PkgID           : libssh@0.11.2-r0 
+│                       │      ├ PkgName         : libssh 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh@0.11.2-r0?arch=x86_64&distro=3.
+│                       │      │                  │       23.0_alpha20250612 
+│                       │      │                  ╰ UID : ab6246fe127e9a8a 
+│                       │      ├ InstalledVersion: 0.11.2-r0 
+│                       │      ├ FixedVersion    : 0.11.3-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:19ad0ccc6990d9b455380aa6ed06009a77c23197bc12
+│                       │      │                  │         035f61f726dbf359dfcf 
+│                       │      │                  ╰ DiffID: sha256:0988cadd2fb4652147d39ac892c3add65e1563e1c0b8
+│                       │      │                            c210ae3b55dd5a0325b4 
+│                       │      ├ SeveritySource  : nvd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8114 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : : NULL Pointer Dereference in libssh KEX Session ID
+│                       │      │                   Calculation 
+│                       │      ├ Description     : A flaw was found in libssh, a library that implements the
+│                       │      │                   SSH protocol. When calculating the session ID during the key
+│                       │      │                    exchange (KEX) process, an allocation failure in
+│                       │      │                   cryptographic functions may lead to a NULL pointer
+│                       │      │                   dereference. This issue can cause the client or server to
+│                       │      │                   crash. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-476 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ╰ redhat: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 4.7 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 4.7 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8114 
+│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2383220 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-8114 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-8114 
+│                       │      ├ PublishedDate   : 2025-07-24T15:15:27.117Z 
+│                       │      ╰ LastModifiedDate: 2025-08-14T00:45:36.51Z 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-49794 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxml2@2.13.8-r0?arch=x86_64&distro=3
@@ -393,7 +435,7 @@
 │                       │      │                  │       25-49796 
 │                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6021 
-│                       │      │                  ├ [24]: https://errata.almalinux.org/8/ALSA-2025-10698.html 
+│                       │      │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
 │                       │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2025:10698 
 │                       │      │                  ├ [26]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/931 
 │                       │      │                  ├ [27]: https://linux.oracle.com/cve/CVE-2025-49794.html 
@@ -403,7 +445,7 @@
 │                       │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2025-49794 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:18.997Z 
 │                       │      ╰ LastModifiedDate: 2025-09-15T18:15:38.41Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-49796 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-49796 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxml2@2.13.8-r0?arch=x86_64&distro=3
@@ -470,7 +512,7 @@
 │                       │      │                  │       25-49796 
 │                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6021 
-│                       │      │                  ├ [25]: https://errata.almalinux.org/8/ALSA-2025-10698.html 
+│                       │      │                  ├ [25]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
 │                       │      │                  ├ [26]: https://errata.rockylinux.org/RLSA-2025:10698 
 │                       │      │                  ├ [27]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/933 
 │                       │      │                  ├ [28]: https://linux.oracle.com/cve/CVE-2025-49796.html 
@@ -480,7 +522,7 @@
 │                       │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2025-49796 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:19.37Z 
 │                       │      ╰ LastModifiedDate: 2025-09-15T18:15:38.57Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-49795 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-49795 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxml2@2.13.8-r0?arch=x86_64&distro=3
@@ -527,7 +569,7 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-49795 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:19.203Z 
 │                       │      ╰ LastModifiedDate: 2025-07-09T03:15:30.183Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-6021 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2025-6021 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxml2@2.13.8-r0?arch=x86_64&distro=3
@@ -584,30 +626,31 @@
 │                       │      │                  ├ [16]: https://access.redhat.com/errata/RHSA-2025:14059 
 │                       │      │                  ├ [17]: https://access.redhat.com/errata/RHSA-2025:14396 
 │                       │      │                  ├ [18]: https://access.redhat.com/errata/RHSA-2025:15308 
-│                       │      │                  ├ [19]: https://access.redhat.com/security/cve/CVE-2025-6021 
-│                       │      │                  ├ [20]: https://bugzilla.redhat.com/2372373 
-│                       │      │                  ├ [21]: https://bugzilla.redhat.com/2372385 
-│                       │      │                  ├ [22]: https://bugzilla.redhat.com/2372406 
-│                       │      │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
-│                       │      │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
-│                       │      │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
-│                       │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-49794 
+│                       │      │                  ├ [19]: https://access.redhat.com/errata/RHSA-2025:15672 
+│                       │      │                  ├ [20]: https://access.redhat.com/security/cve/CVE-2025-6021 
+│                       │      │                  ├ [21]: https://bugzilla.redhat.com/2372373 
+│                       │      │                  ├ [22]: https://bugzilla.redhat.com/2372385 
+│                       │      │                  ├ [23]: https://bugzilla.redhat.com/2372406 
+│                       │      │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
+│                       │      │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
+│                       │      │                  ├ [26]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
 │                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-49796 
+│                       │      │                  │       25-49794 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-49796 
+│                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6021 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/8/ALSA-2025-10698.html 
-│                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2025:10698 
-│                       │      │                  ├ [31]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/926 
-│                       │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2025-6021.html 
-│                       │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
-│                       │      │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2025-6021 
-│                       │      │                  ├ [35]: https://ubuntu.com/security/notices/USN-7694-1 
-│                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-6021 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
+│                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2025:10698 
+│                       │      │                  ├ [32]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/926 
+│                       │      │                  ├ [33]: https://linux.oracle.com/cve/CVE-2025-6021.html 
+│                       │      │                  ├ [34]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
+│                       │      │                  ├ [35]: https://nvd.nist.gov/vuln/detail/CVE-2025-6021 
+│                       │      │                  ├ [36]: https://ubuntu.com/security/notices/USN-7694-1 
+│                       │      │                  ╰ [37]: https://www.cve.org/CVERecord?id=CVE-2025-6021 
 │                       │      ├ PublishedDate   : 2025-06-12T13:15:25.59Z 
-│                       │      ╰ LastModifiedDate: 2025-09-11T18:15:35.79Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2025-6170 
+│                       │      ╰ LastModifiedDate: 2025-09-18T10:15:34.863Z 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2025-6170 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxml2@2.13.8-r0?arch=x86_64&distro=3
@@ -654,7 +697,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6170 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:20.43Z 
 │                       │      ╰ LastModifiedDate: 2025-08-12T13:04:06.117Z 
-│                       ╰ [11] ╭ VulnerabilityID : CVE-2025-58050 
+│                       ╰ [12] ╭ VulnerabilityID : CVE-2025-58050 
 │                              ├ PkgID           : pcre2@10.45-r0 
 │                              ├ PkgName         : pcre2 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pcre2@10.45-r0?arch=x86_64&distro=3.23
