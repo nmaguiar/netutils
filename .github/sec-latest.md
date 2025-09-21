@@ -1098,7 +1098,7 @@
 │                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7745-1 
 │                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-58060 
 │                       │      ├ PublishedDate   : 2025-09-11T18:15:34.787Z 
-│                       │      ╰ LastModifiedDate: 2025-09-15T15:22:38.297Z 
+│                       │      ╰ LastModifiedDate: 2025-09-19T19:56:17.477Z 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2025-58364 
 │                       │      ├ PkgID           : libcups2t64@2.4.12-0ubuntu1 
 │                       │      ├ PkgName         : libcups2t64 
@@ -1157,7 +1157,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7745-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-58364 
 │                       │      ├ PublishedDate   : 2025-09-11T18:15:35.38Z 
-│                       │      ╰ LastModifiedDate: 2025-09-15T15:22:38.297Z 
+│                       │      ╰ LastModifiedDate: 2025-09-19T19:48:32.727Z 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2025-10148 
 │                       │      ├ PkgID           : libcurl4t64@8.12.1-3ubuntu1 
 │                       │      ├ PkgName         : libcurl4t64 
@@ -2114,7 +2114,8 @@
 │                       │      │                   controlled data can then be written out of bounds. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-190 
-│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ References       ╭ [0]: https://github.com/google/security-research/security/a
 │                       │      │                  │      dvisories/GHSA-v2c8-vqqp-hv3g 
 │                       │      │                  ├ [1]: https://ubuntu.com/security/notices/USN-7751-1 
