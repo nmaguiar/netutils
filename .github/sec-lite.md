@@ -326,7 +326,48 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
 │                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-8114 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-59375 
+│                       │      ├ PkgID           : libexpat@2.7.1-r0 
+│                       │      ├ PkgName         : libexpat 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.7.1-r0?arch=x86_64&distro=3
+│                       │      │                  │       .23.0_alpha20250612 
+│                       │      │                  ╰ UID : 126e2bfc6a306a18 
+│                       │      ├ InstalledVersion: 2.7.1-r0 
+│                       │      ├ FixedVersion    : 2.7.2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:19ad0ccc6990d9b455380aa6ed06009a77c23197bc12
+│                       │      │                  │         035f61f726dbf359dfcf 
+│                       │      │                  ╰ DiffID: sha256:0988cadd2fb4652147d39ac892c3add65e1563e1c0b8
+│                       │      │                            c210ae3b55dd5a0325b4 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-59375 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : expat: libexpat in Expat allows attackers to trigger large
+│                       │      │                   dynamic memory allocations via a small document that is
+│                       │      │                   submitted for parsing 
+│                       │      ├ Description     : libexpat in Expat before 2.7.2 allows attackers to trigger
+│                       │      │                   large dynamic memory allocations via a small document that
+│                       │      │                   is submitted for parsing. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-770 
+│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-59375 
+│                       │      │                  ├ [1]: https://github.com/libexpat/libexpat/blob/676a4c531ec7
+│                       │      │                  │      68732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74 
+│                       │      │                  ├ [2]: https://github.com/libexpat/libexpat/blob/R_2_7_2/expa
+│                       │      │                  │      t/Changes 
+│                       │      │                  ├ [3]: https://github.com/libexpat/libexpat/issues/1018 
+│                       │      │                  ├ [4]: https://github.com/libexpat/libexpat/pull/1034 
+│                       │      │                  ├ [5]: https://issues.oss-fuzz.com/issues/439133977 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-59375 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-59375 
+│                       │      ├ PublishedDate   : 2025-09-15T03:15:40.92Z 
+│                       │      ╰ LastModifiedDate: 2025-09-17T14:15:40.913Z 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-8114 
 │                       │      ├ PkgID           : libssh@0.11.2-r0 
 │                       │      ├ PkgName         : libssh 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh@0.11.2-r0?arch=x86_64&distro=3.
@@ -368,7 +409,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-8114 
 │                       │      ├ PublishedDate   : 2025-07-24T15:15:27.117Z 
 │                       │      ╰ LastModifiedDate: 2025-08-14T00:45:36.51Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-49794 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-49794 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxml2@2.13.8-r0?arch=x86_64&distro=3
@@ -435,7 +476,7 @@
 │                       │      │                  │       25-49796 
 │                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6021 
-│                       │      │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
+│                       │      │                  ├ [24]: https://errata.almalinux.org/8/ALSA-2025-10698.html 
 │                       │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2025:10698 
 │                       │      │                  ├ [26]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/931 
 │                       │      │                  ├ [27]: https://linux.oracle.com/cve/CVE-2025-49794.html 
@@ -445,7 +486,7 @@
 │                       │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2025-49794 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:18.997Z 
 │                       │      ╰ LastModifiedDate: 2025-09-15T18:15:38.41Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-49796 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-49796 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxml2@2.13.8-r0?arch=x86_64&distro=3
@@ -512,7 +553,7 @@
 │                       │      │                  │       25-49796 
 │                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6021 
-│                       │      │                  ├ [25]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
+│                       │      │                  ├ [25]: https://errata.almalinux.org/8/ALSA-2025-10698.html 
 │                       │      │                  ├ [26]: https://errata.rockylinux.org/RLSA-2025:10698 
 │                       │      │                  ├ [27]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/933 
 │                       │      │                  ├ [28]: https://linux.oracle.com/cve/CVE-2025-49796.html 
@@ -522,7 +563,7 @@
 │                       │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2025-49796 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:19.37Z 
 │                       │      ╰ LastModifiedDate: 2025-09-15T18:15:38.57Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-49795 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2025-49795 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxml2@2.13.8-r0?arch=x86_64&distro=3
@@ -569,7 +610,7 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-49795 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:19.203Z 
 │                       │      ╰ LastModifiedDate: 2025-07-09T03:15:30.183Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2025-6021 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2025-6021 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxml2@2.13.8-r0?arch=x86_64&distro=3
@@ -640,7 +681,7 @@
 │                       │      │                  │       25-49796 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6021 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/8/ALSA-2025-10698.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2025:10698 
 │                       │      │                  ├ [32]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/926 
 │                       │      │                  ├ [33]: https://linux.oracle.com/cve/CVE-2025-6021.html 
@@ -650,7 +691,7 @@
 │                       │      │                  ╰ [37]: https://www.cve.org/CVERecord?id=CVE-2025-6021 
 │                       │      ├ PublishedDate   : 2025-06-12T13:15:25.59Z 
 │                       │      ╰ LastModifiedDate: 2025-09-18T10:15:34.863Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2025-6170 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2025-6170 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxml2@2.13.8-r0?arch=x86_64&distro=3
@@ -697,7 +738,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6170 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:20.43Z 
 │                       │      ╰ LastModifiedDate: 2025-08-12T13:04:06.117Z 
-│                       ╰ [12] ╭ VulnerabilityID : CVE-2025-58050 
+│                       ╰ [13] ╭ VulnerabilityID : CVE-2025-58050 
 │                              ├ PkgID           : pcre2@10.45-r0 
 │                              ├ PkgName         : pcre2 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pcre2@10.45-r0?arch=x86_64&distro=3.23
