@@ -318,16 +318,17 @@
         V3Score: 5.3
     References:
     - https://access.redhat.com/errata/RHSA-2025:11402
+    - https://access.redhat.com/errata/RHSA-2025:16441
     - https://access.redhat.com/security/cve/CVE-2024-52615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
     - https://linux.oracle.com/cve/CVE-2024-52615.html
-    - https://linux.oracle.com/errata/ELSA-2025-11402.html
+    - https://linux.oracle.com/errata/ELSA-2025-16441.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52615
     - https://www.cve.org/CVERecord?id=CVE-2024-52615
     PublishedDate: '2024-11-21T21:15:23.807Z'
-    LastModifiedDate: '2025-07-21T08:15:23.727Z'
+    LastModifiedDate: '2025-09-23T10:15:34.1Z'
   - VulnerabilityID: CVE-2024-52616
     PkgID: libavahi-client3@0.8-16ubuntu2
     PkgName: libavahi-client3
@@ -409,16 +410,17 @@
         V3Score: 5.3
     References:
     - https://access.redhat.com/errata/RHSA-2025:11402
+    - https://access.redhat.com/errata/RHSA-2025:16441
     - https://access.redhat.com/security/cve/CVE-2024-52615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
     - https://linux.oracle.com/cve/CVE-2024-52615.html
-    - https://linux.oracle.com/errata/ELSA-2025-11402.html
+    - https://linux.oracle.com/errata/ELSA-2025-16441.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52615
     - https://www.cve.org/CVERecord?id=CVE-2024-52615
     PublishedDate: '2024-11-21T21:15:23.807Z'
-    LastModifiedDate: '2025-07-21T08:15:23.727Z'
+    LastModifiedDate: '2025-09-23T10:15:34.1Z'
   - VulnerabilityID: CVE-2024-52616
     PkgID: libavahi-common-data@0.8-16ubuntu2
     PkgName: libavahi-common-data
@@ -500,16 +502,17 @@
         V3Score: 5.3
     References:
     - https://access.redhat.com/errata/RHSA-2025:11402
+    - https://access.redhat.com/errata/RHSA-2025:16441
     - https://access.redhat.com/security/cve/CVE-2024-52615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
     - https://linux.oracle.com/cve/CVE-2024-52615.html
-    - https://linux.oracle.com/errata/ELSA-2025-11402.html
+    - https://linux.oracle.com/errata/ELSA-2025-16441.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-52615
     - https://www.cve.org/CVERecord?id=CVE-2024-52615
     PublishedDate: '2024-11-21T21:15:23.807Z'
-    LastModifiedDate: '2025-07-21T08:15:23.727Z'
+    LastModifiedDate: '2025-09-23T10:15:34.1Z'
   - VulnerabilityID: CVE-2024-52616
     PkgID: libavahi-common3@0.8-16ubuntu2
     PkgName: libavahi-common3
@@ -607,7 +610,8 @@
       PURL: pkg:deb/ubuntu/libc-bin@2.41-6ubuntu1.1?arch=amd64&distro=ubuntu-25.04
       UID: 798a8ba2010c8ddb
     InstalledVersion: 2.41-6ubuntu1.1
-    Status: affected
+    FixedVersion: 2.41-6ubuntu1.2
+    Status: fixed
     Layer:
       Digest: sha256:09800f79b2122c3e832002713d37aea8a919bf29af826382263d8bef01700b38
       DiffID: sha256:46818b0fe95795dc2397df9dbeedf6f4686c413ee2017ecc12a7cb04bf016da8
@@ -653,6 +657,7 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2025-0005
     - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
+    - https://ubuntu.com/security/notices/USN-7760-1
     - https://www.cve.org/CVERecord?id=CVE-2025-8058
     PublishedDate: '2025-07-23T20:15:27.747Z'
     LastModifiedDate: '2025-07-25T15:29:44.523Z'
@@ -663,7 +668,8 @@
       PURL: pkg:deb/ubuntu/libc6@2.41-6ubuntu1.1?arch=amd64&distro=ubuntu-25.04
       UID: de34a93826490997
     InstalledVersion: 2.41-6ubuntu1.1
-    Status: affected
+    FixedVersion: 2.41-6ubuntu1.2
+    Status: fixed
     Layer:
       Digest: sha256:09800f79b2122c3e832002713d37aea8a919bf29af826382263d8bef01700b38
       DiffID: sha256:46818b0fe95795dc2397df9dbeedf6f4686c413ee2017ecc12a7cb04bf016da8
@@ -709,6 +715,7 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2025-0005
     - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
+    - https://ubuntu.com/security/notices/USN-7760-1
     - https://www.cve.org/CVERecord?id=CVE-2025-8058
     PublishedDate: '2025-07-23T20:15:27.747Z'
     LastModifiedDate: '2025-07-25T15:29:44.523Z'
@@ -1329,7 +1336,8 @@
       PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
       UID: 1f70a9af7a8bc1e3
     InstalledVersion: 1.5.3-7ubuntu4.3
-    Status: affected
+    FixedVersion: 1.5.3-7ubuntu4.4
+    Status: fixed
     Layer:
       Digest: sha256:09800f79b2122c3e832002713d37aea8a919bf29af826382263d8bef01700b38
       DiffID: sha256:46818b0fe95795dc2397df9dbeedf6f4686c413ee2017ecc12a7cb04bf016da8
@@ -1363,16 +1371,18 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
+    - https://ubuntu.com/security/notices/USN-7761-1
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
     LastModifiedDate: '2025-02-06T06:15:29.24Z'
@@ -1424,12 +1434,11 @@
     - https://access.redhat.com/errata/RHSA-2025:15828
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
-    - https://bugzilla.redhat.com/2388220
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
-    - https://errata.almalinux.org/9/ALSA-2025-15099.html
+    - https://errata.almalinux.org/8/ALSA-2025-14557.html
     - https://errata.rockylinux.org/RLSA-2025:14557
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
@@ -1444,7 +1453,8 @@
       PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
       UID: 987b8db2bf790935
     InstalledVersion: 1.5.3-7ubuntu4.3
-    Status: affected
+    FixedVersion: 1.5.3-7ubuntu4.4
+    Status: fixed
     Layer:
       Digest: sha256:09800f79b2122c3e832002713d37aea8a919bf29af826382263d8bef01700b38
       DiffID: sha256:46818b0fe95795dc2397df9dbeedf6f4686c413ee2017ecc12a7cb04bf016da8
@@ -1478,16 +1488,18 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
+    - https://ubuntu.com/security/notices/USN-7761-1
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
     LastModifiedDate: '2025-02-06T06:15:29.24Z'
@@ -1539,12 +1551,11 @@
     - https://access.redhat.com/errata/RHSA-2025:15828
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
-    - https://bugzilla.redhat.com/2388220
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
-    - https://errata.almalinux.org/9/ALSA-2025-15099.html
+    - https://errata.almalinux.org/8/ALSA-2025-14557.html
     - https://errata.rockylinux.org/RLSA-2025:14557
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
@@ -1559,7 +1570,8 @@
       PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu4.3?arch=all&distro=ubuntu-25.04
       UID: 1420d5870a0f1057
     InstalledVersion: 1.5.3-7ubuntu4.3
-    Status: affected
+    FixedVersion: 1.5.3-7ubuntu4.4
+    Status: fixed
     Layer:
       Digest: sha256:09800f79b2122c3e832002713d37aea8a919bf29af826382263d8bef01700b38
       DiffID: sha256:46818b0fe95795dc2397df9dbeedf6f4686c413ee2017ecc12a7cb04bf016da8
@@ -1593,16 +1605,18 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
+    - https://ubuntu.com/security/notices/USN-7761-1
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
     LastModifiedDate: '2025-02-06T06:15:29.24Z'
@@ -1654,12 +1668,11 @@
     - https://access.redhat.com/errata/RHSA-2025:15828
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
-    - https://bugzilla.redhat.com/2388220
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
-    - https://errata.almalinux.org/9/ALSA-2025-15099.html
+    - https://errata.almalinux.org/8/ALSA-2025-14557.html
     - https://errata.rockylinux.org/RLSA-2025:14557
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
@@ -1674,7 +1687,8 @@
       PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
       UID: 78dc01c1ea68c9c2
     InstalledVersion: 1.5.3-7ubuntu4.3
-    Status: affected
+    FixedVersion: 1.5.3-7ubuntu4.4
+    Status: fixed
     Layer:
       Digest: sha256:09800f79b2122c3e832002713d37aea8a919bf29af826382263d8bef01700b38
       DiffID: sha256:46818b0fe95795dc2397df9dbeedf6f4686c413ee2017ecc12a7cb04bf016da8
@@ -1708,16 +1722,18 @@
     - https://access.redhat.com/errata/RHSA-2024:10528
     - https://access.redhat.com/errata/RHSA-2024:10852
     - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/2319212
     - https://bugzilla.redhat.com/2324291
     - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
     - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-10244.html
+    - https://errata.almalinux.org/8/ALSA-2024-10379.html
     - https://errata.rockylinux.org/RLSA-2024:10379
     - https://linux.oracle.com/cve/CVE-2024-10963.html
     - https://linux.oracle.com/errata/ELSA-2024-10379.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
+    - https://ubuntu.com/security/notices/USN-7761-1
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
     LastModifiedDate: '2025-02-06T06:15:29.24Z'
@@ -1769,12 +1785,11 @@
     - https://access.redhat.com/errata/RHSA-2025:15828
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
-    - https://bugzilla.redhat.com/2388220
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
-    - https://errata.almalinux.org/9/ALSA-2025-15099.html
+    - https://errata.almalinux.org/8/ALSA-2025-14557.html
     - https://errata.rockylinux.org/RLSA-2025:14557
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
@@ -2071,7 +2086,8 @@
       PURL: pkg:deb/ubuntu/locales@2.41-6ubuntu1.1?arch=all&distro=ubuntu-25.04
       UID: 259a33310ff79685
     InstalledVersion: 2.41-6ubuntu1.1
-    Status: affected
+    FixedVersion: 2.41-6ubuntu1.2
+    Status: fixed
     Layer:
       Digest: sha256:09800f79b2122c3e832002713d37aea8a919bf29af826382263d8bef01700b38
       DiffID: sha256:46818b0fe95795dc2397df9dbeedf6f4686c413ee2017ecc12a7cb04bf016da8
@@ -2117,6 +2133,7 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2025-0005
     - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
+    - https://ubuntu.com/security/notices/USN-7760-1
     - https://www.cve.org/CVERecord?id=CVE-2025-8058
     PublishedDate: '2025-07-23T20:15:27.747Z'
     LastModifiedDate: '2025-07-25T15:29:44.523Z'
