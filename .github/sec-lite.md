@@ -789,7 +789,8 @@
 │                              │                  ├ [3]: https://github.com/PCRE2Project/pcre2/security/advisor
 │                              │                  │      ies/GHSA-c2gv-xgf5-5cc2 
 │                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58050 
-│                              │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-58050 
+│                              │                  ├ [5]: https://ubuntu.com/security/notices/USN-7777-1 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-58050 
 │                              ├ PublishedDate   : 2025-08-27T19:15:37.56Z 
 │                              ╰ LastModifiedDate: 2025-09-09T15:27:39.573Z 
 ╰ [1] ╭ Target: Java 
