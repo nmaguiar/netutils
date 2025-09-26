@@ -729,6 +729,7 @@
     - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.46
     - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-c2gv-xgf5-5cc2
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58050
+    - https://ubuntu.com/security/notices/USN-7777-1
     - https://www.cve.org/CVERecord?id=CVE-2025-58050
     PublishedDate: '2025-08-27T19:15:37.56Z'
     LastModifiedDate: '2025-09-09T15:27:39.573Z'
