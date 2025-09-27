@@ -3412,8 +3412,7 @@
                               ├ DataSource       ╭ ID  : govulndb 
                               │                  ├ Name: The Go Vulnerability Database 
                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                              ├ Title           : When using http.CrossOriginProtection, the
-                              │                   AddInsecureBypassPattern me ... 
+                              ├ Title           : net/http: CrossOriginProtection bypass in net/http 
                               ├ Description     : When using http.CrossOriginProtection, the
                               │                   AddInsecureBypassPattern method can unexpectedly bypass more
                               │                   requests than intended. CrossOriginProtection then skips
@@ -3421,16 +3420,22 @@
                               │                    be served by a different handler without the intended
                               │                   security protections. 
                               ├ Severity        : MEDIUM 
-                              ├ VendorSeverity   ─ bitnami: 2 
-                              ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L
+                              ├ VendorSeverity   ╭ bitnami: 2 
+                              │                  ╰ redhat : 2 
+                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L
+                              │                  │         │           /A:N 
+                              │                  │         ╰ V3Score : 5.4 
+                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L
                               │                            │           /A:N 
                               │                            ╰ V3Score : 5.4 
-                              ├ References       ╭ [0]: https://go.dev/cl/699275 
-                              │                  ├ [1]: https://go.dev/issue/75054 
-                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/PtW9VW21N
+                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-47910 
+                              │                  ├ [1]: https://go.dev/cl/699275 
+                              │                  ├ [2]: https://go.dev/issue/75054 
+                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/PtW9VW21N
                               │                  │      Ps/m/DJhMQ-m5AQAJ 
-                              │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-47910 
-                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-3955 
+                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-47910 
+                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-3955 
+                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-47910 
                               ├ PublishedDate   : 2025-09-22T21:15:59.627Z 
                               ╰ LastModifiedDate: 2025-09-24T14:15:49.437Z 
 ````
