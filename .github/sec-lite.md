@@ -476,7 +476,7 @@
 │                       │      │                  │       25-49796 
 │                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6021 
-│                       │      │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
+│                       │      │                  ├ [24]: https://errata.almalinux.org/8/ALSA-2025-10698.html 
 │                       │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2025:10698 
 │                       │      │                  ├ [26]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/931 
 │                       │      │                  ├ [27]: https://linux.oracle.com/cve/CVE-2025-49794.html 
@@ -553,7 +553,7 @@
 │                       │      │                  │       25-49796 
 │                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6021 
-│                       │      │                  ├ [25]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
+│                       │      │                  ├ [25]: https://errata.almalinux.org/8/ALSA-2025-10698.html 
 │                       │      │                  ├ [26]: https://errata.rockylinux.org/RLSA-2025:10698 
 │                       │      │                  ├ [27]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/933 
 │                       │      │                  ├ [28]: https://linux.oracle.com/cve/CVE-2025-49796.html 
@@ -681,7 +681,7 @@
 │                       │      │                  │       25-49796 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6021 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/8/ALSA-2025-10698.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2025:10698 
 │                       │      │                  ├ [32]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/926 
 │                       │      │                  ├ [33]: https://linux.oracle.com/cve/CVE-2025-6021.html 
