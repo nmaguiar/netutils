@@ -15127,7 +15127,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9230
     PublishedDate: '2025-09-30T14:15:41.05Z'
-    LastModifiedDate: '2025-09-30T20:15:41.023Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9231
     PkgID: libcrypto3@3.5.3-r2
     PkgName: libcrypto3
@@ -15187,7 +15187,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9231
     PublishedDate: '2025-09-30T14:15:41.19Z'
-    LastModifiedDate: '2025-09-30T20:15:41.22Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9232
     PkgID: libcrypto3@3.5.3-r2
     PkgName: libcrypto3
@@ -15253,7 +15253,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
-    LastModifiedDate: '2025-09-30T20:15:41.397Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9230
     PkgID: libssl3@3.5.3-r2
     PkgName: libssl3
@@ -15315,7 +15315,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9230
     PublishedDate: '2025-09-30T14:15:41.05Z'
-    LastModifiedDate: '2025-09-30T20:15:41.023Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9231
     PkgID: libssl3@3.5.3-r2
     PkgName: libssl3
@@ -15375,7 +15375,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9231
     PublishedDate: '2025-09-30T14:15:41.19Z'
-    LastModifiedDate: '2025-09-30T20:15:41.22Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9232
     PkgID: libssl3@3.5.3-r2
     PkgName: libssl3
@@ -15441,7 +15441,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
-    LastModifiedDate: '2025-09-30T20:15:41.397Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9230
     PkgID: openssl@3.5.3-r2
     PkgName: openssl
@@ -15503,7 +15503,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9230
     PublishedDate: '2025-09-30T14:15:41.05Z'
-    LastModifiedDate: '2025-09-30T20:15:41.023Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9231
     PkgID: openssl@3.5.3-r2
     PkgName: openssl
@@ -15563,7 +15563,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9231
     PublishedDate: '2025-09-30T14:15:41.19Z'
-    LastModifiedDate: '2025-09-30T20:15:41.22Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9232
     PkgID: openssl@3.5.3-r2
     PkgName: openssl
@@ -15629,7 +15629,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
-    LastModifiedDate: '2025-09-30T20:15:41.397Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
