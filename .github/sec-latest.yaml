@@ -29227,7 +29227,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9230
     PublishedDate: '2025-09-30T14:15:41.05Z'
-    LastModifiedDate: '2025-09-30T20:15:41.023Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9231
     PkgID: libssl3t64@3.4.1-1ubuntu3
     PkgName: libssl3t64
@@ -29288,7 +29288,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9231
     PublishedDate: '2025-09-30T14:15:41.19Z'
-    LastModifiedDate: '2025-09-30T20:15:41.22Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9232
     PkgID: libssl3t64@3.4.1-1ubuntu3
     PkgName: libssl3t64
@@ -29355,7 +29355,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
-    LastModifiedDate: '2025-09-30T20:15:41.397Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9900
     PkgID: libtiff6@4.5.1+git230720-4ubuntu4.1
     PkgName: libtiff6
@@ -29383,6 +29383,7 @@
     CweIDs:
     - CWE-123
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 3
     CVSS:
@@ -29902,7 +29903,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9230
     PublishedDate: '2025-09-30T14:15:41.05Z'
-    LastModifiedDate: '2025-09-30T20:15:41.023Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9231
     PkgID: openssl@3.4.1-1ubuntu3
     PkgName: openssl
@@ -29963,7 +29964,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9231
     PublishedDate: '2025-09-30T14:15:41.19Z'
-    LastModifiedDate: '2025-09-30T20:15:41.22Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9232
     PkgID: openssl@3.4.1-1ubuntu3
     PkgName: openssl
@@ -30030,7 +30031,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
-    LastModifiedDate: '2025-09-30T20:15:41.397Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9230
     PkgID: openssl-provider-legacy@3.4.1-1ubuntu3
     PkgName: openssl-provider-legacy
@@ -30093,7 +30094,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9230
     PublishedDate: '2025-09-30T14:15:41.05Z'
-    LastModifiedDate: '2025-09-30T20:15:41.023Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9231
     PkgID: openssl-provider-legacy@3.4.1-1ubuntu3
     PkgName: openssl-provider-legacy
@@ -30154,7 +30155,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9231
     PublishedDate: '2025-09-30T14:15:41.19Z'
-    LastModifiedDate: '2025-09-30T20:15:41.22Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9232
     PkgID: openssl-provider-legacy@3.4.1-1ubuntu3
     PkgName: openssl-provider-legacy
@@ -30221,7 +30222,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
-    LastModifiedDate: '2025-09-30T20:15:41.397Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: passwd@1:4.16.0-7ubuntu1
     PkgName: passwd
