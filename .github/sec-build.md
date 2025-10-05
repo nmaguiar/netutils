@@ -30602,10 +30602,11 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ╭ [0]: CWE-401 
 │                       │      │                  ╰ [1]: CWE-404 
-│                       │      ├ VendorSeverity   ╭ amazon: 1 
-│                       │      │                  ├ azure : 2 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon     : 1 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.3 
