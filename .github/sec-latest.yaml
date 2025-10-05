@@ -29473,6 +29473,7 @@
     VendorSeverity:
       amazon: 1
       azure: 2
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 1
     CVSS:
