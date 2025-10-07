@@ -16662,25 +16662,26 @@
 │                       │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:15828 
 │                       │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-49794 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2372373 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2372385 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2372406 
-│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
-│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
-│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
-│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-49794 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2372379 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2372385 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/2372406 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
+│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
+│                       │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
 │                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-49796 
+│                       │      │                  │       25-49794 
 │                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-49796 
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6021 
-│                       │      │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
-│                       │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2025:10698 
-│                       │      │                  ├ [26]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/931 
-│                       │      │                  ├ [27]: https://linux.oracle.com/cve/CVE-2025-49794.html 
-│                       │      │                  ├ [28]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
-│                       │      │                  ├ [29]: https://nvd.nist.gov/vuln/detail/CVE-2025-49794 
-│                       │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7694-1 
-│                       │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2025-49794 
+│                       │      │                  ├ [25]: https://errata.almalinux.org/10/ALSA-2025-10630.html 
+│                       │      │                  ├ [26]: https://errata.rockylinux.org/RLSA-2025:10698 
+│                       │      │                  ├ [27]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/931 
+│                       │      │                  ├ [28]: https://linux.oracle.com/cve/CVE-2025-49794.html 
+│                       │      │                  ├ [29]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
+│                       │      │                  ├ [30]: https://nvd.nist.gov/vuln/detail/CVE-2025-49794 
+│                       │      │                  ├ [31]: https://ubuntu.com/security/notices/USN-7694-1 
+│                       │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2025-49794 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:18.997Z 
 │                       │      ╰ LastModifiedDate: 2025-09-15T18:15:38.41Z 
 │                       ├ [15] ╭ VulnerabilityID : CVE-2025-49796 
@@ -16739,25 +16740,26 @@
 │                       │      │                  ├ [14]: https://access.redhat.com/errata/RHSA-2025:15828 
 │                       │      │                  ├ [15]: https://access.redhat.com/security/cve/CVE-2025-49796 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2372373 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2372385 
-│                       │      │                  ├ [18]: https://bugzilla.redhat.com/2372406 
-│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
-│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
-│                       │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
-│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-49794 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2372379 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/2372385 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/2372406 
+│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
+│                       │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
+│                       │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
 │                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-49796 
+│                       │      │                  │       25-49794 
 │                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-49796 
+│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6021 
-│                       │      │                  ├ [25]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
-│                       │      │                  ├ [26]: https://errata.rockylinux.org/RLSA-2025:10698 
-│                       │      │                  ├ [27]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/933 
-│                       │      │                  ├ [28]: https://linux.oracle.com/cve/CVE-2025-49796.html 
-│                       │      │                  ├ [29]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
-│                       │      │                  ├ [30]: https://nvd.nist.gov/vuln/detail/CVE-2025-49796 
-│                       │      │                  ├ [31]: https://ubuntu.com/security/notices/USN-7694-1 
-│                       │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2025-49796 
+│                       │      │                  ├ [26]: https://errata.almalinux.org/10/ALSA-2025-10630.html 
+│                       │      │                  ├ [27]: https://errata.rockylinux.org/RLSA-2025:10698 
+│                       │      │                  ├ [28]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/933 
+│                       │      │                  ├ [29]: https://linux.oracle.com/cve/CVE-2025-49796.html 
+│                       │      │                  ├ [30]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
+│                       │      │                  ├ [31]: https://nvd.nist.gov/vuln/detail/CVE-2025-49796 
+│                       │      │                  ├ [32]: https://ubuntu.com/security/notices/USN-7694-1 
+│                       │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2025-49796 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:19.37Z 
 │                       │      ╰ LastModifiedDate: 2025-09-15T18:15:38.57Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2025-49795 
@@ -16867,25 +16869,26 @@
 │                       │      │                  ├ [19]: https://access.redhat.com/errata/RHSA-2025:15672 
 │                       │      │                  ├ [20]: https://access.redhat.com/security/cve/CVE-2025-6021 
 │                       │      │                  ├ [21]: https://bugzilla.redhat.com/2372373 
-│                       │      │                  ├ [22]: https://bugzilla.redhat.com/2372385 
-│                       │      │                  ├ [23]: https://bugzilla.redhat.com/2372406 
-│                       │      │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
-│                       │      │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
-│                       │      │                  ├ [26]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
-│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-49794 
+│                       │      │                  ├ [22]: https://bugzilla.redhat.com/2372379 
+│                       │      │                  ├ [23]: https://bugzilla.redhat.com/2372385 
+│                       │      │                  ├ [24]: https://bugzilla.redhat.com/2372406 
+│                       │      │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
+│                       │      │                  ├ [26]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
+│                       │      │                  ├ [27]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-49796 
+│                       │      │                  │       25-49794 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-49796 
+│                       │      │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6021 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
-│                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2025:10698 
-│                       │      │                  ├ [32]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/926 
-│                       │      │                  ├ [33]: https://linux.oracle.com/cve/CVE-2025-6021.html 
-│                       │      │                  ├ [34]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
-│                       │      │                  ├ [35]: https://nvd.nist.gov/vuln/detail/CVE-2025-6021 
-│                       │      │                  ├ [36]: https://ubuntu.com/security/notices/USN-7694-1 
-│                       │      │                  ╰ [37]: https://www.cve.org/CVERecord?id=CVE-2025-6021 
+│                       │      │                  ├ [31]: https://errata.almalinux.org/10/ALSA-2025-10630.html 
+│                       │      │                  ├ [32]: https://errata.rockylinux.org/RLSA-2025:10698 
+│                       │      │                  ├ [33]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/926 
+│                       │      │                  ├ [34]: https://linux.oracle.com/cve/CVE-2025-6021.html 
+│                       │      │                  ├ [35]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
+│                       │      │                  ├ [36]: https://nvd.nist.gov/vuln/detail/CVE-2025-6021 
+│                       │      │                  ├ [37]: https://ubuntu.com/security/notices/USN-7694-1 
+│                       │      │                  ╰ [38]: https://www.cve.org/CVERecord?id=CVE-2025-6021 
 │                       │      ├ PublishedDate   : 2025-06-12T13:15:25.59Z 
 │                       │      ╰ LastModifiedDate: 2025-09-18T10:15:34.863Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2025-6170 
