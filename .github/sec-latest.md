@@ -29385,13 +29385,13 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.2 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:12980 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:13240 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-8058 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2383146 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2383146 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8058 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-12980.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-13240.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:12980 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-8058.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-20595.html 
@@ -29447,13 +29447,13 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.2 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:12980 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:13240 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-8058 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2383146 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2383146 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8058 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-12980.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-13240.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:12980 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-8058.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-20595.html 
@@ -29805,24 +29805,29 @@
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 8 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15700 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15701 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-58060 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2392595 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2393078 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-15700.html 
-│                       │      │                  ├ [5] : https://github.com/OpenPrinting/cups/commit/595d69107
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2392595 
+│                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-58060 
+│                       │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-15701.html 
+│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:15702 
+│                       │      │                  ├ [8] : https://github.com/OpenPrinting/cups/commit/595d69107
 │                       │      │                  │       5b1d396d2edfaa0a8fd0873a0a1f221 
-│                       │      │                  ├ [6] : https://github.com/OpenPrinting/cups/security/advisor
+│                       │      │                  ├ [9] : https://github.com/OpenPrinting/cups/security/advisor
 │                       │      │                  │       ies/GHSA-4c68-qgrh-rmmq 
-│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-58060.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-15702.html 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-58060 
-│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7745-1 
-│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-58060 
+│                       │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2025-58060.html 
+│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-15702.html 
+│                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-58060 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7745-1 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-58060 
 │                       │      ├ PublishedDate   : 2025-09-11T18:15:34.787Z 
 │                       │      ╰ LastModifiedDate: 2025-09-19T19:56:17.477Z 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2025-58364 
@@ -29875,11 +29880,11 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15700 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:15701 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-58364 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2392595 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2393078 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-15700.html 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/10/ALSA-2025-15701.html 
 │                       │      │                  ├ [5] : https://github.com/OpenPrinting/cups/commit/e58cba9d6
 │                       │      │                  │       fceed4242980e51dbd1302cf638ab1d 
 │                       │      │                  ├ [6] : https://github.com/OpenPrinting/cups/security/advisor
@@ -31565,13 +31570,13 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.2 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:12980 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:13240 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-8058 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2383146 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2383146 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8058 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-12980.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-13240.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:12980 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-8058.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-20595.html 
