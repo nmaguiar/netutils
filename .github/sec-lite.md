@@ -15762,120 +15762,78 @@
 │     │                         ├ Digest        : sha1:43ac44ea9c46b340ba31d8f7fe10469f2d4223f4 
 │     │                         ╰ InstalledFiles ╭ [0]: usr/lib/libzstd.so.1 
 │     │                                          ╰ [1]: usr/lib/libzstd.so.1.5.7 
-│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2025-10148 
-│                       │      ├ PkgID           : curl@8.15.0-r1 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.15.0-r1?arch=x86_64&distro=3.23
-│                       │      │                  │       .0_alpha20250612 
-│                       │      │                  ╰ UID : 1e4774d17cac5563 
-│                       │      ├ InstalledVersion: 8.15.0-r1 
-│                       │      ├ FixedVersion    : 8.16.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:19ad0ccc6990d9b455380aa6ed06009a77c23197bc12
-│                       │      │                  │         035f61f726dbf359dfcf 
-│                       │      │                  ╰ DiffID: sha256:0988cadd2fb4652147d39ac892c3add65e1563e1c0b8
-│                       │      │                            c210ae3b55dd5a0325b4 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-10148 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : curl: predictable WebSocket mask 
-│                       │      ├ Description     : curl's websocket code did not update the 32 bit mask pattern
-│                       │      │                    for each new
-│                       │      │                    outgoing frame as the specification says. Instead it used a
-│                       │      │                    fixed mask that
-│                       │      │                   persisted and was used throughout the entire connection.
-│                       │      │                   
-│                       │      │                   A predictable mask pattern allows for a malicious server to
-│                       │      │                   induce traffic
-│                       │      │                   between the two communicating parties that could be
-│                       │      │                   interpreted by an involved
-│                       │      │                   proxy (configured or transparent) as genuine, real, HTTP
-│                       │      │                   traffic with content
-│                       │      │                   and thereby poison its cache. That cached poisoned content
-│                       │      │                   could then be
-│                       │      │                   served to all users of that proxy. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 4.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-10148 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-10148.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-10148.json 
-│                       │      │                  ├ [3]: https://hackerone.com/reports/3330839 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
-│                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
-│                       ├ [1]  ╭ VulnerabilityID : CVE-2025-9086 
-│                       │      ├ PkgID           : curl@8.15.0-r1 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.15.0-r1?arch=x86_64&distro=3.23
-│                       │      │                  │       .0_alpha20250612 
-│                       │      │                  ╰ UID : 1e4774d17cac5563 
-│                       │      ├ InstalledVersion: 8.15.0-r1 
-│                       │      ├ FixedVersion    : 8.16.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:19ad0ccc6990d9b455380aa6ed06009a77c23197bc12
-│                       │      │                  │         035f61f726dbf359dfcf 
-│                       │      │                  ╰ DiffID: sha256:0988cadd2fb4652147d39ac892c3add65e1563e1c0b8
-│                       │      │                            c210ae3b55dd5a0325b4 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9086 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : curl: libcurl: Curl out of bounds read for cookie path 
-│                       │      ├ Description     : 1. A cookie is set using the `secure` keyword for
-│                       │      │                   `https://target`
-│                       │      │                   2. curl is redirected to or otherwise made to speak with
-│                       │      │                   `http://target` (same
-│                       │      │                      hostname, but using clear text HTTP) using the same
-│                       │      │                   cookie set
-│                       │      │                   3. The same cookie name is set - but with just a slash as
-│                       │      │                   path (`path='/'`).
-│                       │      │                      Since this site is not secure, the cookie *should* just
-│                       │      │                   be ignored.
-│                       │      │                   4. A bug in the path comparison logic makes curl read
-│                       │      │                   outside a heap buffer
-│                       │      │                      boundary
-│                       │      │                   
-│                       │      │                   The bug either causes a crash or it potentially makes the
-│                       │      │                   comparison come to
-│                       │      │                   the wrong conclusion and lets the clear-text site override
-│                       │      │                   the contents of the
-│                       │      │                   secure cookie, contrary to expectations and depending on the
-│                       │      │                    memory contents
-│                       │      │                   immediately following the single-byte allocation that holds
-│                       │      │                   the path.
-│                       │      │                   The presumed and correct behavior would be to plainly ignore
-│                       │      │                    the second set of
-│                       │      │                   the cookie since it was already set as secure on a secure
-│                       │      │                   host so overriding
-│                       │      │                   it on an insecure host should not be okay. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
-│                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9086 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-9086.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-9086.json 
-│                       │      │                  ├ [3]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96d
-│                       │      │                  │      0040afb6 
-│                       │      │                  ├ [4]: https://hackerone.com/reports/3294999 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
-│                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
-│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
-│                       ├ [2]  ╭ VulnerabilityID : CVE-2025-10148 
-│                       │      ├ PkgID           : curl-doc@8.15.0-r1 
-│                       │      ├ PkgName         : curl-doc 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.15.0-r1?arch=x86_64&distro=
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2024-58251 
+│                       │      ├ PkgID           : busybox@1.37.0-r22 
+│                       │      ├ PkgName         : busybox 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox@1.37.0-r22?arch=x86_64&distro=
 │                       │      │                  │       3.23.0_alpha20250612 
-│                       │      │                  ╰ UID : 65bfd15c6c5f5411 
+│                       │      │                  ╰ UID : 4550fabde6ac9951 
+│                       │      ├ InstalledVersion: 1.37.0-r22 
+│                       │      ├ FixedVersion    : 1.37.0-r24 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:19ad0ccc6990d9b455380aa6ed06009a77c23197bc12
+│                       │      │                  │         035f61f726dbf359dfcf 
+│                       │      │                  ╰ DiffID: sha256:0988cadd2fb4652147d39ac892c3add65e1563e1c0b8
+│                       │      │                            c210ae3b55dd5a0325b4 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-58251 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
+│                       │      │                    of networ ... 
+│                       │      ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
+│                       │      │                    of network application with an argv[0] containing an ANSI
+│                       │      │                   terminal escape sequence, leading to a denial of service
+│                       │      │                   (terminal locked up) when netstat is used by a victim. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-150 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/23/6 
+│                       │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15922 
+│                       │      │                  ├ [2]: https://www.busybox.net 
+│                       │      │                  ├ [3]: https://www.busybox.net/downloads/ 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-58251 
+│                       │      ├ PublishedDate   : 2025-04-23T18:16:03.057Z 
+│                       │      ╰ LastModifiedDate: 2025-04-29T13:52:47.47Z 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2024-58251 
+│                       │      ├ PkgID           : busybox-binsh@1.37.0-r22 
+│                       │      ├ PkgName         : busybox-binsh 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox-binsh@1.37.0-r22?arch=x86_64&d
+│                       │      │                  │       istro=3.23.0_alpha20250612 
+│                       │      │                  ╰ UID : fe4299acb15329e5 
+│                       │      ├ InstalledVersion: 1.37.0-r22 
+│                       │      ├ FixedVersion    : 1.37.0-r24 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:19ad0ccc6990d9b455380aa6ed06009a77c23197bc12
+│                       │      │                  │         035f61f726dbf359dfcf 
+│                       │      │                  ╰ DiffID: sha256:0988cadd2fb4652147d39ac892c3add65e1563e1c0b8
+│                       │      │                            c210ae3b55dd5a0325b4 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-58251 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
+│                       │      │                    of networ ... 
+│                       │      ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
+│                       │      │                    of network application with an argv[0] containing an ANSI
+│                       │      │                   terminal escape sequence, leading to a denial of service
+│                       │      │                   (terminal locked up) when netstat is used by a victim. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-150 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/23/6 
+│                       │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15922 
+│                       │      │                  ├ [2]: https://www.busybox.net 
+│                       │      │                  ├ [3]: https://www.busybox.net/downloads/ 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-58251 
+│                       │      ├ PublishedDate   : 2025-04-23T18:16:03.057Z 
+│                       │      ╰ LastModifiedDate: 2025-04-29T13:52:47.47Z 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2025-10148 
+│                       │      ├ PkgID           : curl@8.15.0-r1 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.15.0-r1?arch=x86_64&distro=3.23
+│                       │      │                  │       .0_alpha20250612 
+│                       │      │                  ╰ UID : 1e4774d17cac5563 
 │                       │      ├ InstalledVersion: 8.15.0-r1 
 │                       │      ├ FixedVersion    : 8.16.0-r0 
 │                       │      ├ Status          : fixed 
@@ -15918,6 +15876,114 @@
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
 │                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2025-9086 
+│                       │      ├ PkgID           : curl@8.15.0-r1 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.15.0-r1?arch=x86_64&distro=3.23
+│                       │      │                  │       .0_alpha20250612 
+│                       │      │                  ╰ UID : 1e4774d17cac5563 
+│                       │      ├ InstalledVersion: 8.15.0-r1 
+│                       │      ├ FixedVersion    : 8.16.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:19ad0ccc6990d9b455380aa6ed06009a77c23197bc12
+│                       │      │                  │         035f61f726dbf359dfcf 
+│                       │      │                  ╰ DiffID: sha256:0988cadd2fb4652147d39ac892c3add65e1563e1c0b8
+│                       │      │                            c210ae3b55dd5a0325b4 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9086 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : curl: libcurl: Curl out of bounds read for cookie path 
+│                       │      ├ Description     : 1. A cookie is set using the `secure` keyword for
+│                       │      │                   `https://target`
+│                       │      │                   2. curl is redirected to or otherwise made to speak with
+│                       │      │                   `http://target` (same
+│                       │      │                      hostname, but using clear text HTTP) using the same
+│                       │      │                   cookie set
+│                       │      │                   3. The same cookie name is set - but with just a slash as
+│                       │      │                   path (`path='/'`).
+│                       │      │                      Since this site is not secure, the cookie *should* just
+│                       │      │                   be ignored.
+│                       │      │                   4. A bug in the path comparison logic makes curl read
+│                       │      │                   outside a heap buffer
+│                       │      │                      boundary
+│                       │      │                   
+│                       │      │                   The bug either causes a crash or it potentially makes the
+│                       │      │                   comparison come to
+│                       │      │                   the wrong conclusion and lets the clear-text site override
+│                       │      │                   the contents of the
+│                       │      │                   secure cookie, contrary to expectations and depending on the
+│                       │      │                    memory contents
+│                       │      │                   immediately following the single-byte allocation that holds
+│                       │      │                   the path.
+│                       │      │                   The presumed and correct behavior would be to plainly ignore
+│                       │      │                    the second set of
+│                       │      │                   the cookie since it was already set as secure on a secure
+│                       │      │                   host so overriding
+│                       │      │                   it on an insecure host should not be okay. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9086 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-9086.html 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-9086.json 
+│                       │      │                  ├ [3]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96d
+│                       │      │                  │      0040afb6 
+│                       │      │                  ├ [4]: https://hackerone.com/reports/3294999 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
+│                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
+│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-10148 
+│                       │      ├ PkgID           : curl-doc@8.15.0-r1 
+│                       │      ├ PkgName         : curl-doc 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.15.0-r1?arch=x86_64&distro=
+│                       │      │                  │       3.23.0_alpha20250612 
+│                       │      │                  ╰ UID : 65bfd15c6c5f5411 
+│                       │      ├ InstalledVersion: 8.15.0-r1 
+│                       │      ├ FixedVersion    : 8.16.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:19ad0ccc6990d9b455380aa6ed06009a77c23197bc12
+│                       │      │                  │         035f61f726dbf359dfcf 
+│                       │      │                  ╰ DiffID: sha256:0988cadd2fb4652147d39ac892c3add65e1563e1c0b8
+│                       │      │                            c210ae3b55dd5a0325b4 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-10148 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : curl: predictable WebSocket mask 
+│                       │      ├ Description     : curl's websocket code did not update the 32 bit mask pattern
+│                       │      │                    for each new
+│                       │      │                    outgoing frame as the specification says. Instead it used a
+│                       │      │                    fixed mask that
+│                       │      │                   persisted and was used throughout the entire connection.
+│                       │      │                   
+│                       │      │                   A predictable mask pattern allows for a malicious server to
+│                       │      │                   induce traffic
+│                       │      │                   between the two communicating parties that could be
+│                       │      │                   interpreted by an involved
+│                       │      │                   proxy (configured or transparent) as genuine, real, HTTP
+│                       │      │                   traffic with content
+│                       │      │                   and thereby poison its cache. That cached poisoned content
+│                       │      │                   could then be
+│                       │      │                   served to all users of that proxy. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 4.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-10148 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-10148.html 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-10148.json 
+│                       │      │                  ├ [3]: https://hackerone.com/reports/3330839 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
+│                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
+│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-9086 
 │                       │      ├ PkgID           : curl-doc@8.15.0-r1 
 │                       │      ├ PkgName         : curl-doc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.15.0-r1?arch=x86_64&distro=
@@ -15978,7 +16044,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
 │                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-9230 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-9230 
 │                       │      ├ PkgID           : libcrypto3@3.5.2-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.2-r0?arch=x86_64&distro
@@ -16051,7 +16117,7 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-9230 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.05Z 
 │                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-9231 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-9231 
 │                       │      ├ PkgID           : libcrypto3@3.5.2-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.2-r0?arch=x86_64&distro
@@ -16119,7 +16185,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-9231 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.19Z 
 │                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-9232 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-9232 
 │                       │      ├ PkgID           : libcrypto3@3.5.2-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.2-r0?arch=x86_64&distro
@@ -16196,7 +16262,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
 │                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-10148 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-10148 
 │                       │      ├ PkgID           : libcurl@8.15.0-r1 
 │                       │      ├ PkgName         : libcurl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.15.0-r1?arch=x86_64&distro=3
@@ -16243,7 +16309,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
 │                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-9086 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2025-9086 
 │                       │      ├ PkgID           : libcurl@8.15.0-r1 
 │                       │      ├ PkgName         : libcurl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.15.0-r1?arch=x86_64&distro=3
@@ -16304,7 +16370,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
 │                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-59375 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2025-59375 
 │                       │      ├ PkgID           : libexpat@2.7.1-r0 
 │                       │      ├ PkgName         : libexpat 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.7.1-r0?arch=x86_64&distro=3
@@ -16346,7 +16412,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-59375 
 │                       │      ├ PublishedDate   : 2025-09-15T03:15:40.92Z 
 │                       │      ╰ LastModifiedDate: 2025-09-17T14:15:40.913Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2025-8114 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2025-8114 
 │                       │      ├ PkgID           : libssh@0.11.2-r0 
 │                       │      ├ PkgName         : libssh 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh@0.11.2-r0?arch=x86_64&distro=3.
@@ -16388,7 +16454,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-8114 
 │                       │      ├ PublishedDate   : 2025-07-24T15:15:27.117Z 
 │                       │      ╰ LastModifiedDate: 2025-08-14T00:45:36.51Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2025-9230 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2025-9230 
 │                       │      ├ PkgID           : libssl3@3.5.2-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.2-r0?arch=x86_64&distro=3.
@@ -16461,7 +16527,7 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-9230 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.05Z 
 │                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2025-9231 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2025-9231 
 │                       │      ├ PkgID           : libssl3@3.5.2-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.2-r0?arch=x86_64&distro=3.
@@ -16529,7 +16595,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-9231 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.19Z 
 │                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2025-9232 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2025-9232 
 │                       │      ├ PkgID           : libssl3@3.5.2-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.2-r0?arch=x86_64&distro=3.
@@ -16606,7 +16672,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
 │                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2025-49794 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2025-49794 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxml2@2.13.8-r0?arch=x86_64&distro=3
@@ -16662,29 +16728,28 @@
 │                       │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:15828 
 │                       │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-49794 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2372373 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2372379 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2372385 
-│                       │      │                  ├ [18]: https://bugzilla.redhat.com/2372406 
-│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
-│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
-│                       │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
-│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2372385 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2372406 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
+│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-49794 
-│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-49796 
-│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6021 
-│                       │      │                  ├ [25]: https://errata.almalinux.org/10/ALSA-2025-10630.html 
-│                       │      │                  ├ [26]: https://errata.rockylinux.org/RLSA-2025:10698 
-│                       │      │                  ├ [27]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/931 
-│                       │      │                  ├ [28]: https://linux.oracle.com/cve/CVE-2025-49794.html 
-│                       │      │                  ├ [29]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
-│                       │      │                  ├ [30]: https://nvd.nist.gov/vuln/detail/CVE-2025-49794 
-│                       │      │                  ├ [31]: https://ubuntu.com/security/notices/USN-7694-1 
-│                       │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2025-49794 
+│                       │      │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
+│                       │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2025:10698 
+│                       │      │                  ├ [26]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/931 
+│                       │      │                  ├ [27]: https://linux.oracle.com/cve/CVE-2025-49794.html 
+│                       │      │                  ├ [28]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
+│                       │      │                  ├ [29]: https://nvd.nist.gov/vuln/detail/CVE-2025-49794 
+│                       │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7694-1 
+│                       │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2025-49794 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:18.997Z 
 │                       │      ╰ LastModifiedDate: 2025-09-15T18:15:38.41Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2025-49796 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2025-49796 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxml2@2.13.8-r0?arch=x86_64&distro=3
@@ -16740,29 +16805,28 @@
 │                       │      │                  ├ [14]: https://access.redhat.com/errata/RHSA-2025:15828 
 │                       │      │                  ├ [15]: https://access.redhat.com/security/cve/CVE-2025-49796 
 │                       │      │                  ├ [16]: https://bugzilla.redhat.com/2372373 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2372379 
-│                       │      │                  ├ [18]: https://bugzilla.redhat.com/2372385 
-│                       │      │                  ├ [19]: https://bugzilla.redhat.com/2372406 
-│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
-│                       │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
-│                       │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
-│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2372385 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/2372406 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
+│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
+│                       │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-49794 
-│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-49796 
-│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6021 
-│                       │      │                  ├ [26]: https://errata.almalinux.org/10/ALSA-2025-10630.html 
-│                       │      │                  ├ [27]: https://errata.rockylinux.org/RLSA-2025:10698 
-│                       │      │                  ├ [28]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/933 
-│                       │      │                  ├ [29]: https://linux.oracle.com/cve/CVE-2025-49796.html 
-│                       │      │                  ├ [30]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
-│                       │      │                  ├ [31]: https://nvd.nist.gov/vuln/detail/CVE-2025-49796 
-│                       │      │                  ├ [32]: https://ubuntu.com/security/notices/USN-7694-1 
-│                       │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2025-49796 
+│                       │      │                  ├ [25]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
+│                       │      │                  ├ [26]: https://errata.rockylinux.org/RLSA-2025:10698 
+│                       │      │                  ├ [27]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/933 
+│                       │      │                  ├ [28]: https://linux.oracle.com/cve/CVE-2025-49796.html 
+│                       │      │                  ├ [29]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
+│                       │      │                  ├ [30]: https://nvd.nist.gov/vuln/detail/CVE-2025-49796 
+│                       │      │                  ├ [31]: https://ubuntu.com/security/notices/USN-7694-1 
+│                       │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2025-49796 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:19.37Z 
 │                       │      ╰ LastModifiedDate: 2025-09-15T18:15:38.57Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2025-49795 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2025-49795 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxml2@2.13.8-r0?arch=x86_64&distro=3
@@ -16809,7 +16873,7 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-49795 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:19.203Z 
 │                       │      ╰ LastModifiedDate: 2025-07-09T03:15:30.183Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2025-6021 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2025-6021 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxml2@2.13.8-r0?arch=x86_64&distro=3
@@ -16869,29 +16933,28 @@
 │                       │      │                  ├ [19]: https://access.redhat.com/errata/RHSA-2025:15672 
 │                       │      │                  ├ [20]: https://access.redhat.com/security/cve/CVE-2025-6021 
 │                       │      │                  ├ [21]: https://bugzilla.redhat.com/2372373 
-│                       │      │                  ├ [22]: https://bugzilla.redhat.com/2372379 
-│                       │      │                  ├ [23]: https://bugzilla.redhat.com/2372385 
-│                       │      │                  ├ [24]: https://bugzilla.redhat.com/2372406 
-│                       │      │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
-│                       │      │                  ├ [26]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
-│                       │      │                  ├ [27]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
-│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [22]: https://bugzilla.redhat.com/2372385 
+│                       │      │                  ├ [23]: https://bugzilla.redhat.com/2372406 
+│                       │      │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
+│                       │      │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
+│                       │      │                  ├ [26]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
+│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-49794 
-│                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-49796 
-│                       │      │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6021 
-│                       │      │                  ├ [31]: https://errata.almalinux.org/10/ALSA-2025-10630.html 
-│                       │      │                  ├ [32]: https://errata.rockylinux.org/RLSA-2025:10698 
-│                       │      │                  ├ [33]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/926 
-│                       │      │                  ├ [34]: https://linux.oracle.com/cve/CVE-2025-6021.html 
-│                       │      │                  ├ [35]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
-│                       │      │                  ├ [36]: https://nvd.nist.gov/vuln/detail/CVE-2025-6021 
-│                       │      │                  ├ [37]: https://ubuntu.com/security/notices/USN-7694-1 
-│                       │      │                  ╰ [38]: https://www.cve.org/CVERecord?id=CVE-2025-6021 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
+│                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2025:10698 
+│                       │      │                  ├ [32]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/926 
+│                       │      │                  ├ [33]: https://linux.oracle.com/cve/CVE-2025-6021.html 
+│                       │      │                  ├ [34]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
+│                       │      │                  ├ [35]: https://nvd.nist.gov/vuln/detail/CVE-2025-6021 
+│                       │      │                  ├ [36]: https://ubuntu.com/security/notices/USN-7694-1 
+│                       │      │                  ╰ [37]: https://www.cve.org/CVERecord?id=CVE-2025-6021 
 │                       │      ├ PublishedDate   : 2025-06-12T13:15:25.59Z 
 │                       │      ╰ LastModifiedDate: 2025-09-18T10:15:34.863Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2025-6170 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2025-6170 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxml2@2.13.8-r0?arch=x86_64&distro=3
@@ -16938,7 +17001,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6170 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:20.43Z 
 │                       │      ╰ LastModifiedDate: 2025-08-12T13:04:06.117Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2025-9230 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2025-9230 
 │                       │      ├ PkgID           : openssl@3.5.2-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.2-r0?arch=x86_64&distro=3.
@@ -17011,7 +17074,7 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-9230 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.05Z 
 │                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2025-9231 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2025-9231 
 │                       │      ├ PkgID           : openssl@3.5.2-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.2-r0?arch=x86_64&distro=3.
@@ -17079,7 +17142,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-9231 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.19Z 
 │                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2025-9232 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2025-9232 
 │                       │      ├ PkgID           : openssl@3.5.2-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.2-r0?arch=x86_64&distro=3.
@@ -17156,61 +17219,94 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
 │                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ╰ [22] ╭ VulnerabilityID : CVE-2025-58050 
-│                              ├ PkgID           : pcre2@10.45-r0 
-│                              ├ PkgName         : pcre2 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pcre2@10.45-r0?arch=x86_64&distro=3.23
-│                              │                  │       .0_alpha20250612 
-│                              │                  ╰ UID : 7cd9f4230bb0c57 
-│                              ├ InstalledVersion: 10.45-r0 
-│                              ├ FixedVersion    : 10.46-r0 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2025-58050 
+│                       │      ├ PkgID           : pcre2@10.45-r0 
+│                       │      ├ PkgName         : pcre2 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pcre2@10.45-r0?arch=x86_64&distro=3.23
+│                       │      │                  │       .0_alpha20250612 
+│                       │      │                  ╰ UID : 7cd9f4230bb0c57 
+│                       │      ├ InstalledVersion: 10.45-r0 
+│                       │      ├ FixedVersion    : 10.46-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:19ad0ccc6990d9b455380aa6ed06009a77c23197bc12
+│                       │      │                  │         035f61f726dbf359dfcf 
+│                       │      │                  ╰ DiffID: sha256:0988cadd2fb4652147d39ac892c3add65e1563e1c0b8
+│                       │      │                            c210ae3b55dd5a0325b4 
+│                       │      ├ SeveritySource  : nvd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58050 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : pcre2: PCRE2: heap-buffer-overflow read in match_ref due to
+│                       │      │                   missing boundary restoration in SCS 
+│                       │      ├ Description     : The PCRE2 library is a set of C functions that implement
+│                       │      │                   regular expression pattern matching. In version 10.45, a
+│                       │      │                   heap-buffer-overflow read vulnerability exists in the PCRE2
+│                       │      │                   regular expression matching engine, specifically within the
+│                       │      │                   handling of the (*scs:...) (Scan SubString) verb when
+│                       │      │                   combined with (*ACCEPT) in src/pcre2_match.c. This
+│                       │      │                   vulnerability may potentially lead to information disclosure
+│                       │      │                    if the out-of-bounds data read during the memcmp affects
+│                       │      │                   the final match result in a way observable by the attacker.
+│                       │      │                   This issue has been resolved in version 10.46. 
+│                       │      ├ Severity        : CRITICAL 
+│                       │      ├ CweIDs           ╭ [0]: CWE-122 
+│                       │      │                  ├ [1]: CWE-125 
+│                       │      │                  ╰ [2]: CWE-787 
+│                       │      ├ VendorSeverity   ╭ nvd   : 4 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 9.1 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-58050 
+│                       │      │                  ├ [1]: https://github.com/PCRE2Project/pcre2/commit/a141712e5
+│                       │      │                  │      967d448c7ce13090ab530c8e3d82254 
+│                       │      │                  ├ [2]: https://github.com/PCRE2Project/pcre2/releases/tag/pcr
+│                       │      │                  │      e2-10.46 
+│                       │      │                  ├ [3]: https://github.com/PCRE2Project/pcre2/security/advisor
+│                       │      │                  │      ies/GHSA-c2gv-xgf5-5cc2 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58050 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7777-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-58050 
+│                       │      ├ PublishedDate   : 2025-08-27T19:15:37.56Z 
+│                       │      ╰ LastModifiedDate: 2025-09-09T15:27:39.573Z 
+│                       ╰ [25] ╭ VulnerabilityID : CVE-2024-58251 
+│                              ├ PkgID           : ssl_client@1.37.0-r22 
+│                              ├ PkgName         : ssl_client 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.37.0-r22?arch=x86_64&dist
+│                              │                  │       ro=3.23.0_alpha20250612 
+│                              │                  ╰ UID : 75087d43cfc58f24 
+│                              ├ InstalledVersion: 1.37.0-r22 
+│                              ├ FixedVersion    : 1.37.0-r24 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:19ad0ccc6990d9b455380aa6ed06009a77c23197bc12
 │                              │                  │         035f61f726dbf359dfcf 
 │                              │                  ╰ DiffID: sha256:0988cadd2fb4652147d39ac892c3add65e1563e1c0b8
 │                              │                            c210ae3b55dd5a0325b4 
-│                              ├ SeveritySource  : nvd 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58050 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-58251 
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                              ├ Title           : pcre2: PCRE2: heap-buffer-overflow read in match_ref due to
-│                              │                   missing boundary restoration in SCS 
-│                              ├ Description     : The PCRE2 library is a set of C functions that implement
-│                              │                   regular expression pattern matching. In version 10.45, a
-│                              │                   heap-buffer-overflow read vulnerability exists in the PCRE2
-│                              │                   regular expression matching engine, specifically within the
-│                              │                   handling of the (*scs:...) (Scan SubString) verb when
-│                              │                   combined with (*ACCEPT) in src/pcre2_match.c. This
-│                              │                   vulnerability may potentially lead to information disclosure
-│                              │                    if the out-of-bounds data read during the memcmp affects
-│                              │                   the final match result in a way observable by the attacker.
-│                              │                   This issue has been resolved in version 10.46. 
-│                              ├ Severity        : CRITICAL 
-│                              ├ CweIDs           ╭ [0]: CWE-122 
-│                              │                  ├ [1]: CWE-125 
-│                              │                  ╰ [2]: CWE-787 
-│                              ├ VendorSeverity   ╭ nvd   : 4 
-│                              │                  ├ redhat: 2 
-│                              │                  ╰ ubuntu: 2 
-│                              ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
-│                              │                  │        │           /A:H 
-│                              │                  │        ╰ V3Score : 9.1 
-│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
-│                              │                           │           /A:L 
-│                              │                           ╰ V3Score : 6.5 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-58050 
-│                              │                  ├ [1]: https://github.com/PCRE2Project/pcre2/commit/a141712e5
-│                              │                  │      967d448c7ce13090ab530c8e3d82254 
-│                              │                  ├ [2]: https://github.com/PCRE2Project/pcre2/releases/tag/pcr
-│                              │                  │      e2-10.46 
-│                              │                  ├ [3]: https://github.com/PCRE2Project/pcre2/security/advisor
-│                              │                  │      ies/GHSA-c2gv-xgf5-5cc2 
-│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-58050 
-│                              │                  ├ [5]: https://ubuntu.com/security/notices/USN-7777-1 
-│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-58050 
-│                              ├ PublishedDate   : 2025-08-27T19:15:37.56Z 
-│                              ╰ LastModifiedDate: 2025-09-09T15:27:39.573Z 
+│                              ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
+│                              │                    of networ ... 
+│                              ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
+│                              │                    of network application with an argv[0] containing an ANSI
+│                              │                   terminal escape sequence, leading to a denial of service
+│                              │                   (terminal locked up) when netstat is used by a victim. 
+│                              ├ Severity        : MEDIUM 
+│                              ├ CweIDs           ─ [0]: CWE-150 
+│                              ├ VendorSeverity   ─ ubuntu: 2 
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/23/6 
+│                              │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15922 
+│                              │                  ├ [2]: https://www.busybox.net 
+│                              │                  ├ [3]: https://www.busybox.net/downloads/ 
+│                              │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-58251 
+│                              ├ PublishedDate   : 2025-04-23T18:16:03.057Z 
+│                              ╰ LastModifiedDate: 2025-04-29T13:52:47.47Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
