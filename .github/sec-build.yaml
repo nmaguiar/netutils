@@ -28827,6 +28827,7 @@
     - CWE-123
     VendorSeverity:
       azure: 3
+      cbl-mariner: 3
       redhat: 3
       ubuntu: 3
     CVSS:
