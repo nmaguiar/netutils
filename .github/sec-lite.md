@@ -16855,7 +16855,8 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
-│                       │      │                  ╰ redhat     : 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
@@ -16865,12 +16866,24 @@
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2372379 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2372385 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2372406 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2372379 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/10/ALSA-2025-10630.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-49795.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-10630.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-49795 
-│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-49795 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2372379 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-49794 
+│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-49795 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-49796 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-6021 
+│                       │      │                  ├ [14]: https://errata.almalinux.org/10/ALSA-2025-10630.html 
+│                       │      │                  ├ [15]: https://errata.rockylinux.org/RLSA-2025:10630 
+│                       │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2025-49795.html 
+│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-10630.html 
+│                       │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2025-49795 
+│                       │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2025-49795 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:19.203Z 
 │                       │      ╰ LastModifiedDate: 2025-07-09T03:15:30.183Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2025-6021 
