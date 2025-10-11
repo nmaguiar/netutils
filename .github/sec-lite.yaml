@@ -16015,6 +16015,7 @@
       oracle-oval: 3
       photon: 3
       redhat: 3
+      rocky: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -16026,8 +16027,16 @@
     - https://bugzilla.redhat.com/2372379
     - https://bugzilla.redhat.com/2372385
     - https://bugzilla.redhat.com/2372406
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372373
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372379
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372385
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372406
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49794
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49795
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-49796
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6021
     - https://errata.almalinux.org/10/ALSA-2025-10630.html
+    - https://errata.rockylinux.org/RLSA-2025:10630
     - https://linux.oracle.com/cve/CVE-2025-49795.html
     - https://linux.oracle.com/errata/ELSA-2025-10630.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-49795
