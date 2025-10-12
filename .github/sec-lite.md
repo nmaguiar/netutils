@@ -16396,6 +16396,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-770 
 │                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ╰ redhat: 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
