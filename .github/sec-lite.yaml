@@ -15600,6 +15600,7 @@
     - CWE-770
     VendorSeverity:
       amazon: 3
+      photon: 3
       redhat: 3
     CVSS:
       redhat:
