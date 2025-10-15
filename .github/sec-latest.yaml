@@ -27428,7 +27428,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-52949
     - https://www.gruppotim.it/it/footer/red-team.html
     PublishedDate: '2024-12-16T22:15:06.863Z'
-    LastModifiedDate: '2025-01-29T09:15:07.317Z'
+    LastModifiedDate: '2025-10-14T17:29:14.83Z'
   - VulnerabilityID: CVE-2024-52615
     PkgID: libavahi-client3@0.8-16ubuntu2
     PkgName: libavahi-client3
@@ -27812,7 +27812,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2383146
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8058
     - https://errata.almalinux.org/8/ALSA-2025-12980.html
-    - https://errata.rockylinux.org/RLSA-2025:13240
+    - https://errata.rockylinux.org/RLSA-2025:12980
     - https://linux.oracle.com/cve/CVE-2025-8058.html
     - https://linux.oracle.com/errata/ELSA-2025-20595.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
@@ -27870,7 +27870,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2383146
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8058
     - https://errata.almalinux.org/8/ALSA-2025-12980.html
-    - https://errata.rockylinux.org/RLSA-2025:13240
+    - https://errata.rockylinux.org/RLSA-2025:12980
     - https://linux.oracle.com/cve/CVE-2025-8058.html
     - https://linux.oracle.com/errata/ELSA-2025-20595.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
@@ -28210,11 +28210,9 @@
     - https://bugzilla.redhat.com/2392595
     - https://bugzilla.redhat.com/2393078
     - https://bugzilla.redhat.com/show_bug.cgi?id=2392595
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2393078
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58060
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58364
     - https://errata.almalinux.org/9/ALSA-2025-15700.html
-    - https://errata.rockylinux.org/RLSA-2025:15701
+    - https://errata.rockylinux.org/RLSA-2025:15702
     - https://github.com/OpenPrinting/cups/commit/595d691075b1d396d2edfaa0a8fd0873a0a1f221
     - https://github.com/OpenPrinting/cups/security/advisories/GHSA-4c68-qgrh-rmmq
     - https://linux.oracle.com/cve/CVE-2025-58060.html
@@ -29829,7 +29827,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2383146
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8058
     - https://errata.almalinux.org/8/ALSA-2025-12980.html
-    - https://errata.rockylinux.org/RLSA-2025:13240
+    - https://errata.rockylinux.org/RLSA-2025:12980
     - https://linux.oracle.com/cve/CVE-2025-8058.html
     - https://linux.oracle.com/errata/ELSA-2025-20595.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
