@@ -28955,7 +28955,7 @@
 │                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52949 
 │                       │      │                  ╰ [9]: https://www.gruppotim.it/it/footer/red-team.html 
 │                       │      ├ PublishedDate   : 2024-12-16T22:15:06.863Z 
-│                       │      ╰ LastModifiedDate: 2025-01-29T09:15:07.317Z 
+│                       │      ╰ LastModifiedDate: 2025-10-14T17:29:14.83Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2024-52615 
 │                       │      ├ PkgID           : libavahi-client3@0.8-16ubuntu2 
 │                       │      ├ PkgName         : libavahi-client3 
