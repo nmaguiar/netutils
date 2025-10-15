@@ -29007,7 +29007,7 @@
 │                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52949 
 │                       │      │                  ╰ [9]: https://www.gruppotim.it/it/footer/red-team.html 
 │                       │      ├ PublishedDate   : 2024-12-16T22:15:06.863Z 
-│                       │      ╰ LastModifiedDate: 2025-01-29T09:15:07.317Z 
+│                       │      ╰ LastModifiedDate: 2025-10-14T17:29:14.83Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2024-52615 
 │                       │      ├ PkgID           : libavahi-client3@0.8-16ubuntu2 
 │                       │      ├ PkgName         : libavahi-client3 
@@ -29404,7 +29404,7 @@
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8058 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-12980.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:13240 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:12980 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-8058.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-20595.html 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
@@ -29466,7 +29466,7 @@
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8058 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-12980.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:13240 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:12980 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-8058.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-20595.html 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
@@ -29829,22 +29829,19 @@
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2392595 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2393078 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2392595 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2393078 
-│                       │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-58060 
-│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-58364 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2025-15700.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2025:15701 
-│                       │      │                  ├ [10]: https://github.com/OpenPrinting/cups/commit/595d69107
+│                       │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-15700.html 
+│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:15702 
+│                       │      │                  ├ [8] : https://github.com/OpenPrinting/cups/commit/595d69107
 │                       │      │                  │       5b1d396d2edfaa0a8fd0873a0a1f221 
-│                       │      │                  ├ [11]: https://github.com/OpenPrinting/cups/security/advisor
+│                       │      │                  ├ [9] : https://github.com/OpenPrinting/cups/security/advisor
 │                       │      │                  │       ies/GHSA-4c68-qgrh-rmmq 
-│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-58060.html 
-│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-15702.html 
-│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-58060 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7745-1 
-│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-58060 
+│                       │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2025-58060.html 
+│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-15702.html 
+│                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-58060 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7745-1 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-58060 
 │                       │      ├ PublishedDate   : 2025-09-11T18:15:34.787Z 
 │                       │      ╰ LastModifiedDate: 2025-09-19T19:56:17.477Z 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2025-58364 
@@ -31616,7 +31613,7 @@
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8058 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-12980.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:13240 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:12980 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-8058.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-20595.html 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
