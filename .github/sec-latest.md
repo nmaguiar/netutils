@@ -29838,7 +29838,7 @@
 │                       │      │                  ├ [9] : https://github.com/OpenPrinting/cups/security/advisor
 │                       │      │                  │       ies/GHSA-4c68-qgrh-rmmq 
 │                       │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2025-58060.html 
-│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-15702.html 
+│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-17054.html 
 │                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-58060 
 │                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7745-1 
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-58060 
@@ -30383,23 +30383,24 @@
 │                       │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:15827 
 │                       │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:15828 
 │                       │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:16524 
-│                       │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-8941 
-│                       │      │                  ├ [15]: https://bugzilla.redhat.com/2372512 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2388220 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
-│                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-6020 
+│                       │      │                  ├ [14]: https://access.redhat.com/errata/RHSA-2025:18219 
+│                       │      │                  ├ [15]: https://access.redhat.com/security/cve/CVE-2025-8941 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2372512 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2388220 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
 │                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-6020 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8941 
-│                       │      │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
-│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:14557 
-│                       │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-8941.html 
-│                       │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
-│                       │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
-│                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                       │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
+│                       │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                       │      │                  ├ [24]: https://linux.oracle.com/cve/CVE-2025-8941.html 
+│                       │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
+│                       │      │                  ├ [26]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                       │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
-│                       │      ╰ LastModifiedDate: 2025-09-23T20:15:33.927Z 
+│                       │      ╰ LastModifiedDate: 2025-10-16T09:15:36.56Z 
 │                       ├ [33] ╭ VulnerabilityID : CVE-2024-10963 
 │                       │      ├ PkgID           : libpam-modules-bin@1.5.3-7ubuntu4.3 
 │                       │      ├ PkgName         : libpam-modules-bin 
@@ -30508,23 +30509,24 @@
 │                       │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:15827 
 │                       │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:15828 
 │                       │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:16524 
-│                       │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-8941 
-│                       │      │                  ├ [15]: https://bugzilla.redhat.com/2372512 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2388220 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
-│                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-6020 
+│                       │      │                  ├ [14]: https://access.redhat.com/errata/RHSA-2025:18219 
+│                       │      │                  ├ [15]: https://access.redhat.com/security/cve/CVE-2025-8941 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2372512 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2388220 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
 │                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-6020 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8941 
-│                       │      │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
-│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:14557 
-│                       │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-8941.html 
-│                       │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
-│                       │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
-│                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                       │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
+│                       │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                       │      │                  ├ [24]: https://linux.oracle.com/cve/CVE-2025-8941.html 
+│                       │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
+│                       │      │                  ├ [26]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                       │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
-│                       │      ╰ LastModifiedDate: 2025-09-23T20:15:33.927Z 
+│                       │      ╰ LastModifiedDate: 2025-10-16T09:15:36.56Z 
 │                       ├ [35] ╭ VulnerabilityID : CVE-2024-10963 
 │                       │      ├ PkgID           : libpam-runtime@1.5.3-7ubuntu4.3 
 │                       │      ├ PkgName         : libpam-runtime 
@@ -30633,23 +30635,24 @@
 │                       │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:15827 
 │                       │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:15828 
 │                       │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:16524 
-│                       │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-8941 
-│                       │      │                  ├ [15]: https://bugzilla.redhat.com/2372512 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2388220 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
-│                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-6020 
+│                       │      │                  ├ [14]: https://access.redhat.com/errata/RHSA-2025:18219 
+│                       │      │                  ├ [15]: https://access.redhat.com/security/cve/CVE-2025-8941 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2372512 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2388220 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
 │                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-6020 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8941 
-│                       │      │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
-│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:14557 
-│                       │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-8941.html 
-│                       │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
-│                       │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
-│                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                       │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
+│                       │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                       │      │                  ├ [24]: https://linux.oracle.com/cve/CVE-2025-8941.html 
+│                       │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
+│                       │      │                  ├ [26]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                       │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
-│                       │      ╰ LastModifiedDate: 2025-09-23T20:15:33.927Z 
+│                       │      ╰ LastModifiedDate: 2025-10-16T09:15:36.56Z 
 │                       ├ [37] ╭ VulnerabilityID : CVE-2024-10963 
 │                       │      ├ PkgID           : libpam0g@1.5.3-7ubuntu4.3 
 │                       │      ├ PkgName         : libpam0g 
@@ -30758,23 +30761,24 @@
 │                       │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:15827 
 │                       │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:15828 
 │                       │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:16524 
-│                       │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-8941 
-│                       │      │                  ├ [15]: https://bugzilla.redhat.com/2372512 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2388220 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
-│                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-6020 
+│                       │      │                  ├ [14]: https://access.redhat.com/errata/RHSA-2025:18219 
+│                       │      │                  ├ [15]: https://access.redhat.com/security/cve/CVE-2025-8941 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2372512 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2388220 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
 │                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-6020 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8941 
-│                       │      │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
-│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:14557 
-│                       │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-8941.html 
-│                       │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
-│                       │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
-│                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                       │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
+│                       │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                       │      │                  ├ [24]: https://linux.oracle.com/cve/CVE-2025-8941.html 
+│                       │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
+│                       │      │                  ├ [26]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                       │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
-│                       │      ╰ LastModifiedDate: 2025-09-23T20:15:33.927Z 
+│                       │      ╰ LastModifiedDate: 2025-10-16T09:15:36.56Z 
 │                       ├ [39] ╭ VulnerabilityID : CVE-2025-58050 
 │                       │      ├ PkgID           : libpcre2-8-0@10.45-1 
 │                       │      ├ PkgName         : libpcre2-8-0 
@@ -30897,7 +30901,51 @@
 │                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2025-7709 
 │                       │      ├ PublishedDate   : 2025-09-08T15:15:38.18Z 
 │                       │      ╰ LastModifiedDate: 2025-09-08T16:25:38.81Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2025-9230 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2025-8114 
+│                       │      ├ PkgID           : libssh-4@0.11.1-1ubuntu0.1 
+│                       │      ├ PkgName         : libssh-4 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssh-4@0.11.1-1ubuntu0.1?arch=amd64&
+│                       │      │                  │       distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : b80b7a4f7df8df3a 
+│                       │      ├ InstalledVersion: 0.11.1-1ubuntu0.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:1eec1b5a91a3c7615fd57a0811d966d9351e9af428ae
+│                       │      │                  │         83d12a9631df8e3b4273 
+│                       │      │                  ╰ DiffID: sha256:417e27ccb82723c37af09a6ef36493f54aa54928889b
+│                       │      │                            6f8da25cf79558012058 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8114 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : : NULL Pointer Dereference in libssh KEX Session ID
+│                       │      │                   Calculation 
+│                       │      ├ Description     : A flaw was found in libssh, a library that implements the
+│                       │      │                   SSH protocol. When calculating the session ID during the key
+│                       │      │                    exchange (KEX) process, an allocation failure in
+│                       │      │                   cryptographic functions may lead to a NULL pointer
+│                       │      │                   dereference. This issue can cause the client or server to
+│                       │      │                   crash. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-476 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 4.7 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 4.7 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8114 
+│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2383220 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-8114 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-8114 
+│                       │      │                  ╰ [4]: https://www.libssh.org/security/advisories/CVE-2025-81
+│                       │      │                         14.txt 
+│                       │      ├ PublishedDate   : 2025-07-24T15:15:27.117Z 
+│                       │      ╰ LastModifiedDate: 2025-08-14T00:45:36.51Z 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2025-9230 
 │                       │      ├ PkgID           : libssl3t64@3.4.1-1ubuntu3 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.4.1-1ubuntu3?arch=amd64&d
@@ -30945,7 +30993,9 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ╭ [0]: CWE-125 
 │                       │      │                  ╰ [1]: CWE-787 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ azure : 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
@@ -30971,7 +31021,7 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-9230 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.05Z 
 │                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2025-9231 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2025-9231 
 │                       │      ├ PkgID           : libssl3t64@3.4.1-1ubuntu3 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.4.1-1ubuntu3?arch=amd64&d
@@ -31020,7 +31070,8 @@
 │                       │      │                   issue, as SM2 is not an approved algorithm. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-385 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -31040,7 +31091,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-9231 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.19Z 
 │                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2025-9232 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2025-9232 
 │                       │      ├ PkgID           : libssl3t64@3.4.1-1ubuntu3 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.4.1-1ubuntu3?arch=amd64&d
@@ -31118,7 +31169,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
 │                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2025-9900 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2025-9900 
 │                       │      ├ PkgID           : libtiff6@4.5.1+git230720-4ubuntu4.1 
 │                       │      ├ PkgName         : libtiff6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtiff6@4.5.1%2Bgit230720-4ubuntu4.1?
@@ -31151,6 +31202,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-123 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
@@ -31182,7 +31234,7 @@
 │                       │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2025-9900 
 │                       │      ├ PublishedDate   : 2025-09-23T17:15:38.357Z 
 │                       │      ╰ LastModifiedDate: 2025-10-13T02:15:34.853Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2025-8961 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2025-8961 
 │                       │      ├ PkgID           : libtiff6@4.5.1+git230720-4ubuntu4.1 
 │                       │      ├ PkgName         : libtiff6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtiff6@4.5.1%2Bgit230720-4ubuntu4.1?
@@ -31209,7 +31261,8 @@
 │                       │      │                   be exploited. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-119 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
@@ -31229,7 +31282,7 @@
 │                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-8961 
 │                       │      ├ PublishedDate   : 2025-08-14T13:15:38.037Z 
 │                       │      ╰ LastModifiedDate: 2025-09-11T17:00:30.487Z 
-│                       ├ [47] ╭ VulnerabilityID : CVE-2025-9165 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2025-9165 
 │                       │      ├ PkgID           : libtiff6@4.5.1+git230720-4ubuntu4.1 
 │                       │      ├ PkgName         : libtiff6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtiff6@4.5.1%2Bgit230720-4ubuntu4.1?
@@ -31296,7 +31349,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-9165 
 │                       │      ├ PublishedDate   : 2025-08-19T20:15:37.557Z 
 │                       │      ╰ LastModifiedDate: 2025-10-01T16:15:53.417Z 
-│                       ├ [48] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [49] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwireshark-data@4.4.5-1 
 │                       │      ├ PkgName         : libwireshark-data 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.4.5-1?arch=all&dis
@@ -31350,7 +31403,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [49] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [50] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwireshark18@4.4.5-1 
 │                       │      ├ PkgName         : libwireshark18 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark18@4.4.5-1?arch=amd64&dist
@@ -31404,7 +31457,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [50] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [51] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwiretap15@4.4.5-1 
 │                       │      ├ PkgName         : libwiretap15 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap15@4.4.5-1?arch=amd64&distro
@@ -31458,7 +31511,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [51] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwsutil16@4.4.5-1 
 │                       │      ├ PkgName         : libwsutil16 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil16@4.4.5-1?arch=amd64&distro=
@@ -31512,7 +31565,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [52] ╭ VulnerabilityID : CVE-2025-9714 
+│                       ├ [53] ╭ VulnerabilityID : CVE-2025-9714 
 │                       │      ├ PkgID           : libxml2@2.12.7+dfsg+really2.9.14-0.4ubuntu0.2 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-0
@@ -31564,7 +31617,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9714 
 │                       │      ├ PublishedDate   : 2025-09-10T19:15:42.707Z 
 │                       │      ╰ LastModifiedDate: 2025-09-17T21:13:10.787Z 
-│                       ├ [53] ╭ VulnerabilityID : CVE-2025-8058 
+│                       ├ [54] ╭ VulnerabilityID : CVE-2025-8058 
 │                       │      ├ PkgID           : locales@2.41-6ubuntu1.1 
 │                       │      ├ PkgName         : locales 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/locales@2.41-6ubuntu1.1?arch=all&distr
@@ -31626,7 +31679,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
 │                       │      ├ PublishedDate   : 2025-07-23T20:15:27.747Z 
 │                       │      ╰ LastModifiedDate: 2025-07-25T15:29:44.523Z 
-│                       ├ [54] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [55] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.16.0-7ubuntu1?arch=all&di
@@ -31674,7 +31727,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [55] ╭ VulnerabilityID : CVE-2025-9230 
+│                       ├ [56] ╭ VulnerabilityID : CVE-2025-9230 
 │                       │      ├ PkgID           : openssl@3.4.1-1ubuntu3 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.4.1-1ubuntu3?arch=amd64&dist
@@ -31722,7 +31775,9 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ╭ [0]: CWE-125 
 │                       │      │                  ╰ [1]: CWE-787 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ azure : 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
@@ -31748,7 +31803,7 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-9230 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.05Z 
 │                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ├ [56] ╭ VulnerabilityID : CVE-2025-9231 
+│                       ├ [57] ╭ VulnerabilityID : CVE-2025-9231 
 │                       │      ├ PkgID           : openssl@3.4.1-1ubuntu3 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.4.1-1ubuntu3?arch=amd64&dist
@@ -31797,7 +31852,8 @@
 │                       │      │                   issue, as SM2 is not an approved algorithm. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-385 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -31817,7 +31873,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-9231 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.19Z 
 │                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ├ [57] ╭ VulnerabilityID : CVE-2025-9232 
+│                       ├ [58] ╭ VulnerabilityID : CVE-2025-9232 
 │                       │      ├ PkgID           : openssl@3.4.1-1ubuntu3 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.4.1-1ubuntu3?arch=amd64&dist
@@ -31895,7 +31951,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
 │                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ├ [58] ╭ VulnerabilityID : CVE-2025-9230 
+│                       ├ [59] ╭ VulnerabilityID : CVE-2025-9230 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.4.1-1ubuntu3 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.4.1-1ubuntu3
@@ -31943,7 +31999,9 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ╭ [0]: CWE-125 
 │                       │      │                  ╰ [1]: CWE-787 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ azure : 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
@@ -31969,7 +32027,7 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-9230 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.05Z 
 │                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ├ [59] ╭ VulnerabilityID : CVE-2025-9231 
+│                       ├ [60] ╭ VulnerabilityID : CVE-2025-9231 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.4.1-1ubuntu3 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.4.1-1ubuntu3
@@ -32018,7 +32076,8 @@
 │                       │      │                   issue, as SM2 is not an approved algorithm. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-385 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -32038,7 +32097,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-9231 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.19Z 
 │                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ├ [60] ╭ VulnerabilityID : CVE-2025-9232 
+│                       ├ [61] ╭ VulnerabilityID : CVE-2025-9232 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.4.1-1ubuntu3 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.4.1-1ubuntu3
@@ -32116,7 +32175,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
 │                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ├ [61] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [62] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.16.0-7ubuntu1?arch=amd64&dist
@@ -32164,7 +32223,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [62] ╭ VulnerabilityID : CVE-2025-45582 
+│                       ├ [63] ╭ VulnerabilityID : CVE-2025-45582 
 │                       │      ├ PkgID           : tar@1.35+dfsg-3.1 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1?arch=amd64&distro=
@@ -32230,7 +32289,7 @@
 │                       │      │                         rity-rules-of-thumb.html 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │      ╰ LastModifiedDate: 2025-08-18T04:15:36.743Z 
-│                       ├ [63] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [64] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : tshark@4.4.5-1 
 │                       │      ├ PkgName         : tshark 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.4.5-1?arch=amd64&distro=ubunt
@@ -32284,7 +32343,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [64] ╭ VulnerabilityID : CVE-2025-53905 
+│                       ├ [65] ╭ VulnerabilityID : CVE-2025-53905 
 │                       │      ├ PkgID           : vim@2:9.1.0967-1ubuntu4 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.0967-1ubuntu4?arch=amd64&distr
@@ -32329,17 +32388,17 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:17715 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:17742 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-53905 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2380360 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2380362 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-17715.html 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-17742.html 
 │                       │      │                  ├ [5] : https://github.com/vim/vim/commit/87757c6b0a4b2c1f71c
 │                       │      │                  │       72ea8e1438b8fb116b239 
 │                       │      │                  ├ [6] : https://github.com/vim/vim/security/advisories/GHSA-7
 │                       │      │                  │       4v4-f3x9-ppvr 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-53905.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-17742.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-17913.html 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-53905 
 │                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7748-1 
 │                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-53905 
@@ -32347,7 +32406,7 @@
 │                       │      │                          5/1 
 │                       │      ├ PublishedDate   : 2025-07-15T21:15:34.347Z 
 │                       │      ╰ LastModifiedDate: 2025-08-14T01:41:04.043Z 
-│                       ├ [65] ╭ VulnerabilityID : CVE-2025-53906 
+│                       ├ [66] ╭ VulnerabilityID : CVE-2025-53906 
 │                       │      ├ PkgID           : vim@2:9.1.0967-1ubuntu4 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.0967-1ubuntu4?arch=amd64&distr
@@ -32392,17 +32451,17 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:17715 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:17742 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-53906 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2380360 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2380362 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-17715.html 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-17742.html 
 │                       │      │                  ├ [5] : https://github.com/vim/vim/commit/586294a04179d855c3d
 │                       │      │                  │       1d4ee5ea83931963680b8 
 │                       │      │                  ├ [6] : https://github.com/vim/vim/security/advisories/GHSA-r
 │                       │      │                  │       2fw-9cw4-mj86 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-53906.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-17742.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-17913.html 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-53906 
 │                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7748-1 
 │                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-53906 
@@ -32410,7 +32469,7 @@
 │                       │      │                          5/2 
 │                       │      ├ PublishedDate   : 2025-07-15T21:15:34.493Z 
 │                       │      ╰ LastModifiedDate: 2025-08-14T01:41:11.977Z 
-│                       ├ [66] ╭ VulnerabilityID : CVE-2025-53905 
+│                       ├ [67] ╭ VulnerabilityID : CVE-2025-53905 
 │                       │      ├ PkgID           : vim-common@2:9.1.0967-1ubuntu4 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.0967-1ubuntu4?arch=all&
@@ -32455,17 +32514,17 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:17715 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:17742 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-53905 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2380360 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2380362 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-17715.html 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-17742.html 
 │                       │      │                  ├ [5] : https://github.com/vim/vim/commit/87757c6b0a4b2c1f71c
 │                       │      │                  │       72ea8e1438b8fb116b239 
 │                       │      │                  ├ [6] : https://github.com/vim/vim/security/advisories/GHSA-7
 │                       │      │                  │       4v4-f3x9-ppvr 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-53905.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-17742.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-17913.html 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-53905 
 │                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7748-1 
 │                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-53905 
@@ -32473,7 +32532,7 @@
 │                       │      │                          5/1 
 │                       │      ├ PublishedDate   : 2025-07-15T21:15:34.347Z 
 │                       │      ╰ LastModifiedDate: 2025-08-14T01:41:04.043Z 
-│                       ├ [67] ╭ VulnerabilityID : CVE-2025-53906 
+│                       ├ [68] ╭ VulnerabilityID : CVE-2025-53906 
 │                       │      ├ PkgID           : vim-common@2:9.1.0967-1ubuntu4 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.0967-1ubuntu4?arch=all&
@@ -32518,17 +32577,17 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:17715 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:17742 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-53906 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2380360 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2380362 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-17715.html 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-17742.html 
 │                       │      │                  ├ [5] : https://github.com/vim/vim/commit/586294a04179d855c3d
 │                       │      │                  │       1d4ee5ea83931963680b8 
 │                       │      │                  ├ [6] : https://github.com/vim/vim/security/advisories/GHSA-r
 │                       │      │                  │       2fw-9cw4-mj86 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-53906.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-17742.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-17913.html 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-53906 
 │                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7748-1 
 │                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-53906 
@@ -32536,7 +32595,7 @@
 │                       │      │                          5/2 
 │                       │      ├ PublishedDate   : 2025-07-15T21:15:34.493Z 
 │                       │      ╰ LastModifiedDate: 2025-08-14T01:41:11.977Z 
-│                       ├ [68] ╭ VulnerabilityID : CVE-2025-53905 
+│                       ├ [69] ╭ VulnerabilityID : CVE-2025-53905 
 │                       │      ├ PkgID           : vim-runtime@2:9.1.0967-1ubuntu4 
 │                       │      ├ PkgName         : vim-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.0967-1ubuntu4?arch=all
@@ -32581,17 +32640,17 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:17715 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:17742 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-53905 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2380360 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2380362 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-17715.html 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-17742.html 
 │                       │      │                  ├ [5] : https://github.com/vim/vim/commit/87757c6b0a4b2c1f71c
 │                       │      │                  │       72ea8e1438b8fb116b239 
 │                       │      │                  ├ [6] : https://github.com/vim/vim/security/advisories/GHSA-7
 │                       │      │                  │       4v4-f3x9-ppvr 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-53905.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-17742.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-17913.html 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-53905 
 │                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7748-1 
 │                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-53905 
@@ -32599,7 +32658,7 @@
 │                       │      │                          5/1 
 │                       │      ├ PublishedDate   : 2025-07-15T21:15:34.347Z 
 │                       │      ╰ LastModifiedDate: 2025-08-14T01:41:04.043Z 
-│                       ├ [69] ╭ VulnerabilityID : CVE-2025-53906 
+│                       ├ [70] ╭ VulnerabilityID : CVE-2025-53906 
 │                       │      ├ PkgID           : vim-runtime@2:9.1.0967-1ubuntu4 
 │                       │      ├ PkgName         : vim-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.0967-1ubuntu4?arch=all
@@ -32644,17 +32703,17 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:17715 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:17742 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-53906 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2380360 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2380362 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-17715.html 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-17742.html 
 │                       │      │                  ├ [5] : https://github.com/vim/vim/commit/586294a04179d855c3d
 │                       │      │                  │       1d4ee5ea83931963680b8 
 │                       │      │                  ├ [6] : https://github.com/vim/vim/security/advisories/GHSA-r
 │                       │      │                  │       2fw-9cw4-mj86 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-53906.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-17742.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-17913.html 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-53906 
 │                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7748-1 
 │                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-53906 
@@ -32662,7 +32721,7 @@
 │                       │      │                          5/2 
 │                       │      ├ PublishedDate   : 2025-07-15T21:15:34.493Z 
 │                       │      ╰ LastModifiedDate: 2025-08-14T01:41:11.977Z 
-│                       ├ [70] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [71] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.24.5-2ubuntu1 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.24.5-2ubuntu1?arch=amd64&distro
@@ -32708,7 +32767,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                       ├ [71] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [72] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : wireshark-common@4.4.5-1 
 │                       │      ├ PkgName         : wireshark-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.4.5-1?arch=amd64&di
@@ -32762,7 +32821,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [72] ╭ VulnerabilityID : CVE-2023-5574 
+│                       ├ [73] ╭ VulnerabilityID : CVE-2023-5574 
 │                       │      ├ PkgID           : x11-common@1:7.7+23ubuntu4 
 │                       │      ├ PkgName         : x11-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/x11-common@7.7%2B23ubuntu4?arch=all&di
@@ -32819,7 +32878,7 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-5574 
 │                       │      ├ PublishedDate   : 2023-10-25T20:15:18.717Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:42:02.79Z 
-│                       ├ [73] ╭ VulnerabilityID : CVE-2025-53905 
+│                       ├ [74] ╭ VulnerabilityID : CVE-2025-53905 
 │                       │      ├ PkgID           : xxd@2:9.1.0967-1ubuntu4 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.0967-1ubuntu4?arch=amd64&distr
@@ -32864,17 +32923,17 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:17715 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:17742 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-53905 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2380360 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2380362 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-17715.html 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-17742.html 
 │                       │      │                  ├ [5] : https://github.com/vim/vim/commit/87757c6b0a4b2c1f71c
 │                       │      │                  │       72ea8e1438b8fb116b239 
 │                       │      │                  ├ [6] : https://github.com/vim/vim/security/advisories/GHSA-7
 │                       │      │                  │       4v4-f3x9-ppvr 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-53905.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-17742.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-17913.html 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-53905 
 │                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7748-1 
 │                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-53905 
@@ -32882,7 +32941,7 @@
 │                       │      │                          5/1 
 │                       │      ├ PublishedDate   : 2025-07-15T21:15:34.347Z 
 │                       │      ╰ LastModifiedDate: 2025-08-14T01:41:04.043Z 
-│                       ╰ [74] ╭ VulnerabilityID : CVE-2025-53906 
+│                       ╰ [75] ╭ VulnerabilityID : CVE-2025-53906 
 │                              ├ PkgID           : xxd@2:9.1.0967-1ubuntu4 
 │                              ├ PkgName         : xxd 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.0967-1ubuntu4?arch=amd64&distr
@@ -32927,17 +32986,17 @@
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:L
 │                              │                           │           /A:L 
 │                              │                           ╰ V3Score : 4.1 
-│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:17715 
+│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:17742 
 │                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-53906 
 │                              │                  ├ [2] : https://bugzilla.redhat.com/2380360 
 │                              │                  ├ [3] : https://bugzilla.redhat.com/2380362 
-│                              │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-17715.html 
+│                              │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-17742.html 
 │                              │                  ├ [5] : https://github.com/vim/vim/commit/586294a04179d855c3d
 │                              │                  │       1d4ee5ea83931963680b8 
 │                              │                  ├ [6] : https://github.com/vim/vim/security/advisories/GHSA-r
 │                              │                  │       2fw-9cw4-mj86 
 │                              │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-53906.html 
-│                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-17742.html 
+│                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-17913.html 
 │                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-53906 
 │                              │                  ├ [10]: https://ubuntu.com/security/notices/USN-7748-1 
 │                              │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-53906 
@@ -34694,7 +34753,8 @@
                         │     │                    version 25.0.13. 
                         │     ├ Severity        : LOW 
                         │     ├ CweIDs           ─ [0]: CWE-909 
-                        │     ├ VendorSeverity   ╭ ghsa  : 1 
+                        │     ├ VendorSeverity   ╭ amazon: 1 
+                        │     │                  ├ ghsa  : 1 
                         │     │                  ├ nvd   : 2 
                         │     │                  ╰ redhat: 1 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/
