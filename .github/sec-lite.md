@@ -16091,7 +16091,9 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ╭ [0]: CWE-125 
 │                       │      │                  ╰ [1]: CWE-787 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ azure : 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
@@ -16165,7 +16167,8 @@
 │                       │      │                   issue, as SM2 is not an approved algorithm. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-385 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -16442,7 +16445,8 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
-│                       │      │                  ╰ redhat: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 4.7 
@@ -16452,7 +16456,9 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8114 
 │                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2383220 
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-8114 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-8114 
+│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-8114 
+│                       │      │                  ╰ [4]: https://www.libssh.org/security/advisories/CVE-2025-81
+│                       │      │                         14.txt 
 │                       │      ├ PublishedDate   : 2025-07-24T15:15:27.117Z 
 │                       │      ╰ LastModifiedDate: 2025-08-14T00:45:36.51Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2025-9230 
@@ -16502,7 +16508,9 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ╭ [0]: CWE-125 
 │                       │      │                  ╰ [1]: CWE-787 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ azure : 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
@@ -16576,7 +16584,8 @@
 │                       │      │                   issue, as SM2 is not an approved algorithm. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-385 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -16727,29 +16736,30 @@
 │                       │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:13335 
 │                       │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:15827 
 │                       │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:15828 
-│                       │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-49794 
-│                       │      │                  ├ [15]: https://bugzilla.redhat.com/2372373 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2372385 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2372406 
-│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
-│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
-│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
-│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-49794 
+│                       │      │                  ├ [14]: https://access.redhat.com/errata/RHSA-2025:18219 
+│                       │      │                  ├ [15]: https://access.redhat.com/security/cve/CVE-2025-49794 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2372373 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2372385 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/2372406 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
+│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
+│                       │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
 │                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-49796 
+│                       │      │                  │       25-49794 
 │                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-49796 
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6021 
-│                       │      │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
-│                       │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2025:10698 
-│                       │      │                  ├ [26]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/931 
-│                       │      │                  ├ [27]: https://linux.oracle.com/cve/CVE-2025-49794.html 
-│                       │      │                  ├ [28]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
-│                       │      │                  ├ [29]: https://nvd.nist.gov/vuln/detail/CVE-2025-49794 
-│                       │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7694-1 
-│                       │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2025-49794 
+│                       │      │                  ├ [25]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
+│                       │      │                  ├ [26]: https://errata.rockylinux.org/RLSA-2025:10698 
+│                       │      │                  ├ [27]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/931 
+│                       │      │                  ├ [28]: https://linux.oracle.com/cve/CVE-2025-49794.html 
+│                       │      │                  ├ [29]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
+│                       │      │                  ├ [30]: https://nvd.nist.gov/vuln/detail/CVE-2025-49794 
+│                       │      │                  ├ [31]: https://ubuntu.com/security/notices/USN-7694-1 
+│                       │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2025-49794 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:18.997Z 
-│                       │      ╰ LastModifiedDate: 2025-09-15T18:15:38.41Z 
+│                       │      ╰ LastModifiedDate: 2025-10-16T09:15:33.537Z 
 │                       ├ [17] ╭ VulnerabilityID : CVE-2025-49796 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
@@ -16804,29 +16814,30 @@
 │                       │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:13335 
 │                       │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:15827 
 │                       │      │                  ├ [14]: https://access.redhat.com/errata/RHSA-2025:15828 
-│                       │      │                  ├ [15]: https://access.redhat.com/security/cve/CVE-2025-49796 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2372373 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2372385 
-│                       │      │                  ├ [18]: https://bugzilla.redhat.com/2372406 
-│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
-│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
-│                       │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
-│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-49794 
+│                       │      │                  ├ [15]: https://access.redhat.com/errata/RHSA-2025:18219 
+│                       │      │                  ├ [16]: https://access.redhat.com/security/cve/CVE-2025-49796 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2372373 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/2372385 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/2372406 
+│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2372373 
+│                       │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2372385 
+│                       │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2372406 
 │                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-49796 
+│                       │      │                  │       25-49794 
 │                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-49796 
+│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6021 
-│                       │      │                  ├ [25]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
-│                       │      │                  ├ [26]: https://errata.rockylinux.org/RLSA-2025:10698 
-│                       │      │                  ├ [27]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/933 
-│                       │      │                  ├ [28]: https://linux.oracle.com/cve/CVE-2025-49796.html 
-│                       │      │                  ├ [29]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
-│                       │      │                  ├ [30]: https://nvd.nist.gov/vuln/detail/CVE-2025-49796 
-│                       │      │                  ├ [31]: https://ubuntu.com/security/notices/USN-7694-1 
-│                       │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2025-49796 
+│                       │      │                  ├ [26]: https://errata.almalinux.org/9/ALSA-2025-10699.html 
+│                       │      │                  ├ [27]: https://errata.rockylinux.org/RLSA-2025:10698 
+│                       │      │                  ├ [28]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/933 
+│                       │      │                  ├ [29]: https://linux.oracle.com/cve/CVE-2025-49796.html 
+│                       │      │                  ├ [30]: https://linux.oracle.com/errata/ELSA-2025-12240.html 
+│                       │      │                  ├ [31]: https://nvd.nist.gov/vuln/detail/CVE-2025-49796 
+│                       │      │                  ├ [32]: https://ubuntu.com/security/notices/USN-7694-1 
+│                       │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2025-49796 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:19.37Z 
-│                       │      ╰ LastModifiedDate: 2025-09-15T18:15:38.57Z 
+│                       │      ╰ LastModifiedDate: 2025-10-16T09:15:33.797Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2025-49795 
 │                       │      ├ PkgID           : libxml2@2.13.8-r0 
 │                       │      ├ PkgName         : libxml2 
@@ -17062,7 +17073,9 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ╭ [0]: CWE-125 
 │                       │      │                  ╰ [1]: CWE-787 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ azure : 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
@@ -17136,7 +17149,8 @@
 │                       │      │                   issue, as SM2 is not an approved algorithm. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-385 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
