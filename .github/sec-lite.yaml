@@ -15331,6 +15331,8 @@
     - CWE-125
     - CWE-787
     VendorSeverity:
+      amazon: 2
+      azure: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -15394,6 +15396,7 @@
     CweIDs:
     - CWE-385
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -15643,6 +15646,7 @@
     VendorSeverity:
       nvd: 2
       redhat: 2
+      ubuntu: 1
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
@@ -15655,6 +15659,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2383220
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8114
     - https://www.cve.org/CVERecord?id=CVE-2025-8114
+    - https://www.libssh.org/security/advisories/CVE-2025-8114.txt
     PublishedDate: '2025-07-24T15:15:27.117Z'
     LastModifiedDate: '2025-08-14T00:45:36.51Z'
   - VulnerabilityID: CVE-2025-9230
@@ -15698,6 +15703,8 @@
     - CWE-125
     - CWE-787
     VendorSeverity:
+      amazon: 2
+      azure: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -15761,6 +15768,7 @@
     CweIDs:
     - CWE-385
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -15896,6 +15904,7 @@
     - https://access.redhat.com/errata/RHSA-2025:13335
     - https://access.redhat.com/errata/RHSA-2025:15827
     - https://access.redhat.com/errata/RHSA-2025:15828
+    - https://access.redhat.com/errata/RHSA-2025:18219
     - https://access.redhat.com/security/cve/CVE-2025-49794
     - https://bugzilla.redhat.com/2372373
     - https://bugzilla.redhat.com/2372385
@@ -15915,7 +15924,7 @@
     - https://ubuntu.com/security/notices/USN-7694-1
     - https://www.cve.org/CVERecord?id=CVE-2025-49794
     PublishedDate: '2025-06-16T16:15:18.997Z'
-    LastModifiedDate: '2025-09-15T18:15:38.41Z'
+    LastModifiedDate: '2025-10-16T09:15:33.537Z'
   - VulnerabilityID: CVE-2025-49796
     PkgID: libxml2@2.13.8-r0
     PkgName: libxml2
@@ -15968,6 +15977,7 @@
     - https://access.redhat.com/errata/RHSA-2025:13335
     - https://access.redhat.com/errata/RHSA-2025:15827
     - https://access.redhat.com/errata/RHSA-2025:15828
+    - https://access.redhat.com/errata/RHSA-2025:18219
     - https://access.redhat.com/security/cve/CVE-2025-49796
     - https://bugzilla.redhat.com/2372373
     - https://bugzilla.redhat.com/2372385
@@ -15987,7 +15997,7 @@
     - https://ubuntu.com/security/notices/USN-7694-1
     - https://www.cve.org/CVERecord?id=CVE-2025-49796
     PublishedDate: '2025-06-16T16:15:19.37Z'
-    LastModifiedDate: '2025-09-15T18:15:38.57Z'
+    LastModifiedDate: '2025-10-16T09:15:33.797Z'
   - VulnerabilityID: CVE-2025-49795
     PkgID: libxml2@2.13.8-r0
     PkgName: libxml2
@@ -16207,6 +16217,8 @@
     - CWE-125
     - CWE-787
     VendorSeverity:
+      amazon: 2
+      azure: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -16270,6 +16282,7 @@
     CweIDs:
     - CWE-385
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
