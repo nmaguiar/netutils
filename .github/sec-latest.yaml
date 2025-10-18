@@ -27189,6 +27189,7 @@
       served to all users of that proxy.
     Severity: LOW
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -28309,6 +28310,7 @@
       served to all users of that proxy.
     Severity: LOW
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 1
     CVSS:
