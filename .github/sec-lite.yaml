@@ -15124,6 +15124,7 @@
       served to all users of that proxy.
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -15222,6 +15223,7 @@
       served to all users of that proxy.
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -15511,6 +15513,7 @@
       served to all users of that proxy.
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -15603,6 +15606,7 @@
     - CWE-770
     VendorSeverity:
       amazon: 3
+      cbl-mariner: 2
       photon: 3
       redhat: 3
     CVSS:
