@@ -16419,7 +16419,7 @@
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-59375 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-59375 
 │                       │      ├ PublishedDate   : 2025-09-15T03:15:40.92Z 
-│                       │      ╰ LastModifiedDate: 2025-09-17T14:15:40.913Z 
+│                       │      ╰ LastModifiedDate: 2025-10-17T19:26:36.673Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2025-8114 
 │                       │      ├ PkgID           : libssh@0.11.2-r0 
 │                       │      ├ PkgName         : libssh 
