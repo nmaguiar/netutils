@@ -28747,6 +28747,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
@@ -28806,7 +28807,8 @@
 │                       │      │                   host so overriding
 │                       │      │                   it on an insecure host should not be okay. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
@@ -29645,6 +29647,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
@@ -29704,7 +29707,8 @@
 │                       │      │                   host so overriding
 │                       │      │                   it on an insecure host should not be okay. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
