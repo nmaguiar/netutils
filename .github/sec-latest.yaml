@@ -28872,6 +28872,77 @@
     - https://www.wireshark.org/security/wnpa-sec-2021-15.html
     PublishedDate: '2021-11-18T19:15:08.333Z'
     LastModifiedDate: '2024-11-21T06:20:33.82Z'
+  - VulnerabilityID: CVE-2025-7425
+    PkgID: libxml2@2.12.7+dfsg+really2.9.14-0.4ubuntu0.3
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-0.4ubuntu0.3?arch=amd64&distro=ubuntu-25.04
+      UID: 67fd03236196ec40
+    InstalledVersion: 2.12.7+dfsg+really2.9.14-0.4ubuntu0.3
+    FixedVersion: 2.12.7+dfsg+really2.9.14-0.4ubuntu0.4
+    Status: fixed
+    Layer:
+      Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd46036099
+      DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2f8ff409
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-7425
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libxslt: Heap Use-After-Free in libxslt caused by atype corruption in xmlAttrPtr'
+    Description: A flaw was found in libxslt where the attribute type, atype, flags are modified in a way that corrupts internal memory management. When XSLT functions, such as the key() process, result in tree fragments, this corruption prevents the proper cleanup of ID attributes. As a result, the system may access freed memory, causing crashes or enabling attackers to trigger heap corruption.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:12447
+    - https://access.redhat.com/errata/RHSA-2025:12450
+    - https://access.redhat.com/errata/RHSA-2025:13267
+    - https://access.redhat.com/errata/RHSA-2025:13308
+    - https://access.redhat.com/errata/RHSA-2025:13309
+    - https://access.redhat.com/errata/RHSA-2025:13310
+    - https://access.redhat.com/errata/RHSA-2025:13311
+    - https://access.redhat.com/errata/RHSA-2025:13312
+    - https://access.redhat.com/errata/RHSA-2025:13313
+    - https://access.redhat.com/errata/RHSA-2025:13314
+    - https://access.redhat.com/errata/RHSA-2025:13335
+    - https://access.redhat.com/errata/RHSA-2025:13464
+    - https://access.redhat.com/errata/RHSA-2025:13622
+    - https://access.redhat.com/errata/RHSA-2025:14059
+    - https://access.redhat.com/errata/RHSA-2025:14396
+    - https://access.redhat.com/errata/RHSA-2025:14818
+    - https://access.redhat.com/errata/RHSA-2025:14819
+    - https://access.redhat.com/errata/RHSA-2025:14853
+    - https://access.redhat.com/errata/RHSA-2025:14858
+    - https://access.redhat.com/errata/RHSA-2025:15308
+    - https://access.redhat.com/errata/RHSA-2025:15672
+    - https://access.redhat.com/errata/RHSA-2025:15827
+    - https://access.redhat.com/errata/RHSA-2025:15828
+    - https://access.redhat.com/errata/RHSA-2025:18219
+    - https://access.redhat.com/security/cve/CVE-2025-7425
+    - https://bugzilla.redhat.com/2379274
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2379274
+    - https://errata.almalinux.org/9/ALSA-2025-12447.html
+    - https://gitlab.gnome.org/GNOME/libxslt/-/issues/140
+    - https://linux.oracle.com/cve/CVE-2025-7425.html
+    - https://linux.oracle.com/errata/ELSA-2025-13464.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-7425
+    - https://ubuntu.com/security/notices/USN-7852-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-7425
+    PublishedDate: '2025-07-10T14:15:27.877Z'
+    LastModifiedDate: '2025-10-16T09:15:36.167Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: login.defs@1:4.16.0-7ubuntu1
     PkgName: login.defs
@@ -30323,6 +30394,45 @@
       Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd46036099
       DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2f8ff409
     FilePath: usr/local/lib/python3.13/dist-packages/xdg_base_dirs-6.0.2.dist-info/METADATA
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2025-6176
+    PkgName: Brotli
+    PkgPath: usr/local/lib/python3.13/dist-packages/Brotli-1.1.0.dist-info/METADATA
+    PkgIdentifier:
+      PURL: pkg:pypi/brotli@1.1.0
+      UID: a899ff8af10361fc
+    InstalledVersion: 1.1.0
+    Status: affected
+    Layer:
+      Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd46036099
+      DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2f8ff409
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6176
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory pip
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip
+    Title: Scrapy versions up to 2.13.2 are vulnerable to a denial of service (Do ...
+    Description: Scrapy versions up to 2.13.2 are vulnerable to a denial of service (DoS) attack due to a flaw in its brotli decompression implementation. The protection mechanism against decompression bombs fails to mitigate the brotli variant, allowing remote servers to crash clients with less than 80GB of available memory. This occurs because brotli can achieve extremely high compression ratios for zero-filled data, leading to excessive memory consumption during decompression.
+    Severity: HIGH
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      ghsa: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://github.com/google/brotli
+    - https://github.com/google/brotli/commit/67d78bc41db1a0d03f2e763497748f2f69946627
+    - https://github.com/google/brotli/issues/1327#issuecomment-3457434715
+    - https://github.com/google/brotli/pull/1234
+    - https://github.com/google/brotli/releases/tag/v1.2.0
+    - https://huntr.com/bounties/2c26a886-5984-47ee-a421-0d5fe1344eb0
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6176
+    PublishedDate: '2025-10-31T00:15:37.333Z'
+    LastModifiedDate: '2025-10-31T00:15:37.333Z'
 - Target: usr/bin/lazydocker
   Class: lang-pkgs
   Type: gobinary
