@@ -30523,7 +30523,81 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2025-7425 
+│                       │      ├ PkgID           : libxml2@2.12.7+dfsg+really2.9.14-0.4ubuntu0.3 
+│                       │      ├ PkgName         : libxml2 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2@2.12.7%2Bdfsg%2Breally2.9.14-0
+│                       │      │                  │       .4ubuntu0.3?arch=amd64&distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : 67fd03236196ec40 
+│                       │      ├ InstalledVersion: 2.12.7+dfsg+really2.9.14-0.4ubuntu0.3 
+│                       │      ├ FixedVersion    : 2.12.7+dfsg+really2.9.14-0.4ubuntu0.4 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8
+│                       │      │                  │         d62eaa07d8dd46036099 
+│                       │      │                  ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c27
+│                       │      │                            6bdc34c9baac2f8ff409 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-7425 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : libxslt: Heap Use-After-Free in libxslt caused by atype
+│                       │      │                   corruption in xmlAttrPtr 
+│                       │      ├ Description     : A flaw was found in libxslt where the attribute type, atype,
+│                       │      │                    flags are modified in a way that corrupts internal memory
+│                       │      │                   management. When XSLT functions, such as the key() process,
+│                       │      │                   result in tree fragments, this corruption prevents the
+│                       │      │                   proper cleanup of ID attributes. As a result, the system may
+│                       │      │                    access freed memory, causing crashes or enabling attackers
+│                       │      │                   to trigger heap corruption. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-416 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.8 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:12447 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:12450 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:13267 
+│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:13308 
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:13309 
+│                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2025:13310 
+│                       │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2025:13311 
+│                       │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:13312 
+│                       │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:13313 
+│                       │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2025:13314 
+│                       │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:13335 
+│                       │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:13464 
+│                       │      │                  ├ [12]: https://access.redhat.com/errata/RHSA-2025:13622 
+│                       │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:14059 
+│                       │      │                  ├ [14]: https://access.redhat.com/errata/RHSA-2025:14396 
+│                       │      │                  ├ [15]: https://access.redhat.com/errata/RHSA-2025:14818 
+│                       │      │                  ├ [16]: https://access.redhat.com/errata/RHSA-2025:14819 
+│                       │      │                  ├ [17]: https://access.redhat.com/errata/RHSA-2025:14853 
+│                       │      │                  ├ [18]: https://access.redhat.com/errata/RHSA-2025:14858 
+│                       │      │                  ├ [19]: https://access.redhat.com/errata/RHSA-2025:15308 
+│                       │      │                  ├ [20]: https://access.redhat.com/errata/RHSA-2025:15672 
+│                       │      │                  ├ [21]: https://access.redhat.com/errata/RHSA-2025:15827 
+│                       │      │                  ├ [22]: https://access.redhat.com/errata/RHSA-2025:15828 
+│                       │      │                  ├ [23]: https://access.redhat.com/errata/RHSA-2025:18219 
+│                       │      │                  ├ [24]: https://access.redhat.com/security/cve/CVE-2025-7425 
+│                       │      │                  ├ [25]: https://bugzilla.redhat.com/2379274 
+│                       │      │                  ├ [26]: https://bugzilla.redhat.com/show_bug.cgi?id=2379274 
+│                       │      │                  ├ [27]: https://errata.almalinux.org/9/ALSA-2025-12447.html 
+│                       │      │                  ├ [28]: https://gitlab.gnome.org/GNOME/libxslt/-/issues/140 
+│                       │      │                  ├ [29]: https://linux.oracle.com/cve/CVE-2025-7425.html 
+│                       │      │                  ├ [30]: https://linux.oracle.com/errata/ELSA-2025-13464.html 
+│                       │      │                  ├ [31]: https://nvd.nist.gov/vuln/detail/CVE-2025-7425 
+│                       │      │                  ├ [32]: https://ubuntu.com/security/notices/USN-7852-1 
+│                       │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2025-7425 
+│                       │      ├ PublishedDate   : 2025-07-10T14:15:27.877Z 
+│                       │      ╰ LastModifiedDate: 2025-10-16T09:15:36.167Z 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.16.0-7ubuntu1?arch=all&di
@@ -30571,7 +30645,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.16.0-7ubuntu1?arch=amd64&dist
@@ -30619,7 +30693,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2025-45582 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2025-45582 
 │                       │      ├ PkgID           : tar@1.35+dfsg-3.1 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1?arch=amd64&distro=
@@ -30685,7 +30759,7 @@
 │                       │      │                         rity-rules-of-thumb.html 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │      ╰ LastModifiedDate: 2025-08-18T04:15:36.743Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : tshark@4.4.5-1 
 │                       │      ├ PkgName         : tshark 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.4.5-1?arch=amd64&distro=ubunt
@@ -30739,7 +30813,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.24.5-2ubuntu1 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.24.5-2ubuntu1?arch=amd64&distro
@@ -30785,7 +30859,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : wireshark-common@4.4.5-1 
 │                       │      ├ PkgName         : wireshark-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.4.5-1?arch=amd64&di
@@ -30839,7 +30913,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ╰ [42] ╭ VulnerabilityID : CVE-2023-5574 
+│                       ╰ [43] ╭ VulnerabilityID : CVE-2023-5574 
 │                              ├ PkgID           : x11-common@1:7.7+23ubuntu4 
 │                              ├ PkgName         : x11-common 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/x11-common@7.7%2B23ubuntu4?arch=all&di
@@ -31499,520 +31573,582 @@
 │                       │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
 │                       │                      f8ff409 
 │                       ╰ FilePath  : openaf/openaf.jar 
-├ [2] ╭ Target  : Python 
-│     ├ Class   : lang-pkgs 
-│     ├ Type    : python-pkg 
-│     ╰ Packages ╭ [0]  ╭ Name      : Brotli 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/brotli@1.1.0 
-│                │      │            ╰ UID : a899ff8af10361fc 
-│                │      ├ Version   : 1.1.0 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/Brotli-1.1.0.dist-info/METADATA 
-│                ├ [1]  ╭ Name      : PyYAML 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/pyyaml@6.0.3 
-│                │      │            ╰ UID : 2f7ac85b66a3a6ad 
-│                │      ├ Version   : 6.0.3 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/pyyaml-6.0.3.dist-info/METADATA 
-│                ├ [2]  ╭ Name      : Pygments 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/pygments@2.19.2 
-│                │      │            ╰ UID : fa2907ab0e669a28 
-│                │      ├ Version   : 2.19.2 
-│                │      ├ Licenses   ─ [0]: BSD-3-Clause 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/pygments-2.19.2.dist-info/METADATA 
-│                ├ [3]  ╭ Name      : annotated-types 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/annotated-types@0.7.0 
-│                │      │            ╰ UID : 8991cfd89203a17b 
-│                │      ├ Version   : 0.7.0 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/annotated_types-0.7.0.dist-info/ME
-│                │                    TADATA 
-│                ├ [4]  ╭ Name      : anyio 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/anyio@4.11.0 
-│                │      │            ╰ UID : 56e41602f96e9d00 
-│                │      ├ Version   : 4.11.0 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/anyio-4.11.0.dist-info/METADATA 
-│                ├ [5]  ╭ Name      : click 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/click@8.3.0 
-│                │      │            ╰ UID : fc6c555a2ff4da8e 
-│                │      ├ Version   : 8.3.0 
-│                │      ├ Licenses   ─ [0]: BSD-3-Clause 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/click-8.3.0.dist-info/METADATA 
-│                ├ [6]  ╭ Name      : click-default-group 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/click-default-group@1.2.4 
-│                │      │            ╰ UID : 512a3308c7917a30 
-│                │      ├ Version   : 1.2.4 
-│                │      ├ Licenses   ─ [0]: Public Domain 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/click_default_group-1.2.4.dist-inf
-│                │                    o/METADATA 
-│                ├ [7]  ╭ Name      : h11 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/h11@0.16.0 
-│                │      │            ╰ UID : 7c53688048ba8929 
-│                │      ├ Version   : 0.16.0 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/h11-0.16.0.dist-info/METADATA 
-│                ├ [8]  ╭ Name      : httpcore 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/httpcore@1.0.9 
-│                │      │            ╰ UID : baface7479ba207f 
-│                │      ├ Version   : 1.0.9 
-│                │      ├ Licenses   ─ [0]: BSD-3-Clause 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/httpcore-1.0.9.dist-info/METADATA 
-│                ├ [9]  ╭ Name      : httpx 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/httpx@0.28.1 
-│                │      │            ╰ UID : 5c4299d4b869726c 
-│                │      ├ Version   : 0.28.1 
-│                │      ├ Licenses   ─ [0]: BSD-3-Clause 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/httpx-0.28.1.dist-info/METADATA 
-│                ├ [10] ╭ Name      : idna 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/idna@3.11 
-│                │      │            ╰ UID : c4f51b65871afbcf 
-│                │      ├ Version   : 3.11 
-│                │      ├ Licenses   ─ [0]: BSD-3-Clause 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/idna-3.11.dist-info/METADATA 
-│                ├ [11] ╭ Name      : linkify-it-py 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/linkify-it-py@2.0.3 
-│                │      │            ╰ UID : 3055799b4ebe058b 
-│                │      ├ Version   : 2.0.3 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/linkify_it_py-2.0.3.dist-info/META
-│                │                    DATA 
-│                ├ [12] ╭ Name      : markdown-it-py 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/markdown-it-py@4.0.0 
-│                │      │            ╰ UID : ed894120c1eff1b8 
-│                │      ├ Version   : 4.0.0 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/markdown_it_py-4.0.0.dist-info/MET
-│                │                    ADATA 
-│                ├ [13] ╭ Name      : mdit-py-plugins 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/mdit-py-plugins@0.5.0 
-│                │      │            ╰ UID : 6676e3fe87753e05 
-│                │      ├ Version   : 0.5.0 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/mdit_py_plugins-0.5.0.dist-info/ME
-│                │                    TADATA 
-│                ├ [14] ╭ Name      : mdurl 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/mdurl@0.1.2 
-│                │      │            ╰ UID : 91ed18edaa08396a 
-│                │      ├ Version   : 0.1.2 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/mdurl-0.1.2.dist-info/METADATA 
-│                ├ [15] ╭ Name      : openapi-pydantic 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/openapi-pydantic@0.5.1 
-│                │      │            ╰ UID : dfc22481108dcbe5 
-│                │      ├ Version   : 0.5.1 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/openapi_pydantic-0.5.1.dist-info/M
-│                │                    ETADATA 
-│                ├ [16] ╭ Name      : platformdirs 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/platformdirs@4.5.0 
-│                │      │            ╰ UID : 7ac4d5297a68eec0 
-│                │      ├ Version   : 4.5.0 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/platformdirs-4.5.0.dist-info/METAD
-│                │                    ATA 
-│                ├ [17] ╭ Name      : posting 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/posting@2.9.2 
-│                │      │            ╰ UID : 169779e5b610352c 
-│                │      ├ Version   : 2.9.2 
-│                │      ├ Licenses   ─ [0]: Apache-2.0 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/posting-2.9.2.dist-info/METADATA 
-│                ├ [18] ╭ Name      : pydantic 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/pydantic@2.12.3 
-│                │      │            ╰ UID : 3a66a44ce521407a 
-│                │      ├ Version   : 2.12.3 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/pydantic-2.12.3.dist-info/METADATA 
-│                ├ [19] ╭ Name      : pydantic-settings 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/pydantic-settings@2.11.0 
-│                │      │            ╰ UID : 13d44390610ee8af 
-│                │      ├ Version   : 2.11.0 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/pydantic_settings-2.11.0.dist-info
-│                │                    /METADATA 
-│                ├ [20] ╭ Name      : pydantic_core 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/pydantic-core@2.41.4 
-│                │      │            ╰ UID : 6ea12b2648550563 
-│                │      ├ Version   : 2.41.4 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/pydantic_core-2.41.4.dist-info/MET
-│                │                    ADATA 
-│                ├ [21] ╭ Name      : pyperclip 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/pyperclip@1.11.0 
-│                │      │            ╰ UID : 45603e9dc4728af0 
-│                │      ├ Version   : 1.11.0 
-│                │      ├ Licenses   ─ [0]: BSD-3-Clause 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/pyperclip-1.11.0.dist-info/METADATA 
-│                ├ [22] ╭ Name      : python-dotenv 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/python-dotenv@1.1.1 
-│                │      │            ╰ UID : e1c46387b5b656c6 
-│                │      ├ Version   : 1.1.1 
-│                │      ├ Licenses   ─ [0]: BSD-3-Clause 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/python_dotenv-1.1.1.dist-info/META
-│                │                    DATA 
-│                ├ [23] ╭ Name      : rich 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/rich@14.2.0 
-│                │      │            ╰ UID : c06a5324faa7788b 
-│                │      ├ Version   : 14.2.0 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/rich-14.2.0.dist-info/METADATA 
-│                ├ [24] ╭ Name      : sniffio 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/sniffio@1.3.1 
-│                │      │            ╰ UID : 9a574b947f0edbc8 
-│                │      ├ Version   : 1.3.1 
-│                │      ├ Licenses   ╭ [0]: MIT 
-│                │      │            ╰ [1]: Apache-2.0 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/sniffio-1.3.1.dist-info/METADATA 
-│                ├ [25] ╭ Name      : textual 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/textual@6.1.0 
-│                │      │            ╰ UID : 57bb2db6167cebfc 
-│                │      ├ Version   : 6.1.0 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/textual-6.1.0.dist-info/METADATA 
-│                ├ [26] ╭ Name      : textual-autocomplete 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/textual-autocomplete@4.0.6 
-│                │      │            ╰ UID : 5da590ade407eae4 
-│                │      ├ Version   : 4.0.6 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/textual_autocomplete-4.0.6.dist-in
-│                │                    fo/METADATA 
-│                ├ [27] ╭ Name      : tree-sitter 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter@0.25.2 
-│                │      │            ╰ UID : 6feae68b2261158f 
-│                │      ├ Version   : 0.25.2 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter-0.25.2.dist-info/METAD
-│                │                    ATA 
-│                ├ [28] ╭ Name      : tree-sitter-bash 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-bash@0.25.0 
-│                │      │            ╰ UID : 52871ebf8c7a947a 
-│                │      ├ Version   : 0.25.0 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_bash-0.25.0.dist-info/
-│                │                    METADATA 
-│                ├ [29] ╭ Name      : tree-sitter-css 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-css@0.25.0 
-│                │      │            ╰ UID : f69be67dbbd57072 
-│                │      ├ Version   : 0.25.0 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_css-0.25.0.dist-info/M
-│                │                    ETADATA 
-│                ├ [30] ╭ Name      : tree-sitter-go 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-go@0.25.0 
-│                │      │            ╰ UID : 4265103db417ce66 
-│                │      ├ Version   : 0.25.0 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_go-0.25.0.dist-info/ME
-│                │                    TADATA 
-│                ├ [31] ╭ Name      : tree-sitter-html 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-html@0.23.2 
-│                │      │            ╰ UID : 6875d1ddee3f8d0a 
-│                │      ├ Version   : 0.23.2 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_html-0.23.2.dist-info/
-│                │                    METADATA 
-│                ├ [32] ╭ Name      : tree-sitter-java 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-java@0.23.5 
-│                │      │            ╰ UID : b7cf23d4b6f6cd52 
-│                │      ├ Version   : 0.23.5 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_java-0.23.5.dist-info/
-│                │                    METADATA 
-│                ├ [33] ╭ Name      : tree-sitter-javascript 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-javascript@0.25.0 
-│                │      │            ╰ UID : 71eb816544ee3c91 
-│                │      ├ Version   : 0.25.0 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_javascript-0.25.0.dist
-│                │                    -info/METADATA 
-│                ├ [34] ╭ Name      : tree-sitter-json 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-json@0.24.8 
-│                │      │            ╰ UID : 79266d7038c45caf 
-│                │      ├ Version   : 0.24.8 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_json-0.24.8.dist-info/
-│                │                    METADATA 
-│                ├ [35] ╭ Name      : tree-sitter-markdown 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-markdown@0.5.1 
-│                │      │            ╰ UID : acfd6e3ce24cb92e 
-│                │      ├ Version   : 0.5.1 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_markdown-0.5.1.dist-in
-│                │                    fo/METADATA 
-│                ├ [36] ╭ Name      : tree-sitter-python 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-python@0.25.0 
-│                │      │            ╰ UID : 89bd7a03b7a2aad8 
-│                │      ├ Version   : 0.25.0 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_python-0.25.0.dist-inf
-│                │                    o/METADATA 
-│                ├ [37] ╭ Name      : tree-sitter-regex 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-regex@0.25.0 
-│                │      │            ╰ UID : f7f816b4acdf6f 
-│                │      ├ Version   : 0.25.0 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_regex-0.25.0.dist-info
-│                │                    /METADATA 
-│                ├ [38] ╭ Name      : tree-sitter-rust 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-rust@0.23.2 
-│                │      │            ╰ UID : 255a700ed1091b02 
-│                │      ├ Version   : 0.23.2 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_rust-0.23.2.dist-info/
-│                │                    METADATA 
-│                ├ [39] ╭ Name      : tree-sitter-sql 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-sql@0.3.7 
-│                │      │            ╰ UID : e28de6450deb7701 
-│                │      ├ Version   : 0.3.7 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_sql-0.3.7.dist-info/ME
-│                │                    TADATA 
-│                ├ [40] ╭ Name      : tree-sitter-toml 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-toml@0.7.0 
-│                │      │            ╰ UID : 2652961036161a1e 
-│                │      ├ Version   : 0.7.0 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_toml-0.7.0.dist-info/M
-│                │                    ETADATA 
-│                ├ [41] ╭ Name      : tree-sitter-xml 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-xml@0.7.0 
-│                │      │            ╰ UID : ba5fa5a6625e9452 
-│                │      ├ Version   : 0.7.0 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_xml-0.7.0.dist-info/ME
-│                │                    TADATA 
-│                ├ [42] ╭ Name      : tree-sitter-yaml 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-yaml@0.7.2 
-│                │      │            ╰ UID : 61c4e399ec97cac7 
-│                │      ├ Version   : 0.7.2 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_yaml-0.7.2.dist-info/M
-│                │                    ETADATA 
-│                ├ [43] ╭ Name      : typing-inspection 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/typing-inspection@0.4.2 
-│                │      │            ╰ UID : 9d0c05210e96ae6 
-│                │      ├ Version   : 0.4.2 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/typing_inspection-0.4.2.dist-info/
-│                │                    METADATA 
-│                ├ [44] ╭ Name      : typing_extensions 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/typing-extensions@4.15.0 
-│                │      │            ╰ UID : f02126679e2d40ef 
-│                │      ├ Version   : 4.15.0 
-│                │      ├ Licenses   ─ [0]: PSF-2.0 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/typing_extensions-4.15.0.dist-info
-│                │                    /METADATA 
-│                ├ [45] ╭ Name      : uc-micro-py 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/uc-micro-py@1.0.3 
-│                │      │            ╰ UID : 48eb262b61dbead7 
-│                │      ├ Version   : 1.0.3 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/uc_micro_py-1.0.3.dist-info/METADATA 
-│                ├ [46] ╭ Name      : watchfiles 
-│                │      ├ Identifier ╭ PURL: pkg:pypi/watchfiles@1.1.1 
-│                │      │            ╰ UID : d18565825ef93681 
-│                │      ├ Version   : 1.1.1 
-│                │      ├ Licenses   ─ [0]: MIT 
-│                │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                │      │            │         6036099 
-│                │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                │      │                      f8ff409 
-│                │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/watchfiles-1.1.1.dist-info/METADATA 
-│                ╰ [47] ╭ Name      : xdg-base-dirs 
-│                       ├ Identifier ╭ PURL: pkg:pypi/xdg-base-dirs@6.0.2 
-│                       │            ╰ UID : 759eb671c61eb5ac 
-│                       ├ Version   : 6.0.2 
-│                       ├ Licenses   ─ [0]: ISC 
-│                       ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd4
-│                       │            │         6036099 
-│                       │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2
-│                       │                      f8ff409 
-│                       ╰ FilePath  : usr/local/lib/python3.13/dist-packages/xdg_base_dirs-6.0.2.dist-info/META
-│                                     DATA 
+├ [2] ╭ Target         : Python 
+│     ├ Class          : lang-pkgs 
+│     ├ Type           : python-pkg 
+│     ├ Packages        ╭ [0]  ╭ Name      : Brotli 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/brotli@1.1.0 
+│     │                 │      │            ╰ UID : a899ff8af10361fc 
+│     │                 │      ├ Version   : 1.1.0 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/Brotli-1.1.0.dist-info/META
+│     │                 │                    DATA 
+│     │                 ├ [1]  ╭ Name      : PyYAML 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/pyyaml@6.0.3 
+│     │                 │      │            ╰ UID : 2f7ac85b66a3a6ad 
+│     │                 │      ├ Version   : 6.0.3 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/pyyaml-6.0.3.dist-info/META
+│     │                 │                    DATA 
+│     │                 ├ [2]  ╭ Name      : Pygments 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/pygments@2.19.2 
+│     │                 │      │            ╰ UID : fa2907ab0e669a28 
+│     │                 │      ├ Version   : 2.19.2 
+│     │                 │      ├ Licenses   ─ [0]: BSD-3-Clause 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/pygments-2.19.2.dist-info/M
+│     │                 │                    ETADATA 
+│     │                 ├ [3]  ╭ Name      : annotated-types 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/annotated-types@0.7.0 
+│     │                 │      │            ╰ UID : 8991cfd89203a17b 
+│     │                 │      ├ Version   : 0.7.0 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/annotated_types-0.7.0.dist-
+│     │                 │                    info/METADATA 
+│     │                 ├ [4]  ╭ Name      : anyio 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/anyio@4.11.0 
+│     │                 │      │            ╰ UID : 56e41602f96e9d00 
+│     │                 │      ├ Version   : 4.11.0 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/anyio-4.11.0.dist-info/META
+│     │                 │                    DATA 
+│     │                 ├ [5]  ╭ Name      : click 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/click@8.3.0 
+│     │                 │      │            ╰ UID : fc6c555a2ff4da8e 
+│     │                 │      ├ Version   : 8.3.0 
+│     │                 │      ├ Licenses   ─ [0]: BSD-3-Clause 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/click-8.3.0.dist-info/METAD
+│     │                 │                    ATA 
+│     │                 ├ [6]  ╭ Name      : click-default-group 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/click-default-group@1.2.4 
+│     │                 │      │            ╰ UID : 512a3308c7917a30 
+│     │                 │      ├ Version   : 1.2.4 
+│     │                 │      ├ Licenses   ─ [0]: Public Domain 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/click_default_group-1.2.4.d
+│     │                 │                    ist-info/METADATA 
+│     │                 ├ [7]  ╭ Name      : h11 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/h11@0.16.0 
+│     │                 │      │            ╰ UID : 7c53688048ba8929 
+│     │                 │      ├ Version   : 0.16.0 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/h11-0.16.0.dist-info/METADATA 
+│     │                 ├ [8]  ╭ Name      : httpcore 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/httpcore@1.0.9 
+│     │                 │      │            ╰ UID : baface7479ba207f 
+│     │                 │      ├ Version   : 1.0.9 
+│     │                 │      ├ Licenses   ─ [0]: BSD-3-Clause 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/httpcore-1.0.9.dist-info/ME
+│     │                 │                    TADATA 
+│     │                 ├ [9]  ╭ Name      : httpx 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/httpx@0.28.1 
+│     │                 │      │            ╰ UID : 5c4299d4b869726c 
+│     │                 │      ├ Version   : 0.28.1 
+│     │                 │      ├ Licenses   ─ [0]: BSD-3-Clause 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/httpx-0.28.1.dist-info/META
+│     │                 │                    DATA 
+│     │                 ├ [10] ╭ Name      : idna 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/idna@3.11 
+│     │                 │      │            ╰ UID : c4f51b65871afbcf 
+│     │                 │      ├ Version   : 3.11 
+│     │                 │      ├ Licenses   ─ [0]: BSD-3-Clause 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/idna-3.11.dist-info/METADATA 
+│     │                 ├ [11] ╭ Name      : linkify-it-py 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/linkify-it-py@2.0.3 
+│     │                 │      │            ╰ UID : 3055799b4ebe058b 
+│     │                 │      ├ Version   : 2.0.3 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/linkify_it_py-2.0.3.dist-in
+│     │                 │                    fo/METADATA 
+│     │                 ├ [12] ╭ Name      : markdown-it-py 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/markdown-it-py@4.0.0 
+│     │                 │      │            ╰ UID : ed894120c1eff1b8 
+│     │                 │      ├ Version   : 4.0.0 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/markdown_it_py-4.0.0.dist-i
+│     │                 │                    nfo/METADATA 
+│     │                 ├ [13] ╭ Name      : mdit-py-plugins 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/mdit-py-plugins@0.5.0 
+│     │                 │      │            ╰ UID : 6676e3fe87753e05 
+│     │                 │      ├ Version   : 0.5.0 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/mdit_py_plugins-0.5.0.dist-
+│     │                 │                    info/METADATA 
+│     │                 ├ [14] ╭ Name      : mdurl 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/mdurl@0.1.2 
+│     │                 │      │            ╰ UID : 91ed18edaa08396a 
+│     │                 │      ├ Version   : 0.1.2 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/mdurl-0.1.2.dist-info/METAD
+│     │                 │                    ATA 
+│     │                 ├ [15] ╭ Name      : openapi-pydantic 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/openapi-pydantic@0.5.1 
+│     │                 │      │            ╰ UID : dfc22481108dcbe5 
+│     │                 │      ├ Version   : 0.5.1 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/openapi_pydantic-0.5.1.dist
+│     │                 │                    -info/METADATA 
+│     │                 ├ [16] ╭ Name      : platformdirs 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/platformdirs@4.5.0 
+│     │                 │      │            ╰ UID : 7ac4d5297a68eec0 
+│     │                 │      ├ Version   : 4.5.0 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/platformdirs-4.5.0.dist-inf
+│     │                 │                    o/METADATA 
+│     │                 ├ [17] ╭ Name      : posting 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/posting@2.9.2 
+│     │                 │      │            ╰ UID : 169779e5b610352c 
+│     │                 │      ├ Version   : 2.9.2 
+│     │                 │      ├ Licenses   ─ [0]: Apache-2.0 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/posting-2.9.2.dist-info/MET
+│     │                 │                    ADATA 
+│     │                 ├ [18] ╭ Name      : pydantic 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/pydantic@2.12.3 
+│     │                 │      │            ╰ UID : 3a66a44ce521407a 
+│     │                 │      ├ Version   : 2.12.3 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/pydantic-2.12.3.dist-info/M
+│     │                 │                    ETADATA 
+│     │                 ├ [19] ╭ Name      : pydantic-settings 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/pydantic-settings@2.11.0 
+│     │                 │      │            ╰ UID : 13d44390610ee8af 
+│     │                 │      ├ Version   : 2.11.0 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/pydantic_settings-2.11.0.di
+│     │                 │                    st-info/METADATA 
+│     │                 ├ [20] ╭ Name      : pydantic_core 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/pydantic-core@2.41.4 
+│     │                 │      │            ╰ UID : 6ea12b2648550563 
+│     │                 │      ├ Version   : 2.41.4 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/pydantic_core-2.41.4.dist-i
+│     │                 │                    nfo/METADATA 
+│     │                 ├ [21] ╭ Name      : pyperclip 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/pyperclip@1.11.0 
+│     │                 │      │            ╰ UID : 45603e9dc4728af0 
+│     │                 │      ├ Version   : 1.11.0 
+│     │                 │      ├ Licenses   ─ [0]: BSD-3-Clause 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/pyperclip-1.11.0.dist-info/
+│     │                 │                    METADATA 
+│     │                 ├ [22] ╭ Name      : python-dotenv 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/python-dotenv@1.1.1 
+│     │                 │      │            ╰ UID : e1c46387b5b656c6 
+│     │                 │      ├ Version   : 1.1.1 
+│     │                 │      ├ Licenses   ─ [0]: BSD-3-Clause 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/python_dotenv-1.1.1.dist-in
+│     │                 │                    fo/METADATA 
+│     │                 ├ [23] ╭ Name      : rich 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/rich@14.2.0 
+│     │                 │      │            ╰ UID : c06a5324faa7788b 
+│     │                 │      ├ Version   : 14.2.0 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/rich-14.2.0.dist-info/METAD
+│     │                 │                    ATA 
+│     │                 ├ [24] ╭ Name      : sniffio 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/sniffio@1.3.1 
+│     │                 │      │            ╰ UID : 9a574b947f0edbc8 
+│     │                 │      ├ Version   : 1.3.1 
+│     │                 │      ├ Licenses   ╭ [0]: MIT 
+│     │                 │      │            ╰ [1]: Apache-2.0 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/sniffio-1.3.1.dist-info/MET
+│     │                 │                    ADATA 
+│     │                 ├ [25] ╭ Name      : textual 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/textual@6.1.0 
+│     │                 │      │            ╰ UID : 57bb2db6167cebfc 
+│     │                 │      ├ Version   : 6.1.0 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/textual-6.1.0.dist-info/MET
+│     │                 │                    ADATA 
+│     │                 ├ [26] ╭ Name      : textual-autocomplete 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/textual-autocomplete@4.0.6 
+│     │                 │      │            ╰ UID : 5da590ade407eae4 
+│     │                 │      ├ Version   : 4.0.6 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/textual_autocomplete-4.0.6.
+│     │                 │                    dist-info/METADATA 
+│     │                 ├ [27] ╭ Name      : tree-sitter 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter@0.25.2 
+│     │                 │      │            ╰ UID : 6feae68b2261158f 
+│     │                 │      ├ Version   : 0.25.2 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter-0.25.2.dist-inf
+│     │                 │                    o/METADATA 
+│     │                 ├ [28] ╭ Name      : tree-sitter-bash 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-bash@0.25.0 
+│     │                 │      │            ╰ UID : 52871ebf8c7a947a 
+│     │                 │      ├ Version   : 0.25.0 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_bash-0.25.0.dis
+│     │                 │                    t-info/METADATA 
+│     │                 ├ [29] ╭ Name      : tree-sitter-css 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-css@0.25.0 
+│     │                 │      │            ╰ UID : f69be67dbbd57072 
+│     │                 │      ├ Version   : 0.25.0 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_css-0.25.0.dist
+│     │                 │                    -info/METADATA 
+│     │                 ├ [30] ╭ Name      : tree-sitter-go 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-go@0.25.0 
+│     │                 │      │            ╰ UID : 4265103db417ce66 
+│     │                 │      ├ Version   : 0.25.0 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_go-0.25.0.dist-
+│     │                 │                    info/METADATA 
+│     │                 ├ [31] ╭ Name      : tree-sitter-html 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-html@0.23.2 
+│     │                 │      │            ╰ UID : 6875d1ddee3f8d0a 
+│     │                 │      ├ Version   : 0.23.2 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_html-0.23.2.dis
+│     │                 │                    t-info/METADATA 
+│     │                 ├ [32] ╭ Name      : tree-sitter-java 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-java@0.23.5 
+│     │                 │      │            ╰ UID : b7cf23d4b6f6cd52 
+│     │                 │      ├ Version   : 0.23.5 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_java-0.23.5.dis
+│     │                 │                    t-info/METADATA 
+│     │                 ├ [33] ╭ Name      : tree-sitter-javascript 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-javascript@0.25.0 
+│     │                 │      │            ╰ UID : 71eb816544ee3c91 
+│     │                 │      ├ Version   : 0.25.0 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_javascript-0.25
+│     │                 │                    .0.dist-info/METADATA 
+│     │                 ├ [34] ╭ Name      : tree-sitter-json 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-json@0.24.8 
+│     │                 │      │            ╰ UID : 79266d7038c45caf 
+│     │                 │      ├ Version   : 0.24.8 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_json-0.24.8.dis
+│     │                 │                    t-info/METADATA 
+│     │                 ├ [35] ╭ Name      : tree-sitter-markdown 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-markdown@0.5.1 
+│     │                 │      │            ╰ UID : acfd6e3ce24cb92e 
+│     │                 │      ├ Version   : 0.5.1 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_markdown-0.5.1.
+│     │                 │                    dist-info/METADATA 
+│     │                 ├ [36] ╭ Name      : tree-sitter-python 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-python@0.25.0 
+│     │                 │      │            ╰ UID : 89bd7a03b7a2aad8 
+│     │                 │      ├ Version   : 0.25.0 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_python-0.25.0.d
+│     │                 │                    ist-info/METADATA 
+│     │                 ├ [37] ╭ Name      : tree-sitter-regex 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-regex@0.25.0 
+│     │                 │      │            ╰ UID : f7f816b4acdf6f 
+│     │                 │      ├ Version   : 0.25.0 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_regex-0.25.0.di
+│     │                 │                    st-info/METADATA 
+│     │                 ├ [38] ╭ Name      : tree-sitter-rust 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-rust@0.23.2 
+│     │                 │      │            ╰ UID : 255a700ed1091b02 
+│     │                 │      ├ Version   : 0.23.2 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_rust-0.23.2.dis
+│     │                 │                    t-info/METADATA 
+│     │                 ├ [39] ╭ Name      : tree-sitter-sql 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-sql@0.3.7 
+│     │                 │      │            ╰ UID : e28de6450deb7701 
+│     │                 │      ├ Version   : 0.3.7 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_sql-0.3.7.dist-
+│     │                 │                    info/METADATA 
+│     │                 ├ [40] ╭ Name      : tree-sitter-toml 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-toml@0.7.0 
+│     │                 │      │            ╰ UID : 2652961036161a1e 
+│     │                 │      ├ Version   : 0.7.0 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_toml-0.7.0.dist
+│     │                 │                    -info/METADATA 
+│     │                 ├ [41] ╭ Name      : tree-sitter-xml 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-xml@0.7.0 
+│     │                 │      │            ╰ UID : ba5fa5a6625e9452 
+│     │                 │      ├ Version   : 0.7.0 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_xml-0.7.0.dist-
+│     │                 │                    info/METADATA 
+│     │                 ├ [42] ╭ Name      : tree-sitter-yaml 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/tree-sitter-yaml@0.7.2 
+│     │                 │      │            ╰ UID : 61c4e399ec97cac7 
+│     │                 │      ├ Version   : 0.7.2 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/tree_sitter_yaml-0.7.2.dist
+│     │                 │                    -info/METADATA 
+│     │                 ├ [43] ╭ Name      : typing-inspection 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/typing-inspection@0.4.2 
+│     │                 │      │            ╰ UID : 9d0c05210e96ae6 
+│     │                 │      ├ Version   : 0.4.2 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/typing_inspection-0.4.2.dis
+│     │                 │                    t-info/METADATA 
+│     │                 ├ [44] ╭ Name      : typing_extensions 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/typing-extensions@4.15.0 
+│     │                 │      │            ╰ UID : f02126679e2d40ef 
+│     │                 │      ├ Version   : 4.15.0 
+│     │                 │      ├ Licenses   ─ [0]: PSF-2.0 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/typing_extensions-4.15.0.di
+│     │                 │                    st-info/METADATA 
+│     │                 ├ [45] ╭ Name      : uc-micro-py 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/uc-micro-py@1.0.3 
+│     │                 │      │            ╰ UID : 48eb262b61dbead7 
+│     │                 │      ├ Version   : 1.0.3 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/uc_micro_py-1.0.3.dist-info
+│     │                 │                    /METADATA 
+│     │                 ├ [46] ╭ Name      : watchfiles 
+│     │                 │      ├ Identifier ╭ PURL: pkg:pypi/watchfiles@1.1.1 
+│     │                 │      │            ╰ UID : d18565825ef93681 
+│     │                 │      ├ Version   : 1.1.1 
+│     │                 │      ├ Licenses   ─ [0]: MIT 
+│     │                 │      ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                 │      │            │         07d8dd46036099 
+│     │                 │      │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                 │      │                      c9baac2f8ff409 
+│     │                 │      ╰ FilePath  : usr/local/lib/python3.13/dist-packages/watchfiles-1.1.1.dist-info/
+│     │                 │                    METADATA 
+│     │                 ╰ [47] ╭ Name      : xdg-base-dirs 
+│     │                        ├ Identifier ╭ PURL: pkg:pypi/xdg-base-dirs@6.0.2 
+│     │                        │            ╰ UID : 759eb671c61eb5ac 
+│     │                        ├ Version   : 6.0.2 
+│     │                        ├ Licenses   ─ [0]: ISC 
+│     │                        ├ Layer      ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa
+│     │                        │            │         07d8dd46036099 
+│     │                        │            ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34
+│     │                        │                      c9baac2f8ff409 
+│     │                        ╰ FilePath  : usr/local/lib/python3.13/dist-packages/xdg_base_dirs-6.0.2.dist-in
+│     │                                      fo/METADATA 
+│     ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2025-6176 
+│                             ├ PkgName         : Brotli 
+│                             ├ PkgPath         : usr/local/lib/python3.13/dist-packages/Brotli-1.1.0.dist-info
+│                             │                   /METADATA 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:pypi/brotli@1.1.0 
+│                             │                  ╰ UID : a899ff8af10361fc 
+│                             ├ InstalledVersion: 1.1.0 
+│                             ├ Status          : affected 
+│                             ├ Layer            ╭ Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d
+│                             │                  │         62eaa07d8dd46036099 
+│                             │                  ╰ DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276
+│                             │                            bdc34c9baac2f8ff409 
+│                             ├ SeveritySource  : ghsa 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6176 
+│                             ├ DataSource       ╭ ID  : ghsa 
+│                             │                  ├ Name: GitHub Security Advisory pip 
+│                             │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+│                             │                          osystem%3Apip 
+│                             ├ Title           : Scrapy versions up to 2.13.2 are vulnerable to a denial of
+│                             │                   service (Do ... 
+│                             ├ Description     : Scrapy versions up to 2.13.2 are vulnerable to a denial of
+│                             │                   service (DoS) attack due to a flaw in its brotli
+│                             │                   decompression implementation. The protection mechanism
+│                             │                   against decompression bombs fails to mitigate the brotli
+│                             │                   variant, allowing remote servers to crash clients with less
+│                             │                   than 80GB of available memory. This occurs because brotli can
+│                             │                    achieve extremely high compression ratios for zero-filled
+│                             │                   data, leading to excessive memory consumption during
+│                             │                   decompression. 
+│                             ├ Severity        : HIGH 
+│                             ├ CweIDs           ─ [0]: CWE-400 
+│                             ├ VendorSeverity   ─ ghsa: 3 
+│                             ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+│                             │                         ╰ V3Score : 7.5 
+│                             ├ References       ╭ [0]: https://github.com/google/brotli 
+│                             │                  ├ [1]: https://github.com/google/brotli/commit/67d78bc41db1a0d
+│                             │                  │      03f2e763497748f2f69946627 
+│                             │                  ├ [2]: https://github.com/google/brotli/issues/1327#issuecomme
+│                             │                  │      nt-3457434715 
+│                             │                  ├ [3]: https://github.com/google/brotli/pull/1234 
+│                             │                  ├ [4]: https://github.com/google/brotli/releases/tag/v1.2.0 
+│                             │                  ├ [5]: https://huntr.com/bounties/2c26a886-5984-47ee-a421-0d5f
+│                             │                  │      e1344eb0 
+│                             │                  ╰ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-6176 
+│                             ├ PublishedDate   : 2025-10-31T00:15:37.333Z 
+│                             ╰ LastModifiedDate: 2025-10-31T00:15:37.333Z 
 ╰ [3] ╭ Target         : usr/bin/lazydocker 
       ├ Class          : lang-pkgs 
       ├ Type           : gobinary 
