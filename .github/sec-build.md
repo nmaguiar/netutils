@@ -28753,14 +28753,16 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-10148 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-10148.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-10148.json 
-│                       │      │                  ├ [3]: https://hackerone.com/reports/3330839 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/09/10/2 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/09/10/3 
+│                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2025-10148 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-10148.html 
+│                       │      │                  ├ [4]: https://curl.se/docs/CVE-2025-10148.json 
+│                       │      │                  ├ [5]: https://hackerone.com/reports/3330839 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
+│                       │      ╰ LastModifiedDate: 2025-11-04T22:16:05.137Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2025-9086 
 │                       │      ├ PkgID           : curl@8.12.1-3ubuntu1 
 │                       │      ├ PkgName         : curl 
@@ -28813,16 +28815,17 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9086 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-9086.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-9086.json 
-│                       │      │                  ├ [3]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96d
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/09/10/1 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-9086 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-9086.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-9086.json 
+│                       │      │                  ├ [4]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96d
 │                       │      │                  │      0040afb6 
-│                       │      │                  ├ [4]: https://hackerone.com/reports/3294999 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
+│                       │      │                  ├ [5]: https://hackerone.com/reports/3294999 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
-│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
+│                       │      ╰ LastModifiedDate: 2025-11-04T22:16:45.19Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2025-6052 
 │                       │      ├ PkgID           : gir1.2-glib-2.0@2.84.1-1ubuntu0.1 
 │                       │      ├ PkgName         : gir1.2-glib-2.0 
@@ -29653,14 +29656,16 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-10148 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-10148.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-10148.json 
-│                       │      │                  ├ [3]: https://hackerone.com/reports/3330839 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/09/10/2 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/09/10/3 
+│                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2025-10148 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-10148.html 
+│                       │      │                  ├ [4]: https://curl.se/docs/CVE-2025-10148.json 
+│                       │      │                  ├ [5]: https://hackerone.com/reports/3330839 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
+│                       │      ╰ LastModifiedDate: 2025-11-04T22:16:05.137Z 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2025-9086 
 │                       │      ├ PkgID           : libcurl4t64@8.12.1-3ubuntu1 
 │                       │      ├ PkgName         : libcurl4t64 
@@ -29713,16 +29718,17 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9086 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-9086.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-9086.json 
-│                       │      │                  ├ [3]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96d
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/09/10/1 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-9086 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-9086.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-9086.json 
+│                       │      │                  ├ [4]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96d
 │                       │      │                  │      0040afb6 
-│                       │      │                  ├ [4]: https://hackerone.com/reports/3294999 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
+│                       │      │                  ├ [5]: https://hackerone.com/reports/3294999 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
-│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
+│                       │      ╰ LastModifiedDate: 2025-11-04T22:16:45.19Z 
 │                       ├ [21] ╭ VulnerabilityID : CVE-2025-1352 
 │                       │      ├ PkgID           : libelf1t64@0.192-4ubuntu1 
 │                       │      ├ PkgName         : libelf1t64 
@@ -29756,10 +29762,14 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-119 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ azure : 1 
-│                       │      │                  ├ photon: 2 
+│                       │      │                  ├ nvd   : 3 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1352 
@@ -29773,7 +29783,7 @@
 │                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-1352 
 │                       │      │                  ╰ [9]: https://www.gnu.org/ 
 │                       │      ├ PublishedDate   : 2025-02-16T15:15:09.133Z 
-│                       │      ╰ LastModifiedDate: 2025-02-16T15:15:09.133Z 
+│                       │      ╰ LastModifiedDate: 2025-11-03T20:34:23.89Z 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2025-1376 
 │                       │      ├ PkgID           : libelf1t64@0.192-4ubuntu1 
 │                       │      ├ PkgName         : libelf1t64 
@@ -29806,10 +29816,14 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-404 
 │                       │      ├ VendorSeverity   ╭ azure : 1 
-│                       │      │                  ├ photon: 1 
+│                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 4.7 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 2.5 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1376 
@@ -29823,7 +29837,7 @@
 │                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-1376 
 │                       │      │                  ╰ [9]: https://www.gnu.org/ 
 │                       │      ├ PublishedDate   : 2025-02-17T05:15:09.807Z 
-│                       │      ╰ LastModifiedDate: 2025-02-17T05:15:09.807Z 
+│                       │      ╰ LastModifiedDate: 2025-11-04T20:21:18.26Z 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2024-2236 
 │                       │      ├ PkgID           : libgcrypt20@1.11.0-6ubuntu1 
 │                       │      ├ PkgName         : libgcrypt20 
@@ -30263,51 +30277,7 @@
 │                       │      │                  ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2023-37769 
 │                       │      ├ PublishedDate   : 2023-07-17T20:15:13.547Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:12:14.547Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2025-8114 
-│                       │      ├ PkgID           : libssh-4@0.11.1-1ubuntu0.2 
-│                       │      ├ PkgName         : libssh-4 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssh-4@0.11.1-1ubuntu0.2?arch=amd64&
-│                       │      │                  │       distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : c2625877f378dcc9 
-│                       │      ├ InstalledVersion: 0.11.1-1ubuntu0.2 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:4342b0f51b724af311749c6b20c64ecd793e6bf9f7a1
-│                       │      │                  │         d152d186ec0b0e97e3df 
-│                       │      │                  ╰ DiffID: sha256:7f602d410d7d28b978bd2ef28d35bc1170415cc99ba8
-│                       │      │                            2e24a3faf3095260b397 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8114 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : : NULL Pointer Dereference in libssh KEX Session ID
-│                       │      │                   Calculation 
-│                       │      ├ Description     : A flaw was found in libssh, a library that implements the
-│                       │      │                   SSH protocol. When calculating the session ID during the key
-│                       │      │                    exchange (KEX) process, an allocation failure in
-│                       │      │                   cryptographic functions may lead to a NULL pointer
-│                       │      │                   dereference. This issue can cause the client or server to
-│                       │      │                   crash. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ╭ nvd   : 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N
-│                       │      │                  │        │           /A:H 
-│                       │      │                  │        ╰ V3Score : 4.7 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N
-│                       │      │                           │           /A:H 
-│                       │      │                           ╰ V3Score : 4.7 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8114 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2383220 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-8114 
-│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-8114 
-│                       │      │                  ╰ [4]: https://www.libssh.org/security/advisories/CVE-2025-81
-│                       │      │                         14.txt 
-│                       │      ├ PublishedDate   : 2025-07-24T15:15:27.117Z 
-│                       │      ╰ LastModifiedDate: 2025-08-14T00:45:36.51Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwireshark-data@4.4.5-1 
 │                       │      ├ PkgName         : libwireshark-data 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.4.5-1?arch=all&dis
@@ -30361,7 +30331,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwireshark18@4.4.5-1 
 │                       │      ├ PkgName         : libwireshark18 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark18@4.4.5-1?arch=amd64&dist
@@ -30415,7 +30385,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwiretap15@4.4.5-1 
 │                       │      ├ PkgName         : libwiretap15 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap15@4.4.5-1?arch=amd64&distro
@@ -30469,7 +30439,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwsutil16@4.4.5-1 
 │                       │      ├ PkgName         : libwsutil16 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil16@4.4.5-1?arch=amd64&distro=
@@ -30523,7 +30493,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.16.0-7ubuntu1?arch=all&di
@@ -30571,7 +30541,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.16.0-7ubuntu1?arch=amd64&dist
@@ -30619,7 +30589,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2025-45582 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2025-45582 
 │                       │      ├ PkgID           : tar@1.35+dfsg-3.1 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1?arch=amd64&distro=
@@ -30686,7 +30656,7 @@
 │                       │      │                         rity-rules-of-thumb.html 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │      ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : tshark@4.4.5-1 
 │                       │      ├ PkgName         : tshark 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.4.5-1?arch=amd64&distro=ubunt
@@ -30740,7 +30710,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.24.5-2ubuntu1 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.24.5-2ubuntu1?arch=amd64&distro
@@ -30786,7 +30756,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : wireshark-common@4.4.5-1 
 │                       │      ├ PkgName         : wireshark-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.4.5-1?arch=amd64&di
@@ -30840,7 +30810,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ╰ [42] ╭ VulnerabilityID : CVE-2023-5574 
+│                       ╰ [41] ╭ VulnerabilityID : CVE-2023-5574 
 │                              ├ PkgID           : x11-common@1:7.7+23ubuntu4 
 │                              ├ PkgName         : x11-common 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/x11-common@7.7%2B23ubuntu4?arch=all&di
@@ -32037,7 +32007,8 @@
 │                             ├ PkgIdentifier    ╭ PURL: pkg:pypi/brotli@1.1.0 
 │                             │                  ╰ UID : a899ff8af10361fc 
 │                             ├ InstalledVersion: 1.1.0 
-│                             ├ Status          : affected 
+│                             ├ FixedVersion    : 1.2.0 
+│                             ├ Status          : fixed 
 │                             ├ Layer            ╭ Digest: sha256:4342b0f51b724af311749c6b20c64ecd793e6bf9f7a1d
 │                             │                  │         152d186ec0b0e97e3df 
 │                             │                  ╰ DiffID: sha256:7f602d410d7d28b978bd2ef28d35bc1170415cc99ba82
@@ -32069,13 +32040,16 @@
 │                             │                  │      03f2e763497748f2f69946627 
 │                             │                  ├ [2]: https://github.com/google/brotli/issues/1327#issuecomme
 │                             │                  │      nt-3457434715 
-│                             │                  ├ [3]: https://github.com/google/brotli/pull/1234 
-│                             │                  ├ [4]: https://github.com/google/brotli/releases/tag/v1.2.0 
-│                             │                  ├ [5]: https://huntr.com/bounties/2c26a886-5984-47ee-a421-0d5f
+│                             │                  ├ [3]: https://github.com/google/brotli/issues/1327#issuecomme
+│                             │                  │      nt-3479462458 
+│                             │                  ├ [4]: https://github.com/google/brotli/issues/1375 
+│                             │                  ├ [5]: https://github.com/google/brotli/pull/1234 
+│                             │                  ├ [6]: https://github.com/google/brotli/releases/tag/v1.2.0 
+│                             │                  ├ [7]: https://huntr.com/bounties/2c26a886-5984-47ee-a421-0d5f
 │                             │                  │      e1344eb0 
-│                             │                  ╰ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-6176 
+│                             │                  ╰ [8]: https://nvd.nist.gov/vuln/detail/CVE-2025-6176 
 │                             ├ PublishedDate   : 2025-10-31T00:15:37.333Z 
-│                             ╰ LastModifiedDate: 2025-10-31T00:15:37.333Z 
+│                             ╰ LastModifiedDate: 2025-11-04T15:41:56.843Z 
 ╰ [3] ╭ Target         : usr/bin/lazydocker 
       ├ Class          : lang-pkgs 
       ├ Type           : gobinary 
