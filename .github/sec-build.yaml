@@ -27195,6 +27195,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.8
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/10/2
+    - http://www.openwall.com/lists/oss-security/2025/09/10/3
     - https://access.redhat.com/security/cve/CVE-2025-10148
     - https://curl.se/docs/CVE-2025-10148.html
     - https://curl.se/docs/CVE-2025-10148.json
@@ -27202,7 +27204,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-10148
     - https://www.cve.org/CVERecord?id=CVE-2025-10148
     PublishedDate: '2025-09-12T06:15:40.02Z'
-    LastModifiedDate: '2025-09-15T15:21:42.937Z'
+    LastModifiedDate: '2025-11-04T22:16:05.137Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: curl@8.12.1-3ubuntu1
     PkgName: curl
@@ -27248,6 +27250,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/10/1
     - https://access.redhat.com/security/cve/CVE-2025-9086
     - https://curl.se/docs/CVE-2025-9086.html
     - https://curl.se/docs/CVE-2025-9086.json
@@ -27256,7 +27259,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2025-09-15T15:21:42.937Z'
+    LastModifiedDate: '2025-11-04T22:16:45.19Z'
   - VulnerabilityID: CVE-2025-6052
     PkgID: gir1.2-glib-2.0@2.84.1-1ubuntu0.1
     PkgName: gir1.2-glib-2.0
@@ -28053,6 +28056,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.8
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/10/2
+    - http://www.openwall.com/lists/oss-security/2025/09/10/3
     - https://access.redhat.com/security/cve/CVE-2025-10148
     - https://curl.se/docs/CVE-2025-10148.html
     - https://curl.se/docs/CVE-2025-10148.json
@@ -28060,7 +28065,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-10148
     - https://www.cve.org/CVERecord?id=CVE-2025-10148
     PublishedDate: '2025-09-12T06:15:40.02Z'
-    LastModifiedDate: '2025-09-15T15:21:42.937Z'
+    LastModifiedDate: '2025-11-04T22:16:05.137Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: libcurl4t64@8.12.1-3ubuntu1
     PkgName: libcurl4t64
@@ -28106,6 +28111,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/10/1
     - https://access.redhat.com/security/cve/CVE-2025-9086
     - https://curl.se/docs/CVE-2025-9086.html
     - https://curl.se/docs/CVE-2025-9086.json
@@ -28114,7 +28120,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2025-09-15T15:21:42.937Z'
+    LastModifiedDate: '2025-11-04T22:16:45.19Z'
   - VulnerabilityID: CVE-2025-1352
     PkgID: libelf1t64@0.192-4ubuntu1
     PkgName: libelf1t64
@@ -28140,10 +28146,14 @@
     VendorSeverity:
       amazon: 2
       azure: 1
-      photon: 2
+      nvd: 3
+      photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
         V3Score: 5
@@ -28159,7 +28169,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-1352
     - https://www.gnu.org/
     PublishedDate: '2025-02-16T15:15:09.133Z'
-    LastModifiedDate: '2025-02-16T15:15:09.133Z'
+    LastModifiedDate: '2025-11-03T20:34:23.89Z'
   - VulnerabilityID: CVE-2025-1376
     PkgID: libelf1t64@0.192-4ubuntu1
     PkgName: libelf1t64
@@ -28184,10 +28194,14 @@
     - CWE-404
     VendorSeverity:
       azure: 1
-      photon: 1
+      nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 2.5
@@ -28203,7 +28217,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-1376
     - https://www.gnu.org/
     PublishedDate: '2025-02-17T05:15:09.807Z'
-    LastModifiedDate: '2025-02-17T05:15:09.807Z'
+    LastModifiedDate: '2025-11-04T20:21:18.26Z'
   - VulnerabilityID: CVE-2024-2236
     PkgID: libgcrypt20@1.11.0-6ubuntu1
     PkgName: libgcrypt20
@@ -28627,47 +28641,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-37769
     PublishedDate: '2023-07-17T20:15:13.547Z'
     LastModifiedDate: '2024-11-21T08:12:14.547Z'
-  - VulnerabilityID: CVE-2025-8114
-    PkgID: libssh-4@0.11.1-1ubuntu0.2
-    PkgName: libssh-4
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libssh-4@0.11.1-1ubuntu0.2?arch=amd64&distro=ubuntu-25.04
-      UID: c2625877f378dcc9
-    InstalledVersion: 0.11.1-1ubuntu0.2
-    Status: affected
-    Layer:
-      Digest: sha256:4342b0f51b724af311749c6b20c64ecd793e6bf9f7a1d152d186ec0b0e97e3df
-      DiffID: sha256:7f602d410d7d28b978bd2ef28d35bc1170415cc99ba82e24a3faf3095260b397
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8114
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: ': NULL Pointer Dereference in libssh KEX Session ID Calculation'
-    Description: A flaw was found in libssh, a library that implements the SSH protocol. When calculating the session ID during the key exchange (KEX) process, an allocation failure in cryptographic functions may lead to a NULL pointer dereference. This issue can cause the client or server to crash.
-    Severity: LOW
-    CweIDs:
-    - CWE-476
-    VendorSeverity:
-      nvd: 2
-      redhat: 2
-      ubuntu: 1
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 4.7
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 4.7
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-8114
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2383220
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-8114
-    - https://www.cve.org/CVERecord?id=CVE-2025-8114
-    - https://www.libssh.org/security/advisories/CVE-2025-8114.txt
-    PublishedDate: '2025-07-24T15:15:27.117Z'
-    LastModifiedDate: '2025-08-14T00:45:36.51Z'
   - VulnerabilityID: CVE-2021-39920
     PkgID: libwireshark-data@4.4.5-1
     PkgName: libwireshark-data
@@ -30332,7 +30305,8 @@
       PURL: pkg:pypi/brotli@1.1.0
       UID: a899ff8af10361fc
     InstalledVersion: 1.1.0
-    Status: affected
+    FixedVersion: 1.2.0
+    Status: fixed
     Layer:
       Digest: sha256:4342b0f51b724af311749c6b20c64ecd793e6bf9f7a1d152d186ec0b0e97e3df
       DiffID: sha256:7f602d410d7d28b978bd2ef28d35bc1170415cc99ba82e24a3faf3095260b397
@@ -30357,12 +30331,14 @@
     - https://github.com/google/brotli
     - https://github.com/google/brotli/commit/67d78bc41db1a0d03f2e763497748f2f69946627
     - https://github.com/google/brotli/issues/1327#issuecomment-3457434715
+    - https://github.com/google/brotli/issues/1327#issuecomment-3479462458
+    - https://github.com/google/brotli/issues/1375
     - https://github.com/google/brotli/pull/1234
     - https://github.com/google/brotli/releases/tag/v1.2.0
     - https://huntr.com/bounties/2c26a886-5984-47ee-a421-0d5fe1344eb0
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6176
     PublishedDate: '2025-10-31T00:15:37.333Z'
-    LastModifiedDate: '2025-10-31T00:15:37.333Z'
+    LastModifiedDate: '2025-11-04T15:41:56.843Z'
 - Target: usr/bin/lazydocker
   Class: lang-pkgs
   Type: gobinary
