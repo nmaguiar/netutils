@@ -15110,6 +15110,60 @@
     - usr/lib/libzstd.so.1
     - usr/lib/libzstd.so.1.5.7
   Vulnerabilities:
+  - VulnerabilityID: CVE-2025-10966
+    PkgID: curl@8.16.0-r1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/curl@8.16.0-r1?arch=x86_64&distro=3.23.0_alpha20251016
+      UID: f7593a3d18023fde
+    InstalledVersion: 8.16.0-r1
+    FixedVersion: 8.17.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:2fb5276ca7e6333dc4cf23ffc9bba0ab32fcc7c9ef1965022075989891a09083
+      DiffID: sha256:364ea348bc78c2e3534e5c7cbb0094d69c0f89e03ed905da3016c21960cc25a6
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10966
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Severity: UNKNOWN
+  - VulnerabilityID: CVE-2025-10966
+    PkgID: curl-doc@8.16.0-r1
+    PkgName: curl-doc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/curl-doc@8.16.0-r1?arch=x86_64&distro=3.23.0_alpha20251016
+      UID: 7c3ae8697dd8fe47
+    InstalledVersion: 8.16.0-r1
+    FixedVersion: 8.17.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:2fb5276ca7e6333dc4cf23ffc9bba0ab32fcc7c9ef1965022075989891a09083
+      DiffID: sha256:364ea348bc78c2e3534e5c7cbb0094d69c0f89e03ed905da3016c21960cc25a6
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10966
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Severity: UNKNOWN
+  - VulnerabilityID: CVE-2025-10966
+    PkgID: libcurl@8.16.0-r1
+    PkgName: libcurl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcurl@8.16.0-r1?arch=x86_64&distro=3.23.0_alpha20251016
+      UID: 8ebe5dd248028542
+    InstalledVersion: 8.16.0-r1
+    FixedVersion: 8.17.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:2fb5276ca7e6333dc4cf23ffc9bba0ab32fcc7c9ef1965022075989891a09083
+      DiffID: sha256:364ea348bc78c2e3534e5c7cbb0094d69c0f89e03ed905da3016c21960cc25a6
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10966
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Severity: UNKNOWN
   - VulnerabilityID: CVE-2025-53057
     PkgID: openjdk21-jre@21.0.8_p9-r0
     PkgName: openjdk21-jre
