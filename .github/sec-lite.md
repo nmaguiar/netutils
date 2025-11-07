@@ -15823,7 +15823,61 @@
 │     │                         ├ Digest        : sha1:43ac44ea9c46b340ba31d8f7fe10469f2d4223f4 
 │     │                         ╰ InstalledFiles ╭ [0]: usr/lib/libzstd.so.1 
 │     │                                          ╰ [1]: usr/lib/libzstd.so.1.5.7 
-│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2025-53057 
+│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2025-10966 
+│                       │     ├ PkgID           : curl@8.16.0-r1 
+│                       │     ├ PkgName         : curl 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.16.0-r1?arch=x86_64&distro=3.23.
+│                       │     │                  │       0_alpha20251016 
+│                       │     │                  ╰ UID : f7593a3d18023fde 
+│                       │     ├ InstalledVersion: 8.16.0-r1 
+│                       │     ├ FixedVersion    : 8.17.0-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:8e1ee499cd8a53e9981f1809c55360b835cf8bc74996b
+│                       │     │                  │         c8dff15282cbd0bcd5b 
+│                       │     │                  ╰ DiffID: sha256:dc3cbab15d468c0c2e8cd5ae026d2aa7b4b74eebe6c78
+│                       │     │                            5c590f7f042e1dc3c87 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-10966 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ╰ Severity        : UNKNOWN 
+│                       ├ [1] ╭ VulnerabilityID : CVE-2025-10966 
+│                       │     ├ PkgID           : curl-doc@8.16.0-r1 
+│                       │     ├ PkgName         : curl-doc 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.16.0-r1?arch=x86_64&distro=3
+│                       │     │                  │       .23.0_alpha20251016 
+│                       │     │                  ╰ UID : 7c3ae8697dd8fe47 
+│                       │     ├ InstalledVersion: 8.16.0-r1 
+│                       │     ├ FixedVersion    : 8.17.0-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:8e1ee499cd8a53e9981f1809c55360b835cf8bc74996b
+│                       │     │                  │         c8dff15282cbd0bcd5b 
+│                       │     │                  ╰ DiffID: sha256:dc3cbab15d468c0c2e8cd5ae026d2aa7b4b74eebe6c78
+│                       │     │                            5c590f7f042e1dc3c87 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-10966 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ╰ Severity        : UNKNOWN 
+│                       ├ [2] ╭ VulnerabilityID : CVE-2025-10966 
+│                       │     ├ PkgID           : libcurl@8.16.0-r1 
+│                       │     ├ PkgName         : libcurl 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.16.0-r1?arch=x86_64&distro=3.
+│                       │     │                  │       23.0_alpha20251016 
+│                       │     │                  ╰ UID : 8ebe5dd248028542 
+│                       │     ├ InstalledVersion: 8.16.0-r1 
+│                       │     ├ FixedVersion    : 8.17.0-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:8e1ee499cd8a53e9981f1809c55360b835cf8bc74996b
+│                       │     │                  │         c8dff15282cbd0bcd5b 
+│                       │     │                  ╰ DiffID: sha256:dc3cbab15d468c0c2e8cd5ae026d2aa7b4b74eebe6c78
+│                       │     │                            5c590f7f042e1dc3c87 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-10966 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ╰ Severity        : UNKNOWN 
+│                       ├ [3] ╭ VulnerabilityID : CVE-2025-53057 
 │                       │     ├ PkgID           : openjdk21-jre@21.0.8_p9-r0 
 │                       │     ├ PkgName         : openjdk21-jre 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.8_p9-r0?arch=x86_64&
@@ -15885,7 +15939,7 @@
 │                       │     │                  ╰ [8]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │     ├ PublishedDate   : 2025-10-21T20:20:45.24Z 
 │                       │     ╰ LastModifiedDate: 2025-11-03T18:16:56.973Z 
-│                       ├ [1] ╭ VulnerabilityID : CVE-2025-53066 
+│                       ├ [4] ╭ VulnerabilityID : CVE-2025-53066 
 │                       │     ├ PkgID           : openjdk21-jre@21.0.8_p9-r0 
 │                       │     ├ PkgName         : openjdk21-jre 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.8_p9-r0?arch=x86_64&
@@ -15947,7 +16001,7 @@
 │                       │     │                  ╰ [8]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │     ├ PublishedDate   : 2025-10-21T20:20:47.177Z 
 │                       │     ╰ LastModifiedDate: 2025-11-03T18:16:57.227Z 
-│                       ├ [2] ╭ VulnerabilityID : CVE-2025-61748 
+│                       ├ [5] ╭ VulnerabilityID : CVE-2025-61748 
 │                       │     ├ PkgID           : openjdk21-jre@21.0.8_p9-r0 
 │                       │     ├ PkgName         : openjdk21-jre 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.8_p9-r0?arch=x86_64&
@@ -16006,7 +16060,7 @@
 │                       │     │                  ╰ [7]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │     ├ PublishedDate   : 2025-10-21T20:20:51.057Z 
 │                       │     ╰ LastModifiedDate: 2025-10-28T19:11:56.063Z 
-│                       ├ [3] ╭ VulnerabilityID : CVE-2025-53057 
+│                       ├ [6] ╭ VulnerabilityID : CVE-2025-53057 
 │                       │     ├ PkgID           : openjdk21-jre-headless@21.0.8_p9-r0 
 │                       │     ├ PkgName         : openjdk21-jre-headless 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.8_p9-r0?arc
@@ -16068,7 +16122,7 @@
 │                       │     │                  ╰ [8]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │     ├ PublishedDate   : 2025-10-21T20:20:45.24Z 
 │                       │     ╰ LastModifiedDate: 2025-11-03T18:16:56.973Z 
-│                       ├ [4] ╭ VulnerabilityID : CVE-2025-53066 
+│                       ├ [7] ╭ VulnerabilityID : CVE-2025-53066 
 │                       │     ├ PkgID           : openjdk21-jre-headless@21.0.8_p9-r0 
 │                       │     ├ PkgName         : openjdk21-jre-headless 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.8_p9-r0?arc
@@ -16130,7 +16184,7 @@
 │                       │     │                  ╰ [8]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │     ├ PublishedDate   : 2025-10-21T20:20:47.177Z 
 │                       │     ╰ LastModifiedDate: 2025-11-03T18:16:57.227Z 
-│                       ╰ [5] ╭ VulnerabilityID : CVE-2025-61748 
+│                       ╰ [8] ╭ VulnerabilityID : CVE-2025-61748 
 │                             ├ PkgID           : openjdk21-jre-headless@21.0.8_p9-r0 
 │                             ├ PkgName         : openjdk21-jre-headless 
 │                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.8_p9-r0?arc
