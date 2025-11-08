@@ -15840,7 +15840,21 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ╰ Severity        : UNKNOWN 
+│                       │     ├ Title           : curl's code for managing SSH connections when SFTP was done
+│                       │     │                   using the  ... 
+│                       │     ├ Description     : curl's code for managing SSH connections when SFTP was done
+│                       │     │                   using the wolfSSH
+│                       │     │                   powered backend was flawed and missed host verification
+│                       │     │                   mechanisms.
+│                       │     │                   
+│                       │     │                   This prevents curl from detecting MITM attackers and more. 
+│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/11/05/2 
+│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2025-10966.html 
+│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2025-10966.json 
+│                       │     │                  ╰ [3]: https://hackerone.com/reports/3355218 
+│                       │     ├ PublishedDate   : 2025-11-07T08:15:39.617Z 
+│                       │     ╰ LastModifiedDate: 2025-11-07T08:15:39.617Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2025-10966 
 │                       │     ├ PkgID           : curl-doc@8.16.0-r1 
 │                       │     ├ PkgName         : curl-doc 
@@ -15858,7 +15872,21 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ╰ Severity        : UNKNOWN 
+│                       │     ├ Title           : curl's code for managing SSH connections when SFTP was done
+│                       │     │                   using the  ... 
+│                       │     ├ Description     : curl's code for managing SSH connections when SFTP was done
+│                       │     │                   using the wolfSSH
+│                       │     │                   powered backend was flawed and missed host verification
+│                       │     │                   mechanisms.
+│                       │     │                   
+│                       │     │                   This prevents curl from detecting MITM attackers and more. 
+│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/11/05/2 
+│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2025-10966.html 
+│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2025-10966.json 
+│                       │     │                  ╰ [3]: https://hackerone.com/reports/3355218 
+│                       │     ├ PublishedDate   : 2025-11-07T08:15:39.617Z 
+│                       │     ╰ LastModifiedDate: 2025-11-07T08:15:39.617Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2025-10966 
 │                       │     ├ PkgID           : libcurl@8.16.0-r1 
 │                       │     ├ PkgName         : libcurl 
@@ -15876,7 +15904,21 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ╰ Severity        : UNKNOWN 
+│                       │     ├ Title           : curl's code for managing SSH connections when SFTP was done
+│                       │     │                   using the  ... 
+│                       │     ├ Description     : curl's code for managing SSH connections when SFTP was done
+│                       │     │                   using the wolfSSH
+│                       │     │                   powered backend was flawed and missed host verification
+│                       │     │                   mechanisms.
+│                       │     │                   
+│                       │     │                   This prevents curl from detecting MITM attackers and more. 
+│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/11/05/2 
+│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2025-10966.html 
+│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2025-10966.json 
+│                       │     │                  ╰ [3]: https://hackerone.com/reports/3355218 
+│                       │     ├ PublishedDate   : 2025-11-07T08:15:39.617Z 
+│                       │     ╰ LastModifiedDate: 2025-11-07T08:15:39.617Z 
 │                       ├ [3] ╭ VulnerabilityID : CVE-2025-53057 
 │                       │     ├ PkgID           : openjdk21-jre@21.0.8_p9-r0 
 │                       │     ├ PkgName         : openjdk21-jre 
