@@ -27155,6 +27155,30 @@
     - https://www.cve.org/CVERecord?id=CVE-2016-2781
     PublishedDate: '2017-02-07T15:59:00.333Z'
     LastModifiedDate: '2025-06-09T16:15:25.013Z'
+  - VulnerabilityID: CVE-2025-11563
+    PkgID: curl@8.12.1-3ubuntu1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.12.1-3ubuntu1?arch=amd64&distro=ubuntu-25.04
+      UID: 6ea7a92c5821dca8
+    InstalledVersion: 8.12.1-3ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd46036099
+      DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2f8ff409
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-11563
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Description: wcurl path traversal with percent-encoded slashes
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://curl.se/docs/CVE-2025-11563.html
+    - https://www.cve.org/CVERecord?id=CVE-2025-11563
   - VulnerabilityID: CVE-2025-10148
     PkgID: curl@8.12.1-3ubuntu1
     PkgName: curl
@@ -28016,6 +28040,30 @@
     - https://www.cve.org/CVERecord?id=CVE-2019-6461
     PublishedDate: '2019-01-16T18:29:00.51Z'
     LastModifiedDate: '2024-11-21T04:46:29.91Z'
+  - VulnerabilityID: CVE-2025-11563
+    PkgID: libcurl4t64@8.12.1-3ubuntu1
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.12.1-3ubuntu1?arch=amd64&distro=ubuntu-25.04
+      UID: e39d89d31b7d2391
+    InstalledVersion: 8.12.1-3ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:b9a840c3fc74107317ec87d07a3607f1fdb5ac4d5cc8d62eaa07d8dd46036099
+      DiffID: sha256:4e754d78fe8d12967e5201ad968620ef0c7e7a331c276bdc34c9baac2f8ff409
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-11563
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Description: wcurl path traversal with percent-encoded slashes
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://curl.se/docs/CVE-2025-11563.html
+    - https://www.cve.org/CVERecord?id=CVE-2025-11563
   - VulnerabilityID: CVE-2025-10148
     PkgID: libcurl4t64@8.12.1-3ubuntu1
     PkgName: libcurl4t64
@@ -28402,6 +28450,7 @@
     - https://access.redhat.com/errata/RHSA-2025:15827
     - https://access.redhat.com/errata/RHSA-2025:15828
     - https://access.redhat.com/errata/RHSA-2025:16524
+    - https://access.redhat.com/errata/RHSA-2025:17181
     - https://access.redhat.com/errata/RHSA-2025:18219
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
@@ -28417,7 +28466,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
-    LastModifiedDate: '2025-10-16T09:15:36.56Z'
+    LastModifiedDate: '2025-11-06T22:15:44.947Z'
   - VulnerabilityID: CVE-2025-8941
     PkgID: libpam-modules-bin@1.5.3-7ubuntu4.4
     PkgName: libpam-modules-bin
@@ -28465,6 +28514,7 @@
     - https://access.redhat.com/errata/RHSA-2025:15827
     - https://access.redhat.com/errata/RHSA-2025:15828
     - https://access.redhat.com/errata/RHSA-2025:16524
+    - https://access.redhat.com/errata/RHSA-2025:17181
     - https://access.redhat.com/errata/RHSA-2025:18219
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
@@ -28480,7 +28530,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
-    LastModifiedDate: '2025-10-16T09:15:36.56Z'
+    LastModifiedDate: '2025-11-06T22:15:44.947Z'
   - VulnerabilityID: CVE-2025-8941
     PkgID: libpam-runtime@1.5.3-7ubuntu4.4
     PkgName: libpam-runtime
@@ -28528,6 +28578,7 @@
     - https://access.redhat.com/errata/RHSA-2025:15827
     - https://access.redhat.com/errata/RHSA-2025:15828
     - https://access.redhat.com/errata/RHSA-2025:16524
+    - https://access.redhat.com/errata/RHSA-2025:17181
     - https://access.redhat.com/errata/RHSA-2025:18219
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
@@ -28543,7 +28594,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
-    LastModifiedDate: '2025-10-16T09:15:36.56Z'
+    LastModifiedDate: '2025-11-06T22:15:44.947Z'
   - VulnerabilityID: CVE-2025-8941
     PkgID: libpam0g@1.5.3-7ubuntu4.4
     PkgName: libpam0g
@@ -28591,6 +28642,7 @@
     - https://access.redhat.com/errata/RHSA-2025:15827
     - https://access.redhat.com/errata/RHSA-2025:15828
     - https://access.redhat.com/errata/RHSA-2025:16524
+    - https://access.redhat.com/errata/RHSA-2025:17181
     - https://access.redhat.com/errata/RHSA-2025:18219
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
@@ -28606,7 +28658,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
-    LastModifiedDate: '2025-10-16T09:15:36.56Z'
+    LastModifiedDate: '2025-11-06T22:15:44.947Z'
   - VulnerabilityID: CVE-2023-37769
     PkgID: libpixman-1-0@0.44.0-3
     PkgName: libpixman-1-0
