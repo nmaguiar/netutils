@@ -28831,7 +28831,8 @@
 │                       │      │                   host so overriding
 │                       │      │                   it on an insecure host should not be okay. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      ├ VendorSeverity   ╭ amazon: 1 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
@@ -29756,7 +29757,8 @@
 │                       │      │                   host so overriding
 │                       │      │                   it on an insecure host should not be okay. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      ├ VendorSeverity   ╭ amazon: 1 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
@@ -30055,6 +30057,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-22 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ├ rocky      : 3 
@@ -30121,6 +30124,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-22 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ├ rocky      : 3 
@@ -30187,6 +30191,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-22 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ├ rocky      : 3 
@@ -30253,6 +30258,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-22 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ├ rocky      : 3 
