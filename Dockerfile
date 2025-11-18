@@ -1,4 +1,4 @@
-FROM openaf/oaf:deb as main
+FROM openaf/oaf:deb-nightly as main
 
 USER root
 RUN apt update\
