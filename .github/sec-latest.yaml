@@ -28457,6 +28457,7 @@
     - https://access.redhat.com/errata/RHSA-2025:16524
     - https://access.redhat.com/errata/RHSA-2025:17181
     - https://access.redhat.com/errata/RHSA-2025:18219
+    - https://access.redhat.com/errata/RHSA-2025:21885
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
     - https://bugzilla.redhat.com/2388220
@@ -28471,7 +28472,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
-    LastModifiedDate: '2025-11-06T22:15:44.947Z'
+    LastModifiedDate: '2025-11-20T21:16:08.11Z'
   - VulnerabilityID: CVE-2025-8941
     PkgID: libpam-modules-bin@1.5.3-7ubuntu4.4
     PkgName: libpam-modules-bin
@@ -28522,6 +28523,7 @@
     - https://access.redhat.com/errata/RHSA-2025:16524
     - https://access.redhat.com/errata/RHSA-2025:17181
     - https://access.redhat.com/errata/RHSA-2025:18219
+    - https://access.redhat.com/errata/RHSA-2025:21885
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
     - https://bugzilla.redhat.com/2388220
@@ -28536,7 +28538,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
-    LastModifiedDate: '2025-11-06T22:15:44.947Z'
+    LastModifiedDate: '2025-11-20T21:16:08.11Z'
   - VulnerabilityID: CVE-2025-8941
     PkgID: libpam-runtime@1.5.3-7ubuntu4.4
     PkgName: libpam-runtime
@@ -28587,6 +28589,7 @@
     - https://access.redhat.com/errata/RHSA-2025:16524
     - https://access.redhat.com/errata/RHSA-2025:17181
     - https://access.redhat.com/errata/RHSA-2025:18219
+    - https://access.redhat.com/errata/RHSA-2025:21885
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
     - https://bugzilla.redhat.com/2388220
@@ -28601,7 +28604,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
-    LastModifiedDate: '2025-11-06T22:15:44.947Z'
+    LastModifiedDate: '2025-11-20T21:16:08.11Z'
   - VulnerabilityID: CVE-2025-8941
     PkgID: libpam0g@1.5.3-7ubuntu4.4
     PkgName: libpam0g
@@ -28652,6 +28655,7 @@
     - https://access.redhat.com/errata/RHSA-2025:16524
     - https://access.redhat.com/errata/RHSA-2025:17181
     - https://access.redhat.com/errata/RHSA-2025:18219
+    - https://access.redhat.com/errata/RHSA-2025:21885
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
     - https://bugzilla.redhat.com/2388220
@@ -28666,7 +28670,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
-    LastModifiedDate: '2025-11-06T22:15:44.947Z'
+    LastModifiedDate: '2025-11-20T21:16:08.11Z'
   - VulnerabilityID: CVE-2023-37769
     PkgID: libpixman-1-0@0.44.0-3
     PkgName: libpixman-1-0
