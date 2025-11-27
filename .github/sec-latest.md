@@ -29011,8 +29011,7 @@
 │                       │      │                   injected. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-330 
-│                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
@@ -29023,20 +29022,18 @@
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:11402 
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:16441 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-52615 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2326418 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2326418 
-│                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2326418 
+│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-52615 
-│                       │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-16441.html 
-│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:16441 
-│                       │      │                  ├ [8] : https://github.com/avahi/avahi/issues/254#issuecommen
+│                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:16441 
+│                       │      │                  ├ [6] : https://github.com/avahi/avahi/issues/254#issuecommen
 │                       │      │                  │       t-2480519212 
-│                       │      │                  ├ [9] : https://github.com/avahi/avahi/security/advisories/GH
+│                       │      │                  ├ [7] : https://github.com/avahi/avahi/security/advisories/GH
 │                       │      │                  │       SA-x6vp-f33h-h32g 
-│                       │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2024-52615.html 
-│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-16441.html 
-│                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-52615 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-52615 
+│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-52615.html 
+│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-16441.html 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-52615 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-52615 
 │                       │      ├ PublishedDate   : 2024-11-21T21:15:23.807Z 
 │                       │      ╰ LastModifiedDate: 2025-09-23T10:15:34.1Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2024-52616 
@@ -29113,8 +29110,7 @@
 │                       │      │                   injected. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-330 
-│                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
@@ -29125,20 +29121,18 @@
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:11402 
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:16441 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-52615 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2326418 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2326418 
-│                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2326418 
+│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-52615 
-│                       │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-16441.html 
-│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:16441 
-│                       │      │                  ├ [8] : https://github.com/avahi/avahi/issues/254#issuecommen
+│                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:16441 
+│                       │      │                  ├ [6] : https://github.com/avahi/avahi/issues/254#issuecommen
 │                       │      │                  │       t-2480519212 
-│                       │      │                  ├ [9] : https://github.com/avahi/avahi/security/advisories/GH
+│                       │      │                  ├ [7] : https://github.com/avahi/avahi/security/advisories/GH
 │                       │      │                  │       SA-x6vp-f33h-h32g 
-│                       │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2024-52615.html 
-│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-16441.html 
-│                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-52615 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-52615 
+│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-52615.html 
+│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-16441.html 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-52615 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-52615 
 │                       │      ├ PublishedDate   : 2024-11-21T21:15:23.807Z 
 │                       │      ╰ LastModifiedDate: 2025-09-23T10:15:34.1Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2024-52616 
@@ -29215,8 +29209,7 @@
 │                       │      │                   injected. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-330 
-│                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
@@ -29227,20 +29220,18 @@
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:11402 
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:16441 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-52615 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2326418 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2326418 
-│                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2326418 
+│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-52615 
-│                       │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-16441.html 
-│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:16441 
-│                       │      │                  ├ [8] : https://github.com/avahi/avahi/issues/254#issuecommen
+│                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:16441 
+│                       │      │                  ├ [6] : https://github.com/avahi/avahi/issues/254#issuecommen
 │                       │      │                  │       t-2480519212 
-│                       │      │                  ├ [9] : https://github.com/avahi/avahi/security/advisories/GH
+│                       │      │                  ├ [7] : https://github.com/avahi/avahi/security/advisories/GH
 │                       │      │                  │       SA-x6vp-f33h-h32g 
-│                       │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2024-52615.html 
-│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-16441.html 
-│                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-52615 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-52615 
+│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-52615.html 
+│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-16441.html 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-52615 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-52615 
 │                       │      ├ PublishedDate   : 2024-11-21T21:15:23.807Z 
 │                       │      ╰ LastModifiedDate: 2025-09-23T10:15:34.1Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2024-52616 
@@ -30585,24 +30576,27 @@
 │                       │      │                   range that can occur in /etc/subuid. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1188 
-│                       │      ├ VendorSeverity   ╭ alma  : 1 
-│                       │      │                  ├ azure : 1 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ alma       : 1 
+│                       │      │                  ├ azure      : 1 
+│                       │      │                  ├ oracle-oval: 1 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.6 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:20559 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-56433 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2334165 
-│                       │      │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │      │                  ├ [4]: https://github.com/shadow-maint/shadow/blob/e2512d5741
-│                       │      │                  │      d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L24
-│                       │      │                  │      1 
-│                       │      │                  ├ [5]: https://github.com/shadow-maint/shadow/issues/1157 
-│                       │      │                  ├ [6]: https://github.com/shadow-maint/shadow/releases/tag/4.4 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20559 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56433 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2334165 
+│                       │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
+│                       │      │                  ├ [4] : https://github.com/shadow-maint/shadow/blob/e2512d574
+│                       │      │                  │       1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
+│                       │      │                  │       241 
+│                       │      │                  ├ [5] : https://github.com/shadow-maint/shadow/issues/1157 
+│                       │      │                  ├ [6] : https://github.com/shadow-maint/shadow/releases/tag/4.4 
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-56433.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-20559-0.html 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
 │                       ├ [38] ╭ VulnerabilityID : CVE-2024-56433 
@@ -30637,24 +30631,27 @@
 │                       │      │                   range that can occur in /etc/subuid. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1188 
-│                       │      ├ VendorSeverity   ╭ alma  : 1 
-│                       │      │                  ├ azure : 1 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ alma       : 1 
+│                       │      │                  ├ azure      : 1 
+│                       │      │                  ├ oracle-oval: 1 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.6 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:20559 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-56433 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2334165 
-│                       │      │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │      │                  ├ [4]: https://github.com/shadow-maint/shadow/blob/e2512d5741
-│                       │      │                  │      d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L24
-│                       │      │                  │      1 
-│                       │      │                  ├ [5]: https://github.com/shadow-maint/shadow/issues/1157 
-│                       │      │                  ├ [6]: https://github.com/shadow-maint/shadow/releases/tag/4.4 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20559 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56433 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2334165 
+│                       │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
+│                       │      │                  ├ [4] : https://github.com/shadow-maint/shadow/blob/e2512d574
+│                       │      │                  │       1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
+│                       │      │                  │       241 
+│                       │      │                  ├ [5] : https://github.com/shadow-maint/shadow/issues/1157 
+│                       │      │                  ├ [6] : https://github.com/shadow-maint/shadow/releases/tag/4.4 
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-56433.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-20559-0.html 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
 │                       ├ [39] ╭ VulnerabilityID : CVE-2025-45582 
