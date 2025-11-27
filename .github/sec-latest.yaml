@@ -27443,7 +27443,6 @@
     CweIDs:
     - CWE-330
     VendorSeverity:
-      alma: 2
       amazon: 2
       oracle-oval: 2
       redhat: 2
@@ -27457,10 +27456,8 @@
     - https://access.redhat.com/errata/RHSA-2025:11402
     - https://access.redhat.com/errata/RHSA-2025:16441
     - https://access.redhat.com/security/cve/CVE-2024-52615
-    - https://bugzilla.redhat.com/2326418
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52615
-    - https://errata.almalinux.org/10/ALSA-2025-16441.html
     - https://errata.rockylinux.org/RLSA-2025:16441
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
@@ -27541,7 +27538,6 @@
     CweIDs:
     - CWE-330
     VendorSeverity:
-      alma: 2
       amazon: 2
       oracle-oval: 2
       redhat: 2
@@ -27555,10 +27551,8 @@
     - https://access.redhat.com/errata/RHSA-2025:11402
     - https://access.redhat.com/errata/RHSA-2025:16441
     - https://access.redhat.com/security/cve/CVE-2024-52615
-    - https://bugzilla.redhat.com/2326418
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52615
-    - https://errata.almalinux.org/10/ALSA-2025-16441.html
     - https://errata.rockylinux.org/RLSA-2025:16441
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
@@ -27639,7 +27633,6 @@
     CweIDs:
     - CWE-330
     VendorSeverity:
-      alma: 2
       amazon: 2
       oracle-oval: 2
       redhat: 2
@@ -27653,10 +27646,8 @@
     - https://access.redhat.com/errata/RHSA-2025:11402
     - https://access.redhat.com/errata/RHSA-2025:16441
     - https://access.redhat.com/security/cve/CVE-2024-52615
-    - https://bugzilla.redhat.com/2326418
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52615
-    - https://errata.almalinux.org/10/ALSA-2025-16441.html
     - https://errata.rockylinux.org/RLSA-2025:16441
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
@@ -28934,6 +28925,7 @@
     VendorSeverity:
       alma: 1
       azure: 1
+      oracle-oval: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -28948,6 +28940,8 @@
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
+    - https://linux.oracle.com/cve/CVE-2024-56433.html
+    - https://linux.oracle.com/errata/ELSA-2025-20559-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-56433
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
@@ -28977,6 +28971,7 @@
     VendorSeverity:
       alma: 1
       azure: 1
+      oracle-oval: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -28991,6 +28986,8 @@
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
+    - https://linux.oracle.com/cve/CVE-2024-56433.html
+    - https://linux.oracle.com/errata/ELSA-2025-20559-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-56433
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
