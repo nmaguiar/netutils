@@ -15958,7 +15958,167 @@
 │                       │     │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/04/23/1 
 │                       │     ├ PublishedDate   : 2025-04-23T16:15:48.713Z 
 │                       │     ╰ LastModifiedDate: 2025-09-24T14:38:22.127Z 
-│                       ╰ [2] ╭ VulnerabilityID : CVE-2025-46394 
+│                       ├ [2] ╭ VulnerabilityID : CVE-2025-64505 
+│                       │     ├ PkgID           : libpng@1.6.49-r0 
+│                       │     ├ PkgName         : libpng 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.49-r0?arch=x86_64&distro=3.2
+│                       │     │                  │       3.0_alpha20251016 
+│                       │     │                  ╰ UID : 8114b0ebd39daac5 
+│                       │     ├ InstalledVersion: 1.6.49-r0 
+│                       │     ├ FixedVersion    : 1.6.51-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:732f72df05006ce41486212bda2ba834ba76cb8af305e
+│                       │     │                  │         102ca607f82ee327e4d 
+│                       │     │                  ╰ DiffID: sha256:093e6f1f0ca3cbd20db248d8ffef0b4d5683de84c604a
+│                       │     │                            ce35626002e38078f78 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64505 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : LIBPNG is a reference library for use in applications that
+│                       │     │                   read, creat ... 
+│                       │     ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │     │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │     │                   raster image files. Prior to version 1.6.51, a heap buffer
+│                       │     │                   over-read vulnerability exists in libpng's png_do_quantize
+│                       │     │                   function when processing PNG files with malformed palette
+│                       │     │                   indices. The vulnerability occurs when palette_lookup array
+│                       │     │                   bounds are not validated against externally-supplied image
+│                       │     │                   data, allowing an attacker to craft a PNG file with
+│                       │     │                   out-of-range palette indices that trigger out-of-bounds
+│                       │     │                   memory access. This issue has been patched in version
+│                       │     │                   1.6.51. 
+│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ CweIDs           ─ [0]: CWE-125 
+│                       │     ├ References       ╭ [0]: https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd
+│                       │     │                  │      7f6de1c39d30de0e41473431c37 
+│                       │     │                  ├ [1]: https://github.com/pnggroup/libpng/pull/748 
+│                       │     │                  ╰ [2]: https://github.com/pnggroup/libpng/security/advisories/
+│                       │     │                         GHSA-4952-h5wq-4m42 
+│                       │     ├ PublishedDate   : 2025-11-25T00:15:47.133Z 
+│                       │     ╰ LastModifiedDate: 2025-11-25T22:16:16.69Z 
+│                       ├ [3] ╭ VulnerabilityID : CVE-2025-64506 
+│                       │     ├ PkgID           : libpng@1.6.49-r0 
+│                       │     ├ PkgName         : libpng 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.49-r0?arch=x86_64&distro=3.2
+│                       │     │                  │       3.0_alpha20251016 
+│                       │     │                  ╰ UID : 8114b0ebd39daac5 
+│                       │     ├ InstalledVersion: 1.6.49-r0 
+│                       │     ├ FixedVersion    : 1.6.51-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:732f72df05006ce41486212bda2ba834ba76cb8af305e
+│                       │     │                  │         102ca607f82ee327e4d 
+│                       │     │                  ╰ DiffID: sha256:093e6f1f0ca3cbd20db248d8ffef0b4d5683de84c604a
+│                       │     │                            ce35626002e38078f78 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64506 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : LIBPNG is a reference library for use in applications that
+│                       │     │                   read, creat ... 
+│                       │     ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │     │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │     │                   raster image files. From version 1.6.0 to before 1.6.51, a
+│                       │     │                   heap buffer over-read vulnerability exists in libpng's
+│                       │     │                   png_write_image_8bit function when processing 8-bit images
+│                       │     │                   through the simplified write API with convert_to_8bit
+│                       │     │                   enabled. The vulnerability affects 8-bit grayscale+alpha,
+│                       │     │                   RGB/RGBA, and images with incomplete row data. A conditional
+│                       │     │                   guard incorrectly allows 8-bit input to enter code expecting
+│                       │     │                   16-bit input, causing reads up to 2 bytes beyond allocated
+│                       │     │                   buffer boundaries. This issue has been patched in version
+│                       │     │                   1.6.51. 
+│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ CweIDs           ─ [0]: CWE-125 
+│                       │     ├ References       ╭ [0]: https://github.com/pnggroup/libpng/commit/2bd84c019c300
+│                       │     │                  │      b78e811743fbcddb67c9d9bf821 
+│                       │     │                  ├ [1]: https://github.com/pnggroup/libpng/pull/749 
+│                       │     │                  ╰ [2]: https://github.com/pnggroup/libpng/security/advisories/
+│                       │     │                         GHSA-qpr4-xm66-hww6 
+│                       │     ├ PublishedDate   : 2025-11-25T00:15:47.3Z 
+│                       │     ╰ LastModifiedDate: 2025-11-25T22:16:16.69Z 
+│                       ├ [4] ╭ VulnerabilityID : CVE-2025-64720 
+│                       │     ├ PkgID           : libpng@1.6.49-r0 
+│                       │     ├ PkgName         : libpng 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.49-r0?arch=x86_64&distro=3.2
+│                       │     │                  │       3.0_alpha20251016 
+│                       │     │                  ╰ UID : 8114b0ebd39daac5 
+│                       │     ├ InstalledVersion: 1.6.49-r0 
+│                       │     ├ FixedVersion    : 1.6.51-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:732f72df05006ce41486212bda2ba834ba76cb8af305e
+│                       │     │                  │         102ca607f82ee327e4d 
+│                       │     │                  ╰ DiffID: sha256:093e6f1f0ca3cbd20db248d8ffef0b4d5683de84c604a
+│                       │     │                            ce35626002e38078f78 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64720 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : LIBPNG is a reference library for use in applications that
+│                       │     │                   read, creat ... 
+│                       │     ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │     │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │     │                   raster image files. From version 1.6.0 to before 1.6.51, an
+│                       │     │                   out-of-bounds read vulnerability exists in
+│                       │     │                   png_image_read_composite when processing palette images with
+│                       │     │                   PNG_FLAG_OPTIMIZE_ALPHA enabled. The palette compositing code
+│                       │     │                    in png_init_read_transformations incorrectly applies
+│                       │     │                   background compositing during premultiplication, violating
+│                       │     │                   the invariant component ≤ alpha × 257 required by the
+│                       │     │                   simplified PNG API. This issue has been patched in version
+│                       │     │                   1.6.51. 
+│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ CweIDs           ─ [0]: CWE-125 
+│                       │     ├ References       ╭ [0]: https://github.com/pnggroup/libpng/commit/08da33b4c88cf
+│                       │     │                  │      cd36e5a706558a8d7e0e4773643 
+│                       │     │                  ├ [1]: https://github.com/pnggroup/libpng/issues/686 
+│                       │     │                  ├ [2]: https://github.com/pnggroup/libpng/pull/751 
+│                       │     │                  ╰ [3]: https://github.com/pnggroup/libpng/security/advisories/
+│                       │     │                         GHSA-hfc7-ph9c-wcww 
+│                       │     ├ PublishedDate   : 2025-11-25T00:15:47.46Z 
+│                       │     ╰ LastModifiedDate: 2025-11-25T22:16:16.69Z 
+│                       ├ [5] ╭ VulnerabilityID : CVE-2025-65018 
+│                       │     ├ PkgID           : libpng@1.6.49-r0 
+│                       │     ├ PkgName         : libpng 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.49-r0?arch=x86_64&distro=3.2
+│                       │     │                  │       3.0_alpha20251016 
+│                       │     │                  ╰ UID : 8114b0ebd39daac5 
+│                       │     ├ InstalledVersion: 1.6.49-r0 
+│                       │     ├ FixedVersion    : 1.6.51-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:732f72df05006ce41486212bda2ba834ba76cb8af305e
+│                       │     │                  │         102ca607f82ee327e4d 
+│                       │     │                  ╰ DiffID: sha256:093e6f1f0ca3cbd20db248d8ffef0b4d5683de84c604a
+│                       │     │                            ce35626002e38078f78 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-65018 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : LIBPNG is a reference library for use in applications that
+│                       │     │                   read, creat ... 
+│                       │     ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │     │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │     │                   raster image files. From version 1.6.0 to before 1.6.51,
+│                       │     │                   there is a heap buffer overflow vulnerability in the libpng
+│                       │     │                   simplified API function png_image_finish_read when processing
+│                       │     │                    16-bit interlaced PNGs with 8-bit output format.
+│                       │     │                   Attacker-crafted interlaced PNG files cause heap writes
+│                       │     │                   beyond allocated buffer bounds. This issue has been patched
+│                       │     │                   in version 1.6.51. 
+│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ CweIDs           ╭ [0]: CWE-122 
+│                       │     │                  ╰ [1]: CWE-787 
+│                       │     ├ References       ╭ [0]: https://github.com/pnggroup/libpng/commit/16b5e38239188
+│                       │     │                  │      40aae65c0a6da57c78a5a496a4d 
+│                       │     │                  ├ [1]: https://github.com/pnggroup/libpng/commit/218612ddd6b17
+│                       │     │                  │      944e21eda56caf8b4bf7779d1ea 
+│                       │     │                  ├ [2]: https://github.com/pnggroup/libpng/issues/755 
+│                       │     │                  ├ [3]: https://github.com/pnggroup/libpng/pull/757 
+│                       │     │                  ╰ [4]: https://github.com/pnggroup/libpng/security/advisories/
+│                       │     │                         GHSA-7wv6-48j4-hj3g 
+│                       │     ├ PublishedDate   : 2025-11-25T00:15:47.61Z 
+│                       │     ╰ LastModifiedDate: 2025-11-25T22:16:16.69Z 
+│                       ╰ [6] ╭ VulnerabilityID : CVE-2025-46394 
 │                             ├ PkgID           : ssl_client@1.37.0-r24 
 │                             ├ PkgName         : ssl_client 
 │                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.37.0-r24?arch=x86_64&distr
