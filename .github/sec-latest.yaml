@@ -28033,6 +28033,41 @@
     - https://www.cve.org/CVERecord?id=CVE-2019-6461
     PublishedDate: '2019-01-16T18:29:00.51Z'
     LastModifiedDate: '2024-11-21T04:46:29.91Z'
+  - VulnerabilityID: CVE-2025-61915
+    PkgID: libcups2t64@2.4.12-0ubuntu1.1
+    PkgName: libcups2t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcups2t64@2.4.12-0ubuntu1.1?arch=amd64&distro=ubuntu-25.04
+      UID: 67456924643ad81d
+    InstalledVersion: 2.4.12-0ubuntu1.1
+    FixedVersion: 2.4.12-0ubuntu1.4
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61915
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: OpenPrinting CUPS is an open source printing system for Linux and othe ...
+    Description: OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. Prior to version 2.4.15, a user in the lpadmin group can use the cups web ui to change the config and insert a malicious line. Then the cupsd process which runs as root will parse the new config and cause an out-of-bound write. This issue has been patched in version 2.4.15.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-124
+    - CWE-129
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/11/27/5
+    - https://github.com/OpenPrinting/cups/commit/db8d560262c22a21ee1e55dfd62fa98d9359bcb0
+    - https://github.com/OpenPrinting/cups/releases/tag/v2.4.15
+    - https://github.com/OpenPrinting/cups/security/advisories/GHSA-hxm8-vfpq-jrfc
+    - https://ubuntu.com/security/notices/USN-7897-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-61915
+    PublishedDate: '2025-11-29T03:15:59.52Z'
+    LastModifiedDate: '2025-11-29T03:15:59.52Z'
   - VulnerabilityID: CVE-2025-11563
     PkgID: libcurl4t64@8.12.1-3ubuntu1
     PkgName: libcurl4t64
