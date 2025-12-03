@@ -15277,6 +15277,7 @@
     - https://access.redhat.com/errata/RHSA-2025:17361
     - https://access.redhat.com/errata/RHSA-2025:17415
     - https://access.redhat.com/errata/RHSA-2025:19088
+    - https://access.redhat.com/errata/RHSA-2025:22529
     - https://access.redhat.com/security/cve/CVE-2025-32988
     - https://bugzilla.redhat.com/2359620
     - https://bugzilla.redhat.com/2359621
@@ -15299,7 +15300,7 @@
     - https://ubuntu.com/security/notices/USN-7742-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32988
     PublishedDate: '2025-07-10T08:15:24.223Z'
-    LastModifiedDate: '2025-11-06T23:15:36.797Z'
+    LastModifiedDate: '2025-12-01T22:15:47.79Z'
   - VulnerabilityID: CVE-2025-32990
     PkgID: gnutls@3.8.8-r0
     PkgName: gnutls
@@ -15350,6 +15351,7 @@
     - https://access.redhat.com/errata/RHSA-2025:17361
     - https://access.redhat.com/errata/RHSA-2025:17415
     - https://access.redhat.com/errata/RHSA-2025:19088
+    - https://access.redhat.com/errata/RHSA-2025:22529
     - https://access.redhat.com/security/cve/CVE-2025-32990
     - https://bugzilla.redhat.com/2359620
     - https://bugzilla.redhat.com/2359621
@@ -15372,7 +15374,7 @@
     - https://ubuntu.com/security/notices/USN-7742-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32990
     PublishedDate: '2025-07-10T10:15:33.06Z'
-    LastModifiedDate: '2025-11-06T23:15:37.137Z'
+    LastModifiedDate: '2025-12-01T22:15:48.2Z'
   - VulnerabilityID: CVE-2025-32989
     PkgID: gnutls@3.8.8-r0
     PkgName: gnutls
@@ -15417,6 +15419,7 @@
     - https://access.redhat.com/errata/RHSA-2025:17348
     - https://access.redhat.com/errata/RHSA-2025:17361
     - https://access.redhat.com/errata/RHSA-2025:19088
+    - https://access.redhat.com/errata/RHSA-2025:22529
     - https://access.redhat.com/security/cve/CVE-2025-32989
     - https://bugzilla.redhat.com/2359620
     - https://bugzilla.redhat.com/2359621
@@ -15439,7 +15442,7 @@
     - https://ubuntu.com/security/notices/USN-7635-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32989
     PublishedDate: '2025-07-10T08:15:24.43Z'
-    LastModifiedDate: '2025-11-06T23:15:36.993Z'
+    LastModifiedDate: '2025-12-01T22:15:48.027Z'
   - VulnerabilityID: CVE-2025-6395
     PkgID: gnutls@3.8.8-r0
     PkgName: gnutls
@@ -15485,6 +15488,7 @@
     - https://access.redhat.com/errata/RHSA-2025:17361
     - https://access.redhat.com/errata/RHSA-2025:17415
     - https://access.redhat.com/errata/RHSA-2025:19088
+    - https://access.redhat.com/errata/RHSA-2025:22529
     - https://access.redhat.com/security/cve/CVE-2025-6395
     - https://bugzilla.redhat.com/2359620
     - https://bugzilla.redhat.com/2359621
@@ -15507,7 +15511,7 @@
     - https://ubuntu.com/security/notices/USN-7742-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6395
     PublishedDate: '2025-07-10T16:15:25.11Z'
-    LastModifiedDate: '2025-11-07T00:15:55.29Z'
+    LastModifiedDate: '2025-12-01T22:15:51.513Z'
   - VulnerabilityID: CVE-2025-9820
     PkgID: gnutls@3.8.8-r0
     PkgName: gnutls
