@@ -29619,614 +29619,690 @@
 │                       │                      758d23b 
 │                       ╰ FilePath  : usr/local/lib/python3.13/dist-packages/xdg_base_dirs-6.0.2.dist-info/META
 │                                     DATA 
-╰ [3] ╭ Target  : usr/bin/lazydocker 
-      ├ Class   : lang-pkgs 
-      ├ Type    : gobinary 
-      ╰ Packages ╭ [0]  ╭ ID          : github.com/jesseduffield/lazydocker@v0.24.2 
-                 │      ├ Name        : github.com/jesseduffield/lazydocker 
-                 │      ├ Identifier   ╭ PURL: pkg:golang/github.com/jesseduffield/lazydocker@v0.24.2 
-                 │      │              ╰ UID : b170ce36b1e8e53a 
-                 │      ├ Version     : v0.24.2 
-                 │      ├ Relationship: root 
-                 │      ├ DependsOn    ╭ [0] : github.com/OpenPeeDeeP/xdg@v0.2.1-0.20190312153938-4ba9e1eb294c 
-                 │      │              ├ [1] : github.com/boz/go-throttle@v0.0.0-20160922054636-fdc4eab740c1 
-                 │      │              ├ [2] : github.com/cloudfoundry/jibber_jabber@v0.0.0-20151120183258-bcc4
-                 │      │              │       c8345a21 
-                 │      │              ├ [3] : github.com/containerd/errdefs/pkg@v0.3.0 
-                 │      │              ├ [4] : github.com/containerd/errdefs@v1.0.0 
-                 │      │              ├ [5] : github.com/containerd/log@v0.1.0 
-                 │      │              ├ [6] : github.com/distribution/reference@v0.6.0 
-                 │      │              ├ [7] : github.com/docker/cli@v27.1.1+incompatible 
-                 │      │              ├ [8] : github.com/docker/docker-credential-helpers@v0.8.2 
-                 │      │              ├ [9] : github.com/docker/docker@v28.5.2+incompatible 
-                 │      │              ├ [10]: github.com/docker/go-connections@v0.5.0 
-                 │      │              ├ [11]: github.com/docker/go-units@v0.5.0 
-                 │      │              ├ [12]: github.com/fatih/color@v1.10.0 
-                 │      │              ├ [13]: github.com/felixge/httpsnoop@v1.0.4 
-                 │      │              ├ [14]: github.com/fvbommel/sortorder@v1.1.0 
-                 │      │              ├ [15]: github.com/gdamore/encoding@v1.0.1 
-                 │      │              ├ [16]: github.com/gdamore/tcell/v2@v2.7.4 
-                 │      │              ├ [17]: github.com/go-errors/errors@v1.5.1 
-                 │      │              ├ [18]: github.com/go-logr/logr@v1.4.2 
-                 │      │              ├ [19]: github.com/go-logr/stdr@v1.2.2 
-                 │      │              ├ [20]: github.com/goccy/go-yaml@v1.11.0 
-                 │      │              ├ [21]: github.com/gookit/color@v1.5.0 
-                 │      │              ├ [22]: github.com/imdario/mergo@v0.3.16 
-                 │      │              ├ [23]: github.com/integrii/flaggy@v1.4.0 
-                 │      │              ├ [24]: github.com/jesseduffield/asciigraph@v0.0.0-20190605104717-6d88e3
-                 │      │              │       9309ee 
-                 │      │              ├ [25]: github.com/jesseduffield/gocui@v0.3.1-0.20240418080333-8cd33929c
-                 │      │              │       513 
-                 │      │              ├ [26]: github.com/jesseduffield/kill@v0.0.0-20220618033138-bfbe04675d10 
-                 │      │              ├ [27]: github.com/jesseduffield/lazycore@v0.0.0-20221023210126-718a4cae
-                 │      │              │       a996 
-                 │      │              ├ [28]: github.com/jesseduffield/yaml@v0.0.0-20190702115811-b900b7e08b56 
-                 │      │              ├ [29]: github.com/lucasb-eyer/go-colorful@v1.2.0 
-                 │      │              ├ [30]: github.com/mattn/go-colorable@v0.1.8 
-                 │      │              ├ [31]: github.com/mattn/go-isatty@v0.0.12 
-                 │      │              ├ [32]: github.com/mattn/go-runewidth@v0.0.15 
-                 │      │              ├ [33]: github.com/mcuadros/go-lookup@v0.0.0-20171110082742-5650f26be767 
-                 │      │              ├ [34]: github.com/mgutz/str@v1.2.0 
-                 │      │              ├ [35]: github.com/moby/docker-image-spec@v1.3.1 
-                 │      │              ├ [36]: github.com/moby/sys/atomicwriter@v0.1.0 
-                 │      │              ├ [37]: github.com/moby/sys/sequential@v0.6.0 
-                 │      │              ├ [38]: github.com/opencontainers/go-digest@v1.0.0 
-                 │      │              ├ [39]: github.com/opencontainers/image-spec@v1.1.0 
-                 │      │              ├ [40]: github.com/petermattis/goid@v0.0.0-20180202154549-b0b1615b78e5 
-                 │      │              ├ [41]: github.com/pkg/errors@v0.9.1 
-                 │      │              ├ [42]: github.com/rivo/uniseg@v0.4.7 
-                 │      │              ├ [43]: github.com/samber/lo@v1.31.0 
-                 │      │              ├ [44]: github.com/sasha-s/go-deadlock@v0.3.1 
-                 │      │              ├ [45]: github.com/sirupsen/logrus@v1.9.3 
-                 │      │              ├ [46]: github.com/spkg/bom@v0.0.0-20160624110644-59b7046e48ad 
-                 │      │              ├ [47]: github.com/xo/terminfo@v0.0.0-20210125001918-ca9a967f8778 
-                 │      │              ├ [48]: go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0
-                 │      │              │       .53.0 
-                 │      │              ├ [49]: go.opentelemetry.io/otel/metric@v1.28.0 
-                 │      │              ├ [50]: go.opentelemetry.io/otel/trace@v1.28.0 
-                 │      │              ├ [51]: go.opentelemetry.io/otel@v1.28.0 
-                 │      │              ├ [52]: golang.org/x/exp@v0.0.0-20231006140011-7918f672742d 
-                 │      │              ├ [53]: golang.org/x/sys@v0.24.0 
-                 │      │              ├ [54]: golang.org/x/term@v0.21.0 
-                 │      │              ├ [55]: golang.org/x/text@v0.16.0 
-                 │      │              ├ [56]: golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1 
-                 │      │              ╰ [57]: stdlib@v1.25.4 
-                 │      ╰ Layer        ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3cc
-                 │                     │         b23c66ada 
-                 │                     ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186d
-                 │                               fe758d23b 
-                 ├ [1]  ╭ ID          : stdlib@v1.25.4 
-                 │      ├ Name        : stdlib 
-                 │      ├ Identifier   ╭ PURL: pkg:golang/stdlib@v1.25.4 
-                 │      │              ╰ UID : 622d9eff7ffb443a 
-                 │      ├ Version     : v1.25.4 
-                 │      ├ Relationship: direct 
-                 │      ╰ Layer        ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3cc
-                 │                     │         b23c66ada 
-                 │                     ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186d
-                 │                               fe758d23b 
-                 ├ [2]  ╭ ID        : github.com/OpenPeeDeeP/xdg@v0.2.1-0.20190312153938-4ba9e1eb294c 
-                 │      ├ Name      : github.com/OpenPeeDeeP/xdg 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/openpeedeep/xdg@v0.2.1-0.20190312153938-4ba9
-                 │      │            │       e1eb294c 
-                 │      │            ╰ UID : 649108258ee5f748 
-                 │      ├ Version   : v0.2.1-0.20190312153938-4ba9e1eb294c 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [3]  ╭ ID        : github.com/boz/go-throttle@v0.0.0-20160922054636-fdc4eab740c1 
-                 │      ├ Name      : github.com/boz/go-throttle 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/boz/go-throttle@v0.0.0-20160922054636-fdc4ea
-                 │      │            │       b740c1 
-                 │      │            ╰ UID : 902921d1b14079e6 
-                 │      ├ Version   : v0.0.0-20160922054636-fdc4eab740c1 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [4]  ╭ ID        : github.com/cloudfoundry/jibber_jabber@v0.0.0-20151120183258-bcc4c8345a21 
-                 │      ├ Name      : github.com/cloudfoundry/jibber_jabber 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/cloudfoundry/jibber_jabber@v0.0.0-2015112018
-                 │      │            │       3258-bcc4c8345a21 
-                 │      │            ╰ UID : 422492d369c21eeb 
-                 │      ├ Version   : v0.0.0-20151120183258-bcc4c8345a21 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [5]  ╭ ID        : github.com/containerd/errdefs@v1.0.0 
-                 │      ├ Name      : github.com/containerd/errdefs 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/errdefs@v1.0.0 
-                 │      │            ╰ UID : 301ec9a7209e1b7c 
-                 │      ├ Version   : v1.0.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [6]  ╭ ID        : github.com/containerd/errdefs/pkg@v0.3.0 
-                 │      ├ Name      : github.com/containerd/errdefs/pkg 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/errdefs/pkg@v0.3.0 
-                 │      │            ╰ UID : b17d9ca0d2d6d87e 
-                 │      ├ Version   : v0.3.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [7]  ╭ ID        : github.com/containerd/log@v0.1.0 
-                 │      ├ Name      : github.com/containerd/log 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/log@v0.1.0 
-                 │      │            ╰ UID : a09a4b8973418bbf 
-                 │      ├ Version   : v0.1.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [8]  ╭ ID        : github.com/distribution/reference@v0.6.0 
-                 │      ├ Name      : github.com/distribution/reference 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/distribution/reference@v0.6.0 
-                 │      │            ╰ UID : a395222d9c9bbfd2 
-                 │      ├ Version   : v0.6.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [9]  ╭ ID        : github.com/docker/cli@v27.1.1+incompatible 
-                 │      ├ Name      : github.com/docker/cli 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/docker/cli@v27.1.1%2Bincompatible 
-                 │      │            ╰ UID : 3eb111e821dec513 
-                 │      ├ Version   : v27.1.1+incompatible 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [10] ╭ ID        : github.com/docker/docker@v28.5.2+incompatible 
-                 │      ├ Name      : github.com/docker/docker 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/docker/docker@v28.5.2%2Bincompatible 
-                 │      │            ╰ UID : d8318549edb39fc0 
-                 │      ├ Version   : v28.5.2+incompatible 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [11] ╭ ID        : github.com/docker/docker-credential-helpers@v0.8.2 
-                 │      ├ Name      : github.com/docker/docker-credential-helpers 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/docker/docker-credential-helpers@v0.8.2 
-                 │      │            ╰ UID : c42329e219db3097 
-                 │      ├ Version   : v0.8.2 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [12] ╭ ID        : github.com/docker/go-connections@v0.5.0 
-                 │      ├ Name      : github.com/docker/go-connections 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/docker/go-connections@v0.5.0 
-                 │      │            ╰ UID : 5fbc23cf56ead39d 
-                 │      ├ Version   : v0.5.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [13] ╭ ID        : github.com/docker/go-units@v0.5.0 
-                 │      ├ Name      : github.com/docker/go-units 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/docker/go-units@v0.5.0 
-                 │      │            ╰ UID : 2582418d1b0adb22 
-                 │      ├ Version   : v0.5.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [14] ╭ ID        : github.com/fatih/color@v1.10.0 
-                 │      ├ Name      : github.com/fatih/color 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/fatih/color@v1.10.0 
-                 │      │            ╰ UID : eef8cba48da16988 
-                 │      ├ Version   : v1.10.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [15] ╭ ID        : github.com/felixge/httpsnoop@v1.0.4 
-                 │      ├ Name      : github.com/felixge/httpsnoop 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/felixge/httpsnoop@v1.0.4 
-                 │      │            ╰ UID : ca3ac55b823bd7e3 
-                 │      ├ Version   : v1.0.4 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [16] ╭ ID        : github.com/fvbommel/sortorder@v1.1.0 
-                 │      ├ Name      : github.com/fvbommel/sortorder 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/fvbommel/sortorder@v1.1.0 
-                 │      │            ╰ UID : f0068e9b1309b30b 
-                 │      ├ Version   : v1.1.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [17] ╭ ID        : github.com/gdamore/encoding@v1.0.1 
-                 │      ├ Name      : github.com/gdamore/encoding 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/gdamore/encoding@v1.0.1 
-                 │      │            ╰ UID : 971712ca0b0ad714 
-                 │      ├ Version   : v1.0.1 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [18] ╭ ID        : github.com/gdamore/tcell/v2@v2.7.4 
-                 │      ├ Name      : github.com/gdamore/tcell/v2 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/gdamore/tcell/v2@v2.7.4 
-                 │      │            ╰ UID : a37719ebccbb791f 
-                 │      ├ Version   : v2.7.4 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [19] ╭ ID        : github.com/go-errors/errors@v1.5.1 
-                 │      ├ Name      : github.com/go-errors/errors 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/go-errors/errors@v1.5.1 
-                 │      │            ╰ UID : ebb4200380876b94 
-                 │      ├ Version   : v1.5.1 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [20] ╭ ID        : github.com/go-logr/logr@v1.4.2 
-                 │      ├ Name      : github.com/go-logr/logr 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/go-logr/logr@v1.4.2 
-                 │      │            ╰ UID : b5206d85d9d7bfda 
-                 │      ├ Version   : v1.4.2 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [21] ╭ ID        : github.com/go-logr/stdr@v1.2.2 
-                 │      ├ Name      : github.com/go-logr/stdr 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/go-logr/stdr@v1.2.2 
-                 │      │            ╰ UID : 85b80317c5289e6c 
-                 │      ├ Version   : v1.2.2 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [22] ╭ ID        : github.com/goccy/go-yaml@v1.11.0 
-                 │      ├ Name      : github.com/goccy/go-yaml 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/goccy/go-yaml@v1.11.0 
-                 │      │            ╰ UID : 488e921099273114 
-                 │      ├ Version   : v1.11.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [23] ╭ ID        : github.com/gookit/color@v1.5.0 
-                 │      ├ Name      : github.com/gookit/color 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/gookit/color@v1.5.0 
-                 │      │            ╰ UID : 2788d513cf782c3c 
-                 │      ├ Version   : v1.5.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [24] ╭ ID        : github.com/imdario/mergo@v0.3.16 
-                 │      ├ Name      : github.com/imdario/mergo 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/imdario/mergo@v0.3.16 
-                 │      │            ╰ UID : e7a98e6e334c994a 
-                 │      ├ Version   : v0.3.16 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [25] ╭ ID        : github.com/integrii/flaggy@v1.4.0 
-                 │      ├ Name      : github.com/integrii/flaggy 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/integrii/flaggy@v1.4.0 
-                 │      │            ╰ UID : 3407771f9e917038 
-                 │      ├ Version   : v1.4.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [26] ╭ ID        : github.com/jesseduffield/asciigraph@v0.0.0-20190605104717-6d88e39309ee 
-                 │      ├ Name      : github.com/jesseduffield/asciigraph 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/jesseduffield/asciigraph@v0.0.0-201906051047
-                 │      │            │       17-6d88e39309ee 
-                 │      │            ╰ UID : bce1b88a5c2cb75 
-                 │      ├ Version   : v0.0.0-20190605104717-6d88e39309ee 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [27] ╭ ID        : github.com/jesseduffield/gocui@v0.3.1-0.20240418080333-8cd33929c513 
-                 │      ├ Name      : github.com/jesseduffield/gocui 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/jesseduffield/gocui@v0.3.1-0.20240418080333-
-                 │      │            │       8cd33929c513 
-                 │      │            ╰ UID : 43e392b9b9761873 
-                 │      ├ Version   : v0.3.1-0.20240418080333-8cd33929c513 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [28] ╭ ID        : github.com/jesseduffield/kill@v0.0.0-20220618033138-bfbe04675d10 
-                 │      ├ Name      : github.com/jesseduffield/kill 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/jesseduffield/kill@v0.0.0-20220618033138-bfb
-                 │      │            │       e04675d10 
-                 │      │            ╰ UID : 651835bace8887de 
-                 │      ├ Version   : v0.0.0-20220618033138-bfbe04675d10 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [29] ╭ ID        : github.com/jesseduffield/lazycore@v0.0.0-20221023210126-718a4caea996 
-                 │      ├ Name      : github.com/jesseduffield/lazycore 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/jesseduffield/lazycore@v0.0.0-20221023210126
-                 │      │            │       -718a4caea996 
-                 │      │            ╰ UID : a8a6188652c08170 
-                 │      ├ Version   : v0.0.0-20221023210126-718a4caea996 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [30] ╭ ID        : github.com/jesseduffield/yaml@v0.0.0-20190702115811-b900b7e08b56 
-                 │      ├ Name      : github.com/jesseduffield/yaml 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/jesseduffield/yaml@v0.0.0-20190702115811-b90
-                 │      │            │       0b7e08b56 
-                 │      │            ╰ UID : eab769afabece8b4 
-                 │      ├ Version   : v0.0.0-20190702115811-b900b7e08b56 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [31] ╭ ID        : github.com/lucasb-eyer/go-colorful@v1.2.0 
-                 │      ├ Name      : github.com/lucasb-eyer/go-colorful 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/lucasb-eyer/go-colorful@v1.2.0 
-                 │      │            ╰ UID : 75114b95f8778daf 
-                 │      ├ Version   : v1.2.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [32] ╭ ID        : github.com/mattn/go-colorable@v0.1.8 
-                 │      ├ Name      : github.com/mattn/go-colorable 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/mattn/go-colorable@v0.1.8 
-                 │      │            ╰ UID : 2d9fc1228262b85e 
-                 │      ├ Version   : v0.1.8 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [33] ╭ ID        : github.com/mattn/go-isatty@v0.0.12 
-                 │      ├ Name      : github.com/mattn/go-isatty 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/mattn/go-isatty@v0.0.12 
-                 │      │            ╰ UID : 257b4abe044fbe17 
-                 │      ├ Version   : v0.0.12 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [34] ╭ ID        : github.com/mattn/go-runewidth@v0.0.15 
-                 │      ├ Name      : github.com/mattn/go-runewidth 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/mattn/go-runewidth@v0.0.15 
-                 │      │            ╰ UID : 9abd1cb17acf73a 
-                 │      ├ Version   : v0.0.15 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [35] ╭ ID        : github.com/mcuadros/go-lookup@v0.0.0-20171110082742-5650f26be767 
-                 │      ├ Name      : github.com/mcuadros/go-lookup 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/mcuadros/go-lookup@v0.0.0-20171110082742-565
-                 │      │            │       0f26be767 
-                 │      │            ╰ UID : a1ccc45ccbfd997b 
-                 │      ├ Version   : v0.0.0-20171110082742-5650f26be767 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [36] ╭ ID        : github.com/mgutz/str@v1.2.0 
-                 │      ├ Name      : github.com/mgutz/str 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/mgutz/str@v1.2.0 
-                 │      │            ╰ UID : 7f957538d4dea432 
-                 │      ├ Version   : v1.2.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [37] ╭ ID        : github.com/moby/docker-image-spec@v1.3.1 
-                 │      ├ Name      : github.com/moby/docker-image-spec 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/moby/docker-image-spec@v1.3.1 
-                 │      │            ╰ UID : adaa656b806161f4 
-                 │      ├ Version   : v1.3.1 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [38] ╭ ID        : github.com/moby/sys/atomicwriter@v0.1.0 
-                 │      ├ Name      : github.com/moby/sys/atomicwriter 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/moby/sys/atomicwriter@v0.1.0 
-                 │      │            ╰ UID : 5a55815868afa9b7 
-                 │      ├ Version   : v0.1.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [39] ╭ ID        : github.com/moby/sys/sequential@v0.6.0 
-                 │      ├ Name      : github.com/moby/sys/sequential 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/moby/sys/sequential@v0.6.0 
-                 │      │            ╰ UID : 98b06164684ec3f7 
-                 │      ├ Version   : v0.6.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [40] ╭ ID        : github.com/opencontainers/go-digest@v1.0.0 
-                 │      ├ Name      : github.com/opencontainers/go-digest 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/opencontainers/go-digest@v1.0.0 
-                 │      │            ╰ UID : e5c68fca6282a4e6 
-                 │      ├ Version   : v1.0.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [41] ╭ ID        : github.com/opencontainers/image-spec@v1.1.0 
-                 │      ├ Name      : github.com/opencontainers/image-spec 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/opencontainers/image-spec@v1.1.0 
-                 │      │            ╰ UID : d677d132b9417ed6 
-                 │      ├ Version   : v1.1.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [42] ╭ ID        : github.com/petermattis/goid@v0.0.0-20180202154549-b0b1615b78e5 
-                 │      ├ Name      : github.com/petermattis/goid 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/petermattis/goid@v0.0.0-20180202154549-b0b16
-                 │      │            │       15b78e5 
-                 │      │            ╰ UID : 5355a8d421986ee5 
-                 │      ├ Version   : v0.0.0-20180202154549-b0b1615b78e5 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [43] ╭ ID        : github.com/pkg/errors@v0.9.1 
-                 │      ├ Name      : github.com/pkg/errors 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/pkg/errors@v0.9.1 
-                 │      │            ╰ UID : 5d105a5a50cc2f46 
-                 │      ├ Version   : v0.9.1 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [44] ╭ ID        : github.com/rivo/uniseg@v0.4.7 
-                 │      ├ Name      : github.com/rivo/uniseg 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/rivo/uniseg@v0.4.7 
-                 │      │            ╰ UID : c948d3469c66320 
-                 │      ├ Version   : v0.4.7 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [45] ╭ ID        : github.com/samber/lo@v1.31.0 
-                 │      ├ Name      : github.com/samber/lo 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/samber/lo@v1.31.0 
-                 │      │            ╰ UID : f830b9f94301e84 
-                 │      ├ Version   : v1.31.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [46] ╭ ID        : github.com/sasha-s/go-deadlock@v0.3.1 
-                 │      ├ Name      : github.com/sasha-s/go-deadlock 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/sasha-s/go-deadlock@v0.3.1 
-                 │      │            ╰ UID : 5e5edf8710da2b1e 
-                 │      ├ Version   : v0.3.1 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [47] ╭ ID        : github.com/sirupsen/logrus@v1.9.3 
-                 │      ├ Name      : github.com/sirupsen/logrus 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/sirupsen/logrus@v1.9.3 
-                 │      │            ╰ UID : fa16a467e528fc58 
-                 │      ├ Version   : v1.9.3 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [48] ╭ ID        : github.com/spkg/bom@v0.0.0-20160624110644-59b7046e48ad 
-                 │      ├ Name      : github.com/spkg/bom 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/spkg/bom@v0.0.0-20160624110644-59b7046e48ad 
-                 │      │            ╰ UID : a7e26b98b1e9eec1 
-                 │      ├ Version   : v0.0.0-20160624110644-59b7046e48ad 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [49] ╭ ID        : github.com/xo/terminfo@v0.0.0-20210125001918-ca9a967f8778 
-                 │      ├ Name      : github.com/xo/terminfo 
-                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/xo/terminfo@v0.0.0-20210125001918-ca9a967f8778 
-                 │      │            ╰ UID : 1e8a517c32f1c38d 
-                 │      ├ Version   : v0.0.0-20210125001918-ca9a967f8778 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [50] ╭ ID        : go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.53.0 
-                 │      ├ Name      : go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp 
-                 │      ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/ot
-                 │      │            │       elhttp@v0.53.0 
-                 │      │            ╰ UID : 24b9983622c2a6c 
-                 │      ├ Version   : v0.53.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [51] ╭ ID        : go.opentelemetry.io/otel@v1.28.0 
-                 │      ├ Name      : go.opentelemetry.io/otel 
-                 │      ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel@v1.28.0 
-                 │      │            ╰ UID : 3ef292e2e9c3c20a 
-                 │      ├ Version   : v1.28.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [52] ╭ ID        : go.opentelemetry.io/otel/metric@v1.28.0 
-                 │      ├ Name      : go.opentelemetry.io/otel/metric 
-                 │      ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/metric@v1.28.0 
-                 │      │            ╰ UID : 409dad78bc689a35 
-                 │      ├ Version   : v1.28.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [53] ╭ ID        : go.opentelemetry.io/otel/trace@v1.28.0 
-                 │      ├ Name      : go.opentelemetry.io/otel/trace 
-                 │      ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/trace@v1.28.0 
-                 │      │            ╰ UID : d5a576d041a8cb3a 
-                 │      ├ Version   : v1.28.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [54] ╭ ID        : golang.org/x/exp@v0.0.0-20231006140011-7918f672742d 
-                 │      ├ Name      : golang.org/x/exp 
-                 │      ├ Identifier ╭ PURL: pkg:golang/golang.org/x/exp@v0.0.0-20231006140011-7918f672742d 
-                 │      │            ╰ UID : 565e778fd5d4f3de 
-                 │      ├ Version   : v0.0.0-20231006140011-7918f672742d 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [55] ╭ ID        : golang.org/x/sys@v0.24.0 
-                 │      ├ Name      : golang.org/x/sys 
-                 │      ├ Identifier ╭ PURL: pkg:golang/golang.org/x/sys@v0.24.0 
-                 │      │            ╰ UID : b072c3f4e7f185b5 
-                 │      ├ Version   : v0.24.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [56] ╭ ID        : golang.org/x/term@v0.21.0 
-                 │      ├ Name      : golang.org/x/term 
-                 │      ├ Identifier ╭ PURL: pkg:golang/golang.org/x/term@v0.21.0 
-                 │      │            ╰ UID : 35c8c39169bb9 
-                 │      ├ Version   : v0.21.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ├ [57] ╭ ID        : golang.org/x/text@v0.16.0 
-                 │      ├ Name      : golang.org/x/text 
-                 │      ├ Identifier ╭ PURL: pkg:golang/golang.org/x/text@v0.16.0 
-                 │      │            ╰ UID : d4ddd4636d9c5e51 
-                 │      ├ Version   : v0.16.0 
-                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                 │                   │         3c66ada 
-                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                 │                             758d23b 
-                 ╰ [58] ╭ ID        : golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1 
-                        ├ Name      : golang.org/x/xerrors 
-                        ├ Identifier ╭ PURL: pkg:golang/golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1 
-                        │            ╰ UID : 321af84dec29e6bb 
-                        ├ Version   : v0.0.0-20200804184101-5ec99f83aff1 
-                        ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae83c3ccb2
-                                     │         3c66ada 
-                                     ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ede186dfe
-                                               758d23b 
+╰ [3] ╭ Target         : usr/bin/lazydocker 
+      ├ Class          : lang-pkgs 
+      ├ Type           : gobinary 
+      ├ Packages        ╭ [0]  ╭ ID          : github.com/jesseduffield/lazydocker@v0.24.2 
+      │                 │      ├ Name        : github.com/jesseduffield/lazydocker 
+      │                 │      ├ Identifier   ╭ PURL: pkg:golang/github.com/jesseduffield/lazydocker@v0.24.2 
+      │                 │      │              ╰ UID : b170ce36b1e8e53a 
+      │                 │      ├ Version     : v0.24.2 
+      │                 │      ├ Relationship: root 
+      │                 │      ├ DependsOn    ╭ [0] : github.com/OpenPeeDeeP/xdg@v0.2.1-0.20190312153938-4ba9e1
+      │                 │      │              │       eb294c 
+      │                 │      │              ├ [1] : github.com/boz/go-throttle@v0.0.0-20160922054636-fdc4eab7
+      │                 │      │              │       40c1 
+      │                 │      │              ├ [2] : github.com/cloudfoundry/jibber_jabber@v0.0.0-201511201832
+      │                 │      │              │       58-bcc4c8345a21 
+      │                 │      │              ├ [3] : github.com/containerd/errdefs/pkg@v0.3.0 
+      │                 │      │              ├ [4] : github.com/containerd/errdefs@v1.0.0 
+      │                 │      │              ├ [5] : github.com/containerd/log@v0.1.0 
+      │                 │      │              ├ [6] : github.com/distribution/reference@v0.6.0 
+      │                 │      │              ├ [7] : github.com/docker/cli@v27.1.1+incompatible 
+      │                 │      │              ├ [8] : github.com/docker/docker-credential-helpers@v0.8.2 
+      │                 │      │              ├ [9] : github.com/docker/docker@v28.5.2+incompatible 
+      │                 │      │              ├ [10]: github.com/docker/go-connections@v0.5.0 
+      │                 │      │              ├ [11]: github.com/docker/go-units@v0.5.0 
+      │                 │      │              ├ [12]: github.com/fatih/color@v1.10.0 
+      │                 │      │              ├ [13]: github.com/felixge/httpsnoop@v1.0.4 
+      │                 │      │              ├ [14]: github.com/fvbommel/sortorder@v1.1.0 
+      │                 │      │              ├ [15]: github.com/gdamore/encoding@v1.0.1 
+      │                 │      │              ├ [16]: github.com/gdamore/tcell/v2@v2.7.4 
+      │                 │      │              ├ [17]: github.com/go-errors/errors@v1.5.1 
+      │                 │      │              ├ [18]: github.com/go-logr/logr@v1.4.2 
+      │                 │      │              ├ [19]: github.com/go-logr/stdr@v1.2.2 
+      │                 │      │              ├ [20]: github.com/goccy/go-yaml@v1.11.0 
+      │                 │      │              ├ [21]: github.com/gookit/color@v1.5.0 
+      │                 │      │              ├ [22]: github.com/imdario/mergo@v0.3.16 
+      │                 │      │              ├ [23]: github.com/integrii/flaggy@v1.4.0 
+      │                 │      │              ├ [24]: github.com/jesseduffield/asciigraph@v0.0.0-20190605104717
+      │                 │      │              │       -6d88e39309ee 
+      │                 │      │              ├ [25]: github.com/jesseduffield/gocui@v0.3.1-0.20240418080333-8c
+      │                 │      │              │       d33929c513 
+      │                 │      │              ├ [26]: github.com/jesseduffield/kill@v0.0.0-20220618033138-bfbe0
+      │                 │      │              │       4675d10 
+      │                 │      │              ├ [27]: github.com/jesseduffield/lazycore@v0.0.0-20221023210126-7
+      │                 │      │              │       18a4caea996 
+      │                 │      │              ├ [28]: github.com/jesseduffield/yaml@v0.0.0-20190702115811-b900b
+      │                 │      │              │       7e08b56 
+      │                 │      │              ├ [29]: github.com/lucasb-eyer/go-colorful@v1.2.0 
+      │                 │      │              ├ [30]: github.com/mattn/go-colorable@v0.1.8 
+      │                 │      │              ├ [31]: github.com/mattn/go-isatty@v0.0.12 
+      │                 │      │              ├ [32]: github.com/mattn/go-runewidth@v0.0.15 
+      │                 │      │              ├ [33]: github.com/mcuadros/go-lookup@v0.0.0-20171110082742-5650f
+      │                 │      │              │       26be767 
+      │                 │      │              ├ [34]: github.com/mgutz/str@v1.2.0 
+      │                 │      │              ├ [35]: github.com/moby/docker-image-spec@v1.3.1 
+      │                 │      │              ├ [36]: github.com/moby/sys/atomicwriter@v0.1.0 
+      │                 │      │              ├ [37]: github.com/moby/sys/sequential@v0.6.0 
+      │                 │      │              ├ [38]: github.com/opencontainers/go-digest@v1.0.0 
+      │                 │      │              ├ [39]: github.com/opencontainers/image-spec@v1.1.0 
+      │                 │      │              ├ [40]: github.com/petermattis/goid@v0.0.0-20180202154549-b0b1615
+      │                 │      │              │       b78e5 
+      │                 │      │              ├ [41]: github.com/pkg/errors@v0.9.1 
+      │                 │      │              ├ [42]: github.com/rivo/uniseg@v0.4.7 
+      │                 │      │              ├ [43]: github.com/samber/lo@v1.31.0 
+      │                 │      │              ├ [44]: github.com/sasha-s/go-deadlock@v0.3.1 
+      │                 │      │              ├ [45]: github.com/sirupsen/logrus@v1.9.3 
+      │                 │      │              ├ [46]: github.com/spkg/bom@v0.0.0-20160624110644-59b7046e48ad 
+      │                 │      │              ├ [47]: github.com/xo/terminfo@v0.0.0-20210125001918-ca9a967f8778 
+      │                 │      │              ├ [48]: go.opentelemetry.io/contrib/instrumentation/net/http/otel
+      │                 │      │              │       http@v0.53.0 
+      │                 │      │              ├ [49]: go.opentelemetry.io/otel/metric@v1.28.0 
+      │                 │      │              ├ [50]: go.opentelemetry.io/otel/trace@v1.28.0 
+      │                 │      │              ├ [51]: go.opentelemetry.io/otel@v1.28.0 
+      │                 │      │              ├ [52]: golang.org/x/exp@v0.0.0-20231006140011-7918f672742d 
+      │                 │      │              ├ [53]: golang.org/x/sys@v0.24.0 
+      │                 │      │              ├ [54]: golang.org/x/term@v0.21.0 
+      │                 │      │              ├ [55]: golang.org/x/text@v0.16.0 
+      │                 │      │              ├ [56]: golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1 
+      │                 │      │              ╰ [57]: stdlib@v1.25.4 
+      │                 │      ╰ Layer        ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fa
+      │                 │                     │         e83c3ccb23c66ada 
+      │                 │                     ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295
+      │                 │                               ede186dfe758d23b 
+      │                 ├ [1]  ╭ ID          : stdlib@v1.25.4 
+      │                 │      ├ Name        : stdlib 
+      │                 │      ├ Identifier   ╭ PURL: pkg:golang/stdlib@v1.25.4 
+      │                 │      │              ╰ UID : 622d9eff7ffb443a 
+      │                 │      ├ Version     : v1.25.4 
+      │                 │      ├ Relationship: direct 
+      │                 │      ╰ Layer        ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fa
+      │                 │                     │         e83c3ccb23c66ada 
+      │                 │                     ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295
+      │                 │                               ede186dfe758d23b 
+      │                 ├ [2]  ╭ ID        : github.com/OpenPeeDeeP/xdg@v0.2.1-0.20190312153938-4ba9e1eb294c 
+      │                 │      ├ Name      : github.com/OpenPeeDeeP/xdg 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/openpeedeep/xdg@v0.2.1-0.201903121539
+      │                 │      │            │       38-4ba9e1eb294c 
+      │                 │      │            ╰ UID : 649108258ee5f748 
+      │                 │      ├ Version   : v0.2.1-0.20190312153938-4ba9e1eb294c 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [3]  ╭ ID        : github.com/boz/go-throttle@v0.0.0-20160922054636-fdc4eab740c1 
+      │                 │      ├ Name      : github.com/boz/go-throttle 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/boz/go-throttle@v0.0.0-20160922054636
+      │                 │      │            │       -fdc4eab740c1 
+      │                 │      │            ╰ UID : 902921d1b14079e6 
+      │                 │      ├ Version   : v0.0.0-20160922054636-fdc4eab740c1 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [4]  ╭ ID        : github.com/cloudfoundry/jibber_jabber@v0.0.0-20151120183258-bcc4c8
+      │                 │      │             345a21 
+      │                 │      ├ Name      : github.com/cloudfoundry/jibber_jabber 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/cloudfoundry/jibber_jabber@v0.0.0-201
+      │                 │      │            │       51120183258-bcc4c8345a21 
+      │                 │      │            ╰ UID : 422492d369c21eeb 
+      │                 │      ├ Version   : v0.0.0-20151120183258-bcc4c8345a21 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [5]  ╭ ID        : github.com/containerd/errdefs@v1.0.0 
+      │                 │      ├ Name      : github.com/containerd/errdefs 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/errdefs@v1.0.0 
+      │                 │      │            ╰ UID : 301ec9a7209e1b7c 
+      │                 │      ├ Version   : v1.0.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [6]  ╭ ID        : github.com/containerd/errdefs/pkg@v0.3.0 
+      │                 │      ├ Name      : github.com/containerd/errdefs/pkg 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/errdefs/pkg@v0.3.0 
+      │                 │      │            ╰ UID : b17d9ca0d2d6d87e 
+      │                 │      ├ Version   : v0.3.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [7]  ╭ ID        : github.com/containerd/log@v0.1.0 
+      │                 │      ├ Name      : github.com/containerd/log 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/containerd/log@v0.1.0 
+      │                 │      │            ╰ UID : a09a4b8973418bbf 
+      │                 │      ├ Version   : v0.1.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [8]  ╭ ID        : github.com/distribution/reference@v0.6.0 
+      │                 │      ├ Name      : github.com/distribution/reference 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/distribution/reference@v0.6.0 
+      │                 │      │            ╰ UID : a395222d9c9bbfd2 
+      │                 │      ├ Version   : v0.6.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [9]  ╭ ID        : github.com/docker/cli@v27.1.1+incompatible 
+      │                 │      ├ Name      : github.com/docker/cli 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/docker/cli@v27.1.1%2Bincompatible 
+      │                 │      │            ╰ UID : 3eb111e821dec513 
+      │                 │      ├ Version   : v27.1.1+incompatible 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [10] ╭ ID        : github.com/docker/docker@v28.5.2+incompatible 
+      │                 │      ├ Name      : github.com/docker/docker 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/docker/docker@v28.5.2%2Bincompatible 
+      │                 │      │            ╰ UID : d8318549edb39fc0 
+      │                 │      ├ Version   : v28.5.2+incompatible 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [11] ╭ ID        : github.com/docker/docker-credential-helpers@v0.8.2 
+      │                 │      ├ Name      : github.com/docker/docker-credential-helpers 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/docker/docker-credential-helpers@v0.8.2 
+      │                 │      │            ╰ UID : c42329e219db3097 
+      │                 │      ├ Version   : v0.8.2 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [12] ╭ ID        : github.com/docker/go-connections@v0.5.0 
+      │                 │      ├ Name      : github.com/docker/go-connections 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/docker/go-connections@v0.5.0 
+      │                 │      │            ╰ UID : 5fbc23cf56ead39d 
+      │                 │      ├ Version   : v0.5.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [13] ╭ ID        : github.com/docker/go-units@v0.5.0 
+      │                 │      ├ Name      : github.com/docker/go-units 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/docker/go-units@v0.5.0 
+      │                 │      │            ╰ UID : 2582418d1b0adb22 
+      │                 │      ├ Version   : v0.5.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [14] ╭ ID        : github.com/fatih/color@v1.10.0 
+      │                 │      ├ Name      : github.com/fatih/color 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/fatih/color@v1.10.0 
+      │                 │      │            ╰ UID : eef8cba48da16988 
+      │                 │      ├ Version   : v1.10.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [15] ╭ ID        : github.com/felixge/httpsnoop@v1.0.4 
+      │                 │      ├ Name      : github.com/felixge/httpsnoop 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/felixge/httpsnoop@v1.0.4 
+      │                 │      │            ╰ UID : ca3ac55b823bd7e3 
+      │                 │      ├ Version   : v1.0.4 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [16] ╭ ID        : github.com/fvbommel/sortorder@v1.1.0 
+      │                 │      ├ Name      : github.com/fvbommel/sortorder 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/fvbommel/sortorder@v1.1.0 
+      │                 │      │            ╰ UID : f0068e9b1309b30b 
+      │                 │      ├ Version   : v1.1.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [17] ╭ ID        : github.com/gdamore/encoding@v1.0.1 
+      │                 │      ├ Name      : github.com/gdamore/encoding 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/gdamore/encoding@v1.0.1 
+      │                 │      │            ╰ UID : 971712ca0b0ad714 
+      │                 │      ├ Version   : v1.0.1 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [18] ╭ ID        : github.com/gdamore/tcell/v2@v2.7.4 
+      │                 │      ├ Name      : github.com/gdamore/tcell/v2 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/gdamore/tcell/v2@v2.7.4 
+      │                 │      │            ╰ UID : a37719ebccbb791f 
+      │                 │      ├ Version   : v2.7.4 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [19] ╭ ID        : github.com/go-errors/errors@v1.5.1 
+      │                 │      ├ Name      : github.com/go-errors/errors 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/go-errors/errors@v1.5.1 
+      │                 │      │            ╰ UID : ebb4200380876b94 
+      │                 │      ├ Version   : v1.5.1 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [20] ╭ ID        : github.com/go-logr/logr@v1.4.2 
+      │                 │      ├ Name      : github.com/go-logr/logr 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/go-logr/logr@v1.4.2 
+      │                 │      │            ╰ UID : b5206d85d9d7bfda 
+      │                 │      ├ Version   : v1.4.2 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [21] ╭ ID        : github.com/go-logr/stdr@v1.2.2 
+      │                 │      ├ Name      : github.com/go-logr/stdr 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/go-logr/stdr@v1.2.2 
+      │                 │      │            ╰ UID : 85b80317c5289e6c 
+      │                 │      ├ Version   : v1.2.2 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [22] ╭ ID        : github.com/goccy/go-yaml@v1.11.0 
+      │                 │      ├ Name      : github.com/goccy/go-yaml 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/goccy/go-yaml@v1.11.0 
+      │                 │      │            ╰ UID : 488e921099273114 
+      │                 │      ├ Version   : v1.11.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [23] ╭ ID        : github.com/gookit/color@v1.5.0 
+      │                 │      ├ Name      : github.com/gookit/color 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/gookit/color@v1.5.0 
+      │                 │      │            ╰ UID : 2788d513cf782c3c 
+      │                 │      ├ Version   : v1.5.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [24] ╭ ID        : github.com/imdario/mergo@v0.3.16 
+      │                 │      ├ Name      : github.com/imdario/mergo 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/imdario/mergo@v0.3.16 
+      │                 │      │            ╰ UID : e7a98e6e334c994a 
+      │                 │      ├ Version   : v0.3.16 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [25] ╭ ID        : github.com/integrii/flaggy@v1.4.0 
+      │                 │      ├ Name      : github.com/integrii/flaggy 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/integrii/flaggy@v1.4.0 
+      │                 │      │            ╰ UID : 3407771f9e917038 
+      │                 │      ├ Version   : v1.4.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [26] ╭ ID        : github.com/jesseduffield/asciigraph@v0.0.0-20190605104717-6d88e393
+      │                 │      │             09ee 
+      │                 │      ├ Name      : github.com/jesseduffield/asciigraph 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/jesseduffield/asciigraph@v0.0.0-20190
+      │                 │      │            │       605104717-6d88e39309ee 
+      │                 │      │            ╰ UID : bce1b88a5c2cb75 
+      │                 │      ├ Version   : v0.0.0-20190605104717-6d88e39309ee 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [27] ╭ ID        : github.com/jesseduffield/gocui@v0.3.1-0.20240418080333-8cd33929c513 
+      │                 │      ├ Name      : github.com/jesseduffield/gocui 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/jesseduffield/gocui@v0.3.1-0.20240418
+      │                 │      │            │       080333-8cd33929c513 
+      │                 │      │            ╰ UID : 43e392b9b9761873 
+      │                 │      ├ Version   : v0.3.1-0.20240418080333-8cd33929c513 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [28] ╭ ID        : github.com/jesseduffield/kill@v0.0.0-20220618033138-bfbe04675d10 
+      │                 │      ├ Name      : github.com/jesseduffield/kill 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/jesseduffield/kill@v0.0.0-20220618033
+      │                 │      │            │       138-bfbe04675d10 
+      │                 │      │            ╰ UID : 651835bace8887de 
+      │                 │      ├ Version   : v0.0.0-20220618033138-bfbe04675d10 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [29] ╭ ID        : github.com/jesseduffield/lazycore@v0.0.0-20221023210126-718a4caea996 
+      │                 │      ├ Name      : github.com/jesseduffield/lazycore 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/jesseduffield/lazycore@v0.0.0-2022102
+      │                 │      │            │       3210126-718a4caea996 
+      │                 │      │            ╰ UID : a8a6188652c08170 
+      │                 │      ├ Version   : v0.0.0-20221023210126-718a4caea996 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [30] ╭ ID        : github.com/jesseduffield/yaml@v0.0.0-20190702115811-b900b7e08b56 
+      │                 │      ├ Name      : github.com/jesseduffield/yaml 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/jesseduffield/yaml@v0.0.0-20190702115
+      │                 │      │            │       811-b900b7e08b56 
+      │                 │      │            ╰ UID : eab769afabece8b4 
+      │                 │      ├ Version   : v0.0.0-20190702115811-b900b7e08b56 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [31] ╭ ID        : github.com/lucasb-eyer/go-colorful@v1.2.0 
+      │                 │      ├ Name      : github.com/lucasb-eyer/go-colorful 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/lucasb-eyer/go-colorful@v1.2.0 
+      │                 │      │            ╰ UID : 75114b95f8778daf 
+      │                 │      ├ Version   : v1.2.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [32] ╭ ID        : github.com/mattn/go-colorable@v0.1.8 
+      │                 │      ├ Name      : github.com/mattn/go-colorable 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/mattn/go-colorable@v0.1.8 
+      │                 │      │            ╰ UID : 2d9fc1228262b85e 
+      │                 │      ├ Version   : v0.1.8 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [33] ╭ ID        : github.com/mattn/go-isatty@v0.0.12 
+      │                 │      ├ Name      : github.com/mattn/go-isatty 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/mattn/go-isatty@v0.0.12 
+      │                 │      │            ╰ UID : 257b4abe044fbe17 
+      │                 │      ├ Version   : v0.0.12 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [34] ╭ ID        : github.com/mattn/go-runewidth@v0.0.15 
+      │                 │      ├ Name      : github.com/mattn/go-runewidth 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/mattn/go-runewidth@v0.0.15 
+      │                 │      │            ╰ UID : 9abd1cb17acf73a 
+      │                 │      ├ Version   : v0.0.15 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [35] ╭ ID        : github.com/mcuadros/go-lookup@v0.0.0-20171110082742-5650f26be767 
+      │                 │      ├ Name      : github.com/mcuadros/go-lookup 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/mcuadros/go-lookup@v0.0.0-20171110082
+      │                 │      │            │       742-5650f26be767 
+      │                 │      │            ╰ UID : a1ccc45ccbfd997b 
+      │                 │      ├ Version   : v0.0.0-20171110082742-5650f26be767 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [36] ╭ ID        : github.com/mgutz/str@v1.2.0 
+      │                 │      ├ Name      : github.com/mgutz/str 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/mgutz/str@v1.2.0 
+      │                 │      │            ╰ UID : 7f957538d4dea432 
+      │                 │      ├ Version   : v1.2.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [37] ╭ ID        : github.com/moby/docker-image-spec@v1.3.1 
+      │                 │      ├ Name      : github.com/moby/docker-image-spec 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/moby/docker-image-spec@v1.3.1 
+      │                 │      │            ╰ UID : adaa656b806161f4 
+      │                 │      ├ Version   : v1.3.1 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [38] ╭ ID        : github.com/moby/sys/atomicwriter@v0.1.0 
+      │                 │      ├ Name      : github.com/moby/sys/atomicwriter 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/moby/sys/atomicwriter@v0.1.0 
+      │                 │      │            ╰ UID : 5a55815868afa9b7 
+      │                 │      ├ Version   : v0.1.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [39] ╭ ID        : github.com/moby/sys/sequential@v0.6.0 
+      │                 │      ├ Name      : github.com/moby/sys/sequential 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/moby/sys/sequential@v0.6.0 
+      │                 │      │            ╰ UID : 98b06164684ec3f7 
+      │                 │      ├ Version   : v0.6.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [40] ╭ ID        : github.com/opencontainers/go-digest@v1.0.0 
+      │                 │      ├ Name      : github.com/opencontainers/go-digest 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/opencontainers/go-digest@v1.0.0 
+      │                 │      │            ╰ UID : e5c68fca6282a4e6 
+      │                 │      ├ Version   : v1.0.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [41] ╭ ID        : github.com/opencontainers/image-spec@v1.1.0 
+      │                 │      ├ Name      : github.com/opencontainers/image-spec 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/opencontainers/image-spec@v1.1.0 
+      │                 │      │            ╰ UID : d677d132b9417ed6 
+      │                 │      ├ Version   : v1.1.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [42] ╭ ID        : github.com/petermattis/goid@v0.0.0-20180202154549-b0b1615b78e5 
+      │                 │      ├ Name      : github.com/petermattis/goid 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/petermattis/goid@v0.0.0-2018020215454
+      │                 │      │            │       9-b0b1615b78e5 
+      │                 │      │            ╰ UID : 5355a8d421986ee5 
+      │                 │      ├ Version   : v0.0.0-20180202154549-b0b1615b78e5 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [43] ╭ ID        : github.com/pkg/errors@v0.9.1 
+      │                 │      ├ Name      : github.com/pkg/errors 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/pkg/errors@v0.9.1 
+      │                 │      │            ╰ UID : 5d105a5a50cc2f46 
+      │                 │      ├ Version   : v0.9.1 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [44] ╭ ID        : github.com/rivo/uniseg@v0.4.7 
+      │                 │      ├ Name      : github.com/rivo/uniseg 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/rivo/uniseg@v0.4.7 
+      │                 │      │            ╰ UID : c948d3469c66320 
+      │                 │      ├ Version   : v0.4.7 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [45] ╭ ID        : github.com/samber/lo@v1.31.0 
+      │                 │      ├ Name      : github.com/samber/lo 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/samber/lo@v1.31.0 
+      │                 │      │            ╰ UID : f830b9f94301e84 
+      │                 │      ├ Version   : v1.31.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [46] ╭ ID        : github.com/sasha-s/go-deadlock@v0.3.1 
+      │                 │      ├ Name      : github.com/sasha-s/go-deadlock 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/sasha-s/go-deadlock@v0.3.1 
+      │                 │      │            ╰ UID : 5e5edf8710da2b1e 
+      │                 │      ├ Version   : v0.3.1 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [47] ╭ ID        : github.com/sirupsen/logrus@v1.9.3 
+      │                 │      ├ Name      : github.com/sirupsen/logrus 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/sirupsen/logrus@v1.9.3 
+      │                 │      │            ╰ UID : fa16a467e528fc58 
+      │                 │      ├ Version   : v1.9.3 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [48] ╭ ID        : github.com/spkg/bom@v0.0.0-20160624110644-59b7046e48ad 
+      │                 │      ├ Name      : github.com/spkg/bom 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/spkg/bom@v0.0.0-20160624110644-59b704
+      │                 │      │            │       6e48ad 
+      │                 │      │            ╰ UID : a7e26b98b1e9eec1 
+      │                 │      ├ Version   : v0.0.0-20160624110644-59b7046e48ad 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [49] ╭ ID        : github.com/xo/terminfo@v0.0.0-20210125001918-ca9a967f8778 
+      │                 │      ├ Name      : github.com/xo/terminfo 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/github.com/xo/terminfo@v0.0.0-20210125001918-ca9
+      │                 │      │            │       a967f8778 
+      │                 │      │            ╰ UID : 1e8a517c32f1c38d 
+      │                 │      ├ Version   : v0.0.0-20210125001918-ca9a967f8778 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [50] ╭ ID        : go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.5
+      │                 │      │             3.0 
+      │                 │      ├ Name      : go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/
+      │                 │      │            │       http/otelhttp@v0.53.0 
+      │                 │      │            ╰ UID : 24b9983622c2a6c 
+      │                 │      ├ Version   : v0.53.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [51] ╭ ID        : go.opentelemetry.io/otel@v1.28.0 
+      │                 │      ├ Name      : go.opentelemetry.io/otel 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel@v1.28.0 
+      │                 │      │            ╰ UID : 3ef292e2e9c3c20a 
+      │                 │      ├ Version   : v1.28.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [52] ╭ ID        : go.opentelemetry.io/otel/metric@v1.28.0 
+      │                 │      ├ Name      : go.opentelemetry.io/otel/metric 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/metric@v1.28.0 
+      │                 │      │            ╰ UID : 409dad78bc689a35 
+      │                 │      ├ Version   : v1.28.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [53] ╭ ID        : go.opentelemetry.io/otel/trace@v1.28.0 
+      │                 │      ├ Name      : go.opentelemetry.io/otel/trace 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/go.opentelemetry.io/otel/trace@v1.28.0 
+      │                 │      │            ╰ UID : d5a576d041a8cb3a 
+      │                 │      ├ Version   : v1.28.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [54] ╭ ID        : golang.org/x/exp@v0.0.0-20231006140011-7918f672742d 
+      │                 │      ├ Name      : golang.org/x/exp 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/golang.org/x/exp@v0.0.0-20231006140011-7918f6727
+      │                 │      │            │       42d 
+      │                 │      │            ╰ UID : 565e778fd5d4f3de 
+      │                 │      ├ Version   : v0.0.0-20231006140011-7918f672742d 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [55] ╭ ID        : golang.org/x/sys@v0.24.0 
+      │                 │      ├ Name      : golang.org/x/sys 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/golang.org/x/sys@v0.24.0 
+      │                 │      │            ╰ UID : b072c3f4e7f185b5 
+      │                 │      ├ Version   : v0.24.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [56] ╭ ID        : golang.org/x/term@v0.21.0 
+      │                 │      ├ Name      : golang.org/x/term 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/golang.org/x/term@v0.21.0 
+      │                 │      │            ╰ UID : 35c8c39169bb9 
+      │                 │      ├ Version   : v0.21.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ├ [57] ╭ ID        : golang.org/x/text@v0.16.0 
+      │                 │      ├ Name      : golang.org/x/text 
+      │                 │      ├ Identifier ╭ PURL: pkg:golang/golang.org/x/text@v0.16.0 
+      │                 │      │            ╰ UID : d4ddd4636d9c5e51 
+      │                 │      ├ Version   : v0.16.0 
+      │                 │      ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                 │                   │         3c3ccb23c66ada 
+      │                 │                   ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                 │                             e186dfe758d23b 
+      │                 ╰ [58] ╭ ID        : golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1 
+      │                        ├ Name      : golang.org/x/xerrors 
+      │                        ├ Identifier ╭ PURL: pkg:golang/golang.org/x/xerrors@v0.0.0-20200804184101-5ec99
+      │                        │            │       f83aff1 
+      │                        │            ╰ UID : 321af84dec29e6bb 
+      │                        ├ Version   : v0.0.0-20200804184101-5ec99f83aff1 
+      │                        ╰ Layer      ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d9497223fae8
+      │                                     │         3c3ccb23c66ada 
+      │                                     ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a295ed
+      │                                               e186dfe758d23b 
+      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2025-61727 
+                        │     ├ PkgID           : stdlib@v1.25.4 
+                        │     ├ PkgName         : stdlib 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.25.4 
+                        │     │                  ╰ UID : 622d9eff7ffb443a 
+                        │     ├ InstalledVersion: v1.25.4 
+                        │     ├ FixedVersion    : 1.24.11, 1.25.5 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d949722
+                        │     │                  │         3fae83c3ccb23c66ada 
+                        │     │                  ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a
+                        │     │                            295ede186dfe758d23b 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-61727 
+                        │     ├ DataSource       ╭ ID  : govulndb 
+                        │     │                  ├ Name: The Go Vulnerability Database 
+                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+                        │     ├ Fingerprint     : sha256:dfd103dc7e5adac82772d1ac980cbf44c3be48143b6420c4c8ea80
+                        │     │                   db8686c123 
+                        │     ├ Title           : Improper application of excluded DNS name constraints when
+                        │     │                   verifying wildcard names in crypto/x509 
+                        │     ├ Description     : An excluded subdomain constraint in a certificate chain does
+                        │     │                   not restrict the usage of wildcard SANs in the leaf
+                        │     │                   certificate. For example a constraint that excludes the
+                        │     │                   subdomain test.example.com does not prevent a leaf
+                        │     │                   certificate from claiming the SAN *.example.com. 
+                        │     ├ Severity        : UNKNOWN 
+                        │     ╰ References       ╭ [0]: https://go.dev/cl/723900 
+                        │                        ├ [1]: https://go.dev/issue/76442 
+                        │                        ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkPddm4 
+                        │                        ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+                        ╰ [1] ╭ VulnerabilityID : CVE-2025-61729 
+                              ├ PkgID           : stdlib@v1.25.4 
+                              ├ PkgName         : stdlib 
+                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.25.4 
+                              │                  ╰ UID : 622d9eff7ffb443a 
+                              ├ InstalledVersion: v1.25.4 
+                              ├ FixedVersion    : 1.24.11, 1.25.5 
+                              ├ Status          : fixed 
+                              ├ Layer            ╭ Digest: sha256:137ac2881c1b7bddbfaf56df33916cab3fa353d949722
+                              │                  │         3fae83c3ccb23c66ada 
+                              │                  ╰ DiffID: sha256:738901bd0fed47859033f6de7690a9e2f77726ad5a84a
+                              │                            295ede186dfe758d23b 
+                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-61729 
+                              ├ DataSource       ╭ ID  : govulndb 
+                              │                  ├ Name: The Go Vulnerability Database 
+                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+                              ├ Fingerprint     : sha256:627b850650ff58a59a9d1a062aa71c305e40934ed25b3d42780405
+                              │                   ae2477cb6f 
+                              ├ Title           : Within HostnameError.Error(), when constructing an error
+                              │                   string, there ... 
+                              ├ Description     : Within HostnameError.Error(), when constructing an error
+                              │                   string, there is no limit to the number of hosts that will be
+                              │                    printed out. Furthermore, the error string is constructed by
+                              │                    repeated string concatenation, leading to quadratic runtime.
+                              │                    Therefore, a certificate provided by a malicious actor can
+                              │                   result in excessive resource consumption. 
+                              ├ Severity        : UNKNOWN 
+                              ├ References       ╭ [0]: https://go.dev/cl/725920 
+                              │                  ├ [1]: https://go.dev/issue/76445 
+                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkPddm4 
+                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4155 
+                              ├ PublishedDate   : 2025-12-02T19:15:51.447Z 
+                              ╰ LastModifiedDate: 2025-12-02T22:16:08.527Z 
 ````
