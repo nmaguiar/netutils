@@ -15158,6 +15158,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:5d8a8c04d85cda6cf1c2e1b63069f8fa867221c1c755dfee7721123913ebca14
     Title: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hid ...
     Description: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.
     Severity: LOW
@@ -15200,6 +15201,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:5b8ebe4463601558ff4a308393fe4b4c352f4ff5549a943d6a6784f9530684da
     Title: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hid ...
     Description: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.
     Severity: LOW
@@ -15242,6 +15244,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:dafa801fb979992b2565ae11cbdaa9a4a906d3c19f53f86b4623f0a0e4de904a
     Title: 'gnutls: Vulnerability in GnuTLS otherName SAN export'
     Description: |-
       A flaw was found in GnuTLS. A double-free vulnerability exists in GnuTLS due to incorrect ownership handling in the export logic of Subject Alternative Name (SAN) entries containing an otherName. If the type-id OID is invalid or malformed, GnuTLS will call asn1_delete_structure() on an ASN.1 node it does not own, leading to a double-free condition when the parent function or caller later attempts to free the same structure.
@@ -15319,6 +15322,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:ec2883205f1fdf1da92a93a3d563d470ff561d08577f0f18e88412bab74c105d
     Title: 'gnutls: Vulnerability in GnuTLS certtool template parsing'
     Description: A heap-buffer-overflow (off-by-one) flaw was found in the GnuTLS software in the template parsing logic within the certtool utility. When it reads certain settings from a template file, it allows an attacker to cause an out-of-bounds (OOB) NULL pointer write, resulting in memory corruption and a denial-of-service (DoS) that could potentially crash the system.
     Severity: HIGH
@@ -15392,6 +15396,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:aa16bb1bebb8b0105569bc515f819f8406547b225644e374b75ed44b8e5cbbed
     Title: 'gnutls: Vulnerability in GnuTLS SCT extension parsing'
     Description: A heap-buffer-overread vulnerability was found in GnuTLS in how it handles the Certificate Transparency (CT) Signed Certificate Timestamp (SCT) extension during X.509 certificate parsing. This flaw allows a malicious user to create a certificate containing a malformed SCT extension (OID 1.3.6.1.4.1.11129.2.4.2) that contains sensitive data. This issue leads to the exposure of confidential information when GnuTLS verifies certificates from certain websites when the certificate (SCT) is not checked correctly.
     Severity: MEDIUM
@@ -15460,6 +15465,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:967e114d8ee2b9b5de02ee83c0ba6d77206b86f3dfdeb4e04f397b6b7aba8ecd
     Title: 'gnutls: NULL pointer dereference in _gnutls_figure_common_ciphersuite()'
     Description: A NULL pointer dereference flaw was found in the GnuTLS software in _gnutls_figure_common_ciphersuite().
     Severity: MEDIUM
@@ -15529,6 +15535,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:1a06820916713fd8afe1e6634c2b34d548596eac8fb543f791cd2f17fa6a60c2
     Title: '[GNUTLS-SA-2025-11-18]'
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2025-64720
@@ -15548,6 +15555,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:05400df7f6fc0b35432be9926a3f1f01301fd9ba70fd4c83ebb978e294899c0c
     Title: 'libpng: LIBPNG buffer overflow'
     Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, an out-of-bounds read vulnerability exists in png_image_read_composite when processing palette images with PNG_FLAG_OPTIMIZE_ALPHA enabled. The palette compositing code in png_init_read_transformations incorrectly applies background compositing during premultiplication, violating the invariant component ≤ alpha × 257 required by the simplified PNG API. This issue has been patched in version 1.6.51.
     Severity: HIGH
@@ -15587,6 +15595,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:1ed7f532b207f605404f6076350889b917c0582e98d0d981d5d434d88b071730
     Title: 'libpng: LIBPNG heap buffer overflow'
     Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, there is a heap buffer overflow vulnerability in the libpng simplified API function png_image_finish_read when processing 16-bit interlaced PNGs with 8-bit output format. Attacker-crafted interlaced PNG files cause heap writes beyond allocated buffer bounds. This issue has been patched in version 1.6.51.
     Severity: HIGH
@@ -15628,17 +15637,26 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: LIBPNG is a reference library for use in applications that read, creat ...
+    Fingerprint: sha256:1e48bc702a2237d01e858409ca26721997b3bd3af3c8b1e96a095339c5b10c5d
+    Title: 'libpng: LIBPNG heap buffer overflow via malformed palette index'
     Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. Prior to version 1.6.51, a heap buffer over-read vulnerability exists in libpng's png_do_quantize function when processing PNG files with malformed palette indices. The vulnerability occurs when palette_lookup array bounds are not validated against externally-supplied image data, allowing an attacker to craft a PNG file with out-of-range palette indices that trigger out-of-bounds memory access. This issue has been patched in version 1.6.51.
     Severity: MEDIUM
     CweIDs:
     - CWE-125
     VendorSeverity:
       photon: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L
+        V3Score: 4.4
     References:
+    - https://access.redhat.com/security/cve/CVE-2025-64505
     - https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37
     - https://github.com/pnggroup/libpng/pull/748
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-4952-h5wq-4m42
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-64505
+    - https://www.cve.org/CVERecord?id=CVE-2025-64505
     PublishedDate: '2025-11-25T00:15:47.133Z'
     LastModifiedDate: '2025-11-26T18:28:32.22Z'
   - VulnerabilityID: CVE-2025-64506
@@ -15658,6 +15676,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:14df3c978de6261c7acb40b9915b0167af57f6b1e71e85476e405ebd3d18945c
     Title: 'libpng: LIBPNG heap buffer over-read'
     Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, a heap buffer over-read vulnerability exists in libpng's png_write_image_8bit function when processing 8-bit images through the simplified write API with convert_to_8bit enabled. The vulnerability affects 8-bit grayscale+alpha, RGB/RGBA, and images with incomplete row data. A conditional guard incorrectly allows 8-bit input to enter code expecting 16-bit input, causing reads up to 2 bytes beyond allocated buffer boundaries. This issue has been patched in version 1.6.51.
     Severity: MEDIUM
@@ -15697,6 +15716,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:b009fcb0f4b3075f7754f151ce00a1c3d322880de9eabd1e6ba02a4710abd0cd
     Title: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hid ...
     Description: In tar in BusyBox through 1.37.0, a TAR archive can have filenames hidden from a listing through the use of terminal escape sequences.
     Severity: LOW
