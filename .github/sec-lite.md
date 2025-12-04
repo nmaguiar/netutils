@@ -15892,6 +15892,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:5d8a8c04d85cda6cf1c2e1b63069f8fa867221c1c755dfee77211
+│                       │      │                   23913ebca14 
 │                       │      ├ Title           : In tar in BusyBox through 1.37.0, a TAR archive can have
 │                       │      │                   filenames hid ... 
 │                       │      ├ Description     : In tar in BusyBox through 1.37.0, a TAR archive can have
@@ -15934,6 +15936,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:5b8ebe4463601558ff4a308393fe4b4c352f4ff5549a943d6a678
+│                       │      │                   4f9530684da 
 │                       │      ├ Title           : In tar in BusyBox through 1.37.0, a TAR archive can have
 │                       │      │                   filenames hid ... 
 │                       │      ├ Description     : In tar in BusyBox through 1.37.0, a TAR archive can have
@@ -15976,6 +15980,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:dafa801fb979992b2565ae11cbdaa9a4a906d3c19f53f86b4623f
+│                       │      │                   0a0e4de904a 
 │                       │      ├ Title           : gnutls: Vulnerability in GnuTLS otherName SAN export 
 │                       │      ├ Description     : A flaw was found in GnuTLS. A double-free vulnerability
 │                       │      │                   exists in GnuTLS due to incorrect ownership handling in the
@@ -16062,6 +16068,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:ec2883205f1fdf1da92a93a3d563d470ff561d08577f0f18e8841
+│                       │      │                   2bab74c105d 
 │                       │      ├ Title           : gnutls: Vulnerability in GnuTLS certtool template parsing 
 │                       │      ├ Description     : A heap-buffer-overflow (off-by-one) flaw was found in the
 │                       │      │                   GnuTLS software in the template parsing logic within the
@@ -16142,6 +16150,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:aa16bb1bebb8b0105569bc515f819f8406547b225644e374b75ed
+│                       │      │                   44b8e5cbbed 
 │                       │      ├ Title           : gnutls: Vulnerability in GnuTLS SCT extension parsing 
 │                       │      ├ Description     : A heap-buffer-overread vulnerability was found in GnuTLS in
 │                       │      │                   how it handles the Certificate Transparency (CT) Signed
@@ -16219,6 +16229,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:967e114d8ee2b9b5de02ee83c0ba6d77206b86f3dfdeb4e04f397
+│                       │      │                   b6b7aba8ecd 
 │                       │      ├ Title           : gnutls: NULL pointer dereference in
 │                       │      │                   _gnutls_figure_common_ciphersuite() 
 │                       │      ├ Description     : A NULL pointer dereference flaw was found in the GnuTLS
@@ -16291,6 +16303,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:1a06820916713fd8afe1e6634c2b34d548596eac8fb543f791cd2
+│                       │      │                   f17fa6a60c2 
 │                       │      ├ Title           : [GNUTLS-SA-2025-11-18] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2025-64720 
@@ -16310,6 +16324,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:05400df7f6fc0b35432be9926a3f1f01301fd9ba70fd4c83ebb97
+│                       │      │                   8e294899c0c 
 │                       │      ├ Title           : libpng: LIBPNG buffer overflow 
 │                       │      ├ Description     : LIBPNG is a reference library for use in applications that
 │                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
@@ -16357,6 +16373,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:1ed7f532b207f605404f6076350889b917c0582e98d0d981d5d43
+│                       │      │                   4d88b071730 
 │                       │      ├ Title           : libpng: LIBPNG heap buffer overflow 
 │                       │      ├ Description     : LIBPNG is a reference library for use in applications that
 │                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
@@ -16405,8 +16423,10 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : LIBPNG is a reference library for use in applications that
-│                       │      │                   read, creat ... 
+│                       │      ├ Fingerprint     : sha256:1e48bc702a2237d01e858409ca26721997b3bd3af3c8b1e96a095
+│                       │      │                   339c5b10c5d 
+│                       │      ├ Title           : libpng: LIBPNG heap buffer overflow via malformed palette
+│                       │      │                   index 
 │                       │      ├ Description     : LIBPNG is a reference library for use in applications that
 │                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
 │                       │      │                    raster image files. Prior to version 1.6.51, a heap buffer
@@ -16420,12 +16440,19 @@
 │                       │      │                   1.6.51. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ VendorSeverity   ─ photon: 2 
-│                       │      ├ References       ╭ [0]: https://github.com/pnggroup/libpng/commit/6a528eb5fd0d
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ╰ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 4.4 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-64505 
+│                       │      │                  ├ [1]: https://github.com/pnggroup/libpng/commit/6a528eb5fd0d
 │                       │      │                  │      d7f6de1c39d30de0e41473431c37 
-│                       │      │                  ├ [1]: https://github.com/pnggroup/libpng/pull/748 
-│                       │      │                  ╰ [2]: https://github.com/pnggroup/libpng/security/advisories
-│                       │      │                         /GHSA-4952-h5wq-4m42 
+│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/pull/748 
+│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/security/advisories
+│                       │      │                  │      /GHSA-4952-h5wq-4m42 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-64505 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-64505 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.133Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:28:32.22Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2025-64506 
@@ -16445,6 +16472,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:14df3c978de6261c7acb40b9915b0167af57f6b1e71e85476e405
+│                       │      │                   ebd3d18945c 
 │                       │      ├ Title           : libpng: LIBPNG heap buffer over-read 
 │                       │      ├ Description     : LIBPNG is a reference library for use in applications that
 │                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
@@ -16493,6 +16522,8 @@
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                              ├ Fingerprint     : sha256:b009fcb0f4b3075f7754f151ce00a1c3d322880de9eabd1e6ba02
+│                              │                   a4710abd0cd 
 │                              ├ Title           : In tar in BusyBox through 1.37.0, a TAR archive can have
 │                              │                   filenames hid ... 
 │                              ├ Description     : In tar in BusyBox through 1.37.0, a TAR archive can have
