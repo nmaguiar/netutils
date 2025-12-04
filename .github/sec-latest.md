@@ -28674,6 +28674,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:abdfe1d98c71599ceb267e32cd68517575798968b434fc52b480a
+│                       │      │                   01f28783890 
 │                       │      ├ Title           : coreutils: Non-privileged session can escape to the parent
 │                       │      │                   session in chroot 
 │                       │      ├ Description     : chroot in GNU coreutils, when used with --userspec, allows
@@ -28728,6 +28730,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:0f3a9b268c83d572384cffaa6523d64b59dc2c179c0b95e157655
+│                       │      │                   de2eb2c4d07 
 │                       │      ├ Description     : wcurl path traversal with percent-encoded slashes 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ─ ubuntu: 2 
@@ -28750,6 +28754,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:0041c0d94a427a1625924eeecdbe78b41102badbb78f0ffbd5dbc
+│                       │      │                   dfb94a90e21 
 │                       │      ├ Title           : curl: predictable WebSocket mask 
 │                       │      ├ Description     : curl's websocket code did not update the 32 bit mask pattern
 │                       │      │                    for each new
@@ -28803,6 +28809,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:9f65d7e8f5b1dc904bdfdc4f8fee01275613acc9a105842ee58f5
+│                       │      │                   91888667163 
 │                       │      ├ Title           : curl: libcurl: Curl out of bounds read for cookie path 
 │                       │      ├ Description     : 1. A cookie is set using the `secure` keyword for
 │                       │      │                   `https://target`
@@ -28867,6 +28875,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:d6a7d835cc2a0a9995410fe310f953b318d634dd6f41b18059769
+│                       │      │                   c3a355c6a7d 
 │                       │      ├ Title           : glib: Integer overflow in g_string_maybe_expand() leading to
 │                       │      │                    potential buffer overflow in GLib GString 
 │                       │      ├ Description     : A flaw was found in how GLib’s GString manages memory when
@@ -28914,6 +28924,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:3f1d162dd83b2cf1ef6ed0ce2bd23da0b6a9b13c454e6e87bea40
+│                       │      │                   b4e3a7cc525 
 │                       │      ├ Title           : gnupg: denial of service issue (resource consumption) using
 │                       │      │                   compressed packets 
 │                       │      ├ Description     : GnuPG can be made to spin on a relatively small input by
@@ -28957,6 +28969,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:5dd4d43d8dc924d41962c288e1d897c5eec977c1ae0f2a1cc99b5
+│                       │      │                   78879b8cebe 
 │                       │      ├ Title           : iptraf-ng: buffer overflow via ifaces.c 
 │                       │      ├ Description     : iptraf-ng 1.2.1 has a stack-based buffer overflow. In
 │                       │      │                   src/ifaces.c, the strcpy function consistently fails to
@@ -29004,6 +29018,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:d98243e5d555ba25f46d2bea16e4de59268e7f79e8ccff0f346a3
+│                       │      │                   e65f88c7a8f 
 │                       │      ├ Title           : avahi: Avahi Wide-Area DNS Uses Constant Source Port 
 │                       │      ├ Description     : A flaw was found in Avahi-daemon, which relies on fixed
 │                       │      │                   source ports for wide-area DNS queries. This issue
@@ -29053,6 +29069,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:8ebfbbe4cf6acc2b1574e71aeb2af67043e5605047735f107f349
+│                       │      │                   c1425264553 
 │                       │      ├ Title           : avahi: Avahi Wide-Area DNS Predictable Transaction IDs 
 │                       │      ├ Description     : A flaw was found in the Avahi-daemon, where it initializes
 │                       │      │                   DNS transaction IDs randomly only once at startup,
@@ -29103,6 +29121,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:4ef7c24aeccdddfe5bfdd478df58880613aa6250e8c0f7f622f6d
+│                       │      │                   1355119b2f8 
 │                       │      ├ Title           : avahi: Avahi Wide-Area DNS Uses Constant Source Port 
 │                       │      ├ Description     : A flaw was found in Avahi-daemon, which relies on fixed
 │                       │      │                   source ports for wide-area DNS queries. This issue
@@ -29152,6 +29172,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:3592b8dec74dcadf0138de9c92cf9881df0310f0b5f7930e77279
+│                       │      │                   3a9f155e8c6 
 │                       │      ├ Title           : avahi: Avahi Wide-Area DNS Predictable Transaction IDs 
 │                       │      ├ Description     : A flaw was found in the Avahi-daemon, where it initializes
 │                       │      │                   DNS transaction IDs randomly only once at startup,
@@ -29202,6 +29224,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:c57cb4a128472fb21bb1726f10a9ef4aea0eec8450907bdd6ac00
+│                       │      │                   27ae8385400 
 │                       │      ├ Title           : avahi: Avahi Wide-Area DNS Uses Constant Source Port 
 │                       │      ├ Description     : A flaw was found in Avahi-daemon, which relies on fixed
 │                       │      │                   source ports for wide-area DNS queries. This issue
@@ -29251,6 +29275,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:a2efba1f8e102d8a6eab35ada601c85da736942bf4a85af5c9427
+│                       │      │                   1a5b8f15d9a 
 │                       │      ├ Title           : avahi: Avahi Wide-Area DNS Predictable Transaction IDs 
 │                       │      ├ Description     : A flaw was found in the Avahi-daemon, where it initializes
 │                       │      │                   DNS transaction IDs randomly only once at startup,
@@ -29301,6 +29327,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:bca18d2cf15de75bf206c48e631f081e79bbb8b896c3dc2bdf91a
+│                       │      │                   8aae5139d1b 
 │                       │      ├ Title           : libbpf: Heap Buffer Overflow in libbpf 
 │                       │      ├ Description     : Buffer Overflow vulnerability in libbpf 1.5.0 allows a local
 │                       │      │                    attacker to execute arbitrary code via the
@@ -29342,6 +29370,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:824caf4b0552afd1a6fb74396c0b40896c45b5986a81fb6178c17
+│                       │      │                   f13651aaed6 
 │                       │      ├ Title           : cairo: NULL pointer dereference with a crafted font file 
 │                       │      ├ Description     : Cairo version 1.15.4 is vulnerable to a NULL pointer
 │                       │      │                   dereference related to the FT_Load_Glyph and FT_Render_Glyph
@@ -29399,6 +29429,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:8129b5689377427754fae323622fde2aa851198982da9996af392
+│                       │      │                   38a2891636c 
 │                       │      ├ Title           : cairo: Stack-based buffer overflow via parsing of crafted
 │                       │      │                   WebKitGTK+ document 
 │                       │      ├ Description     : cairo through 1.15.14 has an out-of-bounds stack-memory
@@ -29447,6 +29479,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:848ceefd6af06d56421541820b79aa73401e08876213d99dbe3e8
+│                       │      │                   02a5a1dfe8f 
 │                       │      ├ Title           : cairo: assertion problem in _cairo_arc_in_direction in
 │                       │      │                   cairo-arc.c 
 │                       │      ├ Description     : An issue was discovered in cairo 1.16.0. There is an
@@ -29494,6 +29528,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:ad0bdb42d3b27de0130ea4ba8f53a932b9cc396845e82d163deac
+│                       │      │                   cef7f54253c 
 │                       │      ├ Title           : cairo: NULL pointer dereference with a crafted font file 
 │                       │      ├ Description     : Cairo version 1.15.4 is vulnerable to a NULL pointer
 │                       │      │                   dereference related to the FT_Load_Glyph and FT_Render_Glyph
@@ -29551,6 +29587,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:ac8cf6da12aecd1fcabb785e5647302cd567b7da54794e36db9c9
+│                       │      │                   c25030cfee7 
 │                       │      ├ Title           : cairo: Stack-based buffer overflow via parsing of crafted
 │                       │      │                   WebKitGTK+ document 
 │                       │      ├ Description     : cairo through 1.15.14 has an out-of-bounds stack-memory
@@ -29599,6 +29637,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:19a77fd594f7241ddfd2c9b5afdad3d3ca8795d4748b4236e5aa2
+│                       │      │                   dfaacc17761 
 │                       │      ├ Title           : cairo: assertion problem in _cairo_arc_in_direction in
 │                       │      │                   cairo-arc.c 
 │                       │      ├ Description     : An issue was discovered in cairo 1.16.0. There is an
@@ -29647,6 +29687,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:b2c2ed9db1b6c6458798148deccd26132bd1aefc708d73cf79e8b
+│                       │      │                   1c3836a8d51 
 │                       │      ├ Title           : CUPS: Local denial-of-service via cupsd.conf update and
 │                       │      │                   related issues 
 │                       │      ├ Description     : OpenPrinting CUPS is an open source printing system for
@@ -29694,6 +29736,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:9bbcb620edfaf27096f6752af7dce26cd83c2b12e41a338372b1a
+│                       │      │                   f000e942a53 
 │                       │      ├ Description     : wcurl path traversal with percent-encoded slashes 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ─ ubuntu: 2 
@@ -29716,6 +29760,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:bdd86626eb1e6a5ee506798557fde0ac89b38ff0ce31ed00fe722
+│                       │      │                   eb953b9660f 
 │                       │      ├ Title           : curl: predictable WebSocket mask 
 │                       │      ├ Description     : curl's websocket code did not update the 32 bit mask pattern
 │                       │      │                    for each new
@@ -29769,6 +29815,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:5aa8800d66c7abf1ee22469e1c00f240fa6f9225cf05ee4f912aa
+│                       │      │                   e84c5a9ac5e 
 │                       │      ├ Title           : curl: libcurl: Curl out of bounds read for cookie path 
 │                       │      ├ Description     : 1. A cookie is set using the `secure` keyword for
 │                       │      │                   `https://target`
@@ -29833,6 +29881,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:4e77fdfc561bf21ad3ab74c01c0f9b93c9beb3214bd50f5bb61cc
+│                       │      │                   3e9e9736eab 
 │                       │      ├ Title           : elfutils: GNU elfutils eu-readelf libdw_alloc.c
 │                       │      │                   __libdw_thread_tail memory corruption 
 │                       │      ├ Description     : A vulnerability has been found in GNU elfutils 0.192 and
@@ -29888,6 +29938,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:50c4346977e240ce3fc1fca8d3a034188891b8afe82fb441c7cf5
+│                       │      │                   9c1b6733400 
 │                       │      ├ Title           : elfutils: GNU elfutils eu-strip elf_strptr.c elf_strptr
 │                       │      │                   denial of service 
 │                       │      ├ Description     : A vulnerability classified as problematic was found in GNU
@@ -29942,6 +29994,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:6c7702ee230e7dcc4049ad72b712f55677659611b8dcdbfcb0b5b
+│                       │      │                   194a50b2dbd 
 │                       │      ├ Title           : libgcrypt: vulnerable to Marvin Attack 
 │                       │      ├ Description     : A timing-based side-channel flaw was found in libgcrypt's
 │                       │      │                   RSA implementation. This issue may allow a remote attacker
@@ -29995,6 +30049,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:949d2fac8c4cdc005da31ac3ac6e12ef6eaa36c144ebdf60ddde1
+│                       │      │                   4bc3061ef38 
 │                       │      ├ Title           : glib: Integer overflow in g_string_maybe_expand() leading to
 │                       │      │                    potential buffer overflow in GLib GString 
 │                       │      ├ Description     : A flaw was found in how GLib’s GString manages memory when
@@ -30042,6 +30098,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:c9d684684d84fc637ca090aabf13c71fa69993200eb071421778f
+│                       │      │                   8461c763016 
 │                       │      ├ Title           : glib: Integer overflow in g_string_maybe_expand() leading to
 │                       │      │                    potential buffer overflow in GLib GString 
 │                       │      ├ Description     : A flaw was found in how GLib’s GString manages memory when
@@ -30089,6 +30147,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:4df07cfc1e182b32ed71fb1ac3d81b6e6bf0fabbda5e8f32cf5fb
+│                       │      │                   b5bc81b5d40 
 │                       │      ├ Title           : linux-pam: Incomplete fix for CVE-2025-6020 
 │                       │      ├ Description     : A flaw was found in linux-pam. The pam_namespace module may
 │                       │      │                   improperly handle user-controlled paths, allowing local
@@ -30157,6 +30217,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:b6231712675ce49696815d95851324de12537f834134d3e99db7a
+│                       │      │                   af47a68d53c 
 │                       │      ├ Title           : linux-pam: Incomplete fix for CVE-2025-6020 
 │                       │      ├ Description     : A flaw was found in linux-pam. The pam_namespace module may
 │                       │      │                   improperly handle user-controlled paths, allowing local
@@ -30225,6 +30287,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:6af007b2f71f8c8d85e4e491c29b508db55b402b8728f272c71cc
+│                       │      │                   8020ebb297b 
 │                       │      ├ Title           : linux-pam: Incomplete fix for CVE-2025-6020 
 │                       │      ├ Description     : A flaw was found in linux-pam. The pam_namespace module may
 │                       │      │                   improperly handle user-controlled paths, allowing local
@@ -30293,6 +30357,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:5f7d041fee4893bc784e4cd1410a50f3197e3e6d960e6844ecfee
+│                       │      │                   b6e427026c3 
 │                       │      ├ Title           : linux-pam: Incomplete fix for CVE-2025-6020 
 │                       │      ├ Description     : A flaw was found in linux-pam. The pam_namespace module may
 │                       │      │                   improperly handle user-controlled paths, allowing local
@@ -30361,6 +30427,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:0bf5d29f41776e66bb725d203c08990eb23b16109693516e55421
+│                       │      │                   2b574b0f467 
 │                       │      ├ Title           : stress-test master commit e4c878 was discovered to contain a
 │                       │      │                    FPE vulne ... 
 │                       │      ├ Description     : stress-test master commit e4c878 was discovered to contain a
@@ -30394,6 +30462,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:bc4a1a5d8faa0ca506af408cdedd0ea463e898439a1d61eaa4e5e
+│                       │      │                   837a245d695 
 │                       │      ├ Title           : python: Quadratic complexity in os.path.expandvars() with
 │                       │      │                   user-controlled template 
 │                       │      ├ Description     : If the value passed to os.path.expandvars() is
@@ -30466,6 +30536,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:094aecffd189a1294d8a93b70dc4eb74029237401f4d8297595b6
+│                       │      │                   a023321f5cd 
 │                       │      ├ Title           : cpython: python: Python zipfile End of Central Directory
 │                       │      │                   (EOCD) Locator record offset not checked 
 │                       │      ├ Description     : The 'zipfile' module would not check the validity of the
@@ -30546,6 +30618,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:1aac1403babcc7f1f1d27c7f0fd9bad843a68a387203b2174a63b
+│                       │      │                   bf9a45359a0 
 │                       │      ├ Title           : python: Quadratic complexity in os.path.expandvars() with
 │                       │      │                   user-controlled template 
 │                       │      ├ Description     : If the value passed to os.path.expandvars() is
@@ -30618,6 +30692,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:dae1542d47633f69c8e0992ec3f3f8045043077bd9dd487cf3d7d
+│                       │      │                   8237be3a3f6 
 │                       │      ├ Title           : cpython: python: Python zipfile End of Central Directory
 │                       │      │                   (EOCD) Locator record offset not checked 
 │                       │      ├ Description     : The 'zipfile' module would not check the validity of the
@@ -30698,6 +30774,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:ab389c6feeb5f895d4e532d722462d9bcb898039f9980733e25ba
+│                       │      │                   5a3fc2e9600 
 │                       │      ├ Title           : python: Quadratic complexity in os.path.expandvars() with
 │                       │      │                   user-controlled template 
 │                       │      ├ Description     : If the value passed to os.path.expandvars() is
@@ -30770,6 +30848,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:60f42edb388b3abbe5e050d573c7f4d5515881155aeaace77676c
+│                       │      │                   b45d4fc2478 
 │                       │      ├ Title           : cpython: python: Python zipfile End of Central Directory
 │                       │      │                   (EOCD) Locator record offset not checked 
 │                       │      ├ Description     : The 'zipfile' module would not check the validity of the
@@ -30849,6 +30929,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:15c8edc629fb0bd3e51f916e7c571cb11949c2768c751485c1db7
+│                       │      │                   160ea28248a 
 │                       │      ├ Title           : wireshark: IPPUSB dissector crash 
 │                       │      ├ Description     : NULL pointer exception in the IPPUSB dissector in Wireshark
 │                       │      │                   3.4.0 to 3.4.9 allows denial of service via packet injection
@@ -30903,6 +30985,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:525c634ae0b93b1360a5fef3196322ad361cecdf8db76585dfec8
+│                       │      │                   83f0c9f181e 
 │                       │      ├ Title           : wireshark: IPPUSB dissector crash 
 │                       │      ├ Description     : NULL pointer exception in the IPPUSB dissector in Wireshark
 │                       │      │                   3.4.0 to 3.4.9 allows denial of service via packet injection
@@ -30957,6 +31041,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:79e9414e1bcbbf2fd0bc01e7cdb46bc8a66aab5341807d3750690
+│                       │      │                   094675358ec 
 │                       │      ├ Title           : wireshark: IPPUSB dissector crash 
 │                       │      ├ Description     : NULL pointer exception in the IPPUSB dissector in Wireshark
 │                       │      │                   3.4.0 to 3.4.9 allows denial of service via packet injection
@@ -31011,6 +31097,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:60a25301c2023d6bcf050b5f707aaef0c8976f7495d315703e526
+│                       │      │                   119bbb59c55 
 │                       │      ├ Title           : wireshark: IPPUSB dissector crash 
 │                       │      ├ Description     : NULL pointer exception in the IPPUSB dissector in Wireshark
 │                       │      │                   3.4.0 to 3.4.9 allows denial of service via packet injection
@@ -31065,6 +31153,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:d0ae3c879d48936cc8d8257bbf0be0322b9262de227c6f8eda7a7
+│                       │      │                   f6185accd36 
 │                       │      ├ Title           : shadow-utils: Default subordinate ID configuration in
 │                       │      │                   /etc/login.defs could lead to compromise 
 │                       │      ├ Description     : shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a
@@ -31125,6 +31215,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:fc1a6b33658dc0896d37779e28e2cc559e840c103e4e74bd2ad92
+│                       │      │                   3796929e53f 
 │                       │      ├ Title           : shadow-utils: Default subordinate ID configuration in
 │                       │      │                   /etc/login.defs could lead to compromise 
 │                       │      ├ Description     : shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a
@@ -31186,6 +31278,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:b9b5ef48198b246ff0205410ce12e2c6e60a7a84e423a3b9f1052
+│                       │      │                   b1101339498 
 │                       │      ├ Title           : python: Quadratic complexity in os.path.expandvars() with
 │                       │      │                   user-controlled template 
 │                       │      ├ Description     : If the value passed to os.path.expandvars() is
@@ -31258,6 +31352,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:76a0efd0d9c8e694954fd42ec536363c0bdd18bb5968153dfffca
+│                       │      │                   8394c06b2e5 
 │                       │      ├ Title           : cpython: python: Python zipfile End of Central Directory
 │                       │      │                   (EOCD) Locator record offset not checked 
 │                       │      ├ Description     : The 'zipfile' module would not check the validity of the
@@ -31338,6 +31434,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:31237b648e54b09161869bb653b47652b21d5c82548ec92e4fe37
+│                       │      │                   d8defb2661a 
 │                       │      ├ Title           : python: Quadratic complexity in os.path.expandvars() with
 │                       │      │                   user-controlled template 
 │                       │      ├ Description     : If the value passed to os.path.expandvars() is
@@ -31410,6 +31508,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:d9e1e2a833341caa549b4fd394ed3fd321a8082d06d718361dbd4
+│                       │      │                   06392252243 
 │                       │      ├ Title           : cpython: python: Python zipfile End of Central Directory
 │                       │      │                   (EOCD) Locator record offset not checked 
 │                       │      ├ Description     : The 'zipfile' module would not check the validity of the
@@ -31489,6 +31589,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:c47cf3584d7db3fb48525cd09c29b66a6d28aaafc93a55c1472ad
+│                       │      │                   04edbcbdbef 
 │                       │      ├ Title           : tar: Tar path traversal 
 │                       │      ├ Description     : GNU Tar through 1.35 allows file overwrite via directory
 │                       │      │                   traversal in crafted TAR archives, with a certain two-step
@@ -31556,6 +31658,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:53e07ec68116b354c5e0bddee3b776b21f12300d5d769b75fade6
+│                       │      │                   bbb8e463b93 
 │                       │      ├ Title           : wireshark: IPPUSB dissector crash 
 │                       │      ├ Description     : NULL pointer exception in the IPPUSB dissector in Wireshark
 │                       │      │                   3.4.0 to 3.4.9 allows denial of service via packet injection
@@ -31610,6 +31714,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:b6bfc9a0e1ae7b59244d19d23b0196cf66ed420144a6bfef11508
+│                       │      │                   db69e5354ab 
 │                       │      ├ Title           : wget: authorization header disclosure on redirect 
 │                       │      ├ Description     : GNU Wget through 1.21.1 does not omit the Authorization
 │                       │      │                   header upon a redirect to a different origin, a related
@@ -31656,6 +31762,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:1336c0be1c9b9bbb70e0eb3733983c58a77906b241a55598af6d4
+│                       │      │                   8a5f3e52f43 
 │                       │      ├ Title           : wireshark: IPPUSB dissector crash 
 │                       │      ├ Description     : NULL pointer exception in the IPPUSB dissector in Wireshark
 │                       │      │                   3.4.0 to 3.4.9 allows denial of service via packet injection
@@ -31710,6 +31818,8 @@
 │                              ├ DataSource       ╭ ID  : ubuntu 
 │                              │                  ├ Name: Ubuntu CVE Tracker 
 │                              │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                              ├ Fingerprint     : sha256:1c5be4dde177a616cb898c5ea688ce8636d389afb2f6e05f9ebe6
+│                              │                   c969fe21264 
 │                              ├ Title           : xorg-x11-server: Use-after-free bug in DamageDestroy 
 │                              ├ Description     : A use-after-free flaw was found in xorg-x11-server-Xvfb.
 │                              │                   This issue occurs in Xvfb with a very specific and legacy
@@ -33460,68 +33570,133 @@
       │                                     │         654f340268814f 
       │                                     ╰ DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180
       │                                               303bd9ac0c7167 
-      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2025-54410 
-                              ├ PkgID           : github.com/docker/docker@v27.1.1+incompatible 
-                              ├ PkgName         : github.com/docker/docker 
-                              ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/docker/docker@v27.1.1%2Bincompat
-                              │                  │       ible 
-                              │                  ╰ UID : 3384569f91ac6938 
-                              ├ InstalledVersion: v27.1.1+incompatible 
-                              ├ FixedVersion    : 28.0.0 
+      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2025-54410 
+                        │     ├ PkgID           : github.com/docker/docker@v27.1.1+incompatible 
+                        │     ├ PkgName         : github.com/docker/docker 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/docker/docker@v27.1.1%2Bincompat
+                        │     │                  │       ible 
+                        │     │                  ╰ UID : 3384569f91ac6938 
+                        │     ├ InstalledVersion: v27.1.1+incompatible 
+                        │     ├ FixedVersion    : 28.0.0 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f7
+                        │     │                  │         51991654f340268814f 
+                        │     │                  ╰ DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f
+                        │     │                            83180303bd9ac0c7167 
+                        │     ├ SeveritySource  : ghsa 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-54410 
+                        │     ├ DataSource       ╭ ID  : ghsa 
+                        │     │                  ├ Name: GitHub Security Advisory Go 
+                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+                        │     │                          osystem%3Ago 
+                        │     ├ Fingerprint     : sha256:9e2b87992581484f3eaf15116e36986d2dec4f0a1208a66fcbae78
+                        │     │                   ec84828ba0 
+                        │     ├ Title           : github.com/moby/moby: Moby's Firewalld reload removes bridge
+                        │     │                   network isolation 
+                        │     ├ Description     : Moby is an open source container framework developed by
+                        │     │                   Docker Inc. that is distributed as Docker Engine, Mirantis
+                        │     │                   Container Runtime, and various other downstream
+                        │     │                   projects/products. A firewalld vulnerability affects Moby
+                        │     │                   releases before 28.0.0. When firewalld reloads, Docker fails
+                        │     │                   to re-create iptables rules that isolate bridge networks,
+                        │     │                   allowing any container to access all ports on any other
+                        │     │                   container across different bridge networks on the same host.
+                        │     │                   This breaks network segmentation between containers that
+                        │     │                   should be isolated, creating significant risk in multi-tenant
+                        │     │                    environments. Only containers in --internal networks remain
+                        │     │                   protected.
+                        │     │                   Workarounds include reloading firewalld and either restarting
+                        │     │                    the docker daemon, re-creating bridge networks, or using
+                        │     │                   rootless mode. Maintainers anticipate a fix for this issue in
+                        │     │                    version 25.0.13. 
+                        │     ├ Severity        : LOW 
+                        │     ├ CweIDs           ─ [0]: CWE-909 
+                        │     ├ VendorSeverity   ╭ amazon: 1 
+                        │     │                  ├ ghsa  : 1 
+                        │     │                  ├ nvd   : 2 
+                        │     │                  ╰ redhat: 1 
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/
+                        │     │                  │        │           A:N 
+                        │     │                  │        ╰ V3Score : 3.3 
+                        │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:L/
+                        │     │                  │        │           A:N 
+                        │     │                  │        ╰ V3Score : 5.2 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/
+                        │     │                           │           A:N 
+                        │     │                           ╰ V3Score : 3.3 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-54410 
+                        │     │                  ├ [1]: https://firewalld.org/documentation/howto/reload-firewa
+                        │     │                  │      lld.html 
+                        │     │                  ├ [2]: https://github.com/moby/moby 
+                        │     │                  ├ [3]: https://github.com/moby/moby/pull/49443 
+                        │     │                  ├ [4]: https://github.com/moby/moby/pull/49728 
+                        │     │                  ├ [5]: https://github.com/moby/moby/security/advisories/GHSA-4
+                        │     │                  │      vq8-7jfc-9cvp 
+                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-54410 
+                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-54410 
+                        │     ├ PublishedDate   : 2025-07-30T14:15:28.9Z 
+                        │     ╰ LastModifiedDate: 2025-08-22T17:27:29.677Z 
+                        ├ [1] ╭ VulnerabilityID : CVE-2025-61727 
+                        │     ├ PkgID           : stdlib@v1.25.4 
+                        │     ├ PkgName         : stdlib 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.25.4 
+                        │     │                  ╰ UID : 622d9eff7ffb443a 
+                        │     ├ InstalledVersion: v1.25.4 
+                        │     ├ FixedVersion    : 1.24.11, 1.25.5 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f7
+                        │     │                  │         51991654f340268814f 
+                        │     │                  ╰ DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f
+                        │     │                            83180303bd9ac0c7167 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-61727 
+                        │     ├ DataSource       ╭ ID  : govulndb 
+                        │     │                  ├ Name: The Go Vulnerability Database 
+                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+                        │     ├ Fingerprint     : sha256:755de023fa9bd5928685fb441b92a700f82da06ff97055196aa534
+                        │     │                   e59d838d96 
+                        │     ├ Title           : Improper application of excluded DNS name constraints when
+                        │     │                   verifying wildcard names in crypto/x509 
+                        │     ├ Description     : An excluded subdomain constraint in a certificate chain does
+                        │     │                   not restrict the usage of wildcard SANs in the leaf
+                        │     │                   certificate. For example a constraint that excludes the
+                        │     │                   subdomain test.example.com does not prevent a leaf
+                        │     │                   certificate from claiming the SAN *.example.com. 
+                        │     ├ Severity        : UNKNOWN 
+                        │     ╰ References       ╭ [0]: https://go.dev/cl/723900 
+                        │                        ├ [1]: https://go.dev/issue/76442 
+                        │                        ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkPddm4 
+                        │                        ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+                        ╰ [2] ╭ VulnerabilityID : CVE-2025-61729 
+                              ├ PkgID           : stdlib@v1.25.4 
+                              ├ PkgName         : stdlib 
+                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.25.4 
+                              │                  ╰ UID : 622d9eff7ffb443a 
+                              ├ InstalledVersion: v1.25.4 
+                              ├ FixedVersion    : 1.24.11, 1.25.5 
                               ├ Status          : fixed 
                               ├ Layer            ╭ Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f7
                               │                  │         51991654f340268814f 
                               │                  ╰ DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f
                               │                            83180303bd9ac0c7167 
-                              ├ SeveritySource  : ghsa 
-                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-54410 
-                              ├ DataSource       ╭ ID  : ghsa 
-                              │                  ├ Name: GitHub Security Advisory Go 
-                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
-                              │                          osystem%3Ago 
-                              ├ Title           : github.com/moby/moby: Moby's Firewalld reload removes bridge
-                              │                   network isolation 
-                              ├ Description     : Moby is an open source container framework developed by
-                              │                   Docker Inc. that is distributed as Docker Engine, Mirantis
-                              │                   Container Runtime, and various other downstream
-                              │                   projects/products. A firewalld vulnerability affects Moby
-                              │                   releases before 28.0.0. When firewalld reloads, Docker fails
-                              │                   to re-create iptables rules that isolate bridge networks,
-                              │                   allowing any container to access all ports on any other
-                              │                   container across different bridge networks on the same host.
-                              │                   This breaks network segmentation between containers that
-                              │                   should be isolated, creating significant risk in multi-tenant
-                              │                    environments. Only containers in --internal networks remain
-                              │                   protected.
-                              │                   Workarounds include reloading firewalld and either restarting
-                              │                    the docker daemon, re-creating bridge networks, or using
-                              │                   rootless mode. Maintainers anticipate a fix for this issue in
-                              │                    version 25.0.13. 
-                              ├ Severity        : LOW 
-                              ├ CweIDs           ─ [0]: CWE-909 
-                              ├ VendorSeverity   ╭ amazon: 1 
-                              │                  ├ ghsa  : 1 
-                              │                  ├ nvd   : 2 
-                              │                  ╰ redhat: 1 
-                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/
-                              │                  │        │           A:N 
-                              │                  │        ╰ V3Score : 3.3 
-                              │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:L/
-                              │                  │        │           A:N 
-                              │                  │        ╰ V3Score : 5.2 
-                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/
-                              │                           │           A:N 
-                              │                           ╰ V3Score : 3.3 
-                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-54410 
-                              │                  ├ [1]: https://firewalld.org/documentation/howto/reload-firewa
-                              │                  │      lld.html 
-                              │                  ├ [2]: https://github.com/moby/moby 
-                              │                  ├ [3]: https://github.com/moby/moby/pull/49443 
-                              │                  ├ [4]: https://github.com/moby/moby/pull/49728 
-                              │                  ├ [5]: https://github.com/moby/moby/security/advisories/GHSA-4
-                              │                  │      vq8-7jfc-9cvp 
-                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-54410 
-                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-54410 
-                              ├ PublishedDate   : 2025-07-30T14:15:28.9Z 
-                              ╰ LastModifiedDate: 2025-08-22T17:27:29.677Z 
+                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-61729 
+                              ├ DataSource       ╭ ID  : govulndb 
+                              │                  ├ Name: The Go Vulnerability Database 
+                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+                              ├ Fingerprint     : sha256:e9d625d9cb2cda765e13265e085727b6037f614f3593673d564f64
+                              │                   e9a44aaa5b 
+                              ├ Title           : Within HostnameError.Error(), when constructing an error
+                              │                   string, there ... 
+                              ├ Description     : Within HostnameError.Error(), when constructing an error
+                              │                   string, there is no limit to the number of hosts that will be
+                              │                    printed out. Furthermore, the error string is constructed by
+                              │                    repeated string concatenation, leading to quadratic runtime.
+                              │                    Therefore, a certificate provided by a malicious actor can
+                              │                   result in excessive resource consumption. 
+                              ├ Severity        : UNKNOWN 
+                              ├ References       ╭ [0]: https://go.dev/cl/725920 
+                              │                  ├ [1]: https://go.dev/issue/76445 
+                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkPddm4 
+                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4155 
+                              ├ PublishedDate   : 2025-12-02T19:15:51.447Z 
+                              ╰ LastModifiedDate: 2025-12-02T22:16:08.527Z 
 ````
