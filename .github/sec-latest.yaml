@@ -28079,6 +28079,7 @@
     - CWE-124
     - CWE-129
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -28095,7 +28096,7 @@
     - https://ubuntu.com/security/notices/USN-7897-1
     - https://www.cve.org/CVERecord?id=CVE-2025-61915
     PublishedDate: '2025-11-29T03:15:59.52Z'
-    LastModifiedDate: '2025-12-01T15:39:33.11Z'
+    LastModifiedDate: '2025-12-03T16:15:58.103Z'
   - VulnerabilityID: CVE-2025-11563
     PkgID: libcurl4t64@8.12.1-3ubuntu1
     PkgName: libcurl4t64
@@ -31733,7 +31734,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:755de023fa9bd5928685fb441b92a700f82da06ff97055196aa534e59d838d96
-    Title: Improper application of excluded DNS name constraints when verifying wildcard names in crypto/x509
+    Title: An excluded subdomain constraint in a certificate chain does not restr ...
     Description: An excluded subdomain constraint in a certificate chain does not restrict the usage of wildcard SANs in the leaf certificate. For example a constraint that excludes the subdomain test.example.com does not prevent a leaf certificate from claiming the SAN *.example.com.
     Severity: UNKNOWN
     References:
@@ -31741,6 +31742,8 @@
     - https://go.dev/issue/76442
     - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
     - https://pkg.go.dev/vuln/GO-2025-4175
+    PublishedDate: '2025-12-03T20:16:25.607Z'
+    LastModifiedDate: '2025-12-03T22:15:51.51Z'
   - VulnerabilityID: CVE-2025-61729
     PkgID: stdlib@v1.25.4
     PkgName: stdlib
