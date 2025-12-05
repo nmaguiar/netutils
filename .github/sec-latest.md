@@ -29701,7 +29701,8 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ╭ [0]: CWE-124 
 │                       │      │                  ╰ [1]: CWE-129 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -29718,7 +29719,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7897-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-61915 
 │                       │      ├ PublishedDate   : 2025-11-29T03:15:59.52Z 
-│                       │      ╰ LastModifiedDate: 2025-12-01T15:39:33.11Z 
+│                       │      ╰ LastModifiedDate: 2025-12-03T16:15:58.103Z 
 │                       ├ [21] ╭ VulnerabilityID : CVE-2025-11563 
 │                       │      ├ PkgID           : libcurl4t64@8.12.1-3ubuntu1 
 │                       │      ├ PkgName         : libcurl4t64 
@@ -33654,18 +33655,20 @@
                         │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
                         │     ├ Fingerprint     : sha256:755de023fa9bd5928685fb441b92a700f82da06ff97055196aa534
                         │     │                   e59d838d96 
-                        │     ├ Title           : Improper application of excluded DNS name constraints when
-                        │     │                   verifying wildcard names in crypto/x509 
+                        │     ├ Title           : An excluded subdomain constraint in a certificate chain does
+                        │     │                   not restr ... 
                         │     ├ Description     : An excluded subdomain constraint in a certificate chain does
                         │     │                   not restrict the usage of wildcard SANs in the leaf
                         │     │                   certificate. For example a constraint that excludes the
                         │     │                   subdomain test.example.com does not prevent a leaf
                         │     │                   certificate from claiming the SAN *.example.com. 
                         │     ├ Severity        : UNKNOWN 
-                        │     ╰ References       ╭ [0]: https://go.dev/cl/723900 
-                        │                        ├ [1]: https://go.dev/issue/76442 
-                        │                        ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkPddm4 
-                        │                        ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+                        │     ├ References       ╭ [0]: https://go.dev/cl/723900 
+                        │     │                  ├ [1]: https://go.dev/issue/76442 
+                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkPddm4 
+                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+                        │     ├ PublishedDate   : 2025-12-03T20:16:25.607Z 
+                        │     ╰ LastModifiedDate: 2025-12-03T22:15:51.51Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2025-61729 
                               ├ PkgID           : stdlib@v1.25.4 
                               ├ PkgName         : stdlib 
