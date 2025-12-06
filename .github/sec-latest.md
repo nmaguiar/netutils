@@ -29669,7 +29669,59 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2019-6461 
 │                       │      ├ PublishedDate   : 2019-01-16T18:29:00.51Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T04:46:29.91Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2025-61915 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2025-58436 
+│                       │      ├ PkgID           : libcups2t64@2.4.12-0ubuntu1.1 
+│                       │      ├ PkgName         : libcups2t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcups2t64@2.4.12-0ubuntu1.1?arch=amd
+│                       │      │                  │       64&distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : 67456924643ad81d 
+│                       │      ├ InstalledVersion: 2.4.12-0ubuntu1.1 
+│                       │      ├ FixedVersion    : 2.4.12-0ubuntu1.6 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f
+│                       │      │                  │         751991654f340268814f 
+│                       │      │                  ╰ DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442
+│                       │      │                            f83180303bd9ac0c7167 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58436 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:a6729b10ea186bec9cd894373baf15317e893cb904934dfd7675b
+│                       │      │                   745a73c64b3 
+│                       │      ├ Title           : cups: Slow client communication leads to a possible DoS attack 
+│                       │      ├ Description     : OpenPrinting CUPS is an open source printing system for
+│                       │      │                   Linux and other Unix-like operating systems. Prior to
+│                       │      │                   version 2.4.15, a client that connects to cupsd but sends
+│                       │      │                   slow messages, e.g. only one byte per second, delays cupsd
+│                       │      │                   as a whole, such that it becomes unusable by other clients.
+│                       │      │                   This issue has been patched in version 2.4.15. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-400 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.1 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/11/27/4 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-58436 
+│                       │      │                  ├ [2]: https://github.com/OpenPrinting/cups/commit/40008d76a0
+│                       │      │                  │      01babbb9beb9d9d74b01a86fb6ddb4 
+│                       │      │                  ├ [3]: https://github.com/OpenPrinting/cups/releases/tag/v2.4
+│                       │      │                  │      .15 
+│                       │      │                  ├ [4]: https://github.com/OpenPrinting/cups/security/advisori
+│                       │      │                  │      es/GHSA-8wpw-vfgm-qrrr 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-58436 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7912-1 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7912-2 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-58436 
+│                       │      ├ PublishedDate   : 2025-11-29T03:15:59.323Z 
+│                       │      ╰ LastModifiedDate: 2025-12-04T17:24:12.92Z 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2025-61915 
 │                       │      ├ PkgID           : libcups2t64@2.4.12-0ubuntu1.1 
 │                       │      ├ PkgName         : libcups2t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcups2t64@2.4.12-0ubuntu1.1?arch=amd
@@ -29701,10 +29753,14 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ╭ [0]: CWE-124 
 │                       │      │                  ╰ [1]: CWE-129 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:N
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 6.7 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 6 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/11/27/5 
@@ -29719,8 +29775,8 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7897-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-61915 
 │                       │      ├ PublishedDate   : 2025-11-29T03:15:59.52Z 
-│                       │      ╰ LastModifiedDate: 2025-12-03T16:15:58.103Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2025-11563 
+│                       │      ╰ LastModifiedDate: 2025-12-04T17:15:19.827Z 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2025-11563 
 │                       │      ├ PkgID           : libcurl4t64@8.12.1-3ubuntu1 
 │                       │      ├ PkgName         : libcurl4t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.12.1-3ubuntu1?arch=amd64
@@ -29744,7 +29800,7 @@
 │                       │      ├ VendorSeverity   ─ ubuntu: 2 
 │                       │      ╰ References       ╭ [0]: https://curl.se/docs/CVE-2025-11563.html 
 │                       │                         ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2025-11563 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2025-10148 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2025-10148 
 │                       │      ├ PkgID           : libcurl4t64@8.12.1-3ubuntu1 
 │                       │      ├ PkgName         : libcurl4t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.12.1-3ubuntu1?arch=amd64
@@ -29799,7 +29855,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
 │                       │      ╰ LastModifiedDate: 2025-11-18T20:15:45.423Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2025-9086 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2025-9086 
 │                       │      ├ PkgID           : libcurl4t64@8.12.1-3ubuntu1 
 │                       │      ├ PkgName         : libcurl4t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.12.1-3ubuntu1?arch=amd64
@@ -29865,7 +29921,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
 │                       │      ╰ LastModifiedDate: 2025-11-04T22:16:45.19Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2025-1352 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2025-1352 
 │                       │      ├ PkgID           : libelf1t64@0.192-4ubuntu1 
 │                       │      ├ PkgName         : libelf1t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libelf1t64@0.192-4ubuntu1?arch=amd64&d
@@ -29922,7 +29978,7 @@
 │                       │      │                  ╰ [9]: https://www.gnu.org/ 
 │                       │      ├ PublishedDate   : 2025-02-16T15:15:09.133Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T20:34:23.89Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2025-1376 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2025-1376 
 │                       │      ├ PkgID           : libelf1t64@0.192-4ubuntu1 
 │                       │      ├ PkgName         : libelf1t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libelf1t64@0.192-4ubuntu1?arch=amd64&d
@@ -29978,7 +30034,7 @@
 │                       │      │                  ╰ [9]: https://www.gnu.org/ 
 │                       │      ├ PublishedDate   : 2025-02-17T05:15:09.807Z 
 │                       │      ╰ LastModifiedDate: 2025-11-04T20:21:18.26Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2024-2236 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2024-2236 
 │                       │      ├ PkgID           : libgcrypt20@1.11.0-6ubuntu1 
 │                       │      ├ PkgName         : libgcrypt20 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.11.0-6ubuntu1?arch=amd64
@@ -30033,7 +30089,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                       │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                       │      ╰ LastModifiedDate: 2025-04-02T17:15:37.79Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2025-6052 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2025-6052 
 │                       │      ├ PkgID           : libglib2.0-0t64@2.84.1-1ubuntu0.1 
 │                       │      ├ PkgName         : libglib2.0-0t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libglib2.0-0t64@2.84.1-1ubuntu0.1?arch
@@ -30082,7 +30138,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-6052 
 │                       │      ├ PublishedDate   : 2025-06-13T16:15:28.23Z 
 │                       │      ╰ LastModifiedDate: 2025-08-20T17:27:24.26Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2025-6052 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2025-6052 
 │                       │      ├ PkgID           : libglib2.0-data@2.84.1-1ubuntu0.1 
 │                       │      ├ PkgName         : libglib2.0-data 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libglib2.0-data@2.84.1-1ubuntu0.1?arch
@@ -30131,7 +30187,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-6052 
 │                       │      ├ PublishedDate   : 2025-06-13T16:15:28.23Z 
 │                       │      ╰ LastModifiedDate: 2025-08-20T17:27:24.26Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-modules@1.5.3-7ubuntu4.4 
 │                       │      ├ PkgName         : libpam-modules 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu4.4?arch=a
@@ -30201,7 +30257,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-modules-bin@1.5.3-7ubuntu4.4 
 │                       │      ├ PkgName         : libpam-modules-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu4.4?ar
@@ -30271,7 +30327,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-runtime@1.5.3-7ubuntu4.4 
 │                       │      ├ PkgName         : libpam-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu4.4?arch=a
@@ -30341,7 +30397,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam0g@1.5.3-7ubuntu4.4 
 │                       │      ├ PkgName         : libpam0g 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.4?arch=amd64&d
@@ -30411,7 +30467,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2023-37769 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2023-37769 
 │                       │      ├ PkgID           : libpixman-1-0@0.44.0-3 
 │                       │      ├ PkgName         : libpixman-1-0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpixman-1-0@0.44.0-3?arch=amd64&dist
@@ -30445,7 +30501,7 @@
 │                       │      │                  ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2023-37769 
 │                       │      ├ PublishedDate   : 2023-07-17T20:15:13.547Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:12:14.547Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2025-6075 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2025-6075 
 │                       │      ├ PkgID           : libpython3.13@3.13.3-1ubuntu0.3 
 │                       │      ├ PkgName         : libpython3.13 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13@3.13.3-1ubuntu0.3?arch=a
@@ -30519,7 +30575,7 @@
 │                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
 │                       │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
 │                       │      ╰ LastModifiedDate: 2025-12-01T19:15:52.55Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2025-8291 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2025-8291 
 │                       │      ├ PkgID           : libpython3.13@3.13.3-1ubuntu0.3 
 │                       │      ├ PkgName         : libpython3.13 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13@3.13.3-1ubuntu0.3?arch=a
@@ -30601,7 +30657,7 @@
 │                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
 │                       │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
 │                       │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2025-6075 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2025-6075 
 │                       │      ├ PkgID           : libpython3.13-minimal@3.13.3-1ubuntu0.3 
 │                       │      ├ PkgName         : libpython3.13-minimal 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13-minimal@3.13.3-1ubuntu0.
@@ -30675,7 +30731,7 @@
 │                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
 │                       │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
 │                       │      ╰ LastModifiedDate: 2025-12-01T19:15:52.55Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2025-8291 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2025-8291 
 │                       │      ├ PkgID           : libpython3.13-minimal@3.13.3-1ubuntu0.3 
 │                       │      ├ PkgName         : libpython3.13-minimal 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13-minimal@3.13.3-1ubuntu0.
@@ -30757,7 +30813,7 @@
 │                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
 │                       │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
 │                       │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2025-6075 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2025-6075 
 │                       │      ├ PkgID           : libpython3.13-stdlib@3.13.3-1ubuntu0.3 
 │                       │      ├ PkgName         : libpython3.13-stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13-stdlib@3.13.3-1ubuntu0.3
@@ -30831,7 +30887,7 @@
 │                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
 │                       │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
 │                       │      ╰ LastModifiedDate: 2025-12-01T19:15:52.55Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2025-8291 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2025-8291 
 │                       │      ├ PkgID           : libpython3.13-stdlib@3.13.3-1ubuntu0.3 
 │                       │      ├ PkgName         : libpython3.13-stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13-stdlib@3.13.3-1ubuntu0.3
@@ -30913,7 +30969,7 @@
 │                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
 │                       │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
 │                       │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwireshark-data@4.4.5-1 
 │                       │      ├ PkgName         : libwireshark-data 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.4.5-1?arch=all&dis
@@ -30969,7 +31025,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwireshark18@4.4.5-1 
 │                       │      ├ PkgName         : libwireshark18 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark18@4.4.5-1?arch=amd64&dist
@@ -31025,7 +31081,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwiretap15@4.4.5-1 
 │                       │      ├ PkgName         : libwiretap15 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap15@4.4.5-1?arch=amd64&distro
@@ -31081,7 +31137,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwsutil16@4.4.5-1 
 │                       │      ├ PkgName         : libwsutil16 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil16@4.4.5-1?arch=amd64&distro=
@@ -31137,7 +31193,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.16.0-7ubuntu1?arch=all&di
@@ -31199,7 +31255,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.16.0-7ubuntu1?arch=amd64&dist
@@ -31261,7 +31317,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2025-6075 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2025-6075 
 │                       │      ├ PkgID           : python3.13@3.13.3-1ubuntu0.3 
 │                       │      ├ PkgName         : python3.13 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.13@3.13.3-1ubuntu0.3?arch=amd6
@@ -31335,7 +31391,7 @@
 │                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
 │                       │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
 │                       │      ╰ LastModifiedDate: 2025-12-01T19:15:52.55Z 
-│                       ├ [47] ╭ VulnerabilityID : CVE-2025-8291 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2025-8291 
 │                       │      ├ PkgID           : python3.13@3.13.3-1ubuntu0.3 
 │                       │      ├ PkgName         : python3.13 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.13@3.13.3-1ubuntu0.3?arch=amd6
@@ -31417,7 +31473,7 @@
 │                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
 │                       │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
 │                       │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
-│                       ├ [48] ╭ VulnerabilityID : CVE-2025-6075 
+│                       ├ [49] ╭ VulnerabilityID : CVE-2025-6075 
 │                       │      ├ PkgID           : python3.13-minimal@3.13.3-1ubuntu0.3 
 │                       │      ├ PkgName         : python3.13-minimal 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.13-minimal@3.13.3-1ubuntu0.3?a
@@ -31491,7 +31547,7 @@
 │                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
 │                       │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
 │                       │      ╰ LastModifiedDate: 2025-12-01T19:15:52.55Z 
-│                       ├ [49] ╭ VulnerabilityID : CVE-2025-8291 
+│                       ├ [50] ╭ VulnerabilityID : CVE-2025-8291 
 │                       │      ├ PkgID           : python3.13-minimal@3.13.3-1ubuntu0.3 
 │                       │      ├ PkgName         : python3.13-minimal 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.13-minimal@3.13.3-1ubuntu0.3?a
@@ -31573,7 +31629,7 @@
 │                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
 │                       │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
 │                       │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
-│                       ├ [50] ╭ VulnerabilityID : CVE-2025-45582 
+│                       ├ [51] ╭ VulnerabilityID : CVE-2025-45582 
 │                       │      ├ PkgID           : tar@1.35+dfsg-3.1 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1?arch=amd64&distro=
@@ -31642,7 +31698,7 @@
 │                       │      │                         rity-rules-of-thumb.html 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │      ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
-│                       ├ [51] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : tshark@4.4.5-1 
 │                       │      ├ PkgName         : tshark 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.4.5-1?arch=amd64&distro=ubunt
@@ -31698,7 +31754,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [52] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [53] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.24.5-2ubuntu1 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.24.5-2ubuntu1?arch=amd64&distro
@@ -31746,7 +31802,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                       ├ [53] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [54] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : wireshark-common@4.4.5-1 
 │                       │      ├ PkgName         : wireshark-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.4.5-1?arch=amd64&di
@@ -31802,7 +31858,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ╰ [54] ╭ VulnerabilityID : CVE-2023-5574 
+│                       ╰ [55] ╭ VulnerabilityID : CVE-2023-5574 
 │                              ├ PkgID           : x11-common@1:7.7+23ubuntu4 
 │                              ├ PkgName         : x11-common 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/x11-common@7.7%2B23ubuntu4?arch=all&di
@@ -33637,7 +33693,7 @@
                         │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-54410 
                         │     ├ PublishedDate   : 2025-07-30T14:15:28.9Z 
                         │     ╰ LastModifiedDate: 2025-08-22T17:27:29.677Z 
-                        ├ [1] ╭ VulnerabilityID : CVE-2025-61727 
+                        ├ [1] ╭ VulnerabilityID : CVE-2025-61729 
                         │     ├ PkgID           : stdlib@v1.25.4 
                         │     ├ PkgName         : stdlib 
                         │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.25.4 
@@ -33649,27 +33705,33 @@
                         │     │                  │         51991654f340268814f 
                         │     │                  ╰ DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f
                         │     │                            83180303bd9ac0c7167 
-                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-61727 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-61729 
                         │     ├ DataSource       ╭ ID  : govulndb 
                         │     │                  ├ Name: The Go Vulnerability Database 
                         │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                        │     ├ Fingerprint     : sha256:755de023fa9bd5928685fb441b92a700f82da06ff97055196aa534
-                        │     │                   e59d838d96 
-                        │     ├ Title           : An excluded subdomain constraint in a certificate chain does
-                        │     │                   not restr ... 
-                        │     ├ Description     : An excluded subdomain constraint in a certificate chain does
-                        │     │                   not restrict the usage of wildcard SANs in the leaf
-                        │     │                   certificate. For example a constraint that excludes the
-                        │     │                   subdomain test.example.com does not prevent a leaf
-                        │     │                   certificate from claiming the SAN *.example.com. 
-                        │     ├ Severity        : UNKNOWN 
-                        │     ├ References       ╭ [0]: https://go.dev/cl/723900 
-                        │     │                  ├ [1]: https://go.dev/issue/76442 
+                        │     ├ Fingerprint     : sha256:e9d625d9cb2cda765e13265e085727b6037f614f3593673d564f64
+                        │     │                   e9a44aaa5b 
+                        │     ├ Title           : Within HostnameError.Error(), when constructing an error
+                        │     │                   string, there ... 
+                        │     ├ Description     : Within HostnameError.Error(), when constructing an error
+                        │     │                   string, there is no limit to the number of hosts that will be
+                        │     │                    printed out. Furthermore, the error string is constructed by
+                        │     │                    repeated string concatenation, leading to quadratic runtime.
+                        │     │                    Therefore, a certificate provided by a malicious actor can
+                        │     │                   result in excessive resource consumption. 
+                        │     ├ Severity        : HIGH 
+                        │     ├ VendorSeverity   ─ bitnami: 3 
+                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+                        │     │                            │           /A:H 
+                        │     │                            ╰ V3Score : 7.5 
+                        │     ├ References       ╭ [0]: https://go.dev/cl/725920 
+                        │     │                  ├ [1]: https://go.dev/issue/76445 
                         │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkPddm4 
-                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
-                        │     ├ PublishedDate   : 2025-12-03T20:16:25.607Z 
-                        │     ╰ LastModifiedDate: 2025-12-03T22:15:51.51Z 
-                        ╰ [2] ╭ VulnerabilityID : CVE-2025-61729 
+                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
+                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4155 
+                        │     ├ PublishedDate   : 2025-12-02T19:15:51.447Z 
+                        │     ╰ LastModifiedDate: 2025-12-04T17:15:25.86Z 
+                        ╰ [2] ╭ VulnerabilityID : CVE-2025-61727 
                               ├ PkgID           : stdlib@v1.25.4 
                               ├ PkgName         : stdlib 
                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.25.4 
@@ -33681,25 +33743,24 @@
                               │                  │         51991654f340268814f 
                               │                  ╰ DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f
                               │                            83180303bd9ac0c7167 
-                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-61729 
+                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-61727 
                               ├ DataSource       ╭ ID  : govulndb 
                               │                  ├ Name: The Go Vulnerability Database 
                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                              ├ Fingerprint     : sha256:e9d625d9cb2cda765e13265e085727b6037f614f3593673d564f64
-                              │                   e9a44aaa5b 
-                              ├ Title           : Within HostnameError.Error(), when constructing an error
-                              │                   string, there ... 
-                              ├ Description     : Within HostnameError.Error(), when constructing an error
-                              │                   string, there is no limit to the number of hosts that will be
-                              │                    printed out. Furthermore, the error string is constructed by
-                              │                    repeated string concatenation, leading to quadratic runtime.
-                              │                    Therefore, a certificate provided by a malicious actor can
-                              │                   result in excessive resource consumption. 
+                              ├ Fingerprint     : sha256:755de023fa9bd5928685fb441b92a700f82da06ff97055196aa534
+                              │                   e59d838d96 
+                              ├ Title           : An excluded subdomain constraint in a certificate chain does
+                              │                   not restr ... 
+                              ├ Description     : An excluded subdomain constraint in a certificate chain does
+                              │                   not restrict the usage of wildcard SANs in the leaf
+                              │                   certificate. For example a constraint that excludes the
+                              │                   subdomain test.example.com does not prevent a leaf
+                              │                   certificate from claiming the SAN *.example.com. 
                               ├ Severity        : UNKNOWN 
-                              ├ References       ╭ [0]: https://go.dev/cl/725920 
-                              │                  ├ [1]: https://go.dev/issue/76445 
+                              ├ References       ╭ [0]: https://go.dev/cl/723900 
+                              │                  ├ [1]: https://go.dev/issue/76442 
                               │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkPddm4 
-                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4155 
-                              ├ PublishedDate   : 2025-12-02T19:15:51.447Z 
-                              ╰ LastModifiedDate: 2025-12-02T22:16:08.527Z 
+                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+                              ├ PublishedDate   : 2025-12-03T20:16:25.607Z 
+                              ╰ LastModifiedDate: 2025-12-04T17:15:08.283Z 
 ````
