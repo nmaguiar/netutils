@@ -28053,6 +28053,53 @@
     - https://www.cve.org/CVERecord?id=CVE-2019-6461
     PublishedDate: '2019-01-16T18:29:00.51Z'
     LastModifiedDate: '2024-11-21T04:46:29.91Z'
+  - VulnerabilityID: CVE-2025-58436
+    PkgID: libcups2t64@2.4.12-0ubuntu1.1
+    PkgName: libcups2t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcups2t64@2.4.12-0ubuntu1.1?arch=amd64&distro=ubuntu-25.04
+      UID: 67456924643ad81d
+    InstalledVersion: 2.4.12-0ubuntu1.1
+    FixedVersion: 2.4.12-0ubuntu1.6
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58436
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a6729b10ea186bec9cd894373baf15317e893cb904934dfd7675b745a73c64b3
+    Title: 'cups: Slow client communication leads to a possible DoS attack'
+    Description: OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. Prior to version 2.4.15, a client that connects to cupsd but sends slow messages, e.g. only one byte per second, delays cupsd as a whole, such that it becomes unusable by other clients. This issue has been patched in version 2.4.15.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/11/27/4
+    - https://access.redhat.com/security/cve/CVE-2025-58436
+    - https://github.com/OpenPrinting/cups/commit/40008d76a001babbb9beb9d9d74b01a86fb6ddb4
+    - https://github.com/OpenPrinting/cups/releases/tag/v2.4.15
+    - https://github.com/OpenPrinting/cups/security/advisories/GHSA-8wpw-vfgm-qrrr
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-58436
+    - https://ubuntu.com/security/notices/USN-7912-1
+    - https://ubuntu.com/security/notices/USN-7912-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-58436
+    PublishedDate: '2025-11-29T03:15:59.323Z'
+    LastModifiedDate: '2025-12-04T17:24:12.92Z'
   - VulnerabilityID: CVE-2025-61915
     PkgID: libcups2t64@2.4.12-0ubuntu1.1
     PkgName: libcups2t64
@@ -28079,10 +28126,14 @@
     - CWE-124
     - CWE-129
     VendorSeverity:
+      nvd: 2
       photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 6.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H
         V3Score: 6
@@ -28096,7 +28147,7 @@
     - https://ubuntu.com/security/notices/USN-7897-1
     - https://www.cve.org/CVERecord?id=CVE-2025-61915
     PublishedDate: '2025-11-29T03:15:59.52Z'
-    LastModifiedDate: '2025-12-03T16:15:58.103Z'
+    LastModifiedDate: '2025-12-04T17:15:19.827Z'
   - VulnerabilityID: CVE-2025-11563
     PkgID: libcurl4t64@8.12.1-3ubuntu1
     PkgName: libcurl4t64
@@ -31716,6 +31767,41 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-54410
     PublishedDate: '2025-07-30T14:15:28.9Z'
     LastModifiedDate: '2025-08-22T17:27:29.677Z'
+  - VulnerabilityID: CVE-2025-61729
+    PkgID: stdlib@v1.25.4
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.25.4
+      UID: 622d9eff7ffb443a
+    InstalledVersion: v1.25.4
+    FixedVersion: 1.24.11, 1.25.5
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61729
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:e9d625d9cb2cda765e13265e085727b6037f614f3593673d564f64e9a44aaa5b
+    Title: Within HostnameError.Error(), when constructing an error string, there ...
+    Description: Within HostnameError.Error(), when constructing an error string, there is no limit to the number of hosts that will be printed out. Furthermore, the error string is constructed by repeated string concatenation, leading to quadratic runtime. Therefore, a certificate provided by a malicious actor can result in excessive resource consumption.
+    Severity: HIGH
+    VendorSeverity:
+      bitnami: 3
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://go.dev/cl/725920
+    - https://go.dev/issue/76445
+    - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-61729
+    - https://pkg.go.dev/vuln/GO-2025-4155
+    PublishedDate: '2025-12-02T19:15:51.447Z'
+    LastModifiedDate: '2025-12-04T17:15:25.86Z'
   - VulnerabilityID: CVE-2025-61727
     PkgID: stdlib@v1.25.4
     PkgName: stdlib
@@ -31743,32 +31829,4 @@
     - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
     - https://pkg.go.dev/vuln/GO-2025-4175
     PublishedDate: '2025-12-03T20:16:25.607Z'
-    LastModifiedDate: '2025-12-03T22:15:51.51Z'
-  - VulnerabilityID: CVE-2025-61729
-    PkgID: stdlib@v1.25.4
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.25.4
-      UID: 622d9eff7ffb443a
-    InstalledVersion: v1.25.4
-    FixedVersion: 1.24.11, 1.25.5
-    Status: fixed
-    Layer:
-      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
-      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61729
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Fingerprint: sha256:e9d625d9cb2cda765e13265e085727b6037f614f3593673d564f64e9a44aaa5b
-    Title: Within HostnameError.Error(), when constructing an error string, there ...
-    Description: Within HostnameError.Error(), when constructing an error string, there is no limit to the number of hosts that will be printed out. Furthermore, the error string is constructed by repeated string concatenation, leading to quadratic runtime. Therefore, a certificate provided by a malicious actor can result in excessive resource consumption.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/725920
-    - https://go.dev/issue/76445
-    - https://groups.google.com/g/golang-announce/c/8FJoBkPddm4
-    - https://pkg.go.dev/vuln/GO-2025-4155
-    PublishedDate: '2025-12-02T19:15:51.447Z'
-    LastModifiedDate: '2025-12-02T22:16:08.527Z'
+    LastModifiedDate: '2025-12-04T17:15:08.283Z'
