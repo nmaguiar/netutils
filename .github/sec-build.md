@@ -30305,11 +30305,16 @@
                               │                   certificate. For example a constraint that excludes the
                               │                   subdomain test.example.com does not prevent a leaf
                               │                   certificate from claiming the SAN *.example.com. 
-                              ├ Severity        : UNKNOWN 
+                              ├ Severity        : MEDIUM 
+                              ├ VendorSeverity   ─ bitnami: 2 
+                              ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
+                              │                            │           /A:N 
+                              │                            ╰ V3Score : 6.5 
                               ├ References       ╭ [0]: https://go.dev/cl/723900 
                               │                  ├ [1]: https://go.dev/issue/76442 
                               │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkPddm4 
-                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+                              │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-61727 
+                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4175 
                               ├ PublishedDate   : 2025-12-03T20:16:25.607Z 
                               ╰ LastModifiedDate: 2025-12-04T17:15:08.283Z 
 ````
