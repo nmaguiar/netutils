@@ -28984,21 +28984,26 @@
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 6.6 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7064 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52949 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2332702 
-│                       │      │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-7064.html 
-│                       │      │                  ├ [4]: https://github.com/iptraf-ng/iptraf-ng/releases/tag/v1
-│                       │      │                  │      .2.1 
-│                       │      │                  ├ [5]: https://linux.oracle.com/cve/CVE-2024-52949.html 
-│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2025-7064.html 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-52949 
-│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-52949 
-│                       │      │                  ╰ [9]: https://www.gruppotim.it/it/footer/red-team.html 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7064 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52949 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2332702 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2332702 
+│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-52949 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-7064.html 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7064 
+│                       │      │                  ├ [7] : https://github.com/iptraf-ng/iptraf-ng/releases/tag/v
+│                       │      │                  │       1.2.1 
+│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-52949.html 
+│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-7064.html 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-52949 
+│                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-52949 
+│                       │      │                  ╰ [12]: https://www.gruppotim.it/it/footer/red-team.html 
 │                       │      ├ PublishedDate   : 2024-12-16T22:15:06.863Z 
 │                       │      ╰ LastModifiedDate: 2025-10-14T17:29:14.83Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2024-52615 
@@ -29041,7 +29046,7 @@
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2326418 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-52615 
-│                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:16441 
+│                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:11402 
 │                       │      │                  ├ [6] : https://github.com/avahi/avahi/issues/254#issuecommen
 │                       │      │                  │       t-2480519212 
 │                       │      │                  ├ [7] : https://github.com/avahi/avahi/security/advisories/GH
@@ -29085,6 +29090,7 @@
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
@@ -29093,15 +29099,18 @@
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52616 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2326429 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-7437.html 
-│                       │      │                  ├ [5] : https://github.com/avahi/avahi/issues/254#issuecommen
+│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-52616 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-7437.html 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7437 
+│                       │      │                  ├ [7] : https://github.com/avahi/avahi/issues/254#issuecommen
 │                       │      │                  │       t-2480519212 
-│                       │      │                  ├ [6] : https://github.com/avahi/avahi/security/advisories/GH
+│                       │      │                  ├ [8] : https://github.com/avahi/avahi/security/advisories/GH
 │                       │      │                  │       SA-r9j3-vjjh-p8vm 
-│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-52616.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-7437.html 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
-│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
+│                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-52616.html 
+│                       │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7437.html 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
 │                       │      ├ PublishedDate   : 2024-11-21T21:15:24.14Z 
 │                       │      ╰ LastModifiedDate: 2025-05-14T00:15:17.52Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2024-52615 
@@ -29144,7 +29153,7 @@
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2326418 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-52615 
-│                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:16441 
+│                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:11402 
 │                       │      │                  ├ [6] : https://github.com/avahi/avahi/issues/254#issuecommen
 │                       │      │                  │       t-2480519212 
 │                       │      │                  ├ [7] : https://github.com/avahi/avahi/security/advisories/GH
@@ -29188,6 +29197,7 @@
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
@@ -29196,15 +29206,18 @@
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52616 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2326429 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-7437.html 
-│                       │      │                  ├ [5] : https://github.com/avahi/avahi/issues/254#issuecommen
+│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-52616 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-7437.html 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7437 
+│                       │      │                  ├ [7] : https://github.com/avahi/avahi/issues/254#issuecommen
 │                       │      │                  │       t-2480519212 
-│                       │      │                  ├ [6] : https://github.com/avahi/avahi/security/advisories/GH
+│                       │      │                  ├ [8] : https://github.com/avahi/avahi/security/advisories/GH
 │                       │      │                  │       SA-r9j3-vjjh-p8vm 
-│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-52616.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-7437.html 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
-│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
+│                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-52616.html 
+│                       │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7437.html 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
 │                       │      ├ PublishedDate   : 2024-11-21T21:15:24.14Z 
 │                       │      ╰ LastModifiedDate: 2025-05-14T00:15:17.52Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2024-52615 
@@ -29247,7 +29260,7 @@
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2326418 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-52615 
-│                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:16441 
+│                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:11402 
 │                       │      │                  ├ [6] : https://github.com/avahi/avahi/issues/254#issuecommen
 │                       │      │                  │       t-2480519212 
 │                       │      │                  ├ [7] : https://github.com/avahi/avahi/security/advisories/GH
@@ -29291,6 +29304,7 @@
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
@@ -29299,15 +29313,18 @@
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52616 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2326429 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-7437.html 
-│                       │      │                  ├ [5] : https://github.com/avahi/avahi/issues/254#issuecommen
+│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-52616 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-7437.html 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7437 
+│                       │      │                  ├ [7] : https://github.com/avahi/avahi/issues/254#issuecommen
 │                       │      │                  │       t-2480519212 
-│                       │      │                  ├ [6] : https://github.com/avahi/avahi/security/advisories/GH
+│                       │      │                  ├ [8] : https://github.com/avahi/avahi/security/advisories/GH
 │                       │      │                  │       SA-r9j3-vjjh-p8vm 
-│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-52616.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-7437.html 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
-│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
+│                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-52616.html 
+│                       │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7437.html 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
 │                       │      ├ PublishedDate   : 2024-11-21T21:15:24.14Z 
 │                       │      ╰ LastModifiedDate: 2025-05-14T00:15:17.52Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2025-29481 
@@ -30065,6 +30082,7 @@
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -30076,18 +30094,21 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2245218 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2245218 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2268268 
-│                       │      │                  ├ [7] : https://dev.gnupg.org/T7136 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-9404.html 
-│                       │      │                  ├ [9] : https://github.com/tomato42/marvin-toolkit/tree/maste
+│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-2236 
+│                       │      │                  ├ [8] : https://dev.gnupg.org/T7136 
+│                       │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-9404.html 
+│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:9404 
+│                       │      │                  ├ [11]: https://github.com/tomato42/marvin-toolkit/tree/maste
 │                       │      │                  │       r/example/libgcrypt 
-│                       │      │                  ├ [10]: https://gitlab.com/redhat-crypto/libgcrypt/libgcrypt-
+│                       │      │                  ├ [12]: https://gitlab.com/redhat-crypto/libgcrypt/libgcrypt-
 │                       │      │                  │       mirror/-/merge_requests/17 
-│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-2236.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-9404.html 
-│                       │      │                  ├ [13]: https://lists.gnupg.org/pipermail/gcrypt-devel/2024-M
+│                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-2236.html 
+│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-9404.html 
+│                       │      │                  ├ [15]: https://lists.gnupg.org/pipermail/gcrypt-devel/2024-M
 │                       │      │                  │       arch/005607.html 
-│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
-│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
+│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                       │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                       │      ╰ LastModifiedDate: 2025-04-02T17:15:37.79Z 
 │                       ├ [28] ╭ VulnerabilityID : CVE-2025-6052 
@@ -30251,7 +30272,7 @@
 │                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8941 
 │                       │      │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
-│                       │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                       │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2025:15099 
 │                       │      │                  ├ [26]: https://linux.oracle.com/cve/CVE-2025-8941.html 
 │                       │      │                  ├ [27]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
 │                       │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
@@ -30321,7 +30342,7 @@
 │                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8941 
 │                       │      │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
-│                       │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                       │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2025:15099 
 │                       │      │                  ├ [26]: https://linux.oracle.com/cve/CVE-2025-8941.html 
 │                       │      │                  ├ [27]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
 │                       │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
@@ -30391,7 +30412,7 @@
 │                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8941 
 │                       │      │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
-│                       │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                       │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2025:15099 
 │                       │      │                  ├ [26]: https://linux.oracle.com/cve/CVE-2025-8941.html 
 │                       │      │                  ├ [27]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
 │                       │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
@@ -30461,7 +30482,7 @@
 │                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8941 
 │                       │      │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
-│                       │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                       │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2025:15099 
 │                       │      │                  ├ [26]: https://linux.oracle.com/cve/CVE-2025-8941.html 
 │                       │      │                  ├ [27]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
 │                       │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
@@ -31237,13 +31258,13 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.6 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20145 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20559 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56433 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2334165 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2334165 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-56433 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-20145.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
 │                       │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d574
 │                       │      │                  │       1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
@@ -31299,13 +31320,13 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.6 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20145 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20559 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56433 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2334165 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2334165 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-56433 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-20145.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
 │                       │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d574
 │                       │      │                  │       1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
@@ -33757,11 +33778,16 @@
                               │                   certificate. For example a constraint that excludes the
                               │                   subdomain test.example.com does not prevent a leaf
                               │                   certificate from claiming the SAN *.example.com. 
-                              ├ Severity        : UNKNOWN 
+                              ├ Severity        : MEDIUM 
+                              ├ VendorSeverity   ─ bitnami: 2 
+                              ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
+                              │                            │           /A:N 
+                              │                            ╰ V3Score : 6.5 
                               ├ References       ╭ [0]: https://go.dev/cl/723900 
                               │                  ├ [1]: https://go.dev/issue/76442 
                               │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkPddm4 
-                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2025-4175 
+                              │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-61727 
+                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4175 
                               ├ PublishedDate   : 2025-12-03T20:16:25.607Z 
                               ╰ LastModifiedDate: 2025-12-04T17:15:08.283Z 
 ````
