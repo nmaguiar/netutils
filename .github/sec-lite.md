@@ -16028,26 +16028,29 @@
 │                       │      │                  ├ [12]: https://bugzilla.redhat.com/2359622 
 │                       │      │                  ├ [13]: https://bugzilla.redhat.com/2376755 
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2359620 
-│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
-│                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32988 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2359621 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
 │                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32990 
+│                       │      │                  │       25-32988 
 │                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-32989 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-32990 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6395 
-│                       │      │                  ├ [20]: https://errata.almalinux.org/9/ALSA-2025-16116.html 
-│                       │      │                  ├ [21]: https://errata.rockylinux.org/RLSA-2025:17415 
-│                       │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2025-32988.html 
-│                       │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
-│                       │      │                  ├ [24]: https://lists.debian.org/debian-lts-announce/2025/08/
+│                       │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-16116.html 
+│                       │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:16116 
+│                       │      │                  ├ [24]: https://linux.oracle.com/cve/CVE-2025-32988.html 
+│                       │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
+│                       │      │                  ├ [26]: https://lists.debian.org/debian-lts-announce/2025/08/
 │                       │      │                  │       msg00005.html 
-│                       │      │                  ├ [25]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
+│                       │      │                  ├ [27]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                       │      │                  │       ly/004883.html 
-│                       │      │                  ├ [26]: https://nvd.nist.gov/vuln/detail/CVE-2025-32988 
-│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7635-1 
-│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7742-1 
-│                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
+│                       │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2025-32988 
+│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7742-1 
+│                       │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
 │                       │      ├ PublishedDate   : 2025-07-10T08:15:24.223Z 
 │                       │      ╰ LastModifiedDate: 2025-12-01T22:15:47.79Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2025-32990 
@@ -16111,26 +16114,29 @@
 │                       │      │                  ├ [12]: https://bugzilla.redhat.com/2359622 
 │                       │      │                  ├ [13]: https://bugzilla.redhat.com/2376755 
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2359620 
-│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
-│                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32988 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2359621 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
 │                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32990 
+│                       │      │                  │       25-32988 
 │                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-32989 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-32990 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6395 
-│                       │      │                  ├ [20]: https://errata.almalinux.org/9/ALSA-2025-16116.html 
-│                       │      │                  ├ [21]: https://errata.rockylinux.org/RLSA-2025:17415 
-│                       │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2025-32990.html 
-│                       │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
-│                       │      │                  ├ [24]: https://lists.debian.org/debian-lts-announce/2025/08/
+│                       │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-16116.html 
+│                       │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:16116 
+│                       │      │                  ├ [24]: https://linux.oracle.com/cve/CVE-2025-32990.html 
+│                       │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
+│                       │      │                  ├ [26]: https://lists.debian.org/debian-lts-announce/2025/08/
 │                       │      │                  │       msg00005.html 
-│                       │      │                  ├ [25]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
+│                       │      │                  ├ [27]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                       │      │                  │       ly/004883.html 
-│                       │      │                  ├ [26]: https://nvd.nist.gov/vuln/detail/CVE-2025-32990 
-│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7635-1 
-│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7742-1 
-│                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
+│                       │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2025-32990 
+│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7742-1 
+│                       │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
 │                       │      ├ PublishedDate   : 2025-07-10T10:15:33.06Z 
 │                       │      ╰ LastModifiedDate: 2025-12-01T22:15:48.2Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2025-32989 
@@ -16202,7 +16208,7 @@
 │                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6395 
 │                       │      │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-16116.html 
-│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:16115 
+│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:16116 
 │                       │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-32989.html 
 │                       │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
 │                       │      │                  ├ [25]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
@@ -16264,26 +16270,29 @@
 │                       │      │                  ├ [12]: https://bugzilla.redhat.com/2359622 
 │                       │      │                  ├ [13]: https://bugzilla.redhat.com/2376755 
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2359620 
-│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
-│                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32988 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2359621 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
 │                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32990 
+│                       │      │                  │       25-32988 
 │                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-32989 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-32990 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6395 
-│                       │      │                  ├ [20]: https://errata.almalinux.org/9/ALSA-2025-16116.html 
-│                       │      │                  ├ [21]: https://errata.rockylinux.org/RLSA-2025:17415 
-│                       │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2025-6395.html 
-│                       │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
-│                       │      │                  ├ [24]: https://lists.debian.org/debian-lts-announce/2025/08/
+│                       │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-16116.html 
+│                       │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:16116 
+│                       │      │                  ├ [24]: https://linux.oracle.com/cve/CVE-2025-6395.html 
+│                       │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
+│                       │      │                  ├ [26]: https://lists.debian.org/debian-lts-announce/2025/08/
 │                       │      │                  │       msg00005.html 
-│                       │      │                  ├ [25]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
+│                       │      │                  ├ [27]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                       │      │                  │       ly/004883.html 
-│                       │      │                  ├ [26]: https://nvd.nist.gov/vuln/detail/CVE-2025-6395 
-│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7635-1 
-│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7742-1 
-│                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
+│                       │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2025-6395 
+│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7742-1 
+│                       │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
 │                       │      ├ PublishedDate   : 2025-07-10T16:15:25.11Z 
 │                       │      ╰ LastModifiedDate: 2025-12-01T22:15:51.513Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2025-9820 
@@ -16340,22 +16349,27 @@
 │                       │      │                   1.6.51. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ photon     : 3 
-│                       │      │                  ╰ redhat     : 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.1 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-64720 
 │                       │      │                  ├ [1]: https://github.com/pnggroup/libpng/commit/08da33b4c88c
 │                       │      │                  │      fcd36e5a706558a8d7e0e4773643 
-│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/issues/686 
-│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/pull/751 
-│                       │      │                  ├ [4]: https://github.com/pnggroup/libpng/security/advisories
+│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/commit/08da33b4c88c
+│                       │      │                  │      fcd36e5a706558a8d7e0e4773643 (v1.6.51) 
+│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/issues/686 
+│                       │      │                  ├ [4]: https://github.com/pnggroup/libpng/pull/751 
+│                       │      │                  ├ [5]: https://github.com/pnggroup/libpng/security/advisories
 │                       │      │                  │      /GHSA-hfc7-ph9c-wcww 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-64720 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-64720 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-64720 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-64720 
+│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.46Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:35:18.253Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2025-65018 
@@ -16390,27 +16404,87 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ╭ [0]: CWE-122 
 │                       │      │                  ╰ [1]: CWE-787 
-│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ photon     : 3 
-│                       │      │                  ╰ redhat     : 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.1 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-65018 
-│                       │      │                  ├ [1]: https://github.com/pnggroup/libpng/commit/16b5e3823918
-│                       │      │                  │      840aae65c0a6da57c78a5a496a4d 
-│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/commit/218612ddd6b1
-│                       │      │                  │      7944e21eda56caf8b4bf7779d1ea 
-│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/issues/755 
-│                       │      │                  ├ [4]: https://github.com/pnggroup/libpng/pull/757 
-│                       │      │                  ├ [5]: https://github.com/pnggroup/libpng/security/advisories
-│                       │      │                  │      /GHSA-7wv6-48j4-hj3g 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-65018 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-65018 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-65018 
+│                       │      │                  ├ [1] : https://github.com/pnggroup/libpng/commit/16b5e382391
+│                       │      │                  │       8840aae65c0a6da57c78a5a496a4d 
+│                       │      │                  ├ [2] : https://github.com/pnggroup/libpng/commit/16b5e382391
+│                       │      │                  │       8840aae65c0a6da57c78a5a496a4d (v1.6.51) 
+│                       │      │                  ├ [3] : https://github.com/pnggroup/libpng/commit/218612ddd6b
+│                       │      │                  │       17944e21eda56caf8b4bf7779d1ea 
+│                       │      │                  ├ [4] : https://github.com/pnggroup/libpng/commit/218612ddd6b
+│                       │      │                  │       17944e21eda56caf8b4bf7779d1ea (v1.6.51) 
+│                       │      │                  ├ [5] : https://github.com/pnggroup/libpng/issues/755 
+│                       │      │                  ├ [6] : https://github.com/pnggroup/libpng/pull/757 
+│                       │      │                  ├ [7] : https://github.com/pnggroup/libpng/security/advisorie
+│                       │      │                  │       s/GHSA-7wv6-48j4-hj3g 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-65018 
+│                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-65018 
+│                       │      │                  ╰ [10]: https://www.openwall.com/lists/oss-security/2025/11/2
+│                       │      │                          2/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.61Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:34:53.65Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-64505 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-66293 
+│                       │      ├ PkgID           : libpng@1.6.49-r0 
+│                       │      ├ PkgName         : libpng 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.49-r0?arch=x86_64&distro=3.
+│                       │      │                  │       23.0_alpha20251016 
+│                       │      │                  ╰ UID : 8114b0ebd39daac5 
+│                       │      ├ InstalledVersion: 1.6.49-r0 
+│                       │      ├ FixedVersion    : 1.6.53-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:732f72df05006ce41486212bda2ba834ba76cb8af305
+│                       │      │                  │         e102ca607f82ee327e4d 
+│                       │      │                  ╰ DiffID: sha256:093e6f1f0ca3cbd20db248d8ffef0b4d5683de84c604
+│                       │      │                            ace35626002e38078f78 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-66293 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:248dd6c6c502feb6525416d04662930c3115fb7568242fd79ad01
+│                       │      │                   ed74b886b1a 
+│                       │      ├ Title           : libpng: LIBPNG out-of-bounds read in png_image_read_composite 
+│                       │      ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │      │                    raster image files. Prior to 1.6.52, an out-of-bounds read
+│                       │      │                   vulnerability in libpng's simplified API allows reading up
+│                       │      │                   to 1012 bytes beyond the png_sRGB_base[512] array when
+│                       │      │                   processing valid palette PNG images with partial
+│                       │      │                   transparency and gamma correction. The PNG files that
+│                       │      │                   trigger this vulnerability are valid per the PNG
+│                       │      │                   specification; the bug is in libpng's internal state
+│                       │      │                   management. Upgrade to libpng 1.6.52 or later. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ╭ azure : 3 
+│                       │      │                  ╰ redhat: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.1 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/12/03/6 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/12/03/7 
+│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/12/03/8 
+│                       │      │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-66293 
+│                       │      │                  ├ [4]: https://github.com/pnggroup/libpng/commit/788a624d7387
+│                       │      │                  │      a758ffd5c7ab010f1870dea753a1 
+│                       │      │                  ├ [5]: https://github.com/pnggroup/libpng/commit/a05a48b756de
+│                       │      │                  │      63e3234ea6b3b938b8f5f862484a 
+│                       │      │                  ├ [6]: https://github.com/pnggroup/libpng/issues/764 
+│                       │      │                  ├ [7]: https://github.com/pnggroup/libpng/security/advisories
+│                       │      │                  │      /GHSA-9mpm-9pxh-mg4f 
+│                       │      │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2025-66293 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-66293 
+│                       │      ├ PublishedDate   : 2025-12-03T21:15:53.06Z 
+│                       │      ╰ LastModifiedDate: 2025-12-04T17:15:08.283Z 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2025-64505 
 │                       │      ├ PkgID           : libpng@1.6.49-r0 
 │                       │      ├ PkgName         : libpng 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.49-r0?arch=x86_64&distro=3.
@@ -16444,24 +16518,29 @@
 │                       │      │                   1.6.51. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ photon     : 2 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.4 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-64505 
 │                       │      │                  ├ [1]: https://github.com/pnggroup/libpng/commit/6a528eb5fd0d
 │                       │      │                  │      d7f6de1c39d30de0e41473431c37 
-│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/pull/748 
-│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/security/advisories
+│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/commit/6a528eb5fd0d
+│                       │      │                  │      d7f6de1c39d30de0e41473431c37 (v1.6.51) 
+│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/pull/748 
+│                       │      │                  ├ [4]: https://github.com/pnggroup/libpng/security/advisories
 │                       │      │                  │      /GHSA-4952-h5wq-4m42 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-64505 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-64505 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-64505 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-64505 
+│                       │      │                  ╰ [7]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.133Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:28:32.22Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2025-64506 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2025-64506 
 │                       │      ├ PkgID           : libpng@1.6.49-r0 
 │                       │      ├ PkgName         : libpng 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.49-r0?arch=x86_64&distro=3.
@@ -16495,24 +16574,29 @@
 │                       │      │                   version 1.6.51. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ photon     : 2 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 6.1 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-64506 
 │                       │      │                  ├ [1]: https://github.com/pnggroup/libpng/commit/2bd84c019c30
 │                       │      │                  │      0b78e811743fbcddb67c9d9bf821 
-│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/pull/749 
-│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/security/advisories
+│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/commit/2bd84c019c30
+│                       │      │                  │      0b78e811743fbcddb67c9d9bf821 (v1.6.51) 
+│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/pull/749 
+│                       │      │                  ├ [4]: https://github.com/pnggroup/libpng/security/advisories
 │                       │      │                  │      /GHSA-qpr4-xm66-hww6 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-64506 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-64506 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-64506 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-64506 
+│                       │      │                  ╰ [7]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.3Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:34:38.24Z 
-│                       ╰ [11] ╭ VulnerabilityID : CVE-2025-46394 
+│                       ╰ [12] ╭ VulnerabilityID : CVE-2025-46394 
 │                              ├ PkgID           : ssl_client@1.37.0-r24 
 │                              ├ PkgName         : ssl_client 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.37.0-r24?arch=x86_64&dist
