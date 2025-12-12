@@ -27177,6 +27177,7 @@
     Description: wcurl path traversal with percent-encoded slashes
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       ubuntu: 2
     References:
     - https://curl.se/docs/CVE-2025-11563.html
@@ -27408,6 +27409,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
+      photon: 3
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -27470,7 +27472,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-52615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52615
-    - https://errata.rockylinux.org/RLSA-2025:16441
+    - https://errata.rockylinux.org/RLSA-2025:11402
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
     - https://linux.oracle.com/cve/CVE-2024-52615.html
@@ -27570,7 +27572,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-52615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52615
-    - https://errata.rockylinux.org/RLSA-2025:16441
+    - https://errata.rockylinux.org/RLSA-2025:11402
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
     - https://linux.oracle.com/cve/CVE-2024-52615.html
@@ -27670,7 +27672,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-52615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52615
-    - https://errata.rockylinux.org/RLSA-2025:16441
+    - https://errata.rockylinux.org/RLSA-2025:11402
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
     - https://linux.oracle.com/cve/CVE-2024-52615.html
@@ -28066,6 +28068,37 @@
     - https://www.cve.org/CVERecord?id=CVE-2019-6461
     PublishedDate: '2019-01-16T18:29:00.51Z'
     LastModifiedDate: '2024-11-21T04:46:29.91Z'
+  - VulnerabilityID: CVE-2025-62408
+    PkgID: libcares2@1.34.4-2.1ubuntu0.1
+    PkgName: libcares2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcares2@1.34.4-2.1ubuntu0.1?arch=amd64&distro=ubuntu-25.04
+      UID: c77078f93717bc15
+    InstalledVersion: 1.34.4-2.1ubuntu0.1
+    Status: affected
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-62408
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:0dd7ba77b496c49ca333cebea19058b0291131231b97a1a607195ae72f8e9f9f
+    Title: c-ares is an asynchronous resolver library. Versions 1.32.3 through 1. ...
+    Description: c-ares is an asynchronous resolver library. Versions 1.32.3 through 1.34.5  terminate a query after maximum attempts when using read_answer() and process_answer(), which can cause a Denial of Service. This issue is fixed in version 1.34.6.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/c-ares/c-ares/commit/714bf5675c541bd1e668a8db8e67ce012651e618
+    - https://github.com/c-ares/c-ares/security/advisories/GHSA-jq53-42q6-pqr5
+    - https://www.cve.org/CVERecord?id=CVE-2025-62408
+    PublishedDate: '2025-12-08T22:15:52.62Z'
+    LastModifiedDate: '2025-12-09T18:37:33.427Z'
   - VulnerabilityID: CVE-2025-58436
     PkgID: libcups2t64@2.4.12-0ubuntu1.1
     PkgName: libcups2t64
@@ -28183,6 +28216,7 @@
     Description: wcurl path traversal with percent-encoded slashes
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       ubuntu: 2
     References:
     - https://curl.se/docs/CVE-2025-11563.html
@@ -28395,6 +28429,44 @@
     - https://www.gnu.org/
     PublishedDate: '2025-02-17T05:15:09.807Z'
     LastModifiedDate: '2025-11-04T20:21:18.26Z'
+  - VulnerabilityID: CVE-2025-66382
+    PkgID: libexpat1@2.7.1-1
+    PkgName: libexpat1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libexpat1@2.7.1-1?arch=amd64&distro=ubuntu-25.04
+      UID: cc86507144f784d4
+    InstalledVersion: 2.7.1-1
+    Status: affected
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-66382
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:aa891a427cb3b901cdb7336a1f60ff26250c7e37fb3da3228b634448e9caf46c
+    Title: 'libexpat: libexpat: Denial of service via crafted file processing'
+    Description: In libexpat through 2.7.3, a crafted file with an approximate size of 2 MiB can lead to dozens of seconds of processing time.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-407
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/12/02/1
+    - https://access.redhat.com/security/cve/CVE-2025-66382
+    - https://github.com/libexpat/libexpat/issues/1076
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-66382
+    - https://www.cve.org/CVERecord?id=CVE-2025-66382
+    PublishedDate: '2025-11-28T07:15:57.9Z'
+    LastModifiedDate: '2025-12-02T03:16:20.34Z'
   - VulnerabilityID: CVE-2024-2236
     PkgID: libgcrypt20@1.11.0-6ubuntu1
     PkgName: libgcrypt20
@@ -28598,7 +28670,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
     - https://errata.almalinux.org/9/ALSA-2025-15099.html
-    - https://errata.rockylinux.org/RLSA-2025:14557
+    - https://errata.rockylinux.org/RLSA-2025:15099
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
@@ -28665,7 +28737,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
     - https://errata.almalinux.org/9/ALSA-2025-15099.html
-    - https://errata.rockylinux.org/RLSA-2025:14557
+    - https://errata.rockylinux.org/RLSA-2025:15099
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
@@ -28732,7 +28804,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
     - https://errata.almalinux.org/9/ALSA-2025-15099.html
-    - https://errata.rockylinux.org/RLSA-2025:14557
+    - https://errata.rockylinux.org/RLSA-2025:15099
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
@@ -28799,7 +28871,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
     - https://errata.almalinux.org/9/ALSA-2025-15099.html
-    - https://errata.rockylinux.org/RLSA-2025:14557
+    - https://errata.rockylinux.org/RLSA-2025:15099
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
@@ -28841,6 +28913,191 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-37769
     PublishedDate: '2023-07-17T20:15:13.547Z'
     LastModifiedDate: '2024-11-21T08:12:14.547Z'
+  - VulnerabilityID: CVE-2025-64505
+    PkgID: libpng16-16t64@1.6.47-1.1
+    PkgName: libpng16-16t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpng16-16t64@1.6.47-1.1?arch=amd64&distro=ubuntu-25.04
+      UID: a5530704ffa508b7
+    InstalledVersion: 1.6.47-1.1
+    Status: affected
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-64505
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:9e2313db081559e75e6605ebc643297ab9f86cf3f6087a2d6cc7363fa3b23ecb
+    Title: 'libpng: LIBPNG heap buffer overflow via malformed palette index'
+    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. Prior to version 1.6.51, a heap buffer over-read vulnerability exists in libpng's png_do_quantize function when processing PNG files with malformed palette indices. The vulnerability occurs when palette_lookup array bounds are not validated against externally-supplied image data, allowing an attacker to craft a PNG file with out-of-range palette indices that trigger out-of-bounds memory access. This issue has been patched in version 1.6.51.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      amazon: 3
+      azure: 2
+      cbl-mariner: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L
+        V3Score: 4.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-64505
+    - https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37
+    - https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37 (v1.6.51)
+    - https://github.com/pnggroup/libpng/pull/748
+    - https://github.com/pnggroup/libpng/security/advisories/GHSA-4952-h5wq-4m42
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-64505
+    - https://www.cve.org/CVERecord?id=CVE-2025-64505
+    - https://www.openwall.com/lists/oss-security/2025/11/22/1
+    PublishedDate: '2025-11-25T00:15:47.133Z'
+    LastModifiedDate: '2025-11-26T18:28:32.22Z'
+  - VulnerabilityID: CVE-2025-64506
+    PkgID: libpng16-16t64@1.6.47-1.1
+    PkgName: libpng16-16t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpng16-16t64@1.6.47-1.1?arch=amd64&distro=ubuntu-25.04
+      UID: a5530704ffa508b7
+    InstalledVersion: 1.6.47-1.1
+    Status: affected
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-64506
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4348e237e5d7fb8172d7f5483b0973c1b894a4cff73b46b8c37ec7076561c8d3
+    Title: 'libpng: LIBPNG heap buffer over-read'
+    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, a heap buffer over-read vulnerability exists in libpng's png_write_image_8bit function when processing 8-bit images through the simplified write API with convert_to_8bit enabled. The vulnerability affects 8-bit grayscale+alpha, RGB/RGBA, and images with incomplete row data. A conditional guard incorrectly allows 8-bit input to enter code expecting 16-bit input, causing reads up to 2 bytes beyond allocated buffer boundaries. This issue has been patched in version 1.6.51.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      amazon: 3
+      azure: 2
+      cbl-mariner: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-64506
+    - https://github.com/pnggroup/libpng/commit/2bd84c019c300b78e811743fbcddb67c9d9bf821
+    - https://github.com/pnggroup/libpng/commit/2bd84c019c300b78e811743fbcddb67c9d9bf821 (v1.6.51)
+    - https://github.com/pnggroup/libpng/pull/749
+    - https://github.com/pnggroup/libpng/security/advisories/GHSA-qpr4-xm66-hww6
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-64506
+    - https://www.cve.org/CVERecord?id=CVE-2025-64506
+    - https://www.openwall.com/lists/oss-security/2025/11/22/1
+    PublishedDate: '2025-11-25T00:15:47.3Z'
+    LastModifiedDate: '2025-11-26T18:34:38.24Z'
+  - VulnerabilityID: CVE-2025-64720
+    PkgID: libpng16-16t64@1.6.47-1.1
+    PkgName: libpng16-16t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpng16-16t64@1.6.47-1.1?arch=amd64&distro=ubuntu-25.04
+      UID: a5530704ffa508b7
+    InstalledVersion: 1.6.47-1.1
+    Status: affected
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-64720
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4e0297913a1151b4a7e4f5ee859e3135ea0c64bb9f4e213184eadfac32a174d6
+    Title: 'libpng: LIBPNG buffer overflow'
+    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, an out-of-bounds read vulnerability exists in png_image_read_composite when processing palette images with PNG_FLAG_OPTIMIZE_ALPHA enabled. The palette compositing code in png_init_read_transformations incorrectly applies background compositing during premultiplication, violating the invariant component ≤ alpha × 257 required by the simplified PNG API. This issue has been patched in version 1.6.51.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      cbl-mariner: 3
+      photon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
+        V3Score: 7.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-64720
+    - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643
+    - https://github.com/pnggroup/libpng/commit/08da33b4c88cfcd36e5a706558a8d7e0e4773643 (v1.6.51)
+    - https://github.com/pnggroup/libpng/issues/686
+    - https://github.com/pnggroup/libpng/pull/751
+    - https://github.com/pnggroup/libpng/security/advisories/GHSA-hfc7-ph9c-wcww
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-64720
+    - https://www.cve.org/CVERecord?id=CVE-2025-64720
+    - https://www.openwall.com/lists/oss-security/2025/11/22/1
+    PublishedDate: '2025-11-25T00:15:47.46Z'
+    LastModifiedDate: '2025-11-26T18:35:18.253Z'
+  - VulnerabilityID: CVE-2025-65018
+    PkgID: libpng16-16t64@1.6.47-1.1
+    PkgName: libpng16-16t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpng16-16t64@1.6.47-1.1?arch=amd64&distro=ubuntu-25.04
+      UID: a5530704ffa508b7
+    InstalledVersion: 1.6.47-1.1
+    Status: affected
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-65018
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a761d9d48c517aa2d2ca18b75e9990e9376f14621b48357db85739366e6b9c9f
+    Title: 'libpng: LIBPNG heap buffer overflow'
+    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, there is a heap buffer overflow vulnerability in the libpng simplified API function png_image_finish_read when processing 16-bit interlaced PNGs with 8-bit output format. Attacker-crafted interlaced PNG files cause heap writes beyond allocated buffer bounds. This issue has been patched in version 1.6.51.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    - CWE-787
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      cbl-mariner: 3
+      photon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H
+        V3Score: 7.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-65018
+    - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d
+    - https://github.com/pnggroup/libpng/commit/16b5e3823918840aae65c0a6da57c78a5a496a4d (v1.6.51)
+    - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea
+    - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea (v1.6.51)
+    - https://github.com/pnggroup/libpng/issues/755
+    - https://github.com/pnggroup/libpng/pull/757
+    - https://github.com/pnggroup/libpng/security/advisories/GHSA-7wv6-48j4-hj3g
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-65018
+    - https://www.cve.org/CVERecord?id=CVE-2025-65018
+    - https://www.openwall.com/lists/oss-security/2025/11/22/1
+    PublishedDate: '2025-11-25T00:15:47.61Z'
+    LastModifiedDate: '2025-11-26T18:34:53.65Z'
   - VulnerabilityID: CVE-2025-6075
     PkgID: libpython3.13@3.13.3-1ubuntu0.3
     PkgName: libpython3.13
@@ -28869,6 +29126,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      amazon: 1
       bitnami: 1
       redhat: 1
       ubuntu: 2
@@ -28996,6 +29254,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      amazon: 1
       bitnami: 1
       redhat: 1
       ubuntu: 2
@@ -29123,6 +29382,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      amazon: 1
       bitnami: 1
       redhat: 1
       ubuntu: 2
@@ -29465,13 +29725,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:20145
+    - https://access.redhat.com/errata/RHSA-2025:20559
     - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
-    - https://errata.almalinux.org/10/ALSA-2025-20145.html
-    - https://errata.rockylinux.org/RLSA-2025:20145
+    - https://errata.almalinux.org/9/ALSA-2025-20559.html
+    - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -29516,13 +29776,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:20145
+    - https://access.redhat.com/errata/RHSA-2025:20559
     - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
-    - https://errata.almalinux.org/10/ALSA-2025-20145.html
-    - https://errata.rockylinux.org/RLSA-2025:20145
+    - https://errata.almalinux.org/9/ALSA-2025-20559.html
+    - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -29560,6 +29820,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      amazon: 1
       bitnami: 1
       redhat: 1
       ubuntu: 2
@@ -29687,6 +29948,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      amazon: 1
       bitnami: 1
       redhat: 1
       ubuntu: 2
