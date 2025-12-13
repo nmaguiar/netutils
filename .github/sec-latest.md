@@ -29695,7 +29695,8 @@
 │                       │      │                  │       64&distro=ubuntu-25.04 
 │                       │      │                  ╰ UID : c77078f93717bc15 
 │                       │      ├ InstalledVersion: 1.34.4-2.1ubuntu0.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 1.34.4-2.1ubuntu0.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f
 │                       │      │                  │         751991654f340268814f 
 │                       │      │                  ╰ DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442
@@ -29707,8 +29708,8 @@
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Fingerprint     : sha256:0dd7ba77b496c49ca333cebea19058b0291131231b97a1a607195
 │                       │      │                   ae72f8e9f9f 
-│                       │      ├ Title           : c-ares is an asynchronous resolver library. Versions 1.32.3
-│                       │      │                   through 1. ... 
+│                       │      ├ Title           : c-ares: c-ares: Denial of Service due to query termination
+│                       │      │                   after maximum attempts 
 │                       │      ├ Description     : c-ares is an asynchronous resolver library. Versions 1.32.3
 │                       │      │                   through 1.34.5  terminate a query after maximum attempts
 │                       │      │                   when using read_answer() and process_answer(), which can
@@ -29716,12 +29717,19 @@
 │                       │      │                   1.34.6. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ─ ubuntu: 2 
-│                       │      ├ References       ╭ [0]: https://github.com/c-ares/c-ares/commit/714bf5675c541b
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-62408 
+│                       │      │                  ├ [1]: https://github.com/c-ares/c-ares/commit/714bf5675c541b
 │                       │      │                  │      d1e668a8db8e67ce012651e618 
-│                       │      │                  ├ [1]: https://github.com/c-ares/c-ares/security/advisories/G
+│                       │      │                  ├ [2]: https://github.com/c-ares/c-ares/security/advisories/G
 │                       │      │                  │      HSA-jq53-42q6-pqr5 
-│                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2025-62408 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-62408 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7925-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-62408 
 │                       │      ├ PublishedDate   : 2025-12-08T22:15:52.62Z 
 │                       │      ╰ LastModifiedDate: 2025-12-09T18:37:33.427Z 
 │                       ├ [21] ╭ VulnerabilityID : CVE-2025-58436 
@@ -30607,7 +30615,8 @@
 │                       │      │                  │       istro=ubuntu-25.04 
 │                       │      │                  ╰ UID : a5530704ffa508b7 
 │                       │      ├ InstalledVersion: 1.6.47-1.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 1.6.47-1.1ubuntu0.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f
 │                       │      │                  │         751991654f340268814f 
 │                       │      │                  ╰ DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442
@@ -30652,8 +30661,9 @@
 │                       │      │                  ├ [4]: https://github.com/pnggroup/libpng/security/advisories
 │                       │      │                  │      /GHSA-4952-h5wq-4m42 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-64505 
-│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-64505 
-│                       │      │                  ╰ [7]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7924-1 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-64505 
+│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.133Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:28:32.22Z 
 │                       ├ [38] ╭ VulnerabilityID : CVE-2025-64506 
@@ -30663,7 +30673,8 @@
 │                       │      │                  │       istro=ubuntu-25.04 
 │                       │      │                  ╰ UID : a5530704ffa508b7 
 │                       │      ├ InstalledVersion: 1.6.47-1.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 1.6.47-1.1ubuntu0.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f
 │                       │      │                  │         751991654f340268814f 
 │                       │      │                  ╰ DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442
@@ -30708,8 +30719,9 @@
 │                       │      │                  ├ [4]: https://github.com/pnggroup/libpng/security/advisories
 │                       │      │                  │      /GHSA-qpr4-xm66-hww6 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-64506 
-│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-64506 
-│                       │      │                  ╰ [7]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7924-1 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-64506 
+│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.3Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:34:38.24Z 
 │                       ├ [39] ╭ VulnerabilityID : CVE-2025-64720 
@@ -30719,7 +30731,8 @@
 │                       │      │                  │       istro=ubuntu-25.04 
 │                       │      │                  ╰ UID : a5530704ffa508b7 
 │                       │      ├ InstalledVersion: 1.6.47-1.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 1.6.47-1.1ubuntu0.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f
 │                       │      │                  │         751991654f340268814f 
 │                       │      │                  ╰ DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442
@@ -30764,8 +30777,9 @@
 │                       │      │                  ├ [5]: https://github.com/pnggroup/libpng/security/advisories
 │                       │      │                  │      /GHSA-hfc7-ph9c-wcww 
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-64720 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-64720 
-│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7924-1 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-64720 
+│                       │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.46Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:35:18.253Z 
 │                       ├ [40] ╭ VulnerabilityID : CVE-2025-65018 
@@ -30775,7 +30789,8 @@
 │                       │      │                  │       istro=ubuntu-25.04 
 │                       │      │                  ╰ UID : a5530704ffa508b7 
 │                       │      ├ InstalledVersion: 1.6.47-1.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 1.6.47-1.1ubuntu0.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f
 │                       │      │                  │         751991654f340268814f 
 │                       │      │                  ╰ DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442
@@ -30823,8 +30838,9 @@
 │                       │      │                  ├ [7] : https://github.com/pnggroup/libpng/security/advisorie
 │                       │      │                  │       s/GHSA-7wv6-48j4-hj3g 
 │                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-65018 
-│                       │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2025-65018 
-│                       │      │                  ╰ [10]: https://www.openwall.com/lists/oss-security/2025/11/2
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7924-1 
+│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-65018 
+│                       │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2025/11/2
 │                       │      │                          2/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.61Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:34:53.65Z 
@@ -34043,8 +34059,9 @@
                         │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
                         │     ├ Fingerprint     : sha256:e9d625d9cb2cda765e13265e085727b6037f614f3593673d564f64
                         │     │                   e9a44aaa5b 
-                        │     ├ Title           : Within HostnameError.Error(), when constructing an error
-                        │     │                   string, there ... 
+                        │     ├ Title           : crypto/x509: Excessive resource consumption when printing
+                        │     │                   error string for host certificate validation in crypto/x509[
+                        │     │                   m 
                         │     ├ Description     : Within HostnameError.Error(), when constructing an error
                         │     │                   string, there is no limit to the number of hosts that will be
                         │     │                    printed out. Furthermore, the error string is constructed by
@@ -34052,15 +34069,21 @@
                         │     │                    Therefore, a certificate provided by a malicious actor can
                         │     │                   result in excessive resource consumption. 
                         │     ├ Severity        : HIGH 
-                        │     ├ VendorSeverity   ─ bitnami: 3 
-                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+                        │     ├ VendorSeverity   ╭ bitnami: 3 
+                        │     │                  ╰ redhat : 3 
+                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+                        │     │                  │         │           /A:H 
+                        │     │                  │         ╰ V3Score : 7.5 
+                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
                         │     │                            │           /A:H 
                         │     │                            ╰ V3Score : 7.5 
-                        │     ├ References       ╭ [0]: https://go.dev/cl/725920 
-                        │     │                  ├ [1]: https://go.dev/issue/76445 
-                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkPddm4 
-                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
-                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4155 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-61729 
+                        │     │                  ├ [1]: https://go.dev/cl/725920 
+                        │     │                  ├ [2]: https://go.dev/issue/76445 
+                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/8FJoBkPddm4 
+                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-61729 
+                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-4155 
+                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-61729 
                         │     ├ PublishedDate   : 2025-12-02T19:15:51.447Z 
                         │     ╰ LastModifiedDate: 2025-12-04T17:15:25.86Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2025-61727 
