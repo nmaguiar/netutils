@@ -15283,7 +15283,6 @@
     - https://access.redhat.com/errata/RHSA-2025:22529
     - https://access.redhat.com/security/cve/CVE-2025-32988
     - https://bugzilla.redhat.com/2359620
-    - https://bugzilla.redhat.com/2359621
     - https://bugzilla.redhat.com/2359622
     - https://bugzilla.redhat.com/2376755
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359620
@@ -15294,7 +15293,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32989
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32990
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6395
-    - https://errata.almalinux.org/9/ALSA-2025-16116.html
+    - https://errata.almalinux.org/8/ALSA-2025-17415.html
     - https://errata.rockylinux.org/RLSA-2025:16116
     - https://linux.oracle.com/cve/CVE-2025-32988.html
     - https://linux.oracle.com/errata/ELSA-2025-20606.html
@@ -15360,7 +15359,6 @@
     - https://access.redhat.com/errata/RHSA-2025:22529
     - https://access.redhat.com/security/cve/CVE-2025-32990
     - https://bugzilla.redhat.com/2359620
-    - https://bugzilla.redhat.com/2359621
     - https://bugzilla.redhat.com/2359622
     - https://bugzilla.redhat.com/2376755
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359620
@@ -15371,7 +15369,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32989
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32990
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6395
-    - https://errata.almalinux.org/9/ALSA-2025-16116.html
+    - https://errata.almalinux.org/8/ALSA-2025-17415.html
     - https://errata.rockylinux.org/RLSA-2025:16116
     - https://linux.oracle.com/cve/CVE-2025-32990.html
     - https://linux.oracle.com/errata/ELSA-2025-20606.html
@@ -15501,7 +15499,6 @@
     - https://access.redhat.com/errata/RHSA-2025:22529
     - https://access.redhat.com/security/cve/CVE-2025-6395
     - https://bugzilla.redhat.com/2359620
-    - https://bugzilla.redhat.com/2359621
     - https://bugzilla.redhat.com/2359622
     - https://bugzilla.redhat.com/2376755
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359620
@@ -15512,7 +15509,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32989
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32990
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6395
-    - https://errata.almalinux.org/9/ALSA-2025-16116.html
+    - https://errata.almalinux.org/8/ALSA-2025-17415.html
     - https://errata.rockylinux.org/RLSA-2025:16116
     - https://linux.oracle.com/cve/CVE-2025-6395.html
     - https://linux.oracle.com/errata/ELSA-2025-20606.html
