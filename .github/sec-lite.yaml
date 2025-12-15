@@ -15226,6 +15226,45 @@
     - https://www.openwall.com/lists/oss-security/2025/04/23/1
     PublishedDate: '2025-04-23T16:15:48.713Z'
     LastModifiedDate: '2025-09-24T14:38:22.127Z'
+  - VulnerabilityID: CVE-2025-62408
+    PkgID: c-ares@1.34.5-r0
+    PkgName: c-ares
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/c-ares@1.34.5-r0?arch=x86_64&distro=3.23.0_alpha20251016
+      UID: d42a24c1ed8d1a3b
+    InstalledVersion: 1.34.5-r0
+    FixedVersion: 1.34.6-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:732f72df05006ce41486212bda2ba834ba76cb8af305e102ca607f82ee327e4d
+      DiffID: sha256:093e6f1f0ca3cbd20db248d8ffef0b4d5683de84c604ace35626002e38078f78
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-62408
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:3c0414b706181859dc21ed5647c9c1aff4d3d40519eaa75d3cc6138e3a8359e1
+    Title: 'c-ares: c-ares: Denial of Service due to query termination after maximum attempts'
+    Description: c-ares is an asynchronous resolver library. Versions 1.32.3 through 1.34.5  terminate a query after maximum attempts when using read_answer() and process_answer(), which can cause a Denial of Service. This issue is fixed in version 1.34.6.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-62408
+    - https://github.com/c-ares/c-ares/commit/714bf5675c541bd1e668a8db8e67ce012651e618
+    - https://github.com/c-ares/c-ares/security/advisories/GHSA-jq53-42q6-pqr5
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-62408
+    - https://ubuntu.com/security/notices/USN-7925-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-62408
+    PublishedDate: '2025-12-08T22:15:52.62Z'
+    LastModifiedDate: '2025-12-09T18:37:33.427Z'
   - VulnerabilityID: CVE-2025-32988
     PkgID: gnutls@3.8.8-r0
     PkgName: gnutls
@@ -15283,6 +15322,7 @@
     - https://access.redhat.com/errata/RHSA-2025:22529
     - https://access.redhat.com/security/cve/CVE-2025-32988
     - https://bugzilla.redhat.com/2359620
+    - https://bugzilla.redhat.com/2359621
     - https://bugzilla.redhat.com/2359622
     - https://bugzilla.redhat.com/2376755
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359620
@@ -15293,7 +15333,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32989
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32990
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6395
-    - https://errata.almalinux.org/8/ALSA-2025-17415.html
+    - https://errata.almalinux.org/9/ALSA-2025-16116.html
     - https://errata.rockylinux.org/RLSA-2025:16116
     - https://linux.oracle.com/cve/CVE-2025-32988.html
     - https://linux.oracle.com/errata/ELSA-2025-20606.html
@@ -15359,6 +15399,7 @@
     - https://access.redhat.com/errata/RHSA-2025:22529
     - https://access.redhat.com/security/cve/CVE-2025-32990
     - https://bugzilla.redhat.com/2359620
+    - https://bugzilla.redhat.com/2359621
     - https://bugzilla.redhat.com/2359622
     - https://bugzilla.redhat.com/2376755
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359620
@@ -15369,7 +15410,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32989
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32990
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6395
-    - https://errata.almalinux.org/8/ALSA-2025-17415.html
+    - https://errata.almalinux.org/9/ALSA-2025-16116.html
     - https://errata.rockylinux.org/RLSA-2025:16116
     - https://linux.oracle.com/cve/CVE-2025-32990.html
     - https://linux.oracle.com/errata/ELSA-2025-20606.html
@@ -15499,6 +15540,7 @@
     - https://access.redhat.com/errata/RHSA-2025:22529
     - https://access.redhat.com/security/cve/CVE-2025-6395
     - https://bugzilla.redhat.com/2359620
+    - https://bugzilla.redhat.com/2359621
     - https://bugzilla.redhat.com/2359622
     - https://bugzilla.redhat.com/2376755
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359620
@@ -15509,7 +15551,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32989
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32990
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6395
-    - https://errata.almalinux.org/8/ALSA-2025-17415.html
+    - https://errata.almalinux.org/9/ALSA-2025-16116.html
     - https://errata.rockylinux.org/RLSA-2025:16116
     - https://linux.oracle.com/cve/CVE-2025-6395.html
     - https://linux.oracle.com/errata/ELSA-2025-20606.html
