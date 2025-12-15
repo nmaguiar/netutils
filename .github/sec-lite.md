@@ -15962,7 +15962,50 @@
 │                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/04/23/1 
 │                       │      ├ PublishedDate   : 2025-04-23T16:15:48.713Z 
 │                       │      ╰ LastModifiedDate: 2025-09-24T14:38:22.127Z 
-│                       ├ [2]  ╭ VulnerabilityID : CVE-2025-32988 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2025-62408 
+│                       │      ├ PkgID           : c-ares@1.34.5-r0 
+│                       │      ├ PkgName         : c-ares 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/c-ares@1.34.5-r0?arch=x86_64&distro=3.
+│                       │      │                  │       23.0_alpha20251016 
+│                       │      │                  ╰ UID : d42a24c1ed8d1a3b 
+│                       │      ├ InstalledVersion: 1.34.5-r0 
+│                       │      ├ FixedVersion    : 1.34.6-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:732f72df05006ce41486212bda2ba834ba76cb8af305
+│                       │      │                  │         e102ca607f82ee327e4d 
+│                       │      │                  ╰ DiffID: sha256:093e6f1f0ca3cbd20db248d8ffef0b4d5683de84c604
+│                       │      │                            ace35626002e38078f78 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-62408 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:3c0414b706181859dc21ed5647c9c1aff4d3d40519eaa75d3cc61
+│                       │      │                   38e3a8359e1 
+│                       │      ├ Title           : c-ares: c-ares: Denial of Service due to query termination
+│                       │      │                   after maximum attempts 
+│                       │      ├ Description     : c-ares is an asynchronous resolver library. Versions 1.32.3
+│                       │      │                   through 1.34.5  terminate a query after maximum attempts
+│                       │      │                   when using read_answer() and process_answer(), which can
+│                       │      │                   cause a Denial of Service. This issue is fixed in version
+│                       │      │                   1.34.6. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-416 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-62408 
+│                       │      │                  ├ [1]: https://github.com/c-ares/c-ares/commit/714bf5675c541b
+│                       │      │                  │      d1e668a8db8e67ce012651e618 
+│                       │      │                  ├ [2]: https://github.com/c-ares/c-ares/security/advisories/G
+│                       │      │                  │      HSA-jq53-42q6-pqr5 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-62408 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7925-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-62408 
+│                       │      ├ PublishedDate   : 2025-12-08T22:15:52.62Z 
+│                       │      ╰ LastModifiedDate: 2025-12-09T18:37:33.427Z 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-32988 
 │                       │      ├ PkgID           : gnutls@3.8.8-r0 
 │                       │      ├ PkgName         : gnutls 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/gnutls@3.8.8-r0?arch=x86_64&distro=3.2
@@ -16024,35 +16067,36 @@
 │                       │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:22529 
 │                       │      │                  ├ [9] : https://access.redhat.com/security/cve/CVE-2025-32988 
 │                       │      │                  ├ [10]: https://bugzilla.redhat.com/2359620 
-│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2359622 
-│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2376755 
-│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2359620 
-│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2359621 
-│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
-│                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32988 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2359621 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2359622 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2376755 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2359620 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2359621 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
 │                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32989 
+│                       │      │                  │       25-32988 
 │                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32990 
+│                       │      │                  │       25-32989 
 │                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-32990 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6395 
-│                       │      │                  ├ [21]: https://errata.almalinux.org/8/ALSA-2025-17415.html 
-│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:16116 
-│                       │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-32988.html 
-│                       │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
-│                       │      │                  ├ [25]: https://lists.debian.org/debian-lts-announce/2025/08/
+│                       │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-16116.html 
+│                       │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:16116 
+│                       │      │                  ├ [24]: https://linux.oracle.com/cve/CVE-2025-32988.html 
+│                       │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
+│                       │      │                  ├ [26]: https://lists.debian.org/debian-lts-announce/2025/08/
 │                       │      │                  │       msg00005.html 
-│                       │      │                  ├ [26]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
+│                       │      │                  ├ [27]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                       │      │                  │       ly/004883.html 
-│                       │      │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2025-32988 
-│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7635-1 
-│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-7742-1 
-│                       │      │                  ╰ [30]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
+│                       │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2025-32988 
+│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7742-1 
+│                       │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
 │                       │      ├ PublishedDate   : 2025-07-10T08:15:24.223Z 
 │                       │      ╰ LastModifiedDate: 2025-12-01T22:15:47.79Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-32990 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-32990 
 │                       │      ├ PkgID           : gnutls@3.8.8-r0 
 │                       │      ├ PkgName         : gnutls 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/gnutls@3.8.8-r0?arch=x86_64&distro=3.2
@@ -16109,35 +16153,36 @@
 │                       │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:22529 
 │                       │      │                  ├ [9] : https://access.redhat.com/security/cve/CVE-2025-32990 
 │                       │      │                  ├ [10]: https://bugzilla.redhat.com/2359620 
-│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2359622 
-│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2376755 
-│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2359620 
-│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2359621 
-│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
-│                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32988 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2359621 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2359622 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2376755 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2359620 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2359621 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
 │                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32989 
+│                       │      │                  │       25-32988 
 │                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32990 
+│                       │      │                  │       25-32989 
 │                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-32990 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6395 
-│                       │      │                  ├ [21]: https://errata.almalinux.org/8/ALSA-2025-17415.html 
-│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:16116 
-│                       │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-32990.html 
-│                       │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
-│                       │      │                  ├ [25]: https://lists.debian.org/debian-lts-announce/2025/08/
+│                       │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-16116.html 
+│                       │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:16116 
+│                       │      │                  ├ [24]: https://linux.oracle.com/cve/CVE-2025-32990.html 
+│                       │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
+│                       │      │                  ├ [26]: https://lists.debian.org/debian-lts-announce/2025/08/
 │                       │      │                  │       msg00005.html 
-│                       │      │                  ├ [26]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
+│                       │      │                  ├ [27]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                       │      │                  │       ly/004883.html 
-│                       │      │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2025-32990 
-│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7635-1 
-│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-7742-1 
-│                       │      │                  ╰ [30]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
+│                       │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2025-32990 
+│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7742-1 
+│                       │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
 │                       │      ├ PublishedDate   : 2025-07-10T10:15:33.06Z 
 │                       │      ╰ LastModifiedDate: 2025-12-01T22:15:48.2Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-32989 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-32989 
 │                       │      ├ PkgID           : gnutls@3.8.8-r0 
 │                       │      ├ PkgName         : gnutls 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/gnutls@3.8.8-r0?arch=x86_64&distro=3.2
@@ -16216,7 +16261,7 @@
 │                       │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2025-32989 
 │                       │      ├ PublishedDate   : 2025-07-10T08:15:24.43Z 
 │                       │      ╰ LastModifiedDate: 2025-12-01T22:15:48.027Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-6395 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-6395 
 │                       │      ├ PkgID           : gnutls@3.8.8-r0 
 │                       │      ├ PkgName         : gnutls 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/gnutls@3.8.8-r0?arch=x86_64&distro=3.2
@@ -16264,35 +16309,36 @@
 │                       │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:22529 
 │                       │      │                  ├ [9] : https://access.redhat.com/security/cve/CVE-2025-6395 
 │                       │      │                  ├ [10]: https://bugzilla.redhat.com/2359620 
-│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2359622 
-│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2376755 
-│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2359620 
-│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2359621 
-│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
-│                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32988 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2359621 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2359622 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2376755 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2359620 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2359621 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
 │                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32989 
+│                       │      │                  │       25-32988 
 │                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32990 
+│                       │      │                  │       25-32989 
 │                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-32990 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6395 
-│                       │      │                  ├ [21]: https://errata.almalinux.org/8/ALSA-2025-17415.html 
-│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:16116 
-│                       │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-6395.html 
-│                       │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
-│                       │      │                  ├ [25]: https://lists.debian.org/debian-lts-announce/2025/08/
+│                       │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-16116.html 
+│                       │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:16116 
+│                       │      │                  ├ [24]: https://linux.oracle.com/cve/CVE-2025-6395.html 
+│                       │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
+│                       │      │                  ├ [26]: https://lists.debian.org/debian-lts-announce/2025/08/
 │                       │      │                  │       msg00005.html 
-│                       │      │                  ├ [26]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
+│                       │      │                  ├ [27]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                       │      │                  │       ly/004883.html 
-│                       │      │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2025-6395 
-│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7635-1 
-│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-7742-1 
-│                       │      │                  ╰ [30]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
+│                       │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2025-6395 
+│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7742-1 
+│                       │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
 │                       │      ├ PublishedDate   : 2025-07-10T16:15:25.11Z 
 │                       │      ╰ LastModifiedDate: 2025-12-01T22:15:51.513Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-9820 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-9820 
 │                       │      ├ PkgID           : gnutls@3.8.8-r0 
 │                       │      ├ PkgName         : gnutls 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/gnutls@3.8.8-r0?arch=x86_64&distro=3.2
@@ -16313,7 +16359,7 @@
 │                       │      │                   f17fa6a60c2 
 │                       │      ├ Title           : [GNUTLS-SA-2025-11-18] 
 │                       │      ╰ Severity        : UNKNOWN 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-64720 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-64720 
 │                       │      ├ PkgID           : libpng@1.6.49-r0 
 │                       │      ├ PkgName         : libpng 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.49-r0?arch=x86_64&distro=3.
@@ -16370,7 +16416,7 @@
 │                       │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.46Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:35:18.253Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-65018 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-65018 
 │                       │      ├ PkgID           : libpng@1.6.49-r0 
 │                       │      ├ PkgName         : libpng 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.49-r0?arch=x86_64&distro=3.
@@ -16431,7 +16477,7 @@
 │                       │      │                          2/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.61Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:34:53.65Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-66293 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2025-66293 
 │                       │      ├ PkgID           : libpng@1.6.49-r0 
 │                       │      ├ PkgName         : libpng 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.49-r0?arch=x86_64&distro=3.
@@ -16483,7 +16529,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-66293 
 │                       │      ├ PublishedDate   : 2025-12-03T21:15:53.06Z 
 │                       │      ╰ LastModifiedDate: 2025-12-04T17:15:08.283Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2025-64505 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2025-64505 
 │                       │      ├ PkgID           : libpng@1.6.49-r0 
 │                       │      ├ PkgName         : libpng 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.49-r0?arch=x86_64&distro=3.
@@ -16540,7 +16586,7 @@
 │                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.133Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:28:32.22Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2025-64506 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2025-64506 
 │                       │      ├ PkgID           : libpng@1.6.49-r0 
 │                       │      ├ PkgName         : libpng 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.49-r0?arch=x86_64&distro=3.
@@ -16597,7 +16643,7 @@
 │                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.3Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:34:38.24Z 
-│                       ╰ [12] ╭ VulnerabilityID : CVE-2025-46394 
+│                       ╰ [13] ╭ VulnerabilityID : CVE-2025-46394 
 │                              ├ PkgID           : ssl_client@1.37.0-r24 
 │                              ├ PkgName         : ssl_client 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.37.0-r24?arch=x86_64&dist
