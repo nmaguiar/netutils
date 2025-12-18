@@ -29817,7 +29817,8 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ╭ [0]: CWE-124 
 │                       │      │                  ╰ [1]: CWE-129 
-│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ nvd   : 2 
 │                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
@@ -30874,6 +30875,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-400 
 │                       │      ├ VendorSeverity   ╭ amazon : 1 
+│                       │      │                  ├ azure  : 1 
 │                       │      │                  ├ bitnami: 1 
 │                       │      │                  ├ redhat : 1 
 │                       │      │                  ╰ ubuntu : 2 
@@ -31031,6 +31033,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-400 
 │                       │      ├ VendorSeverity   ╭ amazon : 1 
+│                       │      │                  ├ azure  : 1 
 │                       │      │                  ├ bitnami: 1 
 │                       │      │                  ├ redhat : 1 
 │                       │      │                  ╰ ubuntu : 2 
@@ -31188,6 +31191,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-400 
 │                       │      ├ VendorSeverity   ╭ amazon : 1 
+│                       │      │                  ├ azure  : 1 
 │                       │      │                  ├ bitnami: 1 
 │                       │      │                  ├ redhat : 1 
 │                       │      │                  ╰ ubuntu : 2 
@@ -31693,6 +31697,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-400 
 │                       │      ├ VendorSeverity   ╭ amazon : 1 
+│                       │      │                  ├ azure  : 1 
 │                       │      │                  ├ bitnami: 1 
 │                       │      │                  ├ redhat : 1 
 │                       │      │                  ╰ ubuntu : 2 
@@ -31850,6 +31855,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-400 
 │                       │      ├ VendorSeverity   ╭ amazon : 1 
+│                       │      │                  ├ azure  : 1 
 │                       │      │                  ├ bitnami: 1 
 │                       │      │                  ├ redhat : 1 
 │                       │      │                  ╰ ubuntu : 2 
@@ -34104,23 +34110,29 @@
                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
                               ├ Fingerprint     : sha256:755de023fa9bd5928685fb441b92a700f82da06ff97055196aa534
                               │                   e59d838d96 
-                              ├ Title           : An excluded subdomain constraint in a certificate chain does
-                              │                   not restr ... 
+                              ├ Title           : golang: crypto/x509: excluded subdomain constraint does not
+                              │                   restrict wildcard SANs 
                               ├ Description     : An excluded subdomain constraint in a certificate chain does
                               │                   not restrict the usage of wildcard SANs in the leaf
                               │                   certificate. For example a constraint that excludes the
                               │                   subdomain test.example.com does not prevent a leaf
                               │                   certificate from claiming the SAN *.example.com. 
                               ├ Severity        : MEDIUM 
-                              ├ VendorSeverity   ─ bitnami: 2 
-                              ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
+                              ├ VendorSeverity   ╭ bitnami: 2 
+                              │                  ╰ redhat : 2 
+                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
+                              │                  │         │           /A:N 
+                              │                  │         ╰ V3Score : 6.5 
+                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
                               │                            │           /A:N 
                               │                            ╰ V3Score : 6.5 
-                              ├ References       ╭ [0]: https://go.dev/cl/723900 
-                              │                  ├ [1]: https://go.dev/issue/76442 
-                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/8FJoBkPddm4 
-                              │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-61727 
-                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2025-4175 
+                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-61727 
+                              │                  ├ [1]: https://go.dev/cl/723900 
+                              │                  ├ [2]: https://go.dev/issue/76442 
+                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/8FJoBkPddm4 
+                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-61727 
+                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2025-4175 
+                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-61727 
                               ├ PublishedDate   : 2025-12-03T20:16:25.607Z 
                               ╰ LastModifiedDate: 2025-12-04T17:15:08.283Z 
 ````
