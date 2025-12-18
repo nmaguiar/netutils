@@ -1,10 +1,10 @@
-FROM openaf/oaf:edge as main
+FROM openaf/oaf:edge AS main
 
 USER root
 RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
  && apk update\
  && apk upgrade --available\
- && apk --no-cache add tar gzip bash tmux vim iperf iperf-doc tcpdump tcpdump-doc nmap nmap-doc iftop iftop-doc drill netcat-openbsd netcat-openbsd-doc lynx lynx-doc iproute2 iproute2-doc iptables iptables-doc fping fping-doc conntrack-tools conntrack-tools-doc lazydocker iputils iptraf-ng iptraf-ng-doc ngrep ngrep-doc tcptraceroute tcptraceroute-doc socat socat-doc mtr mtr-doc termshark curl curl-doc inetutils-telnet websocat bash-completion python3 sysstat sysstat-doc iotop iotop-doc htop htop-doc mc mandoc man-pages util-linux-doc tinyproxy tinyproxy-doc strace strace-doc procps openssl sslproxy sslproxy-doc\
+ && apk --no-cache add tar gzip bash tmux vim iperf iperf-doc tcpdump tcpdump-doc nmap nmap-doc iftop iftop-doc drill netcat-openbsd netcat-openbsd-doc lynx lynx-doc iproute2 iproute2-doc iptables iptables-doc fping fping-doc conntrack-tools conntrack-tools-doc lazydocker iputils iptraf-ng iptraf-ng-doc ngrep ngrep-doc tcptraceroute tcptraceroute-doc socat socat-doc mtr mtr-doc termshark curl curl-doc inetutils-telnet websocat bash-completion python3 sysstat sysstat-doc iotop iotop-doc htop htop-doc mc mandoc man-pages util-linux-doc tinyproxy tinyproxy-doc strace strace-doc procps openssl\
  && /openaf/opack install SocksServer Morse oJob-common\
  && mkdir /openaf/ojobs\
  && curl -s https://ojob.io/oaf/colorFormats.yaml > /openaf/ojobs/colorFormats.yaml\
@@ -27,7 +27,7 @@ RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
  && cd /openaf/ojobs\
  && /openaf/ojob ojob.io/get airgap=true job=ojob.io/grid/data/gc2\
  && mv ojob.io_grid_data_gc2.yaml javaGC.yaml\
- && sed javaGC.yaml -i -e "s/ojob.io_grid_show.yaml/\/openaf\/ojobs\/ojob.io_grid_show.yaml/"\
+ && sed -i -e "s/ojob.io_grid_show.yaml/\\/openaf\\/ojobs\\/ojob.io_grid_show.yaml/" javaGC.yaml\
  && /openaf/oaf --sb /openaf/ojobs/colorFormats.yaml\
  && /openaf/oaf --sb /openaf/ojobs/doh.yaml\
  && /openaf/oaf --sb /openaf/ojobs/jdbc.yaml\
@@ -50,9 +50,9 @@ RUN sed -i 's/v[0-9]*\.[0-9]*/edge/g' /etc/apk/repositories\
  && chown openaf:0 /openaf/.opack.db\
  && chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
  && chmod a+rwx /openaf\
- && sudo chmod g+w /openaf/.opack.db\
- && sudo adduser mitm -u 666 -D 2>/dev/null\
- && sudo adduser sslproxy -u 667 -D 2>/dev/null
+ && chmod g+w /openaf/.opack.db\
+ && adduser mitm -u 666 -D 2>/dev/null || true\
+ && adduser sslproxy -u 667 -D 2>/dev/null || true
 
 COPY ojobs/softVersions.yaml /openaf/ojobs/softVersions.yaml
 COPY ojobs/socksProxy.yaml /openaf/ojobs/socksProxy.yaml
@@ -76,6 +76,8 @@ RUN mkdir /netutils\
 COPY welcome.txt /etc/netutils
 RUN echo " (lite version)" >> /etc/netutils\
  && gzip /etc/netutils\
+ && mkdir -p /etc/bash\
+ && mkdir -p /etc/profile.d\
  && echo "zcat /etc/netutils.gz" >> /etc/bash/start.sh\
  && echo "echo ''" >> /etc/bash/start.sh\
  && echo "alias oafptab='oafp in=lines linesvisual=true linesjoin=true out=ctable'" >> /etc/bash/start.sh\
@@ -90,7 +92,7 @@ RUN echo " (lite version)" >> /etc/netutils\
 
 RUN /openaf/oaf --bashcompletion all > /openaf/.openaf_completion.sh\
  && chmod a+x /openaf/.openaf_*.sh\
- && chown openaf:openaf /openaf/.openaf_*.sh\
+ && chown openaf:0 /openaf/.openaf_*.sh\
  && echo ". /openaf/.openaf_completion.sh" >> /etc/bash/start.sh
 
 # Documentation
@@ -121,7 +123,7 @@ RUN chmod a+x /usr/bin/sslproxy-*\
  && chmod a+x /usr/bin/switch-fs-by-pid.sh
 
 # -------------------
-FROM scratch as final
+FROM scratch AS final
 
 COPY --from=main / /
 
