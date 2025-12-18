@@ -1,64 +1,73 @@
-FROM openaf/oaf:deb-nightly as main
+FROM openaf/oaf:deb-nightly AS main
 
 USER root
-RUN apt update\
- && apt upgrade -y\
- && apt dist-upgrade -y\
- && apt autoremove -y\
- && DEBIAN_FRONTEND="noninteractive" apt-get install -y -qq cron locales less man-db manpages tar wget gzip bash tmux vim iperf tcpdump nmap ldnsutils iftop netcat-openbsd lynx iproute2 iptables fping conntrack iputils-ping iputils-tracepath iputils-arping iputils-clockdiff iptraf-ng ngrep tcptraceroute socat mtr termshark curl inetutils-telnet bash-completion python3 sysstat iotop htop mc tinyproxy strace openssl whois ifstat net-tools\
- && wget -O /usr/bin/websocat https://github.com/vi/websocat/releases/latest/download/websocat_max.$(uname -m)-unknown-linux-musl\
- && locale-gen en_US.UTF-8\
- && chmod +x /usr/bin/websocat\
- && /openaf/opack install SocksServer Morse oJob-common\
- && mkdir /openaf/ojobs\
- && curl -s https://ojob.io/oaf/colorFormats.yaml > /openaf/ojobs/colorFormats.yaml\
- && curl -s https://ojob.io/net/doh.yaml > /openaf/ojobs/doh.yaml\
- && curl -s https://ojob.io/net/jdbc.yaml > /openaf/ojobs/jdbc.yaml\
- && curl -s https://ojob.io/net/latency.yaml > /openaf/ojobs/latency.yaml\
- && curl -s https://ojob.io/net/publicIP.yaml > /openaf/ojobs/publicIP.yaml\
- && curl -s https://ojob.io/net/sslDates.yaml > /openaf/ojobs/sslDates.yaml\
- && curl -s https://ojob.io/net/whois.yaml > /openaf/ojobs/whois.yaml\
- && curl -s https://ojob.io/net/testHosts.yaml > /openaf/ojobs/testHosts.yaml\
- && curl -s https://ojob.io/email/send.yaml > /openaf/ojobs/emailSend.yaml\
- && curl -s https://ojob.io/ssh/tunnel.yaml > /openaf/ojobs/tunnel.yaml\
- && curl -s https://ojob.io/httpServers/EasyHTTPSd.yaml > /openaf/ojobs/EasyHTTPSd.yaml\
- && curl -s https://ojob.io/httpServers/EasyHTTPd.yaml > /openaf/ojobs/EasyHTTPd.yaml\
- && curl -s https://ojob.io/httpServers/EchoHTTPd.yaml > /openaf/ojobs/EchoHTTPd.yaml\
- && curl -s https://ojob.io/httpServers/MetricsHTTPd.yaml > /openaf/ojobs/MetricsHTTPd.yaml\
- && curl -s https://ojob.io/httpServers/RedirectHTTPd.yaml > /openaf/ojobs/RedirectHTTPd.yaml\
- && curl -s https://ojob.io/httpServers/uploadHTTPSd.yaml > /openaf/ojobs/uploadHTTPSd.yaml\
- && curl -s https://ojob.io/httpServers/uploadHTTPd.yaml > /openaf/ojobs/uploadHTTPd.yaml\
- && curl -s https://ojob.io/formats/postman2posting.yaml > /openaf/ojobs/postman2posting.yaml\
- && cd /openaf/ojobs\
- && /openaf/ojob ojob.io/get airgap=true job=ojob.io/grid/data/gc2\
- && mv ojob.io_grid_data_gc2.yaml javaGC.yaml\
- && sed javaGC.yaml -i -e "s/ojob.io_grid_show.yaml/\/openaf\/ojobs\/ojob.io_grid_show.yaml/"\
- && /openaf/oaf --sb /openaf/ojobs/colorFormats.yaml\
- && /openaf/oaf --sb /openaf/ojobs/doh.yaml\
- && /openaf/oaf --sb /openaf/ojobs/jdbc.yaml\
- && /openaf/oaf --sb /openaf/ojobs/latency.yaml\
- && /openaf/oaf --sb /openaf/ojobs/publicIP.yaml\
- && /openaf/oaf --sb /openaf/ojobs/sslDates.yaml\
- && /openaf/oaf --sb /openaf/ojobs/whois.yaml\
- && /openaf/oaf --sb /openaf/ojobs/testHosts.yaml\
- && /openaf/oaf --sb /openaf/ojobs/emailSend.yaml\
- && /openaf/oaf --sb /openaf/ojobs/javaGC.yaml\
- && /openaf/oaf --sb /openaf/ojobs/tunnel.yaml\
- && /openaf/oaf --sb /openaf/ojobs/EasyHTTPSd.yaml\
- && /openaf/oaf --sb /openaf/ojobs/EasyHTTPd.yaml\
- && /openaf/oaf --sb /openaf/ojobs/EchoHTTPd.yaml\
- && /openaf/oaf --sb /openaf/ojobs/MetricsHTTPd.yaml\
- && /openaf/oaf --sb /openaf/ojobs/RedirectHTTPd.yaml\
- && /openaf/oaf --sb /openaf/ojobs/uploadHTTPSd.yaml\
- && /openaf/oaf --sb /openaf/ojobs/uploadHTTPd.yaml\
- && /openaf/oaf --sb /openaf/ojobs/postman2posting.yaml\
- && chown -R openaf:0 /openaf\
- && chown openaf:0 /openaf/.opack.db\
- && chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
- && chmod a+rwx /openaf\
- && sudo chmod g+w /openaf/.opack.db\
- && sudo useradd -u 666 -m --shell /bin/bash mitm 2>/dev/null\
- && sudo useradd -u 667 -m --shell /bin/bash sslproxy 2>/dev/null
+RUN set -eux; \
+  export DEBIAN_FRONTEND="noninteractive"; \
+  apt-get clean; \
+  rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/* /var/cache/apt/archives/partial/* /tmp/* /var/tmp/*; \
+  apt-get update; \
+  apt-get install -y -qq --no-install-recommends \
+    cron locales tar wget gzip bash tmux vim less man-db manpages bash-completion python3 inetutils-telnet; \
+  rm -rf /var/cache/apt/archives/* /var/cache/apt/archives/partial/*; \
+  apt-get install -y -qq --no-install-recommends \
+    curl iperf tcpdump nmap ldnsutils iftop netcat-openbsd lynx iproute2 iptables fping conntrack iputils-ping iputils-tracepath iputils-arping iputils-clockdiff iptraf-ng ngrep tcptraceroute socat mtr termshark; \
+  rm -rf /var/cache/apt/archives/* /var/cache/apt/archives/partial/*; \
+  apt-get install -y -qq --no-install-recommends \
+    sysstat iotop htop mc tinyproxy strace openssl whois ifstat net-tools; \
+  rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/* /var/cache/apt/archives/partial/* /tmp/* /var/tmp/*; \
+  wget -O /usr/bin/websocat https://github.com/vi/websocat/releases/latest/download/websocat_max.$(uname -m)-unknown-linux-musl; \
+  locale-gen en_US.UTF-8; \
+  chmod +x /usr/bin/websocat; \
+  /openaf/opack install SocksServer Morse oJob-common; \
+  mkdir /openaf/ojobs; \
+  curl -s https://ojob.io/oaf/colorFormats.yaml > /openaf/ojobs/colorFormats.yaml; \
+  curl -s https://ojob.io/net/doh.yaml > /openaf/ojobs/doh.yaml; \
+  curl -s https://ojob.io/net/jdbc.yaml > /openaf/ojobs/jdbc.yaml; \
+  curl -s https://ojob.io/net/latency.yaml > /openaf/ojobs/latency.yaml; \
+  curl -s https://ojob.io/net/publicIP.yaml > /openaf/ojobs/publicIP.yaml; \
+  curl -s https://ojob.io/net/sslDates.yaml > /openaf/ojobs/sslDates.yaml; \
+  curl -s https://ojob.io/net/whois.yaml > /openaf/ojobs/whois.yaml; \
+  curl -s https://ojob.io/net/testHosts.yaml > /openaf/ojobs/testHosts.yaml; \
+  curl -s https://ojob.io/email/send.yaml > /openaf/ojobs/emailSend.yaml; \
+  curl -s https://ojob.io/ssh/tunnel.yaml > /openaf/ojobs/tunnel.yaml; \
+  curl -s https://ojob.io/httpServers/EasyHTTPSd.yaml > /openaf/ojobs/EasyHTTPSd.yaml; \
+  curl -s https://ojob.io/httpServers/EasyHTTPd.yaml > /openaf/ojobs/EasyHTTPd.yaml; \
+  curl -s https://ojob.io/httpServers/EchoHTTPd.yaml > /openaf/ojobs/EchoHTTPd.yaml; \
+  curl -s https://ojob.io/httpServers/MetricsHTTPd.yaml > /openaf/ojobs/MetricsHTTPd.yaml; \
+  curl -s https://ojob.io/httpServers/RedirectHTTPd.yaml > /openaf/ojobs/RedirectHTTPd.yaml; \
+  curl -s https://ojob.io/httpServers/uploadHTTPSd.yaml > /openaf/ojobs/uploadHTTPSd.yaml; \
+  curl -s https://ojob.io/httpServers/uploadHTTPd.yaml > /openaf/ojobs/uploadHTTPd.yaml; \
+  curl -s https://ojob.io/formats/postman2posting.yaml > /openaf/ojobs/postman2posting.yaml; \
+  cd /openaf/ojobs; \
+  /openaf/ojob ojob.io/get airgap=true job=ojob.io/grid/data/gc2; \
+  mv ojob.io_grid_data_gc2.yaml javaGC.yaml; \
+  sed -i -e "s/ojob.io_grid_show.yaml/\\/openaf\\/ojobs\\/ojob.io_grid_show.yaml/" javaGC.yaml; \
+  /openaf/oaf --sb /openaf/ojobs/colorFormats.yaml; \
+  /openaf/oaf --sb /openaf/ojobs/doh.yaml; \
+  /openaf/oaf --sb /openaf/ojobs/jdbc.yaml; \
+  /openaf/oaf --sb /openaf/ojobs/latency.yaml; \
+  /openaf/oaf --sb /openaf/ojobs/publicIP.yaml; \
+  /openaf/oaf --sb /openaf/ojobs/sslDates.yaml; \
+  /openaf/oaf --sb /openaf/ojobs/whois.yaml; \
+  /openaf/oaf --sb /openaf/ojobs/testHosts.yaml; \
+  /openaf/oaf --sb /openaf/ojobs/emailSend.yaml; \
+  /openaf/oaf --sb /openaf/ojobs/javaGC.yaml; \
+  /openaf/oaf --sb /openaf/ojobs/tunnel.yaml; \
+  /openaf/oaf --sb /openaf/ojobs/EasyHTTPSd.yaml; \
+  /openaf/oaf --sb /openaf/ojobs/EasyHTTPd.yaml; \
+  /openaf/oaf --sb /openaf/ojobs/EchoHTTPd.yaml; \
+  /openaf/oaf --sb /openaf/ojobs/MetricsHTTPd.yaml; \
+  /openaf/oaf --sb /openaf/ojobs/RedirectHTTPd.yaml; \
+  /openaf/oaf --sb /openaf/ojobs/uploadHTTPSd.yaml; \
+  /openaf/oaf --sb /openaf/ojobs/uploadHTTPd.yaml; \
+  /openaf/oaf --sb /openaf/ojobs/postman2posting.yaml; \
+  chown -R openaf:0 /openaf; \
+  chown openaf:0 /openaf/.opack.db; \
+  chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*; \
+  chmod a+rwx /openaf; \
+  chmod g+w /openaf/.opack.db; \
+  useradd -u 666 -m --shell /bin/bash mitm 2>/dev/null || true; \
+  useradd -u 667 -m --shell /bin/bash sslproxy 2>/dev/null || true
 
 COPY ojobs/softVersions.yaml /openaf/ojobs/softVersions.yaml
 COPY ojobs/socksProxy.yaml /openaf/ojobs/socksProxy.yaml
@@ -72,8 +81,10 @@ RUN /openaf/oaf --sb /openaf/ojobs/softVersions.yaml\
 
 # Setup posting
 # -------------
-RUN apt-get install -y -qq python3-pip python3-certifi python3-h11\
- && apt-get remove -y python3-typing-extensions\
+RUN set -eux\
+ && apt-get update\
+ && apt-get install -y -qq --no-install-recommends python3-pip python3-certifi python3-h11\
+ && (apt-get remove -y python3-typing-extensions || true)\
  && pip install posting --break-system-packages\
  && apt-get remove -y python3-pip\
  && apt-get autoremove -y\
@@ -179,13 +190,13 @@ FROM golang:latest AS lazydocker-builder
 RUN go install github.com/jesseduffield/lazydocker@latest
 
 # ----------------------
-FROM scratch as prefinal
+FROM scratch AS prefinal
 
 COPY --from=main / /
 COPY --from=lazydocker-builder /go/bin/lazydocker /usr/bin/lazydocker
 
 # -------------------
-FROM scratch as final
+FROM scratch AS final
 
 COPY --from=prefinal / /
 
