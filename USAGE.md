@@ -121,6 +121,7 @@ Profiles:
 | rtstat | yes | Displaying routing statistics. |  |
 | sadf | yes | System activity data formatter. Helps convert data collected by sar info formats like CSV, XML, JSON, etc. |  |
 | sar | yes | System activity reporter. Can monitor various system metrics such as CPU usage, memory, disk I/O, network activity and more |  |
+| sslproxy | yes | Transparent TLS proxy to decrypt and divert traffic with a custom CA certificate. | sslproxy-help |
 | socat | yes | Multipurpose relay for bidirectional data transfer between two independent data channels. |  |
 | strace | yes | Trace system calls and signals. | |
 | switch-fs-by-pid.sh | yes | Switches to the filesystem of a provided pid. | |

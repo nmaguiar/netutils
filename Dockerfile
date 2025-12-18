@@ -5,7 +5,7 @@ RUN apt update\
  && apt upgrade -y\
  && apt dist-upgrade -y\
  && apt autoremove -y\
- && DEBIAN_FRONTEND="noninteractive" apt-get install -y -qq cron locales less man-db manpages tar wget gzip bash tmux vim iperf tcpdump nmap ldnsutils iftop netcat-openbsd lynx iproute2 iptables fping conntrack iputils-ping iputils-tracepath iputils-arping iputils-clockdiff iptraf-ng ngrep tcptraceroute socat mtr termshark curl inetutils-telnet bash-completion python3 sysstat iotop htop mc tinyproxy strace whois ifstat net-tools\
+ && DEBIAN_FRONTEND="noninteractive" apt-get install -y -qq cron locales less man-db manpages tar wget gzip bash tmux vim iperf tcpdump nmap ldnsutils iftop netcat-openbsd lynx iproute2 iptables fping conntrack iputils-ping iputils-tracepath iputils-arping iputils-clockdiff iptraf-ng ngrep tcptraceroute socat mtr termshark curl inetutils-telnet bash-completion python3 sysstat iotop htop mc tinyproxy strace openssl whois ifstat net-tools\
  && wget -O /usr/bin/websocat https://github.com/vi/websocat/releases/latest/download/websocat_max.$(uname -m)-unknown-linux-musl\
  && locale-gen en_US.UTF-8\
  && chmod +x /usr/bin/websocat\
@@ -57,7 +57,8 @@ RUN apt update\
  && chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
  && chmod a+rwx /openaf\
  && sudo chmod g+w /openaf/.opack.db\
- && sudo useradd -u 666 -m --shell /bin/bash mitm 2>/dev/null
+ && sudo useradd -u 666 -m --shell /bin/bash mitm 2>/dev/null\
+ && sudo useradd -u 667 -m --shell /bin/bash sslproxy 2>/dev/null
 
 COPY ojobs/softVersions.yaml /openaf/ojobs/softVersions.yaml
 COPY ojobs/socksProxy.yaml /openaf/ojobs/socksProxy.yaml
@@ -137,27 +138,33 @@ COPY USAGE.md /USAGE.md
 COPY EXAMPLES.md /EXAMPLES.md
 COPY MITM.md /openaf/MITM.md
 COPY POSTING.md /openaf/POSTING.md
+COPY SSLPROXY.md /openaf/SSLPROXY.md
 RUN gzip /USAGE.md\
  && gzip /EXAMPLES.md\
  && gzip /openaf/MITM.md\
+ && gzip /openaf/SSLPROXY.md\
  && gzip /openaf/POSTING.md\
  && echo "#!/bin/sh" > /usr/bin/usage-help\
  && echo "#!/bin/sh" > /usr/bin/examples-help\
  && echo "#!/bin/sh" > /usr/bin/mitm-help\
+ && echo "#!/bin/sh" > /usr/bin/sslproxy-help\
  && echo "#!/bin/sh" > /usr/bin/posting-help\
  && echo "zcat /USAGE.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/usage-help\
  && echo "zcat /EXAMPLES.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/examples-help\
  && echo "zcat /openaf/MITM.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/mitm-help\
+ && echo "zcat /openaf/SSLPROXY.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/sslproxy-help\
  && echo "zcat /openaf/POSTING.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/posting-help\
  && chmod a+x /usr/bin/usage-help\
  && chmod a+x /usr/bin/examples-help\
  && chmod a+x /usr/bin/mitm-help\
+ && chmod a+x /usr/bin/sslproxy-help\
  && chmod a+x /usr/bin/posting-help
 
 # Copy scripts
 # ------------
 COPY scripts/* /usr/bin/
 RUN chmod a+x /usr/bin/mitm-transparent*\
+ && chmod a+x /usr/bin/sslproxy-*\
  && chmod a+x /usr/bin/mitm-gencerts.sh\
  && chmod a+x /usr/bin/sysstat-start.sh\
  && chmod a+x /usr/bin/sysstat-stop.sh\
