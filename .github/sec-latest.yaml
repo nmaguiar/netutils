@@ -29147,6 +29147,7 @@
       amazon: 1
       azure: 1
       bitnami: 1
+      cbl-mariner: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -29276,6 +29277,7 @@
       amazon: 1
       azure: 1
       bitnami: 1
+      cbl-mariner: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -29405,6 +29407,7 @@
       amazon: 1
       azure: 1
       bitnami: 1
+      cbl-mariner: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -29844,6 +29847,7 @@
       amazon: 1
       azure: 1
       bitnami: 1
+      cbl-mariner: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -29973,6 +29977,7 @@
       amazon: 1
       azure: 1
       bitnami: 1
+      cbl-mariner: 1
       redhat: 1
       ubuntu: 2
     CVSS:
