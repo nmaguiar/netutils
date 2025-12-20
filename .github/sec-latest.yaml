@@ -27273,6 +27273,7 @@
     Severity: LOW
     VendorSeverity:
       amazon: 1
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 1
@@ -27287,6 +27288,8 @@
     - https://curl.se/docs/CVE-2025-9086.json
     - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
     - https://hackerone.com/reports/3294999
+    - https://linux.oracle.com/cve/CVE-2025-9086.html
+    - https://linux.oracle.com/errata/ELSA-2025-23383.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
@@ -27472,7 +27475,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-52615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52615
-    - https://errata.rockylinux.org/RLSA-2025:11402
+    - https://errata.rockylinux.org/RLSA-2025:16441
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
     - https://linux.oracle.com/cve/CVE-2024-52615.html
@@ -27572,7 +27575,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-52615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52615
-    - https://errata.rockylinux.org/RLSA-2025:11402
+    - https://errata.rockylinux.org/RLSA-2025:16441
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
     - https://linux.oracle.com/cve/CVE-2024-52615.html
@@ -27672,7 +27675,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-52615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52615
-    - https://errata.rockylinux.org/RLSA-2025:11402
+    - https://errata.rockylinux.org/RLSA-2025:16441
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
     - https://linux.oracle.com/cve/CVE-2024-52615.html
@@ -28322,6 +28325,7 @@
     Severity: LOW
     VendorSeverity:
       amazon: 1
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 1
@@ -28336,6 +28340,8 @@
     - https://curl.se/docs/CVE-2025-9086.json
     - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
     - https://hackerone.com/reports/3294999
+    - https://linux.oracle.com/cve/CVE-2025-9086.html
+    - https://linux.oracle.com/errata/ELSA-2025-23383.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
@@ -28680,7 +28686,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
     - https://errata.almalinux.org/9/ALSA-2025-15099.html
-    - https://errata.rockylinux.org/RLSA-2025:15099
+    - https://errata.rockylinux.org/RLSA-2025:14557
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
@@ -28747,7 +28753,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
     - https://errata.almalinux.org/9/ALSA-2025-15099.html
-    - https://errata.rockylinux.org/RLSA-2025:15099
+    - https://errata.rockylinux.org/RLSA-2025:14557
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
@@ -28814,7 +28820,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
     - https://errata.almalinux.org/9/ALSA-2025-15099.html
-    - https://errata.rockylinux.org/RLSA-2025:15099
+    - https://errata.rockylinux.org/RLSA-2025:14557
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
@@ -28881,7 +28887,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
     - https://errata.almalinux.org/9/ALSA-2025-15099.html
-    - https://errata.rockylinux.org/RLSA-2025:15099
+    - https://errata.rockylinux.org/RLSA-2025:14557
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
@@ -29755,7 +29761,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/9/ALSA-2025-20559.html
-    - https://errata.rockylinux.org/RLSA-2025:20559
+    - https://errata.rockylinux.org/RLSA-2025:20145
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -29806,7 +29812,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/9/ALSA-2025-20559.html
-    - https://errata.rockylinux.org/RLSA-2025:20559
+    - https://errata.rockylinux.org/RLSA-2025:20145
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -32136,6 +32142,8 @@
     Title: 'golang: crypto/x509: excluded subdomain constraint does not restrict wildcard SANs'
     Description: An excluded subdomain constraint in a certificate chain does not restrict the usage of wildcard SANs in the leaf certificate. For example a constraint that excludes the subdomain test.example.com does not prevent a leaf certificate from claiming the SAN *.example.com.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-295
     VendorSeverity:
       bitnami: 2
       redhat: 2
@@ -32155,4 +32163,4 @@
     - https://pkg.go.dev/vuln/GO-2025-4175
     - https://www.cve.org/CVERecord?id=CVE-2025-61727
     PublishedDate: '2025-12-03T20:16:25.607Z'
-    LastModifiedDate: '2025-12-04T17:15:08.283Z'
+    LastModifiedDate: '2025-12-18T20:15:10.957Z'
