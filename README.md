@@ -5,6 +5,7 @@ Image ("nmaguiar/netutils") with tools for network connectivity debugging (with 
 Some of the included tools:
 
 - mitmproxy
+- sslproxy
 - termshark
 - openaf
 - iotop
@@ -74,4 +75,3 @@ Host network:
 ```bash
 NODENAME=node-server-0 NAME=netutils NS=kube-system  /bin/sh -c 'kubectl run -n $NS $NAME --rm -ti --image=nmaguiar/netutils  --overrides="{\"apiVersion\":\"v1\",\"spec\":{\"hostNetwork\":true,\"nodeName\":\"$NODENAME\",\"containers\":[{\"name\":\"$NAME\",\"image\":\"nmaguiar/netutils\",\"stdin\":true,\"stdinOnce\":true,\"tty\":true,\"args\":[\"/bin/bash\"]}]}}" -- /bin/bash'
 ```
-
