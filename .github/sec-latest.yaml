@@ -27445,6 +27445,39 @@
     - https://www.gruppotim.it/it/footer/red-team.html
     PublishedDate: '2024-12-16T22:15:06.863Z'
     LastModifiedDate: '2025-10-14T17:29:14.83Z'
+  - VulnerabilityID: CVE-2025-59529
+    PkgID: libavahi-client3@0.8-16ubuntu2
+    PkgName: libavahi-client3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libavahi-client3@0.8-16ubuntu2?arch=amd64&distro=ubuntu-25.04
+      UID: 2e12ca44dd8dad5d
+    InstalledVersion: 0.8-16ubuntu2
+    Status: affected
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-59529
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4f9f524cd19f1b2d749095ce5640a58494d1791b00b7822a24848dc0366ae436
+    Title: Avahi is a system which facilitates service discovery on a local netwo ...
+    Description: Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions up to and including 0.9-rc2, the simple protocol server ignores the documented client limit and accepts unlimited connections, allowing for easy local DoS. Although `CLIENTS_MAX` is defined, `server_work()` unconditionally `accept()`s and `client_new()` always appends the new client and increments `n_clients`. There is no check against the limit. When client cannot be accepted as a result of maximal socket number of avahi-daemon, it logs unconditionally error per each connection. Unprivileged local users can exhaust daemon memory and file descriptors, causing a denial of service system-wide for mDNS/DNS-SD. Exhausting local file descriptors causes increased system load caused by logging errors of each of request. Overloading prevents glibc calls using nss-mdns plugins to resolve `*.local.` names and link-local addresses. As of time of publication, no known patched versions are available, but a candidate fix is available in pull request 808, and some workarounds are available. Simple clients are offered for nss-mdns package functionality. It is not possible to disable the unix socket `/run/avahi-daemon/socket`, but resolution requests received via DBus are not affected directly. Tools avahi-resolve, avahi-resolve-address and avahi-resolve-host-name are not affected, they use DBus interface. It is possible to change permissions of unix socket after avahi-daemon is started. But avahi-daemon does not provide any configuration for it. Additional access restrictions like SELinux can also prevent unwanted tools to access the socket and keep resolution working for trusted users.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/12/19/1
+    - https://github.com/avahi/avahi/pull/808
+    - https://github.com/avahi/avahi/security/advisories/GHSA-73wf-3xmj-x82q
+    - https://www.cve.org/CVERecord?id=CVE-2025-59529
+    - https://zeropath.com/blog/avahi-simple-protocol-server-dos-cve-2025-59529
+    PublishedDate: '2025-12-18T21:15:53.637Z'
+    LastModifiedDate: '2025-12-19T22:15:51.283Z'
   - VulnerabilityID: CVE-2024-52615
     PkgID: libavahi-client3@0.8-16ubuntu2
     PkgName: libavahi-client3
@@ -27545,6 +27578,39 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-52616
     PublishedDate: '2024-11-21T21:15:24.14Z'
     LastModifiedDate: '2025-05-14T00:15:17.52Z'
+  - VulnerabilityID: CVE-2025-59529
+    PkgID: libavahi-common-data@0.8-16ubuntu2
+    PkgName: libavahi-common-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libavahi-common-data@0.8-16ubuntu2?arch=amd64&distro=ubuntu-25.04
+      UID: bc43d94a28c1d011
+    InstalledVersion: 0.8-16ubuntu2
+    Status: affected
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-59529
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:3e93d8377719ab5fe03ca7da2dca42c15058303b633dba9153667f12bcc64e7c
+    Title: Avahi is a system which facilitates service discovery on a local netwo ...
+    Description: Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions up to and including 0.9-rc2, the simple protocol server ignores the documented client limit and accepts unlimited connections, allowing for easy local DoS. Although `CLIENTS_MAX` is defined, `server_work()` unconditionally `accept()`s and `client_new()` always appends the new client and increments `n_clients`. There is no check against the limit. When client cannot be accepted as a result of maximal socket number of avahi-daemon, it logs unconditionally error per each connection. Unprivileged local users can exhaust daemon memory and file descriptors, causing a denial of service system-wide for mDNS/DNS-SD. Exhausting local file descriptors causes increased system load caused by logging errors of each of request. Overloading prevents glibc calls using nss-mdns plugins to resolve `*.local.` names and link-local addresses. As of time of publication, no known patched versions are available, but a candidate fix is available in pull request 808, and some workarounds are available. Simple clients are offered for nss-mdns package functionality. It is not possible to disable the unix socket `/run/avahi-daemon/socket`, but resolution requests received via DBus are not affected directly. Tools avahi-resolve, avahi-resolve-address and avahi-resolve-host-name are not affected, they use DBus interface. It is possible to change permissions of unix socket after avahi-daemon is started. But avahi-daemon does not provide any configuration for it. Additional access restrictions like SELinux can also prevent unwanted tools to access the socket and keep resolution working for trusted users.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/12/19/1
+    - https://github.com/avahi/avahi/pull/808
+    - https://github.com/avahi/avahi/security/advisories/GHSA-73wf-3xmj-x82q
+    - https://www.cve.org/CVERecord?id=CVE-2025-59529
+    - https://zeropath.com/blog/avahi-simple-protocol-server-dos-cve-2025-59529
+    PublishedDate: '2025-12-18T21:15:53.637Z'
+    LastModifiedDate: '2025-12-19T22:15:51.283Z'
   - VulnerabilityID: CVE-2024-52615
     PkgID: libavahi-common-data@0.8-16ubuntu2
     PkgName: libavahi-common-data
@@ -27645,6 +27711,39 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-52616
     PublishedDate: '2024-11-21T21:15:24.14Z'
     LastModifiedDate: '2025-05-14T00:15:17.52Z'
+  - VulnerabilityID: CVE-2025-59529
+    PkgID: libavahi-common3@0.8-16ubuntu2
+    PkgName: libavahi-common3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libavahi-common3@0.8-16ubuntu2?arch=amd64&distro=ubuntu-25.04
+      UID: 8c299f1c7613b920
+    InstalledVersion: 0.8-16ubuntu2
+    Status: affected
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-59529
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:1dcabaa0aa404451c4de2a2445a32ba1eb5f3236d421662e3c313d665d19eed2
+    Title: Avahi is a system which facilitates service discovery on a local netwo ...
+    Description: Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions up to and including 0.9-rc2, the simple protocol server ignores the documented client limit and accepts unlimited connections, allowing for easy local DoS. Although `CLIENTS_MAX` is defined, `server_work()` unconditionally `accept()`s and `client_new()` always appends the new client and increments `n_clients`. There is no check against the limit. When client cannot be accepted as a result of maximal socket number of avahi-daemon, it logs unconditionally error per each connection. Unprivileged local users can exhaust daemon memory and file descriptors, causing a denial of service system-wide for mDNS/DNS-SD. Exhausting local file descriptors causes increased system load caused by logging errors of each of request. Overloading prevents glibc calls using nss-mdns plugins to resolve `*.local.` names and link-local addresses. As of time of publication, no known patched versions are available, but a candidate fix is available in pull request 808, and some workarounds are available. Simple clients are offered for nss-mdns package functionality. It is not possible to disable the unix socket `/run/avahi-daemon/socket`, but resolution requests received via DBus are not affected directly. Tools avahi-resolve, avahi-resolve-address and avahi-resolve-host-name are not affected, they use DBus interface. It is possible to change permissions of unix socket after avahi-daemon is started. But avahi-daemon does not provide any configuration for it. Additional access restrictions like SELinux can also prevent unwanted tools to access the socket and keep resolution working for trusted users.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/12/19/1
+    - https://github.com/avahi/avahi/pull/808
+    - https://github.com/avahi/avahi/security/advisories/GHSA-73wf-3xmj-x82q
+    - https://www.cve.org/CVERecord?id=CVE-2025-59529
+    - https://zeropath.com/blog/avahi-simple-protocol-server-dos-cve-2025-59529
+    PublishedDate: '2025-12-18T21:15:53.637Z'
+    LastModifiedDate: '2025-12-19T22:15:51.283Z'
   - VulnerabilityID: CVE-2024-52615
     PkgID: libavahi-common3@0.8-16ubuntu2
     PkgName: libavahi-common3
@@ -27765,7 +27864,7 @@
     Fingerprint: sha256:bca18d2cf15de75bf206c48e631f081e79bbb8b896c3dc2bdf91a8aae5139d1b
     Title: 'libbpf: Heap Buffer Overflow in libbpf'
     Description: Buffer Overflow vulnerability in libbpf 1.5.0 allows a local attacker to execute arbitrary code via the bpf_object__init_prog` function of libbpf.
-    Severity: MEDIUM
+    Severity: LOW
     CweIDs:
     - CWE-120
     VendorSeverity:
@@ -27773,7 +27872,7 @@
       bitnami: 2
       cbl-mariner: 2
       redhat: 2
-      ubuntu: 2
+      ubuntu: 1
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -28702,11 +28801,12 @@
     - https://access.redhat.com/errata/RHSA-2025:21885
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
+    - https://bugzilla.redhat.com/2388220
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
-    - https://errata.almalinux.org/8/ALSA-2025-14557.html
+    - https://errata.almalinux.org/9/ALSA-2025-15099.html
     - https://errata.rockylinux.org/RLSA-2025:15099
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
@@ -28768,11 +28868,12 @@
     - https://access.redhat.com/errata/RHSA-2025:21885
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
+    - https://bugzilla.redhat.com/2388220
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
-    - https://errata.almalinux.org/8/ALSA-2025-14557.html
+    - https://errata.almalinux.org/9/ALSA-2025-15099.html
     - https://errata.rockylinux.org/RLSA-2025:15099
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
@@ -28834,11 +28935,12 @@
     - https://access.redhat.com/errata/RHSA-2025:21885
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
+    - https://bugzilla.redhat.com/2388220
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
-    - https://errata.almalinux.org/8/ALSA-2025-14557.html
+    - https://errata.almalinux.org/9/ALSA-2025-15099.html
     - https://errata.rockylinux.org/RLSA-2025:15099
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
@@ -28900,11 +29002,12 @@
     - https://access.redhat.com/errata/RHSA-2025:21885
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
+    - https://bugzilla.redhat.com/2388220
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
-    - https://errata.almalinux.org/8/ALSA-2025-14557.html
+    - https://errata.almalinux.org/9/ALSA-2025-15099.html
     - https://errata.rockylinux.org/RLSA-2025:15099
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
@@ -28972,7 +29075,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -29066,7 +29169,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 3
       cbl-mariner: 3
       photon: 3
@@ -29168,7 +29271,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 1
       azure: 1
       bitnami: 1
@@ -29182,17 +29285,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23530
+    - https://access.redhat.com/errata/RHSA-2025:23342
     - https://access.redhat.com/security/cve/CVE-2025-6075
     - https://bugzilla.redhat.com/2294682
-    - https://bugzilla.redhat.com/2321440
-    - https://bugzilla.redhat.com/2325776
-    - https://bugzilla.redhat.com/2343237
-    - https://bugzilla.redhat.com/2366509
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -29204,7 +29299,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/8/ALSA-2025-23530.html
+    - https://errata.almalinux.org/9/ALSA-2025-23342.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
@@ -29265,7 +29360,7 @@
     CweIDs:
     - CWE-1285
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 2
       azure: 2
       bitnami: 2
@@ -29282,20 +29377,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23530
+    - https://access.redhat.com/errata/RHSA-2025:23940
     - https://access.redhat.com/security/cve/CVE-2025-8291
-    - https://bugzilla.redhat.com/2294682
-    - https://bugzilla.redhat.com/2321440
-    - https://bugzilla.redhat.com/2325776
-    - https://bugzilla.redhat.com/2343237
-    - https://bugzilla.redhat.com/2366509
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
-    - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
-    - https://bugzilla.redhat.com/2408891
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
     - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
@@ -29304,7 +29388,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/8/ALSA-2025-23530.html
+    - https://errata.almalinux.org/10/ALSA-2025-23940.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
@@ -29354,7 +29438,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 1
       azure: 1
       bitnami: 1
@@ -29368,17 +29452,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23530
+    - https://access.redhat.com/errata/RHSA-2025:23342
     - https://access.redhat.com/security/cve/CVE-2025-6075
     - https://bugzilla.redhat.com/2294682
-    - https://bugzilla.redhat.com/2321440
-    - https://bugzilla.redhat.com/2325776
-    - https://bugzilla.redhat.com/2343237
-    - https://bugzilla.redhat.com/2366509
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -29390,7 +29466,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/8/ALSA-2025-23530.html
+    - https://errata.almalinux.org/9/ALSA-2025-23342.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
@@ -29451,7 +29527,7 @@
     CweIDs:
     - CWE-1285
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 2
       azure: 2
       bitnami: 2
@@ -29468,20 +29544,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23530
+    - https://access.redhat.com/errata/RHSA-2025:23940
     - https://access.redhat.com/security/cve/CVE-2025-8291
-    - https://bugzilla.redhat.com/2294682
-    - https://bugzilla.redhat.com/2321440
-    - https://bugzilla.redhat.com/2325776
-    - https://bugzilla.redhat.com/2343237
-    - https://bugzilla.redhat.com/2366509
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
-    - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
-    - https://bugzilla.redhat.com/2408891
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
     - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
@@ -29490,7 +29555,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/8/ALSA-2025-23530.html
+    - https://errata.almalinux.org/10/ALSA-2025-23940.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
@@ -29540,7 +29605,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 1
       azure: 1
       bitnami: 1
@@ -29554,17 +29619,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23530
+    - https://access.redhat.com/errata/RHSA-2025:23342
     - https://access.redhat.com/security/cve/CVE-2025-6075
     - https://bugzilla.redhat.com/2294682
-    - https://bugzilla.redhat.com/2321440
-    - https://bugzilla.redhat.com/2325776
-    - https://bugzilla.redhat.com/2343237
-    - https://bugzilla.redhat.com/2366509
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -29576,7 +29633,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/8/ALSA-2025-23530.html
+    - https://errata.almalinux.org/9/ALSA-2025-23342.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
@@ -29637,7 +29694,7 @@
     CweIDs:
     - CWE-1285
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 2
       azure: 2
       bitnami: 2
@@ -29654,20 +29711,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23530
+    - https://access.redhat.com/errata/RHSA-2025:23940
     - https://access.redhat.com/security/cve/CVE-2025-8291
-    - https://bugzilla.redhat.com/2294682
-    - https://bugzilla.redhat.com/2321440
-    - https://bugzilla.redhat.com/2325776
-    - https://bugzilla.redhat.com/2343237
-    - https://bugzilla.redhat.com/2366509
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
-    - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
-    - https://bugzilla.redhat.com/2408891
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
     - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
@@ -29676,7 +29722,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/8/ALSA-2025-23530.html
+    - https://errata.almalinux.org/10/ALSA-2025-23940.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
@@ -30036,7 +30082,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 1
       azure: 1
       bitnami: 1
@@ -30050,17 +30096,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23530
+    - https://access.redhat.com/errata/RHSA-2025:23342
     - https://access.redhat.com/security/cve/CVE-2025-6075
     - https://bugzilla.redhat.com/2294682
-    - https://bugzilla.redhat.com/2321440
-    - https://bugzilla.redhat.com/2325776
-    - https://bugzilla.redhat.com/2343237
-    - https://bugzilla.redhat.com/2366509
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -30072,7 +30110,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/8/ALSA-2025-23530.html
+    - https://errata.almalinux.org/9/ALSA-2025-23342.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
@@ -30133,7 +30171,7 @@
     CweIDs:
     - CWE-1285
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 2
       azure: 2
       bitnami: 2
@@ -30150,20 +30188,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23530
+    - https://access.redhat.com/errata/RHSA-2025:23940
     - https://access.redhat.com/security/cve/CVE-2025-8291
-    - https://bugzilla.redhat.com/2294682
-    - https://bugzilla.redhat.com/2321440
-    - https://bugzilla.redhat.com/2325776
-    - https://bugzilla.redhat.com/2343237
-    - https://bugzilla.redhat.com/2366509
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
-    - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
-    - https://bugzilla.redhat.com/2408891
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
     - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
@@ -30172,7 +30199,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/8/ALSA-2025-23530.html
+    - https://errata.almalinux.org/10/ALSA-2025-23940.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
@@ -30222,7 +30249,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 1
       azure: 1
       bitnami: 1
@@ -30236,17 +30263,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23530
+    - https://access.redhat.com/errata/RHSA-2025:23342
     - https://access.redhat.com/security/cve/CVE-2025-6075
     - https://bugzilla.redhat.com/2294682
-    - https://bugzilla.redhat.com/2321440
-    - https://bugzilla.redhat.com/2325776
-    - https://bugzilla.redhat.com/2343237
-    - https://bugzilla.redhat.com/2366509
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
     - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
     - https://bugzilla.redhat.com/2408891
@@ -30258,7 +30277,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/8/ALSA-2025-23530.html
+    - https://errata.almalinux.org/9/ALSA-2025-23342.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
@@ -30319,7 +30338,7 @@
     CweIDs:
     - CWE-1285
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 2
       azure: 2
       bitnami: 2
@@ -30336,20 +30355,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23530
+    - https://access.redhat.com/errata/RHSA-2025:23940
     - https://access.redhat.com/security/cve/CVE-2025-8291
-    - https://bugzilla.redhat.com/2294682
-    - https://bugzilla.redhat.com/2321440
-    - https://bugzilla.redhat.com/2325776
-    - https://bugzilla.redhat.com/2343237
-    - https://bugzilla.redhat.com/2366509
-    - https://bugzilla.redhat.com/2370010
-    - https://bugzilla.redhat.com/2370014
-    - https://bugzilla.redhat.com/2370016
-    - https://bugzilla.redhat.com/2372426
-    - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
-    - https://bugzilla.redhat.com/2408891
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
     - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
@@ -30358,7 +30366,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/8/ALSA-2025-23530.html
+    - https://errata.almalinux.org/10/ALSA-2025-23940.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
@@ -30404,6 +30412,8 @@
     CweIDs:
     - CWE-24
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -30412,8 +30422,13 @@
         V3Score: 5.6
     References:
     - http://www.openwall.com/lists/oss-security/2025/11/01/6
+    - https://access.redhat.com/errata/RHSA-2026:0002
     - https://access.redhat.com/security/cve/CVE-2025-45582
+    - https://bugzilla.redhat.com/2379592
+    - https://errata.almalinux.org/10/ALSA-2026-0002.html
     - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
+    - https://linux.oracle.com/cve/CVE-2025-45582.html
+    - https://linux.oracle.com/errata/ELSA-2026-0067.html
     - https://lists.gnu.org/archive/html/bug-tar/2025-08/msg00012.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-45582
     - https://www.cve.org/CVERecord?id=CVE-2025-45582
@@ -32402,6 +32417,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 3
     CVSS:
@@ -32445,6 +32461,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      amazon: 3
       bitnami: 2
       redhat: 2
     CVSS:
