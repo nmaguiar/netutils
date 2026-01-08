@@ -27303,6 +27303,133 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
     LastModifiedDate: '2026-01-05T03:15:50.813Z'
+  - VulnerabilityID: CVE-2025-13601
+    PkgID: gir1.2-glib-2.0@2.84.1-1ubuntu0.1
+    PkgName: gir1.2-glib-2.0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gir1.2-glib-2.0@2.84.1-1ubuntu0.1?arch=amd64&distro=ubuntu-25.04
+      UID: 78afd50fa4873a7a
+    InstalledVersion: 2.84.1-1ubuntu0.1
+    FixedVersion: 2.84.1-1ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13601
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:257a94b0f17ff0dc762a13bca53c91ddbebfcbc7e349f6158b12c2823caebbd0
+    Title: 'glib: Integer overflow in in g_escape_uri_string()'
+    Description: A heap-based buffer overflow problem was found in glib through an incorrect calculation of buffer size in the g_escape_uri_string() function. If the string to escape contains a very large number of unacceptable characters (which would need escaping), the calculation of the length of the escaped string could overflow, leading to a potential write off the end of the newly allocated string.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      cbl-mariner: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 7.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13601
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416741
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3827
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4914
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13601
+    - https://ubuntu.com/security/notices/USN-7942-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-13601
+    PublishedDate: '2025-11-26T15:15:51.723Z'
+    LastModifiedDate: '2025-12-01T15:39:53.1Z'
+  - VulnerabilityID: CVE-2025-14087
+    PkgID: gir1.2-glib-2.0@2.84.1-1ubuntu0.1
+    PkgName: gir1.2-glib-2.0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gir1.2-glib-2.0@2.84.1-1ubuntu0.1?arch=amd64&distro=ubuntu-25.04
+      UID: 78afd50fa4873a7a
+    InstalledVersion: 2.84.1-1ubuntu0.1
+    FixedVersion: 2.84.1-1ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14087
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:cd189ca20cd5c2a8c0a58a9650a7a9969580c631f04060f03c26b0c4f78d0619
+    Title: 'glib: GLib: Buffer underflow in GVariant parser leads to heap corruption'
+    Description: A flaw was found in GLib (Gnome Lib). This vulnerability allows a remote attacker to cause heap corruption, leading to a denial of service or potential code execution via a buffer-underflow in the GVariant parser when processing maliciously crafted input strings.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      amazon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-14087
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2419093
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4933
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4934
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14087
+    - https://ubuntu.com/security/notices/USN-7942-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-14087
+    PublishedDate: '2025-12-10T09:15:47.053Z'
+    LastModifiedDate: '2025-12-12T15:18:42.14Z'
+  - VulnerabilityID: CVE-2025-14512
+    PkgID: gir1.2-glib-2.0@2.84.1-1ubuntu0.1
+    PkgName: gir1.2-glib-2.0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gir1.2-glib-2.0@2.84.1-1ubuntu0.1?arch=amd64&distro=ubuntu-25.04
+      UID: 78afd50fa4873a7a
+    InstalledVersion: 2.84.1-1ubuntu0.1
+    FixedVersion: 2.84.1-1ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14512
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:c15ec267cee27591abeb012c09e66b06d58b7702feb2c91b3933b2ebd37ca55c
+    Title: 'glib: Integer Overflow in GLib GIO Attribute Escaping Causes Heap Buffer Overflow'
+    Description: A flaw was found in glib. This vulnerability allows a heap buffer overflow and denial-of-service (DoS) via an integer overflow in GLib's GIO (GLib Input/Output) escape_byte_string() function when processing malicious file or remote filesystem attribute values.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-14512
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2421339
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4935
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4936
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14512
+    - https://www.cve.org/CVERecord?id=CVE-2025-14512
+    PublishedDate: '2025-12-11T07:16:00.463Z'
+    LastModifiedDate: '2025-12-12T15:18:13.39Z'
   - VulnerabilityID: CVE-2025-6052
     PkgID: gir1.2-glib-2.0@2.84.1-1ubuntu0.1
     PkgName: gir1.2-glib-2.0
@@ -27310,7 +27437,8 @@
       PURL: pkg:deb/ubuntu/gir1.2-glib-2.0@2.84.1-1ubuntu0.1?arch=amd64&distro=ubuntu-25.04
       UID: 78afd50fa4873a7a
     InstalledVersion: 2.84.1-1ubuntu0.1
-    Status: affected
+    FixedVersion: 2.84.1-1ubuntu0.2
+    Status: fixed
     Layer:
       Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
       DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
@@ -27344,9 +27472,51 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372666
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4655
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6052
+    - https://ubuntu.com/security/notices/USN-7942-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6052
     PublishedDate: '2025-06-13T16:15:28.23Z'
     LastModifiedDate: '2025-08-20T17:27:24.26Z'
+  - VulnerabilityID: CVE-2025-7039
+    PkgID: gir1.2-glib-2.0@2.84.1-1ubuntu0.1
+    PkgName: gir1.2-glib-2.0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gir1.2-glib-2.0@2.84.1-1ubuntu0.1?arch=amd64&distro=ubuntu-25.04
+      UID: 78afd50fa4873a7a
+    InstalledVersion: 2.84.1-1ubuntu0.1
+    FixedVersion: 2.84.1-1ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-7039
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:95de074abe904408507ecbf8b0b749dcaac56969ea9dc7ba5ebda77f10a7619f
+    Title: 'glib: Buffer Under-read on GLib through glib/gfileutils.c via get_tmp_file()'
+    Description: A flaw was found in glib. An integer overflow during temporary file creation leads to an out-of-bounds memory access, allowing an attacker to potentially perform path traversal or access private temporary file content by creating symbolic links. This vulnerability allows a local attacker to manipulate file paths and access unauthorized data. The core issue stems from insufficient validation of file path lengths during temporary file operations.
+    Severity: LOW
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-7039
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2392423
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-7039
+    - https://ubuntu.com/security/notices/USN-7942-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-7039
+    PublishedDate: '2025-09-03T02:15:38.12Z'
+    LastModifiedDate: '2025-09-04T15:36:56.447Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpgv@2.4.4-2ubuntu23.1
     PkgName: gpgv
@@ -27463,17 +27633,24 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:4f9f524cd19f1b2d749095ce5640a58494d1791b00b7822a24848dc0366ae436
-    Title: Avahi is a system which facilitates service discovery on a local netwo ...
+    Title: 'avahi: simple clients denial-of-service'
     Description: Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions up to and including 0.9-rc2, the simple protocol server ignores the documented client limit and accepts unlimited connections, allowing for easy local DoS. Although `CLIENTS_MAX` is defined, `server_work()` unconditionally `accept()`s and `client_new()` always appends the new client and increments `n_clients`. There is no check against the limit. When client cannot be accepted as a result of maximal socket number of avahi-daemon, it logs unconditionally error per each connection. Unprivileged local users can exhaust daemon memory and file descriptors, causing a denial of service system-wide for mDNS/DNS-SD. Exhausting local file descriptors causes increased system load caused by logging errors of each of request. Overloading prevents glibc calls using nss-mdns plugins to resolve `*.local.` names and link-local addresses. As of time of publication, no known patched versions are available, but a candidate fix is available in pull request 808, and some workarounds are available. Simple clients are offered for nss-mdns package functionality. It is not possible to disable the unix socket `/run/avahi-daemon/socket`, but resolution requests received via DBus are not affected directly. Tools avahi-resolve, avahi-resolve-address and avahi-resolve-host-name are not affected, they use DBus interface. It is possible to change permissions of unix socket after avahi-daemon is started. But avahi-daemon does not provide any configuration for it. Additional access restrictions like SELinux can also prevent unwanted tools to access the socket and keep resolution working for trusted users.
     Severity: MEDIUM
     CweIDs:
     - CWE-400
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/12/19/1
+    - https://access.redhat.com/security/cve/CVE-2025-59529
     - https://github.com/avahi/avahi/pull/808
     - https://github.com/avahi/avahi/security/advisories/GHSA-73wf-3xmj-x82q
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-59529
     - https://www.cve.org/CVERecord?id=CVE-2025-59529
     - https://zeropath.com/blog/avahi-simple-protocol-server-dos-cve-2025-59529
     PublishedDate: '2025-12-18T21:15:53.637Z'
@@ -27596,17 +27773,24 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:3e93d8377719ab5fe03ca7da2dca42c15058303b633dba9153667f12bcc64e7c
-    Title: Avahi is a system which facilitates service discovery on a local netwo ...
+    Title: 'avahi: simple clients denial-of-service'
     Description: Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions up to and including 0.9-rc2, the simple protocol server ignores the documented client limit and accepts unlimited connections, allowing for easy local DoS. Although `CLIENTS_MAX` is defined, `server_work()` unconditionally `accept()`s and `client_new()` always appends the new client and increments `n_clients`. There is no check against the limit. When client cannot be accepted as a result of maximal socket number of avahi-daemon, it logs unconditionally error per each connection. Unprivileged local users can exhaust daemon memory and file descriptors, causing a denial of service system-wide for mDNS/DNS-SD. Exhausting local file descriptors causes increased system load caused by logging errors of each of request. Overloading prevents glibc calls using nss-mdns plugins to resolve `*.local.` names and link-local addresses. As of time of publication, no known patched versions are available, but a candidate fix is available in pull request 808, and some workarounds are available. Simple clients are offered for nss-mdns package functionality. It is not possible to disable the unix socket `/run/avahi-daemon/socket`, but resolution requests received via DBus are not affected directly. Tools avahi-resolve, avahi-resolve-address and avahi-resolve-host-name are not affected, they use DBus interface. It is possible to change permissions of unix socket after avahi-daemon is started. But avahi-daemon does not provide any configuration for it. Additional access restrictions like SELinux can also prevent unwanted tools to access the socket and keep resolution working for trusted users.
     Severity: MEDIUM
     CweIDs:
     - CWE-400
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/12/19/1
+    - https://access.redhat.com/security/cve/CVE-2025-59529
     - https://github.com/avahi/avahi/pull/808
     - https://github.com/avahi/avahi/security/advisories/GHSA-73wf-3xmj-x82q
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-59529
     - https://www.cve.org/CVERecord?id=CVE-2025-59529
     - https://zeropath.com/blog/avahi-simple-protocol-server-dos-cve-2025-59529
     PublishedDate: '2025-12-18T21:15:53.637Z'
@@ -27729,17 +27913,24 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:1dcabaa0aa404451c4de2a2445a32ba1eb5f3236d421662e3c313d665d19eed2
-    Title: Avahi is a system which facilitates service discovery on a local netwo ...
+    Title: 'avahi: simple clients denial-of-service'
     Description: Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions up to and including 0.9-rc2, the simple protocol server ignores the documented client limit and accepts unlimited connections, allowing for easy local DoS. Although `CLIENTS_MAX` is defined, `server_work()` unconditionally `accept()`s and `client_new()` always appends the new client and increments `n_clients`. There is no check against the limit. When client cannot be accepted as a result of maximal socket number of avahi-daemon, it logs unconditionally error per each connection. Unprivileged local users can exhaust daemon memory and file descriptors, causing a denial of service system-wide for mDNS/DNS-SD. Exhausting local file descriptors causes increased system load caused by logging errors of each of request. Overloading prevents glibc calls using nss-mdns plugins to resolve `*.local.` names and link-local addresses. As of time of publication, no known patched versions are available, but a candidate fix is available in pull request 808, and some workarounds are available. Simple clients are offered for nss-mdns package functionality. It is not possible to disable the unix socket `/run/avahi-daemon/socket`, but resolution requests received via DBus are not affected directly. Tools avahi-resolve, avahi-resolve-address and avahi-resolve-host-name are not affected, they use DBus interface. It is possible to change permissions of unix socket after avahi-daemon is started. But avahi-daemon does not provide any configuration for it. Additional access restrictions like SELinux can also prevent unwanted tools to access the socket and keep resolution working for trusted users.
     Severity: MEDIUM
     CweIDs:
     - CWE-400
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/12/19/1
+    - https://access.redhat.com/security/cve/CVE-2025-59529
     - https://github.com/avahi/avahi/pull/808
     - https://github.com/avahi/avahi/security/advisories/GHSA-73wf-3xmj-x82q
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-59529
     - https://www.cve.org/CVERecord?id=CVE-2025-59529
     - https://zeropath.com/blog/avahi-simple-protocol-server-dos-cve-2025-59529
     PublishedDate: '2025-12-18T21:15:53.637Z'
@@ -28659,6 +28850,133 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2025-04-02T17:15:37.79Z'
+  - VulnerabilityID: CVE-2025-13601
+    PkgID: libglib2.0-0t64@2.84.1-1ubuntu0.1
+    PkgName: libglib2.0-0t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-0t64@2.84.1-1ubuntu0.1?arch=amd64&distro=ubuntu-25.04
+      UID: f5b2fa3c49f87751
+    InstalledVersion: 2.84.1-1ubuntu0.1
+    FixedVersion: 2.84.1-1ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13601
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:24f4c26767c23187d10cd2aba06a6cd3e7c798b368cb2e1a69e447a1381a4f26
+    Title: 'glib: Integer overflow in in g_escape_uri_string()'
+    Description: A heap-based buffer overflow problem was found in glib through an incorrect calculation of buffer size in the g_escape_uri_string() function. If the string to escape contains a very large number of unacceptable characters (which would need escaping), the calculation of the length of the escaped string could overflow, leading to a potential write off the end of the newly allocated string.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      cbl-mariner: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 7.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13601
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416741
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3827
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4914
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13601
+    - https://ubuntu.com/security/notices/USN-7942-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-13601
+    PublishedDate: '2025-11-26T15:15:51.723Z'
+    LastModifiedDate: '2025-12-01T15:39:53.1Z'
+  - VulnerabilityID: CVE-2025-14087
+    PkgID: libglib2.0-0t64@2.84.1-1ubuntu0.1
+    PkgName: libglib2.0-0t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-0t64@2.84.1-1ubuntu0.1?arch=amd64&distro=ubuntu-25.04
+      UID: f5b2fa3c49f87751
+    InstalledVersion: 2.84.1-1ubuntu0.1
+    FixedVersion: 2.84.1-1ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14087
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:397527357cde0e0fc9907c59bbed2a0090791bb9bac146288d5a85ad5a01dcd3
+    Title: 'glib: GLib: Buffer underflow in GVariant parser leads to heap corruption'
+    Description: A flaw was found in GLib (Gnome Lib). This vulnerability allows a remote attacker to cause heap corruption, leading to a denial of service or potential code execution via a buffer-underflow in the GVariant parser when processing maliciously crafted input strings.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      amazon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-14087
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2419093
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4933
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4934
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14087
+    - https://ubuntu.com/security/notices/USN-7942-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-14087
+    PublishedDate: '2025-12-10T09:15:47.053Z'
+    LastModifiedDate: '2025-12-12T15:18:42.14Z'
+  - VulnerabilityID: CVE-2025-14512
+    PkgID: libglib2.0-0t64@2.84.1-1ubuntu0.1
+    PkgName: libglib2.0-0t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-0t64@2.84.1-1ubuntu0.1?arch=amd64&distro=ubuntu-25.04
+      UID: f5b2fa3c49f87751
+    InstalledVersion: 2.84.1-1ubuntu0.1
+    FixedVersion: 2.84.1-1ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14512
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:29e457b49b4bd65defce7704730392bb3e67d090c4e6bd06e8dc769b83afd0fd
+    Title: 'glib: Integer Overflow in GLib GIO Attribute Escaping Causes Heap Buffer Overflow'
+    Description: A flaw was found in glib. This vulnerability allows a heap buffer overflow and denial-of-service (DoS) via an integer overflow in GLib's GIO (GLib Input/Output) escape_byte_string() function when processing malicious file or remote filesystem attribute values.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-14512
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2421339
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4935
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4936
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14512
+    - https://www.cve.org/CVERecord?id=CVE-2025-14512
+    PublishedDate: '2025-12-11T07:16:00.463Z'
+    LastModifiedDate: '2025-12-12T15:18:13.39Z'
   - VulnerabilityID: CVE-2025-6052
     PkgID: libglib2.0-0t64@2.84.1-1ubuntu0.1
     PkgName: libglib2.0-0t64
@@ -28666,7 +28984,8 @@
       PURL: pkg:deb/ubuntu/libglib2.0-0t64@2.84.1-1ubuntu0.1?arch=amd64&distro=ubuntu-25.04
       UID: f5b2fa3c49f87751
     InstalledVersion: 2.84.1-1ubuntu0.1
-    Status: affected
+    FixedVersion: 2.84.1-1ubuntu0.2
+    Status: fixed
     Layer:
       Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
       DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
@@ -28700,9 +29019,178 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372666
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4655
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6052
+    - https://ubuntu.com/security/notices/USN-7942-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6052
     PublishedDate: '2025-06-13T16:15:28.23Z'
     LastModifiedDate: '2025-08-20T17:27:24.26Z'
+  - VulnerabilityID: CVE-2025-7039
+    PkgID: libglib2.0-0t64@2.84.1-1ubuntu0.1
+    PkgName: libglib2.0-0t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-0t64@2.84.1-1ubuntu0.1?arch=amd64&distro=ubuntu-25.04
+      UID: f5b2fa3c49f87751
+    InstalledVersion: 2.84.1-1ubuntu0.1
+    FixedVersion: 2.84.1-1ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-7039
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4f02504bb1f4191db36c886af683c7b3f6800ce216afd948df0135ef1da35994
+    Title: 'glib: Buffer Under-read on GLib through glib/gfileutils.c via get_tmp_file()'
+    Description: A flaw was found in glib. An integer overflow during temporary file creation leads to an out-of-bounds memory access, allowing an attacker to potentially perform path traversal or access private temporary file content by creating symbolic links. This vulnerability allows a local attacker to manipulate file paths and access unauthorized data. The core issue stems from insufficient validation of file path lengths during temporary file operations.
+    Severity: LOW
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-7039
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2392423
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-7039
+    - https://ubuntu.com/security/notices/USN-7942-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-7039
+    PublishedDate: '2025-09-03T02:15:38.12Z'
+    LastModifiedDate: '2025-09-04T15:36:56.447Z'
+  - VulnerabilityID: CVE-2025-13601
+    PkgID: libglib2.0-data@2.84.1-1ubuntu0.1
+    PkgName: libglib2.0-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-data@2.84.1-1ubuntu0.1?arch=all&distro=ubuntu-25.04
+      UID: 9c294be0443b06d
+    InstalledVersion: 2.84.1-1ubuntu0.1
+    FixedVersion: 2.84.1-1ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13601
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a7685a1871db99c94cd25187a949029ba5c16edcbdc934e922eb60b5d5a36eff
+    Title: 'glib: Integer overflow in in g_escape_uri_string()'
+    Description: A heap-based buffer overflow problem was found in glib through an incorrect calculation of buffer size in the g_escape_uri_string() function. If the string to escape contains a very large number of unacceptable characters (which would need escaping), the calculation of the length of the escaped string could overflow, leading to a potential write off the end of the newly allocated string.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      cbl-mariner: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 7.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13601
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2416741
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3827
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4914
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13601
+    - https://ubuntu.com/security/notices/USN-7942-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-13601
+    PublishedDate: '2025-11-26T15:15:51.723Z'
+    LastModifiedDate: '2025-12-01T15:39:53.1Z'
+  - VulnerabilityID: CVE-2025-14087
+    PkgID: libglib2.0-data@2.84.1-1ubuntu0.1
+    PkgName: libglib2.0-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-data@2.84.1-1ubuntu0.1?arch=all&distro=ubuntu-25.04
+      UID: 9c294be0443b06d
+    InstalledVersion: 2.84.1-1ubuntu0.1
+    FixedVersion: 2.84.1-1ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14087
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:db7c3268e14a19384048a1109f12e2a30c149663ba41189b21517f1dafbc7348
+    Title: 'glib: GLib: Buffer underflow in GVariant parser leads to heap corruption'
+    Description: A flaw was found in GLib (Gnome Lib). This vulnerability allows a remote attacker to cause heap corruption, leading to a denial of service or potential code execution via a buffer-underflow in the GVariant parser when processing maliciously crafted input strings.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      amazon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-14087
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2419093
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4933
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4934
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14087
+    - https://ubuntu.com/security/notices/USN-7942-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-14087
+    PublishedDate: '2025-12-10T09:15:47.053Z'
+    LastModifiedDate: '2025-12-12T15:18:42.14Z'
+  - VulnerabilityID: CVE-2025-14512
+    PkgID: libglib2.0-data@2.84.1-1ubuntu0.1
+    PkgName: libglib2.0-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-data@2.84.1-1ubuntu0.1?arch=all&distro=ubuntu-25.04
+      UID: 9c294be0443b06d
+    InstalledVersion: 2.84.1-1ubuntu0.1
+    FixedVersion: 2.84.1-1ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14512
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:2f13d252f323ed97ce14648a6e8810fb8d0ded026619d4f36504c9a3ced25c06
+    Title: 'glib: Integer Overflow in GLib GIO Attribute Escaping Causes Heap Buffer Overflow'
+    Description: A flaw was found in glib. This vulnerability allows a heap buffer overflow and denial-of-service (DoS) via an integer overflow in GLib's GIO (GLib Input/Output) escape_byte_string() function when processing malicious file or remote filesystem attribute values.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-14512
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2421339
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4935
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4936
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14512
+    - https://www.cve.org/CVERecord?id=CVE-2025-14512
+    PublishedDate: '2025-12-11T07:16:00.463Z'
+    LastModifiedDate: '2025-12-12T15:18:13.39Z'
   - VulnerabilityID: CVE-2025-6052
     PkgID: libglib2.0-data@2.84.1-1ubuntu0.1
     PkgName: libglib2.0-data
@@ -28710,7 +29198,8 @@
       PURL: pkg:deb/ubuntu/libglib2.0-data@2.84.1-1ubuntu0.1?arch=all&distro=ubuntu-25.04
       UID: 9c294be0443b06d
     InstalledVersion: 2.84.1-1ubuntu0.1
-    Status: affected
+    FixedVersion: 2.84.1-1ubuntu0.2
+    Status: fixed
     Layer:
       Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
       DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
@@ -28744,9 +29233,51 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372666
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4655
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6052
+    - https://ubuntu.com/security/notices/USN-7942-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6052
     PublishedDate: '2025-06-13T16:15:28.23Z'
     LastModifiedDate: '2025-08-20T17:27:24.26Z'
+  - VulnerabilityID: CVE-2025-7039
+    PkgID: libglib2.0-data@2.84.1-1ubuntu0.1
+    PkgName: libglib2.0-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-data@2.84.1-1ubuntu0.1?arch=all&distro=ubuntu-25.04
+      UID: 9c294be0443b06d
+    InstalledVersion: 2.84.1-1ubuntu0.1
+    FixedVersion: 2.84.1-1ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-7039
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:227a9c3d21974dd0fdd97207189288cd6658e3a4ce9c6c77890e815fa6507c3f
+    Title: 'glib: Buffer Under-read on GLib through glib/gfileutils.c via get_tmp_file()'
+    Description: A flaw was found in glib. An integer overflow during temporary file creation leads to an out-of-bounds memory access, allowing an attacker to potentially perform path traversal or access private temporary file content by creating symbolic links. This vulnerability allows a local attacker to manipulate file paths and access unauthorized data. The core issue stems from insufficient validation of file path lengths during temporary file operations.
+    Severity: LOW
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-7039
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2392423
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-7039
+    - https://ubuntu.com/security/notices/USN-7942-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-7039
+    PublishedDate: '2025-09-03T02:15:38.12Z'
+    LastModifiedDate: '2025-09-04T15:36:56.447Z'
   - VulnerabilityID: CVE-2025-8941
     PkgID: libpam-modules@1.5.3-7ubuntu4.4
     PkgName: libpam-modules
@@ -29075,7 +29606,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -29169,7 +29700,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       photon: 3
@@ -29377,9 +29908,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23940
+    - https://access.redhat.com/errata/RHSA-2025:23342
     - https://access.redhat.com/security/cve/CVE-2025-8291
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
     - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
@@ -29388,7 +29922,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/10/ALSA-2025-23940.html
+    - https://errata.almalinux.org/9/ALSA-2025-23342.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
@@ -29544,9 +30078,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23940
+    - https://access.redhat.com/errata/RHSA-2025:23342
     - https://access.redhat.com/security/cve/CVE-2025-8291
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
     - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
@@ -29555,7 +30092,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/10/ALSA-2025-23940.html
+    - https://errata.almalinux.org/9/ALSA-2025-23342.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
@@ -29711,9 +30248,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23940
+    - https://access.redhat.com/errata/RHSA-2025:23342
     - https://access.redhat.com/security/cve/CVE-2025-8291
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
     - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
@@ -29722,7 +30262,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/10/ALSA-2025-23940.html
+    - https://errata.almalinux.org/9/ALSA-2025-23342.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
@@ -29744,6 +30284,86 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-8291
     PublishedDate: '2025-10-07T18:16:00.317Z'
     LastModifiedDate: '2025-10-29T16:15:35.133Z'
+  - VulnerabilityID: CVE-2025-68615
+    PkgID: libsnmp-base@5.9.4+dfsg-1.1ubuntu7
+    PkgName: libsnmp-base
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsnmp-base@5.9.4%2Bdfsg-1.1ubuntu7?arch=all&distro=ubuntu-25.04
+      UID: cd5075571f284951
+    InstalledVersion: 5.9.4+dfsg-1.1ubuntu7
+    Status: affected
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68615
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f3bef1f806cf6ffac0fa23621ff62f886a2963839842d786f1fe050b46c93c57
+    Title: 'net-snmp: buffer overflow via a specially crafted packet can cause a crash in snmptrapd'
+    Description: net-snmp is a SNMP application library, tools and daemon. Prior to versions 5.9.5 and 5.10.pre2, a specially crafted packet to an net-snmp snmptrapd daemon can cause a buffer overflow and the daemon to crash. This issue has been patched in versions 5.9.5 and 5.10.pre2.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    VendorSeverity:
+      azure: 4
+      cbl-mariner: 4
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-68615
+    - https://github.com/net-snmp/net-snmp/security/advisories/GHSA-4389-rwqf-q9gq
+    - https://lists.debian.org/debian-lts-announce/2026/01/msg00000.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-68615
+    - https://www.cve.org/CVERecord?id=CVE-2025-68615
+    PublishedDate: '2025-12-23T00:15:43.83Z'
+    LastModifiedDate: '2026-01-01T15:15:41.743Z'
+  - VulnerabilityID: CVE-2025-68615
+    PkgID: libsnmp40t64@5.9.4+dfsg-1.1ubuntu7
+    PkgName: libsnmp40t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsnmp40t64@5.9.4%2Bdfsg-1.1ubuntu7?arch=amd64&distro=ubuntu-25.04
+      UID: c3ae0279b7f6e395
+    InstalledVersion: 5.9.4+dfsg-1.1ubuntu7
+    Status: affected
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68615
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:30500989fa2885ee8f722773db859f68dfcf8b4451a6184816e22c62f8172136
+    Title: 'net-snmp: buffer overflow via a specially crafted packet can cause a crash in snmptrapd'
+    Description: net-snmp is a SNMP application library, tools and daemon. Prior to versions 5.9.5 and 5.10.pre2, a specially crafted packet to an net-snmp snmptrapd daemon can cause a buffer overflow and the daemon to crash. This issue has been patched in versions 5.9.5 and 5.10.pre2.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    VendorSeverity:
+      azure: 4
+      cbl-mariner: 4
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-68615
+    - https://github.com/net-snmp/net-snmp/security/advisories/GHSA-4389-rwqf-q9gq
+    - https://lists.debian.org/debian-lts-announce/2026/01/msg00000.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-68615
+    - https://www.cve.org/CVERecord?id=CVE-2025-68615
+    PublishedDate: '2025-12-23T00:15:43.83Z'
+    LastModifiedDate: '2026-01-01T15:15:41.743Z'
   - VulnerabilityID: CVE-2021-39920
     PkgID: libwireshark-data@4.4.5-1
     PkgName: libwireshark-data
@@ -29987,12 +30607,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:20145
+    - https://access.redhat.com/errata/RHSA-2025:20559
     - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
-    - https://errata.almalinux.org/10/ALSA-2025-20145.html
+    - https://errata.almalinux.org/9/ALSA-2025-20559.html
     - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
@@ -30038,12 +30658,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:20145
+    - https://access.redhat.com/errata/RHSA-2025:20559
     - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
-    - https://errata.almalinux.org/10/ALSA-2025-20145.html
+    - https://errata.almalinux.org/9/ALSA-2025-20559.html
     - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
@@ -30188,9 +30808,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23940
+    - https://access.redhat.com/errata/RHSA-2025:23342
     - https://access.redhat.com/security/cve/CVE-2025-8291
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
     - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
@@ -30199,7 +30822,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/10/ALSA-2025-23940.html
+    - https://errata.almalinux.org/9/ALSA-2025-23342.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
@@ -30355,9 +30978,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2025:23940
+    - https://access.redhat.com/errata/RHSA-2025:23342
     - https://access.redhat.com/security/cve/CVE-2025-8291
+    - https://bugzilla.redhat.com/2294682
+    - https://bugzilla.redhat.com/2373234
     - https://bugzilla.redhat.com/2402342
+    - https://bugzilla.redhat.com/2408891
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294682
     - https://bugzilla.redhat.com/show_bug.cgi?id=2373234
     - https://bugzilla.redhat.com/show_bug.cgi?id=2402342
@@ -30366,7 +30992,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6069
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8291
-    - https://errata.almalinux.org/10/ALSA-2025-23940.html
+    - https://errata.almalinux.org/9/ALSA-2025-23342.html
     - https://errata.rockylinux.org/RLSA-2025:23342
     - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
     - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
