@@ -39,6 +39,9 @@ init:
   - name: mitmproxy
     cmd : mitmproxy --version
     lite: false
+  - name: sslproxy
+    cmd : sslproxy -V || true
+    lite: true
   - name: mtr
     cmd : mtr -v
   - name: mpstat
