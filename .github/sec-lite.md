@@ -16006,81 +16006,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-62408 
 │                       │      ├ PublishedDate   : 2025-12-08T22:15:52.62Z 
 │                       │      ╰ LastModifiedDate: 2025-12-09T18:37:33.427Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-14524 
-│                       │      ├ PkgID           : curl@8.17.0-r0 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.17.0-r0?arch=x86_64&distro=3.23
-│                       │      │                  │       .0_alpha20251016 
-│                       │      │                  ╰ UID : 1028accd3bb409be 
-│                       │      ├ InstalledVersion: 8.17.0-r0 
-│                       │      ├ FixedVersion    : 8.18.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:732f72df05006ce41486212bda2ba834ba76cb8af305
-│                       │      │                  │         e102ca607f82ee327e4d 
-│                       │      │                  ╰ DiffID: sha256:093e6f1f0ca3cbd20db248d8ffef0b4d5683de84c604
-│                       │      │                            ace35626002e38078f78 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14524 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:857fe2e8fb157d1f0f5abf20a9aa997d6f129249859d1c5dce4e5
-│                       │      │                   f260bba20b0 
-│                       │      ├ Title           : [bearer token leak on cross-protocol redirect] 
-│                       │      ├ Description     : When an OAuth2 bearer token is used for an HTTP(S) transfer,
-│                       │      │                    and that transfer
-│                       │      │                   performs a cross-protocol redirect to a second URL that uses
-│                       │      │                    an IMAP, LDAP,
-│                       │      │                   POP3 or SMTP scheme, curl might wrongly pass on the bearer
-│                       │      │                   token to the new
-│                       │      │                   target host. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/4 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14524.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14524.json 
-│                       │      │                  ├ [3]: https://hackerone.com/reports/3459417 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
-│                       │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
-│                       │      ╰ LastModifiedDate: 2026-01-08T11:15:43.017Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-14819 
-│                       │      ├ PkgID           : curl@8.17.0-r0 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.17.0-r0?arch=x86_64&distro=3.23
-│                       │      │                  │       .0_alpha20251016 
-│                       │      │                  ╰ UID : 1028accd3bb409be 
-│                       │      ├ InstalledVersion: 8.17.0-r0 
-│                       │      ├ FixedVersion    : 8.18.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:732f72df05006ce41486212bda2ba834ba76cb8af305
-│                       │      │                  │         e102ca607f82ee327e4d 
-│                       │      │                  ╰ DiffID: sha256:093e6f1f0ca3cbd20db248d8ffef0b4d5683de84c604
-│                       │      │                            ace35626002e38078f78 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14819 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:1c2a36ed5104e9fe96a027a61e0371e50bdfc84046fe358b10a5a
-│                       │      │                   fd51e01a5c4 
-│                       │      ├ Title           : [OpenSSL partial chain store policy bypass] 
-│                       │      ├ Description     : When doing TLS related transfers with reused easy or multi
-│                       │      │                   handles and
-│                       │      │                   altering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl
-│                       │      │                   could accidentally
-│                       │      │                   reuse a CA store cached in memory for which the partial
-│                       │      │                   chain option was
-│                       │      │                   reversed. Contrary to the user's wishes and expectations.
-│                       │      │                   This could make
-│                       │      │                   libcurl find and accept a trust chain that it otherwise
-│                       │      │                   would not. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/5 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14819.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14819.json 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
-│                       │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
-│                       │      ╰ LastModifiedDate: 2026-01-08T11:15:43.14Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-14017 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-14017 
 │                       │      ├ PkgID           : curl@8.17.0-r0 
 │                       │      ├ PkgName         : curl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.17.0-r0?arch=x86_64&distro=3.23
@@ -16099,7 +16025,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:99a98386e3323220b6c02bf620760ca3cf8a0d66a26e5cf2461e3
 │                       │      │                   1db4052da15 
-│                       │      ├ Title           : [broken TLS options for threaded LDAPS] 
+│                       │      ├ Title           : curl: curl: Security bypass due to global TLS option changes
+│                       │      │                    in multi-threaded LDAPS transfers 
 │                       │      ├ Description     : When doing multi-threaded LDAPS transfers (LDAP over TLS)
 │                       │      │                   with libcurl,
 │                       │      │                   changing TLS options in one thread would inadvertently
@@ -16111,18 +16038,25 @@
 │                       │      │                   could
 │                       │      │                   unintentionally disable the feature for other threads as
 │                       │      │                   well. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 4.8 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/3 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14017.html 
-│                       │      │                  ╰ [2]: https://curl.se/docs/CVE-2025-14017.json 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-14017 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14017.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-14017.json 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-14017 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-14017 
 │                       │      ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
-│                       │      ╰ LastModifiedDate: 2026-01-08T11:15:41.997Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-14524 
-│                       │      ├ PkgID           : curl-doc@8.17.0-r0 
-│                       │      ├ PkgName         : curl-doc 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.17.0-r0?arch=x86_64&distro=
-│                       │      │                  │       3.23.0_alpha20251016 
-│                       │      │                  ╰ UID : 3cae57d60749997e 
+│                       │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-14524 
+│                       │      ├ PkgID           : curl@8.17.0-r0 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.17.0-r0?arch=x86_64&distro=3.23
+│                       │      │                  │       .0_alpha20251016 
+│                       │      │                  ╰ UID : 1028accd3bb409be 
 │                       │      ├ InstalledVersion: 8.17.0-r0 
 │                       │      ├ FixedVersion    : 8.18.0-r0 
 │                       │      ├ Status          : fixed 
@@ -16134,9 +16068,10 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:f4393b1874f28cfbf3ef05cb78668819d6d26cc6912bd263d1038
-│                       │      │                   e6914afeb63 
-│                       │      ├ Title           : [bearer token leak on cross-protocol redirect] 
+│                       │      ├ Fingerprint     : sha256:857fe2e8fb157d1f0f5abf20a9aa997d6f129249859d1c5dce4e5
+│                       │      │                   f260bba20b0 
+│                       │      ├ Title           : When an OAuth2 bearer token is used for an HTTP(S) transfer,
+│                       │      │                    and that  ... 
 │                       │      ├ Description     : When an OAuth2 bearer token is used for an HTTP(S) transfer,
 │                       │      │                    and that transfer
 │                       │      │                   performs a cross-protocol redirect to a second URL that uses
@@ -16152,13 +16087,13 @@
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3459417 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
 │                       │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
-│                       │      ╰ LastModifiedDate: 2026-01-08T11:15:43.017Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-14819 
-│                       │      ├ PkgID           : curl-doc@8.17.0-r0 
-│                       │      ├ PkgName         : curl-doc 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.17.0-r0?arch=x86_64&distro=
-│                       │      │                  │       3.23.0_alpha20251016 
-│                       │      │                  ╰ UID : 3cae57d60749997e 
+│                       │      ╰ LastModifiedDate: 2026-01-09T20:15:51.243Z 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-14819 
+│                       │      ├ PkgID           : curl@8.17.0-r0 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.17.0-r0?arch=x86_64&distro=3.23
+│                       │      │                  │       .0_alpha20251016 
+│                       │      │                  ╰ UID : 1028accd3bb409be 
 │                       │      ├ InstalledVersion: 8.17.0-r0 
 │                       │      ├ FixedVersion    : 8.18.0-r0 
 │                       │      ├ Status          : fixed 
@@ -16170,9 +16105,10 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:6646b9c85b2e56f65987195aac5e1af07783f4f40cbfc305e0008
-│                       │      │                   bb241d8f13d 
-│                       │      ├ Title           : [OpenSSL partial chain store policy bypass] 
+│                       │      ├ Fingerprint     : sha256:1c2a36ed5104e9fe96a027a61e0371e50bdfc84046fe358b10a5a
+│                       │      │                   fd51e01a5c4 
+│                       │      ├ Title           : When doing TLS related transfers with reused easy or multi
+│                       │      │                   handles and ... 
 │                       │      ├ Description     : When doing TLS related transfers with reused easy or multi
 │                       │      │                   handles and
 │                       │      │                   altering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl
@@ -16184,14 +16120,15 @@
 │                       │      │                   libcurl find and accept a trust chain that it otherwise
 │                       │      │                   would not. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-295 
 │                       │      ├ VendorSeverity   ─ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/5 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14819.html 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14819.json 
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
 │                       │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
-│                       │      ╰ LastModifiedDate: 2026-01-08T11:15:43.14Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-14017 
+│                       │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-14017 
 │                       │      ├ PkgID           : curl-doc@8.17.0-r0 
 │                       │      ├ PkgName         : curl-doc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.17.0-r0?arch=x86_64&distro=
@@ -16210,7 +16147,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:5cced90d22d0f2d7540972df5e5e7bab6dee9482dac185de60f92
 │                       │      │                   ebed3ea3597 
-│                       │      ├ Title           : [broken TLS options for threaded LDAPS] 
+│                       │      ├ Title           : curl: curl: Security bypass due to global TLS option changes
+│                       │      │                    in multi-threaded LDAPS transfers 
 │                       │      ├ Description     : When doing multi-threaded LDAPS transfers (LDAP over TLS)
 │                       │      │                   with libcurl,
 │                       │      │                   changing TLS options in one thread would inadvertently
@@ -16222,12 +16160,96 @@
 │                       │      │                   could
 │                       │      │                   unintentionally disable the feature for other threads as
 │                       │      │                   well. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 4.8 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/3 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14017.html 
-│                       │      │                  ╰ [2]: https://curl.se/docs/CVE-2025-14017.json 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-14017 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14017.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-14017.json 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-14017 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-14017 
 │                       │      ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
-│                       │      ╰ LastModifiedDate: 2026-01-08T11:15:41.997Z 
+│                       │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-14524 
+│                       │      ├ PkgID           : curl-doc@8.17.0-r0 
+│                       │      ├ PkgName         : curl-doc 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.17.0-r0?arch=x86_64&distro=
+│                       │      │                  │       3.23.0_alpha20251016 
+│                       │      │                  ╰ UID : 3cae57d60749997e 
+│                       │      ├ InstalledVersion: 8.17.0-r0 
+│                       │      ├ FixedVersion    : 8.18.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:732f72df05006ce41486212bda2ba834ba76cb8af305
+│                       │      │                  │         e102ca607f82ee327e4d 
+│                       │      │                  ╰ DiffID: sha256:093e6f1f0ca3cbd20db248d8ffef0b4d5683de84c604
+│                       │      │                            ace35626002e38078f78 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14524 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:f4393b1874f28cfbf3ef05cb78668819d6d26cc6912bd263d1038
+│                       │      │                   e6914afeb63 
+│                       │      ├ Title           : When an OAuth2 bearer token is used for an HTTP(S) transfer,
+│                       │      │                    and that  ... 
+│                       │      ├ Description     : When an OAuth2 bearer token is used for an HTTP(S) transfer,
+│                       │      │                    and that transfer
+│                       │      │                   performs a cross-protocol redirect to a second URL that uses
+│                       │      │                    an IMAP, LDAP,
+│                       │      │                   POP3 or SMTP scheme, curl might wrongly pass on the bearer
+│                       │      │                   token to the new
+│                       │      │                   target host. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/4 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14524.html 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14524.json 
+│                       │      │                  ├ [3]: https://hackerone.com/reports/3459417 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
+│                       │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
+│                       │      ╰ LastModifiedDate: 2026-01-09T20:15:51.243Z 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-14819 
+│                       │      ├ PkgID           : curl-doc@8.17.0-r0 
+│                       │      ├ PkgName         : curl-doc 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.17.0-r0?arch=x86_64&distro=
+│                       │      │                  │       3.23.0_alpha20251016 
+│                       │      │                  ╰ UID : 3cae57d60749997e 
+│                       │      ├ InstalledVersion: 8.17.0-r0 
+│                       │      ├ FixedVersion    : 8.18.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:732f72df05006ce41486212bda2ba834ba76cb8af305
+│                       │      │                  │         e102ca607f82ee327e4d 
+│                       │      │                  ╰ DiffID: sha256:093e6f1f0ca3cbd20db248d8ffef0b4d5683de84c604
+│                       │      │                            ace35626002e38078f78 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14819 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:6646b9c85b2e56f65987195aac5e1af07783f4f40cbfc305e0008
+│                       │      │                   bb241d8f13d 
+│                       │      ├ Title           : When doing TLS related transfers with reused easy or multi
+│                       │      │                   handles and ... 
+│                       │      ├ Description     : When doing TLS related transfers with reused easy or multi
+│                       │      │                   handles and
+│                       │      │                   altering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl
+│                       │      │                   could accidentally
+│                       │      │                   reuse a CA store cached in memory for which the partial
+│                       │      │                   chain option was
+│                       │      │                   reversed. Contrary to the user's wishes and expectations.
+│                       │      │                   This could make
+│                       │      │                   libcurl find and accept a trust chain that it otherwise
+│                       │      │                   would not. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-295 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/5 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14819.html 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14819.json 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
+│                       │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
+│                       │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2025-32988 
 │                       │      ├ PkgID           : gnutls@3.8.8-r0 
 │                       │      ├ PkgName         : gnutls 
@@ -16290,29 +16312,33 @@
 │                       │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:22529 
 │                       │      │                  ├ [9] : https://access.redhat.com/security/cve/CVE-2025-32988 
 │                       │      │                  ├ [10]: https://bugzilla.redhat.com/2359620 
-│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2359622 
-│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2376755 
-│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2359620 
-│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
-│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
-│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32988 
-│                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32990 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2359621 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2359622 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2376755 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2359620 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2359621 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
 │                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-32988 
+│                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-32989 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-32990 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6395 
-│                       │      │                  ├ [19]: https://errata.almalinux.org/8/ALSA-2025-17415.html 
-│                       │      │                  ├ [20]: https://errata.rockylinux.org/RLSA-2025:17415 
-│                       │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2025-32988.html 
-│                       │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
-│                       │      │                  ├ [23]: https://lists.debian.org/debian-lts-announce/2025/08/
+│                       │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-16116.html 
+│                       │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:16116 
+│                       │      │                  ├ [24]: https://linux.oracle.com/cve/CVE-2025-32988.html 
+│                       │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
+│                       │      │                  ├ [26]: https://lists.debian.org/debian-lts-announce/2025/08/
 │                       │      │                  │       msg00005.html 
-│                       │      │                  ├ [24]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
+│                       │      │                  ├ [27]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                       │      │                  │       ly/004883.html 
-│                       │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-32988 
-│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7635-1 
-│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7742-1 
-│                       │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
+│                       │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2025-32988 
+│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7742-1 
+│                       │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
 │                       │      ├ PublishedDate   : 2025-07-10T08:15:24.223Z 
 │                       │      ╰ LastModifiedDate: 2025-12-01T22:15:47.79Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2025-32990 
@@ -16372,29 +16398,33 @@
 │                       │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:22529 
 │                       │      │                  ├ [9] : https://access.redhat.com/security/cve/CVE-2025-32990 
 │                       │      │                  ├ [10]: https://bugzilla.redhat.com/2359620 
-│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2359622 
-│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2376755 
-│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2359620 
-│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
-│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
-│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32988 
-│                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32990 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2359621 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2359622 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2376755 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2359620 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2359621 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
 │                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-32988 
+│                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-32989 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-32990 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6395 
-│                       │      │                  ├ [19]: https://errata.almalinux.org/8/ALSA-2025-17415.html 
-│                       │      │                  ├ [20]: https://errata.rockylinux.org/RLSA-2025:17415 
-│                       │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2025-32990.html 
-│                       │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
-│                       │      │                  ├ [23]: https://lists.debian.org/debian-lts-announce/2025/08/
+│                       │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-16116.html 
+│                       │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:16116 
+│                       │      │                  ├ [24]: https://linux.oracle.com/cve/CVE-2025-32990.html 
+│                       │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
+│                       │      │                  ├ [26]: https://lists.debian.org/debian-lts-announce/2025/08/
 │                       │      │                  │       msg00005.html 
-│                       │      │                  ├ [24]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
+│                       │      │                  ├ [27]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                       │      │                  │       ly/004883.html 
-│                       │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-32990 
-│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7635-1 
-│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7742-1 
-│                       │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
+│                       │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2025-32990 
+│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7742-1 
+│                       │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
 │                       │      ├ PublishedDate   : 2025-07-10T10:15:33.06Z 
 │                       │      ╰ LastModifiedDate: 2025-12-01T22:15:48.2Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2025-32989 
@@ -16466,7 +16496,7 @@
 │                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6395 
 │                       │      │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-16116.html 
-│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:16115 
+│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:16116 
 │                       │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-32989.html 
 │                       │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
 │                       │      │                  ├ [25]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
@@ -16524,29 +16554,33 @@
 │                       │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:22529 
 │                       │      │                  ├ [9] : https://access.redhat.com/security/cve/CVE-2025-6395 
 │                       │      │                  ├ [10]: https://bugzilla.redhat.com/2359620 
-│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2359622 
-│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2376755 
-│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2359620 
-│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
-│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
-│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32988 
-│                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-32990 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2359621 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2359622 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2376755 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2359620 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2359621 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
 │                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-32988 
+│                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-32989 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-32990 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6395 
-│                       │      │                  ├ [19]: https://errata.almalinux.org/8/ALSA-2025-17415.html 
-│                       │      │                  ├ [20]: https://errata.rockylinux.org/RLSA-2025:17415 
-│                       │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2025-6395.html 
-│                       │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
-│                       │      │                  ├ [23]: https://lists.debian.org/debian-lts-announce/2025/08/
+│                       │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-16116.html 
+│                       │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:16116 
+│                       │      │                  ├ [24]: https://linux.oracle.com/cve/CVE-2025-6395.html 
+│                       │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
+│                       │      │                  ├ [26]: https://lists.debian.org/debian-lts-announce/2025/08/
 │                       │      │                  │       msg00005.html 
-│                       │      │                  ├ [24]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
+│                       │      │                  ├ [27]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                       │      │                  │       ly/004883.html 
-│                       │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-6395 
-│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7635-1 
-│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7742-1 
-│                       │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
+│                       │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2025-6395 
+│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-7742-1 
+│                       │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
 │                       │      ├ PublishedDate   : 2025-07-10T16:15:25.11Z 
 │                       │      ╰ LastModifiedDate: 2025-12-01T22:15:51.513Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2025-9820 
@@ -16570,81 +16604,7 @@
 │                       │      │                   f17fa6a60c2 
 │                       │      ├ Title           : [GNUTLS-SA-2025-11-18] 
 │                       │      ╰ Severity        : UNKNOWN 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2025-14524 
-│                       │      ├ PkgID           : libcurl@8.17.0-r0 
-│                       │      ├ PkgName         : libcurl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.17.0-r0?arch=x86_64&distro=3
-│                       │      │                  │       .23.0_alpha20251016 
-│                       │      │                  ╰ UID : dd94bd9a29f65a85 
-│                       │      ├ InstalledVersion: 8.17.0-r0 
-│                       │      ├ FixedVersion    : 8.18.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:732f72df05006ce41486212bda2ba834ba76cb8af305
-│                       │      │                  │         e102ca607f82ee327e4d 
-│                       │      │                  ╰ DiffID: sha256:093e6f1f0ca3cbd20db248d8ffef0b4d5683de84c604
-│                       │      │                            ace35626002e38078f78 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14524 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:91fe20fc4f01339a593ade04561f581ff0939734fcb8df6cb89ae
-│                       │      │                   0afbb505fb0 
-│                       │      ├ Title           : [bearer token leak on cross-protocol redirect] 
-│                       │      ├ Description     : When an OAuth2 bearer token is used for an HTTP(S) transfer,
-│                       │      │                    and that transfer
-│                       │      │                   performs a cross-protocol redirect to a second URL that uses
-│                       │      │                    an IMAP, LDAP,
-│                       │      │                   POP3 or SMTP scheme, curl might wrongly pass on the bearer
-│                       │      │                   token to the new
-│                       │      │                   target host. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/4 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14524.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14524.json 
-│                       │      │                  ├ [3]: https://hackerone.com/reports/3459417 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
-│                       │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
-│                       │      ╰ LastModifiedDate: 2026-01-08T11:15:43.017Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2025-14819 
-│                       │      ├ PkgID           : libcurl@8.17.0-r0 
-│                       │      ├ PkgName         : libcurl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.17.0-r0?arch=x86_64&distro=3
-│                       │      │                  │       .23.0_alpha20251016 
-│                       │      │                  ╰ UID : dd94bd9a29f65a85 
-│                       │      ├ InstalledVersion: 8.17.0-r0 
-│                       │      ├ FixedVersion    : 8.18.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:732f72df05006ce41486212bda2ba834ba76cb8af305
-│                       │      │                  │         e102ca607f82ee327e4d 
-│                       │      │                  ╰ DiffID: sha256:093e6f1f0ca3cbd20db248d8ffef0b4d5683de84c604
-│                       │      │                            ace35626002e38078f78 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14819 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:b2d3d77bd57b7eec60fc759b26d42cd76b91ad691e4521e27ef27
-│                       │      │                   2ed8762bdd2 
-│                       │      ├ Title           : [OpenSSL partial chain store policy bypass] 
-│                       │      ├ Description     : When doing TLS related transfers with reused easy or multi
-│                       │      │                   handles and
-│                       │      │                   altering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl
-│                       │      │                   could accidentally
-│                       │      │                   reuse a CA store cached in memory for which the partial
-│                       │      │                   chain option was
-│                       │      │                   reversed. Contrary to the user's wishes and expectations.
-│                       │      │                   This could make
-│                       │      │                   libcurl find and accept a trust chain that it otherwise
-│                       │      │                   would not. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/5 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14819.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14819.json 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
-│                       │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
-│                       │      ╰ LastModifiedDate: 2026-01-08T11:15:43.14Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2025-14017 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2025-14017 
 │                       │      ├ PkgID           : libcurl@8.17.0-r0 
 │                       │      ├ PkgName         : libcurl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.17.0-r0?arch=x86_64&distro=3
@@ -16663,7 +16623,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:cfda2a8d326796e5fd2a8cd72183c5389970643b8b83a91efa228
 │                       │      │                   ba8c260a548 
-│                       │      ├ Title           : [broken TLS options for threaded LDAPS] 
+│                       │      ├ Title           : curl: curl: Security bypass due to global TLS option changes
+│                       │      │                    in multi-threaded LDAPS transfers 
 │                       │      ├ Description     : When doing multi-threaded LDAPS transfers (LDAP over TLS)
 │                       │      │                   with libcurl,
 │                       │      │                   changing TLS options in one thread would inadvertently
@@ -16675,12 +16636,96 @@
 │                       │      │                   could
 │                       │      │                   unintentionally disable the feature for other threads as
 │                       │      │                   well. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 4.8 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/3 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14017.html 
-│                       │      │                  ╰ [2]: https://curl.se/docs/CVE-2025-14017.json 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-14017 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14017.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-14017.json 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-14017 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-14017 
 │                       │      ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
-│                       │      ╰ LastModifiedDate: 2026-01-08T11:15:41.997Z 
+│                       │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2025-14524 
+│                       │      ├ PkgID           : libcurl@8.17.0-r0 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.17.0-r0?arch=x86_64&distro=3
+│                       │      │                  │       .23.0_alpha20251016 
+│                       │      │                  ╰ UID : dd94bd9a29f65a85 
+│                       │      ├ InstalledVersion: 8.17.0-r0 
+│                       │      ├ FixedVersion    : 8.18.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:732f72df05006ce41486212bda2ba834ba76cb8af305
+│                       │      │                  │         e102ca607f82ee327e4d 
+│                       │      │                  ╰ DiffID: sha256:093e6f1f0ca3cbd20db248d8ffef0b4d5683de84c604
+│                       │      │                            ace35626002e38078f78 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14524 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:91fe20fc4f01339a593ade04561f581ff0939734fcb8df6cb89ae
+│                       │      │                   0afbb505fb0 
+│                       │      ├ Title           : When an OAuth2 bearer token is used for an HTTP(S) transfer,
+│                       │      │                    and that  ... 
+│                       │      ├ Description     : When an OAuth2 bearer token is used for an HTTP(S) transfer,
+│                       │      │                    and that transfer
+│                       │      │                   performs a cross-protocol redirect to a second URL that uses
+│                       │      │                    an IMAP, LDAP,
+│                       │      │                   POP3 or SMTP scheme, curl might wrongly pass on the bearer
+│                       │      │                   token to the new
+│                       │      │                   target host. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/4 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14524.html 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14524.json 
+│                       │      │                  ├ [3]: https://hackerone.com/reports/3459417 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
+│                       │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
+│                       │      ╰ LastModifiedDate: 2026-01-09T20:15:51.243Z 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2025-14819 
+│                       │      ├ PkgID           : libcurl@8.17.0-r0 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.17.0-r0?arch=x86_64&distro=3
+│                       │      │                  │       .23.0_alpha20251016 
+│                       │      │                  ╰ UID : dd94bd9a29f65a85 
+│                       │      ├ InstalledVersion: 8.17.0-r0 
+│                       │      ├ FixedVersion    : 8.18.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:732f72df05006ce41486212bda2ba834ba76cb8af305
+│                       │      │                  │         e102ca607f82ee327e4d 
+│                       │      │                  ╰ DiffID: sha256:093e6f1f0ca3cbd20db248d8ffef0b4d5683de84c604
+│                       │      │                            ace35626002e38078f78 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14819 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:b2d3d77bd57b7eec60fc759b26d42cd76b91ad691e4521e27ef27
+│                       │      │                   2ed8762bdd2 
+│                       │      ├ Title           : When doing TLS related transfers with reused easy or multi
+│                       │      │                   handles and ... 
+│                       │      ├ Description     : When doing TLS related transfers with reused easy or multi
+│                       │      │                   handles and
+│                       │      │                   altering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl
+│                       │      │                   could accidentally
+│                       │      │                   reuse a CA store cached in memory for which the partial
+│                       │      │                   chain option was
+│                       │      │                   reversed. Contrary to the user's wishes and expectations.
+│                       │      │                   This could make
+│                       │      │                   libcurl find and accept a trust chain that it otherwise
+│                       │      │                   would not. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-295 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/5 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14819.html 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14819.json 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
+│                       │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
+│                       │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
 │                       ├ [17] ╭ VulnerabilityID : CVE-2025-64720 
 │                       │      ├ PkgID           : libpng@1.6.49-r0 
 │                       │      ├ PkgName         : libpng 
@@ -16715,36 +16760,47 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:0241 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:0238 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-64720 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2416904 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2416907 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2418711 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2026-0241.html 
-│                       │      │                  ├ [6] : https://github.com/pnggroup/libpng/commit/08da33b4c88
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2416904 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2416907 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2418711 
+│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-64720 
+│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-65018 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-66293 
+│                       │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2026-0238.html 
+│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2026:0238 
+│                       │      │                  ├ [13]: https://github.com/pnggroup/libpng/commit/08da33b4c88
 │                       │      │                  │       cfcd36e5a706558a8d7e0e4773643 
-│                       │      │                  ├ [7] : https://github.com/pnggroup/libpng/commit/08da33b4c88
+│                       │      │                  ├ [14]: https://github.com/pnggroup/libpng/commit/08da33b4c88
 │                       │      │                  │       cfcd36e5a706558a8d7e0e4773643 (v1.6.51) 
-│                       │      │                  ├ [8] : https://github.com/pnggroup/libpng/issues/686 
-│                       │      │                  ├ [9] : https://github.com/pnggroup/libpng/pull/751 
-│                       │      │                  ├ [10]: https://github.com/pnggroup/libpng/security/advisorie
+│                       │      │                  ├ [15]: https://github.com/pnggroup/libpng/issues/686 
+│                       │      │                  ├ [16]: https://github.com/pnggroup/libpng/pull/751 
+│                       │      │                  ├ [17]: https://github.com/pnggroup/libpng/security/advisorie
 │                       │      │                  │       s/GHSA-hfc7-ph9c-wcww 
-│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2025-64720.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2026-0241.html 
-│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-64720 
-│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7924-1 
-│                       │      │                  ├ [15]: https://www.cve.org/CVERecord?id=CVE-2025-64720 
-│                       │      │                  ╰ [16]: https://www.openwall.com/lists/oss-security/2025/11/2
+│                       │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2025-64720.html 
+│                       │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2026-0241.html 
+│                       │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2025-64720 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7924-1 
+│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2025-64720 
+│                       │      │                  ╰ [23]: https://www.openwall.com/lists/oss-security/2025/11/2
 │                       │      │                          2/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.46Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:35:18.253Z 
@@ -16787,34 +16843,45 @@
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:0241 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:0238 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-65018 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2416904 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2416907 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2418711 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2026-0241.html 
-│                       │      │                  ├ [6] : https://github.com/pnggroup/libpng/commit/16b5e382391
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2416904 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2416907 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2418711 
+│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-64720 
+│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-65018 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-66293 
+│                       │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2026-0238.html 
+│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2026:0238 
+│                       │      │                  ├ [13]: https://github.com/pnggroup/libpng/commit/16b5e382391
 │                       │      │                  │       8840aae65c0a6da57c78a5a496a4d 
-│                       │      │                  ├ [7] : https://github.com/pnggroup/libpng/commit/16b5e382391
+│                       │      │                  ├ [14]: https://github.com/pnggroup/libpng/commit/16b5e382391
 │                       │      │                  │       8840aae65c0a6da57c78a5a496a4d (v1.6.51) 
-│                       │      │                  ├ [8] : https://github.com/pnggroup/libpng/commit/218612ddd6b
+│                       │      │                  ├ [15]: https://github.com/pnggroup/libpng/commit/218612ddd6b
 │                       │      │                  │       17944e21eda56caf8b4bf7779d1ea 
-│                       │      │                  ├ [9] : https://github.com/pnggroup/libpng/commit/218612ddd6b
+│                       │      │                  ├ [16]: https://github.com/pnggroup/libpng/commit/218612ddd6b
 │                       │      │                  │       17944e21eda56caf8b4bf7779d1ea (v1.6.51) 
-│                       │      │                  ├ [10]: https://github.com/pnggroup/libpng/issues/755 
-│                       │      │                  ├ [11]: https://github.com/pnggroup/libpng/pull/757 
-│                       │      │                  ├ [12]: https://github.com/pnggroup/libpng/security/advisorie
+│                       │      │                  ├ [17]: https://github.com/pnggroup/libpng/issues/755 
+│                       │      │                  ├ [18]: https://github.com/pnggroup/libpng/pull/757 
+│                       │      │                  ├ [19]: https://github.com/pnggroup/libpng/security/advisorie
 │                       │      │                  │       s/GHSA-7wv6-48j4-hj3g 
-│                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-65018.html 
-│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2026-0241.html 
-│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-65018 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7924-1 
-│                       │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2025-65018 
-│                       │      │                  ╰ [18]: https://www.openwall.com/lists/oss-security/2025/11/2
+│                       │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2025-65018.html 
+│                       │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-0241.html 
+│                       │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2025-65018 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7924-1 
+│                       │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2025-65018 
+│                       │      │                  ╰ [25]: https://www.openwall.com/lists/oss-security/2025/11/2
 │                       │      │                          2/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.61Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:34:53.65Z 
@@ -16855,30 +16922,41 @@
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
-│                       │      │                  ╰ redhat     : 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.1 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/12/03/6 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/12/03/7 
 │                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/12/03/8 
-│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:0241 
+│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:0238 
 │                       │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2025-66293 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2416904 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2416907 
 │                       │      │                  ├ [7] : https://bugzilla.redhat.com/2418711 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2026-0241.html 
-│                       │      │                  ├ [9] : https://github.com/pnggroup/libpng/commit/788a624d738
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2416904 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2416907 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2418711 
+│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-64720 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-65018 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-66293 
+│                       │      │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2026-0238.html 
+│                       │      │                  ├ [15]: https://errata.rockylinux.org/RLSA-2026:0238 
+│                       │      │                  ├ [16]: https://github.com/pnggroup/libpng/commit/788a624d738
 │                       │      │                  │       7a758ffd5c7ab010f1870dea753a1 
-│                       │      │                  ├ [10]: https://github.com/pnggroup/libpng/commit/a05a48b756d
+│                       │      │                  ├ [17]: https://github.com/pnggroup/libpng/commit/a05a48b756d
 │                       │      │                  │       e63e3234ea6b3b938b8f5f862484a 
-│                       │      │                  ├ [11]: https://github.com/pnggroup/libpng/issues/764 
-│                       │      │                  ├ [12]: https://github.com/pnggroup/libpng/security/advisorie
+│                       │      │                  ├ [18]: https://github.com/pnggroup/libpng/issues/764 
+│                       │      │                  ├ [19]: https://github.com/pnggroup/libpng/security/advisorie
 │                       │      │                  │       s/GHSA-9mpm-9pxh-mg4f 
-│                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-66293.html 
-│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2026-0241.html 
-│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-66293 
-│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-66293 
+│                       │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2025-66293.html 
+│                       │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-0241.html 
+│                       │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2025-66293 
+│                       │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2025-66293 
 │                       │      ├ PublishedDate   : 2025-12-03T21:15:53.06Z 
 │                       │      ╰ LastModifiedDate: 2025-12-16T19:12:50.35Z 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2025-64505 
@@ -16915,7 +16993,7 @@
 │                       │      │                   1.6.51. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ photon     : 2 
@@ -16995,7 +17073,45 @@
 │                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.3Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:34:38.24Z 
-│                       ╰ [22] ╭ VulnerabilityID : CVE-2025-46394 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2025-13151 
+│                       │      ├ PkgID           : libtasn1@4.20.0-r0 
+│                       │      ├ PkgName         : libtasn1 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libtasn1@4.20.0-r0?arch=x86_64&distro=
+│                       │      │                  │       3.23.0_alpha20251016 
+│                       │      │                  ╰ UID : f37021d01b4eff1 
+│                       │      ├ InstalledVersion: 4.20.0-r0 
+│                       │      ├ FixedVersion    : 4.21.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:732f72df05006ce41486212bda2ba834ba76cb8af305
+│                       │      │                  │         e102ca607f82ee327e4d 
+│                       │      │                  ╰ DiffID: sha256:093e6f1f0ca3cbd20db248d8ffef0b4d5683de84c604
+│                       │      │                            ace35626002e38078f78 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13151 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:92ab8e1e9537a831ec148e8997b6763368c70ba49603a099e3a79
+│                       │      │                   3fe7d4b306a 
+│                       │      ├ Title           : libtasn1: libtasn1: Denial of Service via stack-based buffer
+│                       │      │                    overflow in asn1_expend_octet_string 
+│                       │      ├ Description     : Stack-based buffer overflow in libtasn1 version: v4.20.0.
+│                       │      │                   The function fails to validate the size of input data
+│                       │      │                   resulting in a buffer overflow in
+│                       │      │                   asn1_expend_octet_string. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/08/5 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-13151 
+│                       │      │                  ├ [2]: https://gitlab.com/gnutls/libtasn1 
+│                       │      │                  ├ [3]: https://gitlab.com/gnutls/libtasn1/-/merge_requests/121 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-13151 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-13151 
+│                       │      ├ PublishedDate   : 2026-01-07T22:15:43.2Z 
+│                       │      ╰ LastModifiedDate: 2026-01-08T19:15:55.983Z 
+│                       ╰ [23] ╭ VulnerabilityID : CVE-2025-46394 
 │                              ├ PkgID           : ssl_client@1.37.0-r24 
 │                              ├ PkgName         : ssl_client 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.37.0-r24?arch=x86_64&dist
