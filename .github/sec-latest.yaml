@@ -28672,7 +28672,7 @@
     - https://github.com/OpenPrinting/cups/releases/tag/v2.4.15
     - https://github.com/OpenPrinting/cups/security/advisories/GHSA-8wpw-vfgm-qrrr
     - https://linux.oracle.com/cve/CVE-2025-58436.html
-    - https://linux.oracle.com/errata/ELSA-2026-0312.html
+    - https://linux.oracle.com/errata/ELSA-2026-0464.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58436
     - https://ubuntu.com/security/notices/USN-7912-1
     - https://ubuntu.com/security/notices/USN-7912-2
@@ -28727,7 +28727,7 @@
     - https://github.com/OpenPrinting/cups/releases/tag/v2.4.15
     - https://github.com/OpenPrinting/cups/security/advisories/GHSA-hxm8-vfpq-jrfc
     - https://linux.oracle.com/cve/CVE-2025-61915.html
-    - https://linux.oracle.com/errata/ELSA-2026-0312.html
+    - https://linux.oracle.com/errata/ELSA-2026-0464.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61915
     - https://ubuntu.com/security/notices/USN-7897-1
     - https://www.cve.org/CVERecord?id=CVE-2025-61915
@@ -30151,6 +30151,59 @@
     - https://www.openwall.com/lists/oss-security/2025/11/22/1
     PublishedDate: '2025-11-25T00:15:47.61Z'
     LastModifiedDate: '2025-11-26T18:34:53.65Z'
+  - VulnerabilityID: CVE-2025-13836
+    PkgID: libpython3.13@3.13.3-1ubuntu0.3
+    PkgName: libpython3.13
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.13@3.13.3-1ubuntu0.3?arch=amd64&distro=ubuntu-25.04
+      UID: daa6508fb93fa4f3
+    InstalledVersion: 3.13.3-1ubuntu0.3
+    FixedVersion: 3.13.3-1ubuntu0.5
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13836
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:64dc0f7e4ea5d2cb906a2a9e7567672c500e62963190d29f2c058d07f73e4927
+    Title: 'cpython: Excessive read buffering DoS in http.client'
+    Description: When reading an HTTP response from a server, if no read amount is specified, the default behavior will be to use Content-Length. This allows a malicious server to cause the client to read large amounts of data into memory, potentially causing OOM or other DoS.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    - CWE-400
+    VendorSeverity:
+      amazon: 2
+      nvd: 4
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 9.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13836
+    - https://github.com/python/cpython/commit/14b1fdb0a94b96f86fc7b86671ea9582b8676628
+    - https://github.com/python/cpython/commit/289f29b0fe38baf2d7cb5854f4bb573cc34a6a15
+    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155
+    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155 (3.14 branch)
+    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5
+    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5 (main)
+    - https://github.com/python/cpython/issues/119451
+    - https://github.com/python/cpython/pull/119454
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
+    - https://ubuntu.com/security/notices/USN-7951-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-13836
+    PublishedDate: '2025-12-01T18:16:04.2Z'
+    LastModifiedDate: '2025-12-30T15:08:14.027Z'
   - VulnerabilityID: CVE-2025-6075
     PkgID: libpython3.13@3.13.3-1ubuntu0.3
     PkgName: libpython3.13
@@ -30321,6 +30374,59 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-8291
     PublishedDate: '2025-10-07T18:16:00.317Z'
     LastModifiedDate: '2025-10-29T16:15:35.133Z'
+  - VulnerabilityID: CVE-2025-13836
+    PkgID: libpython3.13-minimal@3.13.3-1ubuntu0.3
+    PkgName: libpython3.13-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.13-minimal@3.13.3-1ubuntu0.3?arch=amd64&distro=ubuntu-25.04
+      UID: 79e4d6b19a333b64
+    InstalledVersion: 3.13.3-1ubuntu0.3
+    FixedVersion: 3.13.3-1ubuntu0.5
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13836
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fce824141c5a0c6b17974512e62f1daf8587589de9c9f19a9126d4bb36884371
+    Title: 'cpython: Excessive read buffering DoS in http.client'
+    Description: When reading an HTTP response from a server, if no read amount is specified, the default behavior will be to use Content-Length. This allows a malicious server to cause the client to read large amounts of data into memory, potentially causing OOM or other DoS.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    - CWE-400
+    VendorSeverity:
+      amazon: 2
+      nvd: 4
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 9.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13836
+    - https://github.com/python/cpython/commit/14b1fdb0a94b96f86fc7b86671ea9582b8676628
+    - https://github.com/python/cpython/commit/289f29b0fe38baf2d7cb5854f4bb573cc34a6a15
+    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155
+    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155 (3.14 branch)
+    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5
+    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5 (main)
+    - https://github.com/python/cpython/issues/119451
+    - https://github.com/python/cpython/pull/119454
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
+    - https://ubuntu.com/security/notices/USN-7951-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-13836
+    PublishedDate: '2025-12-01T18:16:04.2Z'
+    LastModifiedDate: '2025-12-30T15:08:14.027Z'
   - VulnerabilityID: CVE-2025-6075
     PkgID: libpython3.13-minimal@3.13.3-1ubuntu0.3
     PkgName: libpython3.13-minimal
@@ -30491,6 +30597,59 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-8291
     PublishedDate: '2025-10-07T18:16:00.317Z'
     LastModifiedDate: '2025-10-29T16:15:35.133Z'
+  - VulnerabilityID: CVE-2025-13836
+    PkgID: libpython3.13-stdlib@3.13.3-1ubuntu0.3
+    PkgName: libpython3.13-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.13-stdlib@3.13.3-1ubuntu0.3?arch=amd64&distro=ubuntu-25.04
+      UID: f9c1d2b38dd5dc47
+    InstalledVersion: 3.13.3-1ubuntu0.3
+    FixedVersion: 3.13.3-1ubuntu0.5
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13836
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d293b3b96774399563bc01cdd1d8b3b7fe8180b3f97a1c16ace5761da4914c59
+    Title: 'cpython: Excessive read buffering DoS in http.client'
+    Description: When reading an HTTP response from a server, if no read amount is specified, the default behavior will be to use Content-Length. This allows a malicious server to cause the client to read large amounts of data into memory, potentially causing OOM or other DoS.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    - CWE-400
+    VendorSeverity:
+      amazon: 2
+      nvd: 4
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 9.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13836
+    - https://github.com/python/cpython/commit/14b1fdb0a94b96f86fc7b86671ea9582b8676628
+    - https://github.com/python/cpython/commit/289f29b0fe38baf2d7cb5854f4bb573cc34a6a15
+    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155
+    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155 (3.14 branch)
+    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5
+    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5 (main)
+    - https://github.com/python/cpython/issues/119451
+    - https://github.com/python/cpython/pull/119454
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
+    - https://ubuntu.com/security/notices/USN-7951-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-13836
+    PublishedDate: '2025-12-01T18:16:04.2Z'
+    LastModifiedDate: '2025-12-30T15:08:14.027Z'
   - VulnerabilityID: CVE-2025-6075
     PkgID: libpython3.13-stdlib@3.13.3-1ubuntu0.3
     PkgName: libpython3.13-stdlib
@@ -30803,6 +30962,45 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-69277
     PublishedDate: '2025-12-31T06:15:41.513Z'
     LastModifiedDate: '2026-01-07T17:16:02.003Z'
+  - VulnerabilityID: CVE-2025-13151
+    PkgID: libtasn1-6@4.20.0-2
+    PkgName: libtasn1-6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libtasn1-6@4.20.0-2?arch=amd64&distro=ubuntu-25.04
+      UID: 71c2bdacc54486b3
+    InstalledVersion: 4.20.0-2
+    FixedVersion: 4.20.0-2ubuntu0.25.04.1
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13151
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:23c29088d6743b545afc241ef88d1d34cfb5a23774ad0e7ab398e33d5295d6f7
+    Title: 'libtasn1: libtasn1: Denial of Service via stack-based buffer overflow in asn1_expend_octet_string'
+    Description: 'Stack-based buffer overflow in libtasn1 version: v4.20.0. The function fails to validate the size of input data resulting in a buffer overflow in asn1_expend_octet_string.'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/08/5
+    - https://access.redhat.com/security/cve/CVE-2025-13151
+    - https://gitlab.com/gnutls/libtasn1
+    - https://gitlab.com/gnutls/libtasn1/-/merge_requests/121
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13151
+    - https://ubuntu.com/security/notices/USN-7954-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-13151
+    PublishedDate: '2026-01-07T22:15:43.2Z'
+    LastModifiedDate: '2026-01-08T19:15:55.983Z'
   - VulnerabilityID: CVE-2021-39920
     PkgID: libwireshark-data@4.4.5-1
     PkgName: libwireshark-data
@@ -31113,6 +31311,59 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2024-12-26T09:15:07.267Z'
+  - VulnerabilityID: CVE-2025-13836
+    PkgID: python3.13@3.13.3-1ubuntu0.3
+    PkgName: python3.13
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.13@3.13.3-1ubuntu0.3?arch=amd64&distro=ubuntu-25.04
+      UID: 962e97e83eac1fff
+    InstalledVersion: 3.13.3-1ubuntu0.3
+    FixedVersion: 3.13.3-1ubuntu0.5
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13836
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4e26e65874f51c6bbdaa2f26ad6b4baa30c5323947754ba290c6723ef88d8da9
+    Title: 'cpython: Excessive read buffering DoS in http.client'
+    Description: When reading an HTTP response from a server, if no read amount is specified, the default behavior will be to use Content-Length. This allows a malicious server to cause the client to read large amounts of data into memory, potentially causing OOM or other DoS.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    - CWE-400
+    VendorSeverity:
+      amazon: 2
+      nvd: 4
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 9.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13836
+    - https://github.com/python/cpython/commit/14b1fdb0a94b96f86fc7b86671ea9582b8676628
+    - https://github.com/python/cpython/commit/289f29b0fe38baf2d7cb5854f4bb573cc34a6a15
+    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155
+    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155 (3.14 branch)
+    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5
+    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5 (main)
+    - https://github.com/python/cpython/issues/119451
+    - https://github.com/python/cpython/pull/119454
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
+    - https://ubuntu.com/security/notices/USN-7951-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-13836
+    PublishedDate: '2025-12-01T18:16:04.2Z'
+    LastModifiedDate: '2025-12-30T15:08:14.027Z'
   - VulnerabilityID: CVE-2025-6075
     PkgID: python3.13@3.13.3-1ubuntu0.3
     PkgName: python3.13
@@ -31283,6 +31534,59 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-8291
     PublishedDate: '2025-10-07T18:16:00.317Z'
     LastModifiedDate: '2025-10-29T16:15:35.133Z'
+  - VulnerabilityID: CVE-2025-13836
+    PkgID: python3.13-minimal@3.13.3-1ubuntu0.3
+    PkgName: python3.13-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.13-minimal@3.13.3-1ubuntu0.3?arch=amd64&distro=ubuntu-25.04
+      UID: c1cec9eb0b5563e1
+    InstalledVersion: 3.13.3-1ubuntu0.3
+    FixedVersion: 3.13.3-1ubuntu0.5
+    Status: fixed
+    Layer:
+      Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f751991654f340268814f
+      DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442f83180303bd9ac0c7167
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13836
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4af26f01aecd5461c3ad844856be4450c77a4bb32f734e10138a606f469ef8c7
+    Title: 'cpython: Excessive read buffering DoS in http.client'
+    Description: When reading an HTTP response from a server, if no read amount is specified, the default behavior will be to use Content-Length. This allows a malicious server to cause the client to read large amounts of data into memory, potentially causing OOM or other DoS.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    - CWE-400
+    VendorSeverity:
+      amazon: 2
+      nvd: 4
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 9.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13836
+    - https://github.com/python/cpython/commit/14b1fdb0a94b96f86fc7b86671ea9582b8676628
+    - https://github.com/python/cpython/commit/289f29b0fe38baf2d7cb5854f4bb573cc34a6a15
+    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155
+    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155 (3.14 branch)
+    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5
+    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5 (main)
+    - https://github.com/python/cpython/issues/119451
+    - https://github.com/python/cpython/pull/119454
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
+    - https://ubuntu.com/security/notices/USN-7951-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-13836
+    PublishedDate: '2025-12-01T18:16:04.2Z'
+    LastModifiedDate: '2025-12-30T15:08:14.027Z'
   - VulnerabilityID: CVE-2025-6075
     PkgID: python3.13-minimal@3.13.3-1ubuntu0.3
     PkgName: python3.13-minimal
