@@ -30432,7 +30432,7 @@
 │                       │      │                  ├ [4] : https://github.com/OpenPrinting/cups/security/advisor
 │                       │      │                  │       ies/GHSA-8wpw-vfgm-qrrr 
 │                       │      │                  ├ [5] : https://linux.oracle.com/cve/CVE-2025-58436.html 
-│                       │      │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2026-0312.html 
+│                       │      │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2026-0464.html 
 │                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2025-58436 
 │                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7912-1 
 │                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7912-2 
@@ -30494,7 +30494,7 @@
 │                       │      │                  ├ [4]: https://github.com/OpenPrinting/cups/security/advisori
 │                       │      │                  │      es/GHSA-hxm8-vfpq-jrfc 
 │                       │      │                  ├ [5]: https://linux.oracle.com/cve/CVE-2025-61915.html 
-│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2026-0312.html 
+│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2026-0464.html 
 │                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-61915 
 │                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7897-1 
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-61915 
@@ -32063,7 +32063,69 @@
 │                       │      │                          2/1 
 │                       │      ├ PublishedDate   : 2025-11-25T00:15:47.61Z 
 │                       │      ╰ LastModifiedDate: 2025-11-26T18:34:53.65Z 
-│                       ├ [64] ╭ VulnerabilityID : CVE-2025-6075 
+│                       ├ [64] ╭ VulnerabilityID : CVE-2025-13836 
+│                       │      ├ PkgID           : libpython3.13@3.13.3-1ubuntu0.3 
+│                       │      ├ PkgName         : libpython3.13 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13@3.13.3-1ubuntu0.3?arch=a
+│                       │      │                  │       md64&distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : daa6508fb93fa4f3 
+│                       │      ├ InstalledVersion: 3.13.3-1ubuntu0.3 
+│                       │      ├ FixedVersion    : 3.13.3-1ubuntu0.5 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f
+│                       │      │                  │         751991654f340268814f 
+│                       │      │                  ╰ DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442
+│                       │      │                            f83180303bd9ac0c7167 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13836 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:64dc0f7e4ea5d2cb906a2a9e7567672c500e62963190d29f2c058
+│                       │      │                   d07f73e4927 
+│                       │      ├ Title           : cpython: Excessive read buffering DoS in http.client 
+│                       │      ├ Description     : When reading an HTTP response from a server, if no read
+│                       │      │                   amount is specified, the default behavior will be to use
+│                       │      │                   Content-Length. This allows a malicious server to cause the
+│                       │      │                   client to read large amounts of data into memory,
+│                       │      │                   potentially causing OOM or other DoS. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-125 
+│                       │      │                  ╰ [1]: CWE-400 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 4 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 9.1 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.8 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-13836 
+│                       │      │                  ├ [1] : https://github.com/python/cpython/commit/14b1fdb0a94b
+│                       │      │                  │       96f86fc7b86671ea9582b8676628 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/289f29b0fe38
+│                       │      │                  │       baf2d7cb5854f4bb573cc34a6a15 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/4ce27904b597
+│                       │      │                  │       c77d74dd93f2c912676021a99155 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/4ce27904b597
+│                       │      │                  │       c77d74dd93f2c912676021a99155 (3.14 branch) 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/5a4c4a033a4a
+│                       │      │                  │       54481be6870aa1896fad732555b5 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/5a4c4a033a4a
+│                       │      │                  │       54481be6870aa1896fad732555b5 (main) 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/issues/119451 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/pull/119454 
+│                       │      │                  ├ [9] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO
+│                       │      │                  │       / 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-13836 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7951-1 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-13836 
+│                       │      ├ PublishedDate   : 2025-12-01T18:16:04.2Z 
+│                       │      ╰ LastModifiedDate: 2025-12-30T15:08:14.027Z 
+│                       ├ [65] ╭ VulnerabilityID : CVE-2025-6075 
 │                       │      ├ PkgID           : libpython3.13@3.13.3-1ubuntu0.3 
 │                       │      ├ PkgName         : libpython3.13 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13@3.13.3-1ubuntu0.3?arch=a
@@ -32164,7 +32226,7 @@
 │                       │      │                  ╰ [37]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
 │                       │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
 │                       │      ╰ LastModifiedDate: 2025-12-01T19:15:52.55Z 
-│                       ├ [65] ╭ VulnerabilityID : CVE-2025-8291 
+│                       ├ [66] ╭ VulnerabilityID : CVE-2025-8291 
 │                       │      ├ PkgID           : libpython3.13@3.13.3-1ubuntu0.3 
 │                       │      ├ PkgName         : libpython3.13 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13@3.13.3-1ubuntu0.3?arch=a
@@ -32270,7 +32332,69 @@
 │                       │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
 │                       │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
 │                       │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
-│                       ├ [66] ╭ VulnerabilityID : CVE-2025-6075 
+│                       ├ [67] ╭ VulnerabilityID : CVE-2025-13836 
+│                       │      ├ PkgID           : libpython3.13-minimal@3.13.3-1ubuntu0.3 
+│                       │      ├ PkgName         : libpython3.13-minimal 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13-minimal@3.13.3-1ubuntu0.
+│                       │      │                  │       3?arch=amd64&distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : 79e4d6b19a333b64 
+│                       │      ├ InstalledVersion: 3.13.3-1ubuntu0.3 
+│                       │      ├ FixedVersion    : 3.13.3-1ubuntu0.5 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f
+│                       │      │                  │         751991654f340268814f 
+│                       │      │                  ╰ DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442
+│                       │      │                            f83180303bd9ac0c7167 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13836 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:fce824141c5a0c6b17974512e62f1daf8587589de9c9f19a9126d
+│                       │      │                   4bb36884371 
+│                       │      ├ Title           : cpython: Excessive read buffering DoS in http.client 
+│                       │      ├ Description     : When reading an HTTP response from a server, if no read
+│                       │      │                   amount is specified, the default behavior will be to use
+│                       │      │                   Content-Length. This allows a malicious server to cause the
+│                       │      │                   client to read large amounts of data into memory,
+│                       │      │                   potentially causing OOM or other DoS. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-125 
+│                       │      │                  ╰ [1]: CWE-400 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 4 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 9.1 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.8 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-13836 
+│                       │      │                  ├ [1] : https://github.com/python/cpython/commit/14b1fdb0a94b
+│                       │      │                  │       96f86fc7b86671ea9582b8676628 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/289f29b0fe38
+│                       │      │                  │       baf2d7cb5854f4bb573cc34a6a15 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/4ce27904b597
+│                       │      │                  │       c77d74dd93f2c912676021a99155 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/4ce27904b597
+│                       │      │                  │       c77d74dd93f2c912676021a99155 (3.14 branch) 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/5a4c4a033a4a
+│                       │      │                  │       54481be6870aa1896fad732555b5 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/5a4c4a033a4a
+│                       │      │                  │       54481be6870aa1896fad732555b5 (main) 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/issues/119451 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/pull/119454 
+│                       │      │                  ├ [9] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO
+│                       │      │                  │       / 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-13836 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7951-1 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-13836 
+│                       │      ├ PublishedDate   : 2025-12-01T18:16:04.2Z 
+│                       │      ╰ LastModifiedDate: 2025-12-30T15:08:14.027Z 
+│                       ├ [68] ╭ VulnerabilityID : CVE-2025-6075 
 │                       │      ├ PkgID           : libpython3.13-minimal@3.13.3-1ubuntu0.3 
 │                       │      ├ PkgName         : libpython3.13-minimal 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13-minimal@3.13.3-1ubuntu0.
@@ -32371,7 +32495,7 @@
 │                       │      │                  ╰ [37]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
 │                       │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
 │                       │      ╰ LastModifiedDate: 2025-12-01T19:15:52.55Z 
-│                       ├ [67] ╭ VulnerabilityID : CVE-2025-8291 
+│                       ├ [69] ╭ VulnerabilityID : CVE-2025-8291 
 │                       │      ├ PkgID           : libpython3.13-minimal@3.13.3-1ubuntu0.3 
 │                       │      ├ PkgName         : libpython3.13-minimal 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13-minimal@3.13.3-1ubuntu0.
@@ -32477,7 +32601,69 @@
 │                       │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
 │                       │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
 │                       │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
-│                       ├ [68] ╭ VulnerabilityID : CVE-2025-6075 
+│                       ├ [70] ╭ VulnerabilityID : CVE-2025-13836 
+│                       │      ├ PkgID           : libpython3.13-stdlib@3.13.3-1ubuntu0.3 
+│                       │      ├ PkgName         : libpython3.13-stdlib 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13-stdlib@3.13.3-1ubuntu0.3
+│                       │      │                  │       ?arch=amd64&distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : f9c1d2b38dd5dc47 
+│                       │      ├ InstalledVersion: 3.13.3-1ubuntu0.3 
+│                       │      ├ FixedVersion    : 3.13.3-1ubuntu0.5 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f
+│                       │      │                  │         751991654f340268814f 
+│                       │      │                  ╰ DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442
+│                       │      │                            f83180303bd9ac0c7167 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13836 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:d293b3b96774399563bc01cdd1d8b3b7fe8180b3f97a1c16ace57
+│                       │      │                   61da4914c59 
+│                       │      ├ Title           : cpython: Excessive read buffering DoS in http.client 
+│                       │      ├ Description     : When reading an HTTP response from a server, if no read
+│                       │      │                   amount is specified, the default behavior will be to use
+│                       │      │                   Content-Length. This allows a malicious server to cause the
+│                       │      │                   client to read large amounts of data into memory,
+│                       │      │                   potentially causing OOM or other DoS. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-125 
+│                       │      │                  ╰ [1]: CWE-400 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 4 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 9.1 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.8 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-13836 
+│                       │      │                  ├ [1] : https://github.com/python/cpython/commit/14b1fdb0a94b
+│                       │      │                  │       96f86fc7b86671ea9582b8676628 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/289f29b0fe38
+│                       │      │                  │       baf2d7cb5854f4bb573cc34a6a15 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/4ce27904b597
+│                       │      │                  │       c77d74dd93f2c912676021a99155 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/4ce27904b597
+│                       │      │                  │       c77d74dd93f2c912676021a99155 (3.14 branch) 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/5a4c4a033a4a
+│                       │      │                  │       54481be6870aa1896fad732555b5 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/5a4c4a033a4a
+│                       │      │                  │       54481be6870aa1896fad732555b5 (main) 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/issues/119451 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/pull/119454 
+│                       │      │                  ├ [9] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO
+│                       │      │                  │       / 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-13836 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7951-1 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-13836 
+│                       │      ├ PublishedDate   : 2025-12-01T18:16:04.2Z 
+│                       │      ╰ LastModifiedDate: 2025-12-30T15:08:14.027Z 
+│                       ├ [71] ╭ VulnerabilityID : CVE-2025-6075 
 │                       │      ├ PkgID           : libpython3.13-stdlib@3.13.3-1ubuntu0.3 
 │                       │      ├ PkgName         : libpython3.13-stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13-stdlib@3.13.3-1ubuntu0.3
@@ -32578,7 +32764,7 @@
 │                       │      │                  ╰ [37]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
 │                       │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
 │                       │      ╰ LastModifiedDate: 2025-12-01T19:15:52.55Z 
-│                       ├ [69] ╭ VulnerabilityID : CVE-2025-8291 
+│                       ├ [72] ╭ VulnerabilityID : CVE-2025-8291 
 │                       │      ├ PkgID           : libpython3.13-stdlib@3.13.3-1ubuntu0.3 
 │                       │      ├ PkgName         : libpython3.13-stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.13-stdlib@3.13.3-1ubuntu0.3
@@ -32684,7 +32870,7 @@
 │                       │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
 │                       │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
 │                       │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
-│                       ├ [70] ╭ VulnerabilityID : CVE-2025-68615 
+│                       ├ [73] ╭ VulnerabilityID : CVE-2025-68615 
 │                       │      ├ PkgID           : libsnmp-base@5.9.4+dfsg-1.1ubuntu7 
 │                       │      ├ PkgName         : libsnmp-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsnmp-base@5.9.4%2Bdfsg-1.1ubuntu7?a
@@ -32731,7 +32917,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-68615 
 │                       │      ├ PublishedDate   : 2025-12-23T00:15:43.83Z 
 │                       │      ╰ LastModifiedDate: 2026-01-09T23:15:55.16Z 
-│                       ├ [71] ╭ VulnerabilityID : CVE-2025-68615 
+│                       ├ [74] ╭ VulnerabilityID : CVE-2025-68615 
 │                       │      ├ PkgID           : libsnmp40t64@5.9.4+dfsg-1.1ubuntu7 
 │                       │      ├ PkgName         : libsnmp40t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsnmp40t64@5.9.4%2Bdfsg-1.1ubuntu7?a
@@ -32778,7 +32964,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-68615 
 │                       │      ├ PublishedDate   : 2025-12-23T00:15:43.83Z 
 │                       │      ╰ LastModifiedDate: 2026-01-09T23:15:55.16Z 
-│                       ├ [72] ╭ VulnerabilityID : CVE-2025-69277 
+│                       ├ [75] ╭ VulnerabilityID : CVE-2025-69277 
 │                       │      ├ PkgID           : libsodium23@1.0.18-1build3 
 │                       │      ├ PkgName         : libsodium23 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsodium23@1.0.18-1build3?arch=amd64&
@@ -32845,7 +33031,48 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-69277 
 │                       │      ├ PublishedDate   : 2025-12-31T06:15:41.513Z 
 │                       │      ╰ LastModifiedDate: 2026-01-07T17:16:02.003Z 
-│                       ├ [73] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [76] ╭ VulnerabilityID : CVE-2025-13151 
+│                       │      ├ PkgID           : libtasn1-6@4.20.0-2 
+│                       │      ├ PkgName         : libtasn1-6 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtasn1-6@4.20.0-2?arch=amd64&distro=
+│                       │      │                  │       ubuntu-25.04 
+│                       │      │                  ╰ UID : 71c2bdacc54486b3 
+│                       │      ├ InstalledVersion: 4.20.0-2 
+│                       │      ├ FixedVersion    : 4.20.0-2ubuntu0.25.04.1 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f
+│                       │      │                  │         751991654f340268814f 
+│                       │      │                  ╰ DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442
+│                       │      │                            f83180303bd9ac0c7167 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13151 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:23c29088d6743b545afc241ef88d1d34cfb5a23774ad0e7ab398e
+│                       │      │                   33d5295d6f7 
+│                       │      ├ Title           : libtasn1: libtasn1: Denial of Service via stack-based buffer
+│                       │      │                    overflow in asn1_expend_octet_string 
+│                       │      ├ Description     : Stack-based buffer overflow in libtasn1 version: v4.20.0.
+│                       │      │                   The function fails to validate the size of input data
+│                       │      │                   resulting in a buffer overflow in
+│                       │      │                   asn1_expend_octet_string. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/08/5 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-13151 
+│                       │      │                  ├ [2]: https://gitlab.com/gnutls/libtasn1 
+│                       │      │                  ├ [3]: https://gitlab.com/gnutls/libtasn1/-/merge_requests/121 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-13151 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7954-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-13151 
+│                       │      ├ PublishedDate   : 2026-01-07T22:15:43.2Z 
+│                       │      ╰ LastModifiedDate: 2026-01-08T19:15:55.983Z 
+│                       ├ [77] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwireshark-data@4.4.5-1 
 │                       │      ├ PkgName         : libwireshark-data 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.4.5-1?arch=all&dis
@@ -32901,7 +33128,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [74] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [78] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwireshark18@4.4.5-1 
 │                       │      ├ PkgName         : libwireshark18 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark18@4.4.5-1?arch=amd64&dist
@@ -32957,7 +33184,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [75] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [79] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwiretap15@4.4.5-1 
 │                       │      ├ PkgName         : libwiretap15 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap15@4.4.5-1?arch=amd64&distro
@@ -33013,7 +33240,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [76] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [80] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwsutil16@4.4.5-1 
 │                       │      ├ PkgName         : libwsutil16 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil16@4.4.5-1?arch=amd64&distro=
@@ -33069,7 +33296,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [77] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [81] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.16.0-7ubuntu1?arch=all&di
@@ -33131,7 +33358,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [78] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [82] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.16.0-7ubuntu1?arch=amd64&dist
@@ -33193,7 +33420,69 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [79] ╭ VulnerabilityID : CVE-2025-6075 
+│                       ├ [83] ╭ VulnerabilityID : CVE-2025-13836 
+│                       │      ├ PkgID           : python3.13@3.13.3-1ubuntu0.3 
+│                       │      ├ PkgName         : python3.13 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.13@3.13.3-1ubuntu0.3?arch=amd6
+│                       │      │                  │       4&distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : 962e97e83eac1fff 
+│                       │      ├ InstalledVersion: 3.13.3-1ubuntu0.3 
+│                       │      ├ FixedVersion    : 3.13.3-1ubuntu0.5 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f
+│                       │      │                  │         751991654f340268814f 
+│                       │      │                  ╰ DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442
+│                       │      │                            f83180303bd9ac0c7167 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13836 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:4e26e65874f51c6bbdaa2f26ad6b4baa30c5323947754ba290c67
+│                       │      │                   23ef88d8da9 
+│                       │      ├ Title           : cpython: Excessive read buffering DoS in http.client 
+│                       │      ├ Description     : When reading an HTTP response from a server, if no read
+│                       │      │                   amount is specified, the default behavior will be to use
+│                       │      │                   Content-Length. This allows a malicious server to cause the
+│                       │      │                   client to read large amounts of data into memory,
+│                       │      │                   potentially causing OOM or other DoS. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-125 
+│                       │      │                  ╰ [1]: CWE-400 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 4 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 9.1 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.8 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-13836 
+│                       │      │                  ├ [1] : https://github.com/python/cpython/commit/14b1fdb0a94b
+│                       │      │                  │       96f86fc7b86671ea9582b8676628 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/289f29b0fe38
+│                       │      │                  │       baf2d7cb5854f4bb573cc34a6a15 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/4ce27904b597
+│                       │      │                  │       c77d74dd93f2c912676021a99155 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/4ce27904b597
+│                       │      │                  │       c77d74dd93f2c912676021a99155 (3.14 branch) 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/5a4c4a033a4a
+│                       │      │                  │       54481be6870aa1896fad732555b5 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/5a4c4a033a4a
+│                       │      │                  │       54481be6870aa1896fad732555b5 (main) 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/issues/119451 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/pull/119454 
+│                       │      │                  ├ [9] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO
+│                       │      │                  │       / 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-13836 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7951-1 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-13836 
+│                       │      ├ PublishedDate   : 2025-12-01T18:16:04.2Z 
+│                       │      ╰ LastModifiedDate: 2025-12-30T15:08:14.027Z 
+│                       ├ [84] ╭ VulnerabilityID : CVE-2025-6075 
 │                       │      ├ PkgID           : python3.13@3.13.3-1ubuntu0.3 
 │                       │      ├ PkgName         : python3.13 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.13@3.13.3-1ubuntu0.3?arch=amd6
@@ -33294,7 +33583,7 @@
 │                       │      │                  ╰ [37]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
 │                       │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
 │                       │      ╰ LastModifiedDate: 2025-12-01T19:15:52.55Z 
-│                       ├ [80] ╭ VulnerabilityID : CVE-2025-8291 
+│                       ├ [85] ╭ VulnerabilityID : CVE-2025-8291 
 │                       │      ├ PkgID           : python3.13@3.13.3-1ubuntu0.3 
 │                       │      ├ PkgName         : python3.13 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.13@3.13.3-1ubuntu0.3?arch=amd6
@@ -33400,7 +33689,69 @@
 │                       │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
 │                       │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
 │                       │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
-│                       ├ [81] ╭ VulnerabilityID : CVE-2025-6075 
+│                       ├ [86] ╭ VulnerabilityID : CVE-2025-13836 
+│                       │      ├ PkgID           : python3.13-minimal@3.13.3-1ubuntu0.3 
+│                       │      ├ PkgName         : python3.13-minimal 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.13-minimal@3.13.3-1ubuntu0.3?a
+│                       │      │                  │       rch=amd64&distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : c1cec9eb0b5563e1 
+│                       │      ├ InstalledVersion: 3.13.3-1ubuntu0.3 
+│                       │      ├ FixedVersion    : 3.13.3-1ubuntu0.5 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:ff62e1213f5ed053d00fb1e8b219595887d76126ac4f
+│                       │      │                  │         751991654f340268814f 
+│                       │      │                  ╰ DiffID: sha256:0e8d8fffe7850d657d3a196717c98bc1c3f8267ff442
+│                       │      │                            f83180303bd9ac0c7167 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13836 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:4af26f01aecd5461c3ad844856be4450c77a4bb32f734e10138a6
+│                       │      │                   06f469ef8c7 
+│                       │      ├ Title           : cpython: Excessive read buffering DoS in http.client 
+│                       │      ├ Description     : When reading an HTTP response from a server, if no read
+│                       │      │                   amount is specified, the default behavior will be to use
+│                       │      │                   Content-Length. This allows a malicious server to cause the
+│                       │      │                   client to read large amounts of data into memory,
+│                       │      │                   potentially causing OOM or other DoS. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-125 
+│                       │      │                  ╰ [1]: CWE-400 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 4 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 9.1 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.8 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-13836 
+│                       │      │                  ├ [1] : https://github.com/python/cpython/commit/14b1fdb0a94b
+│                       │      │                  │       96f86fc7b86671ea9582b8676628 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/289f29b0fe38
+│                       │      │                  │       baf2d7cb5854f4bb573cc34a6a15 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/4ce27904b597
+│                       │      │                  │       c77d74dd93f2c912676021a99155 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/4ce27904b597
+│                       │      │                  │       c77d74dd93f2c912676021a99155 (3.14 branch) 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/5a4c4a033a4a
+│                       │      │                  │       54481be6870aa1896fad732555b5 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/5a4c4a033a4a
+│                       │      │                  │       54481be6870aa1896fad732555b5 (main) 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/issues/119451 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/pull/119454 
+│                       │      │                  ├ [9] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO
+│                       │      │                  │       / 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-13836 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7951-1 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-13836 
+│                       │      ├ PublishedDate   : 2025-12-01T18:16:04.2Z 
+│                       │      ╰ LastModifiedDate: 2025-12-30T15:08:14.027Z 
+│                       ├ [87] ╭ VulnerabilityID : CVE-2025-6075 
 │                       │      ├ PkgID           : python3.13-minimal@3.13.3-1ubuntu0.3 
 │                       │      ├ PkgName         : python3.13-minimal 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.13-minimal@3.13.3-1ubuntu0.3?a
@@ -33501,7 +33852,7 @@
 │                       │      │                  ╰ [37]: https://www.cve.org/CVERecord?id=CVE-2025-6075 
 │                       │      ├ PublishedDate   : 2025-10-31T17:15:48.693Z 
 │                       │      ╰ LastModifiedDate: 2025-12-01T19:15:52.55Z 
-│                       ├ [82] ╭ VulnerabilityID : CVE-2025-8291 
+│                       ├ [88] ╭ VulnerabilityID : CVE-2025-8291 
 │                       │      ├ PkgID           : python3.13-minimal@3.13.3-1ubuntu0.3 
 │                       │      ├ PkgName         : python3.13-minimal 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.13-minimal@3.13.3-1ubuntu0.3?a
@@ -33607,7 +33958,7 @@
 │                       │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2025-8291 
 │                       │      ├ PublishedDate   : 2025-10-07T18:16:00.317Z 
 │                       │      ╰ LastModifiedDate: 2025-10-29T16:15:35.133Z 
-│                       ├ [83] ╭ VulnerabilityID : CVE-2025-45582 
+│                       ├ [89] ╭ VulnerabilityID : CVE-2025-45582 
 │                       │      ├ PkgID           : tar@1.35+dfsg-3.1 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1?arch=amd64&distro=
@@ -33688,7 +34039,7 @@
 │                       │      │                          urity-rules-of-thumb.html 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │      ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
-│                       ├ [84] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [90] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : tshark@4.4.5-1 
 │                       │      ├ PkgName         : tshark 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.4.5-1?arch=amd64&distro=ubunt
@@ -33744,7 +34095,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [85] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [91] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.24.5-2ubuntu1 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.24.5-2ubuntu1?arch=amd64&distro
@@ -33792,7 +34143,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                       ├ [86] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [92] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : wireshark-common@4.4.5-1 
 │                       │      ├ PkgName         : wireshark-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.4.5-1?arch=amd64&di
@@ -33848,7 +34199,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ╰ [87] ╭ VulnerabilityID : CVE-2023-5574 
+│                       ╰ [93] ╭ VulnerabilityID : CVE-2023-5574 
 │                              ├ PkgID           : x11-common@1:7.7+23ubuntu4 
 │                              ├ PkgName         : x11-common 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/x11-common@7.7%2B23ubuntu4?arch=all&di
