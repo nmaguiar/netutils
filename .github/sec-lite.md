@@ -17099,7 +17099,8 @@
 │                       │      │                   resulting in a buffer overflow in
 │                       │      │                   asn1_expend_octet_string. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.9 
@@ -17108,7 +17109,8 @@
 │                       │      │                  ├ [2]: https://gitlab.com/gnutls/libtasn1 
 │                       │      │                  ├ [3]: https://gitlab.com/gnutls/libtasn1/-/merge_requests/121 
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-13151 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-13151 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7954-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-13151 
 │                       │      ├ PublishedDate   : 2026-01-07T22:15:43.2Z 
 │                       │      ╰ LastModifiedDate: 2026-01-08T19:15:55.983Z 
 │                       ╰ [23] ╭ VulnerabilityID : CVE-2025-46394 
