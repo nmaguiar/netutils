@@ -27487,6 +27487,7 @@
     - CWE-190
     VendorSeverity:
       amazon: 3
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -27529,6 +27530,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -27658,6 +27660,7 @@
     - CWE-675
     - CWE-787
     VendorSeverity:
+      azure: 3
       nvd: 3
       redhat: 3
       ubuntu: 3
@@ -27713,6 +27716,7 @@
     CweIDs:
     - CWE-347
     VendorSeverity:
+      azure: 2
       nvd: 2
       redhat: 2
       ubuntu: 2
@@ -28611,6 +28615,7 @@
     - CWE-416
     VendorSeverity:
       amazon: 2
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -29260,6 +29265,7 @@
     - CWE-190
     VendorSeverity:
       amazon: 3
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -29302,6 +29308,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -29476,6 +29483,7 @@
     - CWE-190
     VendorSeverity:
       amazon: 3
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -29518,6 +29526,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -30178,6 +30187,7 @@
     - CWE-400
     VendorSeverity:
       amazon: 2
+      azure: 2
       nvd: 4
       redhat: 2
       ubuntu: 2
@@ -30401,6 +30411,7 @@
     - CWE-400
     VendorSeverity:
       amazon: 2
+      azure: 2
       nvd: 4
       redhat: 2
       ubuntu: 2
@@ -30624,6 +30635,7 @@
     - CWE-400
     VendorSeverity:
       amazon: 2
+      azure: 2
       nvd: 4
       redhat: 2
       ubuntu: 2
@@ -31338,6 +31350,7 @@
     - CWE-400
     VendorSeverity:
       amazon: 2
+      azure: 2
       nvd: 4
       redhat: 2
       ubuntu: 2
@@ -31561,6 +31574,7 @@
     - CWE-400
     VendorSeverity:
       amazon: 2
+      azure: 2
       nvd: 4
       redhat: 2
       ubuntu: 2
@@ -31792,12 +31806,12 @@
         V3Score: 5.6
     References:
     - http://www.openwall.com/lists/oss-security/2025/11/01/6
-    - https://access.redhat.com/errata/RHSA-2026:0002
+    - https://access.redhat.com/errata/RHSA-2026:0067
     - https://access.redhat.com/security/cve/CVE-2025-45582
     - https://bugzilla.redhat.com/2379592
     - https://bugzilla.redhat.com/show_bug.cgi?id=2379592
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-45582
-    - https://errata.almalinux.org/10/ALSA-2026-0002.html
+    - https://errata.almalinux.org/9/ALSA-2026-0067.html
     - https://errata.rockylinux.org/RLSA-2026:0067
     - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
     - https://linux.oracle.com/cve/CVE-2025-45582.html
@@ -33784,7 +33798,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:e9d625d9cb2cda765e13265e085727b6037f614f3593673d564f64e9a44aaa5b
-    Title: 'crypto/x509: Excessive resource consumption when printing error string for host certificate validation in crypto/x509'
+    Title: 'crypto/x509: golang: Denial of Service due to excessive resource consumption via crafted certificate'
     Description: Within HostnameError.Error(), when constructing an error string, there is no limit to the number of hosts that will be printed out. Furthermore, the error string is constructed by repeated string concatenation, leading to quadratic runtime. Therefore, a certificate provided by a malicious actor can result in excessive resource consumption.
     Severity: HIGH
     CweIDs:
