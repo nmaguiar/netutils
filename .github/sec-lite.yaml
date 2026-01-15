@@ -15251,6 +15251,7 @@
     - CWE-416
     VendorSeverity:
       amazon: 2
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
