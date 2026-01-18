@@ -15308,7 +15308,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
     - https://www.cve.org/CVERecord?id=CVE-2025-14017
     PublishedDate: '2026-01-08T10:15:45.667Z'
-    LastModifiedDate: '2026-01-08T18:08:18.457Z'
+    LastModifiedDate: '2026-01-16T16:15:52.793Z'
   - VulnerabilityID: CVE-2025-14524
     PkgID: curl@8.17.0-r0
     PkgName: curl
@@ -15422,7 +15422,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
     - https://www.cve.org/CVERecord?id=CVE-2025-14017
     PublishedDate: '2026-01-08T10:15:45.667Z'
-    LastModifiedDate: '2026-01-08T18:08:18.457Z'
+    LastModifiedDate: '2026-01-16T16:15:52.793Z'
   - VulnerabilityID: CVE-2025-14524
     PkgID: curl-doc@8.17.0-r0
     PkgName: curl-doc
@@ -15854,7 +15854,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
     - https://www.cve.org/CVERecord?id=CVE-2025-14017
     PublishedDate: '2026-01-08T10:15:45.667Z'
-    LastModifiedDate: '2026-01-08T18:08:18.457Z'
+    LastModifiedDate: '2026-01-16T16:15:52.793Z'
   - VulnerabilityID: CVE-2025-14524
     PkgID: libcurl@8.17.0-r0
     PkgName: libcurl
@@ -16089,6 +16089,7 @@
       oracle-oval: 3
       redhat: 3
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
@@ -16117,6 +16118,7 @@
     - https://linux.oracle.com/cve/CVE-2025-66293.html
     - https://linux.oracle.com/errata/ELSA-2026-0241.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-66293
+    - https://ubuntu.com/security/notices/USN-7963-1
     - https://www.cve.org/CVERecord?id=CVE-2025-66293
     PublishedDate: '2025-12-03T21:15:53.06Z'
     LastModifiedDate: '2025-12-16T19:12:50.35Z'
