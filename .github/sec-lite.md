@@ -16051,7 +16051,7 @@
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-14017 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-14017 
 │                       │      ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
-│                       │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
+│                       │      ╰ LastModifiedDate: 2026-01-16T16:15:52.793Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2025-14524 
 │                       │      ├ PkgID           : curl@8.17.0-r0 
 │                       │      ├ PkgName         : curl 
@@ -16173,7 +16173,7 @@
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-14017 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-14017 
 │                       │      ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
-│                       │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
+│                       │      ╰ LastModifiedDate: 2026-01-16T16:15:52.793Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2025-14524 
 │                       │      ├ PkgID           : curl-doc@8.17.0-r0 
 │                       │      ├ PkgName         : curl-doc 
@@ -16649,7 +16649,7 @@
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-14017 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-14017 
 │                       │      ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
-│                       │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
+│                       │      ╰ LastModifiedDate: 2026-01-16T16:15:52.793Z 
 │                       ├ [15] ╭ VulnerabilityID : CVE-2025-14524 
 │                       │      ├ PkgID           : libcurl@8.17.0-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -16924,7 +16924,8 @@
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
-│                       │      │                  ╰ rocky      : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.1 
@@ -16957,7 +16958,8 @@
 │                       │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2025-66293.html 
 │                       │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-0241.html 
 │                       │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2025-66293 
-│                       │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2025-66293 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7963-1 
+│                       │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2025-66293 
 │                       │      ├ PublishedDate   : 2025-12-03T21:15:53.06Z 
 │                       │      ╰ LastModifiedDate: 2025-12-16T19:12:50.35Z 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2025-64505 
