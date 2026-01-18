@@ -6,7 +6,7 @@ RUN apt update\
  && apt dist-upgrade -y\
  && apt autoremove -y\
  && DEBIAN_FRONTEND="noninteractive" apt-get install -y -qq cron locales less man-db manpages tar wget gzip bash tmux vim iperf tcpdump nmap ldnsutils iftop netcat-openbsd lynx iproute2 iptables fping conntrack iputils-ping iputils-tracepath iputils-arping iputils-clockdiff iptraf-ng ngrep tcptraceroute socat mtr termshark curl inetutils-telnet bash-completion python3 sysstat iotop htop mc tinyproxy strace whois ifstat net-tools\
- && wget -O /usr/bin/websocat https://github.com/vi/websocat/releases/latest/download/websocat_max.$(uname -m)-unknown-linux-musl\
+ && wget -O /usr/bin/websocat https://github.com/vi/websocat/releases/latest/download/websocat.$(uname -m)-unknown-linux-musl\
  && locale-gen en_US.UTF-8\
  && chmod +x /usr/bin/websocat\
  && /openaf/opack install SocksServer Morse oJob-common\

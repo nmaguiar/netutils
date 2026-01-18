@@ -2,7 +2,7 @@ FROM alpine:edge as main
 
 RUN apk update\
  && apk upgrade\
- && apk add --no-cache python3 py3-pip build-base gcc g++ musl-dev llvm elfutils-dev zlib-dev rustup libffi-dev openssl-dev python3-dev cargo make linux-headers bsd-compat-headers yaml-dev libc-dev yaml xxhash-dev gcompat glib clang
+ && apk add --no-cache llvm-dev python3 py3-pip build-base gcc g++ musl-dev llvm elfutils-dev zlib-dev rustup libffi-dev openssl-dev python3-dev cargo make linux-headers bsd-compat-headers yaml-dev libc-dev yaml xxhash-dev gcompat glib clang
 
 RUN rustup-init -q -y --default-toolchain nightly\
  && . "$HOME/.cargo/env"\
