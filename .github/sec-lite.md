@@ -16081,6 +16081,7 @@
 │                       │      │                   token to the new
 │                       │      │                   target host. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-601 
 │                       │      ├ VendorSeverity   ─ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/4 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14524.html 
@@ -16088,7 +16089,7 @@
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3459417 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
 │                       │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
-│                       │      ╰ LastModifiedDate: 2026-01-09T20:15:51.243Z 
+│                       │      ╰ LastModifiedDate: 2026-01-20T14:53:11.017Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2025-14819 
 │                       │      ├ PkgID           : curl@8.17.0-r0 
 │                       │      ├ PkgName         : curl 
@@ -16128,7 +16129,7 @@
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14819.json 
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
 │                       │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
-│                       │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
+│                       │      ╰ LastModifiedDate: 2026-01-20T14:51:26.263Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2025-14017 
 │                       │      ├ PkgID           : curl-doc@8.17.0-r0 
 │                       │      ├ PkgName         : curl-doc 
@@ -16203,6 +16204,7 @@
 │                       │      │                   token to the new
 │                       │      │                   target host. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-601 
 │                       │      ├ VendorSeverity   ─ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/4 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14524.html 
@@ -16210,7 +16212,7 @@
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3459417 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
 │                       │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
-│                       │      ╰ LastModifiedDate: 2026-01-09T20:15:51.243Z 
+│                       │      ╰ LastModifiedDate: 2026-01-20T14:53:11.017Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2025-14819 
 │                       │      ├ PkgID           : curl-doc@8.17.0-r0 
 │                       │      ├ PkgName         : curl-doc 
@@ -16250,7 +16252,7 @@
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14819.json 
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
 │                       │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
-│                       │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
+│                       │      ╰ LastModifiedDate: 2026-01-20T14:51:26.263Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2025-32988 
 │                       │      ├ PkgID           : gnutls@3.8.8-r0 
 │                       │      ├ PkgName         : gnutls 
@@ -16329,7 +16331,7 @@
 │                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6395 
 │                       │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-16116.html 
-│                       │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:16116 
+│                       │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:16115 
 │                       │      │                  ├ [24]: https://linux.oracle.com/cve/CVE-2025-32988.html 
 │                       │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
 │                       │      │                  ├ [26]: https://lists.debian.org/debian-lts-announce/2025/08/
@@ -16415,7 +16417,7 @@
 │                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6395 
 │                       │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-16116.html 
-│                       │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:16116 
+│                       │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:16115 
 │                       │      │                  ├ [24]: https://linux.oracle.com/cve/CVE-2025-32990.html 
 │                       │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
 │                       │      │                  ├ [26]: https://lists.debian.org/debian-lts-announce/2025/08/
@@ -16497,7 +16499,7 @@
 │                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6395 
 │                       │      │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-16116.html 
-│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:16116 
+│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:16115 
 │                       │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-32989.html 
 │                       │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
 │                       │      │                  ├ [25]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
@@ -16571,7 +16573,7 @@
 │                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6395 
 │                       │      │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2025-16116.html 
-│                       │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:16116 
+│                       │      │                  ├ [23]: https://errata.rockylinux.org/RLSA-2025:16115 
 │                       │      │                  ├ [24]: https://linux.oracle.com/cve/CVE-2025-6395.html 
 │                       │      │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
 │                       │      │                  ├ [26]: https://lists.debian.org/debian-lts-announce/2025/08/
@@ -16679,6 +16681,7 @@
 │                       │      │                   token to the new
 │                       │      │                   target host. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-601 
 │                       │      ├ VendorSeverity   ─ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/4 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14524.html 
@@ -16686,7 +16689,7 @@
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3459417 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
 │                       │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
-│                       │      ╰ LastModifiedDate: 2026-01-09T20:15:51.243Z 
+│                       │      ╰ LastModifiedDate: 2026-01-20T14:53:11.017Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2025-14819 
 │                       │      ├ PkgID           : libcurl@8.17.0-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -16726,7 +16729,7 @@
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14819.json 
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
 │                       │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
-│                       │      ╰ LastModifiedDate: 2026-01-08T18:08:18.457Z 
+│                       │      ╰ LastModifiedDate: 2026-01-20T14:51:26.263Z 
 │                       ├ [17] ╭ VulnerabilityID : CVE-2025-64720 
 │                       │      ├ PkgID           : libpng@1.6.49-r0 
 │                       │      ├ PkgName         : libpng 
@@ -16761,7 +16764,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
@@ -16772,7 +16775,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:0238 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:0237 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-64720 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2416904 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2416907 
@@ -16786,8 +16789,8 @@
 │                       │      │                  │       25-65018 
 │                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-66293 
-│                       │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2026-0238.html 
-│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2026:0238 
+│                       │      │                  ├ [11]: https://errata.almalinux.org/10/ALSA-2026-0237.html 
+│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2026:0237 
 │                       │      │                  ├ [13]: https://github.com/pnggroup/libpng/commit/08da33b4c88
 │                       │      │                  │       cfcd36e5a706558a8d7e0e4773643 
 │                       │      │                  ├ [14]: https://github.com/pnggroup/libpng/commit/08da33b4c88
@@ -16849,7 +16852,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:0238 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:0237 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-65018 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2416904 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2416907 
@@ -16863,8 +16866,8 @@
 │                       │      │                  │       25-65018 
 │                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-66293 
-│                       │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2026-0238.html 
-│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2026:0238 
+│                       │      │                  ├ [11]: https://errata.almalinux.org/10/ALSA-2026-0237.html 
+│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2026:0237 
 │                       │      │                  ├ [13]: https://github.com/pnggroup/libpng/commit/16b5e382391
 │                       │      │                  │       8840aae65c0a6da57c78a5a496a4d 
 │                       │      │                  ├ [14]: https://github.com/pnggroup/libpng/commit/16b5e382391
@@ -16932,7 +16935,7 @@
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/12/03/6 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/12/03/7 
 │                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/12/03/8 
-│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:0238 
+│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:0237 
 │                       │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2025-66293 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2416904 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2416907 
@@ -16946,8 +16949,8 @@
 │                       │      │                  │       25-65018 
 │                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-66293 
-│                       │      │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2026-0238.html 
-│                       │      │                  ├ [15]: https://errata.rockylinux.org/RLSA-2026:0238 
+│                       │      │                  ├ [14]: https://errata.almalinux.org/10/ALSA-2026-0237.html 
+│                       │      │                  ├ [15]: https://errata.rockylinux.org/RLSA-2026:0237 
 │                       │      │                  ├ [16]: https://github.com/pnggroup/libpng/commit/788a624d738
 │                       │      │                  │       7a758ffd5c7ab010f1870dea753a1 
 │                       │      │                  ├ [17]: https://github.com/pnggroup/libpng/commit/a05a48b756d
@@ -16996,7 +16999,7 @@
 │                       │      │                   1.6.51. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ photon     : 2 
@@ -17113,9 +17116,10 @@
 │                       │      │                  ├ [3]: https://gitlab.com/gnutls/libtasn1/-/merge_requests/121 
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-13151 
 │                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7954-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-13151 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-13151 
+│                       │      │                  ╰ [7]: https://www.kb.cert.org/vuls/id/271649 
 │                       │      ├ PublishedDate   : 2026-01-07T22:15:43.2Z 
-│                       │      ╰ LastModifiedDate: 2026-01-08T19:15:55.983Z 
+│                       │      ╰ LastModifiedDate: 2026-01-20T18:16:01.827Z 
 │                       ╰ [23] ╭ VulnerabilityID : CVE-2025-46394 
 │                              ├ PkgID           : ssl_client@1.37.0-r24 
 │                              ├ PkgName         : ssl_client 
