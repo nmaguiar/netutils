@@ -14269,6 +14269,85 @@
     - usr/lib/libzstd.so.1
     - usr/lib/libzstd.so.1.5.7
     AnalyzedBy: apk
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2026-24515
+    PkgID: libexpat@2.7.3-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.7.3-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: d710efce5bb49be8
+    InstalledVersion: 2.7.3-r0
+    FixedVersion: 2.7.4-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:d4c760ba0fff266db7730699e00fa87938aa9dd5df978a45c1e39780d74cf905
+      DiffID: sha256:dad7a50d482791f261cc080637060d62ab2f7b7e226dbe540d198d3f4b95624b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-24515
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:1c5249f84685d695e8487ed3d357d7b01694d137b94810ddd7be445cae002322
+    Title: 'libexpat: libexpat null pointer dereference'
+    Description: In libexpat before 2.7.4, XML_ExternalEntityParserCreate does not copy unknown encoding handler user data.
+    Severity: CRITICAL
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      nvd: 4
+      redhat: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-24515
+    - https://github.com/libexpat/libexpat/pull/1131
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-24515
+    - https://www.cve.org/CVERecord?id=CVE-2026-24515
+    PublishedDate: '2026-01-23T08:16:01.49Z'
+    LastModifiedDate: '2026-01-30T17:54:41.927Z'
+  - VulnerabilityID: CVE-2026-25210
+    PkgID: libexpat@2.7.3-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.7.3-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: d710efce5bb49be8
+    InstalledVersion: 2.7.3-r0
+    FixedVersion: 2.7.4-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:d4c760ba0fff266db7730699e00fa87938aa9dd5df978a45c1e39780d74cf905
+      DiffID: sha256:dad7a50d482791f261cc080637060d62ab2f7b7e226dbe540d198d3f4b95624b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-25210
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:f441673040739c4f65d67a6fad96e62218b197bee1393a49e4ab7166aa44c5c7
+    Title: 'libexpat: libexpat: Information disclosure and data integrity issues due to integer overflow in buffer reallocation'
+    Description: In libexpat before 2.7.4, the doContent function does not properly determine the buffer size bufSize because there is no integer overflow check for tag buffer reallocation.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-25210
+    - https://github.com/libexpat/libexpat/pull/1075
+    - https://github.com/libexpat/libexpat/pull/1075/commits/9c2d990389e6abe2e44527eeaa8b39f16fe859c7
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-25210
+    - https://www.cve.org/CVERecord?id=CVE-2026-25210
+    PublishedDate: '2026-01-30T07:16:15.57Z'
+    LastModifiedDate: '2026-01-30T07:16:15.57Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
