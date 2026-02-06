@@ -31003,3 +31003,32 @@
       Digest: sha256:6ddbbdf1b408240bc8bb3505b5a47f000920f7ea61fd7b4d640fb161e9dd8b2e
       DiffID: sha256:b968b629b5fa548f4f5051db5f1fe3325bee63b1099e29d802fe4cfb22ae7c3f
     AnalyzedBy: gobinary
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2025-68121
+    VendorIDs:
+    - GO-2026-4337
+    PkgID: stdlib@v1.25.6
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.25.6
+      UID: 969b90ac0d161b69
+    InstalledVersion: v1.25.6
+    FixedVersion: 1.24.13, 1.25.7, 1.26.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:6ddbbdf1b408240bc8bb3505b5a47f000920f7ea61fd7b4d640fb161e9dd8b2e
+      DiffID: sha256:b968b629b5fa548f4f5051db5f1fe3325bee63b1099e29d802fe4cfb22ae7c3f
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68121
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:7d681b7e8fb6c36d5996722690d9c49d77a6222ddce58fc677dbb16b8c37234e
+    Title: '[crypto/tls: Config.Clone copies automatically generated session ticket keys, session resumption does not account for the expiration of full certificate chain]'
+    Description: During session resumption in crypto/tls, if the underlying Config has its ClientCAs or RootCAs fields mutated between the initial handshake and the resumed handshake, the resumed handshake may succeed when it should have failed. This may happen when a user calls Config.Clone and mutates the returned Config, or uses Config.GetConfigForClient. This can cause a client to resume a session with a server that it would not have resumed with during the initial handshake, or cause a server to resume a session with a client that it would not have resumed with during the initial handshake.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/737700
+    - https://go.dev/issue/77217
+    - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
+    - https://pkg.go.dev/vuln/GO-2026-4337
