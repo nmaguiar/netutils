@@ -14874,6 +14874,7 @@
 │                       │     ├ Severity        : CRITICAL 
 │                       │     ├ CweIDs           ─ [0]: CWE-476 
 │                       │     ├ VendorSeverity   ╭ nvd   : 4 
+│                       │     │                  ├ photon: 4 
 │                       │     │                  ╰ redhat: 1 
 │                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/
 │                       │     │                  │        │           A:H 
