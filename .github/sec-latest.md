@@ -31170,9 +31170,8 @@
                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
                               ├ Fingerprint     : sha256:1ff1aebfc4dc6317e311f3dc3e37b05a1b31fa2142d361f627183d
                               │                   67e3f4b6f5 
-                              ├ Title           : [crypto/tls: Config.Clone copies automatically generated
-                              │                   session ticket keys, session resumption does not account for
-                              │                   the expiration of full certificate chain] 
+                              ├ Title           : During session resumption in crypto/tls, if the underlying
+                              │                   Config has  ... 
                               ├ Description     : During session resumption in crypto/tls, if the underlying
                               │                   Config has its ClientCAs or RootCAs fields mutated between
                               │                   the initial handshake and the resumed handshake, the resumed
@@ -31183,9 +31182,13 @@
                               │                   would not have resumed with during the initial handshake, or
                               │                   cause a server to resume a session with a client that it
                               │                   would not have resumed with during the initial handshake. 
-                              ├ Severity        : UNKNOWN 
-                              ╰ References       ╭ [0]: https://go.dev/cl/737700 
-                                                 ├ [1]: https://go.dev/issue/77217 
-                                                 ├ [2]: https://groups.google.com/g/golang-announce/c/K09ubi9FQFk 
-                                                 ╰ [3]: https://pkg.go.dev/vuln/GO-2026-4337 
+                              ├ Severity        : HIGH 
+                              ├ CweIDs           ─ [0]: CWE-295 
+                              ├ VendorSeverity   ─ amazon: 3 
+                              ├ References       ╭ [0]: https://go.dev/cl/737700 
+                              │                  ├ [1]: https://go.dev/issue/77217 
+                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/K09ubi9FQFk 
+                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-4337 
+                              ├ PublishedDate   : 2026-02-05T18:16:10.857Z 
+                              ╰ LastModifiedDate: 2026-02-06T16:16:14.373Z 
 ````
