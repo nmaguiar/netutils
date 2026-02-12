@@ -29102,6 +29102,2651 @@
     - /usr/share/doc/zlib1g/changelog.Debian.gz
     - /usr/share/doc/zlib1g/copyright
     AnalyzedBy: dpkg
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2025-11563
+    PkgID: curl@8.14.1-2ubuntu1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
+      UID: 173a610781089e1b
+    InstalledVersion: 8.14.1-2ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-11563
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a6d090be3ef075474eaa6a8894d755334a76f3171b4944303c6593d447529dd5
+    Description: wcurl path traversal with percent-encoded slashes
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 2
+      ubuntu: 2
+    References:
+    - https://curl.se/docs/CVE-2025-11563.html
+    - https://www.cve.org/CVERecord?id=CVE-2025-11563
+  - VulnerabilityID: CVE-2025-13034
+    PkgID: curl@8.14.1-2ubuntu1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
+      UID: 173a610781089e1b
+    InstalledVersion: 8.14.1-2ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13034
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:2f4d7626444e8b0c4e6190a7af46e6bad3365e9f693621cbacf77f69a71a5192
+    Title: When using `CURLOPT_PINNEDPUBLICKEY` option with libcurl or `--pinnedp ...
+    Description: |-
+      When using `CURLOPT_PINNEDPUBLICKEY` option with libcurl or `--pinnedpubkey`
+      with the curl tool,curl should check the public key of the server certificate
+      to verify the peer.
+
+      This check was skipped in a certain condition that would then make curl allow
+      the connection without performing the proper check, thus not noticing a
+      possible impostor. To skip this check, the connection had to be done with QUIC
+      with ngtcp2 built to use GnuTLS and the user had to explicitly disable the
+      standard certificate verification.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-295
+    VendorSeverity:
+      photon: 2
+      ubuntu: 2
+    References:
+    - https://curl.se/docs/CVE-2025-13034.html
+    - https://curl.se/docs/CVE-2025-13034.json
+    - https://www.cve.org/CVERecord?id=CVE-2025-13034
+    PublishedDate: '2026-01-08T10:15:45.407Z'
+    LastModifiedDate: '2026-01-20T14:54:02.73Z'
+  - VulnerabilityID: CVE-2025-10148
+    PkgID: curl@8.14.1-2ubuntu1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
+      UID: 173a610781089e1b
+    InstalledVersion: 8.14.1-2ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10148
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:7b15b8cf146afbef40042f5e48b16aa436ceb3da00d8de45ff20ecaec828a7d4
+    Title: 'curl: predictable WebSocket mask'
+    Description: |-
+      curl's websocket code did not update the 32 bit mask pattern for each new
+       outgoing frame as the specification says. Instead it used a fixed mask that
+      persisted and was used throughout the entire connection.
+
+      A predictable mask pattern allows for a malicious server to induce traffic
+      between the two communicating parties that could be interpreted by an involved
+      proxy (configured or transparent) as genuine, real, HTTP traffic with content
+      and thereby poison its cache. That cached poisoned content could then be
+      served to all users of that proxy.
+    Severity: LOW
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      photon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/09/10/2
+    - http://www.openwall.com/lists/oss-security/2025/09/10/3
+    - http://www.openwall.com/lists/oss-security/2025/09/10/4
+    - https://access.redhat.com/security/cve/CVE-2025-10148
+    - https://curl.se/docs/CVE-2025-10148.html
+    - https://curl.se/docs/CVE-2025-10148.json
+    - https://hackerone.com/reports/3330839
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-10148
+    - https://www.cve.org/CVERecord?id=CVE-2025-10148
+    PublishedDate: '2025-09-12T06:15:40.02Z'
+    LastModifiedDate: '2026-01-20T14:55:47.997Z'
+  - VulnerabilityID: CVE-2025-14524
+    PkgID: curl@8.14.1-2ubuntu1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
+      UID: 173a610781089e1b
+    InstalledVersion: 8.14.1-2ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14524
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:041b99ebdb840d55e33f32d54c6097b2caf6db3a501a82d7a47c685e507ee96a
+    Title: When an OAuth2 bearer token is used for an HTTP(S) transfer, and that  ...
+    Description: |-
+      When an OAuth2 bearer token is used for an HTTP(S) transfer, and that transfer
+      performs a cross-protocol redirect to a second URL that uses an IMAP, LDAP,
+      POP3 or SMTP scheme, curl might wrongly pass on the bearer token to the new
+      target host.
+    Severity: LOW
+    CweIDs:
+    - CWE-601
+    VendorSeverity:
+      photon: 2
+      ubuntu: 1
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/07/4
+    - https://curl.se/docs/CVE-2025-14524.html
+    - https://curl.se/docs/CVE-2025-14524.json
+    - https://hackerone.com/reports/3459417
+    - https://www.cve.org/CVERecord?id=CVE-2025-14524
+    PublishedDate: '2026-01-08T10:15:46.607Z'
+    LastModifiedDate: '2026-01-20T14:53:11.017Z'
+  - VulnerabilityID: CVE-2025-14819
+    PkgID: curl@8.14.1-2ubuntu1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
+      UID: 173a610781089e1b
+    InstalledVersion: 8.14.1-2ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14819
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b5fffb67ebe601a35cde9d7ea58a632ad4cb4a32aec2812ae8ac9ab7f23e5bb3
+    Title: When doing TLS related transfers with reused easy or multi handles and ...
+    Description: |-
+      When doing TLS related transfers with reused easy or multi handles and
+      altering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl could accidentally
+      reuse a CA store cached in memory for which the partial chain option was
+      reversed. Contrary to the user's wishes and expectations. This could make
+      libcurl find and accept a trust chain that it otherwise would not.
+    Severity: LOW
+    CweIDs:
+    - CWE-295
+    VendorSeverity:
+      photon: 2
+      ubuntu: 1
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/07/5
+    - https://curl.se/docs/CVE-2025-14819.html
+    - https://curl.se/docs/CVE-2025-14819.json
+    - https://www.cve.org/CVERecord?id=CVE-2025-14819
+    PublishedDate: '2026-01-08T10:15:46.73Z'
+    LastModifiedDate: '2026-01-20T14:51:26.263Z'
+  - VulnerabilityID: CVE-2025-9086
+    PkgID: curl@8.14.1-2ubuntu1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
+      UID: 173a610781089e1b
+    InstalledVersion: 8.14.1-2ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9086
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:9189ed4a3883d4fb5227ceed709a5bd1943eaa9a581a06a8fe58d49c092306d4
+    Title: 'curl: libcurl: Curl out of bounds read for cookie path'
+    Description: |-
+      1. A cookie is set using the `secure` keyword for `https://target` 
+       2. curl is redirected to or otherwise made to speak with `http://target` (same 
+         hostname, but using clear text HTTP) using the same cookie set 
+       3. The same cookie name is set - but with just a slash as path (`path=\"/\",`).
+         Since this site is not secure, the cookie *should* just be ignored.
+      4. A bug in the path comparison logic makes curl read outside a heap buffer
+         boundary
+
+      The bug either causes a crash or it potentially makes the comparison come to
+      the wrong conclusion and lets the clear-text site override the contents of the
+      secure cookie, contrary to expectations and depending on the memory contents
+      immediately following the single-byte allocation that holds the path.
+
+      The presumed and correct behavior would be to plainly ignore the second set of
+      the cookie since it was already set as secure on a secure host so overriding
+      it on an insecure host should not be okay.
+    Severity: LOW
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      alma: 2
+      amazon: 2
+      oracle-oval: 2
+      photon: 3
+      redhat: 2
+      rocky: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/09/10/1
+    - https://access.redhat.com/errata/RHSA-2026:1350
+    - https://access.redhat.com/security/cve/CVE-2025-9086
+    - https://bugzilla.redhat.com/2394750
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2394750
+    - https://curl.se/docs/CVE-2025-9086.html
+    - https://curl.se/docs/CVE-2025-9086.json
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086
+    - https://errata.almalinux.org/9/ALSA-2026-1350.html
+    - https://errata.rockylinux.org/RLSA-2026:1825
+    - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
+    - https://hackerone.com/reports/3294999
+    - https://linux.oracle.com/cve/CVE-2025-9086.html
+    - https://linux.oracle.com/errata/ELSA-2026-1825.html
+    - https://lists.debian.org/debian-lts-announce/2026/01/msg00002.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
+    - https://www.cve.org/CVERecord?id=CVE-2025-9086
+    PublishedDate: '2025-09-12T06:15:44.1Z'
+    LastModifiedDate: '2026-01-20T14:58:01.347Z'
+  - VulnerabilityID: CVE-2016-2781
+    PkgID: gnu-coreutils@9.5-1ubuntu4
+    PkgName: gnu-coreutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gnu-coreutils@9.5-1ubuntu4?arch=amd64&distro=ubuntu-25.10
+      UID: 972becbf46b2fccc
+    InstalledVersion: 9.5-1ubuntu4
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-2781
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e444a71d1155f15c6853e5bfe6c03874aca45724f940b005e6289461b6fd0328
+    Title: 'coreutils: Non-privileged session can escape to the parent session in chroot'
+    Description: chroot in GNU coreutils, when used with --userspec, allows local users to escape to the parent session via a crafted TIOCSTI ioctl call, which pushes characters to the terminal's input buffer.
+    Severity: LOW
+    CweIDs:
+    - CWE-20
+    VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
+      nvd: 2
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V2Vector: AV:L/AC:L/Au:N/C:N/I:P/A:N
+        V3Vector: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:N
+        V2Score: 2.1
+        V3Score: 6.5
+      redhat:
+        V2Vector: AV:L/AC:H/Au:N/C:C/I:C/A:C
+        V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+        V2Score: 6.2
+        V3Score: 8.6
+    References:
+    - http://seclists.org/oss-sec/2016/q1/452
+    - http://www.openwall.com/lists/oss-security/2016/02/28/2
+    - http://www.openwall.com/lists/oss-security/2016/02/28/3
+    - https://access.redhat.com/security/cve/CVE-2016-2781
+    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
+    - https://lore.kernel.org/patchwork/patch/793178/
+    - https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.28/v2.28-ReleaseNotes
+    - https://nvd.nist.gov/vuln/detail/CVE-2016-2781
+    - https://www.cve.org/CVERecord?id=CVE-2016-2781
+    PublishedDate: '2017-02-07T15:59:00.333Z'
+    LastModifiedDate: '2025-06-09T16:15:25.013Z'
+  - VulnerabilityID: CVE-2025-68972
+    PkgID: gpgv@2.4.8-2ubuntu2.1
+    PkgName: gpgv
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gpgv@2.4.8-2ubuntu2.1?arch=amd64&distro=ubuntu-25.10
+      UID: 7ceb4bdb93da459c
+    InstalledVersion: 2.4.8-2ubuntu2.1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-68972
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4e848b79dc9345a27de6f6ddc7c61d54b9dfdfff73637aeb4db18ccc3f5c0aa6
+    Title: 'gnupg: GnuPG: Signature bypass via form feed character in signed messages'
+    Description: In GnuPG through 2.4.8, if a signed message has \f at the end of a plaintext line, an adversary can construct a modified message that places additional text after the signed material, such that signature verification of the modified message succeeds (although an "invalid armor" message is printed during verification). This is related to use of \f as a marker to denote truncation of a long plaintext line.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-347
+    VendorSeverity:
+      azure: 2
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-68972
+    - https://gpg.fail/formfeed
+    - https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-practical-vulnerabilities-i
+    - https://news.ycombinator.com/item?id=46404339
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-68972
+    - https://www.cve.org/CVERecord?id=CVE-2025-68972
+    PublishedDate: '2025-12-27T23:15:40.9Z'
+    LastModifiedDate: '2026-01-09T20:08:47.323Z'
+  - VulnerabilityID: CVE-2022-3219
+    PkgID: gpgv@2.4.8-2ubuntu2.1
+    PkgName: gpgv
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gpgv@2.4.8-2ubuntu2.1?arch=amd64&distro=ubuntu-25.10
+      UID: 7ceb4bdb93da459c
+    InstalledVersion: 2.4.8-2ubuntu2.1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e6ba38825910b1d2ebec9e05508a3bc79d39a9e946af7697567a34a288cb1f31
+    Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
+    Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
+    Severity: LOW
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3219
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2127010
+    - https://dev.gnupg.org/D556
+    - https://dev.gnupg.org/T5993
+    - https://marc.info/?l=oss-security&m=165696590211434&w=4
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3219
+    - https://security.netapp.com/advisory/ntap-20230324-0001/
+    - https://www.cve.org/CVERecord?id=CVE-2022-3219
+    PublishedDate: '2023-02-23T20:15:12.393Z'
+    LastModifiedDate: '2025-03-12T21:15:38.207Z'
+  - VulnerabilityID: CVE-2024-52949
+    PkgID: iptraf-ng@1:1.2.1-2
+    PkgName: iptraf-ng
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/iptraf-ng@1.2.1-2?arch=amd64&distro=ubuntu-25.10&epoch=1
+      UID: 3390555d6a4e83b0
+    InstalledVersion: 1:1.2.1-2
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52949
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e52c163dd26f129e3892099c3e87c9e4857ab8fa7b5d54391163fbe121555e56
+    Title: 'iptraf-ng: buffer overflow via ifaces.c'
+    Description: iptraf-ng 1.2.1 has a stack-based buffer overflow. In src/ifaces.c, the strcpy function consistently fails to control the size, and it is consequently possible to overflow memory on the stack.
+    Severity: LOW
+    CweIDs:
+    - CWE-120
+    VendorSeverity:
+      alma: 2
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      oracle-oval: 2
+      photon: 3
+      redhat: 2
+      rocky: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:H
+        V3Score: 6.6
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:7064
+    - https://access.redhat.com/security/cve/CVE-2024-52949
+    - https://bugzilla.redhat.com/2332702
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2332702
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52949
+    - https://errata.almalinux.org/9/ALSA-2025-7064.html
+    - https://errata.rockylinux.org/RLSA-2025:7064
+    - https://github.com/iptraf-ng/iptraf-ng/releases/tag/v1.2.1
+    - https://linux.oracle.com/cve/CVE-2024-52949.html
+    - https://linux.oracle.com/errata/ELSA-2025-7064.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-52949
+    - https://www.cve.org/CVERecord?id=CVE-2024-52949
+    - https://www.gruppotim.it/it/footer/red-team.html
+    PublishedDate: '2024-12-16T22:15:06.863Z'
+    LastModifiedDate: '2025-10-14T17:29:14.83Z'
+  - VulnerabilityID: CVE-2025-59529
+    PkgID: libavahi-client3@0.8-16ubuntu3.1
+    PkgName: libavahi-client3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libavahi-client3@0.8-16ubuntu3.1?arch=amd64&distro=ubuntu-25.10
+      UID: c59730f3cdb4c1b1
+    InstalledVersion: 0.8-16ubuntu3.1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-59529
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:5f963e6d6573bf99bdd01dab3aaa114717e66fe179217efc48e663904dac221a
+    Title: 'avahi: simple clients denial-of-service'
+    Description: Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions up to and including 0.9-rc2, the simple protocol server ignores the documented client limit and accepts unlimited connections, allowing for easy local DoS. Although `CLIENTS_MAX` is defined, `server_work()` unconditionally `accept()`s and `client_new()` always appends the new client and increments `n_clients`. There is no check against the limit. When client cannot be accepted as a result of maximal socket number of avahi-daemon, it logs unconditionally error per each connection. Unprivileged local users can exhaust daemon memory and file descriptors, causing a denial of service system-wide for mDNS/DNS-SD. Exhausting local file descriptors causes increased system load caused by logging errors of each of request. Overloading prevents glibc calls using nss-mdns plugins to resolve `*.local.` names and link-local addresses. As of time of publication, no known patched versions are available, but a candidate fix is available in pull request 808, and some workarounds are available. Simple clients are offered for nss-mdns package functionality. It is not possible to disable the unix socket `/run/avahi-daemon/socket`, but resolution requests received via DBus are not affected directly. Tools avahi-resolve, avahi-resolve-address and avahi-resolve-host-name are not affected, they use DBus interface. It is possible to change permissions of unix socket after avahi-daemon is started. But avahi-daemon does not provide any configuration for it. Additional access restrictions like SELinux can also prevent unwanted tools to access the socket and keep resolution working for trusted users.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/12/19/1
+    - https://access.redhat.com/security/cve/CVE-2025-59529
+    - https://github.com/avahi/avahi/pull/808
+    - https://github.com/avahi/avahi/security/advisories/GHSA-73wf-3xmj-x82q
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-59529
+    - https://www.cve.org/CVERecord?id=CVE-2025-59529
+    - https://zeropath.com/blog/avahi-simple-protocol-server-dos-cve-2025-59529
+    PublishedDate: '2025-12-18T21:15:53.637Z'
+    LastModifiedDate: '2026-01-16T16:50:20.183Z'
+  - VulnerabilityID: CVE-2024-52615
+    PkgID: libavahi-client3@0.8-16ubuntu3.1
+    PkgName: libavahi-client3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libavahi-client3@0.8-16ubuntu3.1?arch=amd64&distro=ubuntu-25.10
+      UID: c59730f3cdb4c1b1
+    InstalledVersion: 0.8-16ubuntu3.1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52615
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:3be1cc56de7f94ccabdc357f94dfbcd8174d5b6f2bf1a7f09d6ad7ea09cf5cc7
+    Title: 'avahi: Avahi Wide-Area DNS Uses Constant Source Port'
+    Description: A flaw was found in Avahi-daemon, which relies on fixed source ports for wide-area DNS queries. This issue simplifies attacks where malicious DNS responses are injected.
+    Severity: LOW
+    CweIDs:
+    - CWE-330
+    VendorSeverity:
+      amazon: 2
+      oracle-oval: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:11402
+    - https://access.redhat.com/errata/RHSA-2025:16441
+    - https://access.redhat.com/security/cve/CVE-2024-52615
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52615
+    - https://errata.rockylinux.org/RLSA-2025:16441
+    - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
+    - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
+    - https://linux.oracle.com/cve/CVE-2024-52615.html
+    - https://linux.oracle.com/errata/ELSA-2025-16441.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-52615
+    - https://www.cve.org/CVERecord?id=CVE-2024-52615
+    PublishedDate: '2024-11-21T21:15:23.807Z'
+    LastModifiedDate: '2025-09-23T10:15:34.1Z'
+  - VulnerabilityID: CVE-2024-52616
+    PkgID: libavahi-client3@0.8-16ubuntu3.1
+    PkgName: libavahi-client3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libavahi-client3@0.8-16ubuntu3.1?arch=amd64&distro=ubuntu-25.10
+      UID: c59730f3cdb4c1b1
+    InstalledVersion: 0.8-16ubuntu3.1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52616
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:12401740f1d796337992fafd89c1547f1e32a3c4d217115c8f6dac7442c2b0fe
+    Title: 'avahi: Avahi Wide-Area DNS Predictable Transaction IDs'
+    Description: A flaw was found in the Avahi-daemon, where it initializes DNS transaction IDs randomly only once at startup, incrementing them sequentially after that. This predictable behavior facilitates DNS spoofing attacks, allowing attackers to guess transaction IDs.
+    Severity: LOW
+    CweIDs:
+    - CWE-334
+    VendorSeverity:
+      alma: 2
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      oracle-oval: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:7437
+    - https://access.redhat.com/security/cve/CVE-2024-52616
+    - https://bugzilla.redhat.com/2326429
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2326429
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52616
+    - https://errata.almalinux.org/9/ALSA-2025-7437.html
+    - https://errata.rockylinux.org/RLSA-2025:7437
+    - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
+    - https://github.com/avahi/avahi/security/advisories/GHSA-r9j3-vjjh-p8vm
+    - https://linux.oracle.com/cve/CVE-2024-52616.html
+    - https://linux.oracle.com/errata/ELSA-2025-7437.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-52616
+    - https://www.cve.org/CVERecord?id=CVE-2024-52616
+    PublishedDate: '2024-11-21T21:15:24.14Z'
+    LastModifiedDate: '2025-05-14T00:15:17.52Z'
+  - VulnerabilityID: CVE-2025-59529
+    PkgID: libavahi-common-data@0.8-16ubuntu3.1
+    PkgName: libavahi-common-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libavahi-common-data@0.8-16ubuntu3.1?arch=amd64&distro=ubuntu-25.10
+      UID: 90e851205160bd68
+    InstalledVersion: 0.8-16ubuntu3.1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-59529
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:69c7956bee7ba525ff42a4e9b8361e914a6644e94ab5108d3fcb074d13c5b072
+    Title: 'avahi: simple clients denial-of-service'
+    Description: Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions up to and including 0.9-rc2, the simple protocol server ignores the documented client limit and accepts unlimited connections, allowing for easy local DoS. Although `CLIENTS_MAX` is defined, `server_work()` unconditionally `accept()`s and `client_new()` always appends the new client and increments `n_clients`. There is no check against the limit. When client cannot be accepted as a result of maximal socket number of avahi-daemon, it logs unconditionally error per each connection. Unprivileged local users can exhaust daemon memory and file descriptors, causing a denial of service system-wide for mDNS/DNS-SD. Exhausting local file descriptors causes increased system load caused by logging errors of each of request. Overloading prevents glibc calls using nss-mdns plugins to resolve `*.local.` names and link-local addresses. As of time of publication, no known patched versions are available, but a candidate fix is available in pull request 808, and some workarounds are available. Simple clients are offered for nss-mdns package functionality. It is not possible to disable the unix socket `/run/avahi-daemon/socket`, but resolution requests received via DBus are not affected directly. Tools avahi-resolve, avahi-resolve-address and avahi-resolve-host-name are not affected, they use DBus interface. It is possible to change permissions of unix socket after avahi-daemon is started. But avahi-daemon does not provide any configuration for it. Additional access restrictions like SELinux can also prevent unwanted tools to access the socket and keep resolution working for trusted users.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/12/19/1
+    - https://access.redhat.com/security/cve/CVE-2025-59529
+    - https://github.com/avahi/avahi/pull/808
+    - https://github.com/avahi/avahi/security/advisories/GHSA-73wf-3xmj-x82q
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-59529
+    - https://www.cve.org/CVERecord?id=CVE-2025-59529
+    - https://zeropath.com/blog/avahi-simple-protocol-server-dos-cve-2025-59529
+    PublishedDate: '2025-12-18T21:15:53.637Z'
+    LastModifiedDate: '2026-01-16T16:50:20.183Z'
+  - VulnerabilityID: CVE-2024-52615
+    PkgID: libavahi-common-data@0.8-16ubuntu3.1
+    PkgName: libavahi-common-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libavahi-common-data@0.8-16ubuntu3.1?arch=amd64&distro=ubuntu-25.10
+      UID: 90e851205160bd68
+    InstalledVersion: 0.8-16ubuntu3.1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52615
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b37167e74bc7ccee941074c6dfb6861e0c22d98f2ba0b0c0ce33128e600f9f87
+    Title: 'avahi: Avahi Wide-Area DNS Uses Constant Source Port'
+    Description: A flaw was found in Avahi-daemon, which relies on fixed source ports for wide-area DNS queries. This issue simplifies attacks where malicious DNS responses are injected.
+    Severity: LOW
+    CweIDs:
+    - CWE-330
+    VendorSeverity:
+      amazon: 2
+      oracle-oval: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:11402
+    - https://access.redhat.com/errata/RHSA-2025:16441
+    - https://access.redhat.com/security/cve/CVE-2024-52615
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52615
+    - https://errata.rockylinux.org/RLSA-2025:16441
+    - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
+    - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
+    - https://linux.oracle.com/cve/CVE-2024-52615.html
+    - https://linux.oracle.com/errata/ELSA-2025-16441.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-52615
+    - https://www.cve.org/CVERecord?id=CVE-2024-52615
+    PublishedDate: '2024-11-21T21:15:23.807Z'
+    LastModifiedDate: '2025-09-23T10:15:34.1Z'
+  - VulnerabilityID: CVE-2024-52616
+    PkgID: libavahi-common-data@0.8-16ubuntu3.1
+    PkgName: libavahi-common-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libavahi-common-data@0.8-16ubuntu3.1?arch=amd64&distro=ubuntu-25.10
+      UID: 90e851205160bd68
+    InstalledVersion: 0.8-16ubuntu3.1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52616
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:20f6cd4439c8f8a4bb397487dc8ed23c43f63a388a086d5c8f7f73ae50211fd3
+    Title: 'avahi: Avahi Wide-Area DNS Predictable Transaction IDs'
+    Description: A flaw was found in the Avahi-daemon, where it initializes DNS transaction IDs randomly only once at startup, incrementing them sequentially after that. This predictable behavior facilitates DNS spoofing attacks, allowing attackers to guess transaction IDs.
+    Severity: LOW
+    CweIDs:
+    - CWE-334
+    VendorSeverity:
+      alma: 2
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      oracle-oval: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:7437
+    - https://access.redhat.com/security/cve/CVE-2024-52616
+    - https://bugzilla.redhat.com/2326429
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2326429
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52616
+    - https://errata.almalinux.org/9/ALSA-2025-7437.html
+    - https://errata.rockylinux.org/RLSA-2025:7437
+    - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
+    - https://github.com/avahi/avahi/security/advisories/GHSA-r9j3-vjjh-p8vm
+    - https://linux.oracle.com/cve/CVE-2024-52616.html
+    - https://linux.oracle.com/errata/ELSA-2025-7437.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-52616
+    - https://www.cve.org/CVERecord?id=CVE-2024-52616
+    PublishedDate: '2024-11-21T21:15:24.14Z'
+    LastModifiedDate: '2025-05-14T00:15:17.52Z'
+  - VulnerabilityID: CVE-2025-59529
+    PkgID: libavahi-common3@0.8-16ubuntu3.1
+    PkgName: libavahi-common3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libavahi-common3@0.8-16ubuntu3.1?arch=amd64&distro=ubuntu-25.10
+      UID: a71008ead96e5ce1
+    InstalledVersion: 0.8-16ubuntu3.1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-59529
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:75b2dd4381f1203bc9e8b239787f6b93ec88f53b524bac826c7baf20511a965e
+    Title: 'avahi: simple clients denial-of-service'
+    Description: Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions up to and including 0.9-rc2, the simple protocol server ignores the documented client limit and accepts unlimited connections, allowing for easy local DoS. Although `CLIENTS_MAX` is defined, `server_work()` unconditionally `accept()`s and `client_new()` always appends the new client and increments `n_clients`. There is no check against the limit. When client cannot be accepted as a result of maximal socket number of avahi-daemon, it logs unconditionally error per each connection. Unprivileged local users can exhaust daemon memory and file descriptors, causing a denial of service system-wide for mDNS/DNS-SD. Exhausting local file descriptors causes increased system load caused by logging errors of each of request. Overloading prevents glibc calls using nss-mdns plugins to resolve `*.local.` names and link-local addresses. As of time of publication, no known patched versions are available, but a candidate fix is available in pull request 808, and some workarounds are available. Simple clients are offered for nss-mdns package functionality. It is not possible to disable the unix socket `/run/avahi-daemon/socket`, but resolution requests received via DBus are not affected directly. Tools avahi-resolve, avahi-resolve-address and avahi-resolve-host-name are not affected, they use DBus interface. It is possible to change permissions of unix socket after avahi-daemon is started. But avahi-daemon does not provide any configuration for it. Additional access restrictions like SELinux can also prevent unwanted tools to access the socket and keep resolution working for trusted users.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/12/19/1
+    - https://access.redhat.com/security/cve/CVE-2025-59529
+    - https://github.com/avahi/avahi/pull/808
+    - https://github.com/avahi/avahi/security/advisories/GHSA-73wf-3xmj-x82q
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-59529
+    - https://www.cve.org/CVERecord?id=CVE-2025-59529
+    - https://zeropath.com/blog/avahi-simple-protocol-server-dos-cve-2025-59529
+    PublishedDate: '2025-12-18T21:15:53.637Z'
+    LastModifiedDate: '2026-01-16T16:50:20.183Z'
+  - VulnerabilityID: CVE-2024-52615
+    PkgID: libavahi-common3@0.8-16ubuntu3.1
+    PkgName: libavahi-common3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libavahi-common3@0.8-16ubuntu3.1?arch=amd64&distro=ubuntu-25.10
+      UID: a71008ead96e5ce1
+    InstalledVersion: 0.8-16ubuntu3.1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52615
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:c43443b1a6aeb9c296a37fa118b19bd1ff2d2536727969b22e5e054cab70cd12
+    Title: 'avahi: Avahi Wide-Area DNS Uses Constant Source Port'
+    Description: A flaw was found in Avahi-daemon, which relies on fixed source ports for wide-area DNS queries. This issue simplifies attacks where malicious DNS responses are injected.
+    Severity: LOW
+    CweIDs:
+    - CWE-330
+    VendorSeverity:
+      amazon: 2
+      oracle-oval: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:11402
+    - https://access.redhat.com/errata/RHSA-2025:16441
+    - https://access.redhat.com/security/cve/CVE-2024-52615
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52615
+    - https://errata.rockylinux.org/RLSA-2025:16441
+    - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
+    - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
+    - https://linux.oracle.com/cve/CVE-2024-52615.html
+    - https://linux.oracle.com/errata/ELSA-2025-16441.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-52615
+    - https://www.cve.org/CVERecord?id=CVE-2024-52615
+    PublishedDate: '2024-11-21T21:15:23.807Z'
+    LastModifiedDate: '2025-09-23T10:15:34.1Z'
+  - VulnerabilityID: CVE-2024-52616
+    PkgID: libavahi-common3@0.8-16ubuntu3.1
+    PkgName: libavahi-common3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libavahi-common3@0.8-16ubuntu3.1?arch=amd64&distro=ubuntu-25.10
+      UID: a71008ead96e5ce1
+    InstalledVersion: 0.8-16ubuntu3.1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-52616
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:8b075058b4c041d3ff60436729270d5f0bbcd2322ad63001163446a80666d2f8
+    Title: 'avahi: Avahi Wide-Area DNS Predictable Transaction IDs'
+    Description: A flaw was found in the Avahi-daemon, where it initializes DNS transaction IDs randomly only once at startup, incrementing them sequentially after that. This predictable behavior facilitates DNS spoofing attacks, allowing attackers to guess transaction IDs.
+    Severity: LOW
+    CweIDs:
+    - CWE-334
+    VendorSeverity:
+      alma: 2
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      oracle-oval: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:7437
+    - https://access.redhat.com/security/cve/CVE-2024-52616
+    - https://bugzilla.redhat.com/2326429
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2326429
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52616
+    - https://errata.almalinux.org/9/ALSA-2025-7437.html
+    - https://errata.rockylinux.org/RLSA-2025:7437
+    - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
+    - https://github.com/avahi/avahi/security/advisories/GHSA-r9j3-vjjh-p8vm
+    - https://linux.oracle.com/cve/CVE-2024-52616.html
+    - https://linux.oracle.com/errata/ELSA-2025-7437.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-52616
+    - https://www.cve.org/CVERecord?id=CVE-2024-52616
+    PublishedDate: '2024-11-21T21:15:24.14Z'
+    LastModifiedDate: '2025-05-14T00:15:17.52Z'
+  - VulnerabilityID: CVE-2017-7475
+    PkgID: libcairo-gobject2@1.18.4-1build1
+    PkgName: libcairo-gobject2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcairo-gobject2@1.18.4-1build1?arch=amd64&distro=ubuntu-25.10
+      UID: c2b550f2ddabd37c
+    InstalledVersion: 1.18.4-1build1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2017-7475
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:71fdf674df2ea0e4b85b3f43a469620ec2753366f5ab564dd3a2f51b447ce62f
+    Title: 'cairo: NULL pointer dereference with a crafted font file'
+    Description: Cairo version 1.15.4 is vulnerable to a NULL pointer dereference related to the FT_Load_Glyph and FT_Render_Glyph resulting in an application crash.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      ghsa: 2
+      nvd: 2
+      redhat: 1
+      ruby-advisory-db: 2
+      ubuntu: 1
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      nvd:
+        V2Vector: AV:N/AC:M/Au:N/C:N/I:N/A:P
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V2Score: 4.3
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - http://seclists.org/oss-sec/2017/q2/151
+    - https://access.redhat.com/security/cve/CVE-2017-7475
+    - https://bugs.freedesktop.org/show_bug.cgi?id=100763
+    - https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2017-7475
+    - https://github.com/rcairo/rcairo
+    - https://github.com/rubysec/ruby-advisory-db/blob/master/gems/cairo/CVE-2017-7475.yml
+    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
+    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E
+    - https://nvd.nist.gov/vuln/detail/CVE-2017-7475
+    - https://www.cve.org/CVERecord?id=CVE-2017-7475
+    PublishedDate: '2017-05-19T20:29:00.207Z'
+    LastModifiedDate: '2025-04-20T01:37:25.86Z'
+  - VulnerabilityID: CVE-2018-18064
+    PkgID: libcairo-gobject2@1.18.4-1build1
+    PkgName: libcairo-gobject2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcairo-gobject2@1.18.4-1build1?arch=amd64&distro=ubuntu-25.10
+      UID: c2b550f2ddabd37c
+    InstalledVersion: 1.18.4-1build1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2018-18064
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:9a87ee7c830c5744567aaf81d27e2a5dae7159979f10462c96421649645f769e
+    Title: 'cairo: Stack-based buffer overflow via parsing of crafted WebKitGTK+ document'
+    Description: cairo through 1.15.14 has an out-of-bounds stack-memory write during processing of a crafted document by WebKitGTK+ because of the interaction between cairo-rectangular-scan-converter.c (the generate and render_rows functions) and cairo-image-compositor.c (the _cairo_image_spans_and_zero function).
+    Severity: LOW
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V2Vector: AV:N/AC:M/Au:N/C:N/I:N/A:P
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V2Score: 4.3
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 6.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2018-18064
+    - https://gitlab.freedesktop.org/cairo/cairo/issues/341
+    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
+    - https://nvd.nist.gov/vuln/detail/CVE-2018-18064
+    - https://www.cve.org/CVERecord?id=CVE-2018-18064
+    PublishedDate: '2018-10-08T18:29:00.27Z'
+    LastModifiedDate: '2024-11-21T03:55:25.21Z'
+  - VulnerabilityID: CVE-2019-6461
+    PkgID: libcairo-gobject2@1.18.4-1build1
+    PkgName: libcairo-gobject2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcairo-gobject2@1.18.4-1build1?arch=amd64&distro=ubuntu-25.10
+      UID: c2b550f2ddabd37c
+    InstalledVersion: 1.18.4-1build1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2019-6461
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:ebcabc2b9b2ff7d51008dfd8f17e825346c8d6813d716afec9725e065a2c8cba
+    Title: 'cairo: assertion problem in _cairo_arc_in_direction in cairo-arc.c'
+    Description: An issue was discovered in cairo 1.16.0. There is an assertion problem in the function _cairo_arc_in_direction in the file cairo-arc.c.
+    Severity: LOW
+    CweIDs:
+    - CWE-617
+    VendorSeverity:
+      cbl-mariner: 2
+      nvd: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V2Vector: AV:N/AC:M/Au:N/C:N/I:N/A:P
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V2Score: 4.3
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2019-6461
+    - https://github.com/TeamSeri0us/pocs/tree/master/gerbv
+    - https://gitlab.freedesktop.org/cairo/cairo/issues/352
+    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
+    - https://nvd.nist.gov/vuln/detail/CVE-2019-6461
+    - https://www.cve.org/CVERecord?id=CVE-2019-6461
+    PublishedDate: '2019-01-16T18:29:00.51Z'
+    LastModifiedDate: '2024-11-21T04:46:29.91Z'
+  - VulnerabilityID: CVE-2017-7475
+    PkgID: libcairo2@1.18.4-1build1
+    PkgName: libcairo2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcairo2@1.18.4-1build1?arch=amd64&distro=ubuntu-25.10
+      UID: c340bcbd9c74b7e0
+    InstalledVersion: 1.18.4-1build1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2017-7475
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:515d0538e68dff5d02ae264accead39b52b1b316772fd675b208ea1558f8f568
+    Title: 'cairo: NULL pointer dereference with a crafted font file'
+    Description: Cairo version 1.15.4 is vulnerable to a NULL pointer dereference related to the FT_Load_Glyph and FT_Render_Glyph resulting in an application crash.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      ghsa: 2
+      nvd: 2
+      redhat: 1
+      ruby-advisory-db: 2
+      ubuntu: 1
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      nvd:
+        V2Vector: AV:N/AC:M/Au:N/C:N/I:N/A:P
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V2Score: 4.3
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - http://seclists.org/oss-sec/2017/q2/151
+    - https://access.redhat.com/security/cve/CVE-2017-7475
+    - https://bugs.freedesktop.org/show_bug.cgi?id=100763
+    - https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2017-7475
+    - https://github.com/rcairo/rcairo
+    - https://github.com/rubysec/ruby-advisory-db/blob/master/gems/cairo/CVE-2017-7475.yml
+    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
+    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E
+    - https://nvd.nist.gov/vuln/detail/CVE-2017-7475
+    - https://www.cve.org/CVERecord?id=CVE-2017-7475
+    PublishedDate: '2017-05-19T20:29:00.207Z'
+    LastModifiedDate: '2025-04-20T01:37:25.86Z'
+  - VulnerabilityID: CVE-2018-18064
+    PkgID: libcairo2@1.18.4-1build1
+    PkgName: libcairo2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcairo2@1.18.4-1build1?arch=amd64&distro=ubuntu-25.10
+      UID: c340bcbd9c74b7e0
+    InstalledVersion: 1.18.4-1build1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2018-18064
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e14252a6a0bbab87107d0bdc9126d9cacb2f8e2279a804bc9ad3b966133ec0c9
+    Title: 'cairo: Stack-based buffer overflow via parsing of crafted WebKitGTK+ document'
+    Description: cairo through 1.15.14 has an out-of-bounds stack-memory write during processing of a crafted document by WebKitGTK+ because of the interaction between cairo-rectangular-scan-converter.c (the generate and render_rows functions) and cairo-image-compositor.c (the _cairo_image_spans_and_zero function).
+    Severity: LOW
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V2Vector: AV:N/AC:M/Au:N/C:N/I:N/A:P
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V2Score: 4.3
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 6.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2018-18064
+    - https://gitlab.freedesktop.org/cairo/cairo/issues/341
+    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
+    - https://nvd.nist.gov/vuln/detail/CVE-2018-18064
+    - https://www.cve.org/CVERecord?id=CVE-2018-18064
+    PublishedDate: '2018-10-08T18:29:00.27Z'
+    LastModifiedDate: '2024-11-21T03:55:25.21Z'
+  - VulnerabilityID: CVE-2019-6461
+    PkgID: libcairo2@1.18.4-1build1
+    PkgName: libcairo2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcairo2@1.18.4-1build1?arch=amd64&distro=ubuntu-25.10
+      UID: c340bcbd9c74b7e0
+    InstalledVersion: 1.18.4-1build1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2019-6461
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:09d17f2fb23a4de2ddc51b475f72d65f82498edd4a8963ae7c095e685eb4f1ea
+    Title: 'cairo: assertion problem in _cairo_arc_in_direction in cairo-arc.c'
+    Description: An issue was discovered in cairo 1.16.0. There is an assertion problem in the function _cairo_arc_in_direction in the file cairo-arc.c.
+    Severity: LOW
+    CweIDs:
+    - CWE-617
+    VendorSeverity:
+      cbl-mariner: 2
+      nvd: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V2Vector: AV:N/AC:M/Au:N/C:N/I:N/A:P
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V2Score: 4.3
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2019-6461
+    - https://github.com/TeamSeri0us/pocs/tree/master/gerbv
+    - https://gitlab.freedesktop.org/cairo/cairo/issues/352
+    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
+    - https://nvd.nist.gov/vuln/detail/CVE-2019-6461
+    - https://www.cve.org/CVERecord?id=CVE-2019-6461
+    PublishedDate: '2019-01-16T18:29:00.51Z'
+    LastModifiedDate: '2024-11-21T04:46:29.91Z'
+  - VulnerabilityID: CVE-2025-11563
+    PkgID: libcurl4t64@8.14.1-2ubuntu1
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
+      UID: d157425689f9e9e7
+    InstalledVersion: 8.14.1-2ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-11563
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fb3f01b2740c34c87affa4b166908b8a551bf6370d319e1ff452f0344fd449b4
+    Description: wcurl path traversal with percent-encoded slashes
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 2
+      ubuntu: 2
+    References:
+    - https://curl.se/docs/CVE-2025-11563.html
+    - https://www.cve.org/CVERecord?id=CVE-2025-11563
+  - VulnerabilityID: CVE-2025-13034
+    PkgID: libcurl4t64@8.14.1-2ubuntu1
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
+      UID: d157425689f9e9e7
+    InstalledVersion: 8.14.1-2ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13034
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:c7aaa06ced6793c060d6e1ceb9a4a463d4f230f5f26aa56284b88a0e6993f7ce
+    Title: When using `CURLOPT_PINNEDPUBLICKEY` option with libcurl or `--pinnedp ...
+    Description: |-
+      When using `CURLOPT_PINNEDPUBLICKEY` option with libcurl or `--pinnedpubkey`
+      with the curl tool,curl should check the public key of the server certificate
+      to verify the peer.
+
+      This check was skipped in a certain condition that would then make curl allow
+      the connection without performing the proper check, thus not noticing a
+      possible impostor. To skip this check, the connection had to be done with QUIC
+      with ngtcp2 built to use GnuTLS and the user had to explicitly disable the
+      standard certificate verification.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-295
+    VendorSeverity:
+      photon: 2
+      ubuntu: 2
+    References:
+    - https://curl.se/docs/CVE-2025-13034.html
+    - https://curl.se/docs/CVE-2025-13034.json
+    - https://www.cve.org/CVERecord?id=CVE-2025-13034
+    PublishedDate: '2026-01-08T10:15:45.407Z'
+    LastModifiedDate: '2026-01-20T14:54:02.73Z'
+  - VulnerabilityID: CVE-2025-10148
+    PkgID: libcurl4t64@8.14.1-2ubuntu1
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
+      UID: d157425689f9e9e7
+    InstalledVersion: 8.14.1-2ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10148
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:84d7465842c4e9b75bd55864a8dc8e0ffdf8f574b90c0b7ee6ac5382b2cd0db5
+    Title: 'curl: predictable WebSocket mask'
+    Description: |-
+      curl's websocket code did not update the 32 bit mask pattern for each new
+       outgoing frame as the specification says. Instead it used a fixed mask that
+      persisted and was used throughout the entire connection.
+
+      A predictable mask pattern allows for a malicious server to induce traffic
+      between the two communicating parties that could be interpreted by an involved
+      proxy (configured or transparent) as genuine, real, HTTP traffic with content
+      and thereby poison its cache. That cached poisoned content could then be
+      served to all users of that proxy.
+    Severity: LOW
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      photon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/09/10/2
+    - http://www.openwall.com/lists/oss-security/2025/09/10/3
+    - http://www.openwall.com/lists/oss-security/2025/09/10/4
+    - https://access.redhat.com/security/cve/CVE-2025-10148
+    - https://curl.se/docs/CVE-2025-10148.html
+    - https://curl.se/docs/CVE-2025-10148.json
+    - https://hackerone.com/reports/3330839
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-10148
+    - https://www.cve.org/CVERecord?id=CVE-2025-10148
+    PublishedDate: '2025-09-12T06:15:40.02Z'
+    LastModifiedDate: '2026-01-20T14:55:47.997Z'
+  - VulnerabilityID: CVE-2025-14524
+    PkgID: libcurl4t64@8.14.1-2ubuntu1
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
+      UID: d157425689f9e9e7
+    InstalledVersion: 8.14.1-2ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14524
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:9d97bb22d7bab4e6a84004305e1b36f4dd789427f7d5eee3e39d83cb80dd1241
+    Title: When an OAuth2 bearer token is used for an HTTP(S) transfer, and that  ...
+    Description: |-
+      When an OAuth2 bearer token is used for an HTTP(S) transfer, and that transfer
+      performs a cross-protocol redirect to a second URL that uses an IMAP, LDAP,
+      POP3 or SMTP scheme, curl might wrongly pass on the bearer token to the new
+      target host.
+    Severity: LOW
+    CweIDs:
+    - CWE-601
+    VendorSeverity:
+      photon: 2
+      ubuntu: 1
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/07/4
+    - https://curl.se/docs/CVE-2025-14524.html
+    - https://curl.se/docs/CVE-2025-14524.json
+    - https://hackerone.com/reports/3459417
+    - https://www.cve.org/CVERecord?id=CVE-2025-14524
+    PublishedDate: '2026-01-08T10:15:46.607Z'
+    LastModifiedDate: '2026-01-20T14:53:11.017Z'
+  - VulnerabilityID: CVE-2025-14819
+    PkgID: libcurl4t64@8.14.1-2ubuntu1
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
+      UID: d157425689f9e9e7
+    InstalledVersion: 8.14.1-2ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14819
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e66479269edbb6fd4453f66f2a729436525740b4ea941731f9d44545be8aa10c
+    Title: When doing TLS related transfers with reused easy or multi handles and ...
+    Description: |-
+      When doing TLS related transfers with reused easy or multi handles and
+      altering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl could accidentally
+      reuse a CA store cached in memory for which the partial chain option was
+      reversed. Contrary to the user's wishes and expectations. This could make
+      libcurl find and accept a trust chain that it otherwise would not.
+    Severity: LOW
+    CweIDs:
+    - CWE-295
+    VendorSeverity:
+      photon: 2
+      ubuntu: 1
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/07/5
+    - https://curl.se/docs/CVE-2025-14819.html
+    - https://curl.se/docs/CVE-2025-14819.json
+    - https://www.cve.org/CVERecord?id=CVE-2025-14819
+    PublishedDate: '2026-01-08T10:15:46.73Z'
+    LastModifiedDate: '2026-01-20T14:51:26.263Z'
+  - VulnerabilityID: CVE-2025-9086
+    PkgID: libcurl4t64@8.14.1-2ubuntu1
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
+      UID: d157425689f9e9e7
+    InstalledVersion: 8.14.1-2ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9086
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d7f43c2ea5004a361af9cfc7fc40be29a7b9f60b3df78e554755bbcc438440b4
+    Title: 'curl: libcurl: Curl out of bounds read for cookie path'
+    Description: |-
+      1. A cookie is set using the `secure` keyword for `https://target` 
+       2. curl is redirected to or otherwise made to speak with `http://target` (same 
+         hostname, but using clear text HTTP) using the same cookie set 
+       3. The same cookie name is set - but with just a slash as path (`path=\"/\",`).
+         Since this site is not secure, the cookie *should* just be ignored.
+      4. A bug in the path comparison logic makes curl read outside a heap buffer
+         boundary
+
+      The bug either causes a crash or it potentially makes the comparison come to
+      the wrong conclusion and lets the clear-text site override the contents of the
+      secure cookie, contrary to expectations and depending on the memory contents
+      immediately following the single-byte allocation that holds the path.
+
+      The presumed and correct behavior would be to plainly ignore the second set of
+      the cookie since it was already set as secure on a secure host so overriding
+      it on an insecure host should not be okay.
+    Severity: LOW
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      alma: 2
+      amazon: 2
+      oracle-oval: 2
+      photon: 3
+      redhat: 2
+      rocky: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/09/10/1
+    - https://access.redhat.com/errata/RHSA-2026:1350
+    - https://access.redhat.com/security/cve/CVE-2025-9086
+    - https://bugzilla.redhat.com/2394750
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2394750
+    - https://curl.se/docs/CVE-2025-9086.html
+    - https://curl.se/docs/CVE-2025-9086.json
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086
+    - https://errata.almalinux.org/9/ALSA-2026-1350.html
+    - https://errata.rockylinux.org/RLSA-2026:1825
+    - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
+    - https://hackerone.com/reports/3294999
+    - https://linux.oracle.com/cve/CVE-2025-9086.html
+    - https://linux.oracle.com/errata/ELSA-2026-1825.html
+    - https://lists.debian.org/debian-lts-announce/2026/01/msg00002.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
+    - https://www.cve.org/CVERecord?id=CVE-2025-9086
+    PublishedDate: '2025-09-12T06:15:44.1Z'
+    LastModifiedDate: '2026-01-20T14:58:01.347Z'
+  - VulnerabilityID: CVE-2025-1352
+    PkgID: libelf1t64@0.193-1
+    PkgName: libelf1t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libelf1t64@0.193-1?arch=amd64&distro=ubuntu-25.10
+      UID: 53f7cfdf39bf31b6
+    InstalledVersion: 0.193-1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1352
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a885eb359c196324ef2e0ade8fd060c52f92dc2fffe8475fe3b82250eae2ebeb
+    Title: 'elfutils: GNU elfutils eu-readelf libdw_alloc.c __libdw_thread_tail memory corruption'
+    Description: A vulnerability has been found in GNU elfutils 0.192 and classified as critical. This vulnerability affects the function __libdw_thread_tail in the library libdw_alloc.c of the component eu-readelf. The manipulation of the argument w leads to memory corruption. The attack can be initiated remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The name of the patch is 2636426a091bd6c6f7f02e49ab20d4cdc6bfc753. It is recommended to apply a patch to fix this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-119
+    VendorSeverity:
+      amazon: 2
+      azure: 1
+      nvd: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1352
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1352
+    - https://sourceware.org/bugzilla/attachment.cgi?id=15923
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32650
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32650#c2
+    - https://vuldb.com/?ctiid.295960
+    - https://vuldb.com/?id.295960
+    - https://vuldb.com/?submit.495965
+    - https://www.cve.org/CVERecord?id=CVE-2025-1352
+    - https://www.gnu.org/
+    PublishedDate: '2025-02-16T15:15:09.133Z'
+    LastModifiedDate: '2025-11-03T20:34:23.89Z'
+  - VulnerabilityID: CVE-2025-1376
+    PkgID: libelf1t64@0.193-1
+    PkgName: libelf1t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libelf1t64@0.193-1?arch=amd64&distro=ubuntu-25.10
+      UID: 53f7cfdf39bf31b6
+    InstalledVersion: 0.193-1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1376
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:8176952336f6bd7c74c4643f9e2dc3f8fb6e5b5edfb8a697d87cc6561cc9aa86
+    Title: 'elfutils: GNU elfutils eu-strip elf_strptr.c elf_strptr denial of service'
+    Description: A vulnerability classified as problematic was found in GNU elfutils 0.192. This vulnerability affects the function elf_strptr in the library /libelf/elf_strptr.c of the component eu-strip. The manipulation leads to denial of service. It is possible to launch the attack on the local host. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The name of the patch is b16f441cca0a4841050e3215a9f120a6d8aea918. It is recommended to apply a patch to fix this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-404
+    VendorSeverity:
+      azure: 1
+      nvd: 2
+      photon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1376
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1376
+    - https://sourceware.org/bugzilla/attachment.cgi?id=15940
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32672
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=32672#c3
+    - https://vuldb.com/?ctiid.295984
+    - https://vuldb.com/?id.295984
+    - https://vuldb.com/?submit.497538
+    - https://www.cve.org/CVERecord?id=CVE-2025-1376
+    - https://www.gnu.org/
+    PublishedDate: '2025-02-17T05:15:09.807Z'
+    LastModifiedDate: '2025-11-04T20:21:18.26Z'
+  - VulnerabilityID: CVE-2025-59375
+    PkgID: libexpat1@2.7.1-2
+    PkgName: libexpat1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libexpat1@2.7.1-2?arch=amd64&distro=ubuntu-25.10
+      UID: 25688396fef8ecac
+    InstalledVersion: 2.7.1-2
+    FixedVersion: 2.7.1-2ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-59375
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:3e1daa9246d93053c77f6d59f107ec06dc7f6e2efd5a897adf709fa345791c79
+    Title: 'expat: libexpat in Expat allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing'
+    Description: libexpat in Expat before 2.7.2 allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      azure: 2
+      cbl-mariner: 2
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/09/16/2
+    - https://access.redhat.com/errata/RHSA-2025:22175
+    - https://access.redhat.com/security/cve/CVE-2025-59375
+    - https://bugzilla.redhat.com/2395108
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
+    - https://errata.almalinux.org/9/ALSA-2025-22175.html
+    - https://errata.rockylinux.org/RLSA-2025:19403
+    - https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74
+    - https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes
+    - https://github.com/libexpat/libexpat/issues/1018
+    - https://github.com/libexpat/libexpat/pull/1034
+    - https://issues.oss-fuzz.com/issues/439133977
+    - https://linux.oracle.com/cve/CVE-2025-59375.html
+    - https://linux.oracle.com/errata/ELSA-2025-22175.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-59375
+    - https://ubuntu.com/security/notices/USN-8022-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-59375
+    PublishedDate: '2025-09-15T03:15:40.92Z'
+    LastModifiedDate: '2025-11-04T22:16:34.927Z'
+  - VulnerabilityID: CVE-2025-66382
+    PkgID: libexpat1@2.7.1-2
+    PkgName: libexpat1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libexpat1@2.7.1-2?arch=amd64&distro=ubuntu-25.10
+      UID: 25688396fef8ecac
+    InstalledVersion: 2.7.1-2
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-66382
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e0e81f73346765cf3f2b09a523812caf63f7de33ea909e9030b7fdc3e798d043
+    Title: 'libexpat: libexpat: Denial of service via crafted file processing'
+    Description: In libexpat through 2.7.3, a crafted file with an approximate size of 2 MiB can lead to dozens of seconds of processing time.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-407
+    VendorSeverity:
+      nvd: 2
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/12/02/1
+    - https://access.redhat.com/security/cve/CVE-2025-66382
+    - https://github.com/libexpat/libexpat/issues/1076
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-66382
+    - https://www.cve.org/CVERecord?id=CVE-2025-66382
+    PublishedDate: '2025-11-28T07:15:57.9Z'
+    LastModifiedDate: '2025-12-19T16:05:03.557Z'
+  - VulnerabilityID: CVE-2026-24515
+    PkgID: libexpat1@2.7.1-2
+    PkgName: libexpat1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libexpat1@2.7.1-2?arch=amd64&distro=ubuntu-25.10
+      UID: 25688396fef8ecac
+    InstalledVersion: 2.7.1-2
+    FixedVersion: 2.7.1-2ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-24515
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:5b77afd1c48bef4ca4868eb443e3b0cf234f489ebcc594f3b596662a9ae1c294
+    Title: 'libexpat: libexpat null pointer dereference'
+    Description: In libexpat before 2.7.4, XML_ExternalEntityParserCreate does not copy unknown encoding handler user data.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      azure: 1
+      cbl-mariner: 1
+      nvd: 1
+      photon: 4
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-24515
+    - https://github.com/libexpat/libexpat/pull/1131
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-24515
+    - https://ubuntu.com/security/notices/USN-8022-1
+    - https://ubuntu.com/security/notices/USN-8023-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-24515
+    PublishedDate: '2026-01-23T08:16:01.49Z'
+    LastModifiedDate: '2026-02-05T17:27:53.29Z'
+  - VulnerabilityID: CVE-2026-25210
+    PkgID: libexpat1@2.7.1-2
+    PkgName: libexpat1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libexpat1@2.7.1-2?arch=amd64&distro=ubuntu-25.10
+      UID: 25688396fef8ecac
+    InstalledVersion: 2.7.1-2
+    FixedVersion: 2.7.1-2ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-25210
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d7dae2075f9b3be362b2a0e0805e1e87f8c3fa4599ec7c676deb8b0768f79251
+    Title: 'libexpat: libexpat: Information disclosure and data integrity issues due to integer overflow in buffer reallocation'
+    Description: In libexpat before 2.7.4, the doContent function does not properly determine the buffer size bufSize because there is no integer overflow check for tag buffer reallocation.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      azure: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-25210
+    - https://github.com/libexpat/libexpat/pull/1075
+    - https://github.com/libexpat/libexpat/pull/1075/commits/9c2d990389e6abe2e44527eeaa8b39f16fe859c7
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-25210
+    - https://ubuntu.com/security/notices/USN-8022-1
+    - https://ubuntu.com/security/notices/USN-8023-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-25210
+    PublishedDate: '2026-01-30T07:16:15.57Z'
+    LastModifiedDate: '2026-02-04T16:34:21.763Z'
+  - VulnerabilityID: CVE-2024-2236
+    PkgID: libgcrypt20@1.11.0-7build1
+    PkgName: libgcrypt20
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgcrypt20@1.11.0-7build1?arch=amd64&distro=ubuntu-25.10
+      UID: dacd70a6a90042e1
+    InstalledVersion: 1.11.0-7build1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2236
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:43fcb2cfef16123c822ccfa0a00f8741c4ee02473dc91110efc501fdbbd05a19
+    Title: 'libgcrypt: vulnerable to Marvin Attack'
+    Description: A timing-based side-channel flaw was found in libgcrypt's RSA implementation. This issue may allow a remote attacker to initiate a Bleichenbacher-style attack, which can lead to the decryption of RSA ciphertexts.
+    Severity: LOW
+    CweIDs:
+    - CWE-208
+    VendorSeverity:
+      alma: 2
+      amazon: 2
+      oracle-oval: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:9404
+    - https://access.redhat.com/errata/RHSA-2025:3530
+    - https://access.redhat.com/errata/RHSA-2025:3534
+    - https://access.redhat.com/security/cve/CVE-2024-2236
+    - https://bugzilla.redhat.com/2245218
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2245218
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2268268
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-2236
+    - https://dev.gnupg.org/T7136
+    - https://errata.almalinux.org/9/ALSA-2024-9404.html
+    - https://errata.rockylinux.org/RLSA-2024:9404
+    - https://github.com/tomato42/marvin-toolkit/tree/master/example/libgcrypt
+    - https://gitlab.com/redhat-crypto/libgcrypt/libgcrypt-mirror/-/merge_requests/17
+    - https://linux.oracle.com/cve/CVE-2024-2236.html
+    - https://linux.oracle.com/errata/ELSA-2024-9404.html
+    - https://lists.gnupg.org/pipermail/gcrypt-devel/2024-March/005607.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-2236
+    - https://www.cve.org/CVERecord?id=CVE-2024-2236
+    PublishedDate: '2024-03-06T22:15:57.977Z'
+    LastModifiedDate: '2025-04-02T17:15:37.79Z'
+  - VulnerabilityID: CVE-2026-22693
+    PkgID: libharfbuzz0b@10.2.0-1
+    PkgName: libharfbuzz0b
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libharfbuzz0b@10.2.0-1?arch=amd64&distro=ubuntu-25.10
+      UID: 825c18040777d1ac
+    InstalledVersion: 10.2.0-1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22693
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:df3ca3634eca870969ec71d02028fdd4eb49b3d180efafa21d6a39678609cfa1
+    Title: 'harfbuzz: Null Pointer Dereference in harfbuzz'
+    Description: HarfBuzz is a text shaping engine. Prior to version 12.3.0, a null pointer dereference vulnerability exists in the SubtableUnicodesCache::create function located in src/hb-ot-cmap-table.hh. The function fails to check if hb_malloc returns NULL before using placement new to construct an object at the returned pointer address. When hb_malloc fails to allocate memory (which can occur in low-memory conditions or when using custom allocators that simulate allocation failures), it returns NULL. The code then attempts to call the constructor on this null pointer using placement new syntax, resulting in undefined behavior and a Segmentation Fault. This issue has been patched in version 12.3.0.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      azure: 2
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/11/1
+    - http://www.openwall.com/lists/oss-security/2026/01/12/1
+    - https://access.redhat.com/security/cve/CVE-2026-22693
+    - https://github.com/harfbuzz/harfbuzz/commit/1265ff8d990284f04d8768f35b0e20ae5f60daae
+    - https://github.com/harfbuzz/harfbuzz/security/advisories/GHSA-xvjr-f2r9-c7ww
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-22693
+    - https://www.cve.org/CVERecord?id=CVE-2026-22693
+    PublishedDate: '2026-01-10T06:15:52.063Z'
+    LastModifiedDate: '2026-01-13T14:03:18.99Z'
+  - VulnerabilityID: CVE-2025-8941
+    PkgID: libpam-modules@1.7.0-5ubuntu2
+    PkgName: libpam-modules
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-modules@1.7.0-5ubuntu2?arch=amd64&distro=ubuntu-25.10
+      UID: c56304432b2639ff
+    InstalledVersion: 1.7.0-5ubuntu2
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8941
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:bd891ca80f79825b4c945ecd65e1d6cf5bb7365f1c0372823ca7431ed31b903a
+    Title: 'linux-pam: Incomplete fix for CVE-2025-6020'
+    Description: A flaw was found in linux-pam. The pam_namespace module may improperly handle user-controlled paths, allowing local users to exploit symlink attacks and race conditions to elevate their privileges to root. This CVE provides a "complete" fix for CVE-2025-6020.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:14557
+    - https://access.redhat.com/errata/RHSA-2025:15099
+    - https://access.redhat.com/errata/RHSA-2025:15100
+    - https://access.redhat.com/errata/RHSA-2025:15101
+    - https://access.redhat.com/errata/RHSA-2025:15102
+    - https://access.redhat.com/errata/RHSA-2025:15103
+    - https://access.redhat.com/errata/RHSA-2025:15104
+    - https://access.redhat.com/errata/RHSA-2025:15105
+    - https://access.redhat.com/errata/RHSA-2025:15106
+    - https://access.redhat.com/errata/RHSA-2025:15107
+    - https://access.redhat.com/errata/RHSA-2025:15709
+    - https://access.redhat.com/errata/RHSA-2025:15827
+    - https://access.redhat.com/errata/RHSA-2025:15828
+    - https://access.redhat.com/errata/RHSA-2025:16524
+    - https://access.redhat.com/errata/RHSA-2025:17181
+    - https://access.redhat.com/errata/RHSA-2025:18219
+    - https://access.redhat.com/errata/RHSA-2025:21885
+    - https://access.redhat.com/security/cve/CVE-2025-8941
+    - https://bugzilla.redhat.com/2372512
+    - https://bugzilla.redhat.com/2388220
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
+    - https://errata.almalinux.org/9/ALSA-2025-15099.html
+    - https://errata.rockylinux.org/RLSA-2025:15099
+    - https://linux.oracle.com/cve/CVE-2025-8941.html
+    - https://linux.oracle.com/errata/ELSA-2025-15099.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
+    - https://www.cve.org/CVERecord?id=CVE-2025-8941
+    PublishedDate: '2025-08-13T15:15:41.873Z'
+    LastModifiedDate: '2025-11-20T21:16:08.11Z'
+  - VulnerabilityID: CVE-2025-8941
+    PkgID: libpam-modules-bin@1.7.0-5ubuntu2
+    PkgName: libpam-modules-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-modules-bin@1.7.0-5ubuntu2?arch=amd64&distro=ubuntu-25.10
+      UID: 2a15df456a8e7951
+    InstalledVersion: 1.7.0-5ubuntu2
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8941
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:273b66e29cbf717e388d5330434494769f861b38642a1d8e5a4926287e341265
+    Title: 'linux-pam: Incomplete fix for CVE-2025-6020'
+    Description: A flaw was found in linux-pam. The pam_namespace module may improperly handle user-controlled paths, allowing local users to exploit symlink attacks and race conditions to elevate their privileges to root. This CVE provides a "complete" fix for CVE-2025-6020.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:14557
+    - https://access.redhat.com/errata/RHSA-2025:15099
+    - https://access.redhat.com/errata/RHSA-2025:15100
+    - https://access.redhat.com/errata/RHSA-2025:15101
+    - https://access.redhat.com/errata/RHSA-2025:15102
+    - https://access.redhat.com/errata/RHSA-2025:15103
+    - https://access.redhat.com/errata/RHSA-2025:15104
+    - https://access.redhat.com/errata/RHSA-2025:15105
+    - https://access.redhat.com/errata/RHSA-2025:15106
+    - https://access.redhat.com/errata/RHSA-2025:15107
+    - https://access.redhat.com/errata/RHSA-2025:15709
+    - https://access.redhat.com/errata/RHSA-2025:15827
+    - https://access.redhat.com/errata/RHSA-2025:15828
+    - https://access.redhat.com/errata/RHSA-2025:16524
+    - https://access.redhat.com/errata/RHSA-2025:17181
+    - https://access.redhat.com/errata/RHSA-2025:18219
+    - https://access.redhat.com/errata/RHSA-2025:21885
+    - https://access.redhat.com/security/cve/CVE-2025-8941
+    - https://bugzilla.redhat.com/2372512
+    - https://bugzilla.redhat.com/2388220
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
+    - https://errata.almalinux.org/9/ALSA-2025-15099.html
+    - https://errata.rockylinux.org/RLSA-2025:15099
+    - https://linux.oracle.com/cve/CVE-2025-8941.html
+    - https://linux.oracle.com/errata/ELSA-2025-15099.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
+    - https://www.cve.org/CVERecord?id=CVE-2025-8941
+    PublishedDate: '2025-08-13T15:15:41.873Z'
+    LastModifiedDate: '2025-11-20T21:16:08.11Z'
+  - VulnerabilityID: CVE-2025-8941
+    PkgID: libpam-runtime@1.7.0-5ubuntu2
+    PkgName: libpam-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-runtime@1.7.0-5ubuntu2?arch=all&distro=ubuntu-25.10
+      UID: 7e1a4e8f3bea5117
+    InstalledVersion: 1.7.0-5ubuntu2
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8941
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:154674dc32df5caeb220d818ba54851f170fb1ea1d98dc52e56c7f4777ee36f7
+    Title: 'linux-pam: Incomplete fix for CVE-2025-6020'
+    Description: A flaw was found in linux-pam. The pam_namespace module may improperly handle user-controlled paths, allowing local users to exploit symlink attacks and race conditions to elevate their privileges to root. This CVE provides a "complete" fix for CVE-2025-6020.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:14557
+    - https://access.redhat.com/errata/RHSA-2025:15099
+    - https://access.redhat.com/errata/RHSA-2025:15100
+    - https://access.redhat.com/errata/RHSA-2025:15101
+    - https://access.redhat.com/errata/RHSA-2025:15102
+    - https://access.redhat.com/errata/RHSA-2025:15103
+    - https://access.redhat.com/errata/RHSA-2025:15104
+    - https://access.redhat.com/errata/RHSA-2025:15105
+    - https://access.redhat.com/errata/RHSA-2025:15106
+    - https://access.redhat.com/errata/RHSA-2025:15107
+    - https://access.redhat.com/errata/RHSA-2025:15709
+    - https://access.redhat.com/errata/RHSA-2025:15827
+    - https://access.redhat.com/errata/RHSA-2025:15828
+    - https://access.redhat.com/errata/RHSA-2025:16524
+    - https://access.redhat.com/errata/RHSA-2025:17181
+    - https://access.redhat.com/errata/RHSA-2025:18219
+    - https://access.redhat.com/errata/RHSA-2025:21885
+    - https://access.redhat.com/security/cve/CVE-2025-8941
+    - https://bugzilla.redhat.com/2372512
+    - https://bugzilla.redhat.com/2388220
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
+    - https://errata.almalinux.org/9/ALSA-2025-15099.html
+    - https://errata.rockylinux.org/RLSA-2025:15099
+    - https://linux.oracle.com/cve/CVE-2025-8941.html
+    - https://linux.oracle.com/errata/ELSA-2025-15099.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
+    - https://www.cve.org/CVERecord?id=CVE-2025-8941
+    PublishedDate: '2025-08-13T15:15:41.873Z'
+    LastModifiedDate: '2025-11-20T21:16:08.11Z'
+  - VulnerabilityID: CVE-2025-8941
+    PkgID: libpam0g@1.7.0-5ubuntu2
+    PkgName: libpam0g
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam0g@1.7.0-5ubuntu2?arch=amd64&distro=ubuntu-25.10
+      UID: da547a8d11d3a01d
+    InstalledVersion: 1.7.0-5ubuntu2
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8941
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:77f213e8b086cea255fed743ec335f8a45ae5415e9b7d415704dba7d81a2cf15
+    Title: 'linux-pam: Incomplete fix for CVE-2025-6020'
+    Description: A flaw was found in linux-pam. The pam_namespace module may improperly handle user-controlled paths, allowing local users to exploit symlink attacks and race conditions to elevate their privileges to root. This CVE provides a "complete" fix for CVE-2025-6020.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:14557
+    - https://access.redhat.com/errata/RHSA-2025:15099
+    - https://access.redhat.com/errata/RHSA-2025:15100
+    - https://access.redhat.com/errata/RHSA-2025:15101
+    - https://access.redhat.com/errata/RHSA-2025:15102
+    - https://access.redhat.com/errata/RHSA-2025:15103
+    - https://access.redhat.com/errata/RHSA-2025:15104
+    - https://access.redhat.com/errata/RHSA-2025:15105
+    - https://access.redhat.com/errata/RHSA-2025:15106
+    - https://access.redhat.com/errata/RHSA-2025:15107
+    - https://access.redhat.com/errata/RHSA-2025:15709
+    - https://access.redhat.com/errata/RHSA-2025:15827
+    - https://access.redhat.com/errata/RHSA-2025:15828
+    - https://access.redhat.com/errata/RHSA-2025:16524
+    - https://access.redhat.com/errata/RHSA-2025:17181
+    - https://access.redhat.com/errata/RHSA-2025:18219
+    - https://access.redhat.com/errata/RHSA-2025:21885
+    - https://access.redhat.com/security/cve/CVE-2025-8941
+    - https://bugzilla.redhat.com/2372512
+    - https://bugzilla.redhat.com/2388220
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
+    - https://errata.almalinux.org/9/ALSA-2025-15099.html
+    - https://errata.rockylinux.org/RLSA-2025:15099
+    - https://linux.oracle.com/cve/CVE-2025-8941.html
+    - https://linux.oracle.com/errata/ELSA-2025-15099.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
+    - https://www.cve.org/CVERecord?id=CVE-2025-8941
+    PublishedDate: '2025-08-13T15:15:41.873Z'
+    LastModifiedDate: '2025-11-20T21:16:08.11Z'
+  - VulnerabilityID: CVE-2023-37769
+    PkgID: libpixman-1-0@0.44.0-3
+    PkgName: libpixman-1-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpixman-1-0@0.44.0-3?arch=amd64&distro=ubuntu-25.10
+      UID: 6322ed4fc0f23a2a
+    InstalledVersion: 0.44.0-3
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-37769
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:ee87dab494090f8492d8bf89e043cc079e1ec3904e88bdc3607ccf769d9c0c36
+    Title: stress-test master commit e4c878 was discovered to contain a FPE vulne ...
+    Description: stress-test master commit e4c878 was discovered to contain a FPE vulnerability via the component combine_inner at /pixman-combine-float.c.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-369
+    VendorSeverity:
+      nvd: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://gitlab.freedesktop.org/pixman/pixman/-/issues/76
+    - https://www.cve.org/CVERecord?id=CVE-2023-37769
+    PublishedDate: '2023-07-17T20:15:13.547Z'
+    LastModifiedDate: '2024-11-21T08:12:14.547Z'
+  - VulnerabilityID: CVE-2021-39920
+    PkgID: libwireshark-data@4.4.7-1
+    PkgName: libwireshark-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libwireshark-data@4.4.7-1?arch=all&distro=ubuntu-25.10
+      UID: 3fa3271cb12ec1c3
+    InstalledVersion: 4.4.7-1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d1353875510bbeb9946812ba9b1e09aa204fffe3be9f1d222522d8d2130f922d
+    Title: 'wireshark: IPPUSB dissector crash'
+    Description: NULL pointer exception in the IPPUSB dissector in Wireshark 3.4.0 to 3.4.9 allows denial of service via packet injection or crafted capture file
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      amazon: 2
+      cbl-mariner: 3
+      nvd: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V2Score: 5
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2021-39920
+    - https://gitlab.com/gitlab-org/cves/-/blob/master/2021/CVE-2021-39920.json
+    - https://gitlab.com/wireshark/wireshark/-/issues/17705
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/A6AJFIYIHS3TYDD2EBYBJ5KKE52X34BJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YEWTIRMC2MFQBZ2O5M4CJHJM4JPBHLXH/
+    - https://nvd.nist.gov/vuln/detail/CVE-2021-39920
+    - https://security.gentoo.org/glsa/202210-04
+    - https://www.cve.org/CVERecord?id=CVE-2021-39920
+    - https://www.debian.org/security/2021/dsa-5019
+    - https://www.wireshark.org/security/wnpa-sec-2021-15.html
+    PublishedDate: '2021-11-18T19:15:08.333Z'
+    LastModifiedDate: '2024-11-21T06:20:33.82Z'
+  - VulnerabilityID: CVE-2021-39920
+    PkgID: libwireshark18@4.4.7-1
+    PkgName: libwireshark18
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libwireshark18@4.4.7-1?arch=amd64&distro=ubuntu-25.10
+      UID: d2e1d7a9ce3b79ae
+    InstalledVersion: 4.4.7-1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:8b72c03ec869c077e65dcfcbe3856d1bef24f20ca2cd98b840f68dd55e520515
+    Title: 'wireshark: IPPUSB dissector crash'
+    Description: NULL pointer exception in the IPPUSB dissector in Wireshark 3.4.0 to 3.4.9 allows denial of service via packet injection or crafted capture file
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      amazon: 2
+      cbl-mariner: 3
+      nvd: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V2Score: 5
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2021-39920
+    - https://gitlab.com/gitlab-org/cves/-/blob/master/2021/CVE-2021-39920.json
+    - https://gitlab.com/wireshark/wireshark/-/issues/17705
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/A6AJFIYIHS3TYDD2EBYBJ5KKE52X34BJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YEWTIRMC2MFQBZ2O5M4CJHJM4JPBHLXH/
+    - https://nvd.nist.gov/vuln/detail/CVE-2021-39920
+    - https://security.gentoo.org/glsa/202210-04
+    - https://www.cve.org/CVERecord?id=CVE-2021-39920
+    - https://www.debian.org/security/2021/dsa-5019
+    - https://www.wireshark.org/security/wnpa-sec-2021-15.html
+    PublishedDate: '2021-11-18T19:15:08.333Z'
+    LastModifiedDate: '2024-11-21T06:20:33.82Z'
+  - VulnerabilityID: CVE-2021-39920
+    PkgID: libwiretap15@4.4.7-1
+    PkgName: libwiretap15
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libwiretap15@4.4.7-1?arch=amd64&distro=ubuntu-25.10
+      UID: 9565229918ded2fd
+    InstalledVersion: 4.4.7-1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d7f461b54ee4968abe01b8f9cf0dc4ea0b9b9e5cd7f28ebf966849a8a454b54e
+    Title: 'wireshark: IPPUSB dissector crash'
+    Description: NULL pointer exception in the IPPUSB dissector in Wireshark 3.4.0 to 3.4.9 allows denial of service via packet injection or crafted capture file
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      amazon: 2
+      cbl-mariner: 3
+      nvd: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V2Score: 5
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2021-39920
+    - https://gitlab.com/gitlab-org/cves/-/blob/master/2021/CVE-2021-39920.json
+    - https://gitlab.com/wireshark/wireshark/-/issues/17705
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/A6AJFIYIHS3TYDD2EBYBJ5KKE52X34BJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YEWTIRMC2MFQBZ2O5M4CJHJM4JPBHLXH/
+    - https://nvd.nist.gov/vuln/detail/CVE-2021-39920
+    - https://security.gentoo.org/glsa/202210-04
+    - https://www.cve.org/CVERecord?id=CVE-2021-39920
+    - https://www.debian.org/security/2021/dsa-5019
+    - https://www.wireshark.org/security/wnpa-sec-2021-15.html
+    PublishedDate: '2021-11-18T19:15:08.333Z'
+    LastModifiedDate: '2024-11-21T06:20:33.82Z'
+  - VulnerabilityID: CVE-2021-39920
+    PkgID: libwsutil16@4.4.7-1
+    PkgName: libwsutil16
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libwsutil16@4.4.7-1?arch=amd64&distro=ubuntu-25.10
+      UID: 59c6cb36e01d6eb0
+    InstalledVersion: 4.4.7-1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:99a53b4258232ab9bf3480c4fb6ade7e0676244ca42ecb075c88b987c88e8d31
+    Title: 'wireshark: IPPUSB dissector crash'
+    Description: NULL pointer exception in the IPPUSB dissector in Wireshark 3.4.0 to 3.4.9 allows denial of service via packet injection or crafted capture file
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      amazon: 2
+      cbl-mariner: 3
+      nvd: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V2Score: 5
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2021-39920
+    - https://gitlab.com/gitlab-org/cves/-/blob/master/2021/CVE-2021-39920.json
+    - https://gitlab.com/wireshark/wireshark/-/issues/17705
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/A6AJFIYIHS3TYDD2EBYBJ5KKE52X34BJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YEWTIRMC2MFQBZ2O5M4CJHJM4JPBHLXH/
+    - https://nvd.nist.gov/vuln/detail/CVE-2021-39920
+    - https://security.gentoo.org/glsa/202210-04
+    - https://www.cve.org/CVERecord?id=CVE-2021-39920
+    - https://www.debian.org/security/2021/dsa-5019
+    - https://www.wireshark.org/security/wnpa-sec-2021-15.html
+    PublishedDate: '2021-11-18T19:15:08.333Z'
+    LastModifiedDate: '2024-11-21T06:20:33.82Z'
+  - VulnerabilityID: CVE-2024-56433
+    PkgID: login.defs@1:4.17.4-2ubuntu2
+    PkgName: login.defs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/login.defs@4.17.4-2ubuntu2?arch=all&distro=ubuntu-25.10&epoch=1
+      UID: 685157e74dbd875c
+    InstalledVersion: 1:4.17.4-2ubuntu2
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:0ebbfb0ae3dd0107b92096ec144146bdaf57ca058b90f50c2dc37ffd0d2840a4
+    Title: 'shadow-utils: Default subordinate ID configuration in /etc/login.defs could lead to compromise'
+    Description: 'shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /etc/subuid behavior (e.g., uid 100000 through 165535 for the first user account) that can realistically conflict with the uids of users defined on locally administered networks, potentially leading to account takeover, e.g., by leveraging newuidmap for access to an NFS home directory (or same-host resources in the case of remote logins by these local network users). NOTE: it may also be argued that system administrators should not have assigned uids, within local networks, that are within the range that can occur in /etc/subuid.'
+    Severity: LOW
+    CweIDs:
+    - CWE-1188
+    VendorSeverity:
+      alma: 1
+      azure: 1
+      oracle-oval: 1
+      redhat: 1
+      rocky: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 3.6
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:20559
+    - https://access.redhat.com/security/cve/CVE-2024-56433
+    - https://bugzilla.redhat.com/2334165
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
+    - https://errata.almalinux.org/9/ALSA-2025-20559.html
+    - https://errata.rockylinux.org/RLSA-2025:20145
+    - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
+    - https://github.com/shadow-maint/shadow/issues/1157
+    - https://github.com/shadow-maint/shadow/releases/tag/4.4
+    - https://linux.oracle.com/cve/CVE-2024-56433.html
+    - https://linux.oracle.com/errata/ELSA-2025-20559-0.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-56433
+    - https://www.cve.org/CVERecord?id=CVE-2024-56433
+    PublishedDate: '2024-12-26T09:15:07.267Z'
+    LastModifiedDate: '2024-12-26T09:15:07.267Z'
+  - VulnerabilityID: CVE-2024-56433
+    PkgID: passwd@1:4.17.4-2ubuntu2
+    PkgName: passwd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/passwd@4.17.4-2ubuntu2?arch=amd64&distro=ubuntu-25.10&epoch=1
+      UID: 2d87ef360f209a3f
+    InstalledVersion: 1:4.17.4-2ubuntu2
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f6aa05ab7da11e7a0d716859a8a4c0187e137348dd3dd419a9dd36d32d33bdc6
+    Title: 'shadow-utils: Default subordinate ID configuration in /etc/login.defs could lead to compromise'
+    Description: 'shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /etc/subuid behavior (e.g., uid 100000 through 165535 for the first user account) that can realistically conflict with the uids of users defined on locally administered networks, potentially leading to account takeover, e.g., by leveraging newuidmap for access to an NFS home directory (or same-host resources in the case of remote logins by these local network users). NOTE: it may also be argued that system administrators should not have assigned uids, within local networks, that are within the range that can occur in /etc/subuid.'
+    Severity: LOW
+    CweIDs:
+    - CWE-1188
+    VendorSeverity:
+      alma: 1
+      azure: 1
+      oracle-oval: 1
+      redhat: 1
+      rocky: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 3.6
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:20559
+    - https://access.redhat.com/security/cve/CVE-2024-56433
+    - https://bugzilla.redhat.com/2334165
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
+    - https://errata.almalinux.org/9/ALSA-2025-20559.html
+    - https://errata.rockylinux.org/RLSA-2025:20145
+    - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
+    - https://github.com/shadow-maint/shadow/issues/1157
+    - https://github.com/shadow-maint/shadow/releases/tag/4.4
+    - https://linux.oracle.com/cve/CVE-2024-56433.html
+    - https://linux.oracle.com/errata/ELSA-2025-20559-0.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-56433
+    - https://www.cve.org/CVERecord?id=CVE-2024-56433
+    PublishedDate: '2024-12-26T09:15:07.267Z'
+    LastModifiedDate: '2024-12-26T09:15:07.267Z'
+  - VulnerabilityID: CVE-2025-45582
+    PkgID: tar@1.35+dfsg-3.1build1
+    PkgName: tar
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1build1?arch=amd64&distro=ubuntu-25.10
+      UID: 41081f85f98b9d6a
+    InstalledVersion: 1.35+dfsg-3.1build1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-45582
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:c70061cb6943392719019d8eaacebc8cba4e289bd4e4c0cc1e7b827e565f251b
+    Title: 'tar: Tar path traversal'
+    Description: 'GNU Tar through 1.35 allows file overwrite via directory traversal in crafted TAR archives, with a certain two-step process. First, the victim must extract an archive that contains a ../ symlink to a critical directory. Second, the victim must extract an archive that contains a critical file, specified via a relative pathname that begins with the symlink name and ends with that critical file''s name. Here, the extraction follows the symlink and overwrites the critical file. This bypasses the protection mechanism of "Member name contains ''..''" that would occur for a single TAR archive that attempted to specify the critical file via a ../ approach. For example, the first archive can contain "x -> ../../../../../home/victim/.ssh" and the second archive can contain x/authorized_keys. This can affect server applications that automatically extract any number of user-supplied TAR archives, and were relying on the blocking of traversal. This can also affect software installation processes in which "tar xf" is run more than once (e.g., when installing a package can automatically install two dependencies that are set up as untrusted tarballs instead of official packages). NOTE: the official GNU Tar manual has an otherwise-empty directory for each "tar xf" in its Security Rules of Thumb; however, third-party advice leads users to run "tar xf" more than once into the same directory.'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-24
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/11/01/6
+    - https://access.redhat.com/errata/RHSA-2026:0067
+    - https://access.redhat.com/security/cve/CVE-2025-45582
+    - https://bugzilla.redhat.com/2379592
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2379592
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-45582
+    - https://errata.almalinux.org/9/ALSA-2026-0067.html
+    - https://errata.rockylinux.org/RLSA-2026:0002
+    - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
+    - https://linux.oracle.com/cve/CVE-2025-45582.html
+    - https://linux.oracle.com/errata/ELSA-2026-0067.html
+    - https://lists.gnu.org/archive/html/bug-tar/2025-08/msg00012.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-45582
+    - https://www.cve.org/CVERecord?id=CVE-2025-45582
+    - https://www.gnu.org/software/tar/
+    - https://www.gnu.org/software/tar/manual/html_node/Integrity.html
+    - https://www.gnu.org/software/tar/manual/html_node/Integrity.html#Integrity
+    - https://www.gnu.org/software/tar/manual/html_node/Security-rules-of-thumb.html
+    PublishedDate: '2025-07-11T17:15:37.183Z'
+    LastModifiedDate: '2025-11-02T01:15:32.307Z'
+  - VulnerabilityID: CVE-2021-39920
+    PkgID: tshark@4.4.7-1
+    PkgName: tshark
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/tshark@4.4.7-1?arch=amd64&distro=ubuntu-25.10
+      UID: 250c2966dd593db6
+    InstalledVersion: 4.4.7-1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:17035e40e5c064429fa0b7e4b79d315e5dd0b8dc55cf5201c266820a2a83dcfa
+    Title: 'wireshark: IPPUSB dissector crash'
+    Description: NULL pointer exception in the IPPUSB dissector in Wireshark 3.4.0 to 3.4.9 allows denial of service via packet injection or crafted capture file
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      amazon: 2
+      cbl-mariner: 3
+      nvd: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V2Score: 5
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2021-39920
+    - https://gitlab.com/gitlab-org/cves/-/blob/master/2021/CVE-2021-39920.json
+    - https://gitlab.com/wireshark/wireshark/-/issues/17705
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/A6AJFIYIHS3TYDD2EBYBJ5KKE52X34BJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YEWTIRMC2MFQBZ2O5M4CJHJM4JPBHLXH/
+    - https://nvd.nist.gov/vuln/detail/CVE-2021-39920
+    - https://security.gentoo.org/glsa/202210-04
+    - https://www.cve.org/CVERecord?id=CVE-2021-39920
+    - https://www.debian.org/security/2021/dsa-5019
+    - https://www.wireshark.org/security/wnpa-sec-2021-15.html
+    PublishedDate: '2021-11-18T19:15:08.333Z'
+    LastModifiedDate: '2024-11-21T06:20:33.82Z'
+  - VulnerabilityID: CVE-2021-31879
+    PkgID: wget@1.25.0-2ubuntu3
+    PkgName: wget
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/wget@1.25.0-2ubuntu3?arch=amd64&distro=ubuntu-25.10
+      UID: 7bd2289c802b35cc
+    InstalledVersion: 1.25.0-2ubuntu3
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-31879
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:66055628f52881879b997604cd9ddb7c018b7bac39ea593bdd3d925f49e3f0d8
+    Title: 'wget: authorization header disclosure on redirect'
+    Description: GNU Wget through 1.21.1 does not omit the Authorization header upon a redirect to a different origin, a related issue to CVE-2018-1000007.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-601
+    VendorSeverity:
+      amazon: 2
+      cbl-mariner: 2
+      nvd: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:N
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V2Score: 5.8
+        V3Score: 6.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2021-31879
+    - https://mail.gnu.org/archive/html/bug-wget/2021-02/msg00002.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2021-31879
+    - https://savannah.gnu.org/bugs/?56909
+    - https://security.netapp.com/advisory/ntap-20210618-0002/
+    - https://www.cve.org/CVERecord?id=CVE-2021-31879
+    PublishedDate: '2021-04-29T05:15:08.707Z'
+    LastModifiedDate: '2024-11-21T06:06:25.02Z'
+  - VulnerabilityID: CVE-2021-39920
+    PkgID: wireshark-common@4.4.7-1
+    PkgName: wireshark-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/wireshark-common@4.4.7-1?arch=amd64&distro=ubuntu-25.10
+      UID: d3874800de2e5be3
+    InstalledVersion: 4.4.7-1
+    Status: affected
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-39920
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:5950abfa4aa3363e7ba4aeaadd1149c54e756b57e221682d9b9974f9a4a712a4
+    Title: 'wireshark: IPPUSB dissector crash'
+    Description: NULL pointer exception in the IPPUSB dissector in Wireshark 3.4.0 to 3.4.9 allows denial of service via packet injection or crafted capture file
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      amazon: 2
+      cbl-mariner: 3
+      nvd: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V2Score: 5
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2021-39920
+    - https://gitlab.com/gitlab-org/cves/-/blob/master/2021/CVE-2021-39920.json
+    - https://gitlab.com/wireshark/wireshark/-/issues/17705
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/A6AJFIYIHS3TYDD2EBYBJ5KKE52X34BJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YEWTIRMC2MFQBZ2O5M4CJHJM4JPBHLXH/
+    - https://nvd.nist.gov/vuln/detail/CVE-2021-39920
+    - https://security.gentoo.org/glsa/202210-04
+    - https://www.cve.org/CVERecord?id=CVE-2021-39920
+    - https://www.debian.org/security/2021/dsa-5019
+    - https://www.wireshark.org/security/wnpa-sec-2021-15.html
+    PublishedDate: '2021-11-18T19:15:08.333Z'
+    LastModifiedDate: '2024-11-21T06:20:33.82Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
