@@ -29360,7 +29360,7 @@
     - https://curl.se/docs/CVE-2025-9086.json
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086
     - https://errata.almalinux.org/9/ALSA-2026-1350.html
-    - https://errata.rockylinux.org/RLSA-2026:1825
+    - https://errata.rockylinux.org/RLSA-2026:1350
     - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
     - https://hackerone.com/reports/3294999
     - https://linux.oracle.com/cve/CVE-2025-9086.html
@@ -29643,7 +29643,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-52615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52615
-    - https://errata.rockylinux.org/RLSA-2025:16441
+    - https://errata.rockylinux.org/RLSA-2025:11402
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
     - https://linux.oracle.com/cve/CVE-2024-52615.html
@@ -29783,7 +29783,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-52615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52615
-    - https://errata.rockylinux.org/RLSA-2025:16441
+    - https://errata.rockylinux.org/RLSA-2025:11402
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
     - https://linux.oracle.com/cve/CVE-2024-52615.html
@@ -29923,7 +29923,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-52615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52615
-    - https://errata.rockylinux.org/RLSA-2025:16441
+    - https://errata.rockylinux.org/RLSA-2025:11402
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
     - https://linux.oracle.com/cve/CVE-2024-52615.html
@@ -30533,7 +30533,7 @@
     - https://curl.se/docs/CVE-2025-9086.json
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086
     - https://errata.almalinux.org/9/ALSA-2026-1350.html
-    - https://errata.rockylinux.org/RLSA-2026:1825
+    - https://errata.rockylinux.org/RLSA-2026:1350
     - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
     - https://hackerone.com/reports/3294999
     - https://linux.oracle.com/cve/CVE-2025-9086.html
@@ -30688,7 +30688,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
     - https://errata.almalinux.org/9/ALSA-2025-22175.html
-    - https://errata.rockylinux.org/RLSA-2025:19403
+    - https://errata.rockylinux.org/RLSA-2025:22175
     - https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74
     - https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes
     - https://github.com/libexpat/libexpat/issues/1018
@@ -30771,7 +30771,7 @@
       azure: 1
       cbl-mariner: 1
       nvd: 1
-      photon: 4
+      photon: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -31231,6 +31231,49 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-37769
     PublishedDate: '2023-07-17T20:15:13.547Z'
     LastModifiedDate: '2024-11-21T08:12:14.547Z'
+  - VulnerabilityID: CVE-2026-25646
+    PkgID: libpng16-16t64@1.6.50-1ubuntu0.3
+    PkgName: libpng16-16t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpng16-16t64@1.6.50-1ubuntu0.3?arch=amd64&distro=ubuntu-25.10
+      UID: b367da57db1546e3
+    InstalledVersion: 1.6.50-1ubuntu0.3
+    FixedVersion: 1.6.50-1ubuntu0.4
+    Status: fixed
+    Layer:
+      Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e9526d9751164dd281d6a9c8
+      DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237f176ffb726d9136803ef
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-25646
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:c956755cbd3be7e6cb58edfaebb69c53b70c031363e168a89921e7c4876a5f88
+    Title: 'libpng: LIBPNG has a heap buffer overflow in png_set_quantize'
+    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. Prior to 1.6.55, an out-of-bounds read vulnerability exists in the png_set_quantize() API function. When the function is called with no histogram and the number of colors in the palette is more than twice the maximum supported by the user's display, certain palettes will cause the function to enter into an infinite loop that reads past the end of an internal heap-allocated buffer. The images that trigger this vulnerability are valid per the PNG specification. This vulnerability is fixed in 1.6.55.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    - CWE-126
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
+        V3Score: 7
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/09/7
+    - https://access.redhat.com/security/cve/CVE-2026-25646
+    - https://github.com/pnggroup/libpng/commit/01d03b8453eb30ade759cd45c707e5a1c7277d88
+    - https://github.com/pnggroup/libpng/security/advisories/GHSA-g8hp-mq4h-rqm3
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-25646
+    - https://ubuntu.com/security/notices/USN-8035-1
+    - https://ubuntu.com/security/notices/USN-8039-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-25646
+    PublishedDate: '2026-02-10T18:16:37.817Z'
+    LastModifiedDate: '2026-02-11T16:16:06.403Z'
   - VulnerabilityID: CVE-2021-39920
     PkgID: libwireshark-data@4.4.7-1
     PkgName: libwireshark-data
@@ -31480,7 +31523,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/9/ALSA-2025-20559.html
-    - https://errata.rockylinux.org/RLSA-2025:20145
+    - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -31531,7 +31574,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/9/ALSA-2025-20559.html
-    - https://errata.rockylinux.org/RLSA-2025:20145
+    - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -31582,7 +31625,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2379592
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-45582
     - https://errata.almalinux.org/9/ALSA-2026-0067.html
-    - https://errata.rockylinux.org/RLSA-2026:0002
+    - https://errata.rockylinux.org/RLSA-2026:0067
     - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
     - https://linux.oracle.com/cve/CVE-2025-45582.html
     - https://linux.oracle.com/errata/ELSA-2026-0067.html
