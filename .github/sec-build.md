@@ -30631,7 +30631,7 @@
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-9086 
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-1350.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:1825 
+│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:1350 
 │                       │      │                  ├ [10]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96
 │                       │      │                  │       d0040afb6 
 │                       │      │                  ├ [11]: https://hackerone.com/reports/3294999 
@@ -30958,7 +30958,7 @@
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2326418 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-52615 
-│                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:16441 
+│                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:11402 
 │                       │      │                  ├ [6] : https://github.com/avahi/avahi/issues/254#issuecommen
 │                       │      │                  │       t-2480519212 
 │                       │      │                  ├ [7] : https://github.com/avahi/avahi/security/advisories/GH
@@ -31134,7 +31134,7 @@
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2326418 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-52615 
-│                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:16441 
+│                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:11402 
 │                       │      │                  ├ [6] : https://github.com/avahi/avahi/issues/254#issuecommen
 │                       │      │                  │       t-2480519212 
 │                       │      │                  ├ [7] : https://github.com/avahi/avahi/security/advisories/GH
@@ -31310,7 +31310,7 @@
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2326418 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-52615 
-│                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:16441 
+│                       │      │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:11402 
 │                       │      │                  ├ [6] : https://github.com/avahi/avahi/issues/254#issuecommen
 │                       │      │                  │       t-2480519212 
 │                       │      │                  ├ [7] : https://github.com/avahi/avahi/security/advisories/GH
@@ -31968,7 +31968,7 @@
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-9086 
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-1350.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:1825 
+│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:1350 
 │                       │      │                  ├ [10]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96
 │                       │      │                  │       d0040afb6 
 │                       │      │                  ├ [11]: https://hackerone.com/reports/3294999 
@@ -32141,7 +32141,7 @@
 │                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-59375 
 │                       │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-22175.html 
-│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:19403 
+│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:22175 
 │                       │      │                  ├ [8] : https://github.com/libexpat/libexpat/blob/676a4c531ec
 │                       │      │                  │       768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74[
 │                       │      │                  │       m 
@@ -32227,7 +32227,7 @@
 │                       │      ├ VendorSeverity   ╭ azure      : 1 
 │                       │      │                  ├ cbl-mariner: 1 
 │                       │      │                  ├ nvd        : 1 
-│                       │      │                  ├ photon     : 4 
+│                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N
@@ -32713,7 +32713,59 @@
 │                       │      │                  ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2023-37769 
 │                       │      ├ PublishedDate   : 2023-07-17T20:15:13.547Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:12:14.547Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2026-25646 
+│                       │      ├ PkgID           : libpng16-16t64@1.6.50-1ubuntu0.3 
+│                       │      ├ PkgName         : libpng16-16t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpng16-16t64@1.6.50-1ubuntu0.3?arch=
+│                       │      │                  │       amd64&distro=ubuntu-25.10 
+│                       │      │                  ╰ UID : b367da57db1546e3 
+│                       │      ├ InstalledVersion: 1.6.50-1ubuntu0.3 
+│                       │      ├ FixedVersion    : 1.6.50-1ubuntu0.4 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:866068b091028aeb63000f8b6eb077bb607d1762e952
+│                       │      │                  │         6d9751164dd281d6a9c8 
+│                       │      │                  ╰ DiffID: sha256:3beee9db2b73be3c04a37349732942de8e3907be8237
+│                       │      │                            f176ffb726d9136803ef 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-25646 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:c956755cbd3be7e6cb58edfaebb69c53b70c031363e168a89921e
+│                       │      │                   7c4876a5f88 
+│                       │      ├ Title           : libpng: LIBPNG has a heap buffer overflow in png_set_quantize 
+│                       │      ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │      │                    raster image files. Prior to 1.6.55, an out-of-bounds read
+│                       │      │                   vulnerability exists in the png_set_quantize() API function.
+│                       │      │                    When the function is called with no histogram and the
+│                       │      │                   number of colors in the palette is more than twice the
+│                       │      │                   maximum supported by the user's display, certain palettes
+│                       │      │                   will cause the function to enter into an infinite loop that
+│                       │      │                   reads past the end of an internal heap-allocated buffer. The
+│                       │      │                    images that trigger this vulnerability are valid per the
+│                       │      │                   PNG specification. This vulnerability is fixed in 1.6.55. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-122 
+│                       │      │                  ╰ [1]: CWE-126 
+│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/09/7 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-25646 
+│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/commit/01d03b8453eb
+│                       │      │                  │      30ade759cd45c707e5a1c7277d88 
+│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/security/advisories
+│                       │      │                  │      /GHSA-g8hp-mq4h-rqm3 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-25646 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8035-1 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8039-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-25646 
+│                       │      ├ PublishedDate   : 2026-02-10T18:16:37.817Z 
+│                       │      ╰ LastModifiedDate: 2026-02-11T16:16:06.403Z 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwireshark-data@4.4.7-1 
 │                       │      ├ PkgName         : libwireshark-data 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.4.7-1?arch=all&dis
@@ -32769,7 +32821,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwireshark18@4.4.7-1 
 │                       │      ├ PkgName         : libwireshark18 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark18@4.4.7-1?arch=amd64&dist
@@ -32825,7 +32877,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwiretap15@4.4.7-1 
 │                       │      ├ PkgName         : libwiretap15 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap15@4.4.7-1?arch=amd64&distro
@@ -32881,7 +32933,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [47] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : libwsutil16@4.4.7-1 
 │                       │      ├ PkgName         : libwsutil16 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil16@4.4.7-1?arch=amd64&distro=
@@ -32937,7 +32989,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [48] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [49] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.17.4-2ubuntu2 
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.17.4-2ubuntu2?arch=all&di
@@ -32987,7 +33039,7 @@
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-56433 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
 │                       │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d574
 │                       │      │                  │       1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
 │                       │      │                  │       241 
@@ -32999,7 +33051,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [49] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [50] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.17.4-2ubuntu2 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.17.4-2ubuntu2?arch=amd64&dist
@@ -33049,7 +33101,7 @@
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-56433 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
 │                       │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d574
 │                       │      │                  │       1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
 │                       │      │                  │       241 
@@ -33061,7 +33113,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [50] ╭ VulnerabilityID : CVE-2025-45582 
+│                       ├ [51] ╭ VulnerabilityID : CVE-2025-45582 
 │                       │      ├ PkgID           : tar@1.35+dfsg-3.1build1 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1build1?arch=amd64&d
@@ -33124,7 +33176,7 @@
 │                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-45582 
 │                       │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-0067.html 
-│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0002 
+│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0067 
 │                       │      │                  ├ [8] : https://github.com/i900008/vulndb/blob/main/Gnu_tar_v
 │                       │      │                  │       uln.md 
 │                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-45582.html 
@@ -33142,7 +33194,7 @@
 │                       │      │                          urity-rules-of-thumb.html 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │      ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
-│                       ├ [51] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │      ├ PkgID           : tshark@4.4.7-1 
 │                       │      ├ PkgName         : tshark 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.4.7-1?arch=amd64&distro=ubunt
@@ -33198,7 +33250,7 @@
 │                       │      │                  ╰ [9]: https://www.wireshark.org/security/wnpa-sec-2021-15.html 
 │                       │      ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [52] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [53] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.25.0-2ubuntu3 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.25.0-2ubuntu3?arch=amd64&distro
@@ -33246,7 +33298,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                       ╰ [53] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ╰ [54] ╭ VulnerabilityID : CVE-2021-39920 
 │                              ├ PkgID           : wireshark-common@4.4.7-1 
 │                              ├ PkgName         : wireshark-common 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.4.7-1?arch=amd64&di
