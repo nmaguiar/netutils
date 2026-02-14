@@ -30610,6 +30610,7 @@
     - CWE-908
     VendorSeverity:
       azure: 2
+      photon: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -30773,6 +30774,7 @@
     - CWE-908
     VendorSeverity:
       azure: 2
+      photon: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -32497,9 +32499,13 @@
     - CWE-122
     - CWE-126
     VendorSeverity:
+      nvd: 3
       redhat: 3
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
         V3Score: 7
@@ -32513,7 +32519,7 @@
     - https://ubuntu.com/security/notices/USN-8039-1
     - https://www.cve.org/CVERecord?id=CVE-2026-25646
     PublishedDate: '2026-02-10T18:16:37.817Z'
-    LastModifiedDate: '2026-02-11T16:16:06.403Z'
+    LastModifiedDate: '2026-02-13T20:43:44.69Z'
   - VulnerabilityID: CVE-2025-11468
     PkgID: libpython3.13@3.13.7-1ubuntu0.2
     PkgName: libpython3.13
@@ -32929,6 +32935,7 @@
     - https://github.com/python/cpython/commit/23e3c0ae867cca0130e441e776c9955b9027c510
     - https://github.com/python/cpython/commit/2f840249550e082dc351743f474ba56da10478d2
     - https://github.com/python/cpython/commit/4802b96a2cde58570c24c13ef3289490980961c5
+    - https://github.com/python/cpython/commit/66da7bf6fe7b81e3ecc9c0a25bd47d4616c8d1a6
     - https://github.com/python/cpython/commit/e4846a93ac07a8ae9aa18203af0dd13d6e7a6995
     - https://github.com/python/cpython/commit/f7fceed79ca1bceae8dbe5ba5bc8928564da7211
     - https://github.com/python/cpython/issues/143916
@@ -32940,7 +32947,7 @@
     - https://ubuntu.com/security/notices/USN-8018-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0865
     PublishedDate: '2026-01-20T22:15:52.8Z'
-    LastModifiedDate: '2026-01-26T15:05:23.427Z'
+    LastModifiedDate: '2026-02-13T17:16:12.82Z'
   - VulnerabilityID: CVE-2025-11468
     PkgID: libpython3.13-minimal@3.13.7-1ubuntu0.2
     PkgName: libpython3.13-minimal
@@ -33356,6 +33363,7 @@
     - https://github.com/python/cpython/commit/23e3c0ae867cca0130e441e776c9955b9027c510
     - https://github.com/python/cpython/commit/2f840249550e082dc351743f474ba56da10478d2
     - https://github.com/python/cpython/commit/4802b96a2cde58570c24c13ef3289490980961c5
+    - https://github.com/python/cpython/commit/66da7bf6fe7b81e3ecc9c0a25bd47d4616c8d1a6
     - https://github.com/python/cpython/commit/e4846a93ac07a8ae9aa18203af0dd13d6e7a6995
     - https://github.com/python/cpython/commit/f7fceed79ca1bceae8dbe5ba5bc8928564da7211
     - https://github.com/python/cpython/issues/143916
@@ -33367,7 +33375,7 @@
     - https://ubuntu.com/security/notices/USN-8018-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0865
     PublishedDate: '2026-01-20T22:15:52.8Z'
-    LastModifiedDate: '2026-01-26T15:05:23.427Z'
+    LastModifiedDate: '2026-02-13T17:16:12.82Z'
   - VulnerabilityID: CVE-2025-11468
     PkgID: libpython3.13-stdlib@3.13.7-1ubuntu0.2
     PkgName: libpython3.13-stdlib
@@ -33783,6 +33791,7 @@
     - https://github.com/python/cpython/commit/23e3c0ae867cca0130e441e776c9955b9027c510
     - https://github.com/python/cpython/commit/2f840249550e082dc351743f474ba56da10478d2
     - https://github.com/python/cpython/commit/4802b96a2cde58570c24c13ef3289490980961c5
+    - https://github.com/python/cpython/commit/66da7bf6fe7b81e3ecc9c0a25bd47d4616c8d1a6
     - https://github.com/python/cpython/commit/e4846a93ac07a8ae9aa18203af0dd13d6e7a6995
     - https://github.com/python/cpython/commit/f7fceed79ca1bceae8dbe5ba5bc8928564da7211
     - https://github.com/python/cpython/issues/143916
@@ -33794,7 +33803,7 @@
     - https://ubuntu.com/security/notices/USN-8018-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0865
     PublishedDate: '2026-01-20T22:15:52.8Z'
-    LastModifiedDate: '2026-01-26T15:05:23.427Z'
+    LastModifiedDate: '2026-02-13T17:16:12.82Z'
   - VulnerabilityID: CVE-2025-11187
     PkgID: libssl3t64@3.5.3-1ubuntu2
     PkgName: libssl3t64
@@ -35578,6 +35587,7 @@
     - CWE-908
     VendorSeverity:
       azure: 2
+      photon: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -38992,6 +39002,7 @@
     - https://github.com/python/cpython/commit/23e3c0ae867cca0130e441e776c9955b9027c510
     - https://github.com/python/cpython/commit/2f840249550e082dc351743f474ba56da10478d2
     - https://github.com/python/cpython/commit/4802b96a2cde58570c24c13ef3289490980961c5
+    - https://github.com/python/cpython/commit/66da7bf6fe7b81e3ecc9c0a25bd47d4616c8d1a6
     - https://github.com/python/cpython/commit/e4846a93ac07a8ae9aa18203af0dd13d6e7a6995
     - https://github.com/python/cpython/commit/f7fceed79ca1bceae8dbe5ba5bc8928564da7211
     - https://github.com/python/cpython/issues/143916
@@ -39003,7 +39014,7 @@
     - https://ubuntu.com/security/notices/USN-8018-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0865
     PublishedDate: '2026-01-20T22:15:52.8Z'
-    LastModifiedDate: '2026-01-26T15:05:23.427Z'
+    LastModifiedDate: '2026-02-13T17:16:12.82Z'
   - VulnerabilityID: CVE-2025-11468
     PkgID: python3.13-minimal@3.13.7-1ubuntu0.2
     PkgName: python3.13-minimal
@@ -39419,6 +39430,7 @@
     - https://github.com/python/cpython/commit/23e3c0ae867cca0130e441e776c9955b9027c510
     - https://github.com/python/cpython/commit/2f840249550e082dc351743f474ba56da10478d2
     - https://github.com/python/cpython/commit/4802b96a2cde58570c24c13ef3289490980961c5
+    - https://github.com/python/cpython/commit/66da7bf6fe7b81e3ecc9c0a25bd47d4616c8d1a6
     - https://github.com/python/cpython/commit/e4846a93ac07a8ae9aa18203af0dd13d6e7a6995
     - https://github.com/python/cpython/commit/f7fceed79ca1bceae8dbe5ba5bc8928564da7211
     - https://github.com/python/cpython/issues/143916
@@ -39430,7 +39442,7 @@
     - https://ubuntu.com/security/notices/USN-8018-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0865
     PublishedDate: '2026-01-20T22:15:52.8Z'
-    LastModifiedDate: '2026-01-26T15:05:23.427Z'
+    LastModifiedDate: '2026-02-13T17:16:12.82Z'
   - VulnerabilityID: CVE-2025-45582
     PkgID: tar@1.35+dfsg-3.1build1
     PkgName: tar
