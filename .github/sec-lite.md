@@ -14912,14 +14912,16 @@
 │                             │                   and subject alternative names (SANs). 
 │                             ├ Severity        : MEDIUM 
 │                             ├ CweIDs           ─ [0]: CWE-407 
-│                             ├ VendorSeverity   ─ redhat: 2 
+│                             ├ VendorSeverity   ╭ redhat: 2 
+│                             │                  ╰ ubuntu: 2 
 │                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
 │                             │                           │           A:L 
 │                             │                           ╰ V3Score : 5.3 
 │                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-14831 
 │                             │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2423177 
 │                             │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-14831 
-│                             │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-14831 
+│                             │                  ├ [3]: https://ubuntu.com/security/notices/USN-8043-1 
+│                             │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14831 
 │                             ├ PublishedDate   : 2026-02-09T15:16:09.937Z 
 │                             ╰ LastModifiedDate: 2026-02-09T16:08:35.29Z 
 ╰ [1] ╭ Target  : Java 
