@@ -29167,6 +29167,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      amazon: 2
       photon: 2
       ubuntu: 2
     References:
@@ -29256,6 +29257,7 @@
     CweIDs:
     - CWE-601
     VendorSeverity:
+      amazon: 2
       photon: 2
       ubuntu: 1
     References:
@@ -29295,6 +29297,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      amazon: 2
       photon: 2
       ubuntu: 1
     References:
@@ -29345,7 +29348,7 @@
     - CWE-125
     VendorSeverity:
       alma: 2
-      amazon: 1
+      amazon: 2
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -29365,7 +29368,7 @@
     - https://curl.se/docs/CVE-2025-9086.json
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086
     - https://errata.almalinux.org/8/ALSA-2025-23383.html
-    - https://errata.rockylinux.org/RLSA-2026:1825
+    - https://errata.rockylinux.org/RLSA-2026:1350
     - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
     - https://hackerone.com/reports/3294999
     - https://linux.oracle.com/cve/CVE-2025-9086.html
@@ -29440,6 +29443,7 @@
     - CWE-787
     VendorSeverity:
       azure: 1
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -29479,6 +29483,7 @@
     CweIDs:
     - CWE-124
     VendorSeverity:
+      photon: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -29706,6 +29711,7 @@
     - https://lists.debian.org/debian-lts-announce/2026/01/msg00025.html
     - https://lists.gnu.org/archive/html/bug-inetutils/2026-01/msg00004.html
     - https://ubuntu.com/security/notices/USN-7992-1
+    - https://ubuntu.com/security/notices/USN-7992-2
     - https://www.cisa.gov/known-exploited-vulnerabilities-catalog
     - https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-24061
     - https://www.cve.org/CVERecord?id=CVE-2026-24061
@@ -29942,6 +29948,51 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-68471
     PublishedDate: '2026-01-12T18:15:48.327Z'
     LastModifiedDate: '2026-01-16T16:53:04.697Z'
+  - VulnerabilityID: CVE-2026-24401
+    PkgID: libavahi-client3@0.8-16ubuntu3
+    PkgName: libavahi-client3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libavahi-client3@0.8-16ubuntu3?arch=amd64&distro=ubuntu-25.10
+      UID: e6837c9aa997173c
+    InstalledVersion: 0.8-16ubuntu3
+    Status: affected
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-24401
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a653e8d3fc77579c644137f3459135a5c13e44ee59e365932a4922c4bd1a53c8
+    Title: 'avahi: Avahi: Denial of Service via recursive CNAME record in mDNS response'
+    Description: Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions 0.9rc2 and below, avahi-daemon can be crashed via a segmentation fault by sending an unsolicited mDNS response containing a recursive CNAME record, where the alias and canonical name point to the same domain (e.g., "h.local" as a CNAME for "h.local"). This causes unbounded recursion in the lookup_handle_cname function, leading to stack exhaustion. The vulnerability affects record browsers where AVAHI_LOOKUP_USE_MULTICAST is set explicitly, which includes record browsers created by resolvers used by nss-mdns. This issue is patched in commit 78eab31128479f06e30beb8c1cbf99dd921e2524.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-24401
+    - https://github.com/avahi/avahi/commit/78eab31128479f06e30beb8c1cbf99dd921e2524
+    - https://github.com/avahi/avahi/issues/501
+    - https://github.com/avahi/avahi/security/advisories/GHSA-h4vp-5m8j-f6w3
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-24401
+    - https://www.cve.org/CVERecord?id=CVE-2026-24401
+    PublishedDate: '2026-01-24T02:15:48.76Z'
+    LastModifiedDate: '2026-02-12T15:58:27.273Z'
   - VulnerabilityID: CVE-2024-52615
     PkgID: libavahi-client3@0.8-16ubuntu3
     PkgName: libavahi-client3
@@ -29981,7 +30032,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-52615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52615
-    - https://errata.rockylinux.org/RLSA-2025:16441
+    - https://errata.rockylinux.org/RLSA-2025:11402
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
     - https://linux.oracle.com/cve/CVE-2024-52615.html
@@ -30213,6 +30264,51 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-68471
     PublishedDate: '2026-01-12T18:15:48.327Z'
     LastModifiedDate: '2026-01-16T16:53:04.697Z'
+  - VulnerabilityID: CVE-2026-24401
+    PkgID: libavahi-common-data@0.8-16ubuntu3
+    PkgName: libavahi-common-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libavahi-common-data@0.8-16ubuntu3?arch=amd64&distro=ubuntu-25.10
+      UID: 2a8045fc7ebfe00a
+    InstalledVersion: 0.8-16ubuntu3
+    Status: affected
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-24401
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:ce1654a68974f0f19e1d9976a1058a0dca08ffd1af845d5178af76ebf11209b5
+    Title: 'avahi: Avahi: Denial of Service via recursive CNAME record in mDNS response'
+    Description: Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions 0.9rc2 and below, avahi-daemon can be crashed via a segmentation fault by sending an unsolicited mDNS response containing a recursive CNAME record, where the alias and canonical name point to the same domain (e.g., "h.local" as a CNAME for "h.local"). This causes unbounded recursion in the lookup_handle_cname function, leading to stack exhaustion. The vulnerability affects record browsers where AVAHI_LOOKUP_USE_MULTICAST is set explicitly, which includes record browsers created by resolvers used by nss-mdns. This issue is patched in commit 78eab31128479f06e30beb8c1cbf99dd921e2524.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-24401
+    - https://github.com/avahi/avahi/commit/78eab31128479f06e30beb8c1cbf99dd921e2524
+    - https://github.com/avahi/avahi/issues/501
+    - https://github.com/avahi/avahi/security/advisories/GHSA-h4vp-5m8j-f6w3
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-24401
+    - https://www.cve.org/CVERecord?id=CVE-2026-24401
+    PublishedDate: '2026-01-24T02:15:48.76Z'
+    LastModifiedDate: '2026-02-12T15:58:27.273Z'
   - VulnerabilityID: CVE-2024-52615
     PkgID: libavahi-common-data@0.8-16ubuntu3
     PkgName: libavahi-common-data
@@ -30252,7 +30348,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-52615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52615
-    - https://errata.rockylinux.org/RLSA-2025:16441
+    - https://errata.rockylinux.org/RLSA-2025:11402
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
     - https://linux.oracle.com/cve/CVE-2024-52615.html
@@ -30484,6 +30580,51 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-68471
     PublishedDate: '2026-01-12T18:15:48.327Z'
     LastModifiedDate: '2026-01-16T16:53:04.697Z'
+  - VulnerabilityID: CVE-2026-24401
+    PkgID: libavahi-common3@0.8-16ubuntu3
+    PkgName: libavahi-common3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libavahi-common3@0.8-16ubuntu3?arch=amd64&distro=ubuntu-25.10
+      UID: 8107071ffaa65d5b
+    InstalledVersion: 0.8-16ubuntu3
+    Status: affected
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-24401
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d3260b737607550cae0486bfcee67fcfe3d68bde8357a4883cc54567c57e96d6
+    Title: 'avahi: Avahi: Denial of Service via recursive CNAME record in mDNS response'
+    Description: Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions 0.9rc2 and below, avahi-daemon can be crashed via a segmentation fault by sending an unsolicited mDNS response containing a recursive CNAME record, where the alias and canonical name point to the same domain (e.g., "h.local" as a CNAME for "h.local"). This causes unbounded recursion in the lookup_handle_cname function, leading to stack exhaustion. The vulnerability affects record browsers where AVAHI_LOOKUP_USE_MULTICAST is set explicitly, which includes record browsers created by resolvers used by nss-mdns. This issue is patched in commit 78eab31128479f06e30beb8c1cbf99dd921e2524.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      azure: 2
+      cbl-mariner: 2
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-24401
+    - https://github.com/avahi/avahi/commit/78eab31128479f06e30beb8c1cbf99dd921e2524
+    - https://github.com/avahi/avahi/issues/501
+    - https://github.com/avahi/avahi/security/advisories/GHSA-h4vp-5m8j-f6w3
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-24401
+    - https://www.cve.org/CVERecord?id=CVE-2026-24401
+    PublishedDate: '2026-01-24T02:15:48.76Z'
+    LastModifiedDate: '2026-02-12T15:58:27.273Z'
   - VulnerabilityID: CVE-2024-52615
     PkgID: libavahi-common3@0.8-16ubuntu3
     PkgName: libavahi-common3
@@ -30523,7 +30664,7 @@
     - https://access.redhat.com/security/cve/CVE-2024-52615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2326418
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52615
-    - https://errata.rockylinux.org/RLSA-2025:16441
+    - https://errata.rockylinux.org/RLSA-2025:11402
     - https://github.com/avahi/avahi/issues/254#issuecomment-2480519212
     - https://github.com/avahi/avahi/security/advisories/GHSA-x6vp-f33h-h32g
     - https://linux.oracle.com/cve/CVE-2024-52615.html
@@ -30609,7 +30750,9 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      alma: 2
       azure: 2
+      oracle-oval: 2
       photon: 3
       redhat: 1
       ubuntu: 2
@@ -30619,7 +30762,14 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/20/3
+    - https://access.redhat.com/errata/RHSA-2026:2786
     - https://access.redhat.com/security/cve/CVE-2025-15281
+    - https://bugzilla.redhat.com/2429771
+    - https://bugzilla.redhat.com/2430201
+    - https://bugzilla.redhat.com/2431196
+    - https://errata.almalinux.org/9/ALSA-2026-2786.html
+    - https://linux.oracle.com/cve/CVE-2025-15281.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15281
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33814
     - https://ubuntu.com/security/notices/USN-8005-1
@@ -30682,7 +30832,7 @@
     - https://errata.almalinux.org/10/ALSA-2026-1334.html
     - https://errata.rockylinux.org/RLSA-2026:1334
     - https://linux.oracle.com/cve/CVE-2026-0861.html
-    - https://linux.oracle.com/errata/ELSA-2026-50078.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33796
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0001
@@ -30740,7 +30890,7 @@
     - https://errata.almalinux.org/10/ALSA-2026-1334.html
     - https://errata.rockylinux.org/RLSA-2026:1334
     - https://linux.oracle.com/cve/CVE-2026-0915.html
-    - https://linux.oracle.com/errata/ELSA-2026-50078.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0915
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
     - https://ubuntu.com/security/notices/USN-8005-1
@@ -30773,7 +30923,9 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      alma: 2
       azure: 2
+      oracle-oval: 2
       photon: 3
       redhat: 1
       ubuntu: 2
@@ -30783,7 +30935,14 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/20/3
+    - https://access.redhat.com/errata/RHSA-2026:2786
     - https://access.redhat.com/security/cve/CVE-2025-15281
+    - https://bugzilla.redhat.com/2429771
+    - https://bugzilla.redhat.com/2430201
+    - https://bugzilla.redhat.com/2431196
+    - https://errata.almalinux.org/9/ALSA-2026-2786.html
+    - https://linux.oracle.com/cve/CVE-2025-15281.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15281
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33814
     - https://ubuntu.com/security/notices/USN-8005-1
@@ -30846,7 +31005,7 @@
     - https://errata.almalinux.org/10/ALSA-2026-1334.html
     - https://errata.rockylinux.org/RLSA-2026:1334
     - https://linux.oracle.com/cve/CVE-2026-0861.html
-    - https://linux.oracle.com/errata/ELSA-2026-50078.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33796
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0001
@@ -30904,7 +31063,7 @@
     - https://errata.almalinux.org/10/ALSA-2026-1334.html
     - https://errata.rockylinux.org/RLSA-2026:1334
     - https://linux.oracle.com/cve/CVE-2026-0915.html
-    - https://linux.oracle.com/errata/ELSA-2026-50078.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0915
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
     - https://ubuntu.com/security/notices/USN-8005-1
@@ -31263,6 +31422,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      amazon: 2
       photon: 2
       ubuntu: 2
     References:
@@ -31352,6 +31512,7 @@
     CweIDs:
     - CWE-601
     VendorSeverity:
+      amazon: 2
       photon: 2
       ubuntu: 1
     References:
@@ -31391,6 +31552,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      amazon: 2
       photon: 2
       ubuntu: 1
     References:
@@ -31441,7 +31603,7 @@
     - CWE-125
     VendorSeverity:
       alma: 2
-      amazon: 1
+      amazon: 2
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -31461,7 +31623,7 @@
     - https://curl.se/docs/CVE-2025-9086.json
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9086
     - https://errata.almalinux.org/8/ALSA-2025-23383.html
-    - https://errata.rockylinux.org/RLSA-2026:1825
+    - https://errata.rockylinux.org/RLSA-2026:1350
     - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
     - https://hackerone.com/reports/3294999
     - https://linux.oracle.com/cve/CVE-2025-9086.html
@@ -31616,7 +31778,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
     - https://errata.almalinux.org/8/ALSA-2025-21974.html
-    - https://errata.rockylinux.org/RLSA-2025:19403
+    - https://errata.rockylinux.org/RLSA-2025:22175
     - https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74
     - https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes
     - https://github.com/libexpat/libexpat/issues/1018
@@ -31744,7 +31906,9 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      amazon: 2
       azure: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -31882,6 +32046,7 @@
     - CWE-787
     VendorSeverity:
       azure: 1
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -31921,6 +32086,7 @@
     CweIDs:
     - CWE-124
     VendorSeverity:
+      photon: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -32039,6 +32205,7 @@
     - CWE-787
     VendorSeverity:
       azure: 1
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -32078,6 +32245,7 @@
     CweIDs:
     - CWE-124
     VendorSeverity:
+      photon: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -32239,6 +32407,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      amazon: 2
       azure: 2
       redhat: 2
       ubuntu: 1
@@ -32255,7 +32424,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-22693
     - https://www.cve.org/CVERecord?id=CVE-2026-22693
     PublishedDate: '2026-01-10T06:15:52.063Z'
-    LastModifiedDate: '2026-01-13T14:03:18.99Z'
+    LastModifiedDate: '2026-02-18T17:49:22.59Z'
   - VulnerabilityID: CVE-2025-8941
     PkgID: libpam-modules@1.7.0-5ubuntu2
     PkgName: libpam-modules
@@ -32583,6 +32752,7 @@
     VendorSeverity:
       azure: 3
       nvd: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -32626,10 +32796,15 @@
     Description: When folding a long comment in an email header containing exclusively unfoldable characters, the parenthesis would not be preserved. This could be used for injecting headers into email messages where addresses are user-controlled and not sanitized.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       azure: 2
+      bitnami: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:P/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 5.7
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.5
@@ -32676,12 +32851,16 @@
       alma: 2
       amazon: 2
       azure: 2
+      bitnami: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N
+        V40Score: 6.3
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -32692,12 +32871,10 @@
     - https://access.redhat.com/errata/RHSA-2026:1631
     - https://access.redhat.com/security/cve/CVE-2025-12084
     - https://bugzilla.redhat.com/2418655
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2418078
     - https://bugzilla.redhat.com/show_bug.cgi?id=2418655
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-12084
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13836
     - https://errata.almalinux.org/8/ALSA-2026-1631.html
-    - https://errata.rockylinux.org/RLSA-2026:1828
+    - https://errata.rockylinux.org/RLSA-2026:1478
     - https://github.com/python/cpython/commit/027f21e417b26eed4505ac2db101a4352b7c51a0
     - https://github.com/python/cpython/commit/08d8e18ad81cd45bc4a27d6da478b51ea49486e4
     - https://github.com/python/cpython/commit/27648a1818749ef44c420afe6173af6868715437
@@ -32751,6 +32928,9 @@
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:L/SA:N
+        V40Score: 2.1
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
@@ -32796,9 +32976,14 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      amazon: 2
+      bitnami: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:H/VA:N/SC:N/SI:L/SA:N
+        V40Score: 6
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
@@ -32950,11 +33135,16 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      amazon: 2
       azure: 2
+      bitnami: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:L/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
@@ -33000,11 +33190,16 @@
     - CWE-74
     VendorSeverity:
       alma: 2
+      amazon: 2
       azure: 2
+      bitnami: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 5.9
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.5
@@ -33056,10 +33251,15 @@
     Description: When folding a long comment in an email header containing exclusively unfoldable characters, the parenthesis would not be preserved. This could be used for injecting headers into email messages where addresses are user-controlled and not sanitized.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       azure: 2
+      bitnami: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:P/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 5.7
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.5
@@ -33106,12 +33306,16 @@
       alma: 2
       amazon: 2
       azure: 2
+      bitnami: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N
+        V40Score: 6.3
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -33122,12 +33326,10 @@
     - https://access.redhat.com/errata/RHSA-2026:1631
     - https://access.redhat.com/security/cve/CVE-2025-12084
     - https://bugzilla.redhat.com/2418655
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2418078
     - https://bugzilla.redhat.com/show_bug.cgi?id=2418655
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-12084
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13836
     - https://errata.almalinux.org/8/ALSA-2026-1631.html
-    - https://errata.rockylinux.org/RLSA-2026:1828
+    - https://errata.rockylinux.org/RLSA-2026:1478
     - https://github.com/python/cpython/commit/027f21e417b26eed4505ac2db101a4352b7c51a0
     - https://github.com/python/cpython/commit/08d8e18ad81cd45bc4a27d6da478b51ea49486e4
     - https://github.com/python/cpython/commit/27648a1818749ef44c420afe6173af6868715437
@@ -33181,6 +33383,9 @@
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:L/SA:N
+        V40Score: 2.1
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
@@ -33226,9 +33431,14 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      amazon: 2
+      bitnami: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:H/VA:N/SC:N/SI:L/SA:N
+        V40Score: 6
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
@@ -33380,11 +33590,16 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      amazon: 2
       azure: 2
+      bitnami: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:L/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
@@ -33430,11 +33645,16 @@
     - CWE-74
     VendorSeverity:
       alma: 2
+      amazon: 2
       azure: 2
+      bitnami: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 5.9
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.5
@@ -33486,10 +33706,15 @@
     Description: When folding a long comment in an email header containing exclusively unfoldable characters, the parenthesis would not be preserved. This could be used for injecting headers into email messages where addresses are user-controlled and not sanitized.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       azure: 2
+      bitnami: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:P/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 5.7
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.5
@@ -33536,12 +33761,16 @@
       alma: 2
       amazon: 2
       azure: 2
+      bitnami: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N
+        V40Score: 6.3
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -33552,12 +33781,10 @@
     - https://access.redhat.com/errata/RHSA-2026:1631
     - https://access.redhat.com/security/cve/CVE-2025-12084
     - https://bugzilla.redhat.com/2418655
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2418078
     - https://bugzilla.redhat.com/show_bug.cgi?id=2418655
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-12084
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13836
     - https://errata.almalinux.org/8/ALSA-2026-1631.html
-    - https://errata.rockylinux.org/RLSA-2026:1828
+    - https://errata.rockylinux.org/RLSA-2026:1478
     - https://github.com/python/cpython/commit/027f21e417b26eed4505ac2db101a4352b7c51a0
     - https://github.com/python/cpython/commit/08d8e18ad81cd45bc4a27d6da478b51ea49486e4
     - https://github.com/python/cpython/commit/27648a1818749ef44c420afe6173af6868715437
@@ -33611,6 +33838,9 @@
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:L/SA:N
+        V40Score: 2.1
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
@@ -33656,9 +33886,14 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      amazon: 2
+      bitnami: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:H/VA:N/SC:N/SI:L/SA:N
+        V40Score: 6
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
@@ -33810,11 +34045,16 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      amazon: 2
       azure: 2
+      bitnami: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:L/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
@@ -33860,11 +34100,16 @@
     - CWE-74
     VendorSeverity:
       alma: 2
+      amazon: 2
       azure: 2
+      bitnami: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 5.9
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.5
@@ -33893,6 +34138,224 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-0865
     PublishedDate: '2026-01-20T22:15:52.8Z'
     LastModifiedDate: '2026-02-13T17:16:12.82Z'
+  - VulnerabilityID: CVE-2026-0964
+    PkgID: libssh-4@0.11.2-1ubuntu0.1
+    PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.11.2-1ubuntu0.1?arch=amd64&distro=ubuntu-25.10
+      UID: 7dcfea501c25abe9
+    InstalledVersion: 0.11.2-1ubuntu0.1
+    FixedVersion: 0.11.2-1ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0964
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:42f4f4de549982f46d47df0bf10047454cdeee2c1c358dea6f43e0edb9d5e684
+    Title: 'libssh: Improper sanitation of paths received from SCP servers'
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-0964
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0964
+    - https://ubuntu.com/security/notices/USN-8051-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-0964
+    - https://www.libssh.org/security/advisories/CVE-2026-0964.txt
+  - VulnerabilityID: CVE-2026-0967
+    PkgID: libssh-4@0.11.2-1ubuntu0.1
+    PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.11.2-1ubuntu0.1?arch=amd64&distro=ubuntu-25.10
+      UID: 7dcfea501c25abe9
+    InstalledVersion: 0.11.2-1ubuntu0.1
+    FixedVersion: 0.11.2-1ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0967
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:aa79d3a1676b3441edf16cf3b48bee24d317b4ecd0381ab5479ad5c1a00dc006
+    Title: 'libssh: libssh: Denial of Service via inefficient regular expression processing'
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.0/AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 2.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-0967
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0967
+    - https://ubuntu.com/security/notices/USN-8051-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-0967
+    - https://www.libssh.org/security/advisories/CVE-2026-0967.txt
+  - VulnerabilityID: CVE-2026-0968
+    PkgID: libssh-4@0.11.2-1ubuntu0.1
+    PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.11.2-1ubuntu0.1?arch=amd64&distro=ubuntu-25.10
+      UID: 7dcfea501c25abe9
+    InstalledVersion: 0.11.2-1ubuntu0.1
+    FixedVersion: 0.11.2-1ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0968
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a4d3c1bcfc051b0ad7a2b5cc6021e20989e6446a3b52cf4772b97d6b3b9e8452
+    Title: 'libssh: libssh: Denial of Service due to malformed SFTP message'
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-0968
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0968
+    - https://ubuntu.com/security/notices/USN-8051-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-0968
+    - https://www.libssh.org/security/advisories/CVE-2026-0968.txt
+  - VulnerabilityID: CVE-2025-8277
+    PkgID: libssh-4@0.11.2-1ubuntu0.1
+    PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.11.2-1ubuntu0.1?arch=amd64&distro=ubuntu-25.10
+      UID: 7dcfea501c25abe9
+    InstalledVersion: 0.11.2-1ubuntu0.1
+    FixedVersion: 0.11.2-1ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8277
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e97df962540188327c2bbd2893629cfdb50535ae22754431a4ceca7595685e85
+    Title: 'libssh: Memory Exhaustion via Repeated Key Exchange in libssh'
+    Description: A flaw was found in libssh's handling of key exchange (KEX) processes when a client repeatedly sends incorrect KEX guesses. The library fails to free memory during these rekey operations, which can gradually exhaust system memory. This issue can lead to crashes on the client side, particularly when using libgcrypt, which impacts application stability and availability.
+    Severity: LOW
+    CweIDs:
+    - CWE-401
+    VendorSeverity:
+      amazon: 2
+      azure: 1
+      cbl-mariner: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-8277
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2383888
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8277
+    - https://ubuntu.com/security/notices/USN-8051-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-8277
+    - https://www.libssh.org/security/advisories/CVE-2025-8277.txt
+    PublishedDate: '2025-09-09T12:15:30.677Z'
+    LastModifiedDate: '2025-09-09T16:28:43.66Z'
+  - VulnerabilityID: CVE-2026-0965
+    PkgID: libssh-4@0.11.2-1ubuntu0.1
+    PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.11.2-1ubuntu0.1?arch=amd64&distro=ubuntu-25.10
+      UID: 7dcfea501c25abe9
+    InstalledVersion: 0.11.2-1ubuntu0.1
+    FixedVersion: 0.11.2-1ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0965
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:86d19a4f65ae8ef4b7c14f3818f137583c2db32d44bd22fd81f7e8b7f6f56b71
+    Title: 'libssh: libssh: Denial of Service via improper configuration file handling'
+    Description: No description is available for this CVE.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-0965
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0965
+    - https://ubuntu.com/security/notices/USN-8051-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-0965
+    - https://www.libssh.org/security/advisories/CVE-2026-0965.txt
+  - VulnerabilityID: CVE-2026-0966
+    PkgID: libssh-4@0.11.2-1ubuntu0.1
+    PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.11.2-1ubuntu0.1?arch=amd64&distro=ubuntu-25.10
+      UID: 7dcfea501c25abe9
+    InstalledVersion: 0.11.2-1ubuntu0.1
+    FixedVersion: 0.11.2-1ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0966
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:8924306c4772642e068835a008b40ff1aafd359c9e6600eb1e3f44ce6471b11b
+    Title: 'libssh: Buffer underflow in ssh_get_hexa() on invalid input'
+    Description: No description is available for this CVE.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-0966
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0966
+    - https://ubuntu.com/security/notices/USN-8051-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-0966
+    - https://www.libssh.org/security/advisories/CVE-2026-0966.txt
   - VulnerabilityID: CVE-2025-11187
     PkgID: libssl3t64@3.5.3-1ubuntu2
     PkgName: libssl3t64
@@ -33998,7 +34461,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/205e3a55e16e4bd08c12fdbd3416ab829c0f6206
     - https://github.com/openssl/openssl/commit/8caf359d6e46fb413e8f5f0df765d2e8a51df4e8
     - https://github.com/openssl/openssl/commit/e1079bc17ed93ff16f6b86f33a2fe3336e78817e
@@ -34115,7 +34578,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/2c8f0e5fa9b6ee5508a0349e4572ddb74db5a703
     - https://github.com/openssl/openssl/commit/5f26d4202f5b89664c5c3f3c62086276026ba9a9
     - https://github.com/openssl/openssl/commit/6ced0fe6b10faa560e410e3ee8d6c82f06c65ea3
@@ -34180,6 +34643,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -34230,7 +34694,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/1f08e54bad32843044fe8a675948d65e3b4ece65
     - https://github.com/openssl/openssl/commit/7c88376731c589ee5b36116c5a6e32d5ae5f7ae2
     - https://github.com/openssl/openssl/commit/b2539639400288a4580fe2d76247541b976bade4
@@ -34346,7 +34810,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/310f305eb92ea8040d6b3cb75a5feeba8e6acf2f
     - https://github.com/openssl/openssl/commit/a7936fa4bd23c906e1955a16a0a0ab39a4953a61
     - https://linux.oracle.com/cve/CVE-2025-15469.html
@@ -34415,6 +34879,7 @@
     - CWE-789
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -34465,7 +34930,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/3ed1f75249932b155eef993a8e66a99cb98bfef4
     - https://github.com/openssl/openssl/commit/6184a4fb08ee6d7bca570d931a4e8bef40b64451
     - https://github.com/openssl/openssl/commit/895150b5e021d16b52fb32b97e1dd12f20448be5
@@ -34525,6 +34990,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -34575,7 +35041,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/384011202af92605d926fafe4a0bcd6b65d162ad
     - https://github.com/openssl/openssl/commit/475c466ef2fbd8fc1df6fae1c3eed9c813fc8ff6
     - https://github.com/openssl/openssl/commit/4c96fbba618e1940f038012506ee9e21d32ee12c
@@ -34616,6 +35082,7 @@
     - CWE-325
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -34666,7 +35133,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/372fc5c77529695b05b4f5b5187691a57ef5dffc
     - https://github.com/openssl/openssl/commit/4016975d4469cd6b94927c607f7c511385f928d8
     - https://github.com/openssl/openssl/commit/52d23c86a54adab5ee9f80e48b242b52c4cc2347
@@ -34740,6 +35207,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -34791,7 +35259,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/41be0f216404f14457bbf3b9cc488dba60b49296
     - https://github.com/openssl/openssl/commit/7e9cac9832e4705b91987c2474ed06a37a93cecb
     - https://github.com/openssl/openssl/commit/a26a90d38edec3748566129d824e664b54bee2e2
@@ -34859,6 +35327,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -34910,7 +35379,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/27c7012c91cc986a598d7540f3079dfde2416eb9
     - https://github.com/openssl/openssl/commit/4e254b48ad93cc092be3dd62d97015f33f73133a
     - https://github.com/openssl/openssl/commit/564fd9c73787f25693bf9e75faf7bf6bb1305d4e
@@ -34971,6 +35440,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 3
@@ -35026,7 +35496,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/3524a29271f8191b8fd8a5257eb05173982a097b
     - https://github.com/openssl/openssl/commit/36ecb4960872a4ce04bf6f1e1f4e78d75ec0c0c7
     - https://github.com/openssl/openssl/commit/4bbc8d41a72c842ce4077a8a3eccd1109aaf74bd
@@ -35094,6 +35564,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
@@ -35145,7 +35616,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
@@ -35212,6 +35683,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -35262,7 +35734,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
@@ -35277,6 +35749,49 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-22796
     PublishedDate: '2026-01-27T16:16:35.543Z'
     LastModifiedDate: '2026-02-02T18:40:27.467Z'
+  - VulnerabilityID: CVE-2026-0959
+    PkgID: libwireshark-data@4.4.7-1
+    PkgName: libwireshark-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libwireshark-data@4.4.7-1?arch=all&distro=ubuntu-25.10
+      UID: 3fa3271cb12ec1c3
+    InstalledVersion: 4.4.7-1
+    Status: affected
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0959
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:60c6a2ca5e35747537afae9def39772344e38ead8a762b21be298363cc82ec18
+    Title: 'Wireshark: Wireshark: Denial of service via IEEE 802.11 protocol dissector crash'
+    Description: IEEE 802.11 protocol dissector crash in Wireshark 4.6.0 to 4.6.2 and 4.4.0 to 4.4.12 allows denial of service
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-0959
+    - https://gitlab.com/wireshark/wireshark/-/issues/20939
+    - https://gitlab.com/wireshark/wireshark/-/merge_requests/23143
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0959
+    - https://www.cve.org/CVERecord?id=CVE-2026-0959
+    - https://www.wireshark.org/security/wnpa-sec-2026-02.html
+    PublishedDate: '2026-01-14T21:15:52.753Z'
+    LastModifiedDate: '2026-01-21T18:44:54.317Z'
   - VulnerabilityID: CVE-2021-39920
     PkgID: libwireshark-data@4.4.7-1
     PkgName: libwireshark-data
@@ -35329,6 +35844,49 @@
     - https://www.wireshark.org/security/wnpa-sec-2021-15.html
     PublishedDate: '2021-11-18T19:15:08.333Z'
     LastModifiedDate: '2024-11-21T06:20:33.82Z'
+  - VulnerabilityID: CVE-2026-0959
+    PkgID: libwireshark18@4.4.7-1
+    PkgName: libwireshark18
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libwireshark18@4.4.7-1?arch=amd64&distro=ubuntu-25.10
+      UID: 2c6c266771f451a1
+    InstalledVersion: 4.4.7-1
+    Status: affected
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0959
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d6b373f76449eaa236110a79768089290689e0603f03da96ec0a3ebf38d45eaf
+    Title: 'Wireshark: Wireshark: Denial of service via IEEE 802.11 protocol dissector crash'
+    Description: IEEE 802.11 protocol dissector crash in Wireshark 4.6.0 to 4.6.2 and 4.4.0 to 4.4.12 allows denial of service
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-0959
+    - https://gitlab.com/wireshark/wireshark/-/issues/20939
+    - https://gitlab.com/wireshark/wireshark/-/merge_requests/23143
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0959
+    - https://www.cve.org/CVERecord?id=CVE-2026-0959
+    - https://www.wireshark.org/security/wnpa-sec-2026-02.html
+    PublishedDate: '2026-01-14T21:15:52.753Z'
+    LastModifiedDate: '2026-01-21T18:44:54.317Z'
   - VulnerabilityID: CVE-2021-39920
     PkgID: libwireshark18@4.4.7-1
     PkgName: libwireshark18
@@ -35381,6 +35939,49 @@
     - https://www.wireshark.org/security/wnpa-sec-2021-15.html
     PublishedDate: '2021-11-18T19:15:08.333Z'
     LastModifiedDate: '2024-11-21T06:20:33.82Z'
+  - VulnerabilityID: CVE-2026-0959
+    PkgID: libwiretap15@4.4.7-1
+    PkgName: libwiretap15
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libwiretap15@4.4.7-1?arch=amd64&distro=ubuntu-25.10
+      UID: 3affefbce19818ee
+    InstalledVersion: 4.4.7-1
+    Status: affected
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0959
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:ab7d7021ef05a79672fb39091a1816526ed9e034dfd43a111d3af3246de49271
+    Title: 'Wireshark: Wireshark: Denial of service via IEEE 802.11 protocol dissector crash'
+    Description: IEEE 802.11 protocol dissector crash in Wireshark 4.6.0 to 4.6.2 and 4.4.0 to 4.4.12 allows denial of service
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-0959
+    - https://gitlab.com/wireshark/wireshark/-/issues/20939
+    - https://gitlab.com/wireshark/wireshark/-/merge_requests/23143
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0959
+    - https://www.cve.org/CVERecord?id=CVE-2026-0959
+    - https://www.wireshark.org/security/wnpa-sec-2026-02.html
+    PublishedDate: '2026-01-14T21:15:52.753Z'
+    LastModifiedDate: '2026-01-21T18:44:54.317Z'
   - VulnerabilityID: CVE-2021-39920
     PkgID: libwiretap15@4.4.7-1
     PkgName: libwiretap15
@@ -35433,6 +36034,49 @@
     - https://www.wireshark.org/security/wnpa-sec-2021-15.html
     PublishedDate: '2021-11-18T19:15:08.333Z'
     LastModifiedDate: '2024-11-21T06:20:33.82Z'
+  - VulnerabilityID: CVE-2026-0959
+    PkgID: libwsutil16@4.4.7-1
+    PkgName: libwsutil16
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libwsutil16@4.4.7-1?arch=amd64&distro=ubuntu-25.10
+      UID: b6ba07a0aa469cde
+    InstalledVersion: 4.4.7-1
+    Status: affected
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0959
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:5c2759ec84fbbdb5fb340896d1547d70511ae7e316c5d8bc070f54e10337a56e
+    Title: 'Wireshark: Wireshark: Denial of service via IEEE 802.11 protocol dissector crash'
+    Description: IEEE 802.11 protocol dissector crash in Wireshark 4.6.0 to 4.6.2 and 4.4.0 to 4.4.12 allows denial of service
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-0959
+    - https://gitlab.com/wireshark/wireshark/-/issues/20939
+    - https://gitlab.com/wireshark/wireshark/-/merge_requests/23143
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0959
+    - https://www.cve.org/CVERecord?id=CVE-2026-0959
+    - https://www.wireshark.org/security/wnpa-sec-2026-02.html
+    PublishedDate: '2026-01-14T21:15:52.753Z'
+    LastModifiedDate: '2026-01-21T18:44:54.317Z'
   - VulnerabilityID: CVE-2021-39920
     PkgID: libwsutil16@4.4.7-1
     PkgName: libwsutil16
@@ -35654,6 +36298,43 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-8732
     PublishedDate: '2025-08-08T17:15:30.583Z'
     LastModifiedDate: '2025-08-08T20:30:18.18Z'
+  - VulnerabilityID: CVE-2026-1757
+    PkgID: libxml2-16@2.14.5+dfsg-0.2
+    PkgName: libxml2-16
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libxml2-16@2.14.5%2Bdfsg-0.2?arch=amd64&distro=ubuntu-25.10
+      UID: 7169e12abb7a2d47
+    InstalledVersion: 2.14.5+dfsg-0.2
+    Status: affected
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-1757
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:75959da7f9f5c69a1688353d521ebaa36832cbc74ab7332aa2d47cfc6640a98a
+    Title: 'libxml2: Memory Leak Leading to Local Denial of Service in xmllint Interactive Shell'
+    Description: A flaw was identified in the interactive shell of the xmllint utility, part of the libxml2 project, where memory allocated for user input is not properly released under certain conditions. When a user submits input consisting only of whitespace, the program skips command execution but fails to free the allocated buffer. Repeating this action causes memory to continuously accumulate. Over time, this can exhaust system memory and terminate the xmllint process, creating a denial-of-service condition on the local system.
+    Severity: LOW
+    CweIDs:
+    - CWE-401
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-1757
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2435940
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1757
+    - https://www.cve.org/CVERecord?id=CVE-2026-1757
+    PublishedDate: '2026-02-02T13:15:58.58Z'
+    LastModifiedDate: '2026-02-03T16:44:36.63Z'
   - VulnerabilityID: CVE-2025-15281
     PkgID: locales@2.42-0ubuntu3
     PkgName: locales
@@ -35679,7 +36360,9 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      alma: 2
       azure: 2
+      oracle-oval: 2
       photon: 3
       redhat: 1
       ubuntu: 2
@@ -35689,7 +36372,14 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/20/3
+    - https://access.redhat.com/errata/RHSA-2026:2786
     - https://access.redhat.com/security/cve/CVE-2025-15281
+    - https://bugzilla.redhat.com/2429771
+    - https://bugzilla.redhat.com/2430201
+    - https://bugzilla.redhat.com/2431196
+    - https://errata.almalinux.org/9/ALSA-2026-2786.html
+    - https://linux.oracle.com/cve/CVE-2025-15281.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15281
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33814
     - https://ubuntu.com/security/notices/USN-8005-1
@@ -35752,7 +36442,7 @@
     - https://errata.almalinux.org/10/ALSA-2026-1334.html
     - https://errata.rockylinux.org/RLSA-2026:1334
     - https://linux.oracle.com/cve/CVE-2026-0861.html
-    - https://linux.oracle.com/errata/ELSA-2026-50078.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33796
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0001
@@ -35810,7 +36500,7 @@
     - https://errata.almalinux.org/10/ALSA-2026-1334.html
     - https://errata.rockylinux.org/RLSA-2026:1334
     - https://linux.oracle.com/cve/CVE-2026-0915.html
-    - https://linux.oracle.com/errata/ELSA-2026-50078.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0915
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
     - https://ubuntu.com/security/notices/USN-8005-1
@@ -35859,7 +36549,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/10/ALSA-2025-20145.html
-    - https://errata.rockylinux.org/RLSA-2025:20145
+    - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -35974,7 +36664,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/205e3a55e16e4bd08c12fdbd3416ab829c0f6206
     - https://github.com/openssl/openssl/commit/8caf359d6e46fb413e8f5f0df765d2e8a51df4e8
     - https://github.com/openssl/openssl/commit/e1079bc17ed93ff16f6b86f33a2fe3336e78817e
@@ -36091,7 +36781,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/2c8f0e5fa9b6ee5508a0349e4572ddb74db5a703
     - https://github.com/openssl/openssl/commit/5f26d4202f5b89664c5c3f3c62086276026ba9a9
     - https://github.com/openssl/openssl/commit/6ced0fe6b10faa560e410e3ee8d6c82f06c65ea3
@@ -36156,6 +36846,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -36206,7 +36897,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/1f08e54bad32843044fe8a675948d65e3b4ece65
     - https://github.com/openssl/openssl/commit/7c88376731c589ee5b36116c5a6e32d5ae5f7ae2
     - https://github.com/openssl/openssl/commit/b2539639400288a4580fe2d76247541b976bade4
@@ -36322,7 +37013,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/310f305eb92ea8040d6b3cb75a5feeba8e6acf2f
     - https://github.com/openssl/openssl/commit/a7936fa4bd23c906e1955a16a0a0ab39a4953a61
     - https://linux.oracle.com/cve/CVE-2025-15469.html
@@ -36391,6 +37082,7 @@
     - CWE-789
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -36441,7 +37133,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/3ed1f75249932b155eef993a8e66a99cb98bfef4
     - https://github.com/openssl/openssl/commit/6184a4fb08ee6d7bca570d931a4e8bef40b64451
     - https://github.com/openssl/openssl/commit/895150b5e021d16b52fb32b97e1dd12f20448be5
@@ -36501,6 +37193,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -36551,7 +37244,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/384011202af92605d926fafe4a0bcd6b65d162ad
     - https://github.com/openssl/openssl/commit/475c466ef2fbd8fc1df6fae1c3eed9c813fc8ff6
     - https://github.com/openssl/openssl/commit/4c96fbba618e1940f038012506ee9e21d32ee12c
@@ -36592,6 +37285,7 @@
     - CWE-325
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -36642,7 +37336,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/372fc5c77529695b05b4f5b5187691a57ef5dffc
     - https://github.com/openssl/openssl/commit/4016975d4469cd6b94927c607f7c511385f928d8
     - https://github.com/openssl/openssl/commit/52d23c86a54adab5ee9f80e48b242b52c4cc2347
@@ -36716,6 +37410,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -36767,7 +37462,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/41be0f216404f14457bbf3b9cc488dba60b49296
     - https://github.com/openssl/openssl/commit/7e9cac9832e4705b91987c2474ed06a37a93cecb
     - https://github.com/openssl/openssl/commit/a26a90d38edec3748566129d824e664b54bee2e2
@@ -36835,6 +37530,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -36886,7 +37582,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/27c7012c91cc986a598d7540f3079dfde2416eb9
     - https://github.com/openssl/openssl/commit/4e254b48ad93cc092be3dd62d97015f33f73133a
     - https://github.com/openssl/openssl/commit/564fd9c73787f25693bf9e75faf7bf6bb1305d4e
@@ -36947,6 +37643,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 3
@@ -37002,7 +37699,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/3524a29271f8191b8fd8a5257eb05173982a097b
     - https://github.com/openssl/openssl/commit/36ecb4960872a4ce04bf6f1e1f4e78d75ec0c0c7
     - https://github.com/openssl/openssl/commit/4bbc8d41a72c842ce4077a8a3eccd1109aaf74bd
@@ -37070,6 +37767,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
@@ -37121,7 +37819,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
@@ -37188,6 +37886,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -37238,7 +37937,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
@@ -37358,7 +38057,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/205e3a55e16e4bd08c12fdbd3416ab829c0f6206
     - https://github.com/openssl/openssl/commit/8caf359d6e46fb413e8f5f0df765d2e8a51df4e8
     - https://github.com/openssl/openssl/commit/e1079bc17ed93ff16f6b86f33a2fe3336e78817e
@@ -37475,7 +38174,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/2c8f0e5fa9b6ee5508a0349e4572ddb74db5a703
     - https://github.com/openssl/openssl/commit/5f26d4202f5b89664c5c3f3c62086276026ba9a9
     - https://github.com/openssl/openssl/commit/6ced0fe6b10faa560e410e3ee8d6c82f06c65ea3
@@ -37540,6 +38239,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -37590,7 +38290,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/1f08e54bad32843044fe8a675948d65e3b4ece65
     - https://github.com/openssl/openssl/commit/7c88376731c589ee5b36116c5a6e32d5ae5f7ae2
     - https://github.com/openssl/openssl/commit/b2539639400288a4580fe2d76247541b976bade4
@@ -37706,7 +38406,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/310f305eb92ea8040d6b3cb75a5feeba8e6acf2f
     - https://github.com/openssl/openssl/commit/a7936fa4bd23c906e1955a16a0a0ab39a4953a61
     - https://linux.oracle.com/cve/CVE-2025-15469.html
@@ -37775,6 +38475,7 @@
     - CWE-789
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -37825,7 +38526,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/3ed1f75249932b155eef993a8e66a99cb98bfef4
     - https://github.com/openssl/openssl/commit/6184a4fb08ee6d7bca570d931a4e8bef40b64451
     - https://github.com/openssl/openssl/commit/895150b5e021d16b52fb32b97e1dd12f20448be5
@@ -37885,6 +38586,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -37935,7 +38637,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/384011202af92605d926fafe4a0bcd6b65d162ad
     - https://github.com/openssl/openssl/commit/475c466ef2fbd8fc1df6fae1c3eed9c813fc8ff6
     - https://github.com/openssl/openssl/commit/4c96fbba618e1940f038012506ee9e21d32ee12c
@@ -37976,6 +38678,7 @@
     - CWE-325
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -38026,7 +38729,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/372fc5c77529695b05b4f5b5187691a57ef5dffc
     - https://github.com/openssl/openssl/commit/4016975d4469cd6b94927c607f7c511385f928d8
     - https://github.com/openssl/openssl/commit/52d23c86a54adab5ee9f80e48b242b52c4cc2347
@@ -38100,6 +38803,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -38151,7 +38855,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/41be0f216404f14457bbf3b9cc488dba60b49296
     - https://github.com/openssl/openssl/commit/7e9cac9832e4705b91987c2474ed06a37a93cecb
     - https://github.com/openssl/openssl/commit/a26a90d38edec3748566129d824e664b54bee2e2
@@ -38219,6 +38923,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
@@ -38270,7 +38975,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/27c7012c91cc986a598d7540f3079dfde2416eb9
     - https://github.com/openssl/openssl/commit/4e254b48ad93cc092be3dd62d97015f33f73133a
     - https://github.com/openssl/openssl/commit/564fd9c73787f25693bf9e75faf7bf6bb1305d4e
@@ -38331,6 +39036,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 3
@@ -38386,7 +39092,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/3524a29271f8191b8fd8a5257eb05173982a097b
     - https://github.com/openssl/openssl/commit/36ecb4960872a4ce04bf6f1e1f4e78d75ec0c0c7
     - https://github.com/openssl/openssl/commit/4bbc8d41a72c842ce4077a8a3eccd1109aaf74bd
@@ -38454,6 +39160,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
@@ -38505,7 +39212,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
@@ -38572,6 +39279,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -38622,7 +39330,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22795
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22796
     - https://errata.almalinux.org/10/ALSA-2026-1472.html
-    - https://errata.rockylinux.org/RLSA-2026:1472
+    - https://errata.rockylinux.org/RLSA-2026:1473
     - https://github.com/openssl/openssl/commit/2502e7b7d4c0cf4f972a881641fe09edc67aeec4
     - https://github.com/openssl/openssl/commit/572844beca95068394c916626a6d3a490f831a49
     - https://github.com/openssl/openssl/commit/7bbca05be55b129651d9df4bdb92becc45002c12
@@ -38678,7 +39386,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/10/ALSA-2025-20145.html
-    - https://errata.rockylinux.org/RLSA-2025:20145
+    - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -38711,10 +39419,15 @@
     Description: When folding a long comment in an email header containing exclusively unfoldable characters, the parenthesis would not be preserved. This could be used for injecting headers into email messages where addresses are user-controlled and not sanitized.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       azure: 2
+      bitnami: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:P/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 5.7
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.5
@@ -38761,12 +39474,16 @@
       alma: 2
       amazon: 2
       azure: 2
+      bitnami: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N
+        V40Score: 6.3
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -38777,12 +39494,10 @@
     - https://access.redhat.com/errata/RHSA-2026:1631
     - https://access.redhat.com/security/cve/CVE-2025-12084
     - https://bugzilla.redhat.com/2418655
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2418078
     - https://bugzilla.redhat.com/show_bug.cgi?id=2418655
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-12084
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13836
     - https://errata.almalinux.org/8/ALSA-2026-1631.html
-    - https://errata.rockylinux.org/RLSA-2026:1828
+    - https://errata.rockylinux.org/RLSA-2026:1478
     - https://github.com/python/cpython/commit/027f21e417b26eed4505ac2db101a4352b7c51a0
     - https://github.com/python/cpython/commit/08d8e18ad81cd45bc4a27d6da478b51ea49486e4
     - https://github.com/python/cpython/commit/27648a1818749ef44c420afe6173af6868715437
@@ -38836,6 +39551,9 @@
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:L/SA:N
+        V40Score: 2.1
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
@@ -38881,9 +39599,14 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      amazon: 2
+      bitnami: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:H/VA:N/SC:N/SI:L/SA:N
+        V40Score: 6
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
@@ -39035,11 +39758,16 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      amazon: 2
       azure: 2
+      bitnami: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:L/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
@@ -39085,11 +39813,16 @@
     - CWE-74
     VendorSeverity:
       alma: 2
+      amazon: 2
       azure: 2
+      bitnami: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 5.9
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.5
@@ -39141,10 +39874,15 @@
     Description: When folding a long comment in an email header containing exclusively unfoldable characters, the parenthesis would not be preserved. This could be used for injecting headers into email messages where addresses are user-controlled and not sanitized.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       azure: 2
+      bitnami: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:P/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 5.7
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.5
@@ -39191,12 +39929,16 @@
       alma: 2
       amazon: 2
       azure: 2
+      bitnami: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N
+        V40Score: 6.3
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -39207,12 +39949,10 @@
     - https://access.redhat.com/errata/RHSA-2026:1631
     - https://access.redhat.com/security/cve/CVE-2025-12084
     - https://bugzilla.redhat.com/2418655
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2418078
     - https://bugzilla.redhat.com/show_bug.cgi?id=2418655
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-12084
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13836
     - https://errata.almalinux.org/8/ALSA-2026-1631.html
-    - https://errata.rockylinux.org/RLSA-2026:1828
+    - https://errata.rockylinux.org/RLSA-2026:1478
     - https://github.com/python/cpython/commit/027f21e417b26eed4505ac2db101a4352b7c51a0
     - https://github.com/python/cpython/commit/08d8e18ad81cd45bc4a27d6da478b51ea49486e4
     - https://github.com/python/cpython/commit/27648a1818749ef44c420afe6173af6868715437
@@ -39266,6 +40006,9 @@
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:L/SA:N
+        V40Score: 2.1
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
@@ -39311,9 +40054,14 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      amazon: 2
+      bitnami: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:H/VA:N/SC:N/SI:L/SA:N
+        V40Score: 6
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
@@ -39465,11 +40213,16 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
+      amazon: 2
       azure: 2
+      bitnami: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:L/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.8
@@ -39515,11 +40268,16 @@
     - CWE-74
     VendorSeverity:
       alma: 2
+      amazon: 2
       azure: 2
+      bitnami: 2
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 5.9
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:N
         V3Score: 4.5
@@ -39589,7 +40347,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2379592
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-45582
     - https://errata.almalinux.org/10/ALSA-2026-0002.html
-    - https://errata.rockylinux.org/RLSA-2026:0002
+    - https://errata.rockylinux.org/RLSA-2026:0067
     - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
     - https://linux.oracle.com/cve/CVE-2025-45582.html
     - https://linux.oracle.com/errata/ELSA-2026-0067.html
@@ -39602,6 +40360,49 @@
     - https://www.gnu.org/software/tar/manual/html_node/Security-rules-of-thumb.html
     PublishedDate: '2025-07-11T17:15:37.183Z'
     LastModifiedDate: '2025-11-02T01:15:32.307Z'
+  - VulnerabilityID: CVE-2026-0959
+    PkgID: tshark@4.4.7-1
+    PkgName: tshark
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/tshark@4.4.7-1?arch=amd64&distro=ubuntu-25.10
+      UID: e11126a3a9a80706
+    InstalledVersion: 4.4.7-1
+    Status: affected
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0959
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d3c221019e5327aca7ace054412caefab583a3a36ced745faea5c73f43a8bca5
+    Title: 'Wireshark: Wireshark: Denial of service via IEEE 802.11 protocol dissector crash'
+    Description: IEEE 802.11 protocol dissector crash in Wireshark 4.6.0 to 4.6.2 and 4.4.0 to 4.4.12 allows denial of service
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-0959
+    - https://gitlab.com/wireshark/wireshark/-/issues/20939
+    - https://gitlab.com/wireshark/wireshark/-/merge_requests/23143
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0959
+    - https://www.cve.org/CVERecord?id=CVE-2026-0959
+    - https://www.wireshark.org/security/wnpa-sec-2026-02.html
+    PublishedDate: '2026-01-14T21:15:52.753Z'
+    LastModifiedDate: '2026-01-21T18:44:54.317Z'
   - VulnerabilityID: CVE-2021-39920
     PkgID: tshark@4.4.7-1
     PkgName: tshark
@@ -39702,6 +40503,49 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-31879
     PublishedDate: '2021-04-29T05:15:08.707Z'
     LastModifiedDate: '2024-11-21T06:06:25.02Z'
+  - VulnerabilityID: CVE-2026-0959
+    PkgID: wireshark-common@4.4.7-1
+    PkgName: wireshark-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/wireshark-common@4.4.7-1?arch=amd64&distro=ubuntu-25.10
+      UID: de66b6cc1b35fac8
+    InstalledVersion: 4.4.7-1
+    Status: affected
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0959
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d6924286d82e99dda569e0523a3ec021f1cf893041d4fc2a87f332b68f05aa76
+    Title: 'Wireshark: Wireshark: Denial of service via IEEE 802.11 protocol dissector crash'
+    Description: IEEE 802.11 protocol dissector crash in Wireshark 4.6.0 to 4.6.2 and 4.4.0 to 4.4.12 allows denial of service
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-0959
+    - https://gitlab.com/wireshark/wireshark/-/issues/20939
+    - https://gitlab.com/wireshark/wireshark/-/merge_requests/23143
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0959
+    - https://www.cve.org/CVERecord?id=CVE-2026-0959
+    - https://www.wireshark.org/security/wnpa-sec-2026-02.html
+    PublishedDate: '2026-01-14T21:15:52.753Z'
+    LastModifiedDate: '2026-01-21T18:44:54.317Z'
   - VulnerabilityID: CVE-2021-39920
     PkgID: wireshark-common@4.4.7-1
     PkgName: wireshark-common
@@ -41684,6 +42528,7 @@
       bitnami: 4
       nvd: 4
       oracle-oval: 3
+      photon: 4
       redhat: 2
     CVSS:
       bitnami:
@@ -41707,9 +42552,9 @@
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://linux.oracle.com/cve/CVE-2025-68121.html
-    - https://linux.oracle.com/errata/ELSA-2026-2706.html
+    - https://linux.oracle.com/errata/ELSA-2026-2920.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
     - https://www.cve.org/CVERecord?id=CVE-2025-68121
     PublishedDate: '2026-02-05T18:16:10.857Z'
-    LastModifiedDate: '2026-02-10T16:08:03.303Z'
+    LastModifiedDate: '2026-02-20T17:25:50.303Z'
