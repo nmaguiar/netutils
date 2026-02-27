@@ -29135,6 +29135,8 @@
 
       This flaw only affects the wcurl command line tool.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-22
     VendorSeverity:
       amazon: 2
       redhat: 2
@@ -29153,7 +29155,7 @@
     - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-11563
     PublishedDate: '2026-02-25T08:16:18.337Z'
-    LastModifiedDate: '2026-02-25T19:43:15.377Z'
+    LastModifiedDate: '2026-02-26T20:06:37.45Z'
   - VulnerabilityID: CVE-2025-13034
     PkgID: curl@8.14.1-2ubuntu1
     PkgName: curl
@@ -30834,6 +30836,7 @@
       oracle-oval: 2
       photon: 3
       redhat: 1
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -30846,7 +30849,14 @@
     - https://bugzilla.redhat.com/2429771
     - https://bugzilla.redhat.com/2430201
     - https://bugzilla.redhat.com/2431196
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429771
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2430201
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431196
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15281
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0861
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0915
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
+    - https://errata.rockylinux.org/RLSA-2026:2786
     - https://linux.oracle.com/cve/CVE-2025-15281.html
     - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15281
@@ -30907,10 +30917,12 @@
     - https://bugzilla.redhat.com/2431196
     - https://bugzilla.redhat.com/show_bug.cgi?id=2429771
     - https://bugzilla.redhat.com/show_bug.cgi?id=2430201
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431196
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15281
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0861
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0915
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
-    - https://errata.rockylinux.org/RLSA-2026:1334
+    - https://errata.rockylinux.org/RLSA-2026:2786
     - https://linux.oracle.com/cve/CVE-2026-0861.html
     - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
@@ -30966,10 +30978,12 @@
     - https://bugzilla.redhat.com/2431196
     - https://bugzilla.redhat.com/show_bug.cgi?id=2429771
     - https://bugzilla.redhat.com/show_bug.cgi?id=2430201
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431196
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15281
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0861
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0915
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
-    - https://errata.rockylinux.org/RLSA-2026:1334
+    - https://errata.rockylinux.org/RLSA-2026:2786
     - https://linux.oracle.com/cve/CVE-2026-0915.html
     - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0915
@@ -31009,6 +31023,7 @@
       oracle-oval: 2
       photon: 3
       redhat: 1
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -31021,7 +31036,14 @@
     - https://bugzilla.redhat.com/2429771
     - https://bugzilla.redhat.com/2430201
     - https://bugzilla.redhat.com/2431196
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429771
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2430201
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431196
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15281
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0861
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0915
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
+    - https://errata.rockylinux.org/RLSA-2026:2786
     - https://linux.oracle.com/cve/CVE-2025-15281.html
     - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15281
@@ -31082,10 +31104,12 @@
     - https://bugzilla.redhat.com/2431196
     - https://bugzilla.redhat.com/show_bug.cgi?id=2429771
     - https://bugzilla.redhat.com/show_bug.cgi?id=2430201
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431196
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15281
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0861
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0915
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
-    - https://errata.rockylinux.org/RLSA-2026:1334
+    - https://errata.rockylinux.org/RLSA-2026:2786
     - https://linux.oracle.com/cve/CVE-2026-0861.html
     - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
@@ -31141,10 +31165,12 @@
     - https://bugzilla.redhat.com/2431196
     - https://bugzilla.redhat.com/show_bug.cgi?id=2429771
     - https://bugzilla.redhat.com/show_bug.cgi?id=2430201
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431196
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15281
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0861
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0915
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
-    - https://errata.rockylinux.org/RLSA-2026:1334
+    - https://errata.rockylinux.org/RLSA-2026:2786
     - https://linux.oracle.com/cve/CVE-2026-0915.html
     - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0915
@@ -31473,6 +31499,8 @@
 
       This flaw only affects the wcurl command line tool.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-22
     VendorSeverity:
       amazon: 2
       redhat: 2
@@ -31491,7 +31519,7 @@
     - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-11563
     PublishedDate: '2026-02-25T08:16:18.337Z'
-    LastModifiedDate: '2026-02-25T19:43:15.377Z'
+    LastModifiedDate: '2026-02-26T20:06:37.45Z'
   - VulnerabilityID: CVE-2025-13034
     PkgID: libcurl4t64@8.14.1-2ubuntu1
     PkgName: libcurl4t64
@@ -32916,11 +32944,13 @@
     - CWE-122
     - CWE-126
     VendorSeverity:
+      alma: 3
       azure: 3
       nvd: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       nvd:
@@ -32931,7 +32961,13 @@
         V3Score: 7
     References:
     - http://www.openwall.com/lists/oss-security/2026/02/09/7
+    - https://access.redhat.com/errata/RHSA-2026:3031
     - https://access.redhat.com/security/cve/CVE-2026-25646
+    - https://bugzilla.redhat.com/2438542
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2438542
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25646
+    - https://errata.almalinux.org/9/ALSA-2026-3031.html
+    - https://errata.rockylinux.org/RLSA-2026:3031
     - https://github.com/pnggroup/libpng/commit/01d03b8453eb30ade759cd45c707e5a1c7277d88
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-g8hp-mq4h-rqm3
     - https://linux.oracle.com/cve/CVE-2026-25646.html
@@ -36549,6 +36585,7 @@
       oracle-oval: 2
       photon: 3
       redhat: 1
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -36561,7 +36598,14 @@
     - https://bugzilla.redhat.com/2429771
     - https://bugzilla.redhat.com/2430201
     - https://bugzilla.redhat.com/2431196
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429771
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2430201
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431196
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15281
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0861
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0915
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
+    - https://errata.rockylinux.org/RLSA-2026:2786
     - https://linux.oracle.com/cve/CVE-2025-15281.html
     - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15281
@@ -36622,10 +36666,12 @@
     - https://bugzilla.redhat.com/2431196
     - https://bugzilla.redhat.com/show_bug.cgi?id=2429771
     - https://bugzilla.redhat.com/show_bug.cgi?id=2430201
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431196
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15281
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0861
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0915
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
-    - https://errata.rockylinux.org/RLSA-2026:1334
+    - https://errata.rockylinux.org/RLSA-2026:2786
     - https://linux.oracle.com/cve/CVE-2026-0861.html
     - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
@@ -36681,10 +36727,12 @@
     - https://bugzilla.redhat.com/2431196
     - https://bugzilla.redhat.com/show_bug.cgi?id=2429771
     - https://bugzilla.redhat.com/show_bug.cgi?id=2430201
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431196
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15281
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0861
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0915
     - https://errata.almalinux.org/9/ALSA-2026-2786.html
-    - https://errata.rockylinux.org/RLSA-2026:1334
+    - https://errata.rockylinux.org/RLSA-2026:2786
     - https://linux.oracle.com/cve/CVE-2026-0915.html
     - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0915
@@ -40651,6 +40699,258 @@
     - https://www.wireshark.org/security/wnpa-sec-2021-15.html
     PublishedDate: '2021-11-18T19:15:08.333Z'
     LastModifiedDate: '2024-11-21T06:20:33.82Z'
+  - VulnerabilityID: CVE-2026-25749
+    PkgID: vim@2:9.1.0967-1ubuntu6
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.0967-1ubuntu6?arch=amd64&distro=ubuntu-25.10&epoch=2
+      UID: c7118863dbd1ca4e
+    InstalledVersion: 2:9.1.0967-1ubuntu6
+    Status: affected
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-25749
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:14f17db2bd254960ae4dc4cfe1d2a1b7297cece73fc837b164150a3b40553122
+    Title: 'vim: Vim: Arbitrary code execution via ''helpfile'' option processing'
+    Description: Vim is an open source, command line text editor. Prior to version 9.1.2132, a heap buffer overflow vulnerability exists in Vim's tag file resolution logic when processing the 'helpfile' option. The vulnerability is located in the get_tagfname() function in src/tag.c. When processing help file tags, Vim copies the user-controlled 'helpfile' option value into a fixed-size heap buffer of MAXPATHL + 1 bytes (typically 4097 bytes) using an unsafe STRCPY() operation without any bounds checking. This issue has been patched in version 9.1.2132.
+    Severity: LOW
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-25749
+    - https://github.com/vim/vim/commit/0714b15940b245108e6e9d7aa2260dd849a26fa9
+    - https://github.com/vim/vim/releases/tag/v9.1.2132
+    - https://github.com/vim/vim/security/advisories/GHSA-5w93-4g67-mm43
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-25749
+    - https://www.cve.org/CVERecord?id=CVE-2026-25749
+    PublishedDate: '2026-02-06T23:15:54.23Z'
+    LastModifiedDate: '2026-02-20T15:45:19.21Z'
+  - VulnerabilityID: CVE-2026-26269
+    PkgID: vim@2:9.1.0967-1ubuntu6
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.0967-1ubuntu6?arch=amd64&distro=ubuntu-25.10&epoch=2
+      UID: c7118863dbd1ca4e
+    InstalledVersion: 2:9.1.0967-1ubuntu6
+    Status: affected
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-26269
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:5940ff1a5607df49dd06a9dacddbfbeca679d38a2d0fa047eddce3cbaccff0cd
+    Title: 'vim: Netbeans specialKeys stack buffer overflow'
+    Description: Vim is an open source, command line text editor. Prior to 9.1.2148, a stack buffer overflow vulnerability exists in Vim's NetBeans integration when processing the specialKeys command, affecting Vim builds that enable and use the NetBeans feature. The Stack buffer overflow exists in special_keys() (in src/netbeans.c). The while (*tok) loop writes two bytes per iteration into a 64-byte stack buffer (keybuf) with no bounds check. A malicious NetBeans server can overflow keybuf with a single specialKeys command. The issue has been fixed as of Vim patch v9.1.2148.
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      nvd: 3
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/13/2
+    - https://access.redhat.com/security/cve/CVE-2026-26269
+    - https://github.com/vim/vim/commit/c5f312aad8e4179e437f81ad39a860cd0ef11970
+    - https://github.com/vim/vim/releases/tag/v9.1.2148
+    - https://github.com/vim/vim/security/advisories/GHSA-9w5c-hwr9-hc68
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-26269
+    - https://www.cve.org/CVERecord?id=CVE-2026-26269
+    PublishedDate: '2026-02-13T20:17:41.377Z'
+    LastModifiedDate: '2026-02-18T21:29:03.767Z'
+  - VulnerabilityID: CVE-2026-25749
+    PkgID: vim-common@2:9.1.0967-1ubuntu6
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.0967-1ubuntu6?arch=all&distro=ubuntu-25.10&epoch=2
+      UID: 7d3460c011f515ad
+    InstalledVersion: 2:9.1.0967-1ubuntu6
+    Status: affected
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-25749
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:da55e8422cae4ff25556f2d578aae4cecbd5ea1f8b72e4f35d09a062d7458a94
+    Title: 'vim: Vim: Arbitrary code execution via ''helpfile'' option processing'
+    Description: Vim is an open source, command line text editor. Prior to version 9.1.2132, a heap buffer overflow vulnerability exists in Vim's tag file resolution logic when processing the 'helpfile' option. The vulnerability is located in the get_tagfname() function in src/tag.c. When processing help file tags, Vim copies the user-controlled 'helpfile' option value into a fixed-size heap buffer of MAXPATHL + 1 bytes (typically 4097 bytes) using an unsafe STRCPY() operation without any bounds checking. This issue has been patched in version 9.1.2132.
+    Severity: LOW
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-25749
+    - https://github.com/vim/vim/commit/0714b15940b245108e6e9d7aa2260dd849a26fa9
+    - https://github.com/vim/vim/releases/tag/v9.1.2132
+    - https://github.com/vim/vim/security/advisories/GHSA-5w93-4g67-mm43
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-25749
+    - https://www.cve.org/CVERecord?id=CVE-2026-25749
+    PublishedDate: '2026-02-06T23:15:54.23Z'
+    LastModifiedDate: '2026-02-20T15:45:19.21Z'
+  - VulnerabilityID: CVE-2026-26269
+    PkgID: vim-common@2:9.1.0967-1ubuntu6
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.0967-1ubuntu6?arch=all&distro=ubuntu-25.10&epoch=2
+      UID: 7d3460c011f515ad
+    InstalledVersion: 2:9.1.0967-1ubuntu6
+    Status: affected
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-26269
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f231c5b744e6be080802b0630b22b88692ef33405b653501d578352955413210
+    Title: 'vim: Netbeans specialKeys stack buffer overflow'
+    Description: Vim is an open source, command line text editor. Prior to 9.1.2148, a stack buffer overflow vulnerability exists in Vim's NetBeans integration when processing the specialKeys command, affecting Vim builds that enable and use the NetBeans feature. The Stack buffer overflow exists in special_keys() (in src/netbeans.c). The while (*tok) loop writes two bytes per iteration into a 64-byte stack buffer (keybuf) with no bounds check. A malicious NetBeans server can overflow keybuf with a single specialKeys command. The issue has been fixed as of Vim patch v9.1.2148.
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      nvd: 3
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/13/2
+    - https://access.redhat.com/security/cve/CVE-2026-26269
+    - https://github.com/vim/vim/commit/c5f312aad8e4179e437f81ad39a860cd0ef11970
+    - https://github.com/vim/vim/releases/tag/v9.1.2148
+    - https://github.com/vim/vim/security/advisories/GHSA-9w5c-hwr9-hc68
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-26269
+    - https://www.cve.org/CVERecord?id=CVE-2026-26269
+    PublishedDate: '2026-02-13T20:17:41.377Z'
+    LastModifiedDate: '2026-02-18T21:29:03.767Z'
+  - VulnerabilityID: CVE-2026-25749
+    PkgID: vim-runtime@2:9.1.0967-1ubuntu6
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.0967-1ubuntu6?arch=all&distro=ubuntu-25.10&epoch=2
+      UID: 6c9b77964b42ef75
+    InstalledVersion: 2:9.1.0967-1ubuntu6
+    Status: affected
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-25749
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:2c90c7d318374dc786a3a6f2f32c4130fe841b7e43c0e0a4c9c14a4f2799be9d
+    Title: 'vim: Vim: Arbitrary code execution via ''helpfile'' option processing'
+    Description: Vim is an open source, command line text editor. Prior to version 9.1.2132, a heap buffer overflow vulnerability exists in Vim's tag file resolution logic when processing the 'helpfile' option. The vulnerability is located in the get_tagfname() function in src/tag.c. When processing help file tags, Vim copies the user-controlled 'helpfile' option value into a fixed-size heap buffer of MAXPATHL + 1 bytes (typically 4097 bytes) using an unsafe STRCPY() operation without any bounds checking. This issue has been patched in version 9.1.2132.
+    Severity: LOW
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-25749
+    - https://github.com/vim/vim/commit/0714b15940b245108e6e9d7aa2260dd849a26fa9
+    - https://github.com/vim/vim/releases/tag/v9.1.2132
+    - https://github.com/vim/vim/security/advisories/GHSA-5w93-4g67-mm43
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-25749
+    - https://www.cve.org/CVERecord?id=CVE-2026-25749
+    PublishedDate: '2026-02-06T23:15:54.23Z'
+    LastModifiedDate: '2026-02-20T15:45:19.21Z'
+  - VulnerabilityID: CVE-2026-26269
+    PkgID: vim-runtime@2:9.1.0967-1ubuntu6
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.0967-1ubuntu6?arch=all&distro=ubuntu-25.10&epoch=2
+      UID: 6c9b77964b42ef75
+    InstalledVersion: 2:9.1.0967-1ubuntu6
+    Status: affected
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-26269
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fdc9d66bc74a707824f3f64e67bc54878d4f2e2928eb1d519a065aa615b0e112
+    Title: 'vim: Netbeans specialKeys stack buffer overflow'
+    Description: Vim is an open source, command line text editor. Prior to 9.1.2148, a stack buffer overflow vulnerability exists in Vim's NetBeans integration when processing the specialKeys command, affecting Vim builds that enable and use the NetBeans feature. The Stack buffer overflow exists in special_keys() (in src/netbeans.c). The while (*tok) loop writes two bytes per iteration into a 64-byte stack buffer (keybuf) with no bounds check. A malicious NetBeans server can overflow keybuf with a single specialKeys command. The issue has been fixed as of Vim patch v9.1.2148.
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      nvd: 3
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/13/2
+    - https://access.redhat.com/security/cve/CVE-2026-26269
+    - https://github.com/vim/vim/commit/c5f312aad8e4179e437f81ad39a860cd0ef11970
+    - https://github.com/vim/vim/releases/tag/v9.1.2148
+    - https://github.com/vim/vim/security/advisories/GHSA-9w5c-hwr9-hc68
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-26269
+    - https://www.cve.org/CVERecord?id=CVE-2026-26269
+    PublishedDate: '2026-02-13T20:17:41.377Z'
+    LastModifiedDate: '2026-02-18T21:29:03.767Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.25.0-2ubuntu3
     PkgName: wget
@@ -40794,6 +41094,90 @@
     - https://www.wireshark.org/security/wnpa-sec-2021-15.html
     PublishedDate: '2021-11-18T19:15:08.333Z'
     LastModifiedDate: '2024-11-21T06:20:33.82Z'
+  - VulnerabilityID: CVE-2026-25749
+    PkgID: xxd@2:9.1.0967-1ubuntu6
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.0967-1ubuntu6?arch=amd64&distro=ubuntu-25.10&epoch=2
+      UID: 5f3ebd8777e051d3
+    InstalledVersion: 2:9.1.0967-1ubuntu6
+    Status: affected
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-25749
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d1fe363c7cf427e3871bc6aff9d456dd7cabf4280b20caa37c29ad3956c0a2dd
+    Title: 'vim: Vim: Arbitrary code execution via ''helpfile'' option processing'
+    Description: Vim is an open source, command line text editor. Prior to version 9.1.2132, a heap buffer overflow vulnerability exists in Vim's tag file resolution logic when processing the 'helpfile' option. The vulnerability is located in the get_tagfname() function in src/tag.c. When processing help file tags, Vim copies the user-controlled 'helpfile' option value into a fixed-size heap buffer of MAXPATHL + 1 bytes (typically 4097 bytes) using an unsafe STRCPY() operation without any bounds checking. This issue has been patched in version 9.1.2132.
+    Severity: LOW
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-25749
+    - https://github.com/vim/vim/commit/0714b15940b245108e6e9d7aa2260dd849a26fa9
+    - https://github.com/vim/vim/releases/tag/v9.1.2132
+    - https://github.com/vim/vim/security/advisories/GHSA-5w93-4g67-mm43
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-25749
+    - https://www.cve.org/CVERecord?id=CVE-2026-25749
+    PublishedDate: '2026-02-06T23:15:54.23Z'
+    LastModifiedDate: '2026-02-20T15:45:19.21Z'
+  - VulnerabilityID: CVE-2026-26269
+    PkgID: xxd@2:9.1.0967-1ubuntu6
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.0967-1ubuntu6?arch=amd64&distro=ubuntu-25.10&epoch=2
+      UID: 5f3ebd8777e051d3
+    InstalledVersion: 2:9.1.0967-1ubuntu6
+    Status: affected
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-26269
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a2d60c48f35b2e0e74870dc2fc3fd1bebc1b53cc2ad7154300e16d8101a3a09e
+    Title: 'vim: Netbeans specialKeys stack buffer overflow'
+    Description: Vim is an open source, command line text editor. Prior to 9.1.2148, a stack buffer overflow vulnerability exists in Vim's NetBeans integration when processing the specialKeys command, affecting Vim builds that enable and use the NetBeans feature. The Stack buffer overflow exists in special_keys() (in src/netbeans.c). The while (*tok) loop writes two bytes per iteration into a 64-byte stack buffer (keybuf) with no bounds check. A malicious NetBeans server can overflow keybuf with a single specialKeys command. The issue has been fixed as of Vim patch v9.1.2148.
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      nvd: 3
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/13/2
+    - https://access.redhat.com/security/cve/CVE-2026-26269
+    - https://github.com/vim/vim/commit/c5f312aad8e4179e437f81ad39a860cd0ef11970
+    - https://github.com/vim/vim/releases/tag/v9.1.2148
+    - https://github.com/vim/vim/security/advisories/GHSA-9w5c-hwr9-hc68
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-26269
+    - https://www.cve.org/CVERecord?id=CVE-2026-26269
+    PublishedDate: '2026-02-13T20:17:41.377Z'
+    LastModifiedDate: '2026-02-18T21:29:03.767Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -42738,23 +43122,20 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2920
+    - https://access.redhat.com/errata/RHSA-2026:3337
     - https://access.redhat.com/security/cve/CVE-2025-68121
     - https://bugzilla.redhat.com/2418462
-    - https://bugzilla.redhat.com/2433242
     - https://bugzilla.redhat.com/2434431
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2434431
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2437016
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61728
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61732
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
-    - https://errata.almalinux.org/9/ALSA-2026-2920.html
-    - https://errata.rockylinux.org/RLSA-2026:2709
+    - https://errata.almalinux.org/9/ALSA-2026-3337.html
+    - https://errata.rockylinux.org/RLSA-2026:3040
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
