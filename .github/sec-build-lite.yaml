@@ -14269,6 +14269,1008 @@
     - usr/lib/libzstd.so.1
     - usr/lib/libzstd.so.1.5.7
     AnalyzedBy: apk
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2026-3201
+    PkgID: tshark@4.6.3-r0
+    PkgName: tshark
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/tshark@4.6.3-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: f9f76e6b22fa2c2c
+    InstalledVersion: 4.6.3-r0
+    FixedVersion: 4.6.4-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-3201
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:3da869680afc775e1b6eeb59540609db6366ee6660f689ed504c962345cbefdc
+    Title: 'wireshark: Improperly Controlled Sequential Memory Allocation in Wireshark'
+    Description: USB HID protocol dissector memory exhaustion in Wireshark 4.6.0 to 4.6.3 and 4.4.0 to 4.4.13 allows denial of service
+    Severity: HIGH
+    CweIDs:
+    - CWE-1325
+    - CWE-770
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-3201
+    - https://gitlab.com/wireshark/wireshark/-/issues/20972
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-3201
+    - https://www.cve.org/CVERecord?id=CVE-2026-3201
+    - https://www.wireshark.org/security/wnpa-sec-2026-05.html
+    PublishedDate: '2026-02-25T15:20:55.617Z'
+    LastModifiedDate: '2026-02-26T14:49:01.05Z'
+  - VulnerabilityID: CVE-2026-3202
+    PkgID: tshark@4.6.3-r0
+    PkgName: tshark
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/tshark@4.6.3-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: f9f76e6b22fa2c2c
+    InstalledVersion: 4.6.3-r0
+    FixedVersion: 4.6.4-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-3202
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:a8e801d0bba6bb4173042263f1a7e1a8440ee0e6e58d3bcd4284bc2672ddbff5
+    Title: 'wireshark: NULL Pointer Dereference in Wireshark'
+    Description: NTS-KE protocol dissector crash in Wireshark 4.6.0 to 4.6.3 allows denial of service
+    Severity: HIGH
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-3202
+    - https://gitlab.com/wireshark/wireshark/-/issues/21000
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-3202
+    - https://www.cve.org/CVERecord?id=CVE-2026-3202
+    - https://www.wireshark.org/security/wnpa-sec-2026-06.html
+    PublishedDate: '2026-02-25T15:20:55.79Z'
+    LastModifiedDate: '2026-02-26T14:47:37.923Z'
+  - VulnerabilityID: CVE-2026-3203
+    PkgID: tshark@4.6.3-r0
+    PkgName: tshark
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/tshark@4.6.3-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: f9f76e6b22fa2c2c
+    InstalledVersion: 4.6.3-r0
+    FixedVersion: 4.6.4-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-3203
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:bcf3169c6bbe0f16debc5f40f8d9725132edbbb3f386a41f17ca9f2d2d72d43c
+    Title: 'wireshark: Buffer Over-read in Wireshark'
+    Description: RF4CE Profile protocol dissector crash in Wireshark 4.6.0 to 4.6.3 and 4.4.0 to 4.4.13 allows denial of service
+    Severity: HIGH
+    CweIDs:
+    - CWE-126
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-3203
+    - https://gitlab.com/wireshark/wireshark/-/issues/21009
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-3203
+    - https://www.cve.org/CVERecord?id=CVE-2026-3203
+    - https://www.wireshark.org/security/wnpa-sec-2026-07.html
+    PublishedDate: '2026-02-25T15:20:55.973Z'
+    LastModifiedDate: '2026-02-26T14:41:13.87Z'
+  - VulnerabilityID: CVE-2026-28417
+    PkgID: vim@9.2.0061-r0
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 6ff31aad45809a44
+    InstalledVersion: 9.2.0061-r0
+    FixedVersion: 9.2.0078-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28417
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:c724f450e9b2bcf06b2632c006ec45ea0badfc1fa6bb8e2ab2ac7e0b10d7017e
+    Title: 'vim: Vim: Arbitrary code execution via OS command injection in the netrw plugin'
+    Description: Vim is an open source, command line text editor. Prior to version 9.2.0073, an OS command injection vulnerability exists in the `netrw` standard plugin bundled with Vim. By inducing a user to open a crafted URL (e.g., using the `scp://` protocol handler), an attacker can execute arbitrary shell commands with the privileges of the Vim process. Version 9.2.0073 fixes the issue.
+    Severity: HIGH
+    CweIDs:
+    - CWE-86
+    - CWE-78
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+        V3Score: 4.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/27/6
+    - https://access.redhat.com/security/cve/CVE-2026-28417
+    - https://github.com/vim/vim/commit/79348dbbc09332130f4c860
+    - https://github.com/vim/vim/releases/tag/v9.2.0073
+    - https://github.com/vim/vim/security/advisories/GHSA-m3xh-9434-g336
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28417
+    - https://www.cve.org/CVERecord?id=CVE-2026-28417
+    PublishedDate: '2026-02-27T22:16:24.833Z'
+    LastModifiedDate: '2026-03-03T17:50:29.827Z'
+  - VulnerabilityID: CVE-2026-28418
+    PkgID: vim@9.2.0061-r0
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 6ff31aad45809a44
+    InstalledVersion: 9.2.0061-r0
+    FixedVersion: 9.2.0078-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28418
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:f34d075d4d2d82ef21952e381dc0f1c88a77f3d588bd0287070910ebf5abe70a
+    Title: 'vim: Vim: Information disclosure via heap-based buffer overflow in Emacs-style tags file parsing'
+    Description: Vim is an open source, command line text editor. Prior to version 9.2.0074, a heap-based buffer overflow out-of-bounds read exists in Vim's Emacs-style tags file parsing logic. When processing a malformed tags file, Vim can be tricked into reading up to 7 bytes beyond the allocated memory boundary. Version 9.2.0074 fixes the issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    - CWE-125
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/27/7
+    - https://access.redhat.com/security/cve/CVE-2026-28418
+    - https://github.com/vim/vim/commit/f6a7f469a9c0d09e84cd6cb
+    - https://github.com/vim/vim/releases/tag/v9.2.0074
+    - https://github.com/vim/vim/security/advisories/GHSA-h4mf-vg97-hj8j
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28418
+    - https://www.cve.org/CVERecord?id=CVE-2026-28418
+    PublishedDate: '2026-02-27T22:16:25.003Z'
+    LastModifiedDate: '2026-03-03T17:49:55.213Z'
+  - VulnerabilityID: CVE-2026-28419
+    PkgID: vim@9.2.0061-r0
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 6ff31aad45809a44
+    InstalledVersion: 9.2.0061-r0
+    FixedVersion: 9.2.0078-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28419
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:1dfb2502a1c5244e966b6a1d2f7d423c65f3cc25a3610171061c805f66e85846
+    Title: 'vim: Vim: Information disclosure and denial of service via malformed tags file'
+    Description: Vim is an open source, command line text editor. Prior to version 9.2.0075, a heap-based buffer underflow exists in Vim's Emacs-style tags file parsing logic. When processing a malformed tags file where a delimiter appears at the start of a line, Vim attempts to read memory immediately preceding the allocated buffer. Version 9.2.0075 fixes the issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-124
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/27/8
+    - https://access.redhat.com/security/cve/CVE-2026-28419
+    - https://github.com/vim/vim/commit/9b7dfa2948c9e1e5e32a5812
+    - https://github.com/vim/vim/releases/tag/v9.2.0075
+    - https://github.com/vim/vim/security/advisories/GHSA-xcc8-r6c5-hvwv
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28419
+    - https://www.cve.org/CVERecord?id=CVE-2026-28419
+    PublishedDate: '2026-02-27T22:16:25.163Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
+  - VulnerabilityID: CVE-2026-28420
+    PkgID: vim@9.2.0061-r0
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 6ff31aad45809a44
+    InstalledVersion: 9.2.0061-r0
+    FixedVersion: 9.2.0078-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28420
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:5bd1030d9033f0c48a3b4db1d844ee4f03948e85268cf48686ea3db7e9eab499
+    Title: 'vim: Vim: Information disclosure and denial of service via crafted Unicode characters in terminal emulator'
+    Description: Vim is an open source, command line text editor. Prior to version 9.2.0076, a heap-based buffer overflow WRITE and an out-of-bounds READ exist in Vim's terminal emulator when processing maximum combining characters from Unicode supplementary planes. Version 9.2.0076 fixes the issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L
+        V3Score: 4.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/27/9
+    - https://access.redhat.com/security/cve/CVE-2026-28420
+    - https://github.com/vim/vim/commit/bb6de2105b160e729c34063
+    - https://github.com/vim/vim/releases/tag/v9.2.0076
+    - https://github.com/vim/vim/security/advisories/GHSA-rvj2-jrf9-2phg
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28420
+    - https://www.cve.org/CVERecord?id=CVE-2026-28420
+    PublishedDate: '2026-02-27T22:16:25.33Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
+  - VulnerabilityID: CVE-2026-28421
+    PkgID: vim@9.2.0061-r0
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 6ff31aad45809a44
+    InstalledVersion: 9.2.0061-r0
+    FixedVersion: 9.2.0078-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28421
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:dc92bd0eedad7a72748da84620f3dd20aaad4d2c315625885669b63ea97d4c50
+    Title: 'vim: Vim: Denial of service and information disclosure via crafted swap file'
+    Description: Vim is an open source, command line text editor. Versions prior to 9.2.0077 have a heap-buffer-overflow and a segmentation fault (SEGV) exist in Vim's swap file recovery logic. Both are caused by unvalidated fields read from crafted pointer blocks within a swap file. Version 9.2.0077 fixes the issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-20
+    - CWE-122
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/27/10
+    - https://access.redhat.com/security/cve/CVE-2026-28421
+    - https://github.com/vim/vim/commit/65c1a143c331c886dc28
+    - https://github.com/vim/vim/releases/tag/v9.2.0077
+    - https://github.com/vim/vim/security/advisories/GHSA-r2gw-2x48-jj5p
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28421
+    - https://www.cve.org/CVERecord?id=CVE-2026-28421
+    PublishedDate: '2026-02-27T22:16:25.493Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
+  - VulnerabilityID: CVE-2026-28422
+    PkgID: vim@9.2.0061-r0
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 6ff31aad45809a44
+    InstalledVersion: 9.2.0061-r0
+    FixedVersion: 9.2.0078-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28422
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:b3dba7d37497b2c687c9e7f9ea730eb0a2297851eebc4c1a122a8be0a542d028
+    Title: 'vim: Vim: Integrity impact due to stack-buffer-overflow via wide terminal statusline rendering'
+    Description: Vim is an open source, command line text editor. Prior to version 9.2.0078, a stack-buffer-overflow occurs in `build_stl_str_hl()` when rendering a statusline with a multi-byte fill character on a very wide terminal. Version 9.2.0078 patches the issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:L/A:N
+        V3Score: 2.2
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/27/11
+    - https://access.redhat.com/security/cve/CVE-2026-28422
+    - https://github.com/vim/vim/commit/4e5b9e31cb7484ad156f
+    - https://github.com/vim/vim/releases/tag/v9.2.0078
+    - https://github.com/vim/vim/security/advisories/GHSA-gmqx-prf2-8mwf
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28422
+    - https://www.cve.org/CVERecord?id=CVE-2026-28422
+    PublishedDate: '2026-02-27T22:16:25.667Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
+  - VulnerabilityID: CVE-2026-28417
+    PkgID: vim-common@9.2.0061-r0
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim-common@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5f07d50baf4fbd21
+    InstalledVersion: 9.2.0061-r0
+    FixedVersion: 9.2.0078-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28417
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:6d448f90ce562fd0554bb798c7cb4dec8ef61c47a3861be51f6a3468fb08497d
+    Title: 'vim: Vim: Arbitrary code execution via OS command injection in the netrw plugin'
+    Description: Vim is an open source, command line text editor. Prior to version 9.2.0073, an OS command injection vulnerability exists in the `netrw` standard plugin bundled with Vim. By inducing a user to open a crafted URL (e.g., using the `scp://` protocol handler), an attacker can execute arbitrary shell commands with the privileges of the Vim process. Version 9.2.0073 fixes the issue.
+    Severity: HIGH
+    CweIDs:
+    - CWE-86
+    - CWE-78
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+        V3Score: 4.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/27/6
+    - https://access.redhat.com/security/cve/CVE-2026-28417
+    - https://github.com/vim/vim/commit/79348dbbc09332130f4c860
+    - https://github.com/vim/vim/releases/tag/v9.2.0073
+    - https://github.com/vim/vim/security/advisories/GHSA-m3xh-9434-g336
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28417
+    - https://www.cve.org/CVERecord?id=CVE-2026-28417
+    PublishedDate: '2026-02-27T22:16:24.833Z'
+    LastModifiedDate: '2026-03-03T17:50:29.827Z'
+  - VulnerabilityID: CVE-2026-28418
+    PkgID: vim-common@9.2.0061-r0
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim-common@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5f07d50baf4fbd21
+    InstalledVersion: 9.2.0061-r0
+    FixedVersion: 9.2.0078-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28418
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:a8dab924f9237e2e62fea9b4640f5e62ab2e2ed8cad502a136bd0769bd86c036
+    Title: 'vim: Vim: Information disclosure via heap-based buffer overflow in Emacs-style tags file parsing'
+    Description: Vim is an open source, command line text editor. Prior to version 9.2.0074, a heap-based buffer overflow out-of-bounds read exists in Vim's Emacs-style tags file parsing logic. When processing a malformed tags file, Vim can be tricked into reading up to 7 bytes beyond the allocated memory boundary. Version 9.2.0074 fixes the issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    - CWE-125
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/27/7
+    - https://access.redhat.com/security/cve/CVE-2026-28418
+    - https://github.com/vim/vim/commit/f6a7f469a9c0d09e84cd6cb
+    - https://github.com/vim/vim/releases/tag/v9.2.0074
+    - https://github.com/vim/vim/security/advisories/GHSA-h4mf-vg97-hj8j
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28418
+    - https://www.cve.org/CVERecord?id=CVE-2026-28418
+    PublishedDate: '2026-02-27T22:16:25.003Z'
+    LastModifiedDate: '2026-03-03T17:49:55.213Z'
+  - VulnerabilityID: CVE-2026-28419
+    PkgID: vim-common@9.2.0061-r0
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim-common@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5f07d50baf4fbd21
+    InstalledVersion: 9.2.0061-r0
+    FixedVersion: 9.2.0078-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28419
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:c754701c1433ef56d8dd3c8eab7c65c3d3e30c802016a215b11643826667566c
+    Title: 'vim: Vim: Information disclosure and denial of service via malformed tags file'
+    Description: Vim is an open source, command line text editor. Prior to version 9.2.0075, a heap-based buffer underflow exists in Vim's Emacs-style tags file parsing logic. When processing a malformed tags file where a delimiter appears at the start of a line, Vim attempts to read memory immediately preceding the allocated buffer. Version 9.2.0075 fixes the issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-124
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/27/8
+    - https://access.redhat.com/security/cve/CVE-2026-28419
+    - https://github.com/vim/vim/commit/9b7dfa2948c9e1e5e32a5812
+    - https://github.com/vim/vim/releases/tag/v9.2.0075
+    - https://github.com/vim/vim/security/advisories/GHSA-xcc8-r6c5-hvwv
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28419
+    - https://www.cve.org/CVERecord?id=CVE-2026-28419
+    PublishedDate: '2026-02-27T22:16:25.163Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
+  - VulnerabilityID: CVE-2026-28420
+    PkgID: vim-common@9.2.0061-r0
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim-common@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5f07d50baf4fbd21
+    InstalledVersion: 9.2.0061-r0
+    FixedVersion: 9.2.0078-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28420
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:866cb393e341dbe637850b3f259966cc4b54024f60d90dcbed21202c6ed43d72
+    Title: 'vim: Vim: Information disclosure and denial of service via crafted Unicode characters in terminal emulator'
+    Description: Vim is an open source, command line text editor. Prior to version 9.2.0076, a heap-based buffer overflow WRITE and an out-of-bounds READ exist in Vim's terminal emulator when processing maximum combining characters from Unicode supplementary planes. Version 9.2.0076 fixes the issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L
+        V3Score: 4.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/27/9
+    - https://access.redhat.com/security/cve/CVE-2026-28420
+    - https://github.com/vim/vim/commit/bb6de2105b160e729c34063
+    - https://github.com/vim/vim/releases/tag/v9.2.0076
+    - https://github.com/vim/vim/security/advisories/GHSA-rvj2-jrf9-2phg
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28420
+    - https://www.cve.org/CVERecord?id=CVE-2026-28420
+    PublishedDate: '2026-02-27T22:16:25.33Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
+  - VulnerabilityID: CVE-2026-28421
+    PkgID: vim-common@9.2.0061-r0
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim-common@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5f07d50baf4fbd21
+    InstalledVersion: 9.2.0061-r0
+    FixedVersion: 9.2.0078-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28421
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:255d49a0a33bd3b1de60cb035e84885bb64fd400aed81fee6530282ceaa30f46
+    Title: 'vim: Vim: Denial of service and information disclosure via crafted swap file'
+    Description: Vim is an open source, command line text editor. Versions prior to 9.2.0077 have a heap-buffer-overflow and a segmentation fault (SEGV) exist in Vim's swap file recovery logic. Both are caused by unvalidated fields read from crafted pointer blocks within a swap file. Version 9.2.0077 fixes the issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-20
+    - CWE-122
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/27/10
+    - https://access.redhat.com/security/cve/CVE-2026-28421
+    - https://github.com/vim/vim/commit/65c1a143c331c886dc28
+    - https://github.com/vim/vim/releases/tag/v9.2.0077
+    - https://github.com/vim/vim/security/advisories/GHSA-r2gw-2x48-jj5p
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28421
+    - https://www.cve.org/CVERecord?id=CVE-2026-28421
+    PublishedDate: '2026-02-27T22:16:25.493Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
+  - VulnerabilityID: CVE-2026-28422
+    PkgID: vim-common@9.2.0061-r0
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim-common@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5f07d50baf4fbd21
+    InstalledVersion: 9.2.0061-r0
+    FixedVersion: 9.2.0078-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28422
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:98d98aacd35b7149c4d3dca3189f26f34bc0668fd9016e06ad5c34ddb49c646a
+    Title: 'vim: Vim: Integrity impact due to stack-buffer-overflow via wide terminal statusline rendering'
+    Description: Vim is an open source, command line text editor. Prior to version 9.2.0078, a stack-buffer-overflow occurs in `build_stl_str_hl()` when rendering a statusline with a multi-byte fill character on a very wide terminal. Version 9.2.0078 patches the issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:L/A:N
+        V3Score: 2.2
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/27/11
+    - https://access.redhat.com/security/cve/CVE-2026-28422
+    - https://github.com/vim/vim/commit/4e5b9e31cb7484ad156f
+    - https://github.com/vim/vim/releases/tag/v9.2.0078
+    - https://github.com/vim/vim/security/advisories/GHSA-gmqx-prf2-8mwf
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28422
+    - https://www.cve.org/CVERecord?id=CVE-2026-28422
+    PublishedDate: '2026-02-27T22:16:25.667Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
+  - VulnerabilityID: CVE-2026-3201
+    PkgID: wireshark-common@4.6.3-r0
+    PkgName: wireshark-common
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/wireshark-common@4.6.3-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5dc3b94e56ed1bca
+    InstalledVersion: 4.6.3-r0
+    FixedVersion: 4.6.4-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-3201
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:81450ddac1e24588d9dbe839e9595ca0ae4eabd487a1ad7d50bd3b8b000e4939
+    Title: 'wireshark: Improperly Controlled Sequential Memory Allocation in Wireshark'
+    Description: USB HID protocol dissector memory exhaustion in Wireshark 4.6.0 to 4.6.3 and 4.4.0 to 4.4.13 allows denial of service
+    Severity: HIGH
+    CweIDs:
+    - CWE-1325
+    - CWE-770
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-3201
+    - https://gitlab.com/wireshark/wireshark/-/issues/20972
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-3201
+    - https://www.cve.org/CVERecord?id=CVE-2026-3201
+    - https://www.wireshark.org/security/wnpa-sec-2026-05.html
+    PublishedDate: '2026-02-25T15:20:55.617Z'
+    LastModifiedDate: '2026-02-26T14:49:01.05Z'
+  - VulnerabilityID: CVE-2026-3202
+    PkgID: wireshark-common@4.6.3-r0
+    PkgName: wireshark-common
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/wireshark-common@4.6.3-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5dc3b94e56ed1bca
+    InstalledVersion: 4.6.3-r0
+    FixedVersion: 4.6.4-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-3202
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:675bb33008495a3f86137c28aca597a2ac86496f07cee1cd6cdbadfeb86d0ab9
+    Title: 'wireshark: NULL Pointer Dereference in Wireshark'
+    Description: NTS-KE protocol dissector crash in Wireshark 4.6.0 to 4.6.3 allows denial of service
+    Severity: HIGH
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-3202
+    - https://gitlab.com/wireshark/wireshark/-/issues/21000
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-3202
+    - https://www.cve.org/CVERecord?id=CVE-2026-3202
+    - https://www.wireshark.org/security/wnpa-sec-2026-06.html
+    PublishedDate: '2026-02-25T15:20:55.79Z'
+    LastModifiedDate: '2026-02-26T14:47:37.923Z'
+  - VulnerabilityID: CVE-2026-3203
+    PkgID: wireshark-common@4.6.3-r0
+    PkgName: wireshark-common
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/wireshark-common@4.6.3-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5dc3b94e56ed1bca
+    InstalledVersion: 4.6.3-r0
+    FixedVersion: 4.6.4-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-3203
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:94445d6ba947108c72d973b88c1ce9463b993dcf2369ed1018d95f07968fa0e9
+    Title: 'wireshark: Buffer Over-read in Wireshark'
+    Description: RF4CE Profile protocol dissector crash in Wireshark 4.6.0 to 4.6.3 and 4.4.0 to 4.4.13 allows denial of service
+    Severity: HIGH
+    CweIDs:
+    - CWE-126
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-3203
+    - https://gitlab.com/wireshark/wireshark/-/issues/21009
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-3203
+    - https://www.cve.org/CVERecord?id=CVE-2026-3203
+    - https://www.wireshark.org/security/wnpa-sec-2026-07.html
+    PublishedDate: '2026-02-25T15:20:55.973Z'
+    LastModifiedDate: '2026-02-26T14:41:13.87Z'
+  - VulnerabilityID: CVE-2026-28417
+    PkgID: xxd@9.2.0061-r0
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/xxd@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9f43851c4b638d42
+    InstalledVersion: 9.2.0061-r0
+    FixedVersion: 9.2.0078-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28417
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:51a10cf39a89612d0ce37abe6994a86ca10661750e56c7557b18e1062e3242f5
+    Title: 'vim: Vim: Arbitrary code execution via OS command injection in the netrw plugin'
+    Description: Vim is an open source, command line text editor. Prior to version 9.2.0073, an OS command injection vulnerability exists in the `netrw` standard plugin bundled with Vim. By inducing a user to open a crafted URL (e.g., using the `scp://` protocol handler), an attacker can execute arbitrary shell commands with the privileges of the Vim process. Version 9.2.0073 fixes the issue.
+    Severity: HIGH
+    CweIDs:
+    - CWE-86
+    - CWE-78
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+        V3Score: 4.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/27/6
+    - https://access.redhat.com/security/cve/CVE-2026-28417
+    - https://github.com/vim/vim/commit/79348dbbc09332130f4c860
+    - https://github.com/vim/vim/releases/tag/v9.2.0073
+    - https://github.com/vim/vim/security/advisories/GHSA-m3xh-9434-g336
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28417
+    - https://www.cve.org/CVERecord?id=CVE-2026-28417
+    PublishedDate: '2026-02-27T22:16:24.833Z'
+    LastModifiedDate: '2026-03-03T17:50:29.827Z'
+  - VulnerabilityID: CVE-2026-28418
+    PkgID: xxd@9.2.0061-r0
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/xxd@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9f43851c4b638d42
+    InstalledVersion: 9.2.0061-r0
+    FixedVersion: 9.2.0078-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28418
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:2637f48346326069379be687c2e30fdb04c698a487e9cc24adc913ae643cf992
+    Title: 'vim: Vim: Information disclosure via heap-based buffer overflow in Emacs-style tags file parsing'
+    Description: Vim is an open source, command line text editor. Prior to version 9.2.0074, a heap-based buffer overflow out-of-bounds read exists in Vim's Emacs-style tags file parsing logic. When processing a malformed tags file, Vim can be tricked into reading up to 7 bytes beyond the allocated memory boundary. Version 9.2.0074 fixes the issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    - CWE-125
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/27/7
+    - https://access.redhat.com/security/cve/CVE-2026-28418
+    - https://github.com/vim/vim/commit/f6a7f469a9c0d09e84cd6cb
+    - https://github.com/vim/vim/releases/tag/v9.2.0074
+    - https://github.com/vim/vim/security/advisories/GHSA-h4mf-vg97-hj8j
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28418
+    - https://www.cve.org/CVERecord?id=CVE-2026-28418
+    PublishedDate: '2026-02-27T22:16:25.003Z'
+    LastModifiedDate: '2026-03-03T17:49:55.213Z'
+  - VulnerabilityID: CVE-2026-28419
+    PkgID: xxd@9.2.0061-r0
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/xxd@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9f43851c4b638d42
+    InstalledVersion: 9.2.0061-r0
+    FixedVersion: 9.2.0078-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28419
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:11839d38e92c2069002d92f8d627534950f28da1acbc180994b05a15111a172c
+    Title: 'vim: Vim: Information disclosure and denial of service via malformed tags file'
+    Description: Vim is an open source, command line text editor. Prior to version 9.2.0075, a heap-based buffer underflow exists in Vim's Emacs-style tags file parsing logic. When processing a malformed tags file where a delimiter appears at the start of a line, Vim attempts to read memory immediately preceding the allocated buffer. Version 9.2.0075 fixes the issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-124
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/27/8
+    - https://access.redhat.com/security/cve/CVE-2026-28419
+    - https://github.com/vim/vim/commit/9b7dfa2948c9e1e5e32a5812
+    - https://github.com/vim/vim/releases/tag/v9.2.0075
+    - https://github.com/vim/vim/security/advisories/GHSA-xcc8-r6c5-hvwv
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28419
+    - https://www.cve.org/CVERecord?id=CVE-2026-28419
+    PublishedDate: '2026-02-27T22:16:25.163Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
+  - VulnerabilityID: CVE-2026-28420
+    PkgID: xxd@9.2.0061-r0
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/xxd@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9f43851c4b638d42
+    InstalledVersion: 9.2.0061-r0
+    FixedVersion: 9.2.0078-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28420
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:60cf3139ffe39157f9b465f297524ff280ba779d29602166eeda9d50e1cf6c63
+    Title: 'vim: Vim: Information disclosure and denial of service via crafted Unicode characters in terminal emulator'
+    Description: Vim is an open source, command line text editor. Prior to version 9.2.0076, a heap-based buffer overflow WRITE and an out-of-bounds READ exist in Vim's terminal emulator when processing maximum combining characters from Unicode supplementary planes. Version 9.2.0076 fixes the issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L
+        V3Score: 4.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/27/9
+    - https://access.redhat.com/security/cve/CVE-2026-28420
+    - https://github.com/vim/vim/commit/bb6de2105b160e729c34063
+    - https://github.com/vim/vim/releases/tag/v9.2.0076
+    - https://github.com/vim/vim/security/advisories/GHSA-rvj2-jrf9-2phg
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28420
+    - https://www.cve.org/CVERecord?id=CVE-2026-28420
+    PublishedDate: '2026-02-27T22:16:25.33Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
+  - VulnerabilityID: CVE-2026-28421
+    PkgID: xxd@9.2.0061-r0
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/xxd@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9f43851c4b638d42
+    InstalledVersion: 9.2.0061-r0
+    FixedVersion: 9.2.0078-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28421
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:79f583e9530f5a7adafe9da014b9a18671c939359de5364e8394ae5804b95327
+    Title: 'vim: Vim: Denial of service and information disclosure via crafted swap file'
+    Description: Vim is an open source, command line text editor. Versions prior to 9.2.0077 have a heap-buffer-overflow and a segmentation fault (SEGV) exist in Vim's swap file recovery logic. Both are caused by unvalidated fields read from crafted pointer blocks within a swap file. Version 9.2.0077 fixes the issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-20
+    - CWE-122
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/27/10
+    - https://access.redhat.com/security/cve/CVE-2026-28421
+    - https://github.com/vim/vim/commit/65c1a143c331c886dc28
+    - https://github.com/vim/vim/releases/tag/v9.2.0077
+    - https://github.com/vim/vim/security/advisories/GHSA-r2gw-2x48-jj5p
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28421
+    - https://www.cve.org/CVERecord?id=CVE-2026-28421
+    PublishedDate: '2026-02-27T22:16:25.493Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
+  - VulnerabilityID: CVE-2026-28422
+    PkgID: xxd@9.2.0061-r0
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/xxd@9.2.0061-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9f43851c4b638d42
+    InstalledVersion: 9.2.0061-r0
+    FixedVersion: 9.2.0078-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:562fd51e02ddbba7b0a5b50d107315406698e5ebbb815f1c301e17d9df124bf8
+      DiffID: sha256:adfa55f1815f53ba814aeb91c31c6fd6d0b2679856c495f4c957994588038c34
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28422
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:abe1161bd64e85912f6a0af9bc5831d6ff49a663e73b6116075c5ba01a2302a7
+    Title: 'vim: Vim: Integrity impact due to stack-buffer-overflow via wide terminal statusline rendering'
+    Description: Vim is an open source, command line text editor. Prior to version 9.2.0078, a stack-buffer-overflow occurs in `build_stl_str_hl()` when rendering a statusline with a multi-byte fill character on a very wide terminal. Version 9.2.0078 patches the issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:L/A:N
+        V3Score: 2.2
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/27/11
+    - https://access.redhat.com/security/cve/CVE-2026-28422
+    - https://github.com/vim/vim/commit/4e5b9e31cb7484ad156f
+    - https://github.com/vim/vim/releases/tag/v9.2.0078
+    - https://github.com/vim/vim/security/advisories/GHSA-gmqx-prf2-8mwf
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28422
+    - https://www.cve.org/CVERecord?id=CVE-2026-28422
+    PublishedDate: '2026-02-27T22:16:25.667Z'
+    LastModifiedDate: '2026-03-02T20:30:10.923Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
