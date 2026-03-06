@@ -15106,7 +15106,56 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28417 
 │                       │      ├ PublishedDate   : 2026-02-27T22:16:24.833Z 
 │                       │      ╰ LastModifiedDate: 2026-03-03T17:50:29.827Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-28418 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-28421 
+│                       │      ├ PkgID           : vim@9.1.2135-r0 
+│                       │      ├ PkgName         : vim 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.1.2135-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       4.0_alpha20260127 
+│                       │      │                  ╰ UID : 66f2e1bac1bb3ff6 
+│                       │      ├ InstalledVersion: 9.1.2135-r0 
+│                       │      ├ FixedVersion    : 9.2.0078-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:5ab457dc12c28c3c99b5b743b092c690aeb3361182be
+│                       │      │                  │         9c168aacb768f93b6c82 
+│                       │      │                  ╰ DiffID: sha256:16c6daceda40375b4172f2fc081c80ce1139f4740e7e
+│                       │      │                            6f2d8facb56f9ff8d3f1 
+│                       │      ├ SeveritySource  : nvd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28421 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:7a71a5f62c5be3e0e36f079855a27b0d1c4150113cc1e6d36fa72
+│                       │      │                   6779d8ef74e 
+│                       │      ├ Title           : vim: Vim: Denial of service and information disclosure via
+│                       │      │                   crafted swap file 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Versions
+│                       │      │                   prior to 9.2.0077 have a heap-buffer-overflow and a
+│                       │      │                   segmentation fault (SEGV) exist in Vim's swap file recovery
+│                       │      │                   logic. Both are caused by unvalidated fields read from
+│                       │      │                   crafted pointer blocks within a swap file. Version 9.2.0077
+│                       │      │                   fixes the issue. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ╭ [0]: CWE-20 
+│                       │      │                  ╰ [1]: CWE-122 
+│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      │                  ╰ redhat: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.8 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/27/10 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-28421 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/65c1a143c331c886dc28 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.2.0077 
+│                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-r2
+│                       │      │                  │      gw-2x48-jj5p 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-28421 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28421 
+│                       │      ├ PublishedDate   : 2026-02-27T22:16:25.493Z 
+│                       │      ╰ LastModifiedDate: 2026-03-04T20:47:36.62Z 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-28418 
 │                       │      ├ PkgID           : vim@9.1.2135-r0 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.1.2135-r0?arch=x86_64&distro=3.2
@@ -15156,7 +15205,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28418 
 │                       │      ├ PublishedDate   : 2026-02-27T22:16:25.003Z 
 │                       │      ╰ LastModifiedDate: 2026-03-03T17:49:55.213Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-28419 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-28419 
 │                       │      ├ PkgID           : vim@9.1.2135-r0 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.1.2135-r0?arch=x86_64&distro=3.2
@@ -15169,6 +15218,7 @@
 │                       │      │                  │         9c168aacb768f93b6c82 
 │                       │      │                  ╰ DiffID: sha256:16c6daceda40375b4172f2fc081c80ce1139f4740e7e
 │                       │      │                            6f2d8facb56f9ff8d3f1 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28419 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -15186,8 +15236,12 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ╭ [0]: CWE-124 
 │                       │      │                  ╰ [1]: CWE-125 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ╰ redhat: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 6.6 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/27/8 
@@ -15200,8 +15254,8 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-28419 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28419 
 │                       │      ├ PublishedDate   : 2026-02-27T22:16:25.163Z 
-│                       │      ╰ LastModifiedDate: 2026-03-02T20:30:10.923Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-28420 
+│                       │      ╰ LastModifiedDate: 2026-03-04T21:22:05.74Z 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-28420 
 │                       │      ├ PkgID           : vim@9.1.2135-r0 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.1.2135-r0?arch=x86_64&distro=3.2
@@ -15214,6 +15268,7 @@
 │                       │      │                  │         9c168aacb768f93b6c82 
 │                       │      │                  ╰ DiffID: sha256:16c6daceda40375b4172f2fc081c80ce1139f4740e7e
 │                       │      │                            6f2d8facb56f9ff8d3f1 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28420 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -15230,8 +15285,12 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ╭ [0]: CWE-122 
 │                       │      │                  ╰ [1]: CWE-125 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ╰ redhat: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L
+│                       │      │                  │        │           /A:L 
+│                       │      │                  │        ╰ V3Score : 4.4 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.4 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/27/9 
@@ -15244,51 +15303,7 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-28420 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28420 
 │                       │      ├ PublishedDate   : 2026-02-27T22:16:25.33Z 
-│                       │      ╰ LastModifiedDate: 2026-03-02T20:30:10.923Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-28421 
-│                       │      ├ PkgID           : vim@9.1.2135-r0 
-│                       │      ├ PkgName         : vim 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.1.2135-r0?arch=x86_64&distro=3.2
-│                       │      │                  │       4.0_alpha20260127 
-│                       │      │                  ╰ UID : 66f2e1bac1bb3ff6 
-│                       │      ├ InstalledVersion: 9.1.2135-r0 
-│                       │      ├ FixedVersion    : 9.2.0078-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:5ab457dc12c28c3c99b5b743b092c690aeb3361182be
-│                       │      │                  │         9c168aacb768f93b6c82 
-│                       │      │                  ╰ DiffID: sha256:16c6daceda40375b4172f2fc081c80ce1139f4740e7e
-│                       │      │                            6f2d8facb56f9ff8d3f1 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28421 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:7a71a5f62c5be3e0e36f079855a27b0d1c4150113cc1e6d36fa72
-│                       │      │                   6779d8ef74e 
-│                       │      ├ Title           : vim: Vim: Denial of service and information disclosure via
-│                       │      │                   crafted swap file 
-│                       │      ├ Description     : Vim is an open source, command line text editor. Versions
-│                       │      │                   prior to 9.2.0077 have a heap-buffer-overflow and a
-│                       │      │                   segmentation fault (SEGV) exist in Vim's swap file recovery
-│                       │      │                   logic. Both are caused by unvalidated fields read from
-│                       │      │                   crafted pointer blocks within a swap file. Version 9.2.0077
-│                       │      │                   fixes the issue. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ╭ [0]: CWE-20 
-│                       │      │                  ╰ [1]: CWE-122 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/27/10 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-28421 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/65c1a143c331c886dc28 
-│                       │      │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.2.0077 
-│                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-r2
-│                       │      │                  │      gw-2x48-jj5p 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-28421 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28421 
-│                       │      ├ PublishedDate   : 2026-02-27T22:16:25.493Z 
-│                       │      ╰ LastModifiedDate: 2026-03-02T20:30:10.923Z 
+│                       │      ╰ LastModifiedDate: 2026-03-04T20:47:23.017Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2026-28422 
 │                       │      ├ PkgID           : vim@9.1.2135-r0 
 │                       │      ├ PkgName         : vim 
@@ -15330,7 +15345,7 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-28422 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28422 
 │                       │      ├ PublishedDate   : 2026-02-27T22:16:25.667Z 
-│                       │      ╰ LastModifiedDate: 2026-03-02T20:30:10.923Z 
+│                       │      ╰ LastModifiedDate: 2026-03-04T20:44:22.99Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2026-28417 
 │                       │      ├ PkgID           : vim-common@9.1.2135-r0 
 │                       │      ├ PkgName         : vim-common 
@@ -15382,7 +15397,56 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28417 
 │                       │      ├ PublishedDate   : 2026-02-27T22:16:24.833Z 
 │                       │      ╰ LastModifiedDate: 2026-03-03T17:50:29.827Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2026-28418 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2026-28421 
+│                       │      ├ PkgID           : vim-common@9.1.2135-r0 
+│                       │      ├ PkgName         : vim-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.1.2135-r0?arch=x86_64&dis
+│                       │      │                  │       tro=3.24.0_alpha20260127 
+│                       │      │                  ╰ UID : b0fe18a81e690bca 
+│                       │      ├ InstalledVersion: 9.1.2135-r0 
+│                       │      ├ FixedVersion    : 9.2.0078-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:5ab457dc12c28c3c99b5b743b092c690aeb3361182be
+│                       │      │                  │         9c168aacb768f93b6c82 
+│                       │      │                  ╰ DiffID: sha256:16c6daceda40375b4172f2fc081c80ce1139f4740e7e
+│                       │      │                            6f2d8facb56f9ff8d3f1 
+│                       │      ├ SeveritySource  : nvd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28421 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:d8986291787b547e4aa5c7ea061d4f22ee85905b36d85b5e45dcc
+│                       │      │                   b03cede85d2 
+│                       │      ├ Title           : vim: Vim: Denial of service and information disclosure via
+│                       │      │                   crafted swap file 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Versions
+│                       │      │                   prior to 9.2.0077 have a heap-buffer-overflow and a
+│                       │      │                   segmentation fault (SEGV) exist in Vim's swap file recovery
+│                       │      │                   logic. Both are caused by unvalidated fields read from
+│                       │      │                   crafted pointer blocks within a swap file. Version 9.2.0077
+│                       │      │                   fixes the issue. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ╭ [0]: CWE-20 
+│                       │      │                  ╰ [1]: CWE-122 
+│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      │                  ╰ redhat: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.8 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/27/10 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-28421 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/65c1a143c331c886dc28 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.2.0077 
+│                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-r2
+│                       │      │                  │      gw-2x48-jj5p 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-28421 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28421 
+│                       │      ├ PublishedDate   : 2026-02-27T22:16:25.493Z 
+│                       │      ╰ LastModifiedDate: 2026-03-04T20:47:36.62Z 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2026-28418 
 │                       │      ├ PkgID           : vim-common@9.1.2135-r0 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.1.2135-r0?arch=x86_64&dis
@@ -15432,7 +15496,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28418 
 │                       │      ├ PublishedDate   : 2026-02-27T22:16:25.003Z 
 │                       │      ╰ LastModifiedDate: 2026-03-03T17:49:55.213Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2026-28419 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2026-28419 
 │                       │      ├ PkgID           : vim-common@9.1.2135-r0 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.1.2135-r0?arch=x86_64&dis
@@ -15445,6 +15509,7 @@
 │                       │      │                  │         9c168aacb768f93b6c82 
 │                       │      │                  ╰ DiffID: sha256:16c6daceda40375b4172f2fc081c80ce1139f4740e7e
 │                       │      │                            6f2d8facb56f9ff8d3f1 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28419 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -15462,8 +15527,12 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ╭ [0]: CWE-124 
 │                       │      │                  ╰ [1]: CWE-125 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ╰ redhat: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 6.6 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/27/8 
@@ -15476,8 +15545,8 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-28419 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28419 
 │                       │      ├ PublishedDate   : 2026-02-27T22:16:25.163Z 
-│                       │      ╰ LastModifiedDate: 2026-03-02T20:30:10.923Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2026-28420 
+│                       │      ╰ LastModifiedDate: 2026-03-04T21:22:05.74Z 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2026-28420 
 │                       │      ├ PkgID           : vim-common@9.1.2135-r0 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.1.2135-r0?arch=x86_64&dis
@@ -15490,6 +15559,7 @@
 │                       │      │                  │         9c168aacb768f93b6c82 
 │                       │      │                  ╰ DiffID: sha256:16c6daceda40375b4172f2fc081c80ce1139f4740e7e
 │                       │      │                            6f2d8facb56f9ff8d3f1 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28420 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -15506,8 +15576,12 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ╭ [0]: CWE-122 
 │                       │      │                  ╰ [1]: CWE-125 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ╰ redhat: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L
+│                       │      │                  │        │           /A:L 
+│                       │      │                  │        ╰ V3Score : 4.4 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.4 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/27/9 
@@ -15520,51 +15594,7 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-28420 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28420 
 │                       │      ├ PublishedDate   : 2026-02-27T22:16:25.33Z 
-│                       │      ╰ LastModifiedDate: 2026-03-02T20:30:10.923Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2026-28421 
-│                       │      ├ PkgID           : vim-common@9.1.2135-r0 
-│                       │      ├ PkgName         : vim-common 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.1.2135-r0?arch=x86_64&dis
-│                       │      │                  │       tro=3.24.0_alpha20260127 
-│                       │      │                  ╰ UID : b0fe18a81e690bca 
-│                       │      ├ InstalledVersion: 9.1.2135-r0 
-│                       │      ├ FixedVersion    : 9.2.0078-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:5ab457dc12c28c3c99b5b743b092c690aeb3361182be
-│                       │      │                  │         9c168aacb768f93b6c82 
-│                       │      │                  ╰ DiffID: sha256:16c6daceda40375b4172f2fc081c80ce1139f4740e7e
-│                       │      │                            6f2d8facb56f9ff8d3f1 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28421 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:d8986291787b547e4aa5c7ea061d4f22ee85905b36d85b5e45dcc
-│                       │      │                   b03cede85d2 
-│                       │      ├ Title           : vim: Vim: Denial of service and information disclosure via
-│                       │      │                   crafted swap file 
-│                       │      ├ Description     : Vim is an open source, command line text editor. Versions
-│                       │      │                   prior to 9.2.0077 have a heap-buffer-overflow and a
-│                       │      │                   segmentation fault (SEGV) exist in Vim's swap file recovery
-│                       │      │                   logic. Both are caused by unvalidated fields read from
-│                       │      │                   crafted pointer blocks within a swap file. Version 9.2.0077
-│                       │      │                   fixes the issue. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ╭ [0]: CWE-20 
-│                       │      │                  ╰ [1]: CWE-122 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/27/10 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-28421 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/65c1a143c331c886dc28 
-│                       │      │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.2.0077 
-│                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-r2
-│                       │      │                  │      gw-2x48-jj5p 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-28421 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28421 
-│                       │      ├ PublishedDate   : 2026-02-27T22:16:25.493Z 
-│                       │      ╰ LastModifiedDate: 2026-03-02T20:30:10.923Z 
+│                       │      ╰ LastModifiedDate: 2026-03-04T20:47:23.017Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2026-28422 
 │                       │      ├ PkgID           : vim-common@9.1.2135-r0 
 │                       │      ├ PkgName         : vim-common 
@@ -15606,7 +15636,7 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-28422 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28422 
 │                       │      ├ PublishedDate   : 2026-02-27T22:16:25.667Z 
-│                       │      ╰ LastModifiedDate: 2026-03-02T20:30:10.923Z 
+│                       │      ╰ LastModifiedDate: 2026-03-04T20:44:22.99Z 
 │                       ├ [17] ╭ VulnerabilityID : CVE-2026-3201 
 │                       │      ├ PkgID           : wireshark-common@4.6.3-r0 
 │                       │      ├ PkgName         : wireshark-common 
@@ -15781,7 +15811,56 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28417 
 │                       │      ├ PublishedDate   : 2026-02-27T22:16:24.833Z 
 │                       │      ╰ LastModifiedDate: 2026-03-03T17:50:29.827Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2026-28418 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2026-28421 
+│                       │      ├ PkgID           : xxd@9.1.2135-r0 
+│                       │      ├ PkgName         : xxd 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.1.2135-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       4.0_alpha20260127 
+│                       │      │                  ╰ UID : 62230b6b15255f28 
+│                       │      ├ InstalledVersion: 9.1.2135-r0 
+│                       │      ├ FixedVersion    : 9.2.0078-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:5ab457dc12c28c3c99b5b743b092c690aeb3361182be
+│                       │      │                  │         9c168aacb768f93b6c82 
+│                       │      │                  ╰ DiffID: sha256:16c6daceda40375b4172f2fc081c80ce1139f4740e7e
+│                       │      │                            6f2d8facb56f9ff8d3f1 
+│                       │      ├ SeveritySource  : nvd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28421 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:6f1b165c7433ab4bd4baa9f2bf114a2c69522a2f5235fb008dc70
+│                       │      │                   c073a55e958 
+│                       │      ├ Title           : vim: Vim: Denial of service and information disclosure via
+│                       │      │                   crafted swap file 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Versions
+│                       │      │                   prior to 9.2.0077 have a heap-buffer-overflow and a
+│                       │      │                   segmentation fault (SEGV) exist in Vim's swap file recovery
+│                       │      │                   logic. Both are caused by unvalidated fields read from
+│                       │      │                   crafted pointer blocks within a swap file. Version 9.2.0077
+│                       │      │                   fixes the issue. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ╭ [0]: CWE-20 
+│                       │      │                  ╰ [1]: CWE-122 
+│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      │                  ╰ redhat: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.8 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/27/10 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-28421 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/65c1a143c331c886dc28 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.2.0077 
+│                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-r2
+│                       │      │                  │      gw-2x48-jj5p 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-28421 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28421 
+│                       │      ├ PublishedDate   : 2026-02-27T22:16:25.493Z 
+│                       │      ╰ LastModifiedDate: 2026-03-04T20:47:36.62Z 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2026-28418 
 │                       │      ├ PkgID           : xxd@9.1.2135-r0 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.1.2135-r0?arch=x86_64&distro=3.2
@@ -15831,7 +15910,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28418 
 │                       │      ├ PublishedDate   : 2026-02-27T22:16:25.003Z 
 │                       │      ╰ LastModifiedDate: 2026-03-03T17:49:55.213Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2026-28419 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2026-28419 
 │                       │      ├ PkgID           : xxd@9.1.2135-r0 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.1.2135-r0?arch=x86_64&distro=3.2
@@ -15844,6 +15923,7 @@
 │                       │      │                  │         9c168aacb768f93b6c82 
 │                       │      │                  ╰ DiffID: sha256:16c6daceda40375b4172f2fc081c80ce1139f4740e7e
 │                       │      │                            6f2d8facb56f9ff8d3f1 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28419 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -15861,8 +15941,12 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ╭ [0]: CWE-124 
 │                       │      │                  ╰ [1]: CWE-125 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ╰ redhat: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 6.6 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/27/8 
@@ -15875,8 +15959,8 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-28419 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28419 
 │                       │      ├ PublishedDate   : 2026-02-27T22:16:25.163Z 
-│                       │      ╰ LastModifiedDate: 2026-03-02T20:30:10.923Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2026-28420 
+│                       │      ╰ LastModifiedDate: 2026-03-04T21:22:05.74Z 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2026-28420 
 │                       │      ├ PkgID           : xxd@9.1.2135-r0 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.1.2135-r0?arch=x86_64&distro=3.2
@@ -15889,6 +15973,7 @@
 │                       │      │                  │         9c168aacb768f93b6c82 
 │                       │      │                  ╰ DiffID: sha256:16c6daceda40375b4172f2fc081c80ce1139f4740e7e
 │                       │      │                            6f2d8facb56f9ff8d3f1 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28420 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -15905,8 +15990,12 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ╭ [0]: CWE-122 
 │                       │      │                  ╰ [1]: CWE-125 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ╰ redhat: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L
+│                       │      │                  │        │           /A:L 
+│                       │      │                  │        ╰ V3Score : 4.4 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.4 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/27/9 
@@ -15919,8 +16008,8 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-28420 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28420 
 │                       │      ├ PublishedDate   : 2026-02-27T22:16:25.33Z 
-│                       │      ╰ LastModifiedDate: 2026-03-02T20:30:10.923Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2026-28421 
+│                       │      ╰ LastModifiedDate: 2026-03-04T20:47:23.017Z 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2026-28422 
 │                       │      ├ PkgID           : xxd@9.1.2135-r0 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.1.2135-r0?arch=x86_64&distro=3.2
@@ -15933,79 +16022,134 @@
 │                       │      │                  │         9c168aacb768f93b6c82 
 │                       │      │                  ╰ DiffID: sha256:16c6daceda40375b4172f2fc081c80ce1139f4740e7e
 │                       │      │                            6f2d8facb56f9ff8d3f1 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28421 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28422 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:6f1b165c7433ab4bd4baa9f2bf114a2c69522a2f5235fb008dc70
-│                       │      │                   c073a55e958 
-│                       │      ├ Title           : vim: Vim: Denial of service and information disclosure via
-│                       │      │                   crafted swap file 
-│                       │      ├ Description     : Vim is an open source, command line text editor. Versions
-│                       │      │                   prior to 9.2.0077 have a heap-buffer-overflow and a
-│                       │      │                   segmentation fault (SEGV) exist in Vim's swap file recovery
-│                       │      │                   logic. Both are caused by unvalidated fields read from
-│                       │      │                   crafted pointer blocks within a swap file. Version 9.2.0077
-│                       │      │                   fixes the issue. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ╭ [0]: CWE-20 
-│                       │      │                  ╰ [1]: CWE-122 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/27/10 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-28421 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/65c1a143c331c886dc28 
-│                       │      │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.2.0077 
-│                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-r2
-│                       │      │                  │      gw-2x48-jj5p 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-28421 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28421 
-│                       │      ├ PublishedDate   : 2026-02-27T22:16:25.493Z 
-│                       │      ╰ LastModifiedDate: 2026-03-02T20:30:10.923Z 
-│                       ╰ [25] ╭ VulnerabilityID : CVE-2026-28422 
-│                              ├ PkgID           : xxd@9.1.2135-r0 
-│                              ├ PkgName         : xxd 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.1.2135-r0?arch=x86_64&distro=3.2
-│                              │                  │       4.0_alpha20260127 
-│                              │                  ╰ UID : 62230b6b15255f28 
-│                              ├ InstalledVersion: 9.1.2135-r0 
-│                              ├ FixedVersion    : 9.2.0078-r0 
+│                       │      ├ Fingerprint     : sha256:2ce87e91402bcbf8285c188adb30c6a6ff2bc28a1ca55a9df2f96
+│                       │      │                   56331e6680a 
+│                       │      ├ Title           : vim: Vim: Integrity impact due to stack-buffer-overflow via
+│                       │      │                   wide terminal statusline rendering 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   version 9.2.0078, a stack-buffer-overflow occurs in
+│                       │      │                   `build_stl_str_hl()` when rendering a statusline with a
+│                       │      │                   multi-byte fill character on a very wide terminal. Version
+│                       │      │                   9.2.0078 patches the issue. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-121 
+│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 2.2 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/27/11 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-28422 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/4e5b9e31cb7484ad156f 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.2.0078 
+│                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-gm
+│                       │      │                  │      qx-prf2-8mwf 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-28422 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28422 
+│                       │      ├ PublishedDate   : 2026-02-27T22:16:25.667Z 
+│                       │      ╰ LastModifiedDate: 2026-03-04T20:44:22.99Z 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2026-22184 
+│                       │      ├ PkgID           : zlib@1.3.1-r2 
+│                       │      ├ PkgName         : zlib 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.1-r2?arch=x86_64&distro=3.24.
+│                       │      │                  │       0_alpha20260127 
+│                       │      │                  ╰ UID : c6f558cca1be2488 
+│                       │      ├ InstalledVersion: 1.3.1-r2 
+│                       │      ├ FixedVersion    : 1.3.2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:5ab457dc12c28c3c99b5b743b092c690aeb3361182be
+│                       │      │                  │         9c168aacb768f93b6c82 
+│                       │      │                  ╰ DiffID: sha256:16c6daceda40375b4172f2fc081c80ce1139f4740e7e
+│                       │      │                            6f2d8facb56f9ff8d3f1 
+│                       │      ├ SeveritySource  : nvd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22184 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:5f9c97fc0d9bdbc37c375c64e416e5e4a83c6d14faae3f5f60e03
+│                       │      │                   541e4a612ad 
+│                       │      ├ Title           : zlib: zlib: Arbitrary code execution via buffer overflow in
+│                       │      │                   untgz utility 
+│                       │      ├ Description     : zlib versions up to and including 1.3.1.2 include a global
+│                       │      │                   buffer overflow in the untgz utility located under
+│                       │      │                   contrib/untgz. The vulnerability is limited to the
+│                       │      │                   standalone demonstration utility and does not affect the
+│                       │      │                   core zlib compression library. The flaw occurs when a user
+│                       │      │                   executes the untgz command with an excessively long archive
+│                       │      │                   name supplied via the command line, leading to an
+│                       │      │                   out-of-bounds write in a fixed-size global buffer. 
+│                       │      ├ Severity        : CRITICAL 
+│                       │      ├ CweIDs           ─ [0]: CWE-787 
+│                       │      ├ VendorSeverity   ╭ nvd   : 4 
+│                       │      │                  ╰ redhat: 3 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 9.8 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 8.6 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-22184 
+│                       │      │                  ├ [1]: https://github.com/madler/zlib 
+│                       │      │                  ├ [2]: https://github.com/madler/zlib/issues/1142 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-22184 
+│                       │      │                  ├ [4]: https://seclists.org/fulldisclosure/2026/Jan/3 
+│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2026-22184 
+│                       │      │                  ├ [6]: https://www.vulncheck.com/advisories/zlib-untgz-global
+│                       │      │                  │      -buffer-overflow-in-tgzfname 
+│                       │      │                  ╰ [7]: https://zlib.net/ 
+│                       │      ├ PublishedDate   : 2026-01-07T21:16:01.563Z 
+│                       │      ╰ LastModifiedDate: 2026-01-15T14:16:27.047Z 
+│                       ╰ [27] ╭ VulnerabilityID : CVE-2026-27171 
+│                              ├ PkgID           : zlib@1.3.1-r2 
+│                              ├ PkgName         : zlib 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.1-r2?arch=x86_64&distro=3.24.
+│                              │                  │       0_alpha20260127 
+│                              │                  ╰ UID : c6f558cca1be2488 
+│                              ├ InstalledVersion: 1.3.1-r2 
+│                              ├ FixedVersion    : 1.3.2-r0 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:5ab457dc12c28c3c99b5b743b092c690aeb3361182be
 │                              │                  │         9c168aacb768f93b6c82 
 │                              │                  ╰ DiffID: sha256:16c6daceda40375b4172f2fc081c80ce1139f4740e7e
 │                              │                            6f2d8facb56f9ff8d3f1 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28422 
+│                              ├ SeveritySource  : nvd 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27171 
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                              ├ Fingerprint     : sha256:2ce87e91402bcbf8285c188adb30c6a6ff2bc28a1ca55a9df2f96
-│                              │                   56331e6680a 
-│                              ├ Title           : vim: Vim: Integrity impact due to stack-buffer-overflow via
-│                              │                   wide terminal statusline rendering 
-│                              ├ Description     : Vim is an open source, command line text editor. Prior to
-│                              │                   version 9.2.0078, a stack-buffer-overflow occurs in
-│                              │                   `build_stl_str_hl()` when rendering a statusline with a
-│                              │                   multi-byte fill character on a very wide terminal. Version
-│                              │                   9.2.0078 patches the issue. 
-│                              ├ Severity        : LOW 
-│                              ├ CweIDs           ─ [0]: CWE-121 
-│                              ├ VendorSeverity   ─ redhat: 1 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:L
-│                              │                           │           /A:N 
-│                              │                           ╰ V3Score : 2.2 
-│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/02/27/11 
-│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-28422 
-│                              │                  ├ [2]: https://github.com/vim/vim/commit/4e5b9e31cb7484ad156f 
-│                              │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.2.0078 
-│                              │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-gm
-│                              │                  │      qx-prf2-8mwf 
-│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-28422 
-│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-28422 
-│                              ├ PublishedDate   : 2026-02-27T22:16:25.667Z 
-│                              ╰ LastModifiedDate: 2026-03-02T20:30:10.923Z 
+│                              ├ Fingerprint     : sha256:870a9079a79d2a46862f9ba6adf63159f35d0fe38be9b42b8c8ff
+│                              │                   3c7df027468 
+│                              ├ Title           : zlib: zlib: Denial of Service via infinite loop in CRC32
+│                              │                   combine functions 
+│                              ├ Description     : zlib before 1.3.2 allows CPU consumption via crc32_combine64
+│                              │                    and crc32_combine_gen64 because x2nmodp can do right shifts
+│                              │                    within a loop that has no termination condition. 
+│                              ├ Severity        : MEDIUM 
+│                              ├ CweIDs           ─ [0]: CWE-1284 
+│                              ├ VendorSeverity   ╭ nvd   : 2 
+│                              │                  ├ redhat: 1 
+│                              │                  ╰ ubuntu: 1 
+│                              ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
+│                              │                  │        │           /A:H 
+│                              │                  │        ╰ V3Score : 5.5 
+│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                              │                           │           /A:L 
+│                              │                           ╰ V3Score : 2.9 
+│                              ├ References       ╭ [0]: https://7asecurity.com/blog/2026/02/zlib-7asecurity-au
+│                              │                  │      dit/ 
+│                              │                  ├ [1]: https://7asecurity.com/reports/pentest-report-zlib-RC1
+│                              │                  │      .1.pdf 
+│                              │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2026-27171 
+│                              │                  ├ [3]: https://github.com/madler/zlib/issues/904 
+│                              │                  ├ [4]: https://github.com/madler/zlib/releases/tag/v1.3.2 
+│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-27171 
+│                              │                  ├ [6]: https://ostif.org/zlib-audit-complete/ 
+│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-27171 
+│                              ├ PublishedDate   : 2026-02-18T04:16:01.263Z 
+│                              ╰ LastModifiedDate: 2026-02-20T16:45:28.827Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
@@ -16870,11 +17014,11 @@
                               │                         │            N/VA:H/SC:N/SI:N/SA:N 
                               │                         ╰ V40Score : 8.7 
                               ├ References       ╭ [0]: https://github.com/FasterXML/jackson-core 
-                              │                  ├ [1]: https://github.com/FasterXML/jackson-core/commit/a004e9
-                              │                  │      789c2cc6b41b379d02d229d58474d9a738 
-                              │                  ├ [2]: https://github.com/FasterXML/jackson-core/issues/1538 
+                              │                  ├ [1]: https://github.com/FasterXML/jackson-core/commit/b0c428
+                              │                  │      e6f993e1b5ece5c1c3cb2523e887cd52cf 
+                              │                  ├ [2]: https://github.com/FasterXML/jackson-core/pull/1555 
                               │                  ╰ [3]: https://github.com/FasterXML/jackson-core/security/advi
                               │                         sories/GHSA-72hv-8253-57qq 
                               ├ PublishedDate   : 2026-02-28T02:01:05Z 
-                              ╰ LastModifiedDate: 2026-02-28T02:01:06Z 
+                              ╰ LastModifiedDate: 2026-03-03T16:59:14Z 
 ````
