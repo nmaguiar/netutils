@@ -29246,6 +29246,7 @@
     - https://curl.se/docs/CVE-2025-14017.json
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
     - https://ubuntu.com/security/notices/USN-8062-1
+    - https://ubuntu.com/security/notices/USN-8062-2
     - https://www.cve.org/CVERecord?id=CVE-2025-14017
     PublishedDate: '2026-01-08T10:15:45.667Z'
     LastModifiedDate: '2026-01-27T21:29:39.953Z'
@@ -31610,6 +31611,7 @@
     - https://curl.se/docs/CVE-2025-14017.json
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
     - https://ubuntu.com/security/notices/USN-8062-1
+    - https://ubuntu.com/security/notices/USN-8062-2
     - https://www.cve.org/CVERecord?id=CVE-2025-14017
     PublishedDate: '2026-01-08T10:15:45.667Z'
     LastModifiedDate: '2026-01-27T21:29:39.953Z'
@@ -32962,6 +32964,7 @@
     VendorSeverity:
       alma: 3
       azure: 3
+      cbl-mariner: 3
       nvd: 3
       oracle-oval: 3
       photon: 3
@@ -41945,11 +41948,11 @@
         V40Score: 8.7
     References:
     - https://github.com/FasterXML/jackson-core
-    - https://github.com/FasterXML/jackson-core/commit/a004e9789c2cc6b41b379d02d229d58474d9a738
-    - https://github.com/FasterXML/jackson-core/issues/1538
+    - https://github.com/FasterXML/jackson-core/commit/b0c428e6f993e1b5ece5c1c3cb2523e887cd52cf
+    - https://github.com/FasterXML/jackson-core/pull/1555
     - https://github.com/FasterXML/jackson-core/security/advisories/GHSA-72hv-8253-57qq
     PublishedDate: '2026-02-28T02:01:05Z'
-    LastModifiedDate: '2026-02-28T02:01:06Z'
+    LastModifiedDate: '2026-03-03T16:59:14Z'
 - Target: Python
   Class: lang-pkgs
   Type: python-pkg
@@ -43174,6 +43177,57 @@
       DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
     AnalyzedBy: gobinary
   Vulnerabilities:
+  - VulnerabilityID: CVE-2025-15558
+    VendorIDs:
+    - GHSA-p436-gjf2-799p
+    PkgID: github.com/docker/cli@v27.1.1+incompatible
+    PkgName: github.com/docker/cli
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/docker/cli@v27.1.1%2Bincompatible
+      UID: d2c10c28447b49f5
+    InstalledVersion: v27.1.1+incompatible
+    FixedVersion: 29.2.0
+    Status: fixed
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15558
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Fingerprint: sha256:705aafaa2177cb73d7f9c95093117163c547d14c36f5af3d1f6c8e3ad0e5298d
+    Title: 'docker/cli: Docker CLI for Windows: Privilege escalation via malicious plugin binaries'
+    Description: "Docker CLI for Windows searches for plugin binaries in C:\\ProgramData\\Docker\\cli-plugins, a directory that does not exist by default. A low-privileged attacker can create this directory and place malicious CLI plugin binaries (docker-compose.exe, docker-buildx.exe, etc.) that are executed when a victim user opens Docker Desktop or invokes Docker CLI plugin features, and allow privilege-escalation if the docker\_CLI is executed as a privileged user.\n\nThis issue affects Docker CLI: through 29.1.5 and Windows binaries acting as a CLI-plugin manager using the  github.com/docker/cli/cli-plugins/manager https://pkg.go.dev/github.com/docker/cli@v29.1.5+incompatible/cli-plugins/manager \_package, such as Docker Compose.\n\nThis issue does not impact non-Windows binaries, and projects not using the plugin-manager code."
+    Severity: HIGH
+    CweIDs:
+    - CWE-427
+    VendorSeverity:
+      ghsa: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V40Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-15558
+    - https://docs.docker.com/desktop/release-notes
+    - https://docs.docker.com/desktop/release-notes/
+    - https://github.com/docker/cli
+    - https://github.com/docker/cli/commit/13759330b1f7e7cb0d67047ea42c5482548ba7fa
+    - https://github.com/docker/cli/pull/6713
+    - https://github.com/docker/cli/security/advisories/GHSA-p436-gjf2-799p
+    - https://github.com/docker/compose/pull/12300
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15558
+    - https://www.cve.org/CVERecord?id=CVE-2025-15558
+    - https://www.zerodayinitiative.com/advisories/ZDI-CAN-28304
+    - https://www.zerodayinitiative.com/advisories/ZDI-CAN-28304/
+    PublishedDate: '2026-03-04T17:16:14.763Z'
+    LastModifiedDate: '2026-03-04T18:08:05.73Z'
   - VulnerabilityID: CVE-2025-68121
     VendorIDs:
     - GO-2026-4337
