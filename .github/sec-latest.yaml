@@ -29806,6 +29806,47 @@
     - https://www.vicarius.io/vsociety/posts/cve-2026-24061-mitigation-script-remote-authentication-bypass-in-gnu-inetutils-package
     PublishedDate: '2026-01-21T07:16:01.597Z'
     LastModifiedDate: '2026-02-11T15:40:42.937Z'
+  - VulnerabilityID: CVE-2026-28372
+    PkgID: inetutils-telnet@2:2.6-1ubuntu3
+    PkgName: inetutils-telnet
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/inetutils-telnet@2.6-1ubuntu3?arch=amd64&distro=ubuntu-25.10&epoch=2
+      UID: e51a28413ca8306d
+    InstalledVersion: 2:2.6-1ubuntu3
+    Status: affected
+    Layer:
+      Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
+      DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28372
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d4c8093980af61272c036c74d4033942252a9bc3c31296c67071493310a6bc1d
+    Title: telnetd in GNU inetutils through 2.7 allows privilege escalation that  ...
+    Description: telnetd in GNU inetutils through 2.7 allows privilege escalation that can be exploited by abusing systemd service credentials support added to the login(1) implementation of util-linux in release 2.40. This is related to client control over the CREDENTIALS_DIRECTORY environment variable, and requires an unprivileged local user to create a login.noauth file.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-829
+    VendorSeverity:
+      nvd: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/27/3
+    - http://www.openwall.com/lists/oss-security/2026/03/06/2
+    - http://www.openwall.com/lists/oss-security/2026/03/06/3
+    - https://git.hadrons.org/cgit/debian/pkgs/inetutils.git/commit/?id=3953943d8296310485f98963883a798545ab9a6c
+    - https://lists.gnu.org/archive/html/bug-inetutils/2026-02/msg00000.html
+    - https://lists.gnu.org/archive/html/bug-inetutils/2026-02/msg00012.html
+    - https://www.cve.org/CVERecord?id=CVE-2026-28372
+    - https://www.openwall.com/lists/oss-security/2026/02/24/1
+    PublishedDate: '2026-02-27T06:18:00.077Z'
+    LastModifiedDate: '2026-03-06T18:16:18.563Z'
   - VulnerabilityID: CVE-2024-52949
     PkgID: iptraf-ng@1:1.2.1-2
     PkgName: iptraf-ng
@@ -32963,6 +33004,7 @@
     - CWE-126
     VendorSeverity:
       alma: 3
+      amazon: 2
       azure: 3
       cbl-mariner: 3
       nvd: 3
@@ -34609,6 +34651,7 @@
     Description: No description is available for this CVE.
     Severity: LOW
     VendorSeverity:
+      amazon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -36042,6 +36085,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 2
       nvd: 2
       redhat: 2
       ubuntu: 2
@@ -36137,6 +36181,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 2
       nvd: 2
       redhat: 2
       ubuntu: 2
@@ -36232,6 +36277,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 2
       nvd: 2
       redhat: 2
       ubuntu: 2
@@ -36327,6 +36373,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 2
       nvd: 2
       redhat: 2
       ubuntu: 2
@@ -36591,6 +36638,7 @@
     CweIDs:
     - CWE-401
     VendorSeverity:
+      amazon: 1
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -40693,6 +40741,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 2
       nvd: 2
       redhat: 2
       ubuntu: 2
@@ -41088,6 +41137,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 2
       nvd: 2
       redhat: 2
       ubuntu: 2
@@ -43256,7 +43306,7 @@
     - CWE-295
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 4
       cbl-mariner: 2
@@ -43293,7 +43343,7 @@
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
     - https://linux.oracle.com/cve/CVE-2025-68121.html
-    - https://linux.oracle.com/errata/ELSA-2026-3343.html
+    - https://linux.oracle.com/errata/ELSA-2026-3928.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-68121
     - https://pkg.go.dev/vuln/GO-2026-4337
     - https://www.cve.org/CVERecord?id=CVE-2025-68121
