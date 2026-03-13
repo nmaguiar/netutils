@@ -14273,6 +14273,61 @@
     - usr/lib/libzstd.so.1
     - usr/lib/libzstd.so.1.5.7
     AnalyzedBy: apk
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2026-32249
+    PkgID: vim@9.2.0078-r0
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim@9.2.0078-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5734fb22d4b6ce00
+    InstalledVersion: 9.2.0078-r0
+    FixedVersion: 9.2.0140-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:106e0edcf27e49b031c77577cb6510839656ba9266a879824913b0cb7e99d1e4
+      DiffID: sha256:38e651725af43c98c8e29f8a48ccedda2b7db2908e67b627b612eba54ddcd99c
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:5c501970295b8b9350a4b2b271eca7b0d66ef9eb9a435a33c1bfce6d9e22bf24
+    Severity: UNKNOWN
+  - VulnerabilityID: CVE-2026-32249
+    PkgID: vim-common@9.2.0078-r0
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim-common@9.2.0078-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 8cb91546fcca0ba0
+    InstalledVersion: 9.2.0078-r0
+    FixedVersion: 9.2.0140-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:106e0edcf27e49b031c77577cb6510839656ba9266a879824913b0cb7e99d1e4
+      DiffID: sha256:38e651725af43c98c8e29f8a48ccedda2b7db2908e67b627b612eba54ddcd99c
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:f068a2457c64d29b4fd283bfcfa1954905e3b76eeb85efa1134107e67c2f7f35
+    Severity: UNKNOWN
+  - VulnerabilityID: CVE-2026-32249
+    PkgID: xxd@9.2.0078-r0
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/xxd@9.2.0078-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 3dec01c08cd5460f
+    InstalledVersion: 9.2.0078-r0
+    FixedVersion: 9.2.0140-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:106e0edcf27e49b031c77577cb6510839656ba9266a879824913b0cb7e99d1e4
+      DiffID: sha256:38e651725af43c98c8e29f8a48ccedda2b7db2908e67b627b612eba54ddcd99c
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:467b9d018fcb1ab819237c8917ece1caa9857c13ef332a6558116625a0169a13
+    Severity: UNKNOWN
 - Target: Java
   Class: lang-pkgs
   Type: jar
