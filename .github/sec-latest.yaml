@@ -29321,7 +29321,8 @@
       PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
       UID: 8ef236a4efe90d33
     InstalledVersion: 8.14.1-2ubuntu1
-    Status: affected
+    FixedVersion: 8.14.1-2ubuntu1.2
+    Status: fixed
     Layer:
       Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
       DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
@@ -29332,6 +29333,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:c6b553f5a0734aa13f5cd180fc075bf4b3ec9856b35018417e4c7c9cad62b673
+    Title: libcurl can in some circumstances reuse the wrong connection when aske ...
     Description: |-
       libcurl can in some circumstances reuse the wrong connection when asked to do
       an Negotiate-authenticated HTTP or HTTPS request.
@@ -29370,9 +29372,10 @@
     References:
     - https://curl.se/docs/CVE-2026-1965.html
     - https://curl.se/docs/CVE-2026-1965.json
+    - https://ubuntu.com/security/notices/USN-8084-1
     - https://www.cve.org/CVERecord?id=CVE-2026-1965
     PublishedDate: '2026-03-11T11:15:59.177Z'
-    LastModifiedDate: '2026-03-11T15:16:25.763Z'
+    LastModifiedDate: '2026-03-12T14:11:19.07Z'
   - VulnerabilityID: CVE-2026-3783
     PkgID: curl@8.14.1-2ubuntu1
     PkgName: curl
@@ -29380,7 +29383,8 @@
       PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
       UID: 8ef236a4efe90d33
     InstalledVersion: 8.14.1-2ubuntu1
-    Status: affected
+    FixedVersion: 8.14.1-2ubuntu1.2
+    Status: fixed
     Layer:
       Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
       DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
@@ -29391,6 +29395,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:e6df30254c865b0f4c284711e73cd620d37ae7e4a1cac589d64eb6097b2a4522
+    Title: When an OAuth2 bearer token is used for an HTTP(S) transfer, and that  ...
     Description: |-
       When an OAuth2 bearer token is used for an HTTP(S) transfer, and that transfer
       performs a redirect to a second URL, curl could leak that token to the second
@@ -29409,9 +29414,10 @@
     - https://curl.se/docs/CVE-2026-3783.html
     - https://curl.se/docs/CVE-2026-3783.json
     - https://hackerone.com/reports/3583983
+    - https://ubuntu.com/security/notices/USN-8084-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3783
     PublishedDate: '2026-03-11T11:16:00.08Z'
-    LastModifiedDate: '2026-03-11T15:16:33.117Z'
+    LastModifiedDate: '2026-03-12T14:10:37.3Z'
   - VulnerabilityID: CVE-2026-3805
     PkgID: curl@8.14.1-2ubuntu1
     PkgName: curl
@@ -29419,7 +29425,8 @@
       PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
       UID: 8ef236a4efe90d33
     InstalledVersion: 8.14.1-2ubuntu1
-    Status: affected
+    FixedVersion: 8.14.1-2ubuntu1.2
+    Status: fixed
     Layer:
       Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
       DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
@@ -29430,6 +29437,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:da5f1e3c6ea04361e5c2b4a1b9da2dc02fe0f549e1d05c06cc0a3d87d7e5c6ca
+    Title: When doing a second SMB request to the same host again, curl would wro ...
     Description: |-
       When doing a second SMB request to the same host again, curl would wrongly use
       a data pointer pointing into already freed memory.
@@ -29443,9 +29451,10 @@
     - https://curl.se/docs/CVE-2026-3805.html
     - https://curl.se/docs/CVE-2026-3805.json
     - https://hackerone.com/reports/3591944
+    - https://ubuntu.com/security/notices/USN-8084-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3805
     PublishedDate: '2026-03-11T11:16:00.967Z'
-    LastModifiedDate: '2026-03-11T16:16:47.143Z'
+    LastModifiedDate: '2026-03-12T14:08:56.79Z'
   - VulnerabilityID: CVE-2025-10148
     PkgID: curl@8.14.1-2ubuntu1
     PkgName: curl
@@ -29531,6 +29540,7 @@
     - CWE-601
     VendorSeverity:
       amazon: 2
+      azure: 2
       photon: 2
       ubuntu: 1
     References:
@@ -29538,6 +29548,7 @@
     - https://curl.se/docs/CVE-2025-14524.html
     - https://curl.se/docs/CVE-2025-14524.json
     - https://hackerone.com/reports/3459417
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14524
     - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-14524
     PublishedDate: '2026-01-08T10:15:46.607Z'
@@ -29663,7 +29674,8 @@
       PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
       UID: 8ef236a4efe90d33
     InstalledVersion: 8.14.1-2ubuntu1
-    Status: affected
+    FixedVersion: 8.14.1-2ubuntu1.2
+    Status: fixed
     Layer:
       Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
       DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
@@ -29674,6 +29686,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:ecbc26ee00a851e5cfdf7c62be9f8267183583d3b2b054e9fe17b393bffcc9e8
+    Title: curl would wrongly reuse an existing HTTP proxy connection doing CONNE ...
     Description: |-
       curl would wrongly reuse an existing HTTP proxy connection doing CONNECT to a
       server, even if the new request uses different credentials for the HTTP proxy.
@@ -29687,11 +29700,11 @@
     - http://www.openwall.com/lists/oss-security/2026/03/11/3
     - https://curl.se/docs/CVE-2026-3784.html
     - https://curl.se/docs/CVE-2026-3784.json
-    - https://curl.se/docs/CVE-2026-proxy.html
     - https://hackerone.com/reports/3584903
+    - https://ubuntu.com/security/notices/USN-8084-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3784
     PublishedDate: '2026-03-11T11:16:00.437Z'
-    LastModifiedDate: '2026-03-11T16:16:46.583Z'
+    LastModifiedDate: '2026-03-12T14:09:50.47Z'
   - VulnerabilityID: CVE-2026-0988
     PkgID: gir1.2-glib-2.0@2.86.0-2ubuntu0.1
     PkgName: gir1.2-glib-2.0
@@ -29837,6 +29850,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -31931,7 +31945,8 @@
       PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
       UID: 2ca5770396aa8f52
     InstalledVersion: 8.14.1-2ubuntu1
-    Status: affected
+    FixedVersion: 8.14.1-2ubuntu1.2
+    Status: fixed
     Layer:
       Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
       DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
@@ -31942,6 +31957,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:bc8f61836774027ddfe9f7e1a6ffd33baf66825f192e9ff41da641fcc1ace1f5
+    Title: libcurl can in some circumstances reuse the wrong connection when aske ...
     Description: |-
       libcurl can in some circumstances reuse the wrong connection when asked to do
       an Negotiate-authenticated HTTP or HTTPS request.
@@ -31980,9 +31996,10 @@
     References:
     - https://curl.se/docs/CVE-2026-1965.html
     - https://curl.se/docs/CVE-2026-1965.json
+    - https://ubuntu.com/security/notices/USN-8084-1
     - https://www.cve.org/CVERecord?id=CVE-2026-1965
     PublishedDate: '2026-03-11T11:15:59.177Z'
-    LastModifiedDate: '2026-03-11T15:16:25.763Z'
+    LastModifiedDate: '2026-03-12T14:11:19.07Z'
   - VulnerabilityID: CVE-2026-3783
     PkgID: libcurl4t64@8.14.1-2ubuntu1
     PkgName: libcurl4t64
@@ -31990,7 +32007,8 @@
       PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
       UID: 2ca5770396aa8f52
     InstalledVersion: 8.14.1-2ubuntu1
-    Status: affected
+    FixedVersion: 8.14.1-2ubuntu1.2
+    Status: fixed
     Layer:
       Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
       DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
@@ -32001,6 +32019,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:c871461b2b22ac19cd1ff8676543ad65940d428710e4bd2f7e0c208f07a83953
+    Title: When an OAuth2 bearer token is used for an HTTP(S) transfer, and that  ...
     Description: |-
       When an OAuth2 bearer token is used for an HTTP(S) transfer, and that transfer
       performs a redirect to a second URL, curl could leak that token to the second
@@ -32019,9 +32038,10 @@
     - https://curl.se/docs/CVE-2026-3783.html
     - https://curl.se/docs/CVE-2026-3783.json
     - https://hackerone.com/reports/3583983
+    - https://ubuntu.com/security/notices/USN-8084-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3783
     PublishedDate: '2026-03-11T11:16:00.08Z'
-    LastModifiedDate: '2026-03-11T15:16:33.117Z'
+    LastModifiedDate: '2026-03-12T14:10:37.3Z'
   - VulnerabilityID: CVE-2026-3805
     PkgID: libcurl4t64@8.14.1-2ubuntu1
     PkgName: libcurl4t64
@@ -32029,7 +32049,8 @@
       PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
       UID: 2ca5770396aa8f52
     InstalledVersion: 8.14.1-2ubuntu1
-    Status: affected
+    FixedVersion: 8.14.1-2ubuntu1.2
+    Status: fixed
     Layer:
       Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
       DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
@@ -32040,6 +32061,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:d4fdf4838f652224b9461ca1536b8ad3c6b6188d011ff8f0b5d04e37f3ae700b
+    Title: When doing a second SMB request to the same host again, curl would wro ...
     Description: |-
       When doing a second SMB request to the same host again, curl would wrongly use
       a data pointer pointing into already freed memory.
@@ -32053,9 +32075,10 @@
     - https://curl.se/docs/CVE-2026-3805.html
     - https://curl.se/docs/CVE-2026-3805.json
     - https://hackerone.com/reports/3591944
+    - https://ubuntu.com/security/notices/USN-8084-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3805
     PublishedDate: '2026-03-11T11:16:00.967Z'
-    LastModifiedDate: '2026-03-11T16:16:47.143Z'
+    LastModifiedDate: '2026-03-12T14:08:56.79Z'
   - VulnerabilityID: CVE-2025-10148
     PkgID: libcurl4t64@8.14.1-2ubuntu1
     PkgName: libcurl4t64
@@ -32141,6 +32164,7 @@
     - CWE-601
     VendorSeverity:
       amazon: 2
+      azure: 2
       photon: 2
       ubuntu: 1
     References:
@@ -32148,6 +32172,7 @@
     - https://curl.se/docs/CVE-2025-14524.html
     - https://curl.se/docs/CVE-2025-14524.json
     - https://hackerone.com/reports/3459417
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14524
     - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-14524
     PublishedDate: '2026-01-08T10:15:46.607Z'
@@ -32273,7 +32298,8 @@
       PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
       UID: 2ca5770396aa8f52
     InstalledVersion: 8.14.1-2ubuntu1
-    Status: affected
+    FixedVersion: 8.14.1-2ubuntu1.2
+    Status: fixed
     Layer:
       Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
       DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
@@ -32284,6 +32310,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:72c55f5865dd5a0fca1bad77c84e767595af6e3cb375bbd4d30ab7c690e563e1
+    Title: curl would wrongly reuse an existing HTTP proxy connection doing CONNE ...
     Description: |-
       curl would wrongly reuse an existing HTTP proxy connection doing CONNECT to a
       server, even if the new request uses different credentials for the HTTP proxy.
@@ -32297,11 +32324,11 @@
     - http://www.openwall.com/lists/oss-security/2026/03/11/3
     - https://curl.se/docs/CVE-2026-3784.html
     - https://curl.se/docs/CVE-2026-3784.json
-    - https://curl.se/docs/CVE-2026-proxy.html
     - https://hackerone.com/reports/3584903
+    - https://ubuntu.com/security/notices/USN-8084-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3784
     PublishedDate: '2026-03-11T11:16:00.437Z'
-    LastModifiedDate: '2026-03-11T16:16:46.583Z'
+    LastModifiedDate: '2026-03-12T14:09:50.47Z'
   - VulnerabilityID: CVE-2025-1352
     PkgID: libelf1t64@0.193-1
     PkgName: libelf1t64
@@ -32840,6 +32867,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -32999,6 +33027,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -33041,6 +33070,7 @@
       alma: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -33052,15 +33082,20 @@
     - https://access.redhat.com/security/cve/CVE-2025-14831
     - https://bugzilla.redhat.com/2392528
     - https://bugzilla.redhat.com/2423177
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2392528
     - https://bugzilla.redhat.com/show_bug.cgi?id=2423177
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14831
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9820
     - https://errata.almalinux.org/10/ALSA-2026-3477.html
+    - https://errata.rockylinux.org/RLSA-2026:4188
+    - https://gitlab.com/gnutls/gnutls/-/issues/1773
     - https://linux.oracle.com/cve/CVE-2025-14831.html
     - https://linux.oracle.com/errata/ELSA-2026-3477.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14831
     - https://ubuntu.com/security/notices/USN-8043-1
     - https://www.cve.org/CVERecord?id=CVE-2025-14831
     PublishedDate: '2026-02-09T15:16:09.937Z'
-    LastModifiedDate: '2026-03-11T09:16:12.097Z'
+    LastModifiedDate: '2026-03-12T18:16:21.56Z'
   - VulnerabilityID: CVE-2025-9820
     PkgID: libgnutls30t64@3.8.9-3ubuntu2
     PkgName: libgnutls30t64
@@ -33091,6 +33126,7 @@
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 1
+      rocky: 2
       ubuntu: 1
     CVSS:
       redhat:
@@ -33104,7 +33140,11 @@
     - https://bugzilla.redhat.com/2392528
     - https://bugzilla.redhat.com/2423177
     - https://bugzilla.redhat.com/show_bug.cgi?id=2392528
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2423177
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14831
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-9820
     - https://errata.almalinux.org/10/ALSA-2026-3477.html
+    - https://errata.rockylinux.org/RLSA-2026:4188
     - https://gitlab.com/gnutls/gnutls/-/commit/1d56f96f6ab5034d677136b9d50b5a75dff0faf5
     - https://gitlab.com/gnutls/gnutls/-/issues/1732
     - https://linux.oracle.com/cve/CVE-2025-9820.html
@@ -33589,6 +33629,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-25646
     - https://ubuntu.com/security/notices/USN-8035-1
     - https://ubuntu.com/security/notices/USN-8039-1
+    - https://ubuntu.com/security/notices/USN-8081-1
     - https://www.cve.org/CVERecord?id=CVE-2026-25646
     PublishedDate: '2026-02-10T18:16:37.817Z'
     LastModifiedDate: '2026-02-13T20:43:44.69Z'
@@ -33856,6 +33897,7 @@
       alma: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -33867,7 +33909,16 @@
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/9/ALSA-2026-4165.html
+    - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
     - https://github.com/python/cpython/issues/143921
     - https://github.com/python/cpython/pull/143922
@@ -33910,6 +33961,7 @@
       alma: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -33921,7 +33973,16 @@
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/9/ALSA-2026-4165.html
+    - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/b234a2b67539f787e191d2ef19a7cbdce32874e7
     - https://github.com/python/cpython/issues/143923
     - https://github.com/python/cpython/pull/143924
@@ -34019,6 +34080,7 @@
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -34034,7 +34096,16 @@
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/8/ALSA-2026-2128.html
+    - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/22e4d55285cee52bc4dbe061324e5f30bd4dee58
     - https://github.com/python/cpython/commit/23e3c0ae867cca0130e441e776c9955b9027c510
     - https://github.com/python/cpython/commit/286e3ac39984fe85a17f4ab39c64d382137aae5f
@@ -34321,6 +34392,7 @@
       alma: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -34332,7 +34404,16 @@
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/9/ALSA-2026-4165.html
+    - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
     - https://github.com/python/cpython/issues/143921
     - https://github.com/python/cpython/pull/143922
@@ -34375,6 +34456,7 @@
       alma: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -34386,7 +34468,16 @@
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/9/ALSA-2026-4165.html
+    - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/b234a2b67539f787e191d2ef19a7cbdce32874e7
     - https://github.com/python/cpython/issues/143923
     - https://github.com/python/cpython/pull/143924
@@ -34484,6 +34575,7 @@
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -34499,7 +34591,16 @@
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/8/ALSA-2026-2128.html
+    - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/22e4d55285cee52bc4dbe061324e5f30bd4dee58
     - https://github.com/python/cpython/commit/23e3c0ae867cca0130e441e776c9955b9027c510
     - https://github.com/python/cpython/commit/286e3ac39984fe85a17f4ab39c64d382137aae5f
@@ -34786,6 +34887,7 @@
       alma: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -34797,7 +34899,16 @@
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/9/ALSA-2026-4165.html
+    - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
     - https://github.com/python/cpython/issues/143921
     - https://github.com/python/cpython/pull/143922
@@ -34840,6 +34951,7 @@
       alma: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -34851,7 +34963,16 @@
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/9/ALSA-2026-4165.html
+    - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/b234a2b67539f787e191d2ef19a7cbdce32874e7
     - https://github.com/python/cpython/issues/143923
     - https://github.com/python/cpython/pull/143924
@@ -34949,6 +35070,7 @@
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -34964,7 +35086,16 @@
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/8/ALSA-2026-2128.html
+    - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/22e4d55285cee52bc4dbe061324e5f30bd4dee58
     - https://github.com/python/cpython/commit/23e3c0ae867cca0130e441e776c9955b9027c510
     - https://github.com/python/cpython/commit/286e3ac39984fe85a17f4ab39c64d382137aae5f
@@ -37171,6 +37302,7 @@
     - CWE-674
     VendorSeverity:
       amazon: 2
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -37212,6 +37344,7 @@
     - CWE-400
     VendorSeverity:
       amazon: 2
+      azure: 1
       cbl-mariner: 1
       redhat: 1
       ubuntu: 2
@@ -37254,6 +37387,7 @@
     - CWE-674
     VendorSeverity:
       amazon: 1
+      azure: 1
       cbl-mariner: 1
       redhat: 1
       ubuntu: 1
@@ -37308,10 +37442,11 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-1757
     - https://bugzilla.redhat.com/show_bug.cgi?id=2435940
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/1009
     - https://nvd.nist.gov/vuln/detail/CVE-2026-1757
     - https://www.cve.org/CVERecord?id=CVE-2026-1757
     PublishedDate: '2026-02-02T13:15:58.58Z'
-    LastModifiedDate: '2026-02-03T16:44:36.63Z'
+    LastModifiedDate: '2026-03-12T13:16:01.75Z'
   - VulnerabilityID: CVE-2025-15281
     PkgID: locales@2.42-0ubuntu3
     PkgName: locales
@@ -40724,6 +40859,7 @@
       alma: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -40735,7 +40871,16 @@
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/9/ALSA-2026-4165.html
+    - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
     - https://github.com/python/cpython/issues/143921
     - https://github.com/python/cpython/pull/143922
@@ -40778,6 +40923,7 @@
       alma: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -40789,7 +40935,16 @@
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/9/ALSA-2026-4165.html
+    - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/b234a2b67539f787e191d2ef19a7cbdce32874e7
     - https://github.com/python/cpython/issues/143923
     - https://github.com/python/cpython/pull/143924
@@ -40887,6 +41042,7 @@
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -40902,7 +41058,16 @@
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/8/ALSA-2026-2128.html
+    - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/22e4d55285cee52bc4dbe061324e5f30bd4dee58
     - https://github.com/python/cpython/commit/23e3c0ae867cca0130e441e776c9955b9027c510
     - https://github.com/python/cpython/commit/286e3ac39984fe85a17f4ab39c64d382137aae5f
@@ -41189,6 +41354,7 @@
       alma: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -41200,7 +41366,16 @@
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/9/ALSA-2026-4165.html
+    - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
     - https://github.com/python/cpython/issues/143921
     - https://github.com/python/cpython/pull/143922
@@ -41243,6 +41418,7 @@
       alma: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -41254,7 +41430,16 @@
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/9/ALSA-2026-4165.html
+    - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/b234a2b67539f787e191d2ef19a7cbdce32874e7
     - https://github.com/python/cpython/issues/143923
     - https://github.com/python/cpython/pull/143924
@@ -41352,6 +41537,7 @@
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -41367,7 +41553,16 @@
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431367
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431368
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431373
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2432437
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15366
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/8/ALSA-2026-2128.html
+    - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/22e4d55285cee52bc4dbe061324e5f30bd4dee58
     - https://github.com/python/cpython/commit/23e3c0ae867cca0130e441e776c9955b9027c510
     - https://github.com/python/cpython/commit/286e3ac39984fe85a17f4ab39c64d382137aae5f
@@ -41596,6 +41791,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 1
@@ -41636,6 +41832,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       nvd: 3
       photon: 3
@@ -41682,6 +41879,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 1
@@ -41722,6 +41920,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       nvd: 3
       photon: 3
@@ -41768,6 +41967,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 1
@@ -41808,6 +42008,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       nvd: 3
       photon: 3
@@ -41998,6 +42199,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 1
@@ -42038,6 +42240,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       nvd: 3
       photon: 3
@@ -44106,14 +44309,12 @@
     - https://bugzilla.redhat.com/2418462
     - https://bugzilla.redhat.com/2434432
     - https://bugzilla.redhat.com/2437111
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2418462
     - https://bugzilla.redhat.com/show_bug.cgi?id=2434432
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437111
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61726
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-61729
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-68121
     - https://errata.almalinux.org/9/ALSA-2026-3928.html
-    - https://errata.rockylinux.org/RLSA-2026:3341
+    - https://errata.rockylinux.org/RLSA-2026:4177
     - https://go.dev/cl/737700
     - https://go.dev/issue/77217
     - https://groups.google.com/g/golang-announce/c/K09ubi9FQFk
