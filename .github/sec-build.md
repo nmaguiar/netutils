@@ -30425,7 +30425,8 @@
 │                       │      │                  │       ro=ubuntu-25.10 
 │                       │      │                  ╰ UID : a175867ded5742c 
 │                       │      ├ InstalledVersion: 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:7e8f4e898b1dcabbd68297300db70017a749dbb9345b
 │                       │      │                  │         59c08810b28ff41cfcdf 
 │                       │      │                  ╰ DiffID: sha256:aa95b6eff6918b26d6afe532b1bce7ddc5cfb1d476a7
@@ -30437,6 +30438,8 @@
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Fingerprint     : sha256:f3b3c3def0e50edc2f579bbbb607fc126169fdc5c10c8f319eb5b
 │                       │      │                   a9119b4f390 
+│                       │      ├ Title           : libcurl can in some circumstances reuse the wrong connection
+│                       │      │                    when aske ... 
 │                       │      ├ Description     : libcurl can in some circumstances reuse the wrong connection
 │                       │      │                    when asked to do
 │                       │      │                   an Negotiate-authenticated HTTP or HTTPS request.
@@ -30485,9 +30488,10 @@
 │                       │      ├ VendorSeverity   ─ ubuntu: 2 
 │                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-1965.html 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-1965.json 
-│                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
+│                       │      │                  ├ [2]: https://ubuntu.com/security/notices/USN-8084-1 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
 │                       │      ├ PublishedDate   : 2026-03-11T11:15:59.177Z 
-│                       │      ╰ LastModifiedDate: 2026-03-11T15:16:25.763Z 
+│                       │      ╰ LastModifiedDate: 2026-03-12T14:11:19.07Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2026-3783 
 │                       │      ├ PkgID           : curl@8.14.1-2ubuntu1.1 
 │                       │      ├ PkgName         : curl 
@@ -30495,7 +30499,8 @@
 │                       │      │                  │       ro=ubuntu-25.10 
 │                       │      │                  ╰ UID : a175867ded5742c 
 │                       │      ├ InstalledVersion: 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:7e8f4e898b1dcabbd68297300db70017a749dbb9345b
 │                       │      │                  │         59c08810b28ff41cfcdf 
 │                       │      │                  ╰ DiffID: sha256:aa95b6eff6918b26d6afe532b1bce7ddc5cfb1d476a7
@@ -30507,6 +30512,8 @@
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Fingerprint     : sha256:e40db851db4b8e74f241fba61294fb2522a9b2996a720bb3c8f03
 │                       │      │                   35eefb1201b 
+│                       │      ├ Title           : When an OAuth2 bearer token is used for an HTTP(S) transfer,
+│                       │      │                    and that  ... 
 │                       │      ├ Description     : When an OAuth2 bearer token is used for an HTTP(S) transfer,
 │                       │      │                    and that transfer
 │                       │      │                   performs a redirect to a second URL, curl could leak that
@@ -30526,9 +30533,10 @@
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-3783.html 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3783.json 
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3583983 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8084-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
 │                       │      ├ PublishedDate   : 2026-03-11T11:16:00.08Z 
-│                       │      ╰ LastModifiedDate: 2026-03-11T15:16:33.117Z 
+│                       │      ╰ LastModifiedDate: 2026-03-12T14:10:37.3Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2026-3805 
 │                       │      ├ PkgID           : curl@8.14.1-2ubuntu1.1 
 │                       │      ├ PkgName         : curl 
@@ -30536,7 +30544,8 @@
 │                       │      │                  │       ro=ubuntu-25.10 
 │                       │      │                  ╰ UID : a175867ded5742c 
 │                       │      ├ InstalledVersion: 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:7e8f4e898b1dcabbd68297300db70017a749dbb9345b
 │                       │      │                  │         59c08810b28ff41cfcdf 
 │                       │      │                  ╰ DiffID: sha256:aa95b6eff6918b26d6afe532b1bce7ddc5cfb1d476a7
@@ -30548,6 +30557,8 @@
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Fingerprint     : sha256:eb3b8a1801b0c7e3c9f0a68b5d1060890f0cd29f7c2d72f87bb96
 │                       │      │                   9272f304c94 
+│                       │      ├ Title           : When doing a second SMB request to the same host again, curl
+│                       │      │                    would wro ... 
 │                       │      ├ Description     : When doing a second SMB request to the same host again, curl
 │                       │      │                    would wrongly use
 │                       │      │                   a data pointer pointing into already freed memory. 
@@ -30558,9 +30569,10 @@
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-3805.html 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3805.json 
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3591944 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3805 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8084-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-3805 
 │                       │      ├ PublishedDate   : 2026-03-11T11:16:00.967Z 
-│                       │      ╰ LastModifiedDate: 2026-03-11T16:16:47.143Z 
+│                       │      ╰ LastModifiedDate: 2026-03-12T14:08:56.79Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2026-3784 
 │                       │      ├ PkgID           : curl@8.14.1-2ubuntu1.1 
 │                       │      ├ PkgName         : curl 
@@ -30568,7 +30580,8 @@
 │                       │      │                  │       ro=ubuntu-25.10 
 │                       │      │                  ╰ UID : a175867ded5742c 
 │                       │      ├ InstalledVersion: 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:7e8f4e898b1dcabbd68297300db70017a749dbb9345b
 │                       │      │                  │         59c08810b28ff41cfcdf 
 │                       │      │                  ╰ DiffID: sha256:aa95b6eff6918b26d6afe532b1bce7ddc5cfb1d476a7
@@ -30580,6 +30593,8 @@
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Fingerprint     : sha256:baad08733c93339871a6ac8dc4273ab6a2e710d7eb5f4a0c9a543
 │                       │      │                   052fcc40cd3 
+│                       │      ├ Title           : curl would wrongly reuse an existing HTTP proxy connection
+│                       │      │                   doing CONNE ... 
 │                       │      ├ Description     : curl would wrongly reuse an existing HTTP proxy connection
 │                       │      │                   doing CONNECT to a
 │                       │      │                   server, even if the new request uses different credentials
@@ -30592,11 +30607,11 @@
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/3 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-3784.html 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3784.json 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2026-proxy.html 
-│                       │      │                  ├ [4]: https://hackerone.com/reports/3584903 
+│                       │      │                  ├ [3]: https://hackerone.com/reports/3584903 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8084-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-3784 
 │                       │      ├ PublishedDate   : 2026-03-11T11:16:00.437Z 
-│                       │      ╰ LastModifiedDate: 2026-03-11T16:16:46.583Z 
+│                       │      ╰ LastModifiedDate: 2026-03-12T14:09:50.47Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2016-2781 
 │                       │      ├ PkgID           : gnu-coreutils@9.5-1ubuntu4 
 │                       │      ├ PkgName         : gnu-coreutils 
@@ -31906,7 +31921,8 @@
 │                       │      │                  │       64&distro=ubuntu-25.10 
 │                       │      │                  ╰ UID : 2097f1cec9b15e9 
 │                       │      ├ InstalledVersion: 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:7e8f4e898b1dcabbd68297300db70017a749dbb9345b
 │                       │      │                  │         59c08810b28ff41cfcdf 
 │                       │      │                  ╰ DiffID: sha256:aa95b6eff6918b26d6afe532b1bce7ddc5cfb1d476a7
@@ -31918,6 +31934,8 @@
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Fingerprint     : sha256:c50b38b40d2ce443f49e966480f703d5684982b726e67b097c2d3
 │                       │      │                   7fe581a30bc 
+│                       │      ├ Title           : libcurl can in some circumstances reuse the wrong connection
+│                       │      │                    when aske ... 
 │                       │      ├ Description     : libcurl can in some circumstances reuse the wrong connection
 │                       │      │                    when asked to do
 │                       │      │                   an Negotiate-authenticated HTTP or HTTPS request.
@@ -31966,9 +31984,10 @@
 │                       │      ├ VendorSeverity   ─ ubuntu: 2 
 │                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-1965.html 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-1965.json 
-│                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
+│                       │      │                  ├ [2]: https://ubuntu.com/security/notices/USN-8084-1 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
 │                       │      ├ PublishedDate   : 2026-03-11T11:15:59.177Z 
-│                       │      ╰ LastModifiedDate: 2026-03-11T15:16:25.763Z 
+│                       │      ╰ LastModifiedDate: 2026-03-12T14:11:19.07Z 
 │                       ├ [31] ╭ VulnerabilityID : CVE-2026-3783 
 │                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1.1 
 │                       │      ├ PkgName         : libcurl4t64 
@@ -31976,7 +31995,8 @@
 │                       │      │                  │       64&distro=ubuntu-25.10 
 │                       │      │                  ╰ UID : 2097f1cec9b15e9 
 │                       │      ├ InstalledVersion: 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:7e8f4e898b1dcabbd68297300db70017a749dbb9345b
 │                       │      │                  │         59c08810b28ff41cfcdf 
 │                       │      │                  ╰ DiffID: sha256:aa95b6eff6918b26d6afe532b1bce7ddc5cfb1d476a7
@@ -31988,6 +32008,8 @@
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Fingerprint     : sha256:1022bbc8155a6915e57f1e7a11b46318ea89420ab994ef09111c5
 │                       │      │                   e0a2ffeaf9d 
+│                       │      ├ Title           : When an OAuth2 bearer token is used for an HTTP(S) transfer,
+│                       │      │                    and that  ... 
 │                       │      ├ Description     : When an OAuth2 bearer token is used for an HTTP(S) transfer,
 │                       │      │                    and that transfer
 │                       │      │                   performs a redirect to a second URL, curl could leak that
@@ -32007,9 +32029,10 @@
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-3783.html 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3783.json 
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3583983 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8084-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
 │                       │      ├ PublishedDate   : 2026-03-11T11:16:00.08Z 
-│                       │      ╰ LastModifiedDate: 2026-03-11T15:16:33.117Z 
+│                       │      ╰ LastModifiedDate: 2026-03-12T14:10:37.3Z 
 │                       ├ [32] ╭ VulnerabilityID : CVE-2026-3805 
 │                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1.1 
 │                       │      ├ PkgName         : libcurl4t64 
@@ -32017,7 +32040,8 @@
 │                       │      │                  │       64&distro=ubuntu-25.10 
 │                       │      │                  ╰ UID : 2097f1cec9b15e9 
 │                       │      ├ InstalledVersion: 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:7e8f4e898b1dcabbd68297300db70017a749dbb9345b
 │                       │      │                  │         59c08810b28ff41cfcdf 
 │                       │      │                  ╰ DiffID: sha256:aa95b6eff6918b26d6afe532b1bce7ddc5cfb1d476a7
@@ -32029,6 +32053,8 @@
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Fingerprint     : sha256:a3357c3299113ce4d27dfc49b0310b60e8cc38be3b97078e40fde
 │                       │      │                   beb74770818 
+│                       │      ├ Title           : When doing a second SMB request to the same host again, curl
+│                       │      │                    would wro ... 
 │                       │      ├ Description     : When doing a second SMB request to the same host again, curl
 │                       │      │                    would wrongly use
 │                       │      │                   a data pointer pointing into already freed memory. 
@@ -32039,9 +32065,10 @@
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-3805.html 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3805.json 
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3591944 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3805 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8084-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-3805 
 │                       │      ├ PublishedDate   : 2026-03-11T11:16:00.967Z 
-│                       │      ╰ LastModifiedDate: 2026-03-11T16:16:47.143Z 
+│                       │      ╰ LastModifiedDate: 2026-03-12T14:08:56.79Z 
 │                       ├ [33] ╭ VulnerabilityID : CVE-2026-3784 
 │                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1.1 
 │                       │      ├ PkgName         : libcurl4t64 
@@ -32049,7 +32076,8 @@
 │                       │      │                  │       64&distro=ubuntu-25.10 
 │                       │      │                  ╰ UID : 2097f1cec9b15e9 
 │                       │      ├ InstalledVersion: 8.14.1-2ubuntu1.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:7e8f4e898b1dcabbd68297300db70017a749dbb9345b
 │                       │      │                  │         59c08810b28ff41cfcdf 
 │                       │      │                  ╰ DiffID: sha256:aa95b6eff6918b26d6afe532b1bce7ddc5cfb1d476a7
@@ -32061,6 +32089,8 @@
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Fingerprint     : sha256:b1e96f851d06d93b1dfe3a1cdb299fa52026047aa6143f8833c91
 │                       │      │                   bb8886eec10 
+│                       │      ├ Title           : curl would wrongly reuse an existing HTTP proxy connection
+│                       │      │                   doing CONNE ... 
 │                       │      ├ Description     : curl would wrongly reuse an existing HTTP proxy connection
 │                       │      │                   doing CONNECT to a
 │                       │      │                   server, even if the new request uses different credentials
@@ -32073,11 +32103,11 @@
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/03/11/3 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-3784.html 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-3784.json 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2026-proxy.html 
-│                       │      │                  ├ [4]: https://hackerone.com/reports/3584903 
+│                       │      │                  ├ [3]: https://hackerone.com/reports/3584903 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8084-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-3784 
 │                       │      ├ PublishedDate   : 2026-03-11T11:16:00.437Z 
-│                       │      ╰ LastModifiedDate: 2026-03-11T16:16:46.583Z 
+│                       │      ╰ LastModifiedDate: 2026-03-12T14:09:50.47Z 
 │                       ├ [34] ╭ VulnerabilityID : CVE-2025-1352 
 │                       │      ├ PkgID           : libelf1t64@0.193-1 
 │                       │      ├ PkgName         : libelf1t64 
@@ -33325,10 +33355,11 @@
 │                       │      │                           ╰ V3Score : 6.2 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-1757 
 │                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2435940 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-1757 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-1757 
+│                       │      │                  ├ [2]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/1009 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-1757 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-1757 
 │                       │      ├ PublishedDate   : 2026-02-02T13:15:58.58Z 
-│                       │      ╰ LastModifiedDate: 2026-02-03T16:44:36.63Z 
+│                       │      ╰ LastModifiedDate: 2026-03-12T13:16:01.75Z 
 │                       ├ [59] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : login@1:4.16.0-2+really2.41-4ubuntu4.1 
 │                       │      ├ PkgName         : login 
@@ -33760,7 +33791,8 @@
 │                       │      │                   version 9.1.2132. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
@@ -33808,7 +33840,8 @@
 │                       │      │                   issue has been fixed as of Vim patch v9.1.2148. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-121 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
@@ -33863,7 +33896,8 @@
 │                       │      │                   version 9.1.2132. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
@@ -33911,7 +33945,8 @@
 │                       │      │                   issue has been fixed as of Vim patch v9.1.2148. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-121 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
@@ -33966,7 +34001,8 @@
 │                       │      │                   version 9.1.2132. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
@@ -34014,7 +34050,8 @@
 │                       │      │                   issue has been fixed as of Vim patch v9.1.2148. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-121 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
@@ -34217,7 +34254,8 @@
 │                       │      │                   version 9.1.2132. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
@@ -34265,7 +34303,8 @@
 │                              │                   issue has been fixed as of Vim patch v9.1.2148. 
 │                              ├ Severity        : LOW 
 │                              ├ CweIDs           ─ [0]: CWE-121 
-│                              ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                              ├ VendorSeverity   ╭ azure      : 2 
+│                              │                  ├ cbl-mariner: 2 
 │                              │                  ├ nvd        : 3 
 │                              │                  ├ photon     : 3 
 │                              │                  ├ redhat     : 1 
