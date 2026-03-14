@@ -29127,7 +29127,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:a4d5dee957aceef8c2ca8f782c9682ff5d993f35c970f4b28f556094e2328237
     Title: 'util-linux: util-linux: Access control bypass due to improper hostname canonicalization'
-    Description: No description is available for this CVE.
+    Description: A flaw was found in util-linux. Improper hostname canonicalization in the `login(1)` utility, when invoked with the `-h` option, can modify the supplied remote hostname before setting `PAM_RHOST`. A remote attacker could exploit this by providing a specially crafted hostname, potentially bypassing host-based Pluggable Authentication Modules (PAM) access control rules that rely on fully qualified domain names. This could lead to unauthorized access.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 1
@@ -29159,7 +29159,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:f6da936db140028e6448ca9951907523477633720821ada0fdbb0f7cb8544794
     Title: 'util-linux: util-linux: Access control bypass due to improper hostname canonicalization'
-    Description: No description is available for this CVE.
+    Description: A flaw was found in util-linux. Improper hostname canonicalization in the `login(1)` utility, when invoked with the `-h` option, can modify the supplied remote hostname before setting `PAM_RHOST`. A remote attacker could exploit this by providing a specially crafted hostname, potentially bypassing host-based Pluggable Authentication Modules (PAM) access control rules that rely on fully qualified domain names. This could lead to unauthorized access.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 1
@@ -29333,7 +29333,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:c6b553f5a0734aa13f5cd180fc075bf4b3ec9856b35018417e4c7c9cad62b673
-    Title: libcurl can in some circumstances reuse the wrong connection when aske ...
+    Title: 'curl: curl: Authentication bypass due to incorrect connection reuse with Negotiate authentication'
     Description: |-
       libcurl can in some circumstances reuse the wrong connection when asked to do
       an Negotiate-authenticated HTTP or HTTPS request.
@@ -29368,10 +29368,17 @@
     CweIDs:
     - CWE-305
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-1965
     - https://curl.se/docs/CVE-2026-1965.html
     - https://curl.se/docs/CVE-2026-1965.json
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1965
     - https://ubuntu.com/security/notices/USN-8084-1
     - https://www.cve.org/CVERecord?id=CVE-2026-1965
     PublishedDate: '2026-03-11T11:15:59.177Z'
@@ -29395,7 +29402,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:e6df30254c865b0f4c284711e73cd620d37ae7e4a1cac589d64eb6097b2a4522
-    Title: When an OAuth2 bearer token is used for an HTTP(S) transfer, and that  ...
+    Title: 'curl: curl: Information disclosure via OAuth2 bearer token leakage during HTTP(S) redirect'
     Description: |-
       When an OAuth2 bearer token is used for an HTTP(S) transfer, and that transfer
       performs a redirect to a second URL, curl could leak that token to the second
@@ -29408,12 +29415,19 @@
     CweIDs:
     - CWE-522
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 5.7
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/11/2
+    - https://access.redhat.com/security/cve/CVE-2026-3783
     - https://curl.se/docs/CVE-2026-3783.html
     - https://curl.se/docs/CVE-2026-3783.json
     - https://hackerone.com/reports/3583983
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-3783
     - https://ubuntu.com/security/notices/USN-8084-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3783
     PublishedDate: '2026-03-11T11:16:00.08Z'
@@ -29437,7 +29451,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:da5f1e3c6ea04361e5c2b4a1b9da2dc02fe0f549e1d05c06cc0a3d87d7e5c6ca
-    Title: When doing a second SMB request to the same host again, curl would wro ...
+    Title: 'curl: curl: Arbitrary code execution or Denial of Service via use-after-free in SMB request handling'
     Description: |-
       When doing a second SMB request to the same host again, curl would wrongly use
       a data pointer pointing into already freed memory.
@@ -29445,12 +29459,19 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 6.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/11/4
+    - https://access.redhat.com/security/cve/CVE-2026-3805
     - https://curl.se/docs/CVE-2026-3805.html
     - https://curl.se/docs/CVE-2026-3805.json
     - https://hackerone.com/reports/3591944
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-3805
     - https://ubuntu.com/security/notices/USN-8084-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3805
     PublishedDate: '2026-03-11T11:16:00.967Z'
@@ -29686,7 +29707,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:ecbc26ee00a851e5cfdf7c62be9f8267183583d3b2b054e9fe17b393bffcc9e8
-    Title: curl would wrongly reuse an existing HTTP proxy connection doing CONNE ...
+    Title: 'curl: curl: Unauthorized access due to improper HTTP proxy connection reuse'
     Description: |-
       curl would wrongly reuse an existing HTTP proxy connection doing CONNECT to a
       server, even if the new request uses different credentials for the HTTP proxy.
@@ -29695,12 +29716,19 @@
     CweIDs:
     - CWE-305
     VendorSeverity:
+      redhat: 2
       ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 6.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/11/3
+    - https://access.redhat.com/security/cve/CVE-2026-3784
     - https://curl.se/docs/CVE-2026-3784.html
     - https://curl.se/docs/CVE-2026-3784.json
     - https://hackerone.com/reports/3584903
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-3784
     - https://ubuntu.com/security/notices/USN-8084-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3784
     PublishedDate: '2026-03-11T11:16:00.437Z'
@@ -31115,7 +31143,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:717442515378c0de12fc816bb4118af6278696c3446d0334e02396f37e95b008
     Title: 'util-linux: util-linux: Access control bypass due to improper hostname canonicalization'
-    Description: No description is available for this CVE.
+    Description: A flaw was found in util-linux. Improper hostname canonicalization in the `login(1)` utility, when invoked with the `-h` option, can modify the supplied remote hostname before setting `PAM_RHOST`. A remote attacker could exploit this by providing a specially crafted hostname, potentially bypassing host-based Pluggable Authentication Modules (PAM) access control rules that rely on fully qualified domain names. This could lead to unauthorized access.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 1
@@ -31957,7 +31985,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:bc8f61836774027ddfe9f7e1a6ffd33baf66825f192e9ff41da641fcc1ace1f5
-    Title: libcurl can in some circumstances reuse the wrong connection when aske ...
+    Title: 'curl: curl: Authentication bypass due to incorrect connection reuse with Negotiate authentication'
     Description: |-
       libcurl can in some circumstances reuse the wrong connection when asked to do
       an Negotiate-authenticated HTTP or HTTPS request.
@@ -31992,10 +32020,17 @@
     CweIDs:
     - CWE-305
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-1965
     - https://curl.se/docs/CVE-2026-1965.html
     - https://curl.se/docs/CVE-2026-1965.json
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-1965
     - https://ubuntu.com/security/notices/USN-8084-1
     - https://www.cve.org/CVERecord?id=CVE-2026-1965
     PublishedDate: '2026-03-11T11:15:59.177Z'
@@ -32019,7 +32054,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:c871461b2b22ac19cd1ff8676543ad65940d428710e4bd2f7e0c208f07a83953
-    Title: When an OAuth2 bearer token is used for an HTTP(S) transfer, and that  ...
+    Title: 'curl: curl: Information disclosure via OAuth2 bearer token leakage during HTTP(S) redirect'
     Description: |-
       When an OAuth2 bearer token is used for an HTTP(S) transfer, and that transfer
       performs a redirect to a second URL, curl could leak that token to the second
@@ -32032,12 +32067,19 @@
     CweIDs:
     - CWE-522
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 5.7
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/11/2
+    - https://access.redhat.com/security/cve/CVE-2026-3783
     - https://curl.se/docs/CVE-2026-3783.html
     - https://curl.se/docs/CVE-2026-3783.json
     - https://hackerone.com/reports/3583983
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-3783
     - https://ubuntu.com/security/notices/USN-8084-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3783
     PublishedDate: '2026-03-11T11:16:00.08Z'
@@ -32061,7 +32103,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:d4fdf4838f652224b9461ca1536b8ad3c6b6188d011ff8f0b5d04e37f3ae700b
-    Title: When doing a second SMB request to the same host again, curl would wro ...
+    Title: 'curl: curl: Arbitrary code execution or Denial of Service via use-after-free in SMB request handling'
     Description: |-
       When doing a second SMB request to the same host again, curl would wrongly use
       a data pointer pointing into already freed memory.
@@ -32069,12 +32111,19 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 6.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/11/4
+    - https://access.redhat.com/security/cve/CVE-2026-3805
     - https://curl.se/docs/CVE-2026-3805.html
     - https://curl.se/docs/CVE-2026-3805.json
     - https://hackerone.com/reports/3591944
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-3805
     - https://ubuntu.com/security/notices/USN-8084-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3805
     PublishedDate: '2026-03-11T11:16:00.967Z'
@@ -32310,7 +32359,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:72c55f5865dd5a0fca1bad77c84e767595af6e3cb375bbd4d30ab7c690e563e1
-    Title: curl would wrongly reuse an existing HTTP proxy connection doing CONNE ...
+    Title: 'curl: curl: Unauthorized access due to improper HTTP proxy connection reuse'
     Description: |-
       curl would wrongly reuse an existing HTTP proxy connection doing CONNECT to a
       server, even if the new request uses different credentials for the HTTP proxy.
@@ -32319,12 +32368,19 @@
     CweIDs:
     - CWE-305
     VendorSeverity:
+      redhat: 2
       ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 6.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/11/3
+    - https://access.redhat.com/security/cve/CVE-2026-3784
     - https://curl.se/docs/CVE-2026-3784.html
     - https://curl.se/docs/CVE-2026-3784.json
     - https://hackerone.com/reports/3584903
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-3784
     - https://ubuntu.com/security/notices/USN-8084-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3784
     PublishedDate: '2026-03-11T11:16:00.437Z'
@@ -32634,7 +32690,8 @@
       PURL: pkg:deb/ubuntu/libfreetype6@2.13.3%2Bdfsg-1build1?arch=amd64&distro=ubuntu-25.10
       UID: 91e96dcd36a96a78
     InstalledVersion: 2.13.3+dfsg-1build1
-    Status: affected
+    FixedVersion: 2.13.3+dfsg-1ubuntu0.1
+    Status: fixed
     Layer:
       Digest: sha256:9780d0558f3c3a5cb1d6555e9b72b5477aded42e04da46c1e8995022e38a812c
       DiffID: sha256:ce96d8626e4ef3988cfd5ad94454630aaa586bf02513ce818d48067577634705
@@ -32663,6 +32720,7 @@
     - https://gitlab.com/freetype/freetype/-/commit/fc85a255849229c024c8e65f536fe1875d84841c
     - https://nvd.nist.gov/vuln/detail/CVE-2026-23865
     - https://sourceforge.net/projects/freetype/files/freetype2/2.14.2/
+    - https://ubuntu.com/security/notices/USN-8086-1
     - https://www.cve.org/CVERecord?id=CVE-2026-23865
     - https://www.facebook.com/security/advisories/cve-2026-23865
     PublishedDate: '2026-03-02T17:16:32.1Z'
@@ -33090,7 +33148,7 @@
     - https://errata.rockylinux.org/RLSA-2026:4188
     - https://gitlab.com/gnutls/gnutls/-/issues/1773
     - https://linux.oracle.com/cve/CVE-2025-14831.html
-    - https://linux.oracle.com/errata/ELSA-2026-3477.html
+    - https://linux.oracle.com/errata/ELSA-2026-50149.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14831
     - https://ubuntu.com/security/notices/USN-8043-1
     - https://www.cve.org/CVERecord?id=CVE-2025-14831
@@ -33148,7 +33206,7 @@
     - https://gitlab.com/gnutls/gnutls/-/commit/1d56f96f6ab5034d677136b9d50b5a75dff0faf5
     - https://gitlab.com/gnutls/gnutls/-/issues/1732
     - https://linux.oracle.com/cve/CVE-2025-9820.html
-    - https://linux.oracle.com/errata/ELSA-2026-3477.html
+    - https://linux.oracle.com/errata/ELSA-2026-50149.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9820
     - https://ubuntu.com/security/notices/USN-8043-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9820
@@ -33216,7 +33274,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:8a4110fd95b7a6a452c651eb81e84a3e0c30e40657979a796add5ea5679c3b2c
     Title: 'util-linux: util-linux: Access control bypass due to improper hostname canonicalization'
-    Description: No description is available for this CVE.
+    Description: A flaw was found in util-linux. Improper hostname canonicalization in the `login(1)` utility, when invoked with the `-h` option, can modify the supplied remote hostname before setting `PAM_RHOST`. A remote attacker could exploit this by providing a specially crafted hostname, potentially bypassing host-based Pluggable Authentication Modules (PAM) access control rules that rely on fully qualified domain names. This could lead to unauthorized access.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 1
@@ -33248,7 +33306,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:97a0113ab70b7ee5c5783934b74a293f6cda982c4e057157c072d1490fb8d763
     Title: 'util-linux: util-linux: Access control bypass due to improper hostname canonicalization'
-    Description: No description is available for this CVE.
+    Description: A flaw was found in util-linux. Improper hostname canonicalization in the `login(1)` utility, when invoked with the `-h` option, can modify the supplied remote hostname before setting `PAM_RHOST`. A remote attacker could exploit this by providing a specially crafted hostname, potentially bypassing host-based Pluggable Authentication Modules (PAM) access control rules that rely on fully qualified domain names. This could lead to unauthorized access.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 1
@@ -33625,7 +33683,7 @@
     - https://github.com/pnggroup/libpng/commit/01d03b8453eb30ade759cd45c707e5a1c7277d88
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-g8hp-mq4h-rqm3
     - https://linux.oracle.com/cve/CVE-2026-25646.html
-    - https://linux.oracle.com/errata/ELSA-2026-3551.html
+    - https://linux.oracle.com/errata/ELSA-2026-4306.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-25646
     - https://ubuntu.com/security/notices/USN-8035-1
     - https://ubuntu.com/security/notices/USN-8039-1
@@ -33923,7 +33981,7 @@
     - https://github.com/python/cpython/issues/143921
     - https://github.com/python/cpython/pull/143922
     - https://linux.oracle.com/cve/CVE-2025-15366.html
-    - https://linux.oracle.com/errata/ELSA-2026-4168.html
+    - https://linux.oracle.com/errata/ELSA-2026-4473.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/DD7C7JZJYTBXMDOWKCEIEBJLBRU64OMR/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15366
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -33987,7 +34045,7 @@
     - https://github.com/python/cpython/issues/143923
     - https://github.com/python/cpython/pull/143924
     - https://linux.oracle.com/cve/CVE-2025-15367.html
-    - https://linux.oracle.com/errata/ELSA-2026-4168.html
+    - https://linux.oracle.com/errata/ELSA-2026-4473.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/CBFBOWVGGUJFSGITQCCBZS4GEYYZ7ZNE/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15367
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -34121,7 +34179,7 @@
     - https://github.com/python/cpython/issues/143916
     - https://github.com/python/cpython/pull/143917
     - https://linux.oracle.com/cve/CVE-2026-0865.html
-    - https://linux.oracle.com/errata/ELSA-2026-2128.html
+    - https://linux.oracle.com/errata/ELSA-2026-4473.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/BJ6QPHNSHJTS3A7CFV6IBMCAP2DWRVNT/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0865
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -34418,7 +34476,7 @@
     - https://github.com/python/cpython/issues/143921
     - https://github.com/python/cpython/pull/143922
     - https://linux.oracle.com/cve/CVE-2025-15366.html
-    - https://linux.oracle.com/errata/ELSA-2026-4168.html
+    - https://linux.oracle.com/errata/ELSA-2026-4473.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/DD7C7JZJYTBXMDOWKCEIEBJLBRU64OMR/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15366
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -34482,7 +34540,7 @@
     - https://github.com/python/cpython/issues/143923
     - https://github.com/python/cpython/pull/143924
     - https://linux.oracle.com/cve/CVE-2025-15367.html
-    - https://linux.oracle.com/errata/ELSA-2026-4168.html
+    - https://linux.oracle.com/errata/ELSA-2026-4473.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/CBFBOWVGGUJFSGITQCCBZS4GEYYZ7ZNE/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15367
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -34616,7 +34674,7 @@
     - https://github.com/python/cpython/issues/143916
     - https://github.com/python/cpython/pull/143917
     - https://linux.oracle.com/cve/CVE-2026-0865.html
-    - https://linux.oracle.com/errata/ELSA-2026-2128.html
+    - https://linux.oracle.com/errata/ELSA-2026-4473.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/BJ6QPHNSHJTS3A7CFV6IBMCAP2DWRVNT/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0865
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -34913,7 +34971,7 @@
     - https://github.com/python/cpython/issues/143921
     - https://github.com/python/cpython/pull/143922
     - https://linux.oracle.com/cve/CVE-2025-15366.html
-    - https://linux.oracle.com/errata/ELSA-2026-4168.html
+    - https://linux.oracle.com/errata/ELSA-2026-4473.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/DD7C7JZJYTBXMDOWKCEIEBJLBRU64OMR/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15366
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -34977,7 +35035,7 @@
     - https://github.com/python/cpython/issues/143923
     - https://github.com/python/cpython/pull/143924
     - https://linux.oracle.com/cve/CVE-2025-15367.html
-    - https://linux.oracle.com/errata/ELSA-2026-4168.html
+    - https://linux.oracle.com/errata/ELSA-2026-4473.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/CBFBOWVGGUJFSGITQCCBZS4GEYYZ7ZNE/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15367
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -35111,7 +35169,7 @@
     - https://github.com/python/cpython/issues/143916
     - https://github.com/python/cpython/pull/143917
     - https://linux.oracle.com/cve/CVE-2026-0865.html
-    - https://linux.oracle.com/errata/ELSA-2026-2128.html
+    - https://linux.oracle.com/errata/ELSA-2026-4473.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/BJ6QPHNSHJTS3A7CFV6IBMCAP2DWRVNT/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0865
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -35137,7 +35195,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:8399d94ded6df71975274d730257ccceb2e2dc45dfba0c953e01f5ec8ef1c492
     Title: 'util-linux: util-linux: Access control bypass due to improper hostname canonicalization'
-    Description: No description is available for this CVE.
+    Description: A flaw was found in util-linux. Improper hostname canonicalization in the `login(1)` utility, when invoked with the `-h` option, can modify the supplied remote hostname before setting `PAM_RHOST`. A remote attacker could exploit this by providing a specially crafted hostname, potentially bypassing host-based Pluggable Authentication Modules (PAM) access control rules that rely on fully qualified domain names. This could lead to unauthorized access.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 1
@@ -35170,7 +35228,12 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:42f4f4de549982f46d47df0bf10047454cdeee2c1c358dea6f43e0edb9d5e684
     Title: 'libssh: Improper sanitation of paths received from SCP servers'
-    Description: No description is available for this CVE.
+    Description: |-
+      A malicious SCP server can send unexpected paths that could make the
+      client application override local files outside of working directory.
+      This could be misused to create malicious executable or configuration
+      files and make the user execute them under specific consequences.
+      This is the same issue as in OpenSSH, tracked as CVE-2019-6111.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
@@ -35206,7 +35269,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:aa79d3a1676b3441edf16cf3b48bee24d317b4ecd0381ab5479ad5c1a00dc006
     Title: 'libssh: libssh: Denial of Service via inefficient regular expression processing'
-    Description: No description is available for this CVE.
+    Description: A flaw was found in libssh. A remote attacker, by controlling client configuration files or known_hosts files, could craft specific hostnames that when processed by the `match_pattern()` function can lead to inefficient regular expression backtracking. This can cause timeouts and resource exhaustion, resulting in a Denial of Service (DoS) for the client.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 1
@@ -35242,7 +35305,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:a4d3c1bcfc051b0ad7a2b5cc6021e20989e6446a3b52cf4772b97d6b3b9e8452
     Title: 'libssh: libssh: Denial of Service due to malformed SFTP message'
-    Description: No description is available for this CVE.
+    Description: A flaw was found in libssh in which a malicious SFTP (SSH File Transfer Protocol) server can exploit this by sending a malformed 'longname' field within an `SSH_FXP_NAME` message during a file listing operation. This missing null check can lead to reading beyond allocated memory on the heap. This can cause unexpected behavior or lead to a denial of service (DoS) due to application crashes.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 1
@@ -35283,13 +35346,13 @@
     - CWE-119
     - CWE-125
     VendorSeverity:
-      nvd: 4
+      nvd: 3
       redhat: 2
       ubuntu: 2
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 9.8
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -35304,7 +35367,7 @@
     - https://www.libssh.org/files/0.12/libssh-0.12.0.tar.xz
     - https://www.libssh.org/security/advisories/libssh-2026-sftp-extensions.txt
     PublishedDate: '2026-03-08T11:15:50.307Z'
-    LastModifiedDate: '2026-03-09T18:36:33.48Z'
+    LastModifiedDate: '2026-03-12T19:02:31.637Z'
   - VulnerabilityID: CVE-2025-8277
     PkgID: libssh-4@0.11.2-1ubuntu0.1
     PkgName: libssh-4
@@ -35369,7 +35432,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:86d19a4f65ae8ef4b7c14f3818f137583c2db32d44bd22fd81f7e8b7f6f56b71
     Title: 'libssh: libssh: Denial of Service via improper configuration file handling'
-    Description: No description is available for this CVE.
+    Description: A flaw was found in libssh where it can attempt to open arbitrary files during configuration parsing. A local attacker can exploit this by providing a malicious configuration file or when the system is misconfigured. This vulnerability could lead to a Denial of Service (DoS) by causing the system to try and access dangerous files, such as block devices or large system files, which can disrupt normal operations.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -35405,7 +35468,17 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:8924306c4772642e068835a008b40ff1aafd359c9e6600eb1e3f44ce6471b11b
     Title: 'libssh: Buffer underflow in ssh_get_hexa() on invalid input'
-    Description: No description is available for this CVE.
+    Description: |-
+      The API function `ssh_get_hexa()` is vulnerable, when 0-lenght
+      input is provided to this function. This function is used internally
+      in `ssh_get_fingerprint_hash()` and `ssh_print_hexa()` (deprecated),
+      which is vulnerable to the same input (length is provided by the
+      calling application).
+      The function is also used internally in the gssapi code for logging
+      the OIDs received by the server during GSSAPI authentication. This
+      could be triggered remotely, when the server allows GSSAPI authentication
+      and logging verbosity is set at least to SSH_LOG_PACKET (3). This
+      could cause self-DoS of the per-connection daemon process.
     Severity: LOW
     VendorSeverity:
       amazon: 3
@@ -36838,7 +36911,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:5611da724f3bdf3e49cd3fd73aeda0ceae5124f6520947d1ec5619d2ab18b462
     Title: 'util-linux: util-linux: Access control bypass due to improper hostname canonicalization'
-    Description: No description is available for this CVE.
+    Description: A flaw was found in util-linux. Improper hostname canonicalization in the `login(1)` utility, when invoked with the `-h` option, can modify the supplied remote hostname before setting `PAM_RHOST`. A remote attacker could exploit this by providing a specially crafted hostname, potentially bypassing host-based Pluggable Authentication Modules (PAM) access control rules that rely on fully qualified domain names. This could lead to unauthorized access.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 1
@@ -37654,7 +37727,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:ba85d0a9c7c70e08391628d98065dcbebcf7dc1d4ca5a4f98f6b0670f99204e9
     Title: 'util-linux: util-linux: Access control bypass due to improper hostname canonicalization'
-    Description: No description is available for this CVE.
+    Description: A flaw was found in util-linux. Improper hostname canonicalization in the `login(1)` utility, when invoked with the `-h` option, can modify the supplied remote hostname before setting `PAM_RHOST`. A remote attacker could exploit this by providing a specially crafted hostname, potentially bypassing host-based Pluggable Authentication Modules (PAM) access control rules that rely on fully qualified domain names. This could lead to unauthorized access.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 1
@@ -37737,7 +37810,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:77936cc5d317a391c62ca3cf728ddff430db52ec6112a3a743b748c7cfdf1581
     Title: 'util-linux: util-linux: Access control bypass due to improper hostname canonicalization'
-    Description: No description is available for this CVE.
+    Description: A flaw was found in util-linux. Improper hostname canonicalization in the `login(1)` utility, when invoked with the `-h` option, can modify the supplied remote hostname before setting `PAM_RHOST`. A remote attacker could exploit this by providing a specially crafted hostname, potentially bypassing host-based Pluggable Authentication Modules (PAM) access control rules that rely on fully qualified domain names. This could lead to unauthorized access.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 1
@@ -40885,7 +40958,7 @@
     - https://github.com/python/cpython/issues/143921
     - https://github.com/python/cpython/pull/143922
     - https://linux.oracle.com/cve/CVE-2025-15366.html
-    - https://linux.oracle.com/errata/ELSA-2026-4168.html
+    - https://linux.oracle.com/errata/ELSA-2026-4473.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/DD7C7JZJYTBXMDOWKCEIEBJLBRU64OMR/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15366
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -40949,7 +41022,7 @@
     - https://github.com/python/cpython/issues/143923
     - https://github.com/python/cpython/pull/143924
     - https://linux.oracle.com/cve/CVE-2025-15367.html
-    - https://linux.oracle.com/errata/ELSA-2026-4168.html
+    - https://linux.oracle.com/errata/ELSA-2026-4473.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/CBFBOWVGGUJFSGITQCCBZS4GEYYZ7ZNE/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15367
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -41083,7 +41156,7 @@
     - https://github.com/python/cpython/issues/143916
     - https://github.com/python/cpython/pull/143917
     - https://linux.oracle.com/cve/CVE-2026-0865.html
-    - https://linux.oracle.com/errata/ELSA-2026-2128.html
+    - https://linux.oracle.com/errata/ELSA-2026-4473.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/BJ6QPHNSHJTS3A7CFV6IBMCAP2DWRVNT/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0865
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -41380,7 +41453,7 @@
     - https://github.com/python/cpython/issues/143921
     - https://github.com/python/cpython/pull/143922
     - https://linux.oracle.com/cve/CVE-2025-15366.html
-    - https://linux.oracle.com/errata/ELSA-2026-4168.html
+    - https://linux.oracle.com/errata/ELSA-2026-4473.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/DD7C7JZJYTBXMDOWKCEIEBJLBRU64OMR/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15366
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -41444,7 +41517,7 @@
     - https://github.com/python/cpython/issues/143923
     - https://github.com/python/cpython/pull/143924
     - https://linux.oracle.com/cve/CVE-2025-15367.html
-    - https://linux.oracle.com/errata/ELSA-2026-4168.html
+    - https://linux.oracle.com/errata/ELSA-2026-4473.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/CBFBOWVGGUJFSGITQCCBZS4GEYYZ7ZNE/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15367
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -41578,7 +41651,7 @@
     - https://github.com/python/cpython/issues/143916
     - https://github.com/python/cpython/pull/143917
     - https://linux.oracle.com/cve/CVE-2026-0865.html
-    - https://linux.oracle.com/errata/ELSA-2026-2128.html
+    - https://linux.oracle.com/errata/ELSA-2026-4473.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/BJ6QPHNSHJTS3A7CFV6IBMCAP2DWRVNT/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0865
     - https://ubuntu.com/security/notices/USN-8018-1
@@ -41754,7 +41827,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:d6288c4c8d0ab5bdff88fc97837379aae051b3096512e005cbe577ef66ca7280
     Title: 'util-linux: util-linux: Access control bypass due to improper hostname canonicalization'
-    Description: No description is available for this CVE.
+    Description: A flaw was found in util-linux. Improper hostname canonicalization in the `login(1)` utility, when invoked with the `-h` option, can modify the supplied remote hostname before setting `PAM_RHOST`. A remote attacker could exploit this by providing a specially crafted hostname, potentially bypassing host-based Pluggable Authentication Modules (PAM) access control rules that rely on fully qualified domain names. This could lead to unauthorized access.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 1
@@ -41793,6 +41866,7 @@
     VendorSeverity:
       azure: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -41804,6 +41878,8 @@
     - https://github.com/vim/vim/commit/0714b15940b245108e6e9d7aa2260dd849a26fa9
     - https://github.com/vim/vim/releases/tag/v9.1.2132
     - https://github.com/vim/vim/security/advisories/GHSA-5w93-4g67-mm43
+    - https://linux.oracle.com/cve/CVE-2026-25749.html
+    - https://linux.oracle.com/errata/ELSA-2026-4442.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-25749
     - https://www.cve.org/CVERecord?id=CVE-2026-25749
     PublishedDate: '2026-02-06T23:15:54.23Z'
@@ -41881,6 +41957,7 @@
     VendorSeverity:
       azure: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -41892,6 +41969,8 @@
     - https://github.com/vim/vim/commit/0714b15940b245108e6e9d7aa2260dd849a26fa9
     - https://github.com/vim/vim/releases/tag/v9.1.2132
     - https://github.com/vim/vim/security/advisories/GHSA-5w93-4g67-mm43
+    - https://linux.oracle.com/cve/CVE-2026-25749.html
+    - https://linux.oracle.com/errata/ELSA-2026-4442.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-25749
     - https://www.cve.org/CVERecord?id=CVE-2026-25749
     PublishedDate: '2026-02-06T23:15:54.23Z'
@@ -41969,6 +42048,7 @@
     VendorSeverity:
       azure: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -41980,6 +42060,8 @@
     - https://github.com/vim/vim/commit/0714b15940b245108e6e9d7aa2260dd849a26fa9
     - https://github.com/vim/vim/releases/tag/v9.1.2132
     - https://github.com/vim/vim/security/advisories/GHSA-5w93-4g67-mm43
+    - https://linux.oracle.com/cve/CVE-2026-25749.html
+    - https://linux.oracle.com/errata/ELSA-2026-4442.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-25749
     - https://www.cve.org/CVERecord?id=CVE-2026-25749
     PublishedDate: '2026-02-06T23:15:54.23Z'
@@ -42201,6 +42283,7 @@
     VendorSeverity:
       azure: 2
       cbl-mariner: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -42212,6 +42295,8 @@
     - https://github.com/vim/vim/commit/0714b15940b245108e6e9d7aa2260dd849a26fa9
     - https://github.com/vim/vim/releases/tag/v9.1.2132
     - https://github.com/vim/vim/security/advisories/GHSA-5w93-4g67-mm43
+    - https://linux.oracle.com/cve/CVE-2026-25749.html
+    - https://linux.oracle.com/errata/ELSA-2026-4442.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-25749
     - https://www.cve.org/CVERecord?id=CVE-2026-25749
     PublishedDate: '2026-02-06T23:15:54.23Z'
