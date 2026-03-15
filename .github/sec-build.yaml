@@ -31793,6 +31793,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      alma: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -31803,7 +31804,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:4442
     - https://access.redhat.com/security/cve/CVE-2026-25749
+    - https://bugzilla.redhat.com/2437843
+    - https://errata.almalinux.org/8/ALSA-2026-4442.html
     - https://github.com/vim/vim/commit/0714b15940b245108e6e9d7aa2260dd849a26fa9
     - https://github.com/vim/vim/releases/tag/v9.1.2132
     - https://github.com/vim/vim/security/advisories/GHSA-5w93-4g67-mm43
@@ -31884,6 +31888,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      alma: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -31894,7 +31899,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:4442
     - https://access.redhat.com/security/cve/CVE-2026-25749
+    - https://bugzilla.redhat.com/2437843
+    - https://errata.almalinux.org/8/ALSA-2026-4442.html
     - https://github.com/vim/vim/commit/0714b15940b245108e6e9d7aa2260dd849a26fa9
     - https://github.com/vim/vim/releases/tag/v9.1.2132
     - https://github.com/vim/vim/security/advisories/GHSA-5w93-4g67-mm43
@@ -31975,6 +31983,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      alma: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -31985,7 +31994,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:4442
     - https://access.redhat.com/security/cve/CVE-2026-25749
+    - https://bugzilla.redhat.com/2437843
+    - https://errata.almalinux.org/8/ALSA-2026-4442.html
     - https://github.com/vim/vim/commit/0714b15940b245108e6e9d7aa2260dd849a26fa9
     - https://github.com/vim/vim/releases/tag/v9.1.2132
     - https://github.com/vim/vim/security/advisories/GHSA-5w93-4g67-mm43
@@ -32210,6 +32222,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      alma: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -32220,7 +32233,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:4442
     - https://access.redhat.com/security/cve/CVE-2026-25749
+    - https://bugzilla.redhat.com/2437843
+    - https://errata.almalinux.org/8/ALSA-2026-4442.html
     - https://github.com/vim/vim/commit/0714b15940b245108e6e9d7aa2260dd849a26fa9
     - https://github.com/vim/vim/releases/tag/v9.1.2132
     - https://github.com/vim/vim/security/advisories/GHSA-5w93-4g67-mm43
