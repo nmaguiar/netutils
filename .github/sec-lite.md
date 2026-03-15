@@ -15513,8 +15513,7 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:c6b9f26d37c9db1b4da4e1086544d54f9296e579209838b8277a6
 │                       │      │                   ec8a62c58dc 
-│                       │      ├ Title           : Vim is an open source, command line text editor. From
-│                       │      │                   9.1.0011 to befo ... 
+│                       │      ├ Title           : vim: NFA regex engine NULL pointer dereference 
 │                       │      ├ Description     : Vim is an open source, command line text editor. From
 │                       │      │                   9.1.0011 to before 9.2.0137, Vim's NFA regex compiler, when
 │                       │      │                   encountering a collection containing a combining character
@@ -15527,13 +15526,20 @@
 │                       │      │                   dereferences state->out1->out without a NULL check, causing
 │                       │      │                   a segmentation fault. This vulnerability is fixed in
 │                       │      │                   9.2.0137. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/36d6e87542cf823d833e
+│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32249 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/commit/36d6e87542cf823d833e
 │                       │      │                  │      451e09a90ee429899cec 
-│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0137 
-│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-9p
-│                       │      │                         hh-423r-778r 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0137 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-9p
+│                       │      │                  │      hh-423r-778r 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-32249 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-32249 
 │                       │      ├ PublishedDate   : 2026-03-12T20:16:05.523Z 
 │                       │      ╰ LastModifiedDate: 2026-03-12T21:07:53.427Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2026-32249 
@@ -15555,8 +15561,7 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:4840250a907b2d3271562247c1de144f73da6b5ad0d1e75dd2320
 │                       │      │                   a0b5f5a3448 
-│                       │      ├ Title           : Vim is an open source, command line text editor. From
-│                       │      │                   9.1.0011 to befo ... 
+│                       │      ├ Title           : vim: NFA regex engine NULL pointer dereference 
 │                       │      ├ Description     : Vim is an open source, command line text editor. From
 │                       │      │                   9.1.0011 to before 9.2.0137, Vim's NFA regex compiler, when
 │                       │      │                   encountering a collection containing a combining character
@@ -15569,13 +15574,20 @@
 │                       │      │                   dereferences state->out1->out without a NULL check, causing
 │                       │      │                   a segmentation fault. This vulnerability is fixed in
 │                       │      │                   9.2.0137. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/36d6e87542cf823d833e
+│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32249 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/commit/36d6e87542cf823d833e
 │                       │      │                  │      451e09a90ee429899cec 
-│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0137 
-│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-9p
-│                       │      │                         hh-423r-778r 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0137 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-9p
+│                       │      │                  │      hh-423r-778r 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-32249 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-32249 
 │                       │      ├ PublishedDate   : 2026-03-12T20:16:05.523Z 
 │                       │      ╰ LastModifiedDate: 2026-03-12T21:07:53.427Z 
 │                       ╰ [14] ╭ VulnerabilityID : CVE-2026-32249 
@@ -15597,8 +15609,7 @@
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                              ├ Fingerprint     : sha256:aaadc6d7b9bf718b5694b11f20e8ee31d0191ceecca307f99080c
 │                              │                   9e5b8a0b7b1 
-│                              ├ Title           : Vim is an open source, command line text editor. From
-│                              │                   9.1.0011 to befo ... 
+│                              ├ Title           : vim: NFA regex engine NULL pointer dereference 
 │                              ├ Description     : Vim is an open source, command line text editor. From
 │                              │                   9.1.0011 to before 9.2.0137, Vim's NFA regex compiler, when
 │                              │                   encountering a collection containing a combining character
@@ -15611,13 +15622,20 @@
 │                              │                   dereferences state->out1->out without a NULL check, causing
 │                              │                   a segmentation fault. This vulnerability is fixed in
 │                              │                   9.2.0137. 
-│                              ├ Severity        : UNKNOWN 
+│                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-476 
-│                              ├ References       ╭ [0]: https://github.com/vim/vim/commit/36d6e87542cf823d833e
+│                              ├ VendorSeverity   ─ redhat: 1 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                              │                           │           /A:H 
+│                              │                           ╰ V3Score : 5.5 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32249 
+│                              │                  ├ [1]: https://github.com/vim/vim/commit/36d6e87542cf823d833e
 │                              │                  │      451e09a90ee429899cec 
-│                              │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0137 
-│                              │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-9p
-│                              │                         hh-423r-778r 
+│                              │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0137 
+│                              │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-9p
+│                              │                  │      hh-423r-778r 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-32249 
+│                              │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-32249 
 │                              ├ PublishedDate   : 2026-03-12T20:16:05.523Z 
 │                              ╰ LastModifiedDate: 2026-03-12T21:07:53.427Z 
 ╰ [1] ╭ Target  : Java 
