@@ -14918,7 +14918,8 @@
 │                       │      │                   curl_multi API). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-305 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
@@ -14928,7 +14929,8 @@
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-1965.json 
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-1965 
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8099-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
 │                       │      ├ PublishedDate   : 2026-03-11T11:15:59.177Z 
 │                       │      ╰ LastModifiedDate: 2026-03-12T14:11:19.07Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2026-3783 
@@ -14966,7 +14968,8 @@
 │                       │      │                   to the second one. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-522 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -14978,7 +14981,8 @@
 │                       │      │                  ├ [4]: https://hackerone.com/reports/3583983 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-3783 
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8099-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
 │                       │      ├ PublishedDate   : 2026-03-11T11:16:00.08Z 
 │                       │      ╰ LastModifiedDate: 2026-03-12T14:10:37.3Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2026-3784 
@@ -15010,7 +15014,8 @@
 │                       │      │                   connection. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-305 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -15022,7 +15027,8 @@
 │                       │      │                  ├ [4]: https://hackerone.com/reports/3584903 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-3784 
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-3784 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8099-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-3784 
 │                       │      ├ PublishedDate   : 2026-03-11T11:16:00.437Z 
 │                       │      ╰ LastModifiedDate: 2026-03-12T14:09:50.47Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2026-3805 
@@ -15051,7 +15057,8 @@
 │                       │      │                   a data pointer pointing into already freed memory. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
@@ -15132,7 +15139,8 @@
 │                       │      │                   curl_multi API). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-305 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
@@ -15142,7 +15150,8 @@
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-1965.json 
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-1965 
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8099-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
 │                       │      ├ PublishedDate   : 2026-03-11T11:15:59.177Z 
 │                       │      ╰ LastModifiedDate: 2026-03-12T14:11:19.07Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2026-3783 
@@ -15180,7 +15189,8 @@
 │                       │      │                   to the second one. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-522 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -15192,7 +15202,8 @@
 │                       │      │                  ├ [4]: https://hackerone.com/reports/3583983 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-3783 
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8099-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
 │                       │      ├ PublishedDate   : 2026-03-11T11:16:00.08Z 
 │                       │      ╰ LastModifiedDate: 2026-03-12T14:10:37.3Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2026-3784 
@@ -15224,7 +15235,8 @@
 │                       │      │                   connection. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-305 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -15236,7 +15248,8 @@
 │                       │      │                  ├ [4]: https://hackerone.com/reports/3584903 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-3784 
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-3784 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8099-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-3784 
 │                       │      ├ PublishedDate   : 2026-03-11T11:16:00.437Z 
 │                       │      ╰ LastModifiedDate: 2026-03-12T14:09:50.47Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2026-3805 
@@ -15265,7 +15278,8 @@
 │                       │      │                   a data pointer pointing into already freed memory. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
@@ -15346,7 +15360,8 @@
 │                       │      │                   curl_multi API). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-305 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
@@ -15356,7 +15371,8 @@
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-1965.json 
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-1965 
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8099-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-1965 
 │                       │      ├ PublishedDate   : 2026-03-11T11:15:59.177Z 
 │                       │      ╰ LastModifiedDate: 2026-03-12T14:11:19.07Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2026-3783 
@@ -15394,7 +15410,8 @@
 │                       │      │                   to the second one. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-522 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -15406,7 +15423,8 @@
 │                       │      │                  ├ [4]: https://hackerone.com/reports/3583983 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-3783 
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8099-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-3783 
 │                       │      ├ PublishedDate   : 2026-03-11T11:16:00.08Z 
 │                       │      ╰ LastModifiedDate: 2026-03-12T14:10:37.3Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2026-3784 
@@ -15438,7 +15456,8 @@
 │                       │      │                   connection. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-305 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -15450,7 +15469,8 @@
 │                       │      │                  ├ [4]: https://hackerone.com/reports/3584903 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-3784 
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8084-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-3784 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8099-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-3784 
 │                       │      ├ PublishedDate   : 2026-03-11T11:16:00.437Z 
 │                       │      ╰ LastModifiedDate: 2026-03-12T14:09:50.47Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2026-3805 
@@ -15479,7 +15499,8 @@
 │                       │      │                   a data pointer pointing into already freed memory. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
