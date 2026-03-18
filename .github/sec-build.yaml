@@ -31797,6 +31797,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -31892,6 +31893,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -31987,6 +31989,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -32226,6 +32229,7 @@
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
