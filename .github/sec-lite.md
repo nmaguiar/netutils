@@ -15528,6 +15528,7 @@
 │                       │      │                  │         79824913b0cb7e99d1e4 
 │                       │      │                  ╰ DiffID: sha256:38e651725af43c98c8e29f8a48ccedda2b7db2908e67
 │                       │      │                            b627b612eba54ddcd99c 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32249 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -15549,8 +15550,12 @@
 │                       │      │                   9.2.0137. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ─ redhat: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ╰ redhat: 1 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.5 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32249 
@@ -15562,7 +15567,7 @@
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-32249 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-32249 
 │                       │      ├ PublishedDate   : 2026-03-12T20:16:05.523Z 
-│                       │      ╰ LastModifiedDate: 2026-03-12T21:07:53.427Z 
+│                       │      ╰ LastModifiedDate: 2026-03-18T11:50:06Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2026-32249 
 │                       │      ├ PkgID           : vim-common@9.2.0078-r0 
 │                       │      ├ PkgName         : vim-common 
@@ -15576,6 +15581,7 @@
 │                       │      │                  │         79824913b0cb7e99d1e4 
 │                       │      │                  ╰ DiffID: sha256:38e651725af43c98c8e29f8a48ccedda2b7db2908e67
 │                       │      │                            b627b612eba54ddcd99c 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32249 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -15597,8 +15603,12 @@
 │                       │      │                   9.2.0137. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ─ redhat: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ╰ redhat: 1 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.5 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32249 
@@ -15610,7 +15620,7 @@
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-32249 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-32249 
 │                       │      ├ PublishedDate   : 2026-03-12T20:16:05.523Z 
-│                       │      ╰ LastModifiedDate: 2026-03-12T21:07:53.427Z 
+│                       │      ╰ LastModifiedDate: 2026-03-18T11:50:06Z 
 │                       ╰ [14] ╭ VulnerabilityID : CVE-2026-32249 
 │                              ├ PkgID           : xxd@9.2.0078-r0 
 │                              ├ PkgName         : xxd 
@@ -15624,6 +15634,7 @@
 │                              │                  │         79824913b0cb7e99d1e4 
 │                              │                  ╰ DiffID: sha256:38e651725af43c98c8e29f8a48ccedda2b7db2908e67
 │                              │                            b627b612eba54ddcd99c 
+│                              ├ SeveritySource  : nvd 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32249 
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
@@ -15645,8 +15656,12 @@
 │                              │                   9.2.0137. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-476 
-│                              ├ VendorSeverity   ─ redhat: 1 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                              ├ VendorSeverity   ╭ nvd   : 2 
+│                              │                  ╰ redhat: 1 
+│                              ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                              │                  │        │           /A:H 
+│                              │                  │        ╰ V3Score : 5.5 
+│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
 │                              │                           │           /A:H 
 │                              │                           ╰ V3Score : 5.5 
 │                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32249 
@@ -15658,7 +15673,7 @@
 │                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-32249 
 │                              │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-32249 
 │                              ├ PublishedDate   : 2026-03-12T20:16:05.523Z 
-│                              ╰ LastModifiedDate: 2026-03-12T21:07:53.427Z 
+│                              ╰ LastModifiedDate: 2026-03-18T11:50:06Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
