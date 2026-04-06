@@ -10,7 +10,7 @@ jobs:
     
         steps:
         - name: Checkout
-          uses: actions/checkout@v4
+          uses: actions/checkout@v6
 
         - name: build
           run : |
@@ -19,7 +19,7 @@ jobs:
             docker build --no-cache -f Dockerfile.mitm -o mitmproxy .
 
         - name: Cache mitmproxy save
-          uses: actions/cache/save@v3
+          uses: actions/cache/save@v5
           with:
             key : mitmproxy-${{ runner.arch }}
             path: |
@@ -31,7 +31,7 @@ jobs:
     
         steps:
         - name: Checkout
-          uses: actions/checkout@v4
+          uses: actions/checkout@v6
 
         - name: build
           run : |
@@ -40,7 +40,7 @@ jobs:
             docker build --no-cache -f Dockerfile.mitm -o mitmproxy .
 
         - name: Cache mitmproxy save
-          uses: actions/cache/save@v3
+          uses: actions/cache/save@v5
           with:
             key : mitmproxy-${{ runner.arch }}
             path: |
