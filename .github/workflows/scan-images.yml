@@ -35,6 +35,10 @@ jobs:
         args: 'image=nmaguiar/netutils:latest file=.github/sec-latest.svg reportFile=.github/sec-latest.yaml'
         dist: 'nightly'
 
+    - name: Debug
+      run: |
+        cat .github/sec-latest.yaml
+
     - uses: openaf/ojob-action@v7
       name: Generate sec-latest.md
       with:
