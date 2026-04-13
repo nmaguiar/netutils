@@ -53,6 +53,10 @@ jobs:
         args: 'image=nmaguiar/netutils:lite file=.github/sec-lite.svg reportFile=.github/sec-lite.yaml'
         dist: 'nightly'
 
+    - name: Debug lite
+      run: |
+        cat .github/sec-lite.yaml
+
     - uses: openaf/ojob-action@v7
       name: Generate sec-lite.md
       with:
@@ -67,6 +71,10 @@ jobs:
         args: 'image=nmaguiar/netutils:build file=.github/sec-build.svg reportFile=.github/sec-build.yaml'
         dist: 'nightly'
 
+    - name: Debug build
+      run: |
+        cat .github/sec-build.yaml
+
     - uses: openaf/ojob-action@v7
       name: Generate sec-build.md
       with:
@@ -80,6 +88,10 @@ jobs:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=nmaguiar/netutils:build-lite file=.github/sec-build-lite.svg reportFile=.github/sec-build-lite.yaml'
         dist: 'nightly'
+
+    - name: Debug build lite
+      run: |
+        cat .github/sec-built-lite.yaml
 
     - uses: openaf/ojob-action@v7
       name: Generate sec-build-lite.md
