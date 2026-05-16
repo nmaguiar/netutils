@@ -1,11 +1,10 @@
-````yaml
-╭ stdout   
-├ stderr  : docker: Error response from daemon: manifest for aquasec/trivy:latest not found: manifest unknown:
-│           manifest unknown
-│           
-│           Run 'docker run --help' for more information
-│            
-├ exitcode: 125 
-╰ cmd     : docker run --pull always --rm -v trivy-db:/root/.cache/trivy aquasec/trivy -f json  image
-            nmaguiar/netutils:build-lite 
-````
+```yaml
+╭ [0] ╭ Target  : nmaguiar/netutils:build-lite (alpine 3.24.0_alpha20260127) 
+│     ├ Class   : os-pkgs 
+│     ├ Type    : alpine 
+│     ╰ Packages 
+╰ [1] ╭ Target  : Java 
+      ├ Class   : lang-pkgs 
+      ├ Type    : jar 
+      ╰ Packages 
+```
