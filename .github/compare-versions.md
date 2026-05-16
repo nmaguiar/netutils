@@ -1,3 +1,6 @@
+[0.003s][warning][cds] The shared archive file was created by a different version or build of HotSpot
+[0.003s][error  ][cds] An error has occurred while processing the shared archive file. Run with -Xlog:aot,cds for details.
+[0.003s][error  ][cds] Loading static archive failed.
 | tool | buildVersion | latestVersion | buildLiteVersion | liteVersion |
 |------|--------------|---------------|------------------|-------------|
 | arping | 20250605 | 20240905 | 20250605 | 20250605 |
@@ -18,7 +21,7 @@
 | lazydocker | n/a | n/a | 0.24.4 | 0.24.4 |
 | lnstat | 6.19.0 | 6.16.0 | 7.0.0 | 6.19.0 |
 | lynx | 2.9.2 | 2.9.2 | 2.9.2 | 2.9.2 |
-| mitmproxy | 12.2.2 | 12.2.1 | n/a | n/a |
+| mitmproxy | 12.2.3 | 12.2.1 | n/a | n/a |
 | mpstat | 12.7.7 | 12.7.7 | 12.7.8 | 12.7.8 |
 | mtr | 0.95 | 0.95 | 0.96 | 0.96 |
 | nc | n/a | n/a | 1.234.1 | 1.234.1 |
@@ -26,7 +29,7 @@
 | nmap | 7.98 | 7.95 | 7.99 | 7.98 |
 | nsenter | n/a | n/a | 1.37.0 | 1.37.0 |
 | nstat | 6.19.0 | 6.16.0 | 7.0.0 | 6.19.0 |
-| openaf | 20260508 | 20260118 | 20260508 | 20260309 |
+| openaf | 20260515 | 20260118 | 20260515 | 20260309 |
 | pidstat | 12.7.7 | 12.7.7 | 12.7.8 | 12.7.8 |
 | ping | 20250605 | 20240905 | 20250605 | 20250605 |
 | posting | 3.12 | 3.12 | n/a | n/a |
