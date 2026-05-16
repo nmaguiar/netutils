@@ -91,7 +91,7 @@ jobs:
 
     - name: Debug build lite
       run: |
-        cat .github/sec-built-lite.yaml
+        cat .github/sec-build-lite.yaml
 
     - uses: openaf/ojob-action@v7
       name: Generate sec-build-lite.md
