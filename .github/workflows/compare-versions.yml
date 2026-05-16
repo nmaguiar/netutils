@@ -2,6 +2,7 @@ name: Compare Versions
 
 on:
   workflow_dispatch:
+  workflow_call:
   schedule:
     - cron: '07 9 * * *'
 
@@ -15,6 +16,8 @@ jobs:
     steps      :
     - uses: actions/checkout@v6
       name: Checkout
+      with:
+        ref: main
 
     - name: Cache OpenAF runtime
       uses: actions/cache@v5

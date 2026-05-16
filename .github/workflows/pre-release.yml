@@ -1,0 +1,129 @@
+name: Pre-Release
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+
+  docker-build:
+    name: Docker Image CI
+    uses: ./.github/workflows/build-image.yml
+    secrets: inherit
+
+  scan-versions:
+    name: Scan Versions
+    needs: docker-build
+    uses: ./.github/workflows/scan-versions.yml
+    secrets: inherit
+
+  compare-versions:
+    name: Compare Versions
+    needs: scan-versions
+    uses: ./.github/workflows/compare-versions.yml
+    secrets: inherit
+
+  prepare-release:
+    name: Prepare Release
+    needs: compare-versions
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+      name: Checkout
+      with:
+        ref: main
+
+    - name: Get current version from welcome.txt
+      id: version
+      run: |
+        VERSION=$(grep -oP 'v\d+\.\d+\.\d+' welcome.txt | head -1)
+        echo "current_version=$VERSION" >> $GITHUB_OUTPUT
+
+    - name: Get last release info
+      id: last_release
+      run: |
+        LAST_TAG=$(gh release list --limit 1 --json tagName -q '.[0].tagName')
+        LAST_DATE=$(gh release view "$LAST_TAG" --json createdAt -q '.createdAt')
+        echo "last_tag=$LAST_TAG" >> $GITHUB_OUTPUT
+        echo "last_date=$LAST_DATE" >> $GITHUB_OUTPUT
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Get PRs merged since last release
+      run: |
+        LAST_DATE="${{ steps.last_release.outputs.last_date }}"
+        gh pr list --state merged --base main --limit 100 --json number,title,mergedAt \
+          --jq ".[] | select(.mergedAt > \"$LAST_DATE\") | \"* #\(.number) \(.title)\"" > /tmp/prs.txt || true
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Parse version bumps from compare-versions.md
+      run: |
+        python3 << 'PYEOF'
+        bumps = []
+        lite_bumps = []
+
+        with open('.github/compare-versions.md', 'r') as f:
+            lines = f.readlines()
+
+        for line in lines:
+            s = line.strip()
+            if not s.startswith('|') or '---|' in s or s.startswith('| tool'):
+                continue
+            parts = [p.strip() for p in s.strip('|').split('|')]
+            if len(parts) < 5:
+                continue
+            tool, build_ver, latest_ver, build_lite_ver, lite_ver = parts[:5]
+            if build_ver != latest_ver and build_ver != 'n/a' and latest_ver != 'n/a':
+                bumps.append(f"* {tool}: {latest_ver} → {build_ver}")
+            if build_lite_ver != lite_ver and build_lite_ver != 'n/a' and lite_ver != 'n/a':
+                lite_bumps.append(f"* {tool}: {lite_ver} → {build_lite_ver}")
+
+        with open('/tmp/bumps.txt', 'w') as f:
+            f.write("## Standard Build Updates (buildVersion → latestVersion)\n\n")
+            if bumps:
+                f.write("🔄 Bumps:\n\n")
+                f.write('\n'.join(bumps) + '\n')
+            else:
+                f.write("No version bumps.\n")
+            f.write("\n## Lite Build Updates (buildLiteVersion → liteVersion)\n\n")
+            if lite_bumps:
+                f.write("🔄 Bumps:\n\n")
+                f.write('\n'.join(lite_bumps) + '\n')
+            else:
+                f.write("No version bumps.\n")
+        PYEOF
+
+    - name: Compose release notes
+      run: |
+        VERSION="${{ steps.version.outputs.current_version }}"
+        LAST_TAG="${{ steps.last_release.outputs.last_tag }}"
+        {
+          cat /tmp/bumps.txt
+          if [ -s /tmp/prs.txt ]; then
+            echo ""
+            echo "## Changes"
+            echo ""
+            cat /tmp/prs.txt
+          fi
+          echo ""
+          echo "**Full Changelog**: https://github.com/${{ github.repository }}/compare/${LAST_TAG}...${VERSION}"
+        } > /tmp/release_notes.md
+        cat /tmp/release_notes.md
+
+    - name: Create draft release
+      run: |
+        VERSION="${{ steps.version.outputs.current_version }}"
+        if gh release view "$VERSION" > /dev/null 2>&1; then
+          echo "Release $VERSION already exists — skipping."
+        else
+          gh release create "$VERSION" \
+            --title "$VERSION" \
+            --notes-file /tmp/release_notes.md \
+            --draft
+        fi
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
