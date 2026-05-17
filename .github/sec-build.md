@@ -11,17 +11,17 @@
 │                       │      │                  ╰ UID : dcc9c95bbf329bca 
 │                       │      ├ InstalledVersion: 2.41.3-3ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27456 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:1d44139d8643284784c9c463dbf632afdba319efdae3c1be788f9
-│                       │      │                   e2bb61cb30c 
+│                       │      ├ Fingerprint     : sha256:5ff71422ed30b1c948feecea3a7f85aaff84e4f1d855a3f4d0bc1
+│                       │      │                   c7aca402bc8 
 │                       │      ├ Title           : util-linux: TOCTOU in the mount program when setting up loop
 │                       │      │                    devices 
 │                       │      ├ Description     : util-linux is a random collection of Linux utilities. Prior
@@ -79,17 +79,17 @@
 │                       │      │                  ╰ UID : dcc9c95bbf329bca 
 │                       │      ├ InstalledVersion: 2.41.3-3ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3184 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:a71540df815fbc42f742c0c04e1a2fc708cc7e6f8054bdb318885
-│                       │      │                   f98958784ad 
+│                       │      ├ Fingerprint     : sha256:c529a193619c0285cdd9bb10ef75cb825e1087322cebd0aea5934
+│                       │      │                   e29cb02a3e4 
 │                       │      ├ Title           : util-linux: util-linux: Access control bypass due to
 │                       │      │                   improper hostname canonicalization 
 │                       │      ├ Description     : A flaw was found in util-linux. Improper hostname
@@ -128,17 +128,17 @@
 │                       │      │                  ╰ UID : 35a8976635e225e2 
 │                       │      ├ InstalledVersion: 1:2.41.3-3ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27456 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:59e5c8155c5443dfa16dc22a9a8af4344d60a027d09022ad5d917
-│                       │      │                   779589c79a5 
+│                       │      ├ Fingerprint     : sha256:cbdcf1473bbfabad5e47ddfd2299d63475be0d449e346202da279
+│                       │      │                   c10af223341 
 │                       │      ├ Title           : util-linux: TOCTOU in the mount program when setting up loop
 │                       │      │                    devices 
 │                       │      ├ Description     : util-linux is a random collection of Linux utilities. Prior
@@ -196,17 +196,17 @@
 │                       │      │                  ╰ UID : 35a8976635e225e2 
 │                       │      ├ InstalledVersion: 1:2.41.3-3ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3184 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:53ffc871e2b9c0cc06c72665a41a4ae1f70a538a4eecd14fb2b81
-│                       │      │                   ffc2b2785cb 
+│                       │      ├ Fingerprint     : sha256:957dc07135ce6aecd9bdd1fda84daab4af22a926ba27ea71abaee
+│                       │      │                   29711923596 
 │                       │      ├ Title           : util-linux: util-linux: Access control bypass due to
 │                       │      │                   improper hostname canonicalization 
 │                       │      ├ Description     : A flaw was found in util-linux. Improper hostname
@@ -245,17 +245,17 @@
 │                       │      │                  ╰ UID : ac02d1f0043d0a20 
 │                       │      ├ InstalledVersion: 0.11.1-1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41163 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:10757f195c0ac335f8b9eb2c5f77c9f87e7d04a7b42dc3c3624b7
-│                       │      │                   363b6f82d00 
+│                       │      ├ Fingerprint     : sha256:6d0f50d082a2703bf9cf853e2478f76b3579afb2baae2c3540a47
+│                       │      │                   3299d34651e 
 │                       │      ├ Title           : bubblewrap is a low-level unprivileged sandboxing tool. From
 │                       │      │                    version 0 ... 
 │                       │      ├ Description     : bubblewrap is a low-level unprivileged sandboxing tool. From
@@ -286,17 +286,17 @@
 │                       │      │                  ╰ UID : d020e8884322167e 
 │                       │      ├ InstalledVersion: 2:2.7-2ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28372 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:52f765cdacf7f3f0c1750bf28882dc3ce86b52effc2c4e405382a
-│                       │      │                   16727e5aba8 
+│                       │      ├ Fingerprint     : sha256:8c13bd3f21069696959034fa980d9723d92775957351ed4e5af63
+│                       │      │                   962f2f7bd4e 
 │                       │      ├ Title           : telnetd in GNU inetutils through 2.7 allows privilege
 │                       │      │                   escalation that  ... 
 │                       │      ├ Description     : telnetd in GNU inetutils through 2.7 allows privilege
@@ -336,17 +336,17 @@
 │                       │      │                  ╰ UID : f0acde1352e33f28 
 │                       │      ├ InstalledVersion: 1:1.2.2-1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-52949 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:446565f53ea75d74b248078bf28de8ba73f1fae733fa8dcf96b4c
-│                       │      │                   444bdea144b 
+│                       │      ├ Fingerprint     : sha256:bbccf1ef48d6922d1e8959dfa73a8b2af1a0e4aa66284aa8756c1
+│                       │      │                   08afbbb0f42 
 │                       │      ├ Title           : iptraf-ng: buffer overflow via ifaces.c 
 │                       │      ├ Description     : iptraf-ng 1.2.1 has a stack-based buffer overflow. In
 │                       │      │                   src/ifaces.c, the strcpy function consistently fails to
@@ -391,17 +391,17 @@
 │                       │      │                  ╰ UID : b5501184b4ec998 
 │                       │      ├ InstalledVersion: 0.8-18ubuntu1.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-59529 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:7cd00cc575694d95904d5f079e5226894f6de821207d1ceb7cec6
-│                       │      │                   7cf16f01c8b 
+│                       │      ├ Fingerprint     : sha256:4857264fb0775b20c0cd85897ea6ab5b0f8328ef17930e4384cf2
+│                       │      │                   b231a78340c 
 │                       │      ├ Title           : avahi: simple clients denial-of-service 
 │                       │      ├ Description     : Avahi is a system which facilitates service discovery on a
 │                       │      │                   local network via the mDNS/DNS-SD protocol suite. In
@@ -460,17 +460,17 @@
 │                       │      │                  ╰ UID : f43a0a4fd28b4c11 
 │                       │      ├ InstalledVersion: 0.8-18ubuntu1.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-59529 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:55242f4218e34099c45ee0a0f0f9e7ad57b1aa7ee58ba42ea73b4
-│                       │      │                   43ec8a7cc34 
+│                       │      ├ Fingerprint     : sha256:60773932c1289c8b1b5d2163819f9dd9c74ec67bc3e082735ecaf
+│                       │      │                   f00e340be65 
 │                       │      ├ Title           : avahi: simple clients denial-of-service 
 │                       │      ├ Description     : Avahi is a system which facilitates service discovery on a
 │                       │      │                   local network via the mDNS/DNS-SD protocol suite. In
@@ -529,17 +529,17 @@
 │                       │      │                  ╰ UID : 94c6fa380d3dd9a6 
 │                       │      ├ InstalledVersion: 0.8-18ubuntu1.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-59529 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:3df5edd2c38e7f1e232ceca581e124dd1bae9be2c71940270d785
-│                       │      │                   2b2b3ba3f70 
+│                       │      ├ Fingerprint     : sha256:9e5caf07ff96646418e0986c5876ca13efa730917c752c89dd6c9
+│                       │      │                   022d9824b3e 
 │                       │      ├ Title           : avahi: simple clients denial-of-service 
 │                       │      ├ Description     : Avahi is a system which facilitates service discovery on a
 │                       │      │                   local network via the mDNS/DNS-SD protocol suite. In
@@ -598,17 +598,17 @@
 │                       │      │                  ╰ UID : f63a0a78e3cac3a3 
 │                       │      ├ InstalledVersion: 2.41.3-3ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27456 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:ba55726956ffd7946ff31ce618f9aaeb19359315368852152bc9f
-│                       │      │                   a70e0bb0851 
+│                       │      ├ Fingerprint     : sha256:b9dd1075cb0390dbd2f8a20935731c14d482ce2255d055d21765e
+│                       │      │                   8bb724dedc8 
 │                       │      ├ Title           : util-linux: TOCTOU in the mount program when setting up loop
 │                       │      │                    devices 
 │                       │      ├ Description     : util-linux is a random collection of Linux utilities. Prior
@@ -666,17 +666,17 @@
 │                       │      │                  ╰ UID : f63a0a78e3cac3a3 
 │                       │      ├ InstalledVersion: 2.41.3-3ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3184 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:546de454172a5cc99f2151424a61a0c5a02788c42149aab5ebcfc
-│                       │      │                   9fb0a3c700c 
+│                       │      ├ Fingerprint     : sha256:7b04d4d9f12d9091bab2e8f9e95b614a247471109c73b30f67ecb
+│                       │      │                   8c3969f6c9f 
 │                       │      ├ Title           : util-linux: util-linux: Access control bypass due to
 │                       │      │                   improper hostname canonicalization 
 │                       │      ├ Description     : A flaw was found in util-linux. Improper hostname
@@ -715,17 +715,17 @@
 │                       │      │                  ╰ UID : aa471766c29fe384 
 │                       │      ├ InstalledVersion: 2.43-2ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4046 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:e8e71ed89ef455c98059a6a1b0b0a00206e81ddb2ea01927b1649
-│                       │      │                   b0cde5e1751 
+│                       │      ├ Fingerprint     : sha256:2c9e6e143c247bad9c0049e863b84c958d4f551781f8151dcead7
+│                       │      │                   94d1595040c 
 │                       │      ├ Title           : glibc: glibc: Denial of Service via iconv() function with
 │                       │      │                   specific character sets 
 │                       │      ├ Description     : The iconv() function in the GNU C Library versions 2.43 and
@@ -767,17 +767,17 @@
 │                       │      │                  ╰ UID : aa471766c29fe384 
 │                       │      ├ InstalledVersion: 2.43-2ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4437 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:d7b09413372f757676bfa3e9541c1e2f1c207a220defcb5d8b97d
-│                       │      │                   28df79bee62 
+│                       │      ├ Fingerprint     : sha256:90748e998362e9f29fab0cb290924d0bf26304308e5e9b7390e23
+│                       │      │                   b85580fccab 
 │                       │      ├ Title           : glibc: glibc: Incorrect DNS response parsing via crafted DNS
 │                       │      │                    server response 
 │                       │      ├ Description     : Calling gethostbyaddr or gethostbyaddr_r with a configured
@@ -811,17 +811,17 @@
 │                       │      │                  ╰ UID : aa471766c29fe384 
 │                       │      ├ InstalledVersion: 2.43-2ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4438 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:62e24ee6e796336e6951df0b64ed730d53565df2c20b5e534b5e7
-│                       │      │                   6b3bb250775 
+│                       │      ├ Fingerprint     : sha256:2c4dae4a88f386a8b492c6e72a412d3fa0fa3f0a60e9616c4006f
+│                       │      │                   700af698106 
 │                       │      ├ Title           : glibc: glibc: Invalid DNS hostname returned via
 │                       │      │                   gethostbyaddr functions 
 │                       │      ├ Description     : Calling gethostbyaddr or gethostbyaddr_r with a configured
@@ -854,17 +854,17 @@
 │                       │      │                  ╰ UID : 229c678f3865c408 
 │                       │      ├ InstalledVersion: 2.43-2ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4046 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:4f256320778b8b363fb78a06a174d4514f8510eaa9e5359bab8a1
-│                       │      │                   5a81561580c 
+│                       │      ├ Fingerprint     : sha256:94bee309f4d1be8ed64a250d0ac2203c9f0c7f28ecfa661c3e82f
+│                       │      │                   d3593a31564 
 │                       │      ├ Title           : glibc: glibc: Denial of Service via iconv() function with
 │                       │      │                   specific character sets 
 │                       │      ├ Description     : The iconv() function in the GNU C Library versions 2.43 and
@@ -906,17 +906,17 @@
 │                       │      │                  ╰ UID : 229c678f3865c408 
 │                       │      ├ InstalledVersion: 2.43-2ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4437 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:f77c1a3b2b7c59749eaf0f9f28ce955a76d0e988382096158115a
-│                       │      │                   6aa75d447bf 
+│                       │      ├ Fingerprint     : sha256:a29129550f900d4a11c526dff1075b7445b2c97c7504544fa30d3
+│                       │      │                   9793499483c 
 │                       │      ├ Title           : glibc: glibc: Incorrect DNS response parsing via crafted DNS
 │                       │      │                    server response 
 │                       │      ├ Description     : Calling gethostbyaddr or gethostbyaddr_r with a configured
@@ -950,17 +950,17 @@
 │                       │      │                  ╰ UID : 229c678f3865c408 
 │                       │      ├ InstalledVersion: 2.43-2ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4438 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:776c4df2e7c418486733d867777e0f4529a872c4d287cef0af440
-│                       │      │                   14da8e2b58b 
+│                       │      ├ Fingerprint     : sha256:70525d0ff1ec50426ac5ff38974c74c7e3cb25a66849197015d41
+│                       │      │                   5f57c208655 
 │                       │      ├ Title           : glibc: glibc: Invalid DNS hostname returned via
 │                       │      │                   gethostbyaddr functions 
 │                       │      ├ Description     : Calling gethostbyaddr or gethostbyaddr_r with a configured
@@ -993,17 +993,17 @@
 │                       │      │                  ╰ UID : a6167efe03e34488 
 │                       │      ├ InstalledVersion: 2.43-2ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4046 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:b5841afed307b59f35674912477a7f5886081f1d08f5abaee29b3
-│                       │      │                   ff21ecea9ee 
+│                       │      ├ Fingerprint     : sha256:a0d9e675ea22343ca062e066ca7ffa0c27bd0026dd85f01d3c9cb
+│                       │      │                   15083c96d17 
 │                       │      ├ Title           : glibc: glibc: Denial of Service via iconv() function with
 │                       │      │                   specific character sets 
 │                       │      ├ Description     : The iconv() function in the GNU C Library versions 2.43 and
@@ -1045,17 +1045,17 @@
 │                       │      │                  ╰ UID : a6167efe03e34488 
 │                       │      ├ InstalledVersion: 2.43-2ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4437 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:ad5bb7ff5e6efa777e31391defd2ac254067a8b4fda6bb0999300
-│                       │      │                   513cf01a735 
+│                       │      ├ Fingerprint     : sha256:0d30275b6807255ec204d86341ead31560bfdb5cc12a66f38cf03
+│                       │      │                   4ce4395d7fc 
 │                       │      ├ Title           : glibc: glibc: Incorrect DNS response parsing via crafted DNS
 │                       │      │                    server response 
 │                       │      ├ Description     : Calling gethostbyaddr or gethostbyaddr_r with a configured
@@ -1089,17 +1089,17 @@
 │                       │      │                  ╰ UID : a6167efe03e34488 
 │                       │      ├ InstalledVersion: 2.43-2ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4438 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:f5534bed7adb13b03a2c49754cb2f14d6a3896bddea2a3f549ce5
-│                       │      │                   87242fdffff 
+│                       │      ├ Fingerprint     : sha256:cfddff8a2c3ff6bebcfdac16d370defa88b53708dceec831170c9
+│                       │      │                   aa1275928b2 
 │                       │      ├ Title           : glibc: glibc: Invalid DNS hostname returned via
 │                       │      │                   gethostbyaddr functions 
 │                       │      ├ Description     : Calling gethostbyaddr or gethostbyaddr_r with a configured
@@ -1132,17 +1132,17 @@
 │                       │      │                  ╰ UID : 564fe8a82d762835 
 │                       │      ├ InstalledVersion: 1.18.4-3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2017-7475 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:1d113e9ddeb73f836aa9ed8afc4d631f9ae9c9b5c57270fabd19f
-│                       │      │                   d897b5cac45 
+│                       │      ├ Fingerprint     : sha256:d6ba7f2be9b62b5d0437255ddd38afb02c153c2a41bfbac62480b
+│                       │      │                   8acbb4eec1f 
 │                       │      ├ Title           : cairo: NULL pointer dereference with a crafted font file 
 │                       │      ├ Description     : Cairo version 1.15.4 is vulnerable to a NULL pointer
 │                       │      │                   dereference related to the FT_Load_Glyph and FT_Render_Glyph
@@ -1191,17 +1191,17 @@
 │                       │      │                  ╰ UID : 564fe8a82d762835 
 │                       │      ├ InstalledVersion: 1.18.4-3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2018-18064 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:43d9a9f387400de65e5d8b6d5a68bcfa8d1f5c0139f6dd67f95d0
-│                       │      │                   36ddc6660d0 
+│                       │      ├ Fingerprint     : sha256:10471a58621d29a87b7bfaf7928dea692bffd68c4089c4102039e
+│                       │      │                   a6416f5eb2e 
 │                       │      ├ Title           : cairo: Stack-based buffer overflow via parsing of crafted
 │                       │      │                   WebKitGTK+ document 
 │                       │      ├ Description     : cairo through 1.15.14 has an out-of-bounds stack-memory
@@ -1241,17 +1241,17 @@
 │                       │      │                  ╰ UID : 7925d1c81d5391e2 
 │                       │      ├ InstalledVersion: 1.18.4-3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2017-7475 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:6ad26baaa58215c302cae31037c2a1ab3eb9a06c4fca4194836d8
-│                       │      │                   5a4985f4713 
+│                       │      ├ Fingerprint     : sha256:4f3387da8aef0a5c6a5a5e5f08f7b878271d48cd78f66cfea4af6
+│                       │      │                   b31c78606d4 
 │                       │      ├ Title           : cairo: NULL pointer dereference with a crafted font file 
 │                       │      ├ Description     : Cairo version 1.15.4 is vulnerable to a NULL pointer
 │                       │      │                   dereference related to the FT_Load_Glyph and FT_Render_Glyph
@@ -1300,17 +1300,17 @@
 │                       │      │                  ╰ UID : 7925d1c81d5391e2 
 │                       │      ├ InstalledVersion: 1.18.4-3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2018-18064 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:ed26318af871a06d3da542ae2075e9807a85b71db9547d0428f51
-│                       │      │                   b58ec945c29 
+│                       │      ├ Fingerprint     : sha256:67c8d7136360d1f49ed23da82367fb31686a602d1363daade3c99
+│                       │      │                   33a38180c13 
 │                       │      ├ Title           : cairo: Stack-based buffer overflow via parsing of crafted
 │                       │      │                   WebKitGTK+ document 
 │                       │      ├ Description     : cairo through 1.15.14 has an out-of-bounds stack-memory
@@ -1350,17 +1350,17 @@
 │                       │      │                  ╰ UID : 9b271c3183df7f54 
 │                       │      ├ InstalledVersion: 2.4.16-1ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41079 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:a0b0abc8d8daac37dcbf7aff114055029ce8f38f5fa3169befd4d
-│                       │      │                   d99f4d44e25 
+│                       │      ├ Fingerprint     : sha256:1790781228b421a04c1a79af612ea734c04fe6c1f9980706937e6
+│                       │      │                   8e677e883ea 
 │                       │      ├ Title           : cups: CUPS: Information disclosure via crafted SNMP response 
 │                       │      ├ Description     : OpenPrinting CUPS is an open source printing system for
 │                       │      │                   Linux and other Unix-like operating systems. Prior to
@@ -1407,17 +1407,17 @@
 │                       │      │                  ╰ UID : 855cfee3bc864065 
 │                       │      ├ InstalledVersion: 0.194-4 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1352 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:2f723d256fcc242cf65e553e63860e245f3c3e7f86430cab21f6d
-│                       │      │                   ce98f7e3356 
+│                       │      ├ Fingerprint     : sha256:79b038d2705396d6e7bcf8950281c9430a1f0fc8d454c2b00ea92
+│                       │      │                   b9c564c0cc2 
 │                       │      ├ Title           : elfutils: GNU elfutils eu-readelf libdw_alloc.c
 │                       │      │                   __libdw_thread_tail memory corruption 
 │                       │      ├ Description     : A vulnerability has been found in GNU elfutils 0.192 and
@@ -1464,17 +1464,17 @@
 │                       │      │                  ╰ UID : 855cfee3bc864065 
 │                       │      ├ InstalledVersion: 0.194-4 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1376 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:81383d294584f1f45ba61c0a6d2c2f377e4752c667ba3d13a9127
-│                       │      │                   51db401246a 
+│                       │      ├ Fingerprint     : sha256:cee7cb731d357209b15b8ccf9d86e699b2bbae2d5316df5a99b02
+│                       │      │                   4369654cfb0 
 │                       │      ├ Title           : elfutils: GNU elfutils eu-strip elf_strptr.c elf_strptr
 │                       │      │                   denial of service 
 │                       │      ├ Description     : A vulnerability classified as problematic was found in GNU
@@ -1520,17 +1520,17 @@
 │                       │      │                  ╰ UID : c17b9d4b5a8b1286 
 │                       │      ├ InstalledVersion: 2.7.4-1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-66382 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:40a245718cbaf79acb394e508de06c9b42bac67bcfb86e37fb046
-│                       │      │                   cacfcba6eac 
+│                       │      ├ Fingerprint     : sha256:192a194ab189a24c9c4a069082b12fd7068df9483e7ee683e4187
+│                       │      │                   f659f608971 
 │                       │      ├ Title           : libexpat: libexpat: Denial of service via crafted file
 │                       │      │                   processing 
 │                       │      ├ Description     : In libexpat through 2.7.3, a crafted file with an
@@ -1564,17 +1564,17 @@
 │                       │      │                  ╰ UID : bb41032cd077800a 
 │                       │      ├ InstalledVersion: 1.12.0-2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41990 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:4c6602abcd06a4a7884cf15e4879668ca3fcc5c3a86e189ece8dd
-│                       │      │                   3f9bb168184 
+│                       │      ├ Fingerprint     : sha256:e7d49f24b795ae69a112da3b13c7a3cf1746184e964a93fdc4869
+│                       │      │                   1d5e7ecbbe7 
 │                       │      ├ Title           : Libgcrypt: Libgcrypt: Denial of Service or data integrity
 │                       │      │                   issues from missing bounds check during Dilithium signing.[
 │                       │      │                   m 
@@ -1610,17 +1610,17 @@
 │                       │      │                  ╰ UID : bb41032cd077800a 
 │                       │      ├ InstalledVersion: 1.12.0-2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-2236 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:88c2a75b40c9f3f9a050ec7164217d1823870493084d20409da32
-│                       │      │                   9ffaf3358fd 
+│                       │      ├ Fingerprint     : sha256:499535f205be892a7802d86c66dcc5ecbfd16b43b2faa840e8b6d
+│                       │      │                   2b74e8ebbbf 
 │                       │      ├ Title           : libgcrypt: vulnerable to Marvin Attack 
 │                       │      ├ Description     : A timing-based side-channel flaw was found in libgcrypt's
 │                       │      │                   RSA implementation. This issue may allow a remote attacker
@@ -1669,17 +1669,17 @@
 │                       │      │                  ╰ UID : 1a0fccec7f82f1ed 
 │                       │      ├ InstalledVersion: 1.51.1-8ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2019-9514 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:953bf359de588fae3fd1524a4aff9413ea0260abb8cd47c4ccf78
-│                       │      │                   6d4c92071ad 
+│                       │      ├ Fingerprint     : sha256:a494d020257186da1524e44705657a4080330e951f8c76e656d0c
+│                       │      │                   38c7f57b04f 
 │                       │      ├ Title           : HTTP/2: flood using HEADERS frames results in unbounded
 │                       │      │                   memory growth 
 │                       │      ├ Description     : Some HTTP/2 implementations are vulnerable to a reset flood,
@@ -1891,17 +1891,17 @@
 │                       │      │                  ╰ UID : 1a0fccec7f82f1ed 
 │                       │      ├ InstalledVersion: 1.51.1-8ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2019-9515 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:58bc2928c941fbeb034fb17293d76d66b29c4bdc58863596bc52b
-│                       │      │                   e7341139d6c 
+│                       │      ├ Fingerprint     : sha256:f935b012d86b4db0e4fdecaf427a82464a16d2be12d13acc66b7d
+│                       │      │                   0b05fb83f68 
 │                       │      ├ Title           : HTTP/2: flood using SETTINGS frames results in unbounded
 │                       │      │                   memory growth 
 │                       │      ├ Description     : Some HTTP/2 implementations are vulnerable to a settings
@@ -2040,17 +2040,17 @@
 │                       │      │                  ╰ UID : ddc1e4f62f261c7d 
 │                       │      ├ InstalledVersion: 1.51.1-8ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2019-9514 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:862dead95ecbec17ff0bc1a9232d3740cc617a9e2565e50f3a5de
-│                       │      │                   1fbe7f13295 
+│                       │      ├ Fingerprint     : sha256:4a095f542c4b3f6f1b8267d77a286d02a2874a3e94b2a36d7f64e
+│                       │      │                   508b4fa5a92 
 │                       │      ├ Title           : HTTP/2: flood using HEADERS frames results in unbounded
 │                       │      │                   memory growth 
 │                       │      ├ Description     : Some HTTP/2 implementations are vulnerable to a reset flood,
@@ -2262,17 +2262,17 @@
 │                       │      │                  ╰ UID : ddc1e4f62f261c7d 
 │                       │      ├ InstalledVersion: 1.51.1-8ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2019-9515 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:f6819482a0c035b67a5ce5938aca2c1d72732910aaea87975b614
-│                       │      │                   4b061d52b9f 
+│                       │      ├ Fingerprint     : sha256:e6b6f5590799d664affdc9d92ef10086971bc663f3e9efe932cc5
+│                       │      │                   af20dc6bc02 
 │                       │      ├ Title           : HTTP/2: flood using SETTINGS frames results in unbounded
 │                       │      │                   memory growth 
 │                       │      ├ Description     : Some HTTP/2 implementations are vulnerable to a settings
@@ -2411,17 +2411,17 @@
 │                       │      │                  ╰ UID : f17c429548582636 
 │                       │      ├ InstalledVersion: 1.21.2-3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3950 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:ccf96f54fa806adeeab58583f394b337772abdae3601a4966895b
-│                       │      │                   2d0c8ab1fe3 
+│                       │      ├ Fingerprint     : sha256:0cce20f22ced18c1ba3a074b85235e7fa35e1b813976a1ec99a2e
+│                       │      │                   8e9ececb95c 
 │                       │      ├ Title           : libheif: libheif: Denial of Service via out-of-bounds read
 │                       │      │                   in Track::load function 
 │                       │      ├ Description     : A vulnerability was identified in strukturag libheif up to
@@ -2461,17 +2461,17 @@
 │                       │      │                  ╰ UID : 3a7f7ebd17466bdc 
 │                       │      ├ InstalledVersion: 1.21.2-3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3950 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:6d77ff8278d7e8bdf358fd9c2980280bedc1d308b181aebb376db
-│                       │      │                   51c3a70a6c1 
+│                       │      ├ Fingerprint     : sha256:e3b4d7932c03caa18156953a03f09f672ede0672e73b9b389c4c5
+│                       │      │                   47c372cb8cb 
 │                       │      ├ Title           : libheif: libheif: Denial of Service via out-of-bounds read
 │                       │      │                   in Track::load function 
 │                       │      ├ Description     : A vulnerability was identified in strukturag libheif up to
@@ -2511,17 +2511,17 @@
 │                       │      │                  ╰ UID : 866c43e515f16478 
 │                       │      ├ InstalledVersion: 1.21.2-3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3950 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:92db527bde4252cf6a375958197d88885c64a4685167f3fdc2f49
-│                       │      │                   aa371a74fee 
+│                       │      ├ Fingerprint     : sha256:1d49e6ba2ab56cad1abfc2fc6070ee28793b131f1be7aad44bdba
+│                       │      │                   0504eb51fbb 
 │                       │      ├ Title           : libheif: libheif: Denial of Service via out-of-bounds read
 │                       │      │                   in Track::load function 
 │                       │      ├ Description     : A vulnerability was identified in strukturag libheif up to
@@ -2561,17 +2561,17 @@
 │                       │      │                  ╰ UID : ee0638a59a092c7e 
 │                       │      ├ InstalledVersion: 2.41.3-3ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27456 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:8a4fb0e020739f65fe5250471341deae677d98c8fde5051bc35d4
-│                       │      │                   3d08cc75bdd 
+│                       │      ├ Fingerprint     : sha256:f4dfc594603e39f4c685d4d24776f656ecf7accf8a11a6fa18a50
+│                       │      │                   054686c46cd 
 │                       │      ├ Title           : util-linux: TOCTOU in the mount program when setting up loop
 │                       │      │                    devices 
 │                       │      ├ Description     : util-linux is a random collection of Linux utilities. Prior
@@ -2629,17 +2629,17 @@
 │                       │      │                  ╰ UID : ee0638a59a092c7e 
 │                       │      ├ InstalledVersion: 2.41.3-3ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3184 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:946ff3999f9ad51740af7b657ef01bd5f8f9bc3fb47f789248bd7
-│                       │      │                   52376514f27 
+│                       │      ├ Fingerprint     : sha256:3d0f2fb334cff647cea5db21fa69db8c1208d5afaaac3f78034cc
+│                       │      │                   409072e2db1 
 │                       │      ├ Title           : util-linux: util-linux: Access control bypass due to
 │                       │      │                   improper hostname canonicalization 
 │                       │      ├ Description     : A flaw was found in util-linux. Improper hostname
@@ -2678,17 +2678,17 @@
 │                       │      │                  ╰ UID : 1807561669844475 
 │                       │      ├ InstalledVersion: 0.46.4-1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-37769 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:76e652a9e24c1ae1653420d7d6f815e8688180fd1bf403be87daa
-│                       │      │                   3f7d185a238 
+│                       │      ├ Fingerprint     : sha256:cc4cf7409c8844382fd83a7d1dd9c52e98710c38c4d3cbeaf5497
+│                       │      │                   74526e6d367 
 │                       │      ├ Title           : stress-test master commit e4c878 was discovered to contain a
 │                       │      │                    FPE vulne ... 
 │                       │      ├ Description     : stress-test master commit e4c878 was discovered to contain a
@@ -2712,17 +2712,17 @@
 │                       │      │                  ╰ UID : e36df6e4a17b0a84 
 │                       │      ├ InstalledVersion: 3.21.12-15ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6409 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:b2e9a5322fd99d8a524080325df30af2c3240998f5880c2fef0ce
-│                       │      │                   ad44aed946b 
+│                       │      ├ Fingerprint     : sha256:90249adef81c4e32b8633c6d4f162aa333b69eb4861cfc7ffa7e0
+│                       │      │                   25545d7922c 
 │                       │      ├ Title           : A Denial of Service (DoS) vulnerability exists in the
 │                       │      │                   Protobuf PHP lib ... 
 │                       │      ├ Description     : A Denial of Service (DoS) vulnerability exists in the
@@ -2760,17 +2760,17 @@
 │                       │      │                  ╰ UID : fc8ed6e555a3e0fd 
 │                       │      ├ InstalledVersion: 3.21.12-15ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6409 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:c1d52054d22fd498d552029e3332fe46ceb3ca7cca234b509f985
-│                       │      │                   1a7a9b2f1ee 
+│                       │      ├ Fingerprint     : sha256:56f477b7206426c0d559c967384ed19097f0f7a44c0f60f998e13
+│                       │      │                   8ef8c14a8d6 
 │                       │      ├ Title           : A Denial of Service (DoS) vulnerability exists in the
 │                       │      │                   Protobuf PHP lib ... 
 │                       │      ├ Description     : A Denial of Service (DoS) vulnerability exists in the
@@ -2808,17 +2808,17 @@
 │                       │      │                  ╰ UID : 698bf98ba5451f67 
 │                       │      ├ InstalledVersion: 3.14.4-1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2297 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:bcb089fb38642961d0f60850faa5c25596dff4e1282f3078fd408
-│                       │      │                   8af558bfa12 
+│                       │      ├ Fingerprint     : sha256:fed89f100f82d5ba23f66daee96285cb854e4b0082f42e584c3f9
+│                       │      │                   d852b068b11 
 │                       │      ├ Title           : cpython: CPython: Logging Bypass in Legacy .pyc File Handling 
 │                       │      ├ Description     : The import hook in CPython that handles legacy *.pyc files
 │                       │      │                   (SourcelessFileLoader) is incorrectly handled in FileLoader
@@ -2911,17 +2911,17 @@
 │                       │      │                  ╰ UID : edd92b8f9e06659 
 │                       │      ├ InstalledVersion: 3.14.4-1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2297 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:9829910ea2dac33ad156ef46885afb408f269e25af347cca0a209
-│                       │      │                   a66d943cb13 
+│                       │      ├ Fingerprint     : sha256:c9758326315f8b80290386543e7f8e558579874c2b8b963dbdd75
+│                       │      │                   eb65dc24454 
 │                       │      ├ Title           : cpython: CPython: Logging Bypass in Legacy .pyc File Handling 
 │                       │      ├ Description     : The import hook in CPython that handles legacy *.pyc files
 │                       │      │                   (SourcelessFileLoader) is incorrectly handled in FileLoader
@@ -3014,17 +3014,17 @@
 │                       │      │                  ╰ UID : d9cfb9637e1a0676 
 │                       │      ├ InstalledVersion: 3.14.4-1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2297 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:ade84072eb659c36c19daca75ec83db3b305f013739eb2916158f
-│                       │      │                   f1763044a60 
+│                       │      ├ Fingerprint     : sha256:7a11ab5d3238f68e4d6fe37c01d9e5bc318c842c72ac4e85bf45e
+│                       │      │                   005efb138ec 
 │                       │      ├ Title           : cpython: CPython: Logging Bypass in Legacy .pyc File Handling 
 │                       │      ├ Description     : The import hook in CPython that handles legacy *.pyc files
 │                       │      │                   (SourcelessFileLoader) is incorrectly handled in FileLoader
@@ -3117,17 +3117,17 @@
 │                       │      │                  ╰ UID : ff5e7b67d2385233 
 │                       │      ├ InstalledVersion: 2.41.3-3ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27456 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:cbbf3c92111c16873fae74231b2b0417a6bf60e05cb8b4394ebaa
-│                       │      │                   3947143205d 
+│                       │      ├ Fingerprint     : sha256:4ac05f5dac60e942e9b7a2ea716b57cf5e101af0374fd46268953
+│                       │      │                   f38edf13e87 
 │                       │      ├ Title           : util-linux: TOCTOU in the mount program when setting up loop
 │                       │      │                    devices 
 │                       │      ├ Description     : util-linux is a random collection of Linux utilities. Prior
@@ -3185,17 +3185,17 @@
 │                       │      │                  ╰ UID : ff5e7b67d2385233 
 │                       │      ├ InstalledVersion: 2.41.3-3ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3184 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:59eec47487e934b9368bf1ba1bc28a5ed5f88d90d5097f13cf06d
-│                       │      │                   db984af485a 
+│                       │      ├ Fingerprint     : sha256:0d96a6e989636bd3cd1714f22748e547227dcfe8ade6040fa920f
+│                       │      │                   e254fa11223 
 │                       │      ├ Title           : util-linux: util-linux: Access control bypass due to
 │                       │      │                   improper hostname canonicalization 
 │                       │      ├ Description     : A flaw was found in util-linux. Improper hostname
@@ -3234,17 +3234,17 @@
 │                       │      │                  ╰ UID : 32086d7825f5e8fa 
 │                       │      ├ InstalledVersion: 4.7.0-3ubuntu4 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-61143 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:8b418be7d62e3a5d2b2c783201acbdc36046f5ad82db6f6da0110
-│                       │      │                   383e41c5b64 
+│                       │      ├ Fingerprint     : sha256:c505b35bf62a2edad5e773a7663ca5fe9dad388dca9b10503a6d5
+│                       │      │                   81f933bc280 
 │                       │      ├ Title           : libtiff: libtiff: Denial of Service via NULL pointer
 │                       │      │                   dereference in tif_open.c 
 │                       │      ├ Description     : libtiff up to v4.7.1 was discovered to contain a NULL
@@ -3282,17 +3282,17 @@
 │                       │      │                  ╰ UID : 32086d7825f5e8fa 
 │                       │      ├ InstalledVersion: 4.7.0-3ubuntu4 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-61144 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:ab62363db6e979f0c30d571506614332620dea0b181d2643e2892
-│                       │      │                   4ea10f0dac1 
+│                       │      ├ Fingerprint     : sha256:32bb0a418044dfea689035e7407c06433c6cdee1896a94192bf56
+│                       │      │                   3ece0816d3b 
 │                       │      ├ Title           : libtiff: libtiff: Denial of Service via buffer overflow 
 │                       │      ├ Description     : libtiff up to v4.7.1 was discovered to contain a stack
 │                       │      │                   overflow via the readSeparateStripsIntoBuffer function. 
@@ -3333,17 +3333,17 @@
 │                       │      │                  ╰ UID : 41d4afb2fde363cf 
 │                       │      ├ InstalledVersion: 2.41.3-3ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27456 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:9d640b8c187fa9aaa5408131ac35109524fecd3ded2f1f2989990
-│                       │      │                   a04c0e3b636 
+│                       │      ├ Fingerprint     : sha256:322a7212e03450d6947a0da11d3f30f1705325e9133b69c950bee
+│                       │      │                   d1da0d3bb8d 
 │                       │      ├ Title           : util-linux: TOCTOU in the mount program when setting up loop
 │                       │      │                    devices 
 │                       │      ├ Description     : util-linux is a random collection of Linux utilities. Prior
@@ -3401,17 +3401,17 @@
 │                       │      │                  ╰ UID : 41d4afb2fde363cf 
 │                       │      ├ InstalledVersion: 2.41.3-3ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3184 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:9e4dd917f52812f26f79998237ae34a46073d6e640bdf08e6553d
-│                       │      │                   97b2c6c54c9 
+│                       │      ├ Fingerprint     : sha256:b34e360167ff51dd86eb1f4fd26cb28026bf398a14500065ab36e
+│                       │      │                   21476b3d3d1 
 │                       │      ├ Title           : util-linux: util-linux: Access control bypass due to
 │                       │      │                   improper hostname canonicalization 
 │                       │      ├ Description     : A flaw was found in util-linux. Improper hostname
@@ -3450,17 +3450,17 @@
 │                       │      │                  ╰ UID : 9a255150860eaaf 
 │                       │      ├ InstalledVersion: 4.6.4-1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-39920 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:b747d62f841ce8953e8cb5b47f5becdd66d5c0fb46e845450f808
-│                       │      │                   f69a0489f3f 
+│                       │      ├ Fingerprint     : sha256:a19e815bf353a883fae24d863ad3067852919b5ec01969588c2e7
+│                       │      │                   9041b11e036 
 │                       │      ├ Title           : wireshark: IPPUSB dissector crash 
 │                       │      ├ Description     : NULL pointer exception in the IPPUSB dissector in Wireshark
 │                       │      │                   3.4.0 to 3.4.9 allows denial of service via packet injection
@@ -3506,17 +3506,17 @@
 │                       │      │                  ╰ UID : fb67b889ae4686bf 
 │                       │      ├ InstalledVersion: 4.6.4-1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-39920 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:134ecebb624633df7cf25567a01297f01d56b9ecddde6a0816698
-│                       │      │                   3b3acdbeebb 
+│                       │      ├ Fingerprint     : sha256:2a4f8d130570543313d8df7f1abf6c79344628d66c60865488d85
+│                       │      │                   def3ffc2399 
 │                       │      ├ Title           : wireshark: IPPUSB dissector crash 
 │                       │      ├ Description     : NULL pointer exception in the IPPUSB dissector in Wireshark
 │                       │      │                   3.4.0 to 3.4.9 allows denial of service via packet injection
@@ -3562,17 +3562,17 @@
 │                       │      │                  ╰ UID : 3f5a83123d920765 
 │                       │      ├ InstalledVersion: 4.6.4-1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-39920 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:e0287d247adb49d6e6d50d4ad5cbfe6a65b32bd176c88a888a5fe
-│                       │      │                   f6493b5f515 
+│                       │      ├ Fingerprint     : sha256:533cdce5b9b8b9585072fdd3a0a7daac6bb8ca71a3358dcb577ce
+│                       │      │                   b62c24eec16 
 │                       │      ├ Title           : wireshark: IPPUSB dissector crash 
 │                       │      ├ Description     : NULL pointer exception in the IPPUSB dissector in Wireshark
 │                       │      │                   3.4.0 to 3.4.9 allows denial of service via packet injection
@@ -3618,17 +3618,17 @@
 │                       │      │                  ╰ UID : 281f2834ec30e19a 
 │                       │      ├ InstalledVersion: 4.6.4-1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-39920 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:e1206f9eb1bc77c0ee943caef88fd3149ad39c621a2fbeb667982
-│                       │      │                   9cc607e93cd 
+│                       │      ├ Fingerprint     : sha256:4225640af65309fee0e789126132a491ebf58cac720c18c1adc09
+│                       │      │                   6bc0281f221 
 │                       │      ├ Title           : wireshark: IPPUSB dissector crash 
 │                       │      ├ Description     : NULL pointer exception in the IPPUSB dissector in Wireshark
 │                       │      │                   3.4.0 to 3.4.9 allows denial of service via packet injection
@@ -3674,17 +3674,17 @@
 │                       │      │                  ╰ UID : 9bfe0fc72832625d 
 │                       │      ├ InstalledVersion: 2.15.2+dfsg-0.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1757 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:b2b1bb47032d11ce87bd1c74721fedaff97d69a6d7b9835abf4d4
-│                       │      │                   2cb30ab3625 
+│                       │      ├ Fingerprint     : sha256:12406e381c5b27730c0c03351bf1c3236e9e1c5cf6a6b2df55ba3
+│                       │      │                   22c565a0f14 
 │                       │      ├ Title           : libxml2: Memory Leak Leading to Local Denial of Service in
 │                       │      │                   xmllint Interactive Shell 
 │                       │      ├ Description     : A flaw was identified in the interactive shell of the
@@ -3721,17 +3721,17 @@
 │                       │      │                  ╰ UID : 308728e6b694bd4f 
 │                       │      ├ InstalledVersion: 2.43-2ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4046 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:83cba491a375ea9fd13b10039f5489897ad66f73f6a0123aa04bf
-│                       │      │                   1d71631f686 
+│                       │      ├ Fingerprint     : sha256:76c18ac45f45396c9e29d262c3705e5499b0bfb1d8339895a1383
+│                       │      │                   f122d7556f6 
 │                       │      ├ Title           : glibc: glibc: Denial of Service via iconv() function with
 │                       │      │                   specific character sets 
 │                       │      ├ Description     : The iconv() function in the GNU C Library versions 2.43 and
@@ -3773,17 +3773,17 @@
 │                       │      │                  ╰ UID : 308728e6b694bd4f 
 │                       │      ├ InstalledVersion: 2.43-2ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4437 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:4c280f147a4960b7d1b66d54588ed9b8000c2c4abd401ad983aec
-│                       │      │                   20ae9c8809e 
+│                       │      ├ Fingerprint     : sha256:b07b5e3c3eba4dadf68b2c003bea73c0842904a41e9a5c679d523
+│                       │      │                   ad9c8ff4852 
 │                       │      ├ Title           : glibc: glibc: Incorrect DNS response parsing via crafted DNS
 │                       │      │                    server response 
 │                       │      ├ Description     : Calling gethostbyaddr or gethostbyaddr_r with a configured
@@ -3817,17 +3817,17 @@
 │                       │      │                  ╰ UID : 308728e6b694bd4f 
 │                       │      ├ InstalledVersion: 2.43-2ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4438 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:182a216924e81f2cae1663cc710b536d4bde9c6f57dc8a7e01c9f
-│                       │      │                   cdba618b2f6 
+│                       │      ├ Fingerprint     : sha256:38ce579fa4b7137a0f79d7f894112eb8336e0990f5f78852ceae9
+│                       │      │                   13f38075c7b 
 │                       │      ├ Title           : glibc: glibc: Invalid DNS hostname returned via
 │                       │      │                   gethostbyaddr functions 
 │                       │      ├ Description     : Calling gethostbyaddr or gethostbyaddr_r with a configured
@@ -3860,17 +3860,17 @@
 │                       │      │                  ╰ UID : e1bfbadc9113c00a 
 │                       │      ├ InstalledVersion: 1:4.16.0-2+really2.41.3-3ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27456 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:3c3af5b97a9b19365d80bf4b3606bfcb81a63e2c3d4dfa988bc42
-│                       │      │                   69d249dce5c 
+│                       │      ├ Fingerprint     : sha256:5878fb2dca569ad62e20f237191356483afc5bdc4b272132ffb23
+│                       │      │                   4b746b271b3 
 │                       │      ├ Title           : util-linux: TOCTOU in the mount program when setting up loop
 │                       │      │                    devices 
 │                       │      ├ Description     : util-linux is a random collection of Linux utilities. Prior
@@ -3928,17 +3928,17 @@
 │                       │      │                  ╰ UID : e1bfbadc9113c00a 
 │                       │      ├ InstalledVersion: 1:4.16.0-2+really2.41.3-3ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3184 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:1a4f6735377ceeeb0bd2df10afb472a305e07fac66bfb9740ea44
-│                       │      │                   49f8fd20cc2 
+│                       │      ├ Fingerprint     : sha256:a5245e2ee1a5bb6f8a9378f088fdf4c649110be0f325bda66e3e9
+│                       │      │                   a46f27e0d9f 
 │                       │      ├ Title           : util-linux: util-linux: Access control bypass due to
 │                       │      │                   improper hostname canonicalization 
 │                       │      ├ Description     : A flaw was found in util-linux. Improper hostname
@@ -3977,17 +3977,17 @@
 │                       │      │                  ╰ UID : eaf648d5e4e975f7 
 │                       │      ├ InstalledVersion: 1:4.17.4-2ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:7775bd6cbd6867e43af14d69bbcd5b0fcceebd7be145036c66ee1
-│                       │      │                   fb88eed6997 
+│                       │      ├ Fingerprint     : sha256:462b91be1c3336d46cd42b7aee63f0ad83cb8210c557fc241790a
+│                       │      │                   df233f9e131 
 │                       │      ├ Title           : shadow-utils: Default subordinate ID configuration in
 │                       │      │                   /etc/login.defs could lead to compromise 
 │                       │      ├ Description     : shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a
@@ -4039,17 +4039,17 @@
 │                       │      │                  ╰ UID : 98c6a5d7e9e110eb 
 │                       │      ├ InstalledVersion: 2.41.3-3ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27456 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:d0f88606996739f5ba49a74883c43ffa6582fd0f8a0f052c461b2
-│                       │      │                   9121ee70a40 
+│                       │      ├ Fingerprint     : sha256:43ea18956d0138d8ba0326f5d0d91aa2b6755c62f7e9d17b90424
+│                       │      │                   dba66ee44a9 
 │                       │      ├ Title           : util-linux: TOCTOU in the mount program when setting up loop
 │                       │      │                    devices 
 │                       │      ├ Description     : util-linux is a random collection of Linux utilities. Prior
@@ -4107,17 +4107,17 @@
 │                       │      │                  ╰ UID : 98c6a5d7e9e110eb 
 │                       │      ├ InstalledVersion: 2.41.3-3ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3184 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:b4ce09493f65bc64ae624e0075fb6f3b12cb1d386fddcf155d3b2
-│                       │      │                   1689e8907fd 
+│                       │      ├ Fingerprint     : sha256:b88fdd7c95a46e46eeaf54dbc600cdf2972c7d4bf411391516df5
+│                       │      │                   9738cd36323 
 │                       │      ├ Title           : util-linux: util-linux: Access control bypass due to
 │                       │      │                   improper hostname canonicalization 
 │                       │      ├ Description     : A flaw was found in util-linux. Improper hostname
@@ -4156,17 +4156,17 @@
 │                       │      │                  ╰ UID : e6ebfac85406f0d5 
 │                       │      ├ InstalledVersion: 1:4.17.4-2ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:d95c98fb3c1ddddef04a0c16c34ebe02554d2abba4077d63e6ceb
-│                       │      │                   b8ac969c471 
+│                       │      ├ Fingerprint     : sha256:39c683d1873518bd622e72f21b2dcd37ad95ddcc90c573d36793b
+│                       │      │                   08d56b2efd5 
 │                       │      ├ Title           : shadow-utils: Default subordinate ID configuration in
 │                       │      │                   /etc/login.defs could lead to compromise 
 │                       │      ├ Description     : shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a
@@ -4218,17 +4218,17 @@
 │                       │      │                  ╰ UID : 5c38e5558a798bb7 
 │                       │      ├ InstalledVersion: 3.14.4-1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2297 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:56febfda7e378a5bbac98f7359e2309528d6bebb53cdc14ef3460
-│                       │      │                   c0ce986d68a 
+│                       │      ├ Fingerprint     : sha256:27fb1cd972edb73e039510e15fe0b64aa6f4747d5e01297fe2e2a
+│                       │      │                   c9b949dcbcc 
 │                       │      ├ Title           : cpython: CPython: Logging Bypass in Legacy .pyc File Handling 
 │                       │      ├ Description     : The import hook in CPython that handles legacy *.pyc files
 │                       │      │                   (SourcelessFileLoader) is incorrectly handled in FileLoader
@@ -4321,17 +4321,17 @@
 │                       │      │                  ╰ UID : da8e2190347b7c6 
 │                       │      ├ InstalledVersion: 3.14.4-1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2297 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:2644700ead5fb459bfbb7fa98826983999f03cbb1d30e00fd968b
-│                       │      │                   c77ba4a9a33 
+│                       │      ├ Fingerprint     : sha256:3bd456cd7982e5126c93d735af16057b34fbb6ef433d0d2be4015
+│                       │      │                   d30e3073103 
 │                       │      ├ Title           : cpython: CPython: Logging Bypass in Legacy .pyc File Handling 
 │                       │      ├ Description     : The import hook in CPython that handles legacy *.pyc files
 │                       │      │                   (SourcelessFileLoader) is incorrectly handled in FileLoader
@@ -4424,17 +4424,17 @@
 │                       │      │                  ╰ UID : 211a571db931b2ab 
 │                       │      ├ InstalledVersion: 0.8.0-0ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-35341 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:7c5bd22da135fa9827408641b514196f2e5e53c68c089254e9a2b
-│                       │      │                   ebee52b2807 
+│                       │      ├ Fingerprint     : sha256:709d54fb1ee2c9090f252ac4b96ea662c1a1f1a50c97d98227809
+│                       │      │                   6775cd1b859 
 │                       │      ├ Title           : A vulnerability in uutils coreutils mkfifo allows for the
 │                       │      │                   unauthorized ... 
 │                       │      ├ Description     : A vulnerability in uutils coreutils mkfifo allows for the
@@ -4466,17 +4466,17 @@
 │                       │      │                  ╰ UID : 211a571db931b2ab 
 │                       │      ├ InstalledVersion: 0.8.0-0ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-35344 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:dcab38c08e591e1da16eea09c0257791d71be6bef527c7fc8d9c0
-│                       │      │                   859fbdd9283 
+│                       │      ├ Fingerprint     : sha256:87e6158eb3ca3b7f19bcdee495fa37ece3a14f69ed1dda72015ad
+│                       │      │                   81caecaf685 
 │                       │      ├ Title           : The dd utility in uutils coreutils suppresses errors during
 │                       │      │                   file trunc ... 
 │                       │      ├ Description     : The dd utility in uutils coreutils suppresses errors during
@@ -4509,17 +4509,17 @@
 │                       │      │                  ╰ UID : 211a571db931b2ab 
 │                       │      ├ InstalledVersion: 0.8.0-0ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-35345 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:301b2773baf25579b5570e8b700b1f98a338477d6539180a2dfd9
-│                       │      │                   4b0678ebc5a 
+│                       │      ├ Fingerprint     : sha256:44900e308793e3bfcfe884ddeaca7eb00126b35134d4e49009752
+│                       │      │                   0e57216f68f 
 │                       │      ├ Title           : A vulnerability in the tail utility of uutils coreutils
 │                       │      │                   allows for the ... 
 │                       │      ├ Description     : A vulnerability in the tail utility of uutils coreutils
@@ -4554,17 +4554,17 @@
 │                       │      │                  ╰ UID : 211a571db931b2ab 
 │                       │      ├ InstalledVersion: 0.8.0-0ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-35348 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:54b4fbcfcff8d0e4d1bc5599a7509d5a9cf2b4e91ddf025355d0b
-│                       │      │                   abb54dd6096 
+│                       │      ├ Fingerprint     : sha256:ffb39c96c4bb5b582e8c685bb5fbdb49c448d4b6e9dc5adf2ab58
+│                       │      │                   592ad34d555 
 │                       │      ├ Title           : The sort utility in uutils coreutils is vulnerable to a
 │                       │      │                   process panic  ... 
 │                       │      ├ Description     : The sort utility in uutils coreutils is vulnerable to a
@@ -4595,17 +4595,17 @@
 │                       │      │                  ╰ UID : 211a571db931b2ab 
 │                       │      ├ InstalledVersion: 0.8.0-0ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-35350 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:b5a17de054ae581c80891ae9ff8a09cdc8654da32c7860903471d
-│                       │      │                   5f0cdddaaa2 
+│                       │      ├ Fingerprint     : sha256:3f945302ecc065410b99e181ae3deb494b0bb11ba3b6c2fd61b0d
+│                       │      │                   50078060c5b 
 │                       │      ├ Title           : The cp utility in uutils coreutils fails to properly handle
 │                       │      │                   setuid and ... 
 │                       │      ├ Description     : The cp utility in uutils coreutils fails to properly handle
@@ -4637,17 +4637,17 @@
 │                       │      │                  ╰ UID : 211a571db931b2ab 
 │                       │      ├ InstalledVersion: 0.8.0-0ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-35351 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:fd902d3da8e79ea4d3ba292d10ca47be7c0619d8535deb1cb1285
-│                       │      │                   561c2583ebf 
+│                       │      ├ Fingerprint     : sha256:d81ed2004092ed42c3d7a38499115d62dfec1ff367a5734cc9a33
+│                       │      │                   bfa6817a0a3 
 │                       │      ├ Title           : The mv utility in uutils coreutils fails to preserve file
 │                       │      │                   ownership du ... 
 │                       │      ├ Description     : The mv utility in uutils coreutils fails to preserve file
@@ -4680,17 +4680,17 @@
 │                       │      │                  ╰ UID : 211a571db931b2ab 
 │                       │      ├ InstalledVersion: 0.8.0-0ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-35352 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:5a499de437ca3e76b9856e7aa2ac082d8c03bf279d4de086897d9
-│                       │      │                   391cdf370cd 
+│                       │      ├ Fingerprint     : sha256:e5b00293d96b1fd012dcd080be30d5028c4b2f7a95a1affcd4927
+│                       │      │                   3daae00c934 
 │                       │      ├ Title           : A Time-of-Check to Time-of-Use (TOCTOU) race condition
 │                       │      │                   exists in the m ... 
 │                       │      ├ Description     : A Time-of-Check to Time-of-Use (TOCTOU) race condition
@@ -4725,17 +4725,17 @@
 │                       │      │                  ╰ UID : 211a571db931b2ab 
 │                       │      ├ InstalledVersion: 0.8.0-0ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-35354 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:b738ebef7461b2537c1da9218f625676213b6f487813f6abb26f3
-│                       │      │                   ce0324962a1 
+│                       │      ├ Fingerprint     : sha256:eef61b729259cd99172ce0e2b0b068caf131428c37c37ea9f6bf2
+│                       │      │                   be6fa23bc39 
 │                       │      ├ Title           : A Time-of-Check to Time-of-Use (TOCTOU) vulnerability exists
 │                       │      │                    in the mv ... 
 │                       │      ├ Description     : A Time-of-Check to Time-of-Use (TOCTOU) vulnerability exists
@@ -4767,17 +4767,17 @@
 │                       │      │                  ╰ UID : 211a571db931b2ab 
 │                       │      ├ InstalledVersion: 0.8.0-0ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-35357 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:41cd63a1a1483793cd3e1a941c13f0c933798dc5dc085f8913540
-│                       │      │                   b5508156cea 
+│                       │      ├ Fingerprint     : sha256:105a3db1ae05a72038fb4dcd651173f59e38a303a9a312c4278d9
+│                       │      │                   3243e6c8b34 
 │                       │      ├ Title           : The cp utility in uutils coreutils is vulnerable to an
 │                       │      │                   information dis ... 
 │                       │      ├ Description     : The cp utility in uutils coreutils is vulnerable to an
@@ -4809,17 +4809,17 @@
 │                       │      │                  ╰ UID : 211a571db931b2ab 
 │                       │      ├ InstalledVersion: 0.8.0-0ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-35359 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:9f075554c686d033871a55886f9539f6f8f9bfeb7ae3cd737ae56
-│                       │      │                   2b6501bcf2d 
+│                       │      ├ Fingerprint     : sha256:481461d4a31feb4aed8e7163b856c0c06dc4359b4ec69b333eef9
+│                       │      │                   91f76e3f3f8 
 │                       │      ├ Title           : A Time-of-Check to Time-of-Use (TOCTOU) vulnerability in the
 │                       │      │                    cp utilit ... 
 │                       │      ├ Description     : A Time-of-Check to Time-of-Use (TOCTOU) vulnerability in the
@@ -4853,17 +4853,17 @@
 │                       │      │                  ╰ UID : 211a571db931b2ab 
 │                       │      ├ InstalledVersion: 0.8.0-0ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-35360 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:9ae2ffa2c22450c9d8f23c20f01a3c20500a7bfa23de9285e3957
-│                       │      │                   47a14a2624f 
+│                       │      ├ Fingerprint     : sha256:2046b67a8c2822bc7e054c6e537a1298b75c810c0430a07baa654
+│                       │      │                   241d56e526d 
 │                       │      ├ Title           : The touch utility in uutils coreutils is vulnerable to a
 │                       │      │                   Time-of-Check ... 
 │                       │      ├ Description     : The touch utility in uutils coreutils is vulnerable to a
@@ -4894,17 +4894,17 @@
 │                       │      │                  ╰ UID : 211a571db931b2ab 
 │                       │      ├ InstalledVersion: 0.8.0-0ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-35363 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:46c3719276a81846817fe39f908d797703278f10f1116fe84ddd2
-│                       │      │                   fcfe066e3fa 
+│                       │      ├ Fingerprint     : sha256:2a7391f56791b15ebe8ca470ed9ba8be1a87e44cd00667fe444fb
+│                       │      │                   16835f1d24d 
 │                       │      ├ Title           : A vulnerability in the rm utility of uutils coreutils allows
 │                       │      │                    the bypas ... 
 │                       │      ├ Description     : A vulnerability in the rm utility of uutils coreutils allows
@@ -4938,17 +4938,17 @@
 │                       │      │                  ╰ UID : 211a571db931b2ab 
 │                       │      ├ InstalledVersion: 0.8.0-0ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-35364 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:2ddf15548576612bec0bf955e2455725537aaaf1631f74af558ee
-│                       │      │                   95b53b1eb46 
+│                       │      ├ Fingerprint     : sha256:ba83b0eea932221b742f48f5995bedbcc4e00d9c69399aac313fb
+│                       │      │                   861a12d2439 
 │                       │      ├ Title           : A Time-of-Check to Time-of-Use (TOCTOU) race condition
 │                       │      │                   exists in the m ... 
 │                       │      ├ Description     : A Time-of-Check to Time-of-Use (TOCTOU) race condition
@@ -4981,17 +4981,17 @@
 │                       │      │                  ╰ UID : 211a571db931b2ab 
 │                       │      ├ InstalledVersion: 0.8.0-0ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-35367 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:dd493af041399883dbd051ee4b0c649bfc5f2e9bf5928bbcc6a27
-│                       │      │                   5d0e1161869 
+│                       │      ├ Fingerprint     : sha256:3d39b61fd7e81922e89b630e13b6b8a6107068de10c5fc73d014c
+│                       │      │                   bf2e9a0ac5d 
 │                       │      ├ Title           : The nohup utility in uutils coreutils creates its default
 │                       │      │                   output file, ... 
 │                       │      ├ Description     : The nohup utility in uutils coreutils creates its default
@@ -5024,17 +5024,17 @@
 │                       │      │                  ╰ UID : 211a571db931b2ab 
 │                       │      ├ InstalledVersion: 0.8.0-0ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-35368 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:6116b85db3e7ec9cef7928bf2e92bd5447f8f9f5c4eb696783499
-│                       │      │                   0813e328552 
+│                       │      ├ Fingerprint     : sha256:6f66b73bb3cf24e15b3060b07fc53e15861bb7e5fe442b24d8a3a
+│                       │      │                   cfbed1256f8 
 │                       │      ├ Title           : A vulnerability exists in the chroot utility of uutils
 │                       │      │                   coreutils when  ... 
 │                       │      ├ Description     : A vulnerability exists in the chroot utility of uutils
@@ -5067,17 +5067,17 @@
 │                       │      │                  ╰ UID : 211a571db931b2ab 
 │                       │      ├ InstalledVersion: 0.8.0-0ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-35370 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:a26184fb054a4af39848e173f5bff9b24011a6d554828fc316cb6
-│                       │      │                   7e337e38478 
+│                       │      ├ Fingerprint     : sha256:85cd4d2d82fec3146467c8be4787b05091cce3a9a86e715e15c68
+│                       │      │                   5bf2b076211 
 │                       │      ├ Title           : The id utility in uutils coreutils miscalculates the groups=
 │                       │      │                    section o ... 
 │                       │      ├ Description     : The id utility in uutils coreutils miscalculates the groups=
@@ -5109,17 +5109,17 @@
 │                       │      │                  ╰ UID : 211a571db931b2ab 
 │                       │      ├ InstalledVersion: 0.8.0-0ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-35371 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:3b8e4436c4d45ade5bbee4360a84b7724ee1c0a4acc7c641113d0
-│                       │      │                   9292fce1fc6 
+│                       │      ├ Fingerprint     : sha256:09636a9591d7888c6d2be9f22259fefc2488e2d1873d005332fb2
+│                       │      │                   36ec127772f 
 │                       │      ├ Title           : The id utility in uutils coreutils exhibits incorrect
 │                       │      │                   behavior in its  ... 
 │                       │      ├ Description     : The id utility in uutils coreutils exhibits incorrect
@@ -5150,17 +5150,17 @@
 │                       │      │                  ╰ UID : 211a571db931b2ab 
 │                       │      ├ InstalledVersion: 0.8.0-0ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-35373 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:563d6ee6d603e9225477440ecad782acb68b9b61fdcee83e02205
-│                       │      │                   887de2b833c 
+│                       │      ├ Fingerprint     : sha256:56a1f5a49e859a371cf8b2ecdd82cbd1e9283d11b2c3045791448
+│                       │      │                   228613cb73b 
 │                       │      ├ Title           : A logic error in the ln utility of uutils coreutils causes
 │                       │      │                   the program ... 
 │                       │      ├ Description     : A logic error in the ln utility of uutils coreutils causes
@@ -5197,17 +5197,17 @@
 │                       │      │                  ╰ UID : 211a571db931b2ab 
 │                       │      ├ InstalledVersion: 0.8.0-0ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-35374 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:64c9a464cb221de91971de67c8ea22f46a1cc21333c1499bfa557
-│                       │      │                   8b1b268a385 
+│                       │      ├ Fingerprint     : sha256:3028ac298f5bc048622b69dae0f06641e94328ae922fd46d532cb
+│                       │      │                   d6122866b31 
 │                       │      ├ Title           : A Time-of-Check to Time-of-Use (TOCTOU) vulnerability exists
 │                       │      │                    in the sp ... 
 │                       │      ├ Description     : A Time-of-Check to Time-of-Use (TOCTOU) vulnerability exists
@@ -5244,17 +5244,17 @@
 │                       │      │                  ╰ UID : 211a571db931b2ab 
 │                       │      ├ InstalledVersion: 0.8.0-0ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-35377 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:8bc1750083e667bc8fdffcbd5efe223b2d1dc94b552408333cbbf
-│                       │      │                   33a7d9ce8a1 
+│                       │      ├ Fingerprint     : sha256:cb59470c2030d06742f821c8057a8095b02aac98466b18fa3a1ea
+│                       │      │                   464d199a285 
 │                       │      ├ Title           : A logic error in the env utility of uutils coreutils causes
 │                       │      │                   a failure  ... 
 │                       │      ├ Description     : A logic error in the env utility of uutils coreutils causes
@@ -5291,17 +5291,17 @@
 │                       │      │                  ╰ UID : df8f3d12dd71b054 
 │                       │      ├ InstalledVersion: 1.35+dfsg-4 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-45582 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:1883250cd00ba448b42294fd2d7a9a35d2b122fe335d31cca3b7a
-│                       │      │                   5f9c7fc7a96 
+│                       │      ├ Fingerprint     : sha256:93e836f46ef4a5cdcc0c9fab72919a5971228cdcc078c780dd4b8
+│                       │      │                   8d0952f7086 
 │                       │      ├ Title           : tar: Tar path traversal 
 │                       │      ├ Description     : GNU Tar through 1.35 allows file overwrite via directory
 │                       │      │                   traversal in crafted TAR archives, with a certain two-step
@@ -5372,17 +5372,17 @@
 │                       │      │                  ╰ UID : df8f3d12dd71b054 
 │                       │      ├ InstalledVersion: 1.35+dfsg-4 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5704 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:778ed7ffbe9f2602f6183fe532c1e9983c73c1d4a65a0b3bc3ccb
-│                       │      │                   525e98fd7f1 
+│                       │      ├ Fingerprint     : sha256:b1c33f893b248826714e2dbd1dec42d7a44ca4b65c84a7dd8f717
+│                       │      │                   d7f5a90d3b9 
 │                       │      ├ Title           : tar: tar: Hidden file injection via crafted archives 
 │                       │      ├ Description     : A flaw was found in tar. A remote attacker could exploit
 │                       │      │                   this vulnerability by crafting a malicious archive, leading
@@ -5418,17 +5418,17 @@
 │                       │      │                  ╰ UID : e49ba768a32d59f5 
 │                       │      ├ InstalledVersion: 4.6.4-1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-39920 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:358db51ebca65060df04dfe325e71be2fd3671c3efe35dcfe2fe5
-│                       │      │                   c04af2b566f 
+│                       │      ├ Fingerprint     : sha256:6b31cef78723820e4ad05f7a1c3a397c35c71a90f018b2ce4c9c3
+│                       │      │                   90bce98c0c4 
 │                       │      ├ Title           : wireshark: IPPUSB dissector crash 
 │                       │      ├ Description     : NULL pointer exception in the IPPUSB dissector in Wireshark
 │                       │      │                   3.4.0 to 3.4.9 allows denial of service via packet injection
@@ -5474,17 +5474,17 @@
 │                       │      │                  ╰ UID : 34e9503915630576 
 │                       │      ├ InstalledVersion: 2.41.3-3ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27456 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:8f81c888d486f8cbd06ca8d0df160b85dd92686cc815fce1bd818
-│                       │      │                   80b822edfca 
+│                       │      ├ Fingerprint     : sha256:10a31d841429862857d0e94b8f1468737cecdf2815fd9e881f0dc
+│                       │      │                   c3caa9d1309 
 │                       │      ├ Title           : util-linux: TOCTOU in the mount program when setting up loop
 │                       │      │                    devices 
 │                       │      ├ Description     : util-linux is a random collection of Linux utilities. Prior
@@ -5542,17 +5542,17 @@
 │                       │      │                  ╰ UID : 34e9503915630576 
 │                       │      ├ InstalledVersion: 2.41.3-3ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3184 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:74ef0f5295f2ae30f86fa2931aa92f66041f9f135350c2f819cad
-│                       │      │                   a6f1667aff4 
+│                       │      ├ Fingerprint     : sha256:f6e162b27d718622031d9d78909a6b5e86e67e34772aeced23186
+│                       │      │                   7afb0512b9e 
 │                       │      ├ Title           : util-linux: util-linux: Access control bypass due to
 │                       │      │                   improper hostname canonicalization 
 │                       │      ├ Description     : A flaw was found in util-linux. Improper hostname
@@ -5591,17 +5591,17 @@
 │                       │      │                  ╰ UID : cfcc7c0cc55999fc 
 │                       │      ├ InstalledVersion: 1.25.0-2ubuntu4 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                       │      │                  │         6dc527d975572ac4f76e 
-│                       │      │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                       │      │                            af81d2660da7c4843cd7 
+│                       │      ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                       │      │                  │         88d85dd7c14f37ca8611 
+│                       │      │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                       │      │                            7181762507aec4cd863b 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-31879 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Fingerprint     : sha256:4d83f5d963b451592d3df467c237db2adfb379e06e4a8bd01e156
-│                       │      │                   755a4d1d053 
+│                       │      ├ Fingerprint     : sha256:3484cf5a70425401e9d7ab450751f8b496e953b8ea53a8126b98a
+│                       │      │                   909d55bbad7 
 │                       │      ├ Title           : wget: authorization header disclosure on redirect 
 │                       │      ├ Description     : GNU Wget through 1.21.1 does not omit the Authorization
 │                       │      │                   header upon a redirect to a different origin, a related
@@ -5639,17 +5639,17 @@
 │                              │                  ╰ UID : f20ad7518ecac62a 
 │                              ├ InstalledVersion: 4.6.4-1 
 │                              ├ Status          : affected 
-│                              ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c33448
-│                              │                  │         6dc527d975572ac4f76e 
-│                              │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00
-│                              │                            af81d2660da7c4843cd7 
+│                              ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e6810
+│                              │                  │         88d85dd7c14f37ca8611 
+│                              │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b287
+│                              │                            7181762507aec4cd863b 
 │                              ├ SeveritySource  : ubuntu 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-39920 
 │                              ├ DataSource       ╭ ID  : ubuntu 
 │                              │                  ├ Name: Ubuntu CVE Tracker 
 │                              │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                              ├ Fingerprint     : sha256:26525eaef5b8bf00646685b8b362d894e4c82de85d0d080fb6bcd
-│                              │                   e5bde3fa9f5 
+│                              ├ Fingerprint     : sha256:98378b4e30408eb87b64342daf19bfe0241275eac6624d05570a2
+│                              │                   da7d8ee2e5c 
 │                              ├ Title           : wireshark: IPPUSB dissector crash 
 │                              ├ Description     : NULL pointer exception in the IPPUSB dissector in Wireshark
 │                              │                   3.4.0 to 3.4.9 allows denial of service via packet injection
@@ -5708,18 +5708,18 @@
 │                       │     ├ InstalledVersion: v27.1.1+incompatible 
 │                       │     ├ FixedVersion    : 29.2.0 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c334486
-│                       │     │                  │         dc527d975572ac4f76e 
-│                       │     │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00a
-│                       │     │                            f81d2660da7c4843cd7 
+│                       │     ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e68108
+│                       │     │                  │         8d85dd7c14f37ca8611 
+│                       │     │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b2877
+│                       │     │                            181762507aec4cd863b 
 │                       │     ├ SeveritySource  : ghsa 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15558 
 │                       │     ├ DataSource       ╭ ID  : ghsa 
 │                       │     │                  ├ Name: GitHub Security Advisory Go 
 │                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
 │                       │     │                          osystem%3Ago 
-│                       │     ├ Fingerprint     : sha256:9dee09c4f77cbeb32b3c569ba6ac44c4ba946ce6debbf9b365680c
-│                       │     │                   4e7a381874 
+│                       │     ├ Fingerprint     : sha256:9a3a0e603a322f982af0a5dbbc95f53d16d6cd29530348cedab239
+│                       │     │                   a3829d57e3 
 │                       │     ├ Title           : docker/cli: Docker CLI for Windows: Privilege escalation via
 │                       │     │                   malicious plugin binaries 
 │                       │     ├ Description     : Docker CLI for Windows searches for plugin binaries in
@@ -5784,18 +5784,18 @@
 │                       │     ├ InstalledVersion: v28.5.2+incompatible 
 │                       │     ├ FixedVersion    : 29.3.1 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c334486
-│                       │     │                  │         dc527d975572ac4f76e 
-│                       │     │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00a
-│                       │     │                            f81d2660da7c4843cd7 
+│                       │     ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e68108
+│                       │     │                  │         8d85dd7c14f37ca8611 
+│                       │     │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b2877
+│                       │     │                            181762507aec4cd863b 
 │                       │     ├ SeveritySource  : ghsa 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34040 
 │                       │     ├ DataSource       ╭ ID  : ghsa 
 │                       │     │                  ├ Name: GitHub Security Advisory Go 
 │                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
 │                       │     │                          osystem%3Ago 
-│                       │     ├ Fingerprint     : sha256:b0ce4c4ca3c4484f1924efd73d1ce7a94571948d07e39234fc4d47
-│                       │     │                   7ac6ea1437 
+│                       │     ├ Fingerprint     : sha256:7ccc782485aabf9d6e194e7f04c887436acb554954b6e6f427a25d
+│                       │     │                   3b6f8286dd 
 │                       │     ├ Title           : Moby: Moby: Authorization bypass vulnerability 
 │                       │     ├ Description     : Moby is an open source container framework. Prior to version
 │                       │     │                   29.3.1, a security vulnerability has been detected that
@@ -5842,18 +5842,18 @@
 │                             ├ InstalledVersion: v28.5.2+incompatible 
 │                             ├ FixedVersion    : 29.3.1 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c334486
-│                             │                  │         dc527d975572ac4f76e 
-│                             │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00a
-│                             │                            f81d2660da7c4843cd7 
+│                             ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e68108
+│                             │                  │         8d85dd7c14f37ca8611 
+│                             │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b2877
+│                             │                            181762507aec4cd863b 
 │                             ├ SeveritySource  : ghsa 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33997 
 │                             ├ DataSource       ╭ ID  : ghsa 
 │                             │                  ├ Name: GitHub Security Advisory Go 
 │                             │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
 │                             │                          osystem%3Ago 
-│                             ├ Fingerprint     : sha256:8d11aba99f9858389631979bc5400825770a1f21cf26ba116736c2
-│                             │                   5ae945ffed 
+│                             ├ Fingerprint     : sha256:f9f94271708c1f17f1b6e20180fecc97cc8c94748eb44102830a10
+│                             │                   19c8c0f646 
 │                             ├ Title           : moby: docker: github.com/moby/moby: Moby: Privilege
 │                             │                   validation bypass during plugin installation 
 │                             ├ Description     : Moby is an open source container framework. Prior to version
@@ -5906,17 +5906,17 @@
                         │     ├ InstalledVersion: v1.26.2 
                         │     ├ FixedVersion    : 1.25.10, 1.26.3 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c334486
-                        │     │                  │         dc527d975572ac4f76e 
-                        │     │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00a
-                        │     │                            f81d2660da7c4843cd7 
+                        │     ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e68108
+                        │     │                  │         8d85dd7c14f37ca8611 
+                        │     │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b2877
+                        │     │                            181762507aec4cd863b 
                         │     ├ SeveritySource  : nvd 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33811 
                         │     ├ DataSource       ╭ ID  : govulndb 
                         │     │                  ├ Name: The Go Vulnerability Database 
                         │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                        │     ├ Fingerprint     : sha256:833825795c5f952c513dbfea45adce4cc8a571754713e6461cb12c
-                        │     │                   71efd52eee 
+                        │     ├ Fingerprint     : sha256:c61f7d97a2e4cb055bca40d11de746ab48f3debe91f941bfa4ce47
+                        │     │                   59762b67b3 
                         │     ├ Title           : When using LookupCNAME with the cgo DNS resolver, a very long
                         │     │                    CNAME re ... 
                         │     ├ Description     : When using LookupCNAME with the cgo DNS resolver, a very long
@@ -5948,17 +5948,17 @@
                         │     ├ InstalledVersion: v1.26.2 
                         │     ├ FixedVersion    : 1.25.10, 1.26.3 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c334486
-                        │     │                  │         dc527d975572ac4f76e 
-                        │     │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00a
-                        │     │                            f81d2660da7c4843cd7 
+                        │     ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e68108
+                        │     │                  │         8d85dd7c14f37ca8611 
+                        │     │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b2877
+                        │     │                            181762507aec4cd863b 
                         │     ├ SeveritySource  : nvd 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33814 
                         │     ├ DataSource       ╭ ID  : govulndb 
                         │     │                  ├ Name: The Go Vulnerability Database 
                         │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                        │     ├ Fingerprint     : sha256:24e295d5cdcc1f464ac2a7c80b64aa375a38be0a9557b19783d2fc
-                        │     │                   bf96508743 
+                        │     ├ Fingerprint     : sha256:c0973a8db326227cee3f6e079542259fa8875d078f53e33807c07b
+                        │     │                   8cb3ae81a0 
                         │     ├ Title           : When processing HTTP/2 SETTINGS frames, transport will enter
                         │     │                   an infini ... 
                         │     ├ Description     : When processing HTTP/2 SETTINGS frames, transport will enter
@@ -5991,17 +5991,17 @@
                         │     ├ InstalledVersion: v1.26.2 
                         │     ├ FixedVersion    : 1.25.10, 1.26.3 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c334486
-                        │     │                  │         dc527d975572ac4f76e 
-                        │     │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00a
-                        │     │                            f81d2660da7c4843cd7 
+                        │     ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e68108
+                        │     │                  │         8d85dd7c14f37ca8611 
+                        │     │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b2877
+                        │     │                            181762507aec4cd863b 
                         │     ├ SeveritySource  : nvd 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-39820 
                         │     ├ DataSource       ╭ ID  : govulndb 
                         │     │                  ├ Name: The Go Vulnerability Database 
                         │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                        │     ├ Fingerprint     : sha256:2a2c28b860622c80e753df94ff454b76f2967998be222b7deaad06
-                        │     │                   28f721323c 
+                        │     ├ Fingerprint     : sha256:a6c6fb7bab1bb73189e8b86dc18b483d0b2ba4f1438297f30d0408
+                        │     │                   1556cc5cab 
                         │     ├ Title           : Well-crafted inputs reaching ParseAddress, ParseAddressList,
                         │     │                   and Parse ... 
                         │     ├ Description     : Well-crafted inputs reaching ParseAddress, ParseAddressList,
@@ -6033,17 +6033,17 @@
                         │     ├ InstalledVersion: v1.26.2 
                         │     ├ FixedVersion    : 1.25.10, 1.26.3 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c334486
-                        │     │                  │         dc527d975572ac4f76e 
-                        │     │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00a
-                        │     │                            f81d2660da7c4843cd7 
+                        │     ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e68108
+                        │     │                  │         8d85dd7c14f37ca8611 
+                        │     │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b2877
+                        │     │                            181762507aec4cd863b 
                         │     ├ SeveritySource  : nvd 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-39836 
                         │     ├ DataSource       ╭ ID  : govulndb 
                         │     │                  ├ Name: The Go Vulnerability Database 
                         │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                        │     ├ Fingerprint     : sha256:03a090705b4cb109b65224d41c5e83e9b627c9ae879e1327ae97e0
-                        │     │                   8578b42c77 
+                        │     ├ Fingerprint     : sha256:203ff3b7dfcb9cb0ad444662d6254e33a1611b64be6d2f967bb8a9
+                        │     │                   3fd8e13c23 
                         │     ├ Title           : Panic in Dial and LookupPort when handling NUL byte on
                         │     │                   Windows in net 
                         │     ├ Description     : The Dial and LookupPort functions panic on Windows when
@@ -6074,16 +6074,16 @@
                         │     ├ InstalledVersion: v1.26.2 
                         │     ├ FixedVersion    : 1.25.10, 1.26.3 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c334486
-                        │     │                  │         dc527d975572ac4f76e 
-                        │     │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00a
-                        │     │                            f81d2660da7c4843cd7 
+                        │     ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e68108
+                        │     │                  │         8d85dd7c14f37ca8611 
+                        │     │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b2877
+                        │     │                            181762507aec4cd863b 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42499 
                         │     ├ DataSource       ╭ ID  : govulndb 
                         │     │                  ├ Name: The Go Vulnerability Database 
                         │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                        │     ├ Fingerprint     : sha256:87a531e83479ce8c92bbaff7b531558cd8cd4e6abc5406eff09cdc
-                        │     │                   f08c1c2ca2 
+                        │     ├ Fingerprint     : sha256:69fadbfb1bc02925b625dffc2c745d8c94afe1ee18ac6ca1c5a23e
+                        │     │                   3bb22a256e 
                         │     ├ Title           : Pathological inputs could cause DoS through consumePhrase
                         │     │                   when parsing ... 
                         │     ├ Description     : Pathological inputs could cause DoS through consumePhrase
@@ -6109,16 +6109,16 @@
                         │     ├ InstalledVersion: v1.26.2 
                         │     ├ FixedVersion    : 1.25.10, 1.26.3 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c334486
-                        │     │                  │         dc527d975572ac4f76e 
-                        │     │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00a
-                        │     │                            f81d2660da7c4843cd7 
+                        │     ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e68108
+                        │     │                  │         8d85dd7c14f37ca8611 
+                        │     │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b2877
+                        │     │                            181762507aec4cd863b 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-39823 
                         │     ├ DataSource       ╭ ID  : govulndb 
                         │     │                  ├ Name: The Go Vulnerability Database 
                         │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                        │     ├ Fingerprint     : sha256:802f759df463179dd646d052abaa36809388defe19a688a04c3c63
-                        │     │                   2612bffd82 
+                        │     ├ Fingerprint     : sha256:bdbaff652f40239130f89412eb7765f32e6010b1b148d44631d166
+                        │     │                   c5785b92cf 
                         │     ├ Title           : CVE-2026-27142 fixed a vulnerability in which URLs were not
                         │     │                   correctly  ... 
                         │     ├ Description     : CVE-2026-27142 fixed a vulnerability in which URLs were not
@@ -6149,16 +6149,16 @@
                         │     ├ InstalledVersion: v1.26.2 
                         │     ├ FixedVersion    : 1.25.10, 1.26.3 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c334486
-                        │     │                  │         dc527d975572ac4f76e 
-                        │     │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00a
-                        │     │                            f81d2660da7c4843cd7 
+                        │     ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e68108
+                        │     │                  │         8d85dd7c14f37ca8611 
+                        │     │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b2877
+                        │     │                            181762507aec4cd863b 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-39825 
                         │     ├ DataSource       ╭ ID  : govulndb 
                         │     │                  ├ Name: The Go Vulnerability Database 
                         │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                        │     ├ Fingerprint     : sha256:98a6ccceded63f5e2e0482c07e711c58dd0bea511552440f663d7f
-                        │     │                   209e49f931 
+                        │     ├ Fingerprint     : sha256:229e4db24adc034c10f034b9051747d84843d6b7039d3c2179a073
+                        │     │                   7b893ab676 
                         │     ├ Title           : ReverseProxy can forward queries containing parameters not
                         │     │                   visible to  ... 
                         │     ├ Description     : ReverseProxy can forward queries containing parameters not
@@ -6195,16 +6195,16 @@
                               ├ InstalledVersion: v1.26.2 
                               ├ FixedVersion    : 1.25.10, 1.26.3 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:8f8406aa8e0c4f82bb9f758661b3c97b3dc097c334486
-                              │                  │         dc527d975572ac4f76e 
-                              │                  ╰ DiffID: sha256:d7d3845b9a4fe6cfc138b35b3c78b16697e11acf3a00a
-                              │                            f81d2660da7c4843cd7 
+                              ├ Layer            ╭ Digest: sha256:6fee265ae8fa7b15d1a1e0695cce5327ca4b2c3e68108
+                              │                  │         8d85dd7c14f37ca8611 
+                              │                  ╰ DiffID: sha256:4f3ef190200df6a03ca5eb1054a853c1dcbf6393b2877
+                              │                            181762507aec4cd863b 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-39826 
                               ├ DataSource       ╭ ID  : govulndb 
                               │                  ├ Name: The Go Vulnerability Database 
                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                              ├ Fingerprint     : sha256:da43c51f65355005cfece8202211cdf656cd09b11fd8f8a4a7c04e
-                              │                   304ff3e1fe 
+                              ├ Fingerprint     : sha256:c6ff0eeb0a4c35d0e9a3f15547983a8dc5199697c0eb348e3ffd5d
+                              │                   0526ba0938 
                               ├ Title           : If a trusted template author were to write a <script> tag
                               │                   containing a ... 
                               ├ Description     : If a trusted template author were to write a <script> tag
