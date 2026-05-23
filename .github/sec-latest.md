@@ -743,6 +743,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-617 
 │                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
@@ -884,6 +885,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-617 
 │                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
@@ -1025,6 +1027,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-617 
 │                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
@@ -4301,6 +4304,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-617 
 │                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
@@ -4577,7 +4581,7 @@
 │                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-56433 
 │                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
+│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
 │                       │       │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d57
 │                       │       │                  │       41d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238
 │                       │       │                  │       -L241 
@@ -4757,7 +4761,7 @@
 │                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-56433 
 │                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
+│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
 │                       │       │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d57
 │                       │       │                  │       41d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238
 │                       │       │                  │       -L241 
@@ -5934,7 +5938,7 @@
 │                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-45582 
 │                       │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-0067.html 
-│                       │       │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0067 
+│                       │       │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0002 
 │                       │       │                  ├ [8] : https://github.com/i900008/vulndb/blob/main/Gnu_tar_
 │                       │       │                  │       vuln.md 
 │                       │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-45582.html 
@@ -6281,8 +6285,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:0a1a32c6e4202c43f30fd146d038b05377883b41edeb147559c3
 │                       │       │                   2f97e3358a8f 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   version 9.2. ... 
+│                       │       ├ Title           : vim: Vim: Heap buffer overflow allows arbitrary code
+│                       │       │                   execution or denial of service 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   version 9.2.0450, a heap buffer overflow exists in
 │                       │       │                   read_compound() in src/spellfile.c when loading a crafted
@@ -6301,17 +6305,23 @@
 │                       │       │                  ╰ [1]: CWE-190 
 │                       │       ├ VendorSeverity   ╭ azure : 2 
 │                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
-│                       │       │                        ╰ V3Score : 5.5 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                  │        │           N/A:H 
+│                       │       │                  │        ╰ V3Score : 5.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                           │           L/A:H 
+│                       │       │                           ╰ V3Score : 6.6 
 │                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/05/14/3 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/92993329178cb1f72d7
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-45130 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/92993329178cb1f72d7
 │                       │       │                  │      00fff45ca86e1c2d369f8 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0450 
-│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-q
+│                       │       │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.2.0450 
+│                       │       │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-q
 │                       │       │                  │      4jv-r9gj-6cwv 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-45130 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-45130 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-45130 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-45130 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:40.053Z 
 │                       │       ╰ LastModifiedDate: 2026-05-18T14:22:41.733Z 
 │                       ├ [109] ╭ VulnerabilityID : CVE-2026-42307 
@@ -6421,8 +6431,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:2a2e76428d272f90651319b46572564697a5a42737615b8879d2
 │                       │       │                   dbe9d60dff19 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   version 9.2. ... 
+│                       │       ├ Title           : vim: Vim: Heap buffer overflow allows arbitrary code
+│                       │       │                   execution or denial of service 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   version 9.2.0450, a heap buffer overflow exists in
 │                       │       │                   read_compound() in src/spellfile.c when loading a crafted
@@ -6441,17 +6451,23 @@
 │                       │       │                  ╰ [1]: CWE-190 
 │                       │       ├ VendorSeverity   ╭ azure : 2 
 │                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
-│                       │       │                        ╰ V3Score : 5.5 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                  │        │           N/A:H 
+│                       │       │                  │        ╰ V3Score : 5.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                           │           L/A:H 
+│                       │       │                           ╰ V3Score : 6.6 
 │                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/05/14/3 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/92993329178cb1f72d7
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-45130 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/92993329178cb1f72d7
 │                       │       │                  │      00fff45ca86e1c2d369f8 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0450 
-│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-q
+│                       │       │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.2.0450 
+│                       │       │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-q
 │                       │       │                  │      4jv-r9gj-6cwv 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-45130 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-45130 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-45130 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-45130 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:40.053Z 
 │                       │       ╰ LastModifiedDate: 2026-05-18T14:22:41.733Z 
 │                       ├ [112] ╭ VulnerabilityID : CVE-2026-42307 
@@ -6561,8 +6577,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:b96827d35b82653fc9c12b9a338e0abf2cd4e5472635c1a1e3f6
 │                       │       │                   554ab601444c 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   version 9.2. ... 
+│                       │       ├ Title           : vim: Vim: Heap buffer overflow allows arbitrary code
+│                       │       │                   execution or denial of service 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   version 9.2.0450, a heap buffer overflow exists in
 │                       │       │                   read_compound() in src/spellfile.c when loading a crafted
@@ -6581,17 +6597,23 @@
 │                       │       │                  ╰ [1]: CWE-190 
 │                       │       ├ VendorSeverity   ╭ azure : 2 
 │                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
-│                       │       │                        ╰ V3Score : 5.5 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                  │        │           N/A:H 
+│                       │       │                  │        ╰ V3Score : 5.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                           │           L/A:H 
+│                       │       │                           ╰ V3Score : 6.6 
 │                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/05/14/3 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/92993329178cb1f72d7
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-45130 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/92993329178cb1f72d7
 │                       │       │                  │      00fff45ca86e1c2d369f8 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0450 
-│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-q
+│                       │       │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.2.0450 
+│                       │       │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-q
 │                       │       │                  │      4jv-r9gj-6cwv 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-45130 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-45130 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-45130 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-45130 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:40.053Z 
 │                       │       ╰ LastModifiedDate: 2026-05-18T14:22:41.733Z 
 │                       ├ [115] ╭ VulnerabilityID : CVE-2021-31879 
@@ -6807,8 +6829,8 @@
 │                               │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                               ├ Fingerprint     : sha256:7ce4e712f45e7ab6d2c6e67ec54de99e7690b565bbf0286ac731
 │                               │                   826f6e0a8b6a 
-│                               ├ Title           : Vim is an open source, command line text editor. Prior to
-│                               │                   version 9.2. ... 
+│                               ├ Title           : vim: Vim: Heap buffer overflow allows arbitrary code
+│                               │                   execution or denial of service 
 │                               ├ Description     : Vim is an open source, command line text editor. Prior to
 │                               │                   version 9.2.0450, a heap buffer overflow exists in
 │                               │                   read_compound() in src/spellfile.c when loading a crafted
@@ -6827,17 +6849,23 @@
 │                               │                  ╰ [1]: CWE-190 
 │                               ├ VendorSeverity   ╭ azure : 2 
 │                               │                  ├ nvd   : 2 
+│                               │                  ├ redhat: 2 
 │                               │                  ╰ ubuntu: 2 
-│                               ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
-│                               │                        ╰ V3Score : 5.5 
+│                               ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                               │                  │        │           N/A:H 
+│                               │                  │        ╰ V3Score : 5.5 
+│                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
+│                               │                           │           L/A:H 
+│                               │                           ╰ V3Score : 6.6 
 │                               ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/05/14/3 
-│                               │                  ├ [1]: https://github.com/vim/vim/commit/92993329178cb1f72d7
+│                               │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-45130 
+│                               │                  ├ [2]: https://github.com/vim/vim/commit/92993329178cb1f72d7
 │                               │                  │      00fff45ca86e1c2d369f8 
-│                               │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0450 
-│                               │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-q
+│                               │                  ├ [3]: https://github.com/vim/vim/releases/tag/v9.2.0450 
+│                               │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-q
 │                               │                  │      4jv-r9gj-6cwv 
-│                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-45130 
-│                               │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-45130 
+│                               │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-45130 
+│                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-45130 
 │                               ├ PublishedDate   : 2026-05-08T23:16:40.053Z 
 │                               ╰ LastModifiedDate: 2026-05-18T14:22:41.733Z 
 ├ [1] ╭ Target  : Java 
@@ -7365,7 +7393,8 @@
                         │     │                   receives a SETTINGS_MAX_FRAME_SIZE with a value of 0. 
                         │     ├ Severity        : HIGH 
                         │     ├ CweIDs           ─ [0]: CWE-835 
-                        │     ├ VendorSeverity   ╭ bitnami: 3 
+                        │     ├ VendorSeverity   ╭ azure  : 3 
+                        │     │                  ├ bitnami: 3 
                         │     │                  ╰ nvd    : 3 
                         │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
                         │     │                  │         │           /A:H 
