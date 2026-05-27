@@ -348,7 +348,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:7b8202cbddc3342476cced010796c0293465b3bcc76cf05672f9
 │                       │       │                   bd8978e2eac9 
-│                       │       ├ Title           : iptraf-ng: buffer overflow via ifaces.c 
+│                       │       ├ Title           : iptraf-ng 1.2.1 has a stack-based buffer overflow. In
+│                       │       │                   src/ifaces.c, th ... 
 │                       │       ├ Description     : iptraf-ng 1.2.1 has a stack-based buffer overflow. In
 │                       │       │                   src/ifaces.c, the strcpy function consistently fails to
 │                       │       │                   control the size, and it is consequently possible to
@@ -361,27 +362,22 @@
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
-│                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 2 
 │                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:
-│                       │       │                           │           L/A:H 
-│                       │       │                           ╰ V3Score : 6.6 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7064 
-│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52949 
-│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2332702 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2332702 
-│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [1] : https://bugzilla.redhat.com/2332702 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2332702 
+│                       │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-52949 
-│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-7064.html 
-│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7064 
-│                       │       │                  ├ [7] : https://github.com/iptraf-ng/iptraf-ng/releases/tag/
+│                       │       │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-7064.html 
+│                       │       │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:7064 
+│                       │       │                  ├ [6] : https://github.com/iptraf-ng/iptraf-ng/releases/tag/
 │                       │       │                  │       v1.2.1 
-│                       │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-52949.html 
-│                       │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-7064.html 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-52949 
-│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-52949 
-│                       │       │                  ╰ [12]: https://www.gruppotim.it/it/footer/red-team.html 
+│                       │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-52949.html 
+│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-7064.html 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-52949 
+│                       │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-52949 
+│                       │       │                  ╰ [11]: https://www.gruppotim.it/it/footer/red-team.html 
 │                       │       ├ PublishedDate   : 2024-12-16T22:15:06.863Z 
 │                       │       ╰ LastModifiedDate: 2025-10-14T17:29:14.83Z 
 │                       ├ [7]   ╭ VulnerabilityID : CVE-2025-59529 
@@ -403,7 +399,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:0530ccf89f902f4aa65cc5df53582a0ba0745d161564c8d7b43b
 │                       │       │                   0c9d773d9578 
-│                       │       ├ Title           : avahi: simple clients denial-of-service 
+│                       │       ├ Title           : Avahi is a system which facilitates service discovery on a
+│                       │       │                   local netwo ... 
 │                       │       ├ Description     : Avahi is a system which facilitates service discovery on a
 │                       │       │                   local network via the mDNS/DNS-SD protocol suite. In
 │                       │       │                   versions up to and including 0.9-rc2, the simple protocol
@@ -438,19 +435,13 @@
 │                       │       │                   trusted users. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-400 
-│                       │       ├ VendorSeverity   ╭ redhat: 2 
-│                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ├ VendorSeverity   ─ ubuntu: 2 
 │                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/12/19/1 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-59529 
-│                       │       │                  ├ [2]: https://github.com/avahi/avahi/pull/808 
-│                       │       │                  ├ [3]: https://github.com/avahi/avahi/security/advisories/GH
+│                       │       │                  ├ [1]: https://github.com/avahi/avahi/pull/808 
+│                       │       │                  ├ [2]: https://github.com/avahi/avahi/security/advisories/GH
 │                       │       │                  │      SA-73wf-3xmj-x82q 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-59529 
-│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-59529 
-│                       │       │                  ╰ [6]: https://zeropath.com/blog/avahi-simple-protocol-serve
+│                       │       │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-59529 
+│                       │       │                  ╰ [4]: https://zeropath.com/blog/avahi-simple-protocol-serve
 │                       │       │                         r-dos-cve-2025-59529 
 │                       │       ├ PublishedDate   : 2025-12-18T21:15:53.637Z 
 │                       │       ╰ LastModifiedDate: 2026-01-16T16:50:20.183Z 
@@ -473,7 +464,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:e83003f171e007fd9388de7975e1ceb05d04958ca6cff3f56a5b
 │                       │       │                   0375c4164b0a 
-│                       │       ├ Title           : avahi: simple clients denial-of-service 
+│                       │       ├ Title           : Avahi is a system which facilitates service discovery on a
+│                       │       │                   local netwo ... 
 │                       │       ├ Description     : Avahi is a system which facilitates service discovery on a
 │                       │       │                   local network via the mDNS/DNS-SD protocol suite. In
 │                       │       │                   versions up to and including 0.9-rc2, the simple protocol
@@ -508,19 +500,13 @@
 │                       │       │                   trusted users. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-400 
-│                       │       ├ VendorSeverity   ╭ redhat: 2 
-│                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ├ VendorSeverity   ─ ubuntu: 2 
 │                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/12/19/1 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-59529 
-│                       │       │                  ├ [2]: https://github.com/avahi/avahi/pull/808 
-│                       │       │                  ├ [3]: https://github.com/avahi/avahi/security/advisories/GH
+│                       │       │                  ├ [1]: https://github.com/avahi/avahi/pull/808 
+│                       │       │                  ├ [2]: https://github.com/avahi/avahi/security/advisories/GH
 │                       │       │                  │      SA-73wf-3xmj-x82q 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-59529 
-│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-59529 
-│                       │       │                  ╰ [6]: https://zeropath.com/blog/avahi-simple-protocol-serve
+│                       │       │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-59529 
+│                       │       │                  ╰ [4]: https://zeropath.com/blog/avahi-simple-protocol-serve
 │                       │       │                         r-dos-cve-2025-59529 
 │                       │       ├ PublishedDate   : 2025-12-18T21:15:53.637Z 
 │                       │       ╰ LastModifiedDate: 2026-01-16T16:50:20.183Z 
@@ -543,7 +529,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:2eca64a4ccff74b1a6455caf86b10f20c1660c8a870534779acd
 │                       │       │                   908cc30fe4e4 
-│                       │       ├ Title           : avahi: simple clients denial-of-service 
+│                       │       ├ Title           : Avahi is a system which facilitates service discovery on a
+│                       │       │                   local netwo ... 
 │                       │       ├ Description     : Avahi is a system which facilitates service discovery on a
 │                       │       │                   local network via the mDNS/DNS-SD protocol suite. In
 │                       │       │                   versions up to and including 0.9-rc2, the simple protocol
@@ -578,19 +565,13 @@
 │                       │       │                   trusted users. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-400 
-│                       │       ├ VendorSeverity   ╭ redhat: 2 
-│                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ├ VendorSeverity   ─ ubuntu: 2 
 │                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/12/19/1 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-59529 
-│                       │       │                  ├ [2]: https://github.com/avahi/avahi/pull/808 
-│                       │       │                  ├ [3]: https://github.com/avahi/avahi/security/advisories/GH
+│                       │       │                  ├ [1]: https://github.com/avahi/avahi/pull/808 
+│                       │       │                  ├ [2]: https://github.com/avahi/avahi/security/advisories/GH
 │                       │       │                  │      SA-73wf-3xmj-x82q 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-59529 
-│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-59529 
-│                       │       │                  ╰ [6]: https://zeropath.com/blog/avahi-simple-protocol-serve
+│                       │       │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-59529 
+│                       │       │                  ╰ [4]: https://zeropath.com/blog/avahi-simple-protocol-serve
 │                       │       │                         r-dos-cve-2025-59529 
 │                       │       ├ PublishedDate   : 2025-12-18T21:15:53.637Z 
 │                       │       ╰ LastModifiedDate: 2026-01-16T16:50:20.183Z 
@@ -1431,8 +1412,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:542730d2eac9901cf4d94e2faff341c740ae92ee1fe2235eb813
 │                       │       │                   4c19cbc7555b 
-│                       │       ├ Title           : elfutils: GNU elfutils eu-readelf libdw_alloc.c
-│                       │       │                   __libdw_thread_tail memory corruption 
+│                       │       ├ Title           : A vulnerability has been found in GNU elfutils 0.192 and
+│                       │       │                   classified as ... 
 │                       │       ├ Description     : A vulnerability has been found in GNU elfutils 0.192 and
 │                       │       │                   classified as critical. This vulnerability affects the
 │                       │       │                   function __libdw_thread_tail in the library libdw_alloc.c
@@ -1449,25 +1430,19 @@
 │                       │       │                  ├ azure : 1 
 │                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ photon: 3 
-│                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 1 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
-│                       │       │                  │        │           H/A:H 
-│                       │       │                  │        ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:
-│                       │       │                           │           L/A:L 
-│                       │       │                           ╰ V3Score : 5 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1352 
-│                       │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-1352 
-│                       │       │                  ├ [2]: https://sourceware.org/bugzilla/attachment.cgi?id=15923 
-│                       │       │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=32650 
-│                       │       │                  ├ [4]: https://sourceware.org/bugzilla/show_bug.cgi?id=32650
+│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H 
+│                       │       │                        ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: https://nvd.nist.gov/vuln/detail/CVE-2025-1352 
+│                       │       │                  ├ [1]: https://sourceware.org/bugzilla/attachment.cgi?id=15923 
+│                       │       │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=32650 
+│                       │       │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=32650
 │                       │       │                  │      #c2 
-│                       │       │                  ├ [5]: https://vuldb.com/?ctiid.295960 
-│                       │       │                  ├ [6]: https://vuldb.com/?id.295960 
-│                       │       │                  ├ [7]: https://vuldb.com/?submit.495965 
-│                       │       │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-1352 
-│                       │       │                  ╰ [9]: https://www.gnu.org/ 
+│                       │       │                  ├ [4]: https://vuldb.com/?ctiid.295960 
+│                       │       │                  ├ [5]: https://vuldb.com/?id.295960 
+│                       │       │                  ├ [6]: https://vuldb.com/?submit.495965 
+│                       │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-1352 
+│                       │       │                  ╰ [8]: https://www.gnu.org/ 
 │                       │       ├ PublishedDate   : 2025-02-16T15:15:09.133Z 
 │                       │       ╰ LastModifiedDate: 2025-11-03T20:34:23.89Z 
 │                       ├ [27]  ╭ VulnerabilityID : CVE-2025-1376 
@@ -1489,8 +1464,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:16e097740f2611b34161686ef1deca83fd98876ce38c170e331d
 │                       │       │                   70df089c0dc4 
-│                       │       ├ Title           : elfutils: GNU elfutils eu-strip elf_strptr.c elf_strptr
-│                       │       │                   denial of service 
+│                       │       ├ Title           : A vulnerability classified as problematic was found in GNU
+│                       │       │                   elfutils 0. ... 
 │                       │       ├ Description     : A vulnerability classified as problematic was found in GNU
 │                       │       │                   elfutils 0.192. This vulnerability affects the function
 │                       │       │                   elf_strptr in the library /libelf/elf_strptr.c of the
@@ -1506,25 +1481,19 @@
 │                       │       ├ VendorSeverity   ╭ azure : 1 
 │                       │       │                  ├ nvd   : 2 
 │                       │       │                  ├ photon: 2 
-│                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
-│                       │       │                  │        │           N/A:H 
-│                       │       │                  │        ╰ V3Score : 4.7 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 2.5 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1376 
-│                       │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-1376 
-│                       │       │                  ├ [2]: https://sourceware.org/bugzilla/attachment.cgi?id=15940 
-│                       │       │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=32672 
-│                       │       │                  ├ [4]: https://sourceware.org/bugzilla/show_bug.cgi?id=32672
+│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H 
+│                       │       │                        ╰ V3Score : 4.7 
+│                       │       ├ References       ╭ [0]: https://nvd.nist.gov/vuln/detail/CVE-2025-1376 
+│                       │       │                  ├ [1]: https://sourceware.org/bugzilla/attachment.cgi?id=15940 
+│                       │       │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=32672 
+│                       │       │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=32672
 │                       │       │                  │      #c3 
-│                       │       │                  ├ [5]: https://vuldb.com/?ctiid.295984 
-│                       │       │                  ├ [6]: https://vuldb.com/?id.295984 
-│                       │       │                  ├ [7]: https://vuldb.com/?submit.497538 
-│                       │       │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-1376 
-│                       │       │                  ╰ [9]: https://www.gnu.org/ 
+│                       │       │                  ├ [4]: https://vuldb.com/?ctiid.295984 
+│                       │       │                  ├ [5]: https://vuldb.com/?id.295984 
+│                       │       │                  ├ [6]: https://vuldb.com/?submit.497538 
+│                       │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-1376 
+│                       │       │                  ╰ [8]: https://www.gnu.org/ 
 │                       │       ├ PublishedDate   : 2025-02-17T05:15:09.807Z 
 │                       │       ╰ LastModifiedDate: 2025-11-04T20:21:18.26Z 
 │                       ├ [28]  ╭ VulnerabilityID : CVE-2025-66382 
@@ -1546,29 +1515,22 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:875835a71df1c8fce229e8f982d976867cef966cd4b317f3eb61
 │                       │       │                   a011c62a078f 
-│                       │       ├ Title           : libexpat: libexpat: Denial of service via crafted file
-│                       │       │                   processing 
+│                       │       ├ Title           : In libexpat through 2.7.3, a crafted file with an
+│                       │       │                   approximate size of  ... 
 │                       │       ├ Description     : In libexpat through 2.7.3, a crafted file with an
 │                       │       │                   approximate size of 2 MiB can lead to dozens of seconds of
 │                       │       │                   processing time. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-407 
 │                       │       ├ VendorSeverity   ╭ nvd   : 2 
-│                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
-│                       │       │                  │        │           N/A:H 
-│                       │       │                  │        ╰ V3Score : 5.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:L 
-│                       │       │                           ╰ V3Score : 2.9 
+│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+│                       │       │                        ╰ V3Score : 5.5 
 │                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/12/02/1 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-66382 
-│                       │       │                  ├ [2]: https://cert-portal.siemens.com/productcert/html/ssa-
+│                       │       │                  ├ [1]: https://cert-portal.siemens.com/productcert/html/ssa-
 │                       │       │                  │      082556.html 
-│                       │       │                  ├ [3]: https://github.com/libexpat/libexpat/issues/1076 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-66382 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-66382 
+│                       │       │                  ├ [2]: https://github.com/libexpat/libexpat/issues/1076 
+│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-66382 
 │                       │       ├ PublishedDate   : 2025-11-28T07:15:57.9Z 
 │                       │       ╰ LastModifiedDate: 2026-05-12T13:17:23.933Z 
 │                       ├ [29]  ╭ VulnerabilityID : CVE-2026-41990 
@@ -1637,7 +1599,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:35cfe49c6244b2365249831bc5dc8dafbe7de8075db0d2525394
 │                       │       │                   0b27d46f1ead 
-│                       │       ├ Title           : libgcrypt: vulnerable to Marvin Attack 
+│                       │       ├ Title           : A timing-based side-channel flaw was found in libgcrypt's
+│                       │       │                   RSA implemen ... 
 │                       │       ├ Description     : A timing-based side-channel flaw was found in libgcrypt's
 │                       │       │                   RSA implementation. This issue may allow a remote attacker
 │                       │       │                   to initiate a Bleichenbacher-style attack, which can lead
@@ -1647,12 +1610,8 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
 │                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ oracle-oval: 2 
-│                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 2 
 │                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
-│                       │       │                           │           N/A:N 
-│                       │       │                           ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:9404 
 │                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:3530 
 │                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:3534 
@@ -1673,8 +1632,7 @@
 │                       │       │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-9404.html 
 │                       │       │                  ├ [15]: https://lists.gnupg.org/pipermail/gcrypt-devel/2024-
 │                       │       │                  │       March/005607.html 
-│                       │       │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
-│                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
+│                       │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                       │       ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
 │                       ├ [31]  ╭ VulnerabilityID : CVE-2019-9514 
@@ -4022,8 +3980,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:1924ca53a2c2f07dc4f885d983fd8987d9a42b9ad67ee1e831eb
 │                       │       │                   b3d9dc8761f8 
-│                       │       ├ Title           : shadow-utils: Default subordinate ID configuration in
-│                       │       │                   /etc/login.defs could lead to compromise 
+│                       │       ├ Title           : shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a
+│                       │       │                   default /et ... 
 │                       │       ├ Description     : shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a
 │                       │       │                   default /etc/subuid behavior (e.g., uid 100000 through
 │                       │       │                   165535 for the first user account) that can realistically
@@ -4040,30 +3998,25 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 1 
 │                       │       │                  ├ azure      : 1 
 │                       │       │                  ├ oracle-oval: 1 
-│                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 1 
 │                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
-│                       │       │                           │           L/A:N 
-│                       │       │                           ╰ V3Score : 3.6 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20559 
-│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56433 
-│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2334165 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2334165 
-│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [1] : https://bugzilla.redhat.com/2334165 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2334165 
+│                       │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-56433 
-│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
-│                       │       │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d57
+│                       │       │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
+│                       │       │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:20559 
+│                       │       │                  ├ [6] : https://github.com/shadow-maint/shadow/blob/e2512d57
 │                       │       │                  │       41d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238
 │                       │       │                  │       -L241 
-│                       │       │                  ├ [8] : https://github.com/shadow-maint/shadow/issues/1157 
-│                       │       │                  ├ [9] : https://github.com/shadow-maint/shadow/releases/tag/
+│                       │       │                  ├ [7] : https://github.com/shadow-maint/shadow/issues/1157 
+│                       │       │                  ├ [8] : https://github.com/shadow-maint/shadow/releases/tag/
 │                       │       │                  │       4.4 
-│                       │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2024-56433.html 
-│                       │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-20559-0.html 
-│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
-│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
+│                       │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-56433.html 
+│                       │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-20559-0.html 
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
+│                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
 │                       ├ [63]  ╭ VulnerabilityID : CVE-2026-27456 
@@ -4202,8 +4155,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:739196c606948df6508eb13472b42e5279d187b58b602f2d9d11
 │                       │       │                   2089aa079a07 
-│                       │       ├ Title           : shadow-utils: Default subordinate ID configuration in
-│                       │       │                   /etc/login.defs could lead to compromise 
+│                       │       ├ Title           : shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a
+│                       │       │                   default /et ... 
 │                       │       ├ Description     : shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a
 │                       │       │                   default /etc/subuid behavior (e.g., uid 100000 through
 │                       │       │                   165535 for the first user account) that can realistically
@@ -4220,30 +4173,25 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 1 
 │                       │       │                  ├ azure      : 1 
 │                       │       │                  ├ oracle-oval: 1 
-│                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 1 
 │                       │       │                  ╰ ubuntu     : 1 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
-│                       │       │                           │           L/A:N 
-│                       │       │                           ╰ V3Score : 3.6 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20559 
-│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56433 
-│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2334165 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2334165 
-│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [1] : https://bugzilla.redhat.com/2334165 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2334165 
+│                       │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-56433 
-│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
-│                       │       │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d57
+│                       │       │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
+│                       │       │                  ├ [5] : https://errata.rockylinux.org/RLSA-2025:20559 
+│                       │       │                  ├ [6] : https://github.com/shadow-maint/shadow/blob/e2512d57
 │                       │       │                  │       41d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238
 │                       │       │                  │       -L241 
-│                       │       │                  ├ [8] : https://github.com/shadow-maint/shadow/issues/1157 
-│                       │       │                  ├ [9] : https://github.com/shadow-maint/shadow/releases/tag/
+│                       │       │                  ├ [7] : https://github.com/shadow-maint/shadow/issues/1157 
+│                       │       │                  ├ [8] : https://github.com/shadow-maint/shadow/releases/tag/
 │                       │       │                  │       4.4 
-│                       │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2024-56433.html 
-│                       │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-20559-0.html 
-│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
-│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
+│                       │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-56433.html 
+│                       │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-20559-0.html 
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
+│                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
 │                       ├ [66]  ╭ VulnerabilityID : CVE-2026-2297 
@@ -5365,7 +5313,7 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:8f0955827b6db36165506b5abea342c7bd756170f5c3f511c71c
 │                       │       │                   5df4eb0b7fe5 
-│                       │       ├ Title           : tar: Tar path traversal 
+│                       │       ├ Title           : ELSA-2026-0067:  tar security update (MODERATE) 
 │                       │       ├ Description     : GNU Tar through 1.35 allows file overwrite via directory
 │                       │       │                   traversal in crafted TAR archives, with a certain two-step
 │                       │       │                   process. First, the victim must extract an archive that
@@ -5395,36 +5343,28 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-24 
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
 │                       │       │                  ├ oracle-oval: 2 
-│                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 2 
 │                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
-│                       │       │                           │           L/A:L 
-│                       │       │                           ╰ V3Score : 5.6 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/11/0
 │                       │       │                  │       1/6 
 │                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:0067 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-45582 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2379592 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2379592 
-│                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2379592 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2379592 
+│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-45582 
-│                       │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-0067.html 
-│                       │       │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0002 
-│                       │       │                  ├ [8] : https://github.com/i900008/vulndb/blob/main/Gnu_tar_
+│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2026-0067.html 
+│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2026:0067 
+│                       │       │                  ├ [7] : https://github.com/i900008/vulndb/blob/main/Gnu_tar_
 │                       │       │                  │       vuln.md 
-│                       │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-45582.html 
-│                       │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2026-0067.html 
-│                       │       │                  ├ [11]: https://lists.gnu.org/archive/html/bug-tar/2025-08/m
+│                       │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-45582.html 
+│                       │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2026-0067.html 
+│                       │       │                  ├ [10]: https://lists.gnu.org/archive/html/bug-tar/2025-08/m
 │                       │       │                  │       sg00012.html 
-│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-45582 
-│                       │       │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2025-45582 
-│                       │       │                  ├ [14]: https://www.gnu.org/software/tar/ 
-│                       │       │                  ├ [15]: https://www.gnu.org/software/tar/manual/html_node/In
+│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-45582 
+│                       │       │                  ├ [12]: https://www.gnu.org/software/tar/ 
+│                       │       │                  ├ [13]: https://www.gnu.org/software/tar/manual/html_node/In
 │                       │       │                  │       tegrity.html 
-│                       │       │                  ├ [16]: https://www.gnu.org/software/tar/manual/html_node/In
-│                       │       │                  │       tegrity.html#Integrity 
-│                       │       │                  ╰ [17]: https://www.gnu.org/software/tar/manual/html_node/Se
+│                       │       │                  ╰ [14]: https://www.gnu.org/software/tar/manual/html_node/Se
 │                       │       │                          curity-rules-of-thumb.html 
 │                       │       ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │       ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
@@ -5657,7 +5597,8 @@
 │                       │       │                  │       stro=ubuntu-26.04&epoch=2 
 │                       │       │                  ╰ UID : b08a41fd0107ffba 
 │                       │       ├ InstalledVersion: 2:9.1.2141-1ubuntu4.1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.2141-1ubuntu4.2 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5
 │                       │       │                  │         edd89c9a36df81514dc61 
 │                       │       │                  ╰ DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f82247
@@ -5687,7 +5628,8 @@
 │                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0383 
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-8
 │                       │       │                  │      5ch-p2qr-m5gx 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-42307 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8304-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-42307 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:36.777Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:55:49.753Z 
 │                       ├ [94]  ╭ VulnerabilityID : CVE-2026-44656 
@@ -5697,7 +5639,8 @@
 │                       │       │                  │       stro=ubuntu-26.04&epoch=2 
 │                       │       │                  ╰ UID : b08a41fd0107ffba 
 │                       │       ├ InstalledVersion: 2:9.1.2141-1ubuntu4.1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.2141-1ubuntu4.2 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5
 │                       │       │                  │         edd89c9a36df81514dc61 
 │                       │       │                  ╰ DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f82247
@@ -5735,7 +5678,8 @@
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-h
 │                       │       │                  │      wg5-3cxw-wvvg 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-44656 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-44656 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8304-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-44656 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:39.783Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:59:30.12Z 
 │                       ├ [95]  ╭ VulnerabilityID : CVE-2026-45130 
@@ -5745,7 +5689,8 @@
 │                       │       │                  │       stro=ubuntu-26.04&epoch=2 
 │                       │       │                  ╰ UID : b08a41fd0107ffba 
 │                       │       ├ InstalledVersion: 2:9.1.2141-1ubuntu4.1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.2141-1ubuntu4.2 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5
 │                       │       │                  │         edd89c9a36df81514dc61 
 │                       │       │                  ╰ DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f82247
@@ -5793,7 +5738,8 @@
 │                       │       │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-q
 │                       │       │                  │      4jv-r9gj-6cwv 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-45130 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-45130 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8304-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-45130 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:40.053Z 
 │                       │       ╰ LastModifiedDate: 2026-05-18T14:22:41.733Z 
 │                       ├ [96]  ╭ VulnerabilityID : CVE-2026-42307 
@@ -5803,7 +5749,8 @@
 │                       │       │                  │       ll&distro=ubuntu-26.04&epoch=2 
 │                       │       │                  ╰ UID : 8225b4df818239e7 
 │                       │       ├ InstalledVersion: 2:9.1.2141-1ubuntu4.1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.2141-1ubuntu4.2 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5
 │                       │       │                  │         edd89c9a36df81514dc61 
 │                       │       │                  ╰ DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f82247
@@ -5833,7 +5780,8 @@
 │                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0383 
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-8
 │                       │       │                  │      5ch-p2qr-m5gx 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-42307 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8304-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-42307 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:36.777Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:55:49.753Z 
 │                       ├ [97]  ╭ VulnerabilityID : CVE-2026-44656 
@@ -5843,7 +5791,8 @@
 │                       │       │                  │       ll&distro=ubuntu-26.04&epoch=2 
 │                       │       │                  ╰ UID : 8225b4df818239e7 
 │                       │       ├ InstalledVersion: 2:9.1.2141-1ubuntu4.1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.2141-1ubuntu4.2 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5
 │                       │       │                  │         edd89c9a36df81514dc61 
 │                       │       │                  ╰ DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f82247
@@ -5881,7 +5830,8 @@
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-h
 │                       │       │                  │      wg5-3cxw-wvvg 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-44656 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-44656 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8304-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-44656 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:39.783Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:59:30.12Z 
 │                       ├ [98]  ╭ VulnerabilityID : CVE-2026-45130 
@@ -5891,7 +5841,8 @@
 │                       │       │                  │       ll&distro=ubuntu-26.04&epoch=2 
 │                       │       │                  ╰ UID : 8225b4df818239e7 
 │                       │       ├ InstalledVersion: 2:9.1.2141-1ubuntu4.1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.2141-1ubuntu4.2 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5
 │                       │       │                  │         edd89c9a36df81514dc61 
 │                       │       │                  ╰ DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f82247
@@ -5939,7 +5890,8 @@
 │                       │       │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-q
 │                       │       │                  │      4jv-r9gj-6cwv 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-45130 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-45130 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8304-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-45130 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:40.053Z 
 │                       │       ╰ LastModifiedDate: 2026-05-18T14:22:41.733Z 
 │                       ├ [99]  ╭ VulnerabilityID : CVE-2026-42307 
@@ -5949,7 +5901,8 @@
 │                       │       │                  │       all&distro=ubuntu-26.04&epoch=2 
 │                       │       │                  ╰ UID : 820a3d33ee389314 
 │                       │       ├ InstalledVersion: 2:9.1.2141-1ubuntu4.1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.2141-1ubuntu4.2 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5
 │                       │       │                  │         edd89c9a36df81514dc61 
 │                       │       │                  ╰ DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f82247
@@ -5979,7 +5932,8 @@
 │                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0383 
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-8
 │                       │       │                  │      5ch-p2qr-m5gx 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-42307 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8304-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-42307 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:36.777Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:55:49.753Z 
 │                       ├ [100] ╭ VulnerabilityID : CVE-2026-44656 
@@ -5989,7 +5943,8 @@
 │                       │       │                  │       all&distro=ubuntu-26.04&epoch=2 
 │                       │       │                  ╰ UID : 820a3d33ee389314 
 │                       │       ├ InstalledVersion: 2:9.1.2141-1ubuntu4.1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.2141-1ubuntu4.2 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5
 │                       │       │                  │         edd89c9a36df81514dc61 
 │                       │       │                  ╰ DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f82247
@@ -6027,7 +5982,8 @@
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-h
 │                       │       │                  │      wg5-3cxw-wvvg 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-44656 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-44656 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8304-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-44656 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:39.783Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:59:30.12Z 
 │                       ├ [101] ╭ VulnerabilityID : CVE-2026-45130 
@@ -6037,7 +5993,8 @@
 │                       │       │                  │       all&distro=ubuntu-26.04&epoch=2 
 │                       │       │                  ╰ UID : 820a3d33ee389314 
 │                       │       ├ InstalledVersion: 2:9.1.2141-1ubuntu4.1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.2141-1ubuntu4.2 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5
 │                       │       │                  │         edd89c9a36df81514dc61 
 │                       │       │                  ╰ DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f82247
@@ -6085,7 +6042,8 @@
 │                       │       │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-q
 │                       │       │                  │      4jv-r9gj-6cwv 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-45130 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-45130 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8304-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-45130 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:40.053Z 
 │                       │       ╰ LastModifiedDate: 2026-05-18T14:22:41.733Z 
 │                       ├ [102] ╭ VulnerabilityID : CVE-2021-31879 
@@ -6201,7 +6159,8 @@
 │                       │       │                  │       stro=ubuntu-26.04&epoch=2 
 │                       │       │                  ╰ UID : b35afbd1f43b0941 
 │                       │       ├ InstalledVersion: 2:9.1.2141-1ubuntu4.1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.2141-1ubuntu4.2 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5
 │                       │       │                  │         edd89c9a36df81514dc61 
 │                       │       │                  ╰ DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f82247
@@ -6231,7 +6190,8 @@
 │                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0383 
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-8
 │                       │       │                  │      5ch-p2qr-m5gx 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-42307 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8304-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-42307 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:36.777Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:55:49.753Z 
 │                       ├ [105] ╭ VulnerabilityID : CVE-2026-44656 
@@ -6241,7 +6201,8 @@
 │                       │       │                  │       stro=ubuntu-26.04&epoch=2 
 │                       │       │                  ╰ UID : b35afbd1f43b0941 
 │                       │       ├ InstalledVersion: 2:9.1.2141-1ubuntu4.1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2:9.1.2141-1ubuntu4.2 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5
 │                       │       │                  │         edd89c9a36df81514dc61 
 │                       │       │                  ╰ DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f82247
@@ -6279,7 +6240,8 @@
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-h
 │                       │       │                  │      wg5-3cxw-wvvg 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-44656 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-44656 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8304-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-44656 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:39.783Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:59:30.12Z 
 │                       ╰ [106] ╭ VulnerabilityID : CVE-2026-45130 
@@ -6289,7 +6251,8 @@
 │                               │                  │       stro=ubuntu-26.04&epoch=2 
 │                               │                  ╰ UID : b35afbd1f43b0941 
 │                               ├ InstalledVersion: 2:9.1.2141-1ubuntu4.1 
-│                               ├ Status          : affected 
+│                               ├ FixedVersion    : 2:9.1.2141-1ubuntu4.2 
+│                               ├ Status          : fixed 
 │                               ├ Layer            ╭ Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5
 │                               │                  │         edd89c9a36df81514dc61 
 │                               │                  ╰ DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f82247
@@ -6337,7 +6300,8 @@
 │                               │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-q
 │                               │                  │      4jv-r9gj-6cwv 
 │                               │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-45130 
-│                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-45130 
+│                               │                  ├ [6]: https://ubuntu.com/security/notices/USN-8304-1 
+│                               │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-45130 
 │                               ├ PublishedDate   : 2026-05-08T23:16:40.053Z 
 │                               ╰ LastModifiedDate: 2026-05-18T14:22:41.733Z 
 ├ [1] ╭ Target  : Java 
