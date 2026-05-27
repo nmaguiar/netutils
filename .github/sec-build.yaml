@@ -273,7 +273,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:7b8202cbddc3342476cced010796c0293465b3bcc76cf05672f9bd8978e2eac9
-    Title: 'iptraf-ng: buffer overflow via ifaces.c'
+    Title: iptraf-ng 1.2.1 has a stack-based buffer overflow. In src/ifaces.c, th ...
     Description: iptraf-ng 1.2.1 has a stack-based buffer overflow. In src/ifaces.c, the strcpy function consistently fails to control the size, and it is consequently possible to overflow memory on the stack.
     Severity: LOW
     CweIDs:
@@ -285,16 +285,10 @@
       cbl-mariner: 2
       oracle-oval: 2
       photon: 3
-      redhat: 2
       rocky: 2
       ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:H
-        V3Score: 6.6
     References:
     - https://access.redhat.com/errata/RHSA-2025:7064
-    - https://access.redhat.com/security/cve/CVE-2024-52949
     - https://bugzilla.redhat.com/2332702
     - https://bugzilla.redhat.com/show_bug.cgi?id=2332702
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52949
@@ -326,24 +320,17 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:0530ccf89f902f4aa65cc5df53582a0ba0745d161564c8d7b43b0c9d773d9578
-    Title: 'avahi: simple clients denial-of-service'
+    Title: Avahi is a system which facilitates service discovery on a local netwo ...
     Description: Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions up to and including 0.9-rc2, the simple protocol server ignores the documented client limit and accepts unlimited connections, allowing for easy local DoS. Although `CLIENTS_MAX` is defined, `server_work()` unconditionally `accept()`s and `client_new()` always appends the new client and increments `n_clients`. There is no check against the limit. When client cannot be accepted as a result of maximal socket number of avahi-daemon, it logs unconditionally error per each connection. Unprivileged local users can exhaust daemon memory and file descriptors, causing a denial of service system-wide for mDNS/DNS-SD. Exhausting local file descriptors causes increased system load caused by logging errors of each of request. Overloading prevents glibc calls using nss-mdns plugins to resolve `*.local.` names and link-local addresses. As of time of publication, no known patched versions are available, but a candidate fix is available in pull request 808, and some workarounds are available. Simple clients are offered for nss-mdns package functionality. It is not possible to disable the unix socket `/run/avahi-daemon/socket`, but resolution requests received via DBus are not affected directly. Tools avahi-resolve, avahi-resolve-address and avahi-resolve-host-name are not affected, they use DBus interface. It is possible to change permissions of unix socket after avahi-daemon is started. But avahi-daemon does not provide any configuration for it. Additional access restrictions like SELinux can also prevent unwanted tools to access the socket and keep resolution working for trusted users.
     Severity: MEDIUM
     CweIDs:
     - CWE-400
     VendorSeverity:
-      redhat: 2
       ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/12/19/1
-    - https://access.redhat.com/security/cve/CVE-2025-59529
     - https://github.com/avahi/avahi/pull/808
     - https://github.com/avahi/avahi/security/advisories/GHSA-73wf-3xmj-x82q
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-59529
     - https://www.cve.org/CVERecord?id=CVE-2025-59529
     - https://zeropath.com/blog/avahi-simple-protocol-server-dos-cve-2025-59529
     PublishedDate: '2025-12-18T21:15:53.637Z'
@@ -366,24 +353,17 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:e83003f171e007fd9388de7975e1ceb05d04958ca6cff3f56a5b0375c4164b0a
-    Title: 'avahi: simple clients denial-of-service'
+    Title: Avahi is a system which facilitates service discovery on a local netwo ...
     Description: Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions up to and including 0.9-rc2, the simple protocol server ignores the documented client limit and accepts unlimited connections, allowing for easy local DoS. Although `CLIENTS_MAX` is defined, `server_work()` unconditionally `accept()`s and `client_new()` always appends the new client and increments `n_clients`. There is no check against the limit. When client cannot be accepted as a result of maximal socket number of avahi-daemon, it logs unconditionally error per each connection. Unprivileged local users can exhaust daemon memory and file descriptors, causing a denial of service system-wide for mDNS/DNS-SD. Exhausting local file descriptors causes increased system load caused by logging errors of each of request. Overloading prevents glibc calls using nss-mdns plugins to resolve `*.local.` names and link-local addresses. As of time of publication, no known patched versions are available, but a candidate fix is available in pull request 808, and some workarounds are available. Simple clients are offered for nss-mdns package functionality. It is not possible to disable the unix socket `/run/avahi-daemon/socket`, but resolution requests received via DBus are not affected directly. Tools avahi-resolve, avahi-resolve-address and avahi-resolve-host-name are not affected, they use DBus interface. It is possible to change permissions of unix socket after avahi-daemon is started. But avahi-daemon does not provide any configuration for it. Additional access restrictions like SELinux can also prevent unwanted tools to access the socket and keep resolution working for trusted users.
     Severity: MEDIUM
     CweIDs:
     - CWE-400
     VendorSeverity:
-      redhat: 2
       ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/12/19/1
-    - https://access.redhat.com/security/cve/CVE-2025-59529
     - https://github.com/avahi/avahi/pull/808
     - https://github.com/avahi/avahi/security/advisories/GHSA-73wf-3xmj-x82q
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-59529
     - https://www.cve.org/CVERecord?id=CVE-2025-59529
     - https://zeropath.com/blog/avahi-simple-protocol-server-dos-cve-2025-59529
     PublishedDate: '2025-12-18T21:15:53.637Z'
@@ -406,24 +386,17 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:2eca64a4ccff74b1a6455caf86b10f20c1660c8a870534779acd908cc30fe4e4
-    Title: 'avahi: simple clients denial-of-service'
+    Title: Avahi is a system which facilitates service discovery on a local netwo ...
     Description: Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions up to and including 0.9-rc2, the simple protocol server ignores the documented client limit and accepts unlimited connections, allowing for easy local DoS. Although `CLIENTS_MAX` is defined, `server_work()` unconditionally `accept()`s and `client_new()` always appends the new client and increments `n_clients`. There is no check against the limit. When client cannot be accepted as a result of maximal socket number of avahi-daemon, it logs unconditionally error per each connection. Unprivileged local users can exhaust daemon memory and file descriptors, causing a denial of service system-wide for mDNS/DNS-SD. Exhausting local file descriptors causes increased system load caused by logging errors of each of request. Overloading prevents glibc calls using nss-mdns plugins to resolve `*.local.` names and link-local addresses. As of time of publication, no known patched versions are available, but a candidate fix is available in pull request 808, and some workarounds are available. Simple clients are offered for nss-mdns package functionality. It is not possible to disable the unix socket `/run/avahi-daemon/socket`, but resolution requests received via DBus are not affected directly. Tools avahi-resolve, avahi-resolve-address and avahi-resolve-host-name are not affected, they use DBus interface. It is possible to change permissions of unix socket after avahi-daemon is started. But avahi-daemon does not provide any configuration for it. Additional access restrictions like SELinux can also prevent unwanted tools to access the socket and keep resolution working for trusted users.
     Severity: MEDIUM
     CweIDs:
     - CWE-400
     VendorSeverity:
-      redhat: 2
       ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.5
     References:
     - http://www.openwall.com/lists/oss-security/2025/12/19/1
-    - https://access.redhat.com/security/cve/CVE-2025-59529
     - https://github.com/avahi/avahi/pull/808
     - https://github.com/avahi/avahi/security/advisories/GHSA-73wf-3xmj-x82q
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-59529
     - https://www.cve.org/CVERecord?id=CVE-2025-59529
     - https://zeropath.com/blog/avahi-simple-protocol-server-dos-cve-2025-59529
     PublishedDate: '2025-12-18T21:15:53.637Z'
@@ -1170,7 +1143,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:542730d2eac9901cf4d94e2faff341c740ae92ee1fe2235eb8134c19cbc7555b
-    Title: 'elfutils: GNU elfutils eu-readelf libdw_alloc.c __libdw_thread_tail memory corruption'
+    Title: A vulnerability has been found in GNU elfutils 0.192 and classified as ...
     Description: A vulnerability has been found in GNU elfutils 0.192 and classified as critical. This vulnerability affects the function __libdw_thread_tail in the library libdw_alloc.c of the component eu-readelf. The manipulation of the argument w leads to memory corruption. The attack can be initiated remotely. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The name of the patch is 2636426a091bd6c6f7f02e49ab20d4cdc6bfc753. It is recommended to apply a patch to fix this issue.
     Severity: LOW
     CweIDs:
@@ -1180,17 +1153,12 @@
       azure: 1
       nvd: 3
       photon: 3
-      redhat: 2
       ubuntu: 1
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
-        V3Score: 5
     References:
-    - https://access.redhat.com/security/cve/CVE-2025-1352
     - https://nvd.nist.gov/vuln/detail/CVE-2025-1352
     - https://sourceware.org/bugzilla/attachment.cgi?id=15923
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32650
@@ -1220,7 +1188,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:16e097740f2611b34161686ef1deca83fd98876ce38c170e331d70df089c0dc4
-    Title: 'elfutils: GNU elfutils eu-strip elf_strptr.c elf_strptr denial of service'
+    Title: A vulnerability classified as problematic was found in GNU elfutils 0. ...
     Description: A vulnerability classified as problematic was found in GNU elfutils 0.192. This vulnerability affects the function elf_strptr in the library /libelf/elf_strptr.c of the component eu-strip. The manipulation leads to denial of service. It is possible to launch the attack on the local host. The complexity of an attack is rather high. The exploitation appears to be difficult. The exploit has been disclosed to the public and may be used. The name of the patch is b16f441cca0a4841050e3215a9f120a6d8aea918. It is recommended to apply a patch to fix this issue.
     Severity: LOW
     CweIDs:
@@ -1229,17 +1197,12 @@
       azure: 1
       nvd: 2
       photon: 2
-      redhat: 1
       ubuntu: 1
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 4.7
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 2.5
     References:
-    - https://access.redhat.com/security/cve/CVE-2025-1376
     - https://nvd.nist.gov/vuln/detail/CVE-2025-1376
     - https://sourceware.org/bugzilla/attachment.cgi?id=15940
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32672
@@ -1269,28 +1232,22 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:875835a71df1c8fce229e8f982d976867cef966cd4b317f3eb61a011c62a078f
-    Title: 'libexpat: libexpat: Denial of service via crafted file processing'
+    Title: In libexpat through 2.7.3, a crafted file with an approximate size of  ...
     Description: In libexpat through 2.7.3, a crafted file with an approximate size of 2 MiB can lead to dozens of seconds of processing time.
     Severity: MEDIUM
     CweIDs:
     - CWE-407
     VendorSeverity:
       nvd: 2
-      redhat: 1
       ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 2.9
     References:
     - http://www.openwall.com/lists/oss-security/2025/12/02/1
-    - https://access.redhat.com/security/cve/CVE-2025-66382
     - https://cert-portal.siemens.com/productcert/html/ssa-082556.html
     - https://github.com/libexpat/libexpat/issues/1076
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-66382
     - https://www.cve.org/CVERecord?id=CVE-2025-66382
     PublishedDate: '2025-11-28T07:15:57.9Z'
     LastModifiedDate: '2026-05-12T13:17:23.933Z'
@@ -1356,7 +1313,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:35cfe49c6244b2365249831bc5dc8dafbe7de8075db0d25253940b27d46f1ead
-    Title: 'libgcrypt: vulnerable to Marvin Attack'
+    Title: A timing-based side-channel flaw was found in libgcrypt's RSA implemen ...
     Description: A timing-based side-channel flaw was found in libgcrypt's RSA implementation. This issue may allow a remote attacker to initiate a Bleichenbacher-style attack, which can lead to the decryption of RSA ciphertexts.
     Severity: LOW
     CweIDs:
@@ -1365,13 +1322,8 @@
       alma: 2
       amazon: 2
       oracle-oval: 2
-      redhat: 2
       rocky: 2
       ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2024:9404
     - https://access.redhat.com/errata/RHSA-2025:3530
@@ -1389,7 +1341,6 @@
     - https://linux.oracle.com/cve/CVE-2024-2236.html
     - https://linux.oracle.com/errata/ELSA-2024-9404.html
     - https://lists.gnupg.org/pipermail/gcrypt-devel/2024-March/005607.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-2236
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2026-04-15T00:35:42.02Z'
@@ -3300,7 +3251,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:1924ca53a2c2f07dc4f885d983fd8987d9a42b9ad67ee1e831ebb3d9dc8761f8
-    Title: 'shadow-utils: Default subordinate ID configuration in /etc/login.defs could lead to compromise'
+    Title: shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /et ...
     Description: 'shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /etc/subuid behavior (e.g., uid 100000 through 165535 for the first user account) that can realistically conflict with the uids of users defined on locally administered networks, potentially leading to account takeover, e.g., by leveraging newuidmap for access to an NFS home directory (or same-host resources in the case of remote logins by these local network users). NOTE: it may also be argued that system administrators should not have assigned uids, within local networks, that are within the range that can occur in /etc/subuid.'
     Severity: LOW
     CweIDs:
@@ -3309,21 +3260,15 @@
       alma: 1
       azure: 1
       oracle-oval: 1
-      redhat: 1
       rocky: 1
       ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 3.6
     References:
     - https://access.redhat.com/errata/RHSA-2025:20559
-    - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/9/ALSA-2025-20559.html
-    - https://errata.rockylinux.org/RLSA-2025:20145
+    - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -3440,7 +3385,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:739196c606948df6508eb13472b42e5279d187b58b602f2d9d112089aa079a07
-    Title: 'shadow-utils: Default subordinate ID configuration in /etc/login.defs could lead to compromise'
+    Title: shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /et ...
     Description: 'shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a default /etc/subuid behavior (e.g., uid 100000 through 165535 for the first user account) that can realistically conflict with the uids of users defined on locally administered networks, potentially leading to account takeover, e.g., by leveraging newuidmap for access to an NFS home directory (or same-host resources in the case of remote logins by these local network users). NOTE: it may also be argued that system administrators should not have assigned uids, within local networks, that are within the range that can occur in /etc/subuid.'
     Severity: LOW
     CweIDs:
@@ -3449,21 +3394,15 @@
       alma: 1
       azure: 1
       oracle-oval: 1
-      redhat: 1
       rocky: 1
       ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 3.6
     References:
     - https://access.redhat.com/errata/RHSA-2025:20559
-    - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/9/ALSA-2025-20559.html
-    - https://errata.rockylinux.org/RLSA-2025:20145
+    - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -4413,7 +4352,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:8f0955827b6db36165506b5abea342c7bd756170f5c3f511c71c5df4eb0b7fe5
-    Title: 'tar: Tar path traversal'
+    Title: 'ELSA-2026-0067:  tar security update (MODERATE)'
     Description: 'GNU Tar through 1.35 allows file overwrite via directory traversal in crafted TAR archives, with a certain two-step process. First, the victim must extract an archive that contains a ../ symlink to a critical directory. Second, the victim must extract an archive that contains a critical file, specified via a relative pathname that begins with the symlink name and ends with that critical file''s name. Here, the extraction follows the symlink and overwrites the critical file. This bypasses the protection mechanism of "Member name contains ''..''" that would occur for a single TAR archive that attempted to specify the critical file via a ../ approach. For example, the first archive can contain "x -> ../../../../../home/victim/.ssh" and the second archive can contain x/authorized_keys. This can affect server applications that automatically extract any number of user-supplied TAR archives, and were relying on the blocking of traversal. This can also affect software installation processes in which "tar xf" is run more than once (e.g., when installing a package can automatically install two dependencies that are set up as untrusted tarballs instead of official packages). NOTE: the official GNU Tar manual has an otherwise-empty directory for each "tar xf" in its Security Rules of Thumb; however, third-party advice leads users to run "tar xf" more than once into the same directory.'
     Severity: MEDIUM
     CweIDs:
@@ -4421,31 +4360,23 @@
     VendorSeverity:
       alma: 2
       oracle-oval: 2
-      redhat: 2
       rocky: 2
       ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
-        V3Score: 5.6
     References:
     - http://www.openwall.com/lists/oss-security/2025/11/01/6
     - https://access.redhat.com/errata/RHSA-2026:0067
-    - https://access.redhat.com/security/cve/CVE-2025-45582
     - https://bugzilla.redhat.com/2379592
     - https://bugzilla.redhat.com/show_bug.cgi?id=2379592
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-45582
     - https://errata.almalinux.org/9/ALSA-2026-0067.html
-    - https://errata.rockylinux.org/RLSA-2026:0002
+    - https://errata.rockylinux.org/RLSA-2026:0067
     - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
     - https://linux.oracle.com/cve/CVE-2025-45582.html
     - https://linux.oracle.com/errata/ELSA-2026-0067.html
     - https://lists.gnu.org/archive/html/bug-tar/2025-08/msg00012.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-45582
     - https://www.cve.org/CVERecord?id=CVE-2025-45582
     - https://www.gnu.org/software/tar/
     - https://www.gnu.org/software/tar/manual/html_node/Integrity.html
-    - https://www.gnu.org/software/tar/manual/html_node/Integrity.html#Integrity
     - https://www.gnu.org/software/tar/manual/html_node/Security-rules-of-thumb.html
     PublishedDate: '2025-07-11T17:15:37.183Z'
     LastModifiedDate: '2025-11-02T01:15:32.307Z'
@@ -4641,7 +4572,8 @@
       PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.1?arch=amd64&distro=ubuntu-26.04&epoch=2
       UID: b08a41fd0107ffba
     InstalledVersion: 2:9.1.2141-1ubuntu4.1
-    Status: affected
+    FixedVersion: 2:9.1.2141-1ubuntu4.2
+    Status: fixed
     Layer:
       Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5edd89c9a36df81514dc61
       DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f822472587933c494e25a1f636f
@@ -4663,6 +4595,7 @@
     - https://github.com/vim/vim/commit/405e2fb6d54d5653523809e2853d99d1c000a5fc
     - https://github.com/vim/vim/releases/tag/v9.2.0383
     - https://github.com/vim/vim/security/advisories/GHSA-85ch-p2qr-m5gx
+    - https://ubuntu.com/security/notices/USN-8304-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42307
     PublishedDate: '2026-05-08T23:16:36.777Z'
     LastModifiedDate: '2026-05-14T13:55:49.753Z'
@@ -4673,7 +4606,8 @@
       PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.1?arch=amd64&distro=ubuntu-26.04&epoch=2
       UID: b08a41fd0107ffba
     InstalledVersion: 2:9.1.2141-1ubuntu4.1
-    Status: affected
+    FixedVersion: 2:9.1.2141-1ubuntu4.2
+    Status: fixed
     Layer:
       Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5edd89c9a36df81514dc61
       DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f822472587933c494e25a1f636f
@@ -4702,6 +4636,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0435
     - https://github.com/vim/vim/security/advisories/GHSA-hwg5-3cxw-wvvg
     - https://nvd.nist.gov/vuln/detail/CVE-2026-44656
+    - https://ubuntu.com/security/notices/USN-8304-1
     - https://www.cve.org/CVERecord?id=CVE-2026-44656
     PublishedDate: '2026-05-08T23:16:39.783Z'
     LastModifiedDate: '2026-05-14T13:59:30.12Z'
@@ -4712,7 +4647,8 @@
       PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.1?arch=amd64&distro=ubuntu-26.04&epoch=2
       UID: b08a41fd0107ffba
     InstalledVersion: 2:9.1.2141-1ubuntu4.1
-    Status: affected
+    FixedVersion: 2:9.1.2141-1ubuntu4.2
+    Status: fixed
     Layer:
       Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5edd89c9a36df81514dc61
       DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f822472587933c494e25a1f636f
@@ -4748,6 +4684,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0450
     - https://github.com/vim/vim/security/advisories/GHSA-q4jv-r9gj-6cwv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-45130
+    - https://ubuntu.com/security/notices/USN-8304-1
     - https://www.cve.org/CVERecord?id=CVE-2026-45130
     PublishedDate: '2026-05-08T23:16:40.053Z'
     LastModifiedDate: '2026-05-18T14:22:41.733Z'
@@ -4758,7 +4695,8 @@
       PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.1?arch=all&distro=ubuntu-26.04&epoch=2
       UID: 8225b4df818239e7
     InstalledVersion: 2:9.1.2141-1ubuntu4.1
-    Status: affected
+    FixedVersion: 2:9.1.2141-1ubuntu4.2
+    Status: fixed
     Layer:
       Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5edd89c9a36df81514dc61
       DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f822472587933c494e25a1f636f
@@ -4780,6 +4718,7 @@
     - https://github.com/vim/vim/commit/405e2fb6d54d5653523809e2853d99d1c000a5fc
     - https://github.com/vim/vim/releases/tag/v9.2.0383
     - https://github.com/vim/vim/security/advisories/GHSA-85ch-p2qr-m5gx
+    - https://ubuntu.com/security/notices/USN-8304-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42307
     PublishedDate: '2026-05-08T23:16:36.777Z'
     LastModifiedDate: '2026-05-14T13:55:49.753Z'
@@ -4790,7 +4729,8 @@
       PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.1?arch=all&distro=ubuntu-26.04&epoch=2
       UID: 8225b4df818239e7
     InstalledVersion: 2:9.1.2141-1ubuntu4.1
-    Status: affected
+    FixedVersion: 2:9.1.2141-1ubuntu4.2
+    Status: fixed
     Layer:
       Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5edd89c9a36df81514dc61
       DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f822472587933c494e25a1f636f
@@ -4819,6 +4759,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0435
     - https://github.com/vim/vim/security/advisories/GHSA-hwg5-3cxw-wvvg
     - https://nvd.nist.gov/vuln/detail/CVE-2026-44656
+    - https://ubuntu.com/security/notices/USN-8304-1
     - https://www.cve.org/CVERecord?id=CVE-2026-44656
     PublishedDate: '2026-05-08T23:16:39.783Z'
     LastModifiedDate: '2026-05-14T13:59:30.12Z'
@@ -4829,7 +4770,8 @@
       PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.1?arch=all&distro=ubuntu-26.04&epoch=2
       UID: 8225b4df818239e7
     InstalledVersion: 2:9.1.2141-1ubuntu4.1
-    Status: affected
+    FixedVersion: 2:9.1.2141-1ubuntu4.2
+    Status: fixed
     Layer:
       Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5edd89c9a36df81514dc61
       DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f822472587933c494e25a1f636f
@@ -4865,6 +4807,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0450
     - https://github.com/vim/vim/security/advisories/GHSA-q4jv-r9gj-6cwv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-45130
+    - https://ubuntu.com/security/notices/USN-8304-1
     - https://www.cve.org/CVERecord?id=CVE-2026-45130
     PublishedDate: '2026-05-08T23:16:40.053Z'
     LastModifiedDate: '2026-05-18T14:22:41.733Z'
@@ -4875,7 +4818,8 @@
       PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.1?arch=all&distro=ubuntu-26.04&epoch=2
       UID: 820a3d33ee389314
     InstalledVersion: 2:9.1.2141-1ubuntu4.1
-    Status: affected
+    FixedVersion: 2:9.1.2141-1ubuntu4.2
+    Status: fixed
     Layer:
       Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5edd89c9a36df81514dc61
       DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f822472587933c494e25a1f636f
@@ -4897,6 +4841,7 @@
     - https://github.com/vim/vim/commit/405e2fb6d54d5653523809e2853d99d1c000a5fc
     - https://github.com/vim/vim/releases/tag/v9.2.0383
     - https://github.com/vim/vim/security/advisories/GHSA-85ch-p2qr-m5gx
+    - https://ubuntu.com/security/notices/USN-8304-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42307
     PublishedDate: '2026-05-08T23:16:36.777Z'
     LastModifiedDate: '2026-05-14T13:55:49.753Z'
@@ -4907,7 +4852,8 @@
       PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.1?arch=all&distro=ubuntu-26.04&epoch=2
       UID: 820a3d33ee389314
     InstalledVersion: 2:9.1.2141-1ubuntu4.1
-    Status: affected
+    FixedVersion: 2:9.1.2141-1ubuntu4.2
+    Status: fixed
     Layer:
       Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5edd89c9a36df81514dc61
       DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f822472587933c494e25a1f636f
@@ -4936,6 +4882,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0435
     - https://github.com/vim/vim/security/advisories/GHSA-hwg5-3cxw-wvvg
     - https://nvd.nist.gov/vuln/detail/CVE-2026-44656
+    - https://ubuntu.com/security/notices/USN-8304-1
     - https://www.cve.org/CVERecord?id=CVE-2026-44656
     PublishedDate: '2026-05-08T23:16:39.783Z'
     LastModifiedDate: '2026-05-14T13:59:30.12Z'
@@ -4946,7 +4893,8 @@
       PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.1?arch=all&distro=ubuntu-26.04&epoch=2
       UID: 820a3d33ee389314
     InstalledVersion: 2:9.1.2141-1ubuntu4.1
-    Status: affected
+    FixedVersion: 2:9.1.2141-1ubuntu4.2
+    Status: fixed
     Layer:
       Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5edd89c9a36df81514dc61
       DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f822472587933c494e25a1f636f
@@ -4982,6 +4930,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0450
     - https://github.com/vim/vim/security/advisories/GHSA-q4jv-r9gj-6cwv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-45130
+    - https://ubuntu.com/security/notices/USN-8304-1
     - https://www.cve.org/CVERecord?id=CVE-2026-45130
     PublishedDate: '2026-05-08T23:16:40.053Z'
     LastModifiedDate: '2026-05-18T14:22:41.733Z'
@@ -5092,7 +5041,8 @@
       PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.1?arch=amd64&distro=ubuntu-26.04&epoch=2
       UID: b35afbd1f43b0941
     InstalledVersion: 2:9.1.2141-1ubuntu4.1
-    Status: affected
+    FixedVersion: 2:9.1.2141-1ubuntu4.2
+    Status: fixed
     Layer:
       Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5edd89c9a36df81514dc61
       DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f822472587933c494e25a1f636f
@@ -5114,6 +5064,7 @@
     - https://github.com/vim/vim/commit/405e2fb6d54d5653523809e2853d99d1c000a5fc
     - https://github.com/vim/vim/releases/tag/v9.2.0383
     - https://github.com/vim/vim/security/advisories/GHSA-85ch-p2qr-m5gx
+    - https://ubuntu.com/security/notices/USN-8304-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42307
     PublishedDate: '2026-05-08T23:16:36.777Z'
     LastModifiedDate: '2026-05-14T13:55:49.753Z'
@@ -5124,7 +5075,8 @@
       PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.1?arch=amd64&distro=ubuntu-26.04&epoch=2
       UID: b35afbd1f43b0941
     InstalledVersion: 2:9.1.2141-1ubuntu4.1
-    Status: affected
+    FixedVersion: 2:9.1.2141-1ubuntu4.2
+    Status: fixed
     Layer:
       Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5edd89c9a36df81514dc61
       DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f822472587933c494e25a1f636f
@@ -5153,6 +5105,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0435
     - https://github.com/vim/vim/security/advisories/GHSA-hwg5-3cxw-wvvg
     - https://nvd.nist.gov/vuln/detail/CVE-2026-44656
+    - https://ubuntu.com/security/notices/USN-8304-1
     - https://www.cve.org/CVERecord?id=CVE-2026-44656
     PublishedDate: '2026-05-08T23:16:39.783Z'
     LastModifiedDate: '2026-05-14T13:59:30.12Z'
@@ -5163,7 +5116,8 @@
       PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.1?arch=amd64&distro=ubuntu-26.04&epoch=2
       UID: b35afbd1f43b0941
     InstalledVersion: 2:9.1.2141-1ubuntu4.1
-    Status: affected
+    FixedVersion: 2:9.1.2141-1ubuntu4.2
+    Status: fixed
     Layer:
       Digest: sha256:e400d14cc0b1e5c271ae73aa06dfd84c5d093f64cf5edd89c9a36df81514dc61
       DiffID: sha256:aa7ee910ff6dc0b70d1dd2a06dcae1f7be3c2f822472587933c494e25a1f636f
@@ -5199,6 +5153,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0450
     - https://github.com/vim/vim/security/advisories/GHSA-q4jv-r9gj-6cwv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-45130
+    - https://ubuntu.com/security/notices/USN-8304-1
     - https://www.cve.org/CVERecord?id=CVE-2026-45130
     PublishedDate: '2026-05-08T23:16:40.053Z'
     LastModifiedDate: '2026-05-18T14:22:41.733Z'
