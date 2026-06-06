@@ -1570,7 +1570,6 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-41079
     - https://github.com/OpenPrinting/cups/commit/b7c2525a885f528d243c3a92197ca99609b3f080
-    - https://github.com/OpenPrinting/cups/commit/b7c2525a885f528d243c3a92197ca99609b3f080 (v2.4.17)
     - https://github.com/OpenPrinting/cups/commit/d7fe0f521ff3b24676511e747b058362b9a20737
     - https://github.com/OpenPrinting/cups/security/advisories/GHSA-6wpw-g8g6-wvrv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-41079
@@ -3691,6 +3690,90 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
     LastModifiedDate: '2026-05-01T19:29:51.02Z'
+  - VulnerabilityID: CVE-2026-40228
+    PkgID: libnss-systemd@259.5-0ubuntu3
+    PkgName: libnss-systemd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnss-systemd@259.5-0ubuntu3?arch=amd64&distro=ubuntu-26.04
+      UID: 75467b2281c05291
+    InstalledVersion: 259.5-0ubuntu3
+    Status: affected
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-40228
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:8b440e376236d69c973d3161339a0dec127130394d2b4dcdaf58cea77226c814
+    Title: 'systemd: systemd-journald: Unintended output to user terminals via logger command'
+    Description: In systemd 259, systemd-journald can send ANSI escape sequences to the terminals of arbitrary users when a "logger -p emerg" command is executed, if ForwardToWall=yes is set.
+    Severity: LOW
+    CweIDs:
+    - CWE-669
+    VendorSeverity:
+      nvd: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 2.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/05/05/1
+    - https://access.redhat.com/security/cve/CVE-2026-40228
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-40228
+    - https://www.cve.org/CVERecord?id=CVE-2026-40228
+    - https://www.openwall.com/lists/oss-security/2026/04/08/1
+    PublishedDate: '2026-04-10T16:16:33.753Z'
+    LastModifiedDate: '2026-05-05T02:16:04.82Z'
+  - VulnerabilityID: CVE-2026-40228
+    PkgID: libpam-systemd@259.5-0ubuntu3
+    PkgName: libpam-systemd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-systemd@259.5-0ubuntu3?arch=amd64&distro=ubuntu-26.04
+      UID: 4f72feeb7ea50bf
+    InstalledVersion: 259.5-0ubuntu3
+    Status: affected
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-40228
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:64eb8e98919ad547e6b3b2a34837e2ab6ac98e1692c481d842eb43af41a4d923
+    Title: 'systemd: systemd-journald: Unintended output to user terminals via logger command'
+    Description: In systemd 259, systemd-journald can send ANSI escape sequences to the terminals of arbitrary users when a "logger -p emerg" command is executed, if ForwardToWall=yes is set.
+    Severity: LOW
+    CweIDs:
+    - CWE-669
+    VendorSeverity:
+      nvd: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 2.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/05/05/1
+    - https://access.redhat.com/security/cve/CVE-2026-40228
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-40228
+    - https://www.cve.org/CVERecord?id=CVE-2026-40228
+    - https://www.openwall.com/lists/oss-security/2026/04/08/1
+    PublishedDate: '2026-04-10T16:16:33.753Z'
+    LastModifiedDate: '2026-05-05T02:16:04.82Z'
   - VulnerabilityID: CVE-2023-37769
     PkgID: libpixman-1-0@0.46.4-1
     PkgName: libpixman-1-0
@@ -4214,6 +4297,90 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-7598
     PublishedDate: '2026-05-01T22:16:16.947Z'
     LastModifiedDate: '2026-05-07T01:47:08.857Z'
+  - VulnerabilityID: CVE-2026-40228
+    PkgID: libsystemd-shared@259.5-0ubuntu3
+    PkgName: libsystemd-shared
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsystemd-shared@259.5-0ubuntu3?arch=amd64&distro=ubuntu-26.04
+      UID: 6eccbb8daab13b4
+    InstalledVersion: 259.5-0ubuntu3
+    Status: affected
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-40228
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4f0d651b74b62c97bd4d2b53b6e2faaf459dbf1ba789cbccd2f5dfaadb9dec0b
+    Title: 'systemd: systemd-journald: Unintended output to user terminals via logger command'
+    Description: In systemd 259, systemd-journald can send ANSI escape sequences to the terminals of arbitrary users when a "logger -p emerg" command is executed, if ForwardToWall=yes is set.
+    Severity: LOW
+    CweIDs:
+    - CWE-669
+    VendorSeverity:
+      nvd: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 2.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/05/05/1
+    - https://access.redhat.com/security/cve/CVE-2026-40228
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-40228
+    - https://www.cve.org/CVERecord?id=CVE-2026-40228
+    - https://www.openwall.com/lists/oss-security/2026/04/08/1
+    PublishedDate: '2026-04-10T16:16:33.753Z'
+    LastModifiedDate: '2026-05-05T02:16:04.82Z'
+  - VulnerabilityID: CVE-2026-40228
+    PkgID: libsystemd0@259.5-0ubuntu3
+    PkgName: libsystemd0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsystemd0@259.5-0ubuntu3?arch=amd64&distro=ubuntu-26.04
+      UID: 68ed9dc5cf416dae
+    InstalledVersion: 259.5-0ubuntu3
+    Status: affected
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-40228
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:dcb4679c9bd5d6213b06a5b2eec364c2954b0be0837d908e86b51034a048fae2
+    Title: 'systemd: systemd-journald: Unintended output to user terminals via logger command'
+    Description: In systemd 259, systemd-journald can send ANSI escape sequences to the terminals of arbitrary users when a "logger -p emerg" command is executed, if ForwardToWall=yes is set.
+    Severity: LOW
+    CweIDs:
+    - CWE-669
+    VendorSeverity:
+      nvd: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 2.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/05/05/1
+    - https://access.redhat.com/security/cve/CVE-2026-40228
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-40228
+    - https://www.cve.org/CVERecord?id=CVE-2026-40228
+    - https://www.openwall.com/lists/oss-security/2026/04/08/1
+    PublishedDate: '2026-04-10T16:16:33.753Z'
+    LastModifiedDate: '2026-05-05T02:16:04.82Z'
   - VulnerabilityID: CVE-2025-61143
     PkgID: libtiff6@4.7.0-3ubuntu4
     PkgName: libtiff6
@@ -4312,6 +4479,48 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-61144
     PublishedDate: '2026-02-23T19:22:56.643Z'
     LastModifiedDate: '2026-02-25T15:20:50.17Z'
+  - VulnerabilityID: CVE-2026-40228
+    PkgID: libudev1@259.5-0ubuntu3
+    PkgName: libudev1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libudev1@259.5-0ubuntu3?arch=amd64&distro=ubuntu-26.04
+      UID: 419f3d2219f938db
+    InstalledVersion: 259.5-0ubuntu3
+    Status: affected
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-40228
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:bdd48b3a3a9a555a159b35b7cc4c7aa39abccba1eda417a1d182dcd00f09137f
+    Title: 'systemd: systemd-journald: Unintended output to user terminals via logger command'
+    Description: In systemd 259, systemd-journald can send ANSI escape sequences to the terminals of arbitrary users when a "logger -p emerg" command is executed, if ForwardToWall=yes is set.
+    Severity: LOW
+    CweIDs:
+    - CWE-669
+    VendorSeverity:
+      nvd: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 2.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/05/05/1
+    - https://access.redhat.com/security/cve/CVE-2026-40228
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-40228
+    - https://www.cve.org/CVERecord?id=CVE-2026-40228
+    - https://www.openwall.com/lists/oss-security/2026/04/08/1
+    PublishedDate: '2026-04-10T16:16:33.753Z'
+    LastModifiedDate: '2026-05-05T02:16:04.82Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: libuuid1@2.41.3-3ubuntu2
     PkgName: libuuid1
@@ -6111,6 +6320,216 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-35377
     PublishedDate: '2026-04-22T17:16:42.577Z'
     LastModifiedDate: '2026-04-24T19:06:46.293Z'
+  - VulnerabilityID: CVE-2026-40228
+    PkgID: systemd@259.5-0ubuntu3
+    PkgName: systemd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/systemd@259.5-0ubuntu3?arch=amd64&distro=ubuntu-26.04
+      UID: 567bbfa6d722dfe
+    InstalledVersion: 259.5-0ubuntu3
+    Status: affected
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-40228
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:880db385923dfeb780db0f07763871bad3281b6467e8240c7ff786422130cba8
+    Title: 'systemd: systemd-journald: Unintended output to user terminals via logger command'
+    Description: In systemd 259, systemd-journald can send ANSI escape sequences to the terminals of arbitrary users when a "logger -p emerg" command is executed, if ForwardToWall=yes is set.
+    Severity: LOW
+    CweIDs:
+    - CWE-669
+    VendorSeverity:
+      nvd: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 2.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/05/05/1
+    - https://access.redhat.com/security/cve/CVE-2026-40228
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-40228
+    - https://www.cve.org/CVERecord?id=CVE-2026-40228
+    - https://www.openwall.com/lists/oss-security/2026/04/08/1
+    PublishedDate: '2026-04-10T16:16:33.753Z'
+    LastModifiedDate: '2026-05-05T02:16:04.82Z'
+  - VulnerabilityID: CVE-2026-40228
+    PkgID: systemd-cryptsetup@259.5-0ubuntu3
+    PkgName: systemd-cryptsetup
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/systemd-cryptsetup@259.5-0ubuntu3?arch=amd64&distro=ubuntu-26.04
+      UID: 788fdc4b75775ddd
+    InstalledVersion: 259.5-0ubuntu3
+    Status: affected
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-40228
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:0f5bb33ec909e6f316bc8528fe51887d3523b50603d9f7812a2eec9bf8f76771
+    Title: 'systemd: systemd-journald: Unintended output to user terminals via logger command'
+    Description: In systemd 259, systemd-journald can send ANSI escape sequences to the terminals of arbitrary users when a "logger -p emerg" command is executed, if ForwardToWall=yes is set.
+    Severity: LOW
+    CweIDs:
+    - CWE-669
+    VendorSeverity:
+      nvd: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 2.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/05/05/1
+    - https://access.redhat.com/security/cve/CVE-2026-40228
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-40228
+    - https://www.cve.org/CVERecord?id=CVE-2026-40228
+    - https://www.openwall.com/lists/oss-security/2026/04/08/1
+    PublishedDate: '2026-04-10T16:16:33.753Z'
+    LastModifiedDate: '2026-05-05T02:16:04.82Z'
+  - VulnerabilityID: CVE-2026-40228
+    PkgID: systemd-resolved@259.5-0ubuntu3
+    PkgName: systemd-resolved
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/systemd-resolved@259.5-0ubuntu3?arch=amd64&distro=ubuntu-26.04
+      UID: 8ab06fe0951c7356
+    InstalledVersion: 259.5-0ubuntu3
+    Status: affected
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-40228
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:5545ebca5d2d19c6c1676d777398d581fdeb7d2905b52854e30423521bb08975
+    Title: 'systemd: systemd-journald: Unintended output to user terminals via logger command'
+    Description: In systemd 259, systemd-journald can send ANSI escape sequences to the terminals of arbitrary users when a "logger -p emerg" command is executed, if ForwardToWall=yes is set.
+    Severity: LOW
+    CweIDs:
+    - CWE-669
+    VendorSeverity:
+      nvd: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 2.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/05/05/1
+    - https://access.redhat.com/security/cve/CVE-2026-40228
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-40228
+    - https://www.cve.org/CVERecord?id=CVE-2026-40228
+    - https://www.openwall.com/lists/oss-security/2026/04/08/1
+    PublishedDate: '2026-04-10T16:16:33.753Z'
+    LastModifiedDate: '2026-05-05T02:16:04.82Z'
+  - VulnerabilityID: CVE-2026-40228
+    PkgID: systemd-sysv@259.5-0ubuntu3
+    PkgName: systemd-sysv
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/systemd-sysv@259.5-0ubuntu3?arch=amd64&distro=ubuntu-26.04
+      UID: 671de75b107aaffc
+    InstalledVersion: 259.5-0ubuntu3
+    Status: affected
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-40228
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:bedc1ac304672c48908179809cd1f8bb45849a2e9b5e69b93ad10c34b6862592
+    Title: 'systemd: systemd-journald: Unintended output to user terminals via logger command'
+    Description: In systemd 259, systemd-journald can send ANSI escape sequences to the terminals of arbitrary users when a "logger -p emerg" command is executed, if ForwardToWall=yes is set.
+    Severity: LOW
+    CweIDs:
+    - CWE-669
+    VendorSeverity:
+      nvd: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 2.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/05/05/1
+    - https://access.redhat.com/security/cve/CVE-2026-40228
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-40228
+    - https://www.cve.org/CVERecord?id=CVE-2026-40228
+    - https://www.openwall.com/lists/oss-security/2026/04/08/1
+    PublishedDate: '2026-04-10T16:16:33.753Z'
+    LastModifiedDate: '2026-05-05T02:16:04.82Z'
+  - VulnerabilityID: CVE-2026-40228
+    PkgID: systemd-timesyncd@259.5-0ubuntu3
+    PkgName: systemd-timesyncd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/systemd-timesyncd@259.5-0ubuntu3?arch=amd64&distro=ubuntu-26.04
+      UID: c6ea5d793fe24a49
+    InstalledVersion: 259.5-0ubuntu3
+    Status: affected
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-40228
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e14ea44c63775e7e15064fd54bc31227f8f713b5c457b377073379137575a564
+    Title: 'systemd: systemd-journald: Unintended output to user terminals via logger command'
+    Description: In systemd 259, systemd-journald can send ANSI escape sequences to the terminals of arbitrary users when a "logger -p emerg" command is executed, if ForwardToWall=yes is set.
+    Severity: LOW
+    CweIDs:
+    - CWE-669
+    VendorSeverity:
+      nvd: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 2.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/05/05/1
+    - https://access.redhat.com/security/cve/CVE-2026-40228
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-40228
+    - https://www.cve.org/CVERecord?id=CVE-2026-40228
+    - https://www.openwall.com/lists/oss-security/2026/04/08/1
+    PublishedDate: '2026-04-10T16:16:33.753Z'
+    LastModifiedDate: '2026-05-05T02:16:04.82Z'
   - VulnerabilityID: CVE-2025-45582
     PkgID: tar@1.35+dfsg-4
     PkgName: tar
@@ -7381,48 +7800,10 @@
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Fingerprint: sha256:4f04fe87df187b4383667ce2ed88d26023b734153da88d6ed2b8e8d21d2b6bdc
     Title: 'Docker: `PUT /containers/{id}/archive` executes container binary on the host'
-    Description: |-
-      ## Summary
-
-      When a user uploads a compressed archive into a container, a malicious image can execute arbitrary code with daemon (host root) privileges.
-
-      ## Details
-
-      When handling `PUT /containers/{id}/archive` requests with compressed archives, the daemon decompresses them using external system binaries. Due to incorrect ordering of operations, these binaries are resolved from the container's filesystem rather than the host's. A container image that includes a trojanized decompression binary can achieve code execution as the daemon process whenever a compressed archive is uploaded to that container.
-
-      The executed binary runs with the daemon's full privileges, including host root UID and unrestricted capabilities.
-
-      ## Impact
-
-      Arbitrary code execution as host root, crossing the container-to-host trust boundary.
-
-      ### Conditions for exploitation
-
-      - A user must run a container from a malicious image that contains a trojanized decompression binary.
-      - The user must then upload a compressed archive (xz or gzip) into that container, either by piping a compressed archive via `docker cp -` or by calling the `PUT /containers/{id}/archive` API directly with compressed content.
-
-      ### Not affected
-
-      Standard `docker cp` usage is **not** affected, because the CLI sends uncompressed tar by default:
-
-      ```
-      docker cp ./file.txt mycontainer:/file.txt
-      ```
-
-      This can only be exploited when explicitly passing a xz or gzip-compressed archive to `docker cp` or the `PUT /containers/{id}/archive` API, for example:
-
-      ```
-      cat archive.tar.xz | docker cp - mycontainer:/dir
-      ```
-
-      Decompression formats using pure Go implementations (bzip2, zstd, and gzip when the container image does not contain an `unpigz` binary) are also not affected.
-
-      ## Workarounds
-
-      - Only run containers from trusted images.
-      - Use authorization plugins to limit access to the `PUT /containers/{id}/archive` endpoint.
-      - Avoid piping compressed archives into containers created from untrusted images.
+    Description: Moby is an open source container framework. In versions prior to 29.5.1 and in moby/moby v2 prior to v2.0.0-beta.14, when a compressed archive is uploaded to a container via `PUT /containers/{id}/archive` or piped through `docker cp -`, the daemon resolves decompression binaries (such as `xz` or `unpigz`) from the container's filesystem rather than the host's due to incorrect ordering of operations. A malicious container image containing a trojanized decompression binary can achieve arbitrary code execution with full daemon privileges, including host root UID and unrestricted capabilities, when a user uploads a compressed (xz or gzip) archive into that container. This issue is fixed in Docker Engine 29.5.1 and moby/moby v2.0.0-beta.14. Workarounds include only running containers from trusted images, using authorization plugins to restrict access to the `PUT /containers/{id}/archive` endpoint, and avoiding piping compressed archives into containers created from untrusted images
     Severity: HIGH
+    CweIDs:
+    - CWE-427
     VendorSeverity:
       ghsa: 3
     CVSS:
@@ -7432,6 +7813,8 @@
     References:
     - https://github.com/moby/moby
     - https://github.com/moby/moby/security/advisories/GHSA-x86f-5xw2-fm2r
+    PublishedDate: '2026-06-05T02:17:13.817Z'
+    LastModifiedDate: '2026-06-05T16:01:30.983Z'
   - VulnerabilityID: CVE-2026-42306
     VendorIDs:
     - GHSA-rg2x-37c3-w2rh
@@ -7622,36 +8005,6 @@
     References:
     - https://github.com/moby/moby
     - https://github.com/moby/moby/security/advisories/GHSA-vp62-88p7-qqf5
-  - VulnerabilityID: CVE-2026-27145
-    VendorIDs:
-    - GO-2026-5037
-    PkgID: stdlib@v1.26.3
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.26.3
-      UID: 83be9d9162cf7d88
-    InstalledVersion: v1.26.3
-    FixedVersion: 1.25.11, 1.26.4
-    Status: fixed
-    Layer:
-      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
-      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-27145
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Fingerprint: sha256:c257a3e662a6223dabd6c528a7d31500db7fdc571d45be1fcc49e598575ecf50
-    Title: '*x509.Certificate).VerifyHostname previously called matchHostnames in ...'
-    Description: (*x509.Certificate).VerifyHostname previously called matchHostnames in a loop over all DNS Subject Alternative Name (SAN) entries. This caused strings.Split(host, ".") to execute repeatedly on the same input hostname. With a large DNS SAN list, verification costs scaled quadratically based on the number of SAN entries multiplied by the hostname's label count. Because x509.Verify validates hostnames before building the certificate chain, this overhead occurred even for untrusted certificates.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/783621
-    - https://go.dev/issue/79694
-    - https://groups.google.com/g/golang-announce/c/tKs3rmcBcKw
-    - https://pkg.go.dev/vuln/GO-2026-5037
-    PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-06-04T16:15:50.143Z'
   - VulnerabilityID: CVE-2026-42504
     VendorIDs:
     - GO-2026-5038
@@ -7674,15 +8027,59 @@
     Fingerprint: sha256:2744da449eda3e99e69b201620a1ce6258a33338edcabd93973b12950ebf8f8a
     Title: Decoding a maliciously-crafted MIME header containing many invalid enc ...
     Description: Decoding a maliciously-crafted MIME header containing many invalid encoded-words can consume excessive CPU.
-    Severity: UNKNOWN
+    Severity: HIGH
     CweIDs:
     - CWE-407
+    VendorSeverity:
+      bitnami: 3
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - https://go.dev/cl/774481
     - https://go.dev/issue/79217
     - https://groups.google.com/g/golang-announce/c/tKs3rmcBcKw
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42504
     - https://pkg.go.dev/vuln/GO-2026-5038
     PublishedDate: '2026-06-02T23:16:37.927Z'
+    LastModifiedDate: '2026-06-04T16:15:50.143Z'
+  - VulnerabilityID: CVE-2026-27145
+    VendorIDs:
+    - GO-2026-5037
+    PkgID: stdlib@v1.26.3
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.3
+      UID: 83be9d9162cf7d88
+    InstalledVersion: v1.26.3
+    FixedVersion: 1.25.11, 1.26.4
+    Status: fixed
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-27145
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:c257a3e662a6223dabd6c528a7d31500db7fdc571d45be1fcc49e598575ecf50
+    Title: '*x509.Certificate).VerifyHostname previously called matchHostnames in ...'
+    Description: (*x509.Certificate).VerifyHostname previously called matchHostnames in a loop over all DNS Subject Alternative Name (SAN) entries. This caused strings.Split(host, ".") to execute repeatedly on the same input hostname. With a large DNS SAN list, verification costs scaled quadratically based on the number of SAN entries multiplied by the hostname's label count. Because x509.Verify validates hostnames before building the certificate chain, this overhead occurred even for untrusted certificates.
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
+        V3Score: 6.5
+    References:
+    - https://go.dev/cl/783621
+    - https://go.dev/issue/79694
+    - https://groups.google.com/g/golang-announce/c/tKs3rmcBcKw
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-27145
+    - https://pkg.go.dev/vuln/GO-2026-5037
+    PublishedDate: '2026-06-02T23:16:35.57Z'
     LastModifiedDate: '2026-06-04T16:15:50.143Z'
   - VulnerabilityID: CVE-2026-42507
     VendorIDs:
@@ -7706,11 +8103,18 @@
     Fingerprint: sha256:cefbf9cc7f5f456268204018dd626213fc5a6853c7c3d17ac620a9cdc9b680ad
     Title: When returning errors, functions in the net/textproto package would in ...
     Description: When returning errors, functions in the net/textproto package would include its input as part of the error. This might allow an attacker to inject misleading content to errors that are printed or logged.
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
     References:
     - https://go.dev/cl/777060
     - https://go.dev/issue/79346
     - https://groups.google.com/g/golang-announce/c/tKs3rmcBcKw
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42507
     - https://pkg.go.dev/vuln/GO-2026-5039
     PublishedDate: '2026-06-02T23:16:38.027Z'
     LastModifiedDate: '2026-06-04T16:15:50.143Z'
@@ -8091,36 +8495,6 @@
     - https://pkg.go.dev/vuln/GO-2026-4977
     PublishedDate: '2026-05-07T20:16:44.54Z'
     LastModifiedDate: '2026-05-13T16:59:17.563Z'
-  - VulnerabilityID: CVE-2026-27145
-    VendorIDs:
-    - GO-2026-5037
-    PkgID: stdlib@v1.26.2
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.26.2
-      UID: e5871284774cde90
-    InstalledVersion: v1.26.2
-    FixedVersion: 1.25.11, 1.26.4
-    Status: fixed
-    Layer:
-      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
-      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-27145
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Fingerprint: sha256:290f81bf29a5690b1c87bba5bee0885310b2ef1b1e7844c3ee2d7f5256624902
-    Title: '*x509.Certificate).VerifyHostname previously called matchHostnames in ...'
-    Description: (*x509.Certificate).VerifyHostname previously called matchHostnames in a loop over all DNS Subject Alternative Name (SAN) entries. This caused strings.Split(host, ".") to execute repeatedly on the same input hostname. With a large DNS SAN list, verification costs scaled quadratically based on the number of SAN entries multiplied by the hostname's label count. Because x509.Verify validates hostnames before building the certificate chain, this overhead occurred even for untrusted certificates.
-    Severity: UNKNOWN
-    References:
-    - https://go.dev/cl/783621
-    - https://go.dev/issue/79694
-    - https://groups.google.com/g/golang-announce/c/tKs3rmcBcKw
-    - https://pkg.go.dev/vuln/GO-2026-5037
-    PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-06-04T16:15:50.143Z'
   - VulnerabilityID: CVE-2026-42504
     VendorIDs:
     - GO-2026-5038
@@ -8143,15 +8517,59 @@
     Fingerprint: sha256:415e69d9ba7bd7d1ff37357f78dcb14e2f5fc4547cab0d3f7e1cbe9e871d9939
     Title: Decoding a maliciously-crafted MIME header containing many invalid enc ...
     Description: Decoding a maliciously-crafted MIME header containing many invalid encoded-words can consume excessive CPU.
-    Severity: UNKNOWN
+    Severity: HIGH
     CweIDs:
     - CWE-407
+    VendorSeverity:
+      bitnami: 3
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - https://go.dev/cl/774481
     - https://go.dev/issue/79217
     - https://groups.google.com/g/golang-announce/c/tKs3rmcBcKw
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42504
     - https://pkg.go.dev/vuln/GO-2026-5038
     PublishedDate: '2026-06-02T23:16:37.927Z'
+    LastModifiedDate: '2026-06-04T16:15:50.143Z'
+  - VulnerabilityID: CVE-2026-27145
+    VendorIDs:
+    - GO-2026-5037
+    PkgID: stdlib@v1.26.2
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.2
+      UID: e5871284774cde90
+    InstalledVersion: v1.26.2
+    FixedVersion: 1.25.11, 1.26.4
+    Status: fixed
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-27145
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:290f81bf29a5690b1c87bba5bee0885310b2ef1b1e7844c3ee2d7f5256624902
+    Title: '*x509.Certificate).VerifyHostname previously called matchHostnames in ...'
+    Description: (*x509.Certificate).VerifyHostname previously called matchHostnames in a loop over all DNS Subject Alternative Name (SAN) entries. This caused strings.Split(host, ".") to execute repeatedly on the same input hostname. With a large DNS SAN list, verification costs scaled quadratically based on the number of SAN entries multiplied by the hostname's label count. Because x509.Verify validates hostnames before building the certificate chain, this overhead occurred even for untrusted certificates.
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
+        V3Score: 6.5
+    References:
+    - https://go.dev/cl/783621
+    - https://go.dev/issue/79694
+    - https://groups.google.com/g/golang-announce/c/tKs3rmcBcKw
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-27145
+    - https://pkg.go.dev/vuln/GO-2026-5037
+    PublishedDate: '2026-06-02T23:16:35.57Z'
     LastModifiedDate: '2026-06-04T16:15:50.143Z'
   - VulnerabilityID: CVE-2026-42507
     VendorIDs:
@@ -8175,11 +8593,18 @@
     Fingerprint: sha256:31c70100f232a1d1e16f6ba1f59356a955521e19ca89068932d52d4eb576f578
     Title: When returning errors, functions in the net/textproto package would in ...
     Description: When returning errors, functions in the net/textproto package would include its input as part of the error. This might allow an attacker to inject misleading content to errors that are printed or logged.
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
     References:
     - https://go.dev/cl/777060
     - https://go.dev/issue/79346
     - https://groups.google.com/g/golang-announce/c/tKs3rmcBcKw
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42507
     - https://pkg.go.dev/vuln/GO-2026-5039
     PublishedDate: '2026-06-02T23:16:38.027Z'
     LastModifiedDate: '2026-06-04T16:15:50.143Z'
