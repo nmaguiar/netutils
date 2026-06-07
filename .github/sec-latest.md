@@ -761,7 +761,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20587 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20594 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-4046 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2453117 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2449777 
@@ -773,7 +773,7 @@
 │                       │       │                  │       026-4437 
 │                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4438 
-│                       │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2026-20587.html 
+│                       │       │                  ├ [9] : https://errata.almalinux.org/10/ALSA-2026-20594.html 
 │                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:20597 
 │                       │       │                  ├ [11]: https://inbox.sourceware.org/libc-announce/76814edf-
 │                       │       │                  │       cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u 
@@ -1051,7 +1051,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20587 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20594 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-4046 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2453117 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2449777 
@@ -1063,7 +1063,7 @@
 │                       │       │                  │       026-4437 
 │                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4438 
-│                       │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2026-20587.html 
+│                       │       │                  ├ [9] : https://errata.almalinux.org/10/ALSA-2026-20594.html 
 │                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:20597 
 │                       │       │                  ├ [11]: https://inbox.sourceware.org/libc-announce/76814edf-
 │                       │       │                  │       cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u 
@@ -1341,7 +1341,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20587 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20594 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-4046 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2453117 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2449777 
@@ -1353,7 +1353,7 @@
 │                       │       │                  │       026-4437 
 │                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4438 
-│                       │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2026-20587.html 
+│                       │       │                  ├ [9] : https://errata.almalinux.org/10/ALSA-2026-20594.html 
 │                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:20597 
 │                       │       │                  ├ [11]: https://inbox.sourceware.org/libc-announce/76814edf-
 │                       │       │                  │       cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u 
@@ -1898,6 +1898,7 @@
 │                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:
@@ -2389,6 +2390,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-130 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 3 
@@ -2490,7 +2492,8 @@
 │                       │       │                   trust. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-179 
-│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       ├ VendorSeverity   ╭ azure : 1 
+│                       │       │                  ├ redhat: 1 
 │                       │       │                  ├ rocky : 3 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
@@ -2691,6 +2694,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-475 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ├ rocky      : 3 
@@ -2793,6 +2797,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-626 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ nvd        : 4 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 4 
@@ -4811,7 +4816,7 @@
 │                       │       │                           ╰ V3Score : 3.3 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/0
 │                       │       │                  │       5/6 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19064 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-2297 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -4861,7 +4866,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [39]: https://errata.almalinux.org/10/ALSA-2026-19064.html 
 │                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/482d6f8bdba
 │                       │       │                  │       9da3725d272e8bb4a2d25fb6a603e 
@@ -4919,7 +4924,7 @@
 │                       │       │                           ╰ V3Score : 3.3 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/0
 │                       │       │                  │       5/6 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19064 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-2297 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -4969,7 +4974,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [39]: https://errata.almalinux.org/10/ALSA-2026-19064.html 
 │                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/482d6f8bdba
 │                       │       │                  │       9da3725d272e8bb4a2d25fb6a603e 
@@ -5027,7 +5032,7 @@
 │                       │       │                           ╰ V3Score : 3.3 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/0
 │                       │       │                  │       5/6 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19064 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-2297 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -5077,7 +5082,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [39]: https://errata.almalinux.org/10/ALSA-2026-19064.html 
 │                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/482d6f8bdba
 │                       │       │                  │       9da3725d272e8bb4a2d25fb6a603e 
@@ -5932,7 +5937,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20587 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20594 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-4046 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2453117 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2449777 
@@ -5944,7 +5949,7 @@
 │                       │       │                  │       026-4437 
 │                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4438 
-│                       │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2026-20587.html 
+│                       │       │                  ├ [9] : https://errata.almalinux.org/10/ALSA-2026-20594.html 
 │                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:20597 
 │                       │       │                  ├ [11]: https://inbox.sourceware.org/libc-announce/76814edf-
 │                       │       │                  │       cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u 
@@ -6578,7 +6583,7 @@
 │                       │       │                           ╰ V3Score : 3.3 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/0
 │                       │       │                  │       5/6 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19064 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-2297 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -6628,7 +6633,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [39]: https://errata.almalinux.org/10/ALSA-2026-19064.html 
 │                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/482d6f8bdba
 │                       │       │                  │       9da3725d272e8bb4a2d25fb6a603e 
@@ -6686,7 +6691,7 @@
 │                       │       │                           ╰ V3Score : 3.3 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/0
 │                       │       │                  │       5/6 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19064 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-2297 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -6736,7 +6741,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [39]: https://errata.almalinux.org/10/ALSA-2026-19064.html 
 │                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/482d6f8bdba
 │                       │       │                  │       9da3725d272e8bb4a2d25fb6a603e 
@@ -8261,8 +8266,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:2abb95b184722d5589e3ab140f0a164057b74fe917893f50283d
 │                       │       │                   8654100a2751 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   version 9.2. ... 
+│                       │       ├ Title           : vim: Vim: Arbitrary command execution via :find
+│                       │       │                   command-line completion 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   version 9.2.0435, an OS command injection vulnerability
 │                       │       │                   exists in Vim's :find command-line completion. When the
@@ -8278,17 +8283,23 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-78 
 │                       │       ├ VendorSeverity   ╭ azure : 2 
 │                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L 
-│                       │       │                        ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/190cb3c2b9c769a3972
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                  │        │           L/A:L 
+│                       │       │                  │        ╰ V3Score : 5.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                           │           L/A:L 
+│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-44656 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/190cb3c2b9c769a3972
 │                       │       │                  │      bcfd991a7b5b6cb771ef0 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0435 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-h
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0435 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-h
 │                       │       │                  │      wg5-3cxw-wvvg 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-44656 
-│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8304-1 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-44656 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-44656 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8304-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-44656 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:39.783Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:59:30.12Z 
 │                       ├ [130] ╭ VulnerabilityID : CVE-2026-45130 
@@ -8384,7 +8395,8 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ╭ [0]: CWE-78 
 │                       │       │                  ╰ [1]: CWE-88 
-│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       ├ VendorSeverity   ╭ azure : 1 
+│                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:
@@ -8494,8 +8506,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:bef91f9d94ed1e64b93afb8b3d936bf8c665f10a16083b659411
 │                       │       │                   7372c8c9e1f2 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   version 9.2. ... 
+│                       │       ├ Title           : vim: Vim: Arbitrary command execution via :find
+│                       │       │                   command-line completion 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   version 9.2.0435, an OS command injection vulnerability
 │                       │       │                   exists in Vim's :find command-line completion. When the
@@ -8511,17 +8523,23 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-78 
 │                       │       ├ VendorSeverity   ╭ azure : 2 
 │                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L 
-│                       │       │                        ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/190cb3c2b9c769a3972
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                  │        │           L/A:L 
+│                       │       │                  │        ╰ V3Score : 5.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                           │           L/A:L 
+│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-44656 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/190cb3c2b9c769a3972
 │                       │       │                  │      bcfd991a7b5b6cb771ef0 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0435 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-h
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0435 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-h
 │                       │       │                  │      wg5-3cxw-wvvg 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-44656 
-│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8304-1 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-44656 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-44656 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8304-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-44656 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:39.783Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:59:30.12Z 
 │                       ├ [135] ╭ VulnerabilityID : CVE-2026-45130 
@@ -8617,7 +8635,8 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ╭ [0]: CWE-78 
 │                       │       │                  ╰ [1]: CWE-88 
-│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       ├ VendorSeverity   ╭ azure : 1 
+│                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:
@@ -8727,8 +8746,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:05b2730c12d4d75602753b41247633661b0cdac2ddc694350942
 │                       │       │                   c1dc1e34af5b 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   version 9.2. ... 
+│                       │       ├ Title           : vim: Vim: Arbitrary command execution via :find
+│                       │       │                   command-line completion 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   version 9.2.0435, an OS command injection vulnerability
 │                       │       │                   exists in Vim's :find command-line completion. When the
@@ -8744,17 +8763,23 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-78 
 │                       │       ├ VendorSeverity   ╭ azure : 2 
 │                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L 
-│                       │       │                        ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/190cb3c2b9c769a3972
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                  │        │           L/A:L 
+│                       │       │                  │        ╰ V3Score : 5.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                           │           L/A:L 
+│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-44656 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/190cb3c2b9c769a3972
 │                       │       │                  │      bcfd991a7b5b6cb771ef0 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0435 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-h
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0435 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-h
 │                       │       │                  │      wg5-3cxw-wvvg 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-44656 
-│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8304-1 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-44656 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-44656 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8304-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-44656 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:39.783Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:59:30.12Z 
 │                       ├ [140] ╭ VulnerabilityID : CVE-2026-45130 
@@ -8850,7 +8875,8 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ╭ [0]: CWE-78 
 │                       │       │                  ╰ [1]: CWE-88 
-│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       ├ VendorSeverity   ╭ azure : 1 
+│                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:
@@ -9066,8 +9092,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:52a5a80590545a78bd3518f2b98eb055454e71b30f092e4e6f71
 │                       │       │                   75cbc7fa67d1 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   version 9.2. ... 
+│                       │       ├ Title           : vim: Vim: Arbitrary command execution via :find
+│                       │       │                   command-line completion 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   version 9.2.0435, an OS command injection vulnerability
 │                       │       │                   exists in Vim's :find command-line completion. When the
@@ -9083,17 +9109,23 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-78 
 │                       │       ├ VendorSeverity   ╭ azure : 2 
 │                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L 
-│                       │       │                        ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/190cb3c2b9c769a3972
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                  │        │           L/A:L 
+│                       │       │                  │        ╰ V3Score : 5.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                           │           L/A:L 
+│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-44656 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/190cb3c2b9c769a3972
 │                       │       │                  │      bcfd991a7b5b6cb771ef0 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0435 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-h
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0435 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-h
 │                       │       │                  │      wg5-3cxw-wvvg 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-44656 
-│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8304-1 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-44656 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-44656 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8304-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-44656 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:39.783Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:59:30.12Z 
 │                       ├ [147] ╭ VulnerabilityID : CVE-2026-45130 
@@ -9189,7 +9221,8 @@
 │                               ├ Severity        : MEDIUM 
 │                               ├ CweIDs           ╭ [0]: CWE-78 
 │                               │                  ╰ [1]: CWE-88 
-│                               ├ VendorSeverity   ╭ nvd   : 3 
+│                               ├ VendorSeverity   ╭ azure : 1 
+│                               │                  ├ nvd   : 3 
 │                               │                  ├ redhat: 2 
 │                               │                  ╰ ubuntu: 2 
 │                               ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:
