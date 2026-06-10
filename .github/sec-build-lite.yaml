@@ -2,6 +2,1131 @@
   Class: os-pkgs
   Type: alpine
   Packages: []
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2026-3644
+    PkgID: pyc@3.14.3-r0
+    PkgName: pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/pyc@3.14.3-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 8b87a422d71f7039
+    InstalledVersion: 3.14.3-r0
+    FixedVersion: 3.14.5-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:5ce6db840dd2856bcf3b27bf4e8fd654e768bb92f89d70bba6691798109d4e04
+      DiffID: sha256:8783ba8979d448dca07399d504e94c74ae839a76056c65238f414b5b360fe3a0
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-3644
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:e48805cf1434da172606d255780f274d1195685425ace970553f726b2160bb39
+    Title: 'cpython: Incomplete control character validation in http.cookies'
+    Description: The fix for CVE-2026-0672, which rejected control characters in http.cookies.Morsel, was incomplete. The Morsel.update(), |= operator, and unpickling paths were not patched, allowing control characters to bypass input validation. Additionally, BaseCookie.js_output() lacked the output validation applied to BaseCookie.output().
+    Severity: HIGH
+    CweIDs:
+    - CWE-20
+    - CWE-116
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 2
+      rocky: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 5.4
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:10950
+    - https://access.redhat.com/security/cve/CVE-2026-3644
+    - https://bugzilla.redhat.com/2395108
+    - https://bugzilla.redhat.com/2408891
+    - https://bugzilla.redhat.com/2418084
+    - https://bugzilla.redhat.com/2431366
+    - https://bugzilla.redhat.com/2431374
+    - https://bugzilla.redhat.com/2444691
+    - https://bugzilla.redhat.com/2448168
+    - https://bugzilla.redhat.com/2448181
+    - https://bugzilla.redhat.com/2457409
+    - https://bugzilla.redhat.com/2457932
+    - https://bugzilla.redhat.com/2458049
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2408891
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418084
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431366
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431374
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13837
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15282
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0672
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1502
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
+    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://github.com/python/cpython/commit/57e88c1cf95e1481b94ae57abe1010469d47a6b4
+    - https://github.com/python/cpython/commit/62ceb396fcbe69da1ded3702de586f4072b590dd
+    - https://github.com/python/cpython/commit/d16ecc6c3626f0e2cc8f08c309c83934e8a979dd
+    - https://github.com/python/cpython/issues/145599
+    - https://github.com/python/cpython/pull/145600
+    - https://linux.oracle.com/cve/CVE-2026-3644.html
+    - https://linux.oracle.com/errata/ELSA-2026-10950.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/H6CADMBCDRFGWCMOXWUIHFJNV43GABJ7/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-3644
+    - https://www.cve.org/CVERecord?id=CVE-2026-3644
+    PublishedDate: '2026-03-16T18:16:09.907Z'
+    LastModifiedDate: '2026-06-04T19:30:28.423Z'
+  - VulnerabilityID: CVE-2026-4224
+    PkgID: pyc@3.14.3-r0
+    PkgName: pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/pyc@3.14.3-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 8b87a422d71f7039
+    InstalledVersion: 3.14.3-r0
+    FixedVersion: 3.14.5-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:5ce6db840dd2856bcf3b27bf4e8fd654e768bb92f89d70bba6691798109d4e04
+      DiffID: sha256:8783ba8979d448dca07399d504e94c74ae839a76056c65238f414b5b360fe3a0
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-4224
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:8b40cae6205de23ceba523c287091da2a4fcf254b2eca9005938887bfc667e83
+    Title: 'cpython: Stack overflow parsing XML with deeply nested DTD content models'
+    Description: |-
+      When an Expat parser with a registered ElementDeclHandler parses an inline
+      document type definition containing a deeply nested content model a C stack
+      overflow occurs.
+    Severity: HIGH
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      bitnami: 2
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 2
+      rocky: 3
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N
+        V40Score: 6
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/16/4
+    - https://access.redhat.com/errata/RHSA-2026:10950
+    - https://access.redhat.com/security/cve/CVE-2026-4224
+    - https://bugzilla.redhat.com/2395108
+    - https://bugzilla.redhat.com/2408891
+    - https://bugzilla.redhat.com/2418084
+    - https://bugzilla.redhat.com/2431366
+    - https://bugzilla.redhat.com/2431374
+    - https://bugzilla.redhat.com/2444691
+    - https://bugzilla.redhat.com/2448168
+    - https://bugzilla.redhat.com/2448181
+    - https://bugzilla.redhat.com/2457409
+    - https://bugzilla.redhat.com/2457932
+    - https://bugzilla.redhat.com/2458049
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2408891
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418084
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431366
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431374
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13837
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15282
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0672
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1502
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
+    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
+    - https://github.com/python/cpython/commit/642865ddf4b232da1f3b1f7abcfa3254c4bfe785
+    - https://github.com/python/cpython/commit/af856a7177326ac25d9f66cc6dd28b554d914fee
+    - https://github.com/python/cpython/commit/e0a8a6da90597a924b300debe045cdb4628ee1f3
+    - https://github.com/python/cpython/commit/eb0e8be3a7e11b87d198a2c3af1ed0eccf532768
+    - https://github.com/python/cpython/issues/145986
+    - https://github.com/python/cpython/pull/145987
+    - https://linux.oracle.com/cve/CVE-2026-4224.html
+    - https://linux.oracle.com/errata/ELSA-2026-10950.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/5M7CGUW3XBRY7II4DK43KF7NQQ3TPZ6R/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-4224
+    - https://www.cve.org/CVERecord?id=CVE-2026-4224
+    PublishedDate: '2026-03-16T18:16:10.07Z'
+    LastModifiedDate: '2026-06-04T19:33:19.66Z'
+  - VulnerabilityID: CVE-2026-2297
+    PkgID: pyc@3.14.3-r0
+    PkgName: pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/pyc@3.14.3-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 8b87a422d71f7039
+    InstalledVersion: 3.14.3-r0
+    FixedVersion: 3.14.5-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:5ce6db840dd2856bcf3b27bf4e8fd654e768bb92f89d70bba6691798109d4e04
+      DiffID: sha256:8783ba8979d448dca07399d504e94c74ae839a76056c65238f414b5b360fe3a0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-2297
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:5b834f0b9f001727b19ddc99e6033626fd1138094c520a07d7178368dc5c016e
+    Title: 'cpython: CPython: Logging Bypass in Legacy .pyc File Handling'
+    Description: The import hook in CPython that handles legacy *.pyc files (SourcelessFileLoader) is incorrectly handled in FileLoader (a base class) and so does not use io.open_code() to read the .pyc files. sys.audit handlers for this audit event therefore do not fire.
+    Severity: LOW
+    CweIDs:
+    - CWE-668
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      oracle-oval: 3
+      redhat: 1
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/05/6
+    - https://access.redhat.com/errata/RHSA-2026:10950
+    - https://access.redhat.com/security/cve/CVE-2026-2297
+    - https://bugzilla.redhat.com/2395108
+    - https://bugzilla.redhat.com/2408891
+    - https://bugzilla.redhat.com/2418084
+    - https://bugzilla.redhat.com/2431366
+    - https://bugzilla.redhat.com/2431374
+    - https://bugzilla.redhat.com/2444691
+    - https://bugzilla.redhat.com/2448168
+    - https://bugzilla.redhat.com/2448181
+    - https://bugzilla.redhat.com/2457409
+    - https://bugzilla.redhat.com/2457932
+    - https://bugzilla.redhat.com/2458049
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2408891
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418084
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431366
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431374
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13837
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15282
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0672
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1502
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
+    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
+    - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
+    - https://github.com/python/cpython/commit/876858c9f65d9ab656c7fa639f268ce7856d89dd
+    - https://github.com/python/cpython/commit/a51b1b512de1d56b3714b65628a2eae2b07e535e
+    - https://github.com/python/cpython/commit/e58e9802b9bec5cdbf48fc9bf1da5f4fda482e86
+    - https://github.com/python/cpython/issues/145506
+    - https://github.com/python/cpython/pull/145507
+    - https://linux.oracle.com/cve/CVE-2026-2297.html
+    - https://linux.oracle.com/errata/ELSA-2026-10950.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-2297
+    - https://www.cve.org/CVERecord?id=CVE-2026-2297
+    PublishedDate: '2026-03-04T23:16:10.757Z'
+    LastModifiedDate: '2026-05-01T16:16:30.11Z'
+  - VulnerabilityID: CVE-2026-3644
+    PkgID: python3@3.14.3-r0
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3@3.14.3-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: e823f967bf69bb9a
+    InstalledVersion: 3.14.3-r0
+    FixedVersion: 3.14.5-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:5ce6db840dd2856bcf3b27bf4e8fd654e768bb92f89d70bba6691798109d4e04
+      DiffID: sha256:8783ba8979d448dca07399d504e94c74ae839a76056c65238f414b5b360fe3a0
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-3644
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:5e3c506e504dea50f4cea6ab9d7b6abeedc93eff46636a1224ae47e4dc819f7a
+    Title: 'cpython: Incomplete control character validation in http.cookies'
+    Description: The fix for CVE-2026-0672, which rejected control characters in http.cookies.Morsel, was incomplete. The Morsel.update(), |= operator, and unpickling paths were not patched, allowing control characters to bypass input validation. Additionally, BaseCookie.js_output() lacked the output validation applied to BaseCookie.output().
+    Severity: HIGH
+    CweIDs:
+    - CWE-20
+    - CWE-116
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 2
+      rocky: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 5.4
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:10950
+    - https://access.redhat.com/security/cve/CVE-2026-3644
+    - https://bugzilla.redhat.com/2395108
+    - https://bugzilla.redhat.com/2408891
+    - https://bugzilla.redhat.com/2418084
+    - https://bugzilla.redhat.com/2431366
+    - https://bugzilla.redhat.com/2431374
+    - https://bugzilla.redhat.com/2444691
+    - https://bugzilla.redhat.com/2448168
+    - https://bugzilla.redhat.com/2448181
+    - https://bugzilla.redhat.com/2457409
+    - https://bugzilla.redhat.com/2457932
+    - https://bugzilla.redhat.com/2458049
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2408891
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418084
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431366
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431374
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13837
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15282
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0672
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1502
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
+    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://github.com/python/cpython/commit/57e88c1cf95e1481b94ae57abe1010469d47a6b4
+    - https://github.com/python/cpython/commit/62ceb396fcbe69da1ded3702de586f4072b590dd
+    - https://github.com/python/cpython/commit/d16ecc6c3626f0e2cc8f08c309c83934e8a979dd
+    - https://github.com/python/cpython/issues/145599
+    - https://github.com/python/cpython/pull/145600
+    - https://linux.oracle.com/cve/CVE-2026-3644.html
+    - https://linux.oracle.com/errata/ELSA-2026-10950.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/H6CADMBCDRFGWCMOXWUIHFJNV43GABJ7/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-3644
+    - https://www.cve.org/CVERecord?id=CVE-2026-3644
+    PublishedDate: '2026-03-16T18:16:09.907Z'
+    LastModifiedDate: '2026-06-04T19:30:28.423Z'
+  - VulnerabilityID: CVE-2026-4224
+    PkgID: python3@3.14.3-r0
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3@3.14.3-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: e823f967bf69bb9a
+    InstalledVersion: 3.14.3-r0
+    FixedVersion: 3.14.5-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:5ce6db840dd2856bcf3b27bf4e8fd654e768bb92f89d70bba6691798109d4e04
+      DiffID: sha256:8783ba8979d448dca07399d504e94c74ae839a76056c65238f414b5b360fe3a0
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-4224
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:366b37a8d61fbd81e46692574533206ba712e24d7e1f3b64388467ad08e3c314
+    Title: 'cpython: Stack overflow parsing XML with deeply nested DTD content models'
+    Description: |-
+      When an Expat parser with a registered ElementDeclHandler parses an inline
+      document type definition containing a deeply nested content model a C stack
+      overflow occurs.
+    Severity: HIGH
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      bitnami: 2
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 2
+      rocky: 3
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N
+        V40Score: 6
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/16/4
+    - https://access.redhat.com/errata/RHSA-2026:10950
+    - https://access.redhat.com/security/cve/CVE-2026-4224
+    - https://bugzilla.redhat.com/2395108
+    - https://bugzilla.redhat.com/2408891
+    - https://bugzilla.redhat.com/2418084
+    - https://bugzilla.redhat.com/2431366
+    - https://bugzilla.redhat.com/2431374
+    - https://bugzilla.redhat.com/2444691
+    - https://bugzilla.redhat.com/2448168
+    - https://bugzilla.redhat.com/2448181
+    - https://bugzilla.redhat.com/2457409
+    - https://bugzilla.redhat.com/2457932
+    - https://bugzilla.redhat.com/2458049
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2408891
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418084
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431366
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431374
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13837
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15282
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0672
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1502
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
+    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
+    - https://github.com/python/cpython/commit/642865ddf4b232da1f3b1f7abcfa3254c4bfe785
+    - https://github.com/python/cpython/commit/af856a7177326ac25d9f66cc6dd28b554d914fee
+    - https://github.com/python/cpython/commit/e0a8a6da90597a924b300debe045cdb4628ee1f3
+    - https://github.com/python/cpython/commit/eb0e8be3a7e11b87d198a2c3af1ed0eccf532768
+    - https://github.com/python/cpython/issues/145986
+    - https://github.com/python/cpython/pull/145987
+    - https://linux.oracle.com/cve/CVE-2026-4224.html
+    - https://linux.oracle.com/errata/ELSA-2026-10950.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/5M7CGUW3XBRY7II4DK43KF7NQQ3TPZ6R/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-4224
+    - https://www.cve.org/CVERecord?id=CVE-2026-4224
+    PublishedDate: '2026-03-16T18:16:10.07Z'
+    LastModifiedDate: '2026-06-04T19:33:19.66Z'
+  - VulnerabilityID: CVE-2026-2297
+    PkgID: python3@3.14.3-r0
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3@3.14.3-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: e823f967bf69bb9a
+    InstalledVersion: 3.14.3-r0
+    FixedVersion: 3.14.5-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:5ce6db840dd2856bcf3b27bf4e8fd654e768bb92f89d70bba6691798109d4e04
+      DiffID: sha256:8783ba8979d448dca07399d504e94c74ae839a76056c65238f414b5b360fe3a0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-2297
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:f060e13cfb431bfbc98817620f1b853d90773cee1539126cda05961a19e27ce2
+    Title: 'cpython: CPython: Logging Bypass in Legacy .pyc File Handling'
+    Description: The import hook in CPython that handles legacy *.pyc files (SourcelessFileLoader) is incorrectly handled in FileLoader (a base class) and so does not use io.open_code() to read the .pyc files. sys.audit handlers for this audit event therefore do not fire.
+    Severity: LOW
+    CweIDs:
+    - CWE-668
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      oracle-oval: 3
+      redhat: 1
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/05/6
+    - https://access.redhat.com/errata/RHSA-2026:10950
+    - https://access.redhat.com/security/cve/CVE-2026-2297
+    - https://bugzilla.redhat.com/2395108
+    - https://bugzilla.redhat.com/2408891
+    - https://bugzilla.redhat.com/2418084
+    - https://bugzilla.redhat.com/2431366
+    - https://bugzilla.redhat.com/2431374
+    - https://bugzilla.redhat.com/2444691
+    - https://bugzilla.redhat.com/2448168
+    - https://bugzilla.redhat.com/2448181
+    - https://bugzilla.redhat.com/2457409
+    - https://bugzilla.redhat.com/2457932
+    - https://bugzilla.redhat.com/2458049
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2408891
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418084
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431366
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431374
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13837
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15282
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0672
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1502
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
+    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
+    - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
+    - https://github.com/python/cpython/commit/876858c9f65d9ab656c7fa639f268ce7856d89dd
+    - https://github.com/python/cpython/commit/a51b1b512de1d56b3714b65628a2eae2b07e535e
+    - https://github.com/python/cpython/commit/e58e9802b9bec5cdbf48fc9bf1da5f4fda482e86
+    - https://github.com/python/cpython/issues/145506
+    - https://github.com/python/cpython/pull/145507
+    - https://linux.oracle.com/cve/CVE-2026-2297.html
+    - https://linux.oracle.com/errata/ELSA-2026-10950.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-2297
+    - https://www.cve.org/CVERecord?id=CVE-2026-2297
+    PublishedDate: '2026-03-04T23:16:10.757Z'
+    LastModifiedDate: '2026-05-01T16:16:30.11Z'
+  - VulnerabilityID: CVE-2026-3644
+    PkgID: python3-pyc@3.14.3-r0
+    PkgName: python3-pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pyc@3.14.3-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 3433b5304822d9a
+    InstalledVersion: 3.14.3-r0
+    FixedVersion: 3.14.5-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:5ce6db840dd2856bcf3b27bf4e8fd654e768bb92f89d70bba6691798109d4e04
+      DiffID: sha256:8783ba8979d448dca07399d504e94c74ae839a76056c65238f414b5b360fe3a0
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-3644
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:70bc3c9c51a888cba662d7a1298e6070a019c0faba4219c0fd8297af07616f5d
+    Title: 'cpython: Incomplete control character validation in http.cookies'
+    Description: The fix for CVE-2026-0672, which rejected control characters in http.cookies.Morsel, was incomplete. The Morsel.update(), |= operator, and unpickling paths were not patched, allowing control characters to bypass input validation. Additionally, BaseCookie.js_output() lacked the output validation applied to BaseCookie.output().
+    Severity: HIGH
+    CweIDs:
+    - CWE-20
+    - CWE-116
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 2
+      rocky: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 5.4
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:10950
+    - https://access.redhat.com/security/cve/CVE-2026-3644
+    - https://bugzilla.redhat.com/2395108
+    - https://bugzilla.redhat.com/2408891
+    - https://bugzilla.redhat.com/2418084
+    - https://bugzilla.redhat.com/2431366
+    - https://bugzilla.redhat.com/2431374
+    - https://bugzilla.redhat.com/2444691
+    - https://bugzilla.redhat.com/2448168
+    - https://bugzilla.redhat.com/2448181
+    - https://bugzilla.redhat.com/2457409
+    - https://bugzilla.redhat.com/2457932
+    - https://bugzilla.redhat.com/2458049
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2408891
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418084
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431366
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431374
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13837
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15282
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0672
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1502
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
+    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://github.com/python/cpython/commit/57e88c1cf95e1481b94ae57abe1010469d47a6b4
+    - https://github.com/python/cpython/commit/62ceb396fcbe69da1ded3702de586f4072b590dd
+    - https://github.com/python/cpython/commit/d16ecc6c3626f0e2cc8f08c309c83934e8a979dd
+    - https://github.com/python/cpython/issues/145599
+    - https://github.com/python/cpython/pull/145600
+    - https://linux.oracle.com/cve/CVE-2026-3644.html
+    - https://linux.oracle.com/errata/ELSA-2026-10950.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/H6CADMBCDRFGWCMOXWUIHFJNV43GABJ7/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-3644
+    - https://www.cve.org/CVERecord?id=CVE-2026-3644
+    PublishedDate: '2026-03-16T18:16:09.907Z'
+    LastModifiedDate: '2026-06-04T19:30:28.423Z'
+  - VulnerabilityID: CVE-2026-4224
+    PkgID: python3-pyc@3.14.3-r0
+    PkgName: python3-pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pyc@3.14.3-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 3433b5304822d9a
+    InstalledVersion: 3.14.3-r0
+    FixedVersion: 3.14.5-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:5ce6db840dd2856bcf3b27bf4e8fd654e768bb92f89d70bba6691798109d4e04
+      DiffID: sha256:8783ba8979d448dca07399d504e94c74ae839a76056c65238f414b5b360fe3a0
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-4224
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:303087fb740b29f4e6a68390da561ae7da0f3da00a26ae944b7314084ce93d21
+    Title: 'cpython: Stack overflow parsing XML with deeply nested DTD content models'
+    Description: |-
+      When an Expat parser with a registered ElementDeclHandler parses an inline
+      document type definition containing a deeply nested content model a C stack
+      overflow occurs.
+    Severity: HIGH
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      bitnami: 2
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 2
+      rocky: 3
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N
+        V40Score: 6
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/16/4
+    - https://access.redhat.com/errata/RHSA-2026:10950
+    - https://access.redhat.com/security/cve/CVE-2026-4224
+    - https://bugzilla.redhat.com/2395108
+    - https://bugzilla.redhat.com/2408891
+    - https://bugzilla.redhat.com/2418084
+    - https://bugzilla.redhat.com/2431366
+    - https://bugzilla.redhat.com/2431374
+    - https://bugzilla.redhat.com/2444691
+    - https://bugzilla.redhat.com/2448168
+    - https://bugzilla.redhat.com/2448181
+    - https://bugzilla.redhat.com/2457409
+    - https://bugzilla.redhat.com/2457932
+    - https://bugzilla.redhat.com/2458049
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2408891
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418084
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431366
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431374
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13837
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15282
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0672
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1502
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
+    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
+    - https://github.com/python/cpython/commit/642865ddf4b232da1f3b1f7abcfa3254c4bfe785
+    - https://github.com/python/cpython/commit/af856a7177326ac25d9f66cc6dd28b554d914fee
+    - https://github.com/python/cpython/commit/e0a8a6da90597a924b300debe045cdb4628ee1f3
+    - https://github.com/python/cpython/commit/eb0e8be3a7e11b87d198a2c3af1ed0eccf532768
+    - https://github.com/python/cpython/issues/145986
+    - https://github.com/python/cpython/pull/145987
+    - https://linux.oracle.com/cve/CVE-2026-4224.html
+    - https://linux.oracle.com/errata/ELSA-2026-10950.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/5M7CGUW3XBRY7II4DK43KF7NQQ3TPZ6R/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-4224
+    - https://www.cve.org/CVERecord?id=CVE-2026-4224
+    PublishedDate: '2026-03-16T18:16:10.07Z'
+    LastModifiedDate: '2026-06-04T19:33:19.66Z'
+  - VulnerabilityID: CVE-2026-2297
+    PkgID: python3-pyc@3.14.3-r0
+    PkgName: python3-pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pyc@3.14.3-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 3433b5304822d9a
+    InstalledVersion: 3.14.3-r0
+    FixedVersion: 3.14.5-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:5ce6db840dd2856bcf3b27bf4e8fd654e768bb92f89d70bba6691798109d4e04
+      DiffID: sha256:8783ba8979d448dca07399d504e94c74ae839a76056c65238f414b5b360fe3a0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-2297
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:7f62e1eb8b04dc628c66f1a2f2cd27a30fe7d71e2d4651bd2f76d71a47e95db8
+    Title: 'cpython: CPython: Logging Bypass in Legacy .pyc File Handling'
+    Description: The import hook in CPython that handles legacy *.pyc files (SourcelessFileLoader) is incorrectly handled in FileLoader (a base class) and so does not use io.open_code() to read the .pyc files. sys.audit handlers for this audit event therefore do not fire.
+    Severity: LOW
+    CweIDs:
+    - CWE-668
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      oracle-oval: 3
+      redhat: 1
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/05/6
+    - https://access.redhat.com/errata/RHSA-2026:10950
+    - https://access.redhat.com/security/cve/CVE-2026-2297
+    - https://bugzilla.redhat.com/2395108
+    - https://bugzilla.redhat.com/2408891
+    - https://bugzilla.redhat.com/2418084
+    - https://bugzilla.redhat.com/2431366
+    - https://bugzilla.redhat.com/2431374
+    - https://bugzilla.redhat.com/2444691
+    - https://bugzilla.redhat.com/2448168
+    - https://bugzilla.redhat.com/2448181
+    - https://bugzilla.redhat.com/2457409
+    - https://bugzilla.redhat.com/2457932
+    - https://bugzilla.redhat.com/2458049
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2408891
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418084
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431366
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431374
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13837
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15282
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0672
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1502
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
+    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
+    - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
+    - https://github.com/python/cpython/commit/876858c9f65d9ab656c7fa639f268ce7856d89dd
+    - https://github.com/python/cpython/commit/a51b1b512de1d56b3714b65628a2eae2b07e535e
+    - https://github.com/python/cpython/commit/e58e9802b9bec5cdbf48fc9bf1da5f4fda482e86
+    - https://github.com/python/cpython/issues/145506
+    - https://github.com/python/cpython/pull/145507
+    - https://linux.oracle.com/cve/CVE-2026-2297.html
+    - https://linux.oracle.com/errata/ELSA-2026-10950.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-2297
+    - https://www.cve.org/CVERecord?id=CVE-2026-2297
+    PublishedDate: '2026-03-04T23:16:10.757Z'
+    LastModifiedDate: '2026-05-01T16:16:30.11Z'
+  - VulnerabilityID: CVE-2026-3644
+    PkgID: python3-pycache-pyc0@3.14.3-r0
+    PkgName: python3-pycache-pyc0
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.3-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 50d57cbf1c9bf14a
+    InstalledVersion: 3.14.3-r0
+    FixedVersion: 3.14.5-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:5ce6db840dd2856bcf3b27bf4e8fd654e768bb92f89d70bba6691798109d4e04
+      DiffID: sha256:8783ba8979d448dca07399d504e94c74ae839a76056c65238f414b5b360fe3a0
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-3644
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:564dae53c3393aa279fddb64d8f3a92f0f932ac9eb74bfb75b85c7584136af1c
+    Title: 'cpython: Incomplete control character validation in http.cookies'
+    Description: The fix for CVE-2026-0672, which rejected control characters in http.cookies.Morsel, was incomplete. The Morsel.update(), |= operator, and unpickling paths were not patched, allowing control characters to bypass input validation. Additionally, BaseCookie.js_output() lacked the output validation applied to BaseCookie.output().
+    Severity: HIGH
+    CweIDs:
+    - CWE-20
+    - CWE-116
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 2
+      rocky: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 5.4
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:10950
+    - https://access.redhat.com/security/cve/CVE-2026-3644
+    - https://bugzilla.redhat.com/2395108
+    - https://bugzilla.redhat.com/2408891
+    - https://bugzilla.redhat.com/2418084
+    - https://bugzilla.redhat.com/2431366
+    - https://bugzilla.redhat.com/2431374
+    - https://bugzilla.redhat.com/2444691
+    - https://bugzilla.redhat.com/2448168
+    - https://bugzilla.redhat.com/2448181
+    - https://bugzilla.redhat.com/2457409
+    - https://bugzilla.redhat.com/2457932
+    - https://bugzilla.redhat.com/2458049
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2408891
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418084
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431366
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431374
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13837
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15282
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0672
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1502
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
+    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://github.com/python/cpython/commit/57e88c1cf95e1481b94ae57abe1010469d47a6b4
+    - https://github.com/python/cpython/commit/62ceb396fcbe69da1ded3702de586f4072b590dd
+    - https://github.com/python/cpython/commit/d16ecc6c3626f0e2cc8f08c309c83934e8a979dd
+    - https://github.com/python/cpython/issues/145599
+    - https://github.com/python/cpython/pull/145600
+    - https://linux.oracle.com/cve/CVE-2026-3644.html
+    - https://linux.oracle.com/errata/ELSA-2026-10950.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/H6CADMBCDRFGWCMOXWUIHFJNV43GABJ7/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-3644
+    - https://www.cve.org/CVERecord?id=CVE-2026-3644
+    PublishedDate: '2026-03-16T18:16:09.907Z'
+    LastModifiedDate: '2026-06-04T19:30:28.423Z'
+  - VulnerabilityID: CVE-2026-4224
+    PkgID: python3-pycache-pyc0@3.14.3-r0
+    PkgName: python3-pycache-pyc0
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.3-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 50d57cbf1c9bf14a
+    InstalledVersion: 3.14.3-r0
+    FixedVersion: 3.14.5-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:5ce6db840dd2856bcf3b27bf4e8fd654e768bb92f89d70bba6691798109d4e04
+      DiffID: sha256:8783ba8979d448dca07399d504e94c74ae839a76056c65238f414b5b360fe3a0
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-4224
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:14a6b6bc3fe2b50510dbcb61de05138b9761edb9705bfeff2b4c4e06543d7473
+    Title: 'cpython: Stack overflow parsing XML with deeply nested DTD content models'
+    Description: |-
+      When an Expat parser with a registered ElementDeclHandler parses an inline
+      document type definition containing a deeply nested content model a C stack
+      overflow occurs.
+    Severity: HIGH
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      bitnami: 2
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 2
+      rocky: 3
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N
+        V40Score: 6
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/16/4
+    - https://access.redhat.com/errata/RHSA-2026:10950
+    - https://access.redhat.com/security/cve/CVE-2026-4224
+    - https://bugzilla.redhat.com/2395108
+    - https://bugzilla.redhat.com/2408891
+    - https://bugzilla.redhat.com/2418084
+    - https://bugzilla.redhat.com/2431366
+    - https://bugzilla.redhat.com/2431374
+    - https://bugzilla.redhat.com/2444691
+    - https://bugzilla.redhat.com/2448168
+    - https://bugzilla.redhat.com/2448181
+    - https://bugzilla.redhat.com/2457409
+    - https://bugzilla.redhat.com/2457932
+    - https://bugzilla.redhat.com/2458049
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2408891
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418084
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431366
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431374
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13837
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15282
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0672
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1502
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
+    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
+    - https://github.com/python/cpython/commit/642865ddf4b232da1f3b1f7abcfa3254c4bfe785
+    - https://github.com/python/cpython/commit/af856a7177326ac25d9f66cc6dd28b554d914fee
+    - https://github.com/python/cpython/commit/e0a8a6da90597a924b300debe045cdb4628ee1f3
+    - https://github.com/python/cpython/commit/eb0e8be3a7e11b87d198a2c3af1ed0eccf532768
+    - https://github.com/python/cpython/issues/145986
+    - https://github.com/python/cpython/pull/145987
+    - https://linux.oracle.com/cve/CVE-2026-4224.html
+    - https://linux.oracle.com/errata/ELSA-2026-10950.html
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/5M7CGUW3XBRY7II4DK43KF7NQQ3TPZ6R/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-4224
+    - https://www.cve.org/CVERecord?id=CVE-2026-4224
+    PublishedDate: '2026-03-16T18:16:10.07Z'
+    LastModifiedDate: '2026-06-04T19:33:19.66Z'
+  - VulnerabilityID: CVE-2026-2297
+    PkgID: python3-pycache-pyc0@3.14.3-r0
+    PkgName: python3-pycache-pyc0
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.3-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 50d57cbf1c9bf14a
+    InstalledVersion: 3.14.3-r0
+    FixedVersion: 3.14.5-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:5ce6db840dd2856bcf3b27bf4e8fd654e768bb92f89d70bba6691798109d4e04
+      DiffID: sha256:8783ba8979d448dca07399d504e94c74ae839a76056c65238f414b5b360fe3a0
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-2297
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:73eccde50d95639e3016092f87c16017fe9b72eb92461b895cf096d2a3113fd8
+    Title: 'cpython: CPython: Logging Bypass in Legacy .pyc File Handling'
+    Description: The import hook in CPython that handles legacy *.pyc files (SourcelessFileLoader) is incorrectly handled in FileLoader (a base class) and so does not use io.open_code() to read the .pyc files. sys.audit handlers for this audit event therefore do not fire.
+    Severity: LOW
+    CweIDs:
+    - CWE-668
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      oracle-oval: 3
+      redhat: 1
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/05/6
+    - https://access.redhat.com/errata/RHSA-2026:10950
+    - https://access.redhat.com/security/cve/CVE-2026-2297
+    - https://bugzilla.redhat.com/2395108
+    - https://bugzilla.redhat.com/2408891
+    - https://bugzilla.redhat.com/2418084
+    - https://bugzilla.redhat.com/2431366
+    - https://bugzilla.redhat.com/2431374
+    - https://bugzilla.redhat.com/2444691
+    - https://bugzilla.redhat.com/2448168
+    - https://bugzilla.redhat.com/2448181
+    - https://bugzilla.redhat.com/2457409
+    - https://bugzilla.redhat.com/2457932
+    - https://bugzilla.redhat.com/2458049
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2408891
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2418084
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431366
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431374
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-13837
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15282
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6075
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0672
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1502
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
+    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
+    - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
+    - https://github.com/python/cpython/commit/876858c9f65d9ab656c7fa639f268ce7856d89dd
+    - https://github.com/python/cpython/commit/a51b1b512de1d56b3714b65628a2eae2b07e535e
+    - https://github.com/python/cpython/commit/e58e9802b9bec5cdbf48fc9bf1da5f4fda482e86
+    - https://github.com/python/cpython/issues/145506
+    - https://github.com/python/cpython/pull/145507
+    - https://linux.oracle.com/cve/CVE-2026-2297.html
+    - https://linux.oracle.com/errata/ELSA-2026-10950.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-2297
+    - https://www.cve.org/CVERecord?id=CVE-2026-2297
+    PublishedDate: '2026-03-04T23:16:10.757Z'
+    LastModifiedDate: '2026-05-01T16:16:30.11Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
