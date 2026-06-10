@@ -188,7 +188,8 @@
       PURL: pkg:deb/ubuntu/inetutils-telnet@2.7-2ubuntu1?arch=amd64&distro=ubuntu-26.04&epoch=2
       UID: d020e8884322167e
     InstalledVersion: 2:2.7-2ubuntu1
-    Status: affected
+    FixedVersion: 2:2.7-2ubuntu1.1
+    Status: fixed
     Layer:
       Digest: sha256:ec719b6f11bbdd886879aadcab015c39d2af3e9d5848bf59afd22159383f3d19
       DiffID: sha256:3f00a36a1317bbd1d56ef7a0e79e78a80626d4e0c8fc1208e3d40d933b8c2b88
@@ -220,10 +221,83 @@
     - https://git.hadrons.org/cgit/debian/pkgs/inetutils.git/commit/?id=3953943d8296310485f98963883a798545ab9a6c
     - https://lists.gnu.org/archive/html/bug-inetutils/2026-02/msg00000.html
     - https://lists.gnu.org/archive/html/bug-inetutils/2026-02/msg00012.html
+    - https://ubuntu.com/security/notices/USN-8387-1
     - https://www.cve.org/CVERecord?id=CVE-2026-28372
     - https://www.openwall.com/lists/oss-security/2026/02/24/1
     PublishedDate: '2026-02-27T06:18:00.077Z'
     LastModifiedDate: '2026-03-07T17:15:51.663Z'
+  - VulnerabilityID: CVE-2026-32746
+    PkgID: inetutils-telnet@2:2.7-2ubuntu1
+    PkgName: inetutils-telnet
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/inetutils-telnet@2.7-2ubuntu1?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: d020e8884322167e
+    InstalledVersion: 2:2.7-2ubuntu1
+    FixedVersion: 2:2.7-2ubuntu1.1
+    Status: fixed
+    Layer:
+      Digest: sha256:ec719b6f11bbdd886879aadcab015c39d2af3e9d5848bf59afd22159383f3d19
+      DiffID: sha256:3f00a36a1317bbd1d56ef7a0e79e78a80626d4e0c8fc1208e3d40d933b8c2b88
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-32746
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:2179d0ab5ef04ce54d27f8d554886f99409dafe918a287090836c8bc2f385aa3
+    Title: telnetd in GNU inetutils through 2.7 allows an out-of-bounds write in  ...
+    Description: telnetd in GNU inetutils through 2.7 allows an out-of-bounds write in the LINEMODE SLC (Set Local Characters) suboption handler because add_slc does not check whether the buffer is full.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-120
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/14/1
+    - https://github.com/watchtowrlabs/watchtowr-vs-telnetd-CVE-2026-32746
+    - https://lists.gnu.org/archive/html/bug-inetutils/2026-03/msg00031.html
+    - https://ubuntu.com/security/notices/USN-8387-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-32746
+    - https://www.openwall.com/lists/oss-security/2026/03/12/4
+    PublishedDate: '2026-03-13T19:55:10.147Z'
+    LastModifiedDate: '2026-05-05T18:15:51.73Z'
+  - VulnerabilityID: CVE-2026-32772
+    PkgID: inetutils-telnet@2:2.7-2ubuntu1
+    PkgName: inetutils-telnet
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/inetutils-telnet@2.7-2ubuntu1?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: d020e8884322167e
+    InstalledVersion: 2:2.7-2ubuntu1
+    FixedVersion: 2:2.7-2ubuntu1.1
+    Status: fixed
+    Layer:
+      Digest: sha256:ec719b6f11bbdd886879aadcab015c39d2af3e9d5848bf59afd22159383f3d19
+      DiffID: sha256:3f00a36a1317bbd1d56ef7a0e79e78a80626d4e0c8fc1208e3d40d933b8c2b88
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-32772
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f4fffaf175552dedbda39ba90dd0e08a92b6a7e9bc69eb7af8fa7ea2a04b667e
+    Title: telnet in GNU inetutils through 2.7 allows servers to read arbitrary e ...
+    Description: telnet in GNU inetutils through 2.7 allows servers to read arbitrary environment variables from clients via NEW_ENVIRON SEND USERVAR.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-669
+    VendorSeverity:
+      nvd: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N
+        V3Score: 4.7
+    References:
+    - https://ubuntu.com/security/notices/USN-8387-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-32772
+    - https://www.openwall.com/lists/oss-security/2026/03/13/1
+    PublishedDate: '2026-03-16T14:19:44.023Z'
+    LastModifiedDate: '2026-05-05T17:55:23.87Z'
   - VulnerabilityID: CVE-2024-52949
     PkgID: iptraf-ng@1:1.2.2-1
     PkgName: iptraf-ng
@@ -1446,6 +1520,225 @@
     - https://www.cve.org/CVERecord?id=CVE-2018-18064
     PublishedDate: '2018-10-08T18:29:00.27Z'
     LastModifiedDate: '2024-11-21T03:55:25.21Z'
+  - VulnerabilityID: CVE-2026-27447
+    PkgID: libcups2t64@2.4.16-1ubuntu1
+    PkgName: libcups2t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcups2t64@2.4.16-1ubuntu1?arch=amd64&distro=ubuntu-26.04
+      UID: b3d682feb7c35370
+    InstalledVersion: 2.4.16-1ubuntu1
+    FixedVersion: 2.4.16-1ubuntu1.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ec719b6f11bbdd886879aadcab015c39d2af3e9d5848bf59afd22159383f3d19
+      DiffID: sha256:3f00a36a1317bbd1d56ef7a0e79e78a80626d4e0c8fc1208e3d40d933b8c2b88
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-27447
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:8e519d26a4024a8b24ff3b52fdbe48f2ef2b549a3f4b2592852d6843464ddbcc
+    Title: 'cups: OpenPrinting CUPS: Authorization bypass via case-insensitive username comparison'
+    Description: OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. In versions 2.4.16 and prior, CUPS daemon (cupsd) contains an authorization bypass vulnerability due to case-insensitive username comparison during authorization checks. The vulnerability allows an unprivileged user to gain unauthorized access to restricted operations by using a user with a username that differs only in case from an authorized user. At time of publication, there are no publicly available patches.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-863
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      nvd: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:L/A:N
+        V3Score: 6.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N
+        V3Score: 6.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-27447
+    - https://github.com/OpenPrinting/cups/commit/88516bf6d9e34cef7a64a704b856b837f70cd220
+    - https://github.com/OpenPrinting/cups/security/advisories/GHSA-v987-m8hp-phj9
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-27447
+    - https://ubuntu.com/security/notices/USN-8405-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-27447
+    PublishedDate: '2026-04-03T22:16:25.193Z'
+    LastModifiedDate: '2026-04-22T16:20:51.083Z'
+  - VulnerabilityID: CVE-2026-34978
+    PkgID: libcups2t64@2.4.16-1ubuntu1
+    PkgName: libcups2t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcups2t64@2.4.16-1ubuntu1?arch=amd64&distro=ubuntu-26.04
+      UID: b3d682feb7c35370
+    InstalledVersion: 2.4.16-1ubuntu1
+    FixedVersion: 2.4.16-1ubuntu1.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ec719b6f11bbdd886879aadcab015c39d2af3e9d5848bf59afd22159383f3d19
+      DiffID: sha256:3f00a36a1317bbd1d56ef7a0e79e78a80626d4e0c8fc1208e3d40d933b8c2b88
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-34978
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:bb53eb192c3b63c8db5ef97e5bc39472381e2229a2dbe4444e77710404de1dc2
+    Title: 'cups: OpenPrinting CUPS: Denial of Service via path traversal in RSS notifier'
+    Description: OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. In versions 2.4.16 and prior, the RSS notifier allows .. path traversal in notify-recipient-uri (e.g., rss:///../job.cache), letting a remote IPP client write RSS XML bytes outside CacheDir/rss (anywhere that is lp-writable). In particular, because CacheDir is group-writable by default (typically root:lp and mode 0770), the notifier (running as lp) can replace root-managed state files via temp-file + rename(). This PoC clobbers CacheDir/job.cache with RSS XML, and after restarting cupsd the scheduler fails to parse the job cache and previously queued jobs disappear. At time of publication, there are no publicly available patches.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      amazon: 3
+      azure: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-34978
+    - https://github.com/OpenPrinting/cups/security/advisories/GHSA-f53q-7mxp-9gcr
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-34978
+    - https://ubuntu.com/security/notices/USN-8405-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-34978
+    PublishedDate: '2026-04-03T22:16:26.947Z'
+    LastModifiedDate: '2026-04-16T18:29:46.537Z'
+  - VulnerabilityID: CVE-2026-34979
+    PkgID: libcups2t64@2.4.16-1ubuntu1
+    PkgName: libcups2t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcups2t64@2.4.16-1ubuntu1?arch=amd64&distro=ubuntu-26.04
+      UID: b3d682feb7c35370
+    InstalledVersion: 2.4.16-1ubuntu1
+    FixedVersion: 2.4.16-1ubuntu1.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ec719b6f11bbdd886879aadcab015c39d2af3e9d5848bf59afd22159383f3d19
+      DiffID: sha256:3f00a36a1317bbd1d56ef7a0e79e78a80626d4e0c8fc1208e3d40d933b8c2b88
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-34979
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:8e1c96606e7336da20aaa61325ae2b5de30d8d4d0e1427783c98154e72da03a2
+    Title: 'cups: OpenPrinting CUPS: Denial of Service via heap-based buffer overflow in job attribute processing'
+    Description: OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. In versions 2.4.16 and prior, there is a heap-based buffer overflow in the CUPS scheduler when building filter option strings from job attribute. At time of publication, there are no publicly available patches.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      amazon: 3
+      azure: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-34979
+    - https://github.com/OpenPrinting/cups/security/advisories/GHSA-6qxf-7jx6-86fh
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-34979
+    - https://ubuntu.com/security/notices/USN-8405-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-34979
+    PublishedDate: '2026-04-03T22:16:27.097Z'
+    LastModifiedDate: '2026-04-16T18:28:57.42Z'
+  - VulnerabilityID: CVE-2026-34980
+    PkgID: libcups2t64@2.4.16-1ubuntu1
+    PkgName: libcups2t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcups2t64@2.4.16-1ubuntu1?arch=amd64&distro=ubuntu-26.04
+      UID: b3d682feb7c35370
+    InstalledVersion: 2.4.16-1ubuntu1
+    FixedVersion: 2.4.16-1ubuntu1.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ec719b6f11bbdd886879aadcab015c39d2af3e9d5848bf59afd22159383f3d19
+      DiffID: sha256:3f00a36a1317bbd1d56ef7a0e79e78a80626d4e0c8fc1208e3d40d933b8c2b88
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-34980
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:3f3e538a08d11a95008d2de234b7287dc718e0ba45ad11e5104bfb1fb65791a8
+    Title: 'cups: OpenPrinting CUPS: Shared PostScript queue lets anonymous Print-Job requests reach `lp` code execution over the network'
+    Description: 'OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. In versions 2.4.16 and prior, in a network-exposed cupsd with a shared target queue, an unauthorized client can send a Print-Job to that shared PostScript queue without authentication. The server accepts a page-border value supplied as textWithoutLanguage, preserves an embedded newline through option escaping and reparse, and then reparses the resulting second-line PPD: text as a trusted scheduler control record. A follow-up raw print job can therefore make the server execute an attacker-chosen existing binary such as /usr/bin/vim as lp. At time of publication, there are no publicly available patches.'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-20
+    VendorSeverity:
+      amazon: 3
+      azure: 2
+      nvd: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L
+        V3Score: 6.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-34980
+    - https://github.com/OpenPrinting/cups/security/advisories/GHSA-4852-v58g-6cwf
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-34980
+    - https://ubuntu.com/security/notices/USN-8405-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-34980
+    PublishedDate: '2026-04-03T22:16:27.243Z'
+    LastModifiedDate: '2026-04-16T18:28:13.903Z'
+  - VulnerabilityID: CVE-2026-34990
+    PkgID: libcups2t64@2.4.16-1ubuntu1
+    PkgName: libcups2t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcups2t64@2.4.16-1ubuntu1?arch=amd64&distro=ubuntu-26.04
+      UID: b3d682feb7c35370
+    InstalledVersion: 2.4.16-1ubuntu1
+    FixedVersion: 2.4.16-1ubuntu1.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ec719b6f11bbdd886879aadcab015c39d2af3e9d5848bf59afd22159383f3d19
+      DiffID: sha256:3f00a36a1317bbd1d56ef7a0e79e78a80626d4e0c8fc1208e3d40d933b8c2b88
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-34990
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f79c25b6f614ea53bc77619fcefbac4230182e6cc6b86bff7ca72f85cfef4705
+    Title: 'cups: OpenPrinting CUPS: Privilege escalation via arbitrary file overwrite due to coerced authentication'
+    Description: 'OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. In versions 2.4.16 and prior, a local unprivileged user can coerce cupsd into authenticating to an attacker-controlled localhost IPP service with a reusable Authorization: Local ... token. That token is enough to drive /admin/ requests on localhost, and the attacker can combine CUPS-Create-Local-Printer with printer-is-shared=true to persist a file:///... queue even though the normal FileDevice policy rejects such URIs. Printing to that queue gives an arbitrary root file overwrite; the PoC below uses that primitive to drop a sudoers fragment and demonstrate root command execution. At time of publication, there are no publicly available patches.'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-287
+    VendorSeverity:
+      amazon: 3
+      azure: 2
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N
+        V3Score: 5.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-34990
+    - https://github.com/OpenPrinting/cups/security/advisories/GHSA-c54j-2vqw-wpwp
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-34990
+    - https://ubuntu.com/security/notices/USN-8405-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-34990
+    PublishedDate: '2026-04-03T22:16:27.4Z'
+    LastModifiedDate: '2026-04-16T18:15:24.43Z'
   - VulnerabilityID: CVE-2026-39314
     PkgID: libcups2t64@2.4.16-1ubuntu1
     PkgName: libcups2t64
@@ -1453,7 +1746,8 @@
       PURL: pkg:deb/ubuntu/libcups2t64@2.4.16-1ubuntu1?arch=amd64&distro=ubuntu-26.04
       UID: b3d682feb7c35370
     InstalledVersion: 2.4.16-1ubuntu1
-    Status: affected
+    FixedVersion: 2.4.16-1ubuntu1.2
+    Status: fixed
     Layer:
       Digest: sha256:ec719b6f11bbdd886879aadcab015c39d2af3e9d5848bf59afd22159383f3d19
       DiffID: sha256:3f00a36a1317bbd1d56ef7a0e79e78a80626d4e0c8fc1208e3d40d933b8c2b88
@@ -1487,9 +1781,56 @@
     - https://access.redhat.com/security/cve/CVE-2026-39314
     - https://github.com/OpenPrinting/cups/security/advisories/GHSA-pp8w-2g52-7vj7
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39314
+    - https://ubuntu.com/security/notices/USN-8405-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39314
     PublishedDate: '2026-04-07T17:16:37.073Z'
     LastModifiedDate: '2026-04-16T18:13:32.09Z'
+  - VulnerabilityID: CVE-2026-39316
+    PkgID: libcups2t64@2.4.16-1ubuntu1
+    PkgName: libcups2t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcups2t64@2.4.16-1ubuntu1?arch=amd64&distro=ubuntu-26.04
+      UID: b3d682feb7c35370
+    InstalledVersion: 2.4.16-1ubuntu1
+    FixedVersion: 2.4.16-1ubuntu1.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ec719b6f11bbdd886879aadcab015c39d2af3e9d5848bf59afd22159383f3d19
+      DiffID: sha256:3f00a36a1317bbd1d56ef7a0e79e78a80626d4e0c8fc1208e3d40d933b8c2b88
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39316
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:6b6cac71d1c9f89028c745d0c7839c232cd03ae9f3c12b12783974a820cb6532
+    Title: 'cups: CUPS: Denial of Service and potential arbitrary code execution via use-after-free vulnerability when deleting temporary printers.'
+    Description: OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. In versions 2.4.16 and prior, a use-after-free vulnerability exists in the CUPS scheduler (cupsd) when temporary printers are automatically deleted. cupsdDeleteTemporaryPrinters() in scheduler/printers.c calls cupsdDeletePrinter() without first expiring subscriptions that reference the printer, leaving cupsd_subscription_t.dest as a dangling pointer to freed heap memory. The dangling pointer is subsequently dereferenced at multiple code sites, causing a crash (denial of service) of the cupsd daemon. With heap grooming, this can be leveraged for code execution.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      amazon: 3
+      azure: 1
+      nvd: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-39316
+    - https://github.com/OpenPrinting/cups/security/advisories/GHSA-pjv5-prqp-46rg
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-39316
+    - https://ubuntu.com/security/notices/USN-8405-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-39316
+    PublishedDate: '2026-04-07T17:16:37.23Z'
+    LastModifiedDate: '2026-04-16T18:08:46.14Z'
   - VulnerabilityID: CVE-2026-41079
     PkgID: libcups2t64@2.4.16-1ubuntu1
     PkgName: libcups2t64
@@ -1497,7 +1838,8 @@
       PURL: pkg:deb/ubuntu/libcups2t64@2.4.16-1ubuntu1?arch=amd64&distro=ubuntu-26.04
       UID: b3d682feb7c35370
     InstalledVersion: 2.4.16-1ubuntu1
-    Status: affected
+    FixedVersion: 2.4.16-1ubuntu1.2
+    Status: fixed
     Layer:
       Digest: sha256:ec719b6f11bbdd886879aadcab015c39d2af3e9d5848bf59afd22159383f3d19
       DiffID: sha256:3f00a36a1317bbd1d56ef7a0e79e78a80626d4e0c8fc1208e3d40d933b8c2b88
@@ -1534,6 +1876,7 @@
     - https://github.com/OpenPrinting/cups/commit/d7fe0f521ff3b24676511e747b058362b9a20737
     - https://github.com/OpenPrinting/cups/security/advisories/GHSA-6wpw-g8g6-wvrv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-41079
+    - https://ubuntu.com/security/notices/USN-8405-1
     - https://www.cve.org/CVERecord?id=CVE-2026-41079
     PublishedDate: '2026-04-24T17:16:21.34Z'
     LastModifiedDate: '2026-04-27T13:40:54.787Z'
@@ -2415,6 +2758,42 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3950
     PublishedDate: '2026-03-11T20:16:22.567Z'
     LastModifiedDate: '2026-04-29T01:00:01.613Z'
+  - VulnerabilityID: CVE-2025-70103
+    PkgID: libjxl0.11@0.11.1-6ubuntu4
+    PkgName: libjxl0.11
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libjxl0.11@0.11.1-6ubuntu4?arch=amd64&distro=ubuntu-26.04
+      UID: 37ef0a7f77dc12a6
+    InstalledVersion: 0.11.1-6ubuntu4
+    FixedVersion: 0.11.1-6ubuntu4.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ec719b6f11bbdd886879aadcab015c39d2af3e9d5848bf59afd22159383f3d19
+      DiffID: sha256:3f00a36a1317bbd1d56ef7a0e79e78a80626d4e0c8fc1208e3d40d933b8c2b88
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-70103
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:523887c391d81f85a19f343218437344c569aa7411f7562446bcd64076e7778d
+    Title: Heap buffer overflow vulnerability in libjxl 0.12.0 via crafted PBM im ...
+    Description: Heap buffer overflow vulnerability in libjxl 0.12.0 via crafted PBM images to the jxl::extras::DecodeImagePNM function in file lib/extras/dec/pnm.cc.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/05/30/7
+    - https://github.com/libjxl/libjxl/issues/4337
+    - https://github.com/libjxl/libjxl/pull/4338
+    - https://github.com/sigdevel/pocs/blob/main/res/libjxl/2025/2
+    - https://infosec.exchange/@sigdevel/116642233929409910
+    - https://ubuntu.com/security/notices/USN-8397-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-70103
+    PublishedDate: '2026-05-27T15:16:24.783Z'
+    LastModifiedDate: '2026-05-30T20:16:21.76Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: libmount1@2.41.3-3ubuntu2
     PkgName: libmount1
@@ -2734,7 +3113,7 @@
     - CWE-668
     VendorSeverity:
       alma: 3
-      amazon: 1
+      amazon: 2
       oracle-oval: 3
       redhat: 1
       rocky: 3
@@ -2745,7 +3124,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19177
+    - https://access.redhat.com/errata/RHSA-2026:10950
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -2755,7 +3134,6 @@
     - https://bugzilla.redhat.com/2444691
     - https://bugzilla.redhat.com/2448168
     - https://bugzilla.redhat.com/2448181
-    - https://bugzilla.redhat.com/2449649
     - https://bugzilla.redhat.com/2457409
     - https://bugzilla.redhat.com/2457932
     - https://bugzilla.redhat.com/2458049
@@ -2783,7 +3161,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -2823,7 +3201,7 @@
     - CWE-668
     VendorSeverity:
       alma: 3
-      amazon: 1
+      amazon: 2
       oracle-oval: 3
       redhat: 1
       rocky: 3
@@ -2834,7 +3212,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19177
+    - https://access.redhat.com/errata/RHSA-2026:10950
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -2844,7 +3222,6 @@
     - https://bugzilla.redhat.com/2444691
     - https://bugzilla.redhat.com/2448168
     - https://bugzilla.redhat.com/2448181
-    - https://bugzilla.redhat.com/2449649
     - https://bugzilla.redhat.com/2457409
     - https://bugzilla.redhat.com/2457932
     - https://bugzilla.redhat.com/2458049
@@ -2872,7 +3249,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -2912,7 +3289,7 @@
     - CWE-668
     VendorSeverity:
       alma: 3
-      amazon: 1
+      amazon: 2
       oracle-oval: 3
       redhat: 1
       rocky: 3
@@ -2923,7 +3300,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19177
+    - https://access.redhat.com/errata/RHSA-2026:10950
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -2933,7 +3310,6 @@
     - https://bugzilla.redhat.com/2444691
     - https://bugzilla.redhat.com/2448168
     - https://bugzilla.redhat.com/2448181
-    - https://bugzilla.redhat.com/2449649
     - https://bugzilla.redhat.com/2457409
     - https://bugzilla.redhat.com/2457932
     - https://bugzilla.redhat.com/2458049
@@ -2961,7 +3337,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -3065,6 +3441,56 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
     LastModifiedDate: '2026-05-01T19:29:51.02Z'
+  - VulnerabilityID: CVE-2026-3731
+    PkgID: libssh-4@0.11.3-1ubuntu1
+    PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.11.3-1ubuntu1?arch=amd64&distro=ubuntu-26.04
+      UID: 294225540bcd384b
+    InstalledVersion: 0.11.3-1ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:ec719b6f11bbdd886879aadcab015c39d2af3e9d5848bf59afd22159383f3d19
+      DiffID: sha256:3f00a36a1317bbd1d56ef7a0e79e78a80626d4e0c8fc1208e3d40d933b8c2b88
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-3731
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:57485127f75d4341d521e8ec005327b4b5d0ffd49e6e1603cbf10c5558bbcf7b
+    Title: 'libssh: libssh: Denial of Service via out-of-bounds read in SFTP extension name handler'
+    Description: A weakness has been identified in libssh up to 0.11.3. The impacted element is the function sftp_extensions_get_name/sftp_extensions_get_data of the file src/sftp.c of the component SFTP Extension Name Handler. Executing a manipulation of the argument idx can lead to out-of-bounds read. The attack may be performed from remote. Upgrading to version 0.11.4 and 0.12.0 is sufficient to resolve this issue. This patch is called 855a0853ad3abd4a6cd85ce06fce6d8d4c7a0b60. You should upgrade the affected component.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    - CWE-125
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-3731
+    - https://gitlab.com/libssh/libssh-mirror/-/commit/855a0853ad3abd4a6cd85ce06fce6d8d4c7a0b60
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-3731
+    - https://ubuntu.com/security/notices/USN-8093-1
+    - https://vuldb.com/?ctiid.349709
+    - https://vuldb.com/?id.349709
+    - https://vuldb.com/?submit.767120
+    - https://www.cve.org/CVERecord?id=CVE-2026-3731
+    - https://www.libssh.org/files/0.12/libssh-0.12.0.tar.xz
+    - https://www.libssh.org/security/advisories/libssh-2026-sftp-extensions.txt
+    PublishedDate: '2026-03-08T11:15:50.307Z'
+    LastModifiedDate: '2026-03-12T19:02:31.637Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libsystemd-shared@259.5-0ubuntu3
     PkgName: libsystemd-shared
@@ -4185,7 +4611,7 @@
     - CWE-668
     VendorSeverity:
       alma: 3
-      amazon: 1
+      amazon: 2
       oracle-oval: 3
       redhat: 1
       rocky: 3
@@ -4196,7 +4622,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19177
+    - https://access.redhat.com/errata/RHSA-2026:10950
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -4206,7 +4632,6 @@
     - https://bugzilla.redhat.com/2444691
     - https://bugzilla.redhat.com/2448168
     - https://bugzilla.redhat.com/2448181
-    - https://bugzilla.redhat.com/2449649
     - https://bugzilla.redhat.com/2457409
     - https://bugzilla.redhat.com/2457932
     - https://bugzilla.redhat.com/2458049
@@ -4234,7 +4659,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -4274,7 +4699,7 @@
     - CWE-668
     VendorSeverity:
       alma: 3
-      amazon: 1
+      amazon: 2
       oracle-oval: 3
       redhat: 1
       rocky: 3
@@ -4285,7 +4710,7 @@
         V3Score: 3.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/05/6
-    - https://access.redhat.com/errata/RHSA-2026:19177
+    - https://access.redhat.com/errata/RHSA-2026:10950
     - https://access.redhat.com/security/cve/CVE-2026-2297
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/2408891
@@ -4295,7 +4720,6 @@
     - https://bugzilla.redhat.com/2444691
     - https://bugzilla.redhat.com/2448168
     - https://bugzilla.redhat.com/2448181
-    - https://bugzilla.redhat.com/2449649
     - https://bugzilla.redhat.com/2457409
     - https://bugzilla.redhat.com/2457932
     - https://bugzilla.redhat.com/2458049
@@ -4323,7 +4747,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-    - https://errata.almalinux.org/9/ALSA-2026-19177.html
+    - https://errata.almalinux.org/8/ALSA-2026-10950.html
     - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
@@ -6093,6 +6517,7 @@
     References:
     - https://github.com/moby/moby
     - https://github.com/moby/moby/security/advisories/GHSA-x86f-5xw2-fm2r
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-41567
     PublishedDate: '2026-06-05T02:17:13.817Z'
     LastModifiedDate: '2026-06-05T16:01:30.983Z'
   - VulnerabilityID: CVE-2026-42306
@@ -6116,42 +6541,10 @@
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Fingerprint: sha256:e1520634099a41ef7f8833e6514c010f08b03482251a74a5fc901324df5620c6
     Title: 'Docker: Race condition in docker cp allows bind mount redirection to host path'
-    Description: |-
-      ## Summary
-
-      A race condition during `docker cp` mount setup allows a malicious container to redirect a bind mount target to an arbitrary host path, potentially overwriting host files or causing denial of service.
-
-      ## Details
-
-      When copying files into a container, the daemon sets up a temporary filesystem view by bind-mounting volumes into a private mount namespace. During this setup, the mount destination is created inside the container root and then a bind mount is attached using the container-relative path resolved to an absolute host path.
-
-      Between mountpoint creation and the `mount()` syscall, a process running inside the container can replace the destination (or a parent path component) with a symlink pointing to an arbitrary location on the host. The `mount()` syscall follows the symlink, causing the volume to be bind-mounted onto an arbitrary host path instead of the intended container path.
-
-      ## Impact
-
-      A malicious container can redirect a volume bind mount to an arbitrary host path. The impact depends on the volume content and mount options:
-
-      - If the volume is writable, arbitrary host files at the redirected path could be overwritten with the volume's contents.
-      - If the volume is read-only, the host path is masked by the mount for the duration of the operation, causing denial of service.
-      - In all cases the mount is temporary (torn down after the `docker cp` completes), but the effects of any writes persist.
-
-      ### Conditions for exploitation
-
-      - A container must have at least one volume mount.
-      - A process inside the container must be able to rapidly create and swap symlinks at the volume mount destination path.
-      - An operator must initiate a `docker cp` into that container, or call the `PUT /containers/{id}/archive` or `HEAD /containers/{id}/archive` API endpoints.
-
-      ### Not affected
-
-      - Containers that do not have volume mounts are not affected, as the race occurs during volume bind-mount setup.
-
-      ## Workarounds
-
-      - Only run containers from trusted images.
-      - Avoid using `docker cp` with untrusted running containers.
-      - Use authorization plugins to restrict access to the archive API endpoints (`PUT /containers/{id}/archive`, `HEAD /containers/{id}/archive`).
+    Description: "Package updates are available for Amazon Linux 2023 that fix the following vulnerabilities:\nCVE-2026-46595:\n\tPreviously, CVE-2024-45337 fixed an authorization bypass for misused ssh server configurations; if any other type of callback is passed other than public key, then the source-address validation would be skipped.\n\nCVE-2026-42508:\n\tPreviously, a revoked 'SignatureKey' belonging to a CA was not correctly checked for revocation. Now, both the 'key' and 'key.SignatureKey' are checked for @revoked.\n\nCVE-2026-42306:\n\tDocker: Race condition in docker cp allows bind mount redirection to host path\n\nCVE-2026-39833:\n\tThe in-memory keyring returned by NewKeyring() silently accepted keys with the ConfirmBeforeUse constraint but never enforced it. The key would sign without any confirmation prompt, with no indication to the caller that the constraint was not in effect. NewKeyring() now returns an error when unsupported constraints are requested.\n\nCVE-2026-39831:\n\tThe Verify() method for FIDO/U2F security key types (sk-ecdsa-sha2-nistp256@openssh.com, sk-ssh-ed25519@openssh.com) did not check the User Presence flag. Signatures generated without physical touch were accepted, allowing unattended use of a hardware security key. To restore the previous behavior, return a \"no-touch-required\" extension in Permissions.Extensions from PublicKeyCallback.\n\nCVE-2026-39830:\n\tA malicious SSH peer could send unsolicited global request responses to fill an internal buffer, blocking the connection's read loop. The blocked goroutine could not be released by calling Close(), resulting in a resource leak per connection. Unsolicited global responses are now discarded.\n\nCVE-2026-39829:\n\tThe RSA and DSA public key parsers did not enforce size limits on key parameters. A crafted public key with an excessively large modulus or DSA parameter could cause several minutes of CPU consumption during signature verification. This could be triggered by unauthenticated clients during public key authentication. RSA moduli are now limited to 8192 bits, and DSA parameters are validated per FIPS 186-2.\n"
     Severity: HIGH
     VendorSeverity:
+      amazon: 3
       ghsa: 3
     CVSS:
       ghsa:
@@ -6531,49 +6924,6 @@
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
     LastModifiedDate: '2026-05-13T16:58:56.39Z'
-  - VulnerabilityID: CVE-2026-39826
-    VendorIDs:
-    - GO-2026-4980
-    PkgID: stdlib@v1.26.2
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.26.2
-      UID: e5871284774cde90
-    InstalledVersion: v1.26.2
-    FixedVersion: 1.25.10, 1.26.3
-    Status: fixed
-    Layer:
-      Digest: sha256:ec719b6f11bbdd886879aadcab015c39d2af3e9d5848bf59afd22159383f3d19
-      DiffID: sha256:3f00a36a1317bbd1d56ef7a0e79e78a80626d4e0c8fc1208e3d40d933b8c2b88
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39826
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Fingerprint: sha256:d4bdacd95804056467d23d65809f2c78a64d39ec1f96a3d05f02e7f8c341a61d
-    Title: If a trusted template author were to write a <script> tag containing a ...
-    Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
-    Severity: HIGH
-    CweIDs:
-    - CWE-116
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-      oracle-oval: 3
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
-        V3Score: 6.1
-    References:
-    - https://go.dev/cl/771180
-    - https://go.dev/issue/78981
-    - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
-    - https://linux.oracle.com/cve/CVE-2026-39826.html
-    - https://linux.oracle.com/errata/ELSA-2026-22112.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
-    - https://pkg.go.dev/vuln/GO-2026-4980
-    PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-13T16:59:07.48Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -6738,6 +7088,55 @@
     - https://pkg.go.dev/vuln/GO-2026-5037
     PublishedDate: '2026-06-02T23:16:35.57Z'
     LastModifiedDate: '2026-06-04T16:15:50.143Z'
+  - VulnerabilityID: CVE-2026-39826
+    VendorIDs:
+    - GO-2026-4980
+    PkgID: stdlib@v1.26.2
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.2
+      UID: e5871284774cde90
+    InstalledVersion: v1.26.2
+    FixedVersion: 1.25.10, 1.26.3
+    Status: fixed
+    Layer:
+      Digest: sha256:ec719b6f11bbdd886879aadcab015c39d2af3e9d5848bf59afd22159383f3d19
+      DiffID: sha256:3f00a36a1317bbd1d56ef7a0e79e78a80626d4e0c8fc1208e3d40d933b8c2b88
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39826
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:d4bdacd95804056467d23d65809f2c78a64d39ec1f96a3d05f02e7f8c341a61d
+    Title: 'html/template: golang: html/template: Cross-site scripting due to incorrect script tag escaping'
+    Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-116
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+      oracle-oval: 3
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N
+        V3Score: 5.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-39826
+    - https://go.dev/cl/771180
+    - https://go.dev/issue/78981
+    - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
+    - https://linux.oracle.com/cve/CVE-2026-39826.html
+    - https://linux.oracle.com/errata/ELSA-2026-22112.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
+    - https://pkg.go.dev/vuln/GO-2026-4980
+    - https://www.cve.org/CVERecord?id=CVE-2026-39826
+    PublishedDate: '2026-05-07T20:16:43.49Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
   - VulnerabilityID: CVE-2026-42507
     VendorIDs:
     - GO-2026-5039
