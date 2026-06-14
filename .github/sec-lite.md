@@ -6187,7 +6187,59 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │      ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │      ╰ LastModifiedDate: 2026-05-01T16:16:30.11Z 
-│                       ├ [59] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [59] ╭ VulnerabilityID : CVE-2026-52859 
+│                       │      ├ PkgID           : vim@9.2.0481-r0 
+│                       │      ├ PkgName         : vim 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       4.0_alpha20260127 
+│                       │      │                  ╰ UID : c50fb887bd647561 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0567-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-52859 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:ae71155689d246f52a81a0a69c8d9e1b2f099686a8d5e38363c2b
+│                       │      │                   54d0cf42908 
+│                       │      ├ Title           : vim: Vim: Denial of Service via out-of-bounds write in
+│                       │      │                   terminal handling 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   version 9.2.0565, the update_snapshot() function in
+│                       │      │                   src/terminal.c copies the visible terminal screen into the
+│                       │      │                   scrollback buffer when a snapshot is taken. For each screen
+│                       │      │                   cell it walks the cell's chars[] array with no upper bound,
+│                       │      │                   stopping only when it encounters a NUL terminator. When a
+│                       │      │                   cell legitimately fills all VTERM_MAX_CHARS_PER_CELL (6)
+│                       │      │                   slots — a base character plus five combining marks — the
+│                       │      │                   bundled libvterm returns the array without a terminating
+│                       │      │                   NUL, so the loop reads past the fixed six-element array and
+│                       │      │                   appends the out-of-bounds values to a buffer reserved for
+│                       │      │                   only six characters. A program whose output is rendered
+│                       │      │                   inside a :terminal window can trigger this with a short byte
+│                       │      │                    sequence and no Vim scripting, leading to a crash. This
+│                       │      │                   issue has been patched in version 9.2.0565. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-52859 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/commit/63680c6d3d52477817b4
+│                       │      │                  │      9cd1a66e7aabe8a7aa19 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0565 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-47
+│                       │      │                  │      gw-8gc3-mgcm 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-52859 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
+│                       │      ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
+│                       │      ╰ LastModifiedDate: 2026-06-11T20:56:29.653Z 
+│                       ├ [60] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │      ├ PkgID           : vim@9.2.0481-r0 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -6229,51 +6281,6 @@
 │                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-52
 │                       │      │                         mc-rq6p-rc7c 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
-│                       │      ╰ LastModifiedDate: 2026-06-11T20:56:29.653Z 
-│                       ├ [60] ╭ VulnerabilityID : CVE-2026-52859 
-│                       │      ├ PkgID           : vim@9.2.0481-r0 
-│                       │      ├ PkgName         : vim 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
-│                       │      │                  │       4.0_alpha20260127 
-│                       │      │                  ╰ UID : c50fb887bd647561 
-│                       │      ├ InstalledVersion: 9.2.0481-r0 
-│                       │      ├ FixedVersion    : 9.2.0567-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
-│                       │      │                  │         9a8305ba35c82bf9229f 
-│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
-│                       │      │                            7ea46f72dd8aa890c14b 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-52859 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:ae71155689d246f52a81a0a69c8d9e1b2f099686a8d5e38363c2b
-│                       │      │                   54d0cf42908 
-│                       │      ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │      │                   version 9.2. ... 
-│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
-│                       │      │                   version 9.2.0565, the update_snapshot() function in
-│                       │      │                   src/terminal.c copies the visible terminal screen into the
-│                       │      │                   scrollback buffer when a snapshot is taken. For each screen
-│                       │      │                   cell it walks the cell's chars[] array with no upper bound,
-│                       │      │                   stopping only when it encounters a NUL terminator. When a
-│                       │      │                   cell legitimately fills all VTERM_MAX_CHARS_PER_CELL (6)
-│                       │      │                   slots — a base character plus five combining marks — the
-│                       │      │                   bundled libvterm returns the array without a terminating
-│                       │      │                   NUL, so the loop reads past the fixed six-element array and
-│                       │      │                   appends the out-of-bounds values to a buffer reserved for
-│                       │      │                   only six characters. A program whose output is rendered
-│                       │      │                   inside a :terminal window can trigger this with a short byte
-│                       │      │                    sequence and no Vim scripting, leading to a crash. This
-│                       │      │                   issue has been patched in version 9.2.0565. 
-│                       │      ├ Severity        : UNKNOWN 
-│                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/63680c6d3d52477817b4
-│                       │      │                  │      9cd1a66e7aabe8a7aa19 
-│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0565 
-│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-47
-│                       │      │                         gw-8gc3-mgcm 
-│                       │      ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │      ╰ LastModifiedDate: 2026-06-11T20:56:29.653Z 
 │                       ├ [61] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │      ├ PkgID           : vim@9.2.0481-r0 
@@ -6320,7 +6327,59 @@
 │                       │      │                         p9-mwwx-7468 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │      ╰ LastModifiedDate: 2026-06-11T20:56:29.653Z 
-│                       ├ [62] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [62] ╭ VulnerabilityID : CVE-2026-52859 
+│                       │      ├ PkgID           : vim-common@9.2.0481-r0 
+│                       │      ├ PkgName         : vim-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
+│                       │      │                  │       tro=3.24.0_alpha20260127 
+│                       │      │                  ╰ UID : c697e713a1220c37 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0567-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-52859 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:4918e93e5e4d7478ae57c210d8cf47b7a449505f59b7c3fefece7
+│                       │      │                   6590ec7931f 
+│                       │      ├ Title           : vim: Vim: Denial of Service via out-of-bounds write in
+│                       │      │                   terminal handling 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   version 9.2.0565, the update_snapshot() function in
+│                       │      │                   src/terminal.c copies the visible terminal screen into the
+│                       │      │                   scrollback buffer when a snapshot is taken. For each screen
+│                       │      │                   cell it walks the cell's chars[] array with no upper bound,
+│                       │      │                   stopping only when it encounters a NUL terminator. When a
+│                       │      │                   cell legitimately fills all VTERM_MAX_CHARS_PER_CELL (6)
+│                       │      │                   slots — a base character plus five combining marks — the
+│                       │      │                   bundled libvterm returns the array without a terminating
+│                       │      │                   NUL, so the loop reads past the fixed six-element array and
+│                       │      │                   appends the out-of-bounds values to a buffer reserved for
+│                       │      │                   only six characters. A program whose output is rendered
+│                       │      │                   inside a :terminal window can trigger this with a short byte
+│                       │      │                    sequence and no Vim scripting, leading to a crash. This
+│                       │      │                   issue has been patched in version 9.2.0565. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-52859 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/commit/63680c6d3d52477817b4
+│                       │      │                  │      9cd1a66e7aabe8a7aa19 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0565 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-47
+│                       │      │                  │      gw-8gc3-mgcm 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-52859 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
+│                       │      ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
+│                       │      ╰ LastModifiedDate: 2026-06-11T20:56:29.653Z 
+│                       ├ [63] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │      ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
@@ -6362,51 +6421,6 @@
 │                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-52
 │                       │      │                         mc-rq6p-rc7c 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
-│                       │      ╰ LastModifiedDate: 2026-06-11T20:56:29.653Z 
-│                       ├ [63] ╭ VulnerabilityID : CVE-2026-52859 
-│                       │      ├ PkgID           : vim-common@9.2.0481-r0 
-│                       │      ├ PkgName         : vim-common 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
-│                       │      │                  │       tro=3.24.0_alpha20260127 
-│                       │      │                  ╰ UID : c697e713a1220c37 
-│                       │      ├ InstalledVersion: 9.2.0481-r0 
-│                       │      ├ FixedVersion    : 9.2.0567-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
-│                       │      │                  │         9a8305ba35c82bf9229f 
-│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
-│                       │      │                            7ea46f72dd8aa890c14b 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-52859 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:4918e93e5e4d7478ae57c210d8cf47b7a449505f59b7c3fefece7
-│                       │      │                   6590ec7931f 
-│                       │      ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │      │                   version 9.2. ... 
-│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
-│                       │      │                   version 9.2.0565, the update_snapshot() function in
-│                       │      │                   src/terminal.c copies the visible terminal screen into the
-│                       │      │                   scrollback buffer when a snapshot is taken. For each screen
-│                       │      │                   cell it walks the cell's chars[] array with no upper bound,
-│                       │      │                   stopping only when it encounters a NUL terminator. When a
-│                       │      │                   cell legitimately fills all VTERM_MAX_CHARS_PER_CELL (6)
-│                       │      │                   slots — a base character plus five combining marks — the
-│                       │      │                   bundled libvterm returns the array without a terminating
-│                       │      │                   NUL, so the loop reads past the fixed six-element array and
-│                       │      │                   appends the out-of-bounds values to a buffer reserved for
-│                       │      │                   only six characters. A program whose output is rendered
-│                       │      │                   inside a :terminal window can trigger this with a short byte
-│                       │      │                    sequence and no Vim scripting, leading to a crash. This
-│                       │      │                   issue has been patched in version 9.2.0565. 
-│                       │      ├ Severity        : UNKNOWN 
-│                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/63680c6d3d52477817b4
-│                       │      │                  │      9cd1a66e7aabe8a7aa19 
-│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0565 
-│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-47
-│                       │      │                         gw-8gc3-mgcm 
-│                       │      ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │      ╰ LastModifiedDate: 2026-06-11T20:56:29.653Z 
 │                       ├ [64] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │      ├ PkgID           : vim-common@9.2.0481-r0 
@@ -6453,7 +6467,59 @@
 │                       │      │                         p9-mwwx-7468 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │      ╰ LastModifiedDate: 2026-06-11T20:56:29.653Z 
-│                       ├ [65] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [65] ╭ VulnerabilityID : CVE-2026-52859 
+│                       │      ├ PkgID           : xxd@9.2.0481-r0 
+│                       │      ├ PkgName         : xxd 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       4.0_alpha20260127 
+│                       │      │                  ╰ UID : 9bf80ee0923e789f 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0567-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-52859 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:a054b985d40e41ac95ff06f5d040b45e44e758a14e84bc4264354
+│                       │      │                   c421e6e4a05 
+│                       │      ├ Title           : vim: Vim: Denial of Service via out-of-bounds write in
+│                       │      │                   terminal handling 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   version 9.2.0565, the update_snapshot() function in
+│                       │      │                   src/terminal.c copies the visible terminal screen into the
+│                       │      │                   scrollback buffer when a snapshot is taken. For each screen
+│                       │      │                   cell it walks the cell's chars[] array with no upper bound,
+│                       │      │                   stopping only when it encounters a NUL terminator. When a
+│                       │      │                   cell legitimately fills all VTERM_MAX_CHARS_PER_CELL (6)
+│                       │      │                   slots — a base character plus five combining marks — the
+│                       │      │                   bundled libvterm returns the array without a terminating
+│                       │      │                   NUL, so the loop reads past the fixed six-element array and
+│                       │      │                   appends the out-of-bounds values to a buffer reserved for
+│                       │      │                   only six characters. A program whose output is rendered
+│                       │      │                   inside a :terminal window can trigger this with a short byte
+│                       │      │                    sequence and no Vim scripting, leading to a crash. This
+│                       │      │                   issue has been patched in version 9.2.0565. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-52859 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/commit/63680c6d3d52477817b4
+│                       │      │                  │      9cd1a66e7aabe8a7aa19 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0565 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-47
+│                       │      │                  │      gw-8gc3-mgcm 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-52859 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
+│                       │      ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
+│                       │      ╰ LastModifiedDate: 2026-06-11T20:56:29.653Z 
+│                       ├ [66] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │      ├ PkgID           : xxd@9.2.0481-r0 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -6495,51 +6561,6 @@
 │                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-52
 │                       │      │                         mc-rq6p-rc7c 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
-│                       │      ╰ LastModifiedDate: 2026-06-11T20:56:29.653Z 
-│                       ├ [66] ╭ VulnerabilityID : CVE-2026-52859 
-│                       │      ├ PkgID           : xxd@9.2.0481-r0 
-│                       │      ├ PkgName         : xxd 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
-│                       │      │                  │       4.0_alpha20260127 
-│                       │      │                  ╰ UID : 9bf80ee0923e789f 
-│                       │      ├ InstalledVersion: 9.2.0481-r0 
-│                       │      ├ FixedVersion    : 9.2.0567-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
-│                       │      │                  │         9a8305ba35c82bf9229f 
-│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
-│                       │      │                            7ea46f72dd8aa890c14b 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-52859 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a054b985d40e41ac95ff06f5d040b45e44e758a14e84bc4264354
-│                       │      │                   c421e6e4a05 
-│                       │      ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │      │                   version 9.2. ... 
-│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
-│                       │      │                   version 9.2.0565, the update_snapshot() function in
-│                       │      │                   src/terminal.c copies the visible terminal screen into the
-│                       │      │                   scrollback buffer when a snapshot is taken. For each screen
-│                       │      │                   cell it walks the cell's chars[] array with no upper bound,
-│                       │      │                   stopping only when it encounters a NUL terminator. When a
-│                       │      │                   cell legitimately fills all VTERM_MAX_CHARS_PER_CELL (6)
-│                       │      │                   slots — a base character plus five combining marks — the
-│                       │      │                   bundled libvterm returns the array without a terminating
-│                       │      │                   NUL, so the loop reads past the fixed six-element array and
-│                       │      │                   appends the out-of-bounds values to a buffer reserved for
-│                       │      │                   only six characters. A program whose output is rendered
-│                       │      │                   inside a :terminal window can trigger this with a short byte
-│                       │      │                    sequence and no Vim scripting, leading to a crash. This
-│                       │      │                   issue has been patched in version 9.2.0565. 
-│                       │      ├ Severity        : UNKNOWN 
-│                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/63680c6d3d52477817b4
-│                       │      │                  │      9cd1a66e7aabe8a7aa19 
-│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0565 
-│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-47
-│                       │      │                         gw-8gc3-mgcm 
-│                       │      ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │      ╰ LastModifiedDate: 2026-06-11T20:56:29.653Z 
 │                       ╰ [67] ╭ VulnerabilityID : CVE-2026-52860 
 │                              ├ PkgID           : xxd@9.2.0481-r0 
