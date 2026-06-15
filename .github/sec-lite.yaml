@@ -4170,7 +4170,6 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
     - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
@@ -4183,11 +4182,10 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:10950
     - https://github.com/python/cpython/commit/57e88c1cf95e1481b94ae57abe1010469d47a6b4
     - https://github.com/python/cpython/commit/62ceb396fcbe69da1ded3702de586f4072b590dd
     - https://github.com/python/cpython/commit/d16ecc6c3626f0e2cc8f08c309c83934e8a979dd
@@ -4270,7 +4268,6 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
     - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
@@ -4283,11 +4280,10 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:10950
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
     - https://github.com/python/cpython/commit/642865ddf4b232da1f3b1f7abcfa3254c4bfe785
     - https://github.com/python/cpython/commit/af856a7177326ac25d9f66cc6dd28b554d914fee
@@ -4360,7 +4356,6 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
     - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
@@ -4373,11 +4368,10 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:10950
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
     - https://github.com/python/cpython/commit/876858c9f65d9ab656c7fa639f268ce7856d89dd
@@ -4454,7 +4448,6 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
     - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
@@ -4467,11 +4460,10 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:10950
     - https://github.com/python/cpython/commit/57e88c1cf95e1481b94ae57abe1010469d47a6b4
     - https://github.com/python/cpython/commit/62ceb396fcbe69da1ded3702de586f4072b590dd
     - https://github.com/python/cpython/commit/d16ecc6c3626f0e2cc8f08c309c83934e8a979dd
@@ -4554,7 +4546,6 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
     - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
@@ -4567,11 +4558,10 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:10950
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
     - https://github.com/python/cpython/commit/642865ddf4b232da1f3b1f7abcfa3254c4bfe785
     - https://github.com/python/cpython/commit/af856a7177326ac25d9f66cc6dd28b554d914fee
@@ -4644,7 +4634,6 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
     - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
@@ -4657,11 +4646,10 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:10950
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
     - https://github.com/python/cpython/commit/876858c9f65d9ab656c7fa639f268ce7856d89dd
@@ -4738,7 +4726,6 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
     - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
@@ -4751,11 +4738,10 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:10950
     - https://github.com/python/cpython/commit/57e88c1cf95e1481b94ae57abe1010469d47a6b4
     - https://github.com/python/cpython/commit/62ceb396fcbe69da1ded3702de586f4072b590dd
     - https://github.com/python/cpython/commit/d16ecc6c3626f0e2cc8f08c309c83934e8a979dd
@@ -4838,7 +4824,6 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
     - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
@@ -4851,11 +4836,10 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:10950
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
     - https://github.com/python/cpython/commit/642865ddf4b232da1f3b1f7abcfa3254c4bfe785
     - https://github.com/python/cpython/commit/af856a7177326ac25d9f66cc6dd28b554d914fee
@@ -4928,7 +4912,6 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
     - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
@@ -4941,11 +4924,10 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:10950
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
     - https://github.com/python/cpython/commit/876858c9f65d9ab656c7fa639f268ce7856d89dd
@@ -5022,7 +5004,6 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
     - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
@@ -5035,11 +5016,10 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:10950
     - https://github.com/python/cpython/commit/57e88c1cf95e1481b94ae57abe1010469d47a6b4
     - https://github.com/python/cpython/commit/62ceb396fcbe69da1ded3702de586f4072b590dd
     - https://github.com/python/cpython/commit/d16ecc6c3626f0e2cc8f08c309c83934e8a979dd
@@ -5122,7 +5102,6 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
     - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
@@ -5135,11 +5114,10 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:10950
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
     - https://github.com/python/cpython/commit/642865ddf4b232da1f3b1f7abcfa3254c4bfe785
     - https://github.com/python/cpython/commit/af856a7177326ac25d9f66cc6dd28b554d914fee
@@ -5212,7 +5190,6 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2444691
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2448181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2449649
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457409
     - https://bugzilla.redhat.com/show_bug.cgi?id=2457932
     - https://bugzilla.redhat.com/show_bug.cgi?id=2458049
@@ -5225,11 +5202,10 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2297
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4224
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4519
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:10950
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
     - https://github.com/python/cpython/commit/876858c9f65d9ab656c7fa639f268ce7856d89dd
@@ -5243,6 +5219,73 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-2297
     PublishedDate: '2026-03-04T23:16:10.757Z'
     LastModifiedDate: '2026-05-01T16:16:30.11Z'
+  - VulnerabilityID: CVE-2026-52858
+    PkgID: vim@9.2.0481-r0
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: c50fb887bd647561
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0498-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-52858
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:7f20c992e08709f493ed6fc732df3f60844677c2c652f849648c92afa01793f2
+    Title: Vim is an open source, command line text editor. Prior to version 9.2. ...
+    Description: Vim is an open source, command line text editor. Prior to version 9.2.0561, the Python omni-completion script in python3complete.vim for Vim with the +python3 interpreter enabled (and the legacy pythoncomplete.vim for builds with the +python interpreter) executes the import and from statements found in the current buffer through Python's import machinery. Because the buffer's working directory is on sys.path, opening a hostile .py file with a sibling Python package and invoking omni-completion runs that package's top-level code as the editing user. This issue has been patched in version 9.2.0561.
+    Severity: HIGH
+    CweIDs:
+    - CWE-94
+    - CWE-95
+    - CWE-829
+    VendorSeverity:
+      azure: 3
+    References:
+    - https://github.com/vim/vim/commit/4b850457e12e1a678dd209f2868154f7553cbf8d
+    - https://github.com/vim/vim/releases/tag/v9.2.0561
+    - https://github.com/vim/vim/security/advisories/GHSA-52mc-rq6p-rc7c
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-52858
+    PublishedDate: '2026-06-11T19:16:47.487Z'
+    LastModifiedDate: '2026-06-11T20:56:29.653Z'
+  - VulnerabilityID: CVE-2026-52860
+    PkgID: vim@9.2.0481-r0
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: c50fb887bd647561
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0602-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-52860
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:f7bfc7ffa7c13736924d94fa50b7cc12aa205fb72b1193c30b31991759f3c814
+    Title: Vim is an open source, command line text editor. Prior to version 9.2. ...
+    Description: Vim is an open source, command line text editor. Prior to version 9.2.0597, Vim's Python omni-completion executes reconstructed function and class definitions from the current buffer with exec() as part of populating the completion dictionary. Python evaluates function default values, parameter annotations, and class base expressions at definition time, so a hostile buffer can execute attacker-controlled Python expressions during omni-completion. The existing g:pythoncomplete_allow_import mitigation (GHSA-52mc-rq6p-rc7c) does not cover this path, because the attacker-controlled code is not a harvested import/from statement. This issue has been patched in version 9.2.0597.
+    Severity: HIGH
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      azure: 3
+    References:
+    - https://github.com/vim/vim/commit/c8c63673bc4253212820626aeeb75999d9a539d2
+    - https://github.com/vim/vim/releases/tag/v9.2.0597
+    - https://github.com/vim/vim/security/advisories/GHSA-52mc-rq6p-rc7c
+    - https://github.com/vim/vim/security/advisories/GHSA-65p9-mwwx-7468
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-52860
+    PublishedDate: '2026-06-11T19:16:47.773Z'
+    LastModifiedDate: '2026-06-11T20:56:29.653Z'
   - VulnerabilityID: CVE-2026-52859
     PkgID: vim@9.2.0481-r0
     PkgName: vim
@@ -5267,105 +5310,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      redhat: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2026-52859
-    - https://github.com/vim/vim/commit/63680c6d3d52477817b49cd1a66e7aabe8a7aa19
-    - https://github.com/vim/vim/releases/tag/v9.2.0565
-    - https://github.com/vim/vim/security/advisories/GHSA-47gw-8gc3-mgcm
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-52859
-    - https://www.cve.org/CVERecord?id=CVE-2026-52859
-    PublishedDate: '2026-06-11T19:16:47.627Z'
-    LastModifiedDate: '2026-06-11T20:56:29.653Z'
-  - VulnerabilityID: CVE-2026-52858
-    PkgID: vim@9.2.0481-r0
-    PkgName: vim
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: c50fb887bd647561
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0498-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-52858
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:7f20c992e08709f493ed6fc732df3f60844677c2c652f849648c92afa01793f2
-    Title: Vim is an open source, command line text editor. Prior to version 9.2. ...
-    Description: Vim is an open source, command line text editor. Prior to version 9.2.0561, the Python omni-completion script in python3complete.vim for Vim with the +python3 interpreter enabled (and the legacy pythoncomplete.vim for builds with the +python interpreter) executes the import and from statements found in the current buffer through Python's import machinery. Because the buffer's working directory is on sys.path, opening a hostile .py file with a sibling Python package and invoking omni-completion runs that package's top-level code as the editing user. This issue has been patched in version 9.2.0561.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-94
-    - CWE-95
-    - CWE-829
-    References:
-    - https://github.com/vim/vim/commit/4b850457e12e1a678dd209f2868154f7553cbf8d
-    - https://github.com/vim/vim/releases/tag/v9.2.0561
-    - https://github.com/vim/vim/security/advisories/GHSA-52mc-rq6p-rc7c
-    PublishedDate: '2026-06-11T19:16:47.487Z'
-    LastModifiedDate: '2026-06-11T20:56:29.653Z'
-  - VulnerabilityID: CVE-2026-52860
-    PkgID: vim@9.2.0481-r0
-    PkgName: vim
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: c50fb887bd647561
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0602-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-52860
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:f7bfc7ffa7c13736924d94fa50b7cc12aa205fb72b1193c30b31991759f3c814
-    Title: Vim is an open source, command line text editor. Prior to version 9.2. ...
-    Description: Vim is an open source, command line text editor. Prior to version 9.2.0597, Vim's Python omni-completion executes reconstructed function and class definitions from the current buffer with exec() as part of populating the completion dictionary. Python evaluates function default values, parameter annotations, and class base expressions at definition time, so a hostile buffer can execute attacker-controlled Python expressions during omni-completion. The existing g:pythoncomplete_allow_import mitigation (GHSA-52mc-rq6p-rc7c) does not cover this path, because the attacker-controlled code is not a harvested import/from statement. This issue has been patched in version 9.2.0597.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-94
-    References:
-    - https://github.com/vim/vim/commit/c8c63673bc4253212820626aeeb75999d9a539d2
-    - https://github.com/vim/vim/releases/tag/v9.2.0597
-    - https://github.com/vim/vim/security/advisories/GHSA-52mc-rq6p-rc7c
-    - https://github.com/vim/vim/security/advisories/GHSA-65p9-mwwx-7468
-    PublishedDate: '2026-06-11T19:16:47.773Z'
-    LastModifiedDate: '2026-06-11T20:56:29.653Z'
-  - VulnerabilityID: CVE-2026-52859
-    PkgID: vim-common@9.2.0481-r0
-    PkgName: vim-common
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: c697e713a1220c37
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0567-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-52859
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:4918e93e5e4d7478ae57c210d8cf47b7a449505f59b7c3fefece76590ec7931f
-    Title: 'vim: Vim: Denial of Service via out-of-bounds write in terminal handling'
-    Description: Vim is an open source, command line text editor. Prior to version 9.2.0565, the update_snapshot() function in src/terminal.c copies the visible terminal screen into the scrollback buffer when a snapshot is taken. For each screen cell it walks the cell's chars[] array with no upper bound, stopping only when it encounters a NUL terminator. When a cell legitimately fills all VTERM_MAX_CHARS_PER_CELL (6) slots — a base character plus five combining marks — the bundled libvterm returns the array without a terminating NUL, so the loop reads past the fixed six-element array and appends the out-of-bounds values to a buffer reserved for only six characters. A program whose output is rendered inside a :terminal window can trigger this with a short byte sequence and no Vim scripting, leading to a crash. This issue has been patched in version 9.2.0565.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-125
-    VendorSeverity:
+      azure: 2
       redhat: 2
     CVSS:
       redhat:
@@ -5400,15 +5345,18 @@
     Fingerprint: sha256:d52072c677d30df6ef7c7350847eb7182ff1e380ea00779bc59d8aacfc860344
     Title: Vim is an open source, command line text editor. Prior to version 9.2. ...
     Description: Vim is an open source, command line text editor. Prior to version 9.2.0561, the Python omni-completion script in python3complete.vim for Vim with the +python3 interpreter enabled (and the legacy pythoncomplete.vim for builds with the +python interpreter) executes the import and from statements found in the current buffer through Python's import machinery. Because the buffer's working directory is on sys.path, opening a hostile .py file with a sibling Python package and invoking omni-completion runs that package's top-level code as the editing user. This issue has been patched in version 9.2.0561.
-    Severity: UNKNOWN
+    Severity: HIGH
     CweIDs:
     - CWE-94
     - CWE-95
     - CWE-829
+    VendorSeverity:
+      azure: 3
     References:
     - https://github.com/vim/vim/commit/4b850457e12e1a678dd209f2868154f7553cbf8d
     - https://github.com/vim/vim/releases/tag/v9.2.0561
     - https://github.com/vim/vim/security/advisories/GHSA-52mc-rq6p-rc7c
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-52858
     PublishedDate: '2026-06-11T19:16:47.487Z'
     LastModifiedDate: '2026-06-11T20:56:29.653Z'
   - VulnerabilityID: CVE-2026-52860
@@ -5431,22 +5379,25 @@
     Fingerprint: sha256:bc3607995e48ded7b54497a182eb3f1cbbad3a35a13cd3ff3e7ac05fde812adb
     Title: Vim is an open source, command line text editor. Prior to version 9.2. ...
     Description: Vim is an open source, command line text editor. Prior to version 9.2.0597, Vim's Python omni-completion executes reconstructed function and class definitions from the current buffer with exec() as part of populating the completion dictionary. Python evaluates function default values, parameter annotations, and class base expressions at definition time, so a hostile buffer can execute attacker-controlled Python expressions during omni-completion. The existing g:pythoncomplete_allow_import mitigation (GHSA-52mc-rq6p-rc7c) does not cover this path, because the attacker-controlled code is not a harvested import/from statement. This issue has been patched in version 9.2.0597.
-    Severity: UNKNOWN
+    Severity: HIGH
     CweIDs:
     - CWE-94
+    VendorSeverity:
+      azure: 3
     References:
     - https://github.com/vim/vim/commit/c8c63673bc4253212820626aeeb75999d9a539d2
     - https://github.com/vim/vim/releases/tag/v9.2.0597
     - https://github.com/vim/vim/security/advisories/GHSA-52mc-rq6p-rc7c
     - https://github.com/vim/vim/security/advisories/GHSA-65p9-mwwx-7468
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-52860
     PublishedDate: '2026-06-11T19:16:47.773Z'
     LastModifiedDate: '2026-06-11T20:56:29.653Z'
   - VulnerabilityID: CVE-2026-52859
-    PkgID: xxd@9.2.0481-r0
-    PkgName: xxd
+    PkgID: vim-common@9.2.0481-r0
+    PkgName: vim-common
     PkgIdentifier:
-      PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: 9bf80ee0923e789f
+      PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: c697e713a1220c37
     InstalledVersion: 9.2.0481-r0
     FixedVersion: 9.2.0567-r0
     Status: fixed
@@ -5458,13 +5409,14 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:a054b985d40e41ac95ff06f5d040b45e44e758a14e84bc4264354c421e6e4a05
+    Fingerprint: sha256:4918e93e5e4d7478ae57c210d8cf47b7a449505f59b7c3fefece76590ec7931f
     Title: 'vim: Vim: Denial of Service via out-of-bounds write in terminal handling'
     Description: Vim is an open source, command line text editor. Prior to version 9.2.0565, the update_snapshot() function in src/terminal.c copies the visible terminal screen into the scrollback buffer when a snapshot is taken. For each screen cell it walks the cell's chars[] array with no upper bound, stopping only when it encounters a NUL terminator. When a cell legitimately fills all VTERM_MAX_CHARS_PER_CELL (6) slots — a base character plus five combining marks — the bundled libvterm returns the array without a terminating NUL, so the loop reads past the fixed six-element array and appends the out-of-bounds values to a buffer reserved for only six characters. A program whose output is rendered inside a :terminal window can trigger this with a short byte sequence and no Vim scripting, leading to a crash. This issue has been patched in version 9.2.0565.
     Severity: MEDIUM
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
       redhat: 2
     CVSS:
       redhat:
@@ -5499,15 +5451,18 @@
     Fingerprint: sha256:9fcf4592eb392c88dcc45156ce0918c16c170aba4e73ac137321cc01ce0b9853
     Title: Vim is an open source, command line text editor. Prior to version 9.2. ...
     Description: Vim is an open source, command line text editor. Prior to version 9.2.0561, the Python omni-completion script in python3complete.vim for Vim with the +python3 interpreter enabled (and the legacy pythoncomplete.vim for builds with the +python interpreter) executes the import and from statements found in the current buffer through Python's import machinery. Because the buffer's working directory is on sys.path, opening a hostile .py file with a sibling Python package and invoking omni-completion runs that package's top-level code as the editing user. This issue has been patched in version 9.2.0561.
-    Severity: UNKNOWN
+    Severity: HIGH
     CweIDs:
     - CWE-94
     - CWE-95
     - CWE-829
+    VendorSeverity:
+      azure: 3
     References:
     - https://github.com/vim/vim/commit/4b850457e12e1a678dd209f2868154f7553cbf8d
     - https://github.com/vim/vim/releases/tag/v9.2.0561
     - https://github.com/vim/vim/security/advisories/GHSA-52mc-rq6p-rc7c
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-52858
     PublishedDate: '2026-06-11T19:16:47.487Z'
     LastModifiedDate: '2026-06-11T20:56:29.653Z'
   - VulnerabilityID: CVE-2026-52860
@@ -5530,15 +5485,57 @@
     Fingerprint: sha256:9cf740e61294be5f00b8c28ac47f963d2c4810e2b1198e4fecf888deb953b459
     Title: Vim is an open source, command line text editor. Prior to version 9.2. ...
     Description: Vim is an open source, command line text editor. Prior to version 9.2.0597, Vim's Python omni-completion executes reconstructed function and class definitions from the current buffer with exec() as part of populating the completion dictionary. Python evaluates function default values, parameter annotations, and class base expressions at definition time, so a hostile buffer can execute attacker-controlled Python expressions during omni-completion. The existing g:pythoncomplete_allow_import mitigation (GHSA-52mc-rq6p-rc7c) does not cover this path, because the attacker-controlled code is not a harvested import/from statement. This issue has been patched in version 9.2.0597.
-    Severity: UNKNOWN
+    Severity: HIGH
     CweIDs:
     - CWE-94
+    VendorSeverity:
+      azure: 3
     References:
     - https://github.com/vim/vim/commit/c8c63673bc4253212820626aeeb75999d9a539d2
     - https://github.com/vim/vim/releases/tag/v9.2.0597
     - https://github.com/vim/vim/security/advisories/GHSA-52mc-rq6p-rc7c
     - https://github.com/vim/vim/security/advisories/GHSA-65p9-mwwx-7468
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-52860
     PublishedDate: '2026-06-11T19:16:47.773Z'
+    LastModifiedDate: '2026-06-11T20:56:29.653Z'
+  - VulnerabilityID: CVE-2026-52859
+    PkgID: xxd@9.2.0481-r0
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9bf80ee0923e789f
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0567-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-52859
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:a054b985d40e41ac95ff06f5d040b45e44e758a14e84bc4264354c421e6e4a05
+    Title: 'vim: Vim: Denial of Service via out-of-bounds write in terminal handling'
+    Description: Vim is an open source, command line text editor. Prior to version 9.2.0565, the update_snapshot() function in src/terminal.c copies the visible terminal screen into the scrollback buffer when a snapshot is taken. For each screen cell it walks the cell's chars[] array with no upper bound, stopping only when it encounters a NUL terminator. When a cell legitimately fills all VTERM_MAX_CHARS_PER_CELL (6) slots — a base character plus five combining marks — the bundled libvterm returns the array without a terminating NUL, so the loop reads past the fixed six-element array and appends the out-of-bounds values to a buffer reserved for only six characters. A program whose output is rendered inside a :terminal window can trigger this with a short byte sequence and no Vim scripting, leading to a crash. This issue has been patched in version 9.2.0565.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      azure: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-52859
+    - https://github.com/vim/vim/commit/63680c6d3d52477817b49cd1a66e7aabe8a7aa19
+    - https://github.com/vim/vim/releases/tag/v9.2.0565
+    - https://github.com/vim/vim/security/advisories/GHSA-47gw-8gc3-mgcm
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-52859
+    - https://www.cve.org/CVERecord?id=CVE-2026-52859
+    PublishedDate: '2026-06-11T19:16:47.627Z'
     LastModifiedDate: '2026-06-11T20:56:29.653Z'
 - Target: Java
   Class: lang-pkgs
