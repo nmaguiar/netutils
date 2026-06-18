@@ -705,24 +705,30 @@
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20587 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-4046 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2453117 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2453117 
-│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2449777 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2449783 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2453117 
+│                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4046 
-│                       │       │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2026-20587.html 
-│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2026:20594 
-│                       │       │                  ├ [7] : https://inbox.sourceware.org/libc-announce/76814edf-
+│                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4437 
+│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4438 
+│                       │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2026-20587.html 
+│                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:20597 
+│                       │       │                  ├ [11]: https://inbox.sourceware.org/libc-announce/76814edf-
 │                       │       │                  │       cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u 
-│                       │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2026-4046.html 
-│                       │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2026-50291.html 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-4046 
-│                       │       │                  ├ [11]: https://packages.fedoraproject.org/pkgs/glibc/glibc-
+│                       │       │                  ├ [12]: https://linux.oracle.com/cve/CVE-2026-4046.html 
+│                       │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-50291.html 
+│                       │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2026-4046 
+│                       │       │                  ├ [15]: https://packages.fedoraproject.org/pkgs/glibc/glibc-
 │                       │       │                  │       gconv-extra/ 
-│                       │       │                  ├ [12]: https://sourceware.org/bugzilla/show_bug.cgi?id=33980 
-│                       │       │                  ├ [13]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
+│                       │       │                  ├ [16]: https://sourceware.org/bugzilla/show_bug.cgi?id=33980 
+│                       │       │                  ├ [17]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
 │                       │       │                  │       ;f=advisories/GLIBC-SA-2026-0007 
-│                       │       │                  ├ [14]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
+│                       │       │                  ├ [18]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
 │                       │       │                  │       ;f=advisories/GLIBC-SA-2026-0007;hb=HEAD 
-│                       │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2026-4046 
+│                       │       │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2026-4046 
 │                       │       ├ PublishedDate   : 2026-03-30T18:16:19.573Z 
 │                       │       ╰ LastModifiedDate: 2026-04-20T22:16:23.623Z 
 │                       ├ [12]  ╭ VulnerabilityID : CVE-2026-4437 
@@ -770,16 +776,19 @@
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2449783 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2449777 
 │                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2449783 
-│                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4437 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2453117 
 │                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4046 
+│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4437 
+│                       │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4438 
-│                       │       │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2026-19061.html 
-│                       │       │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:19061 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-4437 
-│                       │       │                  ├ [11]: https://sourceware.org/bugzilla/show_bug.cgi?id=34014 
-│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2026-4437 
-│                       │       │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2026/03/
+│                       │       │                  ├ [10]: https://errata.almalinux.org/10/ALSA-2026-19061.html 
+│                       │       │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:20597 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-4437 
+│                       │       │                  ├ [13]: https://sourceware.org/bugzilla/show_bug.cgi?id=34014 
+│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2026-4437 
+│                       │       │                  ╰ [15]: https://www.openwall.com/lists/oss-security/2026/03/
 │                       │       │                          23/2 
 │                       │       ├ PublishedDate   : 2026-03-20T20:16:49.477Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:41:36.647Z 
@@ -827,16 +836,19 @@
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2449783 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2449777 
 │                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2449783 
-│                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4437 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2453117 
 │                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4046 
+│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4437 
+│                       │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4438 
-│                       │       │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2026-19061.html 
-│                       │       │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:19061 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-4438 
-│                       │       │                  ├ [11]: https://sourceware.org/bugzilla/show_bug.cgi?id=34015 
-│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2026-4438 
-│                       │       │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2026/03/
+│                       │       │                  ├ [10]: https://errata.almalinux.org/10/ALSA-2026-19061.html 
+│                       │       │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:20597 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-4438 
+│                       │       │                  ├ [13]: https://sourceware.org/bugzilla/show_bug.cgi?id=34015 
+│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2026-4438 
+│                       │       │                  ╰ [15]: https://www.openwall.com/lists/oss-security/2026/03/
 │                       │       │                          23/2 
 │                       │       ├ PublishedDate   : 2026-03-20T20:16:49.623Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:40:02.177Z 
@@ -983,24 +995,30 @@
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20587 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-4046 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2453117 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2453117 
-│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2449777 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2449783 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2453117 
+│                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4046 
-│                       │       │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2026-20587.html 
-│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2026:20594 
-│                       │       │                  ├ [7] : https://inbox.sourceware.org/libc-announce/76814edf-
+│                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4437 
+│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4438 
+│                       │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2026-20587.html 
+│                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:20597 
+│                       │       │                  ├ [11]: https://inbox.sourceware.org/libc-announce/76814edf-
 │                       │       │                  │       cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u 
-│                       │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2026-4046.html 
-│                       │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2026-50291.html 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-4046 
-│                       │       │                  ├ [11]: https://packages.fedoraproject.org/pkgs/glibc/glibc-
+│                       │       │                  ├ [12]: https://linux.oracle.com/cve/CVE-2026-4046.html 
+│                       │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-50291.html 
+│                       │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2026-4046 
+│                       │       │                  ├ [15]: https://packages.fedoraproject.org/pkgs/glibc/glibc-
 │                       │       │                  │       gconv-extra/ 
-│                       │       │                  ├ [12]: https://sourceware.org/bugzilla/show_bug.cgi?id=33980 
-│                       │       │                  ├ [13]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
+│                       │       │                  ├ [16]: https://sourceware.org/bugzilla/show_bug.cgi?id=33980 
+│                       │       │                  ├ [17]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
 │                       │       │                  │       ;f=advisories/GLIBC-SA-2026-0007 
-│                       │       │                  ├ [14]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
+│                       │       │                  ├ [18]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
 │                       │       │                  │       ;f=advisories/GLIBC-SA-2026-0007;hb=HEAD 
-│                       │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2026-4046 
+│                       │       │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2026-4046 
 │                       │       ├ PublishedDate   : 2026-03-30T18:16:19.573Z 
 │                       │       ╰ LastModifiedDate: 2026-04-20T22:16:23.623Z 
 │                       ├ [17]  ╭ VulnerabilityID : CVE-2026-4437 
@@ -1048,16 +1066,19 @@
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2449783 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2449777 
 │                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2449783 
-│                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4437 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2453117 
 │                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4046 
+│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4437 
+│                       │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4438 
-│                       │       │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2026-19061.html 
-│                       │       │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:19061 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-4437 
-│                       │       │                  ├ [11]: https://sourceware.org/bugzilla/show_bug.cgi?id=34014 
-│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2026-4437 
-│                       │       │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2026/03/
+│                       │       │                  ├ [10]: https://errata.almalinux.org/10/ALSA-2026-19061.html 
+│                       │       │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:20597 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-4437 
+│                       │       │                  ├ [13]: https://sourceware.org/bugzilla/show_bug.cgi?id=34014 
+│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2026-4437 
+│                       │       │                  ╰ [15]: https://www.openwall.com/lists/oss-security/2026/03/
 │                       │       │                          23/2 
 │                       │       ├ PublishedDate   : 2026-03-20T20:16:49.477Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:41:36.647Z 
@@ -1105,16 +1126,19 @@
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2449783 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2449777 
 │                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2449783 
-│                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4437 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2453117 
 │                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4046 
+│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4437 
+│                       │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4438 
-│                       │       │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2026-19061.html 
-│                       │       │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:19061 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-4438 
-│                       │       │                  ├ [11]: https://sourceware.org/bugzilla/show_bug.cgi?id=34015 
-│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2026-4438 
-│                       │       │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2026/03/
+│                       │       │                  ├ [10]: https://errata.almalinux.org/10/ALSA-2026-19061.html 
+│                       │       │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:20597 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-4438 
+│                       │       │                  ├ [13]: https://sourceware.org/bugzilla/show_bug.cgi?id=34015 
+│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2026-4438 
+│                       │       │                  ╰ [15]: https://www.openwall.com/lists/oss-security/2026/03/
 │                       │       │                          23/2 
 │                       │       ├ PublishedDate   : 2026-03-20T20:16:49.623Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:40:02.177Z 
@@ -1261,24 +1285,30 @@
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20587 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-4046 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2453117 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2453117 
-│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2449777 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2449783 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2453117 
+│                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4046 
-│                       │       │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2026-20587.html 
-│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2026:20594 
-│                       │       │                  ├ [7] : https://inbox.sourceware.org/libc-announce/76814edf-
+│                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4437 
+│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4438 
+│                       │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2026-20587.html 
+│                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:20597 
+│                       │       │                  ├ [11]: https://inbox.sourceware.org/libc-announce/76814edf-
 │                       │       │                  │       cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u 
-│                       │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2026-4046.html 
-│                       │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2026-50291.html 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-4046 
-│                       │       │                  ├ [11]: https://packages.fedoraproject.org/pkgs/glibc/glibc-
+│                       │       │                  ├ [12]: https://linux.oracle.com/cve/CVE-2026-4046.html 
+│                       │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-50291.html 
+│                       │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2026-4046 
+│                       │       │                  ├ [15]: https://packages.fedoraproject.org/pkgs/glibc/glibc-
 │                       │       │                  │       gconv-extra/ 
-│                       │       │                  ├ [12]: https://sourceware.org/bugzilla/show_bug.cgi?id=33980 
-│                       │       │                  ├ [13]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
+│                       │       │                  ├ [16]: https://sourceware.org/bugzilla/show_bug.cgi?id=33980 
+│                       │       │                  ├ [17]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
 │                       │       │                  │       ;f=advisories/GLIBC-SA-2026-0007 
-│                       │       │                  ├ [14]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
+│                       │       │                  ├ [18]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
 │                       │       │                  │       ;f=advisories/GLIBC-SA-2026-0007;hb=HEAD 
-│                       │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2026-4046 
+│                       │       │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2026-4046 
 │                       │       ├ PublishedDate   : 2026-03-30T18:16:19.573Z 
 │                       │       ╰ LastModifiedDate: 2026-04-20T22:16:23.623Z 
 │                       ├ [22]  ╭ VulnerabilityID : CVE-2026-4437 
@@ -1326,16 +1356,19 @@
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2449783 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2449777 
 │                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2449783 
-│                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4437 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2453117 
 │                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4046 
+│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4437 
+│                       │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4438 
-│                       │       │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2026-19061.html 
-│                       │       │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:19061 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-4437 
-│                       │       │                  ├ [11]: https://sourceware.org/bugzilla/show_bug.cgi?id=34014 
-│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2026-4437 
-│                       │       │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2026/03/
+│                       │       │                  ├ [10]: https://errata.almalinux.org/10/ALSA-2026-19061.html 
+│                       │       │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:20597 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-4437 
+│                       │       │                  ├ [13]: https://sourceware.org/bugzilla/show_bug.cgi?id=34014 
+│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2026-4437 
+│                       │       │                  ╰ [15]: https://www.openwall.com/lists/oss-security/2026/03/
 │                       │       │                          23/2 
 │                       │       ├ PublishedDate   : 2026-03-20T20:16:49.477Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:41:36.647Z 
@@ -1383,16 +1416,19 @@
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2449783 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2449777 
 │                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2449783 
-│                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4437 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2453117 
 │                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4046 
+│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4437 
+│                       │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4438 
-│                       │       │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2026-19061.html 
-│                       │       │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:19061 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-4438 
-│                       │       │                  ├ [11]: https://sourceware.org/bugzilla/show_bug.cgi?id=34015 
-│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2026-4438 
-│                       │       │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2026/03/
+│                       │       │                  ├ [10]: https://errata.almalinux.org/10/ALSA-2026-19061.html 
+│                       │       │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:20597 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-4438 
+│                       │       │                  ├ [13]: https://sourceware.org/bugzilla/show_bug.cgi?id=34015 
+│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2026-4438 
+│                       │       │                  ╰ [15]: https://www.openwall.com/lists/oss-security/2026/03/
 │                       │       │                          23/2 
 │                       │       ├ PublishedDate   : 2026-03-20T20:16:49.623Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:40:02.177Z 
@@ -1938,7 +1974,44 @@
 │                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                       │       ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [34]  ╭ VulnerabilityID : CVE-2019-9514 
+│                       ├ [34]  ╭ VulnerabilityID : CVE-2026-50593 
+│                       │       ├ PkgID           : libgraphite2-3@1.3.14-11ubuntu1 
+│                       │       ├ PkgName         : libgraphite2-3 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgraphite2-3@1.3.14-11ubuntu1?arch=
+│                       │       │                  │       amd64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 83e1a19930957dfa 
+│                       │       ├ InstalledVersion: 1.3.14-11ubuntu1 
+│                       │       ├ FixedVersion    : 1.3.14-11ubuntu1.1 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-50593 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:88cc7c6ac0365c1eae4fc7060d61940dbdf30ccc8d50eb09aa5c
+│                       │       │                   d5e633450711 
+│                       │       ├ Title           : Graphite before 1.3.15 has an integer underflow and
+│                       │       │                   resultant out-of-b ... 
+│                       │       ├ Description     : Graphite before 1.3.15 has an integer underflow and
+│                       │       │                   resultant out-of-bounds write via Graphite actions, because
+│                       │       │                    slotat does not ensure that an offset is within the
+│                       │       │                   allowed slot-map range. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-191 
+│                       │       ├ VendorSeverity   ─ ubuntu: 2 
+│                       │       ├ References       ╭ [0]: https://github.com/silnrsi/graphite/commit/ad78c6b731
+│                       │       │                  │      9909e1540c1b134e115ced03417866 
+│                       │       │                  ├ [1]: https://github.com/silnrsi/graphite/compare/1.3.14...
+│                       │       │                  │      1.3.15 
+│                       │       │                  ├ [2]: https://ubuntu.com/security/notices/USN-8444-1 
+│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-50593 
+│                       │       ├ PublishedDate   : 2026-06-05T04:17:15.01Z 
+│                       │       ╰ LastModifiedDate: 2026-06-05T16:06:10.94Z 
+│                       ├ [35]  ╭ VulnerabilityID : CVE-2019-9514 
 │                       │       ├ PkgID           : libgrpc++1.51t64@1.51.1-8ubuntu1 
 │                       │       ├ PkgName         : libgrpc++1.51t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgrpc%2B%2B1.51t64@1.51.1-8ubuntu1?
@@ -2160,7 +2233,7 @@
 │                       │       │                           _SA_19_33 
 │                       │       ├ PublishedDate   : 2019-08-13T21:15:12.443Z 
 │                       │       ╰ LastModifiedDate: 2025-01-14T19:29:55.853Z 
-│                       ├ [35]  ╭ VulnerabilityID : CVE-2019-9515 
+│                       ├ [36]  ╭ VulnerabilityID : CVE-2019-9515 
 │                       │       ├ PkgID           : libgrpc++1.51t64@1.51.1-8ubuntu1 
 │                       │       ├ PkgName         : libgrpc++1.51t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgrpc%2B%2B1.51t64@1.51.1-8ubuntu1?
@@ -2309,7 +2382,7 @@
 │                       │       │                          SA_19_33 
 │                       │       ├ PublishedDate   : 2019-08-13T21:15:12.52Z 
 │                       │       ╰ LastModifiedDate: 2025-01-14T19:29:55.853Z 
-│                       ├ [36]  ╭ VulnerabilityID : CVE-2019-9514 
+│                       ├ [37]  ╭ VulnerabilityID : CVE-2019-9514 
 │                       │       ├ PkgID           : libgrpc29t64@1.51.1-8ubuntu1 
 │                       │       ├ PkgName         : libgrpc29t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgrpc29t64@1.51.1-8ubuntu1?arch=amd
@@ -2531,7 +2604,7 @@
 │                       │       │                           _SA_19_33 
 │                       │       ├ PublishedDate   : 2019-08-13T21:15:12.443Z 
 │                       │       ╰ LastModifiedDate: 2025-01-14T19:29:55.853Z 
-│                       ├ [37]  ╭ VulnerabilityID : CVE-2019-9515 
+│                       ├ [38]  ╭ VulnerabilityID : CVE-2019-9515 
 │                       │       ├ PkgID           : libgrpc29t64@1.51.1-8ubuntu1 
 │                       │       ├ PkgName         : libgrpc29t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgrpc29t64@1.51.1-8ubuntu1?arch=amd
@@ -2680,7 +2753,342 @@
 │                       │       │                          SA_19_33 
 │                       │       ├ PublishedDate   : 2019-08-13T21:15:12.52Z 
 │                       │       ╰ LastModifiedDate: 2025-01-14T19:29:55.853Z 
-│                       ├ [38]  ╭ VulnerabilityID : CVE-2026-3950 
+│                       ├ [39]  ╭ VulnerabilityID : CVE-2026-32738 
+│                       │       ├ PkgID           : libheif-plugin-aomdec@1.21.2-3 
+│                       │       ├ PkgName         : libheif-plugin-aomdec 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3?arch=a
+│                       │       │                  │       md64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : f17c429548582636 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32738 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:872d683124441f72a2af105d62b3930283c382bc51e1465bbacd
+│                       │       │                   9a761e6763cd 
+│                       │       ├ Title           : libheif: libheif: Unsigned integer underflow leads to
+│                       │       │                   Denial of Service 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In versions 1.21.2 and below, a crafted 792-byte HEIF
+│                       │       │                   sequence file with samples_per_chunk=0 in the stsc box
+│                       │       │                   causes an unsigned integer underflow in the Chunk
+│                       │       │                   constructor (m_last_sample = 0 + 0 - 1 = UINT32_MAX),
+│                       │       │                   mapping all samples to an empty chunk and resulting in a
+│                       │       │                   denial of service. When any sample is accessed, the library
+│                       │       │                    reads from index 0 of an empty std::vector, causing a
+│                       │       │                   guaranteed SEGV (null-page read). The file parses
+│                       │       │                   successfully without producing an error; the crash occurs
+│                       │       │                   on the first frame access. This issue has been fixed in
+│                       │       │                   version 1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ╭ [0]: CWE-125 
+│                       │       │                  ╰ [1]: CWE-476 
+│                       │       ├ VendorSeverity   ╭ julia : 2 
+│                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                  │        │           N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.5 
+│                       │       │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                  │        │           N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32738 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-7f2h-cmpf-v9ww 
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-32738 
+│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-32738 
+│                       │       ├ PublishedDate   : 2026-05-19T19:16:48.823Z 
+│                       │       ╰ LastModifiedDate: 2026-05-20T14:17:41.08Z 
+│                       ├ [40]  ╭ VulnerabilityID : CVE-2026-32739 
+│                       │       ├ PkgID           : libheif-plugin-aomdec@1.21.2-3 
+│                       │       ├ PkgName         : libheif-plugin-aomdec 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3?arch=a
+│                       │       │                  │       md64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : f17c429548582636 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32739 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:099ffc57e2fc480e201e6771482601c3c7c5d88374fa41c42437
+│                       │       │                   6a89f4c96748 
+│                       │       ├ Title           : libheif: libheif: Denial of Service via crafted HEIF
+│                       │       │                   sequence file 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In versions 1.21.2 and below, a crafted 800-byte HEIF
+│                       │       │                   sequence file causes an infinite loop in
+│                       │       │                   Box_stts::get_sample_duration(), consuming 100% CPU
+│                       │       │                   indefinitely with zero progress, leading to DoS. The loop
+│                       │       │                   has no iteration limit or timeout and is triggered during
+│                       │       │                   file open (parsing) - before any user interaction or image
+│                       │       │                   decoding. The process stays alive (no crash, no error
+│                       │       │                   logged), making it invisible to crash-based monitoring.
+│                       │       │                   This issue has been fixed in version 1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-835 
+│                       │       ├ VendorSeverity   ╭ julia : 2 
+│                       │       │                  ├ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                  │        │           N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32739 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-j9g7-q9hv-gq8c 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-32739 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-32739 
+│                       │       ├ PublishedDate   : 2026-05-19T20:16:18.78Z 
+│                       │       ╰ LastModifiedDate: 2026-05-20T14:17:13.74Z 
+│                       ├ [41]  ╭ VulnerabilityID : CVE-2026-32740 
+│                       │       ├ PkgID           : libheif-plugin-aomdec@1.21.2-3 
+│                       │       ├ PkgName         : libheif-plugin-aomdec 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3?arch=a
+│                       │       │                  │       md64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : f17c429548582636 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32740 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:aa1e31cb4f08bd2c4881aea056b2056bdaf9d23d8b588fa2e868
+│                       │       │                   08323005d719 
+│                       │       ├ Title           : libheif: libheif: Arbitrary code execution or denial of
+│                       │       │                   service via crafted HEIF/AVIF file 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    Versions 1.21.2 and prior contain a heap-buffer-overflow
+│                       │       │                   (write) vulnerability in the grid tile compositing,
+│                       │       │                   allowing an attacker to write 64 bytes of fully
+│                       │       │                   attacker-controlled data past the end of a chroma plane
+│                       │       │                   heap allocation by crafting a HEIF/AVIF file with a 1×4
+│                       │       │                   grid of odd-height tiles. The overflow is triggered during
+│                       │       │                   normal image decoding with default build configuration. The
+│                       │       │                    written bytes are chroma (Cb/Cr) pixel values from the
+│                       │       │                   attacking tile, giving the attacker full control over the
+│                       │       │                   overflow content. This issue has been fixed in version
+│                       │       │                   1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ julia : 3 
+│                       │       │                  ├ redhat: 3 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                  │        │           H/A:H 
+│                       │       │                  │        ╰ V3Score : 8.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 8.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32740 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-frfr-f3vg-2g6j 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-32740 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-32740 
+│                       │       ├ PublishedDate   : 2026-05-19T20:16:18.917Z 
+│                       │       ╰ LastModifiedDate: 2026-05-21T14:16:45Z 
+│                       ├ [42]  ╭ VulnerabilityID : CVE-2026-32741 
+│                       │       ├ PkgID           : libheif-plugin-aomdec@1.21.2-3 
+│                       │       ├ PkgName         : libheif-plugin-aomdec 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3?arch=a
+│                       │       │                  │       md64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : f17c429548582636 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32741 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:e62f1309ec7b8762c7978c108fb9ea2c7a0a9ab8566715abfe48
+│                       │       │                   1563a7d8141d 
+│                       │       ├ Title           : libheif: libheif: Heap buffer overflow vulnerability in
+│                       │       │                   image decoding 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    Versions 1.21.2 and below contain a heap buffer overflow
+│                       │       │                   in MaskImageCodec::decode_mask_image(). When decoding a
+│                       │       │                   HEIF file containing a mask image (mski), the function
+│                       │       │                   copies the full iloc extent data into a pixel buffer using
+│                       │       │                   memcpy(dst, data.data(), data.size()). The copy length
+│                       │       │                   data.size() is determined by the iloc extent in the file
+│                       │       │                   (attacker-controlled), while the destination buffer is
+│                       │       │                   sized based on the declared image dimensions. Because no
+│                       │       │                   upper-bound check exists on the data length, a crafted file
+│                       │       │                    whose iloc extent exceeds the pixel buffer allocation
+│                       │       │                   overflows the heap. The vulnerable single-memcpy branch is
+│                       │       │                   reached when the mskC property specifies bits_per_pixel = 8
+│                       │       │                    and the ispe property declares an even width ≥ 64 (so that
+│                       │       │                    stride == width), with no changes to default security
+│                       │       │                   limits or external codec plugins required. This issue has
+│                       │       │                   been fixed in version 1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-122 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ redhat: 3 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                           │           L/A:H 
+│                       │       │                           ╰ V3Score : 7.1 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32741 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-j3w5-7whq-p37q 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-32741 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-32741 
+│                       │       ├ PublishedDate   : 2026-05-19T21:16:42.073Z 
+│                       │       ╰ LastModifiedDate: 2026-05-20T17:16:21.133Z 
+│                       ├ [43]  ╭ VulnerabilityID : CVE-2026-32814 
+│                       │       ├ PkgID           : libheif-plugin-aomdec@1.21.2-3 
+│                       │       ├ PkgName         : libheif-plugin-aomdec 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3?arch=a
+│                       │       │                  │       md64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : f17c429548582636 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32814 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:14e112fcf08ebc511ea94a6d8f12c3e397a299165833d8e91551
+│                       │       │                   f93a0af02c06 
+│                       │       ├ Title           : libheif: libheif: Information Disclosure via Crafted
+│                       │       │                   HEIF/AVIF Files 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In versions 1.21.2 and prior, when decoding a HEIF grid
+│                       │       │                   image with strict_decoding=false (the default), a corrupted
+│                       │       │                    tile silently fails to decode and the library returns
+│                       │       │                   heif_error_Ok with no indication of failure, leading to an
+│                       │       │                   uninitialized heap memory information leak. The canvas is
+│                       │       │                   allocated via create_clone_image_at_new_size() →
+│                       │       │                   plane.alloc() → new (std::nothrow) uint8_t[allocation_size]
+│                       │       │                    which does not zero the memory; only the alpha plane is
+│                       │       │                   explicitly initialized via fill_plane(), so the Y, Cb, and
+│                       │       │                   Cr planes contain whatever was previously at that heap
+│                       │       │                   address. The failed tile's region of the canvas is never
+│                       │       │                   written. It retains uninitialized heap data that is
+│                       │       │                   delivered to the caller as decoded pixel values (4,096
+│                       │       │                   bytes per Y/Cb/Cr plane = 12,288+ bytes total). Any
+│                       │       │                   application using libheif to decode grid-based HEIF/AVIF
+│                       │       │                   files with default settings is vulnerable: a crafted .heic
+│                       │       │                   or .avif file causes 4,096+ bytes of heap memory to appear
+│                       │       │                   as pixel values in the decoded image, and the calling
+│                       │       │                   application receives heif_error_Ok, so it has no indication
+│                       │       │                    the output contains heap garbage. In server-side image
+│                       │       │                   processing, an uploaded crafted HEIF decoded and re-encoded
+│                       │       │                    (e.g., as PNG/JPEG for thumbnails, CDN, social media) can
+│                       │       │                   leak cross-user data such as auth tokens, database results,
+│                       │       │                    and other users' image data. This issue has been fixed in
+│                       │       │                   version 1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ╭ [0]: CWE-200 
+│                       │       │                  ╰ [1]: CWE-908 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                           │           N/A:N 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32814 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-2vh6-whr3-cmq3 
+│                       │       │                  ├ [3]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-4m8r-34pg-rvwc 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-32814 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-32814 
+│                       │       ├ PublishedDate   : 2026-05-19T21:16:42.223Z 
+│                       │       ╰ LastModifiedDate: 2026-05-20T14:16:41.74Z 
+│                       ├ [44]  ╭ VulnerabilityID : CVE-2026-32882 
+│                       │       ├ PkgID           : libheif-plugin-aomdec@1.21.2-3 
+│                       │       ├ PkgName         : libheif-plugin-aomdec 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3?arch=a
+│                       │       │                  │       md64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : f17c429548582636 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32882 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:16c2ef26483d78672519c2553aa10443e8bd7240d8d2269ae47a
+│                       │       │                   95c1c926437a 
+│                       │       ├ Title           : libheif: libheif: Denial of Service and Information
+│                       │       │                   Disclosure vulnerability 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    Versions 1.21.2 and prior contain a heap buffer over-read
+│                       │       │                   in HeifPixelImage::overlay() in libheif/pixelimage.cc. When
+│                       │       │                    compositing an overlay image (iovl) whose child image has
+│                       │       │                   a different bit depth for the alpha channel than for the
+│                       │       │                   color channels, the function indexes into the alpha plane
+│                       │       │                   using the color channel stride (in_stride) instead of the
+│                       │       │                   previously retrieved alpha_stride, causing reads past the
+│                       │       │                   end of the alpha buffer (up to 3,123 bytes for a 100×50
+│                       │       │                   image with 10-bit color and 8-bit alpha). A crafted HEIF
+│                       │       │                   file can exploit this to cause a denial of service (crash)
+│                       │       │                   or potentially disclose adjacent heap memory through leaked
+│                       │       │                    bytes embedded in the decoded output pixels. This issue
+│                       │       │                   has been fixed in versionThis issue has been fixed in
+│                       │       │                   version 1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-125 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ redhat: 3 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.1 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32882 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-hg7q-rjr2-8x46 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-32882 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-32882 
+│                       │       ├ PublishedDate   : 2026-05-19T21:16:42.363Z 
+│                       │       ╰ LastModifiedDate: 2026-05-20T18:16:26.88Z 
+│                       ├ [45]  ╭ VulnerabilityID : CVE-2026-3950 
 │                       │       ├ PkgID           : libheif-plugin-aomdec@1.21.2-3 
 │                       │       ├ PkgName         : libheif-plugin-aomdec 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3?arch=a
@@ -2730,7 +3138,443 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-3950 
 │                       │       ├ PublishedDate   : 2026-03-11T20:16:22.567Z 
 │                       │       ╰ LastModifiedDate: 2026-04-29T01:00:01.613Z 
-│                       ├ [39]  ╭ VulnerabilityID : CVE-2026-3950 
+│                       ├ [46]  ╭ VulnerabilityID : CVE-2026-41069 
+│                       │       ├ PkgID           : libheif-plugin-aomdec@1.21.2-3 
+│                       │       ├ PkgName         : libheif-plugin-aomdec 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3?arch=a
+│                       │       │                  │       md64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : f17c429548582636 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41069 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:df3ec7ef1cd37c03646bcfb174d834e35576c08c20fc1085e6dc
+│                       │       │                   651acc31259a 
+│                       │       ├ Title           : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In version ... 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In versions 1.21.2 and prior, a malformed HEIF sequence
+│                       │       │                   file can trigger an out-of-bounds read in core sequence
+│                       │       │                   parsing logic, causing DoS. A malformed file can have
+│                       │       │                   stco.entry_count == 0 (creating no chunks) while still
+│                       │       │                   passing validation because saio.entry_count == 0 matches,
+│                       │       │                   but with saiz.sample_count > 0 the SampleAuxInfoReader
+│                       │       │                   constructor still enters its loop. This leads to an
+│                       │       │                   out-of-bounds dereference on the empty chunks[0] in chunked
+│                       │       │                    mode. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ╭ [0]: CWE-125 
+│                       │       │                  ╰ [1]: CWE-476 
+│                       │       ├ VendorSeverity   ╭ julia : 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ julia ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │       │                          │           /A:H 
+│                       │       │                          ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-p82x-fpmv-576r 
+│                       │       │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-41069 
+│                       │       ├ PublishedDate   : 2026-05-22T21:16:43.327Z 
+│                       │       ╰ LastModifiedDate: 2026-05-27T15:26:28.04Z 
+│                       ├ [47]  ╭ VulnerabilityID : CVE-2026-41071 
+│                       │       ├ PkgID           : libheif-plugin-aomdec@1.21.2-3 
+│                       │       ├ PkgName         : libheif-plugin-aomdec 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3?arch=a
+│                       │       │                  │       md64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : f17c429548582636 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41071 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:5a37c0372c63b8311bda7c1707a0d86e0fc6de6eb6aeb86d3c01
+│                       │       │                   287ed0821b3f 
+│                       │       ├ Title           : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In version ... 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In versions 1.21.2 and prior, a crafted HEIF sequence file
+│                       │       │                    where the saiz box declares more samples than actually
+│                       │       │                   exist in the track's chunk table causes a
+│                       │       │                   heap-buffer-overflow (out-of-bounds read) in the
+│                       │       │                   SampleAuxInfoReader constructor. The SampleAuxInfoReader
+│                       │       │                   constructor iterates over saiz->get_num_samples() samples
+│                       │       │                   but doesn't validate that this count is consistent with the
+│                       │       │                    number of chunks in the chunks vector. When saiz declares
+│                       │       │                   more samples than the chunks cover, the loop increments
+│                       │       │                   current_chunk past chunks.size(), causing an out-of-bounds
+│                       │       │                   read on the chunks vector. The vulnerability is triggered
+│                       │       │                   during file parsing (heif_context_read_from_file) without
+│                       │       │                   any additional user interaction. Any application using
+│                       │       │                   libheif to open untrusted HEIF files is affected. This
+│                       │       │                   issue has been fixed in version 1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-125 
+│                       │       ├ VendorSeverity   ╭ julia : 2 
+│                       │       │                  ├ nvd   : 3 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ╭ julia ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:L/
+│                       │       │                  │       │            VI:N/VA:L/SC:N/SI:N/SA:N 
+│                       │       │                  │       ╰ V40Score : 5.1 
+│                       │       │                  ╰ nvd   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N
+│                       │       │                          │           /A:H 
+│                       │       │                          ╰ V3Score : 8.1 
+│                       │       ├ References       ╭ [0]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-xj92-xjff-h8w3 
+│                       │       │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-41071 
+│                       │       ├ PublishedDate   : 2026-05-22T22:16:55.47Z 
+│                       │       ╰ LastModifiedDate: 2026-05-27T15:25:32.657Z 
+│                       ├ [48]  ╭ VulnerabilityID : CVE-2026-32738 
+│                       │       ├ PkgID           : libheif-plugin-aomenc@1.21.2-3 
+│                       │       ├ PkgName         : libheif-plugin-aomenc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3?arch=a
+│                       │       │                  │       md64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 3a7f7ebd17466bdc 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32738 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:1f124d8790d3f805dc4f95c529bc1c8cd5bd036b8ebb540bc46d
+│                       │       │                   c61060996fa7 
+│                       │       ├ Title           : libheif: libheif: Unsigned integer underflow leads to
+│                       │       │                   Denial of Service 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In versions 1.21.2 and below, a crafted 792-byte HEIF
+│                       │       │                   sequence file with samples_per_chunk=0 in the stsc box
+│                       │       │                   causes an unsigned integer underflow in the Chunk
+│                       │       │                   constructor (m_last_sample = 0 + 0 - 1 = UINT32_MAX),
+│                       │       │                   mapping all samples to an empty chunk and resulting in a
+│                       │       │                   denial of service. When any sample is accessed, the library
+│                       │       │                    reads from index 0 of an empty std::vector, causing a
+│                       │       │                   guaranteed SEGV (null-page read). The file parses
+│                       │       │                   successfully without producing an error; the crash occurs
+│                       │       │                   on the first frame access. This issue has been fixed in
+│                       │       │                   version 1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ╭ [0]: CWE-125 
+│                       │       │                  ╰ [1]: CWE-476 
+│                       │       ├ VendorSeverity   ╭ julia : 2 
+│                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                  │        │           N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.5 
+│                       │       │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                  │        │           N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32738 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-7f2h-cmpf-v9ww 
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-32738 
+│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-32738 
+│                       │       ├ PublishedDate   : 2026-05-19T19:16:48.823Z 
+│                       │       ╰ LastModifiedDate: 2026-05-20T14:17:41.08Z 
+│                       ├ [49]  ╭ VulnerabilityID : CVE-2026-32739 
+│                       │       ├ PkgID           : libheif-plugin-aomenc@1.21.2-3 
+│                       │       ├ PkgName         : libheif-plugin-aomenc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3?arch=a
+│                       │       │                  │       md64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 3a7f7ebd17466bdc 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32739 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:15102bf5da8a321ec2236bdb54740531cd412cb29eaeeac05219
+│                       │       │                   7dc4f70da5f2 
+│                       │       ├ Title           : libheif: libheif: Denial of Service via crafted HEIF
+│                       │       │                   sequence file 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In versions 1.21.2 and below, a crafted 800-byte HEIF
+│                       │       │                   sequence file causes an infinite loop in
+│                       │       │                   Box_stts::get_sample_duration(), consuming 100% CPU
+│                       │       │                   indefinitely with zero progress, leading to DoS. The loop
+│                       │       │                   has no iteration limit or timeout and is triggered during
+│                       │       │                   file open (parsing) - before any user interaction or image
+│                       │       │                   decoding. The process stays alive (no crash, no error
+│                       │       │                   logged), making it invisible to crash-based monitoring.
+│                       │       │                   This issue has been fixed in version 1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-835 
+│                       │       ├ VendorSeverity   ╭ julia : 2 
+│                       │       │                  ├ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                  │        │           N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32739 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-j9g7-q9hv-gq8c 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-32739 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-32739 
+│                       │       ├ PublishedDate   : 2026-05-19T20:16:18.78Z 
+│                       │       ╰ LastModifiedDate: 2026-05-20T14:17:13.74Z 
+│                       ├ [50]  ╭ VulnerabilityID : CVE-2026-32740 
+│                       │       ├ PkgID           : libheif-plugin-aomenc@1.21.2-3 
+│                       │       ├ PkgName         : libheif-plugin-aomenc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3?arch=a
+│                       │       │                  │       md64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 3a7f7ebd17466bdc 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32740 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:86cf9c12ebde1657c6378fb54bd690de7690297d773409741c4c
+│                       │       │                   13af761a39fd 
+│                       │       ├ Title           : libheif: libheif: Arbitrary code execution or denial of
+│                       │       │                   service via crafted HEIF/AVIF file 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    Versions 1.21.2 and prior contain a heap-buffer-overflow
+│                       │       │                   (write) vulnerability in the grid tile compositing,
+│                       │       │                   allowing an attacker to write 64 bytes of fully
+│                       │       │                   attacker-controlled data past the end of a chroma plane
+│                       │       │                   heap allocation by crafting a HEIF/AVIF file with a 1×4
+│                       │       │                   grid of odd-height tiles. The overflow is triggered during
+│                       │       │                   normal image decoding with default build configuration. The
+│                       │       │                    written bytes are chroma (Cb/Cr) pixel values from the
+│                       │       │                   attacking tile, giving the attacker full control over the
+│                       │       │                   overflow content. This issue has been fixed in version
+│                       │       │                   1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ julia : 3 
+│                       │       │                  ├ redhat: 3 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                  │        │           H/A:H 
+│                       │       │                  │        ╰ V3Score : 8.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 8.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32740 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-frfr-f3vg-2g6j 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-32740 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-32740 
+│                       │       ├ PublishedDate   : 2026-05-19T20:16:18.917Z 
+│                       │       ╰ LastModifiedDate: 2026-05-21T14:16:45Z 
+│                       ├ [51]  ╭ VulnerabilityID : CVE-2026-32741 
+│                       │       ├ PkgID           : libheif-plugin-aomenc@1.21.2-3 
+│                       │       ├ PkgName         : libheif-plugin-aomenc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3?arch=a
+│                       │       │                  │       md64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 3a7f7ebd17466bdc 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32741 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:f8503dd041186e1df46c1837ab78bf04e3a344c0c96fea226794
+│                       │       │                   68e443ed5e3f 
+│                       │       ├ Title           : libheif: libheif: Heap buffer overflow vulnerability in
+│                       │       │                   image decoding 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    Versions 1.21.2 and below contain a heap buffer overflow
+│                       │       │                   in MaskImageCodec::decode_mask_image(). When decoding a
+│                       │       │                   HEIF file containing a mask image (mski), the function
+│                       │       │                   copies the full iloc extent data into a pixel buffer using
+│                       │       │                   memcpy(dst, data.data(), data.size()). The copy length
+│                       │       │                   data.size() is determined by the iloc extent in the file
+│                       │       │                   (attacker-controlled), while the destination buffer is
+│                       │       │                   sized based on the declared image dimensions. Because no
+│                       │       │                   upper-bound check exists on the data length, a crafted file
+│                       │       │                    whose iloc extent exceeds the pixel buffer allocation
+│                       │       │                   overflows the heap. The vulnerable single-memcpy branch is
+│                       │       │                   reached when the mskC property specifies bits_per_pixel = 8
+│                       │       │                    and the ispe property declares an even width ≥ 64 (so that
+│                       │       │                    stride == width), with no changes to default security
+│                       │       │                   limits or external codec plugins required. This issue has
+│                       │       │                   been fixed in version 1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-122 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ redhat: 3 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                           │           L/A:H 
+│                       │       │                           ╰ V3Score : 7.1 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32741 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-j3w5-7whq-p37q 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-32741 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-32741 
+│                       │       ├ PublishedDate   : 2026-05-19T21:16:42.073Z 
+│                       │       ╰ LastModifiedDate: 2026-05-20T17:16:21.133Z 
+│                       ├ [52]  ╭ VulnerabilityID : CVE-2026-32814 
+│                       │       ├ PkgID           : libheif-plugin-aomenc@1.21.2-3 
+│                       │       ├ PkgName         : libheif-plugin-aomenc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3?arch=a
+│                       │       │                  │       md64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 3a7f7ebd17466bdc 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32814 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:b90a9fb5783004a9cfd2084171b6f58c2d35cd1d6178ec6446f2
+│                       │       │                   0e0464f2cbdb 
+│                       │       ├ Title           : libheif: libheif: Information Disclosure via Crafted
+│                       │       │                   HEIF/AVIF Files 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In versions 1.21.2 and prior, when decoding a HEIF grid
+│                       │       │                   image with strict_decoding=false (the default), a corrupted
+│                       │       │                    tile silently fails to decode and the library returns
+│                       │       │                   heif_error_Ok with no indication of failure, leading to an
+│                       │       │                   uninitialized heap memory information leak. The canvas is
+│                       │       │                   allocated via create_clone_image_at_new_size() →
+│                       │       │                   plane.alloc() → new (std::nothrow) uint8_t[allocation_size]
+│                       │       │                    which does not zero the memory; only the alpha plane is
+│                       │       │                   explicitly initialized via fill_plane(), so the Y, Cb, and
+│                       │       │                   Cr planes contain whatever was previously at that heap
+│                       │       │                   address. The failed tile's region of the canvas is never
+│                       │       │                   written. It retains uninitialized heap data that is
+│                       │       │                   delivered to the caller as decoded pixel values (4,096
+│                       │       │                   bytes per Y/Cb/Cr plane = 12,288+ bytes total). Any
+│                       │       │                   application using libheif to decode grid-based HEIF/AVIF
+│                       │       │                   files with default settings is vulnerable: a crafted .heic
+│                       │       │                   or .avif file causes 4,096+ bytes of heap memory to appear
+│                       │       │                   as pixel values in the decoded image, and the calling
+│                       │       │                   application receives heif_error_Ok, so it has no indication
+│                       │       │                    the output contains heap garbage. In server-side image
+│                       │       │                   processing, an uploaded crafted HEIF decoded and re-encoded
+│                       │       │                    (e.g., as PNG/JPEG for thumbnails, CDN, social media) can
+│                       │       │                   leak cross-user data such as auth tokens, database results,
+│                       │       │                    and other users' image data. This issue has been fixed in
+│                       │       │                   version 1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ╭ [0]: CWE-200 
+│                       │       │                  ╰ [1]: CWE-908 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                           │           N/A:N 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32814 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-2vh6-whr3-cmq3 
+│                       │       │                  ├ [3]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-4m8r-34pg-rvwc 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-32814 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-32814 
+│                       │       ├ PublishedDate   : 2026-05-19T21:16:42.223Z 
+│                       │       ╰ LastModifiedDate: 2026-05-20T14:16:41.74Z 
+│                       ├ [53]  ╭ VulnerabilityID : CVE-2026-32882 
+│                       │       ├ PkgID           : libheif-plugin-aomenc@1.21.2-3 
+│                       │       ├ PkgName         : libheif-plugin-aomenc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3?arch=a
+│                       │       │                  │       md64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 3a7f7ebd17466bdc 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32882 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:0dcd129c3033298ec7160b41e8162e3ec7422a7830eac74c4fc6
+│                       │       │                   5ee2591aecdd 
+│                       │       ├ Title           : libheif: libheif: Denial of Service and Information
+│                       │       │                   Disclosure vulnerability 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    Versions 1.21.2 and prior contain a heap buffer over-read
+│                       │       │                   in HeifPixelImage::overlay() in libheif/pixelimage.cc. When
+│                       │       │                    compositing an overlay image (iovl) whose child image has
+│                       │       │                   a different bit depth for the alpha channel than for the
+│                       │       │                   color channels, the function indexes into the alpha plane
+│                       │       │                   using the color channel stride (in_stride) instead of the
+│                       │       │                   previously retrieved alpha_stride, causing reads past the
+│                       │       │                   end of the alpha buffer (up to 3,123 bytes for a 100×50
+│                       │       │                   image with 10-bit color and 8-bit alpha). A crafted HEIF
+│                       │       │                   file can exploit this to cause a denial of service (crash)
+│                       │       │                   or potentially disclose adjacent heap memory through leaked
+│                       │       │                    bytes embedded in the decoded output pixels. This issue
+│                       │       │                   has been fixed in versionThis issue has been fixed in
+│                       │       │                   version 1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-125 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ redhat: 3 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.1 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32882 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-hg7q-rjr2-8x46 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-32882 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-32882 
+│                       │       ├ PublishedDate   : 2026-05-19T21:16:42.363Z 
+│                       │       ╰ LastModifiedDate: 2026-05-20T18:16:26.88Z 
+│                       ├ [54]  ╭ VulnerabilityID : CVE-2026-3950 
 │                       │       ├ PkgID           : libheif-plugin-aomenc@1.21.2-3 
 │                       │       ├ PkgName         : libheif-plugin-aomenc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3?arch=a
@@ -2780,7 +3624,443 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-3950 
 │                       │       ├ PublishedDate   : 2026-03-11T20:16:22.567Z 
 │                       │       ╰ LastModifiedDate: 2026-04-29T01:00:01.613Z 
-│                       ├ [40]  ╭ VulnerabilityID : CVE-2026-3950 
+│                       ├ [55]  ╭ VulnerabilityID : CVE-2026-41069 
+│                       │       ├ PkgID           : libheif-plugin-aomenc@1.21.2-3 
+│                       │       ├ PkgName         : libheif-plugin-aomenc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3?arch=a
+│                       │       │                  │       md64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 3a7f7ebd17466bdc 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41069 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:98a65afb9f531a7176da2fc0db2b0e5950a7ce3b7affbec90803
+│                       │       │                   e80c98c62b31 
+│                       │       ├ Title           : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In version ... 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In versions 1.21.2 and prior, a malformed HEIF sequence
+│                       │       │                   file can trigger an out-of-bounds read in core sequence
+│                       │       │                   parsing logic, causing DoS. A malformed file can have
+│                       │       │                   stco.entry_count == 0 (creating no chunks) while still
+│                       │       │                   passing validation because saio.entry_count == 0 matches,
+│                       │       │                   but with saiz.sample_count > 0 the SampleAuxInfoReader
+│                       │       │                   constructor still enters its loop. This leads to an
+│                       │       │                   out-of-bounds dereference on the empty chunks[0] in chunked
+│                       │       │                    mode. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ╭ [0]: CWE-125 
+│                       │       │                  ╰ [1]: CWE-476 
+│                       │       ├ VendorSeverity   ╭ julia : 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ julia ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │       │                          │           /A:H 
+│                       │       │                          ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-p82x-fpmv-576r 
+│                       │       │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-41069 
+│                       │       ├ PublishedDate   : 2026-05-22T21:16:43.327Z 
+│                       │       ╰ LastModifiedDate: 2026-05-27T15:26:28.04Z 
+│                       ├ [56]  ╭ VulnerabilityID : CVE-2026-41071 
+│                       │       ├ PkgID           : libheif-plugin-aomenc@1.21.2-3 
+│                       │       ├ PkgName         : libheif-plugin-aomenc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3?arch=a
+│                       │       │                  │       md64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 3a7f7ebd17466bdc 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41071 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:42077cf8672c2b89d4730f1ba21602f3c2412d834a64ce6a18a7
+│                       │       │                   61b2c4250ec1 
+│                       │       ├ Title           : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In version ... 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In versions 1.21.2 and prior, a crafted HEIF sequence file
+│                       │       │                    where the saiz box declares more samples than actually
+│                       │       │                   exist in the track's chunk table causes a
+│                       │       │                   heap-buffer-overflow (out-of-bounds read) in the
+│                       │       │                   SampleAuxInfoReader constructor. The SampleAuxInfoReader
+│                       │       │                   constructor iterates over saiz->get_num_samples() samples
+│                       │       │                   but doesn't validate that this count is consistent with the
+│                       │       │                    number of chunks in the chunks vector. When saiz declares
+│                       │       │                   more samples than the chunks cover, the loop increments
+│                       │       │                   current_chunk past chunks.size(), causing an out-of-bounds
+│                       │       │                   read on the chunks vector. The vulnerability is triggered
+│                       │       │                   during file parsing (heif_context_read_from_file) without
+│                       │       │                   any additional user interaction. Any application using
+│                       │       │                   libheif to open untrusted HEIF files is affected. This
+│                       │       │                   issue has been fixed in version 1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-125 
+│                       │       ├ VendorSeverity   ╭ julia : 2 
+│                       │       │                  ├ nvd   : 3 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ╭ julia ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:L/
+│                       │       │                  │       │            VI:N/VA:L/SC:N/SI:N/SA:N 
+│                       │       │                  │       ╰ V40Score : 5.1 
+│                       │       │                  ╰ nvd   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N
+│                       │       │                          │           /A:H 
+│                       │       │                          ╰ V3Score : 8.1 
+│                       │       ├ References       ╭ [0]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-xj92-xjff-h8w3 
+│                       │       │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-41071 
+│                       │       ├ PublishedDate   : 2026-05-22T22:16:55.47Z 
+│                       │       ╰ LastModifiedDate: 2026-05-27T15:25:32.657Z 
+│                       ├ [57]  ╭ VulnerabilityID : CVE-2026-32738 
+│                       │       ├ PkgID           : libheif1@1.21.2-3 
+│                       │       ├ PkgName         : libheif1 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif1@1.21.2-3?arch=amd64&distro=u
+│                       │       │                  │       buntu-26.04 
+│                       │       │                  ╰ UID : 866c43e515f16478 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32738 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:5ece4163225f69b77aea1c03bdf6e24065fb42f1911a2c1dd058
+│                       │       │                   90a342ba6c31 
+│                       │       ├ Title           : libheif: libheif: Unsigned integer underflow leads to
+│                       │       │                   Denial of Service 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In versions 1.21.2 and below, a crafted 792-byte HEIF
+│                       │       │                   sequence file with samples_per_chunk=0 in the stsc box
+│                       │       │                   causes an unsigned integer underflow in the Chunk
+│                       │       │                   constructor (m_last_sample = 0 + 0 - 1 = UINT32_MAX),
+│                       │       │                   mapping all samples to an empty chunk and resulting in a
+│                       │       │                   denial of service. When any sample is accessed, the library
+│                       │       │                    reads from index 0 of an empty std::vector, causing a
+│                       │       │                   guaranteed SEGV (null-page read). The file parses
+│                       │       │                   successfully without producing an error; the crash occurs
+│                       │       │                   on the first frame access. This issue has been fixed in
+│                       │       │                   version 1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ╭ [0]: CWE-125 
+│                       │       │                  ╰ [1]: CWE-476 
+│                       │       ├ VendorSeverity   ╭ julia : 2 
+│                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                  │        │           N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.5 
+│                       │       │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                  │        │           N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32738 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-7f2h-cmpf-v9ww 
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-32738 
+│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-32738 
+│                       │       ├ PublishedDate   : 2026-05-19T19:16:48.823Z 
+│                       │       ╰ LastModifiedDate: 2026-05-20T14:17:41.08Z 
+│                       ├ [58]  ╭ VulnerabilityID : CVE-2026-32739 
+│                       │       ├ PkgID           : libheif1@1.21.2-3 
+│                       │       ├ PkgName         : libheif1 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif1@1.21.2-3?arch=amd64&distro=u
+│                       │       │                  │       buntu-26.04 
+│                       │       │                  ╰ UID : 866c43e515f16478 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32739 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:e0f3f6f46758b7b3e1247fa5035da80b3e8ce227d6bc8e94d6a9
+│                       │       │                   8f208292a674 
+│                       │       ├ Title           : libheif: libheif: Denial of Service via crafted HEIF
+│                       │       │                   sequence file 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In versions 1.21.2 and below, a crafted 800-byte HEIF
+│                       │       │                   sequence file causes an infinite loop in
+│                       │       │                   Box_stts::get_sample_duration(), consuming 100% CPU
+│                       │       │                   indefinitely with zero progress, leading to DoS. The loop
+│                       │       │                   has no iteration limit or timeout and is triggered during
+│                       │       │                   file open (parsing) - before any user interaction or image
+│                       │       │                   decoding. The process stays alive (no crash, no error
+│                       │       │                   logged), making it invisible to crash-based monitoring.
+│                       │       │                   This issue has been fixed in version 1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-835 
+│                       │       ├ VendorSeverity   ╭ julia : 2 
+│                       │       │                  ├ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                  │        │           N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32739 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-j9g7-q9hv-gq8c 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-32739 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-32739 
+│                       │       ├ PublishedDate   : 2026-05-19T20:16:18.78Z 
+│                       │       ╰ LastModifiedDate: 2026-05-20T14:17:13.74Z 
+│                       ├ [59]  ╭ VulnerabilityID : CVE-2026-32740 
+│                       │       ├ PkgID           : libheif1@1.21.2-3 
+│                       │       ├ PkgName         : libheif1 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif1@1.21.2-3?arch=amd64&distro=u
+│                       │       │                  │       buntu-26.04 
+│                       │       │                  ╰ UID : 866c43e515f16478 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32740 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:0cff4817b2140bf9e08705d22ef3d37ff9e0534716473587452d
+│                       │       │                   ccca59559242 
+│                       │       ├ Title           : libheif: libheif: Arbitrary code execution or denial of
+│                       │       │                   service via crafted HEIF/AVIF file 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    Versions 1.21.2 and prior contain a heap-buffer-overflow
+│                       │       │                   (write) vulnerability in the grid tile compositing,
+│                       │       │                   allowing an attacker to write 64 bytes of fully
+│                       │       │                   attacker-controlled data past the end of a chroma plane
+│                       │       │                   heap allocation by crafting a HEIF/AVIF file with a 1×4
+│                       │       │                   grid of odd-height tiles. The overflow is triggered during
+│                       │       │                   normal image decoding with default build configuration. The
+│                       │       │                    written bytes are chroma (Cb/Cr) pixel values from the
+│                       │       │                   attacking tile, giving the attacker full control over the
+│                       │       │                   overflow content. This issue has been fixed in version
+│                       │       │                   1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ julia : 3 
+│                       │       │                  ├ redhat: 3 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                  │        │           H/A:H 
+│                       │       │                  │        ╰ V3Score : 8.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 8.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32740 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-frfr-f3vg-2g6j 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-32740 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-32740 
+│                       │       ├ PublishedDate   : 2026-05-19T20:16:18.917Z 
+│                       │       ╰ LastModifiedDate: 2026-05-21T14:16:45Z 
+│                       ├ [60]  ╭ VulnerabilityID : CVE-2026-32741 
+│                       │       ├ PkgID           : libheif1@1.21.2-3 
+│                       │       ├ PkgName         : libheif1 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif1@1.21.2-3?arch=amd64&distro=u
+│                       │       │                  │       buntu-26.04 
+│                       │       │                  ╰ UID : 866c43e515f16478 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32741 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:ba24b6f1d7f11a57e92d2f26a03ee7fef4f818755130b1d14311
+│                       │       │                   7ee3b83d0b88 
+│                       │       ├ Title           : libheif: libheif: Heap buffer overflow vulnerability in
+│                       │       │                   image decoding 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    Versions 1.21.2 and below contain a heap buffer overflow
+│                       │       │                   in MaskImageCodec::decode_mask_image(). When decoding a
+│                       │       │                   HEIF file containing a mask image (mski), the function
+│                       │       │                   copies the full iloc extent data into a pixel buffer using
+│                       │       │                   memcpy(dst, data.data(), data.size()). The copy length
+│                       │       │                   data.size() is determined by the iloc extent in the file
+│                       │       │                   (attacker-controlled), while the destination buffer is
+│                       │       │                   sized based on the declared image dimensions. Because no
+│                       │       │                   upper-bound check exists on the data length, a crafted file
+│                       │       │                    whose iloc extent exceeds the pixel buffer allocation
+│                       │       │                   overflows the heap. The vulnerable single-memcpy branch is
+│                       │       │                   reached when the mskC property specifies bits_per_pixel = 8
+│                       │       │                    and the ispe property declares an even width ≥ 64 (so that
+│                       │       │                    stride == width), with no changes to default security
+│                       │       │                   limits or external codec plugins required. This issue has
+│                       │       │                   been fixed in version 1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-122 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ redhat: 3 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                           │           L/A:H 
+│                       │       │                           ╰ V3Score : 7.1 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32741 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-j3w5-7whq-p37q 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-32741 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-32741 
+│                       │       ├ PublishedDate   : 2026-05-19T21:16:42.073Z 
+│                       │       ╰ LastModifiedDate: 2026-05-20T17:16:21.133Z 
+│                       ├ [61]  ╭ VulnerabilityID : CVE-2026-32814 
+│                       │       ├ PkgID           : libheif1@1.21.2-3 
+│                       │       ├ PkgName         : libheif1 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif1@1.21.2-3?arch=amd64&distro=u
+│                       │       │                  │       buntu-26.04 
+│                       │       │                  ╰ UID : 866c43e515f16478 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32814 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:01eef420a119b0d3b264282e19a1cc399a51faab62f568bdfbad
+│                       │       │                   99b1eaf155a4 
+│                       │       ├ Title           : libheif: libheif: Information Disclosure via Crafted
+│                       │       │                   HEIF/AVIF Files 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In versions 1.21.2 and prior, when decoding a HEIF grid
+│                       │       │                   image with strict_decoding=false (the default), a corrupted
+│                       │       │                    tile silently fails to decode and the library returns
+│                       │       │                   heif_error_Ok with no indication of failure, leading to an
+│                       │       │                   uninitialized heap memory information leak. The canvas is
+│                       │       │                   allocated via create_clone_image_at_new_size() →
+│                       │       │                   plane.alloc() → new (std::nothrow) uint8_t[allocation_size]
+│                       │       │                    which does not zero the memory; only the alpha plane is
+│                       │       │                   explicitly initialized via fill_plane(), so the Y, Cb, and
+│                       │       │                   Cr planes contain whatever was previously at that heap
+│                       │       │                   address. The failed tile's region of the canvas is never
+│                       │       │                   written. It retains uninitialized heap data that is
+│                       │       │                   delivered to the caller as decoded pixel values (4,096
+│                       │       │                   bytes per Y/Cb/Cr plane = 12,288+ bytes total). Any
+│                       │       │                   application using libheif to decode grid-based HEIF/AVIF
+│                       │       │                   files with default settings is vulnerable: a crafted .heic
+│                       │       │                   or .avif file causes 4,096+ bytes of heap memory to appear
+│                       │       │                   as pixel values in the decoded image, and the calling
+│                       │       │                   application receives heif_error_Ok, so it has no indication
+│                       │       │                    the output contains heap garbage. In server-side image
+│                       │       │                   processing, an uploaded crafted HEIF decoded and re-encoded
+│                       │       │                    (e.g., as PNG/JPEG for thumbnails, CDN, social media) can
+│                       │       │                   leak cross-user data such as auth tokens, database results,
+│                       │       │                    and other users' image data. This issue has been fixed in
+│                       │       │                   version 1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ╭ [0]: CWE-200 
+│                       │       │                  ╰ [1]: CWE-908 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                           │           N/A:N 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32814 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-2vh6-whr3-cmq3 
+│                       │       │                  ├ [3]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-4m8r-34pg-rvwc 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-32814 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-32814 
+│                       │       ├ PublishedDate   : 2026-05-19T21:16:42.223Z 
+│                       │       ╰ LastModifiedDate: 2026-05-20T14:16:41.74Z 
+│                       ├ [62]  ╭ VulnerabilityID : CVE-2026-32882 
+│                       │       ├ PkgID           : libheif1@1.21.2-3 
+│                       │       ├ PkgName         : libheif1 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif1@1.21.2-3?arch=amd64&distro=u
+│                       │       │                  │       buntu-26.04 
+│                       │       │                  ╰ UID : 866c43e515f16478 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32882 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:5325c6584fe07240536b88e01f7f480be26c754e87f6f1426a35
+│                       │       │                   b5e72a7d6243 
+│                       │       ├ Title           : libheif: libheif: Denial of Service and Information
+│                       │       │                   Disclosure vulnerability 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    Versions 1.21.2 and prior contain a heap buffer over-read
+│                       │       │                   in HeifPixelImage::overlay() in libheif/pixelimage.cc. When
+│                       │       │                    compositing an overlay image (iovl) whose child image has
+│                       │       │                   a different bit depth for the alpha channel than for the
+│                       │       │                   color channels, the function indexes into the alpha plane
+│                       │       │                   using the color channel stride (in_stride) instead of the
+│                       │       │                   previously retrieved alpha_stride, causing reads past the
+│                       │       │                   end of the alpha buffer (up to 3,123 bytes for a 100×50
+│                       │       │                   image with 10-bit color and 8-bit alpha). A crafted HEIF
+│                       │       │                   file can exploit this to cause a denial of service (crash)
+│                       │       │                   or potentially disclose adjacent heap memory through leaked
+│                       │       │                    bytes embedded in the decoded output pixels. This issue
+│                       │       │                   has been fixed in versionThis issue has been fixed in
+│                       │       │                   version 1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-125 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ redhat: 3 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.1 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-32882 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-hg7q-rjr2-8x46 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-32882 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-32882 
+│                       │       ├ PublishedDate   : 2026-05-19T21:16:42.363Z 
+│                       │       ╰ LastModifiedDate: 2026-05-20T18:16:26.88Z 
+│                       ├ [63]  ╭ VulnerabilityID : CVE-2026-3950 
 │                       │       ├ PkgID           : libheif1@1.21.2-3 
 │                       │       ├ PkgName         : libheif1 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif1@1.21.2-3?arch=amd64&distro=u
@@ -2830,7 +4110,108 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-3950 
 │                       │       ├ PublishedDate   : 2026-03-11T20:16:22.567Z 
 │                       │       ╰ LastModifiedDate: 2026-04-29T01:00:01.613Z 
-│                       ├ [41]  ╭ VulnerabilityID : CVE-2026-10846 
+│                       ├ [64]  ╭ VulnerabilityID : CVE-2026-41069 
+│                       │       ├ PkgID           : libheif1@1.21.2-3 
+│                       │       ├ PkgName         : libheif1 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif1@1.21.2-3?arch=amd64&distro=u
+│                       │       │                  │       buntu-26.04 
+│                       │       │                  ╰ UID : 866c43e515f16478 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41069 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:731622f9ffcdab0b380f63d45919b938b826691c1168a5f8bf12
+│                       │       │                   6abf688fb771 
+│                       │       ├ Title           : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In version ... 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In versions 1.21.2 and prior, a malformed HEIF sequence
+│                       │       │                   file can trigger an out-of-bounds read in core sequence
+│                       │       │                   parsing logic, causing DoS. A malformed file can have
+│                       │       │                   stco.entry_count == 0 (creating no chunks) while still
+│                       │       │                   passing validation because saio.entry_count == 0 matches,
+│                       │       │                   but with saiz.sample_count > 0 the SampleAuxInfoReader
+│                       │       │                   constructor still enters its loop. This leads to an
+│                       │       │                   out-of-bounds dereference on the empty chunks[0] in chunked
+│                       │       │                    mode. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ╭ [0]: CWE-125 
+│                       │       │                  ╰ [1]: CWE-476 
+│                       │       ├ VendorSeverity   ╭ julia : 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ julia ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │       │                          │           /A:H 
+│                       │       │                          ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-p82x-fpmv-576r 
+│                       │       │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-41069 
+│                       │       ├ PublishedDate   : 2026-05-22T21:16:43.327Z 
+│                       │       ╰ LastModifiedDate: 2026-05-27T15:26:28.04Z 
+│                       ├ [65]  ╭ VulnerabilityID : CVE-2026-41071 
+│                       │       ├ PkgID           : libheif1@1.21.2-3 
+│                       │       ├ PkgName         : libheif1 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libheif1@1.21.2-3?arch=amd64&distro=u
+│                       │       │                  │       buntu-26.04 
+│                       │       │                  ╰ UID : 866c43e515f16478 
+│                       │       ├ InstalledVersion: 1.21.2-3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9ac6ed266a6d9ed1e79786b2b913abca27d26158759
+│                       │       │                  │         6d9569dc0bd617819855b 
+│                       │       │                  ╰ DiffID: sha256:02823f52e6b5fc9d3934af2da5e14187ce9229a3ffa
+│                       │       │                            be8ba63ff117325dc5e0b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41071 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:8ff184b54d9b44235dccd51a33da11f12003c6080cbc138ae5a4
+│                       │       │                   804e0862716e 
+│                       │       ├ Title           : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In version ... 
+│                       │       ├ Description     : libheif is a HEIF and AVIF file format decoder and encoder.
+│                       │       │                    In versions 1.21.2 and prior, a crafted HEIF sequence file
+│                       │       │                    where the saiz box declares more samples than actually
+│                       │       │                   exist in the track's chunk table causes a
+│                       │       │                   heap-buffer-overflow (out-of-bounds read) in the
+│                       │       │                   SampleAuxInfoReader constructor. The SampleAuxInfoReader
+│                       │       │                   constructor iterates over saiz->get_num_samples() samples
+│                       │       │                   but doesn't validate that this count is consistent with the
+│                       │       │                    number of chunks in the chunks vector. When saiz declares
+│                       │       │                   more samples than the chunks cover, the loop increments
+│                       │       │                   current_chunk past chunks.size(), causing an out-of-bounds
+│                       │       │                   read on the chunks vector. The vulnerability is triggered
+│                       │       │                   during file parsing (heif_context_read_from_file) without
+│                       │       │                   any additional user interaction. Any application using
+│                       │       │                   libheif to open untrusted HEIF files is affected. This
+│                       │       │                   issue has been fixed in version 1.22.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-125 
+│                       │       ├ VendorSeverity   ╭ julia : 2 
+│                       │       │                  ├ nvd   : 3 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ╭ julia ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:L/
+│                       │       │                  │       │            VI:N/VA:L/SC:N/SI:N/SA:N 
+│                       │       │                  │       ╰ V40Score : 5.1 
+│                       │       │                  ╰ nvd   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N
+│                       │       │                          │           /A:H 
+│                       │       │                          ╰ V3Score : 8.1 
+│                       │       ├ References       ╭ [0]: https://github.com/strukturag/libheif/releases/tag/v1
+│                       │       │                  │      .22.0 
+│                       │       │                  ├ [1]: https://github.com/strukturag/libheif/security/adviso
+│                       │       │                  │      ries/GHSA-xj92-xjff-h8w3 
+│                       │       │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-41071 
+│                       │       ├ PublishedDate   : 2026-05-22T22:16:55.47Z 
+│                       │       ╰ LastModifiedDate: 2026-05-27T15:25:32.657Z 
+│                       ├ [66]  ╭ VulnerabilityID : CVE-2026-10846 
 │                       │       ├ PkgID           : libldns3t64@1.8.4-2build3 
 │                       │       ├ PkgName         : libldns3t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libldns3t64@1.8.4-2build3?arch=amd64&
@@ -2871,7 +4252,7 @@
 │                       │       │                         6.txt 
 │                       │       ├ PublishedDate   : 2026-06-10T07:16:24.443Z 
 │                       │       ╰ LastModifiedDate: 2026-06-10T20:13:47.847Z 
-│                       ├ [42]  ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [67]  ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : libmount1@2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : libmount1 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libmount1@2.41.3-3ubuntu2?arch=amd64&
@@ -2939,7 +4320,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-04-22T16:08:55.1Z 
-│                       ├ [43]  ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [68]  ╭ VulnerabilityID : CVE-2026-3184 
 │                       │       ├ PkgID           : libmount1@2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : libmount1 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libmount1@2.41.3-3ubuntu2?arch=amd64&
@@ -2988,7 +4369,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │       ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │       ╰ LastModifiedDate: 2026-05-01T19:29:51.02Z 
-│                       ├ [44]  ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [69]  ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : libnss-systemd@259.5-0ubuntu3 
 │                       │       ├ PkgName         : libnss-systemd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libnss-systemd@259.5-0ubuntu3?arch=am
@@ -3032,7 +4413,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-05-05T02:16:04.82Z 
-│                       ├ [45]  ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [70]  ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : libpam-systemd@259.5-0ubuntu3 
 │                       │       ├ PkgName         : libpam-systemd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-systemd@259.5-0ubuntu3?arch=am
@@ -3076,7 +4457,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-05-05T02:16:04.82Z 
-│                       ├ [46]  ╭ VulnerabilityID : CVE-2023-37769 
+│                       ├ [71]  ╭ VulnerabilityID : CVE-2023-37769 
 │                       │       ├ PkgID           : libpixman-1-0@0.46.4-1 
 │                       │       ├ PkgName         : libpixman-1-0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpixman-1-0@0.46.4-1?arch=amd64&dis
@@ -3111,7 +4492,7 @@
 │                       │       │                  ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2023-37769 
 │                       │       ├ PublishedDate   : 2023-07-17T20:15:13.547Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T08:12:14.547Z 
-│                       ├ [47]  ╭ VulnerabilityID : CVE-2026-6409 
+│                       ├ [72]  ╭ VulnerabilityID : CVE-2026-6409 
 │                       │       ├ PkgID           : libprotobuf32t64@3.21.12-15ubuntu1 
 │                       │       ├ PkgName         : libprotobuf32t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libprotobuf32t64@3.21.12-15ubuntu1?ar
@@ -3162,7 +4543,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-6409 
 │                       │       ├ PublishedDate   : 2026-04-16T15:17:41.91Z 
 │                       │       ╰ LastModifiedDate: 2026-04-17T15:17:00.957Z 
-│                       ├ [48]  ╭ VulnerabilityID : CVE-2026-6409 
+│                       ├ [73]  ╭ VulnerabilityID : CVE-2026-6409 
 │                       │       ├ PkgID           : libprotoc32t64@3.21.12-15ubuntu1 
 │                       │       ├ PkgName         : libprotoc32t64 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libprotoc32t64@3.21.12-15ubuntu1?arch
@@ -3213,7 +4594,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-6409 
 │                       │       ├ PublishedDate   : 2026-04-16T15:17:41.91Z 
 │                       │       ╰ LastModifiedDate: 2026-04-17T15:17:00.957Z 
-│                       ├ [49]  ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [74]  ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : libpython3.14@3.14.4-1 
 │                       │       ├ PkgName         : libpython3.14 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.14@3.14.4-1?arch=amd64&dis
@@ -3302,7 +4683,7 @@
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
 │                       │       │                  ├ [38]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
-│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:19064 
+│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [40]: https://github.com/python/cpython/commit/482d6f8bdba
 │                       │       │                  │       9da3725d272e8bb4a2d25fb6a603e 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/69ddd9bb2cc
@@ -3321,7 +4702,7 @@
 │                       │       │                  ╰ [50]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-05-01T16:16:30.11Z 
-│                       ├ [50]  ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [75]  ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : libpython3.14-minimal@3.14.4-1 
 │                       │       ├ PkgName         : libpython3.14-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.14-minimal@3.14.4-1?arch=a
@@ -3410,7 +4791,7 @@
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
 │                       │       │                  ├ [38]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
-│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:19064 
+│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [40]: https://github.com/python/cpython/commit/482d6f8bdba
 │                       │       │                  │       9da3725d272e8bb4a2d25fb6a603e 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/69ddd9bb2cc
@@ -3429,7 +4810,7 @@
 │                       │       │                  ╰ [50]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-05-01T16:16:30.11Z 
-│                       ├ [51]  ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [76]  ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : libpython3.14-stdlib@3.14.4-1 
 │                       │       ├ PkgName         : libpython3.14-stdlib 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.14-stdlib@3.14.4-1?arch=am
@@ -3518,7 +4899,7 @@
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
 │                       │       │                  ├ [38]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
-│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:19064 
+│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [40]: https://github.com/python/cpython/commit/482d6f8bdba
 │                       │       │                  │       9da3725d272e8bb4a2d25fb6a603e 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/69ddd9bb2cc
@@ -3537,7 +4918,7 @@
 │                       │       │                  ╰ [50]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-05-01T16:16:30.11Z 
-│                       ├ [52]  ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [77]  ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : libsmartcols1@2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : libsmartcols1 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsmartcols1@2.41.3-3ubuntu2?arch=am
@@ -3605,7 +4986,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-04-22T16:08:55.1Z 
-│                       ├ [53]  ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [78]  ╭ VulnerabilityID : CVE-2026-3184 
 │                       │       ├ PkgID           : libsmartcols1@2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : libsmartcols1 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsmartcols1@2.41.3-3ubuntu2?arch=am
@@ -3654,7 +5035,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │       ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │       ╰ LastModifiedDate: 2026-05-01T19:29:51.02Z 
-│                       ├ [54]  ╭ VulnerabilityID : CVE-2026-3731 
+│                       ├ [79]  ╭ VulnerabilityID : CVE-2026-3731 
 │                       │       ├ PkgID           : libssh-4@0.11.3-1ubuntu1 
 │                       │       ├ PkgName         : libssh-4 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssh-4@0.11.3-1ubuntu1?arch=amd64&d
@@ -3713,7 +5094,7 @@
 │                       │       │                         6-sftp-extensions.txt 
 │                       │       ├ PublishedDate   : 2026-03-08T11:15:50.307Z 
 │                       │       ╰ LastModifiedDate: 2026-03-12T19:02:31.637Z 
-│                       ├ [55]  ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [80]  ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : libsystemd-shared@259.5-0ubuntu3 
 │                       │       ├ PkgName         : libsystemd-shared 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd-shared@259.5-0ubuntu3?arch
@@ -3757,7 +5138,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-05-05T02:16:04.82Z 
-│                       ├ [56]  ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [81]  ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : libsystemd0@259.5-0ubuntu3 
 │                       │       ├ PkgName         : libsystemd0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd0@259.5-0ubuntu3?arch=amd64
@@ -3801,7 +5182,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-05-05T02:16:04.82Z 
-│                       ├ [57]  ╭ VulnerabilityID : CVE-2025-61143 
+│                       ├ [82]  ╭ VulnerabilityID : CVE-2025-61143 
 │                       │       ├ PkgID           : libtiff6@4.7.0-3ubuntu4 
 │                       │       ├ PkgName         : libtiff6 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtiff6@4.7.0-3ubuntu4?arch=amd64&di
@@ -3850,7 +5231,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-61143 
 │                       │       ├ PublishedDate   : 2026-02-23T19:22:56.517Z 
 │                       │       ╰ LastModifiedDate: 2026-02-25T15:20:49.51Z 
-│                       ├ [58]  ╭ VulnerabilityID : CVE-2025-61144 
+│                       ├ [83]  ╭ VulnerabilityID : CVE-2025-61144 
 │                       │       ├ PkgID           : libtiff6@4.7.0-3ubuntu4 
 │                       │       ├ PkgName         : libtiff6 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtiff6@4.7.0-3ubuntu4?arch=amd64&di
@@ -3901,7 +5282,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-61144 
 │                       │       ├ PublishedDate   : 2026-02-23T19:22:56.643Z 
 │                       │       ╰ LastModifiedDate: 2026-02-25T15:20:50.17Z 
-│                       ├ [59]  ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [84]  ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : libudev1@259.5-0ubuntu3 
 │                       │       ├ PkgName         : libudev1 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libudev1@259.5-0ubuntu3?arch=amd64&di
@@ -3945,7 +5326,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-05-05T02:16:04.82Z 
-│                       ├ [60]  ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [85]  ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : libuuid1@2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : libuuid1 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libuuid1@2.41.3-3ubuntu2?arch=amd64&d
@@ -4013,7 +5394,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-04-22T16:08:55.1Z 
-│                       ├ [61]  ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [86]  ╭ VulnerabilityID : CVE-2026-3184 
 │                       │       ├ PkgID           : libuuid1@2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : libuuid1 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libuuid1@2.41.3-3ubuntu2?arch=amd64&d
@@ -4062,7 +5443,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │       ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │       ╰ LastModifiedDate: 2026-05-01T19:29:51.02Z 
-│                       ├ [62]  ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [87]  ╭ VulnerabilityID : CVE-2021-39920 
 │                       │       ├ PkgID           : libwireshark-data@4.6.4-1 
 │                       │       ├ PkgName         : libwireshark-data 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.6.4-1?arch=all&di
@@ -4119,7 +5500,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [63]  ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [88]  ╭ VulnerabilityID : CVE-2021-39920 
 │                       │       ├ PkgID           : libwireshark19@4.6.4-1 
 │                       │       ├ PkgName         : libwireshark19 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark19@4.6.4-1?arch=amd64&dis
@@ -4176,7 +5557,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [64]  ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [89]  ╭ VulnerabilityID : CVE-2021-39920 
 │                       │       ├ PkgID           : libwiretap16@4.6.4-1 
 │                       │       ├ PkgName         : libwiretap16 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap16@4.6.4-1?arch=amd64&distr
@@ -4233,7 +5614,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [65]  ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [90]  ╭ VulnerabilityID : CVE-2021-39920 
 │                       │       ├ PkgID           : libwsutil17@4.6.4-1 
 │                       │       ├ PkgName         : libwsutil17 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil17@4.6.4-1?arch=amd64&distro
@@ -4290,7 +5671,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [66]  ╭ VulnerabilityID : CVE-2026-1757 
+│                       ├ [91]  ╭ VulnerabilityID : CVE-2026-1757 
 │                       │       ├ PkgID           : libxml2-16@2.15.2+dfsg-0.1 
 │                       │       ├ PkgName         : libxml2-16 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2-16@2.15.2%2Bdfsg-0.1?arch=amd
@@ -4337,7 +5718,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-1757 
 │                       │       ├ PublishedDate   : 2026-02-02T13:15:58.58Z 
 │                       │       ╰ LastModifiedDate: 2026-04-22T10:16:50.683Z 
-│                       ├ [67]  ╭ VulnerabilityID : CVE-2026-4046 
+│                       ├ [92]  ╭ VulnerabilityID : CVE-2026-4046 
 │                       │       ├ PkgID           : locales@2.43-2ubuntu2 
 │                       │       ├ PkgName         : locales 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/locales@2.43-2ubuntu2?arch=all&distro
@@ -4382,27 +5763,33 @@
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:20587 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-4046 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2453117 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2453117 
-│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2449777 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2449783 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2453117 
+│                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4046 
-│                       │       │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2026-20587.html 
-│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2026:20594 
-│                       │       │                  ├ [7] : https://inbox.sourceware.org/libc-announce/76814edf-
+│                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4437 
+│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4438 
+│                       │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2026-20587.html 
+│                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:20597 
+│                       │       │                  ├ [11]: https://inbox.sourceware.org/libc-announce/76814edf-
 │                       │       │                  │       cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u 
-│                       │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2026-4046.html 
-│                       │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2026-50291.html 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-4046 
-│                       │       │                  ├ [11]: https://packages.fedoraproject.org/pkgs/glibc/glibc-
+│                       │       │                  ├ [12]: https://linux.oracle.com/cve/CVE-2026-4046.html 
+│                       │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-50291.html 
+│                       │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2026-4046 
+│                       │       │                  ├ [15]: https://packages.fedoraproject.org/pkgs/glibc/glibc-
 │                       │       │                  │       gconv-extra/ 
-│                       │       │                  ├ [12]: https://sourceware.org/bugzilla/show_bug.cgi?id=33980 
-│                       │       │                  ├ [13]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
+│                       │       │                  ├ [16]: https://sourceware.org/bugzilla/show_bug.cgi?id=33980 
+│                       │       │                  ├ [17]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
 │                       │       │                  │       ;f=advisories/GLIBC-SA-2026-0007 
-│                       │       │                  ├ [14]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
+│                       │       │                  ├ [18]: https://sourceware.org/git/?p=glibc.git;a=blob_plain
 │                       │       │                  │       ;f=advisories/GLIBC-SA-2026-0007;hb=HEAD 
-│                       │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2026-4046 
+│                       │       │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2026-4046 
 │                       │       ├ PublishedDate   : 2026-03-30T18:16:19.573Z 
 │                       │       ╰ LastModifiedDate: 2026-04-20T22:16:23.623Z 
-│                       ├ [68]  ╭ VulnerabilityID : CVE-2026-4437 
+│                       ├ [93]  ╭ VulnerabilityID : CVE-2026-4437 
 │                       │       ├ PkgID           : locales@2.43-2ubuntu2 
 │                       │       ├ PkgName         : locales 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/locales@2.43-2ubuntu2?arch=all&distro
@@ -4447,20 +5834,23 @@
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2449783 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2449777 
 │                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2449783 
-│                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4437 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2453117 
 │                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4046 
+│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4437 
+│                       │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4438 
-│                       │       │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2026-19061.html 
-│                       │       │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:19061 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-4437 
-│                       │       │                  ├ [11]: https://sourceware.org/bugzilla/show_bug.cgi?id=34014 
-│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2026-4437 
-│                       │       │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2026/03/
+│                       │       │                  ├ [10]: https://errata.almalinux.org/10/ALSA-2026-19061.html 
+│                       │       │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:20597 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-4437 
+│                       │       │                  ├ [13]: https://sourceware.org/bugzilla/show_bug.cgi?id=34014 
+│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2026-4437 
+│                       │       │                  ╰ [15]: https://www.openwall.com/lists/oss-security/2026/03/
 │                       │       │                          23/2 
 │                       │       ├ PublishedDate   : 2026-03-20T20:16:49.477Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:41:36.647Z 
-│                       ├ [69]  ╭ VulnerabilityID : CVE-2026-4438 
+│                       ├ [94]  ╭ VulnerabilityID : CVE-2026-4438 
 │                       │       ├ PkgID           : locales@2.43-2ubuntu2 
 │                       │       ├ PkgName         : locales 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/locales@2.43-2ubuntu2?arch=all&distro
@@ -4504,20 +5894,23 @@
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2449783 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2449777 
 │                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2449783 
-│                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-4437 
+│                       │       │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2453117 
 │                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4046 
+│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-4437 
+│                       │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-4438 
-│                       │       │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2026-19061.html 
-│                       │       │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:19061 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-4438 
-│                       │       │                  ├ [11]: https://sourceware.org/bugzilla/show_bug.cgi?id=34015 
-│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2026-4438 
-│                       │       │                  ╰ [13]: https://www.openwall.com/lists/oss-security/2026/03/
+│                       │       │                  ├ [10]: https://errata.almalinux.org/10/ALSA-2026-19061.html 
+│                       │       │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:20597 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-4438 
+│                       │       │                  ├ [13]: https://sourceware.org/bugzilla/show_bug.cgi?id=34015 
+│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2026-4438 
+│                       │       │                  ╰ [15]: https://www.openwall.com/lists/oss-security/2026/03/
 │                       │       │                          23/2 
 │                       │       ├ PublishedDate   : 2026-03-20T20:16:49.623Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:40:02.177Z 
-│                       ├ [70]  ╭ VulnerabilityID : CVE-2026-5435 
+│                       ├ [95]  ╭ VulnerabilityID : CVE-2026-5435 
 │                       │       ├ PkgID           : locales@2.43-2ubuntu2 
 │                       │       ├ PkgName         : locales 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/locales@2.43-2ubuntu2?arch=all&distro
@@ -4561,7 +5954,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-5435 
 │                       │       ├ PublishedDate   : 2026-04-28T13:19:22.29Z 
 │                       │       ╰ LastModifiedDate: 2026-05-05T17:38:37.03Z 
-│                       ├ [71]  ╭ VulnerabilityID : CVE-2026-6238 
+│                       ├ [96]  ╭ VulnerabilityID : CVE-2026-6238 
 │                       │       ├ PkgID           : locales@2.43-2ubuntu2 
 │                       │       ├ PkgName         : locales 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/locales@2.43-2ubuntu2?arch=all&distro
@@ -4615,7 +6008,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-6238 
 │                       │       ├ PublishedDate   : 2026-04-28T19:37:47.523Z 
 │                       │       ╰ LastModifiedDate: 2026-05-04T17:57:24.007Z 
-│                       ├ [72]  ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [97]  ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : login@1:4.16.0-2+really2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : login 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.16.0-2%2Breally2.41.3-3ubuntu
@@ -4683,7 +6076,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-04-22T16:08:55.1Z 
-│                       ├ [73]  ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [98]  ╭ VulnerabilityID : CVE-2026-3184 
 │                       │       ├ PkgID           : login@1:4.16.0-2+really2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : login 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.16.0-2%2Breally2.41.3-3ubuntu
@@ -4732,7 +6125,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │       ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │       ╰ LastModifiedDate: 2026-05-01T19:29:51.02Z 
-│                       ├ [74]  ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [99]  ╭ VulnerabilityID : CVE-2024-56433 
 │                       │       ├ PkgID           : login.defs@1:4.17.4-2ubuntu3 
 │                       │       ├ PkgName         : login.defs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.17.4-2ubuntu3?arch=all&d
@@ -4782,7 +6175,7 @@
 │                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-56433 
 │                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
+│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
 │                       │       │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d57
 │                       │       │                  │       41d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238
 │                       │       │                  │       -L241 
@@ -4795,7 +6188,7 @@
 │                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [75]  ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [100] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : mount@2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : mount 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/mount@2.41.3-3ubuntu2?arch=amd64&dist
@@ -4863,7 +6256,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-04-22T16:08:55.1Z 
-│                       ├ [76]  ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [101] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │       ├ PkgID           : mount@2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : mount 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/mount@2.41.3-3ubuntu2?arch=amd64&dist
@@ -4912,7 +6305,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │       ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │       ╰ LastModifiedDate: 2026-05-01T19:29:51.02Z 
-│                       ├ [77]  ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [102] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │       ├ PkgID           : passwd@1:4.17.4-2ubuntu3 
 │                       │       ├ PkgName         : passwd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.17.4-2ubuntu3?arch=amd64&dis
@@ -4962,7 +6355,7 @@
 │                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-56433 
 │                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
+│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
 │                       │       │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d57
 │                       │       │                  │       41d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238
 │                       │       │                  │       -L241 
@@ -4975,7 +6368,7 @@
 │                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [78]  ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [103] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : python3.14@3.14.4-1 
 │                       │       ├ PkgName         : python3.14 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.14@3.14.4-1?arch=amd64&distro
@@ -5064,7 +6457,7 @@
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
 │                       │       │                  ├ [38]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
-│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:19064 
+│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [40]: https://github.com/python/cpython/commit/482d6f8bdba
 │                       │       │                  │       9da3725d272e8bb4a2d25fb6a603e 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/69ddd9bb2cc
@@ -5083,7 +6476,7 @@
 │                       │       │                  ╰ [50]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-05-01T16:16:30.11Z 
-│                       ├ [79]  ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [104] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : python3.14-minimal@3.14.4-1 
 │                       │       ├ PkgName         : python3.14-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.14-minimal@3.14.4-1?arch=amd6
@@ -5172,7 +6565,7 @@
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
 │                       │       │                  ├ [38]: https://errata.almalinux.org/8/ALSA-2026-10950.html 
-│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:19064 
+│                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [40]: https://github.com/python/cpython/commit/482d6f8bdba
 │                       │       │                  │       9da3725d272e8bb4a2d25fb6a603e 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/69ddd9bb2cc
@@ -5191,7 +6584,7 @@
 │                       │       │                  ╰ [50]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-05-01T16:16:30.11Z 
-│                       ├ [80]  ╭ VulnerabilityID : CVE-2026-35341 
+│                       ├ [105] ╭ VulnerabilityID : CVE-2026-35341 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -5235,7 +6628,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35341 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:36.06Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:05:55.067Z 
-│                       ├ [81]  ╭ VulnerabilityID : CVE-2026-35344 
+│                       ├ [106] ╭ VulnerabilityID : CVE-2026-35344 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -5279,7 +6672,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35344 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:36.49Z 
 │                       │       ╰ LastModifiedDate: 2026-05-04T20:09:48.593Z 
-│                       ├ [82]  ╭ VulnerabilityID : CVE-2026-35345 
+│                       ├ [107] ╭ VulnerabilityID : CVE-2026-35345 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -5325,7 +6718,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35345 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:36.627Z 
 │                       │       ╰ LastModifiedDate: 2026-05-04T20:04:25.093Z 
-│                       ├ [83]  ╭ VulnerabilityID : CVE-2026-35348 
+│                       ├ [108] ╭ VulnerabilityID : CVE-2026-35348 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -5367,7 +6760,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35348 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:37.04Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T18:57:20.927Z 
-│                       ├ [84]  ╭ VulnerabilityID : CVE-2026-35350 
+│                       ├ [109] ╭ VulnerabilityID : CVE-2026-35350 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -5410,7 +6803,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35350 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:37.327Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:04:01.207Z 
-│                       ├ [85]  ╭ VulnerabilityID : CVE-2026-35351 
+│                       ├ [110] ╭ VulnerabilityID : CVE-2026-35351 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -5454,7 +6847,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-35351 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:37.457Z 
 │                       │       ╰ LastModifiedDate: 2026-04-27T12:28:10.22Z 
-│                       ├ [86]  ╭ VulnerabilityID : CVE-2026-35352 
+│                       ├ [111] ╭ VulnerabilityID : CVE-2026-35352 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -5500,7 +6893,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-35352 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:37.597Z 
 │                       │       ╰ LastModifiedDate: 2026-05-04T18:16:28.37Z 
-│                       ├ [87]  ╭ VulnerabilityID : CVE-2026-35354 
+│                       ├ [112] ╭ VulnerabilityID : CVE-2026-35354 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -5544,7 +6937,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35354 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:37.867Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:04:08.917Z 
-│                       ├ [88]  ╭ VulnerabilityID : CVE-2026-35357 
+│                       ├ [113] ╭ VulnerabilityID : CVE-2026-35357 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -5587,7 +6980,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35357 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:38.267Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:02:53.557Z 
-│                       ├ [89]  ╭ VulnerabilityID : CVE-2026-35359 
+│                       ├ [114] ╭ VulnerabilityID : CVE-2026-35359 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -5632,7 +7025,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35359 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:38.537Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:02:25.72Z 
-│                       ├ [90]  ╭ VulnerabilityID : CVE-2026-35360 
+│                       ├ [115] ╭ VulnerabilityID : CVE-2026-35360 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -5674,7 +7067,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35360 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:38.673Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:02:11.56Z 
-│                       ├ [91]  ╭ VulnerabilityID : CVE-2026-35363 
+│                       ├ [116] ╭ VulnerabilityID : CVE-2026-35363 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -5719,7 +7112,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35363 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:39.12Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:02:00.463Z 
-│                       ├ [92]  ╭ VulnerabilityID : CVE-2026-35364 
+│                       ├ [117] ╭ VulnerabilityID : CVE-2026-35364 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -5763,7 +7156,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35364 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:39.737Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:19:11.777Z 
-│                       ├ [93]  ╭ VulnerabilityID : CVE-2026-35367 
+│                       ├ [118] ╭ VulnerabilityID : CVE-2026-35367 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -5807,7 +7200,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35367 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:40.423Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:19:05.067Z 
-│                       ├ [94]  ╭ VulnerabilityID : CVE-2026-35368 
+│                       ├ [119] ╭ VulnerabilityID : CVE-2026-35368 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -5851,7 +7244,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35368 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:40.56Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:18:55.67Z 
-│                       ├ [95]  ╭ VulnerabilityID : CVE-2026-35370 
+│                       ├ [120] ╭ VulnerabilityID : CVE-2026-35370 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -5894,7 +7287,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35370 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:40.833Z 
 │                       │       ╰ LastModifiedDate: 2026-05-04T20:02:44.33Z 
-│                       ├ [96]  ╭ VulnerabilityID : CVE-2026-35371 
+│                       ├ [121] ╭ VulnerabilityID : CVE-2026-35371 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -5937,7 +7330,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35371 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:40.987Z 
 │                       │       ╰ LastModifiedDate: 2026-05-04T20:02:06.183Z 
-│                       ├ [97]  ╭ VulnerabilityID : CVE-2026-35373 
+│                       ├ [122] ╭ VulnerabilityID : CVE-2026-35373 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -5987,7 +7380,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35373 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:41.997Z 
 │                       │       ╰ LastModifiedDate: 2026-05-04T20:01:25.93Z 
-│                       ├ [98]  ╭ VulnerabilityID : CVE-2026-35374 
+│                       ├ [123] ╭ VulnerabilityID : CVE-2026-35374 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -6035,7 +7428,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35374 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:42.127Z 
 │                       │       ╰ LastModifiedDate: 2026-05-04T19:22:14.457Z 
-│                       ├ [99]  ╭ VulnerabilityID : CVE-2026-35377 
+│                       ├ [124] ╭ VulnerabilityID : CVE-2026-35377 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -6083,7 +7476,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35377 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:42.577Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:06:46.293Z 
-│                       ├ [100] ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [125] ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : systemd@259.5-0ubuntu3 
 │                       │       ├ PkgName         : systemd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@259.5-0ubuntu3?arch=amd64&dis
@@ -6127,7 +7520,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-05-05T02:16:04.82Z 
-│                       ├ [101] ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [126] ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : systemd-cryptsetup@259.5-0ubuntu3 
 │                       │       ├ PkgName         : systemd-cryptsetup 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-cryptsetup@259.5-0ubuntu3?arc
@@ -6171,7 +7564,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-05-05T02:16:04.82Z 
-│                       ├ [102] ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [127] ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : systemd-resolved@259.5-0ubuntu3 
 │                       │       ├ PkgName         : systemd-resolved 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-resolved@259.5-0ubuntu3?arch=
@@ -6215,7 +7608,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-05-05T02:16:04.82Z 
-│                       ├ [103] ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [128] ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : systemd-sysv@259.5-0ubuntu3 
 │                       │       ├ PkgName         : systemd-sysv 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@259.5-0ubuntu3?arch=amd6
@@ -6259,7 +7652,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-05-05T02:16:04.82Z 
-│                       ├ [104] ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [129] ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : systemd-timesyncd@259.5-0ubuntu3 
 │                       │       ├ PkgName         : systemd-timesyncd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@259.5-0ubuntu3?arch
@@ -6303,7 +7696,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-05-05T02:16:04.82Z 
-│                       ├ [105] ╭ VulnerabilityID : CVE-2025-45582 
+│                       ├ [130] ╭ VulnerabilityID : CVE-2025-45582 
 │                       │       ├ PkgID           : tar@1.35+dfsg-4 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-4?arch=amd64&distro=u
@@ -6367,7 +7760,7 @@
 │                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       025-45582 
 │                       │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-0067.html 
-│                       │       │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0002 
+│                       │       │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0067 
 │                       │       │                  ├ [8] : https://github.com/i900008/vulndb/blob/main/Gnu_tar_
 │                       │       │                  │       vuln.md 
 │                       │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-45582.html 
@@ -6385,7 +7778,7 @@
 │                       │       │                          curity-rules-of-thumb.html 
 │                       │       ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │       ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
-│                       ├ [106] ╭ VulnerabilityID : CVE-2026-11623 
+│                       ├ [131] ╭ VulnerabilityID : CVE-2026-11623 
 │                       │       ├ PkgID           : tmux@3.6a-2 
 │                       │       ├ PkgName         : tmux 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tmux@3.6a-2?arch=amd64&distro=ubuntu-
@@ -6440,7 +7833,7 @@
 │                       │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2026-11623 
 │                       │       ├ PublishedDate   : 2026-06-09T05:16:30.227Z 
 │                       │       ╰ LastModifiedDate: 2026-06-09T13:33:34.393Z 
-│                       ├ [107] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [132] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │       ├ PkgID           : tshark@4.6.4-1 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.6.4-1?arch=amd64&distro=ubun
@@ -6497,7 +7890,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [108] ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [133] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : util-linux@2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : util-linux 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/util-linux@2.41.3-3ubuntu2?arch=amd64
@@ -6565,7 +7958,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-04-22T16:08:55.1Z 
-│                       ├ [109] ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [134] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │       ├ PkgID           : util-linux@2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : util-linux 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/util-linux@2.41.3-3ubuntu2?arch=amd64
@@ -6614,7 +8007,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │       ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │       ╰ LastModifiedDate: 2026-05-01T19:29:51.02Z 
-│                       ├ [110] ╭ VulnerabilityID : CVE-2026-47162 
+│                       ├ [135] ╭ VulnerabilityID : CVE-2026-47162 
 │                       │       ├ PkgID           : vim@2:9.1.2141-1ubuntu4.3 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.3?arch=amd64&di
@@ -6665,7 +8058,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-47162 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.16Z 
 │                       │       ╰ LastModifiedDate: 2026-06-13T01:04:09.357Z 
-│                       ├ [111] ╭ VulnerabilityID : CVE-2026-47167 
+│                       ├ [136] ╭ VulnerabilityID : CVE-2026-47167 
 │                       │       ├ PkgID           : vim@2:9.1.2141-1ubuntu4.3 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.3?arch=amd64&di
@@ -6715,7 +8108,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-47167 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.56Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:14.61Z 
-│                       ├ [112] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [137] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │       ├ PkgID           : vim@2:9.1.2141-1ubuntu4.3 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.3?arch=amd64&di
@@ -6765,7 +8158,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:35.193Z 
-│                       ├ [113] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [138] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │       ├ PkgID           : vim@2:9.1.2141-1ubuntu4.3 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.3?arch=amd64&di
@@ -6824,7 +8217,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:12:47.37Z 
-│                       ├ [114] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ├ [139] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │       ├ PkgID           : vim@2:9.1.2141-1ubuntu4.3 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.3?arch=amd64&di
@@ -6876,7 +8269,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:24:42.873Z 
-│                       ├ [115] ╭ VulnerabilityID : CVE-2026-47162 
+│                       ├ [140] ╭ VulnerabilityID : CVE-2026-47162 
 │                       │       ├ PkgID           : vim-common@2:9.1.2141-1ubuntu4.3 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.3?arch=a
@@ -6927,7 +8320,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-47162 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.16Z 
 │                       │       ╰ LastModifiedDate: 2026-06-13T01:04:09.357Z 
-│                       ├ [116] ╭ VulnerabilityID : CVE-2026-47167 
+│                       ├ [141] ╭ VulnerabilityID : CVE-2026-47167 
 │                       │       ├ PkgID           : vim-common@2:9.1.2141-1ubuntu4.3 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.3?arch=a
@@ -6977,7 +8370,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-47167 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.56Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:14.61Z 
-│                       ├ [117] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [142] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │       ├ PkgID           : vim-common@2:9.1.2141-1ubuntu4.3 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.3?arch=a
@@ -7027,7 +8420,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:35.193Z 
-│                       ├ [118] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [143] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │       ├ PkgID           : vim-common@2:9.1.2141-1ubuntu4.3 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.3?arch=a
@@ -7086,7 +8479,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:12:47.37Z 
-│                       ├ [119] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ├ [144] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │       ├ PkgID           : vim-common@2:9.1.2141-1ubuntu4.3 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.3?arch=a
@@ -7138,7 +8531,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:24:42.873Z 
-│                       ├ [120] ╭ VulnerabilityID : CVE-2026-47162 
+│                       ├ [145] ╭ VulnerabilityID : CVE-2026-47162 
 │                       │       ├ PkgID           : vim-runtime@2:9.1.2141-1ubuntu4.3 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.3?arch=
@@ -7189,7 +8582,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-47162 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.16Z 
 │                       │       ╰ LastModifiedDate: 2026-06-13T01:04:09.357Z 
-│                       ├ [121] ╭ VulnerabilityID : CVE-2026-47167 
+│                       ├ [146] ╭ VulnerabilityID : CVE-2026-47167 
 │                       │       ├ PkgID           : vim-runtime@2:9.1.2141-1ubuntu4.3 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.3?arch=
@@ -7239,7 +8632,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-47167 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.56Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:14.61Z 
-│                       ├ [122] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [147] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │       ├ PkgID           : vim-runtime@2:9.1.2141-1ubuntu4.3 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.3?arch=
@@ -7289,7 +8682,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:35.193Z 
-│                       ├ [123] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [148] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │       ├ PkgID           : vim-runtime@2:9.1.2141-1ubuntu4.3 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.3?arch=
@@ -7348,7 +8741,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:12:47.37Z 
-│                       ├ [124] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ├ [149] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │       ├ PkgID           : vim-runtime@2:9.1.2141-1ubuntu4.3 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.3?arch=
@@ -7400,7 +8793,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:24:42.873Z 
-│                       ├ [125] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [150] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │       ├ PkgID           : wget@1.25.0-2ubuntu4 
 │                       │       ├ PkgName         : wget 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.25.0-2ubuntu4?arch=amd64&distr
@@ -7449,7 +8842,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │       ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                       ├ [126] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [151] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │       ├ PkgID           : wireshark-common@4.6.4-1 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.6.4-1?arch=amd64&d
@@ -7506,7 +8899,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [127] ╭ VulnerabilityID : CVE-2026-47162 
+│                       ├ [152] ╭ VulnerabilityID : CVE-2026-47162 
 │                       │       ├ PkgID           : xxd@2:9.1.2141-1ubuntu4.3 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.3?arch=amd64&di
@@ -7557,7 +8950,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-47162 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.16Z 
 │                       │       ╰ LastModifiedDate: 2026-06-13T01:04:09.357Z 
-│                       ├ [128] ╭ VulnerabilityID : CVE-2026-47167 
+│                       ├ [153] ╭ VulnerabilityID : CVE-2026-47167 
 │                       │       ├ PkgID           : xxd@2:9.1.2141-1ubuntu4.3 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.3?arch=amd64&di
@@ -7607,7 +9000,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-47167 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.56Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:14.61Z 
-│                       ├ [129] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [154] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │       ├ PkgID           : xxd@2:9.1.2141-1ubuntu4.3 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.3?arch=amd64&di
@@ -7657,7 +9050,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:35.193Z 
-│                       ├ [130] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [155] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │       ├ PkgID           : xxd@2:9.1.2141-1ubuntu4.3 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.3?arch=amd64&di
@@ -7716,7 +9109,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:12:47.37Z 
-│                       ╰ [131] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ╰ [156] ╭ VulnerabilityID : CVE-2026-52860 
 │                               ├ PkgID           : xxd@2:9.1.2141-1ubuntu4.3 
 │                               ├ PkgName         : xxd 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.3?arch=amd64&di
