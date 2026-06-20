@@ -105,6 +105,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-289 
 │                       │       ├ VendorSeverity   ╭ azure : 1 
 │                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -222,6 +223,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-289 
 │                       │       ├ VendorSeverity   ╭ azure : 1 
 │                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -830,6 +832,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-289 
 │                       │       ├ VendorSeverity   ╭ azure : 1 
 │                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -6496,6 +6499,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-289 
 │                       │       ├ VendorSeverity   ╭ azure : 1 
 │                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -6838,6 +6842,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-289 
 │                       │       ├ VendorSeverity   ╭ azure : 1 
 │                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -7026,6 +7031,7 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-416 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
+│                       │       │                  ├ azure      : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 3 
@@ -7191,6 +7197,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-354 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 4 
 │                       │       │                  ├ photon: 4 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ├ rocky : 3 
@@ -7640,6 +7647,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-325 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ├ rocky : 3 
@@ -7788,6 +7796,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ├ rocky : 3 
@@ -8064,6 +8073,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-476 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ├ rocky : 3 
@@ -8202,6 +8212,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-476 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ├ rocky : 3 
@@ -9031,6 +9042,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-787 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ├ rocky : 3 
@@ -9193,6 +9205,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ├ rocky : 3 
@@ -9615,6 +9628,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-289 
 │                       │       ├ VendorSeverity   ╭ azure : 1 
 │                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -9858,7 +9872,57 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [132] ╭ VulnerabilityID : CVE-2026-1757 
+│                       ├ [132] ╭ VulnerabilityID : CVE-2026-6732 
+│                       │       ├ PkgID           : libxml2-16@2.15.2+dfsg-0.1 
+│                       │       ├ PkgName         : libxml2-16 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2-16@2.15.2%2Bdfsg-0.1?arch=amd
+│                       │       │                  │       64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 9bfe0fc72832625d 
+│                       │       ├ InstalledVersion: 2.15.2+dfsg-0.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a
+│                       │       │                  │         90a85ec9fa699d991513e 
+│                       │       │                  ╰ DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a1
+│                       │       │                            8227e62f637507d93dd71 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6732 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:756c81e351183d00df3f734c5eedecfccdf31d4bbd95bd6ec2bf
+│                       │       │                   633ae39af151 
+│                       │       ├ Title           : libxml2: libxml2: Denial of Service via crafted
+│                       │       │                   XSD-validated document 
+│                       │       ├ Description     : A flaw was found in libxml2. This vulnerability occurs when
+│                       │       │                    the library processes a specially crafted XML Schema
+│                       │       │                   Definition (XSD) validated document that includes an
+│                       │       │                   internal entity reference. An attacker could exploit this
+│                       │       │                   by providing a malicious document, leading to a type
+│                       │       │                   confusion error that causes the application to crash. This
+│                       │       │                   results in a denial of service (DoS), making the affected
+│                       │       │                   system or application unavailable. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-843 
+│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       │                  ├ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                  │        │           N/A:H 
+│                       │       │                  │        ╰ V3Score : 7.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:11503 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-6732 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2461300 
+│                       │       │                  ├ [3]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/1097 
+│                       │       │                  ├ [4]: https://gitlab.gnome.org/GNOME/libxml2/-/merge_reques
+│                       │       │                  │      ts/411 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-6732 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-6732 
+│                       │       ├ PublishedDate   : 2026-04-23T23:16:16.443Z 
+│                       │       ╰ LastModifiedDate: 2026-05-15T14:36:35.823Z 
+│                       ├ [133] ╭ VulnerabilityID : CVE-2026-1757 
 │                       │       ├ PkgID           : libxml2-16@2.15.2+dfsg-0.1 
 │                       │       ├ PkgName         : libxml2-16 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libxml2-16@2.15.2%2Bdfsg-0.1?arch=amd
@@ -9905,7 +9969,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-1757 
 │                       │       ├ PublishedDate   : 2026-02-02T13:15:58.58Z 
 │                       │       ╰ LastModifiedDate: 2026-04-22T10:16:50.683Z 
-│                       ├ [133] ╭ VulnerabilityID : CVE-2026-4046 
+│                       ├ [134] ╭ VulnerabilityID : CVE-2026-4046 
 │                       │       ├ PkgID           : locales@2.43-2ubuntu2 
 │                       │       ├ PkgName         : locales 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/locales@2.43-2ubuntu2?arch=all&distro
@@ -9976,7 +10040,7 @@
 │                       │       │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2026-4046 
 │                       │       ├ PublishedDate   : 2026-03-30T18:16:19.573Z 
 │                       │       ╰ LastModifiedDate: 2026-04-20T22:16:23.623Z 
-│                       ├ [134] ╭ VulnerabilityID : CVE-2026-4437 
+│                       ├ [135] ╭ VulnerabilityID : CVE-2026-4437 
 │                       │       ├ PkgID           : locales@2.43-2ubuntu2 
 │                       │       ├ PkgName         : locales 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/locales@2.43-2ubuntu2?arch=all&distro
@@ -10037,7 +10101,7 @@
 │                       │       │                          23/2 
 │                       │       ├ PublishedDate   : 2026-03-20T20:16:49.477Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:41:36.647Z 
-│                       ├ [135] ╭ VulnerabilityID : CVE-2026-4438 
+│                       ├ [136] ╭ VulnerabilityID : CVE-2026-4438 
 │                       │       ├ PkgID           : locales@2.43-2ubuntu2 
 │                       │       ├ PkgName         : locales 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/locales@2.43-2ubuntu2?arch=all&distro
@@ -10097,7 +10161,7 @@
 │                       │       │                          23/2 
 │                       │       ├ PublishedDate   : 2026-03-20T20:16:49.623Z 
 │                       │       ╰ LastModifiedDate: 2026-04-07T18:40:02.177Z 
-│                       ├ [136] ╭ VulnerabilityID : CVE-2026-5435 
+│                       ├ [137] ╭ VulnerabilityID : CVE-2026-5435 
 │                       │       ├ PkgID           : locales@2.43-2ubuntu2 
 │                       │       ├ PkgName         : locales 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/locales@2.43-2ubuntu2?arch=all&distro
@@ -10141,7 +10205,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-5435 
 │                       │       ├ PublishedDate   : 2026-04-28T13:19:22.29Z 
 │                       │       ╰ LastModifiedDate: 2026-05-05T17:38:37.03Z 
-│                       ├ [137] ╭ VulnerabilityID : CVE-2026-6238 
+│                       ├ [138] ╭ VulnerabilityID : CVE-2026-6238 
 │                       │       ├ PkgID           : locales@2.43-2ubuntu2 
 │                       │       ├ PkgName         : locales 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/locales@2.43-2ubuntu2?arch=all&distro
@@ -10195,7 +10259,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-6238 
 │                       │       ├ PublishedDate   : 2026-04-28T19:37:47.523Z 
 │                       │       ╰ LastModifiedDate: 2026-05-04T17:57:24.007Z 
-│                       ├ [138] ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [139] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : login@1:4.16.0-2+really2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : login 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.16.0-2%2Breally2.41.3-3ubuntu
@@ -10263,7 +10327,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-04-22T16:08:55.1Z 
-│                       ├ [139] ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [140] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │       ├ PkgID           : login@1:4.16.0-2+really2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : login 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.16.0-2%2Breally2.41.3-3ubuntu
@@ -10297,6 +10361,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-289 
 │                       │       ├ VendorSeverity   ╭ azure : 1 
 │                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -10312,7 +10377,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │       ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │       ╰ LastModifiedDate: 2026-05-01T19:29:51.02Z 
-│                       ├ [140] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [141] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │       ├ PkgID           : login.defs@1:4.17.4-2ubuntu3 
 │                       │       ├ PkgName         : login.defs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.17.4-2ubuntu3?arch=all&d
@@ -10375,7 +10440,7 @@
 │                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [141] ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [142] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : mount@2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : mount 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/mount@2.41.3-3ubuntu2?arch=amd64&dist
@@ -10443,7 +10508,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-04-22T16:08:55.1Z 
-│                       ├ [142] ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [143] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │       ├ PkgID           : mount@2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : mount 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/mount@2.41.3-3ubuntu2?arch=amd64&dist
@@ -10477,6 +10542,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-289 
 │                       │       ├ VendorSeverity   ╭ azure : 1 
 │                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -10492,7 +10558,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │       ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │       ╰ LastModifiedDate: 2026-05-01T19:29:51.02Z 
-│                       ├ [143] ╭ VulnerabilityID : CVE-2026-45447 
+│                       ├ [144] ╭ VulnerabilityID : CVE-2026-45447 
 │                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3?arch=amd64&dis
@@ -10552,6 +10618,7 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-416 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
+│                       │       │                  ├ azure      : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 3 
@@ -10643,7 +10710,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-45447 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.277Z 
 │                       │       ╰ LastModifiedDate: 2026-06-16T02:56:50.707Z 
-│                       ├ [144] ╭ VulnerabilityID : CVE-2026-34182 
+│                       ├ [145] ╭ VulnerabilityID : CVE-2026-34182 
 │                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3?arch=amd64&dis
@@ -10717,6 +10784,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-354 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 4 
 │                       │       │                  ├ photon: 4 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ├ rocky : 3 
@@ -10805,7 +10873,7 @@
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-34182 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.857Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T18:13:05.717Z 
-│                       ├ [145] ╭ VulnerabilityID : CVE-2026-34183 
+│                       ├ [146] ╭ VulnerabilityID : CVE-2026-34183 
 │                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3?arch=amd64&dis
@@ -10943,7 +11011,7 @@
 │                       │       │                  ╰ [56]: https://www.cve.org/CVERecord?id=CVE-2026-34183 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:05Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T18:12:39.05Z 
-│                       ├ [146] ╭ VulnerabilityID : CVE-2026-42764 
+│                       ├ [147] ╭ VulnerabilityID : CVE-2026-42764 
 │                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3?arch=amd64&dis
@@ -11079,7 +11147,7 @@
 │                       │       │                  ╰ [55]: https://www.cve.org/CVERecord?id=CVE-2026-42764 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.693Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T18:25:25.99Z 
-│                       ├ [147] ╭ VulnerabilityID : CVE-2026-45445 
+│                       ├ [148] ╭ VulnerabilityID : CVE-2026-45445 
 │                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3?arch=amd64&dis
@@ -11166,6 +11234,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-325 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ├ rocky : 3 
@@ -11253,7 +11322,7 @@
 │                       │       │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2026-45445 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:18.993Z 
 │                       │       ╰ LastModifiedDate: 2026-06-16T02:57:17.483Z 
-│                       ├ [148] ╭ VulnerabilityID : CVE-2026-34180 
+│                       ├ [149] ╭ VulnerabilityID : CVE-2026-34180 
 │                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3?arch=amd64&dis
@@ -11314,6 +11383,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ├ rocky : 3 
@@ -11402,7 +11472,7 @@
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-34180 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.6Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T18:13:21.753Z 
-│                       ├ [149] ╭ VulnerabilityID : CVE-2026-34181 
+│                       ├ [150] ╭ VulnerabilityID : CVE-2026-34181 
 │                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3?arch=amd64&dis
@@ -11537,7 +11607,7 @@
 │                       │       │                  ╰ [56]: https://www.cve.org/CVERecord?id=CVE-2026-34181 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.74Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T18:13:13.673Z 
-│                       ├ [150] ╭ VulnerabilityID : CVE-2026-42766 
+│                       ├ [151] ╭ VulnerabilityID : CVE-2026-42766 
 │                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3?arch=amd64&dis
@@ -11590,6 +11660,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-476 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ├ rocky : 3 
@@ -11678,7 +11749,7 @@
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-42766 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.97Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T18:25:08.923Z 
-│                       ├ [151] ╭ VulnerabilityID : CVE-2026-42767 
+│                       ├ [152] ╭ VulnerabilityID : CVE-2026-42767 
 │                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3?arch=amd64&dis
@@ -11728,6 +11799,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-476 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ├ rocky : 3 
@@ -11815,7 +11887,7 @@
 │                       │       │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2026-42767 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.093Z 
 │                       │       ╰ LastModifiedDate: 2026-06-16T02:58:39.02Z 
-│                       ├ [152] ╭ VulnerabilityID : CVE-2026-42768 
+│                       ├ [153] ╭ VulnerabilityID : CVE-2026-42768 
 │                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3?arch=amd64&dis
@@ -12004,7 +12076,7 @@
 │                       │       │                  ╰ [56]: https://www.cve.org/CVERecord?id=CVE-2026-42768 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.223Z 
 │                       │       ╰ LastModifiedDate: 2026-06-16T02:58:12.833Z 
-│                       ├ [153] ╭ VulnerabilityID : CVE-2026-42769 
+│                       ├ [154] ╭ VulnerabilityID : CVE-2026-42769 
 │                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3?arch=amd64&dis
@@ -12167,7 +12239,7 @@
 │                       │       │                  ╰ [56]: https://www.cve.org/CVERecord?id=CVE-2026-42769 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.377Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T18:26:34.447Z 
-│                       ├ [154] ╭ VulnerabilityID : CVE-2026-42770 
+│                       ├ [155] ╭ VulnerabilityID : CVE-2026-42770 
 │                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3?arch=amd64&dis
@@ -12321,7 +12393,7 @@
 │                       │       │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2026-42770 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.523Z 
 │                       │       ╰ LastModifiedDate: 2026-06-16T02:58:00.133Z 
-│                       ├ [155] ╭ VulnerabilityID : CVE-2026-45446 
+│                       ├ [156] ╭ VulnerabilityID : CVE-2026-45446 
 │                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3?arch=amd64&dis
@@ -12488,7 +12560,7 @@
 │                       │       │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2026-45446 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.137Z 
 │                       │       ╰ LastModifiedDate: 2026-06-16T02:57:01.743Z 
-│                       ├ [156] ╭ VulnerabilityID : CVE-2026-7383 
+│                       ├ [157] ╭ VulnerabilityID : CVE-2026-7383 
 │                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3?arch=amd64&dis
@@ -12557,6 +12629,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-787 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ├ rocky : 3 
@@ -12645,7 +12718,7 @@
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-7383 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:50.337Z 
 │                       │       ╰ LastModifiedDate: 2026-06-16T02:46:08.173Z 
-│                       ├ [157] ╭ VulnerabilityID : CVE-2026-9076 
+│                       ├ [158] ╭ VulnerabilityID : CVE-2026-9076 
 │                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3?arch=amd64&dis
@@ -12719,6 +12792,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ├ rocky : 3 
@@ -12807,7 +12881,7 @@
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-9076 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:50.997Z 
 │                       │       ╰ LastModifiedDate: 2026-06-16T02:45:58.157Z 
-│                       ├ [158] ╭ VulnerabilityID : CVE-2026-45447 
+│                       ├ [159] ╭ VulnerabilityID : CVE-2026-45447 
 │                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl-provider-legacy 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
@@ -12867,6 +12941,7 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-416 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
+│                       │       │                  ├ azure      : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 3 
@@ -12958,7 +13033,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-45447 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.277Z 
 │                       │       ╰ LastModifiedDate: 2026-06-16T02:56:50.707Z 
-│                       ├ [159] ╭ VulnerabilityID : CVE-2026-34182 
+│                       ├ [160] ╭ VulnerabilityID : CVE-2026-34182 
 │                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl-provider-legacy 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
@@ -13032,6 +13107,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-354 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 4 
 │                       │       │                  ├ photon: 4 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ├ rocky : 3 
@@ -13120,7 +13196,7 @@
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-34182 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.857Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T18:13:05.717Z 
-│                       ├ [160] ╭ VulnerabilityID : CVE-2026-34183 
+│                       ├ [161] ╭ VulnerabilityID : CVE-2026-34183 
 │                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl-provider-legacy 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
@@ -13258,7 +13334,7 @@
 │                       │       │                  ╰ [56]: https://www.cve.org/CVERecord?id=CVE-2026-34183 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:05Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T18:12:39.05Z 
-│                       ├ [161] ╭ VulnerabilityID : CVE-2026-42764 
+│                       ├ [162] ╭ VulnerabilityID : CVE-2026-42764 
 │                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl-provider-legacy 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
@@ -13394,7 +13470,7 @@
 │                       │       │                  ╰ [55]: https://www.cve.org/CVERecord?id=CVE-2026-42764 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.693Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T18:25:25.99Z 
-│                       ├ [162] ╭ VulnerabilityID : CVE-2026-45445 
+│                       ├ [163] ╭ VulnerabilityID : CVE-2026-45445 
 │                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl-provider-legacy 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
@@ -13481,6 +13557,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-325 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ├ rocky : 3 
@@ -13568,7 +13645,7 @@
 │                       │       │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2026-45445 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:18.993Z 
 │                       │       ╰ LastModifiedDate: 2026-06-16T02:57:17.483Z 
-│                       ├ [163] ╭ VulnerabilityID : CVE-2026-34180 
+│                       ├ [164] ╭ VulnerabilityID : CVE-2026-34180 
 │                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl-provider-legacy 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
@@ -13629,6 +13706,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ├ rocky : 3 
@@ -13717,7 +13795,7 @@
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-34180 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.6Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T18:13:21.753Z 
-│                       ├ [164] ╭ VulnerabilityID : CVE-2026-34181 
+│                       ├ [165] ╭ VulnerabilityID : CVE-2026-34181 
 │                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl-provider-legacy 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
@@ -13852,7 +13930,7 @@
 │                       │       │                  ╰ [56]: https://www.cve.org/CVERecord?id=CVE-2026-34181 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.74Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T18:13:13.673Z 
-│                       ├ [165] ╭ VulnerabilityID : CVE-2026-42766 
+│                       ├ [166] ╭ VulnerabilityID : CVE-2026-42766 
 │                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl-provider-legacy 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
@@ -13905,6 +13983,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-476 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ├ rocky : 3 
@@ -13993,7 +14072,7 @@
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-42766 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.97Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T18:25:08.923Z 
-│                       ├ [166] ╭ VulnerabilityID : CVE-2026-42767 
+│                       ├ [167] ╭ VulnerabilityID : CVE-2026-42767 
 │                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl-provider-legacy 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
@@ -14043,6 +14122,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-476 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ├ rocky : 3 
@@ -14130,7 +14210,7 @@
 │                       │       │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2026-42767 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.093Z 
 │                       │       ╰ LastModifiedDate: 2026-06-16T02:58:39.02Z 
-│                       ├ [167] ╭ VulnerabilityID : CVE-2026-42768 
+│                       ├ [168] ╭ VulnerabilityID : CVE-2026-42768 
 │                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl-provider-legacy 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
@@ -14319,7 +14399,7 @@
 │                       │       │                  ╰ [56]: https://www.cve.org/CVERecord?id=CVE-2026-42768 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.223Z 
 │                       │       ╰ LastModifiedDate: 2026-06-16T02:58:12.833Z 
-│                       ├ [168] ╭ VulnerabilityID : CVE-2026-42769 
+│                       ├ [169] ╭ VulnerabilityID : CVE-2026-42769 
 │                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl-provider-legacy 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
@@ -14482,7 +14562,7 @@
 │                       │       │                  ╰ [56]: https://www.cve.org/CVERecord?id=CVE-2026-42769 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.377Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T18:26:34.447Z 
-│                       ├ [169] ╭ VulnerabilityID : CVE-2026-42770 
+│                       ├ [170] ╭ VulnerabilityID : CVE-2026-42770 
 │                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl-provider-legacy 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
@@ -14636,7 +14716,7 @@
 │                       │       │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2026-42770 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.523Z 
 │                       │       ╰ LastModifiedDate: 2026-06-16T02:58:00.133Z 
-│                       ├ [170] ╭ VulnerabilityID : CVE-2026-45446 
+│                       ├ [171] ╭ VulnerabilityID : CVE-2026-45446 
 │                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl-provider-legacy 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
@@ -14803,7 +14883,7 @@
 │                       │       │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2026-45446 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.137Z 
 │                       │       ╰ LastModifiedDate: 2026-06-16T02:57:01.743Z 
-│                       ├ [171] ╭ VulnerabilityID : CVE-2026-7383 
+│                       ├ [172] ╭ VulnerabilityID : CVE-2026-7383 
 │                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl-provider-legacy 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
@@ -14872,6 +14952,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-787 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ├ rocky : 3 
@@ -14960,7 +15041,7 @@
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-7383 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:50.337Z 
 │                       │       ╰ LastModifiedDate: 2026-06-16T02:46:08.173Z 
-│                       ├ [172] ╭ VulnerabilityID : CVE-2026-9076 
+│                       ├ [173] ╭ VulnerabilityID : CVE-2026-9076 
 │                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3 
 │                       │       ├ PkgName         : openssl-provider-legacy 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
@@ -15034,6 +15115,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
 │                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ azure : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ├ rocky : 3 
@@ -15122,7 +15204,7 @@
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-9076 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:50.997Z 
 │                       │       ╰ LastModifiedDate: 2026-06-16T02:45:58.157Z 
-│                       ├ [173] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [174] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │       ├ PkgID           : passwd@1:4.17.4-2ubuntu3 
 │                       │       ├ PkgName         : passwd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.17.4-2ubuntu3?arch=amd64&dis
@@ -15185,7 +15267,7 @@
 │                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │       ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [174] ╭ VulnerabilityID : CVE-2026-35341 
+│                       ├ [175] ╭ VulnerabilityID : CVE-2026-35341 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -15229,7 +15311,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35341 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:36.06Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:05:55.067Z 
-│                       ├ [175] ╭ VulnerabilityID : CVE-2026-35344 
+│                       ├ [176] ╭ VulnerabilityID : CVE-2026-35344 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -15273,7 +15355,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35344 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:36.49Z 
 │                       │       ╰ LastModifiedDate: 2026-05-04T20:09:48.593Z 
-│                       ├ [176] ╭ VulnerabilityID : CVE-2026-35345 
+│                       ├ [177] ╭ VulnerabilityID : CVE-2026-35345 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -15319,7 +15401,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35345 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:36.627Z 
 │                       │       ╰ LastModifiedDate: 2026-05-04T20:04:25.093Z 
-│                       ├ [177] ╭ VulnerabilityID : CVE-2026-35348 
+│                       ├ [178] ╭ VulnerabilityID : CVE-2026-35348 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -15361,7 +15443,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35348 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:37.04Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T18:57:20.927Z 
-│                       ├ [178] ╭ VulnerabilityID : CVE-2026-35350 
+│                       ├ [179] ╭ VulnerabilityID : CVE-2026-35350 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -15404,7 +15486,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35350 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:37.327Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:04:01.207Z 
-│                       ├ [179] ╭ VulnerabilityID : CVE-2026-35351 
+│                       ├ [180] ╭ VulnerabilityID : CVE-2026-35351 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -15448,7 +15530,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-35351 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:37.457Z 
 │                       │       ╰ LastModifiedDate: 2026-04-27T12:28:10.22Z 
-│                       ├ [180] ╭ VulnerabilityID : CVE-2026-35352 
+│                       ├ [181] ╭ VulnerabilityID : CVE-2026-35352 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -15494,7 +15576,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-35352 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:37.597Z 
 │                       │       ╰ LastModifiedDate: 2026-05-04T18:16:28.37Z 
-│                       ├ [181] ╭ VulnerabilityID : CVE-2026-35354 
+│                       ├ [182] ╭ VulnerabilityID : CVE-2026-35354 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -15538,7 +15620,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35354 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:37.867Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:04:08.917Z 
-│                       ├ [182] ╭ VulnerabilityID : CVE-2026-35357 
+│                       ├ [183] ╭ VulnerabilityID : CVE-2026-35357 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -15581,7 +15663,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35357 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:38.267Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:02:53.557Z 
-│                       ├ [183] ╭ VulnerabilityID : CVE-2026-35359 
+│                       ├ [184] ╭ VulnerabilityID : CVE-2026-35359 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -15626,7 +15708,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35359 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:38.537Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:02:25.72Z 
-│                       ├ [184] ╭ VulnerabilityID : CVE-2026-35360 
+│                       ├ [185] ╭ VulnerabilityID : CVE-2026-35360 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -15668,7 +15750,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35360 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:38.673Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:02:11.56Z 
-│                       ├ [185] ╭ VulnerabilityID : CVE-2026-35363 
+│                       ├ [186] ╭ VulnerabilityID : CVE-2026-35363 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -15713,7 +15795,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35363 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:39.12Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:02:00.463Z 
-│                       ├ [186] ╭ VulnerabilityID : CVE-2026-35364 
+│                       ├ [187] ╭ VulnerabilityID : CVE-2026-35364 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -15757,7 +15839,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35364 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:39.737Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:19:11.777Z 
-│                       ├ [187] ╭ VulnerabilityID : CVE-2026-35367 
+│                       ├ [188] ╭ VulnerabilityID : CVE-2026-35367 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -15801,7 +15883,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35367 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:40.423Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:19:05.067Z 
-│                       ├ [188] ╭ VulnerabilityID : CVE-2026-35368 
+│                       ├ [189] ╭ VulnerabilityID : CVE-2026-35368 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -15845,7 +15927,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35368 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:40.56Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:18:55.67Z 
-│                       ├ [189] ╭ VulnerabilityID : CVE-2026-35370 
+│                       ├ [190] ╭ VulnerabilityID : CVE-2026-35370 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -15888,7 +15970,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35370 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:40.833Z 
 │                       │       ╰ LastModifiedDate: 2026-05-04T20:02:44.33Z 
-│                       ├ [190] ╭ VulnerabilityID : CVE-2026-35371 
+│                       ├ [191] ╭ VulnerabilityID : CVE-2026-35371 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -15931,7 +16013,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35371 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:40.987Z 
 │                       │       ╰ LastModifiedDate: 2026-05-04T20:02:06.183Z 
-│                       ├ [191] ╭ VulnerabilityID : CVE-2026-35373 
+│                       ├ [192] ╭ VulnerabilityID : CVE-2026-35373 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -15981,7 +16063,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35373 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:41.997Z 
 │                       │       ╰ LastModifiedDate: 2026-05-04T20:01:25.93Z 
-│                       ├ [192] ╭ VulnerabilityID : CVE-2026-35374 
+│                       ├ [193] ╭ VulnerabilityID : CVE-2026-35374 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -16029,7 +16111,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35374 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:42.127Z 
 │                       │       ╰ LastModifiedDate: 2026-05-04T19:22:14.457Z 
-│                       ├ [193] ╭ VulnerabilityID : CVE-2026-35377 
+│                       ├ [194] ╭ VulnerabilityID : CVE-2026-35377 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -16077,7 +16159,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35377 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:42.577Z 
 │                       │       ╰ LastModifiedDate: 2026-04-24T19:06:46.293Z 
-│                       ├ [194] ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [195] ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : systemd@259.5-0ubuntu3 
 │                       │       ├ PkgName         : systemd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@259.5-0ubuntu3?arch=amd64&dis
@@ -16121,7 +16203,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-05-05T02:16:04.82Z 
-│                       ├ [195] ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [196] ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : systemd-cryptsetup@259.5-0ubuntu3 
 │                       │       ├ PkgName         : systemd-cryptsetup 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-cryptsetup@259.5-0ubuntu3?arc
@@ -16165,7 +16247,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-05-05T02:16:04.82Z 
-│                       ├ [196] ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [197] ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : systemd-resolved@259.5-0ubuntu3 
 │                       │       ├ PkgName         : systemd-resolved 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-resolved@259.5-0ubuntu3?arch=
@@ -16209,7 +16291,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-05-05T02:16:04.82Z 
-│                       ├ [197] ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [198] ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : systemd-sysv@259.5-0ubuntu3 
 │                       │       ├ PkgName         : systemd-sysv 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@259.5-0ubuntu3?arch=amd6
@@ -16253,7 +16335,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-05-05T02:16:04.82Z 
-│                       ├ [198] ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [199] ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : systemd-timesyncd@259.5-0ubuntu3 
 │                       │       ├ PkgName         : systemd-timesyncd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@259.5-0ubuntu3?arch
@@ -16297,7 +16379,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-05-05T02:16:04.82Z 
-│                       ├ [199] ╭ VulnerabilityID : CVE-2025-45582 
+│                       ├ [200] ╭ VulnerabilityID : CVE-2025-45582 
 │                       │       ├ PkgID           : tar@1.35+dfsg-4 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-4?arch=amd64&distro=u
@@ -16379,7 +16461,7 @@
 │                       │       │                          curity-rules-of-thumb.html 
 │                       │       ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │       ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
-│                       ├ [200] ╭ VulnerabilityID : CVE-2026-11623 
+│                       ├ [201] ╭ VulnerabilityID : CVE-2026-11623 
 │                       │       ├ PkgID           : tmux@3.6a-2 
 │                       │       ├ PkgName         : tmux 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tmux@3.6a-2?arch=amd64&distro=ubuntu-
@@ -16434,7 +16516,7 @@
 │                       │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2026-11623 
 │                       │       ├ PublishedDate   : 2026-06-09T05:16:30.227Z 
 │                       │       ╰ LastModifiedDate: 2026-06-09T13:33:34.393Z 
-│                       ├ [201] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [202] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │       ├ PkgID           : tshark@4.6.4-1 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.6.4-1?arch=amd64&distro=ubun
@@ -16491,7 +16573,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [202] ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [203] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : util-linux@2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : util-linux 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/util-linux@2.41.3-3ubuntu2?arch=amd64
@@ -16559,7 +16641,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-04-22T16:08:55.1Z 
-│                       ├ [203] ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [204] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │       ├ PkgID           : util-linux@2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : util-linux 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/util-linux@2.41.3-3ubuntu2?arch=amd64
@@ -16593,6 +16675,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-289 
 │                       │       ├ VendorSeverity   ╭ azure : 1 
 │                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -16608,7 +16691,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │       ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │       ╰ LastModifiedDate: 2026-05-01T19:29:51.02Z 
-│                       ├ [204] ╭ VulnerabilityID : CVE-2026-42307 
+│                       ├ [205] ╭ VulnerabilityID : CVE-2026-42307 
 │                       │       ├ PkgID           : vim@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.1?arch=amd64&di
@@ -16656,7 +16739,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-42307 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:36.777Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:55:49.753Z 
-│                       ├ [205] ╭ VulnerabilityID : CVE-2026-43961 
+│                       ├ [206] ╭ VulnerabilityID : CVE-2026-43961 
 │                       │       ├ PkgID           : vim@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.1?arch=amd64&di
@@ -16685,7 +16768,7 @@
 │                       │                          ├ [2]: https://www.cve.org/CVERecord?id=CVE-2026-43961 
 │                       │                          ╰ [3]: https://www.openwall.com/lists/oss-security/2026/05/1
 │                       │                                 4/7 
-│                       ├ [206] ╭ VulnerabilityID : CVE-2026-44656 
+│                       ├ [207] ╭ VulnerabilityID : CVE-2026-44656 
 │                       │       ├ PkgID           : vim@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.1?arch=amd64&di
@@ -16741,7 +16824,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-44656 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:39.783Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:59:30.12Z 
-│                       ├ [207] ╭ VulnerabilityID : CVE-2026-45130 
+│                       ├ [208] ╭ VulnerabilityID : CVE-2026-45130 
 │                       │       ├ PkgID           : vim@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.1?arch=amd64&di
@@ -16801,7 +16884,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-45130 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:40.053Z 
 │                       │       ╰ LastModifiedDate: 2026-06-09T18:28:04.333Z 
-│                       ├ [208] ╭ VulnerabilityID : CVE-2026-46483 
+│                       ├ [209] ╭ VulnerabilityID : CVE-2026-46483 
 │                       │       ├ PkgID           : vim@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.1?arch=amd64&di
@@ -16858,7 +16941,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-46483 
 │                       │       ├ PublishedDate   : 2026-05-15T15:16:54.237Z 
 │                       │       ╰ LastModifiedDate: 2026-05-19T12:27:28.72Z 
-│                       ├ [209] ╭ VulnerabilityID : CVE-2026-47162 
+│                       ├ [210] ╭ VulnerabilityID : CVE-2026-47162 
 │                       │       ├ PkgID           : vim@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.1?arch=amd64&di
@@ -16911,7 +16994,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-47162 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.16Z 
 │                       │       ╰ LastModifiedDate: 2026-06-13T01:04:09.357Z 
-│                       ├ [210] ╭ VulnerabilityID : CVE-2026-47167 
+│                       ├ [211] ╭ VulnerabilityID : CVE-2026-47167 
 │                       │       ├ PkgID           : vim@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.1?arch=amd64&di
@@ -16963,7 +17046,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-47167 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.56Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:14.61Z 
-│                       ├ [211] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [212] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │       ├ PkgID           : vim@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.1?arch=amd64&di
@@ -17015,7 +17098,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:35.193Z 
-│                       ├ [212] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [213] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │       ├ PkgID           : vim@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.1?arch=amd64&di
@@ -17076,7 +17159,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:12:47.37Z 
-│                       ├ [213] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ├ [214] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │       ├ PkgID           : vim@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.1?arch=amd64&di
@@ -17136,7 +17219,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:24:42.873Z 
-│                       ├ [214] ╭ VulnerabilityID : CVE-2026-42307 
+│                       ├ [215] ╭ VulnerabilityID : CVE-2026-42307 
 │                       │       ├ PkgID           : vim-common@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.1?arch=a
@@ -17184,7 +17267,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-42307 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:36.777Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:55:49.753Z 
-│                       ├ [215] ╭ VulnerabilityID : CVE-2026-43961 
+│                       ├ [216] ╭ VulnerabilityID : CVE-2026-43961 
 │                       │       ├ PkgID           : vim-common@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.1?arch=a
@@ -17213,7 +17296,7 @@
 │                       │                          ├ [2]: https://www.cve.org/CVERecord?id=CVE-2026-43961 
 │                       │                          ╰ [3]: https://www.openwall.com/lists/oss-security/2026/05/1
 │                       │                                 4/7 
-│                       ├ [216] ╭ VulnerabilityID : CVE-2026-44656 
+│                       ├ [217] ╭ VulnerabilityID : CVE-2026-44656 
 │                       │       ├ PkgID           : vim-common@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.1?arch=a
@@ -17269,7 +17352,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-44656 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:39.783Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:59:30.12Z 
-│                       ├ [217] ╭ VulnerabilityID : CVE-2026-45130 
+│                       ├ [218] ╭ VulnerabilityID : CVE-2026-45130 
 │                       │       ├ PkgID           : vim-common@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.1?arch=a
@@ -17329,7 +17412,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-45130 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:40.053Z 
 │                       │       ╰ LastModifiedDate: 2026-06-09T18:28:04.333Z 
-│                       ├ [218] ╭ VulnerabilityID : CVE-2026-46483 
+│                       ├ [219] ╭ VulnerabilityID : CVE-2026-46483 
 │                       │       ├ PkgID           : vim-common@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.1?arch=a
@@ -17386,7 +17469,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-46483 
 │                       │       ├ PublishedDate   : 2026-05-15T15:16:54.237Z 
 │                       │       ╰ LastModifiedDate: 2026-05-19T12:27:28.72Z 
-│                       ├ [219] ╭ VulnerabilityID : CVE-2026-47162 
+│                       ├ [220] ╭ VulnerabilityID : CVE-2026-47162 
 │                       │       ├ PkgID           : vim-common@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.1?arch=a
@@ -17439,7 +17522,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-47162 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.16Z 
 │                       │       ╰ LastModifiedDate: 2026-06-13T01:04:09.357Z 
-│                       ├ [220] ╭ VulnerabilityID : CVE-2026-47167 
+│                       ├ [221] ╭ VulnerabilityID : CVE-2026-47167 
 │                       │       ├ PkgID           : vim-common@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.1?arch=a
@@ -17491,7 +17574,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-47167 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.56Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:14.61Z 
-│                       ├ [221] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [222] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │       ├ PkgID           : vim-common@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.1?arch=a
@@ -17543,7 +17626,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:35.193Z 
-│                       ├ [222] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [223] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │       ├ PkgID           : vim-common@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.1?arch=a
@@ -17604,7 +17687,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:12:47.37Z 
-│                       ├ [223] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ├ [224] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │       ├ PkgID           : vim-common@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.1?arch=a
@@ -17664,7 +17747,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:24:42.873Z 
-│                       ├ [224] ╭ VulnerabilityID : CVE-2026-42307 
+│                       ├ [225] ╭ VulnerabilityID : CVE-2026-42307 
 │                       │       ├ PkgID           : vim-runtime@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.1?arch=
@@ -17712,7 +17795,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-42307 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:36.777Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:55:49.753Z 
-│                       ├ [225] ╭ VulnerabilityID : CVE-2026-43961 
+│                       ├ [226] ╭ VulnerabilityID : CVE-2026-43961 
 │                       │       ├ PkgID           : vim-runtime@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.1?arch=
@@ -17741,7 +17824,7 @@
 │                       │                          ├ [2]: https://www.cve.org/CVERecord?id=CVE-2026-43961 
 │                       │                          ╰ [3]: https://www.openwall.com/lists/oss-security/2026/05/1
 │                       │                                 4/7 
-│                       ├ [226] ╭ VulnerabilityID : CVE-2026-44656 
+│                       ├ [227] ╭ VulnerabilityID : CVE-2026-44656 
 │                       │       ├ PkgID           : vim-runtime@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.1?arch=
@@ -17797,7 +17880,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-44656 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:39.783Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:59:30.12Z 
-│                       ├ [227] ╭ VulnerabilityID : CVE-2026-45130 
+│                       ├ [228] ╭ VulnerabilityID : CVE-2026-45130 
 │                       │       ├ PkgID           : vim-runtime@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.1?arch=
@@ -17857,7 +17940,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-45130 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:40.053Z 
 │                       │       ╰ LastModifiedDate: 2026-06-09T18:28:04.333Z 
-│                       ├ [228] ╭ VulnerabilityID : CVE-2026-46483 
+│                       ├ [229] ╭ VulnerabilityID : CVE-2026-46483 
 │                       │       ├ PkgID           : vim-runtime@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.1?arch=
@@ -17914,7 +17997,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-46483 
 │                       │       ├ PublishedDate   : 2026-05-15T15:16:54.237Z 
 │                       │       ╰ LastModifiedDate: 2026-05-19T12:27:28.72Z 
-│                       ├ [229] ╭ VulnerabilityID : CVE-2026-47162 
+│                       ├ [230] ╭ VulnerabilityID : CVE-2026-47162 
 │                       │       ├ PkgID           : vim-runtime@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.1?arch=
@@ -17967,7 +18050,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-47162 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.16Z 
 │                       │       ╰ LastModifiedDate: 2026-06-13T01:04:09.357Z 
-│                       ├ [230] ╭ VulnerabilityID : CVE-2026-47167 
+│                       ├ [231] ╭ VulnerabilityID : CVE-2026-47167 
 │                       │       ├ PkgID           : vim-runtime@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.1?arch=
@@ -18019,7 +18102,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-47167 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.56Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:14.61Z 
-│                       ├ [231] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [232] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │       ├ PkgID           : vim-runtime@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.1?arch=
@@ -18071,7 +18154,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:35.193Z 
-│                       ├ [232] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [233] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │       ├ PkgID           : vim-runtime@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.1?arch=
@@ -18132,7 +18215,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:12:47.37Z 
-│                       ├ [233] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ├ [234] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │       ├ PkgID           : vim-runtime@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.1?arch=
@@ -18192,7 +18275,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:24:42.873Z 
-│                       ├ [234] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [235] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │       ├ PkgID           : wget@1.25.0-2ubuntu4 
 │                       │       ├ PkgName         : wget 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.25.0-2ubuntu4?arch=amd64&distr
@@ -18241,7 +18324,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │       ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:06:25.02Z 
-│                       ├ [235] ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [236] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │       ├ PkgID           : wireshark-common@4.6.4-1 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.6.4-1?arch=amd64&d
@@ -18298,7 +18381,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2024-11-21T06:20:33.82Z 
-│                       ├ [236] ╭ VulnerabilityID : CVE-2026-42307 
+│                       ├ [237] ╭ VulnerabilityID : CVE-2026-42307 
 │                       │       ├ PkgID           : xxd@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.1?arch=amd64&di
@@ -18346,7 +18429,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-42307 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:36.777Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:55:49.753Z 
-│                       ├ [237] ╭ VulnerabilityID : CVE-2026-43961 
+│                       ├ [238] ╭ VulnerabilityID : CVE-2026-43961 
 │                       │       ├ PkgID           : xxd@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.1?arch=amd64&di
@@ -18375,7 +18458,7 @@
 │                       │                          ├ [2]: https://www.cve.org/CVERecord?id=CVE-2026-43961 
 │                       │                          ╰ [3]: https://www.openwall.com/lists/oss-security/2026/05/1
 │                       │                                 4/7 
-│                       ├ [238] ╭ VulnerabilityID : CVE-2026-44656 
+│                       ├ [239] ╭ VulnerabilityID : CVE-2026-44656 
 │                       │       ├ PkgID           : xxd@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.1?arch=amd64&di
@@ -18431,7 +18514,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-44656 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:39.783Z 
 │                       │       ╰ LastModifiedDate: 2026-05-14T13:59:30.12Z 
-│                       ├ [239] ╭ VulnerabilityID : CVE-2026-45130 
+│                       ├ [240] ╭ VulnerabilityID : CVE-2026-45130 
 │                       │       ├ PkgID           : xxd@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.1?arch=amd64&di
@@ -18491,7 +18574,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-45130 
 │                       │       ├ PublishedDate   : 2026-05-08T23:16:40.053Z 
 │                       │       ╰ LastModifiedDate: 2026-06-09T18:28:04.333Z 
-│                       ├ [240] ╭ VulnerabilityID : CVE-2026-46483 
+│                       ├ [241] ╭ VulnerabilityID : CVE-2026-46483 
 │                       │       ├ PkgID           : xxd@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.1?arch=amd64&di
@@ -18548,7 +18631,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-46483 
 │                       │       ├ PublishedDate   : 2026-05-15T15:16:54.237Z 
 │                       │       ╰ LastModifiedDate: 2026-05-19T12:27:28.72Z 
-│                       ├ [241] ╭ VulnerabilityID : CVE-2026-47162 
+│                       ├ [242] ╭ VulnerabilityID : CVE-2026-47162 
 │                       │       ├ PkgID           : xxd@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.1?arch=amd64&di
@@ -18601,7 +18684,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-47162 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.16Z 
 │                       │       ╰ LastModifiedDate: 2026-06-13T01:04:09.357Z 
-│                       ├ [242] ╭ VulnerabilityID : CVE-2026-47167 
+│                       ├ [243] ╭ VulnerabilityID : CVE-2026-47167 
 │                       │       ├ PkgID           : xxd@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.1?arch=amd64&di
@@ -18653,7 +18736,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-47167 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:44.56Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:14.61Z 
-│                       ├ [243] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [244] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │       ├ PkgID           : xxd@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.1?arch=amd64&di
@@ -18705,7 +18788,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:32:35.193Z 
-│                       ├ [244] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [245] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │       ├ PkgID           : xxd@2:9.1.2141-1ubuntu4.1 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.1?arch=amd64&di
@@ -18766,7 +18849,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │       ╰ LastModifiedDate: 2026-06-15T13:12:47.37Z 
-│                       ╰ [245] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ╰ [246] ╭ VulnerabilityID : CVE-2026-52860 
 │                               ├ PkgID           : xxd@2:9.1.2141-1ubuntu4.1 
 │                               ├ PkgName         : xxd 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.1?arch=amd64&di
@@ -18830,10 +18913,154 @@
 │     ├ Class   : lang-pkgs 
 │     ├ Type    : jar 
 │     ╰ Packages 
-├ [2] ╭ Target  : Python 
-│     ├ Class   : lang-pkgs 
-│     ├ Type    : python-pkg 
-│     ╰ Packages 
+├ [2] ╭ Target         : Python 
+│     ├ Class          : lang-pkgs 
+│     ├ Type           : python-pkg 
+│     ├ Packages        
+│     ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : GHSA-4xgf-cpjx-pc3j 
+│                             ├ PkgName         : pydantic-settings 
+│                             ├ PkgPath         : usr/local/lib/python3.14/dist-packages/pydantic_settings-2.14
+│                             │                   .1.dist-info/METADATA 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:pypi/pydantic-settings@2.14.1 
+│                             │                  ╰ UID : 1edbbf3e0cccf95e 
+│                             ├ InstalledVersion: 2.14.1 
+│                             ├ FixedVersion    : 2.14.2 
+│                             ├ Status          : fixed 
+│                             ├ Layer            ╭ Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90
+│                             │                  │         a85ec9fa699d991513e 
+│                             │                  ╰ DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a182
+│                             │                            27e62f637507d93dd71 
+│                             ├ SeveritySource  : ghsa 
+│                             ├ PrimaryURL      : https://github.com/advisories/GHSA-4xgf-cpjx-pc3j 
+│                             ├ DataSource       ╭ ID  : ghsa 
+│                             │                  ├ Name: GitHub Security Advisory pip 
+│                             │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+│                             │                          osystem%3Apip 
+│                             ├ Fingerprint     : sha256:8b3d5109e261b0da940fcdd9880451a0caa2a405c1b086548adca2
+│                             │                   031a56d85d 
+│                             ├ Title           : pydantic-settings: NestedSecretsSettingsSource follows
+│                             │                   symlinks outside secrets_dir, enabling local file read and
+│                             │                   bypassing secrets_dir_max_size 
+│                             ├ Description     : ### Summary
+│                             │                   
+│                             │                   `NestedSecretsSettingsSource` reads secret values from files
+│                             │                   in a configured `secrets_dir`. When
+│                             │                   `secrets_nested_subdir=True`, a directory entry inside
+│                             │                   `secrets_dir` that is a symbolic link pointing **outside**
+│                             │                   `secrets_dir` is followed, so files outside the configured
+│                             │                   directory are read into settings values. The same code path
+│                             │                   bypasses the documented `secrets_dir_max_size` protection. An
+│                             │                    attacker or lower-privileged component able to influence
+│                             │                   entries in the configured secrets directory (for example, a
+│                             │                   writable or shared secrets mount) can turn this into an
+│                             │                   unintended local file read into settings and can defeat the
+│                             │                   advertised loading-size cap. This report does not claim
+│                             │                   network reachability by itself.
+│                             │                   ### Details
+│                             │                   `NestedSecretsSettingsSource` performed two passes over
+│                             │                   `secrets_dir` using two different, inconsistent
+│                             │                   directory-traversal implementations:
+│                             │                   * The size check in `validate_secrets_path()` used
+│                             │                   `Path.glob('**/*')`, which does **not** descend into a
+│                             │                   symbolically-linked directory.
+│                             │                   * The loader in `load_secrets()` used
+│                             │                   `glob.iglob(f'{path}/**/*', recursive=True)` followed by
+│                             │                   `read_text()`, which **does** follow symlinked directories
+│                             │                   and reads through the link target.
+│                             │                   Because the two passes disagreed on symlinks, a symlinked
+│                             │                   directory inside `secrets_dir` whose target lives elsewhere
+│                             │                   was invisible to the size accounting (counted as 0 bytes)
+│                             │                   while still being fully read by the loader. This produces two
+│                             │                    distinct problems:
+│                             │                   1. **Out-of-tree read (CWE-22 / CWE-59).** A symlinked
+│                             │                   directory (or file) inside `secrets_dir` that resolves
+│                             │                   outside it is followed, and the external file's contents are
+│                             │                   loaded into the corresponding settings field.
+│                             │                   2. **`secrets_dir_max_size` bypass (CWE-400).** The size
+│                             │                   check never sees the out-of-tree content, so the documented
+│                             │                   size cap is neither respected nor able to reject the
+│                             │                   oversized external file. A related amplification exists for
+│                             │                   cyclic in-tree symlinks, which `glob.iglob(recursive=True)`
+│                             │                   re-traverses, inflating the size accounting and the number of
+│                             │                    loaded secrets.
+│                             │                   #### Reproduction
+│                             │                   In a clean Linux container, with a `secrets_dir` containing a
+│                             │                    symlink `secrets/db -> /path/outside` and an
+│                             │                   `outside/passwd` file of 512 bytes, while
+│                             │                   `secrets_dir_max_size=100`:
+│                             │                   ```python
+│                             │                   from pydantic import BaseModel
+│                             │                   from pydantic_settings import (
+│                             │                       BaseSettings,
+│                             │                       SettingsConfigDict,
+│                             │                       NestedSecretsSettingsSource,
+│                             │                   )
+│                             │                   class Db(BaseModel):
+│                             │                       passwd: str | None = None
+│                             │                   class Settings(BaseSettings):
+│                             │                       model_config = SettingsConfigDict(
+│                             │                           secrets_dir='secrets',
+│                             │                           secrets_nested_subdir=True,
+│                             │                           secrets_dir_max_size=100,  # outside/passwd is 512
+│                             │                   bytes
+│                             │                       )
+│                             │                       db: Db = Db()
+│                             │                       @classmethod
+│                             │                       def settings_customise_sources(
+│                             │                           cls, settings_cls, init_settings, env_settings,
+│                             │                   dotenv_settings, file_secret_settings
+│                             │                       ):
+│                             │                           return
+│                             │                   (NestedSecretsSettingsSource(file_secret_settings),)
+│                             │                   ```
+│                             │                   On affected versions, `Settings().db.passwd` is populated
+│                             │                   with the 512-byte out-of-tree file and **no** `SettingsError`
+│                             │                    is raised, even though the file exceeds
+│                             │                   `secrets_dir_max_size`.
+│                             │                   ### Impact
+│                             │                   Applications that opt into `NestedSecretsSettingsSource` with
+│                             │                    `secrets_nested_subdir=True` and load secrets from a
+│                             │                   directory whose entries can be influenced by an attacker or a
+│                             │                    lower-privileged component (for example, a writable or
+│                             │                   shared secrets mount, or a secrets directory partially
+│                             │                   populated from untrusted input) are affected. The impact is:
+│                             │                   * **Confidentiality:** files outside the configured
+│                             │                   `secrets_dir` can be read into settings values (local file
+│                             │                   read).
+│                             │                   * **Integrity / availability of the safeguard:** the
+│                             │                   advertised `secrets_dir_max_size` cap can be bypassed, and
+│                             │                   cyclic symlinks can inflate resource usage during loading.
+│                             │                   The vulnerability requires the ability to place a symbolic
+│                             │                   link inside the configured secrets directory; it is not
+│                             │                   remotely reachable on its own. Applications that do not use
+│                             │                   `NestedSecretsSettingsSource`, or that point `secrets_dir` at
+│                             │                    a directory fully under the application's control, are not
+│                             │                   affected.
+│                             │                   ### Mitigation
+│                             │                   Upgrade to **pydantic-settings 2.14.2**, which:
+│                             │                   * walks the secrets directory explicitly and only descends
+│                             │                   into directories whose resolved path stays within
+│                             │                   `secrets_dir`, so symlinked directories pointing outside are
+│                             │                   never followed;
+│                             │                   * uses a single, cycle-safe iterator for both the size check
+│                             │                   and the loader, so the size accounting and the loaded set are
+│                             │                    always consistent and each real directory is visited at most
+│                             │                    once;
+│                             │                   * skips any file whose resolved path escapes `secrets_dir`,
+│                             │                   as defense in depth.
+│                             │                   If upgrading is not immediately possible, ensure the
+│                             │                   configured `secrets_dir` is fully owned and controlled by the
+│                             │                    application (no writable or attacker-influenced entries), or
+│                             │                    avoid `secrets_nested_subdir=True`. 
+│                             ├ Severity        : MEDIUM 
+│                             ├ VendorSeverity   ─ ghsa: 2 
+│                             ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L 
+│                             │                         ╰ V3Score : 5.3 
+│                             ├ References       ╭ [0]: https://github.com/pydantic/pydantic-settings 
+│                             │                  ╰ [1]: https://github.com/pydantic/pydantic-settings/security/
+│                             │                         advisories/GHSA-4xgf-cpjx-pc3j 
+│                             ├ PublishedDate   : 2026-06-19T22:10:42Z 
+│                             ╰ LastModifiedDate: 2026-06-19T22:10:42Z 
 ├ [3] ╭ Target         : usr/bin/lazydocker 
 │     ├ Class          : lang-pkgs 
 │     ├ Type           : gobinary 
@@ -19153,8 +19380,8 @@
 │                       │     │                          osystem%3Ago 
 │                       │     ├ Fingerprint     : sha256:a21df24e68441c9cb05502357473a716ca4c887aa4cacebec01a06
 │                       │     │                   d154d8f591 
-│                       │     ├ Title           : Moby is an open source container framework. In Docker Engine
-│                       │     │                   prior to  ... 
+│                       │     ├ Title           : github.com/docker/docker: github.com/moby/moby: Moby: Denial
+│                       │     │                   of Service via race condition in docker cp mount setup 
 │                       │     ├ Description     : Moby is an open source container framework. In Docker Engine
 │                       │     │                   prior to version 29.5.1, Docker Daemon versions 28.5.2 and
 │                       │     │                   prior, and Moby Daemon prior to version 2.0.0-beta.14, a race
@@ -19166,13 +19393,20 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ╭ [0]: CWE-81 
 │                       │     │                  ╰ [1]: CWE-367 
-│                       │     ├ VendorSeverity   ─ ghsa: 2 
-│                       │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:H 
-│                       │     │                         ╰ V3Score : 6 
-│                       │     ├ References       ╭ [0]: https://github.com/moby/moby 
-│                       │     │                  ├ [1]: https://github.com/moby/moby/security/advisories/GHSA-v
+│                       │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                       │     │                  ╰ redhat: 1 
+│                       │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/
+│                       │     │                  │        │           A:H 
+│                       │     │                  │        ╰ V3Score : 6 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/
+│                       │     │                           │           A:L 
+│                       │     │                           ╰ V3Score : 3.9 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-41568 
+│                       │     │                  ├ [1]: https://github.com/moby/moby 
+│                       │     │                  ├ [2]: https://github.com/moby/moby/security/advisories/GHSA-v
 │                       │     │                  │      p62-88p7-qqf5 
-│                       │     │                  ╰ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-41568 
+│                       │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-41568 
+│                       │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-41568 
 │                       │     ├ PublishedDate   : 2026-06-12T19:16:26.907Z 
 │                       │     ╰ LastModifiedDate: 2026-06-16T18:31:54.957Z 
 │                       ├ [6] ╭ VulnerabilityID : CVE-2026-42504 
