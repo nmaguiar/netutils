@@ -62,6 +62,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
@@ -226,6 +227,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-354 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 4 
 │                       │      │                  ├ photon: 4 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ├ rocky : 3 
@@ -669,6 +671,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-325 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ├ rocky : 3 
@@ -816,6 +819,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -1090,6 +1094,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -1227,6 +1232,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -2051,6 +2057,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -2212,6 +2219,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -2412,6 +2420,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
@@ -2576,6 +2585,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-354 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 4 
 │                       │      │                  ├ photon: 4 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ├ rocky : 3 
@@ -3019,6 +3029,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-325 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ├ rocky : 3 
@@ -3166,6 +3177,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -3440,6 +3452,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -3577,6 +3590,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -4401,6 +4415,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -4562,6 +4577,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -4683,7 +4699,8 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-843 
 │                       │      ├ VendorSeverity   ╭ nvd   : 3 
-│                       │      │                  ╰ redhat: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
@@ -4759,6 +4776,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
@@ -4923,6 +4941,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-354 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 4 
 │                       │      │                  ├ photon: 4 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ├ rocky : 3 
@@ -5366,6 +5385,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-325 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ├ rocky : 3 
@@ -5513,6 +5533,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -5787,6 +5808,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -5924,6 +5946,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -6748,6 +6771,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -6909,6 +6933,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
+│                       │      │                  ├ azure : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -8533,7 +8558,45 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │      ╰ LastModifiedDate: 2026-06-15T13:24:42.873Z 
-│                       ├ [62] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [62] ╭ VulnerabilityID : CVE-2026-55892 
+│                       │      ├ PkgID           : vim@9.2.0481-r0 
+│                       │      ├ PkgName         : vim 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       4.0_alpha20260127 
+│                       │      │                  ╰ UID : c50fb887bd647561 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0663-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:17e109737cf30cb67f6199985b56d0b1a9a909eca972c1e4cb173
+│                       │      │                   7b3a71a9b60 
+│                       │      ╰ Severity        : UNKNOWN 
+│                       ├ [63] ╭ VulnerabilityID : CVE-2026-55895 
+│                       │      ├ PkgID           : vim@9.2.0481-r0 
+│                       │      ├ PkgName         : vim 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       4.0_alpha20260127 
+│                       │      │                  ╰ UID : c50fb887bd647561 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0663-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:2ec948b1397b01534383ae365f126a259df9392e48bd27fe075da
+│                       │      │                   7379cd35e58 
+│                       │      ╰ Severity        : UNKNOWN 
+│                       ├ [64] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │      ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
@@ -8585,7 +8648,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │      ╰ LastModifiedDate: 2026-06-15T13:32:35.193Z 
-│                       ├ [63] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [65] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │      ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
@@ -8645,7 +8708,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │      ╰ LastModifiedDate: 2026-06-15T13:12:47.37Z 
-│                       ├ [64] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ├ [66] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │      ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
@@ -8705,7 +8768,45 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │      ╰ LastModifiedDate: 2026-06-15T13:24:42.873Z 
-│                       ├ [65] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [67] ╭ VulnerabilityID : CVE-2026-55892 
+│                       │      ├ PkgID           : vim-common@9.2.0481-r0 
+│                       │      ├ PkgName         : vim-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
+│                       │      │                  │       tro=3.24.0_alpha20260127 
+│                       │      │                  ╰ UID : c697e713a1220c37 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0663-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:78e149afc1530667b2b44af1bad32b68cefa8a13e45bc495536c2
+│                       │      │                   97da2b36ab0 
+│                       │      ╰ Severity        : UNKNOWN 
+│                       ├ [68] ╭ VulnerabilityID : CVE-2026-55895 
+│                       │      ├ PkgID           : vim-common@9.2.0481-r0 
+│                       │      ├ PkgName         : vim-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
+│                       │      │                  │       tro=3.24.0_alpha20260127 
+│                       │      │                  ╰ UID : c697e713a1220c37 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0663-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:00d839a62f7c4282127c69ea7f28a49f610479ce972fc880d256f
+│                       │      │                   da96d3c52d7 
+│                       │      ╰ Severity        : UNKNOWN 
+│                       ├ [69] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │      ├ PkgID           : xxd@9.2.0481-r0 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -8757,7 +8858,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │      ╰ LastModifiedDate: 2026-06-15T13:32:35.193Z 
-│                       ├ [66] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [70] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │      ├ PkgID           : xxd@9.2.0481-r0 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -8817,66 +8918,104 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │      ╰ LastModifiedDate: 2026-06-15T13:12:47.37Z 
-│                       ╰ [67] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ├ [71] ╭ VulnerabilityID : CVE-2026-52860 
+│                       │      ├ PkgID           : xxd@9.2.0481-r0 
+│                       │      ├ PkgName         : xxd 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       4.0_alpha20260127 
+│                       │      │                  ╰ UID : 9bf80ee0923e789f 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0602-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ SeveritySource  : nvd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-52860 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:9cf740e61294be5f00b8c28ac47f963d2c4810e2b1198e4fecf88
+│                       │      │                   8deb953b459 
+│                       │      ├ Title           : vim: Vim: Arbitrary code execution through Python
+│                       │      │                   omni-completion. 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   version 9.2.0597, Vim's Python omni-completion executes
+│                       │      │                   reconstructed function and class definitions from the
+│                       │      │                   current buffer with exec() as part of populating the
+│                       │      │                   completion dictionary. Python evaluates function default
+│                       │      │                   values, parameter annotations, and class base expressions at
+│                       │      │                    definition time, so a hostile buffer can execute
+│                       │      │                   attacker-controlled Python expressions during
+│                       │      │                   omni-completion. The existing g:pythoncomplete_allow_import
+│                       │      │                   mitigation (GHSA-52mc-rq6p-rc7c) does not cover this path,
+│                       │      │                   because the attacker-controlled code is not a harvested
+│                       │      │                   import/from statement. This issue has been patched in
+│                       │      │                   version 9.2.0597. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-94 
+│                       │      ├ VendorSeverity   ╭ azure : 3 
+│                       │      │                  ├ nvd   : 3 
+│                       │      │                  ├ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.8 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-52860 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/commit/c8c63673bc4253212820
+│                       │      │                  │      626aeeb75999d9a539d2 
+│                       │      │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0597 
+│                       │      │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-52
+│                       │      │                  │      mc-rq6p-rc7c 
+│                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-65
+│                       │      │                  │      p9-mwwx-7468 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-52860 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8451-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
+│                       │      ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
+│                       │      ╰ LastModifiedDate: 2026-06-15T13:24:42.873Z 
+│                       ├ [72] ╭ VulnerabilityID : CVE-2026-55892 
+│                       │      ├ PkgID           : xxd@9.2.0481-r0 
+│                       │      ├ PkgName         : xxd 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       4.0_alpha20260127 
+│                       │      │                  ╰ UID : 9bf80ee0923e789f 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0663-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:a7b15718de133796563b6f165713f01088a5d1af93a9ccd209111
+│                       │      │                   016ee884b16 
+│                       │      ╰ Severity        : UNKNOWN 
+│                       ╰ [73] ╭ VulnerabilityID : CVE-2026-55895 
 │                              ├ PkgID           : xxd@9.2.0481-r0 
 │                              ├ PkgName         : xxd 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
 │                              │                  │       4.0_alpha20260127 
 │                              │                  ╰ UID : 9bf80ee0923e789f 
 │                              ├ InstalledVersion: 9.2.0481-r0 
-│                              ├ FixedVersion    : 9.2.0602-r0 
+│                              ├ FixedVersion    : 9.2.0663-r0 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
 │                              │                  │         9a8305ba35c82bf9229f 
 │                              │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
 │                              │                            7ea46f72dd8aa890c14b 
-│                              ├ SeveritySource  : nvd 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-52860 
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                              ├ Fingerprint     : sha256:9cf740e61294be5f00b8c28ac47f963d2c4810e2b1198e4fecf88
-│                              │                   8deb953b459 
-│                              ├ Title           : vim: Vim: Arbitrary code execution through Python
-│                              │                   omni-completion. 
-│                              ├ Description     : Vim is an open source, command line text editor. Prior to
-│                              │                   version 9.2.0597, Vim's Python omni-completion executes
-│                              │                   reconstructed function and class definitions from the
-│                              │                   current buffer with exec() as part of populating the
-│                              │                   completion dictionary. Python evaluates function default
-│                              │                   values, parameter annotations, and class base expressions at
-│                              │                    definition time, so a hostile buffer can execute
-│                              │                   attacker-controlled Python expressions during
-│                              │                   omni-completion. The existing g:pythoncomplete_allow_import
-│                              │                   mitigation (GHSA-52mc-rq6p-rc7c) does not cover this path,
-│                              │                   because the attacker-controlled code is not a harvested
-│                              │                   import/from statement. This issue has been patched in
-│                              │                   version 9.2.0597. 
-│                              ├ Severity        : HIGH 
-│                              ├ CweIDs           ─ [0]: CWE-94 
-│                              ├ VendorSeverity   ╭ azure : 3 
-│                              │                  ├ nvd   : 3 
-│                              │                  ├ redhat: 3 
-│                              │                  ╰ ubuntu: 2 
-│                              ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H
-│                              │                  │        │           /A:H 
-│                              │                  │        ╰ V3Score : 7.8 
-│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H
-│                              │                           │           /A:H 
-│                              │                           ╰ V3Score : 8 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-52860 
-│                              │                  ├ [1]: https://github.com/vim/vim/commit/c8c63673bc4253212820
-│                              │                  │      626aeeb75999d9a539d2 
-│                              │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0597 
-│                              │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-52
-│                              │                  │      mc-rq6p-rc7c 
-│                              │                  ├ [4]: https://github.com/vim/vim/security/advisories/GHSA-65
-│                              │                  │      p9-mwwx-7468 
-│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-52860 
-│                              │                  ├ [6]: https://ubuntu.com/security/notices/USN-8451-1 
-│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
-│                              ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
-│                              ╰ LastModifiedDate: 2026-06-15T13:24:42.873Z 
+│                              ├ Fingerprint     : sha256:2cf851071e9b4a06d752d33df1898e01cae224de50eb33ddc6515
+│                              │                   ed214a1cd61 
+│                              ╰ Severity        : UNKNOWN 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
