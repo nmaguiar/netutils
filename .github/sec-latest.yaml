@@ -75,6 +75,7 @@
     VendorSeverity:
       azure: 1
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -164,6 +165,7 @@
     VendorSeverity:
       azure: 1
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -617,6 +619,7 @@
     VendorSeverity:
       azure: 1
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -5212,6 +5215,7 @@
     VendorSeverity:
       azure: 1
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -5506,6 +5510,7 @@
     VendorSeverity:
       azure: 1
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -5671,6 +5676,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
+      azure: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -5802,6 +5808,7 @@
     - CWE-354
     VendorSeverity:
       alma: 3
+      azure: 4
       photon: 4
       redhat: 2
       rocky: 3
@@ -6160,6 +6167,7 @@
     - CWE-325
     VendorSeverity:
       alma: 3
+      azure: 2
       photon: 3
       redhat: 2
       rocky: 3
@@ -6278,6 +6286,7 @@
     - CWE-125
     VendorSeverity:
       alma: 3
+      azure: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -6505,6 +6514,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      azure: 2
       photon: 2
       redhat: 1
       rocky: 3
@@ -6618,6 +6628,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      azure: 2
       photon: 2
       redhat: 1
       rocky: 3
@@ -7275,6 +7286,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      azure: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -7402,6 +7414,7 @@
     - CWE-125
     VendorSeverity:
       alma: 3
+      azure: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -7768,6 +7781,7 @@
     VendorSeverity:
       azure: 1
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -7993,6 +8007,50 @@
     - https://www.wireshark.org/security/wnpa-sec-2021-15.html
     PublishedDate: '2021-11-18T19:15:08.333Z'
     LastModifiedDate: '2024-11-21T06:20:33.82Z'
+  - VulnerabilityID: CVE-2026-6732
+    PkgID: libxml2-16@2.15.2+dfsg-0.1
+    PkgName: libxml2-16
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libxml2-16@2.15.2%2Bdfsg-0.1?arch=amd64&distro=ubuntu-26.04
+      UID: 9bfe0fc72832625d
+    InstalledVersion: 2.15.2+dfsg-0.1
+    Status: affected
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6732
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:756c81e351183d00df3f734c5eedecfccdf31d4bbd95bd6ec2bf633ae39af151
+    Title: 'libxml2: libxml2: Denial of Service via crafted XSD-validated document'
+    Description: A flaw was found in libxml2. This vulnerability occurs when the library processes a specially crafted XML Schema Definition (XSD) validated document that includes an internal entity reference. An attacker could exploit this by providing a malicious document, leading to a type confusion error that causes the application to crash. This results in a denial of service (DoS), making the affected system or application unavailable.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-843
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:11503
+    - https://access.redhat.com/security/cve/CVE-2026-6732
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2461300
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/1097
+    - https://gitlab.gnome.org/GNOME/libxml2/-/merge_requests/411
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-6732
+    - https://www.cve.org/CVERecord?id=CVE-2026-6732
+    PublishedDate: '2026-04-23T23:16:16.443Z'
+    LastModifiedDate: '2026-05-15T14:36:35.823Z'
   - VulnerabilityID: CVE-2026-1757
     PkgID: libxml2-16@2.15.2+dfsg-0.1
     PkgName: libxml2-16
@@ -8359,6 +8417,7 @@
     VendorSeverity:
       azure: 1
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -8499,6 +8558,7 @@
     VendorSeverity:
       azure: 1
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -8566,6 +8626,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
+      azure: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -8697,6 +8758,7 @@
     - CWE-354
     VendorSeverity:
       alma: 3
+      azure: 4
       photon: 4
       redhat: 2
       rocky: 3
@@ -9055,6 +9117,7 @@
     - CWE-325
     VendorSeverity:
       alma: 3
+      azure: 2
       photon: 3
       redhat: 2
       rocky: 3
@@ -9173,6 +9236,7 @@
     - CWE-125
     VendorSeverity:
       alma: 3
+      azure: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -9400,6 +9464,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      azure: 2
       photon: 2
       redhat: 1
       rocky: 3
@@ -9513,6 +9578,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      azure: 2
       photon: 2
       redhat: 1
       rocky: 3
@@ -10170,6 +10236,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      azure: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -10297,6 +10364,7 @@
     - CWE-125
     VendorSeverity:
       alma: 3
+      azure: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -10417,6 +10485,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
+      azure: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -10548,6 +10617,7 @@
     - CWE-354
     VendorSeverity:
       alma: 3
+      azure: 4
       photon: 4
       redhat: 2
       rocky: 3
@@ -10906,6 +10976,7 @@
     - CWE-325
     VendorSeverity:
       alma: 3
+      azure: 2
       photon: 3
       redhat: 2
       rocky: 3
@@ -11024,6 +11095,7 @@
     - CWE-125
     VendorSeverity:
       alma: 3
+      azure: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -11251,6 +11323,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      azure: 2
       photon: 2
       redhat: 1
       rocky: 3
@@ -11364,6 +11437,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      azure: 2
       photon: 2
       redhat: 1
       rocky: 3
@@ -12021,6 +12095,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      azure: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -12148,6 +12223,7 @@
     - CWE-125
     VendorSeverity:
       alma: 3
+      azure: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -13454,6 +13530,7 @@
     VendorSeverity:
       azure: 1
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -15311,6 +15388,108 @@
   Class: lang-pkgs
   Type: python-pkg
   Packages: []
+  Vulnerabilities:
+  - VulnerabilityID: GHSA-4xgf-cpjx-pc3j
+    PkgName: pydantic-settings
+    PkgPath: usr/local/lib/python3.14/dist-packages/pydantic_settings-2.14.1.dist-info/METADATA
+    PkgIdentifier:
+      PURL: pkg:pypi/pydantic-settings@2.14.1
+      UID: 1edbbf3e0cccf95e
+    InstalledVersion: 2.14.1
+    FixedVersion: 2.14.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ghsa
+    PrimaryURL: https://github.com/advisories/GHSA-4xgf-cpjx-pc3j
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory pip
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip
+    Fingerprint: sha256:8b3d5109e261b0da940fcdd9880451a0caa2a405c1b086548adca2031a56d85d
+    Title: 'pydantic-settings: NestedSecretsSettingsSource follows symlinks outside secrets_dir, enabling local file read and bypassing secrets_dir_max_size'
+    Description: |-
+      ### Summary
+
+      `NestedSecretsSettingsSource` reads secret values from files in a configured `secrets_dir`. When `secrets_nested_subdir=True`, a directory entry inside `secrets_dir` that is a symbolic link pointing **outside** `secrets_dir` is followed, so files outside the configured directory are read into settings values. The same code path bypasses the documented `secrets_dir_max_size` protection. An attacker or lower-privileged component able to influence entries in the configured secrets directory (for example, a writable or shared secrets mount) can turn this into an unintended local file read into settings and can defeat the advertised loading-size cap. This report does not claim network reachability by itself.
+
+      ### Details
+
+      `NestedSecretsSettingsSource` performed two passes over `secrets_dir` using two different, inconsistent directory-traversal implementations:
+
+      * The size check in `validate_secrets_path()` used `Path.glob('**/*')`, which does **not** descend into a symbolically-linked directory.
+      * The loader in `load_secrets()` used `glob.iglob(f'{path}/**/*', recursive=True)` followed by `read_text()`, which **does** follow symlinked directories and reads through the link target.
+
+      Because the two passes disagreed on symlinks, a symlinked directory inside `secrets_dir` whose target lives elsewhere was invisible to the size accounting (counted as 0 bytes) while still being fully read by the loader. This produces two distinct problems:
+
+      1. **Out-of-tree read (CWE-22 / CWE-59).** A symlinked directory (or file) inside `secrets_dir` that resolves outside it is followed, and the external file's contents are loaded into the corresponding settings field.
+      2. **`secrets_dir_max_size` bypass (CWE-400).** The size check never sees the out-of-tree content, so the documented size cap is neither respected nor able to reject the oversized external file. A related amplification exists for cyclic in-tree symlinks, which `glob.iglob(recursive=True)` re-traverses, inflating the size accounting and the number of loaded secrets.
+
+      #### Reproduction
+
+      In a clean Linux container, with a `secrets_dir` containing a symlink `secrets/db -> /path/outside` and an `outside/passwd` file of 512 bytes, while `secrets_dir_max_size=100`:
+
+      ```python
+      from pydantic import BaseModel
+      from pydantic_settings import (
+          BaseSettings,
+          SettingsConfigDict,
+          NestedSecretsSettingsSource,
+      )
+
+
+      class Db(BaseModel):
+          passwd: str | None = None
+
+
+      class Settings(BaseSettings):
+          model_config = SettingsConfigDict(
+              secrets_dir='secrets',
+              secrets_nested_subdir=True,
+              secrets_dir_max_size=100,  # outside/passwd is 512 bytes
+          )
+          db: Db = Db()
+
+          @classmethod
+          def settings_customise_sources(
+              cls, settings_cls, init_settings, env_settings, dotenv_settings, file_secret_settings
+          ):
+              return (NestedSecretsSettingsSource(file_secret_settings),)
+      ```
+
+      On affected versions, `Settings().db.passwd` is populated with the 512-byte out-of-tree file and **no** `SettingsError` is raised, even though the file exceeds `secrets_dir_max_size`.
+
+      ### Impact
+
+      Applications that opt into `NestedSecretsSettingsSource` with `secrets_nested_subdir=True` and load secrets from a directory whose entries can be influenced by an attacker or a lower-privileged component (for example, a writable or shared secrets mount, or a secrets directory partially populated from untrusted input) are affected. The impact is:
+
+      * **Confidentiality:** files outside the configured `secrets_dir` can be read into settings values (local file read).
+      * **Integrity / availability of the safeguard:** the advertised `secrets_dir_max_size` cap can be bypassed, and cyclic symlinks can inflate resource usage during loading.
+
+      The vulnerability requires the ability to place a symbolic link inside the configured secrets directory; it is not remotely reachable on its own. Applications that do not use `NestedSecretsSettingsSource`, or that point `secrets_dir` at a directory fully under the application's control, are not affected.
+
+      ### Mitigation
+
+      Upgrade to **pydantic-settings 2.14.2**, which:
+
+      * walks the secrets directory explicitly and only descends into directories whose resolved path stays within `secrets_dir`, so symlinked directories pointing outside are never followed;
+      * uses a single, cycle-safe iterator for both the size check and the loader, so the size accounting and the loaded set are always consistent and each real directory is visited at most once;
+      * skips any file whose resolved path escapes `secrets_dir`, as defense in depth.
+
+      If upgrading is not immediately possible, ensure the configured `secrets_dir` is fully owned and controlled by the application (no writable or attacker-influenced entries), or avoid `secrets_nested_subdir=True`.
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.3
+    References:
+    - https://github.com/pydantic/pydantic-settings
+    - https://github.com/pydantic/pydantic-settings/security/advisories/GHSA-4xgf-cpjx-pc3j
+    PublishedDate: '2026-06-19T22:10:42Z'
+    LastModifiedDate: '2026-06-19T22:10:42Z'
 - Target: usr/bin/lazydocker
   Class: lang-pkgs
   Type: gobinary
@@ -15582,7 +15761,7 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Fingerprint: sha256:a21df24e68441c9cb05502357473a716ca4c887aa4cacebec01a06d154d8f591
-    Title: Moby is an open source container framework. In Docker Engine prior to  ...
+    Title: 'github.com/docker/docker: github.com/moby/moby: Moby: Denial of Service via race condition in docker cp mount setup'
     Description: Moby is an open source container framework. In Docker Engine prior to version 29.5.1, Docker Daemon versions 28.5.2 and prior, and Moby Daemon prior to version 2.0.0-beta.14, a race condition during docker cp mount setup allows a malicious container to create empty files or directories at arbitrary absolute paths on the host filesystem. This issue has been patched in Docker Engine version 29.5.1 and Moby Daemon version 2.0.0-beta.14.
     Severity: MEDIUM
     CweIDs:
@@ -15590,14 +15769,20 @@
     - CWE-367
     VendorSeverity:
       ghsa: 2
+      redhat: 1
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:H
         V3Score: 6
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:L
+        V3Score: 3.9
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-41568
     - https://github.com/moby/moby
     - https://github.com/moby/moby/security/advisories/GHSA-vp62-88p7-qqf5
     - https://nvd.nist.gov/vuln/detail/CVE-2026-41568
+    - https://www.cve.org/CVERecord?id=CVE-2026-41568
     PublishedDate: '2026-06-12T19:16:26.907Z'
     LastModifiedDate: '2026-06-16T18:31:54.957Z'
   - VulnerabilityID: CVE-2026-42504
