@@ -52,6 +52,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
+      azure: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -182,6 +183,7 @@
     - CWE-354
     VendorSeverity:
       alma: 3
+      azure: 4
       photon: 4
       redhat: 2
       rocky: 3
@@ -537,6 +539,7 @@
     - CWE-325
     VendorSeverity:
       alma: 3
+      azure: 2
       photon: 3
       redhat: 2
       rocky: 3
@@ -654,6 +657,7 @@
     - CWE-125
     VendorSeverity:
       alma: 3
+      azure: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -879,6 +883,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      azure: 2
       photon: 2
       redhat: 1
       rocky: 3
@@ -991,6 +996,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      azure: 2
       photon: 2
       redhat: 1
       rocky: 3
@@ -1643,6 +1649,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      azure: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -1769,6 +1776,7 @@
     - CWE-125
     VendorSeverity:
       alma: 3
+      azure: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -1935,6 +1943,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
+      azure: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -2065,6 +2074,7 @@
     - CWE-354
     VendorSeverity:
       alma: 3
+      azure: 4
       photon: 4
       redhat: 2
       rocky: 3
@@ -2420,6 +2430,7 @@
     - CWE-325
     VendorSeverity:
       alma: 3
+      azure: 2
       photon: 3
       redhat: 2
       rocky: 3
@@ -2537,6 +2548,7 @@
     - CWE-125
     VendorSeverity:
       alma: 3
+      azure: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -2762,6 +2774,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      azure: 2
       photon: 2
       redhat: 1
       rocky: 3
@@ -2874,6 +2887,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      azure: 2
       photon: 2
       redhat: 1
       rocky: 3
@@ -3526,6 +3540,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      azure: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -3652,6 +3667,7 @@
     - CWE-125
     VendorSeverity:
       alma: 3
+      azure: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -3749,6 +3765,7 @@
     VendorSeverity:
       nvd: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -3815,6 +3832,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
+      azure: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
@@ -3945,6 +3963,7 @@
     - CWE-354
     VendorSeverity:
       alma: 3
+      azure: 4
       photon: 4
       redhat: 2
       rocky: 3
@@ -4300,6 +4319,7 @@
     - CWE-325
     VendorSeverity:
       alma: 3
+      azure: 2
       photon: 3
       redhat: 2
       rocky: 3
@@ -4417,6 +4437,7 @@
     - CWE-125
     VendorSeverity:
       alma: 3
+      azure: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -4642,6 +4663,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      azure: 2
       photon: 2
       redhat: 1
       rocky: 3
@@ -4754,6 +4776,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      azure: 2
       photon: 2
       redhat: 1
       rocky: 3
@@ -5406,6 +5429,7 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      azure: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -5532,6 +5556,7 @@
     - CWE-125
     VendorSeverity:
       alma: 3
+      azure: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -6878,6 +6903,42 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-52860
     PublishedDate: '2026-06-11T19:16:47.773Z'
     LastModifiedDate: '2026-06-15T13:24:42.873Z'
+  - VulnerabilityID: CVE-2026-55892
+    PkgID: vim@9.2.0481-r0
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: c50fb887bd647561
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0663-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:17e109737cf30cb67f6199985b56d0b1a9a909eca972c1e4cb1737b3a71a9b60
+    Severity: UNKNOWN
+  - VulnerabilityID: CVE-2026-55895
+    PkgID: vim@9.2.0481-r0
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: c50fb887bd647561
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0663-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:2ec948b1397b01534383ae365f126a259df9392e48bd27fe075da7379cd35e58
+    Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-52858
     PkgID: vim-common@9.2.0481-r0
     PkgName: vim-common
@@ -7014,6 +7075,42 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-52860
     PublishedDate: '2026-06-11T19:16:47.773Z'
     LastModifiedDate: '2026-06-15T13:24:42.873Z'
+  - VulnerabilityID: CVE-2026-55892
+    PkgID: vim-common@9.2.0481-r0
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: c697e713a1220c37
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0663-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:78e149afc1530667b2b44af1bad32b68cefa8a13e45bc495536c297da2b36ab0
+    Severity: UNKNOWN
+  - VulnerabilityID: CVE-2026-55895
+    PkgID: vim-common@9.2.0481-r0
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: c697e713a1220c37
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0663-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:00d839a62f7c4282127c69ea7f28a49f610479ce972fc880d256fda96d3c52d7
+    Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-52858
     PkgID: xxd@9.2.0481-r0
     PkgName: xxd
@@ -7150,6 +7247,42 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-52860
     PublishedDate: '2026-06-11T19:16:47.773Z'
     LastModifiedDate: '2026-06-15T13:24:42.873Z'
+  - VulnerabilityID: CVE-2026-55892
+    PkgID: xxd@9.2.0481-r0
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9bf80ee0923e789f
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0663-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:a7b15718de133796563b6f165713f01088a5d1af93a9ccd209111016ee884b16
+    Severity: UNKNOWN
+  - VulnerabilityID: CVE-2026-55895
+    PkgID: xxd@9.2.0481-r0
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9bf80ee0923e789f
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0663-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:2cf851071e9b4a06d752d33df1898e01cae224de50eb33ddc6515ed214a1cd61
+    Severity: UNKNOWN
 - Target: Java
   Class: lang-pkgs
   Type: jar
