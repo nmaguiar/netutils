@@ -7022,7 +7022,66 @@
 │                       │      │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-9076 
 │                       │      ├ PublishedDate   : 2026-06-09T17:17:50.997Z 
 │                       │      ╰ LastModifiedDate: 2026-06-16T02:45:58.157Z 
-│                       ├ [47] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2026-2100 
+│                       │      ├ PkgID           : p11-kit@0.25.5-r2 
+│                       │      ├ PkgName         : p11-kit 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/p11-kit@0.25.5-r2?arch=x86_64&distro=3
+│                       │      │                  │       .24.0_alpha20260127 
+│                       │      │                  ╰ UID : f214d43c4a3ee561 
+│                       │      ├ InstalledVersion: 0.25.5-r2 
+│                       │      ├ FixedVersion    : 0.26.2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ SeveritySource  : nvd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2100 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:93dce3de20eb0626f19396f22ff5d4e5f5904d823d0feb238217a
+│                       │      │                   227944fdc6d 
+│                       │      ├ Title           : p11-kit: NULL dereference via C_DeriveKey with specific NULL
+│                       │      │                    parameters 
+│                       │      ├ Description     : A flaw was found in p11-kit. A remote attacker could exploit
+│                       │      │                    this vulnerability by calling the C_DeriveKey function on a
+│                       │      │                    remote token with specific IBM kyber or IBM btc derive
+│                       │      │                   mechanism parameters set to NULL. This could lead to the
+│                       │      │                   RPC-client attempting to return an uninitialized value,
+│                       │      │                   potentially resulting in a NULL dereference or undefined
+│                       │      │                   behavior. This issue may cause an application level denial
+│                       │      │                   of service or other unpredictable system states. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-824 
+│                       │      ├ VendorSeverity   ╭ alma  : 2 
+│                       │      │                  ├ nvd   : 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ rocky : 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:18143 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:18599 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:21275 
+│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:22634 
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:7065 
+│                       │      │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2026-2100 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2437308 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2437308 
+│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-2100 
+│                       │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2026-18599.html 
+│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:18599 
+│                       │      │                  ├ [11]: https://github.com/p11-glue/p11-kit/pull/740 
+│                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-2100 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-2100 
+│                       │      ├ PublishedDate   : 2026-03-26T21:17:04.247Z 
+│                       │      ╰ LastModifiedDate: 2026-06-02T20:16:33.92Z 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │      ├ PkgID           : pyc@3.14.3-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.3-r0?arch=x86_64&distro=3.24.
@@ -7054,7 +7113,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-20 
 │                       │      │                  ╰ [1]: CWE-116 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
@@ -7135,7 +7194,7 @@
 │                       │      │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
 │                       │      ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │      ╰ LastModifiedDate: 2026-06-04T19:30:28.423Z 
-│                       ├ [48] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [49] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │      ├ PkgID           : pyc@3.14.3-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.3-r0?arch=x86_64&distro=3.24.
@@ -7165,7 +7224,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-674 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
@@ -7255,7 +7314,7 @@
 │                       │      │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
 │                       │      ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │      ╰ LastModifiedDate: 2026-06-04T19:33:19.66Z 
-│                       ├ [49] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [50] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │      ├ PkgID           : pyc@3.14.3-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.3-r0?arch=x86_64&distro=3.24.
@@ -7363,7 +7422,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │      ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │      ╰ LastModifiedDate: 2026-05-01T16:16:30.11Z 
-│                       ├ [50] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [51] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │      ├ PkgID           : python3@3.14.3-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.3-r0?arch=x86_64&distro=3
@@ -7395,7 +7454,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-20 
 │                       │      │                  ╰ [1]: CWE-116 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
@@ -7476,7 +7535,7 @@
 │                       │      │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
 │                       │      ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │      ╰ LastModifiedDate: 2026-06-04T19:30:28.423Z 
-│                       ├ [51] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │      ├ PkgID           : python3@3.14.3-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.3-r0?arch=x86_64&distro=3
@@ -7506,7 +7565,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-674 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
@@ -7596,7 +7655,7 @@
 │                       │      │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
 │                       │      ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │      ╰ LastModifiedDate: 2026-06-04T19:33:19.66Z 
-│                       ├ [52] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [53] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │      ├ PkgID           : python3@3.14.3-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.3-r0?arch=x86_64&distro=3
@@ -7704,7 +7763,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │      ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │      ╰ LastModifiedDate: 2026-05-01T16:16:30.11Z 
-│                       ├ [53] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [54] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │      ├ PkgID           : python3-pyc@3.14.3-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.3-r0?arch=x86_64&dist
@@ -7736,7 +7795,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-20 
 │                       │      │                  ╰ [1]: CWE-116 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
@@ -7817,7 +7876,7 @@
 │                       │      │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
 │                       │      ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │      ╰ LastModifiedDate: 2026-06-04T19:30:28.423Z 
-│                       ├ [54] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [55] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │      ├ PkgID           : python3-pyc@3.14.3-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.3-r0?arch=x86_64&dist
@@ -7847,7 +7906,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-674 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
@@ -7937,7 +7996,7 @@
 │                       │      │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
 │                       │      ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │      ╰ LastModifiedDate: 2026-06-04T19:33:19.66Z 
-│                       ├ [55] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [56] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │      ├ PkgID           : python3-pyc@3.14.3-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.3-r0?arch=x86_64&dist
@@ -8045,7 +8104,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │      ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │      ╰ LastModifiedDate: 2026-05-01T16:16:30.11Z 
-│                       ├ [56] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [57] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.14.3-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.3-r0?arch=x8
@@ -8077,7 +8136,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-20 
 │                       │      │                  ╰ [1]: CWE-116 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
@@ -8158,7 +8217,7 @@
 │                       │      │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
 │                       │      ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │      ╰ LastModifiedDate: 2026-06-04T19:30:28.423Z 
-│                       ├ [57] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [58] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.14.3-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.3-r0?arch=x8
@@ -8188,7 +8247,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-674 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
@@ -8278,7 +8337,7 @@
 │                       │      │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
 │                       │      ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │      ╰ LastModifiedDate: 2026-06-04T19:33:19.66Z 
-│                       ├ [58] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [59] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.14.3-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.3-r0?arch=x8
@@ -8386,7 +8445,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │      ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │      ╰ LastModifiedDate: 2026-05-01T16:16:30.11Z 
-│                       ├ [59] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [60] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │      ├ PkgID           : vim@9.2.0481-r0 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -8438,7 +8497,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │      ╰ LastModifiedDate: 2026-06-15T13:32:35.193Z 
-│                       ├ [60] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [61] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │      ├ PkgID           : vim@9.2.0481-r0 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -8498,7 +8557,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │      ╰ LastModifiedDate: 2026-06-15T13:12:47.37Z 
-│                       ├ [61] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ├ [62] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │      ├ PkgID           : vim@9.2.0481-r0 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -8558,7 +8617,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │      ╰ LastModifiedDate: 2026-06-15T13:24:42.873Z 
-│                       ├ [62] ╭ VulnerabilityID : CVE-2026-55892 
+│                       ├ [63] ╭ VulnerabilityID : CVE-2026-55892 
 │                       │      ├ PkgID           : vim@9.2.0481-r0 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -8577,7 +8636,7 @@
 │                       │      ├ Fingerprint     : sha256:17e109737cf30cb67f6199985b56d0b1a9a909eca972c1e4cb173
 │                       │      │                   7b3a71a9b60 
 │                       │      ╰ Severity        : UNKNOWN 
-│                       ├ [63] ╭ VulnerabilityID : CVE-2026-55895 
+│                       ├ [64] ╭ VulnerabilityID : CVE-2026-55895 
 │                       │      ├ PkgID           : vim@9.2.0481-r0 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -8596,7 +8655,7 @@
 │                       │      ├ Fingerprint     : sha256:2ec948b1397b01534383ae365f126a259df9392e48bd27fe075da
 │                       │      │                   7379cd35e58 
 │                       │      ╰ Severity        : UNKNOWN 
-│                       ├ [64] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [65] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │      ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
@@ -8648,7 +8707,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │      ╰ LastModifiedDate: 2026-06-15T13:32:35.193Z 
-│                       ├ [65] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [66] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │      ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
@@ -8708,7 +8767,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │      ╰ LastModifiedDate: 2026-06-15T13:12:47.37Z 
-│                       ├ [66] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ├ [67] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │      ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
@@ -8768,7 +8827,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │      ╰ LastModifiedDate: 2026-06-15T13:24:42.873Z 
-│                       ├ [67] ╭ VulnerabilityID : CVE-2026-55892 
+│                       ├ [68] ╭ VulnerabilityID : CVE-2026-55892 
 │                       │      ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
@@ -8787,7 +8846,7 @@
 │                       │      ├ Fingerprint     : sha256:78e149afc1530667b2b44af1bad32b68cefa8a13e45bc495536c2
 │                       │      │                   97da2b36ab0 
 │                       │      ╰ Severity        : UNKNOWN 
-│                       ├ [68] ╭ VulnerabilityID : CVE-2026-55895 
+│                       ├ [69] ╭ VulnerabilityID : CVE-2026-55895 
 │                       │      ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
@@ -8806,7 +8865,7 @@
 │                       │      ├ Fingerprint     : sha256:00d839a62f7c4282127c69ea7f28a49f610479ce972fc880d256f
 │                       │      │                   da96d3c52d7 
 │                       │      ╰ Severity        : UNKNOWN 
-│                       ├ [69] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [70] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │      ├ PkgID           : xxd@9.2.0481-r0 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -8858,7 +8917,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │      ╰ LastModifiedDate: 2026-06-15T13:32:35.193Z 
-│                       ├ [70] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [71] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │      ├ PkgID           : xxd@9.2.0481-r0 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -8918,7 +8977,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │      ╰ LastModifiedDate: 2026-06-15T13:12:47.37Z 
-│                       ├ [71] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ├ [72] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │      ├ PkgID           : xxd@9.2.0481-r0 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -8978,7 +9037,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │      ╰ LastModifiedDate: 2026-06-15T13:24:42.873Z 
-│                       ├ [72] ╭ VulnerabilityID : CVE-2026-55892 
+│                       ├ [73] ╭ VulnerabilityID : CVE-2026-55892 
 │                       │      ├ PkgID           : xxd@9.2.0481-r0 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -8997,7 +9056,7 @@
 │                       │      ├ Fingerprint     : sha256:a7b15718de133796563b6f165713f01088a5d1af93a9ccd209111
 │                       │      │                   016ee884b16 
 │                       │      ╰ Severity        : UNKNOWN 
-│                       ╰ [73] ╭ VulnerabilityID : CVE-2026-55895 
+│                       ╰ [74] ╭ VulnerabilityID : CVE-2026-55895 
 │                              ├ PkgID           : xxd@9.2.0481-r0 
 │                              ├ PkgName         : xxd 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
