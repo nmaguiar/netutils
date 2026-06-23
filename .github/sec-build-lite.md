@@ -49,19 +49,20 @@
 │                             │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:18599 
 │                             │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:21275 
 │                             │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:22634 
-│                             │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:7065 
-│                             │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2026-2100 
-│                             │                  ├ [6] : https://bugzilla.redhat.com/2437308 
-│                             │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2437308 
-│                             │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
+│                             │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:27998 
+│                             │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:7065 
+│                             │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2026-2100 
+│                             │                  ├ [7] : https://bugzilla.redhat.com/2437308 
+│                             │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2437308 
+│                             │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
 │                             │                  │       6-2100 
-│                             │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2026-18599.html 
-│                             │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:18599 
-│                             │                  ├ [11]: https://github.com/p11-glue/p11-kit/pull/740 
-│                             │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-2100 
-│                             │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-2100 
+│                             │                  ├ [10]: https://errata.almalinux.org/10/ALSA-2026-18143.html 
+│                             │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:18599 
+│                             │                  ├ [12]: https://github.com/p11-glue/p11-kit/pull/740 
+│                             │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-2100 
+│                             │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-2100 
 │                             ├ PublishedDate   : 2026-03-26T21:17:04.247Z 
-│                             ╰ LastModifiedDate: 2026-06-02T20:16:33.92Z 
+│                             ╰ LastModifiedDate: 2026-06-22T20:16:28.86Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
