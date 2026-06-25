@@ -2323,7 +2323,53 @@
 │                       │      │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-9076 
 │                       │      ├ PublishedDate   : 2026-06-09T17:17:50.997Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T11:04:47.973Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2026-7598 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2026-55200 
+│                       │      ├ PkgID           : libssh2@1.11.1-r1 
+│                       │      ├ PkgName         : libssh2 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh2@1.11.1-r1?arch=x86_64&distro=3
+│                       │      │                  │       .24.0_alpha20260127 
+│                       │      │                  ╰ UID : 2ab480344db5ac8 
+│                       │      ├ InstalledVersion: 1.11.1-r1 
+│                       │      ├ FixedVersion    : 1.11.1-r3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-55200 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:714a89a13d87a3a447c5d765412e5d9be44d1f44cef4c40a1c191
+│                       │      │                   8ac3614dab1 
+│                       │      ├ Title           : libssh2: libssh2 - Out-of-Bounds Write via Unchecked
+│                       │      │                   packet_length in transport.c 
+│                       │      ├ Description     : libssh2 through 1.11.1, fixed in commit 7acf3df contains an
+│                       │      │                   out-of-bounds write vulnerability in ssh2_transport_read()
+│                       │      │                   that fails to enforce upper bounds on packet_length field.
+│                       │      │                   Remote attackers can send crafted SSH packets with
+│                       │      │                   excessively large packet_length values to corrupt heap
+│                       │      │                   memory and achieve remote code execution. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-680 
+│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 8.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-55200 
+│                       │      │                  ├ [1]: https://github.com/bikini/exploitarium/tree/main/libss
+│                       │      │                  │      h2-cve-2026-55200-poc 
+│                       │      │                  ├ [2]: https://github.com/libssh2/libssh2/commit/97acf3dfda80
+│                       │      │                  │      c91c3a8c9f2372546301d4a1a7a8 
+│                       │      │                  ├ [3]: https://github.com/libssh2/libssh2/pull/2052 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-55200 
+│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2026-55200 
+│                       │      │                  ╰ [6]: https://www.vulncheck.com/advisories/libssh2-out-of-bo
+│                       │      │                         unds-write-via-unchecked-packet-length-in-transport-c
+│                       │      │                         [m 
+│                       │      ├ PublishedDate   : 2026-06-17T20:17:28.667Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T05:16:54.883Z 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2026-7598 
 │                       │      ├ PkgID           : libssh2@1.11.1-r1 
 │                       │      ├ PkgName         : libssh2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh2@1.11.1-r1?arch=x86_64&distro=3
@@ -2376,7 +2422,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-7598 
 │                       │      ├ PublishedDate   : 2026-05-01T22:16:16.947Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T11:02:39.193Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2026-55199 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2026-55199 
 │                       │      ├ PkgID           : libssh2@1.11.1-r1 
 │                       │      ├ PkgName         : libssh2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh2@1.11.1-r1?arch=x86_64&distro=3
@@ -2395,8 +2441,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:07fad2fccc9c5df2ef4d4bb340731161d55667e8447be4c448d6d
 │                       │      │                   2931d0fe4ce 
-│                       │      ├ Title           : libssh2 through 1.11.1, fixed in commit 1762685, contains a
-│                       │      │                   pre-authen ... 
+│                       │      ├ Title           : libssh2: libssh2: Denial of Service via crafted
+│                       │      │                   SSH_MSG_EXT_INFO message 
 │                       │      ├ Description     : libssh2 through 1.11.1, fixed in commit 1762685, contains a
 │                       │      │                   pre-authentication denial of service vulnerability in the
 │                       │      │                   SSH_MSG_EXT_INFO handler in src/packet.c that allows a
@@ -2407,51 +2453,21 @@
 │                       │      │                    over 60 seconds because return values from
 │                       │      │                   _libssh2_get_string() are unchecked and the session timeout
 │                       │      │                   does not apply to CPU-bound loops. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-835 
-│                       │      ├ References       ╭ [0]: https://github.com/libssh2/libssh2/commit/17626857d20b
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-55199 
+│                       │      │                  ├ [1]: https://github.com/libssh2/libssh2/commit/17626857d20b
 │                       │      │                  │      3c9a1addfa45979dadcee1cd84a4 
-│                       │      │                  ├ [1]: https://github.com/libssh2/libssh2/pull/1864 
-│                       │      │                  ╰ [2]: https://www.vulncheck.com/advisories/libssh2-pre-authe
+│                       │      │                  ├ [2]: https://github.com/libssh2/libssh2/pull/1864 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-55199 
+│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2026-55199 
+│                       │      │                  ╰ [5]: https://www.vulncheck.com/advisories/libssh2-pre-authe
 │                       │      │                         ntication-dos-via-ssh-msg-ext-info-handler 
 │                       │      ├ PublishedDate   : 2026-06-17T20:17:28.52Z 
-│                       │      ╰ LastModifiedDate: 2026-06-22T18:43:49.9Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2026-55200 
-│                       │      ├ PkgID           : libssh2@1.11.1-r1 
-│                       │      ├ PkgName         : libssh2 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh2@1.11.1-r1?arch=x86_64&distro=3
-│                       │      │                  │       .24.0_alpha20260127 
-│                       │      │                  ╰ UID : 2ab480344db5ac8 
-│                       │      ├ InstalledVersion: 1.11.1-r1 
-│                       │      ├ FixedVersion    : 1.11.1-r3 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
-│                       │      │                  │         9a8305ba35c82bf9229f 
-│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
-│                       │      │                            7ea46f72dd8aa890c14b 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-55200 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:714a89a13d87a3a447c5d765412e5d9be44d1f44cef4c40a1c191
-│                       │      │                   8ac3614dab1 
-│                       │      ├ Title           : libssh2 through 1.11.1, fixed in commit 7acf3df contains an
-│                       │      │                   out-of-bou ... 
-│                       │      ├ Description     : libssh2 through 1.11.1, fixed in commit 7acf3df contains an
-│                       │      │                   out-of-bounds write vulnerability in ssh2_transport_read()
-│                       │      │                   that fails to enforce upper bounds on packet_length field.
-│                       │      │                   Remote attackers can send crafted SSH packets with
-│                       │      │                   excessively large packet_length values to corrupt heap
-│                       │      │                   memory and achieve remote code execution. 
-│                       │      ├ Severity        : UNKNOWN 
-│                       │      ├ CweIDs           ─ [0]: CWE-680 
-│                       │      ├ References       ╭ [0]: https://github.com/libssh2/libssh2/commit/97acf3dfda80
-│                       │      │                  │      c91c3a8c9f2372546301d4a1a7a8 
-│                       │      │                  ├ [1]: https://github.com/libssh2/libssh2/pull/2052 
-│                       │      │                  ╰ [2]: https://www.vulncheck.com/advisories/libssh2-out-of-bo
-│                       │      │                         unds-write-via-unchecked-packet-length-in-transport-c
-│                       │      │                         [m 
-│                       │      ├ PublishedDate   : 2026-06-17T20:17:28.667Z 
 │                       │      ╰ LastModifiedDate: 2026-06-22T18:43:49.9Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2026-45447 
 │                       │      ├ PkgID           : libssl3@3.5.6-r0 
@@ -9238,9 +9254,8 @@
                         │     │                          osystem%3Amaven 
                         │     ├ Fingerprint     : sha256:9f6ce7a8c23db461da5468fa6d3707bc366da7bb4bad4fc7ae1c14
                         │     │                   82a422f2e2 
-                        │     ├ Title           : jackson-databind has a PolymorphicTypeValidator bypass via
-                        │     │                   generic type parameters that allows arbitrary class
-                        │     │                   instantiation 
+                        │     ├ Title           : jackson-databind contains the general-purpose data-binding
+                        │     │                   functionali ... 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
                         │     │                   functionality and tree-model for Jackson Data Processor. From
                         │     │                    2.10.0 until 2.18.8, 2.21.4, and 3.1.4, jackson-databind's
@@ -9279,7 +9294,7 @@
                         │     │                  ╰ [3]: https://github.com/FasterXML/jackson-databind/security/
                         │     │                         advisories/GHSA-j3rv-43j4-c7qm 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.203Z 
-                        │     ╰ LastModifiedDate: 2026-06-23T21:17:02.203Z 
+                        │     ╰ LastModifiedDate: 2026-06-24T16:16:32.5Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2026-54513 
                         │     ├ VendorIDs        ─ [0]: GHSA-rmj7-2vxq-3g9f 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -9302,8 +9317,8 @@
                         │     │                          osystem%3Amaven 
                         │     ├ Fingerprint     : sha256:2260021b06d899e0e5bfd23feeac3ada8f5825e01357e5a820eac7
                         │     │                   d8bdb8f979 
-                        │     ├ Title           : jackson-databind has an array subtype allowlist bypass in
-                        │     │                   BasicPolymorphicTypeValidator (allowIfSubTypeIsArray) 
+                        │     ├ Title           : jackson-databind: Jackson-databind: Security bypass allows
+                        │     │                   arbitrary code execution 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
                         │     │                   functionality and tree-model for Jackson Data Processor. From
                         │     │                    2.10.0 until 2.18.8, 2.21.4, and 3.1.4,
@@ -9320,21 +9335,29 @@
                         │     │                   in 2.18.8, 2.21.4, and 3.1.4. 
                         │     ├ Severity        : HIGH 
                         │     ├ CweIDs           ─ [0]: CWE-184 
-                        │     ├ VendorSeverity   ─ ghsa: 3 
-                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H 
-                        │     │                         ╰ V3Score : 8.1 
-                        │     ├ References       ╭ [0]: https://github.com/FasterXML/jackson-databind 
-                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind/commit/01
+                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     │                  ╰ redhat: 3 
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
+                        │     │                  │        │           A:H 
+                        │     │                  │        ╰ V3Score : 8.1 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
+                        │     │                           │           A:H 
+                        │     │                           ╰ V3Score : 8.1 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54513 
+                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
+                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/01
                         │     │                  │      d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5 
-                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/24
+                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-databind/commit/24
                         │     │                  │      529da29fdf46ff94ca38de9ebf31cd188f5e8e 
-                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-databind/issues/5981 
-                        │     │                  ├ [4]: https://github.com/FasterXML/jackson-databind/issues/5983 
-                        │     │                  ├ [5]: https://github.com/FasterXML/jackson-databind/pull/5984 
-                        │     │                  ╰ [6]: https://github.com/FasterXML/jackson-databind/security/
-                        │     │                         advisories/GHSA-rmj7-2vxq-3g9f 
+                        │     │                  ├ [4]: https://github.com/FasterXML/jackson-databind/issues/5981 
+                        │     │                  ├ [5]: https://github.com/FasterXML/jackson-databind/issues/5983 
+                        │     │                  ├ [6]: https://github.com/FasterXML/jackson-databind/pull/5984 
+                        │     │                  ├ [7]: https://github.com/FasterXML/jackson-databind/security/
+                        │     │                  │      advisories/GHSA-rmj7-2vxq-3g9f 
+                        │     │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
+                        │     │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.333Z 
-                        │     ╰ LastModifiedDate: 2026-06-23T21:17:02.333Z 
+                        │     ╰ LastModifiedDate: 2026-06-24T16:16:32.6Z 
                         ├ [2] ╭ VulnerabilityID : CVE-2026-54514 
                         │     ├ VendorIDs        ─ [0]: GHSA-hgj6-7826-r7m5 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -9357,8 +9380,8 @@
                         │     │                          osystem%3Amaven 
                         │     ├ Fingerprint     : sha256:2e2de016693bd8c7420c5ef2e52201d220f48c0fb8b837ba2586b1
                         │     │                   10b02442cd 
-                        │     ├ Title           : jackson-databind: InetSocketAddress deserialization triggers
-                        │     │                   eager DNS resolution (SSRF) 
+                        │     ├ Title           : jackson-databind contains the general-purpose data-binding
+                        │     │                   functionali ... 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
                         │     │                   functionality and tree-model for Jackson Data Processor. From
                         │     │                    2.0.0 until 2.18.8, 2.21.4, and 3.1.4,
@@ -9407,8 +9430,8 @@
                         │     │                          osystem%3Amaven 
                         │     ├ Fingerprint     : sha256:89b51cb6dc14e3c4f8dedf2b77a7573b36899313783809dd213888
                         │     │                   f44c493eab 
-                        │     ├ Title           : jackson-databind has case-insensitive deserialization
-                        │     │                   bypasses per-property @JsonIgnoreProperties 
+                        │     ├ Title           : jackson-databind contains the general-purpose data-binding
+                        │     │                   functionali ... 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
                         │     │                   functionality and tree-model for Jackson Data Processor. From
                         │     │                    2.8.0 until 2.18.9, 2.21.5, and 3.1.4, in
@@ -9438,7 +9461,7 @@
                         │     │                  ╰ [4]: https://github.com/FasterXML/jackson-databind/security/
                         │     │                         advisories/GHSA-5jmj-h7xm-6q6v 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.597Z 
-                        │     ╰ LastModifiedDate: 2026-06-23T21:17:02.597Z 
+                        │     ╰ LastModifiedDate: 2026-06-24T13:16:32.653Z 
                         ├ [4] ╭ VulnerabilityID : CVE-2026-54516 
                         │     ├ VendorIDs        ─ [0]: GHSA-9fxm-vc8v-hj55 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -9461,8 +9484,8 @@
                         │     │                          osystem%3Amaven 
                         │     ├ Fingerprint     : sha256:8c2ff7109220cea4e0816237276fcc2cb6f1d1e3799057f4c4d0a2
                         │     │                   5f907a51ef 
-                        │     ├ Title           : jackson-databind's renamed @JsonIgnore'd setters can
-                        │     │                   deserialize via private fields 
+                        │     ├ Title           : jackson-databind contains the general-purpose data-binding
+                        │     │                   functionali ... 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
                         │     │                   functionality and tree-model for Jackson Data Processor. From
                         │     │                    2.21.0 until 2.21.4 and 3.1.4,
@@ -9491,7 +9514,7 @@
                         │     │                  ╰ [5]: https://github.com/FasterXML/jackson-databind/security/
                         │     │                         advisories/GHSA-9fxm-vc8v-hj55 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.723Z 
-                        │     ╰ LastModifiedDate: 2026-06-23T21:17:02.723Z 
+                        │     ╰ LastModifiedDate: 2026-06-24T14:17:33.547Z 
                         ├ [5] ╭ VulnerabilityID : CVE-2026-54517 
                         │     ├ VendorIDs        ─ [0]: GHSA-5hh8-q8hv-fr38 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -9514,8 +9537,8 @@
                         │     │                          osystem%3Amaven 
                         │     ├ Fingerprint     : sha256:a9efc7b66b15ffab54188d8ce09ca12cd118a2d4019490e68fb742
                         │     │                   be5c9e925e 
-                        │     ├ Title           : jackson-databind has @JsonView bypass for setterless creator
-                        │     │                   properties 
+                        │     ├ Title           : jackson-databind contains the general-purpose data-binding
+                        │     │                   functionali ... 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
                         │     │                   functionality and tree-model for Jackson Data Processor. From
                         │     │                    2.21.0 until 2.21.4 and 3.1.4, in
@@ -9544,7 +9567,7 @@
                         │     │                  ╰ [5]: https://github.com/FasterXML/jackson-databind/security/
                         │     │                         advisories/GHSA-5hh8-q8hv-fr38 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.853Z 
-                        │     ╰ LastModifiedDate: 2026-06-23T21:17:02.853Z 
+                        │     ╰ LastModifiedDate: 2026-06-24T20:16:33Z 
                         ╰ [6] ╭ VulnerabilityID : CVE-2026-54518 
                               ├ VendorIDs        ─ [0]: GHSA-rcqc-6cw3-h962 
                               ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -9567,8 +9590,8 @@
                               │                          osystem%3Amaven 
                               ├ Fingerprint     : sha256:b632916ae0a64bc024e3a193ec1b247e856d56347c4bfbcbbffdce
                               │                   40b2d46973 
-                              ├ Title           : jackson-databind has a @JsonView bypass for unwrapped creator
-                              │                    parameters 
+                              ├ Title           : jackson-databind contains the general-purpose data-binding
+                              │                   functionali ... 
                               ├ Description     : jackson-databind contains the general-purpose data-binding
                               │                   functionality and tree-model for Jackson Data Processor. From
                               │                    2.21.0 until 2.21.4 and 3.1.4,
@@ -9596,5 +9619,5 @@
                               │                  ╰ [5]: https://github.com/FasterXML/jackson-databind/security/
                               │                         advisories/GHSA-rcqc-6cw3-h962 
                               ├ PublishedDate   : 2026-06-23T22:16:32.073Z 
-                              ╰ LastModifiedDate: 2026-06-23T22:16:32.073Z 
+                              ╰ LastModifiedDate: 2026-06-24T17:17:29.163Z 
 ```
