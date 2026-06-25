@@ -2304,6 +2304,7 @@
     - https://access.redhat.com/errata/RHSA-2026:20613
     - https://access.redhat.com/errata/RHSA-2026:26319
     - https://access.redhat.com/errata/RHSA-2026:26409
+    - https://access.redhat.com/errata/RHSA-2026:29197
     - https://access.redhat.com/security/cve/CVE-2026-33845
     - https://bugzilla.redhat.com/2445763
     - https://bugzilla.redhat.com/2450624
@@ -2346,7 +2347,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-33845
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-3
     PublishedDate: '2026-04-30T18:16:28.003Z'
-    LastModifiedDate: '2026-06-17T13:20:17.117Z'
+    LastModifiedDate: '2026-06-24T17:16:58.31Z'
   - VulnerabilityID: CVE-2026-33846
     PkgID: libgnutls30t64@3.8.12-2ubuntu1
     PkgName: libgnutls30t64
@@ -2391,6 +2392,7 @@
     - https://access.redhat.com/errata/RHSA-2026:20613
     - https://access.redhat.com/errata/RHSA-2026:26319
     - https://access.redhat.com/errata/RHSA-2026:26409
+    - https://access.redhat.com/errata/RHSA-2026:29197
     - https://access.redhat.com/security/cve/CVE-2026-33846
     - https://bugzilla.redhat.com/2445763
     - https://bugzilla.redhat.com/2450624
@@ -2433,7 +2435,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-33846
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-1
     PublishedDate: '2026-05-04T10:15:59.69Z'
-    LastModifiedDate: '2026-06-17T13:20:17.317Z'
+    LastModifiedDate: '2026-06-24T17:16:58.527Z'
   - VulnerabilityID: CVE-2026-3832
     PkgID: libgnutls30t64@3.8.12-2ubuntu1
     PkgName: libgnutls30t64
@@ -2473,6 +2475,7 @@
     - https://access.redhat.com/errata/RHSA-2026:20613
     - https://access.redhat.com/errata/RHSA-2026:26319
     - https://access.redhat.com/errata/RHSA-2026:26409
+    - https://access.redhat.com/errata/RHSA-2026:29197
     - https://access.redhat.com/security/cve/CVE-2026-3832
     - https://bugzilla.redhat.com/show_bug.cgi?id=2445762
     - https://bugzilla.redhat.com/show_bug.cgi?id=2445763
@@ -2507,7 +2510,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3832
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-12
     PublishedDate: '2026-04-30T18:16:30.433Z'
-    LastModifiedDate: '2026-06-17T13:20:34.537Z'
+    LastModifiedDate: '2026-06-24T17:16:58.717Z'
   - VulnerabilityID: CVE-2026-3833
     PkgID: libgnutls30t64@3.8.12-2ubuntu1
     PkgName: libgnutls30t64
@@ -2555,6 +2558,7 @@
     - https://access.redhat.com/errata/RHSA-2026:20613
     - https://access.redhat.com/errata/RHSA-2026:26319
     - https://access.redhat.com/errata/RHSA-2026:26409
+    - https://access.redhat.com/errata/RHSA-2026:29197
     - https://access.redhat.com/security/cve/CVE-2026-3833
     - https://bugzilla.redhat.com/2445763
     - https://bugzilla.redhat.com/2450624
@@ -2598,7 +2602,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3833
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-5
     PublishedDate: '2026-04-30T18:16:30.577Z'
-    LastModifiedDate: '2026-06-17T13:20:34.727Z'
+    LastModifiedDate: '2026-06-24T17:16:58.907Z'
   - VulnerabilityID: CVE-2026-42009
     PkgID: libgnutls30t64@3.8.12-2ubuntu1
     PkgName: libgnutls30t64
@@ -2642,6 +2646,7 @@
     - https://access.redhat.com/errata/RHSA-2026:20613
     - https://access.redhat.com/errata/RHSA-2026:26319
     - https://access.redhat.com/errata/RHSA-2026:26409
+    - https://access.redhat.com/errata/RHSA-2026:29197
     - https://access.redhat.com/security/cve/CVE-2026-42009
     - https://bugzilla.redhat.com/2445763
     - https://bugzilla.redhat.com/2450624
@@ -2684,7 +2689,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42009
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-2
     PublishedDate: '2026-05-18T13:16:32.707Z'
-    LastModifiedDate: '2026-06-17T13:20:38.537Z'
+    LastModifiedDate: '2026-06-24T17:16:59.097Z'
   - VulnerabilityID: CVE-2026-42010
     PkgID: libgnutls30t64@3.8.12-2ubuntu1
     PkgName: libgnutls30t64
@@ -2734,6 +2739,7 @@
     - https://access.redhat.com/errata/RHSA-2026:20613
     - https://access.redhat.com/errata/RHSA-2026:26319
     - https://access.redhat.com/errata/RHSA-2026:26409
+    - https://access.redhat.com/errata/RHSA-2026:29197
     - https://access.redhat.com/security/cve/CVE-2026-42010
     - https://bugzilla.redhat.com/2445763
     - https://bugzilla.redhat.com/2450624
@@ -2776,7 +2782,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42010
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-4
     PublishedDate: '2026-05-07T12:16:17.977Z'
-    LastModifiedDate: '2026-06-17T13:20:38.74Z'
+    LastModifiedDate: '2026-06-24T17:16:59.313Z'
   - VulnerabilityID: CVE-2026-42011
     PkgID: libgnutls30t64@3.8.12-2ubuntu1
     PkgName: libgnutls30t64
@@ -2820,6 +2826,7 @@
     - https://access.redhat.com/errata/RHSA-2026:20613
     - https://access.redhat.com/errata/RHSA-2026:26319
     - https://access.redhat.com/errata/RHSA-2026:26409
+    - https://access.redhat.com/errata/RHSA-2026:29197
     - https://access.redhat.com/security/cve/CVE-2026-42011
     - https://bugzilla.redhat.com/2445763
     - https://bugzilla.redhat.com/2450624
@@ -2862,7 +2869,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42011
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-6
     PublishedDate: '2026-05-07T15:16:09.76Z'
-    LastModifiedDate: '2026-06-17T13:20:38.96Z'
+    LastModifiedDate: '2026-06-24T17:16:59.51Z'
   - VulnerabilityID: CVE-2026-42012
     PkgID: libgnutls30t64@3.8.12-2ubuntu1
     PkgName: libgnutls30t64
@@ -2905,6 +2912,7 @@
     - https://access.redhat.com/errata/RHSA-2026:20613
     - https://access.redhat.com/errata/RHSA-2026:26319
     - https://access.redhat.com/errata/RHSA-2026:26409
+    - https://access.redhat.com/errata/RHSA-2026:29197
     - https://access.redhat.com/security/cve/CVE-2026-42012
     - https://bugzilla.redhat.com/2445763
     - https://bugzilla.redhat.com/2450624
@@ -2947,7 +2955,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42012
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-7
     PublishedDate: '2026-05-26T22:16:41.913Z'
-    LastModifiedDate: '2026-06-17T13:20:39.13Z'
+    LastModifiedDate: '2026-06-24T17:17:00.58Z'
   - VulnerabilityID: CVE-2026-42013
     PkgID: libgnutls30t64@3.8.12-2ubuntu1
     PkgName: libgnutls30t64
@@ -2990,6 +2998,7 @@
     - https://access.redhat.com/errata/RHSA-2026:20613
     - https://access.redhat.com/errata/RHSA-2026:26319
     - https://access.redhat.com/errata/RHSA-2026:26409
+    - https://access.redhat.com/errata/RHSA-2026:29197
     - https://access.redhat.com/security/cve/CVE-2026-42013
     - https://bugzilla.redhat.com/2445763
     - https://bugzilla.redhat.com/2450624
@@ -3032,7 +3041,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42013
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-8
     PublishedDate: '2026-05-26T22:16:42.05Z'
-    LastModifiedDate: '2026-06-17T13:20:39.3Z'
+    LastModifiedDate: '2026-06-24T17:17:00.753Z'
   - VulnerabilityID: CVE-2026-42014
     PkgID: libgnutls30t64@3.8.12-2ubuntu1
     PkgName: libgnutls30t64
@@ -3075,6 +3084,7 @@
     - https://access.redhat.com/errata/RHSA-2026:20613
     - https://access.redhat.com/errata/RHSA-2026:26319
     - https://access.redhat.com/errata/RHSA-2026:26409
+    - https://access.redhat.com/errata/RHSA-2026:29197
     - https://access.redhat.com/security/cve/CVE-2026-42014
     - https://bugzilla.redhat.com/2445763
     - https://bugzilla.redhat.com/2450624
@@ -3118,7 +3128,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42014
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-9
     PublishedDate: '2026-06-16T02:16:19.14Z'
-    LastModifiedDate: '2026-06-17T13:20:39.463Z'
+    LastModifiedDate: '2026-06-24T17:17:00.93Z'
   - VulnerabilityID: CVE-2026-42015
     PkgID: libgnutls30t64@3.8.12-2ubuntu1
     PkgName: libgnutls30t64
@@ -3161,6 +3171,7 @@
     - https://access.redhat.com/errata/RHSA-2026:20613
     - https://access.redhat.com/errata/RHSA-2026:26319
     - https://access.redhat.com/errata/RHSA-2026:26409
+    - https://access.redhat.com/errata/RHSA-2026:29197
     - https://access.redhat.com/security/cve/CVE-2026-42015
     - https://bugzilla.redhat.com/2445763
     - https://bugzilla.redhat.com/2450624
@@ -3203,7 +3214,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42015
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-11
     PublishedDate: '2026-05-26T22:16:42.18Z'
-    LastModifiedDate: '2026-06-17T13:20:39.643Z'
+    LastModifiedDate: '2026-06-24T17:17:01.113Z'
   - VulnerabilityID: CVE-2026-5260
     PkgID: libgnutls30t64@3.8.12-2ubuntu1
     PkgName: libgnutls30t64
@@ -3246,6 +3257,7 @@
     - https://access.redhat.com/errata/RHSA-2026:20613
     - https://access.redhat.com/errata/RHSA-2026:26319
     - https://access.redhat.com/errata/RHSA-2026:26409
+    - https://access.redhat.com/errata/RHSA-2026:29197
     - https://access.redhat.com/security/cve/CVE-2026-5260
     - https://bugzilla.redhat.com/2445763
     - https://bugzilla.redhat.com/2450624
@@ -3288,7 +3300,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-5260
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-10
     PublishedDate: '2026-05-26T22:16:44.17Z'
-    LastModifiedDate: '2026-06-17T13:20:52.26Z'
+    LastModifiedDate: '2026-06-24T17:17:31.273Z'
   - VulnerabilityID: CVE-2026-5419
     PkgID: libgnutls30t64@3.8.12-2ubuntu1
     PkgName: libgnutls30t64
@@ -3328,6 +3340,7 @@
     - https://access.redhat.com/errata/RHSA-2026:20613
     - https://access.redhat.com/errata/RHSA-2026:26319
     - https://access.redhat.com/errata/RHSA-2026:26409
+    - https://access.redhat.com/errata/RHSA-2026:29197
     - https://access.redhat.com/security/cve/CVE-2026-5419
     - https://bugzilla.redhat.com/show_bug.cgi?id=2445762
     - https://bugzilla.redhat.com/show_bug.cgi?id=2445763
@@ -3361,7 +3374,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-5419
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2026-04-29-13
     PublishedDate: '2026-06-01T21:16:47.48Z'
-    LastModifiedDate: '2026-06-17T13:20:52.427Z'
+    LastModifiedDate: '2026-06-24T17:17:31.44Z'
   - VulnerabilityID: CVE-2026-50593
     PkgID: libgraphite2-3@1.3.14-11ubuntu1
     PkgName: libgraphite2-3
@@ -4286,6 +4299,62 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-41071
     PublishedDate: '2026-05-22T22:16:55.47Z'
     LastModifiedDate: '2026-06-17T10:46:07.52Z'
+  - VulnerabilityID: CVE-2026-47178
+    PkgID: libheif-plugin-aomdec@1.21.2-3
+    PkgName: libheif-plugin-aomdec
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3?arch=amd64&distro=ubuntu-26.04
+      UID: f17c429548582636
+    InstalledVersion: 1.21.2-3
+    Status: affected
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-47178
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a6fecfef909dd929b8d8a6105a5512147d34fdd7c4c07a50acca7596423b69f6
+    Description: '[Unknown description]'
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/strukturag/libheif/security/advisories/GHSA-5x55-x5pf-9c6g
+    - https://project-zero.issues.chromium.org/issues/507396184
+    - https://www.cve.org/CVERecord?id=CVE-2026-47178
+  - VulnerabilityID: CVE-2026-49271
+    PkgID: libheif-plugin-aomdec@1.21.2-3
+    PkgName: libheif-plugin-aomdec
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3?arch=amd64&distro=ubuntu-26.04
+      UID: f17c429548582636
+    InstalledVersion: 1.21.2-3
+    Status: affected
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-49271
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:9a7bb8861711828a99ebdca87e90030dee7b5465873d834c5d25b03da878e2a0
+    Title: libheif is a HEIF and AVIF file format decoder and encoder. Prior to v ...
+    Description: libheif is a HEIF and AVIF file format decoder and encoder. Prior to version 1.22.1, the uncompressed HEIF decoder validates explicit icef compressed-unit offsets using unit_offset + unit_size. Because the addition can wrap, a crafted HEIF file can pass the range check and then construct a vector from iterators outside the compressed item buffer, producing an out-of-bounds heap read and crash. Version 1.22.1 patches the issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/strukturag/libheif/security/advisories/GHSA-r7qj-cg5r-r6vf
+    - https://www.cve.org/CVERecord?id=CVE-2026-49271
+    PublishedDate: '2026-06-19T18:16:19.353Z'
+    LastModifiedDate: '2026-06-23T15:55:31.267Z'
   - VulnerabilityID: CVE-2026-32738
     PkgID: libheif-plugin-aomenc@1.21.2-3
     PkgName: libheif-plugin-aomenc
@@ -4674,6 +4743,62 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-41071
     PublishedDate: '2026-05-22T22:16:55.47Z'
     LastModifiedDate: '2026-06-17T10:46:07.52Z'
+  - VulnerabilityID: CVE-2026-47178
+    PkgID: libheif-plugin-aomenc@1.21.2-3
+    PkgName: libheif-plugin-aomenc
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3?arch=amd64&distro=ubuntu-26.04
+      UID: 3a7f7ebd17466bdc
+    InstalledVersion: 1.21.2-3
+    Status: affected
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-47178
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:6cf314f5c57d8e4e8024f053f0f6b3793bb3b85b0c98f7a0b2dc4dbcc19e0a23
+    Description: '[Unknown description]'
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/strukturag/libheif/security/advisories/GHSA-5x55-x5pf-9c6g
+    - https://project-zero.issues.chromium.org/issues/507396184
+    - https://www.cve.org/CVERecord?id=CVE-2026-47178
+  - VulnerabilityID: CVE-2026-49271
+    PkgID: libheif-plugin-aomenc@1.21.2-3
+    PkgName: libheif-plugin-aomenc
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3?arch=amd64&distro=ubuntu-26.04
+      UID: 3a7f7ebd17466bdc
+    InstalledVersion: 1.21.2-3
+    Status: affected
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-49271
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:baeb28920d9d23e6c27982ff6b44d26105e2392c52dd1e44d3a3b6c4f28d4445
+    Title: libheif is a HEIF and AVIF file format decoder and encoder. Prior to v ...
+    Description: libheif is a HEIF and AVIF file format decoder and encoder. Prior to version 1.22.1, the uncompressed HEIF decoder validates explicit icef compressed-unit offsets using unit_offset + unit_size. Because the addition can wrap, a crafted HEIF file can pass the range check and then construct a vector from iterators outside the compressed item buffer, producing an out-of-bounds heap read and crash. Version 1.22.1 patches the issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/strukturag/libheif/security/advisories/GHSA-r7qj-cg5r-r6vf
+    - https://www.cve.org/CVERecord?id=CVE-2026-49271
+    PublishedDate: '2026-06-19T18:16:19.353Z'
+    LastModifiedDate: '2026-06-23T15:55:31.267Z'
   - VulnerabilityID: CVE-2026-32738
     PkgID: libheif1@1.21.2-3
     PkgName: libheif1
@@ -5062,6 +5187,62 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-41071
     PublishedDate: '2026-05-22T22:16:55.47Z'
     LastModifiedDate: '2026-06-17T10:46:07.52Z'
+  - VulnerabilityID: CVE-2026-47178
+    PkgID: libheif1@1.21.2-3
+    PkgName: libheif1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libheif1@1.21.2-3?arch=amd64&distro=ubuntu-26.04
+      UID: 866c43e515f16478
+    InstalledVersion: 1.21.2-3
+    Status: affected
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-47178
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:93eeb10a51707f8a5fbfe167567768baf8814a13ec8a84252a759a108af12e76
+    Description: '[Unknown description]'
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/strukturag/libheif/security/advisories/GHSA-5x55-x5pf-9c6g
+    - https://project-zero.issues.chromium.org/issues/507396184
+    - https://www.cve.org/CVERecord?id=CVE-2026-47178
+  - VulnerabilityID: CVE-2026-49271
+    PkgID: libheif1@1.21.2-3
+    PkgName: libheif1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libheif1@1.21.2-3?arch=amd64&distro=ubuntu-26.04
+      UID: 866c43e515f16478
+    InstalledVersion: 1.21.2-3
+    Status: affected
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-49271
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:3d19235facc61223e4130a1c73b86c37e2a5b6c7a9234dc8152e1fc8af028c1b
+    Title: libheif is a HEIF and AVIF file format decoder and encoder. Prior to v ...
+    Description: libheif is a HEIF and AVIF file format decoder and encoder. Prior to version 1.22.1, the uncompressed HEIF decoder validates explicit icef compressed-unit offsets using unit_offset + unit_size. Because the addition can wrap, a crafted HEIF file can pass the range check and then construct a vector from iterators outside the compressed item buffer, producing an out-of-bounds heap read and crash. Version 1.22.1 patches the issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/strukturag/libheif/security/advisories/GHSA-r7qj-cg5r-r6vf
+    - https://www.cve.org/CVERecord?id=CVE-2026-49271
+    PublishedDate: '2026-06-19T18:16:19.353Z'
+    LastModifiedDate: '2026-06-23T15:55:31.267Z'
   - VulnerabilityID: CVE-2025-70103
     PkgID: libjxl0.11@0.11.1-6ubuntu4
     PkgName: libjxl0.11
@@ -5312,6 +5493,104 @@
     - https://www.openwall.com/lists/oss-security/2026/04/08/1
     PublishedDate: '2026-04-10T16:16:33.753Z'
     LastModifiedDate: '2026-06-17T10:44:53.31Z'
+  - VulnerabilityID: CVE-2026-42496
+    PkgID: libperl5.40@5.40.1-7build1
+    PkgName: libperl5.40
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libperl5.40@5.40.1-7build1?arch=amd64&distro=ubuntu-26.04
+      UID: d73ba0afb91fcde9
+    InstalledVersion: 5.40.1-7build1
+    FixedVersion: 5.40.1-7ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42496
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:9ac779bf65be4b8f775a7947eb0c53cb97a60b5f7faa4677e8884b8bed29283c
+    Title: 'perl-archive-tar: perl-archive-tar: Path traversal via crafted symlinks allows arbitrary file access'
+    Description: |-
+      Archive::Tar versions before 3.08 for Perl extract symlinks with attacker controlled targets outside the extraction directory.
+
+      _make_special_file() passes the tar header's linkname to symlink() without validating it against absolute paths or .. segments. The secure-extract mode check that guards regular file extraction does not cover the symlink target.
+
+      A subsequent open through the extracted name reads or writes the attacker chosen path.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-59
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      nvd: 4
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 9.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H
+        V3Score: 8.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-42496
+    - https://github.com/jib/archive-tar-new/commit/17c873492a05eddc0de18c1485e0b2cccd5a9158.patch
+    - https://lists.security.metacpan.org/cve-announce/msg/40396459/
+    - https://metacpan.org/release/BINGOS/Archive-Tar-3.08/changes
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42496
+    - https://ubuntu.com/security/notices/USN-8467-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-42496
+    - https://www.cve.org/CVERecord?id=CVE-2026-42497
+    PublishedDate: '2026-05-26T02:16:40.13Z'
+    LastModifiedDate: '2026-06-17T10:47:55.753Z'
+  - VulnerabilityID: CVE-2026-8376
+    PkgID: libperl5.40@5.40.1-7build1
+    PkgName: libperl5.40
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libperl5.40@5.40.1-7build1?arch=amd64&distro=ubuntu-26.04
+      UID: d73ba0afb91fcde9
+    InstalledVersion: 5.40.1-7build1
+    FixedVersion: 5.40.1-7ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8376
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4db17cc70e41e4336f52ea97e5ca2ea252395f46773db91073a2e33ed54f8e98
+    Title: Perl versions through 5.43.10 have a heap buffer overflow when compili ...
+    Description: |-
+      Perl versions through 5.43.10 have a heap buffer overflow when compiling regular expressions with a repeated fixed string on 32-bit builds.
+
+      Perl_study_chunk in regcomp_study.c checked the size of the joined substring buffer in characters rather than bytes. For a quantified fixed substring with a large minimum count, the byte length mincount * l could overflow SSize_t, producing an undersized SvGROW allocation; the subsequent copy writes past the end of the buffer.
+
+      A caller that compiles an attacker-controlled regular expression on a 32-bit perl build triggers a heap buffer overflow at compile time.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-680
+    VendorSeverity:
+      amazon: 2
+      nvd: 4
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/05/26/1
+    - https://github.com/Perl/perl5/commit/5e7f119eb2bb1181be908701f22bf7068e722f1c.patch
+    - https://github.com/Perl/perl5/pull/24433
+    - https://ubuntu.com/security/notices/USN-8467-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-8376
+    PublishedDate: '2026-05-26T00:16:57.15Z'
+    LastModifiedDate: '2026-06-17T11:03:51.843Z'
   - VulnerabilityID: CVE-2023-37769
     PkgID: libpixman-1-0@0.46.4-1
     PkgName: libpixman-1-0
@@ -12348,6 +12627,300 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2026-06-17T08:12:10.903Z'
+  - VulnerabilityID: CVE-2026-42496
+    PkgID: perl@5.40.1-7build1
+    PkgName: perl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/perl@5.40.1-7build1?arch=amd64&distro=ubuntu-26.04
+      UID: d11d775659a2e236
+    InstalledVersion: 5.40.1-7build1
+    FixedVersion: 5.40.1-7ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42496
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:1ea413bda2baef31337dc0ef70ac63c183ae04da8638c48ac88a076f9b971e72
+    Title: 'perl-archive-tar: perl-archive-tar: Path traversal via crafted symlinks allows arbitrary file access'
+    Description: |-
+      Archive::Tar versions before 3.08 for Perl extract symlinks with attacker controlled targets outside the extraction directory.
+
+      _make_special_file() passes the tar header's linkname to symlink() without validating it against absolute paths or .. segments. The secure-extract mode check that guards regular file extraction does not cover the symlink target.
+
+      A subsequent open through the extracted name reads or writes the attacker chosen path.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-59
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      nvd: 4
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 9.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H
+        V3Score: 8.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-42496
+    - https://github.com/jib/archive-tar-new/commit/17c873492a05eddc0de18c1485e0b2cccd5a9158.patch
+    - https://lists.security.metacpan.org/cve-announce/msg/40396459/
+    - https://metacpan.org/release/BINGOS/Archive-Tar-3.08/changes
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42496
+    - https://ubuntu.com/security/notices/USN-8467-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-42496
+    - https://www.cve.org/CVERecord?id=CVE-2026-42497
+    PublishedDate: '2026-05-26T02:16:40.13Z'
+    LastModifiedDate: '2026-06-17T10:47:55.753Z'
+  - VulnerabilityID: CVE-2026-8376
+    PkgID: perl@5.40.1-7build1
+    PkgName: perl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/perl@5.40.1-7build1?arch=amd64&distro=ubuntu-26.04
+      UID: d11d775659a2e236
+    InstalledVersion: 5.40.1-7build1
+    FixedVersion: 5.40.1-7ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8376
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:1ceb1fca73788b0d269b120ecbf85169f652267d9c640217cb3b77efcf765d68
+    Title: Perl versions through 5.43.10 have a heap buffer overflow when compili ...
+    Description: |-
+      Perl versions through 5.43.10 have a heap buffer overflow when compiling regular expressions with a repeated fixed string on 32-bit builds.
+
+      Perl_study_chunk in regcomp_study.c checked the size of the joined substring buffer in characters rather than bytes. For a quantified fixed substring with a large minimum count, the byte length mincount * l could overflow SSize_t, producing an undersized SvGROW allocation; the subsequent copy writes past the end of the buffer.
+
+      A caller that compiles an attacker-controlled regular expression on a 32-bit perl build triggers a heap buffer overflow at compile time.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-680
+    VendorSeverity:
+      amazon: 2
+      nvd: 4
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/05/26/1
+    - https://github.com/Perl/perl5/commit/5e7f119eb2bb1181be908701f22bf7068e722f1c.patch
+    - https://github.com/Perl/perl5/pull/24433
+    - https://ubuntu.com/security/notices/USN-8467-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-8376
+    PublishedDate: '2026-05-26T00:16:57.15Z'
+    LastModifiedDate: '2026-06-17T11:03:51.843Z'
+  - VulnerabilityID: CVE-2026-42496
+    PkgID: perl-base@5.40.1-7build1
+    PkgName: perl-base
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/perl-base@5.40.1-7build1?arch=amd64&distro=ubuntu-26.04
+      UID: a27563409d231488
+    InstalledVersion: 5.40.1-7build1
+    FixedVersion: 5.40.1-7ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42496
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:de4c18a4c319824132d2017bf549bd7680df663979f0bf19465760685ec5dfbb
+    Title: 'perl-archive-tar: perl-archive-tar: Path traversal via crafted symlinks allows arbitrary file access'
+    Description: |-
+      Archive::Tar versions before 3.08 for Perl extract symlinks with attacker controlled targets outside the extraction directory.
+
+      _make_special_file() passes the tar header's linkname to symlink() without validating it against absolute paths or .. segments. The secure-extract mode check that guards regular file extraction does not cover the symlink target.
+
+      A subsequent open through the extracted name reads or writes the attacker chosen path.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-59
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      nvd: 4
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 9.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H
+        V3Score: 8.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-42496
+    - https://github.com/jib/archive-tar-new/commit/17c873492a05eddc0de18c1485e0b2cccd5a9158.patch
+    - https://lists.security.metacpan.org/cve-announce/msg/40396459/
+    - https://metacpan.org/release/BINGOS/Archive-Tar-3.08/changes
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42496
+    - https://ubuntu.com/security/notices/USN-8467-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-42496
+    - https://www.cve.org/CVERecord?id=CVE-2026-42497
+    PublishedDate: '2026-05-26T02:16:40.13Z'
+    LastModifiedDate: '2026-06-17T10:47:55.753Z'
+  - VulnerabilityID: CVE-2026-8376
+    PkgID: perl-base@5.40.1-7build1
+    PkgName: perl-base
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/perl-base@5.40.1-7build1?arch=amd64&distro=ubuntu-26.04
+      UID: a27563409d231488
+    InstalledVersion: 5.40.1-7build1
+    FixedVersion: 5.40.1-7ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8376
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:9f51d5611eb8760164134f4d12a8aa1d7fb9ccc3f8980d57d5071960b4b7a0e0
+    Title: Perl versions through 5.43.10 have a heap buffer overflow when compili ...
+    Description: |-
+      Perl versions through 5.43.10 have a heap buffer overflow when compiling regular expressions with a repeated fixed string on 32-bit builds.
+
+      Perl_study_chunk in regcomp_study.c checked the size of the joined substring buffer in characters rather than bytes. For a quantified fixed substring with a large minimum count, the byte length mincount * l could overflow SSize_t, producing an undersized SvGROW allocation; the subsequent copy writes past the end of the buffer.
+
+      A caller that compiles an attacker-controlled regular expression on a 32-bit perl build triggers a heap buffer overflow at compile time.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-680
+    VendorSeverity:
+      amazon: 2
+      nvd: 4
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/05/26/1
+    - https://github.com/Perl/perl5/commit/5e7f119eb2bb1181be908701f22bf7068e722f1c.patch
+    - https://github.com/Perl/perl5/pull/24433
+    - https://ubuntu.com/security/notices/USN-8467-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-8376
+    PublishedDate: '2026-05-26T00:16:57.15Z'
+    LastModifiedDate: '2026-06-17T11:03:51.843Z'
+  - VulnerabilityID: CVE-2026-42496
+    PkgID: perl-modules-5.40@5.40.1-7build1
+    PkgName: perl-modules-5.40
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/perl-modules-5.40@5.40.1-7build1?arch=all&distro=ubuntu-26.04
+      UID: 3b56c1e74aa1c14c
+    InstalledVersion: 5.40.1-7build1
+    FixedVersion: 5.40.1-7ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42496
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:8f40b79de6ec51b195ebe7c613d33da54d5d8df1dad5b928ded8c8593c33b980
+    Title: 'perl-archive-tar: perl-archive-tar: Path traversal via crafted symlinks allows arbitrary file access'
+    Description: |-
+      Archive::Tar versions before 3.08 for Perl extract symlinks with attacker controlled targets outside the extraction directory.
+
+      _make_special_file() passes the tar header's linkname to symlink() without validating it against absolute paths or .. segments. The secure-extract mode check that guards regular file extraction does not cover the symlink target.
+
+      A subsequent open through the extracted name reads or writes the attacker chosen path.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-59
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      nvd: 4
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 9.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H
+        V3Score: 8.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-42496
+    - https://github.com/jib/archive-tar-new/commit/17c873492a05eddc0de18c1485e0b2cccd5a9158.patch
+    - https://lists.security.metacpan.org/cve-announce/msg/40396459/
+    - https://metacpan.org/release/BINGOS/Archive-Tar-3.08/changes
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42496
+    - https://ubuntu.com/security/notices/USN-8467-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-42496
+    - https://www.cve.org/CVERecord?id=CVE-2026-42497
+    PublishedDate: '2026-05-26T02:16:40.13Z'
+    LastModifiedDate: '2026-06-17T10:47:55.753Z'
+  - VulnerabilityID: CVE-2026-8376
+    PkgID: perl-modules-5.40@5.40.1-7build1
+    PkgName: perl-modules-5.40
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/perl-modules-5.40@5.40.1-7build1?arch=all&distro=ubuntu-26.04
+      UID: 3b56c1e74aa1c14c
+    InstalledVersion: 5.40.1-7build1
+    FixedVersion: 5.40.1-7ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8376
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a03f0c9f009bd65ad0fde3aa5f2332101ca693bb8118c7fb2bf848a1f97defe2
+    Title: Perl versions through 5.43.10 have a heap buffer overflow when compili ...
+    Description: |-
+      Perl versions through 5.43.10 have a heap buffer overflow when compiling regular expressions with a repeated fixed string on 32-bit builds.
+
+      Perl_study_chunk in regcomp_study.c checked the size of the joined substring buffer in characters rather than bytes. For a quantified fixed substring with a large minimum count, the byte length mincount * l could overflow SSize_t, producing an undersized SvGROW allocation; the subsequent copy writes past the end of the buffer.
+
+      A caller that compiles an attacker-controlled regular expression on a 32-bit perl build triggers a heap buffer overflow at compile time.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-680
+    VendorSeverity:
+      amazon: 2
+      nvd: 4
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/05/26/1
+    - https://github.com/Perl/perl5/commit/5e7f119eb2bb1181be908701f22bf7068e722f1c.patch
+    - https://github.com/Perl/perl5/pull/24433
+    - https://ubuntu.com/security/notices/USN-8467-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-8376
+    PublishedDate: '2026-05-26T00:16:57.15Z'
+    LastModifiedDate: '2026-06-17T11:03:51.843Z'
   - VulnerabilityID: CVE-2026-35341
     PkgID: rust-coreutils@0.8.0-0ubuntu3
     PkgName: rust-coreutils
@@ -15449,7 +16022,7 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:50fa451f97977e90b18efe31b3eb0795e5608706c6855a4bdcaafb9eb8054104
-    Title: jackson-databind has a PolymorphicTypeValidator bypass via generic type parameters that allows arbitrary class instantiation
+    Title: jackson-databind contains the general-purpose data-binding functionali ...
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.10.0 until 2.18.8, 2.21.4, and 3.1.4, jackson-databind's PolymorphicTypeValidator (PTV) is the primary safety mechanism guarding polymorphic deserialization. When polymorphic typing is enabled and a type identifier contains generic parameters (i.e. the type ID string contains <), DatabindContext._resolveAndValidateGeneric() validates only the raw container class name (the substring before <) against the configured PTV. If the container type is approved, the method parses the full canonical type string via TypeFactory.constructFromCanonical() and returns the fully parameterized type without ever validating the nested type arguments against the PTV. The nested type arguments are then resolved, instantiated, and populated as beans during deserialization. An attacker who controls the type ID can therefore place a denied class as a generic type parameter of an allowed container — for example java.util.ArrayList<com.evil.Gadget> when only java.util.ArrayList is allow-listed. The container passes the PTV check; com.evil.Gadget is loaded via Class.forName(name, true, loader), instantiated, and its properties are set from attacker-controlled JSON. This completely bypasses an explicitly configured PTV allow-list. This vulnerability is fixed in 2.18.8, 2.21.4, and 3.1.4.
     Severity: HIGH
     CweIDs:
@@ -15467,7 +16040,7 @@
     - https://github.com/FasterXML/jackson-databind/issues/5988
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-j3rv-43j4-c7qm
     PublishedDate: '2026-06-23T21:17:02.203Z'
-    LastModifiedDate: '2026-06-23T21:17:02.203Z'
+    LastModifiedDate: '2026-06-24T16:16:32.5Z'
   - VulnerabilityID: CVE-2026-54513
     VendorIDs:
     - GHSA-rmj7-2vxq-3g9f
@@ -15489,18 +16062,23 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:1d99003985219fec275c4acaada8a25500b08046b556616beee1082a382779ba
-    Title: jackson-databind has an array subtype allowlist bypass in BasicPolymorphicTypeValidator (allowIfSubTypeIsArray)
+    Title: 'jackson-databind: Jackson-databind: Security bypass allows arbitrary code execution'
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.10.0 until 2.18.8, 2.21.4, and 3.1.4, BasicPolymorphicTypeValidator.Builder.allowIfSubTypeIsArray() allowlists any array type based only on clazz.isArray(), without validating the array's component (element) type against the configured allowlist. A PTV built with allowIfSubTypeIsArray() plus an explicit concrete-type allowlist therefore still permits EvilType[] even though EvilType is not allowlisted. When Jackson deserializes the elements and no per-element type IDs are present, it instantiates the component type directly with no further PTV check, bypassing the allowlist. This vulnerability is fixed in 2.18.8, 2.21.4, and 3.1.4.
     Severity: HIGH
     CweIDs:
     - CWE-184
     VendorSeverity:
       ghsa: 3
+      redhat: 3
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-54513
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/01d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5
     - https://github.com/FasterXML/jackson-databind/commit/24529da29fdf46ff94ca38de9ebf31cd188f5e8e
@@ -15508,8 +16086,10 @@
     - https://github.com/FasterXML/jackson-databind/issues/5983
     - https://github.com/FasterXML/jackson-databind/pull/5984
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-rmj7-2vxq-3g9f
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54513
+    - https://www.cve.org/CVERecord?id=CVE-2026-54513
     PublishedDate: '2026-06-23T21:17:02.333Z'
-    LastModifiedDate: '2026-06-23T21:17:02.333Z'
+    LastModifiedDate: '2026-06-24T16:16:32.6Z'
   - VulnerabilityID: CVE-2026-54514
     VendorIDs:
     - GHSA-hgj6-7826-r7m5
@@ -15531,7 +16111,7 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:7575e5933edaebb774cbbbcdfd2a2bb317b801cf971e2f2b2615f717aafd28aa
-    Title: 'jackson-databind: InetSocketAddress deserialization triggers eager DNS resolution (SSRF)'
+    Title: jackson-databind contains the general-purpose data-binding functionali ...
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.0.0 until 2.18.8, 2.21.4, and 3.1.4, JDKFromStringDeserializer constructed InetSocketAddress with new InetSocketAddress(host, port), which performs eager DNS name resolution for hostname inputs at deserialization time. An application that binds untrusted JSON into a type containing an InetSocketAddress field issues an attacker-chosen DNS query during readValue, before any application-level validation or connect logic. The fix uses InetSocketAddress.createUnresolved(host, port), deferring DNS to an explicit connect. This vulnerability is fixed in 2.18.8, 2.21.4, and 3.1.4.
     Severity: MEDIUM
     CweIDs:
@@ -15570,7 +16150,7 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:2fa976ca0049888c866bc2f1e2963129a2527c58e27364f07e03d4beb3a3bb4f
-    Title: jackson-databind has case-insensitive deserialization bypasses per-property @JsonIgnoreProperties
+    Title: jackson-databind contains the general-purpose data-binding functionali ...
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.8.0 until 2.18.9, 2.21.5, and 3.1.4, in BeanDeserializerBase.createContextual(), per-property @JsonIgnoreProperties exclusions are applied by _handleByNameInclusion(), producing a contextual deserializer whose BeanPropertyMap has the ignored properties removed. The subsequent per-property case-insensitivity block (triggered by @JsonFormat(ACCEPT_CASE_INSENSITIVE_PROPERTIES)) rebuilds from this._beanProperties (the original, unfiltered map) instead of contextual._beanProperties, then overwrites the filtered map — restoring every property _handleByNameInclusion had just removed. The ignored property becomes writable again. This vulnerability is fixed in 2.18.9, 2.21.5, and 3.1.4.
     Severity: MEDIUM
     CweIDs:
@@ -15588,7 +16168,7 @@
     - https://github.com/FasterXML/jackson-databind/issues/5964
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-5jmj-h7xm-6q6v
     PublishedDate: '2026-06-23T21:17:02.597Z'
-    LastModifiedDate: '2026-06-23T21:17:02.597Z'
+    LastModifiedDate: '2026-06-24T13:16:32.653Z'
   - VulnerabilityID: CVE-2026-54516
     VendorIDs:
     - GHSA-9fxm-vc8v-hj55
@@ -15610,7 +16190,7 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:e80e63fa41717217db187a2084ad719f77b0e3cc6888f023157158b31438ade5
-    Title: jackson-databind's renamed @JsonIgnore'd setters can deserialize via private fields
+    Title: jackson-databind contains the general-purpose data-binding functionali ...
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.21.0 until 2.21.4 and 3.1.4, POJOPropertiesCollector._renameProperties() allows a property with @JsonProperty("renamed") on the getter and @JsonIgnore on the setter to be renamed rather than dropped. With MapperFeature.INFER_PROPERTY_MUTATORS enabled (default), the private backing field is retained; during deserialization BeanDeserializerFactory.addBeanProps() sees hasField()==true, builds a FieldProperty, and makes the backing field writable. An attacker supplying the renamed JSON key writes the backing field directly, bypassing the @JsonIgnore on the setter. This vulnerability is fixed in 3.1.4.
     Severity: MEDIUM
     CweIDs:
@@ -15629,7 +16209,7 @@
     - https://github.com/FasterXML/jackson-databind/pull/5968
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-9fxm-vc8v-hj55
     PublishedDate: '2026-06-23T21:17:02.723Z'
-    LastModifiedDate: '2026-06-23T21:17:02.723Z'
+    LastModifiedDate: '2026-06-24T14:17:33.547Z'
   - VulnerabilityID: CVE-2026-54517
     VendorIDs:
     - GHSA-5hh8-q8hv-fr38
@@ -15651,7 +16231,7 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:987eda284ac71f7da3d5694cf304a15face9d9813241d4fc3f9e300709d3d70e
-    Title: jackson-databind has @JsonView bypass for setterless creator properties
+    Title: jackson-databind contains the general-purpose data-binding functionali ...
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.21.0 until 2.21.4 and 3.1.4, in BeanDeserializer._deserializeUsingPropertyBased, the active-view (@JsonView) filter was applied only to creator properties; the regular property-buffering branch performed no prop.visibleInView(activeView) check. A change making SetterlessProperty.isMerging() return true routed setterless Collection/Map properties through this unguarded path, so a setterless collection annotated with a restricted @JsonView is populated from attacker JSON even when the active view excludes it. This vulnerability is fixed in 2.21.4 and 3.1.4.
     Severity: MEDIUM
     CweIDs:
@@ -15670,7 +16250,7 @@
     - https://github.com/FasterXML/jackson-databind/pull/5970
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-5hh8-q8hv-fr38
     PublishedDate: '2026-06-23T21:17:02.853Z'
-    LastModifiedDate: '2026-06-23T21:17:02.853Z'
+    LastModifiedDate: '2026-06-24T20:16:33Z'
   - VulnerabilityID: CVE-2026-54518
     VendorIDs:
     - GHSA-rcqc-6cw3-h962
@@ -15692,7 +16272,7 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:77bedb2d801a8212f54532c70068619646147972d678477ae276acbf2438c9ca
-    Title: jackson-databind has a @JsonView bypass for unwrapped creator parameters
+    Title: jackson-databind contains the general-purpose data-binding functionali ...
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.21.0 until 2.21.4 and 3.1.4, UnwrappedPropertyHandler.processUnwrappedCreatorProperties() replays buffered JSON into creator parameters but never consults prop.visibleInView(activeView). The normal property-based creator path gates creator properties on the active view, but this unwrapped-creator replay path bypasses that check, so a constructor parameter annotated with both @JsonView(AdminView.class) and @JsonUnwrapped is populated from attacker JSON even when a more restrictive view is active. This vulnerability is fixed in 2.21.4 and 3.1.4.
     Severity: MEDIUM
     CweIDs:
@@ -15711,7 +16291,7 @@
     - https://github.com/FasterXML/jackson-databind/pull/5973
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-rcqc-6cw3-h962
     PublishedDate: '2026-06-23T22:16:32.073Z'
-    LastModifiedDate: '2026-06-23T22:16:32.073Z'
+    LastModifiedDate: '2026-06-24T17:17:29.163Z'
 - Target: Python
   Class: lang-pkgs
   Type: python-pkg
@@ -16401,7 +16981,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:ece429ae987f3b7201f7951e8e22391d5260366a98141ea68dbffd32876cfb44
-    Title: When processing HTTP/2 SETTINGS frames, transport will enter an infini ...
+    Title: 'net/http/internal/http2: golang: golang.org/x/net: Go HTTP/2: Denial of Service via malformed SETTINGS_MAX_FRAME_SIZE frame'
     Description: When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.
     Severity: HIGH
     CweIDs:
@@ -16413,6 +16993,7 @@
       nvd: 3
       oracle-oval: 3
       photon: 3
+      redhat: 3
       ubuntu: 2
     CVSS:
       bitnami:
@@ -16421,7 +17002,11 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-33814
     - https://github.com/golang/go/issues/78476
     - https://go-review.googlesource.com/c/go/+/761581
     - https://go-review.googlesource.com/c/net/+/761640
@@ -16430,7 +17015,7 @@
     - https://go.dev/issue/78476
     - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
     - https://linux.oracle.com/cve/CVE-2026-33814.html
-    - https://linux.oracle.com/errata/ELSA-2026-22112.html
+    - https://linux.oracle.com/errata/ELSA-2026-22121.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33814
     - https://pkg.go.dev/vuln/GO-2026-4918
     - https://ubuntu.com/security/notices/USN-8430-1
@@ -16780,7 +17365,7 @@
     - https://go.dev/issue/78803
     - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
     - https://linux.oracle.com/cve/CVE-2026-33811.html
-    - https://linux.oracle.com/errata/ELSA-2026-22112.html
+    - https://linux.oracle.com/errata/ELSA-2026-22121.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33811
     - https://pkg.go.dev/vuln/GO-2026-4981
     - https://www.cve.org/CVERecord?id=CVE-2026-33811
@@ -16807,7 +17392,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:fc3e880f5e49ace332384cf341cbed9a87a72ec47a8493097e2228bba0724a7c
-    Title: When processing HTTP/2 SETTINGS frames, transport will enter an infini ...
+    Title: 'net/http/internal/http2: golang: golang.org/x/net: Go HTTP/2: Denial of Service via malformed SETTINGS_MAX_FRAME_SIZE frame'
     Description: When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.
     Severity: HIGH
     CweIDs:
@@ -16819,6 +17404,7 @@
       nvd: 3
       oracle-oval: 3
       photon: 3
+      redhat: 3
       ubuntu: 2
     CVSS:
       bitnami:
@@ -16827,7 +17413,11 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-33814
     - https://github.com/golang/go/issues/78476
     - https://go-review.googlesource.com/c/go/+/761581
     - https://go-review.googlesource.com/c/net/+/761640
@@ -16836,7 +17426,7 @@
     - https://go.dev/issue/78476
     - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
     - https://linux.oracle.com/cve/CVE-2026-33814.html
-    - https://linux.oracle.com/errata/ELSA-2026-22112.html
+    - https://linux.oracle.com/errata/ELSA-2026-22121.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33814
     - https://pkg.go.dev/vuln/GO-2026-4918
     - https://ubuntu.com/security/notices/USN-8430-1
@@ -16887,7 +17477,7 @@
     - https://go.dev/issue/78566
     - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
     - https://linux.oracle.com/cve/CVE-2026-39820.html
-    - https://linux.oracle.com/errata/ELSA-2026-22112.html
+    - https://linux.oracle.com/errata/ELSA-2026-22121.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39820
     - https://pkg.go.dev/vuln/GO-2026-4986
     PublishedDate: '2026-05-07T20:16:43.187Z'
@@ -16931,53 +17521,11 @@
     - https://go.dev/issue/78913
     - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
     - https://linux.oracle.com/cve/CVE-2026-39823.html
-    - https://linux.oracle.com/errata/ELSA-2026-22112.html
+    - https://linux.oracle.com/errata/ELSA-2026-22121.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39823
     - https://pkg.go.dev/vuln/GO-2026-4982
     PublishedDate: '2026-05-07T20:16:43.29Z'
     LastModifiedDate: '2026-06-17T10:42:38.473Z'
-  - VulnerabilityID: CVE-2026-39825
-    VendorIDs:
-    - GO-2026-4976
-    PkgID: stdlib@v1.26.2
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.26.2
-      UID: e5871284774cde90
-    InstalledVersion: v1.26.2
-    FixedVersion: 1.25.10, 1.26.3
-    Status: fixed
-    Layer:
-      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
-      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39825
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Fingerprint: sha256:b93e79f88bbba84af1a0552afce3fb41334d455829ce00a8fbdcb48fd29d37ab
-    Title: ReverseProxy can forward queries containing parameters not visible to  ...
-    Description: ReverseProxy can forward queries containing parameters not visible to Rewrite functions. When used with a Rewrite function, or a Director function which parses query parameters, ReverseProxy sanitizes the forwarded request to remove query parameters which are not parsed by url.ParseQuery. ReverseProxy does not take ParseQuery's limit on the total number of query parameters (controlled by GODEBUG=urlmaxqueryparams=N) into account. This can permit ReverseProxy to forward a request containing a query parameter that is not visible to the Rewrite function. For example, the query "a1=x&a2=x&...&a10000=x&hidden=y" can forward the parameter "hidden=y" while hiding it from the proxy's Rewrite function.
-    Severity: HIGH
-    VendorSeverity:
-      amazon: 3
-      bitnami: 2
-      oracle-oval: 3
-      photon: 2
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-    References:
-    - https://go.dev/cl/770541
-    - https://go.dev/issue/78948
-    - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
-    - https://linux.oracle.com/cve/CVE-2026-39825.html
-    - https://linux.oracle.com/errata/ELSA-2026-22112.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-39825
-    - https://pkg.go.dev/vuln/GO-2026-4976
-    PublishedDate: '2026-05-07T20:16:43.39Z'
-    LastModifiedDate: '2026-06-17T10:42:38.77Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -16999,7 +17547,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:329e150f96a7b35ff3fdc3b8a4477ac5340dcce664e509780ef0af048b624d2c
-    Title: 'ELSA-2026-22112:  go-toolset:ol8 security update (IMPORTANT)'
+    Title: 'ELSA-2026-22121:  golang security update (IMPORTANT)'
     Description: The Dial and LookupPort functions panic on Windows when provided with an input containing a NUL (0).
     Severity: HIGH
     CweIDs:
@@ -17021,7 +17569,7 @@
     - https://go.dev/issue/79006
     - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
     - https://linux.oracle.com/cve/CVE-2026-39836.html
-    - https://linux.oracle.com/errata/ELSA-2026-22112.html
+    - https://linux.oracle.com/errata/ELSA-2026-22121.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39836
     - https://pkg.go.dev/vuln/GO-2026-4971
     PublishedDate: '2026-05-07T20:16:43.593Z'
@@ -17063,7 +17611,7 @@
     - https://go.dev/issue/78987
     - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
     - https://linux.oracle.com/cve/CVE-2026-42499.html
-    - https://linux.oracle.com/errata/ELSA-2026-22112.html
+    - https://linux.oracle.com/errata/ELSA-2026-22121.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42499
     - https://pkg.go.dev/vuln/GO-2026-4977
     PublishedDate: '2026-05-07T20:16:44.54Z'
@@ -17108,6 +17656,54 @@
     - https://pkg.go.dev/vuln/GO-2026-5038
     PublishedDate: '2026-06-02T23:16:37.927Z'
     LastModifiedDate: '2026-06-17T10:47:56.86Z'
+  - VulnerabilityID: CVE-2026-39825
+    VendorIDs:
+    - GO-2026-4976
+    PkgID: stdlib@v1.26.2
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.2
+      UID: e5871284774cde90
+    InstalledVersion: v1.26.2
+    FixedVersion: 1.25.10, 1.26.3
+    Status: fixed
+    Layer:
+      Digest: sha256:d9c0af783c646027b1d4eb9304a3f4f2d65904a930a90a85ec9fa699d991513e
+      DiffID: sha256:345104dd73ccecaa4252ed171af79b49ed191ec10a18227e62f637507d93dd71
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39825
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:b93e79f88bbba84af1a0552afce3fb41334d455829ce00a8fbdcb48fd29d37ab
+    Title: 'net/http/httputil: golang: net/http/httputil: ReverseProxy forwards hidden query parameters, potentially bypassing security controls'
+    Description: ReverseProxy can forward queries containing parameters not visible to Rewrite functions. When used with a Rewrite function, or a Director function which parses query parameters, ReverseProxy sanitizes the forwarded request to remove query parameters which are not parsed by url.ParseQuery. ReverseProxy does not take ParseQuery's limit on the total number of query parameters (controlled by GODEBUG=urlmaxqueryparams=N) into account. This can permit ReverseProxy to forward a request containing a query parameter that is not visible to the Rewrite function. For example, the query "a1=x&a2=x&...&a10000=x&hidden=y" can forward the parameter "hidden=y" while hiding it from the proxy's Rewrite function.
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 3
+      bitnami: 2
+      oracle-oval: 3
+      photon: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-39825
+    - https://go.dev/cl/770541
+    - https://go.dev/issue/78948
+    - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
+    - https://linux.oracle.com/cve/CVE-2026-39825.html
+    - https://linux.oracle.com/errata/ELSA-2026-22121.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-39825
+    - https://pkg.go.dev/vuln/GO-2026-4976
+    - https://www.cve.org/CVERecord?id=CVE-2026-39825
+    PublishedDate: '2026-05-07T20:16:43.39Z'
+    LastModifiedDate: '2026-06-17T10:42:38.77Z'
   - VulnerabilityID: CVE-2026-39826
     VendorIDs:
     - GO-2026-4980
@@ -17152,7 +17748,7 @@
     - https://go.dev/issue/78981
     - https://groups.google.com/g/golang-announce/c/qcCIEXso47M
     - https://linux.oracle.com/cve/CVE-2026-39826.html
-    - https://linux.oracle.com/errata/ELSA-2026-22112.html
+    - https://linux.oracle.com/errata/ELSA-2026-22121.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
     - https://pkg.go.dev/vuln/GO-2026-4980
     - https://www.cve.org/CVERecord?id=CVE-2026-39826
