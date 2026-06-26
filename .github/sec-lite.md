@@ -369,6 +369,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-1325 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
 │                       │      │                  ├ amazon: 3 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ├ rocky : 3 
@@ -676,7 +677,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-325 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
 │                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ azure : 2 
+│                       │      │                  ├ azure : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ├ rocky : 3 
@@ -1433,6 +1434,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-514 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
 │                       │      │                  ├ amazon: 3 
+│                       │      │                  ├ azure : 1 
 │                       │      │                  ├ photon: 1 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -1915,6 +1917,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-325 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
 │                       │      │                  ├ amazon: 3 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -2835,6 +2838,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-1325 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
 │                       │      │                  ├ amazon: 3 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ├ rocky : 3 
@@ -3142,7 +3146,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-325 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
 │                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ azure : 2 
+│                       │      │                  ├ azure : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ├ rocky : 3 
@@ -3899,6 +3903,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-514 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
 │                       │      │                  ├ amazon: 3 
+│                       │      │                  ├ azure : 1 
 │                       │      │                  ├ photon: 1 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -4381,6 +4386,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-325 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
 │                       │      │                  ├ amazon: 3 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -5208,6 +5214,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-1325 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
 │                       │      │                  ├ amazon: 3 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ├ rocky : 3 
@@ -5515,7 +5522,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-325 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
 │                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ azure : 2 
+│                       │      │                  ├ azure : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ├ rocky : 3 
@@ -6272,6 +6279,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-514 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
 │                       │      │                  ├ amazon: 3 
+│                       │      │                  ├ azure : 1 
 │                       │      │                  ├ photon: 1 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -6754,6 +6762,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-325 
 │                       │      ├ VendorSeverity   ╭ alma  : 3 
 │                       │      │                  ├ amazon: 3 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ├ rocky : 3 
@@ -7257,7 +7266,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-20 
 │                       │      │                  ╰ [1]: CWE-116 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
@@ -7368,7 +7377,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-674 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
@@ -7598,7 +7607,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-20 
 │                       │      │                  ╰ [1]: CWE-116 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
@@ -7709,7 +7718,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-674 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
@@ -7939,7 +7948,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-20 
 │                       │      │                  ╰ [1]: CWE-116 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
@@ -8050,7 +8059,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-674 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
@@ -8280,7 +8289,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-20 
 │                       │      │                  ╰ [1]: CWE-116 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
@@ -8391,7 +8400,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-674 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
@@ -8589,7 +8598,77 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │      ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:30:44.59Z 
-│                       ├ [62] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [62] ╭ VulnerabilityID : CVE-2026-56123 
+│                       │      ├ PkgID           : socat@1.8.1.1-r0 
+│                       │      ├ PkgName         : socat 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/socat@1.8.1.1-r0?arch=x86_64&distro=3.
+│                       │      │                  │       24.0_alpha20260127 
+│                       │      │                  ╰ UID : 53c5967e23446e63 
+│                       │      ├ InstalledVersion: 1.8.1.1-r0 
+│                       │      ├ FixedVersion    : 1.8.1.2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56123 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:237f6d9c033ab6049168e86b30dc22c7364da8e91d4f18d38ec40
+│                       │      │                   32577e80782 
+│                       │      ├ Description     : socat versions 1.8.0.0 through 1.8.1.1 contain a heap-based
+│                       │      │                   buffer overflow vulnerability that allows a malicious SOCKS5
+│                       │      │                    proxy server to overwrite adjacent heap memory by
+│                       │      │                   exploiting a sign-extension flaw in the DOMAINNAME reply
+│                       │      │                   parser. During connection setup, the domain name length byte
+│                       │      │                    is read through a signed char field causing a negative
+│                       │      │                   bytes_to_read value that is implicitly converted to size_t,
+│                       │      │                   resulting in an unbounded heap write into the 262-byte reply
+│                       │      │                    buffer with attacker-controlled size and content. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-122 
+│                       │      ├ References       ╭ [0]: http://www.dest-unreach.org/socat/CHANGES 
+│                       │      │                  ╰ [1]: https://www.vulncheck.com/advisories/socat-heap-buffer
+│                       │      │                         -overflow-via-socks5-reply-parser 
+│                       │      ├ PublishedDate   : 2026-06-25T17:17:01.967Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T19:25:23.37Z 
+│                       ├ [63] ╭ VulnerabilityID : CVE-2026-56123 
+│                       │      ├ PkgID           : socat-doc@1.8.1.1-r0 
+│                       │      ├ PkgName         : socat-doc 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/socat-doc@1.8.1.1-r0?arch=x86_64&distr
+│                       │      │                  │       o=3.24.0_alpha20260127 
+│                       │      │                  ╰ UID : 8d71de83b939779 
+│                       │      ├ InstalledVersion: 1.8.1.1-r0 
+│                       │      ├ FixedVersion    : 1.8.1.2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56123 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:a776f7c5a6a7739bca3353176ca2daf15c9a28dcf9ad08ac51bf1
+│                       │      │                   314ede32f5a 
+│                       │      ├ Description     : socat versions 1.8.0.0 through 1.8.1.1 contain a heap-based
+│                       │      │                   buffer overflow vulnerability that allows a malicious SOCKS5
+│                       │      │                    proxy server to overwrite adjacent heap memory by
+│                       │      │                   exploiting a sign-extension flaw in the DOMAINNAME reply
+│                       │      │                   parser. During connection setup, the domain name length byte
+│                       │      │                    is read through a signed char field causing a negative
+│                       │      │                   bytes_to_read value that is implicitly converted to size_t,
+│                       │      │                   resulting in an unbounded heap write into the 262-byte reply
+│                       │      │                    buffer with attacker-controlled size and content. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-122 
+│                       │      ├ References       ╭ [0]: http://www.dest-unreach.org/socat/CHANGES 
+│                       │      │                  ╰ [1]: https://www.vulncheck.com/advisories/socat-heap-buffer
+│                       │      │                         -overflow-via-socks5-reply-parser 
+│                       │      ├ PublishedDate   : 2026-06-25T17:17:01.967Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T19:25:23.37Z 
+│                       ├ [64] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │      ├ PkgID           : vim@9.2.0481-r0 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -8642,7 +8721,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:57:53.5Z 
-│                       ├ [63] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [65] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │      ├ PkgID           : vim@9.2.0481-r0 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -8703,7 +8782,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:57:53.623Z 
-│                       ├ [64] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ├ [66] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │      ├ PkgID           : vim@9.2.0481-r0 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -8764,7 +8843,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:57:53.733Z 
-│                       ├ [65] ╭ VulnerabilityID : CVE-2026-55892 
+│                       ├ [67] ╭ VulnerabilityID : CVE-2026-55892 
 │                       │      ├ PkgID           : vim@9.2.0481-r0 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -8777,13 +8856,36 @@
 │                       │      │                  │         9a8305ba35c82bf9229f 
 │                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
 │                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-55892 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:17e109737cf30cb67f6199985b56d0b1a9a909eca972c1e4cb173
 │                       │      │                   7b3a71a9b60 
-│                       │      ╰ Severity        : UNKNOWN 
-│                       ├ [66] ╭ VulnerabilityID : CVE-2026-55895 
+│                       │      ├ Title           : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0662, th ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0662, the dump_prefixes() function in src/spell.c walks
+│                       │      │                   a spell-file prefix trie iteratively with a depth counter
+│                       │      │                   while dumping the prefixes that apply to a word. The counter
+│                       │      │                    is bounded only by the trie structure itself; it is never
+│                       │      │                   checked against the size of the fixed MAXWLEN-element stack
+│                       │      │                   arrays it indexes (prefix[], arridx[], curi[]). A crafted
+│                       │      │                   .spl file, loaded when the user dumps the word list, can
+│                       │      │                   drive the descent arbitrarily deep, so the function writes
+│                       │      │                   past the end of those arrays. This is a stack out-of-bounds
+│                       │      │                   write that corrupts the call frame and crashes the editor.
+│                       │      │                   This vulnerability is fixed in 9.2.0662. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-787 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/8325b193bba5f01e7a7d
+│                       │      │                  │      8241f 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0662 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-qm
+│                       │      │                         9w-fmpj-879h 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:40.69Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T16:27:02.61Z 
+│                       ├ [68] ╭ VulnerabilityID : CVE-2026-55895 
 │                       │      ├ PkgID           : vim@9.2.0481-r0 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -8796,13 +8898,282 @@
 │                       │      │                  │         9a8305ba35c82bf9229f 
 │                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
 │                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-55895 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:2ec948b1397b01534383ae365f126a259df9392e48bd27fe075da
 │                       │      │                   7379cd35e58 
-│                       │      ╰ Severity        : UNKNOWN 
-│                       ├ [67] ╭ VulnerabilityID : CVE-2026-52858 
+│                       │      ├ Title           : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0663, a  ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0663, a Vimscript code injection vulnerability exists in
+│                       │      │                    s:NetrwLocalRmFile() in the netrw plugin
+│                       │      │                   (runtime/pack/dist/opt/netrw/autoload/netrw.vim) when
+│                       │      │                   deleting a local file from the browser. A filename derived
+│                       │      │                   from the buffer's directory listing is interpolated into an
+│                       │      │                   Ex command line passed to :execute with only the backslash
+│                       │      │                   character escaped, allowing a crafted filename containing a
+│                       │      │                   bar (|) to terminate the intended command and execute
+│                       │      │                   arbitrary Vimscript, including shell commands via :call
+│                       │      │                   system() and :!.  This vulnerability is fixed in 9.2.0663.[
+│                       │      │                   m 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ╭ [0]: CWE-78 
+│                       │      │                  ╰ [1]: CWE-94 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/55bc757a5d436e59d50f
+│                       │      │                  │      e43f7cda94b118f86cb2 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0663 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-vh
+│                       │      │                         h8-v6wx-hjjh 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:41.077Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T16:27:02.61Z 
+│                       ├ [69] ╭ VulnerabilityID : CVE-2026-57451 
+│                       │      ├ PkgID           : vim@9.2.0481-r0 
+│                       │      ├ PkgName         : vim 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       4.0_alpha20260127 
+│                       │      │                  ╰ UID : c50fb887bd647561 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0677-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-57451 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:47850cd42de4334ed2c2e2b10ba314ff35b5a92ee81e0af756c67
+│                       │      │                   44caa3d8a39 
+│                       │      ├ Title           : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0670, ge ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0670, get_text_props() in src/textprop.c reads a uint16
+│                       │      │                   property count stored inline after a line's text and returns
+│                       │      │                    it as the number of 32-byte textprop_T entries that follow.
+│                       │      │                    The only check is a floor that guarantees room for a single
+│                       │      │                    entry; the count is never checked against the amount of
+│                       │      │                   data actually present. A line that declares a large count
+│                       │      │                   while carrying little data causes consumers to read far past
+│                       │      │                    the end of the line buffer. Such a line can be delivered
+│                       │      │                   through a crafted undo file, leading to a crash. This
+│                       │      │                   vulnerability is fixed in 9.2.0670. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/b2338ca90643e2f01ecb
+│                       │      │                  │      6547c1172716aaec4f79 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0670 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-f3
+│                       │      │                         6c-2qcp-7gpw 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:42.263Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T17:17:02.493Z 
+│                       ├ [70] ╭ VulnerabilityID : CVE-2026-57452 
+│                       │      ├ PkgID           : vim@9.2.0481-r0 
+│                       │      ├ PkgName         : vim 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       4.0_alpha20260127 
+│                       │      │                  ╰ UID : c50fb887bd647561 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0677-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-57452 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:669378f6d868a1a968a6a4982a6f23fb2dad78d058031a5891724
+│                       │      │                   fcad8e3c1bb 
+│                       │      ├ Title           : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0671, wh ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0671, when Vim opens a file encrypted with the
+│                       │      │                   VimCrypt~04! or VimCrypt~05!
+│                       │      │                   method (xchacha20poly1305, requires the +sodium feature)
+│                       │      │                   whose body is shorter than a single libsodium secretstream
+│                       │      │                   header, an unsigned length calculation underflows and a
+│                       │      │                   subsequent decryption call reads far past the end of the
+│                       │      │                   input buffer, crashing Vim. This vulnerability is fixed in
+│                       │      │                   9.2.0671. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ╭ [0]: CWE-125 
+│                       │      │                  ╰ [1]: CWE-191 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/c8777cec25dcfae89c42
+│                       │      │                  │      e9aff51af61f71c5745f 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0671 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-c4
+│                       │      │                         j9-wr9j-4486 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:42.397Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T17:17:02.607Z 
+│                       ├ [71] ╭ VulnerabilityID : CVE-2026-57453 
+│                       │      ├ PkgID           : vim@9.2.0481-r0 
+│                       │      ├ PkgName         : vim 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       4.0_alpha20260127 
+│                       │      │                  ╰ UID : c50fb887bd647561 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0680-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-57453 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:a653d01321a4e702878772c07287aa12fe2c27b909af577c5ccb3
+│                       │      │                   80484092285 
+│                       │      ├ Title           : Vim is an open source, command line text editor. From
+│                       │      │                   9.1.1784 until 9 ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. From
+│                       │      │                   9.1.1784 until 9.2.0678, when the bundled zip plugin
+│                       │      │                   autoload/zip.vim falls back to PowerShell to browse, read,
+│                       │      │                   extract, update or delete entries in a zip archive, it
+│                       │      │                   builds the PowerShell command by inserting archive entry
+│                       │      │                   names that are quoted only for the shell, not for
+│                       │      │                   PowerShell. A crafted entry name can break out of the
+│                       │      │                   intended string context and cause PowerShell to execute
+│                       │      │                   arbitrary commands with the privileges of the user running
+│                       │      │                   Vim, triggered by opening, viewing or extracting the
+│                       │      │                   archive. This vulnerability is fixed in 9.2.0678. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-77 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/b2cc9be119d51212bf0d
+│                       │      │                  │      3f2a99 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0678 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-x5
+│                       │      │                         fg-h5w9-9frf 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:42.52Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T16:27:02.61Z 
+│                       ├ [72] ╭ VulnerabilityID : CVE-2026-57454 
+│                       │      ├ PkgID           : vim@9.2.0481-r0 
+│                       │      ├ PkgName         : vim 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       4.0_alpha20260127 
+│                       │      │                  ╰ UID : c50fb887bd647561 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0680-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-57454 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:19cf5078268bbe87c197128c649c4ee9badf0eb47bb9f77f8f3b4
+│                       │      │                   90e0645fb7b 
+│                       │      ├ Title           : Vim is an open source, command line text editor. From
+│                       │      │                   9.2.0320 until 9 ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. From
+│                       │      │                   9.2.0320 until 9.2.0679, a crafted undo or swap file can
+│                       │      │                   store a virtual-text property whose offset and length point
+│                       │      │                   outside the line's property data. When Vim restores or
+│                       │      │                   displays such a line it converts the offset into a pointer
+│                       │      │                   and reads the virtual text without bounds checking, causing
+│                       │      │                   an out-of-bounds read that can crash Vim or disclose
+│                       │      │                   adjacent heap memory. This vulnerability is fixed in
+│                       │      │                   9.2.0679. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/b3faeecc976d3031d7c0
+│                       │      │                  │      675623516ec60c30f949 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0679 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-ww
+│                       │      │                         8h-47xp-hp4w 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:42.647Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T16:27:02.61Z 
+│                       ├ [73] ╭ VulnerabilityID : CVE-2026-57455 
+│                       │      ├ PkgID           : vim@9.2.0481-r0 
+│                       │      ├ PkgName         : vim 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       4.0_alpha20260127 
+│                       │      │                  ╰ UID : c50fb887bd647561 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0699-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-57455 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:0a0d2b1134e12635d71551b20c040bc4888af596983042c98d9bc
+│                       │      │                   4d00bee6922 
+│                       │      ├ Title           : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0698, th ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0698, the single-byte branch of spell_soundfold_sofo()
+│                       │      │                   in src/spell.c translates a word through a spell file's SOFO
+│                       │      │                    (sound-folding) byte map into a caller-owned result buffer.
+│                       │      │                    Its copy loop advances the output index ri with no upper
+│                       │      │                   bound and terminates only on the input NUL, writing one byte
+│                       │      │                    per input byte into the MAXWLEN-element stack buffer the
+│                       │      │                   caller provides. A word longer than MAXWLEN, passed to
+│                       │      │                   soundfold() (or reached via sound-based spell suggestion)
+│                       │      │                   while a SOFO-based spell language is active, therefore
+│                       │      │                   writes past the end of that buffer. This is a stack
+│                       │      │                   out-of-bounds write that corrupts the call frame and crashes
+│                       │      │                    the editor. This vulnerability is fixed in 9.2.0698. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-787 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/497f931f85339d175d7f
+│                       │      │                  │      69588dd249e8ccfed41b 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0698 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-q8
+│                       │      │                         mh-6qm3-25g4 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:42.773Z 
+│                       │      ╰ LastModifiedDate: 2026-06-26T00:16:54.907Z 
+│                       ├ [74] ╭ VulnerabilityID : CVE-2026-57456 
+│                       │      ├ PkgID           : vim@9.2.0481-r0 
+│                       │      ├ PkgName         : vim 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       4.0_alpha20260127 
+│                       │      │                  ╰ UID : c50fb887bd647561 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0699-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-57456 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:1f6e08be858a4b7384cfef444f547fe8e90d97d5136081fc776ce
+│                       │      │                   3f2e6b0b7e7 
+│                       │      ├ Title           : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0699, Vi ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0699, Vim's Python omni-completion
+│                       │      │                   (runtime/autoload/python3complete.vim and the legacy
+│                       │      │                   pythoncomplete.vim) executes reconstructed function and
+│                       │      │                   class definitions from the current buffer with exec() as
+│                       │      │                   part of populating the completion dictionary. When
+│                       │      │                   reconstructing that source, each scope's docstring is
+│                       │      │                   inserted verbatim between triple quotes with no escaping, so
+│                       │      │                    a hostile buffer can break out of the triple-quoted literal
+│                       │      │                    and execute attacker-controlled Python during
+│                       │      │                   omni-completion. This vulnerability is fixed in 9.2.0699. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-94 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/cce141c42740f122dd84
+│                       │      │                  │      86ae04e21c2a81016ba8 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0699 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-pp
+│                       │      │                         j8-wqjf-6fp3 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:42.9Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T19:16:45.803Z 
+│                       ├ [75] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │      ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
@@ -8855,7 +9226,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:57:53.5Z 
-│                       ├ [68] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [76] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │      ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
@@ -8916,7 +9287,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:57:53.623Z 
-│                       ├ [69] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ├ [77] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │      ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
@@ -8977,7 +9348,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:57:53.733Z 
-│                       ├ [70] ╭ VulnerabilityID : CVE-2026-55892 
+│                       ├ [78] ╭ VulnerabilityID : CVE-2026-55892 
 │                       │      ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
@@ -8990,13 +9361,36 @@
 │                       │      │                  │         9a8305ba35c82bf9229f 
 │                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
 │                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-55892 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:78e149afc1530667b2b44af1bad32b68cefa8a13e45bc495536c2
 │                       │      │                   97da2b36ab0 
-│                       │      ╰ Severity        : UNKNOWN 
-│                       ├ [71] ╭ VulnerabilityID : CVE-2026-55895 
+│                       │      ├ Title           : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0662, th ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0662, the dump_prefixes() function in src/spell.c walks
+│                       │      │                   a spell-file prefix trie iteratively with a depth counter
+│                       │      │                   while dumping the prefixes that apply to a word. The counter
+│                       │      │                    is bounded only by the trie structure itself; it is never
+│                       │      │                   checked against the size of the fixed MAXWLEN-element stack
+│                       │      │                   arrays it indexes (prefix[], arridx[], curi[]). A crafted
+│                       │      │                   .spl file, loaded when the user dumps the word list, can
+│                       │      │                   drive the descent arbitrarily deep, so the function writes
+│                       │      │                   past the end of those arrays. This is a stack out-of-bounds
+│                       │      │                   write that corrupts the call frame and crashes the editor.
+│                       │      │                   This vulnerability is fixed in 9.2.0662. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-787 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/8325b193bba5f01e7a7d
+│                       │      │                  │      8241f 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0662 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-qm
+│                       │      │                         9w-fmpj-879h 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:40.69Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T16:27:02.61Z 
+│                       ├ [79] ╭ VulnerabilityID : CVE-2026-55895 
 │                       │      ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
@@ -9009,13 +9403,282 @@
 │                       │      │                  │         9a8305ba35c82bf9229f 
 │                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
 │                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-55895 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:00d839a62f7c4282127c69ea7f28a49f610479ce972fc880d256f
 │                       │      │                   da96d3c52d7 
-│                       │      ╰ Severity        : UNKNOWN 
-│                       ├ [72] ╭ VulnerabilityID : CVE-2026-52858 
+│                       │      ├ Title           : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0663, a  ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0663, a Vimscript code injection vulnerability exists in
+│                       │      │                    s:NetrwLocalRmFile() in the netrw plugin
+│                       │      │                   (runtime/pack/dist/opt/netrw/autoload/netrw.vim) when
+│                       │      │                   deleting a local file from the browser. A filename derived
+│                       │      │                   from the buffer's directory listing is interpolated into an
+│                       │      │                   Ex command line passed to :execute with only the backslash
+│                       │      │                   character escaped, allowing a crafted filename containing a
+│                       │      │                   bar (|) to terminate the intended command and execute
+│                       │      │                   arbitrary Vimscript, including shell commands via :call
+│                       │      │                   system() and :!.  This vulnerability is fixed in 9.2.0663.[
+│                       │      │                   m 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ╭ [0]: CWE-78 
+│                       │      │                  ╰ [1]: CWE-94 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/55bc757a5d436e59d50f
+│                       │      │                  │      e43f7cda94b118f86cb2 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0663 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-vh
+│                       │      │                         h8-v6wx-hjjh 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:41.077Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T16:27:02.61Z 
+│                       ├ [80] ╭ VulnerabilityID : CVE-2026-57451 
+│                       │      ├ PkgID           : vim-common@9.2.0481-r0 
+│                       │      ├ PkgName         : vim-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
+│                       │      │                  │       tro=3.24.0_alpha20260127 
+│                       │      │                  ╰ UID : c697e713a1220c37 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0677-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-57451 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:bb8ce352cf211647d6483774a66fad1d19749ca9b60600c77bf79
+│                       │      │                   8f7f54f3e9a 
+│                       │      ├ Title           : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0670, ge ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0670, get_text_props() in src/textprop.c reads a uint16
+│                       │      │                   property count stored inline after a line's text and returns
+│                       │      │                    it as the number of 32-byte textprop_T entries that follow.
+│                       │      │                    The only check is a floor that guarantees room for a single
+│                       │      │                    entry; the count is never checked against the amount of
+│                       │      │                   data actually present. A line that declares a large count
+│                       │      │                   while carrying little data causes consumers to read far past
+│                       │      │                    the end of the line buffer. Such a line can be delivered
+│                       │      │                   through a crafted undo file, leading to a crash. This
+│                       │      │                   vulnerability is fixed in 9.2.0670. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/b2338ca90643e2f01ecb
+│                       │      │                  │      6547c1172716aaec4f79 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0670 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-f3
+│                       │      │                         6c-2qcp-7gpw 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:42.263Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T17:17:02.493Z 
+│                       ├ [81] ╭ VulnerabilityID : CVE-2026-57452 
+│                       │      ├ PkgID           : vim-common@9.2.0481-r0 
+│                       │      ├ PkgName         : vim-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
+│                       │      │                  │       tro=3.24.0_alpha20260127 
+│                       │      │                  ╰ UID : c697e713a1220c37 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0677-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-57452 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:676f15e299f79cad9709c4d3aa74b63910d0290a7491ed096fcd5
+│                       │      │                   c02abb497a5 
+│                       │      ├ Title           : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0671, wh ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0671, when Vim opens a file encrypted with the
+│                       │      │                   VimCrypt~04! or VimCrypt~05!
+│                       │      │                   method (xchacha20poly1305, requires the +sodium feature)
+│                       │      │                   whose body is shorter than a single libsodium secretstream
+│                       │      │                   header, an unsigned length calculation underflows and a
+│                       │      │                   subsequent decryption call reads far past the end of the
+│                       │      │                   input buffer, crashing Vim. This vulnerability is fixed in
+│                       │      │                   9.2.0671. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ╭ [0]: CWE-125 
+│                       │      │                  ╰ [1]: CWE-191 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/c8777cec25dcfae89c42
+│                       │      │                  │      e9aff51af61f71c5745f 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0671 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-c4
+│                       │      │                         j9-wr9j-4486 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:42.397Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T17:17:02.607Z 
+│                       ├ [82] ╭ VulnerabilityID : CVE-2026-57453 
+│                       │      ├ PkgID           : vim-common@9.2.0481-r0 
+│                       │      ├ PkgName         : vim-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
+│                       │      │                  │       tro=3.24.0_alpha20260127 
+│                       │      │                  ╰ UID : c697e713a1220c37 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0680-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-57453 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:68c8222040eb31080f7bfac0a8c542cd85c280c8d6742a0620c19
+│                       │      │                   4817e24cc1a 
+│                       │      ├ Title           : Vim is an open source, command line text editor. From
+│                       │      │                   9.1.1784 until 9 ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. From
+│                       │      │                   9.1.1784 until 9.2.0678, when the bundled zip plugin
+│                       │      │                   autoload/zip.vim falls back to PowerShell to browse, read,
+│                       │      │                   extract, update or delete entries in a zip archive, it
+│                       │      │                   builds the PowerShell command by inserting archive entry
+│                       │      │                   names that are quoted only for the shell, not for
+│                       │      │                   PowerShell. A crafted entry name can break out of the
+│                       │      │                   intended string context and cause PowerShell to execute
+│                       │      │                   arbitrary commands with the privileges of the user running
+│                       │      │                   Vim, triggered by opening, viewing or extracting the
+│                       │      │                   archive. This vulnerability is fixed in 9.2.0678. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-77 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/b2cc9be119d51212bf0d
+│                       │      │                  │      3f2a99 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0678 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-x5
+│                       │      │                         fg-h5w9-9frf 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:42.52Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T16:27:02.61Z 
+│                       ├ [83] ╭ VulnerabilityID : CVE-2026-57454 
+│                       │      ├ PkgID           : vim-common@9.2.0481-r0 
+│                       │      ├ PkgName         : vim-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
+│                       │      │                  │       tro=3.24.0_alpha20260127 
+│                       │      │                  ╰ UID : c697e713a1220c37 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0680-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-57454 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:536265de84c520779ebe478953aa4ea7c928589922f1211b811ad
+│                       │      │                   5a21b78ee56 
+│                       │      ├ Title           : Vim is an open source, command line text editor. From
+│                       │      │                   9.2.0320 until 9 ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. From
+│                       │      │                   9.2.0320 until 9.2.0679, a crafted undo or swap file can
+│                       │      │                   store a virtual-text property whose offset and length point
+│                       │      │                   outside the line's property data. When Vim restores or
+│                       │      │                   displays such a line it converts the offset into a pointer
+│                       │      │                   and reads the virtual text without bounds checking, causing
+│                       │      │                   an out-of-bounds read that can crash Vim or disclose
+│                       │      │                   adjacent heap memory. This vulnerability is fixed in
+│                       │      │                   9.2.0679. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/b3faeecc976d3031d7c0
+│                       │      │                  │      675623516ec60c30f949 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0679 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-ww
+│                       │      │                         8h-47xp-hp4w 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:42.647Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T16:27:02.61Z 
+│                       ├ [84] ╭ VulnerabilityID : CVE-2026-57455 
+│                       │      ├ PkgID           : vim-common@9.2.0481-r0 
+│                       │      ├ PkgName         : vim-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
+│                       │      │                  │       tro=3.24.0_alpha20260127 
+│                       │      │                  ╰ UID : c697e713a1220c37 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0699-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-57455 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:0a50a7c7f7aeb93e7d7aab6c5e4336e960f30ebc6e468eb70c8c2
+│                       │      │                   9488205ccba 
+│                       │      ├ Title           : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0698, th ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0698, the single-byte branch of spell_soundfold_sofo()
+│                       │      │                   in src/spell.c translates a word through a spell file's SOFO
+│                       │      │                    (sound-folding) byte map into a caller-owned result buffer.
+│                       │      │                    Its copy loop advances the output index ri with no upper
+│                       │      │                   bound and terminates only on the input NUL, writing one byte
+│                       │      │                    per input byte into the MAXWLEN-element stack buffer the
+│                       │      │                   caller provides. A word longer than MAXWLEN, passed to
+│                       │      │                   soundfold() (or reached via sound-based spell suggestion)
+│                       │      │                   while a SOFO-based spell language is active, therefore
+│                       │      │                   writes past the end of that buffer. This is a stack
+│                       │      │                   out-of-bounds write that corrupts the call frame and crashes
+│                       │      │                    the editor. This vulnerability is fixed in 9.2.0698. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-787 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/497f931f85339d175d7f
+│                       │      │                  │      69588dd249e8ccfed41b 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0698 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-q8
+│                       │      │                         mh-6qm3-25g4 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:42.773Z 
+│                       │      ╰ LastModifiedDate: 2026-06-26T00:16:54.907Z 
+│                       ├ [85] ╭ VulnerabilityID : CVE-2026-57456 
+│                       │      ├ PkgID           : vim-common@9.2.0481-r0 
+│                       │      ├ PkgName         : vim-common 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&dis
+│                       │      │                  │       tro=3.24.0_alpha20260127 
+│                       │      │                  ╰ UID : c697e713a1220c37 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0699-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-57456 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:4fad352602e7a99be763d9ed0f090f29ff209134966ef3ea019c9
+│                       │      │                   6be17da7497 
+│                       │      ├ Title           : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0699, Vi ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0699, Vim's Python omni-completion
+│                       │      │                   (runtime/autoload/python3complete.vim and the legacy
+│                       │      │                   pythoncomplete.vim) executes reconstructed function and
+│                       │      │                   class definitions from the current buffer with exec() as
+│                       │      │                   part of populating the completion dictionary. When
+│                       │      │                   reconstructing that source, each scope's docstring is
+│                       │      │                   inserted verbatim between triple quotes with no escaping, so
+│                       │      │                    a hostile buffer can break out of the triple-quoted literal
+│                       │      │                    and execute attacker-controlled Python during
+│                       │      │                   omni-completion. This vulnerability is fixed in 9.2.0699. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-94 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/cce141c42740f122dd84
+│                       │      │                  │      86ae04e21c2a81016ba8 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0699 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-pp
+│                       │      │                         j8-wqjf-6fp3 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:42.9Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T19:16:45.803Z 
+│                       ├ [86] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │      ├ PkgID           : xxd@9.2.0481-r0 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -9068,7 +9731,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:57:53.5Z 
-│                       ├ [73] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [87] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │      ├ PkgID           : xxd@9.2.0481-r0 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -9129,7 +9792,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:57:53.623Z 
-│                       ├ [74] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ├ [88] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │      ├ PkgID           : xxd@9.2.0481-r0 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -9190,7 +9853,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │      ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:57:53.733Z 
-│                       ├ [75] ╭ VulnerabilityID : CVE-2026-55892 
+│                       ├ [89] ╭ VulnerabilityID : CVE-2026-55892 
 │                       │      ├ PkgID           : xxd@9.2.0481-r0 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
@@ -9203,31 +9866,323 @@
 │                       │      │                  │         9a8305ba35c82bf9229f 
 │                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
 │                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-55892 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:a7b15718de133796563b6f165713f01088a5d1af93a9ccd209111
 │                       │      │                   016ee884b16 
-│                       │      ╰ Severity        : UNKNOWN 
-│                       ╰ [76] ╭ VulnerabilityID : CVE-2026-55895 
+│                       │      ├ Title           : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0662, th ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0662, the dump_prefixes() function in src/spell.c walks
+│                       │      │                   a spell-file prefix trie iteratively with a depth counter
+│                       │      │                   while dumping the prefixes that apply to a word. The counter
+│                       │      │                    is bounded only by the trie structure itself; it is never
+│                       │      │                   checked against the size of the fixed MAXWLEN-element stack
+│                       │      │                   arrays it indexes (prefix[], arridx[], curi[]). A crafted
+│                       │      │                   .spl file, loaded when the user dumps the word list, can
+│                       │      │                   drive the descent arbitrarily deep, so the function writes
+│                       │      │                   past the end of those arrays. This is a stack out-of-bounds
+│                       │      │                   write that corrupts the call frame and crashes the editor.
+│                       │      │                   This vulnerability is fixed in 9.2.0662. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-787 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/8325b193bba5f01e7a7d
+│                       │      │                  │      8241f 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0662 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-qm
+│                       │      │                         9w-fmpj-879h 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:40.69Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T16:27:02.61Z 
+│                       ├ [90] ╭ VulnerabilityID : CVE-2026-55895 
+│                       │      ├ PkgID           : xxd@9.2.0481-r0 
+│                       │      ├ PkgName         : xxd 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       4.0_alpha20260127 
+│                       │      │                  ╰ UID : 9bf80ee0923e789f 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0663-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-55895 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:2cf851071e9b4a06d752d33df1898e01cae224de50eb33ddc6515
+│                       │      │                   ed214a1cd61 
+│                       │      ├ Title           : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0663, a  ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0663, a Vimscript code injection vulnerability exists in
+│                       │      │                    s:NetrwLocalRmFile() in the netrw plugin
+│                       │      │                   (runtime/pack/dist/opt/netrw/autoload/netrw.vim) when
+│                       │      │                   deleting a local file from the browser. A filename derived
+│                       │      │                   from the buffer's directory listing is interpolated into an
+│                       │      │                   Ex command line passed to :execute with only the backslash
+│                       │      │                   character escaped, allowing a crafted filename containing a
+│                       │      │                   bar (|) to terminate the intended command and execute
+│                       │      │                   arbitrary Vimscript, including shell commands via :call
+│                       │      │                   system() and :!.  This vulnerability is fixed in 9.2.0663.[
+│                       │      │                   m 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ╭ [0]: CWE-78 
+│                       │      │                  ╰ [1]: CWE-94 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/55bc757a5d436e59d50f
+│                       │      │                  │      e43f7cda94b118f86cb2 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0663 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-vh
+│                       │      │                         h8-v6wx-hjjh 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:41.077Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T16:27:02.61Z 
+│                       ├ [91] ╭ VulnerabilityID : CVE-2026-57451 
+│                       │      ├ PkgID           : xxd@9.2.0481-r0 
+│                       │      ├ PkgName         : xxd 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       4.0_alpha20260127 
+│                       │      │                  ╰ UID : 9bf80ee0923e789f 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0677-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-57451 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:effadc83c74f86f62023ee92fe4fb5ae921ef939e05a1887db93b
+│                       │      │                   3098bc3a915 
+│                       │      ├ Title           : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0670, ge ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0670, get_text_props() in src/textprop.c reads a uint16
+│                       │      │                   property count stored inline after a line's text and returns
+│                       │      │                    it as the number of 32-byte textprop_T entries that follow.
+│                       │      │                    The only check is a floor that guarantees room for a single
+│                       │      │                    entry; the count is never checked against the amount of
+│                       │      │                   data actually present. A line that declares a large count
+│                       │      │                   while carrying little data causes consumers to read far past
+│                       │      │                    the end of the line buffer. Such a line can be delivered
+│                       │      │                   through a crafted undo file, leading to a crash. This
+│                       │      │                   vulnerability is fixed in 9.2.0670. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/b2338ca90643e2f01ecb
+│                       │      │                  │      6547c1172716aaec4f79 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0670 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-f3
+│                       │      │                         6c-2qcp-7gpw 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:42.263Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T17:17:02.493Z 
+│                       ├ [92] ╭ VulnerabilityID : CVE-2026-57452 
+│                       │      ├ PkgID           : xxd@9.2.0481-r0 
+│                       │      ├ PkgName         : xxd 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       4.0_alpha20260127 
+│                       │      │                  ╰ UID : 9bf80ee0923e789f 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0677-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-57452 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:844e1cef4ed44d7c17b1fc2bde82019f87aa9301771922ee12e09
+│                       │      │                   5cc82a978fa 
+│                       │      ├ Title           : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0671, wh ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0671, when Vim opens a file encrypted with the
+│                       │      │                   VimCrypt~04! or VimCrypt~05!
+│                       │      │                   method (xchacha20poly1305, requires the +sodium feature)
+│                       │      │                   whose body is shorter than a single libsodium secretstream
+│                       │      │                   header, an unsigned length calculation underflows and a
+│                       │      │                   subsequent decryption call reads far past the end of the
+│                       │      │                   input buffer, crashing Vim. This vulnerability is fixed in
+│                       │      │                   9.2.0671. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ╭ [0]: CWE-125 
+│                       │      │                  ╰ [1]: CWE-191 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/c8777cec25dcfae89c42
+│                       │      │                  │      e9aff51af61f71c5745f 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0671 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-c4
+│                       │      │                         j9-wr9j-4486 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:42.397Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T17:17:02.607Z 
+│                       ├ [93] ╭ VulnerabilityID : CVE-2026-57453 
+│                       │      ├ PkgID           : xxd@9.2.0481-r0 
+│                       │      ├ PkgName         : xxd 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       4.0_alpha20260127 
+│                       │      │                  ╰ UID : 9bf80ee0923e789f 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0680-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-57453 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:65ed4a93bb642c75984ef963d1a2bbd00d0c8a3f1daaf69a5954c
+│                       │      │                   e60db9a0aac 
+│                       │      ├ Title           : Vim is an open source, command line text editor. From
+│                       │      │                   9.1.1784 until 9 ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. From
+│                       │      │                   9.1.1784 until 9.2.0678, when the bundled zip plugin
+│                       │      │                   autoload/zip.vim falls back to PowerShell to browse, read,
+│                       │      │                   extract, update or delete entries in a zip archive, it
+│                       │      │                   builds the PowerShell command by inserting archive entry
+│                       │      │                   names that are quoted only for the shell, not for
+│                       │      │                   PowerShell. A crafted entry name can break out of the
+│                       │      │                   intended string context and cause PowerShell to execute
+│                       │      │                   arbitrary commands with the privileges of the user running
+│                       │      │                   Vim, triggered by opening, viewing or extracting the
+│                       │      │                   archive. This vulnerability is fixed in 9.2.0678. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-77 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/b2cc9be119d51212bf0d
+│                       │      │                  │      3f2a99 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0678 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-x5
+│                       │      │                         fg-h5w9-9frf 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:42.52Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T16:27:02.61Z 
+│                       ├ [94] ╭ VulnerabilityID : CVE-2026-57454 
+│                       │      ├ PkgID           : xxd@9.2.0481-r0 
+│                       │      ├ PkgName         : xxd 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       4.0_alpha20260127 
+│                       │      │                  ╰ UID : 9bf80ee0923e789f 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0680-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-57454 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:6c3e7cc353c0cdf08ef027a46b1ff7057d1e35df30cc310a2ee01
+│                       │      │                   0074c0b7cb7 
+│                       │      ├ Title           : Vim is an open source, command line text editor. From
+│                       │      │                   9.2.0320 until 9 ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. From
+│                       │      │                   9.2.0320 until 9.2.0679, a crafted undo or swap file can
+│                       │      │                   store a virtual-text property whose offset and length point
+│                       │      │                   outside the line's property data. When Vim restores or
+│                       │      │                   displays such a line it converts the offset into a pointer
+│                       │      │                   and reads the virtual text without bounds checking, causing
+│                       │      │                   an out-of-bounds read that can crash Vim or disclose
+│                       │      │                   adjacent heap memory. This vulnerability is fixed in
+│                       │      │                   9.2.0679. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/b3faeecc976d3031d7c0
+│                       │      │                  │      675623516ec60c30f949 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0679 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-ww
+│                       │      │                         8h-47xp-hp4w 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:42.647Z 
+│                       │      ╰ LastModifiedDate: 2026-06-25T16:27:02.61Z 
+│                       ├ [95] ╭ VulnerabilityID : CVE-2026-57455 
+│                       │      ├ PkgID           : xxd@9.2.0481-r0 
+│                       │      ├ PkgName         : xxd 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
+│                       │      │                  │       4.0_alpha20260127 
+│                       │      │                  ╰ UID : 9bf80ee0923e789f 
+│                       │      ├ InstalledVersion: 9.2.0481-r0 
+│                       │      ├ FixedVersion    : 9.2.0699-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+│                       │      │                  │         9a8305ba35c82bf9229f 
+│                       │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+│                       │      │                            7ea46f72dd8aa890c14b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-57455 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:53b78d051e91a42b987f1d5f798db77e3dc4e34c4edda77431132
+│                       │      │                   702de56c7e8 
+│                       │      ├ Title           : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0698, th ... 
+│                       │      ├ Description     : Vim is an open source, command line text editor. Prior to
+│                       │      │                   9.2.0698, the single-byte branch of spell_soundfold_sofo()
+│                       │      │                   in src/spell.c translates a word through a spell file's SOFO
+│                       │      │                    (sound-folding) byte map into a caller-owned result buffer.
+│                       │      │                    Its copy loop advances the output index ri with no upper
+│                       │      │                   bound and terminates only on the input NUL, writing one byte
+│                       │      │                    per input byte into the MAXWLEN-element stack buffer the
+│                       │      │                   caller provides. A word longer than MAXWLEN, passed to
+│                       │      │                   soundfold() (or reached via sound-based spell suggestion)
+│                       │      │                   while a SOFO-based spell language is active, therefore
+│                       │      │                   writes past the end of that buffer. This is a stack
+│                       │      │                   out-of-bounds write that corrupts the call frame and crashes
+│                       │      │                    the editor. This vulnerability is fixed in 9.2.0698. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-787 
+│                       │      ├ References       ╭ [0]: https://github.com/vim/vim/commit/497f931f85339d175d7f
+│                       │      │                  │      69588dd249e8ccfed41b 
+│                       │      │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0698 
+│                       │      │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-q8
+│                       │      │                         mh-6qm3-25g4 
+│                       │      ├ PublishedDate   : 2026-06-25T16:16:42.773Z 
+│                       │      ╰ LastModifiedDate: 2026-06-26T00:16:54.907Z 
+│                       ╰ [96] ╭ VulnerabilityID : CVE-2026-57456 
 │                              ├ PkgID           : xxd@9.2.0481-r0 
 │                              ├ PkgName         : xxd 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.2
 │                              │                  │       4.0_alpha20260127 
 │                              │                  ╰ UID : 9bf80ee0923e789f 
 │                              ├ InstalledVersion: 9.2.0481-r0 
-│                              ├ FixedVersion    : 9.2.0663-r0 
+│                              ├ FixedVersion    : 9.2.0699-r0 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
 │                              │                  │         9a8305ba35c82bf9229f 
 │                              │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
 │                              │                            7ea46f72dd8aa890c14b 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-57456 
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                              ├ Fingerprint     : sha256:2cf851071e9b4a06d752d33df1898e01cae224de50eb33ddc6515
-│                              │                   ed214a1cd61 
-│                              ╰ Severity        : UNKNOWN 
+│                              ├ Fingerprint     : sha256:7371a5a1f29af431c824efe52b017161aa96b3e809561068fe7af
+│                              │                   16ea7445a2e 
+│                              ├ Title           : Vim is an open source, command line text editor. Prior to
+│                              │                   9.2.0699, Vi ... 
+│                              ├ Description     : Vim is an open source, command line text editor. Prior to
+│                              │                   9.2.0699, Vim's Python omni-completion
+│                              │                   (runtime/autoload/python3complete.vim and the legacy
+│                              │                   pythoncomplete.vim) executes reconstructed function and
+│                              │                   class definitions from the current buffer with exec() as
+│                              │                   part of populating the completion dictionary. When
+│                              │                   reconstructing that source, each scope's docstring is
+│                              │                   inserted verbatim between triple quotes with no escaping, so
+│                              │                    a hostile buffer can break out of the triple-quoted literal
+│                              │                    and execute attacker-controlled Python during
+│                              │                   omni-completion. This vulnerability is fixed in 9.2.0699. 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ CweIDs           ─ [0]: CWE-94 
+│                              ├ References       ╭ [0]: https://github.com/vim/vim/commit/cce141c42740f122dd84
+│                              │                  │      86ae04e21c2a81016ba8 
+│                              │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0699 
+│                              │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-pp
+│                              │                         j8-wqjf-6fp3 
+│                              ├ PublishedDate   : 2026-06-25T16:16:42.9Z 
+│                              ╰ LastModifiedDate: 2026-06-25T19:16:45.803Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
@@ -9294,7 +10249,7 @@
                         │     │                  ╰ [3]: https://github.com/FasterXML/jackson-databind/security/
                         │     │                         advisories/GHSA-j3rv-43j4-c7qm 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.203Z 
-                        │     ╰ LastModifiedDate: 2026-06-24T16:16:32.5Z 
+                        │     ╰ LastModifiedDate: 2026-06-25T16:14:14.483Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2026-54513 
                         │     ├ VendorIDs        ─ [0]: GHSA-rmj7-2vxq-3g9f 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -9357,7 +10312,7 @@
                         │     │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
                         │     │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.333Z 
-                        │     ╰ LastModifiedDate: 2026-06-24T16:16:32.6Z 
+                        │     ╰ LastModifiedDate: 2026-06-25T16:14:14.483Z 
                         ├ [2] ╭ VulnerabilityID : CVE-2026-54514 
                         │     ├ VendorIDs        ─ [0]: GHSA-hgj6-7826-r7m5 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -9407,7 +10362,7 @@
                         │     │                  ╰ [3]: https://github.com/FasterXML/jackson-databind/security/
                         │     │                         advisories/GHSA-hgj6-7826-r7m5 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.467Z 
-                        │     ╰ LastModifiedDate: 2026-06-23T21:17:02.467Z 
+                        │     ╰ LastModifiedDate: 2026-06-25T16:14:14.483Z 
                         ├ [3] ╭ VulnerabilityID : CVE-2026-54515 
                         │     ├ VendorIDs        ─ [0]: GHSA-5jmj-h7xm-6q6v 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -9461,7 +10416,7 @@
                         │     │                  ╰ [4]: https://github.com/FasterXML/jackson-databind/security/
                         │     │                         advisories/GHSA-5jmj-h7xm-6q6v 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.597Z 
-                        │     ╰ LastModifiedDate: 2026-06-24T13:16:32.653Z 
+                        │     ╰ LastModifiedDate: 2026-06-25T16:14:14.483Z 
                         ├ [4] ╭ VulnerabilityID : CVE-2026-54516 
                         │     ├ VendorIDs        ─ [0]: GHSA-9fxm-vc8v-hj55 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -9514,7 +10469,7 @@
                         │     │                  ╰ [5]: https://github.com/FasterXML/jackson-databind/security/
                         │     │                         advisories/GHSA-9fxm-vc8v-hj55 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.723Z 
-                        │     ╰ LastModifiedDate: 2026-06-24T14:17:33.547Z 
+                        │     ╰ LastModifiedDate: 2026-06-25T16:14:14.483Z 
                         ├ [5] ╭ VulnerabilityID : CVE-2026-54517 
                         │     ├ VendorIDs        ─ [0]: GHSA-5hh8-q8hv-fr38 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -9567,7 +10522,7 @@
                         │     │                  ╰ [5]: https://github.com/FasterXML/jackson-databind/security/
                         │     │                         advisories/GHSA-5hh8-q8hv-fr38 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.853Z 
-                        │     ╰ LastModifiedDate: 2026-06-24T20:16:33Z 
+                        │     ╰ LastModifiedDate: 2026-06-25T16:14:14.483Z 
                         ╰ [6] ╭ VulnerabilityID : CVE-2026-54518 
                               ├ VendorIDs        ─ [0]: GHSA-rcqc-6cw3-h962 
                               ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -9619,5 +10574,5 @@
                               │                  ╰ [5]: https://github.com/FasterXML/jackson-databind/security/
                               │                         advisories/GHSA-rcqc-6cw3-h962 
                               ├ PublishedDate   : 2026-06-23T22:16:32.073Z 
-                              ╰ LastModifiedDate: 2026-06-24T17:17:29.163Z 
+                              ╰ LastModifiedDate: 2026-06-25T16:14:14.483Z 
 ```
