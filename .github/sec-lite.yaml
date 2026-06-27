@@ -112,7 +112,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/3aad5eb7af4de4ee0633c30a8541a54d9bbde63c
     - https://github.com/openssl/openssl/commit/7d4a980c62258c5910cc883936e0c8dbab4d75a8
     - https://github.com/openssl/openssl/commit/9dfd688ad2290fc5075cacbc9bf0c9a93eefed54
@@ -186,6 +186,7 @@
       alma: 3
       amazon: 3
       azure: 4
+      oracle-oval: 3
       photon: 4
       redhat: 2
       rocky: 3
@@ -243,12 +244,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/03c1f4d45fb963aee7d5833390c507cd290182bc
     - https://github.com/openssl/openssl/commit/439ed7d2c0962ce964482727264668bf277c333f
     - https://github.com/openssl/openssl/commit/7947e6a81eb8776802f159fb6762cb7fcf7e34c7
     - https://github.com/openssl/openssl/commit/9fd97f8cfdc2c0be214998de3b2b55c8edf6c7ac
     - https://github.com/openssl/openssl/commit/d2ca86bcd43e4f17d899f347101766b6107676e0
+    - https://linux.oracle.com/cve/CVE-2026-34182.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-34182
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -301,6 +304,7 @@
       alma: 3
       amazon: 3
       azure: 2
+      oracle-oval: 3
       photon: 3
       redhat: 2
       rocky: 3
@@ -358,11 +362,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/5b306efb0b3779dfdd0803b4afc9d08c91f11517
     - https://github.com/openssl/openssl/commit/7d06955ebe0ecf8adfd4c1e92018586da47ef9ac
     - https://github.com/openssl/openssl/commit/d2e9efbe4900a373227deb136e8665401404ffac
     - https://github.com/openssl/openssl/commit/fbaa83859c01ad64f497b757aaf51be7d05ed9eb
+    - https://linux.oracle.com/cve/CVE-2026-34183.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-34183
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -414,6 +420,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       photon: 3
       redhat: 2
       rocky: 3
@@ -471,10 +478,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/5e3ed291b8af0b03d5d3b9e56a1da69a187e9729
     - https://github.com/openssl/openssl/commit/a45a0aba8095682c88ff4fc4a784892b8c6f0677
     - https://github.com/openssl/openssl/commit/bf29a458c1a231eca87e384c62b9c2553fa57a91
+    - https://linux.oracle.com/cve/CVE-2026-42764.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42764
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -546,6 +555,7 @@
       alma: 3
       amazon: 3
       azure: 3
+      oracle-oval: 3
       photon: 3
       redhat: 2
       rocky: 3
@@ -603,12 +613,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/323f0b6e7d530a4cb4336d50c88cb70f3ac2a451
     - https://github.com/openssl/openssl/commit/787a6dfba81b7b09c1e05ab31396c0cd7c36b3f7
     - https://github.com/openssl/openssl/commit/7ac4715234ee72d9f3c93426a2c08554b5b771af
     - https://github.com/openssl/openssl/commit/843c9b94ca9c2ed248bb30127bb4f3d7af0d607c
     - https://github.com/openssl/openssl/commit/983d54b5cce8d16147548ed1a37892d1720bbab6
+    - https://linux.oracle.com/cve/CVE-2026-45445.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-45445
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -665,6 +677,7 @@
       alma: 3
       amazon: 3
       azure: 3
+      oracle-oval: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -722,12 +735,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/1c6908e4fa5fa568752221d8eaf561a809751e5d
     - https://github.com/openssl/openssl/commit/cbe418ae978539cf14a398a207dba834c0e93e83
     - https://github.com/openssl/openssl/commit/d93853c42110d6319e3df07842b488cb9f7ac5ff
     - https://github.com/openssl/openssl/commit/da5d62af75f69d6fbf7803743d7c56ac75461e43
     - https://github.com/openssl/openssl/commit/f696c73c3e61b8c502d040af62e690c060908a16
+    - https://linux.oracle.com/cve/CVE-2026-34180.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-34180
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -778,6 +793,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -835,11 +851,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/0300eb9ddce7a0895bf301a4b0c03a9da2313a0f
     - https://github.com/openssl/openssl/commit/79eb76a937e474bb7610a0a3dc57131dc8dc6610
     - https://github.com/openssl/openssl/commit/85dcbb3abaa4878af5c8fbbe11bce708fcf984a7
     - https://github.com/openssl/openssl/commit/ec36f2417c4ddd8cabce4b4a60a3d7a7365f2d81
+    - https://linux.oracle.com/cve/CVE-2026-34181.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-34181
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -893,6 +911,7 @@
       alma: 3
       amazon: 3
       azure: 2
+      oracle-oval: 3
       photon: 2
       redhat: 1
       rocky: 3
@@ -950,12 +969,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/056d06c1918fafbb98c1c85a02e4c47cc4e199ce
     - https://github.com/openssl/openssl/commit/12bc26ffb3a2be728c9b86e1cae277de5b33dfa4
     - https://github.com/openssl/openssl/commit/3ff64913615d648cfbb6a6f1cf5529ae7ea829d7
     - https://github.com/openssl/openssl/commit/ab52d88cb5374876d59aee3c91f9e4ccce2b7ce4
     - https://github.com/openssl/openssl/commit/da26f368732b83e40e9d356fe61c3d3aaab6d2e8
+    - https://linux.oracle.com/cve/CVE-2026-42766.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42766
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -1007,6 +1028,7 @@
       alma: 3
       amazon: 3
       azure: 2
+      oracle-oval: 3
       photon: 2
       redhat: 1
       rocky: 3
@@ -1064,12 +1086,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/61a86a8cd73546c9fea916f3d304c1293e05c046
     - https://github.com/openssl/openssl/commit/665d5254083affde9982efca7c41dd01cacc8774
     - https://github.com/openssl/openssl/commit/810b722f772652ad48042bcc7ab07e3414b11d0f
     - https://github.com/openssl/openssl/commit/b90ff3b1bd33b1c18e6a09936d097c2eddef8873
     - https://github.com/openssl/openssl/commit/e6f912907fc2ec82a0fd07aae55172c5e5e3d90d
+    - https://linux.oracle.com/cve/CVE-2026-42767.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42767
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -1157,6 +1181,7 @@
       alma: 3
       amazon: 3
       azure: 1
+      oracle-oval: 3
       photon: 1
       redhat: 1
       rocky: 3
@@ -1214,11 +1239,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/a2ca7b2d73e0ffc1eae183fe6e1741dac767cb4f
     - https://github.com/openssl/openssl/commit/bbb151a83041705d9d001ed2f9c12f5523e1b54d
     - https://github.com/openssl/openssl/commit/dd68364107a58841c0a2546812518b65d3a23abd
     - https://github.com/openssl/openssl/commit/f04b377be3d821741c86d1f4bf84dee09f3d5c3e
+    - https://linux.oracle.com/cve/CVE-2026-42768.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42768
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -1286,6 +1313,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       photon: 2
       redhat: 1
       rocky: 3
@@ -1343,11 +1371,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/54d0989997e5fc26057009a9782c3441ce3842fb
     - https://github.com/openssl/openssl/commit/777b363b16fcf2153bb3ded39dc3838713667c44
     - https://github.com/openssl/openssl/commit/d35cd473a271bf3ce7bf3d32af53217fb83ae92c
     - https://github.com/openssl/openssl/commit/d531f21c0fe99067a66fc0ff1161ef127f9cd70b
+    - https://linux.oracle.com/cve/CVE-2026-42769.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42769
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -1408,6 +1438,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       photon: 1
       redhat: 1
       rocky: 3
@@ -1465,12 +1496,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/3da5a516cd2635a320ff748503db2cef7c4b0f02
     - https://github.com/openssl/openssl/commit/3ddbb7ab50bd93dfc59cbe08e269a67605aeebdb
     - https://github.com/openssl/openssl/commit/5f452bba2c681423d8fcffd120a19b757ee42e3c
     - https://github.com/openssl/openssl/commit/7fbfde7677ed8808828bf00ff01c937ca04bdda2
     - https://github.com/openssl/openssl/commit/ca2237ab5615641b662183b077f62c08d75e8070
+    - https://linux.oracle.com/cve/CVE-2026-42770.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42770
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -1541,6 +1574,7 @@
       alma: 3
       amazon: 3
       azure: 2
+      oracle-oval: 3
       photon: 2
       redhat: 1
       rocky: 3
@@ -1598,12 +1632,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/25b32cd9d41d2bc01b6abc425bb4baf2c2236fdc
     - https://github.com/openssl/openssl/commit/71e2a5d263518cf5866043bd60ee4994d59e53a3
     - https://github.com/openssl/openssl/commit/7fe3f33a3b3a4c487aa4dcdbc87057f66ffd2b85
     - https://github.com/openssl/openssl/commit/daca0f48e4a69a2892a62262bad59e62a8a76598
     - https://github.com/openssl/openssl/commit/eec5e9bf0d867333b8495e456f5235d225798a68
+    - https://linux.oracle.com/cve/CVE-2026-45446.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-45446
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -1667,6 +1703,7 @@
       alma: 3
       amazon: 3
       azure: 3
+      oracle-oval: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -1724,12 +1761,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/4f8d2bddaa2c8e06f9c33390ee1717059a6e4be6
     - https://github.com/openssl/openssl/commit/80c15faaf78042bbb8654a0e234c50c381732f74
     - https://github.com/openssl/openssl/commit/bd17511070fb39a67bfa19682affb765e706a974
     - https://github.com/openssl/openssl/commit/c332adaced43bcbb85f97410597e951c11ec3083
     - https://github.com/openssl/openssl/commit/d32350ae8ef7426718f5aa9e383d4b51398ee255
+    - https://linux.oracle.com/cve/CVE-2026-7383.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-7383
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -1795,6 +1834,7 @@
       alma: 3
       amazon: 3
       azure: 3
+      oracle-oval: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -1852,12 +1892,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/05b066366842f930fadd9a6e94df98030af431bb
     - https://github.com/openssl/openssl/commit/3d8d5bc1056b2f62da9fede23fedbf47e85187b0
     - https://github.com/openssl/openssl/commit/715349a1d7c6db970e6815dafb90915f07307f98
     - https://github.com/openssl/openssl/commit/77bf00ab13f6ff5e516535432f0328ed70ec0c26
     - https://github.com/openssl/openssl/commit/eecbe330977e8d023aae1ca2d9bdbe983ef3fdc6
+    - https://linux.oracle.com/cve/CVE-2026-9076.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-9076
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -1865,6 +1907,461 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-9076
     PublishedDate: '2026-06-09T17:17:50.997Z'
     LastModifiedDate: '2026-06-17T11:04:47.973Z'
+  - VulnerabilityID: CVE-2026-50219
+    PkgID: libexpat@2.8.1-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9b3a7621208f28cf
+    InstalledVersion: 2.8.1-r0
+    FixedVersion: 2.8.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-50219
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:a4806b624629b833871a6acc86a115ce1528435e05630cd3ee1557c2a91ffc6f
+    Title: 'expat: libexpat: Use-after-free vulnerability due to improper handler call depth tracking'
+    Description: libexpat before 2.8.2 lacks handler call depth tracking for calls to XML_GetBuffer, XML_Parse, XML_ParseBuffer, XML_ParserFree, or XML_ParserReset from within handlers in cases of a policy violation. Thus, a use-after-free can occur,
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 4.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-50219
+    - https://github.com/libexpat/libexpat/pull/1246
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-50219
+    - https://www.cve.org/CVERecord?id=CVE-2026-50219
+    PublishedDate: '2026-06-04T06:16:25.05Z'
+    LastModifiedDate: '2026-06-17T10:57:38.927Z'
+  - VulnerabilityID: CVE-2026-56132
+    PkgID: libexpat@2.8.1-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9b3a7621208f28cf
+    InstalledVersion: 2.8.1-r0
+    FixedVersion: 2.8.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56132
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:7a3465a383afd6a9fefa9c66843b8454de814ce532fb9fd66a49ed799e66fe26
+    Title: 'expat: libexpat: Arbitrary Code Execution via Heap-based Buffer Overflow'
+    Description: In libexpat before 2.8.2, there is a heap-based buffer overflow in doProlog in xmlparse.c because scaffold backing array reallocation is mishandled when there is data-structure sharing across parsers.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-821
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-56132
+    - https://github.com/libexpat/libexpat/pull/1272
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-56132
+    - https://www.cve.org/CVERecord?id=CVE-2026-56132
+    PublishedDate: '2026-06-19T06:17:10.253Z'
+    LastModifiedDate: '2026-06-23T20:15:26.23Z'
+  - VulnerabilityID: CVE-2026-56403
+    PkgID: libexpat@2.8.1-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9b3a7621208f28cf
+    InstalledVersion: 2.8.1-r0
+    FixedVersion: 2.8.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56403
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:d055c261ba19b374b19cc375e29ba967ede798437236c0cf198f60c40dc2e4a5
+    Title: 'libexpat: libexpat: Arbitrary code execution due to integer overflow in storeAtts'
+    Description: libexpat before 2.8.2 has an integer overflow in storeAtts.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-56403
+    - https://github.com/libexpat/libexpat/pull/1232
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-56403
+    - https://www.cve.org/CVERecord?id=CVE-2026-56403
+    PublishedDate: '2026-06-21T16:16:26.59Z'
+    LastModifiedDate: '2026-06-23T20:15:16.76Z'
+  - VulnerabilityID: CVE-2026-56404
+    PkgID: libexpat@2.8.1-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9b3a7621208f28cf
+    InstalledVersion: 2.8.1-r0
+    FixedVersion: 2.8.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56404
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:347db5a27e7bb910c5ba7723c1dd98bae80ca4702876a8d7549441104e6e9405
+    Title: libexpat before 2.8.2 has an integer overflow in addBinding.
+    Description: libexpat before 2.8.2 has an integer overflow in addBinding.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      nvd: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://github.com/libexpat/libexpat/pull/1249
+    PublishedDate: '2026-06-21T16:16:27.62Z'
+    LastModifiedDate: '2026-06-23T20:15:05.85Z'
+  - VulnerabilityID: CVE-2026-56405
+    PkgID: libexpat@2.8.1-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9b3a7621208f28cf
+    InstalledVersion: 2.8.1-r0
+    FixedVersion: 2.8.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56405
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:d338320d000f1b6df0a2d7ae7175a0e2a0451902684bd81cb181e47442e94003
+    Title: 'libexpat: libexpat: Information disclosure and arbitrary code execution via integer overflow'
+    Description: libexpat before 2.8.2 has an integer overflow in getAttributeId.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 4.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-56405
+    - https://github.com/libexpat/libexpat/pull/1251
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-56405
+    - https://www.cve.org/CVERecord?id=CVE-2026-56405
+    PublishedDate: '2026-06-21T16:16:27.74Z'
+    LastModifiedDate: '2026-06-23T20:14:51.73Z'
+  - VulnerabilityID: CVE-2026-56406
+    PkgID: libexpat@2.8.1-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9b3a7621208f28cf
+    InstalledVersion: 2.8.1-r0
+    FixedVersion: 2.8.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56406
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:a34046115f6692dae277c2f851bb32eadd6ca2d468b6233a91ea9e053387af96
+    Title: 'libexpat: libexpat: Arbitrary code execution via integer overflow in XML_ParseBuffer'
+    Description: libexpat before 2.8.2 has an integer overflow in XML_ParseBuffer because it lacked a check that was present in XML_Parse.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-56406
+    - https://github.com/libexpat/libexpat/pull/1255
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-56406
+    - https://www.cve.org/CVERecord?id=CVE-2026-56406
+    PublishedDate: '2026-06-21T16:16:27.87Z'
+    LastModifiedDate: '2026-06-23T16:29:06.077Z'
+  - VulnerabilityID: CVE-2026-56410
+    PkgID: libexpat@2.8.1-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9b3a7621208f28cf
+    InstalledVersion: 2.8.1-r0
+    FixedVersion: 2.8.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56410
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:a28cdad39d507a672f85610e106c964582b3dedf686bdb784ee2a56f0f339041
+    Title: 'libexpat: libexpat: Integer overflow in xmlwf can lead to information disclosure and arbitrary code execution.'
+    Description: xmlwf in libexpat before 2.8.2 has an integer overflow in resolveSystemId.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-56410
+    - https://github.com/libexpat/libexpat/pull/1252
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-56410
+    - https://www.cve.org/CVERecord?id=CVE-2026-56410
+    PublishedDate: '2026-06-21T16:16:28.36Z'
+    LastModifiedDate: '2026-06-23T16:18:16.427Z'
+  - VulnerabilityID: CVE-2026-56411
+    PkgID: libexpat@2.8.1-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9b3a7621208f28cf
+    InstalledVersion: 2.8.1-r0
+    FixedVersion: 2.8.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56411
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:114262d7d762713bf43abddfcbbb0d93c6975cf1766f3b5a7cc6cd30350b4508
+    Title: 'expat: libexpat: Integer Overflow Vulnerability Leading to Information Disclosure or Code Execution'
+    Description: xmlwf in libexpat before 2.8.2 has an integer overflow in endDoctypeDecl via NOTATION declarations.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-56411
+    - https://github.com/libexpat/libexpat/pull/1263
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-56411
+    - https://www.cve.org/CVERecord?id=CVE-2026-56411
+    PublishedDate: '2026-06-21T17:16:44.523Z'
+    LastModifiedDate: '2026-06-23T16:16:36.417Z'
+  - VulnerabilityID: CVE-2026-56412
+    PkgID: libexpat@2.8.1-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9b3a7621208f28cf
+    InstalledVersion: 2.8.1-r0
+    FixedVersion: 2.8.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56412
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:e2cfece553e187f5b39223bc89e3805183eb312e6eab65c306424803dd5bff3a
+    Title: 'libexpat: libexpat: Use-after-free vulnerability due to improper handling of XML CDATA sections'
+    Description: 'libexpat before 2.8.2 does not consider XML_TOK_DATA_CHARS in doCdataSection and thus lacks handler call depth tracking for various calls from within handlers in cases of a policy violation. Thus, a use-after-free can occur. NOTE: this issue exists because of an incomplete fix for CVE-2026-50219.'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 4.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-56412
+    - https://github.com/libexpat/libexpat/pull/1278
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-56412
+    - https://www.cve.org/CVERecord?id=CVE-2026-56412
+    PublishedDate: '2026-06-21T17:16:44.657Z'
+    LastModifiedDate: '2026-06-23T15:31:30.853Z'
+  - VulnerabilityID: CVE-2026-56131
+    PkgID: libexpat@2.8.1-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9b3a7621208f28cf
+    InstalledVersion: 2.8.1-r0
+    FixedVersion: 2.8.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56131
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:2fa7e919b44f454034d1b131df331e7c98abe0fd67e4f78a3242ad242f59276c
+    Title: libexpat before 2.8.2 lacks handler call depth tracking for calls to X ...
+    Description: libexpat before 2.8.2 lacks handler call depth tracking for calls to XML_ResumeParser from within handlers in cases of a policy violation. Thus, a use-after-free can occur (similar to the CVE-2026-50219 situation).
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-416
+    References:
+    - https://github.com/libexpat/libexpat/pull/1267
+    PublishedDate: '2026-06-19T06:17:10.107Z'
+    LastModifiedDate: '2026-06-23T20:15:48.007Z'
+  - VulnerabilityID: CVE-2026-56407
+    PkgID: libexpat@2.8.1-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9b3a7621208f28cf
+    InstalledVersion: 2.8.1-r0
+    FixedVersion: 2.8.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56407
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:246d660fd7030f07d5783d0117c4e5ca7a67905b0a1c000450fb776fb931553f
+    Title: libexpat before 2.8.2 has an integer overflow in doProlog that is rela ...
+    Description: libexpat before 2.8.2 has an integer overflow in doProlog that is related to storeEntityValue and entity textLen.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-190
+    References:
+    - https://github.com/libexpat/libexpat/pull/1262
+    PublishedDate: '2026-06-21T16:16:27.987Z'
+    LastModifiedDate: '2026-06-23T16:28:29.983Z'
+  - VulnerabilityID: CVE-2026-56408
+    PkgID: libexpat@2.8.1-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9b3a7621208f28cf
+    InstalledVersion: 2.8.1-r0
+    FixedVersion: 2.8.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56408
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:03d034576a6c5a75f25c5c3e77afcc8eb2315f8e81d723c03517c3a806db7de2
+    Title: libexpat before 2.8.2 has an integer overflow in copyString.
+    Description: libexpat before 2.8.2 has an integer overflow in copyString.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-190
+    References:
+    - https://github.com/libexpat/libexpat/commit/16e2efd867ea8567ffa012210b52ef5918e20817
+    PublishedDate: '2026-06-21T16:16:28.11Z'
+    LastModifiedDate: '2026-06-23T16:27:26.523Z'
+  - VulnerabilityID: CVE-2026-56409
+    PkgID: libexpat@2.8.1-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9b3a7621208f28cf
+    InstalledVersion: 2.8.1-r0
+    FixedVersion: 2.8.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56409
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:57853ca986bfab2e85fdce4b28e34ff0dd819d5e6ec588a4cfde9b3edcbd6a21
+    Title: xmlwf in libexpat before 2.8.2 has an integer overflow for the output  ...
+    Description: xmlwf in libexpat before 2.8.2 has an integer overflow for the output filename when -d outputDir is used.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-190
+    References:
+    - https://github.com/libexpat/libexpat/pull/1259
+    PublishedDate: '2026-06-21T16:16:28.23Z'
+    LastModifiedDate: '2026-06-23T16:21:55.607Z'
   - VulnerabilityID: CVE-2026-55200
     PkgID: libssh2@1.11.1-r1
     PkgName: libssh2
@@ -1877,6 +2374,7 @@
     Layer:
       Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
       DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55200
     DataSource:
       ID: alpine
@@ -1885,12 +2383,16 @@
     Fingerprint: sha256:714a89a13d87a3a447c5d765412e5d9be44d1f44cef4c40a1c1918ac3614dab1
     Title: 'libssh2: libssh2 - Out-of-Bounds Write via Unchecked packet_length in transport.c'
     Description: libssh2 through 1.11.1, fixed in commit 7acf3df contains an out-of-bounds write vulnerability in ssh2_transport_read() that fails to enforce upper bounds on packet_length field. Remote attackers can send crafted SSH packets with excessively large packet_length values to corrupt heap memory and achieve remote code execution.
-    Severity: HIGH
+    Severity: CRITICAL
     CweIDs:
     - CWE-680
     VendorSeverity:
+      nvd: 4
       redhat: 3
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.1
@@ -1903,7 +2405,50 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-55200
     - https://www.vulncheck.com/advisories/libssh2-out-of-bounds-write-via-unchecked-packet-length-in-transport-c
     PublishedDate: '2026-06-17T20:17:28.667Z'
-    LastModifiedDate: '2026-06-25T05:16:54.883Z'
+    LastModifiedDate: '2026-06-26T19:15:53.083Z'
+  - VulnerabilityID: CVE-2026-55199
+    PkgID: libssh2@1.11.1-r1
+    PkgName: libssh2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh2@1.11.1-r1?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 2ab480344db5ac8
+    InstalledVersion: 1.11.1-r1
+    FixedVersion: 1.11.1-r3
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55199
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:07fad2fccc9c5df2ef4d4bb340731161d55667e8447be4c448d6d2931d0fe4ce
+    Title: 'libssh2: libssh2: Denial of Service via crafted SSH_MSG_EXT_INFO message'
+    Description: libssh2 through 1.11.1, fixed in commit 1762685, contains a pre-authentication denial of service vulnerability in the SSH_MSG_EXT_INFO handler in src/packet.c that allows a malicious SSH server to cause a client CPU exhaustion loop by sending a crafted extension count value. A malicious server can set nr_extensions to 0xFFFFFFFF during key exchange, causing the client to spin in a tight CPU loop for over 60 seconds because return values from _libssh2_get_string() are unchecked and the session timeout does not apply to CPU-bound loops.
+    Severity: HIGH
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-55199
+    - https://github.com/libssh2/libssh2/commit/17626857d20b3c9a1addfa45979dadcee1cd84a4
+    - https://github.com/libssh2/libssh2/pull/1864
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-55199
+    - https://www.cve.org/CVERecord?id=CVE-2026-55199
+    - https://www.vulncheck.com/advisories/libssh2-pre-authentication-dos-via-ssh-msg-ext-info-handler
+    PublishedDate: '2026-06-17T20:17:28.52Z'
+    LastModifiedDate: '2026-06-26T19:16:37.353Z'
   - VulnerabilityID: CVE-2026-7598
     PkgID: libssh2@1.11.1-r1
     PkgName: libssh2
@@ -1951,44 +2496,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-7598
     PublishedDate: '2026-05-01T22:16:16.947Z'
     LastModifiedDate: '2026-06-17T11:02:39.193Z'
-  - VulnerabilityID: CVE-2026-55199
-    PkgID: libssh2@1.11.1-r1
-    PkgName: libssh2
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/libssh2@1.11.1-r1?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: 2ab480344db5ac8
-    InstalledVersion: 1.11.1-r1
-    FixedVersion: 1.11.1-r3
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55199
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:07fad2fccc9c5df2ef4d4bb340731161d55667e8447be4c448d6d2931d0fe4ce
-    Title: 'libssh2: libssh2: Denial of Service via crafted SSH_MSG_EXT_INFO message'
-    Description: libssh2 through 1.11.1, fixed in commit 1762685, contains a pre-authentication denial of service vulnerability in the SSH_MSG_EXT_INFO handler in src/packet.c that allows a malicious SSH server to cause a client CPU exhaustion loop by sending a crafted extension count value. A malicious server can set nr_extensions to 0xFFFFFFFF during key exchange, causing the client to spin in a tight CPU loop for over 60 seconds because return values from _libssh2_get_string() are unchecked and the session timeout does not apply to CPU-bound loops.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-835
-    VendorSeverity:
-      redhat: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
-    References:
-    - https://access.redhat.com/security/cve/CVE-2026-55199
-    - https://github.com/libssh2/libssh2/commit/17626857d20b3c9a1addfa45979dadcee1cd84a4
-    - https://github.com/libssh2/libssh2/pull/1864
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-55199
-    - https://www.cve.org/CVERecord?id=CVE-2026-55199
-    - https://www.vulncheck.com/advisories/libssh2-pre-authentication-dos-via-ssh-msg-ext-info-handler
-    PublishedDate: '2026-06-17T20:17:28.52Z'
-    LastModifiedDate: '2026-06-22T18:43:49.9Z'
   - VulnerabilityID: CVE-2026-45447
     PkgID: libssl3@3.5.6-r0
     PkgName: libssl3
@@ -2098,7 +2605,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/3aad5eb7af4de4ee0633c30a8541a54d9bbde63c
     - https://github.com/openssl/openssl/commit/7d4a980c62258c5910cc883936e0c8dbab4d75a8
     - https://github.com/openssl/openssl/commit/9dfd688ad2290fc5075cacbc9bf0c9a93eefed54
@@ -2172,6 +2679,7 @@
       alma: 3
       amazon: 3
       azure: 4
+      oracle-oval: 3
       photon: 4
       redhat: 2
       rocky: 3
@@ -2229,12 +2737,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/03c1f4d45fb963aee7d5833390c507cd290182bc
     - https://github.com/openssl/openssl/commit/439ed7d2c0962ce964482727264668bf277c333f
     - https://github.com/openssl/openssl/commit/7947e6a81eb8776802f159fb6762cb7fcf7e34c7
     - https://github.com/openssl/openssl/commit/9fd97f8cfdc2c0be214998de3b2b55c8edf6c7ac
     - https://github.com/openssl/openssl/commit/d2ca86bcd43e4f17d899f347101766b6107676e0
+    - https://linux.oracle.com/cve/CVE-2026-34182.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-34182
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -2287,6 +2797,7 @@
       alma: 3
       amazon: 3
       azure: 2
+      oracle-oval: 3
       photon: 3
       redhat: 2
       rocky: 3
@@ -2344,11 +2855,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/5b306efb0b3779dfdd0803b4afc9d08c91f11517
     - https://github.com/openssl/openssl/commit/7d06955ebe0ecf8adfd4c1e92018586da47ef9ac
     - https://github.com/openssl/openssl/commit/d2e9efbe4900a373227deb136e8665401404ffac
     - https://github.com/openssl/openssl/commit/fbaa83859c01ad64f497b757aaf51be7d05ed9eb
+    - https://linux.oracle.com/cve/CVE-2026-34183.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-34183
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -2400,6 +2913,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       photon: 3
       redhat: 2
       rocky: 3
@@ -2457,10 +2971,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/5e3ed291b8af0b03d5d3b9e56a1da69a187e9729
     - https://github.com/openssl/openssl/commit/a45a0aba8095682c88ff4fc4a784892b8c6f0677
     - https://github.com/openssl/openssl/commit/bf29a458c1a231eca87e384c62b9c2553fa57a91
+    - https://linux.oracle.com/cve/CVE-2026-42764.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42764
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -2532,6 +3048,7 @@
       alma: 3
       amazon: 3
       azure: 3
+      oracle-oval: 3
       photon: 3
       redhat: 2
       rocky: 3
@@ -2589,12 +3106,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/323f0b6e7d530a4cb4336d50c88cb70f3ac2a451
     - https://github.com/openssl/openssl/commit/787a6dfba81b7b09c1e05ab31396c0cd7c36b3f7
     - https://github.com/openssl/openssl/commit/7ac4715234ee72d9f3c93426a2c08554b5b771af
     - https://github.com/openssl/openssl/commit/843c9b94ca9c2ed248bb30127bb4f3d7af0d607c
     - https://github.com/openssl/openssl/commit/983d54b5cce8d16147548ed1a37892d1720bbab6
+    - https://linux.oracle.com/cve/CVE-2026-45445.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-45445
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -2651,6 +3170,7 @@
       alma: 3
       amazon: 3
       azure: 3
+      oracle-oval: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -2708,12 +3228,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/1c6908e4fa5fa568752221d8eaf561a809751e5d
     - https://github.com/openssl/openssl/commit/cbe418ae978539cf14a398a207dba834c0e93e83
     - https://github.com/openssl/openssl/commit/d93853c42110d6319e3df07842b488cb9f7ac5ff
     - https://github.com/openssl/openssl/commit/da5d62af75f69d6fbf7803743d7c56ac75461e43
     - https://github.com/openssl/openssl/commit/f696c73c3e61b8c502d040af62e690c060908a16
+    - https://linux.oracle.com/cve/CVE-2026-34180.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-34180
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -2764,6 +3286,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -2821,11 +3344,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/0300eb9ddce7a0895bf301a4b0c03a9da2313a0f
     - https://github.com/openssl/openssl/commit/79eb76a937e474bb7610a0a3dc57131dc8dc6610
     - https://github.com/openssl/openssl/commit/85dcbb3abaa4878af5c8fbbe11bce708fcf984a7
     - https://github.com/openssl/openssl/commit/ec36f2417c4ddd8cabce4b4a60a3d7a7365f2d81
+    - https://linux.oracle.com/cve/CVE-2026-34181.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-34181
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -2879,6 +3404,7 @@
       alma: 3
       amazon: 3
       azure: 2
+      oracle-oval: 3
       photon: 2
       redhat: 1
       rocky: 3
@@ -2936,12 +3462,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/056d06c1918fafbb98c1c85a02e4c47cc4e199ce
     - https://github.com/openssl/openssl/commit/12bc26ffb3a2be728c9b86e1cae277de5b33dfa4
     - https://github.com/openssl/openssl/commit/3ff64913615d648cfbb6a6f1cf5529ae7ea829d7
     - https://github.com/openssl/openssl/commit/ab52d88cb5374876d59aee3c91f9e4ccce2b7ce4
     - https://github.com/openssl/openssl/commit/da26f368732b83e40e9d356fe61c3d3aaab6d2e8
+    - https://linux.oracle.com/cve/CVE-2026-42766.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42766
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -2993,6 +3521,7 @@
       alma: 3
       amazon: 3
       azure: 2
+      oracle-oval: 3
       photon: 2
       redhat: 1
       rocky: 3
@@ -3050,12 +3579,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/61a86a8cd73546c9fea916f3d304c1293e05c046
     - https://github.com/openssl/openssl/commit/665d5254083affde9982efca7c41dd01cacc8774
     - https://github.com/openssl/openssl/commit/810b722f772652ad48042bcc7ab07e3414b11d0f
     - https://github.com/openssl/openssl/commit/b90ff3b1bd33b1c18e6a09936d097c2eddef8873
     - https://github.com/openssl/openssl/commit/e6f912907fc2ec82a0fd07aae55172c5e5e3d90d
+    - https://linux.oracle.com/cve/CVE-2026-42767.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42767
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -3143,6 +3674,7 @@
       alma: 3
       amazon: 3
       azure: 1
+      oracle-oval: 3
       photon: 1
       redhat: 1
       rocky: 3
@@ -3200,11 +3732,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/a2ca7b2d73e0ffc1eae183fe6e1741dac767cb4f
     - https://github.com/openssl/openssl/commit/bbb151a83041705d9d001ed2f9c12f5523e1b54d
     - https://github.com/openssl/openssl/commit/dd68364107a58841c0a2546812518b65d3a23abd
     - https://github.com/openssl/openssl/commit/f04b377be3d821741c86d1f4bf84dee09f3d5c3e
+    - https://linux.oracle.com/cve/CVE-2026-42768.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42768
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -3272,6 +3806,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       photon: 2
       redhat: 1
       rocky: 3
@@ -3329,11 +3864,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/54d0989997e5fc26057009a9782c3441ce3842fb
     - https://github.com/openssl/openssl/commit/777b363b16fcf2153bb3ded39dc3838713667c44
     - https://github.com/openssl/openssl/commit/d35cd473a271bf3ce7bf3d32af53217fb83ae92c
     - https://github.com/openssl/openssl/commit/d531f21c0fe99067a66fc0ff1161ef127f9cd70b
+    - https://linux.oracle.com/cve/CVE-2026-42769.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42769
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -3394,6 +3931,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       photon: 1
       redhat: 1
       rocky: 3
@@ -3451,12 +3989,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/3da5a516cd2635a320ff748503db2cef7c4b0f02
     - https://github.com/openssl/openssl/commit/3ddbb7ab50bd93dfc59cbe08e269a67605aeebdb
     - https://github.com/openssl/openssl/commit/5f452bba2c681423d8fcffd120a19b757ee42e3c
     - https://github.com/openssl/openssl/commit/7fbfde7677ed8808828bf00ff01c937ca04bdda2
     - https://github.com/openssl/openssl/commit/ca2237ab5615641b662183b077f62c08d75e8070
+    - https://linux.oracle.com/cve/CVE-2026-42770.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42770
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -3527,6 +4067,7 @@
       alma: 3
       amazon: 3
       azure: 2
+      oracle-oval: 3
       photon: 2
       redhat: 1
       rocky: 3
@@ -3584,12 +4125,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/25b32cd9d41d2bc01b6abc425bb4baf2c2236fdc
     - https://github.com/openssl/openssl/commit/71e2a5d263518cf5866043bd60ee4994d59e53a3
     - https://github.com/openssl/openssl/commit/7fe3f33a3b3a4c487aa4dcdbc87057f66ffd2b85
     - https://github.com/openssl/openssl/commit/daca0f48e4a69a2892a62262bad59e62a8a76598
     - https://github.com/openssl/openssl/commit/eec5e9bf0d867333b8495e456f5235d225798a68
+    - https://linux.oracle.com/cve/CVE-2026-45446.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-45446
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -3653,6 +4196,7 @@
       alma: 3
       amazon: 3
       azure: 3
+      oracle-oval: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -3710,12 +4254,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/4f8d2bddaa2c8e06f9c33390ee1717059a6e4be6
     - https://github.com/openssl/openssl/commit/80c15faaf78042bbb8654a0e234c50c381732f74
     - https://github.com/openssl/openssl/commit/bd17511070fb39a67bfa19682affb765e706a974
     - https://github.com/openssl/openssl/commit/c332adaced43bcbb85f97410597e951c11ec3083
     - https://github.com/openssl/openssl/commit/d32350ae8ef7426718f5aa9e383d4b51398ee255
+    - https://linux.oracle.com/cve/CVE-2026-7383.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-7383
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -3781,6 +4327,7 @@
       alma: 3
       amazon: 3
       azure: 3
+      oracle-oval: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -3838,12 +4385,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/05b066366842f930fadd9a6e94df98030af431bb
     - https://github.com/openssl/openssl/commit/3d8d5bc1056b2f62da9fede23fedbf47e85187b0
     - https://github.com/openssl/openssl/commit/715349a1d7c6db970e6815dafb90915f07307f98
     - https://github.com/openssl/openssl/commit/77bf00ab13f6ff5e516535432f0328ed70ec0c26
     - https://github.com/openssl/openssl/commit/eecbe330977e8d023aae1ca2d9bdbe983ef3fdc6
+    - https://linux.oracle.com/cve/CVE-2026-9076.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-9076
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -4007,7 +4556,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/3aad5eb7af4de4ee0633c30a8541a54d9bbde63c
     - https://github.com/openssl/openssl/commit/7d4a980c62258c5910cc883936e0c8dbab4d75a8
     - https://github.com/openssl/openssl/commit/9dfd688ad2290fc5075cacbc9bf0c9a93eefed54
@@ -4081,6 +4630,7 @@
       alma: 3
       amazon: 3
       azure: 4
+      oracle-oval: 3
       photon: 4
       redhat: 2
       rocky: 3
@@ -4138,12 +4688,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/03c1f4d45fb963aee7d5833390c507cd290182bc
     - https://github.com/openssl/openssl/commit/439ed7d2c0962ce964482727264668bf277c333f
     - https://github.com/openssl/openssl/commit/7947e6a81eb8776802f159fb6762cb7fcf7e34c7
     - https://github.com/openssl/openssl/commit/9fd97f8cfdc2c0be214998de3b2b55c8edf6c7ac
     - https://github.com/openssl/openssl/commit/d2ca86bcd43e4f17d899f347101766b6107676e0
+    - https://linux.oracle.com/cve/CVE-2026-34182.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-34182
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -4196,6 +4748,7 @@
       alma: 3
       amazon: 3
       azure: 2
+      oracle-oval: 3
       photon: 3
       redhat: 2
       rocky: 3
@@ -4253,11 +4806,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/5b306efb0b3779dfdd0803b4afc9d08c91f11517
     - https://github.com/openssl/openssl/commit/7d06955ebe0ecf8adfd4c1e92018586da47ef9ac
     - https://github.com/openssl/openssl/commit/d2e9efbe4900a373227deb136e8665401404ffac
     - https://github.com/openssl/openssl/commit/fbaa83859c01ad64f497b757aaf51be7d05ed9eb
+    - https://linux.oracle.com/cve/CVE-2026-34183.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-34183
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -4309,6 +4864,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       photon: 3
       redhat: 2
       rocky: 3
@@ -4366,10 +4922,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/5e3ed291b8af0b03d5d3b9e56a1da69a187e9729
     - https://github.com/openssl/openssl/commit/a45a0aba8095682c88ff4fc4a784892b8c6f0677
     - https://github.com/openssl/openssl/commit/bf29a458c1a231eca87e384c62b9c2553fa57a91
+    - https://linux.oracle.com/cve/CVE-2026-42764.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42764
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -4441,6 +4999,7 @@
       alma: 3
       amazon: 3
       azure: 3
+      oracle-oval: 3
       photon: 3
       redhat: 2
       rocky: 3
@@ -4498,12 +5057,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/323f0b6e7d530a4cb4336d50c88cb70f3ac2a451
     - https://github.com/openssl/openssl/commit/787a6dfba81b7b09c1e05ab31396c0cd7c36b3f7
     - https://github.com/openssl/openssl/commit/7ac4715234ee72d9f3c93426a2c08554b5b771af
     - https://github.com/openssl/openssl/commit/843c9b94ca9c2ed248bb30127bb4f3d7af0d607c
     - https://github.com/openssl/openssl/commit/983d54b5cce8d16147548ed1a37892d1720bbab6
+    - https://linux.oracle.com/cve/CVE-2026-45445.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-45445
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -4560,6 +5121,7 @@
       alma: 3
       amazon: 3
       azure: 3
+      oracle-oval: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -4617,12 +5179,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/1c6908e4fa5fa568752221d8eaf561a809751e5d
     - https://github.com/openssl/openssl/commit/cbe418ae978539cf14a398a207dba834c0e93e83
     - https://github.com/openssl/openssl/commit/d93853c42110d6319e3df07842b488cb9f7ac5ff
     - https://github.com/openssl/openssl/commit/da5d62af75f69d6fbf7803743d7c56ac75461e43
     - https://github.com/openssl/openssl/commit/f696c73c3e61b8c502d040af62e690c060908a16
+    - https://linux.oracle.com/cve/CVE-2026-34180.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-34180
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -4673,6 +5237,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -4730,11 +5295,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/0300eb9ddce7a0895bf301a4b0c03a9da2313a0f
     - https://github.com/openssl/openssl/commit/79eb76a937e474bb7610a0a3dc57131dc8dc6610
     - https://github.com/openssl/openssl/commit/85dcbb3abaa4878af5c8fbbe11bce708fcf984a7
     - https://github.com/openssl/openssl/commit/ec36f2417c4ddd8cabce4b4a60a3d7a7365f2d81
+    - https://linux.oracle.com/cve/CVE-2026-34181.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-34181
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -4788,6 +5355,7 @@
       alma: 3
       amazon: 3
       azure: 2
+      oracle-oval: 3
       photon: 2
       redhat: 1
       rocky: 3
@@ -4845,12 +5413,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/056d06c1918fafbb98c1c85a02e4c47cc4e199ce
     - https://github.com/openssl/openssl/commit/12bc26ffb3a2be728c9b86e1cae277de5b33dfa4
     - https://github.com/openssl/openssl/commit/3ff64913615d648cfbb6a6f1cf5529ae7ea829d7
     - https://github.com/openssl/openssl/commit/ab52d88cb5374876d59aee3c91f9e4ccce2b7ce4
     - https://github.com/openssl/openssl/commit/da26f368732b83e40e9d356fe61c3d3aaab6d2e8
+    - https://linux.oracle.com/cve/CVE-2026-42766.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42766
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -4902,6 +5472,7 @@
       alma: 3
       amazon: 3
       azure: 2
+      oracle-oval: 3
       photon: 2
       redhat: 1
       rocky: 3
@@ -4959,12 +5530,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/61a86a8cd73546c9fea916f3d304c1293e05c046
     - https://github.com/openssl/openssl/commit/665d5254083affde9982efca7c41dd01cacc8774
     - https://github.com/openssl/openssl/commit/810b722f772652ad48042bcc7ab07e3414b11d0f
     - https://github.com/openssl/openssl/commit/b90ff3b1bd33b1c18e6a09936d097c2eddef8873
     - https://github.com/openssl/openssl/commit/e6f912907fc2ec82a0fd07aae55172c5e5e3d90d
+    - https://linux.oracle.com/cve/CVE-2026-42767.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42767
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -5052,6 +5625,7 @@
       alma: 3
       amazon: 3
       azure: 1
+      oracle-oval: 3
       photon: 1
       redhat: 1
       rocky: 3
@@ -5109,11 +5683,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/a2ca7b2d73e0ffc1eae183fe6e1741dac767cb4f
     - https://github.com/openssl/openssl/commit/bbb151a83041705d9d001ed2f9c12f5523e1b54d
     - https://github.com/openssl/openssl/commit/dd68364107a58841c0a2546812518b65d3a23abd
     - https://github.com/openssl/openssl/commit/f04b377be3d821741c86d1f4bf84dee09f3d5c3e
+    - https://linux.oracle.com/cve/CVE-2026-42768.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42768
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -5181,6 +5757,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       photon: 2
       redhat: 1
       rocky: 3
@@ -5238,11 +5815,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/54d0989997e5fc26057009a9782c3441ce3842fb
     - https://github.com/openssl/openssl/commit/777b363b16fcf2153bb3ded39dc3838713667c44
     - https://github.com/openssl/openssl/commit/d35cd473a271bf3ce7bf3d32af53217fb83ae92c
     - https://github.com/openssl/openssl/commit/d531f21c0fe99067a66fc0ff1161ef127f9cd70b
+    - https://linux.oracle.com/cve/CVE-2026-42769.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42769
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -5303,6 +5882,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      oracle-oval: 3
       photon: 1
       redhat: 1
       rocky: 3
@@ -5360,12 +5940,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/3da5a516cd2635a320ff748503db2cef7c4b0f02
     - https://github.com/openssl/openssl/commit/3ddbb7ab50bd93dfc59cbe08e269a67605aeebdb
     - https://github.com/openssl/openssl/commit/5f452bba2c681423d8fcffd120a19b757ee42e3c
     - https://github.com/openssl/openssl/commit/7fbfde7677ed8808828bf00ff01c937ca04bdda2
     - https://github.com/openssl/openssl/commit/ca2237ab5615641b662183b077f62c08d75e8070
+    - https://linux.oracle.com/cve/CVE-2026-42770.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42770
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -5436,6 +6018,7 @@
       alma: 3
       amazon: 3
       azure: 2
+      oracle-oval: 3
       photon: 2
       redhat: 1
       rocky: 3
@@ -5493,12 +6076,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/25b32cd9d41d2bc01b6abc425bb4baf2c2236fdc
     - https://github.com/openssl/openssl/commit/71e2a5d263518cf5866043bd60ee4994d59e53a3
     - https://github.com/openssl/openssl/commit/7fe3f33a3b3a4c487aa4dcdbc87057f66ffd2b85
     - https://github.com/openssl/openssl/commit/daca0f48e4a69a2892a62262bad59e62a8a76598
     - https://github.com/openssl/openssl/commit/eec5e9bf0d867333b8495e456f5235d225798a68
+    - https://linux.oracle.com/cve/CVE-2026-45446.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-45446
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -5562,6 +6147,7 @@
       alma: 3
       amazon: 3
       azure: 3
+      oracle-oval: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -5619,12 +6205,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/4f8d2bddaa2c8e06f9c33390ee1717059a6e4be6
     - https://github.com/openssl/openssl/commit/80c15faaf78042bbb8654a0e234c50c381732f74
     - https://github.com/openssl/openssl/commit/bd17511070fb39a67bfa19682affb765e706a974
     - https://github.com/openssl/openssl/commit/c332adaced43bcbb85f97410597e951c11ec3083
     - https://github.com/openssl/openssl/commit/d32350ae8ef7426718f5aa9e383d4b51398ee255
+    - https://linux.oracle.com/cve/CVE-2026-7383.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-7383
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -5690,6 +6278,7 @@
       alma: 3
       amazon: 3
       azure: 3
+      oracle-oval: 3
       photon: 3
       redhat: 1
       rocky: 3
@@ -5747,12 +6336,14 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25239
+    - https://errata.rockylinux.org/RLSA-2026:25237
     - https://github.com/openssl/openssl/commit/05b066366842f930fadd9a6e94df98030af431bb
     - https://github.com/openssl/openssl/commit/3d8d5bc1056b2f62da9fede23fedbf47e85187b0
     - https://github.com/openssl/openssl/commit/715349a1d7c6db970e6815dafb90915f07307f98
     - https://github.com/openssl/openssl/commit/77bf00ab13f6ff5e516535432f0328ed70ec0c26
     - https://github.com/openssl/openssl/commit/eecbe330977e8d023aae1ca2d9bdbe983ef3fdc6
+    - https://linux.oracle.com/cve/CVE-2026-9076.html
+    - https://linux.oracle.com/errata/ELSA-2026-25239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-9076
     - https://openssl-library.org/news/secadv/20260609.txt
     - https://ubuntu.com/security/notices/USN-8414-1
@@ -5809,7 +6400,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437308
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2100
     - https://errata.almalinux.org/9/ALSA-2026-18599.html
-    - https://errata.rockylinux.org/RLSA-2026:18599
+    - https://errata.rockylinux.org/RLSA-2026:18143
     - https://github.com/p11-glue/p11-kit/pull/740
     - https://linux.oracle.com/cve/CVE-2026-2100.html
     - https://linux.oracle.com/errata/ELSA-2026-18599.html
@@ -5844,7 +6435,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       nvd: 3
       oracle-oval: 3
       photon: 3
@@ -5897,7 +6488,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:19064
     - https://github.com/python/cpython/commit/57e88c1cf95e1481b94ae57abe1010469d47a6b4
     - https://github.com/python/cpython/commit/62ceb396fcbe69da1ded3702de586f4072b590dd
     - https://github.com/python/cpython/commit/d16ecc6c3626f0e2cc8f08c309c83934e8a979dd
@@ -5939,7 +6530,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -5997,7 +6588,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:19064
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
     - https://github.com/python/cpython/commit/642865ddf4b232da1f3b1f7abcfa3254c4bfe785
     - https://github.com/python/cpython/commit/af856a7177326ac25d9f66cc6dd28b554d914fee
@@ -6088,7 +6679,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:19064
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
     - https://github.com/python/cpython/commit/876858c9f65d9ab656c7fa639f268ce7856d89dd
@@ -6129,7 +6720,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       nvd: 3
       oracle-oval: 3
       photon: 3
@@ -6182,7 +6773,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:19064
     - https://github.com/python/cpython/commit/57e88c1cf95e1481b94ae57abe1010469d47a6b4
     - https://github.com/python/cpython/commit/62ceb396fcbe69da1ded3702de586f4072b590dd
     - https://github.com/python/cpython/commit/d16ecc6c3626f0e2cc8f08c309c83934e8a979dd
@@ -6224,7 +6815,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -6282,7 +6873,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:19064
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
     - https://github.com/python/cpython/commit/642865ddf4b232da1f3b1f7abcfa3254c4bfe785
     - https://github.com/python/cpython/commit/af856a7177326ac25d9f66cc6dd28b554d914fee
@@ -6373,7 +6964,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:19064
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
     - https://github.com/python/cpython/commit/876858c9f65d9ab656c7fa639f268ce7856d89dd
@@ -6414,7 +7005,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       nvd: 3
       oracle-oval: 3
       photon: 3
@@ -6467,7 +7058,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:19064
     - https://github.com/python/cpython/commit/57e88c1cf95e1481b94ae57abe1010469d47a6b4
     - https://github.com/python/cpython/commit/62ceb396fcbe69da1ded3702de586f4072b590dd
     - https://github.com/python/cpython/commit/d16ecc6c3626f0e2cc8f08c309c83934e8a979dd
@@ -6509,7 +7100,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -6567,7 +7158,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:19064
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
     - https://github.com/python/cpython/commit/642865ddf4b232da1f3b1f7abcfa3254c4bfe785
     - https://github.com/python/cpython/commit/af856a7177326ac25d9f66cc6dd28b554d914fee
@@ -6658,7 +7249,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:19064
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
     - https://github.com/python/cpython/commit/876858c9f65d9ab656c7fa639f268ce7856d89dd
@@ -6699,7 +7290,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       nvd: 3
       oracle-oval: 3
       photon: 3
@@ -6752,7 +7343,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:19064
     - https://github.com/python/cpython/commit/57e88c1cf95e1481b94ae57abe1010469d47a6b4
     - https://github.com/python/cpython/commit/62ceb396fcbe69da1ded3702de586f4072b590dd
     - https://github.com/python/cpython/commit/d16ecc6c3626f0e2cc8f08c309c83934e8a979dd
@@ -6794,7 +7385,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -6852,7 +7443,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:19064
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
     - https://github.com/python/cpython/commit/642865ddf4b232da1f3b1f7abcfa3254c4bfe785
     - https://github.com/python/cpython/commit/af856a7177326ac25d9f66cc6dd28b554d914fee
@@ -6943,7 +7534,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19177
+    - https://errata.rockylinux.org/RLSA-2026:19064
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
     - https://github.com/python/cpython/commit/876858c9f65d9ab656c7fa639f268ce7856d89dd
@@ -6969,21 +7560,29 @@
     Layer:
       Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
       DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56123
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:237f6d9c033ab6049168e86b30dc22c7364da8e91d4f18d38ec4032577e80782
+    Title: socat versions 1.8.0.0 through 1.8.1.1 contain a heap-based buffer ove ...
     Description: socat versions 1.8.0.0 through 1.8.1.1 contain a heap-based buffer overflow vulnerability that allows a malicious SOCKS5 proxy server to overwrite adjacent heap memory by exploiting a sign-extension flaw in the DOMAINNAME reply parser. During connection setup, the domain name length byte is read through a signed char field causing a negative bytes_to_read value that is implicitly converted to size_t, resulting in an unbounded heap write into the 262-byte reply buffer with attacker-controlled size and content.
-    Severity: UNKNOWN
+    Severity: CRITICAL
     CweIDs:
     - CWE-122
+    VendorSeverity:
+      nvd: 4
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
     References:
     - http://www.dest-unreach.org/socat/CHANGES
     - https://www.vulncheck.com/advisories/socat-heap-buffer-overflow-via-socks5-reply-parser
     PublishedDate: '2026-06-25T17:17:01.967Z'
-    LastModifiedDate: '2026-06-25T19:25:23.37Z'
+    LastModifiedDate: '2026-06-26T16:50:16.103Z'
   - VulnerabilityID: CVE-2026-56123
     PkgID: socat-doc@1.8.1.1-r0
     PkgName: socat-doc
@@ -6996,21 +7595,29 @@
     Layer:
       Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
       DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56123
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:a776f7c5a6a7739bca3353176ca2daf15c9a28dcf9ad08ac51bf1314ede32f5a
+    Title: socat versions 1.8.0.0 through 1.8.1.1 contain a heap-based buffer ove ...
     Description: socat versions 1.8.0.0 through 1.8.1.1 contain a heap-based buffer overflow vulnerability that allows a malicious SOCKS5 proxy server to overwrite adjacent heap memory by exploiting a sign-extension flaw in the DOMAINNAME reply parser. During connection setup, the domain name length byte is read through a signed char field causing a negative bytes_to_read value that is implicitly converted to size_t, resulting in an unbounded heap write into the 262-byte reply buffer with attacker-controlled size and content.
-    Severity: UNKNOWN
+    Severity: CRITICAL
     CweIDs:
     - CWE-122
+    VendorSeverity:
+      nvd: 4
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
     References:
     - http://www.dest-unreach.org/socat/CHANGES
     - https://www.vulncheck.com/advisories/socat-heap-buffer-overflow-via-socks5-reply-parser
     PublishedDate: '2026-06-25T17:17:01.967Z'
-    LastModifiedDate: '2026-06-25T19:25:23.37Z'
+    LastModifiedDate: '2026-06-26T16:50:16.103Z'
   - VulnerabilityID: CVE-2026-52858
     PkgID: vim@9.2.0481-r0
     PkgName: vim
@@ -7150,6 +7757,227 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-52860
     PublishedDate: '2026-06-11T19:16:47.773Z'
     LastModifiedDate: '2026-06-17T10:57:53.733Z'
+  - VulnerabilityID: CVE-2026-55895
+    PkgID: vim@9.2.0481-r0
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: c50fb887bd647561
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0663-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55895
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:2ec948b1397b01534383ae365f126a259df9392e48bd27fe075da7379cd35e58
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0663, a  ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0663, a Vimscript code injection vulnerability exists in s:NetrwLocalRmFile() in the netrw plugin (runtime/pack/dist/opt/netrw/autoload/netrw.vim) when deleting a local file from the browser. A filename derived from the buffer's directory listing is interpolated into an Ex command line passed to :execute with only the backslash character escaped, allowing a crafted filename containing a bar (|) to terminate the intended command and execute arbitrary Vimscript, including shell commands via :call system() and :!.  This vulnerability is fixed in 9.2.0663.
+    Severity: HIGH
+    CweIDs:
+    - CWE-78
+    - CWE-94
+    VendorSeverity:
+      nvd: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/55bc757a5d436e59d50fe43f7cda94b118f86cb2
+    - https://github.com/vim/vim/releases/tag/v9.2.0663
+    - https://github.com/vim/vim/security/advisories/GHSA-vhh8-v6wx-hjjh
+    PublishedDate: '2026-06-25T16:16:41.077Z'
+    LastModifiedDate: '2026-06-26T05:16:31.097Z'
+  - VulnerabilityID: CVE-2026-57453
+    PkgID: vim@9.2.0481-r0
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: c50fb887bd647561
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0680-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57453
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:a653d01321a4e702878772c07287aa12fe2c27b909af577c5ccb380484092285
+    Title: Vim is an open source, command line text editor. From 9.1.1784 until 9 ...
+    Description: Vim is an open source, command line text editor. From 9.1.1784 until 9.2.0678, when the bundled zip plugin autoload/zip.vim falls back to PowerShell to browse, read, extract, update or delete entries in a zip archive, it builds the PowerShell command by inserting archive entry names that are quoted only for the shell, not for PowerShell. A crafted entry name can break out of the intended string context and cause PowerShell to execute arbitrary commands with the privileges of the user running Vim, triggered by opening, viewing or extracting the archive. This vulnerability is fixed in 9.2.0678.
+    Severity: HIGH
+    CweIDs:
+    - CWE-77
+    VendorSeverity:
+      nvd: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L
+        V3Score: 7.3
+    References:
+    - https://github.com/vim/vim/commit/b2cc9be119d51212bf0d3f2a99
+    - https://github.com/vim/vim/releases/tag/v9.2.0678
+    - https://github.com/vim/vim/security/advisories/GHSA-x5fg-h5w9-9frf
+    PublishedDate: '2026-06-25T16:16:42.52Z'
+    LastModifiedDate: '2026-06-26T17:16:34.82Z'
+  - VulnerabilityID: CVE-2026-57455
+    PkgID: vim@9.2.0481-r0
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: c50fb887bd647561
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0699-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57455
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:0a0d2b1134e12635d71551b20c040bc4888af596983042c98d9bc4d00bee6922
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0698, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0698, the single-byte branch of spell_soundfold_sofo() in src/spell.c translates a word through a spell file's SOFO (sound-folding) byte map into a caller-owned result buffer. Its copy loop advances the output index ri with no upper bound and terminates only on the input NUL, writing one byte per input byte into the MAXWLEN-element stack buffer the caller provides. A word longer than MAXWLEN, passed to soundfold() (or reached via sound-based spell suggestion) while a SOFO-based spell language is active, therefore writes past the end of that buffer. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0698.
+    Severity: HIGH
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/497f931f85339d175d7f69588dd249e8ccfed41b
+    - https://github.com/vim/vim/releases/tag/v9.2.0698
+    - https://github.com/vim/vim/security/advisories/GHSA-q8mh-6qm3-25g4
+    PublishedDate: '2026-06-25T16:16:42.773Z'
+    LastModifiedDate: '2026-06-26T04:23:21.857Z'
+  - VulnerabilityID: CVE-2026-57456
+    PkgID: vim@9.2.0481-r0
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: c50fb887bd647561
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0699-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57456
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:1f6e08be858a4b7384cfef444f547fe8e90d97d5136081fc776ce3f2e6b0b7e7
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0699, Vi ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0699, Vim's Python omni-completion (runtime/autoload/python3complete.vim and the legacy pythoncomplete.vim) executes reconstructed function and class definitions from the current buffer with exec() as part of populating the completion dictionary. When reconstructing that source, each scope's docstring is inserted verbatim between triple quotes with no escaping, so a hostile buffer can break out of the triple-quoted literal and execute attacker-controlled Python during omni-completion. This vulnerability is fixed in 9.2.0699.
+    Severity: HIGH
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      nvd: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/cce141c42740f122dd8486ae04e21c2a81016ba8
+    - https://github.com/vim/vim/releases/tag/v9.2.0699
+    - https://github.com/vim/vim/security/advisories/GHSA-ppj8-wqjf-6fp3
+    PublishedDate: '2026-06-25T16:16:42.9Z'
+    LastModifiedDate: '2026-06-26T05:16:31.51Z'
+  - VulnerabilityID: CVE-2026-57451
+    PkgID: vim@9.2.0481-r0
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: c50fb887bd647561
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0677-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57451
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:47850cd42de4334ed2c2e2b10ba314ff35b5a92ee81e0af756c6744caa3d8a39
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0670, ge ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0670, get_text_props() in src/textprop.c reads a uint16 property count stored inline after a line's text and returns it as the number of 32-byte textprop_T entries that follow. The only check is a floor that guarantees room for a single entry; the count is never checked against the amount of data actually present. A line that declares a large count while carrying little data causes consumers to read far past the end of the line buffer. Such a line can be delivered through a crafted undo file, leading to a crash. This vulnerability is fixed in 9.2.0670.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      nvd: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
+        V3Score: 6.1
+    References:
+    - https://github.com/vim/vim/commit/b2338ca90643e2f01ecb6547c1172716aaec4f79
+    - https://github.com/vim/vim/releases/tag/v9.2.0670
+    - https://github.com/vim/vim/security/advisories/GHSA-f36c-2qcp-7gpw
+    PublishedDate: '2026-06-25T16:16:42.263Z'
+    LastModifiedDate: '2026-06-26T04:11:55.71Z'
+  - VulnerabilityID: CVE-2026-57454
+    PkgID: vim@9.2.0481-r0
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: c50fb887bd647561
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0680-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57454
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:19cf5078268bbe87c197128c649c4ee9badf0eb47bb9f77f8f3b490e0645fb7b
+    Title: 'vim: Vim: Out-of-bounds Read with Text Properties'
+    Description: Vim is an open source, command line text editor. From 9.2.0320 until 9.2.0679, a crafted undo or swap file can store a virtual-text property whose offset and length point outside the line's property data. When Vim restores or displays such a line it converts the offset into a pointer and reads the virtual text without bounds checking, causing an out-of-bounds read that can crash Vim or disclose adjacent heap memory. This vulnerability is fixed in 9.2.0679.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-57454
+    - https://github.com/vim/vim/commit/b3faeecc976d3031d7c0675623516ec60c30f949
+    - https://github.com/vim/vim/releases/tag/v9.2.0679
+    - https://github.com/vim/vim/security/advisories/GHSA-ww8h-47xp-hp4w
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-57454
+    - https://www.cve.org/CVERecord?id=CVE-2026-57454
+    PublishedDate: '2026-06-25T16:16:42.647Z'
+    LastModifiedDate: '2026-06-26T19:16:45.077Z'
   - VulnerabilityID: CVE-2026-55892
     PkgID: vim@9.2.0481-r0
     PkgName: vim
@@ -7178,66 +8006,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0662
     - https://github.com/vim/vim/security/advisories/GHSA-qm9w-fmpj-879h
     PublishedDate: '2026-06-25T16:16:40.69Z'
-    LastModifiedDate: '2026-06-25T16:27:02.61Z'
-  - VulnerabilityID: CVE-2026-55895
-    PkgID: vim@9.2.0481-r0
-    PkgName: vim
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: c50fb887bd647561
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0663-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55895
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:2ec948b1397b01534383ae365f126a259df9392e48bd27fe075da7379cd35e58
-    Title: Vim is an open source, command line text editor. Prior to 9.2.0663, a  ...
-    Description: Vim is an open source, command line text editor. Prior to 9.2.0663, a Vimscript code injection vulnerability exists in s:NetrwLocalRmFile() in the netrw plugin (runtime/pack/dist/opt/netrw/autoload/netrw.vim) when deleting a local file from the browser. A filename derived from the buffer's directory listing is interpolated into an Ex command line passed to :execute with only the backslash character escaped, allowing a crafted filename containing a bar (|) to terminate the intended command and execute arbitrary Vimscript, including shell commands via :call system() and :!.  This vulnerability is fixed in 9.2.0663.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-78
-    - CWE-94
-    References:
-    - https://github.com/vim/vim/commit/55bc757a5d436e59d50fe43f7cda94b118f86cb2
-    - https://github.com/vim/vim/releases/tag/v9.2.0663
-    - https://github.com/vim/vim/security/advisories/GHSA-vhh8-v6wx-hjjh
-    PublishedDate: '2026-06-25T16:16:41.077Z'
-    LastModifiedDate: '2026-06-25T16:27:02.61Z'
-  - VulnerabilityID: CVE-2026-57451
-    PkgID: vim@9.2.0481-r0
-    PkgName: vim
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: c50fb887bd647561
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0677-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57451
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:47850cd42de4334ed2c2e2b10ba314ff35b5a92ee81e0af756c6744caa3d8a39
-    Title: Vim is an open source, command line text editor. Prior to 9.2.0670, ge ...
-    Description: Vim is an open source, command line text editor. Prior to 9.2.0670, get_text_props() in src/textprop.c reads a uint16 property count stored inline after a line's text and returns it as the number of 32-byte textprop_T entries that follow. The only check is a floor that guarantees room for a single entry; the count is never checked against the amount of data actually present. A line that declares a large count while carrying little data causes consumers to read far past the end of the line buffer. Such a line can be delivered through a crafted undo file, leading to a crash. This vulnerability is fixed in 9.2.0670.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-125
-    References:
-    - https://github.com/vim/vim/commit/b2338ca90643e2f01ecb6547c1172716aaec4f79
-    - https://github.com/vim/vim/releases/tag/v9.2.0670
-    - https://github.com/vim/vim/security/advisories/GHSA-f36c-2qcp-7gpw
-    PublishedDate: '2026-06-25T16:16:42.263Z'
-    LastModifiedDate: '2026-06-25T17:17:02.493Z'
+    LastModifiedDate: '2026-06-26T19:16:44.667Z'
   - VulnerabilityID: CVE-2026-57452
     PkgID: vim@9.2.0481-r0
     PkgName: vim
@@ -7269,123 +8038,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0671
     - https://github.com/vim/vim/security/advisories/GHSA-c4j9-wr9j-4486
     PublishedDate: '2026-06-25T16:16:42.397Z'
-    LastModifiedDate: '2026-06-25T17:17:02.607Z'
-  - VulnerabilityID: CVE-2026-57453
-    PkgID: vim@9.2.0481-r0
-    PkgName: vim
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: c50fb887bd647561
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0680-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57453
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:a653d01321a4e702878772c07287aa12fe2c27b909af577c5ccb380484092285
-    Title: Vim is an open source, command line text editor. From 9.1.1784 until 9 ...
-    Description: Vim is an open source, command line text editor. From 9.1.1784 until 9.2.0678, when the bundled zip plugin autoload/zip.vim falls back to PowerShell to browse, read, extract, update or delete entries in a zip archive, it builds the PowerShell command by inserting archive entry names that are quoted only for the shell, not for PowerShell. A crafted entry name can break out of the intended string context and cause PowerShell to execute arbitrary commands with the privileges of the user running Vim, triggered by opening, viewing or extracting the archive. This vulnerability is fixed in 9.2.0678.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-77
-    References:
-    - https://github.com/vim/vim/commit/b2cc9be119d51212bf0d3f2a99
-    - https://github.com/vim/vim/releases/tag/v9.2.0678
-    - https://github.com/vim/vim/security/advisories/GHSA-x5fg-h5w9-9frf
-    PublishedDate: '2026-06-25T16:16:42.52Z'
-    LastModifiedDate: '2026-06-25T16:27:02.61Z'
-  - VulnerabilityID: CVE-2026-57454
-    PkgID: vim@9.2.0481-r0
-    PkgName: vim
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: c50fb887bd647561
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0680-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57454
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:19cf5078268bbe87c197128c649c4ee9badf0eb47bb9f77f8f3b490e0645fb7b
-    Title: Vim is an open source, command line text editor. From 9.2.0320 until 9 ...
-    Description: Vim is an open source, command line text editor. From 9.2.0320 until 9.2.0679, a crafted undo or swap file can store a virtual-text property whose offset and length point outside the line's property data. When Vim restores or displays such a line it converts the offset into a pointer and reads the virtual text without bounds checking, causing an out-of-bounds read that can crash Vim or disclose adjacent heap memory. This vulnerability is fixed in 9.2.0679.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-125
-    References:
-    - https://github.com/vim/vim/commit/b3faeecc976d3031d7c0675623516ec60c30f949
-    - https://github.com/vim/vim/releases/tag/v9.2.0679
-    - https://github.com/vim/vim/security/advisories/GHSA-ww8h-47xp-hp4w
-    PublishedDate: '2026-06-25T16:16:42.647Z'
-    LastModifiedDate: '2026-06-25T16:27:02.61Z'
-  - VulnerabilityID: CVE-2026-57455
-    PkgID: vim@9.2.0481-r0
-    PkgName: vim
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: c50fb887bd647561
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0699-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57455
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:0a0d2b1134e12635d71551b20c040bc4888af596983042c98d9bc4d00bee6922
-    Title: Vim is an open source, command line text editor. Prior to 9.2.0698, th ...
-    Description: Vim is an open source, command line text editor. Prior to 9.2.0698, the single-byte branch of spell_soundfold_sofo() in src/spell.c translates a word through a spell file's SOFO (sound-folding) byte map into a caller-owned result buffer. Its copy loop advances the output index ri with no upper bound and terminates only on the input NUL, writing one byte per input byte into the MAXWLEN-element stack buffer the caller provides. A word longer than MAXWLEN, passed to soundfold() (or reached via sound-based spell suggestion) while a SOFO-based spell language is active, therefore writes past the end of that buffer. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0698.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-787
-    References:
-    - https://github.com/vim/vim/commit/497f931f85339d175d7f69588dd249e8ccfed41b
-    - https://github.com/vim/vim/releases/tag/v9.2.0698
-    - https://github.com/vim/vim/security/advisories/GHSA-q8mh-6qm3-25g4
-    PublishedDate: '2026-06-25T16:16:42.773Z'
-    LastModifiedDate: '2026-06-26T00:16:54.907Z'
-  - VulnerabilityID: CVE-2026-57456
-    PkgID: vim@9.2.0481-r0
-    PkgName: vim
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: c50fb887bd647561
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0699-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57456
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:1f6e08be858a4b7384cfef444f547fe8e90d97d5136081fc776ce3f2e6b0b7e7
-    Title: Vim is an open source, command line text editor. Prior to 9.2.0699, Vi ...
-    Description: Vim is an open source, command line text editor. Prior to 9.2.0699, Vim's Python omni-completion (runtime/autoload/python3complete.vim and the legacy pythoncomplete.vim) executes reconstructed function and class definitions from the current buffer with exec() as part of populating the completion dictionary. When reconstructing that source, each scope's docstring is inserted verbatim between triple quotes with no escaping, so a hostile buffer can break out of the triple-quoted literal and execute attacker-controlled Python during omni-completion. This vulnerability is fixed in 9.2.0699.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-94
-    References:
-    - https://github.com/vim/vim/commit/cce141c42740f122dd8486ae04e21c2a81016ba8
-    - https://github.com/vim/vim/releases/tag/v9.2.0699
-    - https://github.com/vim/vim/security/advisories/GHSA-ppj8-wqjf-6fp3
-    PublishedDate: '2026-06-25T16:16:42.9Z'
-    LastModifiedDate: '2026-06-25T19:16:45.803Z'
+    LastModifiedDate: '2026-06-26T04:12:32.483Z'
   - VulnerabilityID: CVE-2026-52858
     PkgID: vim-common@9.2.0481-r0
     PkgName: vim-common
@@ -7525,6 +8178,227 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-52860
     PublishedDate: '2026-06-11T19:16:47.773Z'
     LastModifiedDate: '2026-06-17T10:57:53.733Z'
+  - VulnerabilityID: CVE-2026-55895
+    PkgID: vim-common@9.2.0481-r0
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: c697e713a1220c37
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0663-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55895
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:00d839a62f7c4282127c69ea7f28a49f610479ce972fc880d256fda96d3c52d7
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0663, a  ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0663, a Vimscript code injection vulnerability exists in s:NetrwLocalRmFile() in the netrw plugin (runtime/pack/dist/opt/netrw/autoload/netrw.vim) when deleting a local file from the browser. A filename derived from the buffer's directory listing is interpolated into an Ex command line passed to :execute with only the backslash character escaped, allowing a crafted filename containing a bar (|) to terminate the intended command and execute arbitrary Vimscript, including shell commands via :call system() and :!.  This vulnerability is fixed in 9.2.0663.
+    Severity: HIGH
+    CweIDs:
+    - CWE-78
+    - CWE-94
+    VendorSeverity:
+      nvd: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/55bc757a5d436e59d50fe43f7cda94b118f86cb2
+    - https://github.com/vim/vim/releases/tag/v9.2.0663
+    - https://github.com/vim/vim/security/advisories/GHSA-vhh8-v6wx-hjjh
+    PublishedDate: '2026-06-25T16:16:41.077Z'
+    LastModifiedDate: '2026-06-26T05:16:31.097Z'
+  - VulnerabilityID: CVE-2026-57453
+    PkgID: vim-common@9.2.0481-r0
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: c697e713a1220c37
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0680-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57453
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:68c8222040eb31080f7bfac0a8c542cd85c280c8d6742a0620c194817e24cc1a
+    Title: Vim is an open source, command line text editor. From 9.1.1784 until 9 ...
+    Description: Vim is an open source, command line text editor. From 9.1.1784 until 9.2.0678, when the bundled zip plugin autoload/zip.vim falls back to PowerShell to browse, read, extract, update or delete entries in a zip archive, it builds the PowerShell command by inserting archive entry names that are quoted only for the shell, not for PowerShell. A crafted entry name can break out of the intended string context and cause PowerShell to execute arbitrary commands with the privileges of the user running Vim, triggered by opening, viewing or extracting the archive. This vulnerability is fixed in 9.2.0678.
+    Severity: HIGH
+    CweIDs:
+    - CWE-77
+    VendorSeverity:
+      nvd: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L
+        V3Score: 7.3
+    References:
+    - https://github.com/vim/vim/commit/b2cc9be119d51212bf0d3f2a99
+    - https://github.com/vim/vim/releases/tag/v9.2.0678
+    - https://github.com/vim/vim/security/advisories/GHSA-x5fg-h5w9-9frf
+    PublishedDate: '2026-06-25T16:16:42.52Z'
+    LastModifiedDate: '2026-06-26T17:16:34.82Z'
+  - VulnerabilityID: CVE-2026-57455
+    PkgID: vim-common@9.2.0481-r0
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: c697e713a1220c37
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0699-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57455
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:0a50a7c7f7aeb93e7d7aab6c5e4336e960f30ebc6e468eb70c8c29488205ccba
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0698, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0698, the single-byte branch of spell_soundfold_sofo() in src/spell.c translates a word through a spell file's SOFO (sound-folding) byte map into a caller-owned result buffer. Its copy loop advances the output index ri with no upper bound and terminates only on the input NUL, writing one byte per input byte into the MAXWLEN-element stack buffer the caller provides. A word longer than MAXWLEN, passed to soundfold() (or reached via sound-based spell suggestion) while a SOFO-based spell language is active, therefore writes past the end of that buffer. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0698.
+    Severity: HIGH
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/497f931f85339d175d7f69588dd249e8ccfed41b
+    - https://github.com/vim/vim/releases/tag/v9.2.0698
+    - https://github.com/vim/vim/security/advisories/GHSA-q8mh-6qm3-25g4
+    PublishedDate: '2026-06-25T16:16:42.773Z'
+    LastModifiedDate: '2026-06-26T04:23:21.857Z'
+  - VulnerabilityID: CVE-2026-57456
+    PkgID: vim-common@9.2.0481-r0
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: c697e713a1220c37
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0699-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57456
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:4fad352602e7a99be763d9ed0f090f29ff209134966ef3ea019c96be17da7497
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0699, Vi ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0699, Vim's Python omni-completion (runtime/autoload/python3complete.vim and the legacy pythoncomplete.vim) executes reconstructed function and class definitions from the current buffer with exec() as part of populating the completion dictionary. When reconstructing that source, each scope's docstring is inserted verbatim between triple quotes with no escaping, so a hostile buffer can break out of the triple-quoted literal and execute attacker-controlled Python during omni-completion. This vulnerability is fixed in 9.2.0699.
+    Severity: HIGH
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      nvd: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/cce141c42740f122dd8486ae04e21c2a81016ba8
+    - https://github.com/vim/vim/releases/tag/v9.2.0699
+    - https://github.com/vim/vim/security/advisories/GHSA-ppj8-wqjf-6fp3
+    PublishedDate: '2026-06-25T16:16:42.9Z'
+    LastModifiedDate: '2026-06-26T05:16:31.51Z'
+  - VulnerabilityID: CVE-2026-57451
+    PkgID: vim-common@9.2.0481-r0
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: c697e713a1220c37
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0677-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57451
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:bb8ce352cf211647d6483774a66fad1d19749ca9b60600c77bf798f7f54f3e9a
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0670, ge ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0670, get_text_props() in src/textprop.c reads a uint16 property count stored inline after a line's text and returns it as the number of 32-byte textprop_T entries that follow. The only check is a floor that guarantees room for a single entry; the count is never checked against the amount of data actually present. A line that declares a large count while carrying little data causes consumers to read far past the end of the line buffer. Such a line can be delivered through a crafted undo file, leading to a crash. This vulnerability is fixed in 9.2.0670.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      nvd: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
+        V3Score: 6.1
+    References:
+    - https://github.com/vim/vim/commit/b2338ca90643e2f01ecb6547c1172716aaec4f79
+    - https://github.com/vim/vim/releases/tag/v9.2.0670
+    - https://github.com/vim/vim/security/advisories/GHSA-f36c-2qcp-7gpw
+    PublishedDate: '2026-06-25T16:16:42.263Z'
+    LastModifiedDate: '2026-06-26T04:11:55.71Z'
+  - VulnerabilityID: CVE-2026-57454
+    PkgID: vim-common@9.2.0481-r0
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: c697e713a1220c37
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0680-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57454
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:536265de84c520779ebe478953aa4ea7c928589922f1211b811ad5a21b78ee56
+    Title: 'vim: Vim: Out-of-bounds Read with Text Properties'
+    Description: Vim is an open source, command line text editor. From 9.2.0320 until 9.2.0679, a crafted undo or swap file can store a virtual-text property whose offset and length point outside the line's property data. When Vim restores or displays such a line it converts the offset into a pointer and reads the virtual text without bounds checking, causing an out-of-bounds read that can crash Vim or disclose adjacent heap memory. This vulnerability is fixed in 9.2.0679.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-57454
+    - https://github.com/vim/vim/commit/b3faeecc976d3031d7c0675623516ec60c30f949
+    - https://github.com/vim/vim/releases/tag/v9.2.0679
+    - https://github.com/vim/vim/security/advisories/GHSA-ww8h-47xp-hp4w
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-57454
+    - https://www.cve.org/CVERecord?id=CVE-2026-57454
+    PublishedDate: '2026-06-25T16:16:42.647Z'
+    LastModifiedDate: '2026-06-26T19:16:45.077Z'
   - VulnerabilityID: CVE-2026-55892
     PkgID: vim-common@9.2.0481-r0
     PkgName: vim-common
@@ -7553,66 +8427,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0662
     - https://github.com/vim/vim/security/advisories/GHSA-qm9w-fmpj-879h
     PublishedDate: '2026-06-25T16:16:40.69Z'
-    LastModifiedDate: '2026-06-25T16:27:02.61Z'
-  - VulnerabilityID: CVE-2026-55895
-    PkgID: vim-common@9.2.0481-r0
-    PkgName: vim-common
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: c697e713a1220c37
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0663-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55895
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:00d839a62f7c4282127c69ea7f28a49f610479ce972fc880d256fda96d3c52d7
-    Title: Vim is an open source, command line text editor. Prior to 9.2.0663, a  ...
-    Description: Vim is an open source, command line text editor. Prior to 9.2.0663, a Vimscript code injection vulnerability exists in s:NetrwLocalRmFile() in the netrw plugin (runtime/pack/dist/opt/netrw/autoload/netrw.vim) when deleting a local file from the browser. A filename derived from the buffer's directory listing is interpolated into an Ex command line passed to :execute with only the backslash character escaped, allowing a crafted filename containing a bar (|) to terminate the intended command and execute arbitrary Vimscript, including shell commands via :call system() and :!.  This vulnerability is fixed in 9.2.0663.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-78
-    - CWE-94
-    References:
-    - https://github.com/vim/vim/commit/55bc757a5d436e59d50fe43f7cda94b118f86cb2
-    - https://github.com/vim/vim/releases/tag/v9.2.0663
-    - https://github.com/vim/vim/security/advisories/GHSA-vhh8-v6wx-hjjh
-    PublishedDate: '2026-06-25T16:16:41.077Z'
-    LastModifiedDate: '2026-06-25T16:27:02.61Z'
-  - VulnerabilityID: CVE-2026-57451
-    PkgID: vim-common@9.2.0481-r0
-    PkgName: vim-common
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: c697e713a1220c37
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0677-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57451
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:bb8ce352cf211647d6483774a66fad1d19749ca9b60600c77bf798f7f54f3e9a
-    Title: Vim is an open source, command line text editor. Prior to 9.2.0670, ge ...
-    Description: Vim is an open source, command line text editor. Prior to 9.2.0670, get_text_props() in src/textprop.c reads a uint16 property count stored inline after a line's text and returns it as the number of 32-byte textprop_T entries that follow. The only check is a floor that guarantees room for a single entry; the count is never checked against the amount of data actually present. A line that declares a large count while carrying little data causes consumers to read far past the end of the line buffer. Such a line can be delivered through a crafted undo file, leading to a crash. This vulnerability is fixed in 9.2.0670.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-125
-    References:
-    - https://github.com/vim/vim/commit/b2338ca90643e2f01ecb6547c1172716aaec4f79
-    - https://github.com/vim/vim/releases/tag/v9.2.0670
-    - https://github.com/vim/vim/security/advisories/GHSA-f36c-2qcp-7gpw
-    PublishedDate: '2026-06-25T16:16:42.263Z'
-    LastModifiedDate: '2026-06-25T17:17:02.493Z'
+    LastModifiedDate: '2026-06-26T19:16:44.667Z'
   - VulnerabilityID: CVE-2026-57452
     PkgID: vim-common@9.2.0481-r0
     PkgName: vim-common
@@ -7644,123 +8459,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0671
     - https://github.com/vim/vim/security/advisories/GHSA-c4j9-wr9j-4486
     PublishedDate: '2026-06-25T16:16:42.397Z'
-    LastModifiedDate: '2026-06-25T17:17:02.607Z'
-  - VulnerabilityID: CVE-2026-57453
-    PkgID: vim-common@9.2.0481-r0
-    PkgName: vim-common
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: c697e713a1220c37
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0680-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57453
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:68c8222040eb31080f7bfac0a8c542cd85c280c8d6742a0620c194817e24cc1a
-    Title: Vim is an open source, command line text editor. From 9.1.1784 until 9 ...
-    Description: Vim is an open source, command line text editor. From 9.1.1784 until 9.2.0678, when the bundled zip plugin autoload/zip.vim falls back to PowerShell to browse, read, extract, update or delete entries in a zip archive, it builds the PowerShell command by inserting archive entry names that are quoted only for the shell, not for PowerShell. A crafted entry name can break out of the intended string context and cause PowerShell to execute arbitrary commands with the privileges of the user running Vim, triggered by opening, viewing or extracting the archive. This vulnerability is fixed in 9.2.0678.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-77
-    References:
-    - https://github.com/vim/vim/commit/b2cc9be119d51212bf0d3f2a99
-    - https://github.com/vim/vim/releases/tag/v9.2.0678
-    - https://github.com/vim/vim/security/advisories/GHSA-x5fg-h5w9-9frf
-    PublishedDate: '2026-06-25T16:16:42.52Z'
-    LastModifiedDate: '2026-06-25T16:27:02.61Z'
-  - VulnerabilityID: CVE-2026-57454
-    PkgID: vim-common@9.2.0481-r0
-    PkgName: vim-common
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: c697e713a1220c37
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0680-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57454
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:536265de84c520779ebe478953aa4ea7c928589922f1211b811ad5a21b78ee56
-    Title: Vim is an open source, command line text editor. From 9.2.0320 until 9 ...
-    Description: Vim is an open source, command line text editor. From 9.2.0320 until 9.2.0679, a crafted undo or swap file can store a virtual-text property whose offset and length point outside the line's property data. When Vim restores or displays such a line it converts the offset into a pointer and reads the virtual text without bounds checking, causing an out-of-bounds read that can crash Vim or disclose adjacent heap memory. This vulnerability is fixed in 9.2.0679.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-125
-    References:
-    - https://github.com/vim/vim/commit/b3faeecc976d3031d7c0675623516ec60c30f949
-    - https://github.com/vim/vim/releases/tag/v9.2.0679
-    - https://github.com/vim/vim/security/advisories/GHSA-ww8h-47xp-hp4w
-    PublishedDate: '2026-06-25T16:16:42.647Z'
-    LastModifiedDate: '2026-06-25T16:27:02.61Z'
-  - VulnerabilityID: CVE-2026-57455
-    PkgID: vim-common@9.2.0481-r0
-    PkgName: vim-common
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: c697e713a1220c37
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0699-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57455
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:0a50a7c7f7aeb93e7d7aab6c5e4336e960f30ebc6e468eb70c8c29488205ccba
-    Title: Vim is an open source, command line text editor. Prior to 9.2.0698, th ...
-    Description: Vim is an open source, command line text editor. Prior to 9.2.0698, the single-byte branch of spell_soundfold_sofo() in src/spell.c translates a word through a spell file's SOFO (sound-folding) byte map into a caller-owned result buffer. Its copy loop advances the output index ri with no upper bound and terminates only on the input NUL, writing one byte per input byte into the MAXWLEN-element stack buffer the caller provides. A word longer than MAXWLEN, passed to soundfold() (or reached via sound-based spell suggestion) while a SOFO-based spell language is active, therefore writes past the end of that buffer. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0698.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-787
-    References:
-    - https://github.com/vim/vim/commit/497f931f85339d175d7f69588dd249e8ccfed41b
-    - https://github.com/vim/vim/releases/tag/v9.2.0698
-    - https://github.com/vim/vim/security/advisories/GHSA-q8mh-6qm3-25g4
-    PublishedDate: '2026-06-25T16:16:42.773Z'
-    LastModifiedDate: '2026-06-26T00:16:54.907Z'
-  - VulnerabilityID: CVE-2026-57456
-    PkgID: vim-common@9.2.0481-r0
-    PkgName: vim-common
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: c697e713a1220c37
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0699-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57456
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:4fad352602e7a99be763d9ed0f090f29ff209134966ef3ea019c96be17da7497
-    Title: Vim is an open source, command line text editor. Prior to 9.2.0699, Vi ...
-    Description: Vim is an open source, command line text editor. Prior to 9.2.0699, Vim's Python omni-completion (runtime/autoload/python3complete.vim and the legacy pythoncomplete.vim) executes reconstructed function and class definitions from the current buffer with exec() as part of populating the completion dictionary. When reconstructing that source, each scope's docstring is inserted verbatim between triple quotes with no escaping, so a hostile buffer can break out of the triple-quoted literal and execute attacker-controlled Python during omni-completion. This vulnerability is fixed in 9.2.0699.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-94
-    References:
-    - https://github.com/vim/vim/commit/cce141c42740f122dd8486ae04e21c2a81016ba8
-    - https://github.com/vim/vim/releases/tag/v9.2.0699
-    - https://github.com/vim/vim/security/advisories/GHSA-ppj8-wqjf-6fp3
-    PublishedDate: '2026-06-25T16:16:42.9Z'
-    LastModifiedDate: '2026-06-25T19:16:45.803Z'
+    LastModifiedDate: '2026-06-26T04:12:32.483Z'
   - VulnerabilityID: CVE-2026-52858
     PkgID: xxd@9.2.0481-r0
     PkgName: xxd
@@ -7900,6 +8599,227 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-52860
     PublishedDate: '2026-06-11T19:16:47.773Z'
     LastModifiedDate: '2026-06-17T10:57:53.733Z'
+  - VulnerabilityID: CVE-2026-55895
+    PkgID: xxd@9.2.0481-r0
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9bf80ee0923e789f
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0663-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55895
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:2cf851071e9b4a06d752d33df1898e01cae224de50eb33ddc6515ed214a1cd61
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0663, a  ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0663, a Vimscript code injection vulnerability exists in s:NetrwLocalRmFile() in the netrw plugin (runtime/pack/dist/opt/netrw/autoload/netrw.vim) when deleting a local file from the browser. A filename derived from the buffer's directory listing is interpolated into an Ex command line passed to :execute with only the backslash character escaped, allowing a crafted filename containing a bar (|) to terminate the intended command and execute arbitrary Vimscript, including shell commands via :call system() and :!.  This vulnerability is fixed in 9.2.0663.
+    Severity: HIGH
+    CweIDs:
+    - CWE-78
+    - CWE-94
+    VendorSeverity:
+      nvd: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/55bc757a5d436e59d50fe43f7cda94b118f86cb2
+    - https://github.com/vim/vim/releases/tag/v9.2.0663
+    - https://github.com/vim/vim/security/advisories/GHSA-vhh8-v6wx-hjjh
+    PublishedDate: '2026-06-25T16:16:41.077Z'
+    LastModifiedDate: '2026-06-26T05:16:31.097Z'
+  - VulnerabilityID: CVE-2026-57453
+    PkgID: xxd@9.2.0481-r0
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9bf80ee0923e789f
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0680-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57453
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:65ed4a93bb642c75984ef963d1a2bbd00d0c8a3f1daaf69a5954ce60db9a0aac
+    Title: Vim is an open source, command line text editor. From 9.1.1784 until 9 ...
+    Description: Vim is an open source, command line text editor. From 9.1.1784 until 9.2.0678, when the bundled zip plugin autoload/zip.vim falls back to PowerShell to browse, read, extract, update or delete entries in a zip archive, it builds the PowerShell command by inserting archive entry names that are quoted only for the shell, not for PowerShell. A crafted entry name can break out of the intended string context and cause PowerShell to execute arbitrary commands with the privileges of the user running Vim, triggered by opening, viewing or extracting the archive. This vulnerability is fixed in 9.2.0678.
+    Severity: HIGH
+    CweIDs:
+    - CWE-77
+    VendorSeverity:
+      nvd: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L
+        V3Score: 7.3
+    References:
+    - https://github.com/vim/vim/commit/b2cc9be119d51212bf0d3f2a99
+    - https://github.com/vim/vim/releases/tag/v9.2.0678
+    - https://github.com/vim/vim/security/advisories/GHSA-x5fg-h5w9-9frf
+    PublishedDate: '2026-06-25T16:16:42.52Z'
+    LastModifiedDate: '2026-06-26T17:16:34.82Z'
+  - VulnerabilityID: CVE-2026-57455
+    PkgID: xxd@9.2.0481-r0
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9bf80ee0923e789f
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0699-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57455
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:53b78d051e91a42b987f1d5f798db77e3dc4e34c4edda77431132702de56c7e8
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0698, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0698, the single-byte branch of spell_soundfold_sofo() in src/spell.c translates a word through a spell file's SOFO (sound-folding) byte map into a caller-owned result buffer. Its copy loop advances the output index ri with no upper bound and terminates only on the input NUL, writing one byte per input byte into the MAXWLEN-element stack buffer the caller provides. A word longer than MAXWLEN, passed to soundfold() (or reached via sound-based spell suggestion) while a SOFO-based spell language is active, therefore writes past the end of that buffer. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0698.
+    Severity: HIGH
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/497f931f85339d175d7f69588dd249e8ccfed41b
+    - https://github.com/vim/vim/releases/tag/v9.2.0698
+    - https://github.com/vim/vim/security/advisories/GHSA-q8mh-6qm3-25g4
+    PublishedDate: '2026-06-25T16:16:42.773Z'
+    LastModifiedDate: '2026-06-26T04:23:21.857Z'
+  - VulnerabilityID: CVE-2026-57456
+    PkgID: xxd@9.2.0481-r0
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9bf80ee0923e789f
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0699-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57456
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:7371a5a1f29af431c824efe52b017161aa96b3e809561068fe7af16ea7445a2e
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0699, Vi ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0699, Vim's Python omni-completion (runtime/autoload/python3complete.vim and the legacy pythoncomplete.vim) executes reconstructed function and class definitions from the current buffer with exec() as part of populating the completion dictionary. When reconstructing that source, each scope's docstring is inserted verbatim between triple quotes with no escaping, so a hostile buffer can break out of the triple-quoted literal and execute attacker-controlled Python during omni-completion. This vulnerability is fixed in 9.2.0699.
+    Severity: HIGH
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      nvd: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/cce141c42740f122dd8486ae04e21c2a81016ba8
+    - https://github.com/vim/vim/releases/tag/v9.2.0699
+    - https://github.com/vim/vim/security/advisories/GHSA-ppj8-wqjf-6fp3
+    PublishedDate: '2026-06-25T16:16:42.9Z'
+    LastModifiedDate: '2026-06-26T05:16:31.51Z'
+  - VulnerabilityID: CVE-2026-57451
+    PkgID: xxd@9.2.0481-r0
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9bf80ee0923e789f
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0677-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57451
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:effadc83c74f86f62023ee92fe4fb5ae921ef939e05a1887db93b3098bc3a915
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0670, ge ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0670, get_text_props() in src/textprop.c reads a uint16 property count stored inline after a line's text and returns it as the number of 32-byte textprop_T entries that follow. The only check is a floor that guarantees room for a single entry; the count is never checked against the amount of data actually present. A line that declares a large count while carrying little data causes consumers to read far past the end of the line buffer. Such a line can be delivered through a crafted undo file, leading to a crash. This vulnerability is fixed in 9.2.0670.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      nvd: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
+        V3Score: 6.1
+    References:
+    - https://github.com/vim/vim/commit/b2338ca90643e2f01ecb6547c1172716aaec4f79
+    - https://github.com/vim/vim/releases/tag/v9.2.0670
+    - https://github.com/vim/vim/security/advisories/GHSA-f36c-2qcp-7gpw
+    PublishedDate: '2026-06-25T16:16:42.263Z'
+    LastModifiedDate: '2026-06-26T04:11:55.71Z'
+  - VulnerabilityID: CVE-2026-57454
+    PkgID: xxd@9.2.0481-r0
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9bf80ee0923e789f
+    InstalledVersion: 9.2.0481-r0
+    FixedVersion: 9.2.0680-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57454
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:6c3e7cc353c0cdf08ef027a46b1ff7057d1e35df30cc310a2ee010074c0b7cb7
+    Title: 'vim: Vim: Out-of-bounds Read with Text Properties'
+    Description: Vim is an open source, command line text editor. From 9.2.0320 until 9.2.0679, a crafted undo or swap file can store a virtual-text property whose offset and length point outside the line's property data. When Vim restores or displays such a line it converts the offset into a pointer and reads the virtual text without bounds checking, causing an out-of-bounds read that can crash Vim or disclose adjacent heap memory. This vulnerability is fixed in 9.2.0679.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-57454
+    - https://github.com/vim/vim/commit/b3faeecc976d3031d7c0675623516ec60c30f949
+    - https://github.com/vim/vim/releases/tag/v9.2.0679
+    - https://github.com/vim/vim/security/advisories/GHSA-ww8h-47xp-hp4w
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-57454
+    - https://www.cve.org/CVERecord?id=CVE-2026-57454
+    PublishedDate: '2026-06-25T16:16:42.647Z'
+    LastModifiedDate: '2026-06-26T19:16:45.077Z'
   - VulnerabilityID: CVE-2026-55892
     PkgID: xxd@9.2.0481-r0
     PkgName: xxd
@@ -7928,66 +8848,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0662
     - https://github.com/vim/vim/security/advisories/GHSA-qm9w-fmpj-879h
     PublishedDate: '2026-06-25T16:16:40.69Z'
-    LastModifiedDate: '2026-06-25T16:27:02.61Z'
-  - VulnerabilityID: CVE-2026-55895
-    PkgID: xxd@9.2.0481-r0
-    PkgName: xxd
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: 9bf80ee0923e789f
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0663-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55895
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:2cf851071e9b4a06d752d33df1898e01cae224de50eb33ddc6515ed214a1cd61
-    Title: Vim is an open source, command line text editor. Prior to 9.2.0663, a  ...
-    Description: Vim is an open source, command line text editor. Prior to 9.2.0663, a Vimscript code injection vulnerability exists in s:NetrwLocalRmFile() in the netrw plugin (runtime/pack/dist/opt/netrw/autoload/netrw.vim) when deleting a local file from the browser. A filename derived from the buffer's directory listing is interpolated into an Ex command line passed to :execute with only the backslash character escaped, allowing a crafted filename containing a bar (|) to terminate the intended command and execute arbitrary Vimscript, including shell commands via :call system() and :!.  This vulnerability is fixed in 9.2.0663.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-78
-    - CWE-94
-    References:
-    - https://github.com/vim/vim/commit/55bc757a5d436e59d50fe43f7cda94b118f86cb2
-    - https://github.com/vim/vim/releases/tag/v9.2.0663
-    - https://github.com/vim/vim/security/advisories/GHSA-vhh8-v6wx-hjjh
-    PublishedDate: '2026-06-25T16:16:41.077Z'
-    LastModifiedDate: '2026-06-25T16:27:02.61Z'
-  - VulnerabilityID: CVE-2026-57451
-    PkgID: xxd@9.2.0481-r0
-    PkgName: xxd
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: 9bf80ee0923e789f
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0677-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57451
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:effadc83c74f86f62023ee92fe4fb5ae921ef939e05a1887db93b3098bc3a915
-    Title: Vim is an open source, command line text editor. Prior to 9.2.0670, ge ...
-    Description: Vim is an open source, command line text editor. Prior to 9.2.0670, get_text_props() in src/textprop.c reads a uint16 property count stored inline after a line's text and returns it as the number of 32-byte textprop_T entries that follow. The only check is a floor that guarantees room for a single entry; the count is never checked against the amount of data actually present. A line that declares a large count while carrying little data causes consumers to read far past the end of the line buffer. Such a line can be delivered through a crafted undo file, leading to a crash. This vulnerability is fixed in 9.2.0670.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-125
-    References:
-    - https://github.com/vim/vim/commit/b2338ca90643e2f01ecb6547c1172716aaec4f79
-    - https://github.com/vim/vim/releases/tag/v9.2.0670
-    - https://github.com/vim/vim/security/advisories/GHSA-f36c-2qcp-7gpw
-    PublishedDate: '2026-06-25T16:16:42.263Z'
-    LastModifiedDate: '2026-06-25T17:17:02.493Z'
+    LastModifiedDate: '2026-06-26T19:16:44.667Z'
   - VulnerabilityID: CVE-2026-57452
     PkgID: xxd@9.2.0481-r0
     PkgName: xxd
@@ -8019,123 +8880,7 @@
     - https://github.com/vim/vim/releases/tag/v9.2.0671
     - https://github.com/vim/vim/security/advisories/GHSA-c4j9-wr9j-4486
     PublishedDate: '2026-06-25T16:16:42.397Z'
-    LastModifiedDate: '2026-06-25T17:17:02.607Z'
-  - VulnerabilityID: CVE-2026-57453
-    PkgID: xxd@9.2.0481-r0
-    PkgName: xxd
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: 9bf80ee0923e789f
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0680-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57453
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:65ed4a93bb642c75984ef963d1a2bbd00d0c8a3f1daaf69a5954ce60db9a0aac
-    Title: Vim is an open source, command line text editor. From 9.1.1784 until 9 ...
-    Description: Vim is an open source, command line text editor. From 9.1.1784 until 9.2.0678, when the bundled zip plugin autoload/zip.vim falls back to PowerShell to browse, read, extract, update or delete entries in a zip archive, it builds the PowerShell command by inserting archive entry names that are quoted only for the shell, not for PowerShell. A crafted entry name can break out of the intended string context and cause PowerShell to execute arbitrary commands with the privileges of the user running Vim, triggered by opening, viewing or extracting the archive. This vulnerability is fixed in 9.2.0678.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-77
-    References:
-    - https://github.com/vim/vim/commit/b2cc9be119d51212bf0d3f2a99
-    - https://github.com/vim/vim/releases/tag/v9.2.0678
-    - https://github.com/vim/vim/security/advisories/GHSA-x5fg-h5w9-9frf
-    PublishedDate: '2026-06-25T16:16:42.52Z'
-    LastModifiedDate: '2026-06-25T16:27:02.61Z'
-  - VulnerabilityID: CVE-2026-57454
-    PkgID: xxd@9.2.0481-r0
-    PkgName: xxd
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: 9bf80ee0923e789f
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0680-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57454
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:6c3e7cc353c0cdf08ef027a46b1ff7057d1e35df30cc310a2ee010074c0b7cb7
-    Title: Vim is an open source, command line text editor. From 9.2.0320 until 9 ...
-    Description: Vim is an open source, command line text editor. From 9.2.0320 until 9.2.0679, a crafted undo or swap file can store a virtual-text property whose offset and length point outside the line's property data. When Vim restores or displays such a line it converts the offset into a pointer and reads the virtual text without bounds checking, causing an out-of-bounds read that can crash Vim or disclose adjacent heap memory. This vulnerability is fixed in 9.2.0679.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-125
-    References:
-    - https://github.com/vim/vim/commit/b3faeecc976d3031d7c0675623516ec60c30f949
-    - https://github.com/vim/vim/releases/tag/v9.2.0679
-    - https://github.com/vim/vim/security/advisories/GHSA-ww8h-47xp-hp4w
-    PublishedDate: '2026-06-25T16:16:42.647Z'
-    LastModifiedDate: '2026-06-25T16:27:02.61Z'
-  - VulnerabilityID: CVE-2026-57455
-    PkgID: xxd@9.2.0481-r0
-    PkgName: xxd
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: 9bf80ee0923e789f
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0699-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57455
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:53b78d051e91a42b987f1d5f798db77e3dc4e34c4edda77431132702de56c7e8
-    Title: Vim is an open source, command line text editor. Prior to 9.2.0698, th ...
-    Description: Vim is an open source, command line text editor. Prior to 9.2.0698, the single-byte branch of spell_soundfold_sofo() in src/spell.c translates a word through a spell file's SOFO (sound-folding) byte map into a caller-owned result buffer. Its copy loop advances the output index ri with no upper bound and terminates only on the input NUL, writing one byte per input byte into the MAXWLEN-element stack buffer the caller provides. A word longer than MAXWLEN, passed to soundfold() (or reached via sound-based spell suggestion) while a SOFO-based spell language is active, therefore writes past the end of that buffer. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0698.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-787
-    References:
-    - https://github.com/vim/vim/commit/497f931f85339d175d7f69588dd249e8ccfed41b
-    - https://github.com/vim/vim/releases/tag/v9.2.0698
-    - https://github.com/vim/vim/security/advisories/GHSA-q8mh-6qm3-25g4
-    PublishedDate: '2026-06-25T16:16:42.773Z'
-    LastModifiedDate: '2026-06-26T00:16:54.907Z'
-  - VulnerabilityID: CVE-2026-57456
-    PkgID: xxd@9.2.0481-r0
-    PkgName: xxd
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: 9bf80ee0923e789f
-    InstalledVersion: 9.2.0481-r0
-    FixedVersion: 9.2.0699-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57456
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:7371a5a1f29af431c824efe52b017161aa96b3e809561068fe7af16ea7445a2e
-    Title: Vim is an open source, command line text editor. Prior to 9.2.0699, Vi ...
-    Description: Vim is an open source, command line text editor. Prior to 9.2.0699, Vim's Python omni-completion (runtime/autoload/python3complete.vim and the legacy pythoncomplete.vim) executes reconstructed function and class definitions from the current buffer with exec() as part of populating the completion dictionary. When reconstructing that source, each scope's docstring is inserted verbatim between triple quotes with no escaping, so a hostile buffer can break out of the triple-quoted literal and execute attacker-controlled Python during omni-completion. This vulnerability is fixed in 9.2.0699.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-94
-    References:
-    - https://github.com/vim/vim/commit/cce141c42740f122dd8486ae04e21c2a81016ba8
-    - https://github.com/vim/vim/releases/tag/v9.2.0699
-    - https://github.com/vim/vim/security/advisories/GHSA-ppj8-wqjf-6fp3
-    PublishedDate: '2026-06-25T16:16:42.9Z'
-    LastModifiedDate: '2026-06-25T19:16:45.803Z'
+    LastModifiedDate: '2026-06-26T04:12:32.483Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
