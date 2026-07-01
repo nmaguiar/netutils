@@ -936,13 +936,19 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:20587
+    - https://access.redhat.com/errata/RHSA-2026:20597
     - https://access.redhat.com/security/cve/CVE-2026-4046
+    - https://bugzilla.redhat.com/2449777
+    - https://bugzilla.redhat.com/2449783
     - https://bugzilla.redhat.com/2453117
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
     - https://bugzilla.redhat.com/show_bug.cgi?id=2453117
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
-    - https://errata.almalinux.org/8/ALSA-2026-20587.html
-    - https://errata.rockylinux.org/RLSA-2026:20587
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
+    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.rockylinux.org/RLSA-2026:20597
     - https://inbox.sourceware.org/libc-announce/76814edf-cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u
     - https://linux.oracle.com/cve/CVE-2026-4046.html
     - https://linux.oracle.com/errata/ELSA-2026-50291.html
@@ -990,16 +996,19 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19061
+    - https://access.redhat.com/errata/RHSA-2026:20597
     - https://access.redhat.com/security/cve/CVE-2026-4437
     - https://bugzilla.redhat.com/2449777
     - https://bugzilla.redhat.com/2449783
+    - https://bugzilla.redhat.com/2453117
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2453117
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
-    - https://errata.almalinux.org/10/ALSA-2026-19061.html
-    - https://errata.rockylinux.org/RLSA-2026:19061
+    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.rockylinux.org/RLSA-2026:20597
     - https://linux.oracle.com/cve/CVE-2026-4437.html
     - https://linux.oracle.com/errata/ELSA-2026-20597.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4437
@@ -1045,16 +1054,19 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19061
+    - https://access.redhat.com/errata/RHSA-2026:20597
     - https://access.redhat.com/security/cve/CVE-2026-4438
     - https://bugzilla.redhat.com/2449777
     - https://bugzilla.redhat.com/2449783
+    - https://bugzilla.redhat.com/2453117
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2453117
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
-    - https://errata.almalinux.org/10/ALSA-2026-19061.html
-    - https://errata.rockylinux.org/RLSA-2026:19061
+    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.rockylinux.org/RLSA-2026:20597
     - https://linux.oracle.com/cve/CVE-2026-4438.html
     - https://linux.oracle.com/errata/ELSA-2026-20597.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4438
@@ -1188,13 +1200,19 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:20587
+    - https://access.redhat.com/errata/RHSA-2026:20597
     - https://access.redhat.com/security/cve/CVE-2026-4046
+    - https://bugzilla.redhat.com/2449777
+    - https://bugzilla.redhat.com/2449783
     - https://bugzilla.redhat.com/2453117
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
     - https://bugzilla.redhat.com/show_bug.cgi?id=2453117
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
-    - https://errata.almalinux.org/8/ALSA-2026-20587.html
-    - https://errata.rockylinux.org/RLSA-2026:20587
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
+    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.rockylinux.org/RLSA-2026:20597
     - https://inbox.sourceware.org/libc-announce/76814edf-cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u
     - https://linux.oracle.com/cve/CVE-2026-4046.html
     - https://linux.oracle.com/errata/ELSA-2026-50291.html
@@ -1242,16 +1260,19 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19061
+    - https://access.redhat.com/errata/RHSA-2026:20597
     - https://access.redhat.com/security/cve/CVE-2026-4437
     - https://bugzilla.redhat.com/2449777
     - https://bugzilla.redhat.com/2449783
+    - https://bugzilla.redhat.com/2453117
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2453117
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
-    - https://errata.almalinux.org/10/ALSA-2026-19061.html
-    - https://errata.rockylinux.org/RLSA-2026:19061
+    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.rockylinux.org/RLSA-2026:20597
     - https://linux.oracle.com/cve/CVE-2026-4437.html
     - https://linux.oracle.com/errata/ELSA-2026-20597.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4437
@@ -1297,16 +1318,19 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19061
+    - https://access.redhat.com/errata/RHSA-2026:20597
     - https://access.redhat.com/security/cve/CVE-2026-4438
     - https://bugzilla.redhat.com/2449777
     - https://bugzilla.redhat.com/2449783
+    - https://bugzilla.redhat.com/2453117
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2453117
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
-    - https://errata.almalinux.org/10/ALSA-2026-19061.html
-    - https://errata.rockylinux.org/RLSA-2026:19061
+    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.rockylinux.org/RLSA-2026:20597
     - https://linux.oracle.com/cve/CVE-2026-4438.html
     - https://linux.oracle.com/errata/ELSA-2026-20597.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4438
@@ -1440,13 +1464,19 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:20587
+    - https://access.redhat.com/errata/RHSA-2026:20597
     - https://access.redhat.com/security/cve/CVE-2026-4046
+    - https://bugzilla.redhat.com/2449777
+    - https://bugzilla.redhat.com/2449783
     - https://bugzilla.redhat.com/2453117
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
     - https://bugzilla.redhat.com/show_bug.cgi?id=2453117
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
-    - https://errata.almalinux.org/8/ALSA-2026-20587.html
-    - https://errata.rockylinux.org/RLSA-2026:20587
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
+    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.rockylinux.org/RLSA-2026:20597
     - https://inbox.sourceware.org/libc-announce/76814edf-cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u
     - https://linux.oracle.com/cve/CVE-2026-4046.html
     - https://linux.oracle.com/errata/ELSA-2026-50291.html
@@ -1494,16 +1524,19 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19061
+    - https://access.redhat.com/errata/RHSA-2026:20597
     - https://access.redhat.com/security/cve/CVE-2026-4437
     - https://bugzilla.redhat.com/2449777
     - https://bugzilla.redhat.com/2449783
+    - https://bugzilla.redhat.com/2453117
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2453117
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
-    - https://errata.almalinux.org/10/ALSA-2026-19061.html
-    - https://errata.rockylinux.org/RLSA-2026:19061
+    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.rockylinux.org/RLSA-2026:20597
     - https://linux.oracle.com/cve/CVE-2026-4437.html
     - https://linux.oracle.com/errata/ELSA-2026-20597.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4437
@@ -1549,16 +1582,19 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19061
+    - https://access.redhat.com/errata/RHSA-2026:20597
     - https://access.redhat.com/security/cve/CVE-2026-4438
     - https://bugzilla.redhat.com/2449777
     - https://bugzilla.redhat.com/2449783
+    - https://bugzilla.redhat.com/2453117
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2453117
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
-    - https://errata.almalinux.org/10/ALSA-2026-19061.html
-    - https://errata.rockylinux.org/RLSA-2026:19061
+    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.rockylinux.org/RLSA-2026:20597
     - https://linux.oracle.com/cve/CVE-2026-4438.html
     - https://linux.oracle.com/errata/ELSA-2026-20597.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4438
@@ -2995,15 +3031,22 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:f4fa662cb58e9e1e53de365f7968b89b7d3ca06bc94750353d2ab4143cc96c0f
-    Title: libheif is a HEIF and AVIF file format decoder and encoder. Prior to v ...
+    Title: 'libheif: libheif: Denial of Service via crafted HEIF file due to integer wrap-around'
     Description: libheif is a HEIF and AVIF file format decoder and encoder. Prior to version 1.22.1, the uncompressed HEIF decoder validates explicit icef compressed-unit offsets using unit_offset + unit_size. Because the addition can wrap, a crafted HEIF file can pass the range check and then construct a vector from iterators outside the compressed item buffer, producing an out-of-bounds heap read and crash. Version 1.22.1 patches the issue.
     Severity: MEDIUM
     CweIDs:
     - CWE-125
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-49271
     - https://github.com/strukturag/libheif/security/advisories/GHSA-r7qj-cg5r-r6vf
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-49271
     - https://ubuntu.com/security/notices/USN-8479-1
     - https://www.cve.org/CVERecord?id=CVE-2026-49271
     PublishedDate: '2026-06-19T18:16:19.353Z'
@@ -3055,15 +3098,22 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:abce1424a91b325824005aa6a8add3466046a3c6341f0ffb5c1be8e50ea2efbd
-    Title: libheif is a HEIF and AVIF file format decoder and encoder. Prior to v ...
+    Title: 'libheif: libheif: Denial of Service via crafted HEIF file due to integer wrap-around'
     Description: libheif is a HEIF and AVIF file format decoder and encoder. Prior to version 1.22.1, the uncompressed HEIF decoder validates explicit icef compressed-unit offsets using unit_offset + unit_size. Because the addition can wrap, a crafted HEIF file can pass the range check and then construct a vector from iterators outside the compressed item buffer, producing an out-of-bounds heap read and crash. Version 1.22.1 patches the issue.
     Severity: MEDIUM
     CweIDs:
     - CWE-125
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-49271
     - https://github.com/strukturag/libheif/security/advisories/GHSA-r7qj-cg5r-r6vf
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-49271
     - https://ubuntu.com/security/notices/USN-8479-1
     - https://www.cve.org/CVERecord?id=CVE-2026-49271
     PublishedDate: '2026-06-19T18:16:19.353Z'
@@ -3115,15 +3165,22 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:28de70b60a48d32b87f338e0b74a377294930b9912d0d3a3ab246c8ce9e15eab
-    Title: libheif is a HEIF and AVIF file format decoder and encoder. Prior to v ...
+    Title: 'libheif: libheif: Denial of Service via crafted HEIF file due to integer wrap-around'
     Description: libheif is a HEIF and AVIF file format decoder and encoder. Prior to version 1.22.1, the uncompressed HEIF decoder validates explicit icef compressed-unit offsets using unit_offset + unit_size. Because the addition can wrap, a crafted HEIF file can pass the range check and then construct a vector from iterators outside the compressed item buffer, producing an out-of-bounds heap read and crash. Version 1.22.1 patches the issue.
     Severity: MEDIUM
     CweIDs:
     - CWE-125
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-49271
     - https://github.com/strukturag/libheif/security/advisories/GHSA-r7qj-cg5r-r6vf
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-49271
     - https://ubuntu.com/security/notices/USN-8479-1
     - https://www.cve.org/CVERecord?id=CVE-2026-49271
     PublishedDate: '2026-06-19T18:16:19.353Z'
@@ -3302,6 +3359,43 @@
     - https://www.openwall.com/lists/oss-security/2026/04/08/1
     PublishedDate: '2026-04-10T16:16:33.753Z'
     LastModifiedDate: '2026-06-17T10:44:53.31Z'
+  - VulnerabilityID: CVE-2026-13757
+    PkgID: libp11-kit0@0.26.2-2
+    PkgName: libp11-kit0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libp11-kit0@0.26.2-2?arch=amd64&distro=ubuntu-26.04
+      UID: f30da36e7f9e8d5a
+    InstalledVersion: 0.26.2-2
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-13757
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d9962222e23d4d102f0c53a464e0637f278877857522a0e52394d9624e5ee5aa
+    Title: 'p11-kit: Stack exhaustion via unbounded recursion in RPC attribute parsing'
+    Description: A flaw was found in p11-kit. The RPC message attribute parsing functions p11_rpc_message_get_attribute() and p11_rpc_message_get_attribute_array_value() form a mutually-recursive call chain with no recursion depth limit when processing nested CKA_WRAP_TEMPLATE, CKA_UNWRAP_TEMPLATE, and CKA_DERIVE_TEMPLATE attributes. An unauthenticated attacker with local access to the p11-kit RPC Unix domain socket can send a specially crafted request with deeply nested template attributes, causing stack exhaustion and crashing the p11-kit server process and its dependent services.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-13757
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-13757
+    - https://www.cve.org/CVERecord?id=CVE-2026-13757
+    PublishedDate: '2026-06-29T19:16:40.907Z'
+    LastModifiedDate: '2026-06-29T20:17:33.013Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libpam-systemd@259.5-0ubuntu3
     PkgName: libpam-systemd
@@ -3694,6 +3788,145 @@
     - https://www.libssh.org/security/advisories/libssh-2026-sftp-extensions.txt
     PublishedDate: '2026-03-08T11:15:50.307Z'
     LastModifiedDate: '2026-06-17T10:44:05.853Z'
+  - VulnerabilityID: CVE-2025-15661
+    PkgID: libssh2-1t64@1.11.1-1ubuntu0.26.04.1
+    PkgName: libssh2-1t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh2-1t64@1.11.1-1ubuntu0.26.04.1?arch=amd64&distro=ubuntu-26.04
+      UID: a13a34a338c860e6
+    InstalledVersion: 1.11.1-1ubuntu0.26.04.1
+    FixedVersion: 1.11.1-1ubuntu0.26.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15661
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d6d8320834138cd86b8cf0a30da0984afad3257e4fa7d8a3628fe82623780659
+    Title: 'libssh2: libssh2: Information disclosure and denial of service via crafted SFTP response'
+    Description: libssh2 through 1.11.1, fixed in commit 2dae302, contains an out-of-bounds heap read vulnerability in the sftp_symlink() function in src/sftp.c that allows a malicious SSH server or man-in-the-middle attacker to disclose heap memory contents or cause a crash by sending a crafted SSH_FXP_NAME response. Attackers can supply a link_len value larger than the actual packet data in SSH_FXP_NAME responses for SFTP READLINK and REALPATH operations, triggering a heap buffer over-read of up to target_len minus one bytes due to the missing validation of available packet buffer size before the memcpy operation.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-15661
+    - https://github.com/libssh2/libssh2/commit/2dae3024897e1898d389835151f4e9606227721d
+    - https://github.com/libssh2/libssh2/pull/1705
+    - https://github.com/libssh2/libssh2/pull/1717
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15661
+    - https://ubuntu.com/security/notices/USN-8486-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-15661
+    - https://www.vulncheck.com/advisories/libssh2-heap-buffer-over-read-via-sftp-symlink-in-sftp-c
+    PublishedDate: '2026-06-18T21:16:27.143Z'
+    LastModifiedDate: '2026-06-26T02:35:13.663Z'
+  - VulnerabilityID: CVE-2026-55199
+    PkgID: libssh2-1t64@1.11.1-1ubuntu0.26.04.1
+    PkgName: libssh2-1t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh2-1t64@1.11.1-1ubuntu0.26.04.1?arch=amd64&distro=ubuntu-26.04
+      UID: a13a34a338c860e6
+    InstalledVersion: 1.11.1-1ubuntu0.26.04.1
+    FixedVersion: 1.11.1-1ubuntu0.26.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55199
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:df4b431a239985174c64e2be7ec3d621767a172b5c7c18a1a9381fafcaa3df7f
+    Title: 'libssh2: libssh2: Denial of Service via crafted SSH_MSG_EXT_INFO message'
+    Description: libssh2 through 1.11.1, fixed in commit 1762685, contains a pre-authentication denial of service vulnerability in the SSH_MSG_EXT_INFO handler in src/packet.c that allows a malicious SSH server to cause a client CPU exhaustion loop by sending a crafted extension count value. A malicious server can set nr_extensions to 0xFFFFFFFF during key exchange, causing the client to spin in a tight CPU loop for over 60 seconds because return values from _libssh2_get_string() are unchecked and the session timeout does not apply to CPU-bound loops.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-55199
+    - https://github.com/libssh2/libssh2/commit/17626857d20b3c9a1addfa45979dadcee1cd84a4
+    - https://github.com/libssh2/libssh2/pull/1864
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-55199
+    - https://ubuntu.com/security/notices/USN-8486-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-55199
+    - https://www.vulncheck.com/advisories/libssh2-pre-authentication-dos-via-ssh-msg-ext-info-handler
+    PublishedDate: '2026-06-17T20:17:28.52Z'
+    LastModifiedDate: '2026-06-26T19:16:37.353Z'
+  - VulnerabilityID: CVE-2026-55200
+    PkgID: libssh2-1t64@1.11.1-1ubuntu0.26.04.1
+    PkgName: libssh2-1t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh2-1t64@1.11.1-1ubuntu0.26.04.1?arch=amd64&distro=ubuntu-26.04
+      UID: a13a34a338c860e6
+    InstalledVersion: 1.11.1-1ubuntu0.26.04.1
+    FixedVersion: 1.11.1-1ubuntu0.26.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55200
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:05e7f7d2d4b0a0db102e6168ab47a0fcf9232fdb1382843442a6e1ae5b0d0998
+    Title: 'libssh2: libssh2 - Out-of-Bounds Write via Unchecked packet_length in transport.c'
+    Description: libssh2 through 1.11.1, fixed in commit 7acf3df contains an out-of-bounds write vulnerability in ssh2_transport_read() that fails to enforce upper bounds on packet_length field. Remote attackers can send crafted SSH packets with excessively large packet_length values to corrupt heap memory and achieve remote code execution.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-680
+    VendorSeverity:
+      azure: 3
+      nvd: 3
+      photon: 4
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L
+        V3Score: 8.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:L
+        V3Score: 7.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-55200
+    - https://github.com/libssh2/libssh2/commit/97acf3dfda80c91c3a8c9f2372546301d4a1a7a8
+    - https://github.com/libssh2/libssh2/pull/2052
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-55200
+    - https://ubuntu.com/security/notices/USN-8486-1
+    - https://web.archive.org/web/20260623211210/https://github.com/bikini/exploitarium/tree/main/libssh2-cve-2026-55200-poc
+    - https://www.cve.org/CVERecord?id=CVE-2026-55200
+    - https://www.vulncheck.com/advisories/libssh2-out-of-bounds-write-via-unchecked-packet-length-in-transport-c
+    PublishedDate: '2026-06-17T20:17:28.667Z'
+    LastModifiedDate: '2026-07-01T05:16:22.513Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libsystemd-shared@259.5-0ubuntu3
     PkgName: libsystemd-shared
@@ -4261,13 +4494,19 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:20587
+    - https://access.redhat.com/errata/RHSA-2026:20597
     - https://access.redhat.com/security/cve/CVE-2026-4046
+    - https://bugzilla.redhat.com/2449777
+    - https://bugzilla.redhat.com/2449783
     - https://bugzilla.redhat.com/2453117
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
     - https://bugzilla.redhat.com/show_bug.cgi?id=2453117
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
-    - https://errata.almalinux.org/8/ALSA-2026-20587.html
-    - https://errata.rockylinux.org/RLSA-2026:20587
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
+    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.rockylinux.org/RLSA-2026:20597
     - https://inbox.sourceware.org/libc-announce/76814edf-cf7f-47ec-979d-2dce0a2c76bf@gotplt.org/T/#u
     - https://linux.oracle.com/cve/CVE-2026-4046.html
     - https://linux.oracle.com/errata/ELSA-2026-50291.html
@@ -4315,16 +4554,19 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19061
+    - https://access.redhat.com/errata/RHSA-2026:20597
     - https://access.redhat.com/security/cve/CVE-2026-4437
     - https://bugzilla.redhat.com/2449777
     - https://bugzilla.redhat.com/2449783
+    - https://bugzilla.redhat.com/2453117
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2453117
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
-    - https://errata.almalinux.org/10/ALSA-2026-19061.html
-    - https://errata.rockylinux.org/RLSA-2026:19061
+    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.rockylinux.org/RLSA-2026:20597
     - https://linux.oracle.com/cve/CVE-2026-4437.html
     - https://linux.oracle.com/errata/ELSA-2026-20597.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4437
@@ -4370,16 +4612,19 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19061
+    - https://access.redhat.com/errata/RHSA-2026:20597
     - https://access.redhat.com/security/cve/CVE-2026-4438
     - https://bugzilla.redhat.com/2449777
     - https://bugzilla.redhat.com/2449783
+    - https://bugzilla.redhat.com/2453117
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449777
     - https://bugzilla.redhat.com/show_bug.cgi?id=2449783
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2453117
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4437
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4438
-    - https://errata.almalinux.org/10/ALSA-2026-19061.html
-    - https://errata.rockylinux.org/RLSA-2026:19061
+    - https://errata.almalinux.org/9/ALSA-2026-20597.html
+    - https://errata.rockylinux.org/RLSA-2026:20597
     - https://linux.oracle.com/cve/CVE-2026-4438.html
     - https://linux.oracle.com/errata/ELSA-2026-20597.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4438
@@ -4605,7 +4850,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/9/ALSA-2025-20559.html
-    - https://errata.rockylinux.org/RLSA-2025:20145
+    - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -4749,7 +4994,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/9/ALSA-2025-20559.html
-    - https://errata.rockylinux.org/RLSA-2025:20145
+    - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -5760,7 +6005,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2379592
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-45582
     - https://errata.almalinux.org/9/ALSA-2026-0067.html
-    - https://errata.rockylinux.org/RLSA-2026:0002
+    - https://errata.rockylinux.org/RLSA-2026:0067
     - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
     - https://linux.oracle.com/cve/CVE-2025-45582.html
     - https://linux.oracle.com/errata/ELSA-2026-0067.html
@@ -5918,6 +6163,804 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
     LastModifiedDate: '2026-06-17T10:43:10.203Z'
+  - VulnerabilityID: CVE-2026-55693
+    PkgID: vim@2:9.1.2141-1ubuntu4.5
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.5?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: f92444ec2382b197
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55693
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:aca9f9e9a4c571f90a2866ab56f49ca2206e49280b321e51e3afc10210c234c8
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0653, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0653, the tree_count_words() function in src/spellfile.c fills in the word-count fields of a spell-file word trie by walking it iteratively with a depth counter. The counter is bounded only by the trie structure itself; it is never checked against the size of the fixed MAXWLEN-element stack arrays it indexes (arridx[], curi[], wordcount[]). A crafted .spl/.sug file pair, loaded when the user invokes spell suggestion, can drive the descent arbitrarily deep, so the function writes past the end of those arrays. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0653.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/a80874d9b84a01040e3d1aef2d4a59e1934dafb7
+    - https://github.com/vim/vim/releases/tag/v9.2.0653
+    - https://github.com/vim/vim/security/advisories/GHSA-wgh4-64f7-q3jq
+    - https://www.cve.org/CVERecord?id=CVE-2026-55693
+    PublishedDate: '2026-06-25T16:16:40.22Z'
+    LastModifiedDate: '2026-06-26T14:17:05.597Z'
+  - VulnerabilityID: CVE-2026-55892
+    PkgID: vim@2:9.1.2141-1ubuntu4.5
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.5?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: f92444ec2382b197
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55892
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:9819af57dbd6569c683d6ab5f5ac6d5d8938493a0679b0b54b0a557ebe332f4c
+    Title: 'vim: Vim: Denial of Service via crafted spell file'
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0662, the dump_prefixes() function in src/spell.c walks a spell-file prefix trie iteratively with a depth counter while dumping the prefixes that apply to a word. The counter is bounded only by the trie structure itself; it is never checked against the size of the fixed MAXWLEN-element stack arrays it indexes (prefix[], arridx[], curi[]). A crafted .spl file, loaded when the user dumps the word list, can drive the descent arbitrarily deep, so the function writes past the end of those arrays. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0662.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-55892
+    - https://github.com/vim/vim/commit/8325b193bba5f01e7a7d8241f
+    - https://github.com/vim/vim/releases/tag/v9.2.0662
+    - https://github.com/vim/vim/security/advisories/GHSA-qm9w-fmpj-879h
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-55892
+    - https://www.cve.org/CVERecord?id=CVE-2026-55892
+    PublishedDate: '2026-06-25T16:16:40.69Z'
+    LastModifiedDate: '2026-06-26T19:16:44.667Z'
+  - VulnerabilityID: CVE-2026-55895
+    PkgID: vim@2:9.1.2141-1ubuntu4.5
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.5?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: f92444ec2382b197
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55895
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fb9940ca00a17c2776e2c05bd4d2e35376dd571dbb2c31f42ddcf55b57b4b83c
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0663, a  ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0663, a Vimscript code injection vulnerability exists in s:NetrwLocalRmFile() in the netrw plugin (runtime/pack/dist/opt/netrw/autoload/netrw.vim) when deleting a local file from the browser. A filename derived from the buffer's directory listing is interpolated into an Ex command line passed to :execute with only the backslash character escaped, allowing a crafted filename containing a bar (|) to terminate the intended command and execute arbitrary Vimscript, including shell commands via :call system() and :!.  This vulnerability is fixed in 9.2.0663.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-78
+    - CWE-94
+    VendorSeverity:
+      nvd: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/55bc757a5d436e59d50fe43f7cda94b118f86cb2
+    - https://github.com/vim/vim/releases/tag/v9.2.0663
+    - https://github.com/vim/vim/security/advisories/GHSA-vhh8-v6wx-hjjh
+    - https://www.cve.org/CVERecord?id=CVE-2026-55895
+    PublishedDate: '2026-06-25T16:16:41.077Z'
+    LastModifiedDate: '2026-06-26T05:16:31.097Z'
+  - VulnerabilityID: CVE-2026-57452
+    PkgID: vim@2:9.1.2141-1ubuntu4.5
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.5?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: f92444ec2382b197
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57452
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:1268b2e8134b700dad582cc4aa57373bcad0e89253bf49b1b6416e3bea3f29d6
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0671, wh ...
+    Description: |-
+      Vim is an open source, command line text editor. Prior to 9.2.0671, when Vim opens a file encrypted with the VimCrypt~04! or VimCrypt~05!
+      method (xchacha20poly1305, requires the +sodium feature) whose body is shorter than a single libsodium secretstream header, an unsigned length calculation underflows and a subsequent decryption call reads far past the end of the input buffer, crashing Vim. This vulnerability is fixed in 9.2.0671.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    - CWE-191
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/vim/vim/commit/c8777cec25dcfae89c42e9aff51af61f71c5745f
+    - https://github.com/vim/vim/releases/tag/v9.2.0671
+    - https://github.com/vim/vim/security/advisories/GHSA-c4j9-wr9j-4486
+    - https://www.cve.org/CVERecord?id=CVE-2026-57452
+    PublishedDate: '2026-06-25T16:16:42.397Z'
+    LastModifiedDate: '2026-06-26T04:12:32.483Z'
+  - VulnerabilityID: CVE-2026-57453
+    PkgID: vim@2:9.1.2141-1ubuntu4.5
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.5?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: f92444ec2382b197
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57453
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:ac8006659ac104895141c27ad501d2ce3f406428c84aef756197eca0cf98f744
+    Title: 'vim: Vim: Arbitrary code execution via crafted zip archive entry names'
+    Description: Vim is an open source, command line text editor. From 9.1.1784 until 9.2.0678, when the bundled zip plugin autoload/zip.vim falls back to PowerShell to browse, read, extract, update or delete entries in a zip archive, it builds the PowerShell command by inserting archive entry names that are quoted only for the shell, not for PowerShell. A crafted entry name can break out of the intended string context and cause PowerShell to execute arbitrary commands with the privileges of the user running Vim, triggered by opening, viewing or extracting the archive. This vulnerability is fixed in 9.2.0678.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-77
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L
+        V3Score: 7.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:H/A:L
+        V3Score: 5.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-57453
+    - https://github.com/vim/vim/commit/b2cc9be119d51212bf0d3f2a99
+    - https://github.com/vim/vim/releases/tag/v9.2.0678
+    - https://github.com/vim/vim/security/advisories/GHSA-x5fg-h5w9-9frf
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-57453
+    - https://www.cve.org/CVERecord?id=CVE-2026-57453
+    PublishedDate: '2026-06-25T16:16:42.52Z'
+    LastModifiedDate: '2026-06-26T17:16:34.82Z'
+  - VulnerabilityID: CVE-2026-57455
+    PkgID: vim@2:9.1.2141-1ubuntu4.5
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.5?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: f92444ec2382b197
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57455
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b4c5f465ddec4d42638160bb672da9f33caab529701acb8515704ec57237f605
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0698, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0698, the single-byte branch of spell_soundfold_sofo() in src/spell.c translates a word through a spell file's SOFO (sound-folding) byte map into a caller-owned result buffer. Its copy loop advances the output index ri with no upper bound and terminates only on the input NUL, writing one byte per input byte into the MAXWLEN-element stack buffer the caller provides. A word longer than MAXWLEN, passed to soundfold() (or reached via sound-based spell suggestion) while a SOFO-based spell language is active, therefore writes past the end of that buffer. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0698.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/497f931f85339d175d7f69588dd249e8ccfed41b
+    - https://github.com/vim/vim/releases/tag/v9.2.0698
+    - https://github.com/vim/vim/security/advisories/GHSA-q8mh-6qm3-25g4
+    - https://www.cve.org/CVERecord?id=CVE-2026-57455
+    PublishedDate: '2026-06-25T16:16:42.773Z'
+    LastModifiedDate: '2026-06-26T04:23:21.857Z'
+  - VulnerabilityID: CVE-2026-57456
+    PkgID: vim@2:9.1.2141-1ubuntu4.5
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.5?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: f92444ec2382b197
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57456
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:db6531a4d141b439794124570def352963803fe70ec8fc5911e7d33b1d23f43f
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0699, Vi ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0699, Vim's Python omni-completion (runtime/autoload/python3complete.vim and the legacy pythoncomplete.vim) executes reconstructed function and class definitions from the current buffer with exec() as part of populating the completion dictionary. When reconstructing that source, each scope's docstring is inserted verbatim between triple quotes with no escaping, so a hostile buffer can break out of the triple-quoted literal and execute attacker-controlled Python during omni-completion. This vulnerability is fixed in 9.2.0699.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      nvd: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/cce141c42740f122dd8486ae04e21c2a81016ba8
+    - https://github.com/vim/vim/releases/tag/v9.2.0699
+    - https://github.com/vim/vim/security/advisories/GHSA-ppj8-wqjf-6fp3
+    - https://www.cve.org/CVERecord?id=CVE-2026-57456
+    PublishedDate: '2026-06-25T16:16:42.9Z'
+    LastModifiedDate: '2026-06-26T05:16:31.51Z'
+  - VulnerabilityID: CVE-2026-55693
+    PkgID: vim-common@2:9.1.2141-1ubuntu4.5
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.5?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: 531c3173ca88c9c0
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55693
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:afd5edc6cd6dc639ad00d47051c95916f9e65a3c64ef0299f7324ddf97b38268
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0653, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0653, the tree_count_words() function in src/spellfile.c fills in the word-count fields of a spell-file word trie by walking it iteratively with a depth counter. The counter is bounded only by the trie structure itself; it is never checked against the size of the fixed MAXWLEN-element stack arrays it indexes (arridx[], curi[], wordcount[]). A crafted .spl/.sug file pair, loaded when the user invokes spell suggestion, can drive the descent arbitrarily deep, so the function writes past the end of those arrays. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0653.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/a80874d9b84a01040e3d1aef2d4a59e1934dafb7
+    - https://github.com/vim/vim/releases/tag/v9.2.0653
+    - https://github.com/vim/vim/security/advisories/GHSA-wgh4-64f7-q3jq
+    - https://www.cve.org/CVERecord?id=CVE-2026-55693
+    PublishedDate: '2026-06-25T16:16:40.22Z'
+    LastModifiedDate: '2026-06-26T14:17:05.597Z'
+  - VulnerabilityID: CVE-2026-55892
+    PkgID: vim-common@2:9.1.2141-1ubuntu4.5
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.5?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: 531c3173ca88c9c0
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55892
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:dbb0868a6b29d854fb7bdc5193fab482ccc85d087e90da362ac9b660715516e9
+    Title: 'vim: Vim: Denial of Service via crafted spell file'
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0662, the dump_prefixes() function in src/spell.c walks a spell-file prefix trie iteratively with a depth counter while dumping the prefixes that apply to a word. The counter is bounded only by the trie structure itself; it is never checked against the size of the fixed MAXWLEN-element stack arrays it indexes (prefix[], arridx[], curi[]). A crafted .spl file, loaded when the user dumps the word list, can drive the descent arbitrarily deep, so the function writes past the end of those arrays. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0662.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-55892
+    - https://github.com/vim/vim/commit/8325b193bba5f01e7a7d8241f
+    - https://github.com/vim/vim/releases/tag/v9.2.0662
+    - https://github.com/vim/vim/security/advisories/GHSA-qm9w-fmpj-879h
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-55892
+    - https://www.cve.org/CVERecord?id=CVE-2026-55892
+    PublishedDate: '2026-06-25T16:16:40.69Z'
+    LastModifiedDate: '2026-06-26T19:16:44.667Z'
+  - VulnerabilityID: CVE-2026-55895
+    PkgID: vim-common@2:9.1.2141-1ubuntu4.5
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.5?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: 531c3173ca88c9c0
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55895
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:bc99a29da660431270e6f75a70237bdb6c7b5393b2baad4ec063e255928c0c1b
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0663, a  ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0663, a Vimscript code injection vulnerability exists in s:NetrwLocalRmFile() in the netrw plugin (runtime/pack/dist/opt/netrw/autoload/netrw.vim) when deleting a local file from the browser. A filename derived from the buffer's directory listing is interpolated into an Ex command line passed to :execute with only the backslash character escaped, allowing a crafted filename containing a bar (|) to terminate the intended command and execute arbitrary Vimscript, including shell commands via :call system() and :!.  This vulnerability is fixed in 9.2.0663.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-78
+    - CWE-94
+    VendorSeverity:
+      nvd: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/55bc757a5d436e59d50fe43f7cda94b118f86cb2
+    - https://github.com/vim/vim/releases/tag/v9.2.0663
+    - https://github.com/vim/vim/security/advisories/GHSA-vhh8-v6wx-hjjh
+    - https://www.cve.org/CVERecord?id=CVE-2026-55895
+    PublishedDate: '2026-06-25T16:16:41.077Z'
+    LastModifiedDate: '2026-06-26T05:16:31.097Z'
+  - VulnerabilityID: CVE-2026-57452
+    PkgID: vim-common@2:9.1.2141-1ubuntu4.5
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.5?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: 531c3173ca88c9c0
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57452
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:c5abf6181e6b7f5ca72cee02d30dac62670dca29bc713e92ff16423656d59b0e
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0671, wh ...
+    Description: |-
+      Vim is an open source, command line text editor. Prior to 9.2.0671, when Vim opens a file encrypted with the VimCrypt~04! or VimCrypt~05!
+      method (xchacha20poly1305, requires the +sodium feature) whose body is shorter than a single libsodium secretstream header, an unsigned length calculation underflows and a subsequent decryption call reads far past the end of the input buffer, crashing Vim. This vulnerability is fixed in 9.2.0671.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    - CWE-191
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/vim/vim/commit/c8777cec25dcfae89c42e9aff51af61f71c5745f
+    - https://github.com/vim/vim/releases/tag/v9.2.0671
+    - https://github.com/vim/vim/security/advisories/GHSA-c4j9-wr9j-4486
+    - https://www.cve.org/CVERecord?id=CVE-2026-57452
+    PublishedDate: '2026-06-25T16:16:42.397Z'
+    LastModifiedDate: '2026-06-26T04:12:32.483Z'
+  - VulnerabilityID: CVE-2026-57453
+    PkgID: vim-common@2:9.1.2141-1ubuntu4.5
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.5?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: 531c3173ca88c9c0
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57453
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:37a62b23660a535acbf8dc8520e47c580afca8db195a96cc226f8939c94c01bd
+    Title: 'vim: Vim: Arbitrary code execution via crafted zip archive entry names'
+    Description: Vim is an open source, command line text editor. From 9.1.1784 until 9.2.0678, when the bundled zip plugin autoload/zip.vim falls back to PowerShell to browse, read, extract, update or delete entries in a zip archive, it builds the PowerShell command by inserting archive entry names that are quoted only for the shell, not for PowerShell. A crafted entry name can break out of the intended string context and cause PowerShell to execute arbitrary commands with the privileges of the user running Vim, triggered by opening, viewing or extracting the archive. This vulnerability is fixed in 9.2.0678.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-77
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L
+        V3Score: 7.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:H/A:L
+        V3Score: 5.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-57453
+    - https://github.com/vim/vim/commit/b2cc9be119d51212bf0d3f2a99
+    - https://github.com/vim/vim/releases/tag/v9.2.0678
+    - https://github.com/vim/vim/security/advisories/GHSA-x5fg-h5w9-9frf
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-57453
+    - https://www.cve.org/CVERecord?id=CVE-2026-57453
+    PublishedDate: '2026-06-25T16:16:42.52Z'
+    LastModifiedDate: '2026-06-26T17:16:34.82Z'
+  - VulnerabilityID: CVE-2026-57455
+    PkgID: vim-common@2:9.1.2141-1ubuntu4.5
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.5?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: 531c3173ca88c9c0
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57455
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:151c5af63a63e1f2c9e23b1c75ced8abc7da33260d30719c96b01b612b4a2f84
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0698, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0698, the single-byte branch of spell_soundfold_sofo() in src/spell.c translates a word through a spell file's SOFO (sound-folding) byte map into a caller-owned result buffer. Its copy loop advances the output index ri with no upper bound and terminates only on the input NUL, writing one byte per input byte into the MAXWLEN-element stack buffer the caller provides. A word longer than MAXWLEN, passed to soundfold() (or reached via sound-based spell suggestion) while a SOFO-based spell language is active, therefore writes past the end of that buffer. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0698.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/497f931f85339d175d7f69588dd249e8ccfed41b
+    - https://github.com/vim/vim/releases/tag/v9.2.0698
+    - https://github.com/vim/vim/security/advisories/GHSA-q8mh-6qm3-25g4
+    - https://www.cve.org/CVERecord?id=CVE-2026-57455
+    PublishedDate: '2026-06-25T16:16:42.773Z'
+    LastModifiedDate: '2026-06-26T04:23:21.857Z'
+  - VulnerabilityID: CVE-2026-57456
+    PkgID: vim-common@2:9.1.2141-1ubuntu4.5
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.5?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: 531c3173ca88c9c0
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57456
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:09d80544c3295488b9879961571de13359ae91d2c35d2fc7dd402dbbf1ce43b3
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0699, Vi ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0699, Vim's Python omni-completion (runtime/autoload/python3complete.vim and the legacy pythoncomplete.vim) executes reconstructed function and class definitions from the current buffer with exec() as part of populating the completion dictionary. When reconstructing that source, each scope's docstring is inserted verbatim between triple quotes with no escaping, so a hostile buffer can break out of the triple-quoted literal and execute attacker-controlled Python during omni-completion. This vulnerability is fixed in 9.2.0699.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      nvd: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/cce141c42740f122dd8486ae04e21c2a81016ba8
+    - https://github.com/vim/vim/releases/tag/v9.2.0699
+    - https://github.com/vim/vim/security/advisories/GHSA-ppj8-wqjf-6fp3
+    - https://www.cve.org/CVERecord?id=CVE-2026-57456
+    PublishedDate: '2026-06-25T16:16:42.9Z'
+    LastModifiedDate: '2026-06-26T05:16:31.51Z'
+  - VulnerabilityID: CVE-2026-55693
+    PkgID: vim-runtime@2:9.1.2141-1ubuntu4.5
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.5?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: c1395ec5878c3ec
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55693
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:9a9e63692ed38599346699eefad557b02ae7a93bd4cfe1e4673f4db6c1604e62
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0653, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0653, the tree_count_words() function in src/spellfile.c fills in the word-count fields of a spell-file word trie by walking it iteratively with a depth counter. The counter is bounded only by the trie structure itself; it is never checked against the size of the fixed MAXWLEN-element stack arrays it indexes (arridx[], curi[], wordcount[]). A crafted .spl/.sug file pair, loaded when the user invokes spell suggestion, can drive the descent arbitrarily deep, so the function writes past the end of those arrays. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0653.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/a80874d9b84a01040e3d1aef2d4a59e1934dafb7
+    - https://github.com/vim/vim/releases/tag/v9.2.0653
+    - https://github.com/vim/vim/security/advisories/GHSA-wgh4-64f7-q3jq
+    - https://www.cve.org/CVERecord?id=CVE-2026-55693
+    PublishedDate: '2026-06-25T16:16:40.22Z'
+    LastModifiedDate: '2026-06-26T14:17:05.597Z'
+  - VulnerabilityID: CVE-2026-55892
+    PkgID: vim-runtime@2:9.1.2141-1ubuntu4.5
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.5?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: c1395ec5878c3ec
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55892
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d7711413f218fb29f10cd8b1056dc8be794e8e9c771c3faf78a86453cc8fc30c
+    Title: 'vim: Vim: Denial of Service via crafted spell file'
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0662, the dump_prefixes() function in src/spell.c walks a spell-file prefix trie iteratively with a depth counter while dumping the prefixes that apply to a word. The counter is bounded only by the trie structure itself; it is never checked against the size of the fixed MAXWLEN-element stack arrays it indexes (prefix[], arridx[], curi[]). A crafted .spl file, loaded when the user dumps the word list, can drive the descent arbitrarily deep, so the function writes past the end of those arrays. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0662.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-55892
+    - https://github.com/vim/vim/commit/8325b193bba5f01e7a7d8241f
+    - https://github.com/vim/vim/releases/tag/v9.2.0662
+    - https://github.com/vim/vim/security/advisories/GHSA-qm9w-fmpj-879h
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-55892
+    - https://www.cve.org/CVERecord?id=CVE-2026-55892
+    PublishedDate: '2026-06-25T16:16:40.69Z'
+    LastModifiedDate: '2026-06-26T19:16:44.667Z'
+  - VulnerabilityID: CVE-2026-55895
+    PkgID: vim-runtime@2:9.1.2141-1ubuntu4.5
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.5?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: c1395ec5878c3ec
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55895
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f3e41ffe3e3dac98a6cc25ce85a8b5d31b48f6293eb635e2d978d37d2749ffe7
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0663, a  ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0663, a Vimscript code injection vulnerability exists in s:NetrwLocalRmFile() in the netrw plugin (runtime/pack/dist/opt/netrw/autoload/netrw.vim) when deleting a local file from the browser. A filename derived from the buffer's directory listing is interpolated into an Ex command line passed to :execute with only the backslash character escaped, allowing a crafted filename containing a bar (|) to terminate the intended command and execute arbitrary Vimscript, including shell commands via :call system() and :!.  This vulnerability is fixed in 9.2.0663.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-78
+    - CWE-94
+    VendorSeverity:
+      nvd: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/55bc757a5d436e59d50fe43f7cda94b118f86cb2
+    - https://github.com/vim/vim/releases/tag/v9.2.0663
+    - https://github.com/vim/vim/security/advisories/GHSA-vhh8-v6wx-hjjh
+    - https://www.cve.org/CVERecord?id=CVE-2026-55895
+    PublishedDate: '2026-06-25T16:16:41.077Z'
+    LastModifiedDate: '2026-06-26T05:16:31.097Z'
+  - VulnerabilityID: CVE-2026-57452
+    PkgID: vim-runtime@2:9.1.2141-1ubuntu4.5
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.5?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: c1395ec5878c3ec
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57452
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:3ca948455ecbec9dd62182cd5c4d332f21df81ef83827b2f442fc639c70429f4
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0671, wh ...
+    Description: |-
+      Vim is an open source, command line text editor. Prior to 9.2.0671, when Vim opens a file encrypted with the VimCrypt~04! or VimCrypt~05!
+      method (xchacha20poly1305, requires the +sodium feature) whose body is shorter than a single libsodium secretstream header, an unsigned length calculation underflows and a subsequent decryption call reads far past the end of the input buffer, crashing Vim. This vulnerability is fixed in 9.2.0671.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    - CWE-191
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/vim/vim/commit/c8777cec25dcfae89c42e9aff51af61f71c5745f
+    - https://github.com/vim/vim/releases/tag/v9.2.0671
+    - https://github.com/vim/vim/security/advisories/GHSA-c4j9-wr9j-4486
+    - https://www.cve.org/CVERecord?id=CVE-2026-57452
+    PublishedDate: '2026-06-25T16:16:42.397Z'
+    LastModifiedDate: '2026-06-26T04:12:32.483Z'
+  - VulnerabilityID: CVE-2026-57453
+    PkgID: vim-runtime@2:9.1.2141-1ubuntu4.5
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.5?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: c1395ec5878c3ec
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57453
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:de3852c8879b361d334e25612b9b3aa98608e4d3af947b4f817a23f7ba05d7e1
+    Title: 'vim: Vim: Arbitrary code execution via crafted zip archive entry names'
+    Description: Vim is an open source, command line text editor. From 9.1.1784 until 9.2.0678, when the bundled zip plugin autoload/zip.vim falls back to PowerShell to browse, read, extract, update or delete entries in a zip archive, it builds the PowerShell command by inserting archive entry names that are quoted only for the shell, not for PowerShell. A crafted entry name can break out of the intended string context and cause PowerShell to execute arbitrary commands with the privileges of the user running Vim, triggered by opening, viewing or extracting the archive. This vulnerability is fixed in 9.2.0678.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-77
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L
+        V3Score: 7.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:H/A:L
+        V3Score: 5.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-57453
+    - https://github.com/vim/vim/commit/b2cc9be119d51212bf0d3f2a99
+    - https://github.com/vim/vim/releases/tag/v9.2.0678
+    - https://github.com/vim/vim/security/advisories/GHSA-x5fg-h5w9-9frf
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-57453
+    - https://www.cve.org/CVERecord?id=CVE-2026-57453
+    PublishedDate: '2026-06-25T16:16:42.52Z'
+    LastModifiedDate: '2026-06-26T17:16:34.82Z'
+  - VulnerabilityID: CVE-2026-57455
+    PkgID: vim-runtime@2:9.1.2141-1ubuntu4.5
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.5?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: c1395ec5878c3ec
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57455
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:55a8176c19e3ec63edb33031e4cf3c71834c464e073d41dbe9928ceef2fe39b9
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0698, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0698, the single-byte branch of spell_soundfold_sofo() in src/spell.c translates a word through a spell file's SOFO (sound-folding) byte map into a caller-owned result buffer. Its copy loop advances the output index ri with no upper bound and terminates only on the input NUL, writing one byte per input byte into the MAXWLEN-element stack buffer the caller provides. A word longer than MAXWLEN, passed to soundfold() (or reached via sound-based spell suggestion) while a SOFO-based spell language is active, therefore writes past the end of that buffer. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0698.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/497f931f85339d175d7f69588dd249e8ccfed41b
+    - https://github.com/vim/vim/releases/tag/v9.2.0698
+    - https://github.com/vim/vim/security/advisories/GHSA-q8mh-6qm3-25g4
+    - https://www.cve.org/CVERecord?id=CVE-2026-57455
+    PublishedDate: '2026-06-25T16:16:42.773Z'
+    LastModifiedDate: '2026-06-26T04:23:21.857Z'
+  - VulnerabilityID: CVE-2026-57456
+    PkgID: vim-runtime@2:9.1.2141-1ubuntu4.5
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.5?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: c1395ec5878c3ec
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57456
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:8e9a6e11dd795136ecc1b14c4af727d0e792a00a1d2898571096bc8085115b64
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0699, Vi ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0699, Vim's Python omni-completion (runtime/autoload/python3complete.vim and the legacy pythoncomplete.vim) executes reconstructed function and class definitions from the current buffer with exec() as part of populating the completion dictionary. When reconstructing that source, each scope's docstring is inserted verbatim between triple quotes with no escaping, so a hostile buffer can break out of the triple-quoted literal and execute attacker-controlled Python during omni-completion. This vulnerability is fixed in 9.2.0699.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      nvd: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/cce141c42740f122dd8486ae04e21c2a81016ba8
+    - https://github.com/vim/vim/releases/tag/v9.2.0699
+    - https://github.com/vim/vim/security/advisories/GHSA-ppj8-wqjf-6fp3
+    - https://www.cve.org/CVERecord?id=CVE-2026-57456
+    PublishedDate: '2026-06-25T16:16:42.9Z'
+    LastModifiedDate: '2026-06-26T05:16:31.51Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.25.0-2ubuntu4
     PkgName: wget
@@ -6018,6 +7061,272 @@
     - https://www.wireshark.org/security/wnpa-sec-2021-15.html
     PublishedDate: '2021-11-18T19:15:08.333Z'
     LastModifiedDate: '2026-06-17T04:04:25.67Z'
+  - VulnerabilityID: CVE-2026-55693
+    PkgID: xxd@2:9.1.2141-1ubuntu4.5
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.5?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 6c160e131af0a9c
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55693
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fc969b77d0438ec61febbb4319c7ebdcf5618522aaa8e07862734f84ea6367b5
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0653, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0653, the tree_count_words() function in src/spellfile.c fills in the word-count fields of a spell-file word trie by walking it iteratively with a depth counter. The counter is bounded only by the trie structure itself; it is never checked against the size of the fixed MAXWLEN-element stack arrays it indexes (arridx[], curi[], wordcount[]). A crafted .spl/.sug file pair, loaded when the user invokes spell suggestion, can drive the descent arbitrarily deep, so the function writes past the end of those arrays. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0653.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/a80874d9b84a01040e3d1aef2d4a59e1934dafb7
+    - https://github.com/vim/vim/releases/tag/v9.2.0653
+    - https://github.com/vim/vim/security/advisories/GHSA-wgh4-64f7-q3jq
+    - https://www.cve.org/CVERecord?id=CVE-2026-55693
+    PublishedDate: '2026-06-25T16:16:40.22Z'
+    LastModifiedDate: '2026-06-26T14:17:05.597Z'
+  - VulnerabilityID: CVE-2026-55892
+    PkgID: xxd@2:9.1.2141-1ubuntu4.5
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.5?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 6c160e131af0a9c
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55892
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:9e4d2acafc77974eaae74de4226bd50ea371f8afb6f861bc84b865e29822e9a8
+    Title: 'vim: Vim: Denial of Service via crafted spell file'
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0662, the dump_prefixes() function in src/spell.c walks a spell-file prefix trie iteratively with a depth counter while dumping the prefixes that apply to a word. The counter is bounded only by the trie structure itself; it is never checked against the size of the fixed MAXWLEN-element stack arrays it indexes (prefix[], arridx[], curi[]). A crafted .spl file, loaded when the user dumps the word list, can drive the descent arbitrarily deep, so the function writes past the end of those arrays. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0662.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-55892
+    - https://github.com/vim/vim/commit/8325b193bba5f01e7a7d8241f
+    - https://github.com/vim/vim/releases/tag/v9.2.0662
+    - https://github.com/vim/vim/security/advisories/GHSA-qm9w-fmpj-879h
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-55892
+    - https://www.cve.org/CVERecord?id=CVE-2026-55892
+    PublishedDate: '2026-06-25T16:16:40.69Z'
+    LastModifiedDate: '2026-06-26T19:16:44.667Z'
+  - VulnerabilityID: CVE-2026-55895
+    PkgID: xxd@2:9.1.2141-1ubuntu4.5
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.5?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 6c160e131af0a9c
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-55895
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fa201c3104e225643309deddca9f5e17d47d162cbcbb4b07f7a280aa1857920e
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0663, a  ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0663, a Vimscript code injection vulnerability exists in s:NetrwLocalRmFile() in the netrw plugin (runtime/pack/dist/opt/netrw/autoload/netrw.vim) when deleting a local file from the browser. A filename derived from the buffer's directory listing is interpolated into an Ex command line passed to :execute with only the backslash character escaped, allowing a crafted filename containing a bar (|) to terminate the intended command and execute arbitrary Vimscript, including shell commands via :call system() and :!.  This vulnerability is fixed in 9.2.0663.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-78
+    - CWE-94
+    VendorSeverity:
+      nvd: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/55bc757a5d436e59d50fe43f7cda94b118f86cb2
+    - https://github.com/vim/vim/releases/tag/v9.2.0663
+    - https://github.com/vim/vim/security/advisories/GHSA-vhh8-v6wx-hjjh
+    - https://www.cve.org/CVERecord?id=CVE-2026-55895
+    PublishedDate: '2026-06-25T16:16:41.077Z'
+    LastModifiedDate: '2026-06-26T05:16:31.097Z'
+  - VulnerabilityID: CVE-2026-57452
+    PkgID: xxd@2:9.1.2141-1ubuntu4.5
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.5?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 6c160e131af0a9c
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57452
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f5d4275b4df421ee7e33840baca1b426d4e694418496d0e96e09fe523f3a913d
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0671, wh ...
+    Description: |-
+      Vim is an open source, command line text editor. Prior to 9.2.0671, when Vim opens a file encrypted with the VimCrypt~04! or VimCrypt~05!
+      method (xchacha20poly1305, requires the +sodium feature) whose body is shorter than a single libsodium secretstream header, an unsigned length calculation underflows and a subsequent decryption call reads far past the end of the input buffer, crashing Vim. This vulnerability is fixed in 9.2.0671.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    - CWE-191
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/vim/vim/commit/c8777cec25dcfae89c42e9aff51af61f71c5745f
+    - https://github.com/vim/vim/releases/tag/v9.2.0671
+    - https://github.com/vim/vim/security/advisories/GHSA-c4j9-wr9j-4486
+    - https://www.cve.org/CVERecord?id=CVE-2026-57452
+    PublishedDate: '2026-06-25T16:16:42.397Z'
+    LastModifiedDate: '2026-06-26T04:12:32.483Z'
+  - VulnerabilityID: CVE-2026-57453
+    PkgID: xxd@2:9.1.2141-1ubuntu4.5
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.5?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 6c160e131af0a9c
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57453
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:9e2f92155be27a0af82a51972c45f6a89bd71567b1320b3a1d89b79cc735e0ba
+    Title: 'vim: Vim: Arbitrary code execution via crafted zip archive entry names'
+    Description: Vim is an open source, command line text editor. From 9.1.1784 until 9.2.0678, when the bundled zip plugin autoload/zip.vim falls back to PowerShell to browse, read, extract, update or delete entries in a zip archive, it builds the PowerShell command by inserting archive entry names that are quoted only for the shell, not for PowerShell. A crafted entry name can break out of the intended string context and cause PowerShell to execute arbitrary commands with the privileges of the user running Vim, triggered by opening, viewing or extracting the archive. This vulnerability is fixed in 9.2.0678.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-77
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L
+        V3Score: 7.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:H/A:L
+        V3Score: 5.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-57453
+    - https://github.com/vim/vim/commit/b2cc9be119d51212bf0d3f2a99
+    - https://github.com/vim/vim/releases/tag/v9.2.0678
+    - https://github.com/vim/vim/security/advisories/GHSA-x5fg-h5w9-9frf
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-57453
+    - https://www.cve.org/CVERecord?id=CVE-2026-57453
+    PublishedDate: '2026-06-25T16:16:42.52Z'
+    LastModifiedDate: '2026-06-26T17:16:34.82Z'
+  - VulnerabilityID: CVE-2026-57455
+    PkgID: xxd@2:9.1.2141-1ubuntu4.5
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.5?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 6c160e131af0a9c
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57455
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e04ebeab804b19a90ce50a634f2e0f08723a9030299ba3eefccfc7f6800c09fa
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0698, th ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0698, the single-byte branch of spell_soundfold_sofo() in src/spell.c translates a word through a spell file's SOFO (sound-folding) byte map into a caller-owned result buffer. Its copy loop advances the output index ri with no upper bound and terminates only on the input NUL, writing one byte per input byte into the MAXWLEN-element stack buffer the caller provides. A word longer than MAXWLEN, passed to soundfold() (or reached via sound-based spell suggestion) while a SOFO-based spell language is active, therefore writes past the end of that buffer. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0698.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/497f931f85339d175d7f69588dd249e8ccfed41b
+    - https://github.com/vim/vim/releases/tag/v9.2.0698
+    - https://github.com/vim/vim/security/advisories/GHSA-q8mh-6qm3-25g4
+    - https://www.cve.org/CVERecord?id=CVE-2026-57455
+    PublishedDate: '2026-06-25T16:16:42.773Z'
+    LastModifiedDate: '2026-06-26T04:23:21.857Z'
+  - VulnerabilityID: CVE-2026-57456
+    PkgID: xxd@2:9.1.2141-1ubuntu4.5
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.5?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 6c160e131af0a9c
+    InstalledVersion: 2:9.1.2141-1ubuntu4.5
+    Status: affected
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57456
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:0714ac59fb947434ab2ddd9fcbfbd172e7f0e47c88038267dafa89e3332586de
+    Title: Vim is an open source, command line text editor. Prior to 9.2.0699, Vi ...
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0699, Vim's Python omni-completion (runtime/autoload/python3complete.vim and the legacy pythoncomplete.vim) executes reconstructed function and class definitions from the current buffer with exec() as part of populating the completion dictionary. When reconstructing that source, each scope's docstring is inserted verbatim between triple quotes with no escaping, so a hostile buffer can break out of the triple-quoted literal and execute attacker-controlled Python during omni-completion. This vulnerability is fixed in 9.2.0699.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      nvd: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://github.com/vim/vim/commit/cce141c42740f122dd8486ae04e21c2a81016ba8
+    - https://github.com/vim/vim/releases/tag/v9.2.0699
+    - https://github.com/vim/vim/security/advisories/GHSA-ppj8-wqjf-6fp3
+    - https://www.cve.org/CVERecord?id=CVE-2026-57456
+    PublishedDate: '2026-06-25T16:16:42.9Z'
+    LastModifiedDate: '2026-06-26T05:16:31.51Z'
   - VulnerabilityID: CVE-2026-27171
     PkgID: zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu3
     PkgName: zlib1g
@@ -6086,7 +7395,7 @@
     PkgPath: openaf/openaf.jar
     PkgIdentifier:
       PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3
-      UID: af9e86e80fd64186
+      UID: bdedb7f4f2b3e6f5
     InstalledVersion: 2.21.3
     FixedVersion: 2.18.8, 3.1.4, 2.21.4
     Status: fixed
@@ -6100,7 +7409,7 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:dd28af673975b08d4a9777121ef4f6d670a17a08607b919aa1b785da6f24d1ed
-    Title: jackson-databind contains the general-purpose data-binding functionali ...
+    Title: 'jackson-databind: jackson-databind: Arbitrary code execution via PolymorphicTypeValidator bypass'
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.10.0 until 2.18.8, 2.21.4, and 3.1.4, jackson-databind's PolymorphicTypeValidator (PTV) is the primary safety mechanism guarding polymorphic deserialization. When polymorphic typing is enabled and a type identifier contains generic parameters (i.e. the type ID string contains <), DatabindContext._resolveAndValidateGeneric() validates only the raw container class name (the substring before <) against the configured PTV. If the container type is approved, the method parses the full canonical type string via TypeFactory.constructFromCanonical() and returns the fully parameterized type without ever validating the nested type arguments against the PTV. The nested type arguments are then resolved, instantiated, and populated as beans during deserialization. An attacker who controls the type ID can therefore place a denied class as a generic type parameter of an allowed container — for example java.util.ArrayList<com.evil.Gadget> when only java.util.ArrayList is allow-listed. The container passes the PTV check; com.evil.Gadget is loaded via Class.forName(name, true, loader), instantiated, and its properties are set from attacker-controlled JSON. This completely bypasses an explicitly configured PTV allow-list. This vulnerability is fixed in 2.18.8, 2.21.4, and 3.1.4.
     Severity: HIGH
     CweIDs:
@@ -6108,15 +7417,22 @@
     - CWE-502
     VendorSeverity:
       ghsa: 3
+      redhat: 3
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-54512
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/434d6c511de7fdd9872f29157aafb6162d12d8d5
     - https://github.com/FasterXML/jackson-databind/issues/5988
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-j3rv-43j4-c7qm
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54512
+    - https://www.cve.org/CVERecord?id=CVE-2026-54512
     PublishedDate: '2026-06-23T21:17:02.203Z'
     LastModifiedDate: '2026-06-27T21:01:36.47Z'
   - VulnerabilityID: CVE-2026-54513
@@ -6126,7 +7442,7 @@
     PkgPath: openaf/openaf.jar
     PkgIdentifier:
       PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3
-      UID: af9e86e80fd64186
+      UID: bdedb7f4f2b3e6f5
     InstalledVersion: 2.21.3
     FixedVersion: 2.18.8, 2.21.4, 3.1.4
     Status: fixed
@@ -6177,7 +7493,7 @@
     PkgPath: openaf/openaf.jar
     PkgIdentifier:
       PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3
-      UID: af9e86e80fd64186
+      UID: bdedb7f4f2b3e6f5
     InstalledVersion: 2.21.3
     FixedVersion: 2.18.8, 2.21.4, 3.1.4
     Status: fixed
@@ -6191,22 +7507,29 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:5c0fd9b9644f03de81057ca756b3878305fccef00254e9d63f848f059357612b
-    Title: jackson-databind contains the general-purpose data-binding functionali ...
+    Title: 'jackson-databind: jackson-databind: Information Disclosure via Eager DNS Resolution'
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.0.0 until 2.18.8, 2.21.4, and 3.1.4, JDKFromStringDeserializer constructed InetSocketAddress with new InetSocketAddress(host, port), which performs eager DNS name resolution for hostname inputs at deserialization time. An application that binds untrusted JSON into a type containing an InetSocketAddress field issues an attacker-chosen DNS query during readValue, before any application-level validation or connect logic. The fix uses InetSocketAddress.createUnresolved(host, port), deferring DNS to an explicit connect. This vulnerability is fixed in 2.18.8, 2.21.4, and 3.1.4.
     Severity: MEDIUM
     CweIDs:
     - CWE-918
     VendorSeverity:
       ghsa: 2
+      redhat: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-54514
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/1f5a1037b1e9e05920e755cb35f198bcd46667e4
     - https://github.com/FasterXML/jackson-databind/pull/5951
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-hgj6-7826-r7m5
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54514
+    - https://www.cve.org/CVERecord?id=CVE-2026-54514
     PublishedDate: '2026-06-23T21:17:02.467Z'
     LastModifiedDate: '2026-06-27T20:55:09.61Z'
   - VulnerabilityID: CVE-2026-54515
@@ -6216,9 +7539,9 @@
     PkgPath: openaf/openaf.jar
     PkgIdentifier:
       PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3
-      UID: af9e86e80fd64186
+      UID: bdedb7f4f2b3e6f5
     InstalledVersion: 2.21.3
-    FixedVersion: 3.1.4, 2.18.9, 2.21.5
+    FixedVersion: 3.1.4, 2.18.9, 2.21.5, 2.22.1
     Status: fixed
     Layer:
       Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
@@ -6230,23 +7553,30 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:db26a8bd5730a10338033527056af7a46036dccf00821224f4058aef2ef809ef
-    Title: jackson-databind contains the general-purpose data-binding functionali ...
+    Title: 'jackson-databind: jackson-databind: Ignored properties can be unexpectedly modified'
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.8.0 until 2.18.9, 2.21.5, and 3.1.4, in BeanDeserializerBase.createContextual(), per-property @JsonIgnoreProperties exclusions are applied by _handleByNameInclusion(), producing a contextual deserializer whose BeanPropertyMap has the ignored properties removed. The subsequent per-property case-insensitivity block (triggered by @JsonFormat(ACCEPT_CASE_INSENSITIVE_PROPERTIES)) rebuilds from this._beanProperties (the original, unfiltered map) instead of contextual._beanProperties, then overwrites the filtered map — restoring every property _handleByNameInclusion had just removed. The ignored property becomes writable again. This vulnerability is fixed in 2.18.9, 2.21.5, and 3.1.4.
     Severity: MEDIUM
     CweIDs:
     - CWE-915
     VendorSeverity:
       ghsa: 2
+      redhat: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-54515
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/0e1b0b211f7a53baa62ba2f4c9bd006c7bf4d5fa
     - https://github.com/FasterXML/jackson-databind/issues/5962
     - https://github.com/FasterXML/jackson-databind/issues/5964
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-5jmj-h7xm-6q6v
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54515
+    - https://www.cve.org/CVERecord?id=CVE-2026-54515
     PublishedDate: '2026-06-23T21:17:02.597Z'
     LastModifiedDate: '2026-06-29T13:38:59.057Z'
   - VulnerabilityID: CVE-2026-54516
@@ -6256,7 +7586,7 @@
     PkgPath: openaf/openaf.jar
     PkgIdentifier:
       PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3
-      UID: af9e86e80fd64186
+      UID: bdedb7f4f2b3e6f5
     InstalledVersion: 2.21.3
     FixedVersion: 2.21.4, 3.1.4
     Status: fixed
@@ -6270,24 +7600,31 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:293df4350a4dc5ed77d08666b23bf2b7281987c5b2caf03f203eb420ebb26f33
-    Title: jackson-databind contains the general-purpose data-binding functionali ...
+    Title: 'jackson-databind: jackson-databind: Security bypass due to improper handling of renamed properties'
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.21.0 until 2.21.4 and 3.1.4, POJOPropertiesCollector._renameProperties() allows a property with @JsonProperty("renamed") on the getter and @JsonIgnore on the setter to be renamed rather than dropped. With MapperFeature.INFER_PROPERTY_MUTATORS enabled (default), the private backing field is retained; during deserialization BeanDeserializerFactory.addBeanProps() sees hasField()==true, builds a FieldProperty, and makes the backing field writable. An attacker supplying the renamed JSON key writes the backing field directly, bypassing the @JsonIgnore on the setter. This vulnerability is fixed in 3.1.4.
     Severity: MEDIUM
     CweIDs:
     - CWE-915
     VendorSeverity:
       ghsa: 2
+      redhat: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-54516
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/c3d56dd25d52319828147c5b9aeabf2d485c250a
     - https://github.com/FasterXML/jackson-databind/commit/e88cb17006b6af4883b973058f0bb6486e5074af
     - https://github.com/FasterXML/jackson-databind/pull/5967
     - https://github.com/FasterXML/jackson-databind/pull/5968
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-9fxm-vc8v-hj55
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54516
+    - https://www.cve.org/CVERecord?id=CVE-2026-54516
     PublishedDate: '2026-06-23T21:17:02.723Z'
     LastModifiedDate: '2026-06-27T20:52:12.103Z'
   - VulnerabilityID: CVE-2026-54517
@@ -6297,7 +7634,7 @@
     PkgPath: openaf/openaf.jar
     PkgIdentifier:
       PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3
-      UID: af9e86e80fd64186
+      UID: bdedb7f4f2b3e6f5
     InstalledVersion: 2.21.3
     FixedVersion: 2.21.4, 3.1.4
     Status: fixed
@@ -6311,24 +7648,31 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:a3ebec7cb950e53e2a305d00771b43eec28abd1e7a576235a28b905162e9face
-    Title: jackson-databind contains the general-purpose data-binding functionali ...
+    Title: 'jackson-databind: jackson-databind: Information disclosure via improper JsonView filter application'
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.21.0 until 2.21.4 and 3.1.4, in BeanDeserializer._deserializeUsingPropertyBased, the active-view (@JsonView) filter was applied only to creator properties; the regular property-buffering branch performed no prop.visibleInView(activeView) check. A change making SetterlessProperty.isMerging() return true routed setterless Collection/Map properties through this unguarded path, so a setterless collection annotated with a restricted @JsonView is populated from attacker JSON even when the active view excludes it. This vulnerability is fixed in 2.21.4 and 3.1.4.
     Severity: MEDIUM
     CweIDs:
     - CWE-863
     VendorSeverity:
       ghsa: 2
+      redhat: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-54517
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/5bf23edb4221f7dd2ec8e71ff6d26c61640f261d
     - https://github.com/FasterXML/jackson-databind/commit/94c5d215b3af1505098c686405d9641f041a9962
     - https://github.com/FasterXML/jackson-databind/pull/5969
     - https://github.com/FasterXML/jackson-databind/pull/5970
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-5hh8-q8hv-fr38
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54517
+    - https://www.cve.org/CVERecord?id=CVE-2026-54517
     PublishedDate: '2026-06-23T21:17:02.853Z'
     LastModifiedDate: '2026-06-27T20:51:09.987Z'
   - VulnerabilityID: CVE-2026-54518
@@ -6338,7 +7682,7 @@
     PkgPath: openaf/openaf.jar
     PkgIdentifier:
       PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3
-      UID: af9e86e80fd64186
+      UID: bdedb7f4f2b3e6f5
     InstalledVersion: 2.21.3
     FixedVersion: 2.21.4
     Status: fixed
@@ -6352,24 +7696,31 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:37b102f93346fde12d7da579808f34be744d5363adfe62d95293da8e1adebb84
-    Title: jackson-databind contains the general-purpose data-binding functionali ...
+    Title: 'jackson-databind: jackson-databind: Information disclosure and data manipulation via view-based access control bypass'
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.21.0 until 2.21.4 and 3.1.4, UnwrappedPropertyHandler.processUnwrappedCreatorProperties() replays buffered JSON into creator parameters but never consults prop.visibleInView(activeView). The normal property-based creator path gates creator properties on the active view, but this unwrapped-creator replay path bypasses that check, so a constructor parameter annotated with both @JsonView(AdminView.class) and @JsonUnwrapped is populated from attacker JSON even when a more restrictive view is active. This vulnerability is fixed in 2.21.4 and 3.1.4.
     Severity: MEDIUM
     CweIDs:
     - CWE-863
     VendorSeverity:
       ghsa: 2
+      redhat: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-54518
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/721fa07ebbd4aab4a659a1a68940878315c3e341
     - https://github.com/FasterXML/jackson-databind/commit/d633bc038f200c1397c07f1a2b46f58e72c91eea
     - https://github.com/FasterXML/jackson-databind/pull/5971
     - https://github.com/FasterXML/jackson-databind/pull/5973
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-rcqc-6cw3-h962
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54518
+    - https://www.cve.org/CVERecord?id=CVE-2026-54518
     PublishedDate: '2026-06-23T22:16:32.073Z'
     LastModifiedDate: '2026-06-27T20:49:30.977Z'
 - Target: Python
@@ -6540,7 +7891,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-41567.json
     - https://www.cve.org/CVERecord?id=CVE-2026-41567
     PublishedDate: '2026-06-05T02:17:13.817Z'
-    LastModifiedDate: '2026-06-30T03:19:26.71Z'
+    LastModifiedDate: '2026-06-30T13:18:24.083Z'
   - VulnerabilityID: CVE-2026-42306
     VendorIDs:
     - GHSA-rg2x-37c3-w2rh
@@ -6724,42 +8075,6 @@
   Type: gobinary
   Packages: []
   Vulnerabilities:
-  - VulnerabilityID: CVE-2026-25680
-    VendorIDs:
-    - GO-2026-5028
-    PkgID: golang.org/x/net@v0.40.0
-    PkgName: golang.org/x/net
-    PkgIdentifier:
-      PURL: pkg:golang/golang.org/x/net@v0.40.0
-      UID: b8870a94f706b324
-    InstalledVersion: v0.40.0
-    FixedVersion: 0.55.0
-    Status: fixed
-    Layer:
-      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
-      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-25680
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Fingerprint: sha256:fe2440e82a9bfdfce92dc554e3ba828ebc7ac9ef1cb2440cbe6d79dd1aa4b5ee
-    Title: Parsing arbitrary HTML can consume excessive CPU time, possibly leadin ...
-    Description: Parsing arbitrary HTML can consume excessive CPU time, possibly leading to denial of service.
-    Severity: HIGH
-    CweIDs:
-    - CWE-400
-    VendorSeverity:
-      amazon: 3
-      azure: 2
-    References:
-    - https://go.dev/cl/781702
-    - https://go.dev/issue/79573
-    - https://groups.google.com/g/golang-announce/c/iI-mYSI0lu8
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-25680
-    - https://pkg.go.dev/vuln/GO-2026-5028
-    PublishedDate: '2026-05-22T16:16:19.753Z'
-    LastModifiedDate: '2026-06-17T10:25:03.14Z'
   - VulnerabilityID: CVE-2026-25681
     VendorIDs:
     - GO-2026-5029
@@ -6780,7 +8095,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:aec701973ccf32a994af8193f6b215890e6fdd6a507ae76a28c3e7dc5ecbb398
-    Title: Parsing arbitrary HTML which is then rendered using Render can result  ...
+    Title: 'golang.org/x/net/html: golang.org/x/net/html: Arbitrary code execution via Cross-Site Scripting'
     Description: Parsing arbitrary HTML which is then rendered using Render can result in an unexpected HTML tree. This can be leveraged to execute XSS attacks in applications that attempt to sanitize input HTML before rendering.
     Severity: HIGH
     CweIDs:
@@ -6788,12 +8103,19 @@
     VendorSeverity:
       amazon: 3
       azure: 2
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+        V3Score: 8.1
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-25681
     - https://go.dev/cl/781703
     - https://go.dev/issue/79574
     - https://groups.google.com/g/golang-announce/c/iI-mYSI0lu8
     - https://nvd.nist.gov/vuln/detail/CVE-2026-25681
     - https://pkg.go.dev/vuln/GO-2026-5029
+    - https://www.cve.org/CVERecord?id=CVE-2026-25681
     PublishedDate: '2026-05-22T16:16:19.863Z'
     LastModifiedDate: '2026-06-17T10:25:03.343Z'
   - VulnerabilityID: CVE-2026-27136
@@ -6960,13 +8282,13 @@
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
-    - https://errata.almalinux.org/8/ALSA-2026-30853.html
+    - https://errata.almalinux.org/9/ALSA-2026-30854.html
     - https://github.com/golang/go/issues/78760
     - https://go.dev/cl/767220
     - https://go.dev/issue/78760
     - https://groups.google.com/g/golang-announce/c/iI-mYSI0lu8
     - https://linux.oracle.com/cve/CVE-2026-39821.html
-    - https://linux.oracle.com/errata/ELSA-2026-30853.html
+    - https://linux.oracle.com/errata/ELSA-2026-30854.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39821
     - https://pkg.go.dev/vuln/GO-2026-5026
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39821.json
@@ -7116,6 +8438,49 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-58190
     PublishedDate: '2026-02-05T18:16:10.027Z'
     LastModifiedDate: '2026-06-17T09:44:02.557Z'
+  - VulnerabilityID: CVE-2026-25680
+    VendorIDs:
+    - GO-2026-5028
+    PkgID: golang.org/x/net@v0.40.0
+    PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.40.0
+      UID: b8870a94f706b324
+    InstalledVersion: v0.40.0
+    FixedVersion: 0.55.0
+    Status: fixed
+    Layer:
+      Digest: sha256:401a3e0b98920cd48cdf57647e1217332ded08f525010f826b77625382d00dbe
+      DiffID: sha256:d668d98c7f4aec2845ce87f31e0d3ee7ff4418c3487535463d683ed8f3bbabe2
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-25680
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:fe2440e82a9bfdfce92dc554e3ba828ebc7ac9ef1cb2440cbe6d79dd1aa4b5ee
+    Title: 'golang.org/x/net/html: golang.org/x/net/html: Denial of Service due to excessive HTML parsing'
+    Description: Parsing arbitrary HTML can consume excessive CPU time, possibly leading to denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      amazon: 3
+      azure: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-25680
+    - https://go.dev/cl/781702
+    - https://go.dev/issue/79573
+    - https://groups.google.com/g/golang-announce/c/iI-mYSI0lu8
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-25680
+    - https://pkg.go.dev/vuln/GO-2026-5028
+    - https://www.cve.org/CVERecord?id=CVE-2026-25680
+    PublishedDate: '2026-05-22T16:16:19.753Z'
+    LastModifiedDate: '2026-06-17T10:25:03.14Z'
   - VulnerabilityID: CVE-2026-42506
     VendorIDs:
     - GO-2026-5025
@@ -7317,12 +8682,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:29980
+    - https://access.redhat.com/errata/RHSA-2026:29981
     - https://access.redhat.com/security/cve/CVE-2026-42507
     - https://bugzilla.redhat.com/2484205
     - https://bugzilla.redhat.com/show_bug.cgi?id=2484205
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42507
-    - https://errata.almalinux.org/10/ALSA-2026-29980.html
+    - https://errata.almalinux.org/9/ALSA-2026-29981.html
     - https://errata.rockylinux.org/RLSA-2026:29981
     - https://go.dev/cl/777060
     - https://go.dev/issue/79346
