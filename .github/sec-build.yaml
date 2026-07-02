@@ -3395,7 +3395,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13757
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-06-29T20:17:33.013Z'
+    LastModifiedDate: '2026-07-01T15:16:30.19Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libpam-systemd@259.5-0ubuntu3
     PkgName: libpam-systemd
@@ -3906,7 +3906,7 @@
     VendorSeverity:
       azure: 3
       nvd: 3
-      photon: 4
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -8279,6 +8279,8 @@
     - https://access.redhat.com/errata/RHSA-2026:33163
     - https://access.redhat.com/errata/RHSA-2026:33173
     - https://access.redhat.com/errata/RHSA-2026:33183
+    - https://access.redhat.com/errata/RHSA-2026:33524
+    - https://access.redhat.com/errata/RHSA-2026:33531
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -8295,7 +8297,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-06-30T03:19:05.967Z'
+    LastModifiedDate: '2026-07-01T13:17:09.79Z'
   - VulnerabilityID: CVE-2026-42502
     VendorIDs:
     - GO-2026-5027
@@ -8593,6 +8595,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:33574
     - https://access.redhat.com/security/cve/CVE-2026-27145
     - https://bugzilla.redhat.com/show_bug.cgi?id=2484207
     - https://go.dev/cl/783621
@@ -8603,7 +8606,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-27145.json
     - https://www.cve.org/CVERecord?id=CVE-2026-27145
     PublishedDate: '2026-06-02T23:16:35.57Z'
-    LastModifiedDate: '2026-06-30T03:17:54.533Z'
+    LastModifiedDate: '2026-07-01T13:16:53.713Z'
   - VulnerabilityID: CVE-2026-42504
     VendorIDs:
     - GO-2026-5038
