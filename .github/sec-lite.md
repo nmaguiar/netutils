@@ -22,16 +22,26 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:3dbeec29c2e73f5695c94e16c14fc844741fb046cf2ee888684d
 │                       │       │                   fd69940d2d9d 
+│                       │       ├ Title           : Successfully using libcurl to do a transfer to a specific
+│                       │       │                   HTTP origin  ... 
 │                       │       ├ Description     : Successfully using libcurl to do a transfer to a specific
-│                       │       │                   HTTP origin (`hostA`) with **Digest** authentication and
-│                       │       │                   then changing the origin to a different one (`hostB`) for a
-│                       │       │                    second transfer, reusing the same handle, makes libcurl
-│                       │       │                   wrongly pass on the `Authorization:` header field meant for
-│                       │       │                    `hostA`, to `hostB`. 
+│                       │       │                   HTTP origin
+│                       │       │                   (`hostA`) with **Digest** authentication and then changing
+│                       │       │                   the origin to a
+│                       │       │                   different one (`hostB`) for a second transfer, reusing the
+│                       │       │                   same handle, makes
+│                       │       │                   libcurl wrongly pass on the  `Authorization:` header field
+│                       │       │                   meant for `hostA`,
+│                       │       │                   to `hostB`. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ VendorSeverity   ─ ubuntu: 2 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11856.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-11856 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11856.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11856.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11856.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3793260 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11856 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.973Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:23.973Z 
 │                       ├ [1]   ╭ VulnerabilityID : CVE-2026-8925 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
@@ -51,14 +61,23 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:c65f206103af62dbd3e11f6826d7e01eef0d04dd5193b37d2743
 │                       │       │                   5dbbe76637f3 
+│                       │       ├ Title           : The curl logic that works with SASL authentication could
+│                       │       │                   end up cleani ... 
 │                       │       ├ Description     : The curl logic that works with SASL authentication could
-│                       │       │                   end up cleaning up the GSASL context *twice* without
-│                       │       │                   clearing the pointer in between, making it `free()` the
-│                       │       │                   same pointer twice. 
+│                       │       │                   end up cleaning up
+│                       │       │                   the GSASL context *twice* without clearing the pointer in
+│                       │       │                   between, making it
+│                       │       │                   `free()` the same pointer twice. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ VendorSeverity   ─ ubuntu: 2 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8925.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-8925 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8925.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8925.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-8925.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3735193 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8925 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:24.95Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:24.95Z 
 │                       ├ [2]   ╭ VulnerabilityID : CVE-2026-8927 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
@@ -78,18 +97,29 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:451cd0f35f2513c1c42667bd1c6b972999d7215fd0dee9113e72
 │                       │       │                   2f865519a2ab 
+│                       │       ├ Title           : When reusing a libcurl handle for sequential transfers
+│                       │       │                   driven by envir ... 
 │                       │       ├ Description     : When reusing a libcurl handle for sequential transfers
-│                       │       │                   driven by environment-variable proxy configuration, libcurl
-│                       │       │                    fails to clear the proxy authentication state between
-│                       │       │                   requests. Specifically, if the initial transfer
+│                       │       │                   driven by
+│                       │       │                   environment-variable proxy configuration, libcurl fails to
+│                       │       │                   clear the proxy
+│                       │       │                   authentication state between requests. Specifically, if the
+│                       │       │                    initial transfer
 │                       │       │                   authenticates against `proxyA` using Digest auth, a
-│                       │       │                   subsequent transfer routed through `proxyB` erroneously
-│                       │       │                   leaks the `Proxy-Authorization:` header intended solely for
-│                       │       │                    `proxyA`. 
+│                       │       │                   subsequent transfer routed
+│                       │       │                   through `proxyB` erroneously leaks the
+│                       │       │                   `Proxy-Authorization:` header intended
+│                       │       │                   solely for `proxyA`. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ VendorSeverity   ─ ubuntu: 2 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8927.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-8927 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8927.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8927.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-8927.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3744543 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8927 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.123Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.123Z 
 │                       ├ [3]   ╭ VulnerabilityID : CVE-2026-9079 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
@@ -109,14 +139,24 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:a6ab789639c644f4203a4895a7c5cea3884cb6707ff0e47b79ff
 │                       │       │                   8feebab7e48a 
+│                       │       ├ Title           : libcurl had a flaw that when instructed to clear proxy
+│                       │       │                   authentication  ... 
 │                       │       ├ Description     : libcurl had a flaw that when instructed to clear proxy
-│                       │       │                   authentication credentials which made it not do so, leaving
-│                       │       │                    the old credentials around to get used for subsequent
-│                       │       │                   tranfers that should not know nor use them. 
+│                       │       │                   authentication
+│                       │       │                   credentials which made it not do so, leaving the old
+│                       │       │                   credentials around to get
+│                       │       │                   used for subsequent transfers that should not know nor use
+│                       │       │                   them. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ VendorSeverity   ─ ubuntu: 2 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9079.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-9079 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9079.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-9079.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-9079.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3750295 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9079 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.62Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.62Z 
 │                       ├ [4]   ╭ VulnerabilityID : CVE-2026-10536 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
@@ -136,18 +176,28 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:d3c9aa84d59fc7bb6832defb204ce02a85712e3503750b8cf5b9
 │                       │       │                   73a3184fc763 
+│                       │       ├ Title           : A use-after-free vulnerability exists in libcurl when an
+│                       │       │                   application c ... 
 │                       │       ├ Description     : A use-after-free vulnerability exists in libcurl when an
-│                       │       │                   application configures an HTTP/2 stream-dependency tree via
-│                       │       │                    `CURLOPT_STREAM_DEPENDS` or `CURLOPT_STREAM_DEPENDS_E`,
-│                       │       │                   subsequently invokes `curl_easy_reset()`, and finally
-│                       │       │                   terminates the handle with `curl_easy_cleanup()`. During
-│                       │       │                   this final cleanup phase, libcurl attempts to access and
-│                       │       │                   modify an internal structure that was already deallocated
-│                       │       │                   during the reset operation. 
+│                       │       │                   application
+│                       │       │                   configures an HTTP/2 stream-dependency tree via
+│                       │       │                   `CURLOPT_STREAM_DEPENDS` or
+│                       │       │                   `CURLOPT_STREAM_DEPENDS_E`, subsequently invokes
+│                       │       │                   `curl_easy_reset()`, and
+│                       │       │                   finally terminates the handle with `curl_easy_cleanup()`.
+│                       │       │                   During this final
+│                       │       │                   cleanup phase, libcurl attempts to access and modify an
+│                       │       │                   internal structure
+│                       │       │                   that was already freed during the reset operation. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-10536.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-10536 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-10536.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-10536.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-10536.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3751697 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-10536 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.563Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:23.563Z 
 │                       ├ [5]   ╭ VulnerabilityID : CVE-2026-11352 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
@@ -167,17 +217,26 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:0264649ac62518b37737e77c23440389cbf301710df13c380c30
 │                       │       │                   106357dc3c19 
-│                       │       ├ Description     : An issue in curl's QUIC UDP receive function allows a
-│                       │       │                   malicious HTTP/3 server to trigger a remote denial of
-│                       │       │                   service against a curl or libcurl client. Because the
-│                       │       │                   helper function discards zero-length UDP datagrams before
-│                       │       │                   counting them toward the per-call packet budget, a
-│                       │       │                   connected QUIC peer can continuously stream empty datagrams
-│                       │       │                    to indefinitely stall the client. 
+│                       │       ├ Title           : An issue in curl\u2019s QUIC UDP receive function allows a
+│                       │       │                   malicious H ... 
+│                       │       ├ Description     : An issue in curl’s QUIC UDP receive function allows a
+│                       │       │                   malicious HTTP/3 server
+│                       │       │                   to trigger a remote denial of service against a curl or
+│                       │       │                   libcurl client.
+│                       │       │                   Because the helper function discards zero-length UDP
+│                       │       │                   datagrams before counting
+│                       │       │                   them toward the per-call packet budget, a connected QUIC
+│                       │       │                   peer can continuously
+│                       │       │                   stream empty datagrams to indefinitely stall the client. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11352.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-11352 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11352.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11352.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11352.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3783438 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11352 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.693Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:23.693Z 
 │                       ├ [6]   ╭ VulnerabilityID : CVE-2026-11564 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
@@ -197,16 +256,26 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:9077042dcf18eac099891de94e4e8eac50f24dc4f07d83c1bca3
 │                       │       │                   25d4dfe28c1e 
+│                       │       ├ Title           : libcurl keeps previously used connections in a connection
+│                       │       │                   pool for sub ... 
 │                       │       ├ Description     : libcurl keeps previously used connections in a connection
-│                       │       │                   pool for subsequent transfers to reuse if one of them
-│                       │       │                   matches the setup. An easy handle that first uses default
-│                       │       │                   native CA trust can continue trusting the native platform
-│                       │       │                   store after the application switches that same handle to
+│                       │       │                   pool for subsequent
+│                       │       │                   transfers to reuse if one of them matches the setup.
+│                       │       │                   
+│                       │       │                   An easy handle that first uses default native CA trust can
+│                       │       │                   continue trusting
+│                       │       │                   the native platform store after the application switches
+│                       │       │                   that same handle to
 │                       │       │                   custom CA material for a later transfer. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11564.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-11564 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11564.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11564.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11564.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3788984 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11564 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.79Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:23.79Z 
 │                       ├ [7]   ╭ VulnerabilityID : CVE-2026-11586 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
@@ -226,15 +295,24 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:8ff7000c9690e07e86ff15f28a073b1388897e26d6f7e3d490e1
 │                       │       │                   a3798a511c45 
+│                       │       ├ Title           : By default, curl automatically responds to WebSocket PING
+│                       │       │                   frames. Beca ... 
 │                       │       ├ Description     : By default, curl automatically responds to WebSocket PING
-│                       │       │                   frames. Because curl lacks an upper bound on memory
-│                       │       │                   allocation for unacknowledged frames, a malicious server
-│                       │       │                   can exhaust all available memory by flooding curl with
-│                       │       │                   rapid, sequential PING messages. 
+│                       │       │                   frames. Because curl
+│                       │       │                   lacks an upper bound on memory allocation for
+│                       │       │                   unacknowledged frames, a
+│                       │       │                   malicious server can exhaust all available memory by
+│                       │       │                   flooding curl with rapid,
+│                       │       │                   sequential PING messages. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11586.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-11586 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11586.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11586.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11586.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3788931 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11586 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.883Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:23.883Z 
 │                       ├ [8]   ╭ VulnerabilityID : CVE-2026-12064 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
@@ -254,23 +332,36 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:6efc80cb3446764c5285e584f77bf0b7e10f62a901de9b2df4fe
 │                       │       │                   a5aa492a2dd2 
+│                       │       ├ Title           : When a user invokes curl using a schemeless URL combined
+│                       │       │                   with `--proto ... 
 │                       │       ├ Description     : When a user invokes curl using a schemeless URL combined
-│                       │       │                   with `--proto-default` sftp (or scp), a disconnect occurs
-│                       │       │                   between the tool layer and libcurl. The tool layer
-│                       │       │                   incorrectly infers the URL scheme, which erroneously
-│                       │       │                   bypasses the initialization of critical SSH security
-│                       │       │                   options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and
-│                       │       │                   CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime
-│                       │       │                   successfully honors CURLOPT_DEFAULT_PROTOCOL and
-│                       │       │                   establishes the connection via SFTP/SCP as specified.
-│                       │       │                   Because the tool layer skipped the security configuration,
-│                       │       │                   these SSH host verification options are silently omitted,
-│                       │       │                   causing curl to connect to an unverified SSH remote host
-│                       │       │                   without throwing an error. 
+│                       │       │                   with
+│                       │       │                   `--proto-default` sftp (or scp), a disconnect occurs
+│                       │       │                   between the tool layer
+│                       │       │                   and libcurl. The tool layer incorrectly infers the URL
+│                       │       │                   scheme, which
+│                       │       │                   erroneously bypasses the initialization of critical SSH
+│                       │       │                   security options like
+│                       │       │                   CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and
+│                       │       │                   CURLOPT_SSH_KNOWNHOSTS. Conversely, the
+│                       │       │                   libcurl runtime successfully honors
+│                       │       │                   CURLOPT_DEFAULT_PROTOCOL and establishes
+│                       │       │                   the connection via SFTP/SCP as specified. Because the tool
+│                       │       │                   layer skipped the
+│                       │       │                   security configuration, these SSH host verification options
+│                       │       │                    are silently
+│                       │       │                   omitted, causing curl to connect to an unverified SSH
+│                       │       │                   remote host without
+│                       │       │                   throwing an error. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-12064.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-12064 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-12064.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-12064.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-12064.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3797526 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-12064 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:24.217Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:24.217Z 
 │                       ├ [9]   ╭ VulnerabilityID : CVE-2026-8286 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
@@ -290,14 +381,23 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:637ad4371eb6de6ddcbab81d11fac556fa03f1aeabd71e59bc0c
 │                       │       │                   38fd2b03c7f1 
+│                       │       ├ Title           : A vulnerability exists where a new transfer that uses
+│                       │       │                   STARTTLS to upgr ... 
 │                       │       ├ Description     : A vulnerability exists where a new transfer that uses
-│                       │       │                   STARTTLS to upgrade the connection might reuse an existing
-│                       │       │                   live connection even though the TLS configuration
-│                       │       │                   mismatches so it should not. 
+│                       │       │                   STARTTLS to upgrade the
+│                       │       │                   connection might reuse an existing live connection even
+│                       │       │                   though the TLS
+│                       │       │                   configuration mismatches so it should not. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8286.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-8286 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8286.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8286.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-8286.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3718195 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8286 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:24.453Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:24.453Z 
 │                       ├ [10]  ╭ VulnerabilityID : CVE-2026-8458 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
@@ -317,20 +417,34 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:d9539f0b06cf7aea313281aef5f7a2e5ec2b7ae8ee55adc97ab7
 │                       │       │                   4ce27d2c0b8c 
+│                       │       ├ Title           : libcurl might in some circumstances reuse the wrong
+│                       │       │                   connection when as ... 
 │                       │       ├ Description     : libcurl might in some circumstances reuse the wrong
-│                       │       │                   connection when asked to do Negotiate-authenticated ones,
-│                       │       │                   even when they are set to use different "services". libcurl
-│                       │       │                    features a pool of recent connections so that subsequent
-│                       │       │                   requests can reuse an existing connection to avoid
-│                       │       │                   overhead. When reusing a connection a range of criteria
-│                       │       │                   must be met. Due to a logical error in the code, a request
-│                       │       │                   that was issued by an application could wrongfully reuse an
-│                       │       │                    existing connection to the same server that was
+│                       │       │                   connection when asked to
+│                       │       │                   do Negotiate-authenticated ones, even when they are set to
+│                       │       │                   use different
+│                       │       │                   'services'.
+│                       │       │                   
+│                       │       │                   libcurl features a pool of recent connections so that
+│                       │       │                   subsequent requests can
+│                       │       │                   reuse an existing connection to avoid overhead.
+│                       │       │                   When reusing a connection a range of criteria must be met.
+│                       │       │                   Due to a logical
+│                       │       │                   error in the code, a request that was issued by an
+│                       │       │                   application could
+│                       │       │                   wrongfully reuse an existing connection to the same server
+│                       │       │                   that was
 │                       │       │                   authenticated using different services. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8458.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-8458 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8458.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8458.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-8458.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3721183 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8458 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:24.63Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:24.63Z 
 │                       ├ [11]  ╭ VulnerabilityID : CVE-2026-8924 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
@@ -350,15 +464,25 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:08adaad914d495b73c5234094d1fde39959b062c8d5e39384bd2
 │                       │       │                   85f20bf70c99 
-│                       │       ├ Description     : A flaw in curl's cookie parsing logic allows a malicious
-│                       │       │                   HTTP server to set "super cookies" that bypass the Public
-│                       │       │                   Suffix List check. This enables an attacker-controlled
-│                       │       │                   origin to inject cookies that curl will subsequently scope
-│                       │       │                   and transmit to unrelated third-party domains. 
+│                       │       ├ Title           : A flaw in curl\u2019s cookie parsing logic allows a
+│                       │       │                   malicious HTTP ser ... 
+│                       │       ├ Description     : A flaw in curl’s cookie parsing logic allows a malicious
+│                       │       │                   HTTP server to set
+│                       │       │                   'super cookies' that bypass the Public Suffix List check.
+│                       │       │                   This enables an
+│                       │       │                   attacker-controlled origin to inject cookies that curl
+│                       │       │                   subsequently scopes and
+│                       │       │                   transmits to unrelated third-party domains. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8924.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-8924 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8924.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8924.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-8924.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3733905 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8924 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:24.793Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:24.793Z 
 │                       ├ [12]  ╭ VulnerabilityID : CVE-2026-8926 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
@@ -378,16 +502,27 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:0e25fa16e8089fbf1b7ada2c79c498127973ded74adc454e81a4
 │                       │       │                   e7ab9b0c8723 
+│                       │       ├ Title           : When asking curl to use a `.netrc` file to find credentials
+│                       │       │                    and at the ... 
 │                       │       ├ Description     : When asking curl to use a `.netrc` file to find credentials
-│                       │       │                    and at the same time specifying a URL with a username
-│                       │       │                   (without a password), like `https://user@example.com/`,
-│                       │       │                   curl could wrongly get and use the password for *another*
-│                       │       │                   user set in the `.netrc` file for that host if such a one
-│                       │       │                   exists and there is no match for the specified user. 
+│                       │       │                    and at the same
+│                       │       │                   time specifying a URL with a username(without a password),
+│                       │       │                   like
+│                       │       │                   `https://user@example.com/`, curl could wrongly get and use
+│                       │       │                    the password for
+│                       │       │                   *another* user set in the `.netrc` file for that host if
+│                       │       │                   such a one exists and
+│                       │       │                   there is no match for the specified user. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8926.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-8926 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8926.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8926.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-8926.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3735184 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8926 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.037Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.037Z 
 │                       ├ [13]  ╭ VulnerabilityID : CVE-2026-9080 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
@@ -407,15 +542,25 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:ac38b5c7dd04d78b53c6555b417b5e57ef255baa5167572a5fd8
 │                       │       │                   a7002533ca9e 
+│                       │       ├ Title           : Calling `curl_easy_pause()` within the event-based
+│                       │       │                   `CURLMOPT_SOCKETFUN ... 
 │                       │       ├ Description     : Calling `curl_easy_pause()` within the event-based
-│                       │       │                   `CURLMOPT_SOCKETFUNCTION` callback triggers a
-│                       │       │                   use-after-free vulnerability, where libcurl attempts to
+│                       │       │                   `CURLMOPT_SOCKETFUNCTION`
+│                       │       │                   callback triggers a use-after-free vulnerability, where
+│                       │       │                   libcurl attempts to
 │                       │       │                   store a flag using a dangling struct pointer immediately
-│                       │       │                   after that pointer's memory has been freed. 
+│                       │       │                   after that pointer's
+│                       │       │                   memory has been freed. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9080.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-9080 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9080.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-9080.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-9080.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3749204 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9080 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.713Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.713Z 
 │                       ├ [14]  ╭ VulnerabilityID : CVE-2026-9545 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
@@ -435,22 +580,36 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:53d77c1eb39ee00e12dad7eb110347dde930f49240e62f14818c
 │                       │       │                   e5639335cbf0 
+│                       │       ├ Title           : In this scenario, libcurl first uses a proper HTTP/3 server
+│                       │       │                    for the in ... 
 │                       │       ├ Description     : In this scenario, libcurl first uses a proper HTTP/3 server
-│                       │       │                    for the initial transfers, and when it makes a second
-│                       │       │                   transfer to the same site it has been replaced by the
-│                       │       │                   attacker's impostor machine - without a valid certificate.
+│                       │       │                    for the initial
+│                       │       │                   transfers, and when it makes a second transfer to the same
+│                       │       │                   site it has been
+│                       │       │                   replaced by the attacker's impostor machine - without a
+│                       │       │                   valid certificate.
+│                       │       │                   
 │                       │       │                   When libcurl returns to the hostname the second time with a
-│                       │       │                    cached SSL session (`CURLOPT_SSL_SESSIONID_CACHE` is not
-│                       │       │                   disabled) and early data enabled (the
-│                       │       │                   `CURLSSLOPT_EARLYDATA` bit is set in`CURLOPT_SSL_OPTIONS`),
-│                       │       │                    libcurl might send off the second request's bytes on that
-│                       │       │                   new connection *before* enforcing the certificate
-│                       │       │                   verification failure. Potentially leaking sensitive
+│                       │       │                    cached SSL session
+│                       │       │                   (`CURLOPT_SSL_SESSIONID_CACHE` is not disabled) and early
+│                       │       │                   data enabled (the
+│                       │       │                   `CURLSSLOPT_EARLYDATA` bit is set in
+│                       │       │                   `CURLOPT_SSL_OPTIONS`), libcurl might
+│                       │       │                   send off the second request's bytes on that new connection
+│                       │       │                   *before* enforcing
+│                       │       │                   the certificate verification failure. Potentially leaking
+│                       │       │                   sensitive
 │                       │       │                   information. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9545.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-9545 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9545.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-9545.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-9545.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3752888 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9545 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.807Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.807Z 
 │                       ├ [15]  ╭ VulnerabilityID : CVE-2026-9547 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
@@ -470,21 +629,32 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:d0ec3c15ab08cd2781035dde27eb0dbccdb4fbefedcc51342713
 │                       │       │                   85112b22944c 
+│                       │       ├ Title           : When a libcurl-based application performs transfers via
+│                       │       │                   `SCP://` or `S ... 
 │                       │       ├ Description     : When a libcurl-based application performs transfers via
-│                       │       │                   `SCP://` or `SFTP://` and utilizes the
-│                       │       │                   `CURLOPT_SSH_KEYFUNCTION` callback, it may silently accept
-│                       │       │                   an untrusted server. This vulnerability occurs when a
-│                       │       │                   server presents a host key type that does not match the
-│                       │       │                   specific key type already recorded for that host in the
-│                       │       │                   `known_hosts` file. Instead of rejecting the mismatch, the
-│                       │       │                   callback mechanism fails to properly enforce the
-│                       │       │                   restriction, allowing the connection to succeed without
-│                       │       │                   warning and risking a potential man-in-the-middle attack.[
-│                       │       │                   m 
+│                       │       │                   `SCP://` or `SFTP://`
+│                       │       │                   and utilizes the `CURLOPT_SSH_KEYFUNCTION` callback, it may
+│                       │       │                    silently accept an
+│                       │       │                   untrusted server. This vulnerability occurs when a server
+│                       │       │                   presents a host key
+│                       │       │                   type that does not match the specific key type already
+│                       │       │                   recorded for that host
+│                       │       │                   in the `known_hosts` file. Instead of rejecting the
+│                       │       │                   mismatch, the callback
+│                       │       │                   mechanism fails to properly enforce the restriction,
+│                       │       │                   allowing the connection
+│                       │       │                   to succeed without warning and risking a potential
+│                       │       │                   man-in-the-middle attack. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9547.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-9547 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9547.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-9547.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-9547.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3751712 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9547 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.99Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.99Z 
 │                       ├ [16]  ╭ VulnerabilityID : CVE-2026-8932 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
@@ -504,7 +674,28 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:d0e239953a4453a0bdbf126de2954fa62a34fc0fdc4fa3e4ce5a
 │                       │       │                   32ff75ecf6df 
-│                       │       ╰ Severity        : UNKNOWN 
+│                       │       ├ Title           : libcurl would reuse a previously created connection even
+│                       │       │                   when some mTL ... 
+│                       │       ├ Description     : libcurl would reuse a previously created connection even
+│                       │       │                   when some mTLS config
+│                       │       │                   related option had been changed that should have prohibited
+│                       │       │                    reuse.
+│                       │       │                   
+│                       │       │                   libcurl keeps previously used connections in a connection
+│                       │       │                   pool for subsequent
+│                       │       │                   transfers to reuse if one of them matches the setup.
+│                       │       │                   However, some TLS
+│                       │       │                   settings related to client certificates were left out from
+│                       │       │                   the configuration
+│                       │       │                   match checks, making them match too easily. In particular
+│                       │       │                   options related to
+│                       │       │                   the private key. 
+│                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-8932.html 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8932.json 
+│                       │       │                  ╰ [2]: https://hackerone.com/reports/3733910 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.363Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.363Z 
 │                       ├ [17]  ╭ VulnerabilityID : CVE-2026-9546 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
@@ -524,7 +715,25 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:8d313038841e0c6a7dbab7ee56e5353735b44bd7a37b291373b7
 │                       │       │                   4c4bb03fa781 
-│                       │       ╰ Severity        : UNKNOWN 
+│                       │       ├ Title           : A vulnerability in libcurl caused the HTTP `Referer:`
+│                       │       │                   header to persis ... 
+│                       │       ├ Description     : A vulnerability in libcurl caused the HTTP `Referer:`
+│                       │       │                   header to persist even
+│                       │       │                   when explicitly cleared. While the documentation states
+│                       │       │                   that passing NULL to
+│                       │       │                   `CURLOPT_REFERER` suppresses the header, the option failed
+│                       │       │                   to clear the
+│                       │       │                   internal state. As a result the previous referrer string
+│                       │       │                   was erroneously
+│                       │       │                   reused and sent in subsequent requests, potentially leaking
+│                       │       │                    sensitive
+│                       │       │                   information to unintended servers. 
+│                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-9546.html 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-9546.json 
+│                       │       │                  ╰ [2]: https://hackerone.com/reports/3754343 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.893Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.893Z 
 │                       ├ [18]  ╭ VulnerabilityID : CVE-2026-11856 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
@@ -544,16 +753,26 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:b0cd943ccb5a226892ba065e673766d86e074ba0965b16c5c885
 │                       │       │                   6c069ebb9073 
+│                       │       ├ Title           : Successfully using libcurl to do a transfer to a specific
+│                       │       │                   HTTP origin  ... 
 │                       │       ├ Description     : Successfully using libcurl to do a transfer to a specific
-│                       │       │                   HTTP origin (`hostA`) with **Digest** authentication and
-│                       │       │                   then changing the origin to a different one (`hostB`) for a
-│                       │       │                    second transfer, reusing the same handle, makes libcurl
-│                       │       │                   wrongly pass on the `Authorization:` header field meant for
-│                       │       │                    `hostA`, to `hostB`. 
+│                       │       │                   HTTP origin
+│                       │       │                   (`hostA`) with **Digest** authentication and then changing
+│                       │       │                   the origin to a
+│                       │       │                   different one (`hostB`) for a second transfer, reusing the
+│                       │       │                   same handle, makes
+│                       │       │                   libcurl wrongly pass on the  `Authorization:` header field
+│                       │       │                   meant for `hostA`,
+│                       │       │                   to `hostB`. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ VendorSeverity   ─ ubuntu: 2 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11856.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-11856 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11856.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11856.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11856.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3793260 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11856 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.973Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:23.973Z 
 │                       ├ [19]  ╭ VulnerabilityID : CVE-2026-8925 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
@@ -573,14 +792,23 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:f77b6d450665cf0a40aac777051a2e06596753d319b5d83bbb0b
 │                       │       │                   dddd7fd4184e 
+│                       │       ├ Title           : The curl logic that works with SASL authentication could
+│                       │       │                   end up cleani ... 
 │                       │       ├ Description     : The curl logic that works with SASL authentication could
-│                       │       │                   end up cleaning up the GSASL context *twice* without
-│                       │       │                   clearing the pointer in between, making it `free()` the
-│                       │       │                   same pointer twice. 
+│                       │       │                   end up cleaning up
+│                       │       │                   the GSASL context *twice* without clearing the pointer in
+│                       │       │                   between, making it
+│                       │       │                   `free()` the same pointer twice. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ VendorSeverity   ─ ubuntu: 2 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8925.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-8925 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8925.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8925.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-8925.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3735193 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8925 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:24.95Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:24.95Z 
 │                       ├ [20]  ╭ VulnerabilityID : CVE-2026-8927 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
@@ -600,18 +828,29 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:fad9150c15de56bbc18fd067abba5e830d7c8412cf6452a55190
 │                       │       │                   47cf7a988f70 
+│                       │       ├ Title           : When reusing a libcurl handle for sequential transfers
+│                       │       │                   driven by envir ... 
 │                       │       ├ Description     : When reusing a libcurl handle for sequential transfers
-│                       │       │                   driven by environment-variable proxy configuration, libcurl
-│                       │       │                    fails to clear the proxy authentication state between
-│                       │       │                   requests. Specifically, if the initial transfer
+│                       │       │                   driven by
+│                       │       │                   environment-variable proxy configuration, libcurl fails to
+│                       │       │                   clear the proxy
+│                       │       │                   authentication state between requests. Specifically, if the
+│                       │       │                    initial transfer
 │                       │       │                   authenticates against `proxyA` using Digest auth, a
-│                       │       │                   subsequent transfer routed through `proxyB` erroneously
-│                       │       │                   leaks the `Proxy-Authorization:` header intended solely for
-│                       │       │                    `proxyA`. 
+│                       │       │                   subsequent transfer routed
+│                       │       │                   through `proxyB` erroneously leaks the
+│                       │       │                   `Proxy-Authorization:` header intended
+│                       │       │                   solely for `proxyA`. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ VendorSeverity   ─ ubuntu: 2 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8927.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-8927 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8927.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8927.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-8927.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3744543 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8927 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.123Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.123Z 
 │                       ├ [21]  ╭ VulnerabilityID : CVE-2026-9079 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
@@ -631,14 +870,24 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:92bbb393651ecac5f79d73fe6dbb6465a8d611839f69def4b718
 │                       │       │                   4008e333e5cf 
+│                       │       ├ Title           : libcurl had a flaw that when instructed to clear proxy
+│                       │       │                   authentication  ... 
 │                       │       ├ Description     : libcurl had a flaw that when instructed to clear proxy
-│                       │       │                   authentication credentials which made it not do so, leaving
-│                       │       │                    the old credentials around to get used for subsequent
-│                       │       │                   tranfers that should not know nor use them. 
+│                       │       │                   authentication
+│                       │       │                   credentials which made it not do so, leaving the old
+│                       │       │                   credentials around to get
+│                       │       │                   used for subsequent transfers that should not know nor use
+│                       │       │                   them. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ VendorSeverity   ─ ubuntu: 2 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9079.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-9079 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9079.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-9079.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-9079.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3750295 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9079 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.62Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.62Z 
 │                       ├ [22]  ╭ VulnerabilityID : CVE-2026-10536 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
@@ -658,18 +907,28 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:f121a188921408110e16daa400406b68459818373077267953b7
 │                       │       │                   350dbb062755 
+│                       │       ├ Title           : A use-after-free vulnerability exists in libcurl when an
+│                       │       │                   application c ... 
 │                       │       ├ Description     : A use-after-free vulnerability exists in libcurl when an
-│                       │       │                   application configures an HTTP/2 stream-dependency tree via
-│                       │       │                    `CURLOPT_STREAM_DEPENDS` or `CURLOPT_STREAM_DEPENDS_E`,
-│                       │       │                   subsequently invokes `curl_easy_reset()`, and finally
-│                       │       │                   terminates the handle with `curl_easy_cleanup()`. During
-│                       │       │                   this final cleanup phase, libcurl attempts to access and
-│                       │       │                   modify an internal structure that was already deallocated
-│                       │       │                   during the reset operation. 
+│                       │       │                   application
+│                       │       │                   configures an HTTP/2 stream-dependency tree via
+│                       │       │                   `CURLOPT_STREAM_DEPENDS` or
+│                       │       │                   `CURLOPT_STREAM_DEPENDS_E`, subsequently invokes
+│                       │       │                   `curl_easy_reset()`, and
+│                       │       │                   finally terminates the handle with `curl_easy_cleanup()`.
+│                       │       │                   During this final
+│                       │       │                   cleanup phase, libcurl attempts to access and modify an
+│                       │       │                   internal structure
+│                       │       │                   that was already freed during the reset operation. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-10536.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-10536 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-10536.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-10536.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-10536.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3751697 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-10536 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.563Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:23.563Z 
 │                       ├ [23]  ╭ VulnerabilityID : CVE-2026-11352 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
@@ -689,17 +948,26 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:37af813bbd905d3f2ad2da7b7def8702a4a74f6ede73be04e817
 │                       │       │                   d4b965f5414c 
-│                       │       ├ Description     : An issue in curl's QUIC UDP receive function allows a
-│                       │       │                   malicious HTTP/3 server to trigger a remote denial of
-│                       │       │                   service against a curl or libcurl client. Because the
-│                       │       │                   helper function discards zero-length UDP datagrams before
-│                       │       │                   counting them toward the per-call packet budget, a
-│                       │       │                   connected QUIC peer can continuously stream empty datagrams
-│                       │       │                    to indefinitely stall the client. 
+│                       │       ├ Title           : An issue in curl\u2019s QUIC UDP receive function allows a
+│                       │       │                   malicious H ... 
+│                       │       ├ Description     : An issue in curl’s QUIC UDP receive function allows a
+│                       │       │                   malicious HTTP/3 server
+│                       │       │                   to trigger a remote denial of service against a curl or
+│                       │       │                   libcurl client.
+│                       │       │                   Because the helper function discards zero-length UDP
+│                       │       │                   datagrams before counting
+│                       │       │                   them toward the per-call packet budget, a connected QUIC
+│                       │       │                   peer can continuously
+│                       │       │                   stream empty datagrams to indefinitely stall the client. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11352.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-11352 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11352.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11352.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11352.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3783438 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11352 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.693Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:23.693Z 
 │                       ├ [24]  ╭ VulnerabilityID : CVE-2026-11564 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
@@ -719,16 +987,26 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:6990220dcbf5f91a567a16f63b3808ae87dad0588610cea3baeb
 │                       │       │                   1d9f5c044b46 
+│                       │       ├ Title           : libcurl keeps previously used connections in a connection
+│                       │       │                   pool for sub ... 
 │                       │       ├ Description     : libcurl keeps previously used connections in a connection
-│                       │       │                   pool for subsequent transfers to reuse if one of them
-│                       │       │                   matches the setup. An easy handle that first uses default
-│                       │       │                   native CA trust can continue trusting the native platform
-│                       │       │                   store after the application switches that same handle to
+│                       │       │                   pool for subsequent
+│                       │       │                   transfers to reuse if one of them matches the setup.
+│                       │       │                   
+│                       │       │                   An easy handle that first uses default native CA trust can
+│                       │       │                   continue trusting
+│                       │       │                   the native platform store after the application switches
+│                       │       │                   that same handle to
 │                       │       │                   custom CA material for a later transfer. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11564.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-11564 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11564.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11564.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11564.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3788984 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11564 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.79Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:23.79Z 
 │                       ├ [25]  ╭ VulnerabilityID : CVE-2026-11586 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
@@ -748,15 +1026,24 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:25031b53be17de1695126f717ade22695e57066e0022684bb0a6
 │                       │       │                   a9a6864077c5 
+│                       │       ├ Title           : By default, curl automatically responds to WebSocket PING
+│                       │       │                   frames. Beca ... 
 │                       │       ├ Description     : By default, curl automatically responds to WebSocket PING
-│                       │       │                   frames. Because curl lacks an upper bound on memory
-│                       │       │                   allocation for unacknowledged frames, a malicious server
-│                       │       │                   can exhaust all available memory by flooding curl with
-│                       │       │                   rapid, sequential PING messages. 
+│                       │       │                   frames. Because curl
+│                       │       │                   lacks an upper bound on memory allocation for
+│                       │       │                   unacknowledged frames, a
+│                       │       │                   malicious server can exhaust all available memory by
+│                       │       │                   flooding curl with rapid,
+│                       │       │                   sequential PING messages. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11586.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-11586 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11586.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11586.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11586.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3788931 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11586 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.883Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:23.883Z 
 │                       ├ [26]  ╭ VulnerabilityID : CVE-2026-12064 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
@@ -776,23 +1063,36 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:4706127a035586c64062ed064c833302c8769c4203634345d67f
 │                       │       │                   9e59b54bebf3 
+│                       │       ├ Title           : When a user invokes curl using a schemeless URL combined
+│                       │       │                   with `--proto ... 
 │                       │       ├ Description     : When a user invokes curl using a schemeless URL combined
-│                       │       │                   with `--proto-default` sftp (or scp), a disconnect occurs
-│                       │       │                   between the tool layer and libcurl. The tool layer
-│                       │       │                   incorrectly infers the URL scheme, which erroneously
-│                       │       │                   bypasses the initialization of critical SSH security
-│                       │       │                   options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and
-│                       │       │                   CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime
-│                       │       │                   successfully honors CURLOPT_DEFAULT_PROTOCOL and
-│                       │       │                   establishes the connection via SFTP/SCP as specified.
-│                       │       │                   Because the tool layer skipped the security configuration,
-│                       │       │                   these SSH host verification options are silently omitted,
-│                       │       │                   causing curl to connect to an unverified SSH remote host
-│                       │       │                   without throwing an error. 
+│                       │       │                   with
+│                       │       │                   `--proto-default` sftp (or scp), a disconnect occurs
+│                       │       │                   between the tool layer
+│                       │       │                   and libcurl. The tool layer incorrectly infers the URL
+│                       │       │                   scheme, which
+│                       │       │                   erroneously bypasses the initialization of critical SSH
+│                       │       │                   security options like
+│                       │       │                   CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and
+│                       │       │                   CURLOPT_SSH_KNOWNHOSTS. Conversely, the
+│                       │       │                   libcurl runtime successfully honors
+│                       │       │                   CURLOPT_DEFAULT_PROTOCOL and establishes
+│                       │       │                   the connection via SFTP/SCP as specified. Because the tool
+│                       │       │                   layer skipped the
+│                       │       │                   security configuration, these SSH host verification options
+│                       │       │                    are silently
+│                       │       │                   omitted, causing curl to connect to an unverified SSH
+│                       │       │                   remote host without
+│                       │       │                   throwing an error. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-12064.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-12064 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-12064.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-12064.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-12064.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3797526 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-12064 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:24.217Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:24.217Z 
 │                       ├ [27]  ╭ VulnerabilityID : CVE-2026-8286 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
@@ -812,14 +1112,23 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:a4106cb0467ea0ea4a8d694543cb6edca2c5c18143b64bad2c53
 │                       │       │                   2f880f7ad14e 
+│                       │       ├ Title           : A vulnerability exists where a new transfer that uses
+│                       │       │                   STARTTLS to upgr ... 
 │                       │       ├ Description     : A vulnerability exists where a new transfer that uses
-│                       │       │                   STARTTLS to upgrade the connection might reuse an existing
-│                       │       │                   live connection even though the TLS configuration
-│                       │       │                   mismatches so it should not. 
+│                       │       │                   STARTTLS to upgrade the
+│                       │       │                   connection might reuse an existing live connection even
+│                       │       │                   though the TLS
+│                       │       │                   configuration mismatches so it should not. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8286.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-8286 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8286.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8286.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-8286.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3718195 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8286 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:24.453Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:24.453Z 
 │                       ├ [28]  ╭ VulnerabilityID : CVE-2026-8458 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
@@ -839,20 +1148,34 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:78eaf454b4560cab080b403c3ab81dd7904d683a57462cedbdf5
 │                       │       │                   24a39a2285a1 
+│                       │       ├ Title           : libcurl might in some circumstances reuse the wrong
+│                       │       │                   connection when as ... 
 │                       │       ├ Description     : libcurl might in some circumstances reuse the wrong
-│                       │       │                   connection when asked to do Negotiate-authenticated ones,
-│                       │       │                   even when they are set to use different "services". libcurl
-│                       │       │                    features a pool of recent connections so that subsequent
-│                       │       │                   requests can reuse an existing connection to avoid
-│                       │       │                   overhead. When reusing a connection a range of criteria
-│                       │       │                   must be met. Due to a logical error in the code, a request
-│                       │       │                   that was issued by an application could wrongfully reuse an
-│                       │       │                    existing connection to the same server that was
+│                       │       │                   connection when asked to
+│                       │       │                   do Negotiate-authenticated ones, even when they are set to
+│                       │       │                   use different
+│                       │       │                   'services'.
+│                       │       │                   
+│                       │       │                   libcurl features a pool of recent connections so that
+│                       │       │                   subsequent requests can
+│                       │       │                   reuse an existing connection to avoid overhead.
+│                       │       │                   When reusing a connection a range of criteria must be met.
+│                       │       │                   Due to a logical
+│                       │       │                   error in the code, a request that was issued by an
+│                       │       │                   application could
+│                       │       │                   wrongfully reuse an existing connection to the same server
+│                       │       │                   that was
 │                       │       │                   authenticated using different services. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8458.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-8458 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8458.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8458.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-8458.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3721183 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8458 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:24.63Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:24.63Z 
 │                       ├ [29]  ╭ VulnerabilityID : CVE-2026-8924 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
@@ -872,15 +1195,25 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:5769984d2f4bb46009fbf4d69cc340bdefd4c0d6cb9817982b14
 │                       │       │                   5229f653fcf6 
-│                       │       ├ Description     : A flaw in curl's cookie parsing logic allows a malicious
-│                       │       │                   HTTP server to set "super cookies" that bypass the Public
-│                       │       │                   Suffix List check. This enables an attacker-controlled
-│                       │       │                   origin to inject cookies that curl will subsequently scope
-│                       │       │                   and transmit to unrelated third-party domains. 
+│                       │       ├ Title           : A flaw in curl\u2019s cookie parsing logic allows a
+│                       │       │                   malicious HTTP ser ... 
+│                       │       ├ Description     : A flaw in curl’s cookie parsing logic allows a malicious
+│                       │       │                   HTTP server to set
+│                       │       │                   'super cookies' that bypass the Public Suffix List check.
+│                       │       │                   This enables an
+│                       │       │                   attacker-controlled origin to inject cookies that curl
+│                       │       │                   subsequently scopes and
+│                       │       │                   transmits to unrelated third-party domains. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8924.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-8924 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8924.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8924.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-8924.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3733905 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8924 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:24.793Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:24.793Z 
 │                       ├ [30]  ╭ VulnerabilityID : CVE-2026-8926 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
@@ -900,16 +1233,27 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:a8f7d2b8cf27c5c82b878f1791c17d88cb261291c1751d571518
 │                       │       │                   df1e8cea19ad 
+│                       │       ├ Title           : When asking curl to use a `.netrc` file to find credentials
+│                       │       │                    and at the ... 
 │                       │       ├ Description     : When asking curl to use a `.netrc` file to find credentials
-│                       │       │                    and at the same time specifying a URL with a username
-│                       │       │                   (without a password), like `https://user@example.com/`,
-│                       │       │                   curl could wrongly get and use the password for *another*
-│                       │       │                   user set in the `.netrc` file for that host if such a one
-│                       │       │                   exists and there is no match for the specified user. 
+│                       │       │                    and at the same
+│                       │       │                   time specifying a URL with a username(without a password),
+│                       │       │                   like
+│                       │       │                   `https://user@example.com/`, curl could wrongly get and use
+│                       │       │                    the password for
+│                       │       │                   *another* user set in the `.netrc` file for that host if
+│                       │       │                   such a one exists and
+│                       │       │                   there is no match for the specified user. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8926.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-8926 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8926.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8926.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-8926.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3735184 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8926 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.037Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.037Z 
 │                       ├ [31]  ╭ VulnerabilityID : CVE-2026-9080 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
@@ -929,15 +1273,25 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:e875bc325d2dc5ec29b71633955944349c93d3359723db66c0b7
 │                       │       │                   cb3989db8cc8 
+│                       │       ├ Title           : Calling `curl_easy_pause()` within the event-based
+│                       │       │                   `CURLMOPT_SOCKETFUN ... 
 │                       │       ├ Description     : Calling `curl_easy_pause()` within the event-based
-│                       │       │                   `CURLMOPT_SOCKETFUNCTION` callback triggers a
-│                       │       │                   use-after-free vulnerability, where libcurl attempts to
+│                       │       │                   `CURLMOPT_SOCKETFUNCTION`
+│                       │       │                   callback triggers a use-after-free vulnerability, where
+│                       │       │                   libcurl attempts to
 │                       │       │                   store a flag using a dangling struct pointer immediately
-│                       │       │                   after that pointer's memory has been freed. 
+│                       │       │                   after that pointer's
+│                       │       │                   memory has been freed. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9080.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-9080 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9080.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-9080.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-9080.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3749204 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9080 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.713Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.713Z 
 │                       ├ [32]  ╭ VulnerabilityID : CVE-2026-9545 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
@@ -957,22 +1311,36 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:5b1f599d0a73fd0a67a6d30e908a1416597be01c360803069012
 │                       │       │                   b0973b4cf45c 
+│                       │       ├ Title           : In this scenario, libcurl first uses a proper HTTP/3 server
+│                       │       │                    for the in ... 
 │                       │       ├ Description     : In this scenario, libcurl first uses a proper HTTP/3 server
-│                       │       │                    for the initial transfers, and when it makes a second
-│                       │       │                   transfer to the same site it has been replaced by the
-│                       │       │                   attacker's impostor machine - without a valid certificate.
+│                       │       │                    for the initial
+│                       │       │                   transfers, and when it makes a second transfer to the same
+│                       │       │                   site it has been
+│                       │       │                   replaced by the attacker's impostor machine - without a
+│                       │       │                   valid certificate.
+│                       │       │                   
 │                       │       │                   When libcurl returns to the hostname the second time with a
-│                       │       │                    cached SSL session (`CURLOPT_SSL_SESSIONID_CACHE` is not
-│                       │       │                   disabled) and early data enabled (the
-│                       │       │                   `CURLSSLOPT_EARLYDATA` bit is set in`CURLOPT_SSL_OPTIONS`),
-│                       │       │                    libcurl might send off the second request's bytes on that
-│                       │       │                   new connection *before* enforcing the certificate
-│                       │       │                   verification failure. Potentially leaking sensitive
+│                       │       │                    cached SSL session
+│                       │       │                   (`CURLOPT_SSL_SESSIONID_CACHE` is not disabled) and early
+│                       │       │                   data enabled (the
+│                       │       │                   `CURLSSLOPT_EARLYDATA` bit is set in
+│                       │       │                   `CURLOPT_SSL_OPTIONS`), libcurl might
+│                       │       │                   send off the second request's bytes on that new connection
+│                       │       │                   *before* enforcing
+│                       │       │                   the certificate verification failure. Potentially leaking
+│                       │       │                   sensitive
 │                       │       │                   information. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9545.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-9545 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9545.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-9545.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-9545.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3752888 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9545 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.807Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.807Z 
 │                       ├ [33]  ╭ VulnerabilityID : CVE-2026-9547 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
@@ -992,21 +1360,32 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:ee2d1d2ad07f82bd6224b8d4065bc60f581699fbd48946ea44ad
 │                       │       │                   16ce51af9c10 
+│                       │       ├ Title           : When a libcurl-based application performs transfers via
+│                       │       │                   `SCP://` or `S ... 
 │                       │       ├ Description     : When a libcurl-based application performs transfers via
-│                       │       │                   `SCP://` or `SFTP://` and utilizes the
-│                       │       │                   `CURLOPT_SSH_KEYFUNCTION` callback, it may silently accept
-│                       │       │                   an untrusted server. This vulnerability occurs when a
-│                       │       │                   server presents a host key type that does not match the
-│                       │       │                   specific key type already recorded for that host in the
-│                       │       │                   `known_hosts` file. Instead of rejecting the mismatch, the
-│                       │       │                   callback mechanism fails to properly enforce the
-│                       │       │                   restriction, allowing the connection to succeed without
-│                       │       │                   warning and risking a potential man-in-the-middle attack.[
-│                       │       │                   m 
+│                       │       │                   `SCP://` or `SFTP://`
+│                       │       │                   and utilizes the `CURLOPT_SSH_KEYFUNCTION` callback, it may
+│                       │       │                    silently accept an
+│                       │       │                   untrusted server. This vulnerability occurs when a server
+│                       │       │                   presents a host key
+│                       │       │                   type that does not match the specific key type already
+│                       │       │                   recorded for that host
+│                       │       │                   in the `known_hosts` file. Instead of rejecting the
+│                       │       │                   mismatch, the callback
+│                       │       │                   mechanism fails to properly enforce the restriction,
+│                       │       │                   allowing the connection
+│                       │       │                   to succeed without warning and risking a potential
+│                       │       │                   man-in-the-middle attack. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9547.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-9547 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9547.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-9547.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-9547.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3751712 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9547 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.99Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.99Z 
 │                       ├ [34]  ╭ VulnerabilityID : CVE-2026-8932 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
@@ -1026,7 +1405,28 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:a0c43e3a8393b603b42ea5622e26b9e2b2f904419d6ba0916012
 │                       │       │                   95e827e05561 
-│                       │       ╰ Severity        : UNKNOWN 
+│                       │       ├ Title           : libcurl would reuse a previously created connection even
+│                       │       │                   when some mTL ... 
+│                       │       ├ Description     : libcurl would reuse a previously created connection even
+│                       │       │                   when some mTLS config
+│                       │       │                   related option had been changed that should have prohibited
+│                       │       │                    reuse.
+│                       │       │                   
+│                       │       │                   libcurl keeps previously used connections in a connection
+│                       │       │                   pool for subsequent
+│                       │       │                   transfers to reuse if one of them matches the setup.
+│                       │       │                   However, some TLS
+│                       │       │                   settings related to client certificates were left out from
+│                       │       │                   the configuration
+│                       │       │                   match checks, making them match too easily. In particular
+│                       │       │                   options related to
+│                       │       │                   the private key. 
+│                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-8932.html 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8932.json 
+│                       │       │                  ╰ [2]: https://hackerone.com/reports/3733910 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.363Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.363Z 
 │                       ├ [35]  ╭ VulnerabilityID : CVE-2026-9546 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
@@ -1046,7 +1446,25 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:69fcf6bb44bd2c0040d42ff211f7d47d705f46c249ed268ef0b0
 │                       │       │                   d5ccaab8fab0 
-│                       │       ╰ Severity        : UNKNOWN 
+│                       │       ├ Title           : A vulnerability in libcurl caused the HTTP `Referer:`
+│                       │       │                   header to persis ... 
+│                       │       ├ Description     : A vulnerability in libcurl caused the HTTP `Referer:`
+│                       │       │                   header to persist even
+│                       │       │                   when explicitly cleared. While the documentation states
+│                       │       │                   that passing NULL to
+│                       │       │                   `CURLOPT_REFERER` suppresses the header, the option failed
+│                       │       │                   to clear the
+│                       │       │                   internal state. As a result the previous referrer string
+│                       │       │                   was erroneously
+│                       │       │                   reused and sent in subsequent requests, potentially leaking
+│                       │       │                    sensitive
+│                       │       │                   information to unintended servers. 
+│                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-9546.html 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-9546.json 
+│                       │       │                  ╰ [2]: https://hackerone.com/reports/3754343 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.893Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.893Z 
 │                       ├ [36]  ╭ VulnerabilityID : CVE-2026-45447 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
@@ -1184,7 +1602,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [51]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [52]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [52]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [53]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [54]: https://github.com/openssl/openssl/commit/3aad5eb7af
 │                       │       │                  │       4de4ee0633c30a8541a54d9bbde63c 
@@ -1290,7 +1708,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 7.4 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34182 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -1352,7 +1770,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/03c1f4d45f
 │                       │       │                  │       b963aee7d5833390c507cd290182bc 
@@ -1435,7 +1853,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 7.5 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34183 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -1497,7 +1915,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/5b306efb0b
 │                       │       │                  │       3779dfdd0803b4afc9d08c91f11517 
@@ -1576,7 +1994,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42764 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -1638,7 +2056,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/5e3ed291b8
 │                       │       │                  │       af0b03d5d3b9e56a1da69a187e9729 
@@ -1750,7 +2168,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 9.1 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-45445 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -1812,7 +2230,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/323f0b6e7d
 │                       │       │                  │       530a4cb4336d50c88cb70f3ac2a451 
@@ -1902,7 +2320,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34180 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -1964,7 +2382,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/1c6908e4fa
 │                       │       │                  │       5fa568752221d8eaf561a809751e5d 
@@ -2043,7 +2461,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 6.3 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34181 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -2105,7 +2523,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/0300eb9ddc
 │                       │       │                  │       e7a0895bf301a4b0c03a9da2313a0f 
@@ -2185,7 +2603,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42766 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -2247,7 +2665,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/056d06c191
 │                       │       │                  │       8fafbb98c1c85a02e4c47cc4e199ce 
@@ -2327,7 +2745,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42767 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -2389,7 +2807,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/61a86a8cd7
 │                       │       │                  │       3546c9fea916f3d304c1293e05c046 
@@ -2522,7 +2940,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 6.3 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42768 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -2584,7 +3002,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/a2ca7b2d73
 │                       │       │                  │       e0ffc1eae183fe6e1741dac767cb4f 
@@ -2688,7 +3106,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42769 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -2750,7 +3168,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/54d0989997
 │                       │       │                  │       e5fc26057009a9782c3441ce3842fb 
@@ -2843,7 +3261,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42770 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -2905,7 +3323,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/3da5a516cd
 │                       │       │                  │       2635a320ff748503db2cef7c4b0f02 
@@ -3014,7 +3432,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 3.7 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-45446 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -3076,7 +3494,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/25b32cd9d4
 │                       │       │                  │       1d2bc01b6abc425bb4baf2c2236fdc 
@@ -3174,7 +3592,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:
 │                       │       │                           │           L/A:H 
 │                       │       │                           ╰ V3Score : 5.5 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-7383 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -3236,7 +3654,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/4f8d2bddaa
 │                       │       │                  │       2c8e06f9c33390ee1717059a6e4be6 
@@ -3340,7 +3758,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-9076 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -3402,7 +3820,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/05b0663668
 │                       │       │                  │       42f930fadd9a6e94df98030af431bb 
@@ -3442,16 +3860,26 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:f83b0d6378ebcc554519125ebc69325d30b16aed1180cb386340
 │                       │       │                   ceb5241c0898 
+│                       │       ├ Title           : Successfully using libcurl to do a transfer to a specific
+│                       │       │                   HTTP origin  ... 
 │                       │       ├ Description     : Successfully using libcurl to do a transfer to a specific
-│                       │       │                   HTTP origin (`hostA`) with **Digest** authentication and
-│                       │       │                   then changing the origin to a different one (`hostB`) for a
-│                       │       │                    second transfer, reusing the same handle, makes libcurl
-│                       │       │                   wrongly pass on the `Authorization:` header field meant for
-│                       │       │                    `hostA`, to `hostB`. 
+│                       │       │                   HTTP origin
+│                       │       │                   (`hostA`) with **Digest** authentication and then changing
+│                       │       │                   the origin to a
+│                       │       │                   different one (`hostB`) for a second transfer, reusing the
+│                       │       │                   same handle, makes
+│                       │       │                   libcurl wrongly pass on the  `Authorization:` header field
+│                       │       │                   meant for `hostA`,
+│                       │       │                   to `hostB`. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ VendorSeverity   ─ ubuntu: 2 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11856.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-11856 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11856.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11856.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11856.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3793260 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11856 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.973Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:23.973Z 
 │                       ├ [52]  ╭ VulnerabilityID : CVE-2026-8925 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
@@ -3471,14 +3899,23 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:540eb48790f508b1880ef3c7cd5335f312ff1d28d4bd53311da6
 │                       │       │                   b8abfde0513d 
+│                       │       ├ Title           : The curl logic that works with SASL authentication could
+│                       │       │                   end up cleani ... 
 │                       │       ├ Description     : The curl logic that works with SASL authentication could
-│                       │       │                   end up cleaning up the GSASL context *twice* without
-│                       │       │                   clearing the pointer in between, making it `free()` the
-│                       │       │                   same pointer twice. 
+│                       │       │                   end up cleaning up
+│                       │       │                   the GSASL context *twice* without clearing the pointer in
+│                       │       │                   between, making it
+│                       │       │                   `free()` the same pointer twice. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ VendorSeverity   ─ ubuntu: 2 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8925.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-8925 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8925.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8925.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-8925.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3735193 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8925 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:24.95Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:24.95Z 
 │                       ├ [53]  ╭ VulnerabilityID : CVE-2026-8927 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
@@ -3498,18 +3935,29 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:e17fbd0600883085b9a2c76411d07c997fb35ffdc7e1ade69703
 │                       │       │                   d8f04e92274b 
+│                       │       ├ Title           : When reusing a libcurl handle for sequential transfers
+│                       │       │                   driven by envir ... 
 │                       │       ├ Description     : When reusing a libcurl handle for sequential transfers
-│                       │       │                   driven by environment-variable proxy configuration, libcurl
-│                       │       │                    fails to clear the proxy authentication state between
-│                       │       │                   requests. Specifically, if the initial transfer
+│                       │       │                   driven by
+│                       │       │                   environment-variable proxy configuration, libcurl fails to
+│                       │       │                   clear the proxy
+│                       │       │                   authentication state between requests. Specifically, if the
+│                       │       │                    initial transfer
 │                       │       │                   authenticates against `proxyA` using Digest auth, a
-│                       │       │                   subsequent transfer routed through `proxyB` erroneously
-│                       │       │                   leaks the `Proxy-Authorization:` header intended solely for
-│                       │       │                    `proxyA`. 
+│                       │       │                   subsequent transfer routed
+│                       │       │                   through `proxyB` erroneously leaks the
+│                       │       │                   `Proxy-Authorization:` header intended
+│                       │       │                   solely for `proxyA`. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ VendorSeverity   ─ ubuntu: 2 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8927.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-8927 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8927.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8927.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-8927.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3744543 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8927 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.123Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.123Z 
 │                       ├ [54]  ╭ VulnerabilityID : CVE-2026-9079 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
@@ -3529,14 +3977,24 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:4362a67c34c727f15e4339a759d4692ed83af27c8a8b408e8295
 │                       │       │                   a5ecda7dda9b 
+│                       │       ├ Title           : libcurl had a flaw that when instructed to clear proxy
+│                       │       │                   authentication  ... 
 │                       │       ├ Description     : libcurl had a flaw that when instructed to clear proxy
-│                       │       │                   authentication credentials which made it not do so, leaving
-│                       │       │                    the old credentials around to get used for subsequent
-│                       │       │                   tranfers that should not know nor use them. 
+│                       │       │                   authentication
+│                       │       │                   credentials which made it not do so, leaving the old
+│                       │       │                   credentials around to get
+│                       │       │                   used for subsequent transfers that should not know nor use
+│                       │       │                   them. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ VendorSeverity   ─ ubuntu: 2 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9079.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-9079 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9079.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-9079.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-9079.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3750295 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9079 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.62Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.62Z 
 │                       ├ [55]  ╭ VulnerabilityID : CVE-2026-10536 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
@@ -3556,18 +4014,28 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:64f6cf8dc530ce3584f65d1ba1ea16ae7559a5251a824abc7710
 │                       │       │                   b48485e91799 
+│                       │       ├ Title           : A use-after-free vulnerability exists in libcurl when an
+│                       │       │                   application c ... 
 │                       │       ├ Description     : A use-after-free vulnerability exists in libcurl when an
-│                       │       │                   application configures an HTTP/2 stream-dependency tree via
-│                       │       │                    `CURLOPT_STREAM_DEPENDS` or `CURLOPT_STREAM_DEPENDS_E`,
-│                       │       │                   subsequently invokes `curl_easy_reset()`, and finally
-│                       │       │                   terminates the handle with `curl_easy_cleanup()`. During
-│                       │       │                   this final cleanup phase, libcurl attempts to access and
-│                       │       │                   modify an internal structure that was already deallocated
-│                       │       │                   during the reset operation. 
+│                       │       │                   application
+│                       │       │                   configures an HTTP/2 stream-dependency tree via
+│                       │       │                   `CURLOPT_STREAM_DEPENDS` or
+│                       │       │                   `CURLOPT_STREAM_DEPENDS_E`, subsequently invokes
+│                       │       │                   `curl_easy_reset()`, and
+│                       │       │                   finally terminates the handle with `curl_easy_cleanup()`.
+│                       │       │                   During this final
+│                       │       │                   cleanup phase, libcurl attempts to access and modify an
+│                       │       │                   internal structure
+│                       │       │                   that was already freed during the reset operation. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-10536.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-10536 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-10536.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-10536.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-10536.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3751697 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-10536 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.563Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:23.563Z 
 │                       ├ [56]  ╭ VulnerabilityID : CVE-2026-11352 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
@@ -3587,17 +4055,26 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:85775e00cdc3509217954ab254737334d9f7e5d6f758a1bc817c
 │                       │       │                   f4eb22ec4995 
-│                       │       ├ Description     : An issue in curl's QUIC UDP receive function allows a
-│                       │       │                   malicious HTTP/3 server to trigger a remote denial of
-│                       │       │                   service against a curl or libcurl client. Because the
-│                       │       │                   helper function discards zero-length UDP datagrams before
-│                       │       │                   counting them toward the per-call packet budget, a
-│                       │       │                   connected QUIC peer can continuously stream empty datagrams
-│                       │       │                    to indefinitely stall the client. 
+│                       │       ├ Title           : An issue in curl\u2019s QUIC UDP receive function allows a
+│                       │       │                   malicious H ... 
+│                       │       ├ Description     : An issue in curl’s QUIC UDP receive function allows a
+│                       │       │                   malicious HTTP/3 server
+│                       │       │                   to trigger a remote denial of service against a curl or
+│                       │       │                   libcurl client.
+│                       │       │                   Because the helper function discards zero-length UDP
+│                       │       │                   datagrams before counting
+│                       │       │                   them toward the per-call packet budget, a connected QUIC
+│                       │       │                   peer can continuously
+│                       │       │                   stream empty datagrams to indefinitely stall the client. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11352.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-11352 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11352.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11352.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11352.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3783438 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11352 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.693Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:23.693Z 
 │                       ├ [57]  ╭ VulnerabilityID : CVE-2026-11564 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
@@ -3617,16 +4094,26 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:75110be4f59a0082b7e550033da1a0a287b30292b33ada6e4106
 │                       │       │                   e5ec054c187d 
+│                       │       ├ Title           : libcurl keeps previously used connections in a connection
+│                       │       │                   pool for sub ... 
 │                       │       ├ Description     : libcurl keeps previously used connections in a connection
-│                       │       │                   pool for subsequent transfers to reuse if one of them
-│                       │       │                   matches the setup. An easy handle that first uses default
-│                       │       │                   native CA trust can continue trusting the native platform
-│                       │       │                   store after the application switches that same handle to
+│                       │       │                   pool for subsequent
+│                       │       │                   transfers to reuse if one of them matches the setup.
+│                       │       │                   
+│                       │       │                   An easy handle that first uses default native CA trust can
+│                       │       │                   continue trusting
+│                       │       │                   the native platform store after the application switches
+│                       │       │                   that same handle to
 │                       │       │                   custom CA material for a later transfer. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11564.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-11564 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11564.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11564.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11564.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3788984 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11564 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.79Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:23.79Z 
 │                       ├ [58]  ╭ VulnerabilityID : CVE-2026-11586 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
@@ -3646,15 +4133,24 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:c1c0cafaee0cd95849f8ced7f25a38d4813287d2c54513873402
 │                       │       │                   a917e7b6ae9c 
+│                       │       ├ Title           : By default, curl automatically responds to WebSocket PING
+│                       │       │                   frames. Beca ... 
 │                       │       ├ Description     : By default, curl automatically responds to WebSocket PING
-│                       │       │                   frames. Because curl lacks an upper bound on memory
-│                       │       │                   allocation for unacknowledged frames, a malicious server
-│                       │       │                   can exhaust all available memory by flooding curl with
-│                       │       │                   rapid, sequential PING messages. 
+│                       │       │                   frames. Because curl
+│                       │       │                   lacks an upper bound on memory allocation for
+│                       │       │                   unacknowledged frames, a
+│                       │       │                   malicious server can exhaust all available memory by
+│                       │       │                   flooding curl with rapid,
+│                       │       │                   sequential PING messages. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11586.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-11586 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11586.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11586.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11586.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3788931 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11586 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.883Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:23.883Z 
 │                       ├ [59]  ╭ VulnerabilityID : CVE-2026-12064 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
@@ -3674,23 +4170,36 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:0bc7de86f0d8e89a4f789e42d65ca0bad3502dc0c11f23757a8e
 │                       │       │                   3424d3ca7f15 
+│                       │       ├ Title           : When a user invokes curl using a schemeless URL combined
+│                       │       │                   with `--proto ... 
 │                       │       ├ Description     : When a user invokes curl using a schemeless URL combined
-│                       │       │                   with `--proto-default` sftp (or scp), a disconnect occurs
-│                       │       │                   between the tool layer and libcurl. The tool layer
-│                       │       │                   incorrectly infers the URL scheme, which erroneously
-│                       │       │                   bypasses the initialization of critical SSH security
-│                       │       │                   options like CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and
-│                       │       │                   CURLOPT_SSH_KNOWNHOSTS. Conversely, the libcurl runtime
-│                       │       │                   successfully honors CURLOPT_DEFAULT_PROTOCOL and
-│                       │       │                   establishes the connection via SFTP/SCP as specified.
-│                       │       │                   Because the tool layer skipped the security configuration,
-│                       │       │                   these SSH host verification options are silently omitted,
-│                       │       │                   causing curl to connect to an unverified SSH remote host
-│                       │       │                   without throwing an error. 
+│                       │       │                   with
+│                       │       │                   `--proto-default` sftp (or scp), a disconnect occurs
+│                       │       │                   between the tool layer
+│                       │       │                   and libcurl. The tool layer incorrectly infers the URL
+│                       │       │                   scheme, which
+│                       │       │                   erroneously bypasses the initialization of critical SSH
+│                       │       │                   security options like
+│                       │       │                   CURLOPT_SSH_HOST_PUBLIC_KEY_SHA256 and
+│                       │       │                   CURLOPT_SSH_KNOWNHOSTS. Conversely, the
+│                       │       │                   libcurl runtime successfully honors
+│                       │       │                   CURLOPT_DEFAULT_PROTOCOL and establishes
+│                       │       │                   the connection via SFTP/SCP as specified. Because the tool
+│                       │       │                   layer skipped the
+│                       │       │                   security configuration, these SSH host verification options
+│                       │       │                    are silently
+│                       │       │                   omitted, causing curl to connect to an unverified SSH
+│                       │       │                   remote host without
+│                       │       │                   throwing an error. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-12064.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-12064 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-12064.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-12064.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-12064.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3797526 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-12064 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:24.217Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:24.217Z 
 │                       ├ [60]  ╭ VulnerabilityID : CVE-2026-8286 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
@@ -3710,14 +4219,23 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:9f880269746b308a57b57a905f0fedf683cd857a41b050af1192
 │                       │       │                   64aef18d05d3 
+│                       │       ├ Title           : A vulnerability exists where a new transfer that uses
+│                       │       │                   STARTTLS to upgr ... 
 │                       │       ├ Description     : A vulnerability exists where a new transfer that uses
-│                       │       │                   STARTTLS to upgrade the connection might reuse an existing
-│                       │       │                   live connection even though the TLS configuration
-│                       │       │                   mismatches so it should not. 
+│                       │       │                   STARTTLS to upgrade the
+│                       │       │                   connection might reuse an existing live connection even
+│                       │       │                   though the TLS
+│                       │       │                   configuration mismatches so it should not. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8286.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-8286 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8286.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8286.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-8286.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3718195 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8286 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:24.453Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:24.453Z 
 │                       ├ [61]  ╭ VulnerabilityID : CVE-2026-8458 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
@@ -3737,20 +4255,34 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:78f4a112069f8bf5e310fc55c02676b8277c70f9bfb1240d8ee3
 │                       │       │                   68390c0c61cc 
+│                       │       ├ Title           : libcurl might in some circumstances reuse the wrong
+│                       │       │                   connection when as ... 
 │                       │       ├ Description     : libcurl might in some circumstances reuse the wrong
-│                       │       │                   connection when asked to do Negotiate-authenticated ones,
-│                       │       │                   even when they are set to use different "services". libcurl
-│                       │       │                    features a pool of recent connections so that subsequent
-│                       │       │                   requests can reuse an existing connection to avoid
-│                       │       │                   overhead. When reusing a connection a range of criteria
-│                       │       │                   must be met. Due to a logical error in the code, a request
-│                       │       │                   that was issued by an application could wrongfully reuse an
-│                       │       │                    existing connection to the same server that was
+│                       │       │                   connection when asked to
+│                       │       │                   do Negotiate-authenticated ones, even when they are set to
+│                       │       │                   use different
+│                       │       │                   'services'.
+│                       │       │                   
+│                       │       │                   libcurl features a pool of recent connections so that
+│                       │       │                   subsequent requests can
+│                       │       │                   reuse an existing connection to avoid overhead.
+│                       │       │                   When reusing a connection a range of criteria must be met.
+│                       │       │                   Due to a logical
+│                       │       │                   error in the code, a request that was issued by an
+│                       │       │                   application could
+│                       │       │                   wrongfully reuse an existing connection to the same server
+│                       │       │                   that was
 │                       │       │                   authenticated using different services. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8458.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-8458 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8458.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8458.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-8458.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3721183 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8458 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:24.63Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:24.63Z 
 │                       ├ [62]  ╭ VulnerabilityID : CVE-2026-8924 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
@@ -3770,15 +4302,25 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:b4dc9486fe0aaf9cec9c0717a2631e6e3ab5b9cb7b9b46287732
 │                       │       │                   c1f67dc6228f 
-│                       │       ├ Description     : A flaw in curl's cookie parsing logic allows a malicious
-│                       │       │                   HTTP server to set "super cookies" that bypass the Public
-│                       │       │                   Suffix List check. This enables an attacker-controlled
-│                       │       │                   origin to inject cookies that curl will subsequently scope
-│                       │       │                   and transmit to unrelated third-party domains. 
+│                       │       ├ Title           : A flaw in curl\u2019s cookie parsing logic allows a
+│                       │       │                   malicious HTTP ser ... 
+│                       │       ├ Description     : A flaw in curl’s cookie parsing logic allows a malicious
+│                       │       │                   HTTP server to set
+│                       │       │                   'super cookies' that bypass the Public Suffix List check.
+│                       │       │                   This enables an
+│                       │       │                   attacker-controlled origin to inject cookies that curl
+│                       │       │                   subsequently scopes and
+│                       │       │                   transmits to unrelated third-party domains. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8924.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-8924 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8924.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8924.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-8924.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3733905 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8924 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:24.793Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:24.793Z 
 │                       ├ [63]  ╭ VulnerabilityID : CVE-2026-8926 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
@@ -3798,16 +4340,27 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:98fe3f909f232a71e775ecaae3eb4c15cd58f76d205ce64c38a8
 │                       │       │                   19be8685aac2 
+│                       │       ├ Title           : When asking curl to use a `.netrc` file to find credentials
+│                       │       │                    and at the ... 
 │                       │       ├ Description     : When asking curl to use a `.netrc` file to find credentials
-│                       │       │                    and at the same time specifying a URL with a username
-│                       │       │                   (without a password), like `https://user@example.com/`,
-│                       │       │                   curl could wrongly get and use the password for *another*
-│                       │       │                   user set in the `.netrc` file for that host if such a one
-│                       │       │                   exists and there is no match for the specified user. 
+│                       │       │                    and at the same
+│                       │       │                   time specifying a URL with a username(without a password),
+│                       │       │                   like
+│                       │       │                   `https://user@example.com/`, curl could wrongly get and use
+│                       │       │                    the password for
+│                       │       │                   *another* user set in the `.netrc` file for that host if
+│                       │       │                   such a one exists and
+│                       │       │                   there is no match for the specified user. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8926.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-8926 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-8926.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8926.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-8926.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3735184 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8926 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.037Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.037Z 
 │                       ├ [64]  ╭ VulnerabilityID : CVE-2026-9080 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
@@ -3827,15 +4380,25 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:4bc235b42a03b22c457a48ee6138df87dc75b1614aa4b389c6f3
 │                       │       │                   ef39f4f49cca 
+│                       │       ├ Title           : Calling `curl_easy_pause()` within the event-based
+│                       │       │                   `CURLMOPT_SOCKETFUN ... 
 │                       │       ├ Description     : Calling `curl_easy_pause()` within the event-based
-│                       │       │                   `CURLMOPT_SOCKETFUNCTION` callback triggers a
-│                       │       │                   use-after-free vulnerability, where libcurl attempts to
+│                       │       │                   `CURLMOPT_SOCKETFUNCTION`
+│                       │       │                   callback triggers a use-after-free vulnerability, where
+│                       │       │                   libcurl attempts to
 │                       │       │                   store a flag using a dangling struct pointer immediately
-│                       │       │                   after that pointer's memory has been freed. 
+│                       │       │                   after that pointer's
+│                       │       │                   memory has been freed. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9080.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-9080 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9080.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-9080.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-9080.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3749204 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9080 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.713Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.713Z 
 │                       ├ [65]  ╭ VulnerabilityID : CVE-2026-9545 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
@@ -3855,22 +4418,36 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:655ba1b46725eaaf5f907b82d0209c8d6b5b840b434b5e3061b9
 │                       │       │                   4503b5e03355 
+│                       │       ├ Title           : In this scenario, libcurl first uses a proper HTTP/3 server
+│                       │       │                    for the in ... 
 │                       │       ├ Description     : In this scenario, libcurl first uses a proper HTTP/3 server
-│                       │       │                    for the initial transfers, and when it makes a second
-│                       │       │                   transfer to the same site it has been replaced by the
-│                       │       │                   attacker's impostor machine - without a valid certificate.
+│                       │       │                    for the initial
+│                       │       │                   transfers, and when it makes a second transfer to the same
+│                       │       │                   site it has been
+│                       │       │                   replaced by the attacker's impostor machine - without a
+│                       │       │                   valid certificate.
+│                       │       │                   
 │                       │       │                   When libcurl returns to the hostname the second time with a
-│                       │       │                    cached SSL session (`CURLOPT_SSL_SESSIONID_CACHE` is not
-│                       │       │                   disabled) and early data enabled (the
-│                       │       │                   `CURLSSLOPT_EARLYDATA` bit is set in`CURLOPT_SSL_OPTIONS`),
-│                       │       │                    libcurl might send off the second request's bytes on that
-│                       │       │                   new connection *before* enforcing the certificate
-│                       │       │                   verification failure. Potentially leaking sensitive
+│                       │       │                    cached SSL session
+│                       │       │                   (`CURLOPT_SSL_SESSIONID_CACHE` is not disabled) and early
+│                       │       │                   data enabled (the
+│                       │       │                   `CURLSSLOPT_EARLYDATA` bit is set in
+│                       │       │                   `CURLOPT_SSL_OPTIONS`), libcurl might
+│                       │       │                   send off the second request's bytes on that new connection
+│                       │       │                   *before* enforcing
+│                       │       │                   the certificate verification failure. Potentially leaking
+│                       │       │                   sensitive
 │                       │       │                   information. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9545.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-9545 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9545.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-9545.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-9545.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3752888 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9545 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.807Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.807Z 
 │                       ├ [66]  ╭ VulnerabilityID : CVE-2026-9547 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
@@ -3890,21 +4467,32 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:d2f4d0d9b20f2b755861dc980961d4bf4b8e3400d8e6f8b48774
 │                       │       │                   565c1c77c735 
+│                       │       ├ Title           : When a libcurl-based application performs transfers via
+│                       │       │                   `SCP://` or `S ... 
 │                       │       ├ Description     : When a libcurl-based application performs transfers via
-│                       │       │                   `SCP://` or `SFTP://` and utilizes the
-│                       │       │                   `CURLOPT_SSH_KEYFUNCTION` callback, it may silently accept
-│                       │       │                   an untrusted server. This vulnerability occurs when a
-│                       │       │                   server presents a host key type that does not match the
-│                       │       │                   specific key type already recorded for that host in the
-│                       │       │                   `known_hosts` file. Instead of rejecting the mismatch, the
-│                       │       │                   callback mechanism fails to properly enforce the
-│                       │       │                   restriction, allowing the connection to succeed without
-│                       │       │                   warning and risking a potential man-in-the-middle attack.[
-│                       │       │                   m 
+│                       │       │                   `SCP://` or `SFTP://`
+│                       │       │                   and utilizes the `CURLOPT_SSH_KEYFUNCTION` callback, it may
+│                       │       │                    silently accept an
+│                       │       │                   untrusted server. This vulnerability occurs when a server
+│                       │       │                   presents a host key
+│                       │       │                   type that does not match the specific key type already
+│                       │       │                   recorded for that host
+│                       │       │                   in the `known_hosts` file. Instead of rejecting the
+│                       │       │                   mismatch, the callback
+│                       │       │                   mechanism fails to properly enforce the restriction,
+│                       │       │                   allowing the connection
+│                       │       │                   to succeed without warning and risking a potential
+│                       │       │                   man-in-the-middle attack. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ╰ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9547.md 
-│                       │                          ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2026-9547 
+│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-9547.md 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-9547.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-9547.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3751712 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8487-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9547 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.99Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.99Z 
 │                       ├ [67]  ╭ VulnerabilityID : CVE-2026-8932 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
@@ -3924,7 +4512,28 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:154b912dc43b9bb6e367acba1865540964294d4cd874cb29dc21
 │                       │       │                   99b6037583c5 
-│                       │       ╰ Severity        : UNKNOWN 
+│                       │       ├ Title           : libcurl would reuse a previously created connection even
+│                       │       │                   when some mTL ... 
+│                       │       ├ Description     : libcurl would reuse a previously created connection even
+│                       │       │                   when some mTLS config
+│                       │       │                   related option had been changed that should have prohibited
+│                       │       │                    reuse.
+│                       │       │                   
+│                       │       │                   libcurl keeps previously used connections in a connection
+│                       │       │                   pool for subsequent
+│                       │       │                   transfers to reuse if one of them matches the setup.
+│                       │       │                   However, some TLS
+│                       │       │                   settings related to client certificates were left out from
+│                       │       │                   the configuration
+│                       │       │                   match checks, making them match too easily. In particular
+│                       │       │                   options related to
+│                       │       │                   the private key. 
+│                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-8932.html 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-8932.json 
+│                       │       │                  ╰ [2]: https://hackerone.com/reports/3733910 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.363Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.363Z 
 │                       ├ [68]  ╭ VulnerabilityID : CVE-2026-9546 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
@@ -3944,7 +4553,25 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:6c69e8f80cc4a2056da8f166b9f1c044a577b3899b217c64b135
 │                       │       │                   b30d9f7b8050 
-│                       │       ╰ Severity        : UNKNOWN 
+│                       │       ├ Title           : A vulnerability in libcurl caused the HTTP `Referer:`
+│                       │       │                   header to persis ... 
+│                       │       ├ Description     : A vulnerability in libcurl caused the HTTP `Referer:`
+│                       │       │                   header to persist even
+│                       │       │                   when explicitly cleared. While the documentation states
+│                       │       │                   that passing NULL to
+│                       │       │                   `CURLOPT_REFERER` suppresses the header, the option failed
+│                       │       │                   to clear the
+│                       │       │                   internal state. As a result the previous referrer string
+│                       │       │                   was erroneously
+│                       │       │                   reused and sent in subsequent requests, potentially leaking
+│                       │       │                    sensitive
+│                       │       │                   information to unintended servers. 
+│                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-9546.html 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-9546.json 
+│                       │       │                  ╰ [2]: https://hackerone.com/reports/3754343 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:25.893Z 
+│                       │       ╰ LastModifiedDate: 2026-07-03T07:16:25.893Z 
 │                       ├ [69]  ╭ VulnerabilityID : CVE-2026-50219 
 │                       │       ├ PkgID           : libexpat@2.8.1-r0 
 │                       │       ├ PkgName         : libexpat 
@@ -4437,6 +5064,7 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-835 
 │                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -4707,7 +5335,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [51]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [52]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [52]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [53]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [54]: https://github.com/openssl/openssl/commit/3aad5eb7af
 │                       │       │                  │       4de4ee0633c30a8541a54d9bbde63c 
@@ -4813,7 +5441,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 7.4 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34182 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -4875,7 +5503,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/03c1f4d45f
 │                       │       │                  │       b963aee7d5833390c507cd290182bc 
@@ -4958,7 +5586,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 7.5 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34183 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -5020,7 +5648,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/5b306efb0b
 │                       │       │                  │       3779dfdd0803b4afc9d08c91f11517 
@@ -5099,7 +5727,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42764 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -5161,7 +5789,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/5e3ed291b8
 │                       │       │                  │       af0b03d5d3b9e56a1da69a187e9729 
@@ -5273,7 +5901,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 9.1 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-45445 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -5335,7 +5963,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/323f0b6e7d
 │                       │       │                  │       530a4cb4336d50c88cb70f3ac2a451 
@@ -5425,7 +6053,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34180 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -5487,7 +6115,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/1c6908e4fa
 │                       │       │                  │       5fa568752221d8eaf561a809751e5d 
@@ -5566,7 +6194,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 6.3 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34181 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -5628,7 +6256,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/0300eb9ddc
 │                       │       │                  │       e7a0895bf301a4b0c03a9da2313a0f 
@@ -5708,7 +6336,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42766 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -5770,7 +6398,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/056d06c191
 │                       │       │                  │       8fafbb98c1c85a02e4c47cc4e199ce 
@@ -5850,7 +6478,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42767 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -5912,7 +6540,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/61a86a8cd7
 │                       │       │                  │       3546c9fea916f3d304c1293e05c046 
@@ -6045,7 +6673,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 6.3 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42768 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -6107,7 +6735,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/a2ca7b2d73
 │                       │       │                  │       e0ffc1eae183fe6e1741dac767cb4f 
@@ -6211,7 +6839,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42769 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -6273,7 +6901,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/54d0989997
 │                       │       │                  │       e5fc26057009a9782c3441ce3842fb 
@@ -6366,7 +6994,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42770 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -6428,7 +7056,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/3da5a516cd
 │                       │       │                  │       2635a320ff748503db2cef7c4b0f02 
@@ -6537,7 +7165,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 3.7 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-45446 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -6599,7 +7227,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/25b32cd9d4
 │                       │       │                  │       1d2bc01b6abc425bb4baf2c2236fdc 
@@ -6697,7 +7325,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:
 │                       │       │                           │           L/A:H 
 │                       │       │                           ╰ V3Score : 5.5 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-7383 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -6759,7 +7387,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/4f8d2bddaa
 │                       │       │                  │       2c8e06f9c33390ee1717059a6e4be6 
@@ -6863,7 +7491,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-9076 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -6925,7 +7553,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/05b0663668
 │                       │       │                  │       42f930fadd9a6e94df98030af431bb 
@@ -7136,7 +7764,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [51]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [52]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [52]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [53]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [54]: https://github.com/openssl/openssl/commit/3aad5eb7af
 │                       │       │                  │       4de4ee0633c30a8541a54d9bbde63c 
@@ -7242,7 +7870,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 7.4 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34182 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -7304,7 +7932,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/03c1f4d45f
 │                       │       │                  │       b963aee7d5833390c507cd290182bc 
@@ -7387,7 +8015,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 7.5 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34183 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -7449,7 +8077,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/5b306efb0b
 │                       │       │                  │       3779dfdd0803b4afc9d08c91f11517 
@@ -7528,7 +8156,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42764 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -7590,7 +8218,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/5e3ed291b8
 │                       │       │                  │       af0b03d5d3b9e56a1da69a187e9729 
@@ -7702,7 +8330,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 9.1 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-45445 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -7764,7 +8392,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/323f0b6e7d
 │                       │       │                  │       530a4cb4336d50c88cb70f3ac2a451 
@@ -7854,7 +8482,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34180 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -7916,7 +8544,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/1c6908e4fa
 │                       │       │                  │       5fa568752221d8eaf561a809751e5d 
@@ -7995,7 +8623,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 6.3 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34181 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -8057,7 +8685,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/0300eb9ddc
 │                       │       │                  │       e7a0895bf301a4b0c03a9da2313a0f 
@@ -8137,7 +8765,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42766 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -8199,7 +8827,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/056d06c191
 │                       │       │                  │       8fafbb98c1c85a02e4c47cc4e199ce 
@@ -8279,7 +8907,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42767 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -8341,7 +8969,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/61a86a8cd7
 │                       │       │                  │       3546c9fea916f3d304c1293e05c046 
@@ -8474,7 +9102,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 6.3 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42768 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -8536,7 +9164,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/a2ca7b2d73
 │                       │       │                  │       e0ffc1eae183fe6e1741dac767cb4f 
@@ -8640,7 +9268,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42769 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -8702,7 +9330,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/54d0989997
 │                       │       │                  │       e5fc26057009a9782c3441ce3842fb 
@@ -8795,7 +9423,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           N/A:N 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-42770 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -8857,7 +9485,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/3da5a516cd
 │                       │       │                  │       2635a320ff748503db2cef7c4b0f02 
@@ -8966,7 +9594,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 3.7 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-45446 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -9028,7 +9656,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/25b32cd9d4
 │                       │       │                  │       1d2bc01b6abc425bb4baf2c2236fdc 
@@ -9126,7 +9754,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:
 │                       │       │                           │           L/A:H 
 │                       │       │                           ╰ V3Score : 5.5 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-7383 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -9188,7 +9816,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/4f8d2bddaa
 │                       │       │                  │       2c8e06f9c33390ee1717059a6e4be6 
@@ -9292,7 +9920,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25239 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:25237 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-9076 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2481879 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2481880 
@@ -9354,7 +9982,7 @@
 │                       │       │                  │       026-7383 
 │                       │       │                  ├ [46]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-9076 
-│                       │       │                  ├ [47]: https://errata.almalinux.org/9/ALSA-2026-25239.html 
+│                       │       │                  ├ [47]: https://errata.almalinux.org/10/ALSA-2026-25237.html 
 │                       │       │                  ├ [48]: https://errata.rockylinux.org/RLSA-2026:25239 
 │                       │       │                  ├ [49]: https://github.com/openssl/openssl/commit/05b0663668
 │                       │       │                  │       42f930fadd9a6e94df98030af431bb 
@@ -9430,7 +10058,7 @@
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2437308 
 │                       │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-2100 
-│                       │       │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2026-18599.html 
+│                       │       │                  ├ [10]: https://errata.almalinux.org/10/ALSA-2026-18143.html 
 │                       │       │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:18599 
 │                       │       │                  ├ [12]: https://github.com/p11-glue/p11-kit/pull/740 
 │                       │       │                  ├ [13]: https://linux.oracle.com/cve/CVE-2026-2100.html 
@@ -9471,7 +10099,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
@@ -9483,7 +10111,7 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 5.4 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19064 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-3644 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2408891 
@@ -9533,7 +10161,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [38]: https://errata.almalinux.org/10/ALSA-2026-19064.html 
 │                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [40]: https://github.com/python/cpython/commit/556aa098e73
 │                       │       │                  │       8b127c714866f819b4abe2f7593d8 
@@ -9586,7 +10214,7 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -9604,7 +10232,7 @@
 │                       │       │                            ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/1
 │                       │       │                  │       6/4 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19064 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-4224 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -9654,7 +10282,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [39]: https://errata.almalinux.org/10/ALSA-2026-19064.html 
 │                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/196edfb06a7
 │                       │       │                  │       458377d4d0f4b3cd41724c1f3bd4a 
@@ -9716,7 +10344,7 @@
 │                       │       │                           ╰ V3Score : 3.3 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/0
 │                       │       │                  │       5/6 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19064 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-2297 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -9766,7 +10394,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [39]: https://errata.almalinux.org/10/ALSA-2026-19064.html 
 │                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/482d6f8bdba
 │                       │       │                  │       9da3725d272e8bb4a2d25fb6a603e 
@@ -9818,7 +10446,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
@@ -9830,7 +10458,7 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 5.4 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19064 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-3644 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2408891 
@@ -9880,7 +10508,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [38]: https://errata.almalinux.org/10/ALSA-2026-19064.html 
 │                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [40]: https://github.com/python/cpython/commit/556aa098e73
 │                       │       │                  │       8b127c714866f819b4abe2f7593d8 
@@ -9933,7 +10561,7 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -9951,7 +10579,7 @@
 │                       │       │                            ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/1
 │                       │       │                  │       6/4 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19064 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-4224 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -10001,7 +10629,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [39]: https://errata.almalinux.org/10/ALSA-2026-19064.html 
 │                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/196edfb06a7
 │                       │       │                  │       458377d4d0f4b3cd41724c1f3bd4a 
@@ -10063,7 +10691,7 @@
 │                       │       │                           ╰ V3Score : 3.3 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/0
 │                       │       │                  │       5/6 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19064 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-2297 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -10113,7 +10741,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [39]: https://errata.almalinux.org/10/ALSA-2026-19064.html 
 │                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/482d6f8bdba
 │                       │       │                  │       9da3725d272e8bb4a2d25fb6a603e 
@@ -10165,7 +10793,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
@@ -10177,7 +10805,7 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 5.4 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19064 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-3644 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2408891 
@@ -10227,7 +10855,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [38]: https://errata.almalinux.org/10/ALSA-2026-19064.html 
 │                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [40]: https://github.com/python/cpython/commit/556aa098e73
 │                       │       │                  │       8b127c714866f819b4abe2f7593d8 
@@ -10280,7 +10908,7 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -10298,7 +10926,7 @@
 │                       │       │                            ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/1
 │                       │       │                  │       6/4 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19064 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-4224 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -10348,7 +10976,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [39]: https://errata.almalinux.org/10/ALSA-2026-19064.html 
 │                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/196edfb06a7
 │                       │       │                  │       458377d4d0f4b3cd41724c1f3bd4a 
@@ -10410,7 +11038,7 @@
 │                       │       │                           ╰ V3Score : 3.3 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/0
 │                       │       │                  │       5/6 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19064 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-2297 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -10460,7 +11088,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [39]: https://errata.almalinux.org/10/ALSA-2026-19064.html 
 │                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/482d6f8bdba
 │                       │       │                  │       9da3725d272e8bb4a2d25fb6a603e 
@@ -10512,7 +11140,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
@@ -10524,7 +11152,7 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 5.4 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:19064 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-3644 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2408891 
@@ -10574,7 +11202,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [38]: https://errata.almalinux.org/10/ALSA-2026-19064.html 
 │                       │       │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [40]: https://github.com/python/cpython/commit/556aa098e73
 │                       │       │                  │       8b127c714866f819b4abe2f7593d8 
@@ -10627,7 +11255,7 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -10645,7 +11273,7 @@
 │                       │       │                            ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/1
 │                       │       │                  │       6/4 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19064 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-4224 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -10695,7 +11323,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [39]: https://errata.almalinux.org/10/ALSA-2026-19064.html 
 │                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/196edfb06a7
 │                       │       │                  │       458377d4d0f4b3cd41724c1f3bd4a 
@@ -10757,7 +11385,7 @@
 │                       │       │                           ╰ V3Score : 3.3 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/0
 │                       │       │                  │       5/6 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19177 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:19064 
 │                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-2297 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2395108 
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2408891 
@@ -10807,7 +11435,7 @@
 │                       │       │                  │       026-4786 
 │                       │       │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-6100 
-│                       │       │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-19177.html 
+│                       │       │                  ├ [39]: https://errata.almalinux.org/10/ALSA-2026-19064.html 
 │                       │       │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:19177 
 │                       │       │                  ├ [41]: https://github.com/python/cpython/commit/482d6f8bdba
 │                       │       │                  │       9da3725d272e8bb4a2d25fb6a603e 
@@ -11113,8 +11741,8 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:2ec948b1397b01534383ae365f126a259df9392e48bd27fe075d
 │                       │       │                   a7379cd35e58 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   9.2.0663, a  ... 
+│                       │       ├ Title           : vim: Vim: Arbitrary code execution via Vimscript code
+│                       │       │                   injection in netrw plugin 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   9.2.0663, a Vimscript code injection vulnerability exists
 │                       │       │                   in s:NetrwLocalRmFile() in the netrw plugin
@@ -11130,16 +11758,26 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ╭ [0]: CWE-78 
 │                       │       │                  ╰ [1]: CWE-94 
-│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ nvd   : 3 
+│                       │       │                  ├ photon: 3 
+│                       │       │                  ├ redhat: 3 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
-│                       │       │                        ╰ V3Score : 7.8 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/55bc757a5d436e59d50
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                  │        │           H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 7.3 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-55895 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/55bc757a5d436e59d50
 │                       │       │                  │      fe43f7cda94b118f86cb2 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0663 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-v
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0663 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-v
 │                       │       │                  │      hh8-v6wx-hjjh 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-55895 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-55895 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8500-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-55895 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:41.077Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T05:16:31.097Z 
 │                       ├ [135] ╭ VulnerabilityID : CVE-2026-57453 
@@ -11177,7 +11815,8 @@
 │                       │       │                   archive. This vulnerability is fixed in 9.2.0678. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-77 
-│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
@@ -11193,7 +11832,8 @@
 │                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-x
 │                       │       │                  │      5fg-h5w9-9frf 
 │                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-57453 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-57453 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8500-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57453 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.52Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T17:16:34.82Z 
 │                       ├ [136] ╭ VulnerabilityID : CVE-2026-57455 
@@ -11216,8 +11856,8 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:0a0d2b1134e12635d71551b20c040bc4888af596983042c98d9b
 │                       │       │                   c4d00bee6922 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   9.2.0698, th ... 
+│                       │       ├ Title           : vim: Vim: Denial of Service via stack out-of-bounds write
+│                       │       │                   in spell_soundfold_sofo() 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   9.2.0698, the single-byte branch of spell_soundfold_sofo()
 │                       │       │                   in src/spell.c translates a word through a spell file's
@@ -11234,16 +11874,25 @@
 │                       │       │                   9.2.0698. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-787 
-│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ nvd   : 3 
+│                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
-│                       │       │                        ╰ V3Score : 7.8 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/497f931f85339d175d7
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                  │        │           H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 4.7 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-57455 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/497f931f85339d175d7
 │                       │       │                  │      f69588dd249e8ccfed41b 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0698 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-q
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0698 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-q
 │                       │       │                  │      8mh-6qm3-25g4 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-57455 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-57455 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8500-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57455 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:23:21.857Z 
 │                       ├ [137] ╭ VulnerabilityID : CVE-2026-57456 
@@ -11266,8 +11915,8 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:1f6e08be858a4b7384cfef444f547fe8e90d97d5136081fc776c
 │                       │       │                   e3f2e6b0b7e7 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   9.2.0699, Vi ... 
+│                       │       ├ Title           : vim: Vim: Arbitrary code execution via malicious docstrings
+│                       │       │                    in Python omni-completion 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   9.2.0699, Vim's Python omni-completion
 │                       │       │                   (runtime/autoload/python3complete.vim and the legacy
@@ -11282,16 +11931,25 @@
 │                       │       │                   m 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-94 
-│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       ├ VendorSeverity   ╭ azure : 3 
+│                       │       │                  ├ nvd   : 3 
+│                       │       │                  ├ redhat: 3 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
-│                       │       │                        ╰ V3Score : 7.8 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/cce141c42740f122dd8
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                  │        │           H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-57456 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/cce141c42740f122dd8
 │                       │       │                  │      486ae04e21c2a81016ba8 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0699 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-p
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0699 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-p
 │                       │       │                  │      pj8-wqjf-6fp3 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-57456 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-57456 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8500-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57456 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.9Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T05:16:31.51Z 
 │                       ├ [138] ╭ VulnerabilityID : CVE-2026-55892 
@@ -11329,7 +11987,9 @@
 │                       │       │                   in 9.2.0662. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-787 
-│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ photon: 2 
+│                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
@@ -11341,7 +12001,8 @@
 │                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-q
 │                       │       │                  │      m9w-fmpj-879h 
 │                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-55892 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-55892 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8500-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-55892 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:40.69Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T19:16:44.667Z 
 │                       ├ [139] ╭ VulnerabilityID : CVE-2026-57451 
@@ -11364,8 +12025,7 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:47850cd42de4334ed2c2e2b10ba314ff35b5a92ee81e0af756c6
 │                       │       │                   744caa3d8a39 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   9.2.0670, ge ... 
+│                       │       ├ Title           : vim: Vim: Denial of service via crafted undo file 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   9.2.0670, get_text_props() in src/textprop.c reads a uint16
 │                       │       │                    property count stored inline after a line's text and
@@ -11379,14 +12039,24 @@
 │                       │       │                   crash. This vulnerability is fixed in 9.2.0670. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ─ nvd: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H 
-│                       │       │                        ╰ V3Score : 6.1 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/b2338ca90643e2f01ec
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ photon: 2 
+│                       │       │                  ╰ redhat: 2 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                  │        │           N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.1 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-57451 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/b2338ca90643e2f01ec
 │                       │       │                  │      b6547c1172716aaec4f79 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0670 
-│                       │       │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-f
-│                       │       │                         36c-2qcp-7gpw 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0670 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-f
+│                       │       │                  │      36c-2qcp-7gpw 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-57451 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-57451 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.263Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:11:55.71Z 
 │                       ├ [140] ╭ VulnerabilityID : CVE-2026-57452 
@@ -11408,8 +12078,7 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:669378f6d868a1a968a6a4982a6f23fb2dad78d058031a589172
 │                       │       │                   4fcad8e3c1bb 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   9.2.0671, wh ... 
+│                       │       ├ Title           : vim: Vim: Out-of-bounds Read with libsodium-encrypted Files 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   9.2.0671, when Vim opens a file encrypted with the
 │                       │       │                   VimCrypt~04! or VimCrypt~05!
@@ -11422,13 +12091,21 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ╭ [0]: CWE-125 
 │                       │       │                  ╰ [1]: CWE-191 
-│                       │       ├ VendorSeverity   ─ ubuntu: 2 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/c8777cec25dcfae89c4
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 4.7 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-57452 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/c8777cec25dcfae89c4
 │                       │       │                  │      2e9aff51af61f71c5745f 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0671 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-c
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0671 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-c
 │                       │       │                  │      4j9-wr9j-4486 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-57452 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-57452 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8500-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57452 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.397Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:12:32.483Z 
 │                       ├ [141] ╭ VulnerabilityID : CVE-2026-57454 
@@ -11463,7 +12140,8 @@
 │                       │       │                   9.2.0679. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ╭ nvd   : 2 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ nvd   : 2 
 │                       │       │                  ╰ redhat: 2 
 │                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H 
 │                       │       │                        ╰ V3Score : 6.1 
@@ -11679,8 +12357,8 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:00d839a62f7c4282127c69ea7f28a49f610479ce972fc880d256
 │                       │       │                   fda96d3c52d7 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   9.2.0663, a  ... 
+│                       │       ├ Title           : vim: Vim: Arbitrary code execution via Vimscript code
+│                       │       │                   injection in netrw plugin 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   9.2.0663, a Vimscript code injection vulnerability exists
 │                       │       │                   in s:NetrwLocalRmFile() in the netrw plugin
@@ -11696,16 +12374,26 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ╭ [0]: CWE-78 
 │                       │       │                  ╰ [1]: CWE-94 
-│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ nvd   : 3 
+│                       │       │                  ├ photon: 3 
+│                       │       │                  ├ redhat: 3 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
-│                       │       │                        ╰ V3Score : 7.8 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/55bc757a5d436e59d50
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                  │        │           H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 7.3 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-55895 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/55bc757a5d436e59d50
 │                       │       │                  │      fe43f7cda94b118f86cb2 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0663 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-v
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0663 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-v
 │                       │       │                  │      hh8-v6wx-hjjh 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-55895 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-55895 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8500-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-55895 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:41.077Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T05:16:31.097Z 
 │                       ├ [146] ╭ VulnerabilityID : CVE-2026-57453 
@@ -11743,7 +12431,8 @@
 │                       │       │                   archive. This vulnerability is fixed in 9.2.0678. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-77 
-│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
@@ -11759,7 +12448,8 @@
 │                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-x
 │                       │       │                  │      5fg-h5w9-9frf 
 │                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-57453 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-57453 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8500-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57453 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.52Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T17:16:34.82Z 
 │                       ├ [147] ╭ VulnerabilityID : CVE-2026-57455 
@@ -11782,8 +12472,8 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:0a50a7c7f7aeb93e7d7aab6c5e4336e960f30ebc6e468eb70c8c
 │                       │       │                   29488205ccba 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   9.2.0698, th ... 
+│                       │       ├ Title           : vim: Vim: Denial of Service via stack out-of-bounds write
+│                       │       │                   in spell_soundfold_sofo() 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   9.2.0698, the single-byte branch of spell_soundfold_sofo()
 │                       │       │                   in src/spell.c translates a word through a spell file's
@@ -11800,16 +12490,25 @@
 │                       │       │                   9.2.0698. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-787 
-│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ nvd   : 3 
+│                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
-│                       │       │                        ╰ V3Score : 7.8 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/497f931f85339d175d7
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                  │        │           H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 4.7 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-57455 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/497f931f85339d175d7
 │                       │       │                  │      f69588dd249e8ccfed41b 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0698 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-q
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0698 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-q
 │                       │       │                  │      8mh-6qm3-25g4 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-57455 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-57455 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8500-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57455 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:23:21.857Z 
 │                       ├ [148] ╭ VulnerabilityID : CVE-2026-57456 
@@ -11832,8 +12531,8 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:4fad352602e7a99be763d9ed0f090f29ff209134966ef3ea019c
 │                       │       │                   96be17da7497 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   9.2.0699, Vi ... 
+│                       │       ├ Title           : vim: Vim: Arbitrary code execution via malicious docstrings
+│                       │       │                    in Python omni-completion 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   9.2.0699, Vim's Python omni-completion
 │                       │       │                   (runtime/autoload/python3complete.vim and the legacy
@@ -11848,16 +12547,25 @@
 │                       │       │                   m 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-94 
-│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       ├ VendorSeverity   ╭ azure : 3 
+│                       │       │                  ├ nvd   : 3 
+│                       │       │                  ├ redhat: 3 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
-│                       │       │                        ╰ V3Score : 7.8 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/cce141c42740f122dd8
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                  │        │           H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-57456 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/cce141c42740f122dd8
 │                       │       │                  │      486ae04e21c2a81016ba8 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0699 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-p
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0699 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-p
 │                       │       │                  │      pj8-wqjf-6fp3 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-57456 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-57456 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8500-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57456 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.9Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T05:16:31.51Z 
 │                       ├ [149] ╭ VulnerabilityID : CVE-2026-55892 
@@ -11895,7 +12603,9 @@
 │                       │       │                   in 9.2.0662. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-787 
-│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ photon: 2 
+│                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
@@ -11907,7 +12617,8 @@
 │                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-q
 │                       │       │                  │      m9w-fmpj-879h 
 │                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-55892 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-55892 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8500-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-55892 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:40.69Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T19:16:44.667Z 
 │                       ├ [150] ╭ VulnerabilityID : CVE-2026-57451 
@@ -11930,8 +12641,7 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:bb8ce352cf211647d6483774a66fad1d19749ca9b60600c77bf7
 │                       │       │                   98f7f54f3e9a 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   9.2.0670, ge ... 
+│                       │       ├ Title           : vim: Vim: Denial of service via crafted undo file 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   9.2.0670, get_text_props() in src/textprop.c reads a uint16
 │                       │       │                    property count stored inline after a line's text and
@@ -11945,14 +12655,24 @@
 │                       │       │                   crash. This vulnerability is fixed in 9.2.0670. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ─ nvd: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H 
-│                       │       │                        ╰ V3Score : 6.1 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/b2338ca90643e2f01ec
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ photon: 2 
+│                       │       │                  ╰ redhat: 2 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                  │        │           N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.1 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-57451 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/b2338ca90643e2f01ec
 │                       │       │                  │      b6547c1172716aaec4f79 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0670 
-│                       │       │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-f
-│                       │       │                         36c-2qcp-7gpw 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0670 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-f
+│                       │       │                  │      36c-2qcp-7gpw 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-57451 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-57451 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.263Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:11:55.71Z 
 │                       ├ [151] ╭ VulnerabilityID : CVE-2026-57452 
@@ -11974,8 +12694,7 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:676f15e299f79cad9709c4d3aa74b63910d0290a7491ed096fcd
 │                       │       │                   5c02abb497a5 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   9.2.0671, wh ... 
+│                       │       ├ Title           : vim: Vim: Out-of-bounds Read with libsodium-encrypted Files 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   9.2.0671, when Vim opens a file encrypted with the
 │                       │       │                   VimCrypt~04! or VimCrypt~05!
@@ -11988,13 +12707,21 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ╭ [0]: CWE-125 
 │                       │       │                  ╰ [1]: CWE-191 
-│                       │       ├ VendorSeverity   ─ ubuntu: 2 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/c8777cec25dcfae89c4
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 4.7 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-57452 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/c8777cec25dcfae89c4
 │                       │       │                  │      2e9aff51af61f71c5745f 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0671 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-c
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0671 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-c
 │                       │       │                  │      4j9-wr9j-4486 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-57452 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-57452 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8500-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57452 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.397Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:12:32.483Z 
 │                       ├ [152] ╭ VulnerabilityID : CVE-2026-57454 
@@ -12029,7 +12756,8 @@
 │                       │       │                   9.2.0679. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ╭ nvd   : 2 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ nvd   : 2 
 │                       │       │                  ╰ redhat: 2 
 │                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H 
 │                       │       │                        ╰ V3Score : 6.1 
@@ -12245,8 +12973,8 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:2cf851071e9b4a06d752d33df1898e01cae224de50eb33ddc651
 │                       │       │                   5ed214a1cd61 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   9.2.0663, a  ... 
+│                       │       ├ Title           : vim: Vim: Arbitrary code execution via Vimscript code
+│                       │       │                   injection in netrw plugin 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   9.2.0663, a Vimscript code injection vulnerability exists
 │                       │       │                   in s:NetrwLocalRmFile() in the netrw plugin
@@ -12262,16 +12990,26 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ╭ [0]: CWE-78 
 │                       │       │                  ╰ [1]: CWE-94 
-│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ nvd   : 3 
+│                       │       │                  ├ photon: 3 
+│                       │       │                  ├ redhat: 3 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
-│                       │       │                        ╰ V3Score : 7.8 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/55bc757a5d436e59d50
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                  │        │           H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 7.3 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-55895 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/55bc757a5d436e59d50
 │                       │       │                  │      fe43f7cda94b118f86cb2 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0663 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-v
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0663 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-v
 │                       │       │                  │      hh8-v6wx-hjjh 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-55895 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-55895 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8500-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-55895 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:41.077Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T05:16:31.097Z 
 │                       ├ [157] ╭ VulnerabilityID : CVE-2026-57453 
@@ -12309,7 +13047,8 @@
 │                       │       │                   archive. This vulnerability is fixed in 9.2.0678. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-77 
-│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
@@ -12325,7 +13064,8 @@
 │                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-x
 │                       │       │                  │      5fg-h5w9-9frf 
 │                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-57453 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-57453 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8500-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57453 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.52Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T17:16:34.82Z 
 │                       ├ [158] ╭ VulnerabilityID : CVE-2026-57455 
@@ -12348,8 +13088,8 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:53b78d051e91a42b987f1d5f798db77e3dc4e34c4edda7743113
 │                       │       │                   2702de56c7e8 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   9.2.0698, th ... 
+│                       │       ├ Title           : vim: Vim: Denial of Service via stack out-of-bounds write
+│                       │       │                   in spell_soundfold_sofo() 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   9.2.0698, the single-byte branch of spell_soundfold_sofo()
 │                       │       │                   in src/spell.c translates a word through a spell file's
@@ -12366,16 +13106,25 @@
 │                       │       │                   9.2.0698. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-787 
-│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ nvd   : 3 
+│                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
-│                       │       │                        ╰ V3Score : 7.8 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/497f931f85339d175d7
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                  │        │           H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 4.7 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-57455 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/497f931f85339d175d7
 │                       │       │                  │      f69588dd249e8ccfed41b 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0698 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-q
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0698 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-q
 │                       │       │                  │      8mh-6qm3-25g4 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-57455 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-57455 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8500-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57455 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:23:21.857Z 
 │                       ├ [159] ╭ VulnerabilityID : CVE-2026-57456 
@@ -12398,8 +13147,8 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:7371a5a1f29af431c824efe52b017161aa96b3e809561068fe7a
 │                       │       │                   f16ea7445a2e 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   9.2.0699, Vi ... 
+│                       │       ├ Title           : vim: Vim: Arbitrary code execution via malicious docstrings
+│                       │       │                    in Python omni-completion 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   9.2.0699, Vim's Python omni-completion
 │                       │       │                   (runtime/autoload/python3complete.vim and the legacy
@@ -12414,16 +13163,25 @@
 │                       │       │                   m 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-94 
-│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       ├ VendorSeverity   ╭ azure : 3 
+│                       │       │                  ├ nvd   : 3 
+│                       │       │                  ├ redhat: 3 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
-│                       │       │                        ╰ V3Score : 7.8 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/cce141c42740f122dd8
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                  │        │           H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-57456 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/cce141c42740f122dd8
 │                       │       │                  │      486ae04e21c2a81016ba8 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0699 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-p
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0699 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-p
 │                       │       │                  │      pj8-wqjf-6fp3 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-57456 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-57456 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8500-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57456 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.9Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T05:16:31.51Z 
 │                       ├ [160] ╭ VulnerabilityID : CVE-2026-55892 
@@ -12461,7 +13219,9 @@
 │                       │       │                   in 9.2.0662. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-787 
-│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ photon: 2 
+│                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
@@ -12473,7 +13233,8 @@
 │                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-q
 │                       │       │                  │      m9w-fmpj-879h 
 │                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-55892 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-55892 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8500-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-55892 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:40.69Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T19:16:44.667Z 
 │                       ├ [161] ╭ VulnerabilityID : CVE-2026-57451 
@@ -12496,8 +13257,7 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:effadc83c74f86f62023ee92fe4fb5ae921ef939e05a1887db93
 │                       │       │                   b3098bc3a915 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   9.2.0670, ge ... 
+│                       │       ├ Title           : vim: Vim: Denial of service via crafted undo file 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   9.2.0670, get_text_props() in src/textprop.c reads a uint16
 │                       │       │                    property count stored inline after a line's text and
@@ -12511,14 +13271,24 @@
 │                       │       │                   crash. This vulnerability is fixed in 9.2.0670. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ─ nvd: 2 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H 
-│                       │       │                        ╰ V3Score : 6.1 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/b2338ca90643e2f01ec
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ nvd   : 2 
+│                       │       │                  ├ photon: 2 
+│                       │       │                  ╰ redhat: 2 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                  │        │           N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.1 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-57451 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/b2338ca90643e2f01ec
 │                       │       │                  │      b6547c1172716aaec4f79 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0670 
-│                       │       │                  ╰ [2]: https://github.com/vim/vim/security/advisories/GHSA-f
-│                       │       │                         36c-2qcp-7gpw 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0670 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-f
+│                       │       │                  │      36c-2qcp-7gpw 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-57451 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-57451 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.263Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:11:55.71Z 
 │                       ├ [162] ╭ VulnerabilityID : CVE-2026-57452 
@@ -12540,8 +13310,7 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:844e1cef4ed44d7c17b1fc2bde82019f87aa9301771922ee12e0
 │                       │       │                   95cc82a978fa 
-│                       │       ├ Title           : Vim is an open source, command line text editor. Prior to
-│                       │       │                   9.2.0671, wh ... 
+│                       │       ├ Title           : vim: Vim: Out-of-bounds Read with libsodium-encrypted Files 
 │                       │       ├ Description     : Vim is an open source, command line text editor. Prior to
 │                       │       │                   9.2.0671, when Vim opens a file encrypted with the
 │                       │       │                   VimCrypt~04! or VimCrypt~05!
@@ -12554,13 +13323,21 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ╭ [0]: CWE-125 
 │                       │       │                  ╰ [1]: CWE-191 
-│                       │       ├ VendorSeverity   ─ ubuntu: 2 
-│                       │       ├ References       ╭ [0]: https://github.com/vim/vim/commit/c8777cec25dcfae89c4
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 4.7 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-57452 
+│                       │       │                  ├ [1]: https://github.com/vim/vim/commit/c8777cec25dcfae89c4
 │                       │       │                  │      2e9aff51af61f71c5745f 
-│                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0671 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-c
+│                       │       │                  ├ [2]: https://github.com/vim/vim/releases/tag/v9.2.0671 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/security/advisories/GHSA-c
 │                       │       │                  │      4j9-wr9j-4486 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-57452 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-57452 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8500-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57452 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.397Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:12:32.483Z 
 │                       ╰ [163] ╭ VulnerabilityID : CVE-2026-57454 
@@ -12595,7 +13372,8 @@
 │                               │                   9.2.0679. 
 │                               ├ Severity        : MEDIUM 
 │                               ├ CweIDs           ─ [0]: CWE-125 
-│                               ├ VendorSeverity   ╭ nvd   : 2 
+│                               ├ VendorSeverity   ╭ azure : 2 
+│                               │                  ├ nvd   : 2 
 │                               │                  ╰ redhat: 2 
 │                               ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H 
 │                               │                        ╰ V3Score : 6.1 
@@ -12751,7 +13529,7 @@
                         │     │                  │       26/cve-2026-54513.json 
                         │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.333Z 
-                        │     ╰ LastModifiedDate: 2026-06-30T03:21:03.13Z 
+                        │     ╰ LastModifiedDate: 2026-07-03T13:17:29.627Z 
                         ├ [2] ╭ VulnerabilityID : CVE-2026-54514 
                         │     ├ VendorIDs        ─ [0]: GHSA-hgj6-7826-r7m5 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
