@@ -547,44 +547,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-9547
     PublishedDate: '2026-07-03T07:16:25.99Z'
     LastModifiedDate: '2026-07-07T14:52:29.503Z'
-  - VulnerabilityID: CVE-2026-11856
-    PkgID: curl@8.20.0-r1
-    PkgName: curl
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: 8c098d986f37fe67
-    InstalledVersion: 8.20.0-r1
-    FixedVersion: 8.21.0-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-11856
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:3dbeec29c2e73f5695c94e16c14fc844741fb046cf2ee888684dfd69940d2d9d
-    Title: Successfully using libcurl to do a transfer to a specific HTTP origin  ...
-    Description: |-
-      Successfully using libcurl to do a transfer to a specific HTTP origin
-      (`hostA`) with **Digest** authentication and then changing the origin to a
-      different one (`hostB`) for a second transfer, reusing the same handle, makes
-      libcurl wrongly pass on the  `Authorization:` header field meant for `hostA`,
-      to `hostB`.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-294
-    VendorSeverity:
-      ubuntu: 2
-    References:
-    - https://curl.se/L7HzKXisfJ/CVE-2026-11856.md
-    - https://curl.se/docs/CVE-2026-11856.html
-    - https://curl.se/docs/CVE-2026-11856.json
-    - https://hackerone.com/reports/3793260
-    - https://www.cve.org/CVERecord?id=CVE-2026-11856
-    PublishedDate: '2026-07-03T07:16:23.973Z'
-    LastModifiedDate: '2026-07-07T19:43:55.6Z'
   - VulnerabilityID: CVE-2026-8924
     PkgID: curl@8.20.0-r1
     PkgName: curl
@@ -795,6 +757,40 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-8458
     PublishedDate: '2026-07-03T07:16:24.63Z'
     LastModifiedDate: '2026-07-07T23:12:17.003Z'
+  - VulnerabilityID: CVE-2026-11856
+    PkgID: curl@8.20.0-r1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 8c098d986f37fe67
+    InstalledVersion: 8.20.0-r1
+    FixedVersion: 8.21.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-11856
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:3dbeec29c2e73f5695c94e16c14fc844741fb046cf2ee888684dfd69940d2d9d
+    Title: Successfully using libcurl to do a transfer to a specific HTTP origin  ...
+    Description: |-
+      Successfully using libcurl to do a transfer to a specific HTTP origin
+      (`hostA`) with **Digest** authentication and then changing the origin to a
+      different one (`hostB`) for a second transfer, reusing the same handle, makes
+      libcurl wrongly pass on the  `Authorization:` header field meant for `hostA`,
+      to `hostB`.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-294
+    References:
+    - https://curl.se/docs/CVE-2026-11856.html
+    - https://curl.se/docs/CVE-2026-11856.json
+    - https://hackerone.com/reports/3793260
+    PublishedDate: '2026-07-03T07:16:23.973Z'
+    LastModifiedDate: '2026-07-07T19:43:55.6Z'
   - VulnerabilityID: CVE-2026-11352
     PkgID: curl-doc@8.20.0-r1
     PkgName: curl-doc
@@ -1339,44 +1335,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-9547
     PublishedDate: '2026-07-03T07:16:25.99Z'
     LastModifiedDate: '2026-07-07T14:52:29.503Z'
-  - VulnerabilityID: CVE-2026-11856
-    PkgID: curl-doc@8.20.0-r1
-    PkgName: curl-doc
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: beed2cb57891737a
-    InstalledVersion: 8.20.0-r1
-    FixedVersion: 8.21.0-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-11856
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:b0cd943ccb5a226892ba065e673766d86e074ba0965b16c5c8856c069ebb9073
-    Title: Successfully using libcurl to do a transfer to a specific HTTP origin  ...
-    Description: |-
-      Successfully using libcurl to do a transfer to a specific HTTP origin
-      (`hostA`) with **Digest** authentication and then changing the origin to a
-      different one (`hostB`) for a second transfer, reusing the same handle, makes
-      libcurl wrongly pass on the  `Authorization:` header field meant for `hostA`,
-      to `hostB`.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-294
-    VendorSeverity:
-      ubuntu: 2
-    References:
-    - https://curl.se/L7HzKXisfJ/CVE-2026-11856.md
-    - https://curl.se/docs/CVE-2026-11856.html
-    - https://curl.se/docs/CVE-2026-11856.json
-    - https://hackerone.com/reports/3793260
-    - https://www.cve.org/CVERecord?id=CVE-2026-11856
-    PublishedDate: '2026-07-03T07:16:23.973Z'
-    LastModifiedDate: '2026-07-07T19:43:55.6Z'
   - VulnerabilityID: CVE-2026-8924
     PkgID: curl-doc@8.20.0-r1
     PkgName: curl-doc
@@ -1587,6 +1545,40 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-8458
     PublishedDate: '2026-07-03T07:16:24.63Z'
     LastModifiedDate: '2026-07-07T23:12:17.003Z'
+  - VulnerabilityID: CVE-2026-11856
+    PkgID: curl-doc@8.20.0-r1
+    PkgName: curl-doc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: beed2cb57891737a
+    InstalledVersion: 8.20.0-r1
+    FixedVersion: 8.21.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-11856
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:b0cd943ccb5a226892ba065e673766d86e074ba0965b16c5c8856c069ebb9073
+    Title: Successfully using libcurl to do a transfer to a specific HTTP origin  ...
+    Description: |-
+      Successfully using libcurl to do a transfer to a specific HTTP origin
+      (`hostA`) with **Digest** authentication and then changing the origin to a
+      different one (`hostB`) for a second transfer, reusing the same handle, makes
+      libcurl wrongly pass on the  `Authorization:` header field meant for `hostA`,
+      to `hostB`.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-294
+    References:
+    - https://curl.se/docs/CVE-2026-11856.html
+    - https://curl.se/docs/CVE-2026-11856.json
+    - https://hackerone.com/reports/3793260
+    PublishedDate: '2026-07-03T07:16:23.973Z'
+    LastModifiedDate: '2026-07-07T19:43:55.6Z'
   - VulnerabilityID: CVE-2026-45447
     PkgID: libcrypto3@3.5.6-r0
     PkgName: libcrypto3
@@ -1656,6 +1648,8 @@
     - https://access.redhat.com/errata/RHSA-2026:29197
     - https://access.redhat.com/errata/RHSA-2026:34102
     - https://access.redhat.com/errata/RHSA-2026:35869
+    - https://access.redhat.com/errata/RHSA-2026:36215
+    - https://access.redhat.com/errata/RHSA-2026:36217
     - https://access.redhat.com/security/cve/CVE-2026-45447
     - https://bugzilla.redhat.com/2481879
     - https://bugzilla.redhat.com/2481880
@@ -1703,7 +1697,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/3aad5eb7af4de4ee0633c30a8541a54d9bbde63c
     - https://github.com/openssl/openssl/commit/7d4a980c62258c5910cc883936e0c8dbab4d75a8
     - https://github.com/openssl/openssl/commit/9dfd688ad2290fc5075cacbc9bf0c9a93eefed54
@@ -1718,7 +1712,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-45447
     PublishedDate: '2026-06-09T17:17:19.277Z'
-    LastModifiedDate: '2026-07-06T13:16:59.4Z'
+    LastModifiedDate: '2026-07-08T13:16:47.377Z'
   - VulnerabilityID: CVE-2026-34182
     PkgID: libcrypto3@3.5.6-r0
     PkgName: libcrypto3
@@ -1836,7 +1830,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/03c1f4d45fb963aee7d5833390c507cd290182bc
     - https://github.com/openssl/openssl/commit/439ed7d2c0962ce964482727264668bf277c333f
     - https://github.com/openssl/openssl/commit/7947e6a81eb8776802f159fb6762cb7fcf7e34c7
@@ -1954,7 +1948,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/5b306efb0b3779dfdd0803b4afc9d08c91f11517
     - https://github.com/openssl/openssl/commit/7d06955ebe0ecf8adfd4c1e92018586da47ef9ac
     - https://github.com/openssl/openssl/commit/d2e9efbe4900a373227deb136e8665401404ffac
@@ -2070,7 +2064,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/5e3ed291b8af0b03d5d3b9e56a1da69a187e9729
     - https://github.com/openssl/openssl/commit/a45a0aba8095682c88ff4fc4a784892b8c6f0677
     - https://github.com/openssl/openssl/commit/bf29a458c1a231eca87e384c62b9c2553fa57a91
@@ -2205,7 +2199,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/323f0b6e7d530a4cb4336d50c88cb70f3ac2a451
     - https://github.com/openssl/openssl/commit/787a6dfba81b7b09c1e05ab31396c0cd7c36b3f7
     - https://github.com/openssl/openssl/commit/7ac4715234ee72d9f3c93426a2c08554b5b771af
@@ -2327,7 +2321,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/1c6908e4fa5fa568752221d8eaf561a809751e5d
     - https://github.com/openssl/openssl/commit/cbe418ae978539cf14a398a207dba834c0e93e83
     - https://github.com/openssl/openssl/commit/d93853c42110d6319e3df07842b488cb9f7ac5ff
@@ -2443,7 +2437,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/0300eb9ddce7a0895bf301a4b0c03a9da2313a0f
     - https://github.com/openssl/openssl/commit/79eb76a937e474bb7610a0a3dc57131dc8dc6610
     - https://github.com/openssl/openssl/commit/85dcbb3abaa4878af5c8fbbe11bce708fcf984a7
@@ -2561,7 +2555,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/056d06c1918fafbb98c1c85a02e4c47cc4e199ce
     - https://github.com/openssl/openssl/commit/12bc26ffb3a2be728c9b86e1cae277de5b33dfa4
     - https://github.com/openssl/openssl/commit/3ff64913615d648cfbb6a6f1cf5529ae7ea829d7
@@ -2678,7 +2672,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/61a86a8cd73546c9fea916f3d304c1293e05c046
     - https://github.com/openssl/openssl/commit/665d5254083affde9982efca7c41dd01cacc8774
     - https://github.com/openssl/openssl/commit/810b722f772652ad48042bcc7ab07e3414b11d0f
@@ -2831,7 +2825,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/a2ca7b2d73e0ffc1eae183fe6e1741dac767cb4f
     - https://github.com/openssl/openssl/commit/bbb151a83041705d9d001ed2f9c12f5523e1b54d
     - https://github.com/openssl/openssl/commit/dd68364107a58841c0a2546812518b65d3a23abd
@@ -2963,7 +2957,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/54d0989997e5fc26057009a9782c3441ce3842fb
     - https://github.com/openssl/openssl/commit/777b363b16fcf2153bb3ded39dc3838713667c44
     - https://github.com/openssl/openssl/commit/d35cd473a271bf3ce7bf3d32af53217fb83ae92c
@@ -3088,7 +3082,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/3da5a516cd2635a320ff748503db2cef7c4b0f02
     - https://github.com/openssl/openssl/commit/3ddbb7ab50bd93dfc59cbe08e269a67605aeebdb
     - https://github.com/openssl/openssl/commit/5f452bba2c681423d8fcffd120a19b757ee42e3c
@@ -3224,7 +3218,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/25b32cd9d41d2bc01b6abc425bb4baf2c2236fdc
     - https://github.com/openssl/openssl/commit/71e2a5d263518cf5866043bd60ee4994d59e53a3
     - https://github.com/openssl/openssl/commit/7fe3f33a3b3a4c487aa4dcdbc87057f66ffd2b85
@@ -3353,7 +3347,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/4f8d2bddaa2c8e06f9c33390ee1717059a6e4be6
     - https://github.com/openssl/openssl/commit/80c15faaf78042bbb8654a0e234c50c381732f74
     - https://github.com/openssl/openssl/commit/bd17511070fb39a67bfa19682affb765e706a974
@@ -3484,7 +3478,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/05b066366842f930fadd9a6e94df98030af431bb
     - https://github.com/openssl/openssl/commit/3d8d5bc1056b2f62da9fede23fedbf47e85187b0
     - https://github.com/openssl/openssl/commit/715349a1d7c6db970e6815dafb90915f07307f98
@@ -4043,44 +4037,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-9547
     PublishedDate: '2026-07-03T07:16:25.99Z'
     LastModifiedDate: '2026-07-07T14:52:29.503Z'
-  - VulnerabilityID: CVE-2026-11856
-    PkgID: libcurl@8.20.0-r1
-    PkgName: libcurl
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: 67154ed3ff2e7cc3
-    InstalledVersion: 8.20.0-r1
-    FixedVersion: 8.21.0-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-11856
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:f83b0d6378ebcc554519125ebc69325d30b16aed1180cb386340ceb5241c0898
-    Title: Successfully using libcurl to do a transfer to a specific HTTP origin  ...
-    Description: |-
-      Successfully using libcurl to do a transfer to a specific HTTP origin
-      (`hostA`) with **Digest** authentication and then changing the origin to a
-      different one (`hostB`) for a second transfer, reusing the same handle, makes
-      libcurl wrongly pass on the  `Authorization:` header field meant for `hostA`,
-      to `hostB`.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-294
-    VendorSeverity:
-      ubuntu: 2
-    References:
-    - https://curl.se/L7HzKXisfJ/CVE-2026-11856.md
-    - https://curl.se/docs/CVE-2026-11856.html
-    - https://curl.se/docs/CVE-2026-11856.json
-    - https://hackerone.com/reports/3793260
-    - https://www.cve.org/CVERecord?id=CVE-2026-11856
-    PublishedDate: '2026-07-03T07:16:23.973Z'
-    LastModifiedDate: '2026-07-07T19:43:55.6Z'
   - VulnerabilityID: CVE-2026-8924
     PkgID: libcurl@8.20.0-r1
     PkgName: libcurl
@@ -4291,6 +4247,127 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-8458
     PublishedDate: '2026-07-03T07:16:24.63Z'
     LastModifiedDate: '2026-07-07T23:12:17.003Z'
+  - VulnerabilityID: CVE-2026-11856
+    PkgID: libcurl@8.20.0-r1
+    PkgName: libcurl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 67154ed3ff2e7cc3
+    InstalledVersion: 8.20.0-r1
+    FixedVersion: 8.21.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-11856
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:f83b0d6378ebcc554519125ebc69325d30b16aed1180cb386340ceb5241c0898
+    Title: Successfully using libcurl to do a transfer to a specific HTTP origin  ...
+    Description: |-
+      Successfully using libcurl to do a transfer to a specific HTTP origin
+      (`hostA`) with **Digest** authentication and then changing the origin to a
+      different one (`hostB`) for a second transfer, reusing the same handle, makes
+      libcurl wrongly pass on the  `Authorization:` header field meant for `hostA`,
+      to `hostB`.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-294
+    References:
+    - https://curl.se/docs/CVE-2026-11856.html
+    - https://curl.se/docs/CVE-2026-11856.json
+    - https://hackerone.com/reports/3793260
+    PublishedDate: '2026-07-03T07:16:23.973Z'
+    LastModifiedDate: '2026-07-07T19:43:55.6Z'
+  - VulnerabilityID: CVE-2026-56131
+    PkgID: libexpat@2.8.1-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9b3a7621208f28cf
+    InstalledVersion: 2.8.1-r0
+    FixedVersion: 2.8.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56131
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:2fa7e919b44f454034d1b131df331e7c98abe0fd67e4f78a3242ad242f59276c
+    Title: libexpat before 2.8.2 lacks handler call depth tracking for calls to X ...
+    Description: libexpat before 2.8.2 lacks handler call depth tracking for calls to XML_ResumeParser from within handlers in cases of a policy violation. Thus, a use-after-free can occur (similar to the CVE-2026-50219 situation).
+    Severity: HIGH
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      amazon: 3
+    References:
+    - https://github.com/libexpat/libexpat/pull/1267
+    PublishedDate: '2026-06-19T06:17:10.107Z'
+    LastModifiedDate: '2026-06-23T20:15:48.007Z'
+  - VulnerabilityID: CVE-2026-56407
+    PkgID: libexpat@2.8.1-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9b3a7621208f28cf
+    InstalledVersion: 2.8.1-r0
+    FixedVersion: 2.8.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56407
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:246d660fd7030f07d5783d0117c4e5ca7a67905b0a1c000450fb776fb931553f
+    Title: libexpat before 2.8.2 has an integer overflow in doProlog that is rela ...
+    Description: libexpat before 2.8.2 has an integer overflow in doProlog that is related to storeEntityValue and entity textLen.
+    Severity: HIGH
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      amazon: 3
+    References:
+    - https://github.com/libexpat/libexpat/pull/1262
+    PublishedDate: '2026-06-21T16:16:27.987Z'
+    LastModifiedDate: '2026-06-23T16:28:29.983Z'
+  - VulnerabilityID: CVE-2026-56408
+    PkgID: libexpat@2.8.1-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 9b3a7621208f28cf
+    InstalledVersion: 2.8.1-r0
+    FixedVersion: 2.8.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56408
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:03d034576a6c5a75f25c5c3e77afcc8eb2315f8e81d723c03517c3a806db7de2
+    Title: libexpat before 2.8.2 has an integer overflow in copyString.
+    Description: libexpat before 2.8.2 has an integer overflow in copyString.
+    Severity: HIGH
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      amazon: 3
+    References:
+    - https://github.com/libexpat/libexpat/commit/16e2efd867ea8567ffa012210b52ef5918e20817
+    PublishedDate: '2026-06-21T16:16:28.11Z'
+    LastModifiedDate: '2026-06-23T16:27:26.523Z'
   - VulnerabilityID: CVE-2026-50219
     PkgID: libexpat@2.8.1-r0
     PkgName: libexpat
@@ -4316,6 +4393,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 3
       nvd: 2
       redhat: 2
     CVSS:
@@ -4357,6 +4435,7 @@
     CweIDs:
     - CWE-821
     VendorSeverity:
+      amazon: 3
       nvd: 2
       redhat: 2
     CVSS:
@@ -4398,6 +4477,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      amazon: 3
       nvd: 2
       redhat: 2
     CVSS:
@@ -4439,6 +4519,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      amazon: 3
       nvd: 2
     CVSS:
       nvd:
@@ -4473,6 +4554,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      amazon: 3
       nvd: 2
       redhat: 2
     CVSS:
@@ -4513,6 +4595,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      amazon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -4622,6 +4705,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 3
       nvd: 2
       redhat: 2
     CVSS:
@@ -4638,87 +4722,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-56412
     PublishedDate: '2026-06-21T17:16:44.657Z'
     LastModifiedDate: '2026-06-23T15:31:30.853Z'
-  - VulnerabilityID: CVE-2026-56131
-    PkgID: libexpat@2.8.1-r0
-    PkgName: libexpat
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: 9b3a7621208f28cf
-    InstalledVersion: 2.8.1-r0
-    FixedVersion: 2.8.2-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56131
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:2fa7e919b44f454034d1b131df331e7c98abe0fd67e4f78a3242ad242f59276c
-    Title: libexpat before 2.8.2 lacks handler call depth tracking for calls to X ...
-    Description: libexpat before 2.8.2 lacks handler call depth tracking for calls to XML_ResumeParser from within handlers in cases of a policy violation. Thus, a use-after-free can occur (similar to the CVE-2026-50219 situation).
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-416
-    References:
-    - https://github.com/libexpat/libexpat/pull/1267
-    PublishedDate: '2026-06-19T06:17:10.107Z'
-    LastModifiedDate: '2026-06-23T20:15:48.007Z'
-  - VulnerabilityID: CVE-2026-56407
-    PkgID: libexpat@2.8.1-r0
-    PkgName: libexpat
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: 9b3a7621208f28cf
-    InstalledVersion: 2.8.1-r0
-    FixedVersion: 2.8.2-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56407
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:246d660fd7030f07d5783d0117c4e5ca7a67905b0a1c000450fb776fb931553f
-    Title: libexpat before 2.8.2 has an integer overflow in doProlog that is rela ...
-    Description: libexpat before 2.8.2 has an integer overflow in doProlog that is related to storeEntityValue and entity textLen.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-190
-    References:
-    - https://github.com/libexpat/libexpat/pull/1262
-    PublishedDate: '2026-06-21T16:16:27.987Z'
-    LastModifiedDate: '2026-06-23T16:28:29.983Z'
-  - VulnerabilityID: CVE-2026-56408
-    PkgID: libexpat@2.8.1-r0
-    PkgName: libexpat
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=3.24.0_alpha20260127
-      UID: 9b3a7621208f28cf
-    InstalledVersion: 2.8.1-r0
-    FixedVersion: 2.8.2-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
-      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56408
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:03d034576a6c5a75f25c5c3e77afcc8eb2315f8e81d723c03517c3a806db7de2
-    Title: libexpat before 2.8.2 has an integer overflow in copyString.
-    Description: libexpat before 2.8.2 has an integer overflow in copyString.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-190
-    References:
-    - https://github.com/libexpat/libexpat/commit/16e2efd867ea8567ffa012210b52ef5918e20817
-    PublishedDate: '2026-06-21T16:16:28.11Z'
-    LastModifiedDate: '2026-06-23T16:27:26.523Z'
   - VulnerabilityID: CVE-2026-56409
     PkgID: libexpat@2.8.1-r0
     PkgName: libexpat
@@ -4960,6 +4963,8 @@
     - https://access.redhat.com/errata/RHSA-2026:29197
     - https://access.redhat.com/errata/RHSA-2026:34102
     - https://access.redhat.com/errata/RHSA-2026:35869
+    - https://access.redhat.com/errata/RHSA-2026:36215
+    - https://access.redhat.com/errata/RHSA-2026:36217
     - https://access.redhat.com/security/cve/CVE-2026-45447
     - https://bugzilla.redhat.com/2481879
     - https://bugzilla.redhat.com/2481880
@@ -5007,7 +5012,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/3aad5eb7af4de4ee0633c30a8541a54d9bbde63c
     - https://github.com/openssl/openssl/commit/7d4a980c62258c5910cc883936e0c8dbab4d75a8
     - https://github.com/openssl/openssl/commit/9dfd688ad2290fc5075cacbc9bf0c9a93eefed54
@@ -5022,7 +5027,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-45447
     PublishedDate: '2026-06-09T17:17:19.277Z'
-    LastModifiedDate: '2026-07-06T13:16:59.4Z'
+    LastModifiedDate: '2026-07-08T13:16:47.377Z'
   - VulnerabilityID: CVE-2026-34182
     PkgID: libssl3@3.5.6-r0
     PkgName: libssl3
@@ -5140,7 +5145,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/03c1f4d45fb963aee7d5833390c507cd290182bc
     - https://github.com/openssl/openssl/commit/439ed7d2c0962ce964482727264668bf277c333f
     - https://github.com/openssl/openssl/commit/7947e6a81eb8776802f159fb6762cb7fcf7e34c7
@@ -5258,7 +5263,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/5b306efb0b3779dfdd0803b4afc9d08c91f11517
     - https://github.com/openssl/openssl/commit/7d06955ebe0ecf8adfd4c1e92018586da47ef9ac
     - https://github.com/openssl/openssl/commit/d2e9efbe4900a373227deb136e8665401404ffac
@@ -5374,7 +5379,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/5e3ed291b8af0b03d5d3b9e56a1da69a187e9729
     - https://github.com/openssl/openssl/commit/a45a0aba8095682c88ff4fc4a784892b8c6f0677
     - https://github.com/openssl/openssl/commit/bf29a458c1a231eca87e384c62b9c2553fa57a91
@@ -5509,7 +5514,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/323f0b6e7d530a4cb4336d50c88cb70f3ac2a451
     - https://github.com/openssl/openssl/commit/787a6dfba81b7b09c1e05ab31396c0cd7c36b3f7
     - https://github.com/openssl/openssl/commit/7ac4715234ee72d9f3c93426a2c08554b5b771af
@@ -5631,7 +5636,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/1c6908e4fa5fa568752221d8eaf561a809751e5d
     - https://github.com/openssl/openssl/commit/cbe418ae978539cf14a398a207dba834c0e93e83
     - https://github.com/openssl/openssl/commit/d93853c42110d6319e3df07842b488cb9f7ac5ff
@@ -5747,7 +5752,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/0300eb9ddce7a0895bf301a4b0c03a9da2313a0f
     - https://github.com/openssl/openssl/commit/79eb76a937e474bb7610a0a3dc57131dc8dc6610
     - https://github.com/openssl/openssl/commit/85dcbb3abaa4878af5c8fbbe11bce708fcf984a7
@@ -5865,7 +5870,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/056d06c1918fafbb98c1c85a02e4c47cc4e199ce
     - https://github.com/openssl/openssl/commit/12bc26ffb3a2be728c9b86e1cae277de5b33dfa4
     - https://github.com/openssl/openssl/commit/3ff64913615d648cfbb6a6f1cf5529ae7ea829d7
@@ -5982,7 +5987,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/61a86a8cd73546c9fea916f3d304c1293e05c046
     - https://github.com/openssl/openssl/commit/665d5254083affde9982efca7c41dd01cacc8774
     - https://github.com/openssl/openssl/commit/810b722f772652ad48042bcc7ab07e3414b11d0f
@@ -6135,7 +6140,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/a2ca7b2d73e0ffc1eae183fe6e1741dac767cb4f
     - https://github.com/openssl/openssl/commit/bbb151a83041705d9d001ed2f9c12f5523e1b54d
     - https://github.com/openssl/openssl/commit/dd68364107a58841c0a2546812518b65d3a23abd
@@ -6267,7 +6272,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/54d0989997e5fc26057009a9782c3441ce3842fb
     - https://github.com/openssl/openssl/commit/777b363b16fcf2153bb3ded39dc3838713667c44
     - https://github.com/openssl/openssl/commit/d35cd473a271bf3ce7bf3d32af53217fb83ae92c
@@ -6392,7 +6397,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/3da5a516cd2635a320ff748503db2cef7c4b0f02
     - https://github.com/openssl/openssl/commit/3ddbb7ab50bd93dfc59cbe08e269a67605aeebdb
     - https://github.com/openssl/openssl/commit/5f452bba2c681423d8fcffd120a19b757ee42e3c
@@ -6528,7 +6533,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/25b32cd9d41d2bc01b6abc425bb4baf2c2236fdc
     - https://github.com/openssl/openssl/commit/71e2a5d263518cf5866043bd60ee4994d59e53a3
     - https://github.com/openssl/openssl/commit/7fe3f33a3b3a4c487aa4dcdbc87057f66ffd2b85
@@ -6657,7 +6662,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/4f8d2bddaa2c8e06f9c33390ee1717059a6e4be6
     - https://github.com/openssl/openssl/commit/80c15faaf78042bbb8654a0e234c50c381732f74
     - https://github.com/openssl/openssl/commit/bd17511070fb39a67bfa19682affb765e706a974
@@ -6788,7 +6793,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/05b066366842f930fadd9a6e94df98030af431bb
     - https://github.com/openssl/openssl/commit/3d8d5bc1056b2f62da9fede23fedbf47e85187b0
     - https://github.com/openssl/openssl/commit/715349a1d7c6db970e6815dafb90915f07307f98
@@ -6919,6 +6924,8 @@
     - https://access.redhat.com/errata/RHSA-2026:29197
     - https://access.redhat.com/errata/RHSA-2026:34102
     - https://access.redhat.com/errata/RHSA-2026:35869
+    - https://access.redhat.com/errata/RHSA-2026:36215
+    - https://access.redhat.com/errata/RHSA-2026:36217
     - https://access.redhat.com/security/cve/CVE-2026-45447
     - https://bugzilla.redhat.com/2481879
     - https://bugzilla.redhat.com/2481880
@@ -6966,7 +6973,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/3aad5eb7af4de4ee0633c30a8541a54d9bbde63c
     - https://github.com/openssl/openssl/commit/7d4a980c62258c5910cc883936e0c8dbab4d75a8
     - https://github.com/openssl/openssl/commit/9dfd688ad2290fc5075cacbc9bf0c9a93eefed54
@@ -6981,7 +6988,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-45447
     PublishedDate: '2026-06-09T17:17:19.277Z'
-    LastModifiedDate: '2026-07-06T13:16:59.4Z'
+    LastModifiedDate: '2026-07-08T13:16:47.377Z'
   - VulnerabilityID: CVE-2026-34182
     PkgID: openssl@3.5.6-r0
     PkgName: openssl
@@ -7099,7 +7106,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/03c1f4d45fb963aee7d5833390c507cd290182bc
     - https://github.com/openssl/openssl/commit/439ed7d2c0962ce964482727264668bf277c333f
     - https://github.com/openssl/openssl/commit/7947e6a81eb8776802f159fb6762cb7fcf7e34c7
@@ -7217,7 +7224,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/5b306efb0b3779dfdd0803b4afc9d08c91f11517
     - https://github.com/openssl/openssl/commit/7d06955ebe0ecf8adfd4c1e92018586da47ef9ac
     - https://github.com/openssl/openssl/commit/d2e9efbe4900a373227deb136e8665401404ffac
@@ -7333,7 +7340,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/5e3ed291b8af0b03d5d3b9e56a1da69a187e9729
     - https://github.com/openssl/openssl/commit/a45a0aba8095682c88ff4fc4a784892b8c6f0677
     - https://github.com/openssl/openssl/commit/bf29a458c1a231eca87e384c62b9c2553fa57a91
@@ -7468,7 +7475,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/323f0b6e7d530a4cb4336d50c88cb70f3ac2a451
     - https://github.com/openssl/openssl/commit/787a6dfba81b7b09c1e05ab31396c0cd7c36b3f7
     - https://github.com/openssl/openssl/commit/7ac4715234ee72d9f3c93426a2c08554b5b771af
@@ -7590,7 +7597,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/1c6908e4fa5fa568752221d8eaf561a809751e5d
     - https://github.com/openssl/openssl/commit/cbe418ae978539cf14a398a207dba834c0e93e83
     - https://github.com/openssl/openssl/commit/d93853c42110d6319e3df07842b488cb9f7ac5ff
@@ -7706,7 +7713,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/0300eb9ddce7a0895bf301a4b0c03a9da2313a0f
     - https://github.com/openssl/openssl/commit/79eb76a937e474bb7610a0a3dc57131dc8dc6610
     - https://github.com/openssl/openssl/commit/85dcbb3abaa4878af5c8fbbe11bce708fcf984a7
@@ -7824,7 +7831,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/056d06c1918fafbb98c1c85a02e4c47cc4e199ce
     - https://github.com/openssl/openssl/commit/12bc26ffb3a2be728c9b86e1cae277de5b33dfa4
     - https://github.com/openssl/openssl/commit/3ff64913615d648cfbb6a6f1cf5529ae7ea829d7
@@ -7941,7 +7948,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/61a86a8cd73546c9fea916f3d304c1293e05c046
     - https://github.com/openssl/openssl/commit/665d5254083affde9982efca7c41dd01cacc8774
     - https://github.com/openssl/openssl/commit/810b722f772652ad48042bcc7ab07e3414b11d0f
@@ -8094,7 +8101,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/a2ca7b2d73e0ffc1eae183fe6e1741dac767cb4f
     - https://github.com/openssl/openssl/commit/bbb151a83041705d9d001ed2f9c12f5523e1b54d
     - https://github.com/openssl/openssl/commit/dd68364107a58841c0a2546812518b65d3a23abd
@@ -8226,7 +8233,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/54d0989997e5fc26057009a9782c3441ce3842fb
     - https://github.com/openssl/openssl/commit/777b363b16fcf2153bb3ded39dc3838713667c44
     - https://github.com/openssl/openssl/commit/d35cd473a271bf3ce7bf3d32af53217fb83ae92c
@@ -8351,7 +8358,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/3da5a516cd2635a320ff748503db2cef7c4b0f02
     - https://github.com/openssl/openssl/commit/3ddbb7ab50bd93dfc59cbe08e269a67605aeebdb
     - https://github.com/openssl/openssl/commit/5f452bba2c681423d8fcffd120a19b757ee42e3c
@@ -8487,7 +8494,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/25b32cd9d41d2bc01b6abc425bb4baf2c2236fdc
     - https://github.com/openssl/openssl/commit/71e2a5d263518cf5866043bd60ee4994d59e53a3
     - https://github.com/openssl/openssl/commit/7fe3f33a3b3a4c487aa4dcdbc87057f66ffd2b85
@@ -8616,7 +8623,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/4f8d2bddaa2c8e06f9c33390ee1717059a6e4be6
     - https://github.com/openssl/openssl/commit/80c15faaf78042bbb8654a0e234c50c381732f74
     - https://github.com/openssl/openssl/commit/bd17511070fb39a67bfa19682affb765e706a974
@@ -8747,7 +8754,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
     - https://errata.almalinux.org/9/ALSA-2026-25239.html
-    - https://errata.rockylinux.org/RLSA-2026:25237
+    - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/05b066366842f930fadd9a6e94df98030af431bb
     - https://github.com/openssl/openssl/commit/3d8d5bc1056b2f62da9fede23fedbf47e85187b0
     - https://github.com/openssl/openssl/commit/715349a1d7c6db970e6815dafb90915f07307f98
@@ -8811,7 +8818,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2437308
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2100
     - https://errata.almalinux.org/9/ALSA-2026-18599.html
-    - https://errata.rockylinux.org/RLSA-2026:18143
+    - https://errata.rockylinux.org/RLSA-2026:18599
     - https://github.com/p11-glue/p11-kit/pull/740
     - https://github.com/p11-glue/p11-kit/releases/tag/0.26.2
     - https://linux.oracle.com/cve/CVE-2026-2100.html
@@ -8901,7 +8908,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19064
+    - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/556aa098e738b127c714866f819b4abe2f7593d8
     - https://github.com/python/cpython/commit/57e88c1cf95e1481b94ae57abe1010469d47a6b4
     - https://github.com/python/cpython/commit/62ceb396fcbe69da1ded3702de586f4072b590dd
@@ -9005,7 +9012,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19064
+    - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
     - https://github.com/python/cpython/commit/642865ddf4b232da1f3b1f7abcfa3254c4bfe785
     - https://github.com/python/cpython/commit/af856a7177326ac25d9f66cc6dd28b554d914fee
@@ -9097,7 +9104,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19064
+    - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
     - https://github.com/python/cpython/commit/876858c9f65d9ab656c7fa639f268ce7856d89dd
@@ -9193,7 +9200,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19064
+    - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/556aa098e738b127c714866f819b4abe2f7593d8
     - https://github.com/python/cpython/commit/57e88c1cf95e1481b94ae57abe1010469d47a6b4
     - https://github.com/python/cpython/commit/62ceb396fcbe69da1ded3702de586f4072b590dd
@@ -9297,7 +9304,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19064
+    - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
     - https://github.com/python/cpython/commit/642865ddf4b232da1f3b1f7abcfa3254c4bfe785
     - https://github.com/python/cpython/commit/af856a7177326ac25d9f66cc6dd28b554d914fee
@@ -9389,7 +9396,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19064
+    - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
     - https://github.com/python/cpython/commit/876858c9f65d9ab656c7fa639f268ce7856d89dd
@@ -9485,7 +9492,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19064
+    - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/556aa098e738b127c714866f819b4abe2f7593d8
     - https://github.com/python/cpython/commit/57e88c1cf95e1481b94ae57abe1010469d47a6b4
     - https://github.com/python/cpython/commit/62ceb396fcbe69da1ded3702de586f4072b590dd
@@ -9589,7 +9596,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19064
+    - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
     - https://github.com/python/cpython/commit/642865ddf4b232da1f3b1f7abcfa3254c4bfe785
     - https://github.com/python/cpython/commit/af856a7177326ac25d9f66cc6dd28b554d914fee
@@ -9681,7 +9688,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19064
+    - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
     - https://github.com/python/cpython/commit/876858c9f65d9ab656c7fa639f268ce7856d89dd
@@ -9777,7 +9784,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19064
+    - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/556aa098e738b127c714866f819b4abe2f7593d8
     - https://github.com/python/cpython/commit/57e88c1cf95e1481b94ae57abe1010469d47a6b4
     - https://github.com/python/cpython/commit/62ceb396fcbe69da1ded3702de586f4072b590dd
@@ -9881,7 +9888,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19064
+    - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
     - https://github.com/python/cpython/commit/642865ddf4b232da1f3b1f7abcfa3254c4bfe785
     - https://github.com/python/cpython/commit/af856a7177326ac25d9f66cc6dd28b554d914fee
@@ -9973,7 +9980,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
     - https://errata.almalinux.org/9/ALSA-2026-19177.html
-    - https://errata.rockylinux.org/RLSA-2026:19064
+    - https://errata.rockylinux.org/RLSA-2026:19177
     - https://github.com/python/cpython/commit/482d6f8bdba9da3725d272e8bb4a2d25fb6a603e
     - https://github.com/python/cpython/commit/69ddd9bb2cc4bd69b1565647c18659c6a789ccd9
     - https://github.com/python/cpython/commit/876858c9f65d9ab656c7fa639f268ce7856d89dd
