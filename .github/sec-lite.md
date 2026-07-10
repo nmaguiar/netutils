@@ -3,7 +3,51 @@
 │     ├ Class          : os-pkgs 
 │     ├ Type           : alpine 
 │     ├ Packages        
-│     ╰ Vulnerabilities ╭ [0]   ╭ VulnerabilityID : CVE-2026-11352 
+│     ╰ Vulnerabilities ╭ [0]   ╭ VulnerabilityID : CVE-2026-33630 
+│                       │       ├ PkgID           : c-ares@1.34.6-r0 
+│                       │       ├ PkgName         : c-ares 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/c-ares@1.34.6-r0?arch=x86_64&distro=3
+│                       │       │                  │       .24.0_alpha20260127 
+│                       │       │                  ╰ UID : 36d6f4812e7741f6 
+│                       │       ├ InstalledVersion: 1.34.6-r0 
+│                       │       ├ FixedVersion    : 1.34.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33630 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:7187d9fce2909dcaa479ee32de3448caa03b1c319ebf54fb3451
+│                       │       │                   62b207d3d959 
+│                       │       ├ Title           : c-ares: c-ares: Use-after-free / double-free in
+│                       │       │                   query-completion handling 
+│                       │       ├ Description     : A flaw was found in c-ares. A use-after-free / double-free
+│                       │       │                   vulnerability exists in the query-completion handling path,
+│                       │       │                    where a query callback is invoked while the query is still
+│                       │       │                    linked in internal lookup structures. A remote attacker
+│                       │       │                   can exploit this via ares_getaddrinfo() over TCP by sending
+│                       │       │                    crafted DNS responses that force an EDNS-downgrade retry
+│                       │       │                   followed by a connection reset, causing the internal
+│                       │       │                   completion handler to access freed memory. This leads to
+│                       │       │                   memory corruption and a crash (denial of service), with
+│                       │       │                   potential for further impact depending on the allocator and
+│                       │       │                    build configuration. 
+│                       │       ├ Severity        : HIGH 
+│                       │       ├ VendorSeverity   ─ redhat: 3 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-33630 
+│                       │                          ├ [1]: https://github.com/c-ares/c-ares/commit/1fa3b86a0b8d1
+│                       │                          │      8fe7b60f3228a01d770feb026bc 
+│                       │                          ├ [2]: https://github.com/c-ares/c-ares/commit/d823199b68805
+│                       │                          │      2dcdc1646f2ab4cb8c16b1c644a 
+│                       │                          ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-33630 
+│                       │                          ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-33630 
+│                       ├ [1]   ╭ VulnerabilityID : CVE-2026-11352 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
@@ -49,7 +93,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-11352 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:23.693Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T18:01:19.013Z 
-│                       ├ [1]   ╭ VulnerabilityID : CVE-2026-11586 
+│                       ├ [2]   ╭ VulnerabilityID : CVE-2026-11586 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
@@ -92,7 +136,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-11586 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:23.883Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T17:59:46.92Z 
-│                       ├ [2]   ╭ VulnerabilityID : CVE-2026-12064 
+│                       ├ [3]   ╭ VulnerabilityID : CVE-2026-12064 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
@@ -148,7 +192,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-12064 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.217Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T19:43:11.187Z 
-│                       ├ [3]   ╭ VulnerabilityID : CVE-2026-8286 
+│                       ├ [4]   ╭ VulnerabilityID : CVE-2026-8286 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
@@ -191,7 +235,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-8286 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.453Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T19:42:11.24Z 
-│                       ├ [4]   ╭ VulnerabilityID : CVE-2026-8925 
+│                       ├ [5]   ╭ VulnerabilityID : CVE-2026-8925 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
@@ -233,7 +277,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-8925 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.95Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T23:04:29.69Z 
-│                       ├ [5]   ╭ VulnerabilityID : CVE-2026-8927 
+│                       ├ [6]   ╭ VulnerabilityID : CVE-2026-8927 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
@@ -282,7 +326,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-8927 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.123Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T23:21:03.53Z 
-│                       ├ [6]   ╭ VulnerabilityID : CVE-2026-8932 
+│                       ├ [7]   ╭ VulnerabilityID : CVE-2026-8932 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
@@ -330,7 +374,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8932 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.363Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T23:18:32.137Z 
-│                       ├ [7]   ╭ VulnerabilityID : CVE-2026-9079 
+│                       ├ [8]   ╭ VulnerabilityID : CVE-2026-9079 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
@@ -374,7 +418,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-9079 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.62Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T15:05:55.933Z 
-│                       ├ [8]   ╭ VulnerabilityID : CVE-2026-9080 
+│                       ├ [9]   ╭ VulnerabilityID : CVE-2026-9080 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
@@ -419,7 +463,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-9080 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.713Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T15:05:26.53Z 
-│                       ├ [9]   ╭ VulnerabilityID : CVE-2026-9545 
+│                       ├ [10]  ╭ VulnerabilityID : CVE-2026-9545 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
@@ -474,7 +518,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-9545 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.807Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T15:03:56.92Z 
-│                       ├ [10]  ╭ VulnerabilityID : CVE-2026-9546 
+│                       ├ [11]  ╭ VulnerabilityID : CVE-2026-9546 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
@@ -519,7 +563,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9546 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.893Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T14:53:26.517Z 
-│                       ├ [11]  ╭ VulnerabilityID : CVE-2026-9547 
+│                       ├ [12]  ╭ VulnerabilityID : CVE-2026-9547 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
@@ -569,7 +613,145 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-9547 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.99Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T14:52:29.503Z 
-│                       ├ [12]  ╭ VulnerabilityID : CVE-2026-8924 
+│                       ├ [13]  ╭ VulnerabilityID : CVE-2026-10536 
+│                       │       ├ PkgID           : curl@8.20.0-r1 
+│                       │       ├ PkgName         : curl 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
+│                       │       │                  │       4.0_alpha20260127 
+│                       │       │                  ╰ UID : 8c098d986f37fe67 
+│                       │       ├ InstalledVersion: 8.20.0-r1 
+│                       │       ├ FixedVersion    : 8.21.0-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-10536 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:d3c9aa84d59fc7bb6832defb204ce02a85712e3503750b8cf5b9
+│                       │       │                   73a3184fc763 
+│                       │       ├ Title           : libcurl: libcurl: Use-after-free vulnerability leading to
+│                       │       │                   Denial of Service 
+│                       │       ├ Description     : A use-after-free vulnerability exists in libcurl when an
+│                       │       │                   application
+│                       │       │                   configures an HTTP/2 stream-dependency tree via
+│                       │       │                   `CURLOPT_STREAM_DEPENDS` or
+│                       │       │                   `CURLOPT_STREAM_DEPENDS_E`, subsequently invokes
+│                       │       │                   `curl_easy_reset()`, and
+│                       │       │                   finally terminates the handle with `curl_easy_cleanup()`.
+│                       │       │                   During this final
+│                       │       │                   cleanup phase, libcurl attempts to access and modify an
+│                       │       │                   internal structure
+│                       │       │                   that was already freed during the reset operation. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 4.7 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-10536 
+│                       │       │                  ├ [1]: https://curl.se/L7HzKXisfJ/CVE-2026-10536.md 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-10536.html 
+│                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-10536.json 
+│                       │       │                  ├ [4]: https://hackerone.com/reports/3751697 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-10536 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-10536 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.563Z 
+│                       │       ╰ LastModifiedDate: 2026-07-07T18:02:03.89Z 
+│                       ├ [14]  ╭ VulnerabilityID : CVE-2026-11564 
+│                       │       ├ PkgID           : curl@8.20.0-r1 
+│                       │       ├ PkgName         : curl 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
+│                       │       │                  │       4.0_alpha20260127 
+│                       │       │                  ╰ UID : 8c098d986f37fe67 
+│                       │       ├ InstalledVersion: 8.20.0-r1 
+│                       │       ├ FixedVersion    : 8.21.0-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11564 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:9077042dcf18eac099891de94e4e8eac50f24dc4f07d83c1bca3
+│                       │       │                   25d4dfe28c1e 
+│                       │       ├ Title           : libcurl: libcurl: Certificate validation bypass due to
+│                       │       │                   incorrect connection reuse 
+│                       │       ├ Description     : libcurl keeps previously used connections in a connection
+│                       │       │                   pool for subsequent
+│                       │       │                   transfers to reuse if one of them matches the setup.
+│                       │       │                   
+│                       │       │                   An easy handle that first uses default native CA trust can
+│                       │       │                   continue trusting
+│                       │       │                   the native platform store after the application switches
+│                       │       │                   that same handle to
+│                       │       │                   custom CA material for a later transfer. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-295 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                       │       │                           │           L/A:N 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-11564 
+│                       │       │                  ├ [1]: https://curl.se/L7HzKXisfJ/CVE-2026-11564.md 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11564.html 
+│                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-11564.json 
+│                       │       │                  ├ [4]: https://hackerone.com/reports/3788984 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-11564 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-11564 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.79Z 
+│                       │       ╰ LastModifiedDate: 2026-07-07T18:00:35.84Z 
+│                       ├ [15]  ╭ VulnerabilityID : CVE-2026-11856 
+│                       │       ├ PkgID           : curl@8.20.0-r1 
+│                       │       ├ PkgName         : curl 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
+│                       │       │                  │       4.0_alpha20260127 
+│                       │       │                  ╰ UID : 8c098d986f37fe67 
+│                       │       ├ InstalledVersion: 8.20.0-r1 
+│                       │       ├ FixedVersion    : 8.21.0-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11856 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:3dbeec29c2e73f5695c94e16c14fc844741fb046cf2ee888684d
+│                       │       │                   fd69940d2d9d 
+│                       │       ├ Title           : curl: curl: Information disclosure via incorrect Digest
+│                       │       │                   authentication header reuse 
+│                       │       ├ Description     : Successfully using libcurl to do a transfer to a specific
+│                       │       │                   HTTP origin
+│                       │       │                   (`hostA`) with **Digest** authentication and then changing
+│                       │       │                   the origin to a
+│                       │       │                   different one (`hostB`) for a second transfer, reusing the
+│                       │       │                   same handle, makes
+│                       │       │                   libcurl wrongly pass on the  `Authorization:` header field
+│                       │       │                   meant for `hostA`,
+│                       │       │                   to `hostB`. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-294 
+│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                           │           N/A:N 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-11856 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11856.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11856.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3793260 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-11856 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-11856 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.973Z 
+│                       │       ╰ LastModifiedDate: 2026-07-07T19:43:55.6Z 
+│                       ├ [16]  ╭ VulnerabilityID : CVE-2026-8924 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
@@ -613,7 +795,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-8924 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.793Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T23:06:00.797Z 
-│                       ├ [13]  ╭ VulnerabilityID : CVE-2026-8926 
+│                       ├ [17]  ╭ VulnerabilityID : CVE-2026-8926 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
@@ -660,89 +842,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-8926 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.037Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T23:02:54.49Z 
-│                       ├ [14]  ╭ VulnerabilityID : CVE-2026-10536 
-│                       │       ├ PkgID           : curl@8.20.0-r1 
-│                       │       ├ PkgName         : curl 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
-│                       │       │                  │       4.0_alpha20260127 
-│                       │       │                  ╰ UID : 8c098d986f37fe67 
-│                       │       ├ InstalledVersion: 8.20.0-r1 
-│                       │       ├ FixedVersion    : 8.21.0-r0 
-│                       │       ├ Status          : fixed 
-│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
-│                       │       │                  │         79a8305ba35c82bf9229f 
-│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
-│                       │       │                            f7ea46f72dd8aa890c14b 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-10536 
-│                       │       ├ DataSource       ╭ ID  : alpine 
-│                       │       │                  ├ Name: Alpine Secdb 
-│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │       ├ Fingerprint     : sha256:d3c9aa84d59fc7bb6832defb204ce02a85712e3503750b8cf5b9
-│                       │       │                   73a3184fc763 
-│                       │       ├ Title           : A use-after-free vulnerability exists in libcurl when an
-│                       │       │                   application c ... 
-│                       │       ├ Description     : A use-after-free vulnerability exists in libcurl when an
-│                       │       │                   application
-│                       │       │                   configures an HTTP/2 stream-dependency tree via
-│                       │       │                   `CURLOPT_STREAM_DEPENDS` or
-│                       │       │                   `CURLOPT_STREAM_DEPENDS_E`, subsequently invokes
-│                       │       │                   `curl_easy_reset()`, and
-│                       │       │                   finally terminates the handle with `curl_easy_cleanup()`.
-│                       │       │                   During this final
-│                       │       │                   cleanup phase, libcurl attempts to access and modify an
-│                       │       │                   internal structure
-│                       │       │                   that was already freed during the reset operation. 
-│                       │       ├ Severity        : LOW 
-│                       │       ├ CweIDs           ─ [0]: CWE-416 
-│                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-10536.md 
-│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-10536.html 
-│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-10536.json 
-│                       │       │                  ├ [3]: https://hackerone.com/reports/3751697 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-10536 
-│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.563Z 
-│                       │       ╰ LastModifiedDate: 2026-07-07T18:02:03.89Z 
-│                       ├ [15]  ╭ VulnerabilityID : CVE-2026-11564 
-│                       │       ├ PkgID           : curl@8.20.0-r1 
-│                       │       ├ PkgName         : curl 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
-│                       │       │                  │       4.0_alpha20260127 
-│                       │       │                  ╰ UID : 8c098d986f37fe67 
-│                       │       ├ InstalledVersion: 8.20.0-r1 
-│                       │       ├ FixedVersion    : 8.21.0-r0 
-│                       │       ├ Status          : fixed 
-│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
-│                       │       │                  │         79a8305ba35c82bf9229f 
-│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
-│                       │       │                            f7ea46f72dd8aa890c14b 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11564 
-│                       │       ├ DataSource       ╭ ID  : alpine 
-│                       │       │                  ├ Name: Alpine Secdb 
-│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │       ├ Fingerprint     : sha256:9077042dcf18eac099891de94e4e8eac50f24dc4f07d83c1bca3
-│                       │       │                   25d4dfe28c1e 
-│                       │       ├ Title           : libcurl keeps previously used connections in a connection
-│                       │       │                   pool for sub ... 
-│                       │       ├ Description     : libcurl keeps previously used connections in a connection
-│                       │       │                   pool for subsequent
-│                       │       │                   transfers to reuse if one of them matches the setup.
-│                       │       │                   
-│                       │       │                   An easy handle that first uses default native CA trust can
-│                       │       │                   continue trusting
-│                       │       │                   the native platform store after the application switches
-│                       │       │                   that same handle to
-│                       │       │                   custom CA material for a later transfer. 
-│                       │       ├ Severity        : LOW 
-│                       │       ├ CweIDs           ─ [0]: CWE-295 
-│                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11564.md 
-│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11564.html 
-│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11564.json 
-│                       │       │                  ├ [3]: https://hackerone.com/reports/3788984 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11564 
-│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.79Z 
-│                       │       ╰ LastModifiedDate: 2026-07-07T18:00:35.84Z 
-│                       ├ [16]  ╭ VulnerabilityID : CVE-2026-8458 
+│                       ├ [18]  ╭ VulnerabilityID : CVE-2026-8458 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
@@ -789,44 +889,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8458 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.63Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T23:12:17.003Z 
-│                       ├ [17]  ╭ VulnerabilityID : CVE-2026-11856 
-│                       │       ├ PkgID           : curl@8.20.0-r1 
-│                       │       ├ PkgName         : curl 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.20.0-r1?arch=x86_64&distro=3.2
-│                       │       │                  │       4.0_alpha20260127 
-│                       │       │                  ╰ UID : 8c098d986f37fe67 
-│                       │       ├ InstalledVersion: 8.20.0-r1 
-│                       │       ├ FixedVersion    : 8.21.0-r0 
-│                       │       ├ Status          : fixed 
-│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
-│                       │       │                  │         79a8305ba35c82bf9229f 
-│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
-│                       │       │                            f7ea46f72dd8aa890c14b 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11856 
-│                       │       ├ DataSource       ╭ ID  : alpine 
-│                       │       │                  ├ Name: Alpine Secdb 
-│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │       ├ Fingerprint     : sha256:3dbeec29c2e73f5695c94e16c14fc844741fb046cf2ee888684d
-│                       │       │                   fd69940d2d9d 
-│                       │       ├ Title           : Successfully using libcurl to do a transfer to a specific
-│                       │       │                   HTTP origin  ... 
-│                       │       ├ Description     : Successfully using libcurl to do a transfer to a specific
-│                       │       │                   HTTP origin
-│                       │       │                   (`hostA`) with **Digest** authentication and then changing
-│                       │       │                   the origin to a
-│                       │       │                   different one (`hostB`) for a second transfer, reusing the
-│                       │       │                   same handle, makes
-│                       │       │                   libcurl wrongly pass on the  `Authorization:` header field
-│                       │       │                   meant for `hostA`,
-│                       │       │                   to `hostB`. 
-│                       │       ├ Severity        : UNKNOWN 
-│                       │       ├ CweIDs           ─ [0]: CWE-294 
-│                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-11856.html 
-│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11856.json 
-│                       │       │                  ╰ [2]: https://hackerone.com/reports/3793260 
-│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.973Z 
-│                       │       ╰ LastModifiedDate: 2026-07-07T19:43:55.6Z 
-│                       ├ [18]  ╭ VulnerabilityID : CVE-2026-11352 
+│                       ├ [19]  ╭ VulnerabilityID : CVE-2026-11352 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
@@ -872,7 +935,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-11352 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:23.693Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T18:01:19.013Z 
-│                       ├ [19]  ╭ VulnerabilityID : CVE-2026-11586 
+│                       ├ [20]  ╭ VulnerabilityID : CVE-2026-11586 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
@@ -915,7 +978,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-11586 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:23.883Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T17:59:46.92Z 
-│                       ├ [20]  ╭ VulnerabilityID : CVE-2026-12064 
+│                       ├ [21]  ╭ VulnerabilityID : CVE-2026-12064 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
@@ -971,7 +1034,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-12064 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.217Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T19:43:11.187Z 
-│                       ├ [21]  ╭ VulnerabilityID : CVE-2026-8286 
+│                       ├ [22]  ╭ VulnerabilityID : CVE-2026-8286 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
@@ -1014,7 +1077,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-8286 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.453Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T19:42:11.24Z 
-│                       ├ [22]  ╭ VulnerabilityID : CVE-2026-8925 
+│                       ├ [23]  ╭ VulnerabilityID : CVE-2026-8925 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
@@ -1056,7 +1119,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-8925 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.95Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T23:04:29.69Z 
-│                       ├ [23]  ╭ VulnerabilityID : CVE-2026-8927 
+│                       ├ [24]  ╭ VulnerabilityID : CVE-2026-8927 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
@@ -1105,7 +1168,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-8927 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.123Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T23:21:03.53Z 
-│                       ├ [24]  ╭ VulnerabilityID : CVE-2026-8932 
+│                       ├ [25]  ╭ VulnerabilityID : CVE-2026-8932 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
@@ -1153,7 +1216,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8932 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.363Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T23:18:32.137Z 
-│                       ├ [25]  ╭ VulnerabilityID : CVE-2026-9079 
+│                       ├ [26]  ╭ VulnerabilityID : CVE-2026-9079 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
@@ -1197,7 +1260,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-9079 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.62Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T15:05:55.933Z 
-│                       ├ [26]  ╭ VulnerabilityID : CVE-2026-9080 
+│                       ├ [27]  ╭ VulnerabilityID : CVE-2026-9080 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
@@ -1242,7 +1305,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-9080 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.713Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T15:05:26.53Z 
-│                       ├ [27]  ╭ VulnerabilityID : CVE-2026-9545 
+│                       ├ [28]  ╭ VulnerabilityID : CVE-2026-9545 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
@@ -1297,7 +1360,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-9545 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.807Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T15:03:56.92Z 
-│                       ├ [28]  ╭ VulnerabilityID : CVE-2026-9546 
+│                       ├ [29]  ╭ VulnerabilityID : CVE-2026-9546 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
@@ -1342,7 +1405,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9546 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.893Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T14:53:26.517Z 
-│                       ├ [29]  ╭ VulnerabilityID : CVE-2026-9547 
+│                       ├ [30]  ╭ VulnerabilityID : CVE-2026-9547 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
@@ -1392,7 +1455,145 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-9547 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.99Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T14:52:29.503Z 
-│                       ├ [30]  ╭ VulnerabilityID : CVE-2026-8924 
+│                       ├ [31]  ╭ VulnerabilityID : CVE-2026-10536 
+│                       │       ├ PkgID           : curl-doc@8.20.0-r1 
+│                       │       ├ PkgName         : curl-doc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
+│                       │       │                  │       =3.24.0_alpha20260127 
+│                       │       │                  ╰ UID : beed2cb57891737a 
+│                       │       ├ InstalledVersion: 8.20.0-r1 
+│                       │       ├ FixedVersion    : 8.21.0-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-10536 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:f121a188921408110e16daa400406b68459818373077267953b7
+│                       │       │                   350dbb062755 
+│                       │       ├ Title           : libcurl: libcurl: Use-after-free vulnerability leading to
+│                       │       │                   Denial of Service 
+│                       │       ├ Description     : A use-after-free vulnerability exists in libcurl when an
+│                       │       │                   application
+│                       │       │                   configures an HTTP/2 stream-dependency tree via
+│                       │       │                   `CURLOPT_STREAM_DEPENDS` or
+│                       │       │                   `CURLOPT_STREAM_DEPENDS_E`, subsequently invokes
+│                       │       │                   `curl_easy_reset()`, and
+│                       │       │                   finally terminates the handle with `curl_easy_cleanup()`.
+│                       │       │                   During this final
+│                       │       │                   cleanup phase, libcurl attempts to access and modify an
+│                       │       │                   internal structure
+│                       │       │                   that was already freed during the reset operation. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 4.7 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-10536 
+│                       │       │                  ├ [1]: https://curl.se/L7HzKXisfJ/CVE-2026-10536.md 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-10536.html 
+│                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-10536.json 
+│                       │       │                  ├ [4]: https://hackerone.com/reports/3751697 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-10536 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-10536 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.563Z 
+│                       │       ╰ LastModifiedDate: 2026-07-07T18:02:03.89Z 
+│                       ├ [32]  ╭ VulnerabilityID : CVE-2026-11564 
+│                       │       ├ PkgID           : curl-doc@8.20.0-r1 
+│                       │       ├ PkgName         : curl-doc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
+│                       │       │                  │       =3.24.0_alpha20260127 
+│                       │       │                  ╰ UID : beed2cb57891737a 
+│                       │       ├ InstalledVersion: 8.20.0-r1 
+│                       │       ├ FixedVersion    : 8.21.0-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11564 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:6990220dcbf5f91a567a16f63b3808ae87dad0588610cea3baeb
+│                       │       │                   1d9f5c044b46 
+│                       │       ├ Title           : libcurl: libcurl: Certificate validation bypass due to
+│                       │       │                   incorrect connection reuse 
+│                       │       ├ Description     : libcurl keeps previously used connections in a connection
+│                       │       │                   pool for subsequent
+│                       │       │                   transfers to reuse if one of them matches the setup.
+│                       │       │                   
+│                       │       │                   An easy handle that first uses default native CA trust can
+│                       │       │                   continue trusting
+│                       │       │                   the native platform store after the application switches
+│                       │       │                   that same handle to
+│                       │       │                   custom CA material for a later transfer. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-295 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                       │       │                           │           L/A:N 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-11564 
+│                       │       │                  ├ [1]: https://curl.se/L7HzKXisfJ/CVE-2026-11564.md 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11564.html 
+│                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-11564.json 
+│                       │       │                  ├ [4]: https://hackerone.com/reports/3788984 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-11564 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-11564 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.79Z 
+│                       │       ╰ LastModifiedDate: 2026-07-07T18:00:35.84Z 
+│                       ├ [33]  ╭ VulnerabilityID : CVE-2026-11856 
+│                       │       ├ PkgID           : curl-doc@8.20.0-r1 
+│                       │       ├ PkgName         : curl-doc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
+│                       │       │                  │       =3.24.0_alpha20260127 
+│                       │       │                  ╰ UID : beed2cb57891737a 
+│                       │       ├ InstalledVersion: 8.20.0-r1 
+│                       │       ├ FixedVersion    : 8.21.0-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11856 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:b0cd943ccb5a226892ba065e673766d86e074ba0965b16c5c885
+│                       │       │                   6c069ebb9073 
+│                       │       ├ Title           : curl: curl: Information disclosure via incorrect Digest
+│                       │       │                   authentication header reuse 
+│                       │       ├ Description     : Successfully using libcurl to do a transfer to a specific
+│                       │       │                   HTTP origin
+│                       │       │                   (`hostA`) with **Digest** authentication and then changing
+│                       │       │                   the origin to a
+│                       │       │                   different one (`hostB`) for a second transfer, reusing the
+│                       │       │                   same handle, makes
+│                       │       │                   libcurl wrongly pass on the  `Authorization:` header field
+│                       │       │                   meant for `hostA`,
+│                       │       │                   to `hostB`. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-294 
+│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                           │           N/A:N 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-11856 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11856.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11856.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3793260 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-11856 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-11856 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.973Z 
+│                       │       ╰ LastModifiedDate: 2026-07-07T19:43:55.6Z 
+│                       ├ [34]  ╭ VulnerabilityID : CVE-2026-8924 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
@@ -1436,7 +1637,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-8924 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.793Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T23:06:00.797Z 
-│                       ├ [31]  ╭ VulnerabilityID : CVE-2026-8926 
+│                       ├ [35]  ╭ VulnerabilityID : CVE-2026-8926 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
@@ -1483,89 +1684,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-8926 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.037Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T23:02:54.49Z 
-│                       ├ [32]  ╭ VulnerabilityID : CVE-2026-10536 
-│                       │       ├ PkgID           : curl-doc@8.20.0-r1 
-│                       │       ├ PkgName         : curl-doc 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
-│                       │       │                  │       =3.24.0_alpha20260127 
-│                       │       │                  ╰ UID : beed2cb57891737a 
-│                       │       ├ InstalledVersion: 8.20.0-r1 
-│                       │       ├ FixedVersion    : 8.21.0-r0 
-│                       │       ├ Status          : fixed 
-│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
-│                       │       │                  │         79a8305ba35c82bf9229f 
-│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
-│                       │       │                            f7ea46f72dd8aa890c14b 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-10536 
-│                       │       ├ DataSource       ╭ ID  : alpine 
-│                       │       │                  ├ Name: Alpine Secdb 
-│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │       ├ Fingerprint     : sha256:f121a188921408110e16daa400406b68459818373077267953b7
-│                       │       │                   350dbb062755 
-│                       │       ├ Title           : A use-after-free vulnerability exists in libcurl when an
-│                       │       │                   application c ... 
-│                       │       ├ Description     : A use-after-free vulnerability exists in libcurl when an
-│                       │       │                   application
-│                       │       │                   configures an HTTP/2 stream-dependency tree via
-│                       │       │                   `CURLOPT_STREAM_DEPENDS` or
-│                       │       │                   `CURLOPT_STREAM_DEPENDS_E`, subsequently invokes
-│                       │       │                   `curl_easy_reset()`, and
-│                       │       │                   finally terminates the handle with `curl_easy_cleanup()`.
-│                       │       │                   During this final
-│                       │       │                   cleanup phase, libcurl attempts to access and modify an
-│                       │       │                   internal structure
-│                       │       │                   that was already freed during the reset operation. 
-│                       │       ├ Severity        : LOW 
-│                       │       ├ CweIDs           ─ [0]: CWE-416 
-│                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-10536.md 
-│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-10536.html 
-│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-10536.json 
-│                       │       │                  ├ [3]: https://hackerone.com/reports/3751697 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-10536 
-│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.563Z 
-│                       │       ╰ LastModifiedDate: 2026-07-07T18:02:03.89Z 
-│                       ├ [33]  ╭ VulnerabilityID : CVE-2026-11564 
-│                       │       ├ PkgID           : curl-doc@8.20.0-r1 
-│                       │       ├ PkgName         : curl-doc 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
-│                       │       │                  │       =3.24.0_alpha20260127 
-│                       │       │                  ╰ UID : beed2cb57891737a 
-│                       │       ├ InstalledVersion: 8.20.0-r1 
-│                       │       ├ FixedVersion    : 8.21.0-r0 
-│                       │       ├ Status          : fixed 
-│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
-│                       │       │                  │         79a8305ba35c82bf9229f 
-│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
-│                       │       │                            f7ea46f72dd8aa890c14b 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11564 
-│                       │       ├ DataSource       ╭ ID  : alpine 
-│                       │       │                  ├ Name: Alpine Secdb 
-│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │       ├ Fingerprint     : sha256:6990220dcbf5f91a567a16f63b3808ae87dad0588610cea3baeb
-│                       │       │                   1d9f5c044b46 
-│                       │       ├ Title           : libcurl keeps previously used connections in a connection
-│                       │       │                   pool for sub ... 
-│                       │       ├ Description     : libcurl keeps previously used connections in a connection
-│                       │       │                   pool for subsequent
-│                       │       │                   transfers to reuse if one of them matches the setup.
-│                       │       │                   
-│                       │       │                   An easy handle that first uses default native CA trust can
-│                       │       │                   continue trusting
-│                       │       │                   the native platform store after the application switches
-│                       │       │                   that same handle to
-│                       │       │                   custom CA material for a later transfer. 
-│                       │       ├ Severity        : LOW 
-│                       │       ├ CweIDs           ─ [0]: CWE-295 
-│                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11564.md 
-│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11564.html 
-│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11564.json 
-│                       │       │                  ├ [3]: https://hackerone.com/reports/3788984 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11564 
-│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.79Z 
-│                       │       ╰ LastModifiedDate: 2026-07-07T18:00:35.84Z 
-│                       ├ [34]  ╭ VulnerabilityID : CVE-2026-8458 
+│                       ├ [36]  ╭ VulnerabilityID : CVE-2026-8458 
 │                       │       ├ PkgID           : curl-doc@8.20.0-r1 
 │                       │       ├ PkgName         : curl-doc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
@@ -1612,44 +1731,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8458 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.63Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T23:12:17.003Z 
-│                       ├ [35]  ╭ VulnerabilityID : CVE-2026-11856 
-│                       │       ├ PkgID           : curl-doc@8.20.0-r1 
-│                       │       ├ PkgName         : curl-doc 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl-doc@8.20.0-r1?arch=x86_64&distro
-│                       │       │                  │       =3.24.0_alpha20260127 
-│                       │       │                  ╰ UID : beed2cb57891737a 
-│                       │       ├ InstalledVersion: 8.20.0-r1 
-│                       │       ├ FixedVersion    : 8.21.0-r0 
-│                       │       ├ Status          : fixed 
-│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
-│                       │       │                  │         79a8305ba35c82bf9229f 
-│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
-│                       │       │                            f7ea46f72dd8aa890c14b 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11856 
-│                       │       ├ DataSource       ╭ ID  : alpine 
-│                       │       │                  ├ Name: Alpine Secdb 
-│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │       ├ Fingerprint     : sha256:b0cd943ccb5a226892ba065e673766d86e074ba0965b16c5c885
-│                       │       │                   6c069ebb9073 
-│                       │       ├ Title           : Successfully using libcurl to do a transfer to a specific
-│                       │       │                   HTTP origin  ... 
-│                       │       ├ Description     : Successfully using libcurl to do a transfer to a specific
-│                       │       │                   HTTP origin
-│                       │       │                   (`hostA`) with **Digest** authentication and then changing
-│                       │       │                   the origin to a
-│                       │       │                   different one (`hostB`) for a second transfer, reusing the
-│                       │       │                   same handle, makes
-│                       │       │                   libcurl wrongly pass on the  `Authorization:` header field
-│                       │       │                   meant for `hostA`,
-│                       │       │                   to `hostB`. 
-│                       │       ├ Severity        : UNKNOWN 
-│                       │       ├ CweIDs           ─ [0]: CWE-294 
-│                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-11856.html 
-│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11856.json 
-│                       │       │                  ╰ [2]: https://hackerone.com/reports/3793260 
-│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.973Z 
-│                       │       ╰ LastModifiedDate: 2026-07-07T19:43:55.6Z 
-│                       ├ [36]  ╭ VulnerabilityID : CVE-2026-45447 
+│                       ├ [37]  ╭ VulnerabilityID : CVE-2026-45447 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.6-r0?arch=x86_64&distr
@@ -1711,7 +1793,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ├ rocky      : 3 
@@ -1802,7 +1884,7 @@
 │                       │       │                  ├ [61]: https://github.com/openssl/openssl/commit/c505d7559d
 │                       │       │                  │       a5d5f9f2c3913c6883a5562ce7273e 
 │                       │       │                  ├ [62]: https://linux.oracle.com/cve/CVE-2026-45447.html 
-│                       │       │                  ├ [63]: https://linux.oracle.com/errata/ELSA-2026-50323.html 
+│                       │       │                  ├ [63]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [64]: https://nvd.nist.gov/vuln/detail/CVE-2026-45447 
 │                       │       │                  ├ [65]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [66]: https://security.access.redhat.com/data/csaf/v2/vex/
@@ -1812,7 +1894,7 @@
 │                       │       │                  ╰ [69]: https://www.cve.org/CVERecord?id=CVE-2026-45447 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.277Z 
 │                       │       ╰ LastModifiedDate: 2026-07-08T13:16:47.377Z 
-│                       ├ [37]  ╭ VulnerabilityID : CVE-2026-34182 
+│                       ├ [38]  ╭ VulnerabilityID : CVE-2026-34182 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.6-r0?arch=x86_64&distr
@@ -1887,7 +1969,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 4 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 4 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
@@ -1970,7 +2052,7 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/d2ca86bcd4
 │                       │       │                  │       3e4f17d899f347101766b6107676e0 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-34182.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-34182 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
@@ -1978,7 +2060,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-34182 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.857Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.97Z 
-│                       ├ [38]  ╭ VulnerabilityID : CVE-2026-34183 
+│                       ├ [39]  ╭ VulnerabilityID : CVE-2026-34183 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.6-r0?arch=x86_64&distr
@@ -2032,7 +2114,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
@@ -2113,14 +2195,14 @@
 │                       │       │                  ├ [52]: https://github.com/openssl/openssl/commit/fbaa83859c
 │                       │       │                  │       01ad64f497b757aaf51be7d05ed9eb 
 │                       │       │                  ├ [53]: https://linux.oracle.com/cve/CVE-2026-34183.html 
-│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [55]: https://nvd.nist.gov/vuln/detail/CVE-2026-34183 
 │                       │       │                  ├ [56]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-34183 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:05Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:37.143Z 
-│                       ├ [39]  ╭ VulnerabilityID : CVE-2026-42764 
+│                       ├ [40]  ╭ VulnerabilityID : CVE-2026-42764 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.6-r0?arch=x86_64&distr
@@ -2173,7 +2255,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-476 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
@@ -2252,14 +2334,14 @@
 │                       │       │                  ├ [51]: https://github.com/openssl/openssl/commit/bf29a458c1
 │                       │       │                  │       a231eca87e384c62b9c2553fa57a91 
 │                       │       │                  ├ [52]: https://linux.oracle.com/cve/CVE-2026-42764.html 
-│                       │       │                  ├ [53]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [53]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [54]: https://nvd.nist.gov/vuln/detail/CVE-2026-42764 
 │                       │       │                  ├ [55]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [56]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2026-42764 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.693Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:21.63Z 
-│                       ├ [40]  ╭ VulnerabilityID : CVE-2026-45445 
+│                       ├ [41]  ╭ VulnerabilityID : CVE-2026-45445 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.6-r0?arch=x86_64&distr
@@ -2347,7 +2429,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
@@ -2430,14 +2512,14 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/983d54b5cc
 │                       │       │                  │       e8d16147548ed1a37892d1720bbab6 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-45445.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-45445 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-45445 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:18.993Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:52:03.793Z 
-│                       ├ [41]  ╭ VulnerabilityID : CVE-2026-34180 
+│                       ├ [42]  ╭ VulnerabilityID : CVE-2026-34180 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.6-r0?arch=x86_64&distr
@@ -2499,7 +2581,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -2582,7 +2664,7 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/f696c73c3e
 │                       │       │                  │       61b8c502d040af62e690c060908a16 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-34180.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-34180 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
@@ -2590,7 +2672,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-34180 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.6Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.66Z 
-│                       ├ [42]  ╭ VulnerabilityID : CVE-2026-34181 
+│                       ├ [43]  ╭ VulnerabilityID : CVE-2026-34181 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.6-r0?arch=x86_64&distr
@@ -2640,7 +2722,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-354 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -2721,14 +2803,14 @@
 │                       │       │                  ├ [52]: https://github.com/openssl/openssl/commit/ec36f2417c
 │                       │       │                  │       4ddd8cabce4b4a60a3d7a7365f2d81 
 │                       │       │                  ├ [53]: https://linux.oracle.com/cve/CVE-2026-34181.html 
-│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [55]: https://nvd.nist.gov/vuln/detail/CVE-2026-34181 
 │                       │       │                  ├ [56]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-34181 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.74Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.82Z 
-│                       ├ [43]  ╭ VulnerabilityID : CVE-2026-42766 
+│                       ├ [44]  ╭ VulnerabilityID : CVE-2026-42766 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.6-r0?arch=x86_64&distr
@@ -2782,7 +2864,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -2865,7 +2947,7 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/da26f36873
 │                       │       │                  │       2b83e40e9d356fe61c3d3aaab6d2e8 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-42766.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-42766 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
@@ -2873,7 +2955,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-42766 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.97Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:21.947Z 
-│                       ├ [44]  ╭ VulnerabilityID : CVE-2026-42767 
+│                       ├ [45]  ╭ VulnerabilityID : CVE-2026-42767 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.6-r0?arch=x86_64&distr
@@ -2924,7 +3006,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -3007,14 +3089,14 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/e6f912907f
 │                       │       │                  │       c2ec82a0fd07aae55172c5e5e3d90d 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-42767.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-42767 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-42767 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.093Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.107Z 
-│                       ├ [45]  ╭ VulnerabilityID : CVE-2026-42768 
+│                       ├ [46]  ╭ VulnerabilityID : CVE-2026-42768 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.6-r0?arch=x86_64&distr
@@ -3119,7 +3201,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 1 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 1 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -3200,14 +3282,14 @@
 │                       │       │                  ├ [52]: https://github.com/openssl/openssl/commit/f04b377be3
 │                       │       │                  │       d821741c86d1f4bf84dee09f3d5c3e 
 │                       │       │                  ├ [53]: https://linux.oracle.com/cve/CVE-2026-42768.html 
-│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [55]: https://nvd.nist.gov/vuln/detail/CVE-2026-42768 
 │                       │       │                  ├ [56]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-42768 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.223Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.263Z 
-│                       ├ [46]  ╭ VulnerabilityID : CVE-2026-42769 
+│                       ├ [47]  ╭ VulnerabilityID : CVE-2026-42769 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.6-r0?arch=x86_64&distr
@@ -3285,7 +3367,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-295 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -3366,14 +3448,14 @@
 │                       │       │                  ├ [52]: https://github.com/openssl/openssl/commit/d531f21c0f
 │                       │       │                  │       e99067a66fc0ff1161ef127f9cd70b 
 │                       │       │                  ├ [53]: https://linux.oracle.com/cve/CVE-2026-42769.html 
-│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [55]: https://nvd.nist.gov/vuln/detail/CVE-2026-42769 
 │                       │       │                  ├ [56]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-42769 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.377Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.467Z 
-│                       ├ [47]  ╭ VulnerabilityID : CVE-2026-42770 
+│                       ├ [48]  ╭ VulnerabilityID : CVE-2026-42770 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.6-r0?arch=x86_64&distr
@@ -3440,7 +3522,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-325 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 1 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -3523,14 +3605,14 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/ca2237ab56
 │                       │       │                  │       15641b662183b077f62c08d75e8070 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-42770.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-42770 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-42770 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.523Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.65Z 
-│                       ├ [48]  ╭ VulnerabilityID : CVE-2026-45446 
+│                       ├ [49]  ╭ VulnerabilityID : CVE-2026-45446 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.6-r0?arch=x86_64&distr
@@ -3611,7 +3693,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -3694,14 +3776,14 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/eec5e9bf0d
 │                       │       │                  │       867333b8495e456f5235d225798a68 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-45446.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-45446 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-45446 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.137Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:52:03.967Z 
-│                       ├ [49]  ╭ VulnerabilityID : CVE-2026-7383 
+│                       ├ [50]  ╭ VulnerabilityID : CVE-2026-7383 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.6-r0?arch=x86_64&distr
@@ -3771,7 +3853,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -3854,7 +3936,7 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/d32350ae8e
 │                       │       │                  │       f7426718f5aa9e383d4b51398ee255 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-7383.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-7383 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
@@ -3862,7 +3944,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-7383 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:50.337Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T11:02:19.433Z 
-│                       ├ [50]  ╭ VulnerabilityID : CVE-2026-9076 
+│                       ├ [51]  ╭ VulnerabilityID : CVE-2026-9076 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.5.6-r0?arch=x86_64&distr
@@ -3937,7 +4019,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -4020,7 +4102,7 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/eecbe33097
 │                       │       │                  │       7e8d023aae1ca2d9bdbe983ef3fdc6 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-9076.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-9076 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
@@ -4028,7 +4110,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-9076 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:50.997Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T11:04:47.973Z 
-│                       ├ [51]  ╭ VulnerabilityID : CVE-2026-11352 
+│                       ├ [52]  ╭ VulnerabilityID : CVE-2026-11352 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
@@ -4074,7 +4156,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-11352 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:23.693Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T18:01:19.013Z 
-│                       ├ [52]  ╭ VulnerabilityID : CVE-2026-11586 
+│                       ├ [53]  ╭ VulnerabilityID : CVE-2026-11586 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
@@ -4117,7 +4199,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-11586 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:23.883Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T17:59:46.92Z 
-│                       ├ [53]  ╭ VulnerabilityID : CVE-2026-12064 
+│                       ├ [54]  ╭ VulnerabilityID : CVE-2026-12064 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
@@ -4173,7 +4255,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-12064 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.217Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T19:43:11.187Z 
-│                       ├ [54]  ╭ VulnerabilityID : CVE-2026-8286 
+│                       ├ [55]  ╭ VulnerabilityID : CVE-2026-8286 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
@@ -4216,7 +4298,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-8286 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.453Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T19:42:11.24Z 
-│                       ├ [55]  ╭ VulnerabilityID : CVE-2026-8925 
+│                       ├ [56]  ╭ VulnerabilityID : CVE-2026-8925 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
@@ -4258,7 +4340,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-8925 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.95Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T23:04:29.69Z 
-│                       ├ [56]  ╭ VulnerabilityID : CVE-2026-8927 
+│                       ├ [57]  ╭ VulnerabilityID : CVE-2026-8927 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
@@ -4307,7 +4389,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-8927 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.123Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T23:21:03.53Z 
-│                       ├ [57]  ╭ VulnerabilityID : CVE-2026-8932 
+│                       ├ [58]  ╭ VulnerabilityID : CVE-2026-8932 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
@@ -4355,7 +4437,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8932 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.363Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T23:18:32.137Z 
-│                       ├ [58]  ╭ VulnerabilityID : CVE-2026-9079 
+│                       ├ [59]  ╭ VulnerabilityID : CVE-2026-9079 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
@@ -4399,7 +4481,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-9079 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.62Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T15:05:55.933Z 
-│                       ├ [59]  ╭ VulnerabilityID : CVE-2026-9080 
+│                       ├ [60]  ╭ VulnerabilityID : CVE-2026-9080 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
@@ -4444,7 +4526,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-9080 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.713Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T15:05:26.53Z 
-│                       ├ [60]  ╭ VulnerabilityID : CVE-2026-9545 
+│                       ├ [61]  ╭ VulnerabilityID : CVE-2026-9545 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
@@ -4499,7 +4581,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-9545 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.807Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T15:03:56.92Z 
-│                       ├ [61]  ╭ VulnerabilityID : CVE-2026-9546 
+│                       ├ [62]  ╭ VulnerabilityID : CVE-2026-9546 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
@@ -4544,7 +4626,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-9546 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.893Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T14:53:26.517Z 
-│                       ├ [62]  ╭ VulnerabilityID : CVE-2026-9547 
+│                       ├ [63]  ╭ VulnerabilityID : CVE-2026-9547 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
@@ -4594,7 +4676,145 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-9547 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.99Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T14:52:29.503Z 
-│                       ├ [63]  ╭ VulnerabilityID : CVE-2026-8924 
+│                       ├ [64]  ╭ VulnerabilityID : CVE-2026-10536 
+│                       │       ├ PkgID           : libcurl@8.20.0-r1 
+│                       │       ├ PkgName         : libcurl 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
+│                       │       │                  │       3.24.0_alpha20260127 
+│                       │       │                  ╰ UID : 67154ed3ff2e7cc3 
+│                       │       ├ InstalledVersion: 8.20.0-r1 
+│                       │       ├ FixedVersion    : 8.21.0-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-10536 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:64f6cf8dc530ce3584f65d1ba1ea16ae7559a5251a824abc7710
+│                       │       │                   b48485e91799 
+│                       │       ├ Title           : libcurl: libcurl: Use-after-free vulnerability leading to
+│                       │       │                   Denial of Service 
+│                       │       ├ Description     : A use-after-free vulnerability exists in libcurl when an
+│                       │       │                   application
+│                       │       │                   configures an HTTP/2 stream-dependency tree via
+│                       │       │                   `CURLOPT_STREAM_DEPENDS` or
+│                       │       │                   `CURLOPT_STREAM_DEPENDS_E`, subsequently invokes
+│                       │       │                   `curl_easy_reset()`, and
+│                       │       │                   finally terminates the handle with `curl_easy_cleanup()`.
+│                       │       │                   During this final
+│                       │       │                   cleanup phase, libcurl attempts to access and modify an
+│                       │       │                   internal structure
+│                       │       │                   that was already freed during the reset operation. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 4.7 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-10536 
+│                       │       │                  ├ [1]: https://curl.se/L7HzKXisfJ/CVE-2026-10536.md 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-10536.html 
+│                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-10536.json 
+│                       │       │                  ├ [4]: https://hackerone.com/reports/3751697 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-10536 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-10536 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.563Z 
+│                       │       ╰ LastModifiedDate: 2026-07-07T18:02:03.89Z 
+│                       ├ [65]  ╭ VulnerabilityID : CVE-2026-11564 
+│                       │       ├ PkgID           : libcurl@8.20.0-r1 
+│                       │       ├ PkgName         : libcurl 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
+│                       │       │                  │       3.24.0_alpha20260127 
+│                       │       │                  ╰ UID : 67154ed3ff2e7cc3 
+│                       │       ├ InstalledVersion: 8.20.0-r1 
+│                       │       ├ FixedVersion    : 8.21.0-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11564 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:75110be4f59a0082b7e550033da1a0a287b30292b33ada6e4106
+│                       │       │                   e5ec054c187d 
+│                       │       ├ Title           : libcurl: libcurl: Certificate validation bypass due to
+│                       │       │                   incorrect connection reuse 
+│                       │       ├ Description     : libcurl keeps previously used connections in a connection
+│                       │       │                   pool for subsequent
+│                       │       │                   transfers to reuse if one of them matches the setup.
+│                       │       │                   
+│                       │       │                   An easy handle that first uses default native CA trust can
+│                       │       │                   continue trusting
+│                       │       │                   the native platform store after the application switches
+│                       │       │                   that same handle to
+│                       │       │                   custom CA material for a later transfer. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-295 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
+│                       │       │                           │           L/A:N 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-11564 
+│                       │       │                  ├ [1]: https://curl.se/L7HzKXisfJ/CVE-2026-11564.md 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11564.html 
+│                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-11564.json 
+│                       │       │                  ├ [4]: https://hackerone.com/reports/3788984 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-11564 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-11564 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.79Z 
+│                       │       ╰ LastModifiedDate: 2026-07-07T18:00:35.84Z 
+│                       ├ [66]  ╭ VulnerabilityID : CVE-2026-11856 
+│                       │       ├ PkgID           : libcurl@8.20.0-r1 
+│                       │       ├ PkgName         : libcurl 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
+│                       │       │                  │       3.24.0_alpha20260127 
+│                       │       │                  ╰ UID : 67154ed3ff2e7cc3 
+│                       │       ├ InstalledVersion: 8.20.0-r1 
+│                       │       ├ FixedVersion    : 8.21.0-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11856 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:f83b0d6378ebcc554519125ebc69325d30b16aed1180cb386340
+│                       │       │                   ceb5241c0898 
+│                       │       ├ Title           : curl: curl: Information disclosure via incorrect Digest
+│                       │       │                   authentication header reuse 
+│                       │       ├ Description     : Successfully using libcurl to do a transfer to a specific
+│                       │       │                   HTTP origin
+│                       │       │                   (`hostA`) with **Digest** authentication and then changing
+│                       │       │                   the origin to a
+│                       │       │                   different one (`hostB`) for a second transfer, reusing the
+│                       │       │                   same handle, makes
+│                       │       │                   libcurl wrongly pass on the  `Authorization:` header field
+│                       │       │                   meant for `hostA`,
+│                       │       │                   to `hostB`. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-294 
+│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                           │           N/A:N 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-11856 
+│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11856.html 
+│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11856.json 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3793260 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-11856 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-11856 
+│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.973Z 
+│                       │       ╰ LastModifiedDate: 2026-07-07T19:43:55.6Z 
+│                       ├ [67]  ╭ VulnerabilityID : CVE-2026-8924 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
@@ -4638,7 +4858,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-8924 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.793Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T23:06:00.797Z 
-│                       ├ [64]  ╭ VulnerabilityID : CVE-2026-8926 
+│                       ├ [68]  ╭ VulnerabilityID : CVE-2026-8926 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
@@ -4685,89 +4905,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-8926 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.037Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T23:02:54.49Z 
-│                       ├ [65]  ╭ VulnerabilityID : CVE-2026-10536 
-│                       │       ├ PkgID           : libcurl@8.20.0-r1 
-│                       │       ├ PkgName         : libcurl 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
-│                       │       │                  │       3.24.0_alpha20260127 
-│                       │       │                  ╰ UID : 67154ed3ff2e7cc3 
-│                       │       ├ InstalledVersion: 8.20.0-r1 
-│                       │       ├ FixedVersion    : 8.21.0-r0 
-│                       │       ├ Status          : fixed 
-│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
-│                       │       │                  │         79a8305ba35c82bf9229f 
-│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
-│                       │       │                            f7ea46f72dd8aa890c14b 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-10536 
-│                       │       ├ DataSource       ╭ ID  : alpine 
-│                       │       │                  ├ Name: Alpine Secdb 
-│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │       ├ Fingerprint     : sha256:64f6cf8dc530ce3584f65d1ba1ea16ae7559a5251a824abc7710
-│                       │       │                   b48485e91799 
-│                       │       ├ Title           : A use-after-free vulnerability exists in libcurl when an
-│                       │       │                   application c ... 
-│                       │       ├ Description     : A use-after-free vulnerability exists in libcurl when an
-│                       │       │                   application
-│                       │       │                   configures an HTTP/2 stream-dependency tree via
-│                       │       │                   `CURLOPT_STREAM_DEPENDS` or
-│                       │       │                   `CURLOPT_STREAM_DEPENDS_E`, subsequently invokes
-│                       │       │                   `curl_easy_reset()`, and
-│                       │       │                   finally terminates the handle with `curl_easy_cleanup()`.
-│                       │       │                   During this final
-│                       │       │                   cleanup phase, libcurl attempts to access and modify an
-│                       │       │                   internal structure
-│                       │       │                   that was already freed during the reset operation. 
-│                       │       ├ Severity        : LOW 
-│                       │       ├ CweIDs           ─ [0]: CWE-416 
-│                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-10536.md 
-│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-10536.html 
-│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-10536.json 
-│                       │       │                  ├ [3]: https://hackerone.com/reports/3751697 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-10536 
-│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.563Z 
-│                       │       ╰ LastModifiedDate: 2026-07-07T18:02:03.89Z 
-│                       ├ [66]  ╭ VulnerabilityID : CVE-2026-11564 
-│                       │       ├ PkgID           : libcurl@8.20.0-r1 
-│                       │       ├ PkgName         : libcurl 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
-│                       │       │                  │       3.24.0_alpha20260127 
-│                       │       │                  ╰ UID : 67154ed3ff2e7cc3 
-│                       │       ├ InstalledVersion: 8.20.0-r1 
-│                       │       ├ FixedVersion    : 8.21.0-r0 
-│                       │       ├ Status          : fixed 
-│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
-│                       │       │                  │         79a8305ba35c82bf9229f 
-│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
-│                       │       │                            f7ea46f72dd8aa890c14b 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11564 
-│                       │       ├ DataSource       ╭ ID  : alpine 
-│                       │       │                  ├ Name: Alpine Secdb 
-│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │       ├ Fingerprint     : sha256:75110be4f59a0082b7e550033da1a0a287b30292b33ada6e4106
-│                       │       │                   e5ec054c187d 
-│                       │       ├ Title           : libcurl keeps previously used connections in a connection
-│                       │       │                   pool for sub ... 
-│                       │       ├ Description     : libcurl keeps previously used connections in a connection
-│                       │       │                   pool for subsequent
-│                       │       │                   transfers to reuse if one of them matches the setup.
-│                       │       │                   
-│                       │       │                   An easy handle that first uses default native CA trust can
-│                       │       │                   continue trusting
-│                       │       │                   the native platform store after the application switches
-│                       │       │                   that same handle to
-│                       │       │                   custom CA material for a later transfer. 
-│                       │       ├ Severity        : LOW 
-│                       │       ├ CweIDs           ─ [0]: CWE-295 
-│                       │       ├ VendorSeverity   ─ ubuntu: 1 
-│                       │       ├ References       ╭ [0]: https://curl.se/L7HzKXisfJ/CVE-2026-11564.md 
-│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11564.html 
-│                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-11564.json 
-│                       │       │                  ├ [3]: https://hackerone.com/reports/3788984 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-11564 
-│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.79Z 
-│                       │       ╰ LastModifiedDate: 2026-07-07T18:00:35.84Z 
-│                       ├ [67]  ╭ VulnerabilityID : CVE-2026-8458 
+│                       ├ [69]  ╭ VulnerabilityID : CVE-2026-8458 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
@@ -4814,44 +4952,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-8458 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.63Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T23:12:17.003Z 
-│                       ├ [68]  ╭ VulnerabilityID : CVE-2026-11856 
-│                       │       ├ PkgID           : libcurl@8.20.0-r1 
-│                       │       ├ PkgName         : libcurl 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.20.0-r1?arch=x86_64&distro=
-│                       │       │                  │       3.24.0_alpha20260127 
-│                       │       │                  ╰ UID : 67154ed3ff2e7cc3 
-│                       │       ├ InstalledVersion: 8.20.0-r1 
-│                       │       ├ FixedVersion    : 8.21.0-r0 
-│                       │       ├ Status          : fixed 
-│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
-│                       │       │                  │         79a8305ba35c82bf9229f 
-│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
-│                       │       │                            f7ea46f72dd8aa890c14b 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11856 
-│                       │       ├ DataSource       ╭ ID  : alpine 
-│                       │       │                  ├ Name: Alpine Secdb 
-│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │       ├ Fingerprint     : sha256:f83b0d6378ebcc554519125ebc69325d30b16aed1180cb386340
-│                       │       │                   ceb5241c0898 
-│                       │       ├ Title           : Successfully using libcurl to do a transfer to a specific
-│                       │       │                   HTTP origin  ... 
-│                       │       ├ Description     : Successfully using libcurl to do a transfer to a specific
-│                       │       │                   HTTP origin
-│                       │       │                   (`hostA`) with **Digest** authentication and then changing
-│                       │       │                   the origin to a
-│                       │       │                   different one (`hostB`) for a second transfer, reusing the
-│                       │       │                   same handle, makes
-│                       │       │                   libcurl wrongly pass on the  `Authorization:` header field
-│                       │       │                   meant for `hostA`,
-│                       │       │                   to `hostB`. 
-│                       │       ├ Severity        : UNKNOWN 
-│                       │       ├ CweIDs           ─ [0]: CWE-294 
-│                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-11856.html 
-│                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-11856.json 
-│                       │       │                  ╰ [2]: https://hackerone.com/reports/3793260 
-│                       │       ├ PublishedDate   : 2026-07-03T07:16:23.973Z 
-│                       │       ╰ LastModifiedDate: 2026-07-07T19:43:55.6Z 
-│                       ├ [69]  ╭ VulnerabilityID : CVE-2026-56131 
+│                       ├ [70]  ╭ VulnerabilityID : CVE-2026-56131 
 │                       │       ├ PkgID           : libexpat@2.8.1-r0 
 │                       │       ├ PkgName         : libexpat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=
@@ -4878,11 +4979,13 @@
 │                       │       │                   (similar to the CVE-2026-50219 situation). 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-416 
-│                       │       ├ VendorSeverity   ─ amazon: 3 
-│                       │       ├ References       ─ [0]: https://github.com/libexpat/libexpat/pull/1267 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ╰ azure : 2 
+│                       │       ├ References       ╭ [0]: https://github.com/libexpat/libexpat/pull/1267 
+│                       │       │                  ╰ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-56131 
 │                       │       ├ PublishedDate   : 2026-06-19T06:17:10.107Z 
 │                       │       ╰ LastModifiedDate: 2026-06-23T20:15:48.007Z 
-│                       ├ [70]  ╭ VulnerabilityID : CVE-2026-56407 
+│                       ├ [71]  ╭ VulnerabilityID : CVE-2026-56407 
 │                       │       ├ PkgID           : libexpat@2.8.1-r0 
 │                       │       ├ PkgName         : libexpat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=
@@ -4907,11 +5010,13 @@
 │                       │       │                   that is related to storeEntityValue and entity textLen. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-190 
-│                       │       ├ VendorSeverity   ─ amazon: 3 
-│                       │       ├ References       ─ [0]: https://github.com/libexpat/libexpat/pull/1262 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ╰ azure : 2 
+│                       │       ├ References       ╭ [0]: https://github.com/libexpat/libexpat/pull/1262 
+│                       │       │                  ╰ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-56407 
 │                       │       ├ PublishedDate   : 2026-06-21T16:16:27.987Z 
 │                       │       ╰ LastModifiedDate: 2026-06-23T16:28:29.983Z 
-│                       ├ [71]  ╭ VulnerabilityID : CVE-2026-56408 
+│                       ├ [72]  ╭ VulnerabilityID : CVE-2026-56408 
 │                       │       ├ PkgID           : libexpat@2.8.1-r0 
 │                       │       ├ PkgName         : libexpat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=
@@ -4934,12 +5039,14 @@
 │                       │       ├ Description     : libexpat before 2.8.2 has an integer overflow in copyString. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-190 
-│                       │       ├ VendorSeverity   ─ amazon: 3 
-│                       │       ├ References       ─ [0]: https://github.com/libexpat/libexpat/commit/16e2efd86
-│                       │       │                         7ea8567ffa012210b52ef5918e20817 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ╰ azure : 2 
+│                       │       ├ References       ╭ [0]: https://github.com/libexpat/libexpat/commit/16e2efd86
+│                       │       │                  │      7ea8567ffa012210b52ef5918e20817 
+│                       │       │                  ╰ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-56408 
 │                       │       ├ PublishedDate   : 2026-06-21T16:16:28.11Z 
 │                       │       ╰ LastModifiedDate: 2026-06-23T16:27:26.523Z 
-│                       ├ [72]  ╭ VulnerabilityID : CVE-2026-50219 
+│                       ├ [73]  ╭ VulnerabilityID : CVE-2026-50219 
 │                       │       ├ PkgID           : libexpat@2.8.1-r0 
 │                       │       ├ PkgName         : libexpat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=
@@ -4969,6 +5076,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-416 
 │                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 1 
 │                       │       │                  ├ nvd   : 2 
 │                       │       │                  ╰ redhat: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:
@@ -4983,7 +5091,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-50219 
 │                       │       ├ PublishedDate   : 2026-06-04T06:16:25.05Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:57:38.927Z 
-│                       ├ [73]  ╭ VulnerabilityID : CVE-2026-56132 
+│                       ├ [74]  ╭ VulnerabilityID : CVE-2026-56132 
 │                       │       ├ PkgID           : libexpat@2.8.1-r0 
 │                       │       ├ PkgName         : libexpat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=
@@ -5012,6 +5120,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-821 
 │                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 2 
 │                       │       │                  ╰ redhat: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5026,7 +5135,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-56132 
 │                       │       ├ PublishedDate   : 2026-06-19T06:17:10.253Z 
 │                       │       ╰ LastModifiedDate: 2026-06-23T20:15:26.23Z 
-│                       ├ [74]  ╭ VulnerabilityID : CVE-2026-56403 
+│                       ├ [75]  ╭ VulnerabilityID : CVE-2026-56403 
 │                       │       ├ PkgID           : libexpat@2.8.1-r0 
 │                       │       ├ PkgName         : libexpat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=
@@ -5052,6 +5161,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-190 
 │                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 2 
 │                       │       │                  ╰ redhat: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5066,7 +5176,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-56403 
 │                       │       ├ PublishedDate   : 2026-06-21T16:16:26.59Z 
 │                       │       ╰ LastModifiedDate: 2026-06-23T20:15:16.76Z 
-│                       ├ [75]  ╭ VulnerabilityID : CVE-2026-56404 
+│                       ├ [76]  ╭ VulnerabilityID : CVE-2026-56404 
 │                       │       ├ PkgID           : libexpat@2.8.1-r0 
 │                       │       ├ PkgName         : libexpat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=
@@ -5091,13 +5201,15 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-190 
 │                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ╰ nvd   : 2 
 │                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L 
 │                       │       │                        ╰ V3Score : 6.9 
-│                       │       ├ References       ─ [0]: https://github.com/libexpat/libexpat/pull/1249 
+│                       │       ├ References       ╭ [0]: https://github.com/libexpat/libexpat/pull/1249 
+│                       │       │                  ╰ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-56404 
 │                       │       ├ PublishedDate   : 2026-06-21T16:16:27.62Z 
 │                       │       ╰ LastModifiedDate: 2026-06-23T20:15:05.85Z 
-│                       ├ [76]  ╭ VulnerabilityID : CVE-2026-56405 
+│                       ├ [77]  ╭ VulnerabilityID : CVE-2026-56405 
 │                       │       ├ PkgID           : libexpat@2.8.1-r0 
 │                       │       ├ PkgName         : libexpat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=
@@ -5124,6 +5236,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-190 
 │                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 2 
 │                       │       │                  ╰ redhat: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5138,7 +5251,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-56405 
 │                       │       ├ PublishedDate   : 2026-06-21T16:16:27.74Z 
 │                       │       ╰ LastModifiedDate: 2026-06-23T20:14:51.73Z 
-│                       ├ [77]  ╭ VulnerabilityID : CVE-2026-56406 
+│                       ├ [78]  ╭ VulnerabilityID : CVE-2026-56406 
 │                       │       ├ PkgID           : libexpat@2.8.1-r0 
 │                       │       ├ PkgName         : libexpat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=
@@ -5165,6 +5278,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-190 
 │                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ╰ redhat: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:L 
@@ -5175,7 +5289,37 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-56406 
 │                       │       ├ PublishedDate   : 2026-06-21T16:16:27.87Z 
 │                       │       ╰ LastModifiedDate: 2026-06-23T16:29:06.077Z 
-│                       ├ [78]  ╭ VulnerabilityID : CVE-2026-56410 
+│                       ├ [79]  ╭ VulnerabilityID : CVE-2026-56409 
+│                       │       ├ PkgID           : libexpat@2.8.1-r0 
+│                       │       ├ PkgName         : libexpat 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=
+│                       │       │                  │       3.24.0_alpha20260127 
+│                       │       │                  ╰ UID : 9b3a7621208f28cf 
+│                       │       ├ InstalledVersion: 2.8.1-r0 
+│                       │       ├ FixedVersion    : 2.8.2-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56409 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:57853ca986bfab2e85fdce4b28e34ff0dd819d5e6ec588a4cfde
+│                       │       │                   9b3edcbd6a21 
+│                       │       ├ Title           : xmlwf in libexpat before 2.8.2 has an integer overflow for
+│                       │       │                   the output  ... 
+│                       │       ├ Description     : xmlwf in libexpat before 2.8.2 has an integer overflow for
+│                       │       │                   the output filename when -d outputDir is used. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-190 
+│                       │       ├ VendorSeverity   ─ azure: 2 
+│                       │       ├ References       ╭ [0]: https://github.com/libexpat/libexpat/pull/1259 
+│                       │       │                  ╰ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-56409 
+│                       │       ├ PublishedDate   : 2026-06-21T16:16:28.23Z 
+│                       │       ╰ LastModifiedDate: 2026-06-23T16:21:55.607Z 
+│                       ├ [80]  ╭ VulnerabilityID : CVE-2026-56410 
 │                       │       ├ PkgID           : libexpat@2.8.1-r0 
 │                       │       ├ PkgName         : libexpat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=
@@ -5200,7 +5344,8 @@
 │                       │       │                   resolveSystemId. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-190 
-│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ╰ redhat: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:L 
 │                       │       │                           ╰ V3Score : 6.9 
@@ -5210,7 +5355,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-56410 
 │                       │       ├ PublishedDate   : 2026-06-21T16:16:28.36Z 
 │                       │       ╰ LastModifiedDate: 2026-06-23T16:18:16.427Z 
-│                       ├ [79]  ╭ VulnerabilityID : CVE-2026-56411 
+│                       ├ [81]  ╭ VulnerabilityID : CVE-2026-56411 
 │                       │       ├ PkgID           : libexpat@2.8.1-r0 
 │                       │       ├ PkgName         : libexpat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=
@@ -5235,7 +5380,8 @@
 │                       │       │                   endDoctypeDecl via NOTATION declarations. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-190 
-│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ╰ redhat: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:L 
 │                       │       │                           ╰ V3Score : 6.9 
@@ -5245,7 +5391,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-56411 
 │                       │       ├ PublishedDate   : 2026-06-21T17:16:44.523Z 
 │                       │       ╰ LastModifiedDate: 2026-06-23T16:16:36.417Z 
-│                       ├ [80]  ╭ VulnerabilityID : CVE-2026-56412 
+│                       ├ [82]  ╭ VulnerabilityID : CVE-2026-56412 
 │                       │       ├ PkgID           : libexpat@2.8.1-r0 
 │                       │       ├ PkgName         : libexpat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=
@@ -5276,6 +5422,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-416 
 │                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 2 
 │                       │       │                  ╰ redhat: 2 
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:
@@ -5290,35 +5437,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-56412 
 │                       │       ├ PublishedDate   : 2026-06-21T17:16:44.657Z 
 │                       │       ╰ LastModifiedDate: 2026-06-23T15:31:30.853Z 
-│                       ├ [81]  ╭ VulnerabilityID : CVE-2026-56409 
-│                       │       ├ PkgID           : libexpat@2.8.1-r0 
-│                       │       ├ PkgName         : libexpat 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.1-r0?arch=x86_64&distro=
-│                       │       │                  │       3.24.0_alpha20260127 
-│                       │       │                  ╰ UID : 9b3a7621208f28cf 
-│                       │       ├ InstalledVersion: 2.8.1-r0 
-│                       │       ├ FixedVersion    : 2.8.2-r0 
-│                       │       ├ Status          : fixed 
-│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
-│                       │       │                  │         79a8305ba35c82bf9229f 
-│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
-│                       │       │                            f7ea46f72dd8aa890c14b 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56409 
-│                       │       ├ DataSource       ╭ ID  : alpine 
-│                       │       │                  ├ Name: Alpine Secdb 
-│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │       ├ Fingerprint     : sha256:57853ca986bfab2e85fdce4b28e34ff0dd819d5e6ec588a4cfde
-│                       │       │                   9b3edcbd6a21 
-│                       │       ├ Title           : xmlwf in libexpat before 2.8.2 has an integer overflow for
-│                       │       │                   the output  ... 
-│                       │       ├ Description     : xmlwf in libexpat before 2.8.2 has an integer overflow for
-│                       │       │                   the output filename when -d outputDir is used. 
-│                       │       ├ Severity        : UNKNOWN 
-│                       │       ├ CweIDs           ─ [0]: CWE-190 
-│                       │       ├ References       ─ [0]: https://github.com/libexpat/libexpat/pull/1259 
-│                       │       ├ PublishedDate   : 2026-06-21T16:16:28.23Z 
-│                       │       ╰ LastModifiedDate: 2026-06-23T16:21:55.607Z 
-│                       ├ [82]  ╭ VulnerabilityID : CVE-2026-55199 
+│                       ├ [83]  ╭ VulnerabilityID : CVE-2026-55199 
 │                       │       ├ PkgID           : libssh2@1.11.1-r1 
 │                       │       ├ PkgName         : libssh2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh2@1.11.1-r1?arch=x86_64&distro=
@@ -5352,7 +5471,8 @@
 │                       │       │                    does not apply to CPU-bound loops. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-835 
-│                       │       ├ VendorSeverity   ╭ nvd   : 3 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
@@ -5373,7 +5493,7 @@
 │                       │       │                         entication-dos-via-ssh-msg-ext-info-handler 
 │                       │       ├ PublishedDate   : 2026-06-17T20:17:28.52Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T19:16:37.353Z 
-│                       ├ [83]  ╭ VulnerabilityID : CVE-2026-55200 
+│                       ├ [84]  ╭ VulnerabilityID : CVE-2026-55200 
 │                       │       ├ PkgID           : libssh2@1.11.1-r1 
 │                       │       ├ PkgName         : libssh2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh2@1.11.1-r1?arch=x86_64&distro=
@@ -5429,7 +5549,7 @@
 │                       │       │                         c 
 │                       │       ├ PublishedDate   : 2026-06-17T20:17:28.667Z 
 │                       │       ╰ LastModifiedDate: 2026-07-01T05:16:22.513Z 
-│                       ├ [84]  ╭ VulnerabilityID : CVE-2026-7598 
+│                       ├ [85]  ╭ VulnerabilityID : CVE-2026-7598 
 │                       │       ├ PkgID           : libssh2@1.11.1-r1 
 │                       │       ├ PkgName         : libssh2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh2@1.11.1-r1?arch=x86_64&distro=
@@ -5487,7 +5607,7 @@
 │                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-7598 
 │                       │       ├ PublishedDate   : 2026-05-01T22:16:16.947Z 
 │                       │       ╰ LastModifiedDate: 2026-06-30T03:21:22.267Z 
-│                       ├ [85]  ╭ VulnerabilityID : CVE-2026-45447 
+│                       ├ [86]  ╭ VulnerabilityID : CVE-2026-45447 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -5549,7 +5669,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ├ rocky      : 3 
@@ -5640,7 +5760,7 @@
 │                       │       │                  ├ [61]: https://github.com/openssl/openssl/commit/c505d7559d
 │                       │       │                  │       a5d5f9f2c3913c6883a5562ce7273e 
 │                       │       │                  ├ [62]: https://linux.oracle.com/cve/CVE-2026-45447.html 
-│                       │       │                  ├ [63]: https://linux.oracle.com/errata/ELSA-2026-50323.html 
+│                       │       │                  ├ [63]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [64]: https://nvd.nist.gov/vuln/detail/CVE-2026-45447 
 │                       │       │                  ├ [65]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [66]: https://security.access.redhat.com/data/csaf/v2/vex/
@@ -5650,7 +5770,7 @@
 │                       │       │                  ╰ [69]: https://www.cve.org/CVERecord?id=CVE-2026-45447 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.277Z 
 │                       │       ╰ LastModifiedDate: 2026-07-08T13:16:47.377Z 
-│                       ├ [86]  ╭ VulnerabilityID : CVE-2026-34182 
+│                       ├ [87]  ╭ VulnerabilityID : CVE-2026-34182 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -5725,7 +5845,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 4 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 4 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
@@ -5808,7 +5928,7 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/d2ca86bcd4
 │                       │       │                  │       3e4f17d899f347101766b6107676e0 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-34182.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-34182 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
@@ -5816,7 +5936,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-34182 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.857Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.97Z 
-│                       ├ [87]  ╭ VulnerabilityID : CVE-2026-34183 
+│                       ├ [88]  ╭ VulnerabilityID : CVE-2026-34183 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -5870,7 +5990,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
@@ -5951,14 +6071,14 @@
 │                       │       │                  ├ [52]: https://github.com/openssl/openssl/commit/fbaa83859c
 │                       │       │                  │       01ad64f497b757aaf51be7d05ed9eb 
 │                       │       │                  ├ [53]: https://linux.oracle.com/cve/CVE-2026-34183.html 
-│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [55]: https://nvd.nist.gov/vuln/detail/CVE-2026-34183 
 │                       │       │                  ├ [56]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-34183 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:05Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:37.143Z 
-│                       ├ [88]  ╭ VulnerabilityID : CVE-2026-42764 
+│                       ├ [89]  ╭ VulnerabilityID : CVE-2026-42764 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -6011,7 +6131,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-476 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
@@ -6090,14 +6210,14 @@
 │                       │       │                  ├ [51]: https://github.com/openssl/openssl/commit/bf29a458c1
 │                       │       │                  │       a231eca87e384c62b9c2553fa57a91 
 │                       │       │                  ├ [52]: https://linux.oracle.com/cve/CVE-2026-42764.html 
-│                       │       │                  ├ [53]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [53]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [54]: https://nvd.nist.gov/vuln/detail/CVE-2026-42764 
 │                       │       │                  ├ [55]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [56]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2026-42764 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.693Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:21.63Z 
-│                       ├ [89]  ╭ VulnerabilityID : CVE-2026-45445 
+│                       ├ [90]  ╭ VulnerabilityID : CVE-2026-45445 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -6185,7 +6305,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
@@ -6268,14 +6388,14 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/983d54b5cc
 │                       │       │                  │       e8d16147548ed1a37892d1720bbab6 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-45445.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-45445 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-45445 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:18.993Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:52:03.793Z 
-│                       ├ [90]  ╭ VulnerabilityID : CVE-2026-34180 
+│                       ├ [91]  ╭ VulnerabilityID : CVE-2026-34180 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -6337,7 +6457,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -6420,7 +6540,7 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/f696c73c3e
 │                       │       │                  │       61b8c502d040af62e690c060908a16 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-34180.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-34180 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
@@ -6428,7 +6548,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-34180 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.6Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.66Z 
-│                       ├ [91]  ╭ VulnerabilityID : CVE-2026-34181 
+│                       ├ [92]  ╭ VulnerabilityID : CVE-2026-34181 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -6478,7 +6598,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-354 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -6559,14 +6679,14 @@
 │                       │       │                  ├ [52]: https://github.com/openssl/openssl/commit/ec36f2417c
 │                       │       │                  │       4ddd8cabce4b4a60a3d7a7365f2d81 
 │                       │       │                  ├ [53]: https://linux.oracle.com/cve/CVE-2026-34181.html 
-│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [55]: https://nvd.nist.gov/vuln/detail/CVE-2026-34181 
 │                       │       │                  ├ [56]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-34181 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.74Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.82Z 
-│                       ├ [92]  ╭ VulnerabilityID : CVE-2026-42766 
+│                       ├ [93]  ╭ VulnerabilityID : CVE-2026-42766 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -6620,7 +6740,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -6703,7 +6823,7 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/da26f36873
 │                       │       │                  │       2b83e40e9d356fe61c3d3aaab6d2e8 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-42766.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-42766 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
@@ -6711,7 +6831,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-42766 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.97Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:21.947Z 
-│                       ├ [93]  ╭ VulnerabilityID : CVE-2026-42767 
+│                       ├ [94]  ╭ VulnerabilityID : CVE-2026-42767 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -6762,7 +6882,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -6845,14 +6965,14 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/e6f912907f
 │                       │       │                  │       c2ec82a0fd07aae55172c5e5e3d90d 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-42767.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-42767 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-42767 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.093Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.107Z 
-│                       ├ [94]  ╭ VulnerabilityID : CVE-2026-42768 
+│                       ├ [95]  ╭ VulnerabilityID : CVE-2026-42768 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -6957,7 +7077,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 1 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 1 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -7038,14 +7158,14 @@
 │                       │       │                  ├ [52]: https://github.com/openssl/openssl/commit/f04b377be3
 │                       │       │                  │       d821741c86d1f4bf84dee09f3d5c3e 
 │                       │       │                  ├ [53]: https://linux.oracle.com/cve/CVE-2026-42768.html 
-│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [55]: https://nvd.nist.gov/vuln/detail/CVE-2026-42768 
 │                       │       │                  ├ [56]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-42768 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.223Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.263Z 
-│                       ├ [95]  ╭ VulnerabilityID : CVE-2026-42769 
+│                       ├ [96]  ╭ VulnerabilityID : CVE-2026-42769 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -7123,7 +7243,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-295 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -7204,14 +7324,14 @@
 │                       │       │                  ├ [52]: https://github.com/openssl/openssl/commit/d531f21c0f
 │                       │       │                  │       e99067a66fc0ff1161ef127f9cd70b 
 │                       │       │                  ├ [53]: https://linux.oracle.com/cve/CVE-2026-42769.html 
-│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [55]: https://nvd.nist.gov/vuln/detail/CVE-2026-42769 
 │                       │       │                  ├ [56]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-42769 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.377Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.467Z 
-│                       ├ [96]  ╭ VulnerabilityID : CVE-2026-42770 
+│                       ├ [97]  ╭ VulnerabilityID : CVE-2026-42770 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -7278,7 +7398,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-325 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 1 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -7361,14 +7481,14 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/ca2237ab56
 │                       │       │                  │       15641b662183b077f62c08d75e8070 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-42770.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-42770 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-42770 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.523Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.65Z 
-│                       ├ [97]  ╭ VulnerabilityID : CVE-2026-45446 
+│                       ├ [98]  ╭ VulnerabilityID : CVE-2026-45446 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -7449,7 +7569,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -7532,14 +7652,14 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/eec5e9bf0d
 │                       │       │                  │       867333b8495e456f5235d225798a68 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-45446.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-45446 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-45446 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.137Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:52:03.967Z 
-│                       ├ [98]  ╭ VulnerabilityID : CVE-2026-7383 
+│                       ├ [99]  ╭ VulnerabilityID : CVE-2026-7383 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -7609,7 +7729,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -7692,7 +7812,7 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/d32350ae8e
 │                       │       │                  │       f7426718f5aa9e383d4b51398ee255 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-7383.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-7383 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
@@ -7700,7 +7820,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-7383 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:50.337Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T11:02:19.433Z 
-│                       ├ [99]  ╭ VulnerabilityID : CVE-2026-9076 
+│                       ├ [100] ╭ VulnerabilityID : CVE-2026-9076 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -7775,7 +7895,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -7858,7 +7978,7 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/eecbe33097
 │                       │       │                  │       7e8d023aae1ca2d9bdbe983ef3fdc6 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-9076.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-9076 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
@@ -7866,7 +7986,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-9076 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:50.997Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T11:04:47.973Z 
-│                       ├ [100] ╭ VulnerabilityID : CVE-2026-6732 
+│                       ├ [101] ╭ VulnerabilityID : CVE-2026-6732 
 │                       │       ├ PkgID           : libxml2@2.13.9-r1 
 │                       │       ├ PkgName         : libxml2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxml2@2.13.9-r1?arch=x86_64&distro=
@@ -7919,7 +8039,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-6732 
 │                       │       ├ PublishedDate   : 2026-04-23T23:16:16.443Z 
 │                       │       ╰ LastModifiedDate: 2026-06-30T20:16:50.03Z 
-│                       ├ [101] ╭ VulnerabilityID : CVE-2026-45447 
+│                       ├ [102] ╭ VulnerabilityID : CVE-2026-45447 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -7981,7 +8101,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 3 
 │                       │       │                  ├ rocky      : 3 
@@ -8072,7 +8192,7 @@
 │                       │       │                  ├ [61]: https://github.com/openssl/openssl/commit/c505d7559d
 │                       │       │                  │       a5d5f9f2c3913c6883a5562ce7273e 
 │                       │       │                  ├ [62]: https://linux.oracle.com/cve/CVE-2026-45447.html 
-│                       │       │                  ├ [63]: https://linux.oracle.com/errata/ELSA-2026-50323.html 
+│                       │       │                  ├ [63]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [64]: https://nvd.nist.gov/vuln/detail/CVE-2026-45447 
 │                       │       │                  ├ [65]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [66]: https://security.access.redhat.com/data/csaf/v2/vex/
@@ -8082,7 +8202,7 @@
 │                       │       │                  ╰ [69]: https://www.cve.org/CVERecord?id=CVE-2026-45447 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.277Z 
 │                       │       ╰ LastModifiedDate: 2026-07-08T13:16:47.377Z 
-│                       ├ [102] ╭ VulnerabilityID : CVE-2026-34182 
+│                       ├ [103] ╭ VulnerabilityID : CVE-2026-34182 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -8157,7 +8277,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 4 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 4 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
@@ -8240,7 +8360,7 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/d2ca86bcd4
 │                       │       │                  │       3e4f17d899f347101766b6107676e0 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-34182.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-34182 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
@@ -8248,7 +8368,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-34182 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.857Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.97Z 
-│                       ├ [103] ╭ VulnerabilityID : CVE-2026-34183 
+│                       ├ [104] ╭ VulnerabilityID : CVE-2026-34183 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -8302,7 +8422,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
@@ -8383,14 +8503,14 @@
 │                       │       │                  ├ [52]: https://github.com/openssl/openssl/commit/fbaa83859c
 │                       │       │                  │       01ad64f497b757aaf51be7d05ed9eb 
 │                       │       │                  ├ [53]: https://linux.oracle.com/cve/CVE-2026-34183.html 
-│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [55]: https://nvd.nist.gov/vuln/detail/CVE-2026-34183 
 │                       │       │                  ├ [56]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-34183 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:05Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:37.143Z 
-│                       ├ [104] ╭ VulnerabilityID : CVE-2026-42764 
+│                       ├ [105] ╭ VulnerabilityID : CVE-2026-42764 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -8443,7 +8563,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-476 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
@@ -8522,14 +8642,14 @@
 │                       │       │                  ├ [51]: https://github.com/openssl/openssl/commit/bf29a458c1
 │                       │       │                  │       a231eca87e384c62b9c2553fa57a91 
 │                       │       │                  ├ [52]: https://linux.oracle.com/cve/CVE-2026-42764.html 
-│                       │       │                  ├ [53]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [53]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [54]: https://nvd.nist.gov/vuln/detail/CVE-2026-42764 
 │                       │       │                  ├ [55]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [56]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2026-42764 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.693Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:21.63Z 
-│                       ├ [105] ╭ VulnerabilityID : CVE-2026-45445 
+│                       ├ [106] ╭ VulnerabilityID : CVE-2026-45445 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -8617,7 +8737,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 2 
 │                       │       │                  ├ rocky      : 3 
@@ -8700,14 +8820,14 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/983d54b5cc
 │                       │       │                  │       e8d16147548ed1a37892d1720bbab6 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-45445.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-45445 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-45445 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:18.993Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:52:03.793Z 
-│                       ├ [106] ╭ VulnerabilityID : CVE-2026-34180 
+│                       ├ [107] ╭ VulnerabilityID : CVE-2026-34180 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -8769,7 +8889,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -8852,7 +8972,7 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/f696c73c3e
 │                       │       │                  │       61b8c502d040af62e690c060908a16 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-34180.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-34180 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
@@ -8860,7 +8980,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-34180 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.6Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.66Z 
-│                       ├ [107] ╭ VulnerabilityID : CVE-2026-34181 
+│                       ├ [108] ╭ VulnerabilityID : CVE-2026-34181 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -8910,7 +9030,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-354 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -8991,14 +9111,14 @@
 │                       │       │                  ├ [52]: https://github.com/openssl/openssl/commit/ec36f2417c
 │                       │       │                  │       4ddd8cabce4b4a60a3d7a7365f2d81 
 │                       │       │                  ├ [53]: https://linux.oracle.com/cve/CVE-2026-34181.html 
-│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [55]: https://nvd.nist.gov/vuln/detail/CVE-2026-34181 
 │                       │       │                  ├ [56]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-34181 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.74Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.82Z 
-│                       ├ [108] ╭ VulnerabilityID : CVE-2026-42766 
+│                       ├ [109] ╭ VulnerabilityID : CVE-2026-42766 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -9052,7 +9172,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -9135,7 +9255,7 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/da26f36873
 │                       │       │                  │       2b83e40e9d356fe61c3d3aaab6d2e8 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-42766.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-42766 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
@@ -9143,7 +9263,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-42766 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.97Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:21.947Z 
-│                       ├ [109] ╭ VulnerabilityID : CVE-2026-42767 
+│                       ├ [110] ╭ VulnerabilityID : CVE-2026-42767 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -9194,7 +9314,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -9277,14 +9397,14 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/e6f912907f
 │                       │       │                  │       c2ec82a0fd07aae55172c5e5e3d90d 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-42767.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-42767 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-42767 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.093Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.107Z 
-│                       ├ [110] ╭ VulnerabilityID : CVE-2026-42768 
+│                       ├ [111] ╭ VulnerabilityID : CVE-2026-42768 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -9389,7 +9509,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 1 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 1 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -9470,14 +9590,14 @@
 │                       │       │                  ├ [52]: https://github.com/openssl/openssl/commit/f04b377be3
 │                       │       │                  │       d821741c86d1f4bf84dee09f3d5c3e 
 │                       │       │                  ├ [53]: https://linux.oracle.com/cve/CVE-2026-42768.html 
-│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [55]: https://nvd.nist.gov/vuln/detail/CVE-2026-42768 
 │                       │       │                  ├ [56]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-42768 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.223Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.263Z 
-│                       ├ [111] ╭ VulnerabilityID : CVE-2026-42769 
+│                       ├ [112] ╭ VulnerabilityID : CVE-2026-42769 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -9555,7 +9675,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-295 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -9636,14 +9756,14 @@
 │                       │       │                  ├ [52]: https://github.com/openssl/openssl/commit/d531f21c0f
 │                       │       │                  │       e99067a66fc0ff1161ef127f9cd70b 
 │                       │       │                  ├ [53]: https://linux.oracle.com/cve/CVE-2026-42769.html 
-│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [54]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [55]: https://nvd.nist.gov/vuln/detail/CVE-2026-42769 
 │                       │       │                  ├ [56]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-42769 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.377Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.467Z 
-│                       ├ [112] ╭ VulnerabilityID : CVE-2026-42770 
+│                       ├ [113] ╭ VulnerabilityID : CVE-2026-42770 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -9710,7 +9830,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-325 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 1 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -9793,14 +9913,14 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/ca2237ab56
 │                       │       │                  │       15641b662183b077f62c08d75e8070 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-42770.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-42770 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-42770 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.523Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.65Z 
-│                       ├ [113] ╭ VulnerabilityID : CVE-2026-45446 
+│                       ├ [114] ╭ VulnerabilityID : CVE-2026-45446 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -9881,7 +10001,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -9964,14 +10084,14 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/eec5e9bf0d
 │                       │       │                  │       867333b8495e456f5235d225798a68 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-45446.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-45446 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-45446 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.137Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:52:03.967Z 
-│                       ├ [114] ╭ VulnerabilityID : CVE-2026-7383 
+│                       ├ [115] ╭ VulnerabilityID : CVE-2026-7383 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -10041,7 +10161,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -10124,7 +10244,7 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/d32350ae8e
 │                       │       │                  │       f7426718f5aa9e383d4b51398ee255 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-7383.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-7383 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
@@ -10132,7 +10252,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-7383 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:50.337Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T11:02:19.433Z 
-│                       ├ [115] ╭ VulnerabilityID : CVE-2026-9076 
+│                       ├ [116] ╭ VulnerabilityID : CVE-2026-9076 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -10207,7 +10327,7 @@
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 3 
-│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 3 
 │                       │       │                  ├ redhat     : 1 
 │                       │       │                  ├ rocky      : 3 
@@ -10290,7 +10410,7 @@
 │                       │       │                  ├ [53]: https://github.com/openssl/openssl/commit/eecbe33097
 │                       │       │                  │       7e8d023aae1ca2d9bdbe983ef3fdc6 
 │                       │       │                  ├ [54]: https://linux.oracle.com/cve/CVE-2026-9076.html 
-│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-25239.html 
+│                       │       │                  ├ [55]: https://linux.oracle.com/errata/ELSA-2026-50379.html 
 │                       │       │                  ├ [56]: https://nvd.nist.gov/vuln/detail/CVE-2026-9076 
 │                       │       │                  ├ [57]: https://openssl-library.org/news/secadv/20260609.txt 
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
@@ -10298,7 +10418,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-9076 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:50.997Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T11:04:47.973Z 
-│                       ├ [116] ╭ VulnerabilityID : CVE-2026-2100 
+│                       ├ [117] ╭ VulnerabilityID : CVE-2026-2100 
 │                       │       ├ PkgID           : p11-kit@0.25.5-r2 
 │                       │       ├ PkgName         : p11-kit 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/p11-kit@0.25.5-r2?arch=x86_64&distro=
@@ -10364,7 +10484,7 @@
 │                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2026-2100 
 │                       │       ├ PublishedDate   : 2026-03-26T21:17:04.247Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T15:16:43.333Z 
-│                       ├ [117] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [118] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │       ├ PkgID           : pyc@3.14.3-r0 
 │                       │       ├ PkgName         : pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.3-r0?arch=x86_64&distro=3.24
@@ -10396,7 +10516,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
@@ -10483,7 +10603,7 @@
 │                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │       ╰ LastModifiedDate: 2026-06-30T16:16:50.613Z 
-│                       ├ [118] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [119] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │       ├ PkgID           : pyc@3.14.3-r0 
 │                       │       ├ PkgName         : pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.3-r0?arch=x86_64&distro=3.24
@@ -10513,7 +10633,7 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -10606,7 +10726,7 @@
 │                       │       │                  ╰ [53]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:56:15.297Z 
-│                       ├ [119] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [120] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : pyc@3.14.3-r0 
 │                       │       ├ PkgName         : pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.3-r0?arch=x86_64&distro=3.24
@@ -10716,7 +10836,7 @@
 │                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:30:44.59Z 
-│                       ├ [120] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [121] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │       ├ PkgID           : python3@3.14.3-r0 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.3-r0?arch=x86_64&distro=
@@ -10748,7 +10868,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
@@ -10835,7 +10955,7 @@
 │                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │       ╰ LastModifiedDate: 2026-06-30T16:16:50.613Z 
-│                       ├ [121] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [122] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │       ├ PkgID           : python3@3.14.3-r0 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.3-r0?arch=x86_64&distro=
@@ -10865,7 +10985,7 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -10958,7 +11078,7 @@
 │                       │       │                  ╰ [53]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:56:15.297Z 
-│                       ├ [122] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [123] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : python3@3.14.3-r0 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.3-r0?arch=x86_64&distro=
@@ -11068,7 +11188,7 @@
 │                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:30:44.59Z 
-│                       ├ [123] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [124] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │       ├ PkgID           : python3-pyc@3.14.3-r0 
 │                       │       ├ PkgName         : python3-pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.3-r0?arch=x86_64&dis
@@ -11100,7 +11220,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
@@ -11187,7 +11307,7 @@
 │                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │       ╰ LastModifiedDate: 2026-06-30T16:16:50.613Z 
-│                       ├ [124] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [125] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │       ├ PkgID           : python3-pyc@3.14.3-r0 
 │                       │       ├ PkgName         : python3-pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.3-r0?arch=x86_64&dis
@@ -11217,7 +11337,7 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -11310,7 +11430,7 @@
 │                       │       │                  ╰ [53]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:56:15.297Z 
-│                       ├ [125] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [126] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : python3-pyc@3.14.3-r0 
 │                       │       ├ PkgName         : python3-pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.3-r0?arch=x86_64&dis
@@ -11420,7 +11540,7 @@
 │                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:30:44.59Z 
-│                       ├ [126] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [127] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │       ├ PkgID           : python3-pycache-pyc0@3.14.3-r0 
 │                       │       ├ PkgName         : python3-pycache-pyc0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.3-r0?arch=x
@@ -11452,7 +11572,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
@@ -11539,7 +11659,7 @@
 │                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │       ╰ LastModifiedDate: 2026-06-30T16:16:50.613Z 
-│                       ├ [127] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [128] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │       ├ PkgID           : python3-pycache-pyc0@3.14.3-r0 
 │                       │       ├ PkgName         : python3-pycache-pyc0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.3-r0?arch=x
@@ -11569,7 +11689,7 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -11662,7 +11782,7 @@
 │                       │       │                  ╰ [53]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:56:15.297Z 
-│                       ├ [128] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [129] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : python3-pycache-pyc0@3.14.3-r0 
 │                       │       ├ PkgName         : python3-pycache-pyc0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.3-r0?arch=x
@@ -11772,7 +11892,7 @@
 │                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:30:44.59Z 
-│                       ├ [129] ╭ VulnerabilityID : CVE-2026-56123 
+│                       ├ [130] ╭ VulnerabilityID : CVE-2026-56123 
 │                       │       ├ PkgID           : socat@1.8.1.1-r0 
 │                       │       ├ PkgName         : socat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/socat@1.8.1.1-r0?arch=x86_64&distro=3
@@ -11817,7 +11937,7 @@
 │                       │       │                         r-overflow-via-socks5-reply-parser 
 │                       │       ├ PublishedDate   : 2026-06-25T17:17:01.967Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T16:50:16.103Z 
-│                       ├ [130] ╭ VulnerabilityID : CVE-2026-56123 
+│                       ├ [131] ╭ VulnerabilityID : CVE-2026-56123 
 │                       │       ├ PkgID           : socat-doc@1.8.1.1-r0 
 │                       │       ├ PkgName         : socat-doc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/socat-doc@1.8.1.1-r0?arch=x86_64&dist
@@ -11862,7 +11982,7 @@
 │                       │       │                         r-overflow-via-socks5-reply-parser 
 │                       │       ├ PublishedDate   : 2026-06-25T17:17:01.967Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T16:50:16.103Z 
-│                       ├ [131] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [132] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -11916,7 +12036,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:57:53.5Z 
-│                       ├ [132] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [133] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -11979,7 +12099,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:57:53.623Z 
-│                       ├ [133] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ├ [134] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -12044,7 +12164,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-30T03:20:49.62Z 
-│                       ├ [134] ╭ VulnerabilityID : CVE-2026-55895 
+│                       ├ [135] ╭ VulnerabilityID : CVE-2026-55895 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -12103,7 +12223,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-55895 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:41.077Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T05:16:31.097Z 
-│                       ├ [135] ╭ VulnerabilityID : CVE-2026-57453 
+│                       ├ [136] ╭ VulnerabilityID : CVE-2026-57453 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -12159,7 +12279,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57453 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.52Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T17:16:34.82Z 
-│                       ├ [136] ╭ VulnerabilityID : CVE-2026-57455 
+│                       ├ [137] ╭ VulnerabilityID : CVE-2026-57455 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -12218,7 +12338,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57455 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:23:21.857Z 
-│                       ├ [137] ╭ VulnerabilityID : CVE-2026-57456 
+│                       ├ [138] ╭ VulnerabilityID : CVE-2026-57456 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -12275,7 +12395,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57456 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.9Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T05:16:31.51Z 
-│                       ├ [138] ╭ VulnerabilityID : CVE-2026-55892 
+│                       ├ [139] ╭ VulnerabilityID : CVE-2026-55892 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -12328,7 +12448,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-55892 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:40.69Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T19:16:44.667Z 
-│                       ├ [139] ╭ VulnerabilityID : CVE-2026-57451 
+│                       ├ [140] ╭ VulnerabilityID : CVE-2026-57451 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -12382,7 +12502,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-57451 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.263Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:11:55.71Z 
-│                       ├ [140] ╭ VulnerabilityID : CVE-2026-57452 
+│                       ├ [141] ╭ VulnerabilityID : CVE-2026-57452 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -12431,7 +12551,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57452 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.397Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:12:32.483Z 
-│                       ├ [141] ╭ VulnerabilityID : CVE-2026-57454 
+│                       ├ [142] ╭ VulnerabilityID : CVE-2026-57454 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -12478,7 +12598,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-57454 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.647Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T19:16:45.077Z 
-│                       ├ [142] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [143] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -12532,7 +12652,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:57:53.5Z 
-│                       ├ [143] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [144] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -12595,7 +12715,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:57:53.623Z 
-│                       ├ [144] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ├ [145] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -12660,7 +12780,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-30T03:20:49.62Z 
-│                       ├ [145] ╭ VulnerabilityID : CVE-2026-55895 
+│                       ├ [146] ╭ VulnerabilityID : CVE-2026-55895 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -12719,7 +12839,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-55895 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:41.077Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T05:16:31.097Z 
-│                       ├ [146] ╭ VulnerabilityID : CVE-2026-57453 
+│                       ├ [147] ╭ VulnerabilityID : CVE-2026-57453 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -12775,7 +12895,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57453 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.52Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T17:16:34.82Z 
-│                       ├ [147] ╭ VulnerabilityID : CVE-2026-57455 
+│                       ├ [148] ╭ VulnerabilityID : CVE-2026-57455 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -12834,7 +12954,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57455 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:23:21.857Z 
-│                       ├ [148] ╭ VulnerabilityID : CVE-2026-57456 
+│                       ├ [149] ╭ VulnerabilityID : CVE-2026-57456 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -12891,7 +13011,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57456 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.9Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T05:16:31.51Z 
-│                       ├ [149] ╭ VulnerabilityID : CVE-2026-55892 
+│                       ├ [150] ╭ VulnerabilityID : CVE-2026-55892 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -12944,7 +13064,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-55892 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:40.69Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T19:16:44.667Z 
-│                       ├ [150] ╭ VulnerabilityID : CVE-2026-57451 
+│                       ├ [151] ╭ VulnerabilityID : CVE-2026-57451 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -12998,7 +13118,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-57451 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.263Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:11:55.71Z 
-│                       ├ [151] ╭ VulnerabilityID : CVE-2026-57452 
+│                       ├ [152] ╭ VulnerabilityID : CVE-2026-57452 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -13047,7 +13167,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57452 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.397Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:12:32.483Z 
-│                       ├ [152] ╭ VulnerabilityID : CVE-2026-57454 
+│                       ├ [153] ╭ VulnerabilityID : CVE-2026-57454 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -13094,7 +13214,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-57454 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.647Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T19:16:45.077Z 
-│                       ├ [153] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [154] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -13148,7 +13268,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:57:53.5Z 
-│                       ├ [154] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [155] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -13211,7 +13331,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:57:53.623Z 
-│                       ├ [155] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ├ [156] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -13276,7 +13396,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-30T03:20:49.62Z 
-│                       ├ [156] ╭ VulnerabilityID : CVE-2026-55895 
+│                       ├ [157] ╭ VulnerabilityID : CVE-2026-55895 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -13335,7 +13455,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-55895 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:41.077Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T05:16:31.097Z 
-│                       ├ [157] ╭ VulnerabilityID : CVE-2026-57453 
+│                       ├ [158] ╭ VulnerabilityID : CVE-2026-57453 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -13391,7 +13511,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57453 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.52Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T17:16:34.82Z 
-│                       ├ [158] ╭ VulnerabilityID : CVE-2026-57455 
+│                       ├ [159] ╭ VulnerabilityID : CVE-2026-57455 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -13450,7 +13570,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57455 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:23:21.857Z 
-│                       ├ [159] ╭ VulnerabilityID : CVE-2026-57456 
+│                       ├ [160] ╭ VulnerabilityID : CVE-2026-57456 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -13507,7 +13627,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57456 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.9Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T05:16:31.51Z 
-│                       ├ [160] ╭ VulnerabilityID : CVE-2026-55892 
+│                       ├ [161] ╭ VulnerabilityID : CVE-2026-55892 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -13560,7 +13680,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-55892 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:40.69Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T19:16:44.667Z 
-│                       ├ [161] ╭ VulnerabilityID : CVE-2026-57451 
+│                       ├ [162] ╭ VulnerabilityID : CVE-2026-57451 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -13614,7 +13734,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-57451 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.263Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:11:55.71Z 
-│                       ├ [162] ╭ VulnerabilityID : CVE-2026-57452 
+│                       ├ [163] ╭ VulnerabilityID : CVE-2026-57452 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -13663,7 +13783,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57452 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.397Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:12:32.483Z 
-│                       ╰ [163] ╭ VulnerabilityID : CVE-2026-57454 
+│                       ╰ [164] ╭ VulnerabilityID : CVE-2026-57454 
 │                               ├ PkgID           : xxd@9.2.0481-r0 
 │                               ├ PkgName         : xxd 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -13833,26 +13953,27 @@
                         │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
                         │     │                           │           A:H 
                         │     │                           ╰ V3Score : 8.1 
-                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-54513 
-                        │     │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
-                        │     │                  ├ [2] : https://github.com/FasterXML/jackson-databind 
-                        │     │                  ├ [3] : https://github.com/FasterXML/jackson-databind/commit/0
+                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:36839 
+                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-54513 
+                        │     │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
+                        │     │                  ├ [3] : https://github.com/FasterXML/jackson-databind 
+                        │     │                  ├ [4] : https://github.com/FasterXML/jackson-databind/commit/0
                         │     │                  │       1d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5 
-                        │     │                  ├ [4] : https://github.com/FasterXML/jackson-databind/commit/2
+                        │     │                  ├ [5] : https://github.com/FasterXML/jackson-databind/commit/2
                         │     │                  │       4529da29fdf46ff94ca38de9ebf31cd188f5e8e 
-                        │     │                  ├ [5] : https://github.com/FasterXML/jackson-databind/issues/5
-                        │     │                  │       981 
                         │     │                  ├ [6] : https://github.com/FasterXML/jackson-databind/issues/5
+                        │     │                  │       981 
+                        │     │                  ├ [7] : https://github.com/FasterXML/jackson-databind/issues/5
                         │     │                  │       983 
-                        │     │                  ├ [7] : https://github.com/FasterXML/jackson-databind/pull/5984 
-                        │     │                  ├ [8] : https://github.com/FasterXML/jackson-databind/security
+                        │     │                  ├ [8] : https://github.com/FasterXML/jackson-databind/pull/5984 
+                        │     │                  ├ [9] : https://github.com/FasterXML/jackson-databind/security
                         │     │                  │       /advisories/GHSA-rmj7-2vxq-3g9f 
-                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
-                        │     │                  ├ [10]: https://security.access.redhat.com/data/csaf/v2/vex/20
+                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
+                        │     │                  ├ [11]: https://security.access.redhat.com/data/csaf/v2/vex/20
                         │     │                  │       26/cve-2026-54513.json 
-                        │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
+                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.333Z 
-                        │     ╰ LastModifiedDate: 2026-07-03T13:17:29.627Z 
+                        │     ╰ LastModifiedDate: 2026-07-09T13:17:29.703Z 
                         ├ [2] ╭ VulnerabilityID : CVE-2026-54514 
                         │     ├ VendorIDs        ─ [0]: GHSA-hgj6-7826-r7m5 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
