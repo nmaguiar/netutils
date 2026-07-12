@@ -90,7 +90,8 @@
 │                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-11352.json 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3783438 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-11352 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-11352 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8525-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-11352 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:23.693Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T18:01:19.013Z 
 │                       ├ [2]   ╭ VulnerabilityID : CVE-2026-11586 
@@ -133,7 +134,8 @@
 │                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-11586.json 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3788931 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-11586 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-11586 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8525-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-11586 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:23.883Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T17:59:46.92Z 
 │                       ├ [3]   ╭ VulnerabilityID : CVE-2026-12064 
@@ -189,7 +191,8 @@
 │                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-12064.json 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3797526 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-12064 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-12064 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8525-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-12064 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.217Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T19:43:11.187Z 
 │                       ├ [4]   ╭ VulnerabilityID : CVE-2026-8286 
@@ -658,7 +661,8 @@
 │                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-10536.json 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3751697 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-10536 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-10536 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8525-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-10536 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:23.563Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T18:02:03.89Z 
 │                       ├ [14]  ╭ VulnerabilityID : CVE-2026-11564 
@@ -704,7 +708,8 @@
 │                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-11564.json 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3788984 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-11564 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-11564 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8525-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-11564 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:23.79Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T18:00:35.84Z 
 │                       ├ [15]  ╭ VulnerabilityID : CVE-2026-11856 
@@ -932,7 +937,8 @@
 │                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-11352.json 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3783438 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-11352 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-11352 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8525-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-11352 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:23.693Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T18:01:19.013Z 
 │                       ├ [20]  ╭ VulnerabilityID : CVE-2026-11586 
@@ -975,7 +981,8 @@
 │                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-11586.json 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3788931 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-11586 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-11586 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8525-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-11586 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:23.883Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T17:59:46.92Z 
 │                       ├ [21]  ╭ VulnerabilityID : CVE-2026-12064 
@@ -1031,7 +1038,8 @@
 │                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-12064.json 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3797526 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-12064 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-12064 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8525-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-12064 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.217Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T19:43:11.187Z 
 │                       ├ [22]  ╭ VulnerabilityID : CVE-2026-8286 
@@ -1500,7 +1508,8 @@
 │                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-10536.json 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3751697 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-10536 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-10536 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8525-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-10536 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:23.563Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T18:02:03.89Z 
 │                       ├ [32]  ╭ VulnerabilityID : CVE-2026-11564 
@@ -1546,7 +1555,8 @@
 │                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-11564.json 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3788984 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-11564 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-11564 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8525-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-11564 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:23.79Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T18:00:35.84Z 
 │                       ├ [33]  ╭ VulnerabilityID : CVE-2026-11856 
@@ -4153,7 +4163,8 @@
 │                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-11352.json 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3783438 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-11352 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-11352 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8525-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-11352 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:23.693Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T18:01:19.013Z 
 │                       ├ [53]  ╭ VulnerabilityID : CVE-2026-11586 
@@ -4196,7 +4207,8 @@
 │                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-11586.json 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3788931 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-11586 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-11586 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8525-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-11586 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:23.883Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T17:59:46.92Z 
 │                       ├ [54]  ╭ VulnerabilityID : CVE-2026-12064 
@@ -4252,7 +4264,8 @@
 │                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-12064.json 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3797526 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-12064 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-12064 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8525-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-12064 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.217Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T19:43:11.187Z 
 │                       ├ [55]  ╭ VulnerabilityID : CVE-2026-8286 
@@ -4721,7 +4734,8 @@
 │                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-10536.json 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3751697 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-10536 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-10536 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8525-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-10536 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:23.563Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T18:02:03.89Z 
 │                       ├ [65]  ╭ VulnerabilityID : CVE-2026-11564 
@@ -4767,7 +4781,8 @@
 │                       │       │                  ├ [3]: https://curl.se/docs/CVE-2026-11564.json 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3788984 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-11564 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-11564 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8525-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-11564 
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:23.79Z 
 │                       │       ╰ LastModifiedDate: 2026-07-07T18:00:35.84Z 
 │                       ├ [66]  ╭ VulnerabilityID : CVE-2026-11856 
@@ -5472,24 +5487,29 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-835 
 │                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ julia : 3 
 │                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       ├ CVSS             ╭ julia  ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N
+│                       │       │                  │        │            /VI:N/VA:H/SC:N/SI:N/SA:N 
+│                       │       │                  │        ╰ V40Score : 8.2 
+│                       │       │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                  │        │           N/A:H 
 │                       │       │                  │        ╰ V3Score : 7.5 
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-55199 
-│                       │       │                  ├ [1]: https://github.com/libssh2/libssh2/commit/17626857d20
+│                       │       │                  ├ [1]: https://github.com/advisories/GHSA-3cfq-4xx4-rmpg 
+│                       │       │                  ├ [2]: https://github.com/libssh2/libssh2/commit/17626857d20
 │                       │       │                  │      b3c9a1addfa45979dadcee1cd84a4 
-│                       │       │                  ├ [2]: https://github.com/libssh2/libssh2/pull/1864 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-55199 
-│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8486-1 
-│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2026-55199 
-│                       │       │                  ╰ [6]: https://www.vulncheck.com/advisories/libssh2-pre-auth
+│                       │       │                  ├ [3]: https://github.com/libssh2/libssh2/pull/1864 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-55199 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8486-1 
+│                       │       │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2026-55199 
+│                       │       │                  ╰ [7]: https://www.vulncheck.com/advisories/libssh2-pre-auth
 │                       │       │                         entication-dos-via-ssh-msg-ext-info-handler 
 │                       │       ├ PublishedDate   : 2026-06-17T20:17:28.52Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T19:16:37.353Z 
@@ -5524,27 +5544,34 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-680 
 │                       │       ├ VendorSeverity   ╭ azure : 3 
+│                       │       │                  ├ julia : 4 
 │                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       ├ CVSS             ╭ julia  ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H
+│                       │       │                  │        │            /VI:H/VA:H/SC:N/SI:N/SA:N 
+│                       │       │                  │        ╰ V40Score : 9.2 
+│                       │       │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
 │                       │       │                  │        │           H/A:L 
 │                       │       │                  │        ╰ V3Score : 8.3 
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
 │                       │       │                           │           H/A:L 
 │                       │       │                           ╰ V3Score : 7.1 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-55200 
-│                       │       │                  ├ [1]: https://github.com/libssh2/libssh2/commit/97acf3dfda8
+│                       │       │                  ├ [1]: https://github.com/advisories/GHSA-r8mh-x5qv-7gg2 
+│                       │       │                  ├ [2]: https://github.com/bikini/exploitarium/tree/main/libs
+│                       │       │                  │      sh2-cve-2026-55200-poc 
+│                       │       │                  ├ [3]: https://github.com/libssh2/libssh2/commit/97acf3dfda8
 │                       │       │                  │      0c91c3a8c9f2372546301d4a1a7a8 
-│                       │       │                  ├ [2]: https://github.com/libssh2/libssh2/pull/2052 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-55200 
-│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8486-1 
-│                       │       │                  ├ [5]: https://web.archive.org/web/20260623211210/https://gi
+│                       │       │                  ├ [4]: https://github.com/libssh2/libssh2/pull/2052 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-55200 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8486-1 
+│                       │       │                  ├ [7]: https://web.archive.org/web/20260623211210/https://gi
 │                       │       │                  │      thub.com/bikini/exploitarium/tree/main/libssh2-cve-20
 │                       │       │                  │      26-55200-poc 
-│                       │       │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2026-55200 
-│                       │       │                  ╰ [7]: https://www.vulncheck.com/advisories/libssh2-out-of-b
+│                       │       │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2026-55200 
+│                       │       │                  ╰ [9]: https://www.vulncheck.com/advisories/libssh2-out-of-b
 │                       │       │                         ounds-write-via-unchecked-packet-length-in-transport-
 │                       │       │                         c 
 │                       │       ├ PublishedDate   : 2026-06-17T20:17:28.667Z 
@@ -10516,7 +10543,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
@@ -10633,7 +10660,7 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -10868,7 +10895,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
@@ -10985,7 +11012,7 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -11220,7 +11247,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
@@ -11337,7 +11364,7 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -11572,7 +11599,7 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-20 
 │                       │       │                  ╰ [1]: CWE-116 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 3 
@@ -11689,7 +11716,7 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-674 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
