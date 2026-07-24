@@ -187,6 +187,7 @@
 │                       │      │                    accessible process tree, leading to local denial of
 │                       │      │                   service. 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-390 
 │                       │      ├ VendorSeverity   ─ redhat: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -197,7 +198,7 @@
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-59845 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-59845 
 │                       │      ├ PublishedDate   : 2026-07-21T12:18:58.103Z 
-│                       │      ╰ LastModifiedDate: 2026-07-22T20:17:03.6Z 
+│                       │      ╰ LastModifiedDate: 2026-07-23T15:17:27.83Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2026-59847 
 │                       │      ├ PkgID           : libssh@0.12.0-r0 
 │                       │      ├ PkgName         : libssh 
@@ -262,6 +263,7 @@
 │                       │      │                   queued indefinitely, causing unbounded memory growth and
 │                       │      │                   client-side denial of service. 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-770 
 │                       │      ├ VendorSeverity   ─ redhat: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
@@ -272,7 +274,7 @@
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-59848 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-59848 
 │                       │      ├ PublishedDate   : 2026-07-21T14:16:34.79Z 
-│                       │      ╰ LastModifiedDate: 2026-07-22T20:17:04.123Z 
+│                       │      ╰ LastModifiedDate: 2026-07-23T15:17:28.747Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2026-59850 
 │                       │      ├ PkgID           : libssh@0.12.0-r0 
 │                       │      ├ PkgName         : libssh 
@@ -377,6 +379,7 @@
 │                       │      │                   metacharacters, exposing environment variables and causing
 │                       │      │                   unintended shell behavior. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-77 
 │                       │      ├ VendorSeverity   ─ redhat: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
@@ -387,7 +390,7 @@
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-59846 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-59846 
 │                       │      ├ PublishedDate   : 2026-07-21T13:17:18.143Z 
-│                       │      ╰ LastModifiedDate: 2026-07-22T20:17:03.777Z 
+│                       │      ╰ LastModifiedDate: 2026-07-23T14:17:31.49Z 
 │                       ╰ [10] ╭ VulnerabilityID : CVE-2026-59849 
 │                              ├ PkgID           : libssh@0.12.0-r0 
 │                              ├ PkgName         : libssh 
