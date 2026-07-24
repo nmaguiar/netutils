@@ -171,6 +171,8 @@
     Title: 'libssh: libssh: denial of service via unchecked ProxyCommand fork() failure'
     Description: A flaw was found in libssh. When ProxyCommand is used, an unchecked fork() failure can be stored as process ID -1; during cleanup, signals may then be sent across the caller's accessible process tree, leading to local denial of service.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-390
     VendorSeverity:
       redhat: 2
     CVSS:
@@ -184,7 +186,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-59845
     - https://www.cve.org/CVERecord?id=CVE-2026-59845
     PublishedDate: '2026-07-21T12:18:58.103Z'
-    LastModifiedDate: '2026-07-22T20:17:03.6Z'
+    LastModifiedDate: '2026-07-23T15:17:27.83Z'
   - VulnerabilityID: CVE-2026-59847
     PkgID: libssh@0.12.0-r0
     PkgName: libssh
@@ -243,6 +245,8 @@
     Title: 'libssh: libssh: denial of service via SFTP responses with unknown request IDs'
     Description: A flaw was found in libssh. A malicious SFTP server can send responses for unknown request IDs that libssh clients keep queued indefinitely, causing unbounded memory growth and client-side denial of service.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       redhat: 2
     CVSS:
@@ -256,7 +260,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-59848
     - https://www.cve.org/CVERecord?id=CVE-2026-59848
     PublishedDate: '2026-07-21T14:16:34.79Z'
-    LastModifiedDate: '2026-07-22T20:17:04.123Z'
+    LastModifiedDate: '2026-07-23T15:17:28.747Z'
   - VulnerabilityID: CVE-2026-59850
     PkgID: libssh@0.12.0-r0
     PkgName: libssh
@@ -352,6 +356,8 @@
     Title: 'libssh: libssh: information disclosure via ProxyCommand %r username expansion'
     Description: A flaw was found in libssh. A malicious username expanded through %r in ProxyCommand handling can inject shell metacharacters, exposing environment variables and causing unintended shell behavior.
     Severity: LOW
+    CweIDs:
+    - CWE-77
     VendorSeverity:
       redhat: 1
     CVSS:
@@ -365,7 +371,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-59846
     - https://www.cve.org/CVERecord?id=CVE-2026-59846
     PublishedDate: '2026-07-21T13:17:18.143Z'
-    LastModifiedDate: '2026-07-22T20:17:03.777Z'
+    LastModifiedDate: '2026-07-23T14:17:31.49Z'
   - VulnerabilityID: CVE-2026-59849
     PkgID: libssh@0.12.0-r0
     PkgName: libssh
