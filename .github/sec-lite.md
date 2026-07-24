@@ -36,22 +36,30 @@
 │                       │       │                   potential for further impact depending on the allocator and
 │                       │       │                    build configuration. 
 │                       │       ├ Severity        : HIGH 
-│                       │       ├ VendorSeverity   ╭ alma  : 3 
-│                       │       │                  ├ amazon: 3 
-│                       │       │                  ╰ redhat: 3 
+│                       │       ├ VendorSeverity   ╭ alma       : 3 
+│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ redhat     : 3 
+│                       │       │                  ╰ rocky      : 3 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 7.5 
-│                       │       ╰ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:42096 
-│                       │                          ├ [1]: https://access.redhat.com/security/cve/CVE-2026-33630 
-│                       │                          ├ [2]: https://bugzilla.redhat.com/2497686 
-│                       │                          ├ [3]: https://errata.almalinux.org/10/ALSA-2026-42096.html 
-│                       │                          ├ [4]: https://github.com/c-ares/c-ares/commit/1fa3b86a0b8d1
-│                       │                          │      8fe7b60f3228a01d770feb026bc 
-│                       │                          ├ [5]: https://github.com/c-ares/c-ares/commit/d823199b68805
-│                       │                          │      2dcdc1646f2ab4cb8c16b1c644a 
-│                       │                          ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-33630 
-│                       │                          ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-33630 
+│                       │       ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42096 
+│                       │                          ├ [1] : https://access.redhat.com/security/cve/CVE-2026-33630 
+│                       │                          ├ [2] : https://bugzilla.redhat.com/2497686 
+│                       │                          ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2497686 
+│                       │                          ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │                          │       026-33630 
+│                       │                          ├ [5] : https://errata.almalinux.org/10/ALSA-2026-42096.html 
+│                       │                          ├ [6] : https://errata.rockylinux.org/RLSA-2026:42096 
+│                       │                          ├ [7] : https://github.com/c-ares/c-ares/commit/1fa3b86a0b8d
+│                       │                          │       18fe7b60f3228a01d770feb026bc 
+│                       │                          ├ [8] : https://github.com/c-ares/c-ares/commit/d823199b6880
+│                       │                          │       52dcdc1646f2ab4cb8c16b1c644a 
+│                       │                          ├ [9] : https://linux.oracle.com/cve/CVE-2026-33630.html 
+│                       │                          ├ [10]: https://linux.oracle.com/errata/ELSA-2026-42096.html 
+│                       │                          ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-33630 
+│                       │                          ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-33630 
 │                       ├ [1]   ╭ VulnerabilityID : CVE-2026-11352 
 │                       │       ├ PkgID           : curl@8.20.0-r1 
 │                       │       ├ PkgName         : curl 
@@ -1815,7 +1823,7 @@
 │                       │       │                  ╰ [5]: https://www.nlnetlabs.nl/downloads/ldns/CVE-2026-1084
 │                       │       │                         6.txt 
 │                       │       ├ PublishedDate   : 2026-06-10T07:16:24.443Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T14:07:53.217Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T09:10:00.113Z 
 │                       ├ [38]  ╭ VulnerabilityID : CVE-2026-10846 
 │                       │       ├ PkgID           : ldns@1.8.4-r1 
 │                       │       ├ PkgName         : ldns 
@@ -1867,7 +1875,7 @@
 │                       │       │                  ╰ [5]: https://www.nlnetlabs.nl/downloads/ldns/CVE-2026-1084
 │                       │       │                         6.txt 
 │                       │       ├ PublishedDate   : 2026-06-10T07:16:24.443Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T14:07:53.217Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T09:10:00.113Z 
 │                       ├ [39]  ╭ VulnerabilityID : CVE-2026-45447 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
@@ -2033,7 +2041,7 @@
 │                       │       │                  ├ [71]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [72]: https://www.cve.org/CVERecord?id=CVE-2026-45447 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.277Z 
-│                       │       ╰ LastModifiedDate: 2026-07-20T12:19:30.657Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [40]  ╭ VulnerabilityID : CVE-2026-34182 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
@@ -2199,7 +2207,7 @@
 │                       │       │                  ├ [59]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-34182 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.857Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.97Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [41]  ╭ VulnerabilityID : CVE-2026-34183 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
@@ -2341,7 +2349,7 @@
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-34183 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:05Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:38:37.143Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [42]  ╭ VulnerabilityID : CVE-2026-42764 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
@@ -2480,7 +2488,7 @@
 │                       │       │                  ├ [56]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2026-42764 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.693Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:48:21.63Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [43]  ╭ VulnerabilityID : CVE-2026-45445 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
@@ -2658,7 +2666,7 @@
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-45445 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:18.993Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:52:03.793Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [44]  ╭ VulnerabilityID : CVE-2026-34180 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
@@ -2811,7 +2819,7 @@
 │                       │       │                  ├ [59]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-34180 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.6Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.66Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [45]  ╭ VulnerabilityID : CVE-2026-34181 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
@@ -2949,7 +2957,7 @@
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-34181 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.74Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.82Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [46]  ╭ VulnerabilityID : CVE-2026-42766 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
@@ -3094,7 +3102,7 @@
 │                       │       │                  ├ [59]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-42766 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.97Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:48:21.947Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [47]  ╭ VulnerabilityID : CVE-2026-42767 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
@@ -3235,7 +3243,7 @@
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-42767 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.093Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.107Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [48]  ╭ VulnerabilityID : CVE-2026-42768 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
@@ -3428,7 +3436,7 @@
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-42768 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.223Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.263Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [49]  ╭ VulnerabilityID : CVE-2026-42769 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
@@ -3507,6 +3515,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-295 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
@@ -3594,7 +3603,7 @@
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-42769 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.377Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.467Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [50]  ╭ VulnerabilityID : CVE-2026-42770 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
@@ -3662,6 +3671,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-325 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ azure      : 1 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 1 
 │                       │       │                  ├ redhat     : 1 
@@ -3751,7 +3761,7 @@
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-42770 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.523Z 
-│                       │       ╰ LastModifiedDate: 2026-07-20T17:17:08.87Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [51]  ╭ VulnerabilityID : CVE-2026-45446 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
@@ -3922,7 +3932,7 @@
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-45446 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.137Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:52:03.967Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [52]  ╭ VulnerabilityID : CVE-2026-7383 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
@@ -4083,7 +4093,7 @@
 │                       │       │                  ├ [59]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-7383 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:50.337Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T11:02:19.433Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [53]  ╭ VulnerabilityID : CVE-2026-9076 
 │                       │       ├ PkgID           : libcrypto3@3.5.6-r0 
 │                       │       ├ PkgName         : libcrypto3 
@@ -4249,7 +4259,7 @@
 │                       │       │                  ├ [59]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-9076 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:50.997Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T11:04:47.973Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [54]  ╭ VulnerabilityID : CVE-2026-11352 
 │                       │       ├ PkgID           : libcurl@8.20.0-r1 
 │                       │       ├ PkgName         : libcurl 
@@ -5775,6 +5785,7 @@
 │                       │       │                   caller's accessible process tree, leading to local denial
 │                       │       │                   of service. 
 │                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-390 
 │                       │       ├ VendorSeverity   ─ redhat: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:
 │                       │       │                           │           N/A:H 
@@ -5785,7 +5796,7 @@
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-59845 
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-59845 
 │                       │       ├ PublishedDate   : 2026-07-21T12:18:58.103Z 
-│                       │       ╰ LastModifiedDate: 2026-07-22T20:17:03.6Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T15:17:27.83Z 
 │                       ├ [90]  ╭ VulnerabilityID : CVE-2026-59847 
 │                       │       ├ PkgID           : libssh@0.12.0-r0 
 │                       │       ├ PkgName         : libssh 
@@ -5850,6 +5861,7 @@
 │                       │       │                   keep queued indefinitely, causing unbounded memory growth
 │                       │       │                   and client-side denial of service. 
 │                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-770 
 │                       │       ├ VendorSeverity   ─ redhat: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:L 
@@ -5860,7 +5872,7 @@
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-59848 
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-59848 
 │                       │       ├ PublishedDate   : 2026-07-21T14:16:34.79Z 
-│                       │       ╰ LastModifiedDate: 2026-07-22T20:17:04.123Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T15:17:28.747Z 
 │                       ├ [92]  ╭ VulnerabilityID : CVE-2026-59850 
 │                       │       ├ PkgID           : libssh@0.12.0-r0 
 │                       │       ├ PkgName         : libssh 
@@ -5966,6 +5978,7 @@
 │                       │       │                   metacharacters, exposing environment variables and causing
 │                       │       │                   unintended shell behavior. 
 │                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-77 
 │                       │       ├ VendorSeverity   ─ redhat: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:
 │                       │       │                           │           L/A:N 
@@ -5976,7 +5989,7 @@
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-59846 
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-59846 
 │                       │       ├ PublishedDate   : 2026-07-21T13:17:18.143Z 
-│                       │       ╰ LastModifiedDate: 2026-07-22T20:17:03.777Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T14:17:31.49Z 
 │                       ├ [95]  ╭ VulnerabilityID : CVE-2026-59849 
 │                       │       ├ PkgID           : libssh@0.12.0-r0 
 │                       │       ├ PkgName         : libssh 
@@ -6376,7 +6389,7 @@
 │                       │       │                  ├ [71]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [72]: https://www.cve.org/CVERecord?id=CVE-2026-45447 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.277Z 
-│                       │       ╰ LastModifiedDate: 2026-07-20T12:19:30.657Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [100] ╭ VulnerabilityID : CVE-2026-34182 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
@@ -6542,7 +6555,7 @@
 │                       │       │                  ├ [59]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-34182 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.857Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.97Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [101] ╭ VulnerabilityID : CVE-2026-34183 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
@@ -6684,7 +6697,7 @@
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-34183 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:05Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:38:37.143Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [102] ╭ VulnerabilityID : CVE-2026-42764 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
@@ -6823,7 +6836,7 @@
 │                       │       │                  ├ [56]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2026-42764 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.693Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:48:21.63Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [103] ╭ VulnerabilityID : CVE-2026-45445 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
@@ -7001,7 +7014,7 @@
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-45445 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:18.993Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:52:03.793Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [104] ╭ VulnerabilityID : CVE-2026-34180 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
@@ -7154,7 +7167,7 @@
 │                       │       │                  ├ [59]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-34180 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.6Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.66Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [105] ╭ VulnerabilityID : CVE-2026-34181 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
@@ -7292,7 +7305,7 @@
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-34181 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.74Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.82Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [106] ╭ VulnerabilityID : CVE-2026-42766 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
@@ -7437,7 +7450,7 @@
 │                       │       │                  ├ [59]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-42766 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.97Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:48:21.947Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [107] ╭ VulnerabilityID : CVE-2026-42767 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
@@ -7578,7 +7591,7 @@
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-42767 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.093Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.107Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [108] ╭ VulnerabilityID : CVE-2026-42768 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
@@ -7771,7 +7784,7 @@
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-42768 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.223Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.263Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [109] ╭ VulnerabilityID : CVE-2026-42769 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
@@ -7850,6 +7863,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-295 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
@@ -7937,7 +7951,7 @@
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-42769 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.377Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.467Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [110] ╭ VulnerabilityID : CVE-2026-42770 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
@@ -8005,6 +8019,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-325 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ azure      : 1 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 1 
 │                       │       │                  ├ redhat     : 1 
@@ -8094,7 +8109,7 @@
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-42770 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.523Z 
-│                       │       ╰ LastModifiedDate: 2026-07-20T17:17:08.87Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [111] ╭ VulnerabilityID : CVE-2026-45446 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
@@ -8265,7 +8280,7 @@
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-45446 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.137Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:52:03.967Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [112] ╭ VulnerabilityID : CVE-2026-7383 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
@@ -8426,7 +8441,7 @@
 │                       │       │                  ├ [59]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-7383 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:50.337Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T11:02:19.433Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [113] ╭ VulnerabilityID : CVE-2026-9076 
 │                       │       ├ PkgID           : libssl3@3.5.6-r0 
 │                       │       ├ PkgName         : libssl3 
@@ -8592,7 +8607,7 @@
 │                       │       │                  ├ [59]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-9076 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:50.997Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T11:04:47.973Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [114] ╭ VulnerabilityID : CVE-2026-6732 
 │                       │       ├ PkgID           : libxml2@2.13.9-r1 
 │                       │       ├ PkgName         : libxml2 
@@ -8811,7 +8826,7 @@
 │                       │       │                  ├ [71]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [72]: https://www.cve.org/CVERecord?id=CVE-2026-45447 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.277Z 
-│                       │       ╰ LastModifiedDate: 2026-07-20T12:19:30.657Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [116] ╭ VulnerabilityID : CVE-2026-34182 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
@@ -8977,7 +8992,7 @@
 │                       │       │                  ├ [59]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-34182 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.857Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.97Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [117] ╭ VulnerabilityID : CVE-2026-34183 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
@@ -9119,7 +9134,7 @@
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-34183 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:05Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:38:37.143Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [118] ╭ VulnerabilityID : CVE-2026-42764 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
@@ -9258,7 +9273,7 @@
 │                       │       │                  ├ [56]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2026-42764 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.693Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:48:21.63Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [119] ╭ VulnerabilityID : CVE-2026-45445 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
@@ -9436,7 +9451,7 @@
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-45445 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:18.993Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:52:03.793Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [120] ╭ VulnerabilityID : CVE-2026-34180 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
@@ -9589,7 +9604,7 @@
 │                       │       │                  ├ [59]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-34180 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.6Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.66Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [121] ╭ VulnerabilityID : CVE-2026-34181 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
@@ -9727,7 +9742,7 @@
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-34181 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:04.74Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:38:36.82Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [122] ╭ VulnerabilityID : CVE-2026-42766 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
@@ -9872,7 +9887,7 @@
 │                       │       │                  ├ [59]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-42766 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.97Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:48:21.947Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [123] ╭ VulnerabilityID : CVE-2026-42767 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
@@ -10013,7 +10028,7 @@
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-42767 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.093Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.107Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [124] ╭ VulnerabilityID : CVE-2026-42768 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
@@ -10206,7 +10221,7 @@
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-42768 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.223Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.263Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [125] ╭ VulnerabilityID : CVE-2026-42769 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
@@ -10285,6 +10300,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-295 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 1 
@@ -10372,7 +10388,7 @@
 │                       │       │                  ├ [57]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [58]: https://www.cve.org/CVERecord?id=CVE-2026-42769 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.377Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:48:22.467Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [126] ╭ VulnerabilityID : CVE-2026-42770 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
@@ -10440,6 +10456,7 @@
 │                       │       ├ CweIDs           ─ [0]: CWE-325 
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
 │                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ azure      : 1 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ photon     : 1 
 │                       │       │                  ├ redhat     : 1 
@@ -10529,7 +10546,7 @@
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-42770 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:08.523Z 
-│                       │       ╰ LastModifiedDate: 2026-07-20T17:17:08.87Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [127] ╭ VulnerabilityID : CVE-2026-45446 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
@@ -10700,7 +10717,7 @@
 │                       │       │                  ├ [58]: https://ubuntu.com/security/notices/USN-8414-1 
 │                       │       │                  ╰ [59]: https://www.cve.org/CVERecord?id=CVE-2026-45446 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:19.137Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:52:03.967Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [128] ╭ VulnerabilityID : CVE-2026-7383 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
@@ -10861,7 +10878,7 @@
 │                       │       │                  ├ [59]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-7383 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:50.337Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T11:02:19.433Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [129] ╭ VulnerabilityID : CVE-2026-9076 
 │                       │       ├ PkgID           : openssl@3.5.6-r0 
 │                       │       ├ PkgName         : openssl 
@@ -11027,7 +11044,7 @@
 │                       │       │                  ├ [59]: https://ubuntu.com/security/notices/USN-8414-2 
 │                       │       │                  ╰ [60]: https://www.cve.org/CVERecord?id=CVE-2026-9076 
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:50.997Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T11:04:47.973Z 
+│                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
 │                       ├ [130] ╭ VulnerabilityID : CVE-2026-2100 
 │                       │       ├ PkgID           : p11-kit@0.25.5-r2 
 │                       │       ├ PkgName         : p11-kit 
@@ -16418,7 +16435,8 @@
                         │      │                  ├ amazon     : 3 
                         │      │                  ├ ghsa       : 3 
                         │      │                  ├ oracle-oval: 3 
-                        │      │                  ╰ redhat     : 3 
+                        │      │                  ├ redhat     : 3 
+                        │      │                  ╰ rocky      : 3 
                         │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
                         │      │                  │        │           /A:H 
                         │      │                  │        ╰ V3Score : 8.1 
@@ -16429,18 +16447,25 @@
                         │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-54512 
                         │      │                  ├ [2] : https://bugzilla.redhat.com/2492010 
                         │      │                  ├ [3] : https://bugzilla.redhat.com/2492015 
-                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2026-40895.html 
-                        │      │                  ├ [5] : https://github.com/FasterXML/jackson-databind 
-                        │      │                  ├ [6] : https://github.com/FasterXML/jackson-databind/commit/
+                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
+                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2492015 
+                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+                        │      │                  │       26-54512 
+                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+                        │      │                  │       26-54513 
+                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-40895.html 
+                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:40895 
+                        │      │                  ├ [10]: https://github.com/FasterXML/jackson-databind 
+                        │      │                  ├ [11]: https://github.com/FasterXML/jackson-databind/commit/
                         │      │                  │       434d6c511de7fdd9872f29157aafb6162d12d8d5 
-                        │      │                  ├ [7] : https://github.com/FasterXML/jackson-databind/issues/
+                        │      │                  ├ [12]: https://github.com/FasterXML/jackson-databind/issues/
                         │      │                  │       5988 
-                        │      │                  ├ [8] : https://github.com/FasterXML/jackson-databind/securit
+                        │      │                  ├ [13]: https://github.com/FasterXML/jackson-databind/securit
                         │      │                  │       y/advisories/GHSA-j3rv-43j4-c7qm 
-                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2026-54512.html 
-                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2026-40895.html 
-                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-54512 
-                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-54512 
+                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-54512.html 
+                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-43400.html 
+                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-54512 
+                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2026-54512 
                         │      ├ PublishedDate   : 2026-06-23T21:17:02.203Z 
                         │      ╰ LastModifiedDate: 2026-06-27T21:01:36.47Z 
                         ├ [2]  ╭ VulnerabilityID : CVE-2026-54513 
@@ -16487,7 +16512,8 @@
                         │      │                  ├ amazon     : 3 
                         │      │                  ├ ghsa       : 3 
                         │      │                  ├ oracle-oval: 3 
-                        │      │                  ╰ redhat     : 3 
+                        │      │                  ├ redhat     : 3 
+                        │      │                  ╰ rocky      : 3 
                         │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
                         │      │                  │        │           /A:H 
                         │      │                  │        ╰ V3Score : 8.1 
@@ -16498,31 +16524,45 @@
                         │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:40895 
                         │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:41951 
                         │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:43218 
-                        │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2026-54513 
-                        │      │                  ├ [5] : https://bugzilla.redhat.com/2492010 
-                        │      │                  ├ [6] : https://bugzilla.redhat.com/2492015 
-                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
-                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-40895.html 
-                        │      │                  ├ [9] : https://github.com/FasterXML/jackson-databind 
-                        │      │                  ├ [10]: https://github.com/FasterXML/jackson-databind/commit/
+                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:43400 
+                        │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:44061 
+                        │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2026:44062 
+                        │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2026:44063 
+                        │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2026:44064 
+                        │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2026:44065 
+                        │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2026:44066 
+                        │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2026:44271 
+                        │      │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2026-54513 
+                        │      │                  ├ [13]: https://bugzilla.redhat.com/2492010 
+                        │      │                  ├ [14]: https://bugzilla.redhat.com/2492015 
+                        │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
+                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2492015 
+                        │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+                        │      │                  │       26-54512 
+                        │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+                        │      │                  │       26-54513 
+                        │      │                  ├ [19]: https://errata.almalinux.org/9/ALSA-2026-40895.html 
+                        │      │                  ├ [20]: https://errata.rockylinux.org/RLSA-2026:40895 
+                        │      │                  ├ [21]: https://github.com/FasterXML/jackson-databind 
+                        │      │                  ├ [22]: https://github.com/FasterXML/jackson-databind/commit/
                         │      │                  │       01d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5 
-                        │      │                  ├ [11]: https://github.com/FasterXML/jackson-databind/commit/
+                        │      │                  ├ [23]: https://github.com/FasterXML/jackson-databind/commit/
                         │      │                  │       24529da29fdf46ff94ca38de9ebf31cd188f5e8e 
-                        │      │                  ├ [12]: https://github.com/FasterXML/jackson-databind/issues/
+                        │      │                  ├ [24]: https://github.com/FasterXML/jackson-databind/issues/
                         │      │                  │       5981 
-                        │      │                  ├ [13]: https://github.com/FasterXML/jackson-databind/issues/
+                        │      │                  ├ [25]: https://github.com/FasterXML/jackson-databind/issues/
                         │      │                  │       5983 
-                        │      │                  ├ [14]: https://github.com/FasterXML/jackson-databind/pull/5984 
-                        │      │                  ├ [15]: https://github.com/FasterXML/jackson-databind/securit
+                        │      │                  ├ [26]: https://github.com/FasterXML/jackson-databind/pull/5984 
+                        │      │                  ├ [27]: https://github.com/FasterXML/jackson-databind/securit
                         │      │                  │       y/advisories/GHSA-rmj7-2vxq-3g9f 
-                        │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2026-54513.html 
-                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2026-40895.html 
-                        │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
-                        │      │                  ├ [19]: https://security.access.redhat.com/data/csaf/v2/vex/2
+                        │      │                  ├ [28]: https://linux.oracle.com/cve/CVE-2026-54513.html 
+                        │      │                  ├ [29]: https://linux.oracle.com/errata/ELSA-2026-43400.html 
+                        │      │                  ├ [30]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
+                        │      │                  ├ [31]: https://security.access.redhat.com/data/csaf/v2/vex/2
                         │      │                  │       026/cve-2026-54513.json 
-                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
+                        │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
                         │      ├ PublishedDate   : 2026-06-23T21:17:02.333Z 
-                        │      ╰ LastModifiedDate: 2026-07-22T12:18:14.063Z 
+                        │      ╰ LastModifiedDate: 2026-07-23T12:18:26.847Z 
                         ├ [3]  ╭ VulnerabilityID : CVE-2026-54514 
                         │      ├ VendorIDs        ─ [0]: GHSA-hgj6-7826-r7m5 
                         │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
