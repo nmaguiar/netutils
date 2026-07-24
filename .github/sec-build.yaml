@@ -453,7 +453,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-10846
     - https://www.nlnetlabs.nl/downloads/ldns/CVE-2026-10846.txt
     PublishedDate: '2026-06-10T07:16:24.443Z'
-    LastModifiedDate: '2026-06-17T14:07:53.217Z'
+    LastModifiedDate: '2026-07-23T09:10:00.113Z'
   - VulnerabilityID: CVE-2025-59529
     PkgID: libavahi-client3@0.8-18ubuntu1.1
     PkgName: libavahi-client3
@@ -759,22 +759,33 @@
     - CWE-787
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:42733
+    - https://access.redhat.com/errata/RHSA-2026:42952
     - https://access.redhat.com/security/cve/CVE-2026-5435
     - https://bugzilla.redhat.com/2459854
     - https://bugzilla.redhat.com/2463465
     - https://bugzilla.redhat.com/2463539
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2459854
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463465
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463539
     - https://cert-portal.siemens.com/productcert/html/ssa-082556.html
-    - https://errata.almalinux.org/8/ALSA-2026-42733.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238
+    - https://errata.almalinux.org/9/ALSA-2026-42952.html
+    - https://errata.rockylinux.org/RLSA-2026:42733
     - https://inbox.sourceware.org/libc-alpha/cover.1777546194.git.fweimer@redhat.com/
     - https://inbox.sourceware.org/libc-announce/7a655d55-276f-41fe-b550-feb3ebb2ce91@redhat.com/T/#u
+    - https://linux.oracle.com/cve/CVE-2026-5435.html
+    - https://linux.oracle.com/errata/ELSA-2026-42952.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5435
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34033
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0011
@@ -809,22 +820,33 @@
     - CWE-126
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:42733
+    - https://access.redhat.com/errata/RHSA-2026:42952
     - https://access.redhat.com/security/cve/CVE-2026-6238
     - https://bugzilla.redhat.com/2459854
     - https://bugzilla.redhat.com/2463465
     - https://bugzilla.redhat.com/2463539
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2459854
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463465
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463539
     - https://cert-portal.siemens.com/productcert/html/ssa-082556.html
-    - https://errata.almalinux.org/8/ALSA-2026-42733.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238
+    - https://errata.almalinux.org/9/ALSA-2026-42952.html
+    - https://errata.rockylinux.org/RLSA-2026:42733
     - https://inbox.sourceware.org/libc-alpha/cover.1777546194.git.fweimer@redhat.com/
     - https://inbox.sourceware.org/libc-announce/7a655d55-276f-41fe-b550-feb3ebb2ce91@redhat.com/T/#u
+    - https://linux.oracle.com/cve/CVE-2026-6238.html
+    - https://linux.oracle.com/errata/ELSA-2026-42952.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6238
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34069
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0012
@@ -923,22 +945,33 @@
     - CWE-787
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:42733
+    - https://access.redhat.com/errata/RHSA-2026:42952
     - https://access.redhat.com/security/cve/CVE-2026-5435
     - https://bugzilla.redhat.com/2459854
     - https://bugzilla.redhat.com/2463465
     - https://bugzilla.redhat.com/2463539
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2459854
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463465
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463539
     - https://cert-portal.siemens.com/productcert/html/ssa-082556.html
-    - https://errata.almalinux.org/8/ALSA-2026-42733.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238
+    - https://errata.almalinux.org/9/ALSA-2026-42952.html
+    - https://errata.rockylinux.org/RLSA-2026:42733
     - https://inbox.sourceware.org/libc-alpha/cover.1777546194.git.fweimer@redhat.com/
     - https://inbox.sourceware.org/libc-announce/7a655d55-276f-41fe-b550-feb3ebb2ce91@redhat.com/T/#u
+    - https://linux.oracle.com/cve/CVE-2026-5435.html
+    - https://linux.oracle.com/errata/ELSA-2026-42952.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5435
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34033
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0011
@@ -973,22 +1006,33 @@
     - CWE-126
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:42733
+    - https://access.redhat.com/errata/RHSA-2026:42952
     - https://access.redhat.com/security/cve/CVE-2026-6238
     - https://bugzilla.redhat.com/2459854
     - https://bugzilla.redhat.com/2463465
     - https://bugzilla.redhat.com/2463539
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2459854
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463465
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463539
     - https://cert-portal.siemens.com/productcert/html/ssa-082556.html
-    - https://errata.almalinux.org/8/ALSA-2026-42733.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238
+    - https://errata.almalinux.org/9/ALSA-2026-42952.html
+    - https://errata.rockylinux.org/RLSA-2026:42733
     - https://inbox.sourceware.org/libc-alpha/cover.1777546194.git.fweimer@redhat.com/
     - https://inbox.sourceware.org/libc-announce/7a655d55-276f-41fe-b550-feb3ebb2ce91@redhat.com/T/#u
+    - https://linux.oracle.com/cve/CVE-2026-6238.html
+    - https://linux.oracle.com/errata/ELSA-2026-42952.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6238
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34069
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0012
@@ -1087,22 +1131,33 @@
     - CWE-787
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:42733
+    - https://access.redhat.com/errata/RHSA-2026:42952
     - https://access.redhat.com/security/cve/CVE-2026-5435
     - https://bugzilla.redhat.com/2459854
     - https://bugzilla.redhat.com/2463465
     - https://bugzilla.redhat.com/2463539
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2459854
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463465
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463539
     - https://cert-portal.siemens.com/productcert/html/ssa-082556.html
-    - https://errata.almalinux.org/8/ALSA-2026-42733.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238
+    - https://errata.almalinux.org/9/ALSA-2026-42952.html
+    - https://errata.rockylinux.org/RLSA-2026:42733
     - https://inbox.sourceware.org/libc-alpha/cover.1777546194.git.fweimer@redhat.com/
     - https://inbox.sourceware.org/libc-announce/7a655d55-276f-41fe-b550-feb3ebb2ce91@redhat.com/T/#u
+    - https://linux.oracle.com/cve/CVE-2026-5435.html
+    - https://linux.oracle.com/errata/ELSA-2026-42952.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5435
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34033
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0011
@@ -1137,22 +1192,33 @@
     - CWE-126
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:42733
+    - https://access.redhat.com/errata/RHSA-2026:42952
     - https://access.redhat.com/security/cve/CVE-2026-6238
     - https://bugzilla.redhat.com/2459854
     - https://bugzilla.redhat.com/2463465
     - https://bugzilla.redhat.com/2463539
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2459854
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463465
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463539
     - https://cert-portal.siemens.com/productcert/html/ssa-082556.html
-    - https://errata.almalinux.org/8/ALSA-2026-42733.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238
+    - https://errata.almalinux.org/9/ALSA-2026-42952.html
+    - https://errata.rockylinux.org/RLSA-2026:42733
     - https://inbox.sourceware.org/libc-alpha/cover.1777546194.git.fweimer@redhat.com/
     - https://inbox.sourceware.org/libc-announce/7a655d55-276f-41fe-b550-feb3ebb2ce91@redhat.com/T/#u
+    - https://linux.oracle.com/cve/CVE-2026-6238.html
+    - https://linux.oracle.com/errata/ELSA-2026-42952.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6238
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34069
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0012
@@ -2822,7 +2888,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-10846
     - https://www.nlnetlabs.nl/downloads/ldns/CVE-2026-10846.txt
     PublishedDate: '2026-06-10T07:16:24.443Z'
-    LastModifiedDate: '2026-06-17T14:07:53.217Z'
+    LastModifiedDate: '2026-07-23T09:10:00.113Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: libmount1@2.41.3-3ubuntu2
     PkgName: libmount1
@@ -2998,6 +3064,132 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
     LastModifiedDate: '2026-07-13T06:16:24.863Z'
+  - VulnerabilityID: CVE-2026-54411
+    PkgID: libpam-modules@1.7.0-5ubuntu3
+    PkgName: libpam-modules
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-modules@1.7.0-5ubuntu3?arch=amd64&distro=ubuntu-26.04
+      UID: 137f39630c331470
+    InstalledVersion: 1.7.0-5ubuntu3
+    FixedVersion: 1.7.0-5ubuntu3.1
+    Status: fixed
+    Layer:
+      Digest: sha256:57c1c80129617d8b4432912fe7f9f4f5318958cf458c59769a1ea879b1b27f45
+      DiffID: sha256:e096435c7e4fbe34b628ea645d878f1723de77f34d096bc6a17e9027b91afc13
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54411
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:9d85fe16c9c30865cccbcb47c55574f967b2e597720118f744b8665bbf575ba7
+    Title: 'linux-pam: Plaintext password recovery via timing discrepancy in pam_userdb module'
+    Description: Linux-PAM through 1.7.2 contains an observable timing discrepancy (CWE-208) in the pam_userdb module's plaintext-password comparison path in modules/pam_userdb/pam_userdb.c that allows a local or network-adjacent attacker able to repeatedly drive authentication through a calling service to recover the plaintext password of a target account by measuring response-timing differences. The comparison uses strncmp() (or strncasecmp() when PAM_ICASE_ARG is set) preceded by a length-equality check, so the time to reject a candidate depends on the index of the first differing byte and on whether the candidate's length matches the stored password, leaking the password length and individual prefix bytes. The vulnerable path is reached when the administrator configures pam_userdb with crypt=none, with an unrecognized crypt method, or without a crypt= argument, causing the module to store and compare credentials in plaintext.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-208
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-54411
+    - https://cwe.mitre.org/data/definitions/208.html
+    - https://github.com/linux-pam/linux-pam
+    - https://github.com/linux-pam/linux-pam/blob/master/libpam/include/pam_inline.h
+    - https://github.com/linux-pam/linux-pam/blob/master/modules/pam_userdb/pam_userdb.c#L327
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54411
+    - https://ubuntu.com/security/notices/USN-8601-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-54411
+    PublishedDate: '2026-06-14T18:17:20.587Z'
+    LastModifiedDate: '2026-07-23T11:10:00.12Z'
+  - VulnerabilityID: CVE-2026-54411
+    PkgID: libpam-modules-bin@1.7.0-5ubuntu3
+    PkgName: libpam-modules-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-modules-bin@1.7.0-5ubuntu3?arch=amd64&distro=ubuntu-26.04
+      UID: 81bb57aae67f59d7
+    InstalledVersion: 1.7.0-5ubuntu3
+    FixedVersion: 1.7.0-5ubuntu3.1
+    Status: fixed
+    Layer:
+      Digest: sha256:57c1c80129617d8b4432912fe7f9f4f5318958cf458c59769a1ea879b1b27f45
+      DiffID: sha256:e096435c7e4fbe34b628ea645d878f1723de77f34d096bc6a17e9027b91afc13
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54411
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4c0b3440d419476a439a6bd606f577fad1b46bab1be4f921ddb63f1999327b69
+    Title: 'linux-pam: Plaintext password recovery via timing discrepancy in pam_userdb module'
+    Description: Linux-PAM through 1.7.2 contains an observable timing discrepancy (CWE-208) in the pam_userdb module's plaintext-password comparison path in modules/pam_userdb/pam_userdb.c that allows a local or network-adjacent attacker able to repeatedly drive authentication through a calling service to recover the plaintext password of a target account by measuring response-timing differences. The comparison uses strncmp() (or strncasecmp() when PAM_ICASE_ARG is set) preceded by a length-equality check, so the time to reject a candidate depends on the index of the first differing byte and on whether the candidate's length matches the stored password, leaking the password length and individual prefix bytes. The vulnerable path is reached when the administrator configures pam_userdb with crypt=none, with an unrecognized crypt method, or without a crypt= argument, causing the module to store and compare credentials in plaintext.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-208
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-54411
+    - https://cwe.mitre.org/data/definitions/208.html
+    - https://github.com/linux-pam/linux-pam
+    - https://github.com/linux-pam/linux-pam/blob/master/libpam/include/pam_inline.h
+    - https://github.com/linux-pam/linux-pam/blob/master/modules/pam_userdb/pam_userdb.c#L327
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54411
+    - https://ubuntu.com/security/notices/USN-8601-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-54411
+    PublishedDate: '2026-06-14T18:17:20.587Z'
+    LastModifiedDate: '2026-07-23T11:10:00.12Z'
+  - VulnerabilityID: CVE-2026-54411
+    PkgID: libpam-runtime@1.7.0-5ubuntu3
+    PkgName: libpam-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-runtime@1.7.0-5ubuntu3?arch=all&distro=ubuntu-26.04
+      UID: 3ae834e0c49118c4
+    InstalledVersion: 1.7.0-5ubuntu3
+    FixedVersion: 1.7.0-5ubuntu3.1
+    Status: fixed
+    Layer:
+      Digest: sha256:57c1c80129617d8b4432912fe7f9f4f5318958cf458c59769a1ea879b1b27f45
+      DiffID: sha256:e096435c7e4fbe34b628ea645d878f1723de77f34d096bc6a17e9027b91afc13
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54411
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:3ba15f304423020024f09d9b74f6c7e0394cf346d9729ac3441ea0c80d0747ca
+    Title: 'linux-pam: Plaintext password recovery via timing discrepancy in pam_userdb module'
+    Description: Linux-PAM through 1.7.2 contains an observable timing discrepancy (CWE-208) in the pam_userdb module's plaintext-password comparison path in modules/pam_userdb/pam_userdb.c that allows a local or network-adjacent attacker able to repeatedly drive authentication through a calling service to recover the plaintext password of a target account by measuring response-timing differences. The comparison uses strncmp() (or strncasecmp() when PAM_ICASE_ARG is set) preceded by a length-equality check, so the time to reject a candidate depends on the index of the first differing byte and on whether the candidate's length matches the stored password, leaking the password length and individual prefix bytes. The vulnerable path is reached when the administrator configures pam_userdb with crypt=none, with an unrecognized crypt method, or without a crypt= argument, causing the module to store and compare credentials in plaintext.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-208
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-54411
+    - https://cwe.mitre.org/data/definitions/208.html
+    - https://github.com/linux-pam/linux-pam
+    - https://github.com/linux-pam/linux-pam/blob/master/libpam/include/pam_inline.h
+    - https://github.com/linux-pam/linux-pam/blob/master/modules/pam_userdb/pam_userdb.c#L327
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54411
+    - https://ubuntu.com/security/notices/USN-8601-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-54411
+    PublishedDate: '2026-06-14T18:17:20.587Z'
+    LastModifiedDate: '2026-07-23T11:10:00.12Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libpam-systemd@259.5-0ubuntu3
     PkgName: libpam-systemd
@@ -3040,6 +3232,48 @@
     - https://www.openwall.com/lists/oss-security/2026/04/08/1
     PublishedDate: '2026-04-10T16:16:33.753Z'
     LastModifiedDate: '2026-06-17T10:44:53.31Z'
+  - VulnerabilityID: CVE-2026-54411
+    PkgID: libpam0g@1.7.0-5ubuntu3
+    PkgName: libpam0g
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam0g@1.7.0-5ubuntu3?arch=amd64&distro=ubuntu-26.04
+      UID: 652be9272f2621d0
+    InstalledVersion: 1.7.0-5ubuntu3
+    FixedVersion: 1.7.0-5ubuntu3.1
+    Status: fixed
+    Layer:
+      Digest: sha256:57c1c80129617d8b4432912fe7f9f4f5318958cf458c59769a1ea879b1b27f45
+      DiffID: sha256:e096435c7e4fbe34b628ea645d878f1723de77f34d096bc6a17e9027b91afc13
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54411
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:c07aec6241425c6e9aef4c7a3f17e58c96cf74b1b1ffa8a6d15d09d1b43e4742
+    Title: 'linux-pam: Plaintext password recovery via timing discrepancy in pam_userdb module'
+    Description: Linux-PAM through 1.7.2 contains an observable timing discrepancy (CWE-208) in the pam_userdb module's plaintext-password comparison path in modules/pam_userdb/pam_userdb.c that allows a local or network-adjacent attacker able to repeatedly drive authentication through a calling service to recover the plaintext password of a target account by measuring response-timing differences. The comparison uses strncmp() (or strncasecmp() when PAM_ICASE_ARG is set) preceded by a length-equality check, so the time to reject a candidate depends on the index of the first differing byte and on whether the candidate's length matches the stored password, leaking the password length and individual prefix bytes. The vulnerable path is reached when the administrator configures pam_userdb with crypt=none, with an unrecognized crypt method, or without a crypt= argument, causing the module to store and compare credentials in plaintext.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-208
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-54411
+    - https://cwe.mitre.org/data/definitions/208.html
+    - https://github.com/linux-pam/linux-pam
+    - https://github.com/linux-pam/linux-pam/blob/master/libpam/include/pam_inline.h
+    - https://github.com/linux-pam/linux-pam/blob/master/modules/pam_userdb/pam_userdb.c#L327
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54411
+    - https://ubuntu.com/security/notices/USN-8601-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-54411
+    PublishedDate: '2026-06-14T18:17:20.587Z'
+    LastModifiedDate: '2026-07-23T11:10:00.12Z'
   - VulnerabilityID: CVE-2023-37769
     PkgID: libpixman-1-0@0.46.4-1
     PkgName: libpixman-1-0
@@ -3349,10 +3583,16 @@
     VendorSeverity:
       amazon: 2
       azure: 2
+      julia: 2
       nvd: 3
       redhat: 2
       ubuntu: 2
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N
+        V3Score: 7.5
+        V40Score: 6.9
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -3997,22 +4237,33 @@
     - CWE-787
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:42733
+    - https://access.redhat.com/errata/RHSA-2026:42952
     - https://access.redhat.com/security/cve/CVE-2026-5435
     - https://bugzilla.redhat.com/2459854
     - https://bugzilla.redhat.com/2463465
     - https://bugzilla.redhat.com/2463539
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2459854
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463465
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463539
     - https://cert-portal.siemens.com/productcert/html/ssa-082556.html
-    - https://errata.almalinux.org/8/ALSA-2026-42733.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238
+    - https://errata.almalinux.org/9/ALSA-2026-42952.html
+    - https://errata.rockylinux.org/RLSA-2026:42733
     - https://inbox.sourceware.org/libc-alpha/cover.1777546194.git.fweimer@redhat.com/
     - https://inbox.sourceware.org/libc-announce/7a655d55-276f-41fe-b550-feb3ebb2ce91@redhat.com/T/#u
+    - https://linux.oracle.com/cve/CVE-2026-5435.html
+    - https://linux.oracle.com/errata/ELSA-2026-42952.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5435
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34033
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0011
@@ -4047,22 +4298,33 @@
     - CWE-126
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:42733
+    - https://access.redhat.com/errata/RHSA-2026:42952
     - https://access.redhat.com/security/cve/CVE-2026-6238
     - https://bugzilla.redhat.com/2459854
     - https://bugzilla.redhat.com/2463465
     - https://bugzilla.redhat.com/2463539
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2459854
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463465
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2463539
     - https://cert-portal.siemens.com/productcert/html/ssa-082556.html
-    - https://errata.almalinux.org/8/ALSA-2026-42733.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5928
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6238
+    - https://errata.almalinux.org/9/ALSA-2026-42952.html
+    - https://errata.rockylinux.org/RLSA-2026:42733
     - https://inbox.sourceware.org/libc-alpha/cover.1777546194.git.fweimer@redhat.com/
     - https://inbox.sourceware.org/libc-announce/7a655d55-276f-41fe-b550-feb3ebb2ce91@redhat.com/T/#u
+    - https://linux.oracle.com/cve/CVE-2026-6238.html
+    - https://linux.oracle.com/errata/ELSA-2026-42952.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-6238
     - https://sourceware.org/bugzilla/show_bug.cgi?id=34069
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0012
@@ -6310,7 +6572,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-41567.json
     - https://www.cve.org/CVERecord?id=CVE-2026-41567
     PublishedDate: '2026-06-05T02:17:13.817Z'
-    LastModifiedDate: '2026-07-22T12:17:49.767Z'
+    LastModifiedDate: '2026-07-23T07:10:00.113Z'
   - VulnerabilityID: CVE-2026-42306
     VendorIDs:
     - GHSA-rg2x-37c3-w2rh
@@ -6489,7 +6751,7 @@
     - https://groups.google.com/g/golang-announce/c/6MMI8Lj-Atg
     - https://pkg.go.dev/vuln/GO-2026-5024
     PublishedDate: '2026-05-22T20:16:33.057Z'
-    LastModifiedDate: '2026-06-17T10:42:38.62Z'
+    LastModifiedDate: '2026-07-23T16:10:00.137Z'
   - VulnerabilityID: CVE-2026-56852
     VendorIDs:
     - GO-2026-5970
@@ -6510,15 +6772,17 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:f7efb13b9a57f25831f307c8d475c1a7642f4d13140065884b8dc6e8c2deaa3c
-    Title: Infinite loop on invalid input in golang.org/x/text
+    Title: A norm.Iter can enter an infinite loop when handling input containing  ...
     Description: A norm.Iter can enter an infinite loop when handling input containing invalid UTF-8 bytes.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-835
     References:
     - https://go.dev/cl/794100
     - https://go.dev/issue/80142
     - https://pkg.go.dev/vuln/GO-2026-5970
     PublishedDate: '2026-07-21T20:17:02.867Z'
-    LastModifiedDate: '2026-07-21T20:17:02.867Z'
+    LastModifiedDate: '2026-07-23T18:27:48.877Z'
 - Target: usr/bin/pebble
   Class: lang-pkgs
   Type: gobinary
@@ -6595,7 +6859,7 @@
     - https://pkg.go.dev/vuln/GO-2026-5029
     - https://www.cve.org/CVERecord?id=CVE-2026-25681
     PublishedDate: '2026-05-22T16:16:19.863Z'
-    LastModifiedDate: '2026-06-17T10:25:03.343Z'
+    LastModifiedDate: '2026-07-23T16:10:00.137Z'
   - VulnerabilityID: CVE-2026-27136
     VendorIDs:
     - GO-2026-5030
@@ -6667,7 +6931,7 @@
     - https://pkg.go.dev/vuln/GO-2026-5030
     - https://www.cve.org/CVERecord?id=CVE-2026-27136
     PublishedDate: '2026-05-22T16:16:20.087Z'
-    LastModifiedDate: '2026-06-17T10:26:43.803Z'
+    LastModifiedDate: '2026-07-23T16:10:00.137Z'
   - VulnerabilityID: CVE-2026-33814
     VendorIDs:
     - GO-2026-4918
@@ -6724,6 +6988,7 @@
     - https://access.redhat.com/errata/RHSA-2026:34342
     - https://access.redhat.com/errata/RHSA-2026:37387
     - https://access.redhat.com/errata/RHSA-2026:42644
+    - https://access.redhat.com/errata/RHSA-2026:43692
     - https://access.redhat.com/security/cve/CVE-2026-33814
     - https://bugzilla.redhat.com/show_bug.cgi?id=2467815
     - https://github.com/golang/go/issues/78476
@@ -6744,7 +7009,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-07-21T12:18:10.55Z'
+    LastModifiedDate: '2026-07-23T12:17:31.173Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -6860,6 +7125,8 @@
     - https://access.redhat.com/errata/RHSA-2026:42796
     - https://access.redhat.com/errata/RHSA-2026:42852
     - https://access.redhat.com/errata/RHSA-2026:43038
+    - https://access.redhat.com/errata/RHSA-2026:43052
+    - https://access.redhat.com/errata/RHSA-2026:43692
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -6880,7 +7147,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-07-22T12:17:43.027Z'
+    LastModifiedDate: '2026-07-23T16:10:00.137Z'
   - VulnerabilityID: CVE-2025-47911
     VendorIDs:
     - GO-2026-4440
@@ -7029,7 +7296,7 @@
     - https://pkg.go.dev/vuln/GO-2026-5028
     - https://www.cve.org/CVERecord?id=CVE-2026-25680
     PublishedDate: '2026-05-22T16:16:19.753Z'
-    LastModifiedDate: '2026-06-17T10:25:03.14Z'
+    LastModifiedDate: '2026-07-23T16:10:00.137Z'
   - VulnerabilityID: CVE-2026-42502
     VendorIDs:
     - GO-2026-5027
@@ -7072,7 +7339,7 @@
     - https://pkg.go.dev/vuln/GO-2026-5027
     - https://www.cve.org/CVERecord?id=CVE-2026-42502
     PublishedDate: '2026-05-22T16:16:20.587Z'
-    LastModifiedDate: '2026-06-17T10:47:56.593Z'
+    LastModifiedDate: '2026-07-23T16:10:00.137Z'
   - VulnerabilityID: CVE-2026-42506
     VendorIDs:
     - GO-2026-5025
@@ -7115,7 +7382,7 @@
     - https://pkg.go.dev/vuln/GO-2026-5025
     - https://www.cve.org/CVERecord?id=CVE-2026-42506
     PublishedDate: '2026-05-22T16:16:20.803Z'
-    LastModifiedDate: '2026-06-17T10:47:56.993Z'
+    LastModifiedDate: '2026-07-23T16:10:00.137Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -7136,15 +7403,17 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:2059285151d1ff0035c328aa3085766dc7145ab87c5f4a065b52de6a1ac0c269
-    Title: Parsing an invalid SVCB or HTTPS RR can panic in golang.org/x/net/dns/dnsmessage
+    Title: Parsing an invalid SVCB or HTTPS RR can panic when the size of a param ...
     Description: Parsing an invalid SVCB or HTTPS RR can panic when the size of a parameter value overflows the message buffer.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-125
     References:
     - https://go.dev/cl/786345
     - https://go.dev/issue/79795
     - https://pkg.go.dev/vuln/GO-2026-5942
     PublishedDate: '2026-07-21T20:17:01.213Z'
-    LastModifiedDate: '2026-07-21T20:17:01.213Z'
+    LastModifiedDate: '2026-07-23T18:27:48.877Z'
   - VulnerabilityID: CVE-2026-39824
     VendorIDs:
     - GO-2026-5024
@@ -7176,7 +7445,7 @@
     - https://groups.google.com/g/golang-announce/c/6MMI8Lj-Atg
     - https://pkg.go.dev/vuln/GO-2026-5024
     PublishedDate: '2026-05-22T20:16:33.057Z'
-    LastModifiedDate: '2026-06-17T10:42:38.62Z'
+    LastModifiedDate: '2026-07-23T16:10:00.137Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
