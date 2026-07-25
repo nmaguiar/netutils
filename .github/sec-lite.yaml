@@ -1862,21 +1862,8 @@
     - https://access.redhat.com/errata/RHSA-2026:39009
     - https://access.redhat.com/errata/RHSA-2026:39012
     - https://access.redhat.com/errata/RHSA-2026:39981
+    - https://access.redhat.com/errata/RHSA-2026:44438
     - https://access.redhat.com/security/cve/CVE-2026-45447
-    - https://bugzilla.redhat.com/2481879
-    - https://bugzilla.redhat.com/2481880
-    - https://bugzilla.redhat.com/2481881
-    - https://bugzilla.redhat.com/2481882
-    - https://bugzilla.redhat.com/2481884
-    - https://bugzilla.redhat.com/2481885
-    - https://bugzilla.redhat.com/2481887
-    - https://bugzilla.redhat.com/2481890
-    - https://bugzilla.redhat.com/2481891
-    - https://bugzilla.redhat.com/2481892
-    - https://bugzilla.redhat.com/2481893
-    - https://bugzilla.redhat.com/2481894
-    - https://bugzilla.redhat.com/2481896
-    - https://bugzilla.redhat.com/2481897
     - https://bugzilla.redhat.com/2481898
     - https://bugzilla.redhat.com/show_bug.cgi?id=2481879
     - https://bugzilla.redhat.com/show_bug.cgi?id=2481880
@@ -1908,7 +1895,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-45447
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
-    - https://errata.almalinux.org/9/ALSA-2026-25239.html
+    - https://errata.almalinux.org/9/ALSA-2026-44438.html
     - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/3aad5eb7af4de4ee0633c30a8541a54d9bbde63c
     - https://github.com/openssl/openssl/commit/7d4a980c62258c5910cc883936e0c8dbab4d75a8
@@ -1924,7 +1911,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-45447
     PublishedDate: '2026-06-09T17:17:19.277Z'
-    LastModifiedDate: '2026-07-23T08:10:00.137Z'
+    LastModifiedDate: '2026-07-24T13:18:23.377Z'
   - VulnerabilityID: CVE-2026-34182
     PkgID: libcrypto3@3.5.6-r0
     PkgName: libcrypto3
@@ -5666,21 +5653,8 @@
     - https://access.redhat.com/errata/RHSA-2026:39009
     - https://access.redhat.com/errata/RHSA-2026:39012
     - https://access.redhat.com/errata/RHSA-2026:39981
+    - https://access.redhat.com/errata/RHSA-2026:44438
     - https://access.redhat.com/security/cve/CVE-2026-45447
-    - https://bugzilla.redhat.com/2481879
-    - https://bugzilla.redhat.com/2481880
-    - https://bugzilla.redhat.com/2481881
-    - https://bugzilla.redhat.com/2481882
-    - https://bugzilla.redhat.com/2481884
-    - https://bugzilla.redhat.com/2481885
-    - https://bugzilla.redhat.com/2481887
-    - https://bugzilla.redhat.com/2481890
-    - https://bugzilla.redhat.com/2481891
-    - https://bugzilla.redhat.com/2481892
-    - https://bugzilla.redhat.com/2481893
-    - https://bugzilla.redhat.com/2481894
-    - https://bugzilla.redhat.com/2481896
-    - https://bugzilla.redhat.com/2481897
     - https://bugzilla.redhat.com/2481898
     - https://bugzilla.redhat.com/show_bug.cgi?id=2481879
     - https://bugzilla.redhat.com/show_bug.cgi?id=2481880
@@ -5712,7 +5686,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-45447
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
-    - https://errata.almalinux.org/9/ALSA-2026-25239.html
+    - https://errata.almalinux.org/9/ALSA-2026-44438.html
     - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/3aad5eb7af4de4ee0633c30a8541a54d9bbde63c
     - https://github.com/openssl/openssl/commit/7d4a980c62258c5910cc883936e0c8dbab4d75a8
@@ -5728,7 +5702,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-45447
     PublishedDate: '2026-06-09T17:17:19.277Z'
-    LastModifiedDate: '2026-07-23T08:10:00.137Z'
+    LastModifiedDate: '2026-07-24T13:18:23.377Z'
   - VulnerabilityID: CVE-2026-34182
     PkgID: libssl3@3.5.6-r0
     PkgName: libssl3
@@ -7632,21 +7606,8 @@
     - https://access.redhat.com/errata/RHSA-2026:39009
     - https://access.redhat.com/errata/RHSA-2026:39012
     - https://access.redhat.com/errata/RHSA-2026:39981
+    - https://access.redhat.com/errata/RHSA-2026:44438
     - https://access.redhat.com/security/cve/CVE-2026-45447
-    - https://bugzilla.redhat.com/2481879
-    - https://bugzilla.redhat.com/2481880
-    - https://bugzilla.redhat.com/2481881
-    - https://bugzilla.redhat.com/2481882
-    - https://bugzilla.redhat.com/2481884
-    - https://bugzilla.redhat.com/2481885
-    - https://bugzilla.redhat.com/2481887
-    - https://bugzilla.redhat.com/2481890
-    - https://bugzilla.redhat.com/2481891
-    - https://bugzilla.redhat.com/2481892
-    - https://bugzilla.redhat.com/2481893
-    - https://bugzilla.redhat.com/2481894
-    - https://bugzilla.redhat.com/2481896
-    - https://bugzilla.redhat.com/2481897
     - https://bugzilla.redhat.com/2481898
     - https://bugzilla.redhat.com/show_bug.cgi?id=2481879
     - https://bugzilla.redhat.com/show_bug.cgi?id=2481880
@@ -7678,7 +7639,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-45447
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7383
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9076
-    - https://errata.almalinux.org/9/ALSA-2026-25239.html
+    - https://errata.almalinux.org/9/ALSA-2026-44438.html
     - https://errata.rockylinux.org/RLSA-2026:25239
     - https://github.com/openssl/openssl/commit/3aad5eb7af4de4ee0633c30a8541a54d9bbde63c
     - https://github.com/openssl/openssl/commit/7d4a980c62258c5910cc883936e0c8dbab4d75a8
@@ -7694,7 +7655,7 @@
     - https://ubuntu.com/security/notices/USN-8414-2
     - https://www.cve.org/CVERecord?id=CVE-2026-45447
     PublishedDate: '2026-06-09T17:17:19.277Z'
-    LastModifiedDate: '2026-07-23T08:10:00.137Z'
+    LastModifiedDate: '2026-07-24T13:18:23.377Z'
   - VulnerabilityID: CVE-2026-34182
     PkgID: openssl@3.5.6-r0
     PkgName: openssl
