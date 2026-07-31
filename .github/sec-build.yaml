@@ -5869,7 +5869,7 @@
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-41567.json
     - https://www.cve.org/CVERecord?id=CVE-2026-41567
     PublishedDate: '2026-06-05T02:17:13.817Z'
-    LastModifiedDate: '2026-07-27T13:17:57.79Z'
+    LastModifiedDate: '2026-07-30T12:18:32.233Z'
   - VulnerabilityID: CVE-2026-42306
     VendorIDs:
     - GHSA-rg2x-37c3-w2rh
@@ -5890,7 +5890,7 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Fingerprint: sha256:4e190087f8b4f1f88c8815b2273056aba111badbbdf811d4d97ee895d15a4aea
-    Title: Moby is an open source container framework. In Docker Engine prior to  ...
+    Title: 'github.com/docker/docker: github.com/moby/moby: Moby container framework: Host file overwrite via race condition in docker cp mount setup'
     Description: Moby is an open source container framework. In Docker Engine prior to version 29.5.1, Docker Daemon versions 28.5.2 and prior, and Moby Daemon prior to version 2.0.0-beta.14, a race condition during docker cp mount setup allows a malicious container to redirect a bind mount target to an arbitrary host path, potentially overwriting host files or causing denial of service. This issue has been patched in Docker Engine version 29.5.1 and Moby Daemon version 2.0.0-beta.14.
     Severity: HIGH
     CweIDs:
@@ -5901,6 +5901,7 @@
       ghsa: 3
       nvd: 3
       photon: 3
+      redhat: 3
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:H/A:H
@@ -5908,10 +5909,15 @@
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:H/A:H
         V3Score: 7.2
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:H/A:H
+        V3Score: 7.2
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-42306
     - https://github.com/moby/moby
     - https://github.com/moby/moby/security/advisories/GHSA-rg2x-37c3-w2rh
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42306
+    - https://www.cve.org/CVERecord?id=CVE-2026-42306
     PublishedDate: '2026-06-12T19:16:27.49Z'
     LastModifiedDate: '2026-06-17T10:47:39.96Z'
   - VulnerabilityID: CVE-2026-33997
@@ -6430,6 +6436,10 @@
     - https://access.redhat.com/errata/RHSA-2026:44622
     - https://access.redhat.com/errata/RHSA-2026:44624
     - https://access.redhat.com/errata/RHSA-2026:46395
+    - https://access.redhat.com/errata/RHSA-2026:47149
+    - https://access.redhat.com/errata/RHSA-2026:47735
+    - https://access.redhat.com/errata/RHSA-2026:47737
+    - https://access.redhat.com/errata/RHSA-2026:47952
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -6450,7 +6460,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-07-28T13:18:08.463Z'
+    LastModifiedDate: '2026-07-30T12:18:21.263Z'
   - VulnerabilityID: CVE-2025-47911
     VendorIDs:
     - GO-2026-4440
