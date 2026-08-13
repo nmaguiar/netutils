@@ -293,17 +293,18 @@
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-52949 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2332702 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2332702 
-│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [4] : https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-52949 
-│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-7064.html 
-│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:7064 
-│                       │       │                  ├ [7] : https://github.com/iptraf-ng/iptraf-ng/releases/tag/
+│                       │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-7064.html 
+│                       │       │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:7064 
+│                       │       │                  ├ [8] : https://github.com/iptraf-ng/iptraf-ng/releases/tag/
 │                       │       │                  │       v1.2.1 
-│                       │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-52949.html 
-│                       │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-7064.html 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-52949 
-│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-52949 
-│                       │       │                  ╰ [12]: https://www.gruppotim.it/it/footer/red-team.html 
+│                       │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-52949.html 
+│                       │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7064.html 
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-52949 
+│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-52949 
+│                       │       │                  ╰ [13]: https://www.gruppotim.it/it/footer/red-team.html 
 │                       │       ├ PublishedDate   : 2024-12-16T22:15:06.863Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:07:55.18Z 
 │                       ├ [5]   ╭ VulnerabilityID : CVE-2026-10846 
@@ -353,20 +354,22 @@
 │                       │       │                           ╰ V3Score : 7.5 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/06/1
 │                       │       │                  │       0/2 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:50108 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-10846 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2487437 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2487437 
-│                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:49520 
+│                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:50108 
+│                       │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-10846 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2487437 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2487437 
+│                       │       │                  ├ [6] : https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-10846 
-│                       │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-50108.html 
-│                       │       │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:50108 
-│                       │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2026-10846.html 
-│                       │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2026-50108-0.html 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-10846 
-│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-8449-1 
-│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2026-10846 
-│                       │       │                  ╰ [13]: https://www.nlnetlabs.nl/downloads/ldns/CVE-2026-108
+│                       │       │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2026-49520.html 
+│                       │       │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:50108 
+│                       │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2026-10846.html 
+│                       │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2026-50108-0.html 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-10846 
+│                       │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-8449-1 
+│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2026-10846 
+│                       │       │                  ╰ [15]: https://www.nlnetlabs.nl/downloads/ldns/CVE-2026-108
 │                       │       │                          46.txt 
 │                       │       ├ PublishedDate   : 2026-06-10T07:16:24.443Z 
 │                       │       ╰ LastModifiedDate: 2026-07-23T09:10:00.113Z 
@@ -1138,21 +1141,22 @@
 │                       │       │                  ├ [4] : https://bugzilla.redhat.com/2245218 
 │                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2245218 
 │                       │       │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2268268 
-│                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [7] : https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-2236 
-│                       │       │                  ├ [8] : https://dev.gnupg.org/T7136 
-│                       │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-9404.html 
-│                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:9404 
-│                       │       │                  ├ [11]: https://github.com/tomato42/marvin-toolkit/tree/mast
+│                       │       │                  ├ [9] : https://dev.gnupg.org/T7136 
+│                       │       │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-9404.html 
+│                       │       │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:9404 
+│                       │       │                  ├ [12]: https://github.com/tomato42/marvin-toolkit/tree/mast
 │                       │       │                  │       er/example/libgcrypt 
-│                       │       │                  ├ [12]: https://gitlab.com/redhat-crypto/libgcrypt/libgcrypt
+│                       │       │                  ├ [13]: https://gitlab.com/redhat-crypto/libgcrypt/libgcrypt
 │                       │       │                  │       -mirror/-/merge_requests/17 
-│                       │       │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-2236.html 
-│                       │       │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-9404.html 
-│                       │       │                  ├ [15]: https://lists.gnupg.org/pipermail/gcrypt-devel/2024-
+│                       │       │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-2236.html 
+│                       │       │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-9404.html 
+│                       │       │                  ├ [16]: https://lists.gnupg.org/pipermail/gcrypt-devel/2024-
 │                       │       │                  │       March/005607.html 
-│                       │       │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
-│                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
+│                       │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
+│                       │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                       │       ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T07:24:06.083Z 
 │                       ├ [19]  ╭ VulnerabilityID : CVE-2019-9514 
@@ -1860,20 +1864,22 @@
 │                       │       │                           ╰ V3Score : 7.5 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/06/1
 │                       │       │                  │       0/2 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:50108 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-10846 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2487437 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2487437 
-│                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:49520 
+│                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:50108 
+│                       │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-10846 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2487437 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2487437 
+│                       │       │                  ├ [6] : https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-10846 
-│                       │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-50108.html 
-│                       │       │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:50108 
-│                       │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2026-10846.html 
-│                       │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2026-50108-0.html 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-10846 
-│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-8449-1 
-│                       │       │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2026-10846 
-│                       │       │                  ╰ [13]: https://www.nlnetlabs.nl/downloads/ldns/CVE-2026-108
+│                       │       │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2026-49520.html 
+│                       │       │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:50108 
+│                       │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2026-10846.html 
+│                       │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2026-50108-0.html 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-10846 
+│                       │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-8449-1 
+│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2026-10846 
+│                       │       │                  ╰ [15]: https://www.nlnetlabs.nl/downloads/ldns/CVE-2026-108
 │                       │       │                          46.txt 
 │                       │       ├ PublishedDate   : 2026-06-10T07:16:24.443Z 
 │                       │       ╰ LastModifiedDate: 2026-07-23T09:10:00.113Z 
@@ -2205,20 +2211,22 @@
 │                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:49667 
 │                       │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:49668 
 │                       │       │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:53371 
-│                       │       │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2026-13757 
-│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2494556 
-│                       │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2494556 
-│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:54387 
+│                       │       │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2026-13757 
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2494556 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2494556 
+│                       │       │                  ├ [9] : https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-13757 
-│                       │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2026-49667.html 
-│                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:49667 
-│                       │       │                  ├ [11]: https://github.com/advisories/GHSA-p2wm-69qx-x25w 
-│                       │       │                  ├ [12]: https://linux.oracle.com/cve/CVE-2026-13757.html 
-│                       │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-49668.html 
-│                       │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2026-13757 
-│                       │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2026-13757 
+│                       │       │                  ├ [11]: https://errata.almalinux.org/10/ALSA-2026-49668.html 
+│                       │       │                  ├ [12]: https://errata.rockylinux.org/RLSA-2026:49667 
+│                       │       │                  ├ [13]: https://github.com/advisories/GHSA-p2wm-69qx-x25w 
+│                       │       │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-13757.html 
+│                       │       │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-49668.html 
+│                       │       │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-13757 
+│                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2026-13757 
 │                       │       ├ PublishedDate   : 2026-06-29T19:16:40.907Z 
-│                       │       ╰ LastModifiedDate: 2026-08-11T10:17:11.68Z 
+│                       │       ╰ LastModifiedDate: 2026-08-12T16:16:52.253Z 
 │                       ├ [31]  ╭ VulnerabilityID : CVE-2026-15059 
 │                       │       ├ PkgID           : libpam-systemd@259.5-0ubuntu3.3 
 │                       │       ├ PkgName         : libpam-systemd 
@@ -3805,20 +3813,21 @@
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56433 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2334165 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2334165 
-│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [4] : https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-56433 
-│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
-│                       │       │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d57
+│                       │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
+│                       │       │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:20559 
+│                       │       │                  ├ [8] : https://github.com/shadow-maint/shadow/blob/e2512d57
 │                       │       │                  │       41d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238
 │                       │       │                  │       -L241 
-│                       │       │                  ├ [8] : https://github.com/shadow-maint/shadow/issues/1157 
-│                       │       │                  ├ [9] : https://github.com/shadow-maint/shadow/releases/tag/
+│                       │       │                  ├ [9] : https://github.com/shadow-maint/shadow/issues/1157 
+│                       │       │                  ├ [10]: https://github.com/shadow-maint/shadow/releases/tag/
 │                       │       │                  │       4.4 
-│                       │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2024-56433.html 
-│                       │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-20559-0.html 
-│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
-│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
+│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-56433.html 
+│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-20559-0.html 
+│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
+│                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:12:10.903Z 
 │                       ├ [64]  ╭ VulnerabilityID : CVE-2026-27456 
@@ -3992,20 +4001,21 @@
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56433 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2334165 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2334165 
-│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [4] : https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-56433 
-│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
-│                       │       │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d57
+│                       │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
+│                       │       │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:20559 
+│                       │       │                  ├ [8] : https://github.com/shadow-maint/shadow/blob/e2512d57
 │                       │       │                  │       41d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238
 │                       │       │                  │       -L241 
-│                       │       │                  ├ [8] : https://github.com/shadow-maint/shadow/issues/1157 
-│                       │       │                  ├ [9] : https://github.com/shadow-maint/shadow/releases/tag/
+│                       │       │                  ├ [9] : https://github.com/shadow-maint/shadow/issues/1157 
+│                       │       │                  ├ [10]: https://github.com/shadow-maint/shadow/releases/tag/
 │                       │       │                  │       4.4 
-│                       │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2024-56433.html 
-│                       │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-20559-0.html 
-│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
-│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
+│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-56433.html 
+│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-20559-0.html 
+│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
+│                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:12:10.903Z 
 │                       ├ [67]  ╭ VulnerabilityID : CVE-2026-35341 
