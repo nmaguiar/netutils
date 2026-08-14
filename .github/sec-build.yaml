@@ -283,14 +283,13 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/06/10/2
-    - https://access.redhat.com/errata/RHSA-2026:49520
     - https://access.redhat.com/errata/RHSA-2026:50108
     - https://access.redhat.com/security/cve/CVE-2026-10846
     - https://bugzilla.redhat.com/2487437
     - https://bugzilla.redhat.com/show_bug.cgi?id=2487437
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-10846
-    - https://errata.almalinux.org/8/ALSA-2026-49520.html
+    - https://errata.almalinux.org/9/ALSA-2026-50108.html
     - https://errata.rockylinux.org/RLSA-2026:50108
     - https://linux.oracle.com/cve/CVE-2026-10846.html
     - https://linux.oracle.com/errata/ELSA-2026-50108-0.html
@@ -1465,14 +1464,13 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/06/10/2
-    - https://access.redhat.com/errata/RHSA-2026:49520
     - https://access.redhat.com/errata/RHSA-2026:50108
     - https://access.redhat.com/security/cve/CVE-2026-10846
     - https://bugzilla.redhat.com/2487437
     - https://bugzilla.redhat.com/show_bug.cgi?id=2487437
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-10846
-    - https://errata.almalinux.org/8/ALSA-2026-49520.html
+    - https://errata.almalinux.org/9/ALSA-2026-50108.html
     - https://errata.rockylinux.org/RLSA-2026:50108
     - https://linux.oracle.com/cve/CVE-2026-10846.html
     - https://linux.oracle.com/errata/ELSA-2026-50108-0.html
@@ -1594,6 +1592,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:f852d02966d10fea95411b16df018a6249359845732890b7d4054e3d55eb250d
+    Title: Local unprivileged users can terminate arbitrary local processes  ...
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
@@ -1626,6 +1625,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:09a81382dec7020ab55f9f7c3ce5809ca77e327100df0d816a4e79b409c9d32b
+    Title: When systemd-machined >= v259 (or v258 with a custom `polkit` pol ...
     Description: |-
       When systemd-machined >= v259 (or v258 with a custom `polkit` policy that allows `register-machine` access) is running on a desktop system, an unprivileged user logged in a desktop graphical session can kill arbitrary processes, even privileged ones.
 
@@ -1665,6 +1665,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:a5ad5c98e3fb2190322390dc2f80b4ff4d798f17f7c863f6d1282e13d74806aa
+    Title: systemd-homed contains a local privilege escalation bug via arbit ...
     Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
     Severity: MEDIUM
     CweIDs:
@@ -1760,12 +1761,13 @@
     - https://access.redhat.com/errata/RHSA-2026:49668
     - https://access.redhat.com/errata/RHSA-2026:53371
     - https://access.redhat.com/errata/RHSA-2026:54387
+    - https://access.redhat.com/errata/RHSA-2026:54760
     - https://access.redhat.com/security/cve/CVE-2026-13757
     - https://bugzilla.redhat.com/2494556
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-13757
-    - https://errata.almalinux.org/10/ALSA-2026-49668.html
+    - https://errata.almalinux.org/9/ALSA-2026-49667.html
     - https://errata.rockylinux.org/RLSA-2026:49667
     - https://github.com/advisories/GHSA-p2wm-69qx-x25w
     - https://linux.oracle.com/cve/CVE-2026-13757.html
@@ -1773,7 +1775,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13757
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-08-12T16:16:52.253Z'
+    LastModifiedDate: '2026-08-13T21:17:40.737Z'
   - VulnerabilityID: CVE-2026-15059
     PkgID: libpam-systemd@259.5-0ubuntu3.3
     PkgName: libpam-systemd
@@ -1793,6 +1795,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:39ecabeadd3a3c256a7c26243bc5715819acd50b8b48cc7f27a98bf56f3ff678
+    Title: Local unprivileged users can terminate arbitrary local processes  ...
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
@@ -1825,6 +1828,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:2f14848044f1d51d03cce5db9e5236bd97dc48da5616677d367dc99521548e44
+    Title: When systemd-machined >= v259 (or v258 with a custom `polkit` pol ...
     Description: |-
       When systemd-machined >= v259 (or v258 with a custom `polkit` policy that allows `register-machine` access) is running on a desktop system, an unprivileged user logged in a desktop graphical session can kill arbitrary processes, even privileged ones.
 
@@ -1864,6 +1868,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:79bd2612f37f1efab8f1e0a78fc195d725df1a3c8250fa7ec8ef125b8899b879
+    Title: systemd-homed contains a local privilege escalation bug via arbit ...
     Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
     Severity: MEDIUM
     CweIDs:
@@ -2208,6 +2213,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:925eaa69ae9d46d04234a4cd2cc5a7d9e34fe9960fe7bddfadd595d84014ea7e
+    Title: Local unprivileged users can terminate arbitrary local processes  ...
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
@@ -2240,6 +2246,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:5d1b86076bbfe09acd2cf47e67c6d11773f198f14bb7b62e438bb7fd6df0f650
+    Title: When systemd-machined >= v259 (or v258 with a custom `polkit` pol ...
     Description: |-
       When systemd-machined >= v259 (or v258 with a custom `polkit` policy that allows `register-machine` access) is running on a desktop system, an unprivileged user logged in a desktop graphical session can kill arbitrary processes, even privileged ones.
 
@@ -2279,6 +2286,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:4022436da105aadeec285c1e2184329b08807fee4b81af24f6216aae98d7fbf8
+    Title: systemd-homed contains a local privilege escalation bug via arbit ...
     Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
     Severity: MEDIUM
     CweIDs:
@@ -2353,6 +2361,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:440d5244290ef7399eb8221f59437c416ba31cdc75ace55f8ebe528eb672031f
+    Title: Local unprivileged users can terminate arbitrary local processes  ...
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
@@ -2385,6 +2394,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:1ce3ada8e8f5dd15ad5984b9828ffa12b184acdc9b6301735e5784f57ff428c3
+    Title: When systemd-machined >= v259 (or v258 with a custom `polkit` pol ...
     Description: |-
       When systemd-machined >= v259 (or v258 with a custom `polkit` policy that allows `register-machine` access) is running on a desktop system, an unprivileged user logged in a desktop graphical session can kill arbitrary processes, even privileged ones.
 
@@ -2424,6 +2434,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:6bedd57c6531ad4cf1ba2ced73aaf0d47a5fd1a29fb3b46f709f6670d1b7c409
+    Title: systemd-homed contains a local privilege escalation bug via arbit ...
     Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
     Severity: MEDIUM
     CweIDs:
@@ -2604,6 +2615,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:13a01456d927d6b77ff805944c6ed3195c2af54a5c8c6e0e12410a455a7ccc10
+    Title: Local unprivileged users can terminate arbitrary local processes  ...
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
@@ -2636,6 +2648,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:663edccaa9bad802362bf9142d3b413adb0c4caae6fa2f94cc73e18bbc5af0a7
+    Title: When systemd-machined >= v259 (or v258 with a custom `polkit` pol ...
     Description: |-
       When systemd-machined >= v259 (or v258 with a custom `polkit` policy that allows `register-machine` access) is running on a desktop system, an unprivileged user logged in a desktop graphical session can kill arbitrary processes, even privileged ones.
 
@@ -2675,6 +2688,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:f8275f02b40ae5aa48461b3c4de02fe1902adef04084133326d7e5b473a8a085
+    Title: systemd-homed contains a local privilege escalation bug via arbit ...
     Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
     Severity: MEDIUM
     CweIDs:
@@ -4096,6 +4110,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:e2ed97a93cc0cffa3e2150e66e4408df9bd9d237a9578286725af9d627515f47
+    Title: Local unprivileged users can terminate arbitrary local processes  ...
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
@@ -4128,6 +4143,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:0c61828b769fa73c9e895363f905329627f9f3cb9461c34fa6ea716aa0ecc793
+    Title: When systemd-machined >= v259 (or v258 with a custom `polkit` pol ...
     Description: |-
       When systemd-machined >= v259 (or v258 with a custom `polkit` policy that allows `register-machine` access) is running on a desktop system, an unprivileged user logged in a desktop graphical session can kill arbitrary processes, even privileged ones.
 
@@ -4167,6 +4183,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:af24358f36288b65f35fb03bbf062f27ad842b77ae433d0ae650fe27e24456ba
+    Title: systemd-homed contains a local privilege escalation bug via arbit ...
     Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
     Severity: MEDIUM
     CweIDs:
@@ -4241,6 +4258,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:ee0b9fccf970dd353ee6b0ff96a7532a4af63bf472a33fcc9b1ede5fc56bf3d6
+    Title: Local unprivileged users can terminate arbitrary local processes  ...
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
@@ -4273,6 +4291,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:144e95d282471cbc487f6fbb826a1015177161a92a96d24a3dbdd3bf75fca0f4
+    Title: When systemd-machined >= v259 (or v258 with a custom `polkit` pol ...
     Description: |-
       When systemd-machined >= v259 (or v258 with a custom `polkit` policy that allows `register-machine` access) is running on a desktop system, an unprivileged user logged in a desktop graphical session can kill arbitrary processes, even privileged ones.
 
@@ -4312,6 +4331,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:3461f6ed1f36cf6b95850e14d0e15c615321c222423dec0404c9c46c957a194b
+    Title: systemd-homed contains a local privilege escalation bug via arbit ...
     Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
     Severity: MEDIUM
     CweIDs:
@@ -4386,6 +4406,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:fb4b5767de2953a508940a26179f97ca3bfc9679a5c8f091db9e27dcb17ffaba
+    Title: Local unprivileged users can terminate arbitrary local processes  ...
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
@@ -4418,6 +4439,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:e790bafb489f8f6ac78f4075d90add7df8de6964b70de76c71e8df6d40b383e8
+    Title: When systemd-machined >= v259 (or v258 with a custom `polkit` pol ...
     Description: |-
       When systemd-machined >= v259 (or v258 with a custom `polkit` policy that allows `register-machine` access) is running on a desktop system, an unprivileged user logged in a desktop graphical session can kill arbitrary processes, even privileged ones.
 
@@ -4457,6 +4479,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:c0c82ca1f0e03f48fdd6305715839fec3fddb6b793dc7083ccad2fcd6c88a037
+    Title: systemd-homed contains a local privilege escalation bug via arbit ...
     Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
     Severity: MEDIUM
     CweIDs:
@@ -4531,6 +4554,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:c2246c71ac13c99f0e792b094610ff855c7c178d0769484c820a8f3a98ed96e5
+    Title: Local unprivileged users can terminate arbitrary local processes  ...
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
@@ -4563,6 +4587,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:b2569ff8c4d7c52a2b51b8f019967e1f14290bd9aa3abafdbf65f1fecc2ea73b
+    Title: When systemd-machined >= v259 (or v258 with a custom `polkit` pol ...
     Description: |-
       When systemd-machined >= v259 (or v258 with a custom `polkit` policy that allows `register-machine` access) is running on a desktop system, an unprivileged user logged in a desktop graphical session can kill arbitrary processes, even privileged ones.
 
@@ -4602,6 +4627,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:ae7b6105bcabba74feba43caca3c579e3e5941f86beb38d4d03fcdccbb8eaa63
+    Title: systemd-homed contains a local privilege escalation bug via arbit ...
     Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
     Severity: MEDIUM
     CweIDs:
@@ -4676,6 +4702,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:8a0d6242df24775efd890f46c0c873f2a6d82200cfd2a778457b68a1809c8da4
+    Title: Local unprivileged users can terminate arbitrary local processes  ...
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
@@ -4708,6 +4735,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:07b3d8647018f6afd439ce84e6323361eb88ed41d4ba3dcd41a33e158ec58c86
+    Title: When systemd-machined >= v259 (or v258 with a custom `polkit` pol ...
     Description: |-
       When systemd-machined >= v259 (or v258 with a custom `polkit` policy that allows `register-machine` access) is running on a desktop system, an unprivileged user logged in a desktop graphical session can kill arbitrary processes, even privileged ones.
 
@@ -4747,6 +4775,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:4e96b84ece07f2bc23d9ddeaff77fd170145f609d1a9a7a63cc7f27b4f2b89ef
+    Title: systemd-homed contains a local privilege escalation bug via arbit ...
     Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
     Severity: MEDIUM
     CweIDs:
@@ -5817,7 +5846,792 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-56852
     PublishedDate: '2026-07-21T20:17:02.867Z'
     LastModifiedDate: '2026-07-23T18:27:48.877Z'
+  - VulnerabilityID: CVE-2026-39821
+    VendorIDs:
+    - GO-2026-5026
+    PkgID: stdlib@v1.26.5
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.5
+      UID: 500ebbf5f84e5fb9
+    InstalledVersion: v1.26.5
+    FixedVersion: 1.25.13, 1.26.6, 1.27.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920531104cfaf98f5a8bdea
+      DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228183de4cae236707341fd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39821
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:535738939ca261c48cd6e0be7243872cf3cfa2329decf2fb9283ec6ac74e80f3
+    Title: 'golang.org/x/net/idna: golang: net/http: golang.org/x/net/idna: Privilege escalation via incorrect Punycode label processing'
+    Description: The ToASCII and ToUnicode functions incorrectly accept Punycode-encoded labels that decode to an ASCII-only label. For example, ToUnicode("xn--example-.com") incorrectly returns the name "example.com" rather than an error. This behavior can lead to privilege escalation in programs using the idna package. For example, a program which performs privilege checks on the ASCII hostname may reject "example.com" but permit "xn--example-.com". If that program subsequently converts the ASCII hostname to Unicode, it will inadvertently permits access to the Unicode name "example.com".
+    Severity: HIGH
+    CweIDs:
+    - CWE-1289
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      azure: 4
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N
+        V3Score: 8.2
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:23262
+    - https://access.redhat.com/errata/RHSA-2026:23264
+    - https://access.redhat.com/errata/RHSA-2026:26546
+    - https://access.redhat.com/errata/RHSA-2026:26547
+    - https://access.redhat.com/errata/RHSA-2026:30650
+    - https://access.redhat.com/errata/RHSA-2026:30651
+    - https://access.redhat.com/errata/RHSA-2026:30853
+    - https://access.redhat.com/errata/RHSA-2026:30854
+    - https://access.redhat.com/errata/RHSA-2026:30855
+    - https://access.redhat.com/errata/RHSA-2026:33155
+    - https://access.redhat.com/errata/RHSA-2026:33160
+    - https://access.redhat.com/errata/RHSA-2026:33163
+    - https://access.redhat.com/errata/RHSA-2026:33173
+    - https://access.redhat.com/errata/RHSA-2026:33183
+    - https://access.redhat.com/errata/RHSA-2026:33524
+    - https://access.redhat.com/errata/RHSA-2026:33531
+    - https://access.redhat.com/errata/RHSA-2026:34342
+    - https://access.redhat.com/errata/RHSA-2026:34357
+    - https://access.redhat.com/errata/RHSA-2026:34359
+    - https://access.redhat.com/errata/RHSA-2026:34364
+    - https://access.redhat.com/errata/RHSA-2026:34789
+    - https://access.redhat.com/errata/RHSA-2026:35826
+    - https://access.redhat.com/errata/RHSA-2026:35827
+    - https://access.redhat.com/errata/RHSA-2026:35828
+    - https://access.redhat.com/errata/RHSA-2026:35829
+    - https://access.redhat.com/errata/RHSA-2026:35830
+    - https://access.redhat.com/errata/RHSA-2026:35831
+    - https://access.redhat.com/errata/RHSA-2026:35993
+    - https://access.redhat.com/errata/RHSA-2026:35994
+    - https://access.redhat.com/errata/RHSA-2026:36105
+    - https://access.redhat.com/errata/RHSA-2026:36167
+    - https://access.redhat.com/errata/RHSA-2026:36207
+    - https://access.redhat.com/errata/RHSA-2026:36648
+    - https://access.redhat.com/errata/RHSA-2026:36651
+    - https://access.redhat.com/errata/RHSA-2026:36796
+    - https://access.redhat.com/errata/RHSA-2026:36797
+    - https://access.redhat.com/errata/RHSA-2026:36808
+    - https://access.redhat.com/errata/RHSA-2026:36820
+    - https://access.redhat.com/errata/RHSA-2026:36883
+    - https://access.redhat.com/errata/RHSA-2026:37387
+    - https://access.redhat.com/errata/RHSA-2026:37435
+    - https://access.redhat.com/errata/RHSA-2026:37436
+    - https://access.redhat.com/errata/RHSA-2026:38995
+    - https://access.redhat.com/errata/RHSA-2026:39005
+    - https://access.redhat.com/errata/RHSA-2026:39573
+    - https://access.redhat.com/errata/RHSA-2026:39879
+    - https://access.redhat.com/errata/RHSA-2026:40118
+    - https://access.redhat.com/errata/RHSA-2026:40262
+    - https://access.redhat.com/errata/RHSA-2026:40945
+    - https://access.redhat.com/errata/RHSA-2026:41019
+    - https://access.redhat.com/errata/RHSA-2026:41030
+    - https://access.redhat.com/errata/RHSA-2026:41031
+    - https://access.redhat.com/errata/RHSA-2026:41036
+    - https://access.redhat.com/errata/RHSA-2026:41055
+    - https://access.redhat.com/errata/RHSA-2026:41066
+    - https://access.redhat.com/errata/RHSA-2026:41928
+    - https://access.redhat.com/errata/RHSA-2026:41930
+    - https://access.redhat.com/errata/RHSA-2026:42043
+    - https://access.redhat.com/errata/RHSA-2026:42047
+    - https://access.redhat.com/errata/RHSA-2026:42048
+    - https://access.redhat.com/errata/RHSA-2026:42049
+    - https://access.redhat.com/errata/RHSA-2026:42050
+    - https://access.redhat.com/errata/RHSA-2026:42051
+    - https://access.redhat.com/errata/RHSA-2026:42078
+    - https://access.redhat.com/errata/RHSA-2026:42079
+    - https://access.redhat.com/errata/RHSA-2026:42080
+    - https://access.redhat.com/errata/RHSA-2026:42082
+    - https://access.redhat.com/errata/RHSA-2026:42132
+    - https://access.redhat.com/errata/RHSA-2026:42142
+    - https://access.redhat.com/errata/RHSA-2026:42146
+    - https://access.redhat.com/errata/RHSA-2026:42150
+    - https://access.redhat.com/errata/RHSA-2026:42151
+    - https://access.redhat.com/errata/RHSA-2026:42240
+    - https://access.redhat.com/errata/RHSA-2026:42644
+    - https://access.redhat.com/errata/RHSA-2026:42796
+    - https://access.redhat.com/errata/RHSA-2026:42852
+    - https://access.redhat.com/errata/RHSA-2026:43038
+    - https://access.redhat.com/errata/RHSA-2026:43052
+    - https://access.redhat.com/errata/RHSA-2026:43692
+    - https://access.redhat.com/errata/RHSA-2026:44622
+    - https://access.redhat.com/errata/RHSA-2026:44624
+    - https://access.redhat.com/errata/RHSA-2026:46395
+    - https://access.redhat.com/errata/RHSA-2026:47149
+    - https://access.redhat.com/errata/RHSA-2026:47735
+    - https://access.redhat.com/errata/RHSA-2026:47737
+    - https://access.redhat.com/errata/RHSA-2026:47952
+    - https://access.redhat.com/errata/RHSA-2026:50300
+    - https://access.redhat.com/errata/RHSA-2026:50843
+    - https://access.redhat.com/errata/RHSA-2026:51033
+    - https://access.redhat.com/errata/RHSA-2026:51112
+    - https://access.redhat.com/errata/RHSA-2026:51187
+    - https://access.redhat.com/errata/RHSA-2026:51194
+    - https://access.redhat.com/errata/RHSA-2026:51341
+    - https://access.redhat.com/errata/RHSA-2026:52826
+    - https://access.redhat.com/errata/RHSA-2026:53374
+    - https://access.redhat.com/errata/RHSA-2026:53412
+    - https://access.redhat.com/errata/RHSA-2026:53413
+    - https://access.redhat.com/errata/RHSA-2026:53415
+    - https://access.redhat.com/errata/RHSA-2026:53530
+    - https://access.redhat.com/errata/RHSA-2026:54191
+    - https://access.redhat.com/errata/RHSA-2026:54274
+    - https://access.redhat.com/errata/RHSA-2026:54283
+    - https://access.redhat.com/errata/RHSA-2026:54284
+    - https://access.redhat.com/errata/RHSA-2026:54285
+    - https://access.redhat.com/errata/RHSA-2026:54286
+    - https://access.redhat.com/errata/RHSA-2026:54287
+    - https://access.redhat.com/errata/RHSA-2026:54395
+    - https://access.redhat.com/errata/RHSA-2026:54401
+    - https://access.redhat.com/errata/RHSA-2026:54435
+    - https://access.redhat.com/errata/RHSA-2026:54441
+    - https://access.redhat.com/security/cve/CVE-2026-39821
+    - https://bugzilla.redhat.com/2480756
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498152
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39821
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39822
+    - https://errata.almalinux.org/9/ALSA-2026-37435.html
+    - https://errata.rockylinux.org/RLSA-2026:37435
+    - https://github.com/golang/go/issues/78760
+    - https://go.dev/cl/767220
+    - https://go.dev/issue/78760
+    - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://groups.google.com/g/golang-announce/c/iI-mYSI0lu8
+    - https://linux.oracle.com/cve/CVE-2026-39821.html
+    - https://linux.oracle.com/errata/ELSA-2026-46395.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-39821
+    - https://pkg.go.dev/vuln/GO-2026-5026
+    - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39821.json
+    - https://ubuntu.com/security/notices/USN-8416-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-39821
+    PublishedDate: '2026-05-22T16:16:20.41Z'
+    LastModifiedDate: '2026-08-13T22:17:19.973Z'
+  - VulnerabilityID: CVE-2026-46600
+    VendorIDs:
+    - GO-2026-5942
+    PkgID: stdlib@v1.26.5
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.5
+      UID: 500ebbf5f84e5fb9
+    InstalledVersion: v1.26.5
+    FixedVersion: 1.26.6, 1.27.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920531104cfaf98f5a8bdea
+      DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228183de4cae236707341fd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-46600
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:b9e92d9e0ac4584345d405fc4ee35dbb2c0b1acd2a3e57e9be3a8f0eb195e7b6
+    Title: 'golang.org/x/net/dns/dnsmessage: golang.org/x/net/dns/dnsmessage: Denial of Service via invalid DNS record parsing'
+    Description: Parsing an invalid SVCB or HTTPS RR can panic when the size of a parameter value overflows the message buffer.
+    Severity: HIGH
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-46600
+    - https://go.dev/cl/786345
+    - https://go.dev/issue/79795
+    - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-46600
+    - https://pkg.go.dev/vuln/GO-2026-5942
+    - https://www.cve.org/CVERecord?id=CVE-2026-46600
+    PublishedDate: '2026-07-21T20:17:01.213Z'
+    LastModifiedDate: '2026-08-13T22:17:21.913Z'
+  - VulnerabilityID: CVE-2026-33818
+    VendorIDs:
+    - GO-2026-5972
+    PkgID: stdlib@v1.26.5
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.5
+      UID: 500ebbf5f84e5fb9
+    InstalledVersion: v1.26.5
+    FixedVersion: 1.25.13, 1.26.6, 1.27.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920531104cfaf98f5a8bdea
+      DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228183de4cae236707341fd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33818
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:eda230cf6638d4f64ef222c2cf8568e7411682e1dd79d0f9bd937a892fd91df9
+    Title: Enforce maximum recursion depth in encoding/asn1
+    Description: Enforce a recursion limit in Unmarshal to prevent stack exhaustion when parsing deeply-nested, recursive structures.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/814980
+    - https://go.dev/issue/80405
+    - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://pkg.go.dev/vuln/GO-2026-5972
+    PublishedDate: '2026-08-13T22:17:19.84Z'
+    LastModifiedDate: '2026-08-13T22:17:19.84Z'
+  - VulnerabilityID: CVE-2026-56853
+    VendorIDs:
+    - GO-2026-6089
+    PkgID: stdlib@v1.26.5
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.5
+      UID: 500ebbf5f84e5fb9
+    InstalledVersion: v1.26.5
+    FixedVersion: 1.25.13, 1.26.6, 1.27.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920531104cfaf98f5a8bdea
+      DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228183de4cae236707341fd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56853
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:8d7a71dbf38d8ac3fe53d202d54a5a38825ba797b3dea3586c390ae5ea625316
+    Title: Apply ReadHeaderTimeout when doing unencrypted HTTP/2 check in net/http
+    Description: When a server is configured to support unencrypted HTTP/2, it reads a few bytes from each new connection to see if they contain the HTTP/2 client preface. ReadHeaderTimeout is unexpectedly not being applied when doing this.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/795540
+    - https://go.dev/issue/80205
+    - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://pkg.go.dev/vuln/GO-2026-6089
+    PublishedDate: '2026-08-13T22:17:22.093Z'
+    LastModifiedDate: '2026-08-13T22:17:22.093Z'
+  - VulnerabilityID: CVE-2026-56858
+    VendorIDs:
+    - GO-2026-6091
+    PkgID: stdlib@v1.26.5
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.5
+      UID: 500ebbf5f84e5fb9
+    InstalledVersion: v1.26.5
+    FixedVersion: 1.25.13, 1.26.6, 1.27.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920531104cfaf98f5a8bdea
+      DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228183de4cae236707341fd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56858
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:914e3b9cc0c657746196d60372d7cc5d7b020288a0d5d3d8b2e497b4964bdb79
+    Title: Fix Javascript regexp context tracking in html/template
+    Description: Previously, pathological inputs could close an unescaped '/' early, allowing for attack-controlled data to inject arbitrary content, potentially leading to XSS.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/807100
+    - https://go.dev/issue/80435
+    - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://pkg.go.dev/vuln/GO-2026-6091
+    PublishedDate: '2026-08-13T22:17:22.207Z'
+    LastModifiedDate: '2026-08-13T22:17:22.207Z'
+  - VulnerabilityID: CVE-2026-56859
+    VendorIDs:
+    - GO-2026-6088
+    PkgID: stdlib@v1.26.5
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.5
+      UID: 500ebbf5f84e5fb9
+    InstalledVersion: v1.26.5
+    FixedVersion: 1.25.13, 1.26.6, 1.27.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920531104cfaf98f5a8bdea
+      DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228183de4cae236707341fd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56859
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:948cc2273ecb6d9e213b5b218ee18301c818b76c5634560b726b46cdcba90135
+    Title: Add recursion depth guard during decode in encoding/xml
+    Description: Previously, DecodeElement would reset the depth counter causing it to never fire; this could lead to stack exhaustion.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/803320
+    - https://go.dev/issue/80481
+    - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://pkg.go.dev/vuln/GO-2026-6088
+    PublishedDate: '2026-08-13T22:17:22.32Z'
+    LastModifiedDate: '2026-08-13T22:17:22.32Z'
+  - VulnerabilityID: CVE-2026-56860
+    VendorIDs:
+    - GO-2026-6218
+    PkgID: stdlib@v1.26.5
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.5
+      UID: 500ebbf5f84e5fb9
+    InstalledVersion: v1.26.5
+    FixedVersion: 1.25.13, 1.26.6, 1.27.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920531104cfaf98f5a8bdea
+      DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228183de4cae236707341fd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56860
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:dac60461d125a1331cdd4c92e87e0d0e1c8e8e57ae723e25720ef6340d17a2df
+    Title: Avoid quadratic complexity in resolvePath in net/url
+    Description: Previously, resolving relative paths containing parent directory ('..') segments performed string conversions and buffer rewrites on each step, resulting in quadratic time complexity and high memory allocation overhead. Now, path resolution operates on a byte buffer using index-based backtracking for '..' segments, eliminating the quadratic time complexity and significantly reducing memory allocations.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/803681
+    - https://go.dev/issue/80494
+    - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://pkg.go.dev/vuln/GO-2026-6218
+    PublishedDate: '2026-08-13T22:17:22.44Z'
+    LastModifiedDate: '2026-08-13T22:17:22.44Z'
+  - VulnerabilityID: CVE-2026-56862
+    VendorIDs:
+    - GO-2026-6090
+    PkgID: stdlib@v1.26.5
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.5
+      UID: 500ebbf5f84e5fb9
+    InstalledVersion: v1.26.5
+    FixedVersion: 1.25.13, 1.26.6, 1.27.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920531104cfaf98f5a8bdea
+      DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228183de4cae236707341fd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56862
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:df82b94c35e9f1dffd34aebcffc56572f5c51893cf85c00d13c916814efa6336
+    Title: Limit handshake messages we are willing to accept post-handshake in crypto/tls
+    Description: Handshake messages, such as KeyUpdate, are always considered as state-advancing, regardless of whether a handshake has been completed or not. As a result, a malicious client can keep sending KeyUpdate messages to force the server to keep performing key derivation operations indefinitely.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/804261
+    - https://go.dev/issue/80528
+    - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://pkg.go.dev/vuln/GO-2026-6090
+    PublishedDate: '2026-08-13T22:17:22.55Z'
+    LastModifiedDate: '2026-08-13T22:17:22.55Z'
 - Target: usr/bin/pebble
   Class: lang-pkgs
   Type: gobinary
   Packages: []
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2026-39821
+    VendorIDs:
+    - GO-2026-5026
+    PkgID: stdlib@v1.26.5
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.5
+      UID: 26d7064c5de1c97a
+    InstalledVersion: v1.26.5
+    FixedVersion: 1.25.13, 1.26.6, 1.27.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920531104cfaf98f5a8bdea
+      DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228183de4cae236707341fd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39821
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:f93f0e8d1c99a833c9bc3b17387354a55e4191c59c1b7b6a50e3d3f7317e0d32
+    Title: 'golang.org/x/net/idna: golang: net/http: golang.org/x/net/idna: Privilege escalation via incorrect Punycode label processing'
+    Description: The ToASCII and ToUnicode functions incorrectly accept Punycode-encoded labels that decode to an ASCII-only label. For example, ToUnicode("xn--example-.com") incorrectly returns the name "example.com" rather than an error. This behavior can lead to privilege escalation in programs using the idna package. For example, a program which performs privilege checks on the ASCII hostname may reject "example.com" but permit "xn--example-.com". If that program subsequently converts the ASCII hostname to Unicode, it will inadvertently permits access to the Unicode name "example.com".
+    Severity: HIGH
+    CweIDs:
+    - CWE-1289
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      azure: 4
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N
+        V3Score: 8.2
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:23262
+    - https://access.redhat.com/errata/RHSA-2026:23264
+    - https://access.redhat.com/errata/RHSA-2026:26546
+    - https://access.redhat.com/errata/RHSA-2026:26547
+    - https://access.redhat.com/errata/RHSA-2026:30650
+    - https://access.redhat.com/errata/RHSA-2026:30651
+    - https://access.redhat.com/errata/RHSA-2026:30853
+    - https://access.redhat.com/errata/RHSA-2026:30854
+    - https://access.redhat.com/errata/RHSA-2026:30855
+    - https://access.redhat.com/errata/RHSA-2026:33155
+    - https://access.redhat.com/errata/RHSA-2026:33160
+    - https://access.redhat.com/errata/RHSA-2026:33163
+    - https://access.redhat.com/errata/RHSA-2026:33173
+    - https://access.redhat.com/errata/RHSA-2026:33183
+    - https://access.redhat.com/errata/RHSA-2026:33524
+    - https://access.redhat.com/errata/RHSA-2026:33531
+    - https://access.redhat.com/errata/RHSA-2026:34342
+    - https://access.redhat.com/errata/RHSA-2026:34357
+    - https://access.redhat.com/errata/RHSA-2026:34359
+    - https://access.redhat.com/errata/RHSA-2026:34364
+    - https://access.redhat.com/errata/RHSA-2026:34789
+    - https://access.redhat.com/errata/RHSA-2026:35826
+    - https://access.redhat.com/errata/RHSA-2026:35827
+    - https://access.redhat.com/errata/RHSA-2026:35828
+    - https://access.redhat.com/errata/RHSA-2026:35829
+    - https://access.redhat.com/errata/RHSA-2026:35830
+    - https://access.redhat.com/errata/RHSA-2026:35831
+    - https://access.redhat.com/errata/RHSA-2026:35993
+    - https://access.redhat.com/errata/RHSA-2026:35994
+    - https://access.redhat.com/errata/RHSA-2026:36105
+    - https://access.redhat.com/errata/RHSA-2026:36167
+    - https://access.redhat.com/errata/RHSA-2026:36207
+    - https://access.redhat.com/errata/RHSA-2026:36648
+    - https://access.redhat.com/errata/RHSA-2026:36651
+    - https://access.redhat.com/errata/RHSA-2026:36796
+    - https://access.redhat.com/errata/RHSA-2026:36797
+    - https://access.redhat.com/errata/RHSA-2026:36808
+    - https://access.redhat.com/errata/RHSA-2026:36820
+    - https://access.redhat.com/errata/RHSA-2026:36883
+    - https://access.redhat.com/errata/RHSA-2026:37387
+    - https://access.redhat.com/errata/RHSA-2026:37435
+    - https://access.redhat.com/errata/RHSA-2026:37436
+    - https://access.redhat.com/errata/RHSA-2026:38995
+    - https://access.redhat.com/errata/RHSA-2026:39005
+    - https://access.redhat.com/errata/RHSA-2026:39573
+    - https://access.redhat.com/errata/RHSA-2026:39879
+    - https://access.redhat.com/errata/RHSA-2026:40118
+    - https://access.redhat.com/errata/RHSA-2026:40262
+    - https://access.redhat.com/errata/RHSA-2026:40945
+    - https://access.redhat.com/errata/RHSA-2026:41019
+    - https://access.redhat.com/errata/RHSA-2026:41030
+    - https://access.redhat.com/errata/RHSA-2026:41031
+    - https://access.redhat.com/errata/RHSA-2026:41036
+    - https://access.redhat.com/errata/RHSA-2026:41055
+    - https://access.redhat.com/errata/RHSA-2026:41066
+    - https://access.redhat.com/errata/RHSA-2026:41928
+    - https://access.redhat.com/errata/RHSA-2026:41930
+    - https://access.redhat.com/errata/RHSA-2026:42043
+    - https://access.redhat.com/errata/RHSA-2026:42047
+    - https://access.redhat.com/errata/RHSA-2026:42048
+    - https://access.redhat.com/errata/RHSA-2026:42049
+    - https://access.redhat.com/errata/RHSA-2026:42050
+    - https://access.redhat.com/errata/RHSA-2026:42051
+    - https://access.redhat.com/errata/RHSA-2026:42078
+    - https://access.redhat.com/errata/RHSA-2026:42079
+    - https://access.redhat.com/errata/RHSA-2026:42080
+    - https://access.redhat.com/errata/RHSA-2026:42082
+    - https://access.redhat.com/errata/RHSA-2026:42132
+    - https://access.redhat.com/errata/RHSA-2026:42142
+    - https://access.redhat.com/errata/RHSA-2026:42146
+    - https://access.redhat.com/errata/RHSA-2026:42150
+    - https://access.redhat.com/errata/RHSA-2026:42151
+    - https://access.redhat.com/errata/RHSA-2026:42240
+    - https://access.redhat.com/errata/RHSA-2026:42644
+    - https://access.redhat.com/errata/RHSA-2026:42796
+    - https://access.redhat.com/errata/RHSA-2026:42852
+    - https://access.redhat.com/errata/RHSA-2026:43038
+    - https://access.redhat.com/errata/RHSA-2026:43052
+    - https://access.redhat.com/errata/RHSA-2026:43692
+    - https://access.redhat.com/errata/RHSA-2026:44622
+    - https://access.redhat.com/errata/RHSA-2026:44624
+    - https://access.redhat.com/errata/RHSA-2026:46395
+    - https://access.redhat.com/errata/RHSA-2026:47149
+    - https://access.redhat.com/errata/RHSA-2026:47735
+    - https://access.redhat.com/errata/RHSA-2026:47737
+    - https://access.redhat.com/errata/RHSA-2026:47952
+    - https://access.redhat.com/errata/RHSA-2026:50300
+    - https://access.redhat.com/errata/RHSA-2026:50843
+    - https://access.redhat.com/errata/RHSA-2026:51033
+    - https://access.redhat.com/errata/RHSA-2026:51112
+    - https://access.redhat.com/errata/RHSA-2026:51187
+    - https://access.redhat.com/errata/RHSA-2026:51194
+    - https://access.redhat.com/errata/RHSA-2026:51341
+    - https://access.redhat.com/errata/RHSA-2026:52826
+    - https://access.redhat.com/errata/RHSA-2026:53374
+    - https://access.redhat.com/errata/RHSA-2026:53412
+    - https://access.redhat.com/errata/RHSA-2026:53413
+    - https://access.redhat.com/errata/RHSA-2026:53415
+    - https://access.redhat.com/errata/RHSA-2026:53530
+    - https://access.redhat.com/errata/RHSA-2026:54191
+    - https://access.redhat.com/errata/RHSA-2026:54274
+    - https://access.redhat.com/errata/RHSA-2026:54283
+    - https://access.redhat.com/errata/RHSA-2026:54284
+    - https://access.redhat.com/errata/RHSA-2026:54285
+    - https://access.redhat.com/errata/RHSA-2026:54286
+    - https://access.redhat.com/errata/RHSA-2026:54287
+    - https://access.redhat.com/errata/RHSA-2026:54395
+    - https://access.redhat.com/errata/RHSA-2026:54401
+    - https://access.redhat.com/errata/RHSA-2026:54435
+    - https://access.redhat.com/errata/RHSA-2026:54441
+    - https://access.redhat.com/security/cve/CVE-2026-39821
+    - https://bugzilla.redhat.com/2480756
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498152
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39821
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39822
+    - https://errata.almalinux.org/9/ALSA-2026-37435.html
+    - https://errata.rockylinux.org/RLSA-2026:37435
+    - https://github.com/golang/go/issues/78760
+    - https://go.dev/cl/767220
+    - https://go.dev/issue/78760
+    - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://groups.google.com/g/golang-announce/c/iI-mYSI0lu8
+    - https://linux.oracle.com/cve/CVE-2026-39821.html
+    - https://linux.oracle.com/errata/ELSA-2026-46395.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-39821
+    - https://pkg.go.dev/vuln/GO-2026-5026
+    - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39821.json
+    - https://ubuntu.com/security/notices/USN-8416-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-39821
+    PublishedDate: '2026-05-22T16:16:20.41Z'
+    LastModifiedDate: '2026-08-13T22:17:19.973Z'
+  - VulnerabilityID: CVE-2026-46600
+    VendorIDs:
+    - GO-2026-5942
+    PkgID: stdlib@v1.26.5
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.5
+      UID: 26d7064c5de1c97a
+    InstalledVersion: v1.26.5
+    FixedVersion: 1.26.6, 1.27.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920531104cfaf98f5a8bdea
+      DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228183de4cae236707341fd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-46600
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:1ecb81cc7ce62e1e91628791841edaf3581b2c9b518adb7ad8a56066c11d3a95
+    Title: 'golang.org/x/net/dns/dnsmessage: golang.org/x/net/dns/dnsmessage: Denial of Service via invalid DNS record parsing'
+    Description: Parsing an invalid SVCB or HTTPS RR can panic when the size of a parameter value overflows the message buffer.
+    Severity: HIGH
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-46600
+    - https://go.dev/cl/786345
+    - https://go.dev/issue/79795
+    - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-46600
+    - https://pkg.go.dev/vuln/GO-2026-5942
+    - https://www.cve.org/CVERecord?id=CVE-2026-46600
+    PublishedDate: '2026-07-21T20:17:01.213Z'
+    LastModifiedDate: '2026-08-13T22:17:21.913Z'
+  - VulnerabilityID: CVE-2026-33818
+    VendorIDs:
+    - GO-2026-5972
+    PkgID: stdlib@v1.26.5
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.5
+      UID: 26d7064c5de1c97a
+    InstalledVersion: v1.26.5
+    FixedVersion: 1.25.13, 1.26.6, 1.27.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920531104cfaf98f5a8bdea
+      DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228183de4cae236707341fd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33818
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:f62ccca815b5a147bb87529ec533a7fa28e53eff64be2c22c0304612305a6217
+    Title: Enforce maximum recursion depth in encoding/asn1
+    Description: Enforce a recursion limit in Unmarshal to prevent stack exhaustion when parsing deeply-nested, recursive structures.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/814980
+    - https://go.dev/issue/80405
+    - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://pkg.go.dev/vuln/GO-2026-5972
+    PublishedDate: '2026-08-13T22:17:19.84Z'
+    LastModifiedDate: '2026-08-13T22:17:19.84Z'
+  - VulnerabilityID: CVE-2026-56853
+    VendorIDs:
+    - GO-2026-6089
+    PkgID: stdlib@v1.26.5
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.5
+      UID: 26d7064c5de1c97a
+    InstalledVersion: v1.26.5
+    FixedVersion: 1.25.13, 1.26.6, 1.27.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920531104cfaf98f5a8bdea
+      DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228183de4cae236707341fd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56853
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:9e48d403d9fc7947180aa9c814febe0b232b2e70cfbe37f113288998efe5180d
+    Title: Apply ReadHeaderTimeout when doing unencrypted HTTP/2 check in net/http
+    Description: When a server is configured to support unencrypted HTTP/2, it reads a few bytes from each new connection to see if they contain the HTTP/2 client preface. ReadHeaderTimeout is unexpectedly not being applied when doing this.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/795540
+    - https://go.dev/issue/80205
+    - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://pkg.go.dev/vuln/GO-2026-6089
+    PublishedDate: '2026-08-13T22:17:22.093Z'
+    LastModifiedDate: '2026-08-13T22:17:22.093Z'
+  - VulnerabilityID: CVE-2026-56858
+    VendorIDs:
+    - GO-2026-6091
+    PkgID: stdlib@v1.26.5
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.5
+      UID: 26d7064c5de1c97a
+    InstalledVersion: v1.26.5
+    FixedVersion: 1.25.13, 1.26.6, 1.27.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920531104cfaf98f5a8bdea
+      DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228183de4cae236707341fd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56858
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:fee71509d46542bc314e8ed3b1c686da19dc87d40ac17eadde99c13258cf046e
+    Title: Fix Javascript regexp context tracking in html/template
+    Description: Previously, pathological inputs could close an unescaped '/' early, allowing for attack-controlled data to inject arbitrary content, potentially leading to XSS.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/807100
+    - https://go.dev/issue/80435
+    - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://pkg.go.dev/vuln/GO-2026-6091
+    PublishedDate: '2026-08-13T22:17:22.207Z'
+    LastModifiedDate: '2026-08-13T22:17:22.207Z'
+  - VulnerabilityID: CVE-2026-56859
+    VendorIDs:
+    - GO-2026-6088
+    PkgID: stdlib@v1.26.5
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.5
+      UID: 26d7064c5de1c97a
+    InstalledVersion: v1.26.5
+    FixedVersion: 1.25.13, 1.26.6, 1.27.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920531104cfaf98f5a8bdea
+      DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228183de4cae236707341fd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56859
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:c8e922b99225268d64d6c3da68457a2078a92af5652450645c48fa33ce776084
+    Title: Add recursion depth guard during decode in encoding/xml
+    Description: Previously, DecodeElement would reset the depth counter causing it to never fire; this could lead to stack exhaustion.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/803320
+    - https://go.dev/issue/80481
+    - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://pkg.go.dev/vuln/GO-2026-6088
+    PublishedDate: '2026-08-13T22:17:22.32Z'
+    LastModifiedDate: '2026-08-13T22:17:22.32Z'
+  - VulnerabilityID: CVE-2026-56860
+    VendorIDs:
+    - GO-2026-6218
+    PkgID: stdlib@v1.26.5
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.5
+      UID: 26d7064c5de1c97a
+    InstalledVersion: v1.26.5
+    FixedVersion: 1.25.13, 1.26.6, 1.27.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920531104cfaf98f5a8bdea
+      DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228183de4cae236707341fd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56860
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:f58ccc8fd75c0b4bbc4545916560856e601e8c5b964b87d18467ddd0083c3f63
+    Title: Avoid quadratic complexity in resolvePath in net/url
+    Description: Previously, resolving relative paths containing parent directory ('..') segments performed string conversions and buffer rewrites on each step, resulting in quadratic time complexity and high memory allocation overhead. Now, path resolution operates on a byte buffer using index-based backtracking for '..' segments, eliminating the quadratic time complexity and significantly reducing memory allocations.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/803681
+    - https://go.dev/issue/80494
+    - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://pkg.go.dev/vuln/GO-2026-6218
+    PublishedDate: '2026-08-13T22:17:22.44Z'
+    LastModifiedDate: '2026-08-13T22:17:22.44Z'
+  - VulnerabilityID: CVE-2026-56862
+    VendorIDs:
+    - GO-2026-6090
+    PkgID: stdlib@v1.26.5
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.26.5
+      UID: 26d7064c5de1c97a
+    InstalledVersion: v1.26.5
+    FixedVersion: 1.25.13, 1.26.6, 1.27.0-rc.3
+    Status: fixed
+    Layer:
+      Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920531104cfaf98f5a8bdea
+      DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228183de4cae236707341fd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56862
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:edf6a93df52f0a5090bfc9d0ed038f8933124a7dd672b40f873b6b71596c4310
+    Title: Limit handshake messages we are willing to accept post-handshake in crypto/tls
+    Description: Handshake messages, such as KeyUpdate, are always considered as state-advancing, regardless of whether a handshake has been completed or not. As a result, a malicious client can keep sending KeyUpdate messages to force the server to keep performing key derivation operations indefinitely.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/804261
+    - https://go.dev/issue/80528
+    - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://pkg.go.dev/vuln/GO-2026-6090
+    PublishedDate: '2026-08-13T22:17:22.55Z'
+    LastModifiedDate: '2026-08-13T22:17:22.55Z'
