@@ -354,22 +354,21 @@
 │                       │       │                           ╰ V3Score : 7.5 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/06/1
 │                       │       │                  │       0/2 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:49520 
-│                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:50108 
-│                       │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-10846 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2487437 
-│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2487437 
-│                       │       │                  ├ [6] : https://creativecommons.org/licenses/by/4.0/ 
-│                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:50108 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-10846 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2487437 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2487437 
+│                       │       │                  ├ [5] : https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-10846 
-│                       │       │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2026-49520.html 
-│                       │       │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:50108 
-│                       │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2026-10846.html 
-│                       │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2026-50108-0.html 
-│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-10846 
-│                       │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-8449-1 
-│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2026-10846 
-│                       │       │                  ╰ [15]: https://www.nlnetlabs.nl/downloads/ldns/CVE-2026-108
+│                       │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2026-50108.html 
+│                       │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2026:50108 
+│                       │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2026-10846.html 
+│                       │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2026-50108-0.html 
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-10846 
+│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-8449-1 
+│                       │       │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2026-10846 
+│                       │       │                  ╰ [14]: https://www.nlnetlabs.nl/downloads/ldns/CVE-2026-108
 │                       │       │                          46.txt 
 │                       │       ├ PublishedDate   : 2026-06-10T07:16:24.443Z 
 │                       │       ╰ LastModifiedDate: 2026-07-23T09:10:00.113Z 
@@ -1864,22 +1863,21 @@
 │                       │       │                           ╰ V3Score : 7.5 
 │                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/06/1
 │                       │       │                  │       0/2 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:49520 
-│                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:50108 
-│                       │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-10846 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2487437 
-│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2487437 
-│                       │       │                  ├ [6] : https://creativecommons.org/licenses/by/4.0/ 
-│                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:50108 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-10846 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2487437 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2487437 
+│                       │       │                  ├ [5] : https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-10846 
-│                       │       │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2026-49520.html 
-│                       │       │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:50108 
-│                       │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2026-10846.html 
-│                       │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2026-50108-0.html 
-│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-10846 
-│                       │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-8449-1 
-│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2026-10846 
-│                       │       │                  ╰ [15]: https://www.nlnetlabs.nl/downloads/ldns/CVE-2026-108
+│                       │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2026-50108.html 
+│                       │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2026:50108 
+│                       │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2026-10846.html 
+│                       │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2026-50108-0.html 
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-10846 
+│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-8449-1 
+│                       │       │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2026-10846 
+│                       │       │                  ╰ [14]: https://www.nlnetlabs.nl/downloads/ldns/CVE-2026-108
 │                       │       │                          46.txt 
 │                       │       ├ PublishedDate   : 2026-06-10T07:16:24.443Z 
 │                       │       ╰ LastModifiedDate: 2026-07-23T09:10:00.113Z 
@@ -2027,6 +2025,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:f852d02966d10fea95411b16df018a6249359845732890b7d405
 │                       │       │                   4e3d55eb250d 
+│                       │       ├ Title           : Local unprivileged users can terminate arbitrary local
+│                       │       │                   processes  ... 
 │                       │       ├ Description     : Local unprivileged users can terminate arbitrary local
 │                       │       │                   processes via a systemd-oomd IPC API due to a missing path
 │                       │       │                   traversal validation. 
@@ -2060,6 +2060,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:09a81382dec7020ab55f9f7c3ce5809ca77e327100df0d816a4e
 │                       │       │                   79b409c9d32b 
+│                       │       ├ Title           : When systemd-machined >= v259 (or v258 with a custom
+│                       │       │                   `polkit` pol ... 
 │                       │       ├ Description     : When systemd-machined >= v259 (or v258 with a custom
 │                       │       │                   `polkit` policy that allows `register-machine` access) is
 │                       │       │                   running on a desktop system, an unprivileged user logged in
@@ -2107,6 +2109,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:a5ad5c98e3fb2190322390dc2f80b4ff4d798f17f7c863f6d128
 │                       │       │                   2e13d74806aa 
+│                       │       ├ Title           : systemd-homed contains a local privilege escalation bug via
+│                       │       │                    arbit ... 
 │                       │       ├ Description     : systemd-homed contains a local privilege escalation bug via
 │                       │       │                    arbitrary system group addition to a local, logged in,
 │                       │       │                   homed-managed user 
@@ -2212,21 +2216,22 @@
 │                       │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:49668 
 │                       │       │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:53371 
 │                       │       │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:54387 
-│                       │       │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2026-13757 
-│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2494556 
-│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2494556 
-│                       │       │                  ├ [9] : https://creativecommons.org/licenses/by/4.0/ 
-│                       │       │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [6] : https://access.redhat.com/errata/RHSA-2026:54760 
+│                       │       │                  ├ [7] : https://access.redhat.com/security/cve/CVE-2026-13757 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2494556 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2494556 
+│                       │       │                  ├ [10]: https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-13757 
-│                       │       │                  ├ [11]: https://errata.almalinux.org/10/ALSA-2026-49668.html 
-│                       │       │                  ├ [12]: https://errata.rockylinux.org/RLSA-2026:49667 
-│                       │       │                  ├ [13]: https://github.com/advisories/GHSA-p2wm-69qx-x25w 
-│                       │       │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-13757.html 
-│                       │       │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-49668.html 
-│                       │       │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-13757 
-│                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2026-13757 
+│                       │       │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-49667.html 
+│                       │       │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:49667 
+│                       │       │                  ├ [14]: https://github.com/advisories/GHSA-p2wm-69qx-x25w 
+│                       │       │                  ├ [15]: https://linux.oracle.com/cve/CVE-2026-13757.html 
+│                       │       │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2026-49668.html 
+│                       │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2026-13757 
+│                       │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2026-13757 
 │                       │       ├ PublishedDate   : 2026-06-29T19:16:40.907Z 
-│                       │       ╰ LastModifiedDate: 2026-08-12T16:16:52.253Z 
+│                       │       ╰ LastModifiedDate: 2026-08-13T21:17:40.737Z 
 │                       ├ [31]  ╭ VulnerabilityID : CVE-2026-15059 
 │                       │       ├ PkgID           : libpam-systemd@259.5-0ubuntu3.3 
 │                       │       ├ PkgName         : libpam-systemd 
@@ -2247,6 +2252,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:39ecabeadd3a3c256a7c26243bc5715819acd50b8b48cc7f27a9
 │                       │       │                   8bf56f3ff678 
+│                       │       ├ Title           : Local unprivileged users can terminate arbitrary local
+│                       │       │                   processes  ... 
 │                       │       ├ Description     : Local unprivileged users can terminate arbitrary local
 │                       │       │                   processes via a systemd-oomd IPC API due to a missing path
 │                       │       │                   traversal validation. 
@@ -2280,6 +2287,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:2f14848044f1d51d03cce5db9e5236bd97dc48da5616677d367d
 │                       │       │                   c99521548e44 
+│                       │       ├ Title           : When systemd-machined >= v259 (or v258 with a custom
+│                       │       │                   `polkit` pol ... 
 │                       │       ├ Description     : When systemd-machined >= v259 (or v258 with a custom
 │                       │       │                   `polkit` policy that allows `register-machine` access) is
 │                       │       │                   running on a desktop system, an unprivileged user logged in
@@ -2327,6 +2336,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:79bd2612f37f1efab8f1e0a78fc195d725df1a3c8250fa7ec8ef
 │                       │       │                   125b8899b879 
+│                       │       ├ Title           : systemd-homed contains a local privilege escalation bug via
+│                       │       │                    arbit ... 
 │                       │       ├ Description     : systemd-homed contains a local privilege escalation bug via
 │                       │       │                    arbitrary system group addition to a local, logged in,
 │                       │       │                   homed-managed user 
@@ -2731,6 +2742,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:925eaa69ae9d46d04234a4cd2cc5a7d9e34fe9960fe7bddfadd5
 │                       │       │                   95d84014ea7e 
+│                       │       ├ Title           : Local unprivileged users can terminate arbitrary local
+│                       │       │                   processes  ... 
 │                       │       ├ Description     : Local unprivileged users can terminate arbitrary local
 │                       │       │                   processes via a systemd-oomd IPC API due to a missing path
 │                       │       │                   traversal validation. 
@@ -2764,6 +2777,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:5d1b86076bbfe09acd2cf47e67c6d11773f198f14bb7b62e438b
 │                       │       │                   b7fd6df0f650 
+│                       │       ├ Title           : When systemd-machined >= v259 (or v258 with a custom
+│                       │       │                   `polkit` pol ... 
 │                       │       ├ Description     : When systemd-machined >= v259 (or v258 with a custom
 │                       │       │                   `polkit` policy that allows `register-machine` access) is
 │                       │       │                   running on a desktop system, an unprivileged user logged in
@@ -2811,6 +2826,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:4022436da105aadeec285c1e2184329b08807fee4b81af24f621
 │                       │       │                   6aae98d7fbf8 
+│                       │       ├ Title           : systemd-homed contains a local privilege escalation bug via
+│                       │       │                    arbit ... 
 │                       │       ├ Description     : systemd-homed contains a local privilege escalation bug via
 │                       │       │                    arbitrary system group addition to a local, logged in,
 │                       │       │                   homed-managed user 
@@ -2888,6 +2905,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:440d5244290ef7399eb8221f59437c416ba31cdc75ace55f8ebe
 │                       │       │                   528eb672031f 
+│                       │       ├ Title           : Local unprivileged users can terminate arbitrary local
+│                       │       │                   processes  ... 
 │                       │       ├ Description     : Local unprivileged users can terminate arbitrary local
 │                       │       │                   processes via a systemd-oomd IPC API due to a missing path
 │                       │       │                   traversal validation. 
@@ -2921,6 +2940,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:1ce3ada8e8f5dd15ad5984b9828ffa12b184acdc9b6301735e57
 │                       │       │                   84f57ff428c3 
+│                       │       ├ Title           : When systemd-machined >= v259 (or v258 with a custom
+│                       │       │                   `polkit` pol ... 
 │                       │       ├ Description     : When systemd-machined >= v259 (or v258 with a custom
 │                       │       │                   `polkit` policy that allows `register-machine` access) is
 │                       │       │                   running on a desktop system, an unprivileged user logged in
@@ -2968,6 +2989,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:6bedd57c6531ad4cf1ba2ced73aaf0d47a5fd1a29fb3b46f709f
 │                       │       │                   6670d1b7c409 
+│                       │       ├ Title           : systemd-homed contains a local privilege escalation bug via
+│                       │       │                    arbit ... 
 │                       │       ├ Description     : systemd-homed contains a local privilege escalation bug via
 │                       │       │                    arbitrary system group addition to a local, logged in,
 │                       │       │                   homed-managed user 
@@ -3153,6 +3176,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:13a01456d927d6b77ff805944c6ed3195c2af54a5c8c6e0e1241
 │                       │       │                   0a455a7ccc10 
+│                       │       ├ Title           : Local unprivileged users can terminate arbitrary local
+│                       │       │                   processes  ... 
 │                       │       ├ Description     : Local unprivileged users can terminate arbitrary local
 │                       │       │                   processes via a systemd-oomd IPC API due to a missing path
 │                       │       │                   traversal validation. 
@@ -3186,6 +3211,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:663edccaa9bad802362bf9142d3b413adb0c4caae6fa2f94cc73
 │                       │       │                   e18bbc5af0a7 
+│                       │       ├ Title           : When systemd-machined >= v259 (or v258 with a custom
+│                       │       │                   `polkit` pol ... 
 │                       │       ├ Description     : When systemd-machined >= v259 (or v258 with a custom
 │                       │       │                   `polkit` policy that allows `register-machine` access) is
 │                       │       │                   running on a desktop system, an unprivileged user logged in
@@ -3233,6 +3260,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:f8275f02b40ae5aa48461b3c4de02fe1902adef04084133326d7
 │                       │       │                   e5b473a8a085 
+│                       │       ├ Title           : systemd-homed contains a local privilege escalation bug via
+│                       │       │                    arbit ... 
 │                       │       ├ Description     : systemd-homed contains a local privilege escalation bug via
 │                       │       │                    arbitrary system group addition to a local, logged in,
 │                       │       │                   homed-managed user 
@@ -4941,6 +4970,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:e2ed97a93cc0cffa3e2150e66e4408df9bd9d237a9578286725a
 │                       │       │                   f9d627515f47 
+│                       │       ├ Title           : Local unprivileged users can terminate arbitrary local
+│                       │       │                   processes  ... 
 │                       │       ├ Description     : Local unprivileged users can terminate arbitrary local
 │                       │       │                   processes via a systemd-oomd IPC API due to a missing path
 │                       │       │                   traversal validation. 
@@ -4974,6 +5005,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:0c61828b769fa73c9e895363f905329627f9f3cb9461c34fa6ea
 │                       │       │                   716aa0ecc793 
+│                       │       ├ Title           : When systemd-machined >= v259 (or v258 with a custom
+│                       │       │                   `polkit` pol ... 
 │                       │       ├ Description     : When systemd-machined >= v259 (or v258 with a custom
 │                       │       │                   `polkit` policy that allows `register-machine` access) is
 │                       │       │                   running on a desktop system, an unprivileged user logged in
@@ -5021,6 +5054,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:af24358f36288b65f35fb03bbf062f27ad842b77ae433d0ae650
 │                       │       │                   fe27e24456ba 
+│                       │       ├ Title           : systemd-homed contains a local privilege escalation bug via
+│                       │       │                    arbit ... 
 │                       │       ├ Description     : systemd-homed contains a local privilege escalation bug via
 │                       │       │                    arbitrary system group addition to a local, logged in,
 │                       │       │                   homed-managed user 
@@ -5098,6 +5133,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:ee0b9fccf970dd353ee6b0ff96a7532a4af63bf472a33fcc9b1e
 │                       │       │                   de5fc56bf3d6 
+│                       │       ├ Title           : Local unprivileged users can terminate arbitrary local
+│                       │       │                   processes  ... 
 │                       │       ├ Description     : Local unprivileged users can terminate arbitrary local
 │                       │       │                   processes via a systemd-oomd IPC API due to a missing path
 │                       │       │                   traversal validation. 
@@ -5131,6 +5168,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:144e95d282471cbc487f6fbb826a1015177161a92a96d24a3dbd
 │                       │       │                   d3bf75fca0f4 
+│                       │       ├ Title           : When systemd-machined >= v259 (or v258 with a custom
+│                       │       │                   `polkit` pol ... 
 │                       │       ├ Description     : When systemd-machined >= v259 (or v258 with a custom
 │                       │       │                   `polkit` policy that allows `register-machine` access) is
 │                       │       │                   running on a desktop system, an unprivileged user logged in
@@ -5178,6 +5217,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:3461f6ed1f36cf6b95850e14d0e15c615321c222423dec0404c9
 │                       │       │                   c46c957a194b 
+│                       │       ├ Title           : systemd-homed contains a local privilege escalation bug via
+│                       │       │                    arbit ... 
 │                       │       ├ Description     : systemd-homed contains a local privilege escalation bug via
 │                       │       │                    arbitrary system group addition to a local, logged in,
 │                       │       │                   homed-managed user 
@@ -5255,6 +5296,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:fb4b5767de2953a508940a26179f97ca3bfc9679a5c8f091db9e
 │                       │       │                   27dcb17ffaba 
+│                       │       ├ Title           : Local unprivileged users can terminate arbitrary local
+│                       │       │                   processes  ... 
 │                       │       ├ Description     : Local unprivileged users can terminate arbitrary local
 │                       │       │                   processes via a systemd-oomd IPC API due to a missing path
 │                       │       │                   traversal validation. 
@@ -5288,6 +5331,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:e790bafb489f8f6ac78f4075d90add7df8de6964b70de76c71e8
 │                       │       │                   df6d40b383e8 
+│                       │       ├ Title           : When systemd-machined >= v259 (or v258 with a custom
+│                       │       │                   `polkit` pol ... 
 │                       │       ├ Description     : When systemd-machined >= v259 (or v258 with a custom
 │                       │       │                   `polkit` policy that allows `register-machine` access) is
 │                       │       │                   running on a desktop system, an unprivileged user logged in
@@ -5335,6 +5380,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:c0c82ca1f0e03f48fdd6305715839fec3fddb6b793dc7083ccad
 │                       │       │                   2fcd6c88a037 
+│                       │       ├ Title           : systemd-homed contains a local privilege escalation bug via
+│                       │       │                    arbit ... 
 │                       │       ├ Description     : systemd-homed contains a local privilege escalation bug via
 │                       │       │                    arbitrary system group addition to a local, logged in,
 │                       │       │                   homed-managed user 
@@ -5412,6 +5459,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:c2246c71ac13c99f0e792b094610ff855c7c178d0769484c820a
 │                       │       │                   8f3a98ed96e5 
+│                       │       ├ Title           : Local unprivileged users can terminate arbitrary local
+│                       │       │                   processes  ... 
 │                       │       ├ Description     : Local unprivileged users can terminate arbitrary local
 │                       │       │                   processes via a systemd-oomd IPC API due to a missing path
 │                       │       │                   traversal validation. 
@@ -5445,6 +5494,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:b2569ff8c4d7c52a2b51b8f019967e1f14290bd9aa3abafdbf65
 │                       │       │                   f1fecc2ea73b 
+│                       │       ├ Title           : When systemd-machined >= v259 (or v258 with a custom
+│                       │       │                   `polkit` pol ... 
 │                       │       ├ Description     : When systemd-machined >= v259 (or v258 with a custom
 │                       │       │                   `polkit` policy that allows `register-machine` access) is
 │                       │       │                   running on a desktop system, an unprivileged user logged in
@@ -5492,6 +5543,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:ae7b6105bcabba74feba43caca3c579e3e5941f86beb38d4d03f
 │                       │       │                   cdccbb8eaa63 
+│                       │       ├ Title           : systemd-homed contains a local privilege escalation bug via
+│                       │       │                    arbit ... 
 │                       │       ├ Description     : systemd-homed contains a local privilege escalation bug via
 │                       │       │                    arbitrary system group addition to a local, logged in,
 │                       │       │                   homed-managed user 
@@ -5569,6 +5622,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:8a0d6242df24775efd890f46c0c873f2a6d82200cfd2a778457b
 │                       │       │                   68a1809c8da4 
+│                       │       ├ Title           : Local unprivileged users can terminate arbitrary local
+│                       │       │                   processes  ... 
 │                       │       ├ Description     : Local unprivileged users can terminate arbitrary local
 │                       │       │                   processes via a systemd-oomd IPC API due to a missing path
 │                       │       │                   traversal validation. 
@@ -5602,6 +5657,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:07b3d8647018f6afd439ce84e6323361eb88ed41d4ba3dcd41a3
 │                       │       │                   3e158ec58c86 
+│                       │       ├ Title           : When systemd-machined >= v259 (or v258 with a custom
+│                       │       │                   `polkit` pol ... 
 │                       │       ├ Description     : When systemd-machined >= v259 (or v258 with a custom
 │                       │       │                   `polkit` policy that allows `register-machine` access) is
 │                       │       │                   running on a desktop system, an unprivileged user logged in
@@ -5649,6 +5706,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:4e96b84ece07f2bc23d9ddeaff77fd170145f609d1a9a7a63cc7
 │                       │       │                   f27b4f2b89ef 
+│                       │       ├ Title           : systemd-homed contains a local privilege escalation bug via
+│                       │       │                    arbit ... 
 │                       │       ├ Description     : systemd-homed contains a local privilege escalation bug via
 │                       │       │                    arbitrary system group addition to a local, logged in,
 │                       │       │                   homed-managed user 
@@ -6381,460 +6440,1294 @@
 │     ├ Class          : lang-pkgs 
 │     ├ Type           : gobinary 
 │     ├ Packages        
-│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2025-15558 
-│                       │     ├ VendorIDs        ─ [0]: GHSA-p436-gjf2-799p 
-│                       │     ├ PkgID           : github.com/docker/cli@v27.1.1+incompatible 
-│                       │     ├ PkgName         : github.com/docker/cli 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/docker/cli@v27.1.1%2Bincompatible 
-│                       │     │                  ╰ UID : d2c10c28447b49f5 
-│                       │     ├ InstalledVersion: v27.1.1+incompatible 
-│                       │     ├ FixedVersion    : 29.2.0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf9205
-│                       │     │                  │         31104cfaf98f5a8bdea 
-│                       │     │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a311992281
-│                       │     │                            83de4cae236707341fd 
-│                       │     ├ SeveritySource  : ghsa 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15558 
-│                       │     ├ DataSource       ╭ ID  : ghsa 
-│                       │     │                  ├ Name: GitHub Security Advisory Go 
-│                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
-│                       │     │                          osystem%3Ago 
-│                       │     ├ Fingerprint     : sha256:eec2c911bafc30decee54c7cfb8cc5f8c2ff925e61ead871e0ee9d
-│                       │     │                   eeb23f120e 
-│                       │     ├ Title           : docker/cli: Docker CLI for Windows: Privilege escalation via
-│                       │     │                   malicious plugin binaries 
-│                       │     ├ Description     : Docker CLI for Windows searches for plugin binaries in
-│                       │     │                   C:\ProgramData\Docker\cli-plugins, a directory that does not
-│                       │     │                   exist by default. A low-privileged attacker can create this
-│                       │     │                   directory and place malicious CLI plugin binaries
-│                       │     │                   (docker-compose.exe, docker-buildx.exe, etc.) that are
-│                       │     │                   executed when a victim user opens Docker Desktop or invokes
-│                       │     │                   Docker CLI plugin features, and allow privilege-escalation if
-│                       │     │                    the docker CLI is executed as a privileged user.
-│                       │     │                   
-│                       │     │                   This issue affects Docker CLI: through 29.1.5 and Windows
-│                       │     │                   binaries acting as a CLI-plugin manager using the 
-│                       │     │                   github.com/docker/cli/cli-plugins/manager
-│                       │     │                   https://pkg.go.dev/github.com/docker/cli@v29.1.5+incompatible
-│                       │     │                   /cli-plugins/manager  package, such as Docker Compose.
-│                       │     │                   This issue does not impact non-Windows binaries, and projects
-│                       │     │                    not using the plugin-manager code. 
-│                       │     ├ Severity        : HIGH 
-│                       │     ├ CweIDs           ─ [0]: CWE-427 
-│                       │     ├ VendorSeverity   ╭ bitnami: 3 
-│                       │     │                  ├ ghsa   : 3 
-│                       │     │                  ├ nvd    : 3 
-│                       │     │                  ╰ redhat : 3 
-│                       │     ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:P/VC:H/
-│                       │     │                  │         │            VI:H/VA:H/SC:N/SI:N/SA:N/AU:N/R:U 
-│                       │     │                  │         ╰ V40Score : 7 
-│                       │     │                  ├ ghsa    ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:P/VC:H/
-│                       │     │                  │         │            VI:H/VA:H/SC:N/SI:N/SA:N 
-│                       │     │                  │         ╰ V40Score : 7 
-│                       │     │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H
-│                       │     │                  │         │           /A:H 
-│                       │     │                  │         ╰ V3Score : 8 
-│                       │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
-│                       │     │                            │           /A:H 
-│                       │     │                            ╰ V3Score : 7.3 
-│                       │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-15558 
-│                       │     │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=2444574 
-│                       │     │                  ├ [2] : https://docs.docker.com/desktop/release-notes 
-│                       │     │                  ├ [3] : https://docs.docker.com/desktop/release-notes/ 
-│                       │     │                  ├ [4] : https://github.com/docker/cli 
-│                       │     │                  ├ [5] : https://github.com/docker/cli/commit/13759330b1f7e7cb0
-│                       │     │                  │       d67047ea42c5482548ba7fa 
-│                       │     │                  ├ [6] : https://github.com/docker/cli/pull/6713 
-│                       │     │                  ├ [7] : https://github.com/docker/cli/security/advisories/GHSA
-│                       │     │                  │       -p436-gjf2-799p 
-│                       │     │                  ├ [8] : https://github.com/docker/compose/pull/12300 
-│                       │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-15558 
-│                       │     │                  ├ [10]: https://security.access.redhat.com/data/csaf/v2/vex/20
-│                       │     │                  │       25/cve-2025-15558.json 
-│                       │     │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-15558 
-│                       │     │                  ├ [12]: https://www.zerodayinitiative.com/advisories/ZDI-CAN-2
-│                       │     │                  │       8304 
-│                       │     │                  ╰ [13]: https://www.zerodayinitiative.com/advisories/ZDI-CAN-2
-│                       │     │                          8304/ 
-│                       │     ├ PublishedDate   : 2026-03-04T17:16:14.763Z 
-│                       │     ╰ LastModifiedDate: 2026-07-15T02:17:22.307Z 
-│                       ├ [1] ╭ VulnerabilityID : CVE-2026-34040 
-│                       │     ├ VendorIDs        ─ [0]: GHSA-x744-4wpc-v9h2 
-│                       │     ├ PkgID           : github.com/docker/docker@v28.5.2+incompatible 
-│                       │     ├ PkgName         : github.com/docker/docker 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/docker/docker@v28.5.2%2Bincompat
-│                       │     │                  │       ible 
-│                       │     │                  ╰ UID : 19bdebda0d8ffb51 
-│                       │     ├ InstalledVersion: v28.5.2+incompatible 
-│                       │     ├ FixedVersion    : 29.3.1 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf9205
-│                       │     │                  │         31104cfaf98f5a8bdea 
-│                       │     │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a311992281
-│                       │     │                            83de4cae236707341fd 
-│                       │     ├ SeveritySource  : ghsa 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34040 
-│                       │     ├ DataSource       ╭ ID  : ghsa 
-│                       │     │                  ├ Name: GitHub Security Advisory Go 
-│                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
-│                       │     │                          osystem%3Ago 
-│                       │     ├ Fingerprint     : sha256:2c9d3d99654a51f7f1beea0a97fb14869b1ca4050f2dfbc032977f
-│                       │     │                   aa7c7c5163 
-│                       │     ├ Title           : Moby: Moby: Authorization bypass vulnerability 
-│                       │     ├ Description     : Moby is an open source container framework. Prior to version
-│                       │     │                   29.3.1, a security vulnerability has been detected that
-│                       │     │                   allows attackers to bypass authorization plugins (AuthZ).
-│                       │     │                   This issue has been patched in version 29.3.1. 
-│                       │     ├ Severity        : HIGH 
-│                       │     ├ CweIDs           ─ [0]: CWE-288 
-│                       │     ├ VendorSeverity   ╭ amazon: 3 
-│                       │     │                  ├ ghsa  : 3 
-│                       │     │                  ├ nvd   : 3 
-│                       │     │                  ├ photon: 3 
-│                       │     │                  ╰ redhat: 2 
-│                       │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/
-│                       │     │                  │        │           A:H 
-│                       │     │                  │        ╰ V3Score : 8.8 
-│                       │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/
-│                       │     │                  │        │           A:H 
-│                       │     │                  │        ╰ V3Score : 7.8 
-│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/
-│                       │     │                           │           A:N 
-│                       │     │                           ╰ V3Score : 8.4 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-34040 
-│                       │     │                  ├ [1]: https://docs.docker.com/engine/extend/plugins_authoriza
-│                       │     │                  │      tion 
-│                       │     │                  ├ [2]: https://github.com/moby/moby 
-│                       │     │                  ├ [3]: https://github.com/moby/moby/commit/e89edb19ad7de0407a5
-│                       │     │                  │      d31e3111cb01aa10b5a38 
-│                       │     │                  ├ [4]: https://github.com/moby/moby/releases/tag/docker-v29.3.1 
-│                       │     │                  ├ [5]: https://github.com/moby/moby/security/advisories/GHSA-v
-│                       │     │                  │      23v-6jw2-98fq 
-│                       │     │                  ├ [6]: https://github.com/moby/moby/security/advisories/GHSA-x
-│                       │     │                  │      744-4wpc-v9h2 
-│                       │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-34040 
-│                       │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-34040 
-│                       │     ├ PublishedDate   : 2026-03-31T03:15:57.883Z 
-│                       │     ╰ LastModifiedDate: 2026-06-17T10:38:28.383Z 
-│                       ├ [2] ╭ VulnerabilityID : CVE-2026-41567 
-│                       │     ├ VendorIDs        ─ [0]: GHSA-x86f-5xw2-fm2r 
-│                       │     ├ PkgID           : github.com/docker/docker@v28.5.2+incompatible 
-│                       │     ├ PkgName         : github.com/docker/docker 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/docker/docker@v28.5.2%2Bincompat
-│                       │     │                  │       ible 
-│                       │     │                  ╰ UID : 19bdebda0d8ffb51 
-│                       │     ├ InstalledVersion: v28.5.2+incompatible 
-│                       │     ├ Status          : affected 
-│                       │     ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf9205
-│                       │     │                  │         31104cfaf98f5a8bdea 
-│                       │     │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a311992281
-│                       │     │                            83de4cae236707341fd 
-│                       │     ├ SeveritySource  : ghsa 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41567 
-│                       │     ├ DataSource       ╭ ID  : ghsa 
-│                       │     │                  ├ Name: GitHub Security Advisory Go 
-│                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
-│                       │     │                          osystem%3Ago 
-│                       │     ├ Fingerprint     : sha256:89f7d6ccb55a04c4316a8275bfc910d6761cad906774616868609d
-│                       │     │                   991e791f90 
-│                       │     ├ Title           : docker: Moby/Docker Engine: Arbitrary Code Execution via
-│                       │     │                   malicious container image and compressed archive upload 
-│                       │     ├ Description     : Moby is an open source container framework. In versions prior
-│                       │     │                    to 29.5.1 and in moby/moby v2 prior to v2.0.0-beta.14, when
-│                       │     │                   a compressed archive is uploaded to a container via `PUT
-│                       │     │                   /containers/{id}/archive` or piped through `docker cp -`, the
-│                       │     │                    daemon resolves decompression binaries (such as `xz` or
-│                       │     │                   `unpigz`) from the container's filesystem rather than the
-│                       │     │                   host's due to incorrect ordering of operations. A malicious
-│                       │     │                   container image containing a trojanized decompression binary
-│                       │     │                   can achieve arbitrary code execution with full daemon
-│                       │     │                   privileges, including host root UID and unrestricted
-│                       │     │                   capabilities, when a user uploads a compressed (xz or gzip)
-│                       │     │                   archive into that container. This issue is fixed in Docker
-│                       │     │                   Engine 29.5.1 and moby/moby v2.0.0-beta.14. Workarounds
-│                       │     │                   include only running containers from trusted images, using
-│                       │     │                   authorization plugins to restrict access to the `PUT
-│                       │     │                   /containers/{id}/archive` endpoint, and avoiding piping
-│                       │     │                   compressed archives into containers created from untrusted
-│                       │     │                   images 
-│                       │     ├ Severity        : HIGH 
-│                       │     ├ CweIDs           ─ [0]: CWE-427 
-│                       │     ├ VendorSeverity   ╭ amazon: 3 
-│                       │     │                  ├ ghsa  : 3 
-│                       │     │                  ├ photon: 3 
-│                       │     │                  ╰ redhat: 3 
-│                       │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H/
-│                       │     │                  │        │           A:N 
-│                       │     │                  │        ╰ V3Score : 7.2 
-│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H/
-│                       │     │                           │           A:H 
-│                       │     │                           ╰ V3Score : 7.5 
-│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:37387 
-│                       │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:41030 
-│                       │     │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:42852 
-│                       │     │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:44622 
-│                       │     │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:51057 
-│                       │     │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2026-41567 
-│                       │     │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2485356 
-│                       │     │                  ├ [7] : https://github.com/moby/moby 
-│                       │     │                  ├ [8] : https://github.com/moby/moby/security/advisories/GHSA-
-│                       │     │                  │       x86f-5xw2-fm2r 
-│                       │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-41567 
-│                       │     │                  ├ [10]: https://security.access.redhat.com/data/csaf/v2/vex/20
-│                       │     │                  │       26/cve-2026-41567.json 
-│                       │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2026-41567 
-│                       │     ├ PublishedDate   : 2026-06-05T02:17:13.817Z 
-│                       │     ╰ LastModifiedDate: 2026-08-10T13:19:21.29Z 
-│                       ├ [3] ╭ VulnerabilityID : CVE-2026-42306 
-│                       │     ├ VendorIDs        ─ [0]: GHSA-rg2x-37c3-w2rh 
-│                       │     ├ PkgID           : github.com/docker/docker@v28.5.2+incompatible 
-│                       │     ├ PkgName         : github.com/docker/docker 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/docker/docker@v28.5.2%2Bincompat
-│                       │     │                  │       ible 
-│                       │     │                  ╰ UID : 19bdebda0d8ffb51 
-│                       │     ├ InstalledVersion: v28.5.2+incompatible 
-│                       │     ├ Status          : affected 
-│                       │     ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf9205
-│                       │     │                  │         31104cfaf98f5a8bdea 
-│                       │     │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a311992281
-│                       │     │                            83de4cae236707341fd 
-│                       │     ├ SeveritySource  : ghsa 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42306 
-│                       │     ├ DataSource       ╭ ID  : ghsa 
-│                       │     │                  ├ Name: GitHub Security Advisory Go 
-│                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
-│                       │     │                          osystem%3Ago 
-│                       │     ├ Fingerprint     : sha256:6a3ffe2f0da58d76db8cd4adcdb38f645249830200893e54bb54d8
-│                       │     │                   e7759b7286 
-│                       │     ├ Title           : github.com/docker/docker: github.com/moby/moby: Moby
-│                       │     │                   container framework: Host file overwrite via race condition
-│                       │     │                   in docker cp mount setup 
-│                       │     ├ Description     : Moby is an open source container framework. In Docker Engine
-│                       │     │                   prior to version 29.5.1, Docker Daemon versions 28.5.2 and
-│                       │     │                   prior, and Moby Daemon prior to version 2.0.0-beta.14, a race
-│                       │     │                    condition during docker cp mount setup allows a malicious
-│                       │     │                   container to redirect a bind mount target to an arbitrary
-│                       │     │                   host path, potentially overwriting host files or causing
-│                       │     │                   denial of service. This issue has been patched in Docker
-│                       │     │                   Engine version 29.5.1 and Moby Daemon version
-│                       │     │                   2.0.0-beta.14. 
-│                       │     ├ Severity        : HIGH 
-│                       │     ├ CweIDs           ╭ [0]: CWE-61 
-│                       │     │                  ╰ [1]: CWE-367 
-│                       │     ├ VendorSeverity   ╭ amazon: 3 
-│                       │     │                  ├ ghsa  : 3 
-│                       │     │                  ├ nvd   : 3 
-│                       │     │                  ├ photon: 3 
-│                       │     │                  ╰ redhat: 3 
-│                       │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:H/
-│                       │     │                  │        │           A:H 
-│                       │     │                  │        ╰ V3Score : 7.2 
-│                       │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:H/
-│                       │     │                  │        │           A:H 
-│                       │     │                  │        ╰ V3Score : 7.2 
-│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:H/
-│                       │     │                           │           A:H 
-│                       │     │                           ╰ V3Score : 7.2 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-42306 
-│                       │     │                  ├ [1]: https://github.com/moby/moby 
-│                       │     │                  ├ [2]: https://github.com/moby/moby/security/advisories/GHSA-r
-│                       │     │                  │      g2x-37c3-w2rh 
-│                       │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-42306 
-│                       │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-42306 
-│                       │     ├ PublishedDate   : 2026-06-12T19:16:27.49Z 
-│                       │     ╰ LastModifiedDate: 2026-06-17T10:47:39.96Z 
-│                       ├ [4] ╭ VulnerabilityID : CVE-2026-33997 
-│                       │     ├ VendorIDs        ─ [0]: GHSA-pxq6-2prw-chj9 
-│                       │     ├ PkgID           : github.com/docker/docker@v28.5.2+incompatible 
-│                       │     ├ PkgName         : github.com/docker/docker 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/docker/docker@v28.5.2%2Bincompat
-│                       │     │                  │       ible 
-│                       │     │                  ╰ UID : 19bdebda0d8ffb51 
-│                       │     ├ InstalledVersion: v28.5.2+incompatible 
-│                       │     ├ FixedVersion    : 29.3.1 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf9205
-│                       │     │                  │         31104cfaf98f5a8bdea 
-│                       │     │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a311992281
-│                       │     │                            83de4cae236707341fd 
-│                       │     ├ SeveritySource  : ghsa 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33997 
-│                       │     ├ DataSource       ╭ ID  : ghsa 
-│                       │     │                  ├ Name: GitHub Security Advisory Go 
-│                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
-│                       │     │                          osystem%3Ago 
-│                       │     ├ Fingerprint     : sha256:e7a90b98aa711b0d0109a4563f476b623cce1575850a9d941e23a0
-│                       │     │                   02e7d9eed9 
-│                       │     ├ Title           : moby: docker: github.com/moby/moby: Moby: Privilege
-│                       │     │                   validation bypass during plugin installation 
-│                       │     ├ Description     : Moby is an open source container framework. Prior to version
-│                       │     │                   29.3.1, a security vulnerability has been detected that
-│                       │     │                   allows plugins privilege validation to be bypassed during
-│                       │     │                   docker plugin install. Due to an error in the daemon's
-│                       │     │                   privilege comparison logic, the daemon may incorrectly accept
-│                       │     │                    a privilege set that differs from the one approved by the
-│                       │     │                   user. Plugins that request exactly one privilege are also
-│                       │     │                   affected, because no comparison is performed at all. This
-│                       │     │                   issue has been patched in version 29.3.1. 
-│                       │     ├ Severity        : MEDIUM 
-│                       │     ├ CweIDs           ╭ [0]: CWE-193 
-│                       │     │                  ╰ [1]: CWE-266 
-│                       │     ├ VendorSeverity   ╭ amazon: 2 
-│                       │     │                  ├ ghsa  : 2 
-│                       │     │                  ├ nvd   : 3 
-│                       │     │                  ├ photon: 3 
-│                       │     │                  ╰ redhat: 3 
-│                       │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/
-│                       │     │                  │        │           A:N 
-│                       │     │                  │        ╰ V3Score : 6.8 
-│                       │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/
-│                       │     │                  │        │           A:N 
-│                       │     │                  │        ╰ V3Score : 8.1 
-│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/
-│                       │     │                           │           A:H 
-│                       │     │                           ╰ V3Score : 8.4 
-│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:21769 
-│                       │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:22347 
-│                       │     │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:23345 
-│                       │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-33997 
-│                       │     │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2453277 
-│                       │     │                  ├ [5] : https://docs.docker.com/engine/extend/legacy_plugins 
-│                       │     │                  ├ [6] : https://github.com/moby/moby 
-│                       │     │                  ├ [7] : https://github.com/moby/moby/commit/f4d6f25bf0c3fa12d4
-│                       │     │                  │       968320a45685947756a22a 
-│                       │     │                  ├ [8] : https://github.com/moby/moby/releases/tag/docker-v29.3.1 
-│                       │     │                  ├ [9] : https://github.com/moby/moby/security/advisories/GHSA-
-│                       │     │                  │       pxq6-2prw-chj9 
-│                       │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-33997 
-│                       │     │                  ├ [11]: https://security.access.redhat.com/data/csaf/v2/vex/20
-│                       │     │                  │       26/cve-2026-33997.json 
-│                       │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-33997 
-│                       │     ├ PublishedDate   : 2026-03-31T03:15:57.523Z 
-│                       │     ╰ LastModifiedDate: 2026-08-10T13:19:04.067Z 
-│                       ├ [5] ╭ VulnerabilityID : CVE-2026-41568 
-│                       │     ├ VendorIDs        ─ [0]: GHSA-vp62-88p7-qqf5 
-│                       │     ├ PkgID           : github.com/docker/docker@v28.5.2+incompatible 
-│                       │     ├ PkgName         : github.com/docker/docker 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/docker/docker@v28.5.2%2Bincompat
-│                       │     │                  │       ible 
-│                       │     │                  ╰ UID : 19bdebda0d8ffb51 
-│                       │     ├ InstalledVersion: v28.5.2+incompatible 
-│                       │     ├ Status          : affected 
-│                       │     ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf9205
-│                       │     │                  │         31104cfaf98f5a8bdea 
-│                       │     │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a311992281
-│                       │     │                            83de4cae236707341fd 
-│                       │     ├ SeveritySource  : ghsa 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41568 
-│                       │     ├ DataSource       ╭ ID  : ghsa 
-│                       │     │                  ├ Name: GitHub Security Advisory Go 
-│                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
-│                       │     │                          osystem%3Ago 
-│                       │     ├ Fingerprint     : sha256:740130bf1005601991a0b0f8f645a64f2b61c901f3771f363e7578
-│                       │     │                   64a2c74b33 
-│                       │     ├ Title           : github.com/docker/docker: github.com/moby/moby: Moby: Denial
-│                       │     │                   of Service via race condition in docker cp mount setup 
-│                       │     ├ Description     : Moby is an open source container framework. In Docker Engine
-│                       │     │                   prior to version 29.5.1, Docker Daemon versions 28.5.2 and
-│                       │     │                   prior, and Moby Daemon prior to version 2.0.0-beta.14, a race
-│                       │     │                    condition during docker cp mount setup allows a malicious
-│                       │     │                   container to create empty files or directories at arbitrary
-│                       │     │                   absolute paths on the host filesystem. This issue has been
-│                       │     │                   patched in Docker Engine version 29.5.1 and Moby Daemon
-│                       │     │                   version 2.0.0-beta.14. 
-│                       │     ├ Severity        : MEDIUM 
-│                       │     ├ CweIDs           ╭ [0]: CWE-81 
-│                       │     │                  ╰ [1]: CWE-367 
-│                       │     ├ VendorSeverity   ╭ ghsa  : 2 
-│                       │     │                  ╰ redhat: 1 
-│                       │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/
-│                       │     │                  │        │           A:H 
-│                       │     │                  │        ╰ V3Score : 6 
-│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/
-│                       │     │                           │           A:L 
-│                       │     │                           ╰ V3Score : 3.9 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-41568 
-│                       │     │                  ├ [1]: https://github.com/moby/moby 
-│                       │     │                  ├ [2]: https://github.com/moby/moby/security/advisories/GHSA-v
-│                       │     │                  │      p62-88p7-qqf5 
-│                       │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-41568 
-│                       │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-41568 
-│                       │     ├ PublishedDate   : 2026-06-12T19:16:26.907Z 
-│                       │     ╰ LastModifiedDate: 2026-06-17T10:46:51.787Z 
-│                       ├ [6] ╭ VulnerabilityID : CVE-2026-39824 
-│                       │     ├ VendorIDs        ─ [0]: GO-2026-5024 
-│                       │     ├ PkgID           : golang.org/x/sys@v0.24.0 
-│                       │     ├ PkgName         : golang.org/x/sys 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/sys@v0.24.0 
-│                       │     │                  ╰ UID : ae4e2cbd9022bc67 
-│                       │     ├ InstalledVersion: v0.24.0 
-│                       │     ├ FixedVersion    : 0.44.0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf9205
-│                       │     │                  │         31104cfaf98f5a8bdea 
-│                       │     │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a311992281
-│                       │     │                            83de4cae236707341fd 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-39824 
-│                       │     ├ DataSource       ╭ ID  : govulndb 
-│                       │     │                  ├ Name: The Go Vulnerability Database 
-│                       │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                       │     ├ Fingerprint     : sha256:7bce32dd6dcc12496265858e5739f4c54dfd9c624fc9aeb8fe38fb
-│                       │     │                   0b589e4b73 
-│                       │     ├ Title           : Invoking integer overflow in NewNTUnicodeString in
-│                       │     │                   golang.org/x/sys/windows 
-│                       │     ├ Description     : NewNTUnicodeString does not check for string length overflow.
-│                       │     │                    When provided with a string that overflows the maximum size
-│                       │     │                   of a NTUnicodeString (a 16-bit number of bytes), it returns a
-│                       │     │                    truncated string rather than an error. 
-│                       │     ├ Severity        : UNKNOWN 
-│                       │     ├ CweIDs           ─ [0]: CWE-190 
-│                       │     ├ References       ╭ [0]: https://go.dev/cl/770080 
-│                       │     │                  ├ [1]: https://go.dev/issue/78916 
-│                       │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/6MMI8Lj-Atg 
-│                       │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-5024 
-│                       │     ├ PublishedDate   : 2026-05-22T20:16:33.057Z 
-│                       │     ╰ LastModifiedDate: 2026-07-23T16:10:00.137Z 
-│                       ╰ [7] ╭ VulnerabilityID : CVE-2026-56852 
-│                             ├ VendorIDs        ─ [0]: GO-2026-5970 
-│                             ├ PkgID           : golang.org/x/text@v0.16.0 
-│                             ├ PkgName         : golang.org/x/text 
-│                             ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/text@v0.16.0 
-│                             │                  ╰ UID : 9af16a0db3fdc1ec 
-│                             ├ InstalledVersion: v0.16.0 
-│                             ├ FixedVersion    : 0.39.0 
-│                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf9205
-│                             │                  │         31104cfaf98f5a8bdea 
-│                             │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a311992281
-│                             │                            83de4cae236707341fd 
-│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56852 
-│                             ├ DataSource       ╭ ID  : govulndb 
-│                             │                  ├ Name: The Go Vulnerability Database 
-│                             │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                             ├ Fingerprint     : sha256:6f4534fb690ff1460a9e6c384fd8454e32ffea9b07605e5370cf3f
-│                             │                   c844ca1435 
-│                             ├ Title           : golang.org/x/text: golang.org/x/text: Denial of Service via
-│                             │                   invalid UTF-8 input 
-│                             ├ Description     : A norm.Iter can enter an infinite loop when handling input
-│                             │                   containing invalid UTF-8 bytes. 
-│                             ├ Severity        : HIGH 
-│                             ├ CweIDs           ─ [0]: CWE-835 
-│                             ├ VendorSeverity   ╭ azure : 3 
-│                             │                  ╰ redhat: 3 
-│                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
-│                             │                           │           A:H 
-│                             │                           ╰ V3Score : 7.5 
-│                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-56852 
-│                             │                  ├ [1]: https://go.dev/cl/794100 
-│                             │                  ├ [2]: https://go.dev/issue/80142 
-│                             │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-56852 
-│                             │                  ├ [4]: https://pkg.go.dev/vuln/GO-2026-5970 
-│                             │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-56852 
-│                             ├ PublishedDate   : 2026-07-21T20:17:02.867Z 
-│                             ╰ LastModifiedDate: 2026-07-23T18:27:48.877Z 
-╰ [4] ╭ Target  : usr/bin/pebble 
-      ├ Class   : lang-pkgs 
-      ├ Type    : gobinary 
-      ╰ Packages 
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2025-15558 
+│                       │      ├ VendorIDs        ─ [0]: GHSA-p436-gjf2-799p 
+│                       │      ├ PkgID           : github.com/docker/cli@v27.1.1+incompatible 
+│                       │      ├ PkgName         : github.com/docker/cli 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/docker/cli@v27.1.1%2Bincompatible 
+│                       │      │                  ╰ UID : d2c10c28447b49f5 
+│                       │      ├ InstalledVersion: v27.1.1+incompatible 
+│                       │      ├ FixedVersion    : 29.2.0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920
+│                       │      │                  │         531104cfaf98f5a8bdea 
+│                       │      │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228
+│                       │      │                            183de4cae236707341fd 
+│                       │      ├ SeveritySource  : ghsa 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15558 
+│                       │      ├ DataSource       ╭ ID  : ghsa 
+│                       │      │                  ├ Name: GitHub Security Advisory Go 
+│                       │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                       │      │                          cosystem%3Ago 
+│                       │      ├ Fingerprint     : sha256:eec2c911bafc30decee54c7cfb8cc5f8c2ff925e61ead871e0ee9
+│                       │      │                   deeb23f120e 
+│                       │      ├ Title           : docker/cli: Docker CLI for Windows: Privilege escalation via
+│                       │      │                    malicious plugin binaries 
+│                       │      ├ Description     : Docker CLI for Windows searches for plugin binaries in
+│                       │      │                   C:\ProgramData\Docker\cli-plugins, a directory that does not
+│                       │      │                    exist by default. A low-privileged attacker can create this
+│                       │      │                    directory and place malicious CLI plugin binaries
+│                       │      │                   (docker-compose.exe, docker-buildx.exe, etc.) that are
+│                       │      │                   executed when a victim user opens Docker Desktop or invokes
+│                       │      │                   Docker CLI plugin features, and allow privilege-escalation
+│                       │      │                   if the docker CLI is executed as a privileged user.
+│                       │      │                   
+│                       │      │                   This issue affects Docker CLI: through 29.1.5 and Windows
+│                       │      │                   binaries acting as a CLI-plugin manager using the 
+│                       │      │                   github.com/docker/cli/cli-plugins/manager
+│                       │      │                   https://pkg.go.dev/github.com/docker/cli@v29.1.5+incompatibl
+│                       │      │                   e/cli-plugins/manager  package, such as Docker Compose.
+│                       │      │                   This issue does not impact non-Windows binaries, and
+│                       │      │                   projects not using the plugin-manager code. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-427 
+│                       │      ├ VendorSeverity   ╭ bitnami: 3 
+│                       │      │                  ├ ghsa   : 3 
+│                       │      │                  ├ nvd    : 3 
+│                       │      │                  ╰ redhat : 3 
+│                       │      ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:P/VC:H
+│                       │      │                  │         │            /VI:H/VA:H/SC:N/SI:N/SA:N/AU:N/R:U 
+│                       │      │                  │         ╰ V40Score : 7 
+│                       │      │                  ├ ghsa    ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:P/VC:H
+│                       │      │                  │         │            /VI:H/VA:H/SC:N/SI:N/SA:N 
+│                       │      │                  │         ╰ V40Score : 7 
+│                       │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:
+│                       │      │                  │         │           H/A:H 
+│                       │      │                  │         ╰ V3Score : 8 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:
+│                       │      │                            │           H/A:H 
+│                       │      │                            ╰ V3Score : 7.3 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-15558 
+│                       │      │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=2444574 
+│                       │      │                  ├ [2] : https://docs.docker.com/desktop/release-notes 
+│                       │      │                  ├ [3] : https://docs.docker.com/desktop/release-notes/ 
+│                       │      │                  ├ [4] : https://github.com/docker/cli 
+│                       │      │                  ├ [5] : https://github.com/docker/cli/commit/13759330b1f7e7cb
+│                       │      │                  │       0d67047ea42c5482548ba7fa 
+│                       │      │                  ├ [6] : https://github.com/docker/cli/pull/6713 
+│                       │      │                  ├ [7] : https://github.com/docker/cli/security/advisories/GHS
+│                       │      │                  │       A-p436-gjf2-799p 
+│                       │      │                  ├ [8] : https://github.com/docker/compose/pull/12300 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-15558 
+│                       │      │                  ├ [10]: https://security.access.redhat.com/data/csaf/v2/vex/2
+│                       │      │                  │       025/cve-2025-15558.json 
+│                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-15558 
+│                       │      │                  ├ [12]: https://www.zerodayinitiative.com/advisories/ZDI-CAN-
+│                       │      │                  │       28304 
+│                       │      │                  ╰ [13]: https://www.zerodayinitiative.com/advisories/ZDI-CAN-
+│                       │      │                          28304/ 
+│                       │      ├ PublishedDate   : 2026-03-04T17:16:14.763Z 
+│                       │      ╰ LastModifiedDate: 2026-07-15T02:17:22.307Z 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2026-34040 
+│                       │      ├ VendorIDs        ─ [0]: GHSA-x744-4wpc-v9h2 
+│                       │      ├ PkgID           : github.com/docker/docker@v28.5.2+incompatible 
+│                       │      ├ PkgName         : github.com/docker/docker 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/docker/docker@v28.5.2%2Bincompa
+│                       │      │                  │       tible 
+│                       │      │                  ╰ UID : 19bdebda0d8ffb51 
+│                       │      ├ InstalledVersion: v28.5.2+incompatible 
+│                       │      ├ FixedVersion    : 29.3.1 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920
+│                       │      │                  │         531104cfaf98f5a8bdea 
+│                       │      │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228
+│                       │      │                            183de4cae236707341fd 
+│                       │      ├ SeveritySource  : ghsa 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34040 
+│                       │      ├ DataSource       ╭ ID  : ghsa 
+│                       │      │                  ├ Name: GitHub Security Advisory Go 
+│                       │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                       │      │                          cosystem%3Ago 
+│                       │      ├ Fingerprint     : sha256:2c9d3d99654a51f7f1beea0a97fb14869b1ca4050f2dfbc032977
+│                       │      │                   faa7c7c5163 
+│                       │      ├ Title           : Moby: Moby: Authorization bypass vulnerability 
+│                       │      ├ Description     : Moby is an open source container framework. Prior to version
+│                       │      │                    29.3.1, a security vulnerability has been detected that
+│                       │      │                   allows attackers to bypass authorization plugins (AuthZ).
+│                       │      │                   This issue has been patched in version 29.3.1. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-288 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ ghsa  : 3 
+│                       │      │                  ├ nvd   : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ╰ redhat: 2 
+│                       │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 8.8 
+│                       │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.8 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 8.4 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-34040 
+│                       │      │                  ├ [1]: https://docs.docker.com/engine/extend/plugins_authoriz
+│                       │      │                  │      ation 
+│                       │      │                  ├ [2]: https://github.com/moby/moby 
+│                       │      │                  ├ [3]: https://github.com/moby/moby/commit/e89edb19ad7de0407a
+│                       │      │                  │      5d31e3111cb01aa10b5a38 
+│                       │      │                  ├ [4]: https://github.com/moby/moby/releases/tag/docker-v29.3.1 
+│                       │      │                  ├ [5]: https://github.com/moby/moby/security/advisories/GHSA-
+│                       │      │                  │      v23v-6jw2-98fq 
+│                       │      │                  ├ [6]: https://github.com/moby/moby/security/advisories/GHSA-
+│                       │      │                  │      x744-4wpc-v9h2 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-34040 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-34040 
+│                       │      ├ PublishedDate   : 2026-03-31T03:15:57.883Z 
+│                       │      ╰ LastModifiedDate: 2026-06-17T10:38:28.383Z 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2026-41567 
+│                       │      ├ VendorIDs        ─ [0]: GHSA-x86f-5xw2-fm2r 
+│                       │      ├ PkgID           : github.com/docker/docker@v28.5.2+incompatible 
+│                       │      ├ PkgName         : github.com/docker/docker 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/docker/docker@v28.5.2%2Bincompa
+│                       │      │                  │       tible 
+│                       │      │                  ╰ UID : 19bdebda0d8ffb51 
+│                       │      ├ InstalledVersion: v28.5.2+incompatible 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920
+│                       │      │                  │         531104cfaf98f5a8bdea 
+│                       │      │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228
+│                       │      │                            183de4cae236707341fd 
+│                       │      ├ SeveritySource  : ghsa 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41567 
+│                       │      ├ DataSource       ╭ ID  : ghsa 
+│                       │      │                  ├ Name: GitHub Security Advisory Go 
+│                       │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                       │      │                          cosystem%3Ago 
+│                       │      ├ Fingerprint     : sha256:89f7d6ccb55a04c4316a8275bfc910d6761cad906774616868609
+│                       │      │                   d991e791f90 
+│                       │      ├ Title           : docker: Moby/Docker Engine: Arbitrary Code Execution via
+│                       │      │                   malicious container image and compressed archive upload 
+│                       │      ├ Description     : Moby is an open source container framework. In versions
+│                       │      │                   prior to 29.5.1 and in moby/moby v2 prior to v2.0.0-beta.14,
+│                       │      │                    when a compressed archive is uploaded to a container via
+│                       │      │                   `PUT /containers/{id}/archive` or piped through `docker cp
+│                       │      │                   -`, the daemon resolves decompression binaries (such as `xz`
+│                       │      │                    or `unpigz`) from the container's filesystem rather than
+│                       │      │                   the host's due to incorrect ordering of operations. A
+│                       │      │                   malicious container image containing a trojanized
+│                       │      │                   decompression binary can achieve arbitrary code execution
+│                       │      │                   with full daemon privileges, including host root UID and
+│                       │      │                   unrestricted capabilities, when a user uploads a compressed
+│                       │      │                   (xz or gzip) archive into that container. This issue is
+│                       │      │                   fixed in Docker Engine 29.5.1 and moby/moby v2.0.0-beta.14.
+│                       │      │                   Workarounds include only running containers from trusted
+│                       │      │                   images, using authorization plugins to restrict access to
+│                       │      │                   the `PUT /containers/{id}/archive` endpoint, and avoiding
+│                       │      │                   piping compressed archives into containers created from
+│                       │      │                   untrusted images 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-427 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ ghsa  : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ╰ redhat: 3 
+│                       │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 7.2 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:37387 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:41030 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:42852 
+│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:44622 
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:51057 
+│                       │      │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2026-41567 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2485356 
+│                       │      │                  ├ [7] : https://github.com/moby/moby 
+│                       │      │                  ├ [8] : https://github.com/moby/moby/security/advisories/GHSA
+│                       │      │                  │       -x86f-5xw2-fm2r 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-41567 
+│                       │      │                  ├ [10]: https://security.access.redhat.com/data/csaf/v2/vex/2
+│                       │      │                  │       026/cve-2026-41567.json 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2026-41567 
+│                       │      ├ PublishedDate   : 2026-06-05T02:17:13.817Z 
+│                       │      ╰ LastModifiedDate: 2026-08-10T13:19:21.29Z 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2026-42306 
+│                       │      ├ VendorIDs        ─ [0]: GHSA-rg2x-37c3-w2rh 
+│                       │      ├ PkgID           : github.com/docker/docker@v28.5.2+incompatible 
+│                       │      ├ PkgName         : github.com/docker/docker 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/docker/docker@v28.5.2%2Bincompa
+│                       │      │                  │       tible 
+│                       │      │                  ╰ UID : 19bdebda0d8ffb51 
+│                       │      ├ InstalledVersion: v28.5.2+incompatible 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920
+│                       │      │                  │         531104cfaf98f5a8bdea 
+│                       │      │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228
+│                       │      │                            183de4cae236707341fd 
+│                       │      ├ SeveritySource  : ghsa 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42306 
+│                       │      ├ DataSource       ╭ ID  : ghsa 
+│                       │      │                  ├ Name: GitHub Security Advisory Go 
+│                       │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                       │      │                          cosystem%3Ago 
+│                       │      ├ Fingerprint     : sha256:6a3ffe2f0da58d76db8cd4adcdb38f645249830200893e54bb54d
+│                       │      │                   8e7759b7286 
+│                       │      ├ Title           : github.com/docker/docker: github.com/moby/moby: Moby
+│                       │      │                   container framework: Host file overwrite via race condition
+│                       │      │                   in docker cp mount setup 
+│                       │      ├ Description     : Moby is an open source container framework. In Docker Engine
+│                       │      │                    prior to version 29.5.1, Docker Daemon versions 28.5.2 and
+│                       │      │                   prior, and Moby Daemon prior to version 2.0.0-beta.14, a
+│                       │      │                   race condition during docker cp mount setup allows a
+│                       │      │                   malicious container to redirect a bind mount target to an
+│                       │      │                   arbitrary host path, potentially overwriting host files or
+│                       │      │                   causing denial of service. This issue has been patched in
+│                       │      │                   Docker Engine version 29.5.1 and Moby Daemon version
+│                       │      │                   2.0.0-beta.14. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ╭ [0]: CWE-61 
+│                       │      │                  ╰ [1]: CWE-367 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ ghsa  : 3 
+│                       │      │                  ├ nvd   : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ╰ redhat: 3 
+│                       │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.2 
+│                       │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.2 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.2 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-42306 
+│                       │      │                  ├ [1]: https://github.com/moby/moby 
+│                       │      │                  ├ [2]: https://github.com/moby/moby/security/advisories/GHSA-
+│                       │      │                  │      rg2x-37c3-w2rh 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-42306 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-42306 
+│                       │      ├ PublishedDate   : 2026-06-12T19:16:27.49Z 
+│                       │      ╰ LastModifiedDate: 2026-06-17T10:47:39.96Z 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2026-33997 
+│                       │      ├ VendorIDs        ─ [0]: GHSA-pxq6-2prw-chj9 
+│                       │      ├ PkgID           : github.com/docker/docker@v28.5.2+incompatible 
+│                       │      ├ PkgName         : github.com/docker/docker 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/docker/docker@v28.5.2%2Bincompa
+│                       │      │                  │       tible 
+│                       │      │                  ╰ UID : 19bdebda0d8ffb51 
+│                       │      ├ InstalledVersion: v28.5.2+incompatible 
+│                       │      ├ FixedVersion    : 29.3.1 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920
+│                       │      │                  │         531104cfaf98f5a8bdea 
+│                       │      │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228
+│                       │      │                            183de4cae236707341fd 
+│                       │      ├ SeveritySource  : ghsa 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33997 
+│                       │      ├ DataSource       ╭ ID  : ghsa 
+│                       │      │                  ├ Name: GitHub Security Advisory Go 
+│                       │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                       │      │                          cosystem%3Ago 
+│                       │      ├ Fingerprint     : sha256:e7a90b98aa711b0d0109a4563f476b623cce1575850a9d941e23a
+│                       │      │                   002e7d9eed9 
+│                       │      ├ Title           : moby: docker: github.com/moby/moby: Moby: Privilege
+│                       │      │                   validation bypass during plugin installation 
+│                       │      ├ Description     : Moby is an open source container framework. Prior to version
+│                       │      │                    29.3.1, a security vulnerability has been detected that
+│                       │      │                   allows plugins privilege validation to be bypassed during
+│                       │      │                   docker plugin install. Due to an error in the daemon's
+│                       │      │                   privilege comparison logic, the daemon may incorrectly
+│                       │      │                   accept a privilege set that differs from the one approved by
+│                       │      │                    the user. Plugins that request exactly one privilege are
+│                       │      │                   also affected, because no comparison is performed at all.
+│                       │      │                   This issue has been patched in version 29.3.1. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-193 
+│                       │      │                  ╰ [1]: CWE-266 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ ghsa  : 2 
+│                       │      │                  ├ nvd   : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ╰ redhat: 3 
+│                       │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 6.8 
+│                       │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 8.1 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 8.4 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:21769 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:22347 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:23345 
+│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-33997 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2453277 
+│                       │      │                  ├ [5] : https://docs.docker.com/engine/extend/legacy_plugins 
+│                       │      │                  ├ [6] : https://github.com/moby/moby 
+│                       │      │                  ├ [7] : https://github.com/moby/moby/commit/f4d6f25bf0c3fa12d
+│                       │      │                  │       4968320a45685947756a22a 
+│                       │      │                  ├ [8] : https://github.com/moby/moby/releases/tag/docker-v29.
+│                       │      │                  │       3.1 
+│                       │      │                  ├ [9] : https://github.com/moby/moby/security/advisories/GHSA
+│                       │      │                  │       -pxq6-2prw-chj9 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-33997 
+│                       │      │                  ├ [11]: https://security.access.redhat.com/data/csaf/v2/vex/2
+│                       │      │                  │       026/cve-2026-33997.json 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-33997 
+│                       │      ├ PublishedDate   : 2026-03-31T03:15:57.523Z 
+│                       │      ╰ LastModifiedDate: 2026-08-10T13:19:04.067Z 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-41568 
+│                       │      ├ VendorIDs        ─ [0]: GHSA-vp62-88p7-qqf5 
+│                       │      ├ PkgID           : github.com/docker/docker@v28.5.2+incompatible 
+│                       │      ├ PkgName         : github.com/docker/docker 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/github.com/docker/docker@v28.5.2%2Bincompa
+│                       │      │                  │       tible 
+│                       │      │                  ╰ UID : 19bdebda0d8ffb51 
+│                       │      ├ InstalledVersion: v28.5.2+incompatible 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920
+│                       │      │                  │         531104cfaf98f5a8bdea 
+│                       │      │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228
+│                       │      │                            183de4cae236707341fd 
+│                       │      ├ SeveritySource  : ghsa 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41568 
+│                       │      ├ DataSource       ╭ ID  : ghsa 
+│                       │      │                  ├ Name: GitHub Security Advisory Go 
+│                       │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
+│                       │      │                          cosystem%3Ago 
+│                       │      ├ Fingerprint     : sha256:740130bf1005601991a0b0f8f645a64f2b61c901f3771f363e757
+│                       │      │                   864a2c74b33 
+│                       │      ├ Title           : github.com/docker/docker: github.com/moby/moby: Moby: Denial
+│                       │      │                    of Service via race condition in docker cp mount setup 
+│                       │      ├ Description     : Moby is an open source container framework. In Docker Engine
+│                       │      │                    prior to version 29.5.1, Docker Daemon versions 28.5.2 and
+│                       │      │                   prior, and Moby Daemon prior to version 2.0.0-beta.14, a
+│                       │      │                   race condition during docker cp mount setup allows a
+│                       │      │                   malicious container to create empty files or directories at
+│                       │      │                   arbitrary absolute paths on the host filesystem. This issue
+│                       │      │                   has been patched in Docker Engine version 29.5.1 and Moby
+│                       │      │                   Daemon version 2.0.0-beta.14. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-81 
+│                       │      │                  ╰ [1]: CWE-367 
+│                       │      ├ VendorSeverity   ╭ ghsa  : 2 
+│                       │      │                  ╰ redhat: 1 
+│                       │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 6 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 3.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-41568 
+│                       │      │                  ├ [1]: https://github.com/moby/moby 
+│                       │      │                  ├ [2]: https://github.com/moby/moby/security/advisories/GHSA-
+│                       │      │                  │      vp62-88p7-qqf5 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-41568 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-41568 
+│                       │      ├ PublishedDate   : 2026-06-12T19:16:26.907Z 
+│                       │      ╰ LastModifiedDate: 2026-06-17T10:46:51.787Z 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-39824 
+│                       │      ├ VendorIDs        ─ [0]: GO-2026-5024 
+│                       │      ├ PkgID           : golang.org/x/sys@v0.24.0 
+│                       │      ├ PkgName         : golang.org/x/sys 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/sys@v0.24.0 
+│                       │      │                  ╰ UID : ae4e2cbd9022bc67 
+│                       │      ├ InstalledVersion: v0.24.0 
+│                       │      ├ FixedVersion    : 0.44.0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920
+│                       │      │                  │         531104cfaf98f5a8bdea 
+│                       │      │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228
+│                       │      │                            183de4cae236707341fd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-39824 
+│                       │      ├ DataSource       ╭ ID  : govulndb 
+│                       │      │                  ├ Name: The Go Vulnerability Database 
+│                       │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                       │      ├ Fingerprint     : sha256:7bce32dd6dcc12496265858e5739f4c54dfd9c624fc9aeb8fe38f
+│                       │      │                   b0b589e4b73 
+│                       │      ├ Title           : Invoking integer overflow in NewNTUnicodeString in
+│                       │      │                   golang.org/x/sys/windows 
+│                       │      ├ Description     : NewNTUnicodeString does not check for string length
+│                       │      │                   overflow. When provided with a string that overflows the
+│                       │      │                   maximum size of a NTUnicodeString (a 16-bit number of
+│                       │      │                   bytes), it returns a truncated string rather than an
+│                       │      │                   error. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-190 
+│                       │      ├ References       ╭ [0]: https://go.dev/cl/770080 
+│                       │      │                  ├ [1]: https://go.dev/issue/78916 
+│                       │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/6MMI8Lj-
+│                       │      │                  │      Atg 
+│                       │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-5024 
+│                       │      ├ PublishedDate   : 2026-05-22T20:16:33.057Z 
+│                       │      ╰ LastModifiedDate: 2026-07-23T16:10:00.137Z 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-56852 
+│                       │      ├ VendorIDs        ─ [0]: GO-2026-5970 
+│                       │      ├ PkgID           : golang.org/x/text@v0.16.0 
+│                       │      ├ PkgName         : golang.org/x/text 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/text@v0.16.0 
+│                       │      │                  ╰ UID : 9af16a0db3fdc1ec 
+│                       │      ├ InstalledVersion: v0.16.0 
+│                       │      ├ FixedVersion    : 0.39.0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920
+│                       │      │                  │         531104cfaf98f5a8bdea 
+│                       │      │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228
+│                       │      │                            183de4cae236707341fd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56852 
+│                       │      ├ DataSource       ╭ ID  : govulndb 
+│                       │      │                  ├ Name: The Go Vulnerability Database 
+│                       │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                       │      ├ Fingerprint     : sha256:6f4534fb690ff1460a9e6c384fd8454e32ffea9b07605e5370cf3
+│                       │      │                   fc844ca1435 
+│                       │      ├ Title           : golang.org/x/text: golang.org/x/text: Denial of Service via
+│                       │      │                   invalid UTF-8 input 
+│                       │      ├ Description     : A norm.Iter can enter an infinite loop when handling input
+│                       │      │                   containing invalid UTF-8 bytes. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-835 
+│                       │      ├ VendorSeverity   ╭ azure : 3 
+│                       │      │                  ╰ redhat: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-56852 
+│                       │      │                  ├ [1]: https://go.dev/cl/794100 
+│                       │      │                  ├ [2]: https://go.dev/issue/80142 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-56852 
+│                       │      │                  ├ [4]: https://pkg.go.dev/vuln/GO-2026-5970 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-56852 
+│                       │      ├ PublishedDate   : 2026-07-21T20:17:02.867Z 
+│                       │      ╰ LastModifiedDate: 2026-07-23T18:27:48.877Z 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-39821 
+│                       │      ├ VendorIDs        ─ [0]: GO-2026-5026 
+│                       │      ├ PkgID           : stdlib@v1.26.5 
+│                       │      ├ PkgName         : stdlib 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.26.5 
+│                       │      │                  ╰ UID : 500ebbf5f84e5fb9 
+│                       │      ├ InstalledVersion: v1.26.5 
+│                       │      ├ FixedVersion    : 1.25.13, 1.26.6, 1.27.0-rc.3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920
+│                       │      │                  │         531104cfaf98f5a8bdea 
+│                       │      │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228
+│                       │      │                            183de4cae236707341fd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-39821 
+│                       │      ├ DataSource       ╭ ID  : govulndb 
+│                       │      │                  ├ Name: The Go Vulnerability Database 
+│                       │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                       │      ├ Fingerprint     : sha256:535738939ca261c48cd6e0be7243872cf3cfa2329decf2fb9283e
+│                       │      │                   c6ac74e80f3 
+│                       │      ├ Title           : golang.org/x/net/idna: golang: net/http:
+│                       │      │                   golang.org/x/net/idna: Privilege escalation via incorrect
+│                       │      │                   Punycode label processing 
+│                       │      ├ Description     : The ToASCII and ToUnicode functions incorrectly accept
+│                       │      │                   Punycode-encoded labels that decode to an ASCII-only label.
+│                       │      │                   For example, ToUnicode("xn--example-.com") incorrectly
+│                       │      │                   returns the name "example.com" rather than an error. This
+│                       │      │                   behavior can lead to privilege escalation in programs using
+│                       │      │                   the idna package. For example, a program which performs
+│                       │      │                   privilege checks on the ASCII hostname may reject
+│                       │      │                   "example.com" but permit "xn--example-.com". If that program
+│                       │      │                    subsequently converts the ASCII hostname to Unicode, it
+│                       │      │                   will inadvertently permits access to the Unicode name
+│                       │      │                   "example.com". 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-1289 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ azure      : 4 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 8.2 
+│                       │      ├ References       ╭ [0]  : https://access.redhat.com/errata/RHSA-2026:23262 
+│                       │      │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2026:23264 
+│                       │      │                  ├ [2]  : https://access.redhat.com/errata/RHSA-2026:26546 
+│                       │      │                  ├ [3]  : https://access.redhat.com/errata/RHSA-2026:26547 
+│                       │      │                  ├ [4]  : https://access.redhat.com/errata/RHSA-2026:30650 
+│                       │      │                  ├ [5]  : https://access.redhat.com/errata/RHSA-2026:30651 
+│                       │      │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2026:30853 
+│                       │      │                  ├ [7]  : https://access.redhat.com/errata/RHSA-2026:30854 
+│                       │      │                  ├ [8]  : https://access.redhat.com/errata/RHSA-2026:30855 
+│                       │      │                  ├ [9]  : https://access.redhat.com/errata/RHSA-2026:33155 
+│                       │      │                  ├ [10] : https://access.redhat.com/errata/RHSA-2026:33160 
+│                       │      │                  ├ [11] : https://access.redhat.com/errata/RHSA-2026:33163 
+│                       │      │                  ├ [12] : https://access.redhat.com/errata/RHSA-2026:33173 
+│                       │      │                  ├ [13] : https://access.redhat.com/errata/RHSA-2026:33183 
+│                       │      │                  ├ [14] : https://access.redhat.com/errata/RHSA-2026:33524 
+│                       │      │                  ├ [15] : https://access.redhat.com/errata/RHSA-2026:33531 
+│                       │      │                  ├ [16] : https://access.redhat.com/errata/RHSA-2026:34342 
+│                       │      │                  ├ [17] : https://access.redhat.com/errata/RHSA-2026:34357 
+│                       │      │                  ├ [18] : https://access.redhat.com/errata/RHSA-2026:34359 
+│                       │      │                  ├ [19] : https://access.redhat.com/errata/RHSA-2026:34364 
+│                       │      │                  ├ [20] : https://access.redhat.com/errata/RHSA-2026:34789 
+│                       │      │                  ├ [21] : https://access.redhat.com/errata/RHSA-2026:35826 
+│                       │      │                  ├ [22] : https://access.redhat.com/errata/RHSA-2026:35827 
+│                       │      │                  ├ [23] : https://access.redhat.com/errata/RHSA-2026:35828 
+│                       │      │                  ├ [24] : https://access.redhat.com/errata/RHSA-2026:35829 
+│                       │      │                  ├ [25] : https://access.redhat.com/errata/RHSA-2026:35830 
+│                       │      │                  ├ [26] : https://access.redhat.com/errata/RHSA-2026:35831 
+│                       │      │                  ├ [27] : https://access.redhat.com/errata/RHSA-2026:35993 
+│                       │      │                  ├ [28] : https://access.redhat.com/errata/RHSA-2026:35994 
+│                       │      │                  ├ [29] : https://access.redhat.com/errata/RHSA-2026:36105 
+│                       │      │                  ├ [30] : https://access.redhat.com/errata/RHSA-2026:36167 
+│                       │      │                  ├ [31] : https://access.redhat.com/errata/RHSA-2026:36207 
+│                       │      │                  ├ [32] : https://access.redhat.com/errata/RHSA-2026:36648 
+│                       │      │                  ├ [33] : https://access.redhat.com/errata/RHSA-2026:36651 
+│                       │      │                  ├ [34] : https://access.redhat.com/errata/RHSA-2026:36796 
+│                       │      │                  ├ [35] : https://access.redhat.com/errata/RHSA-2026:36797 
+│                       │      │                  ├ [36] : https://access.redhat.com/errata/RHSA-2026:36808 
+│                       │      │                  ├ [37] : https://access.redhat.com/errata/RHSA-2026:36820 
+│                       │      │                  ├ [38] : https://access.redhat.com/errata/RHSA-2026:36883 
+│                       │      │                  ├ [39] : https://access.redhat.com/errata/RHSA-2026:37387 
+│                       │      │                  ├ [40] : https://access.redhat.com/errata/RHSA-2026:37435 
+│                       │      │                  ├ [41] : https://access.redhat.com/errata/RHSA-2026:37436 
+│                       │      │                  ├ [42] : https://access.redhat.com/errata/RHSA-2026:38995 
+│                       │      │                  ├ [43] : https://access.redhat.com/errata/RHSA-2026:39005 
+│                       │      │                  ├ [44] : https://access.redhat.com/errata/RHSA-2026:39573 
+│                       │      │                  ├ [45] : https://access.redhat.com/errata/RHSA-2026:39879 
+│                       │      │                  ├ [46] : https://access.redhat.com/errata/RHSA-2026:40118 
+│                       │      │                  ├ [47] : https://access.redhat.com/errata/RHSA-2026:40262 
+│                       │      │                  ├ [48] : https://access.redhat.com/errata/RHSA-2026:40945 
+│                       │      │                  ├ [49] : https://access.redhat.com/errata/RHSA-2026:41019 
+│                       │      │                  ├ [50] : https://access.redhat.com/errata/RHSA-2026:41030 
+│                       │      │                  ├ [51] : https://access.redhat.com/errata/RHSA-2026:41031 
+│                       │      │                  ├ [52] : https://access.redhat.com/errata/RHSA-2026:41036 
+│                       │      │                  ├ [53] : https://access.redhat.com/errata/RHSA-2026:41055 
+│                       │      │                  ├ [54] : https://access.redhat.com/errata/RHSA-2026:41066 
+│                       │      │                  ├ [55] : https://access.redhat.com/errata/RHSA-2026:41928 
+│                       │      │                  ├ [56] : https://access.redhat.com/errata/RHSA-2026:41930 
+│                       │      │                  ├ [57] : https://access.redhat.com/errata/RHSA-2026:42043 
+│                       │      │                  ├ [58] : https://access.redhat.com/errata/RHSA-2026:42047 
+│                       │      │                  ├ [59] : https://access.redhat.com/errata/RHSA-2026:42048 
+│                       │      │                  ├ [60] : https://access.redhat.com/errata/RHSA-2026:42049 
+│                       │      │                  ├ [61] : https://access.redhat.com/errata/RHSA-2026:42050 
+│                       │      │                  ├ [62] : https://access.redhat.com/errata/RHSA-2026:42051 
+│                       │      │                  ├ [63] : https://access.redhat.com/errata/RHSA-2026:42078 
+│                       │      │                  ├ [64] : https://access.redhat.com/errata/RHSA-2026:42079 
+│                       │      │                  ├ [65] : https://access.redhat.com/errata/RHSA-2026:42080 
+│                       │      │                  ├ [66] : https://access.redhat.com/errata/RHSA-2026:42082 
+│                       │      │                  ├ [67] : https://access.redhat.com/errata/RHSA-2026:42132 
+│                       │      │                  ├ [68] : https://access.redhat.com/errata/RHSA-2026:42142 
+│                       │      │                  ├ [69] : https://access.redhat.com/errata/RHSA-2026:42146 
+│                       │      │                  ├ [70] : https://access.redhat.com/errata/RHSA-2026:42150 
+│                       │      │                  ├ [71] : https://access.redhat.com/errata/RHSA-2026:42151 
+│                       │      │                  ├ [72] : https://access.redhat.com/errata/RHSA-2026:42240 
+│                       │      │                  ├ [73] : https://access.redhat.com/errata/RHSA-2026:42644 
+│                       │      │                  ├ [74] : https://access.redhat.com/errata/RHSA-2026:42796 
+│                       │      │                  ├ [75] : https://access.redhat.com/errata/RHSA-2026:42852 
+│                       │      │                  ├ [76] : https://access.redhat.com/errata/RHSA-2026:43038 
+│                       │      │                  ├ [77] : https://access.redhat.com/errata/RHSA-2026:43052 
+│                       │      │                  ├ [78] : https://access.redhat.com/errata/RHSA-2026:43692 
+│                       │      │                  ├ [79] : https://access.redhat.com/errata/RHSA-2026:44622 
+│                       │      │                  ├ [80] : https://access.redhat.com/errata/RHSA-2026:44624 
+│                       │      │                  ├ [81] : https://access.redhat.com/errata/RHSA-2026:46395 
+│                       │      │                  ├ [82] : https://access.redhat.com/errata/RHSA-2026:47149 
+│                       │      │                  ├ [83] : https://access.redhat.com/errata/RHSA-2026:47735 
+│                       │      │                  ├ [84] : https://access.redhat.com/errata/RHSA-2026:47737 
+│                       │      │                  ├ [85] : https://access.redhat.com/errata/RHSA-2026:47952 
+│                       │      │                  ├ [86] : https://access.redhat.com/errata/RHSA-2026:50300 
+│                       │      │                  ├ [87] : https://access.redhat.com/errata/RHSA-2026:50843 
+│                       │      │                  ├ [88] : https://access.redhat.com/errata/RHSA-2026:51033 
+│                       │      │                  ├ [89] : https://access.redhat.com/errata/RHSA-2026:51112 
+│                       │      │                  ├ [90] : https://access.redhat.com/errata/RHSA-2026:51187 
+│                       │      │                  ├ [91] : https://access.redhat.com/errata/RHSA-2026:51194 
+│                       │      │                  ├ [92] : https://access.redhat.com/errata/RHSA-2026:51341 
+│                       │      │                  ├ [93] : https://access.redhat.com/errata/RHSA-2026:52826 
+│                       │      │                  ├ [94] : https://access.redhat.com/errata/RHSA-2026:53374 
+│                       │      │                  ├ [95] : https://access.redhat.com/errata/RHSA-2026:53412 
+│                       │      │                  ├ [96] : https://access.redhat.com/errata/RHSA-2026:53413 
+│                       │      │                  ├ [97] : https://access.redhat.com/errata/RHSA-2026:53415 
+│                       │      │                  ├ [98] : https://access.redhat.com/errata/RHSA-2026:53530 
+│                       │      │                  ├ [99] : https://access.redhat.com/errata/RHSA-2026:54191 
+│                       │      │                  ├ [100]: https://access.redhat.com/errata/RHSA-2026:54274 
+│                       │      │                  ├ [101]: https://access.redhat.com/errata/RHSA-2026:54283 
+│                       │      │                  ├ [102]: https://access.redhat.com/errata/RHSA-2026:54284 
+│                       │      │                  ├ [103]: https://access.redhat.com/errata/RHSA-2026:54285 
+│                       │      │                  ├ [104]: https://access.redhat.com/errata/RHSA-2026:54286 
+│                       │      │                  ├ [105]: https://access.redhat.com/errata/RHSA-2026:54287 
+│                       │      │                  ├ [106]: https://access.redhat.com/errata/RHSA-2026:54395 
+│                       │      │                  ├ [107]: https://access.redhat.com/errata/RHSA-2026:54401 
+│                       │      │                  ├ [108]: https://access.redhat.com/errata/RHSA-2026:54435 
+│                       │      │                  ├ [109]: https://access.redhat.com/errata/RHSA-2026:54441 
+│                       │      │                  ├ [110]: https://access.redhat.com/security/cve/CVE-2026-39821 
+│                       │      │                  ├ [111]: https://bugzilla.redhat.com/2480756 
+│                       │      │                  ├ [112]: https://bugzilla.redhat.com/show_bug.cgi?id=2480756 
+│                       │      │                  ├ [113]: https://bugzilla.redhat.com/show_bug.cgi?id=2498152 
+│                       │      │                  ├ [114]: https://creativecommons.org/licenses/by/4.0/ 
+│                       │      │                  ├ [115]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │      │                  │        026-39821 
+│                       │      │                  ├ [116]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │      │                  │        026-39822 
+│                       │      │                  ├ [117]: https://errata.almalinux.org/9/ALSA-2026-37435.html 
+│                       │      │                  ├ [118]: https://errata.rockylinux.org/RLSA-2026:37435 
+│                       │      │                  ├ [119]: https://github.com/golang/go/issues/78760 
+│                       │      │                  ├ [120]: https://go.dev/cl/767220 
+│                       │      │                  ├ [121]: https://go.dev/issue/78760 
+│                       │      │                  ├ [122]: https://groups.google.com/g/golang-announce/c/94pEor
+│                       │      │                  │        npRlI 
+│                       │      │                  ├ [123]: https://groups.google.com/g/golang-announce/c/iI-mYS
+│                       │      │                  │        I0lu8 
+│                       │      │                  ├ [124]: https://linux.oracle.com/cve/CVE-2026-39821.html 
+│                       │      │                  ├ [125]: https://linux.oracle.com/errata/ELSA-2026-46395.html 
+│                       │      │                  ├ [126]: https://nvd.nist.gov/vuln/detail/CVE-2026-39821 
+│                       │      │                  ├ [127]: https://pkg.go.dev/vuln/GO-2026-5026 
+│                       │      │                  ├ [128]: https://security.access.redhat.com/data/csaf/v2/vex/
+│                       │      │                  │        2026/cve-2026-39821.json 
+│                       │      │                  ├ [129]: https://ubuntu.com/security/notices/USN-8416-1 
+│                       │      │                  ╰ [130]: https://www.cve.org/CVERecord?id=CVE-2026-39821 
+│                       │      ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
+│                       │      ╰ LastModifiedDate: 2026-08-13T22:17:19.973Z 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-46600 
+│                       │      ├ VendorIDs        ─ [0]: GO-2026-5942 
+│                       │      ├ PkgID           : stdlib@v1.26.5 
+│                       │      ├ PkgName         : stdlib 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.26.5 
+│                       │      │                  ╰ UID : 500ebbf5f84e5fb9 
+│                       │      ├ InstalledVersion: v1.26.5 
+│                       │      ├ FixedVersion    : 1.26.6, 1.27.0-rc.3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920
+│                       │      │                  │         531104cfaf98f5a8bdea 
+│                       │      │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228
+│                       │      │                            183de4cae236707341fd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-46600 
+│                       │      ├ DataSource       ╭ ID  : govulndb 
+│                       │      │                  ├ Name: The Go Vulnerability Database 
+│                       │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                       │      ├ Fingerprint     : sha256:b9e92d9e0ac4584345d405fc4ee35dbb2c0b1acd2a3e57e9be3a8
+│                       │      │                   f0eb195e7b6 
+│                       │      ├ Title           : golang.org/x/net/dns/dnsmessage:
+│                       │      │                   golang.org/x/net/dns/dnsmessage: Denial of Service via
+│                       │      │                   invalid DNS record parsing 
+│                       │      ├ Description     : Parsing an invalid SVCB or HTTPS RR can panic when the size
+│                       │      │                   of a parameter value overflows the message buffer. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-46600 
+│                       │      │                  ├ [1]: https://go.dev/cl/786345 
+│                       │      │                  ├ [2]: https://go.dev/issue/79795 
+│                       │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/94pEornp
+│                       │      │                  │      RlI 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-46600 
+│                       │      │                  ├ [5]: https://pkg.go.dev/vuln/GO-2026-5942 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-46600 
+│                       │      ├ PublishedDate   : 2026-07-21T20:17:01.213Z 
+│                       │      ╰ LastModifiedDate: 2026-08-13T22:17:21.913Z 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2026-33818 
+│                       │      ├ VendorIDs        ─ [0]: GO-2026-5972 
+│                       │      ├ PkgID           : stdlib@v1.26.5 
+│                       │      ├ PkgName         : stdlib 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.26.5 
+│                       │      │                  ╰ UID : 500ebbf5f84e5fb9 
+│                       │      ├ InstalledVersion: v1.26.5 
+│                       │      ├ FixedVersion    : 1.25.13, 1.26.6, 1.27.0-rc.3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920
+│                       │      │                  │         531104cfaf98f5a8bdea 
+│                       │      │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228
+│                       │      │                            183de4cae236707341fd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33818 
+│                       │      ├ DataSource       ╭ ID  : govulndb 
+│                       │      │                  ├ Name: The Go Vulnerability Database 
+│                       │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                       │      ├ Fingerprint     : sha256:eda230cf6638d4f64ef222c2cf8568e7411682e1dd79d0f9bd937
+│                       │      │                   a892fd91df9 
+│                       │      ├ Title           : Enforce maximum recursion depth in encoding/asn1 
+│                       │      ├ Description     : Enforce a recursion limit in Unmarshal to prevent stack
+│                       │      │                   exhaustion when parsing deeply-nested, recursive
+│                       │      │                   structures. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ References       ╭ [0]: https://go.dev/cl/814980 
+│                       │      │                  ├ [1]: https://go.dev/issue/80405 
+│                       │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/94pEornp
+│                       │      │                  │      RlI 
+│                       │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-5972 
+│                       │      ├ PublishedDate   : 2026-08-13T22:17:19.84Z 
+│                       │      ╰ LastModifiedDate: 2026-08-13T22:17:19.84Z 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2026-56853 
+│                       │      ├ VendorIDs        ─ [0]: GO-2026-6089 
+│                       │      ├ PkgID           : stdlib@v1.26.5 
+│                       │      ├ PkgName         : stdlib 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.26.5 
+│                       │      │                  ╰ UID : 500ebbf5f84e5fb9 
+│                       │      ├ InstalledVersion: v1.26.5 
+│                       │      ├ FixedVersion    : 1.25.13, 1.26.6, 1.27.0-rc.3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920
+│                       │      │                  │         531104cfaf98f5a8bdea 
+│                       │      │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228
+│                       │      │                            183de4cae236707341fd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56853 
+│                       │      ├ DataSource       ╭ ID  : govulndb 
+│                       │      │                  ├ Name: The Go Vulnerability Database 
+│                       │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                       │      ├ Fingerprint     : sha256:8d7a71dbf38d8ac3fe53d202d54a5a38825ba797b3dea3586c390
+│                       │      │                   ae5ea625316 
+│                       │      ├ Title           : Apply ReadHeaderTimeout when doing unencrypted HTTP/2 check
+│                       │      │                   in net/http 
+│                       │      ├ Description     : When a server is configured to support unencrypted HTTP/2,
+│                       │      │                   it reads a few bytes from each new connection to see if they
+│                       │      │                    contain the HTTP/2 client preface. ReadHeaderTimeout is
+│                       │      │                   unexpectedly not being applied when doing this. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ References       ╭ [0]: https://go.dev/cl/795540 
+│                       │      │                  ├ [1]: https://go.dev/issue/80205 
+│                       │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/94pEornp
+│                       │      │                  │      RlI 
+│                       │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6089 
+│                       │      ├ PublishedDate   : 2026-08-13T22:17:22.093Z 
+│                       │      ╰ LastModifiedDate: 2026-08-13T22:17:22.093Z 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2026-56858 
+│                       │      ├ VendorIDs        ─ [0]: GO-2026-6091 
+│                       │      ├ PkgID           : stdlib@v1.26.5 
+│                       │      ├ PkgName         : stdlib 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.26.5 
+│                       │      │                  ╰ UID : 500ebbf5f84e5fb9 
+│                       │      ├ InstalledVersion: v1.26.5 
+│                       │      ├ FixedVersion    : 1.25.13, 1.26.6, 1.27.0-rc.3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920
+│                       │      │                  │         531104cfaf98f5a8bdea 
+│                       │      │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228
+│                       │      │                            183de4cae236707341fd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56858 
+│                       │      ├ DataSource       ╭ ID  : govulndb 
+│                       │      │                  ├ Name: The Go Vulnerability Database 
+│                       │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                       │      ├ Fingerprint     : sha256:914e3b9cc0c657746196d60372d7cc5d7b020288a0d5d3d8b2e49
+│                       │      │                   7b4964bdb79 
+│                       │      ├ Title           : Fix Javascript regexp context tracking in html/template 
+│                       │      ├ Description     : Previously, pathological inputs could close an unescaped '/'
+│                       │      │                    early, allowing for attack-controlled data to inject
+│                       │      │                   arbitrary content, potentially leading to XSS. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ References       ╭ [0]: https://go.dev/cl/807100 
+│                       │      │                  ├ [1]: https://go.dev/issue/80435 
+│                       │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/94pEornp
+│                       │      │                  │      RlI 
+│                       │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6091 
+│                       │      ├ PublishedDate   : 2026-08-13T22:17:22.207Z 
+│                       │      ╰ LastModifiedDate: 2026-08-13T22:17:22.207Z 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2026-56859 
+│                       │      ├ VendorIDs        ─ [0]: GO-2026-6088 
+│                       │      ├ PkgID           : stdlib@v1.26.5 
+│                       │      ├ PkgName         : stdlib 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.26.5 
+│                       │      │                  ╰ UID : 500ebbf5f84e5fb9 
+│                       │      ├ InstalledVersion: v1.26.5 
+│                       │      ├ FixedVersion    : 1.25.13, 1.26.6, 1.27.0-rc.3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920
+│                       │      │                  │         531104cfaf98f5a8bdea 
+│                       │      │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228
+│                       │      │                            183de4cae236707341fd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56859 
+│                       │      ├ DataSource       ╭ ID  : govulndb 
+│                       │      │                  ├ Name: The Go Vulnerability Database 
+│                       │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                       │      ├ Fingerprint     : sha256:948cc2273ecb6d9e213b5b218ee18301c818b76c5634560b726b4
+│                       │      │                   6cdcba90135 
+│                       │      ├ Title           : Add recursion depth guard during decode in encoding/xml 
+│                       │      ├ Description     : Previously, DecodeElement would reset the depth counter
+│                       │      │                   causing it to never fire; this could lead to stack
+│                       │      │                   exhaustion. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ References       ╭ [0]: https://go.dev/cl/803320 
+│                       │      │                  ├ [1]: https://go.dev/issue/80481 
+│                       │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/94pEornp
+│                       │      │                  │      RlI 
+│                       │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6088 
+│                       │      ├ PublishedDate   : 2026-08-13T22:17:22.32Z 
+│                       │      ╰ LastModifiedDate: 2026-08-13T22:17:22.32Z 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2026-56860 
+│                       │      ├ VendorIDs        ─ [0]: GO-2026-6218 
+│                       │      ├ PkgID           : stdlib@v1.26.5 
+│                       │      ├ PkgName         : stdlib 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.26.5 
+│                       │      │                  ╰ UID : 500ebbf5f84e5fb9 
+│                       │      ├ InstalledVersion: v1.26.5 
+│                       │      ├ FixedVersion    : 1.25.13, 1.26.6, 1.27.0-rc.3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920
+│                       │      │                  │         531104cfaf98f5a8bdea 
+│                       │      │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228
+│                       │      │                            183de4cae236707341fd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56860 
+│                       │      ├ DataSource       ╭ ID  : govulndb 
+│                       │      │                  ├ Name: The Go Vulnerability Database 
+│                       │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                       │      ├ Fingerprint     : sha256:dac60461d125a1331cdd4c92e87e0d0e1c8e8e57ae723e25720ef
+│                       │      │                   6340d17a2df 
+│                       │      ├ Title           : Avoid quadratic complexity in resolvePath in net/url 
+│                       │      ├ Description     : Previously, resolving relative paths containing parent
+│                       │      │                   directory ('..') segments performed string conversions and
+│                       │      │                   buffer rewrites on each step, resulting in quadratic time
+│                       │      │                   complexity and high memory allocation overhead. Now, path
+│                       │      │                   resolution operates on a byte buffer using index-based
+│                       │      │                   backtracking for '..' segments, eliminating the quadratic
+│                       │      │                   time complexity and significantly reducing memory
+│                       │      │                   allocations. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ References       ╭ [0]: https://go.dev/cl/803681 
+│                       │      │                  ├ [1]: https://go.dev/issue/80494 
+│                       │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/94pEornp
+│                       │      │                  │      RlI 
+│                       │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6218 
+│                       │      ├ PublishedDate   : 2026-08-13T22:17:22.44Z 
+│                       │      ╰ LastModifiedDate: 2026-08-13T22:17:22.44Z 
+│                       ╰ [15] ╭ VulnerabilityID : CVE-2026-56862 
+│                              ├ VendorIDs        ─ [0]: GO-2026-6090 
+│                              ├ PkgID           : stdlib@v1.26.5 
+│                              ├ PkgName         : stdlib 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.26.5 
+│                              │                  ╰ UID : 500ebbf5f84e5fb9 
+│                              ├ InstalledVersion: v1.26.5 
+│                              ├ FixedVersion    : 1.25.13, 1.26.6, 1.27.0-rc.3 
+│                              ├ Status          : fixed 
+│                              ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf920
+│                              │                  │         531104cfaf98f5a8bdea 
+│                              │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a31199228
+│                              │                            183de4cae236707341fd 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56862 
+│                              ├ DataSource       ╭ ID  : govulndb 
+│                              │                  ├ Name: The Go Vulnerability Database 
+│                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Fingerprint     : sha256:df82b94c35e9f1dffd34aebcffc56572f5c51893cf85c00d13c91
+│                              │                   6814efa6336 
+│                              ├ Title           : Limit handshake messages we are willing to accept
+│                              │                   post-handshake in crypto/tls 
+│                              ├ Description     : Handshake messages, such as KeyUpdate, are always considered
+│                              │                    as state-advancing, regardless of whether a handshake has
+│                              │                   been completed or not. As a result, a malicious client can
+│                              │                   keep sending KeyUpdate messages to force the server to keep
+│                              │                   performing key derivation operations indefinitely. 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ References       ╭ [0]: https://go.dev/cl/804261 
+│                              │                  ├ [1]: https://go.dev/issue/80528 
+│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/94pEornp
+│                              │                  │      RlI 
+│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6090 
+│                              ├ PublishedDate   : 2026-08-13T22:17:22.55Z 
+│                              ╰ LastModifiedDate: 2026-08-13T22:17:22.55Z 
+╰ [4] ╭ Target         : usr/bin/pebble 
+      ├ Class          : lang-pkgs 
+      ├ Type           : gobinary 
+      ├ Packages        
+      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2026-39821 
+                        │     ├ VendorIDs        ─ [0]: GO-2026-5026 
+                        │     ├ PkgID           : stdlib@v1.26.5 
+                        │     ├ PkgName         : stdlib 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.26.5 
+                        │     │                  ╰ UID : 26d7064c5de1c97a 
+                        │     ├ InstalledVersion: v1.26.5 
+                        │     ├ FixedVersion    : 1.25.13, 1.26.6, 1.27.0-rc.3 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf9205
+                        │     │                  │         31104cfaf98f5a8bdea 
+                        │     │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a311992281
+                        │     │                            83de4cae236707341fd 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-39821 
+                        │     ├ DataSource       ╭ ID  : govulndb 
+                        │     │                  ├ Name: The Go Vulnerability Database 
+                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+                        │     ├ Fingerprint     : sha256:f93f0e8d1c99a833c9bc3b17387354a55e4191c59c1b7b6a50e3d3
+                        │     │                   f7317e0d32 
+                        │     ├ Title           : golang.org/x/net/idna: golang: net/http:
+                        │     │                   golang.org/x/net/idna: Privilege escalation via incorrect
+                        │     │                   Punycode label processing 
+                        │     ├ Description     : The ToASCII and ToUnicode functions incorrectly accept
+                        │     │                   Punycode-encoded labels that decode to an ASCII-only label.
+                        │     │                   For example, ToUnicode("xn--example-.com") incorrectly
+                        │     │                   returns the name "example.com" rather than an error. This
+                        │     │                   behavior can lead to privilege escalation in programs using
+                        │     │                   the idna package. For example, a program which performs
+                        │     │                   privilege checks on the ASCII hostname may reject
+                        │     │                   "example.com" but permit "xn--example-.com". If that program
+                        │     │                   subsequently converts the ASCII hostname to Unicode, it will
+                        │     │                   inadvertently permits access to the Unicode name
+                        │     │                   "example.com". 
+                        │     ├ Severity        : HIGH 
+                        │     ├ CweIDs           ─ [0]: CWE-1289 
+                        │     ├ VendorSeverity   ╭ alma       : 3 
+                        │     │                  ├ amazon     : 3 
+                        │     │                  ├ azure      : 4 
+                        │     │                  ├ oracle-oval: 3 
+                        │     │                  ├ redhat     : 3 
+                        │     │                  ├ rocky      : 3 
+                        │     │                  ╰ ubuntu     : 2 
+                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/
+                        │     │                           │           A:N 
+                        │     │                           ╰ V3Score : 8.2 
+                        │     ├ References       ╭ [0]  : https://access.redhat.com/errata/RHSA-2026:23262 
+                        │     │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2026:23264 
+                        │     │                  ├ [2]  : https://access.redhat.com/errata/RHSA-2026:26546 
+                        │     │                  ├ [3]  : https://access.redhat.com/errata/RHSA-2026:26547 
+                        │     │                  ├ [4]  : https://access.redhat.com/errata/RHSA-2026:30650 
+                        │     │                  ├ [5]  : https://access.redhat.com/errata/RHSA-2026:30651 
+                        │     │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2026:30853 
+                        │     │                  ├ [7]  : https://access.redhat.com/errata/RHSA-2026:30854 
+                        │     │                  ├ [8]  : https://access.redhat.com/errata/RHSA-2026:30855 
+                        │     │                  ├ [9]  : https://access.redhat.com/errata/RHSA-2026:33155 
+                        │     │                  ├ [10] : https://access.redhat.com/errata/RHSA-2026:33160 
+                        │     │                  ├ [11] : https://access.redhat.com/errata/RHSA-2026:33163 
+                        │     │                  ├ [12] : https://access.redhat.com/errata/RHSA-2026:33173 
+                        │     │                  ├ [13] : https://access.redhat.com/errata/RHSA-2026:33183 
+                        │     │                  ├ [14] : https://access.redhat.com/errata/RHSA-2026:33524 
+                        │     │                  ├ [15] : https://access.redhat.com/errata/RHSA-2026:33531 
+                        │     │                  ├ [16] : https://access.redhat.com/errata/RHSA-2026:34342 
+                        │     │                  ├ [17] : https://access.redhat.com/errata/RHSA-2026:34357 
+                        │     │                  ├ [18] : https://access.redhat.com/errata/RHSA-2026:34359 
+                        │     │                  ├ [19] : https://access.redhat.com/errata/RHSA-2026:34364 
+                        │     │                  ├ [20] : https://access.redhat.com/errata/RHSA-2026:34789 
+                        │     │                  ├ [21] : https://access.redhat.com/errata/RHSA-2026:35826 
+                        │     │                  ├ [22] : https://access.redhat.com/errata/RHSA-2026:35827 
+                        │     │                  ├ [23] : https://access.redhat.com/errata/RHSA-2026:35828 
+                        │     │                  ├ [24] : https://access.redhat.com/errata/RHSA-2026:35829 
+                        │     │                  ├ [25] : https://access.redhat.com/errata/RHSA-2026:35830 
+                        │     │                  ├ [26] : https://access.redhat.com/errata/RHSA-2026:35831 
+                        │     │                  ├ [27] : https://access.redhat.com/errata/RHSA-2026:35993 
+                        │     │                  ├ [28] : https://access.redhat.com/errata/RHSA-2026:35994 
+                        │     │                  ├ [29] : https://access.redhat.com/errata/RHSA-2026:36105 
+                        │     │                  ├ [30] : https://access.redhat.com/errata/RHSA-2026:36167 
+                        │     │                  ├ [31] : https://access.redhat.com/errata/RHSA-2026:36207 
+                        │     │                  ├ [32] : https://access.redhat.com/errata/RHSA-2026:36648 
+                        │     │                  ├ [33] : https://access.redhat.com/errata/RHSA-2026:36651 
+                        │     │                  ├ [34] : https://access.redhat.com/errata/RHSA-2026:36796 
+                        │     │                  ├ [35] : https://access.redhat.com/errata/RHSA-2026:36797 
+                        │     │                  ├ [36] : https://access.redhat.com/errata/RHSA-2026:36808 
+                        │     │                  ├ [37] : https://access.redhat.com/errata/RHSA-2026:36820 
+                        │     │                  ├ [38] : https://access.redhat.com/errata/RHSA-2026:36883 
+                        │     │                  ├ [39] : https://access.redhat.com/errata/RHSA-2026:37387 
+                        │     │                  ├ [40] : https://access.redhat.com/errata/RHSA-2026:37435 
+                        │     │                  ├ [41] : https://access.redhat.com/errata/RHSA-2026:37436 
+                        │     │                  ├ [42] : https://access.redhat.com/errata/RHSA-2026:38995 
+                        │     │                  ├ [43] : https://access.redhat.com/errata/RHSA-2026:39005 
+                        │     │                  ├ [44] : https://access.redhat.com/errata/RHSA-2026:39573 
+                        │     │                  ├ [45] : https://access.redhat.com/errata/RHSA-2026:39879 
+                        │     │                  ├ [46] : https://access.redhat.com/errata/RHSA-2026:40118 
+                        │     │                  ├ [47] : https://access.redhat.com/errata/RHSA-2026:40262 
+                        │     │                  ├ [48] : https://access.redhat.com/errata/RHSA-2026:40945 
+                        │     │                  ├ [49] : https://access.redhat.com/errata/RHSA-2026:41019 
+                        │     │                  ├ [50] : https://access.redhat.com/errata/RHSA-2026:41030 
+                        │     │                  ├ [51] : https://access.redhat.com/errata/RHSA-2026:41031 
+                        │     │                  ├ [52] : https://access.redhat.com/errata/RHSA-2026:41036 
+                        │     │                  ├ [53] : https://access.redhat.com/errata/RHSA-2026:41055 
+                        │     │                  ├ [54] : https://access.redhat.com/errata/RHSA-2026:41066 
+                        │     │                  ├ [55] : https://access.redhat.com/errata/RHSA-2026:41928 
+                        │     │                  ├ [56] : https://access.redhat.com/errata/RHSA-2026:41930 
+                        │     │                  ├ [57] : https://access.redhat.com/errata/RHSA-2026:42043 
+                        │     │                  ├ [58] : https://access.redhat.com/errata/RHSA-2026:42047 
+                        │     │                  ├ [59] : https://access.redhat.com/errata/RHSA-2026:42048 
+                        │     │                  ├ [60] : https://access.redhat.com/errata/RHSA-2026:42049 
+                        │     │                  ├ [61] : https://access.redhat.com/errata/RHSA-2026:42050 
+                        │     │                  ├ [62] : https://access.redhat.com/errata/RHSA-2026:42051 
+                        │     │                  ├ [63] : https://access.redhat.com/errata/RHSA-2026:42078 
+                        │     │                  ├ [64] : https://access.redhat.com/errata/RHSA-2026:42079 
+                        │     │                  ├ [65] : https://access.redhat.com/errata/RHSA-2026:42080 
+                        │     │                  ├ [66] : https://access.redhat.com/errata/RHSA-2026:42082 
+                        │     │                  ├ [67] : https://access.redhat.com/errata/RHSA-2026:42132 
+                        │     │                  ├ [68] : https://access.redhat.com/errata/RHSA-2026:42142 
+                        │     │                  ├ [69] : https://access.redhat.com/errata/RHSA-2026:42146 
+                        │     │                  ├ [70] : https://access.redhat.com/errata/RHSA-2026:42150 
+                        │     │                  ├ [71] : https://access.redhat.com/errata/RHSA-2026:42151 
+                        │     │                  ├ [72] : https://access.redhat.com/errata/RHSA-2026:42240 
+                        │     │                  ├ [73] : https://access.redhat.com/errata/RHSA-2026:42644 
+                        │     │                  ├ [74] : https://access.redhat.com/errata/RHSA-2026:42796 
+                        │     │                  ├ [75] : https://access.redhat.com/errata/RHSA-2026:42852 
+                        │     │                  ├ [76] : https://access.redhat.com/errata/RHSA-2026:43038 
+                        │     │                  ├ [77] : https://access.redhat.com/errata/RHSA-2026:43052 
+                        │     │                  ├ [78] : https://access.redhat.com/errata/RHSA-2026:43692 
+                        │     │                  ├ [79] : https://access.redhat.com/errata/RHSA-2026:44622 
+                        │     │                  ├ [80] : https://access.redhat.com/errata/RHSA-2026:44624 
+                        │     │                  ├ [81] : https://access.redhat.com/errata/RHSA-2026:46395 
+                        │     │                  ├ [82] : https://access.redhat.com/errata/RHSA-2026:47149 
+                        │     │                  ├ [83] : https://access.redhat.com/errata/RHSA-2026:47735 
+                        │     │                  ├ [84] : https://access.redhat.com/errata/RHSA-2026:47737 
+                        │     │                  ├ [85] : https://access.redhat.com/errata/RHSA-2026:47952 
+                        │     │                  ├ [86] : https://access.redhat.com/errata/RHSA-2026:50300 
+                        │     │                  ├ [87] : https://access.redhat.com/errata/RHSA-2026:50843 
+                        │     │                  ├ [88] : https://access.redhat.com/errata/RHSA-2026:51033 
+                        │     │                  ├ [89] : https://access.redhat.com/errata/RHSA-2026:51112 
+                        │     │                  ├ [90] : https://access.redhat.com/errata/RHSA-2026:51187 
+                        │     │                  ├ [91] : https://access.redhat.com/errata/RHSA-2026:51194 
+                        │     │                  ├ [92] : https://access.redhat.com/errata/RHSA-2026:51341 
+                        │     │                  ├ [93] : https://access.redhat.com/errata/RHSA-2026:52826 
+                        │     │                  ├ [94] : https://access.redhat.com/errata/RHSA-2026:53374 
+                        │     │                  ├ [95] : https://access.redhat.com/errata/RHSA-2026:53412 
+                        │     │                  ├ [96] : https://access.redhat.com/errata/RHSA-2026:53413 
+                        │     │                  ├ [97] : https://access.redhat.com/errata/RHSA-2026:53415 
+                        │     │                  ├ [98] : https://access.redhat.com/errata/RHSA-2026:53530 
+                        │     │                  ├ [99] : https://access.redhat.com/errata/RHSA-2026:54191 
+                        │     │                  ├ [100]: https://access.redhat.com/errata/RHSA-2026:54274 
+                        │     │                  ├ [101]: https://access.redhat.com/errata/RHSA-2026:54283 
+                        │     │                  ├ [102]: https://access.redhat.com/errata/RHSA-2026:54284 
+                        │     │                  ├ [103]: https://access.redhat.com/errata/RHSA-2026:54285 
+                        │     │                  ├ [104]: https://access.redhat.com/errata/RHSA-2026:54286 
+                        │     │                  ├ [105]: https://access.redhat.com/errata/RHSA-2026:54287 
+                        │     │                  ├ [106]: https://access.redhat.com/errata/RHSA-2026:54395 
+                        │     │                  ├ [107]: https://access.redhat.com/errata/RHSA-2026:54401 
+                        │     │                  ├ [108]: https://access.redhat.com/errata/RHSA-2026:54435 
+                        │     │                  ├ [109]: https://access.redhat.com/errata/RHSA-2026:54441 
+                        │     │                  ├ [110]: https://access.redhat.com/security/cve/CVE-2026-39821 
+                        │     │                  ├ [111]: https://bugzilla.redhat.com/2480756 
+                        │     │                  ├ [112]: https://bugzilla.redhat.com/show_bug.cgi?id=2480756 
+                        │     │                  ├ [113]: https://bugzilla.redhat.com/show_bug.cgi?id=2498152 
+                        │     │                  ├ [114]: https://creativecommons.org/licenses/by/4.0/ 
+                        │     │                  ├ [115]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+                        │     │                  │        26-39821 
+                        │     │                  ├ [116]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+                        │     │                  │        26-39822 
+                        │     │                  ├ [117]: https://errata.almalinux.org/9/ALSA-2026-37435.html 
+                        │     │                  ├ [118]: https://errata.rockylinux.org/RLSA-2026:37435 
+                        │     │                  ├ [119]: https://github.com/golang/go/issues/78760 
+                        │     │                  ├ [120]: https://go.dev/cl/767220 
+                        │     │                  ├ [121]: https://go.dev/issue/78760 
+                        │     │                  ├ [122]: https://groups.google.com/g/golang-announce/c/94pEorn
+                        │     │                  │        pRlI 
+                        │     │                  ├ [123]: https://groups.google.com/g/golang-announce/c/iI-mYSI
+                        │     │                  │        0lu8 
+                        │     │                  ├ [124]: https://linux.oracle.com/cve/CVE-2026-39821.html 
+                        │     │                  ├ [125]: https://linux.oracle.com/errata/ELSA-2026-46395.html 
+                        │     │                  ├ [126]: https://nvd.nist.gov/vuln/detail/CVE-2026-39821 
+                        │     │                  ├ [127]: https://pkg.go.dev/vuln/GO-2026-5026 
+                        │     │                  ├ [128]: https://security.access.redhat.com/data/csaf/v2/vex/2
+                        │     │                  │        026/cve-2026-39821.json 
+                        │     │                  ├ [129]: https://ubuntu.com/security/notices/USN-8416-1 
+                        │     │                  ╰ [130]: https://www.cve.org/CVERecord?id=CVE-2026-39821 
+                        │     ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
+                        │     ╰ LastModifiedDate: 2026-08-13T22:17:19.973Z 
+                        ├ [1] ╭ VulnerabilityID : CVE-2026-46600 
+                        │     ├ VendorIDs        ─ [0]: GO-2026-5942 
+                        │     ├ PkgID           : stdlib@v1.26.5 
+                        │     ├ PkgName         : stdlib 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.26.5 
+                        │     │                  ╰ UID : 26d7064c5de1c97a 
+                        │     ├ InstalledVersion: v1.26.5 
+                        │     ├ FixedVersion    : 1.26.6, 1.27.0-rc.3 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf9205
+                        │     │                  │         31104cfaf98f5a8bdea 
+                        │     │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a311992281
+                        │     │                            83de4cae236707341fd 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-46600 
+                        │     ├ DataSource       ╭ ID  : govulndb 
+                        │     │                  ├ Name: The Go Vulnerability Database 
+                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+                        │     ├ Fingerprint     : sha256:1ecb81cc7ce62e1e91628791841edaf3581b2c9b518adb7ad8a560
+                        │     │                   66c11d3a95 
+                        │     ├ Title           : golang.org/x/net/dns/dnsmessage:
+                        │     │                   golang.org/x/net/dns/dnsmessage: Denial of Service via
+                        │     │                   invalid DNS record parsing 
+                        │     ├ Description     : Parsing an invalid SVCB or HTTPS RR can panic when the size
+                        │     │                   of a parameter value overflows the message buffer. 
+                        │     ├ Severity        : HIGH 
+                        │     ├ CweIDs           ─ [0]: CWE-125 
+                        │     ├ VendorSeverity   ─ redhat: 3 
+                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+                        │     │                           │           A:H 
+                        │     │                           ╰ V3Score : 7.5 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-46600 
+                        │     │                  ├ [1]: https://go.dev/cl/786345 
+                        │     │                  ├ [2]: https://go.dev/issue/79795 
+                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/94pEornpRlI 
+                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-46600 
+                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2026-5942 
+                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-46600 
+                        │     ├ PublishedDate   : 2026-07-21T20:17:01.213Z 
+                        │     ╰ LastModifiedDate: 2026-08-13T22:17:21.913Z 
+                        ├ [2] ╭ VulnerabilityID : CVE-2026-33818 
+                        │     ├ VendorIDs        ─ [0]: GO-2026-5972 
+                        │     ├ PkgID           : stdlib@v1.26.5 
+                        │     ├ PkgName         : stdlib 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.26.5 
+                        │     │                  ╰ UID : 26d7064c5de1c97a 
+                        │     ├ InstalledVersion: v1.26.5 
+                        │     ├ FixedVersion    : 1.25.13, 1.26.6, 1.27.0-rc.3 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf9205
+                        │     │                  │         31104cfaf98f5a8bdea 
+                        │     │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a311992281
+                        │     │                            83de4cae236707341fd 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33818 
+                        │     ├ DataSource       ╭ ID  : govulndb 
+                        │     │                  ├ Name: The Go Vulnerability Database 
+                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+                        │     ├ Fingerprint     : sha256:f62ccca815b5a147bb87529ec533a7fa28e53eff64be2c22c03046
+                        │     │                   12305a6217 
+                        │     ├ Title           : Enforce maximum recursion depth in encoding/asn1 
+                        │     ├ Description     : Enforce a recursion limit in Unmarshal to prevent stack
+                        │     │                   exhaustion when parsing deeply-nested, recursive
+                        │     │                   structures. 
+                        │     ├ Severity        : UNKNOWN 
+                        │     ├ References       ╭ [0]: https://go.dev/cl/814980 
+                        │     │                  ├ [1]: https://go.dev/issue/80405 
+                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/94pEornpRlI 
+                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-5972 
+                        │     ├ PublishedDate   : 2026-08-13T22:17:19.84Z 
+                        │     ╰ LastModifiedDate: 2026-08-13T22:17:19.84Z 
+                        ├ [3] ╭ VulnerabilityID : CVE-2026-56853 
+                        │     ├ VendorIDs        ─ [0]: GO-2026-6089 
+                        │     ├ PkgID           : stdlib@v1.26.5 
+                        │     ├ PkgName         : stdlib 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.26.5 
+                        │     │                  ╰ UID : 26d7064c5de1c97a 
+                        │     ├ InstalledVersion: v1.26.5 
+                        │     ├ FixedVersion    : 1.25.13, 1.26.6, 1.27.0-rc.3 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf9205
+                        │     │                  │         31104cfaf98f5a8bdea 
+                        │     │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a311992281
+                        │     │                            83de4cae236707341fd 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56853 
+                        │     ├ DataSource       ╭ ID  : govulndb 
+                        │     │                  ├ Name: The Go Vulnerability Database 
+                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+                        │     ├ Fingerprint     : sha256:9e48d403d9fc7947180aa9c814febe0b232b2e70cfbe37f1132889
+                        │     │                   98efe5180d 
+                        │     ├ Title           : Apply ReadHeaderTimeout when doing unencrypted HTTP/2 check
+                        │     │                   in net/http 
+                        │     ├ Description     : When a server is configured to support unencrypted HTTP/2, it
+                        │     │                    reads a few bytes from each new connection to see if they
+                        │     │                   contain the HTTP/2 client preface. ReadHeaderTimeout is
+                        │     │                   unexpectedly not being applied when doing this. 
+                        │     ├ Severity        : UNKNOWN 
+                        │     ├ References       ╭ [0]: https://go.dev/cl/795540 
+                        │     │                  ├ [1]: https://go.dev/issue/80205 
+                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/94pEornpRlI 
+                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6089 
+                        │     ├ PublishedDate   : 2026-08-13T22:17:22.093Z 
+                        │     ╰ LastModifiedDate: 2026-08-13T22:17:22.093Z 
+                        ├ [4] ╭ VulnerabilityID : CVE-2026-56858 
+                        │     ├ VendorIDs        ─ [0]: GO-2026-6091 
+                        │     ├ PkgID           : stdlib@v1.26.5 
+                        │     ├ PkgName         : stdlib 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.26.5 
+                        │     │                  ╰ UID : 26d7064c5de1c97a 
+                        │     ├ InstalledVersion: v1.26.5 
+                        │     ├ FixedVersion    : 1.25.13, 1.26.6, 1.27.0-rc.3 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf9205
+                        │     │                  │         31104cfaf98f5a8bdea 
+                        │     │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a311992281
+                        │     │                            83de4cae236707341fd 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56858 
+                        │     ├ DataSource       ╭ ID  : govulndb 
+                        │     │                  ├ Name: The Go Vulnerability Database 
+                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+                        │     ├ Fingerprint     : sha256:fee71509d46542bc314e8ed3b1c686da19dc87d40ac17eadde99c1
+                        │     │                   3258cf046e 
+                        │     ├ Title           : Fix Javascript regexp context tracking in html/template 
+                        │     ├ Description     : Previously, pathological inputs could close an unescaped '/'
+                        │     │                   early, allowing for attack-controlled data to inject
+                        │     │                   arbitrary content, potentially leading to XSS. 
+                        │     ├ Severity        : UNKNOWN 
+                        │     ├ References       ╭ [0]: https://go.dev/cl/807100 
+                        │     │                  ├ [1]: https://go.dev/issue/80435 
+                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/94pEornpRlI 
+                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6091 
+                        │     ├ PublishedDate   : 2026-08-13T22:17:22.207Z 
+                        │     ╰ LastModifiedDate: 2026-08-13T22:17:22.207Z 
+                        ├ [5] ╭ VulnerabilityID : CVE-2026-56859 
+                        │     ├ VendorIDs        ─ [0]: GO-2026-6088 
+                        │     ├ PkgID           : stdlib@v1.26.5 
+                        │     ├ PkgName         : stdlib 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.26.5 
+                        │     │                  ╰ UID : 26d7064c5de1c97a 
+                        │     ├ InstalledVersion: v1.26.5 
+                        │     ├ FixedVersion    : 1.25.13, 1.26.6, 1.27.0-rc.3 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf9205
+                        │     │                  │         31104cfaf98f5a8bdea 
+                        │     │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a311992281
+                        │     │                            83de4cae236707341fd 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56859 
+                        │     ├ DataSource       ╭ ID  : govulndb 
+                        │     │                  ├ Name: The Go Vulnerability Database 
+                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+                        │     ├ Fingerprint     : sha256:c8e922b99225268d64d6c3da68457a2078a92af5652450645c48fa
+                        │     │                   33ce776084 
+                        │     ├ Title           : Add recursion depth guard during decode in encoding/xml 
+                        │     ├ Description     : Previously, DecodeElement would reset the depth counter
+                        │     │                   causing it to never fire; this could lead to stack
+                        │     │                   exhaustion. 
+                        │     ├ Severity        : UNKNOWN 
+                        │     ├ References       ╭ [0]: https://go.dev/cl/803320 
+                        │     │                  ├ [1]: https://go.dev/issue/80481 
+                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/94pEornpRlI 
+                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6088 
+                        │     ├ PublishedDate   : 2026-08-13T22:17:22.32Z 
+                        │     ╰ LastModifiedDate: 2026-08-13T22:17:22.32Z 
+                        ├ [6] ╭ VulnerabilityID : CVE-2026-56860 
+                        │     ├ VendorIDs        ─ [0]: GO-2026-6218 
+                        │     ├ PkgID           : stdlib@v1.26.5 
+                        │     ├ PkgName         : stdlib 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.26.5 
+                        │     │                  ╰ UID : 26d7064c5de1c97a 
+                        │     ├ InstalledVersion: v1.26.5 
+                        │     ├ FixedVersion    : 1.25.13, 1.26.6, 1.27.0-rc.3 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf9205
+                        │     │                  │         31104cfaf98f5a8bdea 
+                        │     │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a311992281
+                        │     │                            83de4cae236707341fd 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56860 
+                        │     ├ DataSource       ╭ ID  : govulndb 
+                        │     │                  ├ Name: The Go Vulnerability Database 
+                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+                        │     ├ Fingerprint     : sha256:f58ccc8fd75c0b4bbc4545916560856e601e8c5b964b87d18467dd
+                        │     │                   d0083c3f63 
+                        │     ├ Title           : Avoid quadratic complexity in resolvePath in net/url 
+                        │     ├ Description     : Previously, resolving relative paths containing parent
+                        │     │                   directory ('..') segments performed string conversions and
+                        │     │                   buffer rewrites on each step, resulting in quadratic time
+                        │     │                   complexity and high memory allocation overhead. Now, path
+                        │     │                   resolution operates on a byte buffer using index-based
+                        │     │                   backtracking for '..' segments, eliminating the quadratic
+                        │     │                   time complexity and significantly reducing memory
+                        │     │                   allocations. 
+                        │     ├ Severity        : UNKNOWN 
+                        │     ├ References       ╭ [0]: https://go.dev/cl/803681 
+                        │     │                  ├ [1]: https://go.dev/issue/80494 
+                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/94pEornpRlI 
+                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6218 
+                        │     ├ PublishedDate   : 2026-08-13T22:17:22.44Z 
+                        │     ╰ LastModifiedDate: 2026-08-13T22:17:22.44Z 
+                        ╰ [7] ╭ VulnerabilityID : CVE-2026-56862 
+                              ├ VendorIDs        ─ [0]: GO-2026-6090 
+                              ├ PkgID           : stdlib@v1.26.5 
+                              ├ PkgName         : stdlib 
+                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.26.5 
+                              │                  ╰ UID : 26d7064c5de1c97a 
+                              ├ InstalledVersion: v1.26.5 
+                              ├ FixedVersion    : 1.25.13, 1.26.6, 1.27.0-rc.3 
+                              ├ Status          : fixed 
+                              ├ Layer            ╭ Digest: sha256:cdc00c3a6ae751fad1a75babf6f4f8651cb5a98cf9205
+                              │                  │         31104cfaf98f5a8bdea 
+                              │                  ╰ DiffID: sha256:c1fa98fe21f25bb8929f299f4591710a8e7a311992281
+                              │                            83de4cae236707341fd 
+                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56862 
+                              ├ DataSource       ╭ ID  : govulndb 
+                              │                  ├ Name: The Go Vulnerability Database 
+                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+                              ├ Fingerprint     : sha256:edf6a93df52f0a5090bfc9d0ed038f8933124a7dd672b40f873b6b
+                              │                   71596c4310 
+                              ├ Title           : Limit handshake messages we are willing to accept
+                              │                   post-handshake in crypto/tls 
+                              ├ Description     : Handshake messages, such as KeyUpdate, are always considered
+                              │                   as state-advancing, regardless of whether a handshake has
+                              │                   been completed or not. As a result, a malicious client can
+                              │                   keep sending KeyUpdate messages to force the server to keep
+                              │                   performing key derivation operations indefinitely. 
+                              ├ Severity        : UNKNOWN 
+                              ├ References       ╭ [0]: https://go.dev/cl/804261 
+                              │                  ├ [1]: https://go.dev/issue/80528 
+                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/94pEornpRlI 
+                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6090 
+                              ├ PublishedDate   : 2026-08-13T22:17:22.55Z 
+                              ╰ LastModifiedDate: 2026-08-13T22:17:22.55Z 
 ```
