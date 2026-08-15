@@ -1,6 +1,6 @@
-[0.004s][warning][cds] The shared archive file was created by a different version or build of HotSpot
-[0.004s][error  ][cds] An error has occurred while processing the shared archive file. Run with -Xlog:aot,cds for details.
-[0.004s][error  ][cds] Loading static archive failed.
+[0.003s][warning][cds] The shared archive file was created by a different version or build of HotSpot
+[0.003s][error  ][cds] An error has occurred while processing the shared archive file. Run with -Xlog:aot,cds for details.
+[0.003s][error  ][cds] Loading static archive failed.
 | tool | buildVersion | latestVersion | buildLiteVersion | liteVersion |
 |------|--------------|---------------|------------------|-------------|
 | arping | 20250605 | 20250605 | 20250605 | 20250605 |
@@ -29,7 +29,7 @@
 | nmap | 7.98 | 7.98 | 7.99 | 7.99 |
 | nsenter | n/a | n/a | 1.38.0 | 1.38.0 |
 | nstat | 6.19.0 | 6.19.0 | 7.1.0 | 7.1.0 |
-| openaf | 20260807 | 20260801 | 20260807 | 20260801 |
+| openaf | 20260814 | 20260801 | 20260814 | 20260801 |
 | pidstat | 12.7.7 | 12.7.7 | 12.7.8 | 12.7.8 |
 | ping | 20250605 | 20250605 | 20250605 | 20250605 |
 | posting | 3.12 | 3.12 | n/a | 3.12 |
