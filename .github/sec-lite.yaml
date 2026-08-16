@@ -28,6 +28,7 @@
     - CWE-835
     - CWE-400
     VendorSeverity:
+      azure: 2
       redhat: 2
     CVSS:
       redhat:
