@@ -31,7 +31,8 @@
 │                             ├ Severity        : MEDIUM 
 │                             ├ CweIDs           ╭ [0]: CWE-835 
 │                             │                  ╰ [1]: CWE-400 
-│                             ├ VendorSeverity   ─ redhat: 2 
+│                             ├ VendorSeverity   ╭ azure : 2 
+│                             │                  ╰ redhat: 2 
 │                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/
 │                             │                           │           A:H 
 │                             │                           ╰ V3Score : 6.5 
