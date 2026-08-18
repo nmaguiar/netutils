@@ -3,7 +3,73 @@
 │     ├ Class          : os-pkgs 
 │     ├ Type           : alpine 
 │     ├ Packages        
-│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2026-11940 
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2024-37676 
+│                       │      ├ PkgID           : htop@3.5.2-r0 
+│                       │      ├ PkgName         : htop 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/htop@3.5.2-r0?arch=x86_64&distro=3.25.
+│                       │      │                  │       0_alpha20260805 
+│                       │      │                  ╰ UID : 3b9d8b27e975d3b0 
+│                       │      ├ InstalledVersion: 3.5.2-r0 
+│                       │      ├ FixedVersion    : 3.5.3-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:22503a93c7ccad67f167ca397730b9b07a8cd3e372e3
+│                       │      │                  │         f83a4c1a71db8db0b64c 
+│                       │      │                  ╰ DiffID: sha256:c4b2524c79a2d369c4dd79cd5f9e1fd9af3cefd1b161
+│                       │      │                            a7886dfd8b8c3b1d408b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-37676 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:d2895974f8b42e626710da364a25c81573b3af0fec1c7b49ec923
+│                       │      │                   4325a2005d3 
+│                       │      ├ Description     : An issue in htop-dev htop v.2.20 allows a local attacker to
+│                       │      │                   cause an out-of-bounds access in the
+│                       │      │                   Header_populateFromSettings function. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ╭ [0]: CWE-119 
+│                       │      │                  ╰ [1]: CWE-787 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: http://htop.com 
+│                       │      │                  ├ [1]: https://gist.github.com/Cirno9-dev/0109cde3bdbe7eccc67
+│                       │      │                  │      70515106740b7 
+│                       │      │                  ├ [2]: https://github.com/htop-dev/htop 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-37676 
+│                       │      ├ PublishedDate   : 2024-06-20T16:15:13.917Z 
+│                       │      ╰ LastModifiedDate: 2026-07-09T01:19:04.997Z 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2024-37676 
+│                       │      ├ PkgID           : htop-doc@3.5.2-r0 
+│                       │      ├ PkgName         : htop-doc 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/htop-doc@3.5.2-r0?arch=x86_64&distro=3
+│                       │      │                  │       .25.0_alpha20260805 
+│                       │      │                  ╰ UID : f96d8c98c39799d4 
+│                       │      ├ InstalledVersion: 3.5.2-r0 
+│                       │      ├ FixedVersion    : 3.5.3-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:22503a93c7ccad67f167ca397730b9b07a8cd3e372e3
+│                       │      │                  │         f83a4c1a71db8db0b64c 
+│                       │      │                  ╰ DiffID: sha256:c4b2524c79a2d369c4dd79cd5f9e1fd9af3cefd1b161
+│                       │      │                            a7886dfd8b8c3b1d408b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-37676 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:fc69bb1066d43983e5d392ec8f98fa3268893989aece0be0aca38
+│                       │      │                   118301d3683 
+│                       │      ├ Description     : An issue in htop-dev htop v.2.20 allows a local attacker to
+│                       │      │                   cause an out-of-bounds access in the
+│                       │      │                   Header_populateFromSettings function. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ╭ [0]: CWE-119 
+│                       │      │                  ╰ [1]: CWE-787 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: http://htop.com 
+│                       │      │                  ├ [1]: https://gist.github.com/Cirno9-dev/0109cde3bdbe7eccc67
+│                       │      │                  │      70515106740b7 
+│                       │      │                  ├ [2]: https://github.com/htop-dev/htop 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-37676 
+│                       │      ├ PublishedDate   : 2024-06-20T16:15:13.917Z 
+│                       │      ╰ LastModifiedDate: 2026-07-09T01:19:04.997Z 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2026-11940 
 │                       │      ├ PkgID           : pyc@3.14.5-r2 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.25.
@@ -90,7 +156,7 @@
 │                       │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2026-11940 
 │                       │      ├ PublishedDate   : 2026-06-23T17:16:40.847Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:51.627Z 
-│                       ├ [1]  ╭ VulnerabilityID : CVE-2026-15308 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2026-15308 
 │                       │      ├ PkgID           : pyc@3.14.5-r2 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.25.
@@ -136,7 +202,7 @@
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/07/09/4 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39798 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39320 
 │                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:41949 
 │                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-15308 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2498608 
@@ -145,7 +211,7 @@
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-15308 
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-41949.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39798 
+│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39320 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/commit/07efb08123ba
 │                       │      │                  │       9367a7107325adb9d5626dca1ca9 
 │                       │      │                  ├ [11]: https://github.com/python/cpython/commit/1e7956f1a722
@@ -171,7 +237,7 @@
 │                       │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2026-15308 
 │                       │      ├ PublishedDate   : 2026-07-09T17:16:58.26Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:52.103Z 
-│                       ├ [2]  ╭ VulnerabilityID : CVE-2026-7210 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2026-7210 
 │                       │      ├ PkgID           : pyc@3.14.5-r2 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.25.
@@ -242,7 +308,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-7210 
 │                       │      ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
 │                       │      ╰ LastModifiedDate: 2026-08-14T01:19:08.237Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-15366 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-15366 
 │                       │      ├ PkgID           : pyc@3.14.5-r2 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.25.
@@ -275,7 +341,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4168 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:2128 
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:4216 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-15366 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2431368 
@@ -295,7 +361,7 @@
 │                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-1299 
 │                       │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2026-4216.html 
-│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:4168 
+│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:2128 
 │                       │      │                  ├ [17]: https://github.com/python/cpython/commit/298182272a74
 │                       │      │                  │       0ce2016aee2f54acbd0bba1944c1 
 │                       │      │                  ├ [18]: https://github.com/python/cpython/commit/6262704b134d
@@ -317,7 +383,7 @@
 │                       │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2025-15366 
 │                       │      ├ PublishedDate   : 2026-01-20T22:15:51.023Z 
 │                       │      ╰ LastModifiedDate: 2026-08-06T01:16:27.563Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2026-0864 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-0864 
 │                       │      ├ PkgID           : pyc@3.14.5-r2 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.25.
@@ -381,7 +447,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-0864 
 │                       │      ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:51.44Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-11972 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-11972 
 │                       │      ├ PkgID           : pyc@3.14.5-r2 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.25.
@@ -445,7 +511,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-11972 
 │                       │      ├ PublishedDate   : 2026-06-23T23:16:49.033Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:51.78Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-3276 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-3276 
 │                       │      ├ PkgID           : pyc@3.14.5-r2 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.25.
@@ -516,7 +582,7 @@
 │                       │      │                          3/15 
 │                       │      ├ PublishedDate   : 2026-06-03T16:16:29.253Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:52.847Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-4360 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-4360 
 │                       │      ├ PkgID           : pyc@3.14.5-r2 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.25.
@@ -583,7 +649,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-4360 
 │                       │      ├ PublishedDate   : 2026-06-30T15:16:57.193Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:53.42Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-7774 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2026-7774 
 │                       │      ├ PkgID           : pyc@3.14.5-r2 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.25.
@@ -652,7 +718,7 @@
 │                       │      │                          4/9 
 │                       │      ├ PublishedDate   : 2026-06-04T16:16:42.103Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:55.783Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-8328 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2026-8328 
 │                       │      ├ PkgID           : pyc@3.14.5-r2 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.25.
@@ -716,7 +782,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-8328 
 │                       │      ├ PublishedDate   : 2026-05-13T21:16:50.167Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:55.95Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2026-9669 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2026-9669 
 │                       │      ├ PkgID           : pyc@3.14.5-r2 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.25.
@@ -784,7 +850,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-9669 
 │                       │      ├ PublishedDate   : 2026-06-08T23:17:25.17Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:56.087Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2026-6879 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2026-6879 
 │                       │      ├ PkgID           : pyc@3.14.5-r2 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.25.
@@ -814,11 +880,15 @@
 │                       │      │                   `.//item[1]` short-circuits after the first match. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-407 
-│                       │      ├ VendorSeverity   ╭ azure : 1 
-│                       │      │                  ╰ redhat: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 2.2 
+│                       │      ├ VendorSeverity   ╭ azure  : 1 
+│                       │      │                  ├ bitnami: 1 
+│                       │      │                  ╰ redhat : 1 
+│                       │      ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:H/AT:P/PR:H/UI:P/VC:N
+│                       │      │                  │         │            /VI:N/VA:L/SC:N/SI:N/SA:N 
+│                       │      │                  │         ╰ V40Score : 2 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:
+│                       │      │                            │           N/A:L 
+│                       │      │                            ╰ V3Score : 2.2 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-6879 
 │                       │      │                  ├ [1] : https://github.com/python/cpython/commit/02c08e6b747a
 │                       │      │                  │       c43d0d866a4ffa916bedf3423f81 
@@ -843,7 +913,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-6879 
 │                       │      ├ PublishedDate   : 2026-07-28T15:17:51.377Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:55.457Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2026-11940 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2026-11940 
 │                       │      ├ PkgID           : python3@3.14.5-r2 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=3
@@ -930,7 +1000,7 @@
 │                       │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2026-11940 
 │                       │      ├ PublishedDate   : 2026-06-23T17:16:40.847Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:51.627Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2026-15308 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2026-15308 
 │                       │      ├ PkgID           : python3@3.14.5-r2 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=3
@@ -976,7 +1046,7 @@
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/07/09/4 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39798 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39320 
 │                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:41949 
 │                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-15308 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2498608 
@@ -985,7 +1055,7 @@
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-15308 
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-41949.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39798 
+│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39320 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/commit/07efb08123ba
 │                       │      │                  │       9367a7107325adb9d5626dca1ca9 
 │                       │      │                  ├ [11]: https://github.com/python/cpython/commit/1e7956f1a722
@@ -1011,7 +1081,7 @@
 │                       │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2026-15308 
 │                       │      ├ PublishedDate   : 2026-07-09T17:16:58.26Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:52.103Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2026-7210 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2026-7210 
 │                       │      ├ PkgID           : python3@3.14.5-r2 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=3
@@ -1082,7 +1152,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-7210 
 │                       │      ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
 │                       │      ╰ LastModifiedDate: 2026-08-14T01:19:08.237Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2025-15366 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2025-15366 
 │                       │      ├ PkgID           : python3@3.14.5-r2 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=3
@@ -1115,7 +1185,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4168 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:2128 
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:4216 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-15366 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2431368 
@@ -1135,7 +1205,7 @@
 │                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-1299 
 │                       │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2026-4216.html 
-│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:4168 
+│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:2128 
 │                       │      │                  ├ [17]: https://github.com/python/cpython/commit/298182272a74
 │                       │      │                  │       0ce2016aee2f54acbd0bba1944c1 
 │                       │      │                  ├ [18]: https://github.com/python/cpython/commit/6262704b134d
@@ -1157,7 +1227,7 @@
 │                       │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2025-15366 
 │                       │      ├ PublishedDate   : 2026-01-20T22:15:51.023Z 
 │                       │      ╰ LastModifiedDate: 2026-08-06T01:16:27.563Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2026-0864 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2026-0864 
 │                       │      ├ PkgID           : python3@3.14.5-r2 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=3
@@ -1221,7 +1291,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-0864 
 │                       │      ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:51.44Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2026-11972 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2026-11972 
 │                       │      ├ PkgID           : python3@3.14.5-r2 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=3
@@ -1285,7 +1355,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-11972 
 │                       │      ├ PublishedDate   : 2026-06-23T23:16:49.033Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:51.78Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2026-3276 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2026-3276 
 │                       │      ├ PkgID           : python3@3.14.5-r2 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=3
@@ -1356,7 +1426,7 @@
 │                       │      │                          3/15 
 │                       │      ├ PublishedDate   : 2026-06-03T16:16:29.253Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:52.847Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2026-4360 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2026-4360 
 │                       │      ├ PkgID           : python3@3.14.5-r2 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=3
@@ -1423,7 +1493,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-4360 
 │                       │      ├ PublishedDate   : 2026-06-30T15:16:57.193Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:53.42Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2026-7774 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2026-7774 
 │                       │      ├ PkgID           : python3@3.14.5-r2 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=3
@@ -1492,7 +1562,7 @@
 │                       │      │                          4/9 
 │                       │      ├ PublishedDate   : 2026-06-04T16:16:42.103Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:55.783Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2026-8328 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2026-8328 
 │                       │      ├ PkgID           : python3@3.14.5-r2 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=3
@@ -1556,7 +1626,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-8328 
 │                       │      ├ PublishedDate   : 2026-05-13T21:16:50.167Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:55.95Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2026-9669 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2026-9669 
 │                       │      ├ PkgID           : python3@3.14.5-r2 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=3
@@ -1624,7 +1694,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-9669 
 │                       │      ├ PublishedDate   : 2026-06-08T23:17:25.17Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:56.087Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2026-6879 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2026-6879 
 │                       │      ├ PkgID           : python3@3.14.5-r2 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=3
@@ -1654,11 +1724,15 @@
 │                       │      │                   `.//item[1]` short-circuits after the first match. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-407 
-│                       │      ├ VendorSeverity   ╭ azure : 1 
-│                       │      │                  ╰ redhat: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 2.2 
+│                       │      ├ VendorSeverity   ╭ azure  : 1 
+│                       │      │                  ├ bitnami: 1 
+│                       │      │                  ╰ redhat : 1 
+│                       │      ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:H/AT:P/PR:H/UI:P/VC:N
+│                       │      │                  │         │            /VI:N/VA:L/SC:N/SI:N/SA:N 
+│                       │      │                  │         ╰ V40Score : 2 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:
+│                       │      │                            │           N/A:L 
+│                       │      │                            ╰ V3Score : 2.2 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-6879 
 │                       │      │                  ├ [1] : https://github.com/python/cpython/commit/02c08e6b747a
 │                       │      │                  │       c43d0d866a4ffa916bedf3423f81 
@@ -1683,7 +1757,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-6879 
 │                       │      ├ PublishedDate   : 2026-07-28T15:17:51.377Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:55.457Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2026-11940 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2026-11940 
 │                       │      ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dist
@@ -1770,7 +1844,7 @@
 │                       │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2026-11940 
 │                       │      ├ PublishedDate   : 2026-06-23T17:16:40.847Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:51.627Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2026-15308 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2026-15308 
 │                       │      ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dist
@@ -1816,7 +1890,7 @@
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/07/09/4 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39798 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39320 
 │                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:41949 
 │                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-15308 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2498608 
@@ -1825,7 +1899,7 @@
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-15308 
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-41949.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39798 
+│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39320 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/commit/07efb08123ba
 │                       │      │                  │       9367a7107325adb9d5626dca1ca9 
 │                       │      │                  ├ [11]: https://github.com/python/cpython/commit/1e7956f1a722
@@ -1851,7 +1925,7 @@
 │                       │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2026-15308 
 │                       │      ├ PublishedDate   : 2026-07-09T17:16:58.26Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:52.103Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2026-7210 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2026-7210 
 │                       │      ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dist
@@ -1922,7 +1996,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-7210 
 │                       │      ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
 │                       │      ╰ LastModifiedDate: 2026-08-14T01:19:08.237Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2025-15366 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2025-15366 
 │                       │      ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dist
@@ -1955,7 +2029,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4168 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:2128 
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:4216 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-15366 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2431368 
@@ -1975,7 +2049,7 @@
 │                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-1299 
 │                       │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2026-4216.html 
-│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:4168 
+│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:2128 
 │                       │      │                  ├ [17]: https://github.com/python/cpython/commit/298182272a74
 │                       │      │                  │       0ce2016aee2f54acbd0bba1944c1 
 │                       │      │                  ├ [18]: https://github.com/python/cpython/commit/6262704b134d
@@ -1997,7 +2071,7 @@
 │                       │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2025-15366 
 │                       │      ├ PublishedDate   : 2026-01-20T22:15:51.023Z 
 │                       │      ╰ LastModifiedDate: 2026-08-06T01:16:27.563Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2026-0864 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2026-0864 
 │                       │      ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dist
@@ -2061,7 +2135,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-0864 
 │                       │      ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:51.44Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2026-11972 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2026-11972 
 │                       │      ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dist
@@ -2125,7 +2199,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-11972 
 │                       │      ├ PublishedDate   : 2026-06-23T23:16:49.033Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:51.78Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2026-3276 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2026-3276 
 │                       │      ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dist
@@ -2196,7 +2270,7 @@
 │                       │      │                          3/15 
 │                       │      ├ PublishedDate   : 2026-06-03T16:16:29.253Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:52.847Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2026-4360 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2026-4360 
 │                       │      ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dist
@@ -2263,7 +2337,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-4360 
 │                       │      ├ PublishedDate   : 2026-06-30T15:16:57.193Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:53.42Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2026-7774 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2026-7774 
 │                       │      ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dist
@@ -2332,7 +2406,7 @@
 │                       │      │                          4/9 
 │                       │      ├ PublishedDate   : 2026-06-04T16:16:42.103Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:55.783Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2026-8328 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2026-8328 
 │                       │      ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dist
@@ -2396,7 +2470,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-8328 
 │                       │      ├ PublishedDate   : 2026-05-13T21:16:50.167Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:55.95Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2026-9669 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2026-9669 
 │                       │      ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dist
@@ -2464,7 +2538,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-9669 
 │                       │      ├ PublishedDate   : 2026-06-08T23:17:25.17Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:56.087Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2026-6879 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2026-6879 
 │                       │      ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dist
@@ -2494,11 +2568,15 @@
 │                       │      │                   `.//item[1]` short-circuits after the first match. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-407 
-│                       │      ├ VendorSeverity   ╭ azure : 1 
-│                       │      │                  ╰ redhat: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 2.2 
+│                       │      ├ VendorSeverity   ╭ azure  : 1 
+│                       │      │                  ├ bitnami: 1 
+│                       │      │                  ╰ redhat : 1 
+│                       │      ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:H/AT:P/PR:H/UI:P/VC:N
+│                       │      │                  │         │            /VI:N/VA:L/SC:N/SI:N/SA:N 
+│                       │      │                  │         ╰ V40Score : 2 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:
+│                       │      │                            │           N/A:L 
+│                       │      │                            ╰ V3Score : 2.2 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-6879 
 │                       │      │                  ├ [1] : https://github.com/python/cpython/commit/02c08e6b747a
 │                       │      │                  │       c43d0d866a4ffa916bedf3423f81 
@@ -2523,7 +2601,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-6879 
 │                       │      ├ PublishedDate   : 2026-07-28T15:17:51.377Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:55.457Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2026-11940 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2026-11940 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x8
@@ -2610,7 +2688,7 @@
 │                       │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2026-11940 
 │                       │      ├ PublishedDate   : 2026-06-23T17:16:40.847Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:51.627Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2026-15308 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2026-15308 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x8
@@ -2656,7 +2734,7 @@
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/07/09/4 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39798 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39320 
 │                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:41949 
 │                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-15308 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2498608 
@@ -2665,7 +2743,7 @@
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-15308 
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-41949.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39798 
+│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39320 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/commit/07efb08123ba
 │                       │      │                  │       9367a7107325adb9d5626dca1ca9 
 │                       │      │                  ├ [11]: https://github.com/python/cpython/commit/1e7956f1a722
@@ -2691,7 +2769,7 @@
 │                       │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2026-15308 
 │                       │      ├ PublishedDate   : 2026-07-09T17:16:58.26Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:52.103Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2026-7210 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2026-7210 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x8
@@ -2762,7 +2840,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-7210 
 │                       │      ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
 │                       │      ╰ LastModifiedDate: 2026-08-14T01:19:08.237Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2025-15366 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2025-15366 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x8
@@ -2795,7 +2873,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4168 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:2128 
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:4216 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-15366 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2431368 
@@ -2815,7 +2893,7 @@
 │                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-1299 
 │                       │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2026-4216.html 
-│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:4168 
+│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:2128 
 │                       │      │                  ├ [17]: https://github.com/python/cpython/commit/298182272a74
 │                       │      │                  │       0ce2016aee2f54acbd0bba1944c1 
 │                       │      │                  ├ [18]: https://github.com/python/cpython/commit/6262704b134d
@@ -2837,7 +2915,7 @@
 │                       │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2025-15366 
 │                       │      ├ PublishedDate   : 2026-01-20T22:15:51.023Z 
 │                       │      ╰ LastModifiedDate: 2026-08-06T01:16:27.563Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2026-0864 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2026-0864 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x8
@@ -2901,7 +2979,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-0864 
 │                       │      ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:51.44Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2026-11972 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2026-11972 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x8
@@ -2965,7 +3043,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-11972 
 │                       │      ├ PublishedDate   : 2026-06-23T23:16:49.033Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:51.78Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2026-3276 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2026-3276 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x8
@@ -3036,7 +3114,7 @@
 │                       │      │                          3/15 
 │                       │      ├ PublishedDate   : 2026-06-03T16:16:29.253Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:52.847Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2026-4360 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2026-4360 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x8
@@ -3103,7 +3181,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-4360 
 │                       │      ├ PublishedDate   : 2026-06-30T15:16:57.193Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:53.42Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2026-7774 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2026-7774 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x8
@@ -3172,7 +3250,7 @@
 │                       │      │                          4/9 
 │                       │      ├ PublishedDate   : 2026-06-04T16:16:42.103Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:55.783Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2026-8328 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2026-8328 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x8
@@ -3236,7 +3314,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-8328 
 │                       │      ├ PublishedDate   : 2026-05-13T21:16:50.167Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:55.95Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2026-9669 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2026-9669 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x8
@@ -3304,7 +3382,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-9669 
 │                       │      ├ PublishedDate   : 2026-06-08T23:17:25.17Z 
 │                       │      ╰ LastModifiedDate: 2026-08-13T01:16:56.087Z 
-│                       ╰ [47] ╭ VulnerabilityID : CVE-2026-6879 
+│                       ╰ [49] ╭ VulnerabilityID : CVE-2026-6879 
 │                              ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                              ├ PkgName         : python3-pycache-pyc0 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x8
@@ -3334,11 +3412,15 @@
 │                              │                   `.//item[1]` short-circuits after the first match. 
 │                              ├ Severity        : LOW 
 │                              ├ CweIDs           ─ [0]: CWE-407 
-│                              ├ VendorSeverity   ╭ azure : 1 
-│                              │                  ╰ redhat: 1 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N
-│                              │                           │           /A:L 
-│                              │                           ╰ V3Score : 2.2 
+│                              ├ VendorSeverity   ╭ azure  : 1 
+│                              │                  ├ bitnami: 1 
+│                              │                  ╰ redhat : 1 
+│                              ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:H/AT:P/PR:H/UI:P/VC:N
+│                              │                  │         │            /VI:N/VA:L/SC:N/SI:N/SA:N 
+│                              │                  │         ╰ V40Score : 2 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:
+│                              │                            │           N/A:L 
+│                              │                            ╰ V3Score : 2.2 
 │                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-6879 
 │                              │                  ├ [1] : https://github.com/python/cpython/commit/02c08e6b747a
 │                              │                  │       c43d0d866a4ffa916bedf3423f81 
