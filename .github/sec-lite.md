@@ -21,6 +21,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:11fd0ddb9e0f955e12798424ef553c84d553cf2e32a45a9b77887
 │                       │      │                   a2db5ab5f27 
+│                       │      ├ Title           : An issue in htop-dev htop v.2.20 allows a local attacker to
+│                       │      │                   cause ... 
 │                       │      ├ Description     : An issue in htop-dev htop v.2.20 allows a local attacker to
 │                       │      │                   cause an out-of-bounds access in the
 │                       │      │                   Header_populateFromSettings function. 
@@ -54,6 +56,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:2161dca61c439f6d09081ad260cac95264d323a43461c2cfb1788
 │                       │      │                   3b1517fb05e 
+│                       │      ├ Title           : An issue in htop-dev htop v.2.20 allows a local attacker to
+│                       │      │                   cause ... 
 │                       │      ├ Description     : An issue in htop-dev htop v.2.20 allows a local attacker to
 │                       │      │                   cause an out-of-bounds access in the
 │                       │      │                   Header_populateFromSettings function. 
@@ -97,17 +101,33 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ╭ [0]: CWE-835 
 │                       │      │                  ╰ [1]: CWE-400 
-│                       │      ├ VendorSeverity   ╭ azure : 2 
-│                       │      │                  ╰ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ╰ redhat     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:42922 
-│                       │      │                  ├ [1]: https://access.redhat.com/errata/RHSA-2026:55855 
-│                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2026-59843 
-│                       │      │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2498176 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-59843 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-59843 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42922 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:55855 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-59843 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2498168 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2498176 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2498177 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2498178 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2498179 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2498180 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2498181 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2498182 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2498183 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2498184 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2499049 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2498176 
+│                       │      │                  ├ [15]: https://errata.almalinux.org/10/ALSA-2026-55855.html 
+│                       │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2026-59843.html 
+│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2026-55855.html 
+│                       │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-59843 
+│                       │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2026-59843 
 │                       │      ├ PublishedDate   : 2026-07-21T12:18:57.86Z 
 │                       │      ╰ LastModifiedDate: 2026-08-17T22:17:15.123Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2026-11940 
@@ -241,7 +261,7 @@
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/07/09/4 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39320 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39798 
 │                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:41949 
 │                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-15308 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2498608 
@@ -250,7 +270,7 @@
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-15308 
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-41949.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39320 
+│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39798 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/commit/07efb08123ba
 │                       │      │                  │       9367a7107325adb9d5626dca1ca9 
 │                       │      │                  ├ [11]: https://github.com/python/cpython/commit/1e7956f1a722
@@ -378,7 +398,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:2128 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4168 
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:4216 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-15366 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2431368 
@@ -398,7 +418,7 @@
 │                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-1299 
 │                       │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2026-4216.html 
-│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:2128 
+│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:4168 
 │                       │      │                  ├ [17]: https://github.com/python/cpython/commit/298182272a74
 │                       │      │                  │       0ce2016aee2f54acbd0bba1944c1 
 │                       │      │                  ├ [18]: https://github.com/python/cpython/commit/6262704b134d
@@ -432,6 +452,7 @@
 │                       │      │                  │         5b0eb169f0c02b0a6e9f 
 │                       │      │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c0980070
 │                       │      │                            11b652f34a62a402adc5 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0864 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -452,10 +473,14 @@
 │                       │      ├ VendorSeverity   ╭ amazon : 3 
 │                       │      │                  ├ azure  : 2 
 │                       │      │                  ├ bitnami: 2 
+│                       │      │                  ├ nvd    : 2 
 │                       │      │                  ╰ redhat : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:H/UI:P/VC:N
 │                       │      │                  │         │            /VI:H/VA:N/SC:N/SI:N/SA:N 
 │                       │      │                  │         ╰ V40Score : 4.1 
+│                       │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
+│                       │      │                  │         │           H/A:N 
+│                       │      │                  │         ╰ V3Score : 5.5 
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
 │                       │      │                            │           H/A:N 
 │                       │      │                            ╰ V3Score : 5.5 
@@ -482,7 +507,7 @@
 │                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-0864 
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-0864 
 │                       │      ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
-│                       │      ╰ LastModifiedDate: 2026-08-13T01:16:51.44Z 
+│                       │      ╰ LastModifiedDate: 2026-08-18T17:52:03.23Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2026-11972 
 │                       │      ├ PkgID           : pyc@3.14.5-r2 
 │                       │      ├ PkgName         : pyc 
@@ -1075,7 +1100,7 @@
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/07/09/4 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39320 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39798 
 │                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:41949 
 │                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-15308 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2498608 
@@ -1084,7 +1109,7 @@
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-15308 
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-41949.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39320 
+│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39798 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/commit/07efb08123ba
 │                       │      │                  │       9367a7107325adb9d5626dca1ca9 
 │                       │      │                  ├ [11]: https://github.com/python/cpython/commit/1e7956f1a722
@@ -1214,7 +1239,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:2128 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4168 
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:4216 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-15366 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2431368 
@@ -1234,7 +1259,7 @@
 │                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-1299 
 │                       │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2026-4216.html 
-│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:2128 
+│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:4168 
 │                       │      │                  ├ [17]: https://github.com/python/cpython/commit/298182272a74
 │                       │      │                  │       0ce2016aee2f54acbd0bba1944c1 
 │                       │      │                  ├ [18]: https://github.com/python/cpython/commit/6262704b134d
@@ -1269,6 +1294,7 @@
 │                       │      │                  │         5b0eb169f0c02b0a6e9f 
 │                       │      │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c0980070
 │                       │      │                            11b652f34a62a402adc5 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0864 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -1289,10 +1315,14 @@
 │                       │      ├ VendorSeverity   ╭ amazon : 3 
 │                       │      │                  ├ azure  : 2 
 │                       │      │                  ├ bitnami: 2 
+│                       │      │                  ├ nvd    : 2 
 │                       │      │                  ╰ redhat : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:H/UI:P/VC:N
 │                       │      │                  │         │            /VI:H/VA:N/SC:N/SI:N/SA:N 
 │                       │      │                  │         ╰ V40Score : 4.1 
+│                       │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
+│                       │      │                  │         │           H/A:N 
+│                       │      │                  │         ╰ V3Score : 5.5 
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
 │                       │      │                            │           H/A:N 
 │                       │      │                            ╰ V3Score : 5.5 
@@ -1319,7 +1349,7 @@
 │                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-0864 
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-0864 
 │                       │      ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
-│                       │      ╰ LastModifiedDate: 2026-08-13T01:16:51.44Z 
+│                       │      ╰ LastModifiedDate: 2026-08-18T17:52:03.23Z 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2026-11972 
 │                       │      ├ PkgID           : python3@3.14.5-r2 
 │                       │      ├ PkgName         : python3 
@@ -1919,7 +1949,7 @@
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/07/09/4 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39320 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39798 
 │                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:41949 
 │                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-15308 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2498608 
@@ -1928,7 +1958,7 @@
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-15308 
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-41949.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39320 
+│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39798 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/commit/07efb08123ba
 │                       │      │                  │       9367a7107325adb9d5626dca1ca9 
 │                       │      │                  ├ [11]: https://github.com/python/cpython/commit/1e7956f1a722
@@ -2058,7 +2088,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:2128 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4168 
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:4216 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-15366 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2431368 
@@ -2078,7 +2108,7 @@
 │                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-1299 
 │                       │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2026-4216.html 
-│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:2128 
+│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:4168 
 │                       │      │                  ├ [17]: https://github.com/python/cpython/commit/298182272a74
 │                       │      │                  │       0ce2016aee2f54acbd0bba1944c1 
 │                       │      │                  ├ [18]: https://github.com/python/cpython/commit/6262704b134d
@@ -2113,6 +2143,7 @@
 │                       │      │                  │         5b0eb169f0c02b0a6e9f 
 │                       │      │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c0980070
 │                       │      │                            11b652f34a62a402adc5 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0864 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -2133,10 +2164,14 @@
 │                       │      ├ VendorSeverity   ╭ amazon : 3 
 │                       │      │                  ├ azure  : 2 
 │                       │      │                  ├ bitnami: 2 
+│                       │      │                  ├ nvd    : 2 
 │                       │      │                  ╰ redhat : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:H/UI:P/VC:N
 │                       │      │                  │         │            /VI:H/VA:N/SC:N/SI:N/SA:N 
 │                       │      │                  │         ╰ V40Score : 4.1 
+│                       │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
+│                       │      │                  │         │           H/A:N 
+│                       │      │                  │         ╰ V3Score : 5.5 
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
 │                       │      │                            │           H/A:N 
 │                       │      │                            ╰ V3Score : 5.5 
@@ -2163,7 +2198,7 @@
 │                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-0864 
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-0864 
 │                       │      ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
-│                       │      ╰ LastModifiedDate: 2026-08-13T01:16:51.44Z 
+│                       │      ╰ LastModifiedDate: 2026-08-18T17:52:03.23Z 
 │                       ├ [32] ╭ VulnerabilityID : CVE-2026-11972 
 │                       │      ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pyc 
@@ -2763,7 +2798,7 @@
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/07/09/4 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39320 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39798 
 │                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:41949 
 │                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-15308 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2498608 
@@ -2772,7 +2807,7 @@
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-15308 
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-41949.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39320 
+│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39798 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/commit/07efb08123ba
 │                       │      │                  │       9367a7107325adb9d5626dca1ca9 
 │                       │      │                  ├ [11]: https://github.com/python/cpython/commit/1e7956f1a722
@@ -2902,7 +2937,7 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:2128 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4168 
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:4216 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-15366 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2431368 
@@ -2922,7 +2957,7 @@
 │                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-1299 
 │                       │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2026-4216.html 
-│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:2128 
+│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:4168 
 │                       │      │                  ├ [17]: https://github.com/python/cpython/commit/298182272a74
 │                       │      │                  │       0ce2016aee2f54acbd0bba1944c1 
 │                       │      │                  ├ [18]: https://github.com/python/cpython/commit/6262704b134d
@@ -2957,6 +2992,7 @@
 │                       │      │                  │         5b0eb169f0c02b0a6e9f 
 │                       │      │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c0980070
 │                       │      │                            11b652f34a62a402adc5 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0864 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -2977,10 +3013,14 @@
 │                       │      ├ VendorSeverity   ╭ amazon : 3 
 │                       │      │                  ├ azure  : 2 
 │                       │      │                  ├ bitnami: 2 
+│                       │      │                  ├ nvd    : 2 
 │                       │      │                  ╰ redhat : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:H/UI:P/VC:N
 │                       │      │                  │         │            /VI:H/VA:N/SC:N/SI:N/SA:N 
 │                       │      │                  │         ╰ V40Score : 4.1 
+│                       │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
+│                       │      │                  │         │           H/A:N 
+│                       │      │                  │         ╰ V3Score : 5.5 
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
 │                       │      │                            │           H/A:N 
 │                       │      │                            ╰ V3Score : 5.5 
@@ -3007,7 +3047,7 @@
 │                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-0864 
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-0864 
 │                       │      ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
-│                       │      ╰ LastModifiedDate: 2026-08-13T01:16:51.44Z 
+│                       │      ╰ LastModifiedDate: 2026-08-18T17:52:03.23Z 
 │                       ├ [44] ╭ VulnerabilityID : CVE-2026-11972 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
