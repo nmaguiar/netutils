@@ -320,13 +320,14 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/06/10/2
+    - https://access.redhat.com/errata/RHSA-2026:49836
     - https://access.redhat.com/errata/RHSA-2026:50108
     - https://access.redhat.com/security/cve/CVE-2026-10846
     - https://bugzilla.redhat.com/2487437
     - https://bugzilla.redhat.com/show_bug.cgi?id=2487437
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-10846
-    - https://errata.almalinux.org/9/ALSA-2026-50108.html
+    - https://errata.almalinux.org/10/ALSA-2026-49836.html
     - https://errata.rockylinux.org/RLSA-2026:50108
     - https://linux.oracle.com/cve/CVE-2026-10846.html
     - https://linux.oracle.com/errata/ELSA-2026-50108-0.html
@@ -1498,6 +1499,213 @@
     - https://www.synology.com/security/advisory/Synology_SA_19_33
     PublishedDate: '2019-08-13T21:15:12.52Z'
     LastModifiedDate: '2026-06-17T02:43:52.723Z'
+  - VulnerabilityID: CVE-2026-62289
+    PkgID: libheif-plugin-aomdec@1.21.2-3ubuntu0.3
+    PkgName: libheif-plugin-aomdec
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3ubuntu0.3?arch=amd64&distro=ubuntu-26.04
+      UID: d184bdac1ade918a
+    InstalledVersion: 1.21.2-3ubuntu0.3
+    FixedVersion: 1.21.2-3ubuntu0.4
+    Status: fixed
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-62289
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:89382bc39bdcb7d558a17d710b4b371928609eb83e1982c87c346a4777445f7e
+    Title: libheif is a HEIF and AVIF file format decoder and encoder. In 1.23.0  ...
+    Description: libheif is a HEIF and AVIF file format decoder and encoder. In 1.23.0 and earlier, a crafted HEIF or AVIF file containing a clean aperture box can reduce an image dimension to zero and crash or corrupt tiling results when heif_image_handle_get_image_tiling(handle, 1, &tiling) is called. ImageItem::get_heif_image_tiling() returns already transformed dimensions, and process_image_transformations_on_tiling() applies the clean aperture transformation again. The second application passes zero to Box_clap::left_rounded(0), where image_width minus one underflows and constructs Fraction(0xFFFFFFFF, 2). Debug builds reach an assertion and abort, while release builds can return a corrupt crop and zero-width tiling result. The affected implementation spans libheif/image-items/image_item.cc, libheif/context.cc, and libheif/box.cc. This issue is fixed in version 1.23.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-191
+    - CWE-617
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/strukturag/libheif/commit/f01870c1d7323a3003796d58eba7fff502be994c
+    - https://github.com/strukturag/libheif/releases/tag/v1.23.1
+    - https://github.com/strukturag/libheif/security/advisories/GHSA-jc8f-p23p-5hjg
+    - https://ubuntu.com/security/notices/USN-8649-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-62289
+    PublishedDate: '2026-08-18T22:17:02.72Z'
+    LastModifiedDate: '2026-08-19T17:19:54.33Z'
+  - VulnerabilityID: CVE-2026-62292
+    PkgID: libheif-plugin-aomdec@1.21.2-3ubuntu0.3
+    PkgName: libheif-plugin-aomdec
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3ubuntu0.3?arch=amd64&distro=ubuntu-26.04
+      UID: d184bdac1ade918a
+    InstalledVersion: 1.21.2-3ubuntu0.3
+    FixedVersion: 1.21.2-3ubuntu0.4
+    Status: fixed
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-62292
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:65858f43f2f2c876f599aed3dc9b2fae27b7b665e4a17b5e44dd4f72f82be756
+    Title: libheif is a HEIF and AVIF file format decoder and encoder. From 1.19. ...
+    Description: libheif is a HEIF and AVIF file format decoder and encoder. From 1.19.0 until 1.23.1, a crafted uncompressed HEIF image using generic zlib unci full-item compression can crash an application that decodes an advertised tile with heif_image_handle_decode_image_tile(). In libheif/codecs/uncompressed/unc_decoder.cc, unc_decoder::fetch_tile_data() computes a large tile offset and unc_decoder::get_compressed_image_data_uncompressed() validates it with range_start_offset plus range_size. For the last advertised tile (4095, 4095), the addition can wrap to zero, bypass the bounds check, and pass an invalid source pointer and a one-terabyte length to memcpy. The observed result is an out-of-bounds read and process crash; opening the file alone does not trigger the issue because tile decoding is required. This issue is fixed in version 1.23.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/strukturag/libheif/commit/089a809bf6bed1abae102d5e97b6bb8c4f53b515
+    - https://github.com/strukturag/libheif/releases/tag/v1.23.1
+    - https://github.com/strukturag/libheif/security/advisories/GHSA-73p7-m7gg-w2jv
+    - https://ubuntu.com/security/notices/USN-8649-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-62292
+    PublishedDate: '2026-08-18T22:17:03.023Z'
+    LastModifiedDate: '2026-08-18T22:17:03.023Z'
+  - VulnerabilityID: CVE-2026-62289
+    PkgID: libheif-plugin-aomenc@1.21.2-3ubuntu0.3
+    PkgName: libheif-plugin-aomenc
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3ubuntu0.3?arch=amd64&distro=ubuntu-26.04
+      UID: cba12cb4eeb67cf6
+    InstalledVersion: 1.21.2-3ubuntu0.3
+    FixedVersion: 1.21.2-3ubuntu0.4
+    Status: fixed
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-62289
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:55c99c750d477e0a87ac62765f1a1535332e49cd0107206d0227967af0278b3d
+    Title: libheif is a HEIF and AVIF file format decoder and encoder. In 1.23.0  ...
+    Description: libheif is a HEIF and AVIF file format decoder and encoder. In 1.23.0 and earlier, a crafted HEIF or AVIF file containing a clean aperture box can reduce an image dimension to zero and crash or corrupt tiling results when heif_image_handle_get_image_tiling(handle, 1, &tiling) is called. ImageItem::get_heif_image_tiling() returns already transformed dimensions, and process_image_transformations_on_tiling() applies the clean aperture transformation again. The second application passes zero to Box_clap::left_rounded(0), where image_width minus one underflows and constructs Fraction(0xFFFFFFFF, 2). Debug builds reach an assertion and abort, while release builds can return a corrupt crop and zero-width tiling result. The affected implementation spans libheif/image-items/image_item.cc, libheif/context.cc, and libheif/box.cc. This issue is fixed in version 1.23.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-191
+    - CWE-617
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/strukturag/libheif/commit/f01870c1d7323a3003796d58eba7fff502be994c
+    - https://github.com/strukturag/libheif/releases/tag/v1.23.1
+    - https://github.com/strukturag/libheif/security/advisories/GHSA-jc8f-p23p-5hjg
+    - https://ubuntu.com/security/notices/USN-8649-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-62289
+    PublishedDate: '2026-08-18T22:17:02.72Z'
+    LastModifiedDate: '2026-08-19T17:19:54.33Z'
+  - VulnerabilityID: CVE-2026-62292
+    PkgID: libheif-plugin-aomenc@1.21.2-3ubuntu0.3
+    PkgName: libheif-plugin-aomenc
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3ubuntu0.3?arch=amd64&distro=ubuntu-26.04
+      UID: cba12cb4eeb67cf6
+    InstalledVersion: 1.21.2-3ubuntu0.3
+    FixedVersion: 1.21.2-3ubuntu0.4
+    Status: fixed
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-62292
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:023a8541d8fd257daab4ef97e4f81c39599eebada7db7db95856d8091a916578
+    Title: libheif is a HEIF and AVIF file format decoder and encoder. From 1.19. ...
+    Description: libheif is a HEIF and AVIF file format decoder and encoder. From 1.19.0 until 1.23.1, a crafted uncompressed HEIF image using generic zlib unci full-item compression can crash an application that decodes an advertised tile with heif_image_handle_decode_image_tile(). In libheif/codecs/uncompressed/unc_decoder.cc, unc_decoder::fetch_tile_data() computes a large tile offset and unc_decoder::get_compressed_image_data_uncompressed() validates it with range_start_offset plus range_size. For the last advertised tile (4095, 4095), the addition can wrap to zero, bypass the bounds check, and pass an invalid source pointer and a one-terabyte length to memcpy. The observed result is an out-of-bounds read and process crash; opening the file alone does not trigger the issue because tile decoding is required. This issue is fixed in version 1.23.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/strukturag/libheif/commit/089a809bf6bed1abae102d5e97b6bb8c4f53b515
+    - https://github.com/strukturag/libheif/releases/tag/v1.23.1
+    - https://github.com/strukturag/libheif/security/advisories/GHSA-73p7-m7gg-w2jv
+    - https://ubuntu.com/security/notices/USN-8649-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-62292
+    PublishedDate: '2026-08-18T22:17:03.023Z'
+    LastModifiedDate: '2026-08-18T22:17:03.023Z'
+  - VulnerabilityID: CVE-2026-62289
+    PkgID: libheif1@1.21.2-3ubuntu0.3
+    PkgName: libheif1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libheif1@1.21.2-3ubuntu0.3?arch=amd64&distro=ubuntu-26.04
+      UID: d99c70eaf66d166
+    InstalledVersion: 1.21.2-3ubuntu0.3
+    FixedVersion: 1.21.2-3ubuntu0.4
+    Status: fixed
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-62289
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4b68475ea1ec89425aca28339292201313f8de9d2018a9be7bfb10c0f5e0582e
+    Title: libheif is a HEIF and AVIF file format decoder and encoder. In 1.23.0  ...
+    Description: libheif is a HEIF and AVIF file format decoder and encoder. In 1.23.0 and earlier, a crafted HEIF or AVIF file containing a clean aperture box can reduce an image dimension to zero and crash or corrupt tiling results when heif_image_handle_get_image_tiling(handle, 1, &tiling) is called. ImageItem::get_heif_image_tiling() returns already transformed dimensions, and process_image_transformations_on_tiling() applies the clean aperture transformation again. The second application passes zero to Box_clap::left_rounded(0), where image_width minus one underflows and constructs Fraction(0xFFFFFFFF, 2). Debug builds reach an assertion and abort, while release builds can return a corrupt crop and zero-width tiling result. The affected implementation spans libheif/image-items/image_item.cc, libheif/context.cc, and libheif/box.cc. This issue is fixed in version 1.23.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-191
+    - CWE-617
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/strukturag/libheif/commit/f01870c1d7323a3003796d58eba7fff502be994c
+    - https://github.com/strukturag/libheif/releases/tag/v1.23.1
+    - https://github.com/strukturag/libheif/security/advisories/GHSA-jc8f-p23p-5hjg
+    - https://ubuntu.com/security/notices/USN-8649-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-62289
+    PublishedDate: '2026-08-18T22:17:02.72Z'
+    LastModifiedDate: '2026-08-19T17:19:54.33Z'
+  - VulnerabilityID: CVE-2026-62292
+    PkgID: libheif1@1.21.2-3ubuntu0.3
+    PkgName: libheif1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libheif1@1.21.2-3ubuntu0.3?arch=amd64&distro=ubuntu-26.04
+      UID: d99c70eaf66d166
+    InstalledVersion: 1.21.2-3ubuntu0.3
+    FixedVersion: 1.21.2-3ubuntu0.4
+    Status: fixed
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-62292
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:30f309a7f0af37b7dd662e49f5c1d8d95bb62c64658079034a45fbb436fcc3b8
+    Title: libheif is a HEIF and AVIF file format decoder and encoder. From 1.19. ...
+    Description: libheif is a HEIF and AVIF file format decoder and encoder. From 1.19.0 until 1.23.1, a crafted uncompressed HEIF image using generic zlib unci full-item compression can crash an application that decodes an advertised tile with heif_image_handle_decode_image_tile(). In libheif/codecs/uncompressed/unc_decoder.cc, unc_decoder::fetch_tile_data() computes a large tile offset and unc_decoder::get_compressed_image_data_uncompressed() validates it with range_start_offset plus range_size. For the last advertised tile (4095, 4095), the addition can wrap to zero, bypass the bounds check, and pass an invalid source pointer and a one-terabyte length to memcpy. The observed result is an out-of-bounds read and process crash; opening the file alone does not trigger the issue because tile decoding is required. This issue is fixed in version 1.23.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/strukturag/libheif/commit/089a809bf6bed1abae102d5e97b6bb8c4f53b515
+    - https://github.com/strukturag/libheif/releases/tag/v1.23.1
+    - https://github.com/strukturag/libheif/security/advisories/GHSA-73p7-m7gg-w2jv
+    - https://ubuntu.com/security/notices/USN-8649-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-62292
+    PublishedDate: '2026-08-18T22:17:03.023Z'
+    LastModifiedDate: '2026-08-18T22:17:03.023Z'
   - VulnerabilityID: CVE-2026-10846
     PkgID: libldns3t64@1.8.4-2build3
     PkgName: libldns3t64
@@ -1538,13 +1746,14 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/06/10/2
+    - https://access.redhat.com/errata/RHSA-2026:49836
     - https://access.redhat.com/errata/RHSA-2026:50108
     - https://access.redhat.com/security/cve/CVE-2026-10846
     - https://bugzilla.redhat.com/2487437
     - https://bugzilla.redhat.com/show_bug.cgi?id=2487437
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-10846
-    - https://errata.almalinux.org/9/ALSA-2026-50108.html
+    - https://errata.almalinux.org/10/ALSA-2026-49836.html
     - https://errata.rockylinux.org/RLSA-2026:50108
     - https://linux.oracle.com/cve/CVE-2026-10846.html
     - https://linux.oracle.com/errata/ELSA-2026-50108-0.html
@@ -1735,7 +1944,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-13757
-    - https://errata.almalinux.org/9/ALSA-2026-49667.html
+    - https://errata.almalinux.org/10/ALSA-2026-49668.html
     - https://errata.rockylinux.org/RLSA-2026:49667
     - https://github.com/advisories/GHSA-p2wm-69qx-x25w
     - https://linux.oracle.com/cve/CVE-2026-13757.html
@@ -2007,7 +2216,8 @@
       PURL: pkg:deb/ubuntu/libssh-4@0.11.3-1ubuntu1?arch=amd64&distro=ubuntu-26.04
       UID: f5fa3c362f2df09e
     InstalledVersion: 0.11.3-1ubuntu1
-    Status: affected
+    FixedVersion: 0.11.3-1ubuntu2
+    Status: fixed
     Layer:
       Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
       DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
@@ -2048,6 +2258,7 @@
     - https://gitlab.com/libssh/libssh-mirror/-/commit/855a0853ad3abd4a6cd85ce06fce6d8d4c7a0b60
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3731
     - https://ubuntu.com/security/notices/USN-8093-1
+    - https://ubuntu.com/security/notices/USN-8093-2
     - https://vuldb.com/?ctiid.349709
     - https://vuldb.com/?id.349709
     - https://vuldb.com/?submit.767120
@@ -2147,7 +2358,8 @@
       PURL: pkg:deb/ubuntu/libtiff6@4.7.0-3ubuntu4?arch=amd64&distro=ubuntu-26.04
       UID: 1012a9e2d897d573
     InstalledVersion: 4.7.0-3ubuntu4
-    Status: affected
+    FixedVersion: 4.7.0-3ubuntu5
+    Status: fixed
     Layer:
       Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
       DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
@@ -2189,6 +2401,7 @@
     - https://gitlab.com/libtiff/libtiff/-/merge_requests/755
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61143
     - https://ubuntu.com/security/notices/USN-8113-1
+    - https://ubuntu.com/security/notices/USN-8113-2
     - https://www.cve.org/CVERecord?id=CVE-2025-61143
     PublishedDate: '2026-02-23T19:22:56.517Z'
     LastModifiedDate: '2026-06-17T09:50:21.56Z'
@@ -2199,7 +2412,8 @@
       PURL: pkg:deb/ubuntu/libtiff6@4.7.0-3ubuntu4?arch=amd64&distro=ubuntu-26.04
       UID: 1012a9e2d897d573
     InstalledVersion: 4.7.0-3ubuntu4
-    Status: affected
+    FixedVersion: 4.7.0-3ubuntu5
+    Status: fixed
     Layer:
       Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
       DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
@@ -2243,6 +2457,7 @@
     - https://gitlab.com/libtiff/libtiff/-/merge_requests/757
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61144
     - https://ubuntu.com/security/notices/USN-8113-1
+    - https://ubuntu.com/security/notices/USN-8113-2
     - https://www.cve.org/CVERecord?id=CVE-2025-61144
     PublishedDate: '2026-02-23T19:22:56.643Z'
     LastModifiedDate: '2026-06-17T09:50:21.72Z'
@@ -4066,6 +4281,201 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-51401
     PublishedDate: '2026-08-04T21:16:36.567Z'
     LastModifiedDate: '2026-08-05T20:17:09.31Z'
+  - VulnerabilityID: CVE-2026-73071
+    PkgID: vim@2:9.1.2141-1ubuntu4.7
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.7?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 81174070196e01a7
+    InstalledVersion: 2:9.1.2141-1ubuntu4.7
+    Status: affected
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73071
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:2d96f6ab526fa4b809428f20491ea73432b16e33b0ca3d13def37bbcff1e0bbc
+    Title: 'vim: Vim: Denial of Service via Use-After-Free in JSON Decoding'
+    Description: Vim is an open source, command line text editor. From 9.2.0511 until 9.2.0844, json_decode_item() in src/json.c can retain a stale pointer after json_decode_string() invokes channel_fill() to refill and free the current buffer, causing the error path to read freed memory instead of reader->js_buf + reader->js_used when an invalid JSON string spans buffers. This issue is fixed in version 9.2.0844.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-73071
+    - https://github.com/vim/vim/commit/f8126294a526aa80c5123eb3079e325daee9ec75
+    - https://github.com/vim/vim/releases/tag/v9.2.0844
+    - https://github.com/vim/vim/security/advisories/GHSA-69ch-22ch-r887
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-73071
+    - https://www.cve.org/CVERecord?id=CVE-2026-73071
+    PublishedDate: '2026-08-11T16:17:38.413Z'
+    LastModifiedDate: '2026-08-11T17:19:15.437Z'
+  - VulnerabilityID: CVE-2026-73072
+    PkgID: vim@2:9.1.2141-1ubuntu4.7
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.7?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 81174070196e01a7
+    InstalledVersion: 2:9.1.2141-1ubuntu4.7
+    Status: affected
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73072
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:460e44640dc20e43ffc6e18224d5bac7007cb7e9ae32915041dacd7bf9675bae
+    Title: 'vim: Vim: Heap buffer overflow allows arbitrary code execution'
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0846, set_sofo() in src/spellfile.c reuses sl_sal_first[] without resetting values left by set_sal_first(), so a crafted spell file containing an SN_SAL section before an SN_SOFO section causes under-counted mapping lists and attacker-influenced writes beyond a heap allocation. This issue is fixed in version 9.2.0846.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    - CWE-787
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-73072
+    - https://github.com/vim/vim/commit/05c41c922309c7a11b6ec2f124be66551c90d66a
+    - https://github.com/vim/vim/releases/tag/v9.2.0846
+    - https://github.com/vim/vim/security/advisories/GHSA-9jqx-hgpr-6v64
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-73072
+    - https://www.cve.org/CVERecord?id=CVE-2026-73072
+    PublishedDate: '2026-08-11T16:17:38.553Z'
+    LastModifiedDate: '2026-08-13T16:19:03.257Z'
+  - VulnerabilityID: CVE-2026-73074
+    PkgID: vim@2:9.1.2141-1ubuntu4.7
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.7?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 81174070196e01a7
+    InstalledVersion: 2:9.1.2141-1ubuntu4.7
+    Status: affected
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73074
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:c00ccb938f51e2347fa84d35f3fd7f5af1cb22c7357572334baa150974a51ca4
+    Title: 'vim: Vim: Heap buffer overflow via integer wraparound in text property handling'
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0841, prop_add_one() in src/textprop.c uses the proplen value from get_text_props() to increment a uint16_t property count beyond 0xffff, wrapping the count to zero and copying existing text-property records into a heap allocation sized for none of them. This issue is fixed in version 9.2.0841.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-73074
+    - https://github.com/vim/vim/commit/a9336b476fd1a182e3f79b5f83c0ffb04f8a922b
+    - https://github.com/vim/vim/security/advisories/GHSA-hm4g-pjfx-m27j
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-73074
+    - https://www.cve.org/CVERecord?id=CVE-2026-73074
+    PublishedDate: '2026-08-11T16:17:38.697Z'
+    LastModifiedDate: '2026-08-12T23:17:23.217Z'
+  - VulnerabilityID: CVE-2026-73076
+    PkgID: vim@2:9.1.2141-1ubuntu4.7
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.7?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 81174070196e01a7
+    InstalledVersion: 2:9.1.2141-1ubuntu4.7
+    Status: affected
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73076
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:6755759cb810488a6e5e36bd54f40c21b6e7d76fac5a6bff112d5737ab4e7ae2
+    Title: 'vim: Vim: Arbitrary command execution via crafted vimball'
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0847, runtime/autoload/vimball.vim allows a crafted vimball member named .VimballRecord to overwrite the installation record with attacker-chosen commands. When vimball#RmVimball() later processes the matching record entry, the stored Ex commands, including operating-system commands invoked through :!, execute with the privileges of the user running Vim. This issue is fixed in version 9.2.0847.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    - CWE-829
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-73076
+    - https://github.com/vim/vim/commit/581a2f3ac9c6f96a26324f6b2c8c11415fd0d452
+    - https://github.com/vim/vim/security/advisories/GHSA-r22p-fhw4-84p2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-73076
+    - https://www.cve.org/CVERecord?id=CVE-2026-73076
+    PublishedDate: '2026-08-11T16:17:38.98Z'
+    LastModifiedDate: '2026-08-11T16:17:38.98Z'
+  - VulnerabilityID: CVE-2026-73078
+    PkgID: vim@2:9.1.2141-1ubuntu4.7
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.7?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 81174070196e01a7
+    InstalledVersion: 2:9.1.2141-1ubuntu4.7
+    Status: affected
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73078
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e58626c5e4b7dbcaab3fd84f2c20a3f8b4528056c23d1c4ee38b233978a2371d
+    Title: 'vim: Vim: Arbitrary Code Execution via Crafted Netrw Menu Entries'
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0840, runtime/plugin/netrwPlugin.vim loads netrw and runtime/pack/dist/opt/netrw/autoload/netrw.vim constructs Bookmarks, History, and Targets menu entries by interpolating attacker-controlled directory paths into executed :menu commands. s:NetrwBookmarkMenu(), s:NetrwTgtMenu(), g:netrw_menu_escape, EX_TRLBAR, and netrw#MakeTgt() fail to neutralize the | command separator or single quotes at five construction sites, allowing a crafted path browsed or bookmarked in GUI Vim to execute arbitrary Ex and operating-system commands. This issue is fixed in version 9.2.0840.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-77
+    - CWE-184
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 8.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-73078
+    - https://github.com/vim/vim/commit/29c6fd090d4520592f8be7d9ec81190edf25ef69
+    - https://github.com/vim/vim/security/advisories/GHSA-rcr7-f3wr-22r2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-73078
+    - https://www.cve.org/CVERecord?id=CVE-2026-73078
+    PublishedDate: '2026-08-11T16:17:39.573Z'
+    LastModifiedDate: '2026-08-11T17:19:15.6Z'
   - VulnerabilityID: CVE-2026-51400
     PkgID: vim-common@2:9.1.2141-1ubuntu4.7
     PkgName: vim-common
@@ -4142,6 +4552,201 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-51401
     PublishedDate: '2026-08-04T21:16:36.567Z'
     LastModifiedDate: '2026-08-05T20:17:09.31Z'
+  - VulnerabilityID: CVE-2026-73071
+    PkgID: vim-common@2:9.1.2141-1ubuntu4.7
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.7?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: e4335c61f6d20a99
+    InstalledVersion: 2:9.1.2141-1ubuntu4.7
+    Status: affected
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73071
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:0a8db6ee6d4b11a96bd3116d5f35d351b529032173354723a5345de1446b03e8
+    Title: 'vim: Vim: Denial of Service via Use-After-Free in JSON Decoding'
+    Description: Vim is an open source, command line text editor. From 9.2.0511 until 9.2.0844, json_decode_item() in src/json.c can retain a stale pointer after json_decode_string() invokes channel_fill() to refill and free the current buffer, causing the error path to read freed memory instead of reader->js_buf + reader->js_used when an invalid JSON string spans buffers. This issue is fixed in version 9.2.0844.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-73071
+    - https://github.com/vim/vim/commit/f8126294a526aa80c5123eb3079e325daee9ec75
+    - https://github.com/vim/vim/releases/tag/v9.2.0844
+    - https://github.com/vim/vim/security/advisories/GHSA-69ch-22ch-r887
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-73071
+    - https://www.cve.org/CVERecord?id=CVE-2026-73071
+    PublishedDate: '2026-08-11T16:17:38.413Z'
+    LastModifiedDate: '2026-08-11T17:19:15.437Z'
+  - VulnerabilityID: CVE-2026-73072
+    PkgID: vim-common@2:9.1.2141-1ubuntu4.7
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.7?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: e4335c61f6d20a99
+    InstalledVersion: 2:9.1.2141-1ubuntu4.7
+    Status: affected
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73072
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fcec9249adfb6804d725613d3a1dcb85b52b716411704254ca4d62a1a2e5c953
+    Title: 'vim: Vim: Heap buffer overflow allows arbitrary code execution'
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0846, set_sofo() in src/spellfile.c reuses sl_sal_first[] without resetting values left by set_sal_first(), so a crafted spell file containing an SN_SAL section before an SN_SOFO section causes under-counted mapping lists and attacker-influenced writes beyond a heap allocation. This issue is fixed in version 9.2.0846.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    - CWE-787
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-73072
+    - https://github.com/vim/vim/commit/05c41c922309c7a11b6ec2f124be66551c90d66a
+    - https://github.com/vim/vim/releases/tag/v9.2.0846
+    - https://github.com/vim/vim/security/advisories/GHSA-9jqx-hgpr-6v64
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-73072
+    - https://www.cve.org/CVERecord?id=CVE-2026-73072
+    PublishedDate: '2026-08-11T16:17:38.553Z'
+    LastModifiedDate: '2026-08-13T16:19:03.257Z'
+  - VulnerabilityID: CVE-2026-73074
+    PkgID: vim-common@2:9.1.2141-1ubuntu4.7
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.7?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: e4335c61f6d20a99
+    InstalledVersion: 2:9.1.2141-1ubuntu4.7
+    Status: affected
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73074
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:858d4ce491ec72f42d22a38c62964c3878562454c8caa3038ca7645767ba914e
+    Title: 'vim: Vim: Heap buffer overflow via integer wraparound in text property handling'
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0841, prop_add_one() in src/textprop.c uses the proplen value from get_text_props() to increment a uint16_t property count beyond 0xffff, wrapping the count to zero and copying existing text-property records into a heap allocation sized for none of them. This issue is fixed in version 9.2.0841.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-73074
+    - https://github.com/vim/vim/commit/a9336b476fd1a182e3f79b5f83c0ffb04f8a922b
+    - https://github.com/vim/vim/security/advisories/GHSA-hm4g-pjfx-m27j
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-73074
+    - https://www.cve.org/CVERecord?id=CVE-2026-73074
+    PublishedDate: '2026-08-11T16:17:38.697Z'
+    LastModifiedDate: '2026-08-12T23:17:23.217Z'
+  - VulnerabilityID: CVE-2026-73076
+    PkgID: vim-common@2:9.1.2141-1ubuntu4.7
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.7?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: e4335c61f6d20a99
+    InstalledVersion: 2:9.1.2141-1ubuntu4.7
+    Status: affected
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73076
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f0a402741c136873305dd498f2496e51a69c0f664df163c2702b7d7061d18b7b
+    Title: 'vim: Vim: Arbitrary command execution via crafted vimball'
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0847, runtime/autoload/vimball.vim allows a crafted vimball member named .VimballRecord to overwrite the installation record with attacker-chosen commands. When vimball#RmVimball() later processes the matching record entry, the stored Ex commands, including operating-system commands invoked through :!, execute with the privileges of the user running Vim. This issue is fixed in version 9.2.0847.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    - CWE-829
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-73076
+    - https://github.com/vim/vim/commit/581a2f3ac9c6f96a26324f6b2c8c11415fd0d452
+    - https://github.com/vim/vim/security/advisories/GHSA-r22p-fhw4-84p2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-73076
+    - https://www.cve.org/CVERecord?id=CVE-2026-73076
+    PublishedDate: '2026-08-11T16:17:38.98Z'
+    LastModifiedDate: '2026-08-11T16:17:38.98Z'
+  - VulnerabilityID: CVE-2026-73078
+    PkgID: vim-common@2:9.1.2141-1ubuntu4.7
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.7?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: e4335c61f6d20a99
+    InstalledVersion: 2:9.1.2141-1ubuntu4.7
+    Status: affected
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73078
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:59d3bf52e41ad9b2dcfd8bd6d1cfb18ccd11db59427f750f94babcb277197212
+    Title: 'vim: Vim: Arbitrary Code Execution via Crafted Netrw Menu Entries'
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0840, runtime/plugin/netrwPlugin.vim loads netrw and runtime/pack/dist/opt/netrw/autoload/netrw.vim constructs Bookmarks, History, and Targets menu entries by interpolating attacker-controlled directory paths into executed :menu commands. s:NetrwBookmarkMenu(), s:NetrwTgtMenu(), g:netrw_menu_escape, EX_TRLBAR, and netrw#MakeTgt() fail to neutralize the | command separator or single quotes at five construction sites, allowing a crafted path browsed or bookmarked in GUI Vim to execute arbitrary Ex and operating-system commands. This issue is fixed in version 9.2.0840.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-77
+    - CWE-184
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 8.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-73078
+    - https://github.com/vim/vim/commit/29c6fd090d4520592f8be7d9ec81190edf25ef69
+    - https://github.com/vim/vim/security/advisories/GHSA-rcr7-f3wr-22r2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-73078
+    - https://www.cve.org/CVERecord?id=CVE-2026-73078
+    PublishedDate: '2026-08-11T16:17:39.573Z'
+    LastModifiedDate: '2026-08-11T17:19:15.6Z'
   - VulnerabilityID: CVE-2026-51400
     PkgID: vim-runtime@2:9.1.2141-1ubuntu4.7
     PkgName: vim-runtime
@@ -4218,6 +4823,201 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-51401
     PublishedDate: '2026-08-04T21:16:36.567Z'
     LastModifiedDate: '2026-08-05T20:17:09.31Z'
+  - VulnerabilityID: CVE-2026-73071
+    PkgID: vim-runtime@2:9.1.2141-1ubuntu4.7
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.7?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: b876d7ab71a834bc
+    InstalledVersion: 2:9.1.2141-1ubuntu4.7
+    Status: affected
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73071
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:2e44626bbe57ea958533062a1b897b500df1e619a8353dcd655d30a8556858df
+    Title: 'vim: Vim: Denial of Service via Use-After-Free in JSON Decoding'
+    Description: Vim is an open source, command line text editor. From 9.2.0511 until 9.2.0844, json_decode_item() in src/json.c can retain a stale pointer after json_decode_string() invokes channel_fill() to refill and free the current buffer, causing the error path to read freed memory instead of reader->js_buf + reader->js_used when an invalid JSON string spans buffers. This issue is fixed in version 9.2.0844.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-73071
+    - https://github.com/vim/vim/commit/f8126294a526aa80c5123eb3079e325daee9ec75
+    - https://github.com/vim/vim/releases/tag/v9.2.0844
+    - https://github.com/vim/vim/security/advisories/GHSA-69ch-22ch-r887
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-73071
+    - https://www.cve.org/CVERecord?id=CVE-2026-73071
+    PublishedDate: '2026-08-11T16:17:38.413Z'
+    LastModifiedDate: '2026-08-11T17:19:15.437Z'
+  - VulnerabilityID: CVE-2026-73072
+    PkgID: vim-runtime@2:9.1.2141-1ubuntu4.7
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.7?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: b876d7ab71a834bc
+    InstalledVersion: 2:9.1.2141-1ubuntu4.7
+    Status: affected
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73072
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:283365f4ec77f11a05782a1256bb3aeeaaaaa0fb495f2e0a6068b1241991685d
+    Title: 'vim: Vim: Heap buffer overflow allows arbitrary code execution'
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0846, set_sofo() in src/spellfile.c reuses sl_sal_first[] without resetting values left by set_sal_first(), so a crafted spell file containing an SN_SAL section before an SN_SOFO section causes under-counted mapping lists and attacker-influenced writes beyond a heap allocation. This issue is fixed in version 9.2.0846.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    - CWE-787
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-73072
+    - https://github.com/vim/vim/commit/05c41c922309c7a11b6ec2f124be66551c90d66a
+    - https://github.com/vim/vim/releases/tag/v9.2.0846
+    - https://github.com/vim/vim/security/advisories/GHSA-9jqx-hgpr-6v64
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-73072
+    - https://www.cve.org/CVERecord?id=CVE-2026-73072
+    PublishedDate: '2026-08-11T16:17:38.553Z'
+    LastModifiedDate: '2026-08-13T16:19:03.257Z'
+  - VulnerabilityID: CVE-2026-73074
+    PkgID: vim-runtime@2:9.1.2141-1ubuntu4.7
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.7?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: b876d7ab71a834bc
+    InstalledVersion: 2:9.1.2141-1ubuntu4.7
+    Status: affected
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73074
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:99b54db72a42f3bbe9709c60c0f6a883a6a9e711c25837928ac8eb00e8d1e7a9
+    Title: 'vim: Vim: Heap buffer overflow via integer wraparound in text property handling'
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0841, prop_add_one() in src/textprop.c uses the proplen value from get_text_props() to increment a uint16_t property count beyond 0xffff, wrapping the count to zero and copying existing text-property records into a heap allocation sized for none of them. This issue is fixed in version 9.2.0841.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-73074
+    - https://github.com/vim/vim/commit/a9336b476fd1a182e3f79b5f83c0ffb04f8a922b
+    - https://github.com/vim/vim/security/advisories/GHSA-hm4g-pjfx-m27j
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-73074
+    - https://www.cve.org/CVERecord?id=CVE-2026-73074
+    PublishedDate: '2026-08-11T16:17:38.697Z'
+    LastModifiedDate: '2026-08-12T23:17:23.217Z'
+  - VulnerabilityID: CVE-2026-73076
+    PkgID: vim-runtime@2:9.1.2141-1ubuntu4.7
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.7?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: b876d7ab71a834bc
+    InstalledVersion: 2:9.1.2141-1ubuntu4.7
+    Status: affected
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73076
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:0efc97f413f5702ee81bced1e4f9bde1f25566b29be35e8638009f44d455989e
+    Title: 'vim: Vim: Arbitrary command execution via crafted vimball'
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0847, runtime/autoload/vimball.vim allows a crafted vimball member named .VimballRecord to overwrite the installation record with attacker-chosen commands. When vimball#RmVimball() later processes the matching record entry, the stored Ex commands, including operating-system commands invoked through :!, execute with the privileges of the user running Vim. This issue is fixed in version 9.2.0847.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    - CWE-829
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-73076
+    - https://github.com/vim/vim/commit/581a2f3ac9c6f96a26324f6b2c8c11415fd0d452
+    - https://github.com/vim/vim/security/advisories/GHSA-r22p-fhw4-84p2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-73076
+    - https://www.cve.org/CVERecord?id=CVE-2026-73076
+    PublishedDate: '2026-08-11T16:17:38.98Z'
+    LastModifiedDate: '2026-08-11T16:17:38.98Z'
+  - VulnerabilityID: CVE-2026-73078
+    PkgID: vim-runtime@2:9.1.2141-1ubuntu4.7
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.7?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: b876d7ab71a834bc
+    InstalledVersion: 2:9.1.2141-1ubuntu4.7
+    Status: affected
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73078
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:0bd5769275dc021588252281b42c26f4c925e1ff798b31e5e09b2aebc1a852ec
+    Title: 'vim: Vim: Arbitrary Code Execution via Crafted Netrw Menu Entries'
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0840, runtime/plugin/netrwPlugin.vim loads netrw and runtime/pack/dist/opt/netrw/autoload/netrw.vim constructs Bookmarks, History, and Targets menu entries by interpolating attacker-controlled directory paths into executed :menu commands. s:NetrwBookmarkMenu(), s:NetrwTgtMenu(), g:netrw_menu_escape, EX_TRLBAR, and netrw#MakeTgt() fail to neutralize the | command separator or single quotes at five construction sites, allowing a crafted path browsed or bookmarked in GUI Vim to execute arbitrary Ex and operating-system commands. This issue is fixed in version 9.2.0840.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-77
+    - CWE-184
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 8.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-73078
+    - https://github.com/vim/vim/commit/29c6fd090d4520592f8be7d9ec81190edf25ef69
+    - https://github.com/vim/vim/security/advisories/GHSA-rcr7-f3wr-22r2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-73078
+    - https://www.cve.org/CVERecord?id=CVE-2026-73078
+    PublishedDate: '2026-08-11T16:17:39.573Z'
+    LastModifiedDate: '2026-08-11T17:19:15.6Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.25.0-2ubuntu4.3
     PkgName: wget
@@ -4398,6 +5198,201 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-51401
     PublishedDate: '2026-08-04T21:16:36.567Z'
     LastModifiedDate: '2026-08-05T20:17:09.31Z'
+  - VulnerabilityID: CVE-2026-73071
+    PkgID: xxd@2:9.1.2141-1ubuntu4.7
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.7?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 2c613ff4ce2c8406
+    InstalledVersion: 2:9.1.2141-1ubuntu4.7
+    Status: affected
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73071
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:990952cc8fd1d89011fc460eb11c69478703d073023bd7d3d6a2dfa073a5de4d
+    Title: 'vim: Vim: Denial of Service via Use-After-Free in JSON Decoding'
+    Description: Vim is an open source, command line text editor. From 9.2.0511 until 9.2.0844, json_decode_item() in src/json.c can retain a stale pointer after json_decode_string() invokes channel_fill() to refill and free the current buffer, causing the error path to read freed memory instead of reader->js_buf + reader->js_used when an invalid JSON string spans buffers. This issue is fixed in version 9.2.0844.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-73071
+    - https://github.com/vim/vim/commit/f8126294a526aa80c5123eb3079e325daee9ec75
+    - https://github.com/vim/vim/releases/tag/v9.2.0844
+    - https://github.com/vim/vim/security/advisories/GHSA-69ch-22ch-r887
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-73071
+    - https://www.cve.org/CVERecord?id=CVE-2026-73071
+    PublishedDate: '2026-08-11T16:17:38.413Z'
+    LastModifiedDate: '2026-08-11T17:19:15.437Z'
+  - VulnerabilityID: CVE-2026-73072
+    PkgID: xxd@2:9.1.2141-1ubuntu4.7
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.7?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 2c613ff4ce2c8406
+    InstalledVersion: 2:9.1.2141-1ubuntu4.7
+    Status: affected
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73072
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:928c1c5c8bda7064cfc3fd7ddefd8894de97e8fa83b42431b23e4037855cb7f8
+    Title: 'vim: Vim: Heap buffer overflow allows arbitrary code execution'
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0846, set_sofo() in src/spellfile.c reuses sl_sal_first[] without resetting values left by set_sal_first(), so a crafted spell file containing an SN_SAL section before an SN_SOFO section causes under-counted mapping lists and attacker-influenced writes beyond a heap allocation. This issue is fixed in version 9.2.0846.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    - CWE-787
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-73072
+    - https://github.com/vim/vim/commit/05c41c922309c7a11b6ec2f124be66551c90d66a
+    - https://github.com/vim/vim/releases/tag/v9.2.0846
+    - https://github.com/vim/vim/security/advisories/GHSA-9jqx-hgpr-6v64
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-73072
+    - https://www.cve.org/CVERecord?id=CVE-2026-73072
+    PublishedDate: '2026-08-11T16:17:38.553Z'
+    LastModifiedDate: '2026-08-13T16:19:03.257Z'
+  - VulnerabilityID: CVE-2026-73074
+    PkgID: xxd@2:9.1.2141-1ubuntu4.7
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.7?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 2c613ff4ce2c8406
+    InstalledVersion: 2:9.1.2141-1ubuntu4.7
+    Status: affected
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73074
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e43275fdc7801e85cce6600e27777a0b532a1691f59209c93b5cf8c859867ae7
+    Title: 'vim: Vim: Heap buffer overflow via integer wraparound in text property handling'
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0841, prop_add_one() in src/textprop.c uses the proplen value from get_text_props() to increment a uint16_t property count beyond 0xffff, wrapping the count to zero and copying existing text-property records into a heap allocation sized for none of them. This issue is fixed in version 9.2.0841.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-73074
+    - https://github.com/vim/vim/commit/a9336b476fd1a182e3f79b5f83c0ffb04f8a922b
+    - https://github.com/vim/vim/security/advisories/GHSA-hm4g-pjfx-m27j
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-73074
+    - https://www.cve.org/CVERecord?id=CVE-2026-73074
+    PublishedDate: '2026-08-11T16:17:38.697Z'
+    LastModifiedDate: '2026-08-12T23:17:23.217Z'
+  - VulnerabilityID: CVE-2026-73076
+    PkgID: xxd@2:9.1.2141-1ubuntu4.7
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.7?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 2c613ff4ce2c8406
+    InstalledVersion: 2:9.1.2141-1ubuntu4.7
+    Status: affected
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73076
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:6fffb157774a622b72009b96d815efb62ff8864264bbd4e928b3cdd596989dfa
+    Title: 'vim: Vim: Arbitrary command execution via crafted vimball'
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0847, runtime/autoload/vimball.vim allows a crafted vimball member named .VimballRecord to overwrite the installation record with attacker-chosen commands. When vimball#RmVimball() later processes the matching record entry, the stored Ex commands, including operating-system commands invoked through :!, execute with the privileges of the user running Vim. This issue is fixed in version 9.2.0847.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    - CWE-829
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-73076
+    - https://github.com/vim/vim/commit/581a2f3ac9c6f96a26324f6b2c8c11415fd0d452
+    - https://github.com/vim/vim/security/advisories/GHSA-r22p-fhw4-84p2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-73076
+    - https://www.cve.org/CVERecord?id=CVE-2026-73076
+    PublishedDate: '2026-08-11T16:17:38.98Z'
+    LastModifiedDate: '2026-08-11T16:17:38.98Z'
+  - VulnerabilityID: CVE-2026-73078
+    PkgID: xxd@2:9.1.2141-1ubuntu4.7
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.7?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 2c613ff4ce2c8406
+    InstalledVersion: 2:9.1.2141-1ubuntu4.7
+    Status: affected
+    Layer:
+      Digest: sha256:9d8ce3dce0d1ffeccc17a7f25b98f227d443146a19adda9f5bf06c920357f3f3
+      DiffID: sha256:b222079cdab36f20cf3c1809ea4330f44ead2940a1109471a0d185f91e29584b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-73078
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f522c32d9b56607d6082ffc51b8a04add981fa33a30b388af290736cb0690efa
+    Title: 'vim: Vim: Arbitrary Code Execution via Crafted Netrw Menu Entries'
+    Description: Vim is an open source, command line text editor. Prior to 9.2.0840, runtime/plugin/netrwPlugin.vim loads netrw and runtime/pack/dist/opt/netrw/autoload/netrw.vim constructs Bookmarks, History, and Targets menu entries by interpolating attacker-controlled directory paths into executed :menu commands. s:NetrwBookmarkMenu(), s:NetrwTgtMenu(), g:netrw_menu_escape, EX_TRLBAR, and netrw#MakeTgt() fail to neutralize the | command separator or single quotes at five construction sites, allowing a crafted path browsed or bookmarked in GUI Vim to execute arbitrary Ex and operating-system commands. This issue is fixed in version 9.2.0840.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-77
+    - CWE-184
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 8.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-73078
+    - https://github.com/vim/vim/commit/29c6fd090d4520592f8be7d9ec81190edf25ef69
+    - https://github.com/vim/vim/security/advisories/GHSA-rcr7-f3wr-22r2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-73078
+    - https://www.cve.org/CVERecord?id=CVE-2026-73078
+    PublishedDate: '2026-08-11T16:17:39.573Z'
+    LastModifiedDate: '2026-08-11T17:19:15.6Z'
   - VulnerabilityID: CVE-2026-27171
     PkgID: zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu3
     PkgName: zlib1g
@@ -4892,8 +5887,12 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      bitnami: 3
       redhat: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -5056,15 +6055,21 @@
     - https://access.redhat.com/errata/RHSA-2026:54435
     - https://access.redhat.com/errata/RHSA-2026:54441
     - https://access.redhat.com/errata/RHSA-2026:54531
+    - https://access.redhat.com/errata/RHSA-2026:54580
     - https://access.redhat.com/errata/RHSA-2026:54757
+    - https://access.redhat.com/errata/RHSA-2026:56143
+    - https://access.redhat.com/errata/RHSA-2026:56223
+    - https://access.redhat.com/errata/RHSA-2026:56340
+    - https://access.redhat.com/errata/RHSA-2026:56431
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
+    - https://bugzilla.redhat.com/2484207
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498152
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39821
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39822
-    - https://errata.almalinux.org/9/ALSA-2026-37435.html
+    - https://errata.almalinux.org/10/ALSA-2026-46395.html
     - https://errata.rockylinux.org/RLSA-2026:37435
     - https://github.com/golang/go/issues/78760
     - https://go.dev/cl/767220
@@ -5079,7 +6084,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-18T12:18:32.473Z'
+    LastModifiedDate: '2026-08-19T12:18:01.253Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -5151,8 +6156,12 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      bitnami: 3
       redhat: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -5192,8 +6201,12 @@
     CweIDs:
     - CWE-79
     VendorSeverity:
+      bitnami: 2
       redhat: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
         V3Score: 8.1
@@ -5233,8 +6246,12 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      bitnami: 3
       redhat: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -5274,8 +6291,12 @@
     CweIDs:
     - CWE-407
     VendorSeverity:
+      bitnami: 2
       redhat: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -5315,8 +6336,12 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      bitnami: 3
       redhat: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
