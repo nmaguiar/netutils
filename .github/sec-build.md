@@ -292,7 +292,7 @@
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-19617 
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-19617 
 │                       │       ├ PublishedDate   : 2026-08-14T06:17:14.41Z 
-│                       │       ╰ LastModifiedDate: 2026-08-25T15:44:34.69Z 
+│                       │       ╰ LastModifiedDate: 2026-08-26T14:17:08.9Z 
 │                       ├ [5]   ╭ VulnerabilityID : CVE-2026-56391 
 │                       │       ├ PkgID           : gnu-coreutils@9.7-3ubuntu2 
 │                       │       ├ PkgName         : gnu-coreutils 
@@ -333,11 +333,15 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
 │                       │       ├ VendorSeverity   ╭ julia : 2 
+│                       │       │                  ├ nvd   : 2 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ julia  ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:A/VC:L
 │                       │       │                  │        │            /VI:N/VA:L/SC:N/SI:N/SA:N 
 │                       │       │                  │        ╰ V40Score : 4.6 
+│                       │       │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                  │        │           N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.1 
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 6.1 
@@ -353,7 +357,7 @@
 │                       │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/07/2
 │                       │       │                         5/2 
 │                       │       ├ PublishedDate   : 2026-07-24T09:16:25.003Z 
-│                       │       ╰ LastModifiedDate: 2026-07-30T16:28:33.633Z 
+│                       │       ╰ LastModifiedDate: 2026-08-26T13:52:50.66Z 
 │                       ├ [6]   ╭ VulnerabilityID : CVE-2024-52949 
 │                       │       ├ PkgID           : iptraf-ng@1:1.2.2-1 
 │                       │       ├ PkgName         : iptraf-ng 
@@ -465,8 +469,8 @@
 │                       │       │                  ├ [6] : https://creativecommons.org/licenses/by/4.0/ 
 │                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-10846 
-│                       │       │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2026-49836.html 
-│                       │       │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:50108 
+│                       │       │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-50108.html 
+│                       │       │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:49836 
 │                       │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2026-10846.html 
 │                       │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2026-50108-0.html 
 │                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-10846 
@@ -520,33 +524,34 @@
 │                       │       │                           ╰ V3Score : 6.3 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:34889 
 │                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:56133 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-54371 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2490283 
-│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2490283 
-│                       │       │                  ├ [5] : https://cgit.git.savannah.nongnu.org/cgit/attr.git/c
+│                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:59380 
+│                       │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-54371 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/2490283 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2490283 
+│                       │       │                  ├ [6] : https://cgit.git.savannah.nongnu.org/cgit/attr.git/c
 │                       │       │                  │       ommit/?id=49f79e947270f06940b9100fa638f85dddc4aa7f[
 │                       │       │                  │       m 
-│                       │       │                  ├ [6] : https://cgit.git.savannah.nongnu.org/cgit/attr.git/c
+│                       │       │                  ├ [7] : https://cgit.git.savannah.nongnu.org/cgit/attr.git/c
 │                       │       │                  │       ommit/?id=c440855d6b33446edf4b5eb1a2d892281f15a99b[
 │                       │       │                  │       m 
-│                       │       │                  ├ [7] : https://creativecommons.org/licenses/by/4.0/ 
-│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  ├ [8] : https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-54371 
-│                       │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2026-56133.html 
-│                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:56133 
-│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2026-54371.html 
-│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2026-56133.html 
-│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-54371 
-│                       │       │                  ├ [14]: https://security.access.redhat.com/data/csaf/v2/vex/
+│                       │       │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2026-56133.html 
+│                       │       │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:56133 
+│                       │       │                  ├ [12]: https://linux.oracle.com/cve/CVE-2026-54371.html 
+│                       │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-59380.html 
+│                       │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2026-54371 
+│                       │       │                  ├ [15]: https://security.access.redhat.com/data/csaf/v2/vex/
 │                       │       │                  │       2026/cve-2026-54371.json 
-│                       │       │                  ├ [15]: https://www.cve.org/CVERecord?id=CVE-2026-54371 
-│                       │       │                  ├ [16]: https://www.openwall.com/lists/oss-security/2026/06/
+│                       │       │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2026-54371 
+│                       │       │                  ├ [17]: https://www.openwall.com/lists/oss-security/2026/06/
 │                       │       │                  │       29/1 
-│                       │       │                  ╰ [17]: https://www.vulncheck.com/advisories/attr-symlink-tr
+│                       │       │                  ╰ [18]: https://www.vulncheck.com/advisories/attr-symlink-tr
 │                       │       │                          aversal-privilege-escalation-via-getfattr-setfattr[
 │                       │       │                          m 
 │                       │       ├ PublishedDate   : 2026-06-29T14:16:57.823Z 
-│                       │       ╰ LastModifiedDate: 2026-08-24T13:19:12.583Z 
+│                       │       ╰ LastModifiedDate: 2026-08-26T13:19:15.67Z 
 │                       ├ [9]   ╭ VulnerabilityID : CVE-2025-59529 
 │                       │       ├ PkgID           : libavahi-client3@0.8-18ubuntu1.1 
 │                       │       ├ PkgName         : libavahi-client3 
@@ -1142,7 +1147,7 @@
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-19617 
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-19617 
 │                       │       ├ PublishedDate   : 2026-08-14T06:17:14.41Z 
-│                       │       ╰ LastModifiedDate: 2026-08-25T15:44:34.69Z 
+│                       │       ╰ LastModifiedDate: 2026-08-26T14:17:08.9Z 
 │                       ├ [19]  ╭ VulnerabilityID : CVE-2025-1352 
 │                       │       ├ PkgID           : libelf1t64@0.194-4 
 │                       │       ├ PkgName         : libelf1t64 
@@ -2088,8 +2093,8 @@
 │                       │       │                  ├ [6] : https://creativecommons.org/licenses/by/4.0/ 
 │                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-10846 
-│                       │       │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2026-49836.html 
-│                       │       │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:50108 
+│                       │       │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-50108.html 
+│                       │       │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:49836 
 │                       │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2026-10846.html 
 │                       │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2026-50108-0.html 
 │                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-10846 
@@ -2324,8 +2329,8 @@
 │                       │       │                  ├ [11]: https://creativecommons.org/licenses/by/4.0/ 
 │                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-13757 
-│                       │       │                  ├ [13]: https://errata.almalinux.org/10/ALSA-2026-49668.html 
-│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2026:49667 
+│                       │       │                  ├ [13]: https://errata.almalinux.org/9/ALSA-2026-49667.html 
+│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2026:49668 
 │                       │       │                  ├ [15]: https://github.com/advisories/GHSA-p2wm-69qx-x25w 
 │                       │       │                  ├ [16]: https://linux.oracle.com/cve/CVE-2026-13757.html 
 │                       │       │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2026-49668.html 
@@ -2937,7 +2942,905 @@
 │                       │       │                          59849.txt 
 │                       │       ├ PublishedDate   : 2026-07-21T15:16:37.647Z 
 │                       │       ╰ LastModifiedDate: 2026-08-19T05:17:05.21Z 
-│                       ├ [41]  ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [41]  ╭ VulnerabilityID : CVE-2026-14456 
+│                       │       ├ PkgID           : libssl3t64@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : libssl3t64 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.5-1ubuntu3.3?arch=amd6
+│                       │       │                  │       4&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 644b35a23c374d86 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-14456 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:00d6232e5a7aab1355b3b93ce3b4b757cd7fbc81d46a0e53470e
+│                       │       │                   99725b6d8322 
+│                       │       ├ Title           : openssl: OpenSSL: Denial of Service via unbounded memory
+│                       │       │                   growth in QUIC server 
+│                       │       ├ Description     : Issue summary: When an OpenSSL QUIC server (Listener SSL
+│                       │       │                   object) processes
+│                       │       │                   valid QUIC Initial packets for unknown destination
+│                       │       │                   connection IDs, it
+│                       │       │                   can allocate and queue new incoming channels without
+│                       │       │                   enforcing any limit.
+│                       │       │                   
+│                       │       │                   Impact summary: A remote peer that can make many Initial
+│                       │       │                   packets reach the
+│                       │       │                   server listener faster than the application accepts
+│                       │       │                   connections, can cause the
+│                       │       │                   memory allocated to store the per-channel state to grow
+│                       │       │                   without any limits,
+│                       │       │                   potentially making the QUIC listener unavailable and
+│                       │       │                   causing Denial of Service.
+│                       │       │                   CWE: CWE-770: Allocation of Resources Without Limits or
+│                       │       │                   Throttling
+│                       │       │                   Description: The function that handles inbound QUIC packets
+│                       │       │                    uses
+│                       │       │                   Connection-Id from the packet header to find an existing
+│                       │       │                   connection
+│                       │       │                   (QUIC channel). If no existing connection is found and the
+│                       │       │                   packet
+│                       │       │                   type is INITIAL, the function treats the packet as a new
+│                       │       │                   connection. It
+│                       │       │                   allocates a new channel object and inserts it into a queue
+│                       │       │                   where it
+│                       │       │                   waits to be accepted by the local application with
+│                       │       │                   SSL_accept(3ossl).
+│                       │       │                   The memory occupied by these initial channel objects may
+│                       │       │                   grow
+│                       │       │                   without bounds if the application is not able to call
+│                       │       │                   SSL_accept()
+│                       │       │                   frequently enough to serve these inbound connection
+│                       │       │                   requests.
+│                       │       │                   The issue is present since OpenSSL 3.5 when the QUIC server
+│                       │       │                    implementation
+│                       │       │                   was added.
+│                       │       │                   The fix introduces a limit for pending connections. The
+│                       │       │                   default limit is set
+│                       │       │                   to 256 pending connections (waiting to be accepted by the
+│                       │       │                   local application).
+│                       │       │                   Applications may change the default by calling
+│                       │       │                   SSL_set_value_uint(3ossl).
+│                       │       │                   FIPS impact: no
+│                       │       │                   The FIPS module is not affected as the QUIC implementation
+│                       │       │                   is outside of
+│                       │       │                   the OpenSSL FIPS module boundary. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-770 
+│                       │       ├ VendorSeverity   ╭ photon: 3 
+│                       │       │                  ├ redhat: 3 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/08/13/4 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-14456 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/08e7756c390
+│                       │       │                  │      0bcfd77a720e7b74e27d6e4ed01a9 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/4084152e040
+│                       │       │                  │      329ca0194c4c1750b9b46d00a5b6b 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/f2f1465f2d2
+│                       │       │                  │      e5c61dfeac4d20fd093797d821139 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-14456 
+│                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260813.txt 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-14456 
+│                       │       ├ PublishedDate   : 2026-08-13T15:19:31.82Z 
+│                       │       ╰ LastModifiedDate: 2026-08-13T18:17:18.367Z 
+│                       ├ [42]  ╭ VulnerabilityID : CVE-2026-18798 
+│                       │       ├ PkgID           : libssl3t64@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : libssl3t64 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.5-1ubuntu3.3?arch=amd6
+│                       │       │                  │       4&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 644b35a23c374d86 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-18798 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:acee28e9c47a4df89c7461b9a534d98c6c956c88faa8fd65b649
+│                       │       │                   ec5144bc93d5 
+│                       │       ├ Title           : openssl: QUIC server may trigger double free when
+│                       │       │                   processing INITIAL packet 
+│                       │       ├ Description     : Issue summary: QUIC server may double free QRX (QUIC record
+│                       │       │                    layer RX) object
+│                       │       │                   when channel creation fails for initial packet.
+│                       │       │                   
+│                       │       │                   Impact summary: Double free leads to heap corruption, which
+│                       │       │                    typically results in 
+│                       │       │                   termination of QUIC server process, leading to Denial of
+│                       │       │                   Service. There is so
+│                       │       │                   far no evidence that this double free is exploitable for
+│                       │       │                   remote code execution,
+│                       │       │                   thus it is considered highly improbable.
+│                       │       │                   CWE: CWE-415: Double Free
+│                       │       │                   Description: In order to validate initial packet, OpenSSL
+│                       │       │                   QUIC stack default
+│                       │       │                   packet handler (port_default_packet_handler()) creates a
+│                       │       │                   so-called QRX object.
+│                       │       │                   If the initial packet validates successfully with QRX
+│                       │       │                   object, the default packet
+│                       │       │                   handler proceeds to channel (connection object) creation.
+│                       │       │                   The QRX object used
+│                       │       │                   for packet validation is passed to port_bind_channel(), so
+│                       │       │                   it becomes part of
+│                       │       │                   the newly created connection. If port_bind_channel() fails,
+│                       │       │                    then it also frees
+│                       │       │                   the QRX object. Once port_bind_channel() returns, the
+│                       │       │                   port_default_packet_handler()
+│                       │       │                   detects the failure and proceeds to the error branch, where
+│                       │       │                    the same QRX object is
+│                       │       │                   freed for the second time.
+│                       │       │                   The failure in port_bind_channel() function can be induced
+│                       │       │                   with a relatively
+│                       │       │                   low effort by a malformed (non RFC 9000 compliant) INITIAL
+│                       │       │                   packet. If the packet
+│                       │       │                   carries DCID (destination connection ID) which is shorter
+│                       │       │                   than 8 bytes, then
+│                       │       │                   port_bind_channel() jumps to the error path after
+│                       │       │                   ossl_quic_lcidm_enrol_odcid()
+│                       │       │                   detects that the DCID has invalid length.
+│                       │       │                   FIPS impact: no
+│                       │       │                   The FIPS module is not affected, as the QUIC implementation
+│                       │       │                    is outside of
+│                       │       │                   the OpenSSL FIPS module boundary. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-415 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-18798 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/70cebd74d35
+│                       │       │                  │      92f5272945501b58a60374c4e13af 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/967582d5037
+│                       │       │                  │      f01a26b6d19beae19af62a1b15c3c 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/a14a1deac40
+│                       │       │                  │      3522fbeafabcb198503cf6caa7dc4 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-18798 
+│                       │       │                  ├ [5]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-18798 
+│                       │       ├ PublishedDate   : 2026-08-25T13:17:49.813Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T15:16:31.207Z 
+│                       ├ [43]  ╭ VulnerabilityID : CVE-2026-63072 
+│                       │       ├ PkgID           : libssl3t64@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : libssl3t64 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.5-1ubuntu3.3?arch=amd6
+│                       │       │                  │       4&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 644b35a23c374d86 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-63072 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:9a2736c36a3a1e4c7fcf3378dba1e641e8c7ac4c1ccafd3fe848
+│                       │       │                   cab1b558311d 
+│                       │       ├ Title           : openssl: heap buffer overflow in CMS key unwrapping 
+│                       │       ├ Description     : Issue summary: OpenSSL CMS decryption sizes the key-unwrap
+│                       │       │                   output buffer based
+│                       │       │                   on querying the unwrapped key size, but the AES-WRAP-PAD
+│                       │       │                   unwrap primitive
+│                       │       │                   can write and cleanse more bytes than that query reports,
+│                       │       │                   causing an 8-byte
+│                       │       │                   out-of-bounds heap write.
+│                       │       │                   
+│                       │       │                   Impact summary: An attacker who supplies a crafted CMS
+│                       │       │                   message can trigger a
+│                       │       │                   deterministic 8-byte out-of-bounds heap write when the
+│                       │       │                   victim decrypts it
+│                       │       │                   with CMS_decrypt(), corrupting the heap and typically
+│                       │       │                   resulting in a Denial
+│                       │       │                   of Service.
+│                       │       │                   CWE: CWE-787: Out-of-bounds Write
+│                       │       │                   Description: The key-wrap OID is potentially
+│                       │       │                   attacker-controlled on the wire.
+│                       │       │                   CMS unwrapping allows both id-aesNNN-wrap-pad and
+│                       │       │                   id-aesNNN-wrap ciphers.
+│                       │       │                   An attacker can take a legitimate message and change a
+│                       │       │                   single OID byte to
+│                       │       │                   select the padded variant while leaving the message
+│                       │       │                   otherwise valid. Since
+│                       │       │                   the unwrap key is derived from the recipient's private
+│                       │       │                   operation (ECDH key
+│                       │       │                   agreement or ML-KEM decapsulation), the RFC 5649 integrity
+│                       │       │                   check cannot
+│                       │       │                   pass, and the decryption fails with integrity failure.
+│                       │       │                   The write is a fixed-size (8-byte), fixed-value (zero) heap
+│                       │       │                    overflow
+│                       │       │                   immediately past the allocation, requires no special
+│                       │       │                   configuration, and is
+│                       │       │                   reachable from the public CMS_decrypt() function. The
+│                       │       │                   consequence is
+│                       │       │                   a heap corruption leading to a Denial of Service. The fix
+│                       │       │                   in the CMS code
+│                       │       │                   sizes the unwrap output buffer for the worst case so a
+│                       │       │                   failed unwrap cannot
+│                       │       │                   write past the allocation.
+│                       │       │                   FIPS impact: no
+│                       │       │                   As the CMS code lives outside the FIPS module boundary, no
+│                       │       │                   FIPS
+│                       │       │                   modules are affected by this CVE. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-63072 
+│                       │       │                  ├ [1] : https://github.com/openssl/openssl/commit/2a3dac874c
+│                       │       │                  │       8057c1f0186849bf1ede1ae7b6b756 
+│                       │       │                  ├ [2] : https://github.com/openssl/openssl/commit/87784ad619
+│                       │       │                  │       af36b8807c2044b3940006fccc1e42 
+│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/9530a5fd1a
+│                       │       │                  │       acaeccdced4478ea2340a480613335 
+│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/9ec2f6d2ae
+│                       │       │                  │       2bcad907cf7ee38584855bafe4979a 
+│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/a0c8ec557d
+│                       │       │                  │       9cac078f032d76cdf684fe743eb382 
+│                       │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-63072 
+│                       │       │                  ├ [7] : https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-8678-2 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-63072 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:26.01Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T15:16:36.06Z 
+│                       ├ [44]  ╭ VulnerabilityID : CVE-2026-63076 
+│                       │       ├ PkgID           : libssl3t64@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : libssl3t64 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.5-1ubuntu3.3?arch=amd6
+│                       │       │                  │       4&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 644b35a23c374d86 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-63076 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:15bf30b653e772192feb99710c6b8037bf4b4b7933b2080c5d91
+│                       │       │                   6e42edace695 
+│                       │       ├ Title           : openssl: invalid pointer dereference in CMP server via
+│                       │       │                   crafted protectionAlg 
+│                       │       ├ Description     : Issue summary: OpenSSL CMP password based protection
+│                       │       │                   verification only
+│                       │       │                   checks whether the protectionAlg parameter was not NULL and
+│                       │       │                    not its
+│                       │       │                   ASN.1 type, before treating it as a PBMParameter. A crafted
+│                       │       │                    message can
+│                       │       │                   contain a parameter of a different type, which is then
+│                       │       │                   dereferenced as an
+│                       │       │                   invalid pointer.
+│                       │       │                   
+│                       │       │                   Impact summary: A remote, unauthenticated attacker can
+│                       │       │                   crash an application
+│                       │       │                   acting as a CMP server that accepts PBM-protected messages,
+│                       │       │                    or a CMP client
+│                       │       │                   talking to a malicious or intercepted CMP server, resulting
+│                       │       │                    in a Denial of
+│                       │       │                   Service.
+│                       │       │                   CWE: CWE-476: NULL Pointer Dereference
+│                       │       │                   Description: When verifying the password-based MAC
+│                       │       │                   protection of a CMP
+│                       │       │                   message, OpenSSL library reads the protectionAlg algorithm
+│                       │       │                   parameter with
+│                       │       │                   X509_ALGOR_get0(), which returns both the parameter type
+│                       │       │                   and its value
+│                       │       │                   pointer. The value is then cast to an ASN1_STRING and
+│                       │       │                   treated as the
+│                       │       │                   expected PBMParameter after only checking that pointer is
+│                       │       │                   not NULL. The
+│                       │       │                   parameter type returned by X509_ALGOR_get0() was never
+│                       │       │                   consulted.
+│                       │       │                   This happens during protection verification, before any MAC
+│                       │       │                    is computed, so
+│                       │       │                   no knowledge of the PBM shared secret is required; the only
+│                       │       │                    precondition is
+│                       │       │                   that PBM verification is reachable. On the server side this
+│                       │       │                    is reached from
+│                       │       │                   OSSL_CMP_SRV_process_request() for any application that
+│                       │       │                   stands up a CMP
+│                       │       │                   server accepting PBM-protected messages, and on the client
+│                       │       │                   side from CMP
+│                       │       │                   response validation against a malicious or on-path (MITM)
+│                       │       │                   server. The
+│                       │       │                   reliable consequence is a denial of service; there is no
+│                       │       │                   memory disclosure,
+│                       │       │                   no controlled memory write, and no path to code execution.
+│                       │       │                   CMP is a
+│                       │       │                   specialized feature that an application must explicitly
+│                       │       │                   enable.
+│                       │       │                   FIPS impact: no
+│                       │       │                   As the CMP code lives outside the FIPS module boundary, no
+│                       │       │                   FIPS modules
+│                       │       │                   are affected by this CVE. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-476 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-63076 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/37882aa2e02
+│                       │       │                  │      56e1072442a8f62f7db45b995c45b 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/a17cc8d612e
+│                       │       │                  │      cff6d94a9b7ca8b5283ddf5ff570e 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/a1f348ccb32
+│                       │       │                  │      8c3afbd4ba6883f9b7c813c043259 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/a7af46a92d0
+│                       │       │                  │      ce19a90e669ef56d2576a07924226 
+│                       │       │                  ├ [5]: https://github.com/openssl/openssl/commit/cdacfff5573
+│                       │       │                  │      89abfa9e4615abded2ec984517d6c 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-63076 
+│                       │       │                  ├ [7]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-63076 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:26.543Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T15:16:36.593Z 
+│                       ├ [45]  ╭ VulnerabilityID : CVE-2026-14457 
+│                       │       ├ PkgID           : libssl3t64@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : libssl3t64 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.5-1ubuntu3.3?arch=amd6
+│                       │       │                  │       4&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 644b35a23c374d86 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-14457 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:d7d07c35bdadee54c18435729450df2d508405eed47e6800e93d
+│                       │       │                   77cbfaa7f261 
+│                       │       ├ Title           : openssl: RPK server signature algorithm selection can
+│                       │       │                   dereference a missing certificate 
+│                       │       ├ Description     : Issue summary: In a server or client configuration with
+│                       │       │                   RFC7250 Raw Public Keys (RPKs)
+│                       │       │                   enabled, and only the private key (with no associated
+│                       │       │                   certificate) configured locally,
+│                       │       │                   a NULL pointer dereference may occur when the remote peer
+│                       │       │                   solicits raw public keys and
+│                       │       │                   also sends the typically omitted
+│                       │       │                   "signature_algorithms_cert" TLS extension.
+│                       │       │                   
+│                       │       │                   Impact summary: The impact is limited to a possible Denial
+│                       │       │                   of Service as a result of
+│                       │       │                   an application abort, no data disclosure or remote command
+│                       │       │                   execution are possible.
+│                       │       │                   CWE: CWE-476: NULL Pointer Dereference
+│                       │       │                   Description: While a passing comment in sample code in the
+│                       │       │                   documentation suggests
+│                       │       │                   that key-only RPK configurations are supported, the
+│                       │       │                   best-practice RPK configuration
+│                       │       │                   is to always configure a corresponding certificate
+│                       │       │                   (possibly self-signed or
+│                       │       │                   signed by any convenient CA).
+│                       │       │                   When the private key is configured along with a matching
+│                       │       │                   certificate, the
+│                       │       │                   "signature_algorithms_cert" extension is handled reliably
+│                       │       │                   even without the
+│                       │       │                   fix, and peer clients or servers that don't support raw
+│                       │       │                   public keys may be
+│                       │       │                   able to complete a TLS connection by pinning or verifying
+│                       │       │                   the corresponding
+│                       │       │                   certificate or its public key.
+│                       │       │                   Deployments that prefer to configure just a private key
+│                       │       │                   with no certificate
+│                       │       │                   need to upgrade to an updated release as noted below.
+│                       │       │                   FIPS impact: no
+│                       │       │                   No FIPS modules are affected by this issue, as the SSL
+│                       │       │                   protocol implementation
+│                       │       │                   is outside the OpenSSL FIPS module boundary. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-476 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-14457 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/1e8c398db67
+│                       │       │                  │      404babd3e5af999bb6bd86f720c76 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/581aaa0f0a3
+│                       │       │                  │      5d214740f0fe1f5283ec41f1212e1 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/d0af2047868
+│                       │       │                  │      8a6aa2f59d61caa3f82136b181d7f 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/dad836b071d
+│                       │       │                  │      a6579510c968615848ba03cac593b 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-14457 
+│                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-14457 
+│                       │       ├ PublishedDate   : 2026-08-25T13:17:49.533Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T14:16:49.727Z 
+│                       ├ [46]  ╭ VulnerabilityID : CVE-2026-54874 
+│                       │       ├ PkgID           : libssl3t64@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : libssl3t64 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.5-1ubuntu3.3?arch=amd6
+│                       │       │                  │       4&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 644b35a23c374d86 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54874 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:defc058485967444333cc86579d440b018c095f100044d588772
+│                       │       │                   eea7d25883f2 
+│                       │       ├ Title           : openssl: excessive memory use buffering DTLS records for a
+│                       │       │                   future epoch 
+│                       │       ├ Description     : Issue summary: Receiving a DTLS record for a future epoch
+│                       │       │                   while a handshake
+│                       │       │                   is in progress causes OpenSSL to buffer far more memory
+│                       │       │                   than the record
+│                       │       │                   itself requires.
+│                       │       │                   
+│                       │       │                   Impact summary: A peer can use a small amount of network
+│                       │       │                   traffic to make an
+│                       │       │                   OpenSSL DTLS endpoint retain a disproportionately large
+│                       │       │                   amount of memory,
+│                       │       │                   which may lead to a Denial of Service.
+│                       │       │                   CWE: CWE-405: Asymmetric Resource Consumption
+│                       │       │                   (Amplification)
+│                       │       │                   Description: While a DTLS handshake is in progress, a peer
+│                       │       │                   may legitimately
+│                       │       │                   have already moved on to the next epoch (for example,
+│                       │       │                   having sent its
+│                       │       │                   ChangeCipherSpec and Finished messages) before the local
+│                       │       │                   endpoint has
+│                       │       │                   processed the same transition, typically because of
+│                       │       │                   reordering on the
+│                       │       │                   underlying UDP transport. OpenSSL buffers such early
+│                       │       │                   records so that they
+│                       │       │                   can be processed once the local endpoint catches up.
+│                       │       │                   Buffering a record currently retains the entire read buffer
+│                       │       │                    it arrived in,
+│                       │       │                   which is sized to hold the largest possible DTLS record
+│                       │       │                   (around 16
+│                       │       │                   kilobytes), rather than just the bytes that make up the
+│                       │       │                   record itself. Up
+│                       │       │                   to 100 such records may be buffered per connection. As a
+│                       │       │                   result, a peer
+│                       │       │                   that sends a stream of small forged records claiming to
+│                       │       │                   belong to the next
+│                       │       │                   epoch can cause an OpenSSL DTLS endpoint to retain around
+│                       │       │                   1.7 megabytes of
+│                       │       │                   memory, despite sending only a small fraction of that
+│                       │       │                   amount of data over
+│                       │       │                   the network.
+│                       │       │                   An attacker therefore gains a memory amplification factor
+│                       │       │                   of around 1200,
+│                       │       │                   and can multiply the effect across as many associations as
+│                       │       │                   it is able to
+│                       │       │                   open, making this a remote memory exhaustion Denial of
+│                       │       │                   Service risk for
+│                       │       │                   DTLS servers. Since the memory retained per connection
+│                       │       │                   remains bounded,
+│                       │       │                   and any limit an application already places on the number
+│                       │       │                   of concurrent
+│                       │       │                   associations also bounds the total exposure, this issue has
+│                       │       │                    been assessed
+│                       │       │                   as Low severity.
+│                       │       │                   FIPS impact: no
+│                       │       │                   No FIPS modules are affected by this issue as the affected
+│                       │       │                   code is outside
+│                       │       │                   the OpenSSL FIPS module boundary.
+│                       │       │                   OpenSSL 4.0, 3.6, 3.5, 3.4, 3.0, 1.1.1 and 1.0.2 are
+│                       │       │                   vulnerable to this
+│                       │       │                   issue.
+│                       │       │                   OpenSSL 4.0 users should upgrade to OpenSSL 4.0.2.
+│                       │       │                   OpenSSL 3.6 users should upgrade to OpenSSL 3.6.4.
+│                       │       │                   OpenSSL 3.5 users should upgrade to OpenSSL 3.5.8.
+│                       │       │                   OpenSSL 3.4 users should upgrade to OpenSSL 3.4.7.
+│                       │       │                   OpenSSL 3.0 users should upgrade to OpenSSL 3.0.22.
+│                       │       │                   Premium support customers only:
+│                       │       │                   OpenSSL 1.1.1 users should upgrade to OpenSSL 1.1.1zi
+│                       │       │                   OpenSSL 1.0.2 users should upgrade to OpenSSL 1.0.2zr
+│                       │       │                   This issue was reported on 18 May 2026 by Amazon Web
+│                       │       │                   Services.
+│                       │       │                   The fix has been developed by Matt Caswell.
+│                       │       │                   -- cut (non-publishing metadata for internal use) --
+│                       │       │                   Reported by: Amazon Web Services
+│                       │       │                   Fixed by: Matt Caswell 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-405 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-54874 
+│                       │       │                  ├ [1] : https://github.com/openssl/openssl/commit/4808b5d641
+│                       │       │                  │       76451f3d93d87d0ac9c81a9b13fb23 
+│                       │       │                  ├ [2] : https://github.com/openssl/openssl/commit/7110cb2f75
+│                       │       │                  │       806d0bf809eb2f90790d477900be40 
+│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/a0c8ec557d
+│                       │       │                  │       9cac078f032d76cdf684fe743eb382 
+│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/cc0c671091
+│                       │       │                  │       7cd5eec001b297355d2ba723505107 
+│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/f52ffc11b9
+│                       │       │                  │       0737ac89083909618dc2e1f42c561c 
+│                       │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-54874 
+│                       │       │                  ├ [7] : https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-8678-2 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-54874 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:24.033Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T15:16:33.097Z 
+│                       ├ [47]  ╭ VulnerabilityID : CVE-2026-63073 
+│                       │       ├ PkgID           : libssl3t64@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : libssl3t64 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.5-1ubuntu3.3?arch=amd6
+│                       │       │                  │       4&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 644b35a23c374d86 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-63073 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:ba805d8d30445ffcc0d0e6aaa5ac64c130013ee3006ef6e25ea6
+│                       │       │                   11361fb5d155 
+│                       │       ├ Title           : openssl: untrusted sender DN used as format string in CMP
+│                       │       │                   response validation 
+│                       │       ├ Description     : Issue summary: OpenSSL CMP response validation passed an
+│                       │       │                   unexpected response
+│                       │       │                   sender distinguished name directly as the format string to
+│                       │       │                   `ERR_raise_data()`.
+│                       │       │                   
+│                       │       │                   Impact summary: A malicious or intercepted CMP endpoint can
+│                       │       │                    crash a CMP client
+│                       │       │                   that enforces an expected sender or uses a pinned server
+│                       │       │                   certificate whose
+│                       │       │                   subject becomes the default expected sender.
+│                       │       │                   CWE: CWE-134 (Use of Externally-Controlled Format String)
+│                       │       │                   Description: When validating a received CMP message,
+│                       │       │                   ossl_cmp_msg_check_update()
+│                       │       │                   converts the peer-supplied sender distinguished name with
+│                       │       │                   X509_NAME_oneline()
+│                       │       │                   and passes it directly as the format argument to
+│                       │       │                   ERR_raise_data(). Percent
+│                       │       │                   characters survive the conversion, so a sender DN such as
+│                       │       │                   "CN=%s%n" reaches
+│                       │       │                   BIO_vsnprintf() as an attacker-controlled format string
+│                       │       │                   with no matching variadic
+│                       │       │                   arguments. This path is only reached when the caller
+│                       │       │                   configures an expected
+│                       │       │                   sender or pins a server certificate, which is the normal
+│                       │       │                   configuration for a
+│                       │       │                   CMP client validating server responses.
+│                       │       │                   Since the attacker controls the format string but none of
+│                       │       │                   the variadic
+│                       │       │                   arguments, such specifiers as %s and %n dereference or
+│                       │       │                   write through unrelated
+│                       │       │                   stack contents and crash the client. The reliable
+│                       │       │                   consequence is a denial of
+│                       │       │                   service, when the response comes from a malicious or
+│                       │       │                   intercepted CMP endpoint.
+│                       │       │                   There is no controlled memory write, arbitrary-address
+│                       │       │                   read, or reliable path
+│                       │       │                   to remote code execution.
+│                       │       │                   FIPS impact: no
+│                       │       │                   No FIPS modules are affected by this issue, as the CMP
+│                       │       │                   protocol
+│                       │       │                   implementation is outside the OpenSSL FIPS module
+│                       │       │                   boundary. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-134 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 5.9 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-63073 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/0cc20b32263
+│                       │       │                  │      9919aa423e90799d9a57c3b4b76ca 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/6a0acc072b4
+│                       │       │                  │      d37a7cac1252a29c1ce1f00c5ec29 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/7eb2e3ec9d1
+│                       │       │                  │      d4f35c8022fccd4b03398b3f33e21 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/a7e5a6eea8f
+│                       │       │                  │      d3ccca6b6fbba031a5fbf8a3d93b4 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-63073 
+│                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-63073 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:26.147Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T13:19:26.147Z 
+│                       ├ [48]  ╭ VulnerabilityID : CVE-2026-63074 
+│                       │       ├ PkgID           : libssl3t64@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : libssl3t64 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.5-1ubuntu3.3?arch=amd6
+│                       │       │                  │       4&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 644b35a23c374d86 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-63074 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:6d8147e1913047ae9d81602b3779782080f11e9849d8fa4dd6f9
+│                       │       │                   c4b40ff06be1 
+│                       │       ├ Title           : openssl: CMP indefinite cache growth of ExtraCerts 
+│                       │       ├ Description     : Issue summary: The OpenSSL Certificate Management Protocol
+│                       │       │                   (CMP) caches
+│                       │       │                   additional certificates (extraCerts) sent in a CMP message,
+│                       │       │                    but never expunges
+│                       │       │                   them (for instance if they are invalid).  If a server
+│                       │       │                   reuses an OSSL_CMP_CTX
+│                       │       │                   frequently, this cache of extraCerts may grow unboundedly,
+│                       │       │                   and a malicious
+│                       │       │                   client may flood a CMP server with requests driving this
+│                       │       │                   growth.
+│                       │       │                   
+│                       │       │                   Impact summary: Users utilizing a CMP server that reuses a
+│                       │       │                   single OSSL_CMP_CTX
+│                       │       │                   for the lifetime of a server process may observe unbounded
+│                       │       │                   memory growth in the
+│                       │       │                   event a malicious client repeatedly sends requests
+│                       │       │                   containing unique extra
+│                       │       │                   certificates, which may lead to OOM conditions.
+│                       │       │                   CWE: CWE-770: Allocation of Resources Without Limits or
+│                       │       │                   Throttling
+│                       │       │                   Description: If a remote user sends CMP messages to a
+│                       │       │                   server with a list of
+│                       │       │                   extraCerts and the message is rejected, the extraCerts from
+│                       │       │                    the message remains
+│                       │       │                   in the server contexts untrusted certificate stack.  This
+│                       │       │                   exposes servers with
+│                       │       │                   long lived ctx objects to Denial of Service attacks in
+│                       │       │                   which an attacker sends
+│                       │       │                   messages intending to be rejected with a large list of
+│                       │       │                   additional certificates
+│                       │       │                   repeatedly, forcing the server to store them indefinitely.
+│                       │       │                      
+│                       │       │                   The issue was fixed by removing the added extra certs if
+│                       │       │                   the message is
+│                       │       │                   rejected, using the same method as when the context is
+│                       │       │                   configured to not do
+│                       │       │                   caching at all.
+│                       │       │                   FIPS impact: no
+│                       │       │                   As the CMP code lives outside the FIPS module boundary, no
+│                       │       │                   FIPS
+│                       │       │                   modules are affected by this CVE. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-770 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-63074 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/01e567978a5
+│                       │       │                  │      5fba18142a230380c31296049fae7 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/21a5d9658b0
+│                       │       │                  │      c66daace60e10ea18ff32a448de9f 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/74ae7f6df47
+│                       │       │                  │      a5767c1010b88c47507dfc5b32c46 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/75360af9650
+│                       │       │                  │      d4e0c82ba0050c5c9912cd79e54af 
+│                       │       │                  ├ [5]: https://github.com/openssl/openssl/commit/f636f9ca0fa
+│                       │       │                  │      1bae5b42f9e787f025c96fb09c43a 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-63074 
+│                       │       │                  ├ [7]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-63074 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:26.283Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T15:16:36.243Z 
+│                       ├ [49]  ╭ VulnerabilityID : CVE-2026-63075 
+│                       │       ├ PkgID           : libssl3t64@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : libssl3t64 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.5-1ubuntu3.3?arch=amd6
+│                       │       │                  │       4&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 644b35a23c374d86 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-63075 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:dee6ad6c2bf70f68680e982e10cc5187b0ba3c270588a1d3ddb1
+│                       │       │                   a9e35e9feed0 
+│                       │       ├ Title           : openssl: QUIC ACK-only packet retention can cause memory
+│                       │       │                   exhaustion 
+│                       │       ├ Description     : Issue summary: When OpenSSL processes QUIC traffic from a
+│                       │       │                   peer that repeatedly
+│                       │       │                   sends ack-eliciting packets while not acknowledging
+│                       │       │                   ACK-only responses, the
+│                       │       │                   QUIC stack can retain ACK-only packet metadata for the
+│                       │       │                   lifetime of the
+│                       │       │                   connection.
+│                       │       │                   
+│                       │       │                   Impact summary: A remote peer that can complete a QUIC
+│                       │       │                   handshake can
+│                       │       │                   cause connection-scoped memory growth which may lead to
+│                       │       │                   Denial of Service
+│                       │       │                   through memory exhaustion, especially with sustained
+│                       │       │                   traffic or many concurrent
+│                       │       │                   QUIC connections.
+│                       │       │                   CWE: CWE-770: Allocation of Resources Without Limits or
+│                       │       │                   Throttling
+│                       │       │                   Description: When the OpenSSL QUIC stack sends an ACK-only
+│                       │       │                   packet,
+│                       │       │                   there is no requirement by the QUIC protocol that the peer
+│                       │       │                   will acknowledge
+│                       │       │                   that ACK-only packet (i.e. it is itself not ack-eliciting).
+│                       │       │                    However, the OpenSSL
+│                       │       │                   implementation stores the metadata about the ACK frames
+│                       │       │                   regardless.
+│                       │       │                   In and of itself that's ok, but if a malicious peer
+│                       │       │                   establishes a connection, and
+│                       │       │                   then drives the connection such that ACK-only packets are
+│                       │       │                   forced from the 
+│                       │       │                   OpenSSL implementation peer (i.e., by sending numerous PING
+│                       │       │                    frames),
+│                       │       │                   and then withholding any subsequent acks for ack-eliciting
+│                       │       │                   data, like
+│                       │       │                   legitimate data, said malicious peer can force
+│                       │       │                   inappropriate memory growth
+│                       │       │                   on the OpenSSL peer, potentially leading to a Denial of
+│                       │       │                   Service.
+│                       │       │                   The fix is to ensure that we account for the transmission
+│                       │       │                   of the ACK-only
+│                       │       │                   packet in the packet histories high and low watermark
+│                       │       │                   without actually storing
+│                       │       │                   the ACK-only packet metadata itself.
+│                       │       │                   FIPS impact: no
+│                       │       │                   The OpenSSL FIPS module is not affected as the QUIC code
+│                       │       │                   is
+│                       │       │                   outside the FIPS module boundary. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-770 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-63075 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/7308946576b
+│                       │       │                  │      12e64b8be53bcf0a120354b2b42bc 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/7c98d797385
+│                       │       │                  │      49df92868e7dd9be4bbf061eed709 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/bf84721c254
+│                       │       │                  │      8351176e367e6de505792f0118dc6 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/c902e5f16d6
+│                       │       │                  │      a9e130e96d3ca6d8f64d71652e393 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-63075 
+│                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-63075 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:26.413Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T15:16:36.417Z 
+│                       ├ [50]  ╭ VulnerabilityID : CVE-2026-75803 
+│                       │       ├ PkgID           : libssl3t64@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : libssl3t64 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.5-1ubuntu3.3?arch=amd6
+│                       │       │                  │       4&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 644b35a23c374d86 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-75803 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:2a63fda86061305654ad18d10ee8a8f84397ed93081605d26b39
+│                       │       │                   2511fb76a663 
+│                       │       ├ Title           : Issue summary: ChaCha20-Poly1305 and AES-OCB decryption
+│                       │       │                   with an empty  ... 
+│                       │       ├ Description     : Issue summary: ChaCha20-Poly1305 and AES-OCB decryption
+│                       │       │                   with an empty
+│                       │       │                   ciphertext can report success without verifying the
+│                       │       │                   supplied authentication
+│                       │       │                   tag when the operation is finalized by calling the
+│                       │       │                   EVP_Cipher() function.
+│                       │       │                   
+│                       │       │                   Impact summary: Applications calling EVP_Cipher() on an
+│                       │       │                   empty ciphertext and
+│                       │       │                   expecting the call to check the AEAD tag may accept forged
+│                       │       │                   messages.
+│                       │       │                   CWE: CWE-354 (Improper Validation of Integrity Check
+│                       │       │                   Value)
+│                       │       │                   Description: The EVP_Cipher() API call for AEAD ciphers
+│                       │       │                   behaves like a one
+│                       │       │                   shot encryption and decryption call. It also verifies the
+│                       │       │                   AEAD tag after the
+│                       │       │                   decryption operation. However for AES-OCB and
+│                       │       │                   ChaCha20-Poly1305 ciphers
+│                       │       │                   it skipped the AEAD tag verification when an empty
+│                       │       │                   ciphertext was passed to
+│                       │       │                   the function. The callers of this function might believe
+│                       │       │                   that a successful
+│                       │       │                   return indicates a valid AEAD tag for these ciphers, even
+│                       │       │                   when that has not
+│                       │       │                   truly been validated in this case.
+│                       │       │                   FIPS impact: no
+│                       │       │                   The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are not
+│                       │       │                   affected by this CVE
+│                       │       │                   as the affected algorithms are not FIPS approved and thus
+│                       │       │                   not implemented
+│                       │       │                   in the FIPS module. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-354 
+│                       │       ├ VendorSeverity   ─ ubuntu: 1 
+│                       │       ├ References       ╭ [0]: https://github.com/openssl/openssl/commit/119ab9555dc
+│                       │       │                  │      62275bbd71f6f49529b1a44feba42 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/3621257986e
+│                       │       │                  │      27e540bf96a11570929a6e5a9e05b 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/6c7aa6f8f64
+│                       │       │                  │      49b7fe0137ee8be65fcd239bd7d6a 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/bdeb0cd994d
+│                       │       │                  │      915342787f117ee75044f0dc36f34 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/bf95f5f772e
+│                       │       │                  │      9362f87b25cfa2f8cb15d984865b9 
+│                       │       │                  ├ [5]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-75803 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:29.57Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T13:19:29.57Z 
+│                       ├ [51]  ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : libsystemd-shared@259.5-0ubuntu3.4 
 │                       │       ├ PkgName         : libsystemd-shared 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd-shared@259.5-0ubuntu3.4?ar
@@ -2981,7 +3884,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                       ├ [42]  ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [52]  ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : libsystemd0@259.5-0ubuntu3.4 
 │                       │       ├ PkgName         : libsystemd0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd0@259.5-0ubuntu3.4?arch=amd
@@ -3025,7 +3928,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                       ├ [43]  ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [53]  ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : libudev1@259.5-0ubuntu3.4 
 │                       │       ├ PkgName         : libudev1 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libudev1@259.5-0ubuntu3.4?arch=amd64&
@@ -3069,7 +3972,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                       ├ [44]  ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [54]  ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : libuuid1@2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : libuuid1 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libuuid1@2.41.3-3ubuntu2?arch=amd64&d
@@ -3143,7 +4046,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T22:10:00.14Z 
-│                       ├ [45]  ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [55]  ╭ VulnerabilityID : CVE-2026-3184 
 │                       │       ├ PkgID           : libuuid1@2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : libuuid1 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libuuid1@2.41.3-3ubuntu2?arch=amd64&d
@@ -3193,7 +4096,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │       ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │       ╰ LastModifiedDate: 2026-08-21T13:17:47.457Z 
-│                       ├ [46]  ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [56]  ╭ VulnerabilityID : CVE-2021-39920 
 │                       │       ├ PkgID           : libwireshark-data@4.6.4-1 
 │                       │       ├ PkgName         : libwireshark-data 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark-data@4.6.4-1?arch=all&di
@@ -3250,7 +4153,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T04:04:25.67Z 
-│                       ├ [47]  ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [57]  ╭ VulnerabilityID : CVE-2021-39920 
 │                       │       ├ PkgID           : libwireshark19@4.6.4-1 
 │                       │       ├ PkgName         : libwireshark19 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwireshark19@4.6.4-1?arch=amd64&dis
@@ -3307,7 +4210,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T04:04:25.67Z 
-│                       ├ [48]  ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [58]  ╭ VulnerabilityID : CVE-2021-39920 
 │                       │       ├ PkgID           : libwiretap16@4.6.4-1 
 │                       │       ├ PkgName         : libwiretap16 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwiretap16@4.6.4-1?arch=amd64&distr
@@ -3364,7 +4267,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T04:04:25.67Z 
-│                       ├ [49]  ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [59]  ╭ VulnerabilityID : CVE-2021-39920 
 │                       │       ├ PkgID           : libwsutil17@4.6.4-1 
 │                       │       ├ PkgName         : libwsutil17 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libwsutil17@4.6.4-1?arch=amd64&distro
@@ -3421,7 +4324,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T04:04:25.67Z 
-│                       ├ [50]  ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [60]  ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : login@1:4.16.0-2+really2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : login 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.16.0-2%2Breally2.41.3-3ubuntu
@@ -3495,7 +4398,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T22:10:00.14Z 
-│                       ├ [51]  ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [61]  ╭ VulnerabilityID : CVE-2026-3184 
 │                       │       ├ PkgID           : login@1:4.16.0-2+really2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : login 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.16.0-2%2Breally2.41.3-3ubuntu
@@ -3545,7 +4448,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │       ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │       ╰ LastModifiedDate: 2026-08-21T13:17:47.457Z 
-│                       ├ [52]  ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [62]  ╭ VulnerabilityID : CVE-2024-56433 
 │                       │       ├ PkgID           : login.defs@1:4.17.4-2ubuntu3 
 │                       │       ├ PkgName         : login.defs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.17.4-2ubuntu3?arch=all&d
@@ -3588,28 +4491,29 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 3.6 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20559 
-│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56433 
-│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2334165 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2334165 
-│                       │       │                  ├ [4] : https://creativecommons.org/licenses/by/4.0/ 
-│                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20145 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:20559 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-56433 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2334165 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2334165 
+│                       │       │                  ├ [5] : https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-56433 
-│                       │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │       │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:20559 
-│                       │       │                  ├ [8] : https://github.com/shadow-maint/shadow/blob/e2512d57
+│                       │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
+│                       │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2025:20145 
+│                       │       │                  ├ [9] : https://github.com/shadow-maint/shadow/blob/e2512d57
 │                       │       │                  │       41d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238
 │                       │       │                  │       -L241 
-│                       │       │                  ├ [9] : https://github.com/shadow-maint/shadow/issues/1157 
-│                       │       │                  ├ [10]: https://github.com/shadow-maint/shadow/releases/tag/
+│                       │       │                  ├ [10]: https://github.com/shadow-maint/shadow/issues/1157 
+│                       │       │                  ├ [11]: https://github.com/shadow-maint/shadow/releases/tag/
 │                       │       │                  │       4.4 
-│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-56433.html 
-│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-20559-0.html 
-│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
-│                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
+│                       │       │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-56433.html 
+│                       │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-20559-0.html 
+│                       │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
+│                       │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:12:10.903Z 
-│                       ├ [53]  ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [63]  ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : mount@2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : mount 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/mount@2.41.3-3ubuntu2?arch=amd64&dist
@@ -3683,7 +4587,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T22:10:00.14Z 
-│                       ├ [54]  ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [64]  ╭ VulnerabilityID : CVE-2026-3184 
 │                       │       ├ PkgID           : mount@2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : mount 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/mount@2.41.3-3ubuntu2?arch=amd64&dist
@@ -3733,7 +4637,1803 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │       ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │       ╰ LastModifiedDate: 2026-08-21T13:17:47.457Z 
-│                       ├ [55]  ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [65]  ╭ VulnerabilityID : CVE-2026-14456 
+│                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : openssl 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3.3?arch=amd64&d
+│                       │       │                  │       istro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 25612e3c0a66b920 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-14456 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:fa0b376d4c78bdb047fbe7e03a70769c13864ada28225c19c92c
+│                       │       │                   000309d2913a 
+│                       │       ├ Title           : openssl: OpenSSL: Denial of Service via unbounded memory
+│                       │       │                   growth in QUIC server 
+│                       │       ├ Description     : Issue summary: When an OpenSSL QUIC server (Listener SSL
+│                       │       │                   object) processes
+│                       │       │                   valid QUIC Initial packets for unknown destination
+│                       │       │                   connection IDs, it
+│                       │       │                   can allocate and queue new incoming channels without
+│                       │       │                   enforcing any limit.
+│                       │       │                   
+│                       │       │                   Impact summary: A remote peer that can make many Initial
+│                       │       │                   packets reach the
+│                       │       │                   server listener faster than the application accepts
+│                       │       │                   connections, can cause the
+│                       │       │                   memory allocated to store the per-channel state to grow
+│                       │       │                   without any limits,
+│                       │       │                   potentially making the QUIC listener unavailable and
+│                       │       │                   causing Denial of Service.
+│                       │       │                   CWE: CWE-770: Allocation of Resources Without Limits or
+│                       │       │                   Throttling
+│                       │       │                   Description: The function that handles inbound QUIC packets
+│                       │       │                    uses
+│                       │       │                   Connection-Id from the packet header to find an existing
+│                       │       │                   connection
+│                       │       │                   (QUIC channel). If no existing connection is found and the
+│                       │       │                   packet
+│                       │       │                   type is INITIAL, the function treats the packet as a new
+│                       │       │                   connection. It
+│                       │       │                   allocates a new channel object and inserts it into a queue
+│                       │       │                   where it
+│                       │       │                   waits to be accepted by the local application with
+│                       │       │                   SSL_accept(3ossl).
+│                       │       │                   The memory occupied by these initial channel objects may
+│                       │       │                   grow
+│                       │       │                   without bounds if the application is not able to call
+│                       │       │                   SSL_accept()
+│                       │       │                   frequently enough to serve these inbound connection
+│                       │       │                   requests.
+│                       │       │                   The issue is present since OpenSSL 3.5 when the QUIC server
+│                       │       │                    implementation
+│                       │       │                   was added.
+│                       │       │                   The fix introduces a limit for pending connections. The
+│                       │       │                   default limit is set
+│                       │       │                   to 256 pending connections (waiting to be accepted by the
+│                       │       │                   local application).
+│                       │       │                   Applications may change the default by calling
+│                       │       │                   SSL_set_value_uint(3ossl).
+│                       │       │                   FIPS impact: no
+│                       │       │                   The FIPS module is not affected as the QUIC implementation
+│                       │       │                   is outside of
+│                       │       │                   the OpenSSL FIPS module boundary. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-770 
+│                       │       ├ VendorSeverity   ╭ photon: 3 
+│                       │       │                  ├ redhat: 3 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/08/13/4 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-14456 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/08e7756c390
+│                       │       │                  │      0bcfd77a720e7b74e27d6e4ed01a9 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/4084152e040
+│                       │       │                  │      329ca0194c4c1750b9b46d00a5b6b 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/f2f1465f2d2
+│                       │       │                  │      e5c61dfeac4d20fd093797d821139 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-14456 
+│                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260813.txt 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-14456 
+│                       │       ├ PublishedDate   : 2026-08-13T15:19:31.82Z 
+│                       │       ╰ LastModifiedDate: 2026-08-13T18:17:18.367Z 
+│                       ├ [66]  ╭ VulnerabilityID : CVE-2026-18798 
+│                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : openssl 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3.3?arch=amd64&d
+│                       │       │                  │       istro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 25612e3c0a66b920 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-18798 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:e87da3184400386270fecb6a898f597491a88ca9a95744bbf2ef
+│                       │       │                   6b0aa98c0155 
+│                       │       ├ Title           : openssl: QUIC server may trigger double free when
+│                       │       │                   processing INITIAL packet 
+│                       │       ├ Description     : Issue summary: QUIC server may double free QRX (QUIC record
+│                       │       │                    layer RX) object
+│                       │       │                   when channel creation fails for initial packet.
+│                       │       │                   
+│                       │       │                   Impact summary: Double free leads to heap corruption, which
+│                       │       │                    typically results in 
+│                       │       │                   termination of QUIC server process, leading to Denial of
+│                       │       │                   Service. There is so
+│                       │       │                   far no evidence that this double free is exploitable for
+│                       │       │                   remote code execution,
+│                       │       │                   thus it is considered highly improbable.
+│                       │       │                   CWE: CWE-415: Double Free
+│                       │       │                   Description: In order to validate initial packet, OpenSSL
+│                       │       │                   QUIC stack default
+│                       │       │                   packet handler (port_default_packet_handler()) creates a
+│                       │       │                   so-called QRX object.
+│                       │       │                   If the initial packet validates successfully with QRX
+│                       │       │                   object, the default packet
+│                       │       │                   handler proceeds to channel (connection object) creation.
+│                       │       │                   The QRX object used
+│                       │       │                   for packet validation is passed to port_bind_channel(), so
+│                       │       │                   it becomes part of
+│                       │       │                   the newly created connection. If port_bind_channel() fails,
+│                       │       │                    then it also frees
+│                       │       │                   the QRX object. Once port_bind_channel() returns, the
+│                       │       │                   port_default_packet_handler()
+│                       │       │                   detects the failure and proceeds to the error branch, where
+│                       │       │                    the same QRX object is
+│                       │       │                   freed for the second time.
+│                       │       │                   The failure in port_bind_channel() function can be induced
+│                       │       │                   with a relatively
+│                       │       │                   low effort by a malformed (non RFC 9000 compliant) INITIAL
+│                       │       │                   packet. If the packet
+│                       │       │                   carries DCID (destination connection ID) which is shorter
+│                       │       │                   than 8 bytes, then
+│                       │       │                   port_bind_channel() jumps to the error path after
+│                       │       │                   ossl_quic_lcidm_enrol_odcid()
+│                       │       │                   detects that the DCID has invalid length.
+│                       │       │                   FIPS impact: no
+│                       │       │                   The FIPS module is not affected, as the QUIC implementation
+│                       │       │                    is outside of
+│                       │       │                   the OpenSSL FIPS module boundary. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-415 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-18798 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/70cebd74d35
+│                       │       │                  │      92f5272945501b58a60374c4e13af 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/967582d5037
+│                       │       │                  │      f01a26b6d19beae19af62a1b15c3c 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/a14a1deac40
+│                       │       │                  │      3522fbeafabcb198503cf6caa7dc4 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-18798 
+│                       │       │                  ├ [5]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-18798 
+│                       │       ├ PublishedDate   : 2026-08-25T13:17:49.813Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T15:16:31.207Z 
+│                       ├ [67]  ╭ VulnerabilityID : CVE-2026-63072 
+│                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : openssl 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3.3?arch=amd64&d
+│                       │       │                  │       istro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 25612e3c0a66b920 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-63072 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:9e2676e043bd6af06b419460cbb47bbcb87c96de91eaa472bbb9
+│                       │       │                   e9095840c0ad 
+│                       │       ├ Title           : openssl: heap buffer overflow in CMS key unwrapping 
+│                       │       ├ Description     : Issue summary: OpenSSL CMS decryption sizes the key-unwrap
+│                       │       │                   output buffer based
+│                       │       │                   on querying the unwrapped key size, but the AES-WRAP-PAD
+│                       │       │                   unwrap primitive
+│                       │       │                   can write and cleanse more bytes than that query reports,
+│                       │       │                   causing an 8-byte
+│                       │       │                   out-of-bounds heap write.
+│                       │       │                   
+│                       │       │                   Impact summary: An attacker who supplies a crafted CMS
+│                       │       │                   message can trigger a
+│                       │       │                   deterministic 8-byte out-of-bounds heap write when the
+│                       │       │                   victim decrypts it
+│                       │       │                   with CMS_decrypt(), corrupting the heap and typically
+│                       │       │                   resulting in a Denial
+│                       │       │                   of Service.
+│                       │       │                   CWE: CWE-787: Out-of-bounds Write
+│                       │       │                   Description: The key-wrap OID is potentially
+│                       │       │                   attacker-controlled on the wire.
+│                       │       │                   CMS unwrapping allows both id-aesNNN-wrap-pad and
+│                       │       │                   id-aesNNN-wrap ciphers.
+│                       │       │                   An attacker can take a legitimate message and change a
+│                       │       │                   single OID byte to
+│                       │       │                   select the padded variant while leaving the message
+│                       │       │                   otherwise valid. Since
+│                       │       │                   the unwrap key is derived from the recipient's private
+│                       │       │                   operation (ECDH key
+│                       │       │                   agreement or ML-KEM decapsulation), the RFC 5649 integrity
+│                       │       │                   check cannot
+│                       │       │                   pass, and the decryption fails with integrity failure.
+│                       │       │                   The write is a fixed-size (8-byte), fixed-value (zero) heap
+│                       │       │                    overflow
+│                       │       │                   immediately past the allocation, requires no special
+│                       │       │                   configuration, and is
+│                       │       │                   reachable from the public CMS_decrypt() function. The
+│                       │       │                   consequence is
+│                       │       │                   a heap corruption leading to a Denial of Service. The fix
+│                       │       │                   in the CMS code
+│                       │       │                   sizes the unwrap output buffer for the worst case so a
+│                       │       │                   failed unwrap cannot
+│                       │       │                   write past the allocation.
+│                       │       │                   FIPS impact: no
+│                       │       │                   As the CMS code lives outside the FIPS module boundary, no
+│                       │       │                   FIPS
+│                       │       │                   modules are affected by this CVE. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-63072 
+│                       │       │                  ├ [1] : https://github.com/openssl/openssl/commit/2a3dac874c
+│                       │       │                  │       8057c1f0186849bf1ede1ae7b6b756 
+│                       │       │                  ├ [2] : https://github.com/openssl/openssl/commit/87784ad619
+│                       │       │                  │       af36b8807c2044b3940006fccc1e42 
+│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/9530a5fd1a
+│                       │       │                  │       acaeccdced4478ea2340a480613335 
+│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/9ec2f6d2ae
+│                       │       │                  │       2bcad907cf7ee38584855bafe4979a 
+│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/a0c8ec557d
+│                       │       │                  │       9cac078f032d76cdf684fe743eb382 
+│                       │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-63072 
+│                       │       │                  ├ [7] : https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-8678-2 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-63072 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:26.01Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T15:16:36.06Z 
+│                       ├ [68]  ╭ VulnerabilityID : CVE-2026-63076 
+│                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : openssl 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3.3?arch=amd64&d
+│                       │       │                  │       istro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 25612e3c0a66b920 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-63076 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:46ff3528840cac4ade6816a8219d385d188835445bead26048bc
+│                       │       │                   3f08bff3f6b4 
+│                       │       ├ Title           : openssl: invalid pointer dereference in CMP server via
+│                       │       │                   crafted protectionAlg 
+│                       │       ├ Description     : Issue summary: OpenSSL CMP password based protection
+│                       │       │                   verification only
+│                       │       │                   checks whether the protectionAlg parameter was not NULL and
+│                       │       │                    not its
+│                       │       │                   ASN.1 type, before treating it as a PBMParameter. A crafted
+│                       │       │                    message can
+│                       │       │                   contain a parameter of a different type, which is then
+│                       │       │                   dereferenced as an
+│                       │       │                   invalid pointer.
+│                       │       │                   
+│                       │       │                   Impact summary: A remote, unauthenticated attacker can
+│                       │       │                   crash an application
+│                       │       │                   acting as a CMP server that accepts PBM-protected messages,
+│                       │       │                    or a CMP client
+│                       │       │                   talking to a malicious or intercepted CMP server, resulting
+│                       │       │                    in a Denial of
+│                       │       │                   Service.
+│                       │       │                   CWE: CWE-476: NULL Pointer Dereference
+│                       │       │                   Description: When verifying the password-based MAC
+│                       │       │                   protection of a CMP
+│                       │       │                   message, OpenSSL library reads the protectionAlg algorithm
+│                       │       │                   parameter with
+│                       │       │                   X509_ALGOR_get0(), which returns both the parameter type
+│                       │       │                   and its value
+│                       │       │                   pointer. The value is then cast to an ASN1_STRING and
+│                       │       │                   treated as the
+│                       │       │                   expected PBMParameter after only checking that pointer is
+│                       │       │                   not NULL. The
+│                       │       │                   parameter type returned by X509_ALGOR_get0() was never
+│                       │       │                   consulted.
+│                       │       │                   This happens during protection verification, before any MAC
+│                       │       │                    is computed, so
+│                       │       │                   no knowledge of the PBM shared secret is required; the only
+│                       │       │                    precondition is
+│                       │       │                   that PBM verification is reachable. On the server side this
+│                       │       │                    is reached from
+│                       │       │                   OSSL_CMP_SRV_process_request() for any application that
+│                       │       │                   stands up a CMP
+│                       │       │                   server accepting PBM-protected messages, and on the client
+│                       │       │                   side from CMP
+│                       │       │                   response validation against a malicious or on-path (MITM)
+│                       │       │                   server. The
+│                       │       │                   reliable consequence is a denial of service; there is no
+│                       │       │                   memory disclosure,
+│                       │       │                   no controlled memory write, and no path to code execution.
+│                       │       │                   CMP is a
+│                       │       │                   specialized feature that an application must explicitly
+│                       │       │                   enable.
+│                       │       │                   FIPS impact: no
+│                       │       │                   As the CMP code lives outside the FIPS module boundary, no
+│                       │       │                   FIPS modules
+│                       │       │                   are affected by this CVE. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-476 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-63076 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/37882aa2e02
+│                       │       │                  │      56e1072442a8f62f7db45b995c45b 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/a17cc8d612e
+│                       │       │                  │      cff6d94a9b7ca8b5283ddf5ff570e 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/a1f348ccb32
+│                       │       │                  │      8c3afbd4ba6883f9b7c813c043259 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/a7af46a92d0
+│                       │       │                  │      ce19a90e669ef56d2576a07924226 
+│                       │       │                  ├ [5]: https://github.com/openssl/openssl/commit/cdacfff5573
+│                       │       │                  │      89abfa9e4615abded2ec984517d6c 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-63076 
+│                       │       │                  ├ [7]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-63076 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:26.543Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T15:16:36.593Z 
+│                       ├ [69]  ╭ VulnerabilityID : CVE-2026-14457 
+│                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : openssl 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3.3?arch=amd64&d
+│                       │       │                  │       istro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 25612e3c0a66b920 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-14457 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:915cc088b7d6e5bcfd17b5a6fb1a0210d5ec6513e8736bcd779b
+│                       │       │                   f46b0c10aff2 
+│                       │       ├ Title           : openssl: RPK server signature algorithm selection can
+│                       │       │                   dereference a missing certificate 
+│                       │       ├ Description     : Issue summary: In a server or client configuration with
+│                       │       │                   RFC7250 Raw Public Keys (RPKs)
+│                       │       │                   enabled, and only the private key (with no associated
+│                       │       │                   certificate) configured locally,
+│                       │       │                   a NULL pointer dereference may occur when the remote peer
+│                       │       │                   solicits raw public keys and
+│                       │       │                   also sends the typically omitted
+│                       │       │                   "signature_algorithms_cert" TLS extension.
+│                       │       │                   
+│                       │       │                   Impact summary: The impact is limited to a possible Denial
+│                       │       │                   of Service as a result of
+│                       │       │                   an application abort, no data disclosure or remote command
+│                       │       │                   execution are possible.
+│                       │       │                   CWE: CWE-476: NULL Pointer Dereference
+│                       │       │                   Description: While a passing comment in sample code in the
+│                       │       │                   documentation suggests
+│                       │       │                   that key-only RPK configurations are supported, the
+│                       │       │                   best-practice RPK configuration
+│                       │       │                   is to always configure a corresponding certificate
+│                       │       │                   (possibly self-signed or
+│                       │       │                   signed by any convenient CA).
+│                       │       │                   When the private key is configured along with a matching
+│                       │       │                   certificate, the
+│                       │       │                   "signature_algorithms_cert" extension is handled reliably
+│                       │       │                   even without the
+│                       │       │                   fix, and peer clients or servers that don't support raw
+│                       │       │                   public keys may be
+│                       │       │                   able to complete a TLS connection by pinning or verifying
+│                       │       │                   the corresponding
+│                       │       │                   certificate or its public key.
+│                       │       │                   Deployments that prefer to configure just a private key
+│                       │       │                   with no certificate
+│                       │       │                   need to upgrade to an updated release as noted below.
+│                       │       │                   FIPS impact: no
+│                       │       │                   No FIPS modules are affected by this issue, as the SSL
+│                       │       │                   protocol implementation
+│                       │       │                   is outside the OpenSSL FIPS module boundary. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-476 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-14457 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/1e8c398db67
+│                       │       │                  │      404babd3e5af999bb6bd86f720c76 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/581aaa0f0a3
+│                       │       │                  │      5d214740f0fe1f5283ec41f1212e1 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/d0af2047868
+│                       │       │                  │      8a6aa2f59d61caa3f82136b181d7f 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/dad836b071d
+│                       │       │                  │      a6579510c968615848ba03cac593b 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-14457 
+│                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-14457 
+│                       │       ├ PublishedDate   : 2026-08-25T13:17:49.533Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T14:16:49.727Z 
+│                       ├ [70]  ╭ VulnerabilityID : CVE-2026-54874 
+│                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : openssl 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3.3?arch=amd64&d
+│                       │       │                  │       istro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 25612e3c0a66b920 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54874 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:eab766887b7eb3ab880f58fc0b136f9c98cf8c499189e80eb72f
+│                       │       │                   90119c1bc13f 
+│                       │       ├ Title           : openssl: excessive memory use buffering DTLS records for a
+│                       │       │                   future epoch 
+│                       │       ├ Description     : Issue summary: Receiving a DTLS record for a future epoch
+│                       │       │                   while a handshake
+│                       │       │                   is in progress causes OpenSSL to buffer far more memory
+│                       │       │                   than the record
+│                       │       │                   itself requires.
+│                       │       │                   
+│                       │       │                   Impact summary: A peer can use a small amount of network
+│                       │       │                   traffic to make an
+│                       │       │                   OpenSSL DTLS endpoint retain a disproportionately large
+│                       │       │                   amount of memory,
+│                       │       │                   which may lead to a Denial of Service.
+│                       │       │                   CWE: CWE-405: Asymmetric Resource Consumption
+│                       │       │                   (Amplification)
+│                       │       │                   Description: While a DTLS handshake is in progress, a peer
+│                       │       │                   may legitimately
+│                       │       │                   have already moved on to the next epoch (for example,
+│                       │       │                   having sent its
+│                       │       │                   ChangeCipherSpec and Finished messages) before the local
+│                       │       │                   endpoint has
+│                       │       │                   processed the same transition, typically because of
+│                       │       │                   reordering on the
+│                       │       │                   underlying UDP transport. OpenSSL buffers such early
+│                       │       │                   records so that they
+│                       │       │                   can be processed once the local endpoint catches up.
+│                       │       │                   Buffering a record currently retains the entire read buffer
+│                       │       │                    it arrived in,
+│                       │       │                   which is sized to hold the largest possible DTLS record
+│                       │       │                   (around 16
+│                       │       │                   kilobytes), rather than just the bytes that make up the
+│                       │       │                   record itself. Up
+│                       │       │                   to 100 such records may be buffered per connection. As a
+│                       │       │                   result, a peer
+│                       │       │                   that sends a stream of small forged records claiming to
+│                       │       │                   belong to the next
+│                       │       │                   epoch can cause an OpenSSL DTLS endpoint to retain around
+│                       │       │                   1.7 megabytes of
+│                       │       │                   memory, despite sending only a small fraction of that
+│                       │       │                   amount of data over
+│                       │       │                   the network.
+│                       │       │                   An attacker therefore gains a memory amplification factor
+│                       │       │                   of around 1200,
+│                       │       │                   and can multiply the effect across as many associations as
+│                       │       │                   it is able to
+│                       │       │                   open, making this a remote memory exhaustion Denial of
+│                       │       │                   Service risk for
+│                       │       │                   DTLS servers. Since the memory retained per connection
+│                       │       │                   remains bounded,
+│                       │       │                   and any limit an application already places on the number
+│                       │       │                   of concurrent
+│                       │       │                   associations also bounds the total exposure, this issue has
+│                       │       │                    been assessed
+│                       │       │                   as Low severity.
+│                       │       │                   FIPS impact: no
+│                       │       │                   No FIPS modules are affected by this issue as the affected
+│                       │       │                   code is outside
+│                       │       │                   the OpenSSL FIPS module boundary.
+│                       │       │                   OpenSSL 4.0, 3.6, 3.5, 3.4, 3.0, 1.1.1 and 1.0.2 are
+│                       │       │                   vulnerable to this
+│                       │       │                   issue.
+│                       │       │                   OpenSSL 4.0 users should upgrade to OpenSSL 4.0.2.
+│                       │       │                   OpenSSL 3.6 users should upgrade to OpenSSL 3.6.4.
+│                       │       │                   OpenSSL 3.5 users should upgrade to OpenSSL 3.5.8.
+│                       │       │                   OpenSSL 3.4 users should upgrade to OpenSSL 3.4.7.
+│                       │       │                   OpenSSL 3.0 users should upgrade to OpenSSL 3.0.22.
+│                       │       │                   Premium support customers only:
+│                       │       │                   OpenSSL 1.1.1 users should upgrade to OpenSSL 1.1.1zi
+│                       │       │                   OpenSSL 1.0.2 users should upgrade to OpenSSL 1.0.2zr
+│                       │       │                   This issue was reported on 18 May 2026 by Amazon Web
+│                       │       │                   Services.
+│                       │       │                   The fix has been developed by Matt Caswell.
+│                       │       │                   -- cut (non-publishing metadata for internal use) --
+│                       │       │                   Reported by: Amazon Web Services
+│                       │       │                   Fixed by: Matt Caswell 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-405 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-54874 
+│                       │       │                  ├ [1] : https://github.com/openssl/openssl/commit/4808b5d641
+│                       │       │                  │       76451f3d93d87d0ac9c81a9b13fb23 
+│                       │       │                  ├ [2] : https://github.com/openssl/openssl/commit/7110cb2f75
+│                       │       │                  │       806d0bf809eb2f90790d477900be40 
+│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/a0c8ec557d
+│                       │       │                  │       9cac078f032d76cdf684fe743eb382 
+│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/cc0c671091
+│                       │       │                  │       7cd5eec001b297355d2ba723505107 
+│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/f52ffc11b9
+│                       │       │                  │       0737ac89083909618dc2e1f42c561c 
+│                       │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-54874 
+│                       │       │                  ├ [7] : https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-8678-2 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-54874 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:24.033Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T15:16:33.097Z 
+│                       ├ [71]  ╭ VulnerabilityID : CVE-2026-63073 
+│                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : openssl 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3.3?arch=amd64&d
+│                       │       │                  │       istro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 25612e3c0a66b920 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-63073 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:72444acc52d082dfdfcfe43653d72af9fddf4b1097d63c1d52fa
+│                       │       │                   d805bf6c884c 
+│                       │       ├ Title           : openssl: untrusted sender DN used as format string in CMP
+│                       │       │                   response validation 
+│                       │       ├ Description     : Issue summary: OpenSSL CMP response validation passed an
+│                       │       │                   unexpected response
+│                       │       │                   sender distinguished name directly as the format string to
+│                       │       │                   `ERR_raise_data()`.
+│                       │       │                   
+│                       │       │                   Impact summary: A malicious or intercepted CMP endpoint can
+│                       │       │                    crash a CMP client
+│                       │       │                   that enforces an expected sender or uses a pinned server
+│                       │       │                   certificate whose
+│                       │       │                   subject becomes the default expected sender.
+│                       │       │                   CWE: CWE-134 (Use of Externally-Controlled Format String)
+│                       │       │                   Description: When validating a received CMP message,
+│                       │       │                   ossl_cmp_msg_check_update()
+│                       │       │                   converts the peer-supplied sender distinguished name with
+│                       │       │                   X509_NAME_oneline()
+│                       │       │                   and passes it directly as the format argument to
+│                       │       │                   ERR_raise_data(). Percent
+│                       │       │                   characters survive the conversion, so a sender DN such as
+│                       │       │                   "CN=%s%n" reaches
+│                       │       │                   BIO_vsnprintf() as an attacker-controlled format string
+│                       │       │                   with no matching variadic
+│                       │       │                   arguments. This path is only reached when the caller
+│                       │       │                   configures an expected
+│                       │       │                   sender or pins a server certificate, which is the normal
+│                       │       │                   configuration for a
+│                       │       │                   CMP client validating server responses.
+│                       │       │                   Since the attacker controls the format string but none of
+│                       │       │                   the variadic
+│                       │       │                   arguments, such specifiers as %s and %n dereference or
+│                       │       │                   write through unrelated
+│                       │       │                   stack contents and crash the client. The reliable
+│                       │       │                   consequence is a denial of
+│                       │       │                   service, when the response comes from a malicious or
+│                       │       │                   intercepted CMP endpoint.
+│                       │       │                   There is no controlled memory write, arbitrary-address
+│                       │       │                   read, or reliable path
+│                       │       │                   to remote code execution.
+│                       │       │                   FIPS impact: no
+│                       │       │                   No FIPS modules are affected by this issue, as the CMP
+│                       │       │                   protocol
+│                       │       │                   implementation is outside the OpenSSL FIPS module
+│                       │       │                   boundary. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-134 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 5.9 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-63073 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/0cc20b32263
+│                       │       │                  │      9919aa423e90799d9a57c3b4b76ca 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/6a0acc072b4
+│                       │       │                  │      d37a7cac1252a29c1ce1f00c5ec29 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/7eb2e3ec9d1
+│                       │       │                  │      d4f35c8022fccd4b03398b3f33e21 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/a7e5a6eea8f
+│                       │       │                  │      d3ccca6b6fbba031a5fbf8a3d93b4 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-63073 
+│                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-63073 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:26.147Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T13:19:26.147Z 
+│                       ├ [72]  ╭ VulnerabilityID : CVE-2026-63074 
+│                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : openssl 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3.3?arch=amd64&d
+│                       │       │                  │       istro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 25612e3c0a66b920 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-63074 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:265fb0ed9a069524fa292e46b12a6f100daebd41592ccb766ff7
+│                       │       │                   f8b03f9d5ddf 
+│                       │       ├ Title           : openssl: CMP indefinite cache growth of ExtraCerts 
+│                       │       ├ Description     : Issue summary: The OpenSSL Certificate Management Protocol
+│                       │       │                   (CMP) caches
+│                       │       │                   additional certificates (extraCerts) sent in a CMP message,
+│                       │       │                    but never expunges
+│                       │       │                   them (for instance if they are invalid).  If a server
+│                       │       │                   reuses an OSSL_CMP_CTX
+│                       │       │                   frequently, this cache of extraCerts may grow unboundedly,
+│                       │       │                   and a malicious
+│                       │       │                   client may flood a CMP server with requests driving this
+│                       │       │                   growth.
+│                       │       │                   
+│                       │       │                   Impact summary: Users utilizing a CMP server that reuses a
+│                       │       │                   single OSSL_CMP_CTX
+│                       │       │                   for the lifetime of a server process may observe unbounded
+│                       │       │                   memory growth in the
+│                       │       │                   event a malicious client repeatedly sends requests
+│                       │       │                   containing unique extra
+│                       │       │                   certificates, which may lead to OOM conditions.
+│                       │       │                   CWE: CWE-770: Allocation of Resources Without Limits or
+│                       │       │                   Throttling
+│                       │       │                   Description: If a remote user sends CMP messages to a
+│                       │       │                   server with a list of
+│                       │       │                   extraCerts and the message is rejected, the extraCerts from
+│                       │       │                    the message remains
+│                       │       │                   in the server contexts untrusted certificate stack.  This
+│                       │       │                   exposes servers with
+│                       │       │                   long lived ctx objects to Denial of Service attacks in
+│                       │       │                   which an attacker sends
+│                       │       │                   messages intending to be rejected with a large list of
+│                       │       │                   additional certificates
+│                       │       │                   repeatedly, forcing the server to store them indefinitely.
+│                       │       │                      
+│                       │       │                   The issue was fixed by removing the added extra certs if
+│                       │       │                   the message is
+│                       │       │                   rejected, using the same method as when the context is
+│                       │       │                   configured to not do
+│                       │       │                   caching at all.
+│                       │       │                   FIPS impact: no
+│                       │       │                   As the CMP code lives outside the FIPS module boundary, no
+│                       │       │                   FIPS
+│                       │       │                   modules are affected by this CVE. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-770 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-63074 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/01e567978a5
+│                       │       │                  │      5fba18142a230380c31296049fae7 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/21a5d9658b0
+│                       │       │                  │      c66daace60e10ea18ff32a448de9f 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/74ae7f6df47
+│                       │       │                  │      a5767c1010b88c47507dfc5b32c46 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/75360af9650
+│                       │       │                  │      d4e0c82ba0050c5c9912cd79e54af 
+│                       │       │                  ├ [5]: https://github.com/openssl/openssl/commit/f636f9ca0fa
+│                       │       │                  │      1bae5b42f9e787f025c96fb09c43a 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-63074 
+│                       │       │                  ├ [7]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-63074 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:26.283Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T15:16:36.243Z 
+│                       ├ [73]  ╭ VulnerabilityID : CVE-2026-63075 
+│                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : openssl 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3.3?arch=amd64&d
+│                       │       │                  │       istro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 25612e3c0a66b920 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-63075 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:37098bd7a3f698de29742b99db522ce7a0e574bc6029f6a03c56
+│                       │       │                   4686ae5ab464 
+│                       │       ├ Title           : openssl: QUIC ACK-only packet retention can cause memory
+│                       │       │                   exhaustion 
+│                       │       ├ Description     : Issue summary: When OpenSSL processes QUIC traffic from a
+│                       │       │                   peer that repeatedly
+│                       │       │                   sends ack-eliciting packets while not acknowledging
+│                       │       │                   ACK-only responses, the
+│                       │       │                   QUIC stack can retain ACK-only packet metadata for the
+│                       │       │                   lifetime of the
+│                       │       │                   connection.
+│                       │       │                   
+│                       │       │                   Impact summary: A remote peer that can complete a QUIC
+│                       │       │                   handshake can
+│                       │       │                   cause connection-scoped memory growth which may lead to
+│                       │       │                   Denial of Service
+│                       │       │                   through memory exhaustion, especially with sustained
+│                       │       │                   traffic or many concurrent
+│                       │       │                   QUIC connections.
+│                       │       │                   CWE: CWE-770: Allocation of Resources Without Limits or
+│                       │       │                   Throttling
+│                       │       │                   Description: When the OpenSSL QUIC stack sends an ACK-only
+│                       │       │                   packet,
+│                       │       │                   there is no requirement by the QUIC protocol that the peer
+│                       │       │                   will acknowledge
+│                       │       │                   that ACK-only packet (i.e. it is itself not ack-eliciting).
+│                       │       │                    However, the OpenSSL
+│                       │       │                   implementation stores the metadata about the ACK frames
+│                       │       │                   regardless.
+│                       │       │                   In and of itself that's ok, but if a malicious peer
+│                       │       │                   establishes a connection, and
+│                       │       │                   then drives the connection such that ACK-only packets are
+│                       │       │                   forced from the 
+│                       │       │                   OpenSSL implementation peer (i.e., by sending numerous PING
+│                       │       │                    frames),
+│                       │       │                   and then withholding any subsequent acks for ack-eliciting
+│                       │       │                   data, like
+│                       │       │                   legitimate data, said malicious peer can force
+│                       │       │                   inappropriate memory growth
+│                       │       │                   on the OpenSSL peer, potentially leading to a Denial of
+│                       │       │                   Service.
+│                       │       │                   The fix is to ensure that we account for the transmission
+│                       │       │                   of the ACK-only
+│                       │       │                   packet in the packet histories high and low watermark
+│                       │       │                   without actually storing
+│                       │       │                   the ACK-only packet metadata itself.
+│                       │       │                   FIPS impact: no
+│                       │       │                   The OpenSSL FIPS module is not affected as the QUIC code
+│                       │       │                   is
+│                       │       │                   outside the FIPS module boundary. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-770 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-63075 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/7308946576b
+│                       │       │                  │      12e64b8be53bcf0a120354b2b42bc 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/7c98d797385
+│                       │       │                  │      49df92868e7dd9be4bbf061eed709 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/bf84721c254
+│                       │       │                  │      8351176e367e6de505792f0118dc6 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/c902e5f16d6
+│                       │       │                  │      a9e130e96d3ca6d8f64d71652e393 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-63075 
+│                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-63075 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:26.413Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T15:16:36.417Z 
+│                       ├ [74]  ╭ VulnerabilityID : CVE-2026-75803 
+│                       │       ├ PkgID           : openssl@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : openssl 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3.3?arch=amd64&d
+│                       │       │                  │       istro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 25612e3c0a66b920 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-75803 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:564a475fb81daa22ff8e56de5f8e35eca34f47413547eed7ed14
+│                       │       │                   2bf9207ccbbd 
+│                       │       ├ Title           : Issue summary: ChaCha20-Poly1305 and AES-OCB decryption
+│                       │       │                   with an empty  ... 
+│                       │       ├ Description     : Issue summary: ChaCha20-Poly1305 and AES-OCB decryption
+│                       │       │                   with an empty
+│                       │       │                   ciphertext can report success without verifying the
+│                       │       │                   supplied authentication
+│                       │       │                   tag when the operation is finalized by calling the
+│                       │       │                   EVP_Cipher() function.
+│                       │       │                   
+│                       │       │                   Impact summary: Applications calling EVP_Cipher() on an
+│                       │       │                   empty ciphertext and
+│                       │       │                   expecting the call to check the AEAD tag may accept forged
+│                       │       │                   messages.
+│                       │       │                   CWE: CWE-354 (Improper Validation of Integrity Check
+│                       │       │                   Value)
+│                       │       │                   Description: The EVP_Cipher() API call for AEAD ciphers
+│                       │       │                   behaves like a one
+│                       │       │                   shot encryption and decryption call. It also verifies the
+│                       │       │                   AEAD tag after the
+│                       │       │                   decryption operation. However for AES-OCB and
+│                       │       │                   ChaCha20-Poly1305 ciphers
+│                       │       │                   it skipped the AEAD tag verification when an empty
+│                       │       │                   ciphertext was passed to
+│                       │       │                   the function. The callers of this function might believe
+│                       │       │                   that a successful
+│                       │       │                   return indicates a valid AEAD tag for these ciphers, even
+│                       │       │                   when that has not
+│                       │       │                   truly been validated in this case.
+│                       │       │                   FIPS impact: no
+│                       │       │                   The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are not
+│                       │       │                   affected by this CVE
+│                       │       │                   as the affected algorithms are not FIPS approved and thus
+│                       │       │                   not implemented
+│                       │       │                   in the FIPS module. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-354 
+│                       │       ├ VendorSeverity   ─ ubuntu: 1 
+│                       │       ├ References       ╭ [0]: https://github.com/openssl/openssl/commit/119ab9555dc
+│                       │       │                  │      62275bbd71f6f49529b1a44feba42 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/3621257986e
+│                       │       │                  │      27e540bf96a11570929a6e5a9e05b 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/6c7aa6f8f64
+│                       │       │                  │      49b7fe0137ee8be65fcd239bd7d6a 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/bdeb0cd994d
+│                       │       │                  │      915342787f117ee75044f0dc36f34 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/bf95f5f772e
+│                       │       │                  │      9362f87b25cfa2f8cb15d984865b9 
+│                       │       │                  ├ [5]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-75803 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:29.57Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T13:19:29.57Z 
+│                       ├ [75]  ╭ VulnerabilityID : CVE-2026-14456 
+│                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : openssl-provider-legacy 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
+│                       │       │                  │       3.3?arch=amd64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 7334ac7b6ba90f96 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-14456 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:9dea387cb4db1a1080049a5ba93e20f504c30741f473f3d87c85
+│                       │       │                   96a82d54569f 
+│                       │       ├ Title           : openssl: OpenSSL: Denial of Service via unbounded memory
+│                       │       │                   growth in QUIC server 
+│                       │       ├ Description     : Issue summary: When an OpenSSL QUIC server (Listener SSL
+│                       │       │                   object) processes
+│                       │       │                   valid QUIC Initial packets for unknown destination
+│                       │       │                   connection IDs, it
+│                       │       │                   can allocate and queue new incoming channels without
+│                       │       │                   enforcing any limit.
+│                       │       │                   
+│                       │       │                   Impact summary: A remote peer that can make many Initial
+│                       │       │                   packets reach the
+│                       │       │                   server listener faster than the application accepts
+│                       │       │                   connections, can cause the
+│                       │       │                   memory allocated to store the per-channel state to grow
+│                       │       │                   without any limits,
+│                       │       │                   potentially making the QUIC listener unavailable and
+│                       │       │                   causing Denial of Service.
+│                       │       │                   CWE: CWE-770: Allocation of Resources Without Limits or
+│                       │       │                   Throttling
+│                       │       │                   Description: The function that handles inbound QUIC packets
+│                       │       │                    uses
+│                       │       │                   Connection-Id from the packet header to find an existing
+│                       │       │                   connection
+│                       │       │                   (QUIC channel). If no existing connection is found and the
+│                       │       │                   packet
+│                       │       │                   type is INITIAL, the function treats the packet as a new
+│                       │       │                   connection. It
+│                       │       │                   allocates a new channel object and inserts it into a queue
+│                       │       │                   where it
+│                       │       │                   waits to be accepted by the local application with
+│                       │       │                   SSL_accept(3ossl).
+│                       │       │                   The memory occupied by these initial channel objects may
+│                       │       │                   grow
+│                       │       │                   without bounds if the application is not able to call
+│                       │       │                   SSL_accept()
+│                       │       │                   frequently enough to serve these inbound connection
+│                       │       │                   requests.
+│                       │       │                   The issue is present since OpenSSL 3.5 when the QUIC server
+│                       │       │                    implementation
+│                       │       │                   was added.
+│                       │       │                   The fix introduces a limit for pending connections. The
+│                       │       │                   default limit is set
+│                       │       │                   to 256 pending connections (waiting to be accepted by the
+│                       │       │                   local application).
+│                       │       │                   Applications may change the default by calling
+│                       │       │                   SSL_set_value_uint(3ossl).
+│                       │       │                   FIPS impact: no
+│                       │       │                   The FIPS module is not affected as the QUIC implementation
+│                       │       │                   is outside of
+│                       │       │                   the OpenSSL FIPS module boundary. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-770 
+│                       │       ├ VendorSeverity   ╭ photon: 3 
+│                       │       │                  ├ redhat: 3 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/08/13/4 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-14456 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/08e7756c390
+│                       │       │                  │      0bcfd77a720e7b74e27d6e4ed01a9 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/4084152e040
+│                       │       │                  │      329ca0194c4c1750b9b46d00a5b6b 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/f2f1465f2d2
+│                       │       │                  │      e5c61dfeac4d20fd093797d821139 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-14456 
+│                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260813.txt 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-14456 
+│                       │       ├ PublishedDate   : 2026-08-13T15:19:31.82Z 
+│                       │       ╰ LastModifiedDate: 2026-08-13T18:17:18.367Z 
+│                       ├ [76]  ╭ VulnerabilityID : CVE-2026-18798 
+│                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : openssl-provider-legacy 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
+│                       │       │                  │       3.3?arch=amd64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 7334ac7b6ba90f96 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-18798 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:f4213ea39175ceb95ae542f7069399b1d202ffdc8b63a4294466
+│                       │       │                   9ab7096b119a 
+│                       │       ├ Title           : openssl: QUIC server may trigger double free when
+│                       │       │                   processing INITIAL packet 
+│                       │       ├ Description     : Issue summary: QUIC server may double free QRX (QUIC record
+│                       │       │                    layer RX) object
+│                       │       │                   when channel creation fails for initial packet.
+│                       │       │                   
+│                       │       │                   Impact summary: Double free leads to heap corruption, which
+│                       │       │                    typically results in 
+│                       │       │                   termination of QUIC server process, leading to Denial of
+│                       │       │                   Service. There is so
+│                       │       │                   far no evidence that this double free is exploitable for
+│                       │       │                   remote code execution,
+│                       │       │                   thus it is considered highly improbable.
+│                       │       │                   CWE: CWE-415: Double Free
+│                       │       │                   Description: In order to validate initial packet, OpenSSL
+│                       │       │                   QUIC stack default
+│                       │       │                   packet handler (port_default_packet_handler()) creates a
+│                       │       │                   so-called QRX object.
+│                       │       │                   If the initial packet validates successfully with QRX
+│                       │       │                   object, the default packet
+│                       │       │                   handler proceeds to channel (connection object) creation.
+│                       │       │                   The QRX object used
+│                       │       │                   for packet validation is passed to port_bind_channel(), so
+│                       │       │                   it becomes part of
+│                       │       │                   the newly created connection. If port_bind_channel() fails,
+│                       │       │                    then it also frees
+│                       │       │                   the QRX object. Once port_bind_channel() returns, the
+│                       │       │                   port_default_packet_handler()
+│                       │       │                   detects the failure and proceeds to the error branch, where
+│                       │       │                    the same QRX object is
+│                       │       │                   freed for the second time.
+│                       │       │                   The failure in port_bind_channel() function can be induced
+│                       │       │                   with a relatively
+│                       │       │                   low effort by a malformed (non RFC 9000 compliant) INITIAL
+│                       │       │                   packet. If the packet
+│                       │       │                   carries DCID (destination connection ID) which is shorter
+│                       │       │                   than 8 bytes, then
+│                       │       │                   port_bind_channel() jumps to the error path after
+│                       │       │                   ossl_quic_lcidm_enrol_odcid()
+│                       │       │                   detects that the DCID has invalid length.
+│                       │       │                   FIPS impact: no
+│                       │       │                   The FIPS module is not affected, as the QUIC implementation
+│                       │       │                    is outside of
+│                       │       │                   the OpenSSL FIPS module boundary. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-415 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-18798 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/70cebd74d35
+│                       │       │                  │      92f5272945501b58a60374c4e13af 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/967582d5037
+│                       │       │                  │      f01a26b6d19beae19af62a1b15c3c 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/a14a1deac40
+│                       │       │                  │      3522fbeafabcb198503cf6caa7dc4 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-18798 
+│                       │       │                  ├ [5]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-18798 
+│                       │       ├ PublishedDate   : 2026-08-25T13:17:49.813Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T15:16:31.207Z 
+│                       ├ [77]  ╭ VulnerabilityID : CVE-2026-63072 
+│                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : openssl-provider-legacy 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
+│                       │       │                  │       3.3?arch=amd64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 7334ac7b6ba90f96 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-63072 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:3dbc6bf7389e76279f600f3e3016fe8902271df2c51eaaa32174
+│                       │       │                   b34571c9688b 
+│                       │       ├ Title           : openssl: heap buffer overflow in CMS key unwrapping 
+│                       │       ├ Description     : Issue summary: OpenSSL CMS decryption sizes the key-unwrap
+│                       │       │                   output buffer based
+│                       │       │                   on querying the unwrapped key size, but the AES-WRAP-PAD
+│                       │       │                   unwrap primitive
+│                       │       │                   can write and cleanse more bytes than that query reports,
+│                       │       │                   causing an 8-byte
+│                       │       │                   out-of-bounds heap write.
+│                       │       │                   
+│                       │       │                   Impact summary: An attacker who supplies a crafted CMS
+│                       │       │                   message can trigger a
+│                       │       │                   deterministic 8-byte out-of-bounds heap write when the
+│                       │       │                   victim decrypts it
+│                       │       │                   with CMS_decrypt(), corrupting the heap and typically
+│                       │       │                   resulting in a Denial
+│                       │       │                   of Service.
+│                       │       │                   CWE: CWE-787: Out-of-bounds Write
+│                       │       │                   Description: The key-wrap OID is potentially
+│                       │       │                   attacker-controlled on the wire.
+│                       │       │                   CMS unwrapping allows both id-aesNNN-wrap-pad and
+│                       │       │                   id-aesNNN-wrap ciphers.
+│                       │       │                   An attacker can take a legitimate message and change a
+│                       │       │                   single OID byte to
+│                       │       │                   select the padded variant while leaving the message
+│                       │       │                   otherwise valid. Since
+│                       │       │                   the unwrap key is derived from the recipient's private
+│                       │       │                   operation (ECDH key
+│                       │       │                   agreement or ML-KEM decapsulation), the RFC 5649 integrity
+│                       │       │                   check cannot
+│                       │       │                   pass, and the decryption fails with integrity failure.
+│                       │       │                   The write is a fixed-size (8-byte), fixed-value (zero) heap
+│                       │       │                    overflow
+│                       │       │                   immediately past the allocation, requires no special
+│                       │       │                   configuration, and is
+│                       │       │                   reachable from the public CMS_decrypt() function. The
+│                       │       │                   consequence is
+│                       │       │                   a heap corruption leading to a Denial of Service. The fix
+│                       │       │                   in the CMS code
+│                       │       │                   sizes the unwrap output buffer for the worst case so a
+│                       │       │                   failed unwrap cannot
+│                       │       │                   write past the allocation.
+│                       │       │                   FIPS impact: no
+│                       │       │                   As the CMS code lives outside the FIPS module boundary, no
+│                       │       │                   FIPS
+│                       │       │                   modules are affected by this CVE. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-63072 
+│                       │       │                  ├ [1] : https://github.com/openssl/openssl/commit/2a3dac874c
+│                       │       │                  │       8057c1f0186849bf1ede1ae7b6b756 
+│                       │       │                  ├ [2] : https://github.com/openssl/openssl/commit/87784ad619
+│                       │       │                  │       af36b8807c2044b3940006fccc1e42 
+│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/9530a5fd1a
+│                       │       │                  │       acaeccdced4478ea2340a480613335 
+│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/9ec2f6d2ae
+│                       │       │                  │       2bcad907cf7ee38584855bafe4979a 
+│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/a0c8ec557d
+│                       │       │                  │       9cac078f032d76cdf684fe743eb382 
+│                       │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-63072 
+│                       │       │                  ├ [7] : https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-8678-2 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-63072 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:26.01Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T15:16:36.06Z 
+│                       ├ [78]  ╭ VulnerabilityID : CVE-2026-63076 
+│                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : openssl-provider-legacy 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
+│                       │       │                  │       3.3?arch=amd64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 7334ac7b6ba90f96 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-63076 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:9d1e5cb93791559877a916caf2a77439fbbb5477ba09787370d8
+│                       │       │                   964e41d31c54 
+│                       │       ├ Title           : openssl: invalid pointer dereference in CMP server via
+│                       │       │                   crafted protectionAlg 
+│                       │       ├ Description     : Issue summary: OpenSSL CMP password based protection
+│                       │       │                   verification only
+│                       │       │                   checks whether the protectionAlg parameter was not NULL and
+│                       │       │                    not its
+│                       │       │                   ASN.1 type, before treating it as a PBMParameter. A crafted
+│                       │       │                    message can
+│                       │       │                   contain a parameter of a different type, which is then
+│                       │       │                   dereferenced as an
+│                       │       │                   invalid pointer.
+│                       │       │                   
+│                       │       │                   Impact summary: A remote, unauthenticated attacker can
+│                       │       │                   crash an application
+│                       │       │                   acting as a CMP server that accepts PBM-protected messages,
+│                       │       │                    or a CMP client
+│                       │       │                   talking to a malicious or intercepted CMP server, resulting
+│                       │       │                    in a Denial of
+│                       │       │                   Service.
+│                       │       │                   CWE: CWE-476: NULL Pointer Dereference
+│                       │       │                   Description: When verifying the password-based MAC
+│                       │       │                   protection of a CMP
+│                       │       │                   message, OpenSSL library reads the protectionAlg algorithm
+│                       │       │                   parameter with
+│                       │       │                   X509_ALGOR_get0(), which returns both the parameter type
+│                       │       │                   and its value
+│                       │       │                   pointer. The value is then cast to an ASN1_STRING and
+│                       │       │                   treated as the
+│                       │       │                   expected PBMParameter after only checking that pointer is
+│                       │       │                   not NULL. The
+│                       │       │                   parameter type returned by X509_ALGOR_get0() was never
+│                       │       │                   consulted.
+│                       │       │                   This happens during protection verification, before any MAC
+│                       │       │                    is computed, so
+│                       │       │                   no knowledge of the PBM shared secret is required; the only
+│                       │       │                    precondition is
+│                       │       │                   that PBM verification is reachable. On the server side this
+│                       │       │                    is reached from
+│                       │       │                   OSSL_CMP_SRV_process_request() for any application that
+│                       │       │                   stands up a CMP
+│                       │       │                   server accepting PBM-protected messages, and on the client
+│                       │       │                   side from CMP
+│                       │       │                   response validation against a malicious or on-path (MITM)
+│                       │       │                   server. The
+│                       │       │                   reliable consequence is a denial of service; there is no
+│                       │       │                   memory disclosure,
+│                       │       │                   no controlled memory write, and no path to code execution.
+│                       │       │                   CMP is a
+│                       │       │                   specialized feature that an application must explicitly
+│                       │       │                   enable.
+│                       │       │                   FIPS impact: no
+│                       │       │                   As the CMP code lives outside the FIPS module boundary, no
+│                       │       │                   FIPS modules
+│                       │       │                   are affected by this CVE. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-476 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-63076 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/37882aa2e02
+│                       │       │                  │      56e1072442a8f62f7db45b995c45b 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/a17cc8d612e
+│                       │       │                  │      cff6d94a9b7ca8b5283ddf5ff570e 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/a1f348ccb32
+│                       │       │                  │      8c3afbd4ba6883f9b7c813c043259 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/a7af46a92d0
+│                       │       │                  │      ce19a90e669ef56d2576a07924226 
+│                       │       │                  ├ [5]: https://github.com/openssl/openssl/commit/cdacfff5573
+│                       │       │                  │      89abfa9e4615abded2ec984517d6c 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-63076 
+│                       │       │                  ├ [7]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-63076 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:26.543Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T15:16:36.593Z 
+│                       ├ [79]  ╭ VulnerabilityID : CVE-2026-14457 
+│                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : openssl-provider-legacy 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
+│                       │       │                  │       3.3?arch=amd64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 7334ac7b6ba90f96 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-14457 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:446caff314d1e6ca5b4692b7be4d669e636e9c3fa6be6c4b529b
+│                       │       │                   dc4ef78a9f25 
+│                       │       ├ Title           : openssl: RPK server signature algorithm selection can
+│                       │       │                   dereference a missing certificate 
+│                       │       ├ Description     : Issue summary: In a server or client configuration with
+│                       │       │                   RFC7250 Raw Public Keys (RPKs)
+│                       │       │                   enabled, and only the private key (with no associated
+│                       │       │                   certificate) configured locally,
+│                       │       │                   a NULL pointer dereference may occur when the remote peer
+│                       │       │                   solicits raw public keys and
+│                       │       │                   also sends the typically omitted
+│                       │       │                   "signature_algorithms_cert" TLS extension.
+│                       │       │                   
+│                       │       │                   Impact summary: The impact is limited to a possible Denial
+│                       │       │                   of Service as a result of
+│                       │       │                   an application abort, no data disclosure or remote command
+│                       │       │                   execution are possible.
+│                       │       │                   CWE: CWE-476: NULL Pointer Dereference
+│                       │       │                   Description: While a passing comment in sample code in the
+│                       │       │                   documentation suggests
+│                       │       │                   that key-only RPK configurations are supported, the
+│                       │       │                   best-practice RPK configuration
+│                       │       │                   is to always configure a corresponding certificate
+│                       │       │                   (possibly self-signed or
+│                       │       │                   signed by any convenient CA).
+│                       │       │                   When the private key is configured along with a matching
+│                       │       │                   certificate, the
+│                       │       │                   "signature_algorithms_cert" extension is handled reliably
+│                       │       │                   even without the
+│                       │       │                   fix, and peer clients or servers that don't support raw
+│                       │       │                   public keys may be
+│                       │       │                   able to complete a TLS connection by pinning or verifying
+│                       │       │                   the corresponding
+│                       │       │                   certificate or its public key.
+│                       │       │                   Deployments that prefer to configure just a private key
+│                       │       │                   with no certificate
+│                       │       │                   need to upgrade to an updated release as noted below.
+│                       │       │                   FIPS impact: no
+│                       │       │                   No FIPS modules are affected by this issue, as the SSL
+│                       │       │                   protocol implementation
+│                       │       │                   is outside the OpenSSL FIPS module boundary. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-476 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-14457 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/1e8c398db67
+│                       │       │                  │      404babd3e5af999bb6bd86f720c76 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/581aaa0f0a3
+│                       │       │                  │      5d214740f0fe1f5283ec41f1212e1 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/d0af2047868
+│                       │       │                  │      8a6aa2f59d61caa3f82136b181d7f 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/dad836b071d
+│                       │       │                  │      a6579510c968615848ba03cac593b 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-14457 
+│                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-14457 
+│                       │       ├ PublishedDate   : 2026-08-25T13:17:49.533Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T14:16:49.727Z 
+│                       ├ [80]  ╭ VulnerabilityID : CVE-2026-54874 
+│                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : openssl-provider-legacy 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
+│                       │       │                  │       3.3?arch=amd64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 7334ac7b6ba90f96 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54874 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:330e28fe21b53c50a57ca5822bfa9091037cfefb245ae9f6cb39
+│                       │       │                   f52bd35eddfb 
+│                       │       ├ Title           : openssl: excessive memory use buffering DTLS records for a
+│                       │       │                   future epoch 
+│                       │       ├ Description     : Issue summary: Receiving a DTLS record for a future epoch
+│                       │       │                   while a handshake
+│                       │       │                   is in progress causes OpenSSL to buffer far more memory
+│                       │       │                   than the record
+│                       │       │                   itself requires.
+│                       │       │                   
+│                       │       │                   Impact summary: A peer can use a small amount of network
+│                       │       │                   traffic to make an
+│                       │       │                   OpenSSL DTLS endpoint retain a disproportionately large
+│                       │       │                   amount of memory,
+│                       │       │                   which may lead to a Denial of Service.
+│                       │       │                   CWE: CWE-405: Asymmetric Resource Consumption
+│                       │       │                   (Amplification)
+│                       │       │                   Description: While a DTLS handshake is in progress, a peer
+│                       │       │                   may legitimately
+│                       │       │                   have already moved on to the next epoch (for example,
+│                       │       │                   having sent its
+│                       │       │                   ChangeCipherSpec and Finished messages) before the local
+│                       │       │                   endpoint has
+│                       │       │                   processed the same transition, typically because of
+│                       │       │                   reordering on the
+│                       │       │                   underlying UDP transport. OpenSSL buffers such early
+│                       │       │                   records so that they
+│                       │       │                   can be processed once the local endpoint catches up.
+│                       │       │                   Buffering a record currently retains the entire read buffer
+│                       │       │                    it arrived in,
+│                       │       │                   which is sized to hold the largest possible DTLS record
+│                       │       │                   (around 16
+│                       │       │                   kilobytes), rather than just the bytes that make up the
+│                       │       │                   record itself. Up
+│                       │       │                   to 100 such records may be buffered per connection. As a
+│                       │       │                   result, a peer
+│                       │       │                   that sends a stream of small forged records claiming to
+│                       │       │                   belong to the next
+│                       │       │                   epoch can cause an OpenSSL DTLS endpoint to retain around
+│                       │       │                   1.7 megabytes of
+│                       │       │                   memory, despite sending only a small fraction of that
+│                       │       │                   amount of data over
+│                       │       │                   the network.
+│                       │       │                   An attacker therefore gains a memory amplification factor
+│                       │       │                   of around 1200,
+│                       │       │                   and can multiply the effect across as many associations as
+│                       │       │                   it is able to
+│                       │       │                   open, making this a remote memory exhaustion Denial of
+│                       │       │                   Service risk for
+│                       │       │                   DTLS servers. Since the memory retained per connection
+│                       │       │                   remains bounded,
+│                       │       │                   and any limit an application already places on the number
+│                       │       │                   of concurrent
+│                       │       │                   associations also bounds the total exposure, this issue has
+│                       │       │                    been assessed
+│                       │       │                   as Low severity.
+│                       │       │                   FIPS impact: no
+│                       │       │                   No FIPS modules are affected by this issue as the affected
+│                       │       │                   code is outside
+│                       │       │                   the OpenSSL FIPS module boundary.
+│                       │       │                   OpenSSL 4.0, 3.6, 3.5, 3.4, 3.0, 1.1.1 and 1.0.2 are
+│                       │       │                   vulnerable to this
+│                       │       │                   issue.
+│                       │       │                   OpenSSL 4.0 users should upgrade to OpenSSL 4.0.2.
+│                       │       │                   OpenSSL 3.6 users should upgrade to OpenSSL 3.6.4.
+│                       │       │                   OpenSSL 3.5 users should upgrade to OpenSSL 3.5.8.
+│                       │       │                   OpenSSL 3.4 users should upgrade to OpenSSL 3.4.7.
+│                       │       │                   OpenSSL 3.0 users should upgrade to OpenSSL 3.0.22.
+│                       │       │                   Premium support customers only:
+│                       │       │                   OpenSSL 1.1.1 users should upgrade to OpenSSL 1.1.1zi
+│                       │       │                   OpenSSL 1.0.2 users should upgrade to OpenSSL 1.0.2zr
+│                       │       │                   This issue was reported on 18 May 2026 by Amazon Web
+│                       │       │                   Services.
+│                       │       │                   The fix has been developed by Matt Caswell.
+│                       │       │                   -- cut (non-publishing metadata for internal use) --
+│                       │       │                   Reported by: Amazon Web Services
+│                       │       │                   Fixed by: Matt Caswell 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-405 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-54874 
+│                       │       │                  ├ [1] : https://github.com/openssl/openssl/commit/4808b5d641
+│                       │       │                  │       76451f3d93d87d0ac9c81a9b13fb23 
+│                       │       │                  ├ [2] : https://github.com/openssl/openssl/commit/7110cb2f75
+│                       │       │                  │       806d0bf809eb2f90790d477900be40 
+│                       │       │                  ├ [3] : https://github.com/openssl/openssl/commit/a0c8ec557d
+│                       │       │                  │       9cac078f032d76cdf684fe743eb382 
+│                       │       │                  ├ [4] : https://github.com/openssl/openssl/commit/cc0c671091
+│                       │       │                  │       7cd5eec001b297355d2ba723505107 
+│                       │       │                  ├ [5] : https://github.com/openssl/openssl/commit/f52ffc11b9
+│                       │       │                  │       0737ac89083909618dc2e1f42c561c 
+│                       │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2026-54874 
+│                       │       │                  ├ [7] : https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-8678-2 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-54874 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:24.033Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T15:16:33.097Z 
+│                       ├ [81]  ╭ VulnerabilityID : CVE-2026-63073 
+│                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : openssl-provider-legacy 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
+│                       │       │                  │       3.3?arch=amd64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 7334ac7b6ba90f96 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-63073 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:d751184771129a4b985cb25952d9b7d08921467e4d37df10efdc
+│                       │       │                   cb9696ecb3c2 
+│                       │       ├ Title           : openssl: untrusted sender DN used as format string in CMP
+│                       │       │                   response validation 
+│                       │       ├ Description     : Issue summary: OpenSSL CMP response validation passed an
+│                       │       │                   unexpected response
+│                       │       │                   sender distinguished name directly as the format string to
+│                       │       │                   `ERR_raise_data()`.
+│                       │       │                   
+│                       │       │                   Impact summary: A malicious or intercepted CMP endpoint can
+│                       │       │                    crash a CMP client
+│                       │       │                   that enforces an expected sender or uses a pinned server
+│                       │       │                   certificate whose
+│                       │       │                   subject becomes the default expected sender.
+│                       │       │                   CWE: CWE-134 (Use of Externally-Controlled Format String)
+│                       │       │                   Description: When validating a received CMP message,
+│                       │       │                   ossl_cmp_msg_check_update()
+│                       │       │                   converts the peer-supplied sender distinguished name with
+│                       │       │                   X509_NAME_oneline()
+│                       │       │                   and passes it directly as the format argument to
+│                       │       │                   ERR_raise_data(). Percent
+│                       │       │                   characters survive the conversion, so a sender DN such as
+│                       │       │                   "CN=%s%n" reaches
+│                       │       │                   BIO_vsnprintf() as an attacker-controlled format string
+│                       │       │                   with no matching variadic
+│                       │       │                   arguments. This path is only reached when the caller
+│                       │       │                   configures an expected
+│                       │       │                   sender or pins a server certificate, which is the normal
+│                       │       │                   configuration for a
+│                       │       │                   CMP client validating server responses.
+│                       │       │                   Since the attacker controls the format string but none of
+│                       │       │                   the variadic
+│                       │       │                   arguments, such specifiers as %s and %n dereference or
+│                       │       │                   write through unrelated
+│                       │       │                   stack contents and crash the client. The reliable
+│                       │       │                   consequence is a denial of
+│                       │       │                   service, when the response comes from a malicious or
+│                       │       │                   intercepted CMP endpoint.
+│                       │       │                   There is no controlled memory write, arbitrary-address
+│                       │       │                   read, or reliable path
+│                       │       │                   to remote code execution.
+│                       │       │                   FIPS impact: no
+│                       │       │                   No FIPS modules are affected by this issue, as the CMP
+│                       │       │                   protocol
+│                       │       │                   implementation is outside the OpenSSL FIPS module
+│                       │       │                   boundary. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-134 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 5.9 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-63073 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/0cc20b32263
+│                       │       │                  │      9919aa423e90799d9a57c3b4b76ca 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/6a0acc072b4
+│                       │       │                  │      d37a7cac1252a29c1ce1f00c5ec29 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/7eb2e3ec9d1
+│                       │       │                  │      d4f35c8022fccd4b03398b3f33e21 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/a7e5a6eea8f
+│                       │       │                  │      d3ccca6b6fbba031a5fbf8a3d93b4 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-63073 
+│                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-63073 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:26.147Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T13:19:26.147Z 
+│                       ├ [82]  ╭ VulnerabilityID : CVE-2026-63074 
+│                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : openssl-provider-legacy 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
+│                       │       │                  │       3.3?arch=amd64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 7334ac7b6ba90f96 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-63074 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:1a624be69520d8f6e7fd8ba0b0a86c053fc9acb0b41bdc26e14f
+│                       │       │                   5eda7b058e0e 
+│                       │       ├ Title           : openssl: CMP indefinite cache growth of ExtraCerts 
+│                       │       ├ Description     : Issue summary: The OpenSSL Certificate Management Protocol
+│                       │       │                   (CMP) caches
+│                       │       │                   additional certificates (extraCerts) sent in a CMP message,
+│                       │       │                    but never expunges
+│                       │       │                   them (for instance if they are invalid).  If a server
+│                       │       │                   reuses an OSSL_CMP_CTX
+│                       │       │                   frequently, this cache of extraCerts may grow unboundedly,
+│                       │       │                   and a malicious
+│                       │       │                   client may flood a CMP server with requests driving this
+│                       │       │                   growth.
+│                       │       │                   
+│                       │       │                   Impact summary: Users utilizing a CMP server that reuses a
+│                       │       │                   single OSSL_CMP_CTX
+│                       │       │                   for the lifetime of a server process may observe unbounded
+│                       │       │                   memory growth in the
+│                       │       │                   event a malicious client repeatedly sends requests
+│                       │       │                   containing unique extra
+│                       │       │                   certificates, which may lead to OOM conditions.
+│                       │       │                   CWE: CWE-770: Allocation of Resources Without Limits or
+│                       │       │                   Throttling
+│                       │       │                   Description: If a remote user sends CMP messages to a
+│                       │       │                   server with a list of
+│                       │       │                   extraCerts and the message is rejected, the extraCerts from
+│                       │       │                    the message remains
+│                       │       │                   in the server contexts untrusted certificate stack.  This
+│                       │       │                   exposes servers with
+│                       │       │                   long lived ctx objects to Denial of Service attacks in
+│                       │       │                   which an attacker sends
+│                       │       │                   messages intending to be rejected with a large list of
+│                       │       │                   additional certificates
+│                       │       │                   repeatedly, forcing the server to store them indefinitely.
+│                       │       │                      
+│                       │       │                   The issue was fixed by removing the added extra certs if
+│                       │       │                   the message is
+│                       │       │                   rejected, using the same method as when the context is
+│                       │       │                   configured to not do
+│                       │       │                   caching at all.
+│                       │       │                   FIPS impact: no
+│                       │       │                   As the CMP code lives outside the FIPS module boundary, no
+│                       │       │                   FIPS
+│                       │       │                   modules are affected by this CVE. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-770 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-63074 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/01e567978a5
+│                       │       │                  │      5fba18142a230380c31296049fae7 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/21a5d9658b0
+│                       │       │                  │      c66daace60e10ea18ff32a448de9f 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/74ae7f6df47
+│                       │       │                  │      a5767c1010b88c47507dfc5b32c46 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/75360af9650
+│                       │       │                  │      d4e0c82ba0050c5c9912cd79e54af 
+│                       │       │                  ├ [5]: https://github.com/openssl/openssl/commit/f636f9ca0fa
+│                       │       │                  │      1bae5b42f9e787f025c96fb09c43a 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-63074 
+│                       │       │                  ├ [7]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-63074 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:26.283Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T15:16:36.243Z 
+│                       ├ [83]  ╭ VulnerabilityID : CVE-2026-63075 
+│                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : openssl-provider-legacy 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
+│                       │       │                  │       3.3?arch=amd64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 7334ac7b6ba90f96 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.4 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-63075 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:2d3945c0ea4e324b668850b164f41cd157e0b96425d0f84eaca0
+│                       │       │                   996b4a677039 
+│                       │       ├ Title           : openssl: QUIC ACK-only packet retention can cause memory
+│                       │       │                   exhaustion 
+│                       │       ├ Description     : Issue summary: When OpenSSL processes QUIC traffic from a
+│                       │       │                   peer that repeatedly
+│                       │       │                   sends ack-eliciting packets while not acknowledging
+│                       │       │                   ACK-only responses, the
+│                       │       │                   QUIC stack can retain ACK-only packet metadata for the
+│                       │       │                   lifetime of the
+│                       │       │                   connection.
+│                       │       │                   
+│                       │       │                   Impact summary: A remote peer that can complete a QUIC
+│                       │       │                   handshake can
+│                       │       │                   cause connection-scoped memory growth which may lead to
+│                       │       │                   Denial of Service
+│                       │       │                   through memory exhaustion, especially with sustained
+│                       │       │                   traffic or many concurrent
+│                       │       │                   QUIC connections.
+│                       │       │                   CWE: CWE-770: Allocation of Resources Without Limits or
+│                       │       │                   Throttling
+│                       │       │                   Description: When the OpenSSL QUIC stack sends an ACK-only
+│                       │       │                   packet,
+│                       │       │                   there is no requirement by the QUIC protocol that the peer
+│                       │       │                   will acknowledge
+│                       │       │                   that ACK-only packet (i.e. it is itself not ack-eliciting).
+│                       │       │                    However, the OpenSSL
+│                       │       │                   implementation stores the metadata about the ACK frames
+│                       │       │                   regardless.
+│                       │       │                   In and of itself that's ok, but if a malicious peer
+│                       │       │                   establishes a connection, and
+│                       │       │                   then drives the connection such that ACK-only packets are
+│                       │       │                   forced from the 
+│                       │       │                   OpenSSL implementation peer (i.e., by sending numerous PING
+│                       │       │                    frames),
+│                       │       │                   and then withholding any subsequent acks for ack-eliciting
+│                       │       │                   data, like
+│                       │       │                   legitimate data, said malicious peer can force
+│                       │       │                   inappropriate memory growth
+│                       │       │                   on the OpenSSL peer, potentially leading to a Denial of
+│                       │       │                   Service.
+│                       │       │                   The fix is to ensure that we account for the transmission
+│                       │       │                   of the ACK-only
+│                       │       │                   packet in the packet histories high and low watermark
+│                       │       │                   without actually storing
+│                       │       │                   the ACK-only packet metadata itself.
+│                       │       │                   FIPS impact: no
+│                       │       │                   The OpenSSL FIPS module is not affected as the QUIC code
+│                       │       │                   is
+│                       │       │                   outside the FIPS module boundary. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-770 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-63075 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/7308946576b
+│                       │       │                  │      12e64b8be53bcf0a120354b2b42bc 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/7c98d797385
+│                       │       │                  │      49df92868e7dd9be4bbf061eed709 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/bf84721c254
+│                       │       │                  │      8351176e367e6de505792f0118dc6 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/c902e5f16d6
+│                       │       │                  │      a9e130e96d3ca6d8f64d71652e393 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-63075 
+│                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-63075 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:26.413Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T15:16:36.417Z 
+│                       ├ [84]  ╭ VulnerabilityID : CVE-2026-75803 
+│                       │       ├ PkgID           : openssl-provider-legacy@3.5.5-1ubuntu3.3 
+│                       │       ├ PkgName         : openssl-provider-legacy 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu
+│                       │       │                  │       3.3?arch=amd64&distro=ubuntu-26.04 
+│                       │       │                  ╰ UID : 7334ac7b6ba90f96 
+│                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:87bc32187b1a133d58c0f073621201dda3bb7297d26
+│                       │       │                  │         03e129cb10ea4ce38192a 
+│                       │       │                  ╰ DiffID: sha256:e1dec46071abdfcd68145c49044aaf9e12dd5acbae4
+│                       │       │                            4ae61ee14b9b241ea009b 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-75803 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Fingerprint     : sha256:bdb1ef3d45ebfcd60d69938764d92c5d3b91ec52a88b9ef2009d
+│                       │       │                   d0afba82a911 
+│                       │       ├ Title           : Issue summary: ChaCha20-Poly1305 and AES-OCB decryption
+│                       │       │                   with an empty  ... 
+│                       │       ├ Description     : Issue summary: ChaCha20-Poly1305 and AES-OCB decryption
+│                       │       │                   with an empty
+│                       │       │                   ciphertext can report success without verifying the
+│                       │       │                   supplied authentication
+│                       │       │                   tag when the operation is finalized by calling the
+│                       │       │                   EVP_Cipher() function.
+│                       │       │                   
+│                       │       │                   Impact summary: Applications calling EVP_Cipher() on an
+│                       │       │                   empty ciphertext and
+│                       │       │                   expecting the call to check the AEAD tag may accept forged
+│                       │       │                   messages.
+│                       │       │                   CWE: CWE-354 (Improper Validation of Integrity Check
+│                       │       │                   Value)
+│                       │       │                   Description: The EVP_Cipher() API call for AEAD ciphers
+│                       │       │                   behaves like a one
+│                       │       │                   shot encryption and decryption call. It also verifies the
+│                       │       │                   AEAD tag after the
+│                       │       │                   decryption operation. However for AES-OCB and
+│                       │       │                   ChaCha20-Poly1305 ciphers
+│                       │       │                   it skipped the AEAD tag verification when an empty
+│                       │       │                   ciphertext was passed to
+│                       │       │                   the function. The callers of this function might believe
+│                       │       │                   that a successful
+│                       │       │                   return indicates a valid AEAD tag for these ciphers, even
+│                       │       │                   when that has not
+│                       │       │                   truly been validated in this case.
+│                       │       │                   FIPS impact: no
+│                       │       │                   The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are not
+│                       │       │                   affected by this CVE
+│                       │       │                   as the affected algorithms are not FIPS approved and thus
+│                       │       │                   not implemented
+│                       │       │                   in the FIPS module. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-354 
+│                       │       ├ VendorSeverity   ─ ubuntu: 1 
+│                       │       ├ References       ╭ [0]: https://github.com/openssl/openssl/commit/119ab9555dc
+│                       │       │                  │      62275bbd71f6f49529b1a44feba42 
+│                       │       │                  ├ [1]: https://github.com/openssl/openssl/commit/3621257986e
+│                       │       │                  │      27e540bf96a11570929a6e5a9e05b 
+│                       │       │                  ├ [2]: https://github.com/openssl/openssl/commit/6c7aa6f8f64
+│                       │       │                  │      49b7fe0137ee8be65fcd239bd7d6a 
+│                       │       │                  ├ [3]: https://github.com/openssl/openssl/commit/bdeb0cd994d
+│                       │       │                  │      915342787f117ee75044f0dc36f34 
+│                       │       │                  ├ [4]: https://github.com/openssl/openssl/commit/bf95f5f772e
+│                       │       │                  │      9362f87b25cfa2f8cb15d984865b9 
+│                       │       │                  ├ [5]: https://openssl-library.org/news/secadv/20260825.txt 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8678-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-75803 
+│                       │       ├ PublishedDate   : 2026-08-25T13:19:29.57Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T13:19:29.57Z 
+│                       ├ [85]  ╭ VulnerabilityID : CVE-2024-56433 
 │                       │       ├ PkgID           : passwd@1:4.17.4-2ubuntu3 
 │                       │       ├ PkgName         : passwd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.17.4-2ubuntu3?arch=amd64&dis
@@ -3776,28 +6476,29 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 3.6 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20559 
-│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56433 
-│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2334165 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2334165 
-│                       │       │                  ├ [4] : https://creativecommons.org/licenses/by/4.0/ 
-│                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20145 
+│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:20559 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-56433 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/2334165 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2334165 
+│                       │       │                  ├ [5] : https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       024-56433 
-│                       │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │       │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:20559 
-│                       │       │                  ├ [8] : https://github.com/shadow-maint/shadow/blob/e2512d57
+│                       │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
+│                       │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2025:20145 
+│                       │       │                  ├ [9] : https://github.com/shadow-maint/shadow/blob/e2512d57
 │                       │       │                  │       41d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238
 │                       │       │                  │       -L241 
-│                       │       │                  ├ [9] : https://github.com/shadow-maint/shadow/issues/1157 
-│                       │       │                  ├ [10]: https://github.com/shadow-maint/shadow/releases/tag/
+│                       │       │                  ├ [10]: https://github.com/shadow-maint/shadow/issues/1157 
+│                       │       │                  ├ [11]: https://github.com/shadow-maint/shadow/releases/tag/
 │                       │       │                  │       4.4 
-│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-56433.html 
-│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-20559-0.html 
-│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
-│                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
+│                       │       │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-56433.html 
+│                       │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-20559-0.html 
+│                       │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
+│                       │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │       ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:12:10.903Z 
-│                       ├ [56]  ╭ VulnerabilityID : CVE-2026-35341 
+│                       ├ [86]  ╭ VulnerabilityID : CVE-2026-35341 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -3844,7 +6545,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-35341 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:36.06Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:40:25.5Z 
-│                       ├ [57]  ╭ VulnerabilityID : CVE-2026-35344 
+│                       ├ [87]  ╭ VulnerabilityID : CVE-2026-35344 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -3888,7 +6589,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35344 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:36.49Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:40:25.833Z 
-│                       ├ [58]  ╭ VulnerabilityID : CVE-2026-35345 
+│                       ├ [88]  ╭ VulnerabilityID : CVE-2026-35345 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -3934,7 +6635,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35345 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:36.627Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:40:25.943Z 
-│                       ├ [59]  ╭ VulnerabilityID : CVE-2026-35348 
+│                       ├ [89]  ╭ VulnerabilityID : CVE-2026-35348 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -3976,7 +6677,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35348 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:37.04Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:40:26.27Z 
-│                       ├ [60]  ╭ VulnerabilityID : CVE-2026-35350 
+│                       ├ [90]  ╭ VulnerabilityID : CVE-2026-35350 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -4019,7 +6720,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35350 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:37.327Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:40:26.48Z 
-│                       ├ [61]  ╭ VulnerabilityID : CVE-2026-35351 
+│                       ├ [91]  ╭ VulnerabilityID : CVE-2026-35351 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -4063,7 +6764,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-35351 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:37.457Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:40:26.587Z 
-│                       ├ [62]  ╭ VulnerabilityID : CVE-2026-35352 
+│                       ├ [92]  ╭ VulnerabilityID : CVE-2026-35352 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -4109,7 +6810,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-35352 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:37.597Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:40:26.69Z 
-│                       ├ [63]  ╭ VulnerabilityID : CVE-2026-35354 
+│                       ├ [93]  ╭ VulnerabilityID : CVE-2026-35354 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -4153,7 +6854,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35354 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:37.867Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:40:26.907Z 
-│                       ├ [64]  ╭ VulnerabilityID : CVE-2026-35357 
+│                       ├ [94]  ╭ VulnerabilityID : CVE-2026-35357 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -4196,7 +6897,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35357 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:38.267Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:40:27.223Z 
-│                       ├ [65]  ╭ VulnerabilityID : CVE-2026-35359 
+│                       ├ [95]  ╭ VulnerabilityID : CVE-2026-35359 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -4241,7 +6942,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35359 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:38.537Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:40:27.437Z 
-│                       ├ [66]  ╭ VulnerabilityID : CVE-2026-35360 
+│                       ├ [96]  ╭ VulnerabilityID : CVE-2026-35360 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -4283,7 +6984,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35360 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:38.673Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:40:27.543Z 
-│                       ├ [67]  ╭ VulnerabilityID : CVE-2026-35363 
+│                       ├ [97]  ╭ VulnerabilityID : CVE-2026-35363 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -4330,7 +7031,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-35363 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:39.12Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:40:27.867Z 
-│                       ├ [68]  ╭ VulnerabilityID : CVE-2026-35364 
+│                       ├ [98]  ╭ VulnerabilityID : CVE-2026-35364 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -4374,7 +7075,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35364 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:39.737Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:40:27.97Z 
-│                       ├ [69]  ╭ VulnerabilityID : CVE-2026-35367 
+│                       ├ [99]  ╭ VulnerabilityID : CVE-2026-35367 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -4418,7 +7119,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35367 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:40.423Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:40:28.297Z 
-│                       ├ [70]  ╭ VulnerabilityID : CVE-2026-35368 
+│                       ├ [100] ╭ VulnerabilityID : CVE-2026-35368 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -4462,7 +7163,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35368 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:40.56Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:40:28.4Z 
-│                       ├ [71]  ╭ VulnerabilityID : CVE-2026-35370 
+│                       ├ [101] ╭ VulnerabilityID : CVE-2026-35370 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -4507,7 +7208,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-35370 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:40.833Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:40:28.613Z 
-│                       ├ [72]  ╭ VulnerabilityID : CVE-2026-35371 
+│                       ├ [102] ╭ VulnerabilityID : CVE-2026-35371 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -4552,7 +7253,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-35371 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:40.987Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:40:28.723Z 
-│                       ├ [73]  ╭ VulnerabilityID : CVE-2026-35373 
+│                       ├ [103] ╭ VulnerabilityID : CVE-2026-35373 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -4604,7 +7305,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-35373 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:41.997Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:40:28.933Z 
-│                       ├ [74]  ╭ VulnerabilityID : CVE-2026-35374 
+│                       ├ [104] ╭ VulnerabilityID : CVE-2026-35374 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -4652,7 +7353,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35374 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:42.127Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:40:29.04Z 
-│                       ├ [75]  ╭ VulnerabilityID : CVE-2026-35377 
+│                       ├ [105] ╭ VulnerabilityID : CVE-2026-35377 
 │                       │       ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │       ├ PkgName         : rust-coreutils 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=am
@@ -4700,7 +7401,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35377 
 │                       │       ├ PublishedDate   : 2026-04-22T17:16:42.577Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:40:29.357Z 
-│                       ├ [76]  ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [106] ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : systemd@259.5-0ubuntu3.4 
 │                       │       ├ PkgName         : systemd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@259.5-0ubuntu3.4?arch=amd64&d
@@ -4744,7 +7445,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                       ├ [77]  ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [107] ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : systemd-cryptsetup@259.5-0ubuntu3.4 
 │                       │       ├ PkgName         : systemd-cryptsetup 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-cryptsetup@259.5-0ubuntu3.4?a
@@ -4788,7 +7489,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                       ├ [78]  ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [108] ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : systemd-resolved@259.5-0ubuntu3.4 
 │                       │       ├ PkgName         : systemd-resolved 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-resolved@259.5-0ubuntu3.4?arc
@@ -4832,7 +7533,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                       ├ [79]  ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [109] ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : systemd-sysv@259.5-0ubuntu3.4 
 │                       │       ├ PkgName         : systemd-sysv 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@259.5-0ubuntu3.4?arch=am
@@ -4876,7 +7577,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                       ├ [80]  ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [110] ╭ VulnerabilityID : CVE-2026-40228 
 │                       │       ├ PkgID           : systemd-timesyncd@259.5-0ubuntu3.4 
 │                       │       ├ PkgName         : systemd-timesyncd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@259.5-0ubuntu3.4?ar
@@ -4920,7 +7621,7 @@
 │                       │       │                         8/1 
 │                       │       ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                       ├ [81]  ╭ VulnerabilityID : CVE-2026-18477 
+│                       ├ [111] ╭ VulnerabilityID : CVE-2026-18477 
 │                       │       ├ PkgID           : tar@1.35+dfsg-4ubuntu0.4 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-4ubuntu0.4?arch=amd64
@@ -4973,7 +7674,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-18477 
 │                       │       ├ PublishedDate   : 2026-08-03T17:16:33.897Z 
 │                       │       ╰ LastModifiedDate: 2026-08-21T13:16:55.253Z 
-│                       ├ [82]  ╭ VulnerabilityID : CVE-2026-18508 
+│                       ├ [112] ╭ VulnerabilityID : CVE-2026-18508 
 │                       │       ├ PkgID           : tar@1.35+dfsg-4ubuntu0.4 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-4ubuntu0.4?arch=amd64
@@ -5017,7 +7718,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-18508 
 │                       │       ├ PublishedDate   : 2026-08-03T16:16:28.387Z 
 │                       │       ╰ LastModifiedDate: 2026-08-21T13:16:55.433Z 
-│                       ├ [83]  ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [113] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │       ├ PkgID           : tshark@4.6.4-1 
 │                       │       ├ PkgName         : tshark 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tshark@4.6.4-1?arch=amd64&distro=ubun
@@ -5074,7 +7775,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T04:04:25.67Z 
-│                       ├ [84]  ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [114] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : util-linux@2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : util-linux 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/util-linux@2.41.3-3ubuntu2?arch=amd64
@@ -5148,7 +7849,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T22:10:00.14Z 
-│                       ├ [85]  ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [115] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │       ├ PkgID           : util-linux@2.41.3-3ubuntu2 
 │                       │       ├ PkgName         : util-linux 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/util-linux@2.41.3-3ubuntu2?arch=amd64
@@ -5198,7 +7899,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │       ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │       ╰ LastModifiedDate: 2026-08-21T13:17:47.457Z 
-│                       ├ [86]  ╭ VulnerabilityID : CVE-2026-51400 
+│                       ├ [116] ╭ VulnerabilityID : CVE-2026-51400 
 │                       │       ├ PkgID           : vim@2:9.1.2141-1ubuntu4.8 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.8?arch=amd64&di
@@ -5236,7 +7937,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-51400 
 │                       │       ├ PublishedDate   : 2026-08-04T21:16:36.433Z 
 │                       │       ╰ LastModifiedDate: 2026-08-05T18:17:11.477Z 
-│                       ├ [87]  ╭ VulnerabilityID : CVE-2026-51401 
+│                       ├ [117] ╭ VulnerabilityID : CVE-2026-51401 
 │                       │       ├ PkgID           : vim@2:9.1.2141-1ubuntu4.8 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.8?arch=amd64&di
@@ -5276,7 +7977,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-51401 
 │                       │       ├ PublishedDate   : 2026-08-04T21:16:36.567Z 
 │                       │       ╰ LastModifiedDate: 2026-08-05T20:17:09.31Z 
-│                       ├ [88]  ╭ VulnerabilityID : CVE-2026-73073 
+│                       ├ [118] ╭ VulnerabilityID : CVE-2026-73073 
 │                       │       ├ PkgID           : vim@2:9.1.2141-1ubuntu4.8 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim@9.1.2141-1ubuntu4.8?arch=amd64&di
@@ -5316,10 +8017,11 @@
 │                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0845 
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-c
 │                       │       │                  │      x73-phcg-3j5g 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-73073 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8679-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-73073 
 │                       │       ├ PublishedDate   : 2026-08-18T16:18:16.73Z 
 │                       │       ╰ LastModifiedDate: 2026-08-18T16:18:16.73Z 
-│                       ├ [89]  ╭ VulnerabilityID : CVE-2026-51400 
+│                       ├ [119] ╭ VulnerabilityID : CVE-2026-51400 
 │                       │       ├ PkgID           : vim-common@2:9.1.2141-1ubuntu4.8 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.8?arch=a
@@ -5357,7 +8059,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-51400 
 │                       │       ├ PublishedDate   : 2026-08-04T21:16:36.433Z 
 │                       │       ╰ LastModifiedDate: 2026-08-05T18:17:11.477Z 
-│                       ├ [90]  ╭ VulnerabilityID : CVE-2026-51401 
+│                       ├ [120] ╭ VulnerabilityID : CVE-2026-51401 
 │                       │       ├ PkgID           : vim-common@2:9.1.2141-1ubuntu4.8 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.8?arch=a
@@ -5397,7 +8099,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-51401 
 │                       │       ├ PublishedDate   : 2026-08-04T21:16:36.567Z 
 │                       │       ╰ LastModifiedDate: 2026-08-05T20:17:09.31Z 
-│                       ├ [91]  ╭ VulnerabilityID : CVE-2026-73073 
+│                       ├ [121] ╭ VulnerabilityID : CVE-2026-73073 
 │                       │       ├ PkgID           : vim-common@2:9.1.2141-1ubuntu4.8 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-common@9.1.2141-1ubuntu4.8?arch=a
@@ -5437,10 +8139,11 @@
 │                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0845 
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-c
 │                       │       │                  │      x73-phcg-3j5g 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-73073 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8679-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-73073 
 │                       │       ├ PublishedDate   : 2026-08-18T16:18:16.73Z 
 │                       │       ╰ LastModifiedDate: 2026-08-18T16:18:16.73Z 
-│                       ├ [92]  ╭ VulnerabilityID : CVE-2026-51400 
+│                       ├ [122] ╭ VulnerabilityID : CVE-2026-51400 
 │                       │       ├ PkgID           : vim-runtime@2:9.1.2141-1ubuntu4.8 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.8?arch=
@@ -5478,7 +8181,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-51400 
 │                       │       ├ PublishedDate   : 2026-08-04T21:16:36.433Z 
 │                       │       ╰ LastModifiedDate: 2026-08-05T18:17:11.477Z 
-│                       ├ [93]  ╭ VulnerabilityID : CVE-2026-51401 
+│                       ├ [123] ╭ VulnerabilityID : CVE-2026-51401 
 │                       │       ├ PkgID           : vim-runtime@2:9.1.2141-1ubuntu4.8 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.8?arch=
@@ -5518,7 +8221,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-51401 
 │                       │       ├ PublishedDate   : 2026-08-04T21:16:36.567Z 
 │                       │       ╰ LastModifiedDate: 2026-08-05T20:17:09.31Z 
-│                       ├ [94]  ╭ VulnerabilityID : CVE-2026-73073 
+│                       ├ [124] ╭ VulnerabilityID : CVE-2026-73073 
 │                       │       ├ PkgID           : vim-runtime@2:9.1.2141-1ubuntu4.8 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/vim-runtime@9.1.2141-1ubuntu4.8?arch=
@@ -5558,10 +8261,11 @@
 │                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0845 
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-c
 │                       │       │                  │      x73-phcg-3j5g 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-73073 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8679-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-73073 
 │                       │       ├ PublishedDate   : 2026-08-18T16:18:16.73Z 
 │                       │       ╰ LastModifiedDate: 2026-08-18T16:18:16.73Z 
-│                       ├ [95]  ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [125] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │       ├ PkgID           : wget@1.25.0-2ubuntu4.4 
 │                       │       ├ PkgName         : wget 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.25.0-2ubuntu4.4?arch=amd64&dis
@@ -5614,7 +8318,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │       ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T03:52:23.987Z 
-│                       ├ [96]  ╭ VulnerabilityID : CVE-2021-39920 
+│                       ├ [126] ╭ VulnerabilityID : CVE-2021-39920 
 │                       │       ├ PkgID           : wireshark-common@4.6.4-1 
 │                       │       ├ PkgName         : wireshark-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wireshark-common@4.6.4-1?arch=amd64&d
@@ -5671,7 +8375,7 @@
 │                       │       │                         tml 
 │                       │       ├ PublishedDate   : 2021-11-18T19:15:08.333Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T04:04:25.67Z 
-│                       ├ [97]  ╭ VulnerabilityID : CVE-2026-51400 
+│                       ├ [127] ╭ VulnerabilityID : CVE-2026-51400 
 │                       │       ├ PkgID           : xxd@2:9.1.2141-1ubuntu4.8 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.8?arch=amd64&di
@@ -5709,7 +8413,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-51400 
 │                       │       ├ PublishedDate   : 2026-08-04T21:16:36.433Z 
 │                       │       ╰ LastModifiedDate: 2026-08-05T18:17:11.477Z 
-│                       ├ [98]  ╭ VulnerabilityID : CVE-2026-51401 
+│                       ├ [128] ╭ VulnerabilityID : CVE-2026-51401 
 │                       │       ├ PkgID           : xxd@2:9.1.2141-1ubuntu4.8 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.8?arch=amd64&di
@@ -5749,7 +8453,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-51401 
 │                       │       ├ PublishedDate   : 2026-08-04T21:16:36.567Z 
 │                       │       ╰ LastModifiedDate: 2026-08-05T20:17:09.31Z 
-│                       ├ [99]  ╭ VulnerabilityID : CVE-2026-73073 
+│                       ├ [129] ╭ VulnerabilityID : CVE-2026-73073 
 │                       │       ├ PkgID           : xxd@2:9.1.2141-1ubuntu4.8 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xxd@9.1.2141-1ubuntu4.8?arch=amd64&di
@@ -5789,10 +8493,11 @@
 │                       │       │                  ├ [1]: https://github.com/vim/vim/releases/tag/v9.2.0845 
 │                       │       │                  ├ [2]: https://github.com/vim/vim/security/advisories/GHSA-c
 │                       │       │                  │      x73-phcg-3j5g 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-73073 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8679-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-73073 
 │                       │       ├ PublishedDate   : 2026-08-18T16:18:16.73Z 
 │                       │       ╰ LastModifiedDate: 2026-08-18T16:18:16.73Z 
-│                       ╰ [100] ╭ VulnerabilityID : CVE-2026-27171 
+│                       ╰ [130] ╭ VulnerabilityID : CVE-2026-27171 
 │                               ├ PkgID           : zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu3 
 │                               ├ PkgName         : zlib1g 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/zlib1g@1.3.dfsg%2Breally1.3.1-1ubuntu
@@ -6437,68 +9142,74 @@
                         │     │                  ├ [83] : https://access.redhat.com/errata/RHSA-2026:47735 
                         │     │                  ├ [84] : https://access.redhat.com/errata/RHSA-2026:47737 
                         │     │                  ├ [85] : https://access.redhat.com/errata/RHSA-2026:47952 
-                        │     │                  ├ [86] : https://access.redhat.com/errata/RHSA-2026:50300 
-                        │     │                  ├ [87] : https://access.redhat.com/errata/RHSA-2026:50843 
-                        │     │                  ├ [88] : https://access.redhat.com/errata/RHSA-2026:51033 
-                        │     │                  ├ [89] : https://access.redhat.com/errata/RHSA-2026:51112 
-                        │     │                  ├ [90] : https://access.redhat.com/errata/RHSA-2026:51187 
-                        │     │                  ├ [91] : https://access.redhat.com/errata/RHSA-2026:51194 
-                        │     │                  ├ [92] : https://access.redhat.com/errata/RHSA-2026:51341 
-                        │     │                  ├ [93] : https://access.redhat.com/errata/RHSA-2026:52826 
-                        │     │                  ├ [94] : https://access.redhat.com/errata/RHSA-2026:53374 
-                        │     │                  ├ [95] : https://access.redhat.com/errata/RHSA-2026:53412 
-                        │     │                  ├ [96] : https://access.redhat.com/errata/RHSA-2026:53413 
-                        │     │                  ├ [97] : https://access.redhat.com/errata/RHSA-2026:53415 
-                        │     │                  ├ [98] : https://access.redhat.com/errata/RHSA-2026:53530 
-                        │     │                  ├ [99] : https://access.redhat.com/errata/RHSA-2026:54191 
-                        │     │                  ├ [100]: https://access.redhat.com/errata/RHSA-2026:54274 
-                        │     │                  ├ [101]: https://access.redhat.com/errata/RHSA-2026:54283 
-                        │     │                  ├ [102]: https://access.redhat.com/errata/RHSA-2026:54284 
-                        │     │                  ├ [103]: https://access.redhat.com/errata/RHSA-2026:54285 
-                        │     │                  ├ [104]: https://access.redhat.com/errata/RHSA-2026:54286 
-                        │     │                  ├ [105]: https://access.redhat.com/errata/RHSA-2026:54287 
-                        │     │                  ├ [106]: https://access.redhat.com/errata/RHSA-2026:54395 
-                        │     │                  ├ [107]: https://access.redhat.com/errata/RHSA-2026:54401 
-                        │     │                  ├ [108]: https://access.redhat.com/errata/RHSA-2026:54435 
-                        │     │                  ├ [109]: https://access.redhat.com/errata/RHSA-2026:54441 
-                        │     │                  ├ [110]: https://access.redhat.com/errata/RHSA-2026:54531 
-                        │     │                  ├ [111]: https://access.redhat.com/errata/RHSA-2026:54580 
-                        │     │                  ├ [112]: https://access.redhat.com/errata/RHSA-2026:54757 
-                        │     │                  ├ [113]: https://access.redhat.com/errata/RHSA-2026:56143 
-                        │     │                  ├ [114]: https://access.redhat.com/errata/RHSA-2026:56223 
-                        │     │                  ├ [115]: https://access.redhat.com/errata/RHSA-2026:56340 
-                        │     │                  ├ [116]: https://access.redhat.com/errata/RHSA-2026:56431 
-                        │     │                  ├ [117]: https://access.redhat.com/errata/RHSA-2026:57194 
-                        │     │                  ├ [118]: https://access.redhat.com/errata/RHSA-2026:57541 
-                        │     │                  ├ [119]: https://access.redhat.com/security/cve/CVE-2026-39821 
-                        │     │                  ├ [120]: https://bugzilla.redhat.com/2480756 
-                        │     │                  ├ [121]: https://bugzilla.redhat.com/2484207 
-                        │     │                  ├ [122]: https://bugzilla.redhat.com/show_bug.cgi?id=2480756 
-                        │     │                  ├ [123]: https://bugzilla.redhat.com/show_bug.cgi?id=2498152 
-                        │     │                  ├ [124]: https://creativecommons.org/licenses/by/4.0/ 
-                        │     │                  ├ [125]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+                        │     │                  ├ [86] : https://access.redhat.com/errata/RHSA-2026:49702 
+                        │     │                  ├ [87] : https://access.redhat.com/errata/RHSA-2026:49712 
+                        │     │                  ├ [88] : https://access.redhat.com/errata/RHSA-2026:50300 
+                        │     │                  ├ [89] : https://access.redhat.com/errata/RHSA-2026:50843 
+                        │     │                  ├ [90] : https://access.redhat.com/errata/RHSA-2026:51033 
+                        │     │                  ├ [91] : https://access.redhat.com/errata/RHSA-2026:51112 
+                        │     │                  ├ [92] : https://access.redhat.com/errata/RHSA-2026:51187 
+                        │     │                  ├ [93] : https://access.redhat.com/errata/RHSA-2026:51194 
+                        │     │                  ├ [94] : https://access.redhat.com/errata/RHSA-2026:51341 
+                        │     │                  ├ [95] : https://access.redhat.com/errata/RHSA-2026:52826 
+                        │     │                  ├ [96] : https://access.redhat.com/errata/RHSA-2026:53374 
+                        │     │                  ├ [97] : https://access.redhat.com/errata/RHSA-2026:53412 
+                        │     │                  ├ [98] : https://access.redhat.com/errata/RHSA-2026:53413 
+                        │     │                  ├ [99] : https://access.redhat.com/errata/RHSA-2026:53415 
+                        │     │                  ├ [100]: https://access.redhat.com/errata/RHSA-2026:53530 
+                        │     │                  ├ [101]: https://access.redhat.com/errata/RHSA-2026:54191 
+                        │     │                  ├ [102]: https://access.redhat.com/errata/RHSA-2026:54274 
+                        │     │                  ├ [103]: https://access.redhat.com/errata/RHSA-2026:54283 
+                        │     │                  ├ [104]: https://access.redhat.com/errata/RHSA-2026:54284 
+                        │     │                  ├ [105]: https://access.redhat.com/errata/RHSA-2026:54285 
+                        │     │                  ├ [106]: https://access.redhat.com/errata/RHSA-2026:54286 
+                        │     │                  ├ [107]: https://access.redhat.com/errata/RHSA-2026:54287 
+                        │     │                  ├ [108]: https://access.redhat.com/errata/RHSA-2026:54395 
+                        │     │                  ├ [109]: https://access.redhat.com/errata/RHSA-2026:54401 
+                        │     │                  ├ [110]: https://access.redhat.com/errata/RHSA-2026:54435 
+                        │     │                  ├ [111]: https://access.redhat.com/errata/RHSA-2026:54441 
+                        │     │                  ├ [112]: https://access.redhat.com/errata/RHSA-2026:54531 
+                        │     │                  ├ [113]: https://access.redhat.com/errata/RHSA-2026:54580 
+                        │     │                  ├ [114]: https://access.redhat.com/errata/RHSA-2026:54757 
+                        │     │                  ├ [115]: https://access.redhat.com/errata/RHSA-2026:56143 
+                        │     │                  ├ [116]: https://access.redhat.com/errata/RHSA-2026:56223 
+                        │     │                  ├ [117]: https://access.redhat.com/errata/RHSA-2026:56340 
+                        │     │                  ├ [118]: https://access.redhat.com/errata/RHSA-2026:56431 
+                        │     │                  ├ [119]: https://access.redhat.com/errata/RHSA-2026:57194 
+                        │     │                  ├ [120]: https://access.redhat.com/errata/RHSA-2026:57541 
+                        │     │                  ├ [121]: https://access.redhat.com/errata/RHSA-2026:57649 
+                        │     │                  ├ [122]: https://access.redhat.com/errata/RHSA-2026:57845 
+                        │     │                  ├ [123]: https://access.redhat.com/errata/RHSA-2026:59546 
+                        │     │                  ├ [124]: https://access.redhat.com/errata/RHSA-2026:59549 
+                        │     │                  ├ [125]: https://access.redhat.com/errata/RHSA-2026:59562 
+                        │     │                  ├ [126]: https://access.redhat.com/security/cve/CVE-2026-39821 
+                        │     │                  ├ [127]: https://bugzilla.redhat.com/2480756 
+                        │     │                  ├ [128]: https://bugzilla.redhat.com/show_bug.cgi?id=2480756 
+                        │     │                  ├ [129]: https://bugzilla.redhat.com/show_bug.cgi?id=2498152 
+                        │     │                  ├ [130]: https://creativecommons.org/licenses/by/4.0/ 
+                        │     │                  ├ [131]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
                         │     │                  │        26-39821 
-                        │     │                  ├ [126]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+                        │     │                  ├ [132]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
                         │     │                  │        26-39822 
-                        │     │                  ├ [127]: https://errata.almalinux.org/10/ALSA-2026-46395.html 
-                        │     │                  ├ [128]: https://errata.rockylinux.org/RLSA-2026:37435 
-                        │     │                  ├ [129]: https://github.com/golang/go/issues/78760 
-                        │     │                  ├ [130]: https://go.dev/cl/767220 
-                        │     │                  ├ [131]: https://go.dev/issue/78760 
-                        │     │                  ├ [132]: https://groups.google.com/g/golang-announce/c/94pEorn
+                        │     │                  ├ [133]: https://errata.almalinux.org/9/ALSA-2026-37435.html 
+                        │     │                  ├ [134]: https://errata.rockylinux.org/RLSA-2026:37436 
+                        │     │                  ├ [135]: https://github.com/golang/go/issues/78760 
+                        │     │                  ├ [136]: https://go.dev/cl/767220 
+                        │     │                  ├ [137]: https://go.dev/issue/78760 
+                        │     │                  ├ [138]: https://groups.google.com/g/golang-announce/c/94pEorn
                         │     │                  │        pRlI 
-                        │     │                  ├ [133]: https://groups.google.com/g/golang-announce/c/iI-mYSI
+                        │     │                  ├ [139]: https://groups.google.com/g/golang-announce/c/iI-mYSI
                         │     │                  │        0lu8 
-                        │     │                  ├ [134]: https://linux.oracle.com/cve/CVE-2026-39821.html 
-                        │     │                  ├ [135]: https://linux.oracle.com/errata/ELSA-2026-46395.html 
-                        │     │                  ├ [136]: https://nvd.nist.gov/vuln/detail/CVE-2026-39821 
-                        │     │                  ├ [137]: https://pkg.go.dev/vuln/GO-2026-5026 
-                        │     │                  ├ [138]: https://security.access.redhat.com/data/csaf/v2/vex/2
+                        │     │                  ├ [140]: https://linux.oracle.com/cve/CVE-2026-39821.html 
+                        │     │                  ├ [141]: https://linux.oracle.com/errata/ELSA-2026-46395.html 
+                        │     │                  ├ [142]: https://nvd.nist.gov/vuln/detail/CVE-2026-39821 
+                        │     │                  ├ [143]: https://pkg.go.dev/vuln/GO-2026-5026 
+                        │     │                  ├ [144]: https://security.access.redhat.com/data/csaf/v2/vex/2
                         │     │                  │        026/cve-2026-39821.json 
-                        │     │                  ├ [139]: https://ubuntu.com/security/notices/USN-8416-1 
-                        │     │                  ╰ [140]: https://www.cve.org/CVERecord?id=CVE-2026-39821 
+                        │     │                  ├ [145]: https://ubuntu.com/security/notices/USN-8416-1 
+                        │     │                  ╰ [146]: https://www.cve.org/CVERecord?id=CVE-2026-39821 
                         │     ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
-                        │     ╰ LastModifiedDate: 2026-08-25T13:18:46.24Z 
+                        │     ╰ LastModifiedDate: 2026-08-26T13:18:36.16Z 
                         ├ [2] ╭ VulnerabilityID : CVE-2026-46600 
                         │     ├ VendorIDs        ─ [0]: GO-2026-5942 
                         │     ├ PkgID           : stdlib@v1.26.5 
