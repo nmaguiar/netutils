@@ -295,6 +295,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-63076
     - https://openssl-library.org/news/secadv/20260825.txt
     - https://ubuntu.com/security/notices/USN-8678-1
+    - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63076
     PublishedDate: '2026-08-25T13:19:26.543Z'
     LastModifiedDate: '2026-08-25T15:16:36.593Z'
@@ -608,6 +609,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-63074
     - https://openssl-library.org/news/secadv/20260825.txt
     - https://ubuntu.com/security/notices/USN-8678-1
+    - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63074
     PublishedDate: '2026-08-25T13:19:26.283Z'
     LastModifiedDate: '2026-08-25T15:16:36.243Z'
@@ -1032,6 +1034,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-63076
     - https://openssl-library.org/news/secadv/20260825.txt
     - https://ubuntu.com/security/notices/USN-8678-1
+    - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63076
     PublishedDate: '2026-08-25T13:19:26.543Z'
     LastModifiedDate: '2026-08-25T15:16:36.593Z'
@@ -1345,6 +1348,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-63074
     - https://openssl-library.org/news/secadv/20260825.txt
     - https://ubuntu.com/security/notices/USN-8678-1
+    - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63074
     PublishedDate: '2026-08-25T13:19:26.283Z'
     LastModifiedDate: '2026-08-25T15:16:36.243Z'
@@ -1769,6 +1773,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-63076
     - https://openssl-library.org/news/secadv/20260825.txt
     - https://ubuntu.com/security/notices/USN-8678-1
+    - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63076
     PublishedDate: '2026-08-25T13:19:26.543Z'
     LastModifiedDate: '2026-08-25T15:16:36.593Z'
@@ -2082,6 +2087,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-63074
     - https://openssl-library.org/news/secadv/20260825.txt
     - https://ubuntu.com/security/notices/USN-8678-1
+    - https://ubuntu.com/security/notices/USN-8678-2
     - https://www.cve.org/CVERecord?id=CVE-2026-63074
     PublishedDate: '2026-08-25T13:19:26.283Z'
     LastModifiedDate: '2026-08-25T15:16:36.243Z'
