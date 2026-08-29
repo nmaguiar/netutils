@@ -2791,16 +2791,16 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:
 │                       │      │                            │           H/A:N 
 │                       │      │                            ╰ V3Score : 7.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:54268 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:59009 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:58902 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:58928 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-11940 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2491848 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2491848 
 │                       │      │                  ├ [5] : https://creativecommons.org/licenses/by/4.0/ 
 │                       │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-11940 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2026-59009.html 
-│                       │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2026:54268 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/10/ALSA-2026-58928.html 
+│                       │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2026:58902 
 │                       │      │                  ├ [9] : https://github.com/python/cpython/commit/0f852b3f07dd
 │                       │      │                  │       8e71e40326a51c02afbf16a42cc5 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/commit/27dd970bf6b1
@@ -2872,16 +2872,16 @@
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/07/09/4 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39798 
-│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:41949 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39183 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:40856 
 │                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-15308 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2498608 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2498608 
 │                       │      │                  ├ [6] : https://creativecommons.org/licenses/by/4.0/ 
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-15308 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-41949.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39798 
+│                       │      │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2026-40856.html 
+│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39183 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/commit/07efb08123ba
 │                       │      │                  │       9367a7107325adb9d5626dca1ca9 
 │                       │      │                  ├ [11]: https://github.com/python/cpython/commit/1e7956f1a722
@@ -3009,9 +3009,9 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4168 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:4216 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-15366 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4713 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-15366 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2431367 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2431368 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2431373 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2432437 
@@ -3028,8 +3028,8 @@
 │                       │      │                  │       26-0865 
 │                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-1299 
-│                       │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2026-4216.html 
-│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:4168 
+│                       │      │                  ├ [15]: https://errata.almalinux.org/10/ALSA-2026-4713.html 
+│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:4713 
 │                       │      │                  ├ [17]: https://github.com/python/cpython/commit/298182272a74
 │                       │      │                  │       0ce2016aee2f54acbd0bba1944c1 
 │                       │      │                  ├ [18]: https://github.com/python/cpython/commit/6262704b134d
@@ -3631,16 +3631,16 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:
 │                       │      │                            │           H/A:N 
 │                       │      │                            ╰ V3Score : 7.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:54268 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:59009 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:58902 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:58928 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-11940 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2491848 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2491848 
 │                       │      │                  ├ [5] : https://creativecommons.org/licenses/by/4.0/ 
 │                       │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-11940 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2026-59009.html 
-│                       │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2026:54268 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/10/ALSA-2026-58928.html 
+│                       │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2026:58902 
 │                       │      │                  ├ [9] : https://github.com/python/cpython/commit/0f852b3f07dd
 │                       │      │                  │       8e71e40326a51c02afbf16a42cc5 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/commit/27dd970bf6b1
@@ -3713,16 +3713,16 @@
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/07/09/4 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39798 
-│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:41949 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39183 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:40856 
 │                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-15308 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2498608 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2498608 
 │                       │      │                  ├ [6] : https://creativecommons.org/licenses/by/4.0/ 
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-15308 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-41949.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39798 
+│                       │      │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2026-40856.html 
+│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39183 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/commit/07efb08123ba
 │                       │      │                  │       9367a7107325adb9d5626dca1ca9 
 │                       │      │                  ├ [11]: https://github.com/python/cpython/commit/1e7956f1a722
@@ -3852,9 +3852,9 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4168 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:4216 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-15366 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4713 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-15366 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2431367 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2431368 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2431373 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2432437 
@@ -3871,8 +3871,8 @@
 │                       │      │                  │       26-0865 
 │                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-1299 
-│                       │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2026-4216.html 
-│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:4168 
+│                       │      │                  ├ [15]: https://errata.almalinux.org/10/ALSA-2026-4713.html 
+│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:4713 
 │                       │      │                  ├ [17]: https://github.com/python/cpython/commit/298182272a74
 │                       │      │                  │       0ce2016aee2f54acbd0bba1944c1 
 │                       │      │                  ├ [18]: https://github.com/python/cpython/commit/6262704b134d
@@ -4482,16 +4482,16 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:
 │                       │      │                            │           H/A:N 
 │                       │      │                            ╰ V3Score : 7.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:54268 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:59009 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:58902 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:58928 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-11940 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2491848 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2491848 
 │                       │      │                  ├ [5] : https://creativecommons.org/licenses/by/4.0/ 
 │                       │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-11940 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2026-59009.html 
-│                       │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2026:54268 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/10/ALSA-2026-58928.html 
+│                       │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2026:58902 
 │                       │      │                  ├ [9] : https://github.com/python/cpython/commit/0f852b3f07dd
 │                       │      │                  │       8e71e40326a51c02afbf16a42cc5 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/commit/27dd970bf6b1
@@ -4564,16 +4564,16 @@
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/07/09/4 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39798 
-│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:41949 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39183 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:40856 
 │                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-15308 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2498608 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2498608 
 │                       │      │                  ├ [6] : https://creativecommons.org/licenses/by/4.0/ 
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-15308 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-41949.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39798 
+│                       │      │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2026-40856.html 
+│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39183 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/commit/07efb08123ba
 │                       │      │                  │       9367a7107325adb9d5626dca1ca9 
 │                       │      │                  ├ [11]: https://github.com/python/cpython/commit/1e7956f1a722
@@ -4703,9 +4703,9 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4168 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:4216 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-15366 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4713 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-15366 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2431367 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2431368 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2431373 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2432437 
@@ -4722,8 +4722,8 @@
 │                       │      │                  │       26-0865 
 │                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-1299 
-│                       │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2026-4216.html 
-│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:4168 
+│                       │      │                  ├ [15]: https://errata.almalinux.org/10/ALSA-2026-4713.html 
+│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:4713 
 │                       │      │                  ├ [17]: https://github.com/python/cpython/commit/298182272a74
 │                       │      │                  │       0ce2016aee2f54acbd0bba1944c1 
 │                       │      │                  ├ [18]: https://github.com/python/cpython/commit/6262704b134d
@@ -5333,16 +5333,16 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:
 │                       │      │                            │           H/A:N 
 │                       │      │                            ╰ V3Score : 7.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:54268 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:59009 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:58902 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:58928 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-11940 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2491848 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2491848 
 │                       │      │                  ├ [5] : https://creativecommons.org/licenses/by/4.0/ 
 │                       │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-11940 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2026-59009.html 
-│                       │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2026:54268 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/10/ALSA-2026-58928.html 
+│                       │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2026:58902 
 │                       │      │                  ├ [9] : https://github.com/python/cpython/commit/0f852b3f07dd
 │                       │      │                  │       8e71e40326a51c02afbf16a42cc5 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/commit/27dd970bf6b1
@@ -5415,16 +5415,16 @@
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/07/09/4 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39798 
-│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:41949 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:39183 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:40856 
 │                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-15308 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2498608 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2498608 
 │                       │      │                  ├ [6] : https://creativecommons.org/licenses/by/4.0/ 
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-15308 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-41949.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39798 
+│                       │      │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2026-40856.html 
+│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:39183 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/commit/07efb08123ba
 │                       │      │                  │       9367a7107325adb9d5626dca1ca9 
 │                       │      │                  ├ [11]: https://github.com/python/cpython/commit/1e7956f1a722
@@ -5554,9 +5554,9 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.1 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4168 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:4216 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-15366 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:4713 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-15366 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2431367 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2431368 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2431373 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2432437 
@@ -5573,8 +5573,8 @@
 │                       │      │                  │       26-0865 
 │                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-1299 
-│                       │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2026-4216.html 
-│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:4168 
+│                       │      │                  ├ [15]: https://errata.almalinux.org/10/ALSA-2026-4713.html 
+│                       │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2026:4713 
 │                       │      │                  ├ [17]: https://github.com/python/cpython/commit/298182272a74
 │                       │      │                  │       0ce2016aee2f54acbd0bba1944c1 
 │                       │      │                  ├ [18]: https://github.com/python/cpython/commit/6262704b134d
