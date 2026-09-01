@@ -3,6 +3,56 @@
   Type: ubuntu
   Packages: []
   Vulnerabilities:
+  - VulnerabilityID: CVE-2026-13595
+    PkgID: bsdextrautils@2.41.3-3ubuntu2
+    PkgName: bsdextrautils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bsdextrautils@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 3e7202472804e710
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-13595
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:dd2e311c315b41a9b575472f1404e111fb2decd4e21d0127fb2a85af8091fafd
+    Title: 'util-linux: util-linux: heap use-after-free in libblkid nested partition probing'
+    Description: A flaw was found in the libblkid library of util-linux. During nested partition probing, the BSD, Minix, Solaris x86, and UnixWare partition probers cache a raw pointer to a parent partition entry in a dynamically allocated array. When subsequent partition additions cause the array to be reallocated, this pointer becomes stale, leading to a heap use-after-free read. An attacker who can present a crafted block device image (for example, via USB insertion or a loop-mounted disk image) can trigger this flaw without user interaction, as libblkid is invoked automatically by udev/udisks as root on block-device hot-plug events. This could lead to limited information disclosure or denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      azure: 2
+      julia: 2
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:26573
+    - https://access.redhat.com/security/cve/CVE-2026-13595
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494101
+    - https://github.com/util-linux/util-linux/commit/c0186f14fbdb02f64c8e0ba701ce727ea764ff4c
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-13595
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-13595
+    PublishedDate: '2026-06-29T09:16:28.303Z'
+    LastModifiedDate: '2026-08-31T18:17:13.083Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: bsdextrautils@2.41.3-3ubuntu2
     PkgName: bsdextrautils
@@ -10,7 +60,8 @@
       PURL: pkg:deb/ubuntu/bsdextrautils@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
       UID: 3e7202472804e710
     InstalledVersion: 2.41.3-3ubuntu2
-    Status: affected
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -49,6 +100,7 @@
     - https://github.com/util-linux/util-linux/releases/tag/v2.41.4
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-qq4x-vfq4-9h9g
     - https://nvd.nist.gov/vuln/detail/CVE-2026-27456
+    - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-27456
     PublishedDate: '2026-04-03T22:16:25.4Z'
     LastModifiedDate: '2026-07-24T22:10:00.14Z'
@@ -59,7 +111,8 @@
       PURL: pkg:deb/ubuntu/bsdextrautils@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
       UID: 3e7202472804e710
     InstalledVersion: 2.41.3-3ubuntu2
-    Status: affected
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -93,9 +146,194 @@
     - https://access.redhat.com/security/cve/CVE-2026-3184
     - https://bugzilla.redhat.com/show_bug.cgi?id=2442570
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3184
+    - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
-    LastModifiedDate: '2026-08-21T13:17:47.457Z'
+    LastModifiedDate: '2026-08-31T12:17:55.983Z'
+  - VulnerabilityID: CVE-2026-53612
+    PkgID: bsdextrautils@2.41.3-3ubuntu2
+    PkgName: bsdextrautils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bsdextrautils@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 3e7202472804e710
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53612
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:32f7ae76dcb4e91b68b66772d9ca29933300fb7ebec70cc55f08901aa2286ae0
+    Title: 'util-linux: util-linux: TOCTOU in the mount program when applying post-mount ownership/mode changes'
+    Description: A flaw was found in util-linux. When an /etc/fstab entry uses the user option together with X-mount.owner, X-mount.group, or X-mount.mode, mount(8) changes ownership or permissions on the mount target after mounting without re-verifying the path. A local unprivileged user can exploit this Time-of-Check-Time-of-Use (TOCTOU) window by swapping the target directory, redirecting the ownership/permission change to an arbitrary file and potentially escalating privileges to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53612
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-g8wm-75wr-g2vh
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53612
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53612
+  - VulnerabilityID: CVE-2026-53613
+    PkgID: bsdextrautils@2.41.3-3ubuntu2
+    PkgName: bsdextrautils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bsdextrautils@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 3e7202472804e710
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53613
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b895b6eceb814d04bd4f4efcfbad7b0a2de48bf0b8d7f6e10979612bdd4113b2
+    Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
+    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53613
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-8gj5-72r3-428g
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53613
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53613
+  - VulnerabilityID: CVE-2026-53614
+    PkgID: bsdextrautils@2.41.3-3ubuntu2
+    PkgName: bsdextrautils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bsdextrautils@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 3e7202472804e710
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53614
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:1ffe5ea4100c23de16d4b4e7adb73480980e18d8c39c7cd7ca14c7b091b30ab7
+    Title: 'util-linux: util-linux: SUID mount(8) allows nosuid/noexec bypass via LIBMOUNT_FORCE_MOUNT2'
+    Description: A flaw was found in util-linux. The mount(8) SUID binary does not sanitize the LIBMOUNT_FORCE_MOUNT2 environment variable before use. A local unprivileged user can set this variable to force mount(8) to use the legacy two-step mount(2) code path, which applies security restrictions such as nosuid and noexec after the mount is already active. During this window, an attacker can execute a SUID binary from the mounted filesystem, allowing local privilege escalation to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53614
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-67r7-8m5w-22wx
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53614
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53614
+  - VulnerabilityID: CVE-2026-53615
+    PkgID: bsdextrautils@2.41.3-3ubuntu2
+    PkgName: bsdextrautils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bsdextrautils@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 3e7202472804e710
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53615
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:115bb4a43fbc125f9403944a7b49d8a409a86d3bfd0a5e1e1a4a11ee1f2d8695
+    Title: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
+    Description: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 3
+      ubuntu: 2
+    References:
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-h4rw-gv36-wmp5
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53615
+  - VulnerabilityID: CVE-2026-13595
+    PkgID: bsdutils@1:2.41.3-3ubuntu2
+    PkgName: bsdutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bsdutils@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 6254624e3bd0b73d
+    InstalledVersion: 1:2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-13595
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:bdce2ab0df440b6f4f768a2a55ca8f10c05dfcf3caf35d9f1987896111fa54ca
+    Title: 'util-linux: util-linux: heap use-after-free in libblkid nested partition probing'
+    Description: A flaw was found in the libblkid library of util-linux. During nested partition probing, the BSD, Minix, Solaris x86, and UnixWare partition probers cache a raw pointer to a parent partition entry in a dynamically allocated array. When subsequent partition additions cause the array to be reallocated, this pointer becomes stale, leading to a heap use-after-free read. An attacker who can present a crafted block device image (for example, via USB insertion or a loop-mounted disk image) can trigger this flaw without user interaction, as libblkid is invoked automatically by udev/udisks as root on block-device hot-plug events. This could lead to limited information disclosure or denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      azure: 2
+      julia: 2
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:26573
+    - https://access.redhat.com/security/cve/CVE-2026-13595
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494101
+    - https://github.com/util-linux/util-linux/commit/c0186f14fbdb02f64c8e0ba701ce727ea764ff4c
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-13595
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-13595
+    PublishedDate: '2026-06-29T09:16:28.303Z'
+    LastModifiedDate: '2026-08-31T18:17:13.083Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: bsdutils@1:2.41.3-3ubuntu2
     PkgName: bsdutils
@@ -103,7 +341,8 @@
       PURL: pkg:deb/ubuntu/bsdutils@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04&epoch=1
       UID: 6254624e3bd0b73d
     InstalledVersion: 1:2.41.3-3ubuntu2
-    Status: affected
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -142,6 +381,7 @@
     - https://github.com/util-linux/util-linux/releases/tag/v2.41.4
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-qq4x-vfq4-9h9g
     - https://nvd.nist.gov/vuln/detail/CVE-2026-27456
+    - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-27456
     PublishedDate: '2026-04-03T22:16:25.4Z'
     LastModifiedDate: '2026-07-24T22:10:00.14Z'
@@ -152,7 +392,8 @@
       PURL: pkg:deb/ubuntu/bsdutils@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04&epoch=1
       UID: 6254624e3bd0b73d
     InstalledVersion: 1:2.41.3-3ubuntu2
-    Status: affected
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -186,9 +427,144 @@
     - https://access.redhat.com/security/cve/CVE-2026-3184
     - https://bugzilla.redhat.com/show_bug.cgi?id=2442570
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3184
+    - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
-    LastModifiedDate: '2026-08-21T13:17:47.457Z'
+    LastModifiedDate: '2026-08-31T12:17:55.983Z'
+  - VulnerabilityID: CVE-2026-53612
+    PkgID: bsdutils@1:2.41.3-3ubuntu2
+    PkgName: bsdutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bsdutils@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 6254624e3bd0b73d
+    InstalledVersion: 1:2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53612
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:22e93c8d880a7106aca55d788ccae907bf08d4cdf70c252015f2195d7b160a89
+    Title: 'util-linux: util-linux: TOCTOU in the mount program when applying post-mount ownership/mode changes'
+    Description: A flaw was found in util-linux. When an /etc/fstab entry uses the user option together with X-mount.owner, X-mount.group, or X-mount.mode, mount(8) changes ownership or permissions on the mount target after mounting without re-verifying the path. A local unprivileged user can exploit this Time-of-Check-Time-of-Use (TOCTOU) window by swapping the target directory, redirecting the ownership/permission change to an arbitrary file and potentially escalating privileges to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53612
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-g8wm-75wr-g2vh
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53612
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53612
+  - VulnerabilityID: CVE-2026-53613
+    PkgID: bsdutils@1:2.41.3-3ubuntu2
+    PkgName: bsdutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bsdutils@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 6254624e3bd0b73d
+    InstalledVersion: 1:2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53613
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:82b53080bac1509202f9d7e4d24d11f12b28dc5340ef5cb37a1b21adcd117ac8
+    Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
+    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53613
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-8gj5-72r3-428g
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53613
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53613
+  - VulnerabilityID: CVE-2026-53614
+    PkgID: bsdutils@1:2.41.3-3ubuntu2
+    PkgName: bsdutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bsdutils@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 6254624e3bd0b73d
+    InstalledVersion: 1:2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53614
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:0d80c09ecfc965303379249844183d1df3ea4a955eaba87df99c541e272332d0
+    Title: 'util-linux: util-linux: SUID mount(8) allows nosuid/noexec bypass via LIBMOUNT_FORCE_MOUNT2'
+    Description: A flaw was found in util-linux. The mount(8) SUID binary does not sanitize the LIBMOUNT_FORCE_MOUNT2 environment variable before use. A local unprivileged user can set this variable to force mount(8) to use the legacy two-step mount(2) code path, which applies security restrictions such as nosuid and noexec after the mount is already active. During this window, an attacker can execute a SUID binary from the mounted filesystem, allowing local privilege escalation to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53614
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-67r7-8m5w-22wx
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53614
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53614
+  - VulnerabilityID: CVE-2026-53615
+    PkgID: bsdutils@1:2.41.3-3ubuntu2
+    PkgName: bsdutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bsdutils@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 6254624e3bd0b73d
+    InstalledVersion: 1:2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53615
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4783600745dbdd88f46cebae78d5e94fd35adb60edba67c472f5c30704e6312f
+    Title: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
+    Description: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 3
+      ubuntu: 2
+    References:
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-h4rw-gv36-wmp5
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53615
   - VulnerabilityID: CVE-2026-53910
     PkgID: diffutils@1:3.12-1
     PkgName: diffutils
@@ -196,7 +572,8 @@
       PURL: pkg:deb/ubuntu/diffutils@3.12-1?arch=amd64&distro=ubuntu-26.04&epoch=1
       UID: c3b5af6e3e8bcbdc
     InstalledVersion: 1:3.12-1
-    Status: affected
+    FixedVersion: 1:3.12-1ubuntu0.1
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -226,6 +603,7 @@
     - https://cgit.git.savannah.gnu.org/cgit/diffutils.git/commit/?id=9ff04d5b84743e331e80b589335a52c5480d1815
     - https://git.savannah.gnu.org/cgit/diffutils.git/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-53910
+    - https://ubuntu.com/security/notices/USN-8692-1
     - https://www.cve.org/CVERecord?id=CVE-2026-53910
     PublishedDate: '2026-07-22T14:17:21.03Z'
     LastModifiedDate: '2026-07-27T12:16:45.25Z'
@@ -265,7 +643,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19617
     - https://www.cve.org/CVERecord?id=CVE-2026-19617
     PublishedDate: '2026-08-14T06:17:14.41Z'
-    LastModifiedDate: '2026-08-26T14:17:08.9Z'
+    LastModifiedDate: '2026-08-31T16:17:55.557Z'
   - VulnerabilityID: CVE-2026-56391
     PkgID: gnu-coreutils@9.7-3ubuntu2
     PkgName: gnu-coreutils
@@ -273,7 +651,8 @@
       PURL: pkg:deb/ubuntu/gnu-coreutils@9.7-3ubuntu2?arch=amd64&distro=ubuntu-26.04
       UID: f915ad76db6a5ff7
     InstalledVersion: 9.7-3ubuntu2
-    Status: affected
+    FixedVersion: 9.7-3ubuntu2.1
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -319,10 +698,83 @@
     - https://git.savannah.gnu.org/cgit/coreutils.git/commit/?id=d64e35a8a4c0e4608321433e0d84d917e4e36371
     - https://github.com/advisories/GHSA-7xvj-m9x7-qgxq
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56391
+    - https://ubuntu.com/security/notices/USN-8697-1
     - https://www.cve.org/CVERecord?id=CVE-2026-56391
     - https://www.openwall.com/lists/oss-security/2026/07/25/2
     PublishedDate: '2026-07-24T09:16:25.003Z'
     LastModifiedDate: '2026-08-26T13:52:50.66Z'
+  - VulnerabilityID: CVE-2025-5278
+    PkgID: gnu-coreutils@9.7-3ubuntu2
+    PkgName: gnu-coreutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gnu-coreutils@9.7-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: f915ad76db6a5ff7
+    InstalledVersion: 9.7-3ubuntu2
+    FixedVersion: 9.7-3ubuntu2.1
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5278
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:77748b528dad78ea8c7b33ce90b2467992e5810362097c21f027871bcbb54829
+    Title: 'coreutils: Heap Buffer Under-Read in GNU Coreutils sort via Key Specification'
+    Description: A flaw was found in GNU Coreutils. The sort utility's begfield() function is vulnerable to a heap buffer under-read. The program may access memory outside the allocated buffer if a user runs a crafted command using the traditional key format. A malicious input could lead to a crash or leak sensitive data.
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      alma: 2
+      amazon: 2
+      azure: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L
+        V3Score: 4.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/27/2
+    - http://www.openwall.com/lists/oss-security/2025/05/29/1
+    - http://www.openwall.com/lists/oss-security/2025/05/29/2
+    - https://access.redhat.com/errata/RHSA-2026:28911
+    - https://access.redhat.com/errata/RHSA-2026:33124
+    - https://access.redhat.com/errata/RHSA-2026:33313
+    - https://access.redhat.com/errata/RHSA-2026:33612
+    - https://access.redhat.com/errata/RHSA-2026:34102
+    - https://access.redhat.com/errata/RHSA-2026:39981
+    - https://access.redhat.com/errata/RHSA-2026:44481
+    - https://access.redhat.com/errata/RHSA-2026:46836
+    - https://access.redhat.com/errata/RHSA-2026:50205
+    - https://access.redhat.com/errata/RHSA-2026:58981
+    - https://access.redhat.com/security/cve/CVE-2025-5278
+    - https://bugzilla.redhat.com/2368764
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2368764
+    - https://cgit.git.savannah.gnu.org/cgit/coreutils.git/commit/?id=8c9602e3a145e9596dc1a63c6ed67865814b6633
+    - https://cgit.git.savannah.gnu.org/cgit/coreutils.git/tree/NEWS?id=8c9602e3a145e9596dc1a63c6ed67865814b6633#n14
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5278
+    - https://debbugs.gnu.org/cgi/bugreport.cgi?bug=78507
+    - https://errata.almalinux.org/10/ALSA-2026-33124.html
+    - https://errata.rockylinux.org/RLSA-2026:33124
+    - https://linux.oracle.com/cve/CVE-2025-5278.html
+    - https://linux.oracle.com/errata/ELSA-2026-33124.html
+    - https://lists.gnu.org/archive/html/bug-coreutils/2025-05/msg00036.html
+    - https://lists.gnu.org/archive/html/bug-coreutils/2025-05/msg00040.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5278
+    - https://security-tracker.debian.org/tracker/CVE-2025-5278
+    - https://ubuntu.com/security/notices/USN-8697-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-5278
+    - https://www.openwall.com/lists/oss-security/2025/05/27/2
+    PublishedDate: '2025-05-27T21:15:23.197Z'
+    LastModifiedDate: '2026-08-31T15:17:08.367Z'
   - VulnerabilityID: CVE-2024-52949
     PkgID: iptraf-ng@1:1.2.2-1
     PkgName: iptraf-ng
@@ -417,14 +869,15 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/06/10/2
-    - https://access.redhat.com/errata/RHSA-2026:50108
+    - https://access.redhat.com/errata/RHSA-2026:49520
+    - https://access.redhat.com/errata/RHSA-2026:49836
     - https://access.redhat.com/security/cve/CVE-2026-10846
     - https://bugzilla.redhat.com/2487437
     - https://bugzilla.redhat.com/show_bug.cgi?id=2487437
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-10846
-    - https://errata.almalinux.org/9/ALSA-2026-50108.html
-    - https://errata.rockylinux.org/RLSA-2026:50108
+    - https://errata.almalinux.org/10/ALSA-2026-49836.html
+    - https://errata.rockylinux.org/RLSA-2026:49520
     - https://linux.oracle.com/cve/CVE-2026-10846.html
     - https://linux.oracle.com/errata/ELSA-2026-50108-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-10846
@@ -440,7 +893,8 @@
       PURL: pkg:deb/ubuntu/libattr1@2.5.2-4?arch=amd64&distro=ubuntu-26.04&epoch=1
       UID: 7316bbc1a7f10b3f
     InstalledVersion: 1:2.5.2-4
-    Status: affected
+    FixedVersion: 1:2.5.2-4ubuntu0.1
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -479,12 +933,13 @@
     - https://cgit.git.savannah.nongnu.org/cgit/attr.git/commit/?id=c440855d6b33446edf4b5eb1a2d892281f15a99b
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54371
-    - https://errata.almalinux.org/9/ALSA-2026-60226.html
-    - https://errata.rockylinux.org/RLSA-2026:60226
+    - https://errata.almalinux.org/10/ALSA-2026-59380.html
+    - https://errata.rockylinux.org/RLSA-2026:56133
     - https://linux.oracle.com/cve/CVE-2026-54371.html
     - https://linux.oracle.com/errata/ELSA-2026-60226-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-54371
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-54371.json
+    - https://ubuntu.com/security/notices/USN-8691-1
     - https://www.cve.org/CVERecord?id=CVE-2026-54371
     - https://www.openwall.com/lists/oss-security/2026/06/29/1
     - https://www.vulncheck.com/advisories/attr-symlink-traversal-privilege-escalation-via-getfattr-setfattr
@@ -610,6 +1065,56 @@
     - https://zeropath.com/blog/avahi-simple-protocol-server-dos-cve-2025-59529
     PublishedDate: '2025-12-18T21:15:53.637Z'
     LastModifiedDate: '2026-06-17T09:46:20.71Z'
+  - VulnerabilityID: CVE-2026-13595
+    PkgID: libblkid1@2.41.3-3ubuntu2
+    PkgName: libblkid1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libblkid1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: cfada1ce2d53117c
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-13595
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:08fd6cde0ac4ae8bbab20ca82f5b0d1926a0845c86697e37ca1f2824487607d9
+    Title: 'util-linux: util-linux: heap use-after-free in libblkid nested partition probing'
+    Description: A flaw was found in the libblkid library of util-linux. During nested partition probing, the BSD, Minix, Solaris x86, and UnixWare partition probers cache a raw pointer to a parent partition entry in a dynamically allocated array. When subsequent partition additions cause the array to be reallocated, this pointer becomes stale, leading to a heap use-after-free read. An attacker who can present a crafted block device image (for example, via USB insertion or a loop-mounted disk image) can trigger this flaw without user interaction, as libblkid is invoked automatically by udev/udisks as root on block-device hot-plug events. This could lead to limited information disclosure or denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      azure: 2
+      julia: 2
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:26573
+    - https://access.redhat.com/security/cve/CVE-2026-13595
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494101
+    - https://github.com/util-linux/util-linux/commit/c0186f14fbdb02f64c8e0ba701ce727ea764ff4c
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-13595
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-13595
+    PublishedDate: '2026-06-29T09:16:28.303Z'
+    LastModifiedDate: '2026-08-31T18:17:13.083Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: libblkid1@2.41.3-3ubuntu2
     PkgName: libblkid1
@@ -617,7 +1122,8 @@
       PURL: pkg:deb/ubuntu/libblkid1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
       UID: cfada1ce2d53117c
     InstalledVersion: 2.41.3-3ubuntu2
-    Status: affected
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -656,6 +1162,7 @@
     - https://github.com/util-linux/util-linux/releases/tag/v2.41.4
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-qq4x-vfq4-9h9g
     - https://nvd.nist.gov/vuln/detail/CVE-2026-27456
+    - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-27456
     PublishedDate: '2026-04-03T22:16:25.4Z'
     LastModifiedDate: '2026-07-24T22:10:00.14Z'
@@ -666,7 +1173,8 @@
       PURL: pkg:deb/ubuntu/libblkid1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
       UID: cfada1ce2d53117c
     InstalledVersion: 2.41.3-3ubuntu2
-    Status: affected
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -700,9 +1208,144 @@
     - https://access.redhat.com/security/cve/CVE-2026-3184
     - https://bugzilla.redhat.com/show_bug.cgi?id=2442570
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3184
+    - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
-    LastModifiedDate: '2026-08-21T13:17:47.457Z'
+    LastModifiedDate: '2026-08-31T12:17:55.983Z'
+  - VulnerabilityID: CVE-2026-53612
+    PkgID: libblkid1@2.41.3-3ubuntu2
+    PkgName: libblkid1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libblkid1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: cfada1ce2d53117c
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53612
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:5f823b14bc2efefe9a438c8348ebf2c7978d9c12c2ab05918093b31769d901ed
+    Title: 'util-linux: util-linux: TOCTOU in the mount program when applying post-mount ownership/mode changes'
+    Description: A flaw was found in util-linux. When an /etc/fstab entry uses the user option together with X-mount.owner, X-mount.group, or X-mount.mode, mount(8) changes ownership or permissions on the mount target after mounting without re-verifying the path. A local unprivileged user can exploit this Time-of-Check-Time-of-Use (TOCTOU) window by swapping the target directory, redirecting the ownership/permission change to an arbitrary file and potentially escalating privileges to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53612
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-g8wm-75wr-g2vh
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53612
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53612
+  - VulnerabilityID: CVE-2026-53613
+    PkgID: libblkid1@2.41.3-3ubuntu2
+    PkgName: libblkid1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libblkid1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: cfada1ce2d53117c
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53613
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:ca664f3b0fcd415548c546f09462156f1d3410bb4bc0ac4aaca53c5ecb42a280
+    Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
+    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53613
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-8gj5-72r3-428g
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53613
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53613
+  - VulnerabilityID: CVE-2026-53614
+    PkgID: libblkid1@2.41.3-3ubuntu2
+    PkgName: libblkid1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libblkid1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: cfada1ce2d53117c
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53614
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e4d6f6f2fd78249c62692a985c4199267cfdf6bbadba30e5844b352cffd15908
+    Title: 'util-linux: util-linux: SUID mount(8) allows nosuid/noexec bypass via LIBMOUNT_FORCE_MOUNT2'
+    Description: A flaw was found in util-linux. The mount(8) SUID binary does not sanitize the LIBMOUNT_FORCE_MOUNT2 environment variable before use. A local unprivileged user can set this variable to force mount(8) to use the legacy two-step mount(2) code path, which applies security restrictions such as nosuid and noexec after the mount is already active. During this window, an attacker can execute a SUID binary from the mounted filesystem, allowing local privilege escalation to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53614
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-67r7-8m5w-22wx
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53614
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53614
+  - VulnerabilityID: CVE-2026-53615
+    PkgID: libblkid1@2.41.3-3ubuntu2
+    PkgName: libblkid1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libblkid1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: cfada1ce2d53117c
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53615
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a26872edf6728fd856a0dfcf2e103e8fc4fe526ffbc67ccff4a98943b9183012
+    Title: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
+    Description: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 3
+      ubuntu: 2
+    References:
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-h4rw-gv36-wmp5
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53615
   - VulnerabilityID: CVE-2017-7475
     PkgID: libcairo-gobject2@1.18.4-3
     PkgName: libcairo-gobject2
@@ -943,7 +1586,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19617
     - https://www.cve.org/CVERecord?id=CVE-2026-19617
     PublishedDate: '2026-08-14T06:17:14.41Z'
-    LastModifiedDate: '2026-08-26T14:17:08.9Z'
+    LastModifiedDate: '2026-08-31T16:17:55.557Z'
   - VulnerabilityID: CVE-2025-1352
     PkgID: libelf1t64@0.194-4
     PkgName: libelf1t64
@@ -1692,14 +2335,15 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/06/10/2
-    - https://access.redhat.com/errata/RHSA-2026:50108
+    - https://access.redhat.com/errata/RHSA-2026:49520
+    - https://access.redhat.com/errata/RHSA-2026:49836
     - https://access.redhat.com/security/cve/CVE-2026-10846
     - https://bugzilla.redhat.com/2487437
     - https://bugzilla.redhat.com/show_bug.cgi?id=2487437
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-10846
-    - https://errata.almalinux.org/9/ALSA-2026-50108.html
-    - https://errata.rockylinux.org/RLSA-2026:50108
+    - https://errata.almalinux.org/10/ALSA-2026-49836.html
+    - https://errata.rockylinux.org/RLSA-2026:49520
     - https://linux.oracle.com/cve/CVE-2026-10846.html
     - https://linux.oracle.com/errata/ELSA-2026-50108-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-10846
@@ -1708,6 +2352,56 @@
     - https://www.nlnetlabs.nl/downloads/ldns/CVE-2026-10846.txt
     PublishedDate: '2026-06-10T07:16:24.443Z'
     LastModifiedDate: '2026-07-23T09:10:00.113Z'
+  - VulnerabilityID: CVE-2026-13595
+    PkgID: libmount1@2.41.3-3ubuntu2
+    PkgName: libmount1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libmount1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: ec572950b070797
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-13595
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:1cd281e49e1b4086f12e438095692a73d5bdca8d2567fd731b1ffb1e13207bee
+    Title: 'util-linux: util-linux: heap use-after-free in libblkid nested partition probing'
+    Description: A flaw was found in the libblkid library of util-linux. During nested partition probing, the BSD, Minix, Solaris x86, and UnixWare partition probers cache a raw pointer to a parent partition entry in a dynamically allocated array. When subsequent partition additions cause the array to be reallocated, this pointer becomes stale, leading to a heap use-after-free read. An attacker who can present a crafted block device image (for example, via USB insertion or a loop-mounted disk image) can trigger this flaw without user interaction, as libblkid is invoked automatically by udev/udisks as root on block-device hot-plug events. This could lead to limited information disclosure or denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      azure: 2
+      julia: 2
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:26573
+    - https://access.redhat.com/security/cve/CVE-2026-13595
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494101
+    - https://github.com/util-linux/util-linux/commit/c0186f14fbdb02f64c8e0ba701ce727ea764ff4c
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-13595
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-13595
+    PublishedDate: '2026-06-29T09:16:28.303Z'
+    LastModifiedDate: '2026-08-31T18:17:13.083Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: libmount1@2.41.3-3ubuntu2
     PkgName: libmount1
@@ -1715,7 +2409,8 @@
       PURL: pkg:deb/ubuntu/libmount1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
       UID: ec572950b070797
     InstalledVersion: 2.41.3-3ubuntu2
-    Status: affected
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -1754,6 +2449,7 @@
     - https://github.com/util-linux/util-linux/releases/tag/v2.41.4
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-qq4x-vfq4-9h9g
     - https://nvd.nist.gov/vuln/detail/CVE-2026-27456
+    - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-27456
     PublishedDate: '2026-04-03T22:16:25.4Z'
     LastModifiedDate: '2026-07-24T22:10:00.14Z'
@@ -1764,7 +2460,8 @@
       PURL: pkg:deb/ubuntu/libmount1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
       UID: ec572950b070797
     InstalledVersion: 2.41.3-3ubuntu2
-    Status: affected
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -1798,9 +2495,144 @@
     - https://access.redhat.com/security/cve/CVE-2026-3184
     - https://bugzilla.redhat.com/show_bug.cgi?id=2442570
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3184
+    - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
-    LastModifiedDate: '2026-08-21T13:17:47.457Z'
+    LastModifiedDate: '2026-08-31T12:17:55.983Z'
+  - VulnerabilityID: CVE-2026-53612
+    PkgID: libmount1@2.41.3-3ubuntu2
+    PkgName: libmount1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libmount1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: ec572950b070797
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53612
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:97ea2bdd0939d0699ea15aff49080426d4cca490f8f61e728f2f2abc3367d6bf
+    Title: 'util-linux: util-linux: TOCTOU in the mount program when applying post-mount ownership/mode changes'
+    Description: A flaw was found in util-linux. When an /etc/fstab entry uses the user option together with X-mount.owner, X-mount.group, or X-mount.mode, mount(8) changes ownership or permissions on the mount target after mounting without re-verifying the path. A local unprivileged user can exploit this Time-of-Check-Time-of-Use (TOCTOU) window by swapping the target directory, redirecting the ownership/permission change to an arbitrary file and potentially escalating privileges to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53612
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-g8wm-75wr-g2vh
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53612
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53612
+  - VulnerabilityID: CVE-2026-53613
+    PkgID: libmount1@2.41.3-3ubuntu2
+    PkgName: libmount1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libmount1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: ec572950b070797
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53613
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:58113f653bb00e1a822ab90f39f4b1b9e95dcf26cb656c72d13f7f3376907f87
+    Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
+    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53613
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-8gj5-72r3-428g
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53613
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53613
+  - VulnerabilityID: CVE-2026-53614
+    PkgID: libmount1@2.41.3-3ubuntu2
+    PkgName: libmount1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libmount1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: ec572950b070797
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53614
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e9f78a08a2e23e00252f5b2fae1ef5acad45d31315ba1cf64fc414e9f1f502db
+    Title: 'util-linux: util-linux: SUID mount(8) allows nosuid/noexec bypass via LIBMOUNT_FORCE_MOUNT2'
+    Description: A flaw was found in util-linux. The mount(8) SUID binary does not sanitize the LIBMOUNT_FORCE_MOUNT2 environment variable before use. A local unprivileged user can set this variable to force mount(8) to use the legacy two-step mount(2) code path, which applies security restrictions such as nosuid and noexec after the mount is already active. During this window, an attacker can execute a SUID binary from the mounted filesystem, allowing local privilege escalation to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53614
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-67r7-8m5w-22wx
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53614
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53614
+  - VulnerabilityID: CVE-2026-53615
+    PkgID: libmount1@2.41.3-3ubuntu2
+    PkgName: libmount1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libmount1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: ec572950b070797
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53615
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:2164752a3b6359faf229a7cb0c412176c941b76bcde451463b2a265b62599bf4
+    Title: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
+    Description: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 3
+      ubuntu: 2
+    References:
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-h4rw-gv36-wmp5
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53615
   - VulnerabilityID: CVE-2026-40228
     PkgID: libnss-systemd@259.5-0ubuntu3.4
     PkgName: libnss-systemd
@@ -1891,8 +2723,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-13757
-    - https://errata.almalinux.org/9/ALSA-2026-49667.html
-    - https://errata.rockylinux.org/RLSA-2026:49667
+    - https://errata.almalinux.org/10/ALSA-2026-49668.html
+    - https://errata.rockylinux.org/RLSA-2026:49668
     - https://github.com/advisories/GHSA-p2wm-69qx-x25w
     - https://linux.oracle.com/cve/CVE-2026-13757.html
     - https://linux.oracle.com/errata/ELSA-2026-49668.html
@@ -1900,7 +2732,7 @@
     - https://ubuntu.com/security/notices/USN-8687-1
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-08-25T10:18:03.38Z'
+    LastModifiedDate: '2026-08-31T16:17:52.267Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libpam-systemd@259.5-0ubuntu3.4
     PkgName: libpam-systemd
@@ -2064,6 +2896,56 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-6409
     PublishedDate: '2026-04-16T15:17:41.91Z'
     LastModifiedDate: '2026-06-17T11:00:47.75Z'
+  - VulnerabilityID: CVE-2026-13595
+    PkgID: libsmartcols1@2.41.3-3ubuntu2
+    PkgName: libsmartcols1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsmartcols1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: eb8f24163bcc7b6b
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-13595
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:cb3fe1dedea9e7d51bdb85d7de9680f26607bfbe271b12af0ec03fbedfef0de2
+    Title: 'util-linux: util-linux: heap use-after-free in libblkid nested partition probing'
+    Description: A flaw was found in the libblkid library of util-linux. During nested partition probing, the BSD, Minix, Solaris x86, and UnixWare partition probers cache a raw pointer to a parent partition entry in a dynamically allocated array. When subsequent partition additions cause the array to be reallocated, this pointer becomes stale, leading to a heap use-after-free read. An attacker who can present a crafted block device image (for example, via USB insertion or a loop-mounted disk image) can trigger this flaw without user interaction, as libblkid is invoked automatically by udev/udisks as root on block-device hot-plug events. This could lead to limited information disclosure or denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      azure: 2
+      julia: 2
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:26573
+    - https://access.redhat.com/security/cve/CVE-2026-13595
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494101
+    - https://github.com/util-linux/util-linux/commit/c0186f14fbdb02f64c8e0ba701ce727ea764ff4c
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-13595
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-13595
+    PublishedDate: '2026-06-29T09:16:28.303Z'
+    LastModifiedDate: '2026-08-31T18:17:13.083Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: libsmartcols1@2.41.3-3ubuntu2
     PkgName: libsmartcols1
@@ -2071,7 +2953,8 @@
       PURL: pkg:deb/ubuntu/libsmartcols1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
       UID: eb8f24163bcc7b6b
     InstalledVersion: 2.41.3-3ubuntu2
-    Status: affected
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -2110,6 +2993,7 @@
     - https://github.com/util-linux/util-linux/releases/tag/v2.41.4
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-qq4x-vfq4-9h9g
     - https://nvd.nist.gov/vuln/detail/CVE-2026-27456
+    - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-27456
     PublishedDate: '2026-04-03T22:16:25.4Z'
     LastModifiedDate: '2026-07-24T22:10:00.14Z'
@@ -2120,7 +3004,8 @@
       PURL: pkg:deb/ubuntu/libsmartcols1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
       UID: eb8f24163bcc7b6b
     InstalledVersion: 2.41.3-3ubuntu2
-    Status: affected
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -2154,9 +3039,144 @@
     - https://access.redhat.com/security/cve/CVE-2026-3184
     - https://bugzilla.redhat.com/show_bug.cgi?id=2442570
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3184
+    - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
-    LastModifiedDate: '2026-08-21T13:17:47.457Z'
+    LastModifiedDate: '2026-08-31T12:17:55.983Z'
+  - VulnerabilityID: CVE-2026-53612
+    PkgID: libsmartcols1@2.41.3-3ubuntu2
+    PkgName: libsmartcols1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsmartcols1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: eb8f24163bcc7b6b
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53612
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:6da36dff587061c97cda4a52b4ff707d2d11346b77b20b2924526a0803296c41
+    Title: 'util-linux: util-linux: TOCTOU in the mount program when applying post-mount ownership/mode changes'
+    Description: A flaw was found in util-linux. When an /etc/fstab entry uses the user option together with X-mount.owner, X-mount.group, or X-mount.mode, mount(8) changes ownership or permissions on the mount target after mounting without re-verifying the path. A local unprivileged user can exploit this Time-of-Check-Time-of-Use (TOCTOU) window by swapping the target directory, redirecting the ownership/permission change to an arbitrary file and potentially escalating privileges to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53612
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-g8wm-75wr-g2vh
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53612
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53612
+  - VulnerabilityID: CVE-2026-53613
+    PkgID: libsmartcols1@2.41.3-3ubuntu2
+    PkgName: libsmartcols1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsmartcols1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: eb8f24163bcc7b6b
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53613
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b9681c17986d6b890dd314860f22567111864bf38f51698b98842d3f4c48714a
+    Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
+    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53613
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-8gj5-72r3-428g
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53613
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53613
+  - VulnerabilityID: CVE-2026-53614
+    PkgID: libsmartcols1@2.41.3-3ubuntu2
+    PkgName: libsmartcols1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsmartcols1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: eb8f24163bcc7b6b
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53614
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4899115c2aad4c8a402a9b7311e96425643e01fb22c5a6404bc37495341b08e7
+    Title: 'util-linux: util-linux: SUID mount(8) allows nosuid/noexec bypass via LIBMOUNT_FORCE_MOUNT2'
+    Description: A flaw was found in util-linux. The mount(8) SUID binary does not sanitize the LIBMOUNT_FORCE_MOUNT2 environment variable before use. A local unprivileged user can set this variable to force mount(8) to use the legacy two-step mount(2) code path, which applies security restrictions such as nosuid and noexec after the mount is already active. During this window, an attacker can execute a SUID binary from the mounted filesystem, allowing local privilege escalation to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53614
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-67r7-8m5w-22wx
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53614
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53614
+  - VulnerabilityID: CVE-2026-53615
+    PkgID: libsmartcols1@2.41.3-3ubuntu2
+    PkgName: libsmartcols1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsmartcols1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: eb8f24163bcc7b6b
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53615
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:05f885c50e510f1fdcb1a18746cd826cb2de64b28d0fe208983ced798956715a
+    Title: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
+    Description: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 3
+      ubuntu: 2
+    References:
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-h4rw-gv36-wmp5
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53615
   - VulnerabilityID: CVE-2026-15370
     PkgID: libssh-4@0.11.3-1ubuntu2
     PkgName: libssh-4
@@ -2164,7 +3184,8 @@
       PURL: pkg:deb/ubuntu/libssh-4@0.11.3-1ubuntu2?arch=amd64&distro=ubuntu-26.04
       UID: 8664754ebc1fc229
     InstalledVersion: 0.11.3-1ubuntu2
-    Status: affected
+    FixedVersion: 0.11.3-1ubuntu2.1
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -2237,11 +3258,97 @@
     - https://linux.oracle.com/cve/CVE-2026-15370.html
     - https://linux.oracle.com/errata/ELSA-2026-55855.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-15370
+    - https://ubuntu.com/security/notices/USN-8699-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15370
     - https://www.libssh.org/2026/07/21/libssh-0-12-1-and-0-11-5-security-releases/
     - https://www.libssh.org/security/advisories/CVE-2026-15370.txt
     PublishedDate: '2026-07-21T09:16:53.683Z'
     LastModifiedDate: '2026-08-17T22:16:59.007Z'
+  - VulnerabilityID: CVE-2026-59843
+    PkgID: libssh-4@0.11.3-1ubuntu2
+    PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.11.3-1ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 8664754ebc1fc229
+    InstalledVersion: 0.11.3-1ubuntu2
+    FixedVersion: 0.11.3-1ubuntu2.1
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59843
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e11253e6306d7e076d4714ad8b434aa684b953f20911f3dc338c4087094c9019
+    Title: 'libssh: libssh: denial of service via zero advertised channel packet size'
+    Description: A flaw was found in libssh. A remote authenticated peer can advertise a zero maximum packet size in SSH_MSG_CHANNEL_OPEN, causing later channel writes to loop indefinitely and consume CPU, leading to denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    - CWE-400
+    VendorSeverity:
+      alma: 3
+      azure: 2
+      oracle-oval: 3
+      redhat: 2
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:42922
+    - https://access.redhat.com/errata/RHSA-2026:55855
+    - https://access.redhat.com/security/cve/CVE-2026-59843
+    - https://bugzilla.redhat.com/2498168
+    - https://bugzilla.redhat.com/2498176
+    - https://bugzilla.redhat.com/2498177
+    - https://bugzilla.redhat.com/2498178
+    - https://bugzilla.redhat.com/2498179
+    - https://bugzilla.redhat.com/2498180
+    - https://bugzilla.redhat.com/2498181
+    - https://bugzilla.redhat.com/2498182
+    - https://bugzilla.redhat.com/2498183
+    - https://bugzilla.redhat.com/2498184
+    - https://bugzilla.redhat.com/2499049
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498178
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498179
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498180
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498181
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498182
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498183
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498184
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2499049
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15370
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59842
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59843
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59844
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59845
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59846
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59847
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59848
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59849
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59851
+    - https://errata.almalinux.org/10/ALSA-2026-55855.html
+    - https://errata.rockylinux.org/RLSA-2026:55855
+    - https://linux.oracle.com/cve/CVE-2026-59843.html
+    - https://linux.oracle.com/errata/ELSA-2026-55855.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59843
+    - https://ubuntu.com/security/notices/USN-8699-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-59843
+    - https://www.libssh.org/2026/07/21/libssh-0-12-1-and-0-11-5-security-releases/
+    - https://www.libssh.org/security/advisories/CVE-2026-59843.txt
+    PublishedDate: '2026-07-21T12:18:57.86Z'
+    LastModifiedDate: '2026-08-17T22:17:15.123Z'
   - VulnerabilityID: CVE-2026-59844
     PkgID: libssh-4@0.11.3-1ubuntu2
     PkgName: libssh-4
@@ -2249,7 +3356,8 @@
       PURL: pkg:deb/ubuntu/libssh-4@0.11.3-1ubuntu2?arch=amd64&distro=ubuntu-26.04
       UID: 8664754ebc1fc229
     InstalledVersion: 0.11.3-1ubuntu2
-    Status: affected
+    FixedVersion: 0.11.3-1ubuntu2.1
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -2319,11 +3427,357 @@
     - https://linux.oracle.com/cve/CVE-2026-59844.html
     - https://linux.oracle.com/errata/ELSA-2026-55855.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-59844
+    - https://ubuntu.com/security/notices/USN-8699-1
     - https://www.cve.org/CVERecord?id=CVE-2026-59844
     - https://www.libssh.org/2026/07/21/libssh-0-12-1-and-0-11-5-security-releases/
     - https://www.libssh.org/security/advisories/CVE-2026-59844.txt
     PublishedDate: '2026-07-21T12:18:57.973Z'
     LastModifiedDate: '2026-08-17T22:17:15.25Z'
+  - VulnerabilityID: CVE-2026-59845
+    PkgID: libssh-4@0.11.3-1ubuntu2
+    PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.11.3-1ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 8664754ebc1fc229
+    InstalledVersion: 0.11.3-1ubuntu2
+    FixedVersion: 0.11.3-1ubuntu2.1
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59845
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:7c02ab89d37fbd436f1d26232c4891ddbbb88586b800f3b52f3363794504378e
+    Title: 'libssh: libssh: denial of service via unchecked ProxyCommand fork() failure'
+    Description: A flaw was found in libssh. When ProxyCommand is used, an unchecked fork() failure can be stored as process ID -1; during cleanup, signals may then be sent across the caller's accessible process tree, leading to local denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-390
+    VendorSeverity:
+      alma: 3
+      azure: 2
+      nvd: 2
+      oracle-oval: 3
+      redhat: 2
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:N/A:H
+        V3Score: 5.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:42922
+    - https://access.redhat.com/errata/RHSA-2026:55855
+    - https://access.redhat.com/security/cve/CVE-2026-59845
+    - https://bugzilla.redhat.com/2498168
+    - https://bugzilla.redhat.com/2498176
+    - https://bugzilla.redhat.com/2498177
+    - https://bugzilla.redhat.com/2498178
+    - https://bugzilla.redhat.com/2498179
+    - https://bugzilla.redhat.com/2498180
+    - https://bugzilla.redhat.com/2498181
+    - https://bugzilla.redhat.com/2498182
+    - https://bugzilla.redhat.com/2498183
+    - https://bugzilla.redhat.com/2498184
+    - https://bugzilla.redhat.com/2499049
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498178
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498179
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498180
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498181
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498182
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498183
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498184
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2499049
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15370
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59842
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59843
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59844
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59845
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59846
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59847
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59848
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59849
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59851
+    - https://errata.almalinux.org/10/ALSA-2026-55855.html
+    - https://errata.rockylinux.org/RLSA-2026:55855
+    - https://linux.oracle.com/cve/CVE-2026-59845.html
+    - https://linux.oracle.com/errata/ELSA-2026-55855.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59845
+    - https://ubuntu.com/security/notices/USN-8699-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-59845
+    - https://www.libssh.org/2026/07/21/libssh-0-12-1-and-0-11-5-security-releases/
+    - https://www.libssh.org/security/advisories/CVE-2026-59845.txt
+    PublishedDate: '2026-07-21T12:18:58.103Z'
+    LastModifiedDate: '2026-08-17T22:17:15.38Z'
+  - VulnerabilityID: CVE-2026-59846
+    PkgID: libssh-4@0.11.3-1ubuntu2
+    PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.11.3-1ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 8664754ebc1fc229
+    InstalledVersion: 0.11.3-1ubuntu2
+    FixedVersion: 0.11.3-1ubuntu2.1
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59846
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b32344eaf9fced47b4290cf846ab8da5397715c299e378aa37c710d921e2bd90
+    Title: 'libssh: libssh: information disclosure via ProxyCommand %r username expansion'
+    Description: A flaw was found in libssh. A malicious username expanded through %r in ProxyCommand handling can inject shell metacharacters, exposing environment variables and causing unintended shell behavior.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-78
+    - CWE-77
+    VendorSeverity:
+      alma: 3
+      oracle-oval: 3
+      redhat: 1
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N
+        V3Score: 3.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:42922
+    - https://access.redhat.com/errata/RHSA-2026:55855
+    - https://access.redhat.com/security/cve/CVE-2026-59846
+    - https://bugzilla.redhat.com/2498168
+    - https://bugzilla.redhat.com/2498176
+    - https://bugzilla.redhat.com/2498177
+    - https://bugzilla.redhat.com/2498178
+    - https://bugzilla.redhat.com/2498179
+    - https://bugzilla.redhat.com/2498180
+    - https://bugzilla.redhat.com/2498181
+    - https://bugzilla.redhat.com/2498182
+    - https://bugzilla.redhat.com/2498183
+    - https://bugzilla.redhat.com/2498184
+    - https://bugzilla.redhat.com/2499049
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498178
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498179
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498180
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498181
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498182
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498183
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498184
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2499049
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15370
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59842
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59843
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59844
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59845
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59846
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59847
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59848
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59849
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59851
+    - https://errata.almalinux.org/10/ALSA-2026-55855.html
+    - https://errata.rockylinux.org/RLSA-2026:55855
+    - https://linux.oracle.com/cve/CVE-2026-59846.html
+    - https://linux.oracle.com/errata/ELSA-2026-55855.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59846
+    - https://ubuntu.com/security/notices/USN-8699-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-59846
+    - https://www.libssh.org/2026/07/21/libssh-0-12-1-and-0-11-5-security-releases/
+    - https://www.libssh.org/security/advisories/CVE-2026-59846.txt
+    PublishedDate: '2026-07-21T13:17:18.143Z'
+    LastModifiedDate: '2026-08-19T05:17:04.75Z'
+  - VulnerabilityID: CVE-2026-59847
+    PkgID: libssh-4@0.11.3-1ubuntu2
+    PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.11.3-1ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 8664754ebc1fc229
+    InstalledVersion: 0.11.3-1ubuntu2
+    FixedVersion: 0.11.3-1ubuntu2.1
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59847
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:2817753ebdccb8f6136a6103193046997323b31faf548a547d48f1f3c8d704af
+    Title: 'libssh: libssh: integrity downgrade via OpenSSL AES-GCM tag verification'
+    Description: A flaw was found in libssh. Incorrect AES-GCM finalization checks in builds using the OpenSSL backend can effectively remove integrity protection, allowing an in-path attacker to modify plaintext on the wire without detection.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-253
+    - CWE-1310
+    VendorSeverity:
+      alma: 3
+      azure: 2
+      nvd: 3
+      oracle-oval: 3
+      redhat: 2
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:42922
+    - https://access.redhat.com/errata/RHSA-2026:55855
+    - https://access.redhat.com/security/cve/CVE-2026-59847
+    - https://bugzilla.redhat.com/2498168
+    - https://bugzilla.redhat.com/2498176
+    - https://bugzilla.redhat.com/2498177
+    - https://bugzilla.redhat.com/2498178
+    - https://bugzilla.redhat.com/2498179
+    - https://bugzilla.redhat.com/2498180
+    - https://bugzilla.redhat.com/2498181
+    - https://bugzilla.redhat.com/2498182
+    - https://bugzilla.redhat.com/2498183
+    - https://bugzilla.redhat.com/2498184
+    - https://bugzilla.redhat.com/2499049
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498178
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498179
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498180
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498181
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498182
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498183
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498184
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2499049
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15370
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59842
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59843
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59844
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59845
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59846
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59847
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59848
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59849
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59851
+    - https://errata.almalinux.org/10/ALSA-2026-55855.html
+    - https://errata.rockylinux.org/RLSA-2026:55855
+    - https://linux.oracle.com/cve/CVE-2026-59847.html
+    - https://linux.oracle.com/errata/ELSA-2026-55855.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59847
+    - https://ubuntu.com/security/notices/USN-8699-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-59847
+    - https://www.libssh.org/2026/07/21/libssh-0-12-1-and-0-11-5-security-releases/
+    - https://www.libssh.org/security/advisories/CVE-2026-59847.txt
+    PublishedDate: '2026-07-21T14:16:34.657Z'
+    LastModifiedDate: '2026-08-17T22:17:15.51Z'
+  - VulnerabilityID: CVE-2026-59848
+    PkgID: libssh-4@0.11.3-1ubuntu2
+    PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.11.3-1ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 8664754ebc1fc229
+    InstalledVersion: 0.11.3-1ubuntu2
+    FixedVersion: 0.11.3-1ubuntu2.1
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59848
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:05e32b3a1b167cabb34d020a33f1011046185eb5900283051ecdb44385d8c9dc
+    Title: 'libssh: libssh: denial of service via SFTP responses with unknown request IDs'
+    Description: A flaw was found in libssh. A malicious SFTP server can send responses for unknown request IDs that libssh clients keep queued indefinitely, causing unbounded memory growth and client-side denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      alma: 3
+      azure: 2
+      oracle-oval: 3
+      redhat: 2
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:42922
+    - https://access.redhat.com/errata/RHSA-2026:55855
+    - https://access.redhat.com/security/cve/CVE-2026-59848
+    - https://bugzilla.redhat.com/2498168
+    - https://bugzilla.redhat.com/2498176
+    - https://bugzilla.redhat.com/2498177
+    - https://bugzilla.redhat.com/2498178
+    - https://bugzilla.redhat.com/2498179
+    - https://bugzilla.redhat.com/2498180
+    - https://bugzilla.redhat.com/2498181
+    - https://bugzilla.redhat.com/2498182
+    - https://bugzilla.redhat.com/2498183
+    - https://bugzilla.redhat.com/2498184
+    - https://bugzilla.redhat.com/2499049
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498178
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498179
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498180
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498181
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498182
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498183
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498184
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2499049
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15370
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59842
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59843
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59844
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59845
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59846
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59847
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59848
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59849
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59851
+    - https://errata.almalinux.org/10/ALSA-2026-55855.html
+    - https://errata.rockylinux.org/RLSA-2026:55855
+    - https://linux.oracle.com/cve/CVE-2026-59848.html
+    - https://linux.oracle.com/errata/ELSA-2026-55855.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59848
+    - https://ubuntu.com/security/notices/USN-8699-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-59848
+    - https://www.libssh.org/2026/07/21/libssh-0-12-1-and-0-11-5-security-releases/
+    - https://www.libssh.org/security/advisories/CVE-2026-59848.txt
+    PublishedDate: '2026-07-21T14:16:34.79Z'
+    LastModifiedDate: '2026-08-17T22:17:15.647Z'
   - VulnerabilityID: CVE-2026-59849
     PkgID: libssh-4@0.11.3-1ubuntu2
     PkgName: libssh-4
@@ -2331,7 +3785,8 @@
       PURL: pkg:deb/ubuntu/libssh-4@0.11.3-1ubuntu2?arch=amd64&distro=ubuntu-26.04
       UID: 8664754ebc1fc229
     InstalledVersion: 0.11.3-1ubuntu2
-    Status: affected
+    FixedVersion: 0.11.3-1ubuntu2.1
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -2404,11 +3859,100 @@
     - https://linux.oracle.com/cve/CVE-2026-59849.html
     - https://linux.oracle.com/errata/ELSA-2026-55855.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-59849
+    - https://ubuntu.com/security/notices/USN-8699-1
     - https://www.cve.org/CVERecord?id=CVE-2026-59849
     - https://www.libssh.org/2026/07/21/libssh-0-12-1-and-0-11-5-security-releases/
     - https://www.libssh.org/security/advisories/CVE-2026-59849.txt
     PublishedDate: '2026-07-21T15:16:37.647Z'
     LastModifiedDate: '2026-08-19T05:17:05.21Z'
+  - VulnerabilityID: CVE-2026-59850
+    PkgID: libssh-4@0.11.3-1ubuntu2
+    PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.11.3-1ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 8664754ebc1fc229
+    InstalledVersion: 0.11.3-1ubuntu2
+    FixedVersion: 0.11.3-1ubuntu2.1
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59850
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:6b2b3070199472b3d7d13e7c07126e26a74ab065cac142e951d529301216c48a
+    Title: 'libssh: libssh: use-after-free via data callbacks on closed channels'
+    Description: A flaw was found in libssh. If data packets are processed after a channel is closed, channel data callbacks can be invoked after the associated data has already been freed, leading to crashes or possible use-after-free conditions.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      alma: 3
+      azure: 2
+      nvd: 3
+      oracle-oval: 3
+      redhat: 2
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:42922
+    - https://access.redhat.com/errata/RHSA-2026:55855
+    - https://access.redhat.com/security/cve/CVE-2026-59850
+    - https://bugzilla.redhat.com/2498168
+    - https://bugzilla.redhat.com/2498176
+    - https://bugzilla.redhat.com/2498177
+    - https://bugzilla.redhat.com/2498178
+    - https://bugzilla.redhat.com/2498179
+    - https://bugzilla.redhat.com/2498180
+    - https://bugzilla.redhat.com/2498181
+    - https://bugzilla.redhat.com/2498182
+    - https://bugzilla.redhat.com/2498183
+    - https://bugzilla.redhat.com/2498184
+    - https://bugzilla.redhat.com/2499049
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498178
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498179
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498180
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498181
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498182
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498183
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498184
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2499049
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15370
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59842
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59843
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59844
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59845
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59846
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59847
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59848
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59849
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59851
+    - https://errata.almalinux.org/10/ALSA-2026-55855.html
+    - https://errata.rockylinux.org/RLSA-2026:55855
+    - https://linux.oracle.com/cve/CVE-2026-59850.html
+    - https://linux.oracle.com/errata/ELSA-2026-55855.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59850
+    - https://ubuntu.com/security/notices/USN-8699-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-59850
+    - https://www.libssh.org/2026/07/21/libssh-0-12-1-and-0-11-5-security-releases/
+    - https://www.libssh.org/security/advisories/CVE-2026-59850.txt
+    PublishedDate: '2026-07-21T15:16:37.773Z'
+    LastModifiedDate: '2026-08-17T22:17:15.77Z'
   - VulnerabilityID: CVE-2026-75803
     PkgID: libssl3t64@3.5.5-1ubuntu3.4
     PkgName: libssl3t64
@@ -2416,7 +3960,8 @@
       PURL: pkg:deb/ubuntu/libssl3t64@3.5.5-1ubuntu3.4?arch=amd64&distro=ubuntu-26.04
       UID: dc2ffa401e1316a6
     InstalledVersion: 3.5.5-1ubuntu3.4
-    Status: affected
+    FixedVersion: 3.5.5-1ubuntu3.5
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -2463,6 +4008,7 @@
     - https://github.com/openssl/openssl/commit/bf95f5f772e9362f87b25cfa2f8cb15d984865b9
     - https://openssl-library.org/news/secadv/20260825.txt
     - https://ubuntu.com/security/notices/USN-8678-1
+    - https://ubuntu.com/security/notices/USN-8678-3
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
     LastModifiedDate: '2026-08-28T19:46:29.323Z'
@@ -2592,6 +4138,56 @@
     - https://www.openwall.com/lists/oss-security/2026/04/08/1
     PublishedDate: '2026-04-10T16:16:33.753Z'
     LastModifiedDate: '2026-06-17T10:44:53.31Z'
+  - VulnerabilityID: CVE-2026-13595
+    PkgID: libuuid1@2.41.3-3ubuntu2
+    PkgName: libuuid1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libuuid1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 927585f152fe989a
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-13595
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:5af3440a6c6e4f87d13bbdffda6f513ba0e47df804f1457351fd35b941a640b9
+    Title: 'util-linux: util-linux: heap use-after-free in libblkid nested partition probing'
+    Description: A flaw was found in the libblkid library of util-linux. During nested partition probing, the BSD, Minix, Solaris x86, and UnixWare partition probers cache a raw pointer to a parent partition entry in a dynamically allocated array. When subsequent partition additions cause the array to be reallocated, this pointer becomes stale, leading to a heap use-after-free read. An attacker who can present a crafted block device image (for example, via USB insertion or a loop-mounted disk image) can trigger this flaw without user interaction, as libblkid is invoked automatically by udev/udisks as root on block-device hot-plug events. This could lead to limited information disclosure or denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      azure: 2
+      julia: 2
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:26573
+    - https://access.redhat.com/security/cve/CVE-2026-13595
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494101
+    - https://github.com/util-linux/util-linux/commit/c0186f14fbdb02f64c8e0ba701ce727ea764ff4c
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-13595
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-13595
+    PublishedDate: '2026-06-29T09:16:28.303Z'
+    LastModifiedDate: '2026-08-31T18:17:13.083Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: libuuid1@2.41.3-3ubuntu2
     PkgName: libuuid1
@@ -2599,7 +4195,8 @@
       PURL: pkg:deb/ubuntu/libuuid1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
       UID: 927585f152fe989a
     InstalledVersion: 2.41.3-3ubuntu2
-    Status: affected
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -2638,6 +4235,7 @@
     - https://github.com/util-linux/util-linux/releases/tag/v2.41.4
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-qq4x-vfq4-9h9g
     - https://nvd.nist.gov/vuln/detail/CVE-2026-27456
+    - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-27456
     PublishedDate: '2026-04-03T22:16:25.4Z'
     LastModifiedDate: '2026-07-24T22:10:00.14Z'
@@ -2648,7 +4246,8 @@
       PURL: pkg:deb/ubuntu/libuuid1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
       UID: 927585f152fe989a
     InstalledVersion: 2.41.3-3ubuntu2
-    Status: affected
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -2682,9 +4281,144 @@
     - https://access.redhat.com/security/cve/CVE-2026-3184
     - https://bugzilla.redhat.com/show_bug.cgi?id=2442570
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3184
+    - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
-    LastModifiedDate: '2026-08-21T13:17:47.457Z'
+    LastModifiedDate: '2026-08-31T12:17:55.983Z'
+  - VulnerabilityID: CVE-2026-53612
+    PkgID: libuuid1@2.41.3-3ubuntu2
+    PkgName: libuuid1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libuuid1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 927585f152fe989a
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53612
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:98dec0067607956281454335d1c9b408852af20623f18faf872f5b138e8c86aa
+    Title: 'util-linux: util-linux: TOCTOU in the mount program when applying post-mount ownership/mode changes'
+    Description: A flaw was found in util-linux. When an /etc/fstab entry uses the user option together with X-mount.owner, X-mount.group, or X-mount.mode, mount(8) changes ownership or permissions on the mount target after mounting without re-verifying the path. A local unprivileged user can exploit this Time-of-Check-Time-of-Use (TOCTOU) window by swapping the target directory, redirecting the ownership/permission change to an arbitrary file and potentially escalating privileges to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53612
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-g8wm-75wr-g2vh
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53612
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53612
+  - VulnerabilityID: CVE-2026-53613
+    PkgID: libuuid1@2.41.3-3ubuntu2
+    PkgName: libuuid1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libuuid1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 927585f152fe989a
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53613
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:6dd0649197405590aa8e1c75f4e75366165f8c83ce75d7ca4fb9f72491e11fb5
+    Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
+    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53613
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-8gj5-72r3-428g
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53613
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53613
+  - VulnerabilityID: CVE-2026-53614
+    PkgID: libuuid1@2.41.3-3ubuntu2
+    PkgName: libuuid1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libuuid1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 927585f152fe989a
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53614
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:cef56b8094faa039673b7bd59c44c8c7aec64789a6326affecf88476e80c875c
+    Title: 'util-linux: util-linux: SUID mount(8) allows nosuid/noexec bypass via LIBMOUNT_FORCE_MOUNT2'
+    Description: A flaw was found in util-linux. The mount(8) SUID binary does not sanitize the LIBMOUNT_FORCE_MOUNT2 environment variable before use. A local unprivileged user can set this variable to force mount(8) to use the legacy two-step mount(2) code path, which applies security restrictions such as nosuid and noexec after the mount is already active. During this window, an attacker can execute a SUID binary from the mounted filesystem, allowing local privilege escalation to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53614
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-67r7-8m5w-22wx
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53614
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53614
+  - VulnerabilityID: CVE-2026-53615
+    PkgID: libuuid1@2.41.3-3ubuntu2
+    PkgName: libuuid1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libuuid1@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 927585f152fe989a
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53615
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e020ce8a77e69d69411b2c0c41a3be3faaf49dd51a9c44d59a87db149376edb7
+    Title: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
+    Description: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 3
+      ubuntu: 2
+    References:
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-h4rw-gv36-wmp5
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53615
   - VulnerabilityID: CVE-2021-39920
     PkgID: libwireshark-data@4.6.4-1
     PkgName: libwireshark-data
@@ -2893,6 +4627,56 @@
     - https://www.wireshark.org/security/wnpa-sec-2021-15.html
     PublishedDate: '2021-11-18T19:15:08.333Z'
     LastModifiedDate: '2026-06-17T04:04:25.67Z'
+  - VulnerabilityID: CVE-2026-13595
+    PkgID: login@1:4.16.0-2+really2.41.3-3ubuntu2
+    PkgName: login
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/login@4.16.0-2%2Breally2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 591feb53ee99f4f9
+    InstalledVersion: 1:4.16.0-2+really2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-13595
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:20784ae4c9e77c1960c0697adb28aecd6fc105efa01ddf20be98b589dd55225b
+    Title: 'util-linux: util-linux: heap use-after-free in libblkid nested partition probing'
+    Description: A flaw was found in the libblkid library of util-linux. During nested partition probing, the BSD, Minix, Solaris x86, and UnixWare partition probers cache a raw pointer to a parent partition entry in a dynamically allocated array. When subsequent partition additions cause the array to be reallocated, this pointer becomes stale, leading to a heap use-after-free read. An attacker who can present a crafted block device image (for example, via USB insertion or a loop-mounted disk image) can trigger this flaw without user interaction, as libblkid is invoked automatically by udev/udisks as root on block-device hot-plug events. This could lead to limited information disclosure or denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      azure: 2
+      julia: 2
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:26573
+    - https://access.redhat.com/security/cve/CVE-2026-13595
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494101
+    - https://github.com/util-linux/util-linux/commit/c0186f14fbdb02f64c8e0ba701ce727ea764ff4c
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-13595
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-13595
+    PublishedDate: '2026-06-29T09:16:28.303Z'
+    LastModifiedDate: '2026-08-31T18:17:13.083Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: login@1:4.16.0-2+really2.41.3-3ubuntu2
     PkgName: login
@@ -2900,7 +4684,8 @@
       PURL: pkg:deb/ubuntu/login@4.16.0-2%2Breally2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04&epoch=1
       UID: 591feb53ee99f4f9
     InstalledVersion: 1:4.16.0-2+really2.41.3-3ubuntu2
-    Status: affected
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -2939,6 +4724,7 @@
     - https://github.com/util-linux/util-linux/releases/tag/v2.41.4
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-qq4x-vfq4-9h9g
     - https://nvd.nist.gov/vuln/detail/CVE-2026-27456
+    - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-27456
     PublishedDate: '2026-04-03T22:16:25.4Z'
     LastModifiedDate: '2026-07-24T22:10:00.14Z'
@@ -2949,7 +4735,8 @@
       PURL: pkg:deb/ubuntu/login@4.16.0-2%2Breally2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04&epoch=1
       UID: 591feb53ee99f4f9
     InstalledVersion: 1:4.16.0-2+really2.41.3-3ubuntu2
-    Status: affected
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -2983,9 +4770,144 @@
     - https://access.redhat.com/security/cve/CVE-2026-3184
     - https://bugzilla.redhat.com/show_bug.cgi?id=2442570
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3184
+    - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
-    LastModifiedDate: '2026-08-21T13:17:47.457Z'
+    LastModifiedDate: '2026-08-31T12:17:55.983Z'
+  - VulnerabilityID: CVE-2026-53612
+    PkgID: login@1:4.16.0-2+really2.41.3-3ubuntu2
+    PkgName: login
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/login@4.16.0-2%2Breally2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 591feb53ee99f4f9
+    InstalledVersion: 1:4.16.0-2+really2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53612
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:14590596f3ac02241c5de16a9b8406e83a61c2c3ea07ab05882615ae2549faf4
+    Title: 'util-linux: util-linux: TOCTOU in the mount program when applying post-mount ownership/mode changes'
+    Description: A flaw was found in util-linux. When an /etc/fstab entry uses the user option together with X-mount.owner, X-mount.group, or X-mount.mode, mount(8) changes ownership or permissions on the mount target after mounting without re-verifying the path. A local unprivileged user can exploit this Time-of-Check-Time-of-Use (TOCTOU) window by swapping the target directory, redirecting the ownership/permission change to an arbitrary file and potentially escalating privileges to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53612
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-g8wm-75wr-g2vh
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53612
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53612
+  - VulnerabilityID: CVE-2026-53613
+    PkgID: login@1:4.16.0-2+really2.41.3-3ubuntu2
+    PkgName: login
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/login@4.16.0-2%2Breally2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 591feb53ee99f4f9
+    InstalledVersion: 1:4.16.0-2+really2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53613
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e3ea98971c979562f5ed28e3a64f8ba98f7a6ede8504ae6bbec2e51315271e5e
+    Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
+    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53613
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-8gj5-72r3-428g
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53613
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53613
+  - VulnerabilityID: CVE-2026-53614
+    PkgID: login@1:4.16.0-2+really2.41.3-3ubuntu2
+    PkgName: login
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/login@4.16.0-2%2Breally2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 591feb53ee99f4f9
+    InstalledVersion: 1:4.16.0-2+really2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53614
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:267ec1fe77f9585e67b4b7eecc6badcbd7884c53e893690f15466c6b3019bf5d
+    Title: 'util-linux: util-linux: SUID mount(8) allows nosuid/noexec bypass via LIBMOUNT_FORCE_MOUNT2'
+    Description: A flaw was found in util-linux. The mount(8) SUID binary does not sanitize the LIBMOUNT_FORCE_MOUNT2 environment variable before use. A local unprivileged user can set this variable to force mount(8) to use the legacy two-step mount(2) code path, which applies security restrictions such as nosuid and noexec after the mount is already active. During this window, an attacker can execute a SUID binary from the mounted filesystem, allowing local privilege escalation to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53614
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-67r7-8m5w-22wx
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53614
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53614
+  - VulnerabilityID: CVE-2026-53615
+    PkgID: login@1:4.16.0-2+really2.41.3-3ubuntu2
+    PkgName: login
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/login@4.16.0-2%2Breally2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04&epoch=1
+      UID: 591feb53ee99f4f9
+    InstalledVersion: 1:4.16.0-2+really2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53615
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:96aa5684ffa7a2bc2df9e37b9daad4cacfd2aaa1653a3ef3b34da50f7211331e
+    Title: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
+    Description: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 3
+      ubuntu: 2
+    References:
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-h4rw-gv36-wmp5
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53615
   - VulnerabilityID: CVE-2024-56433
     PkgID: login.defs@1:4.17.4-2ubuntu3
     PkgName: login.defs
@@ -3021,6 +4943,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
+    - https://access.redhat.com/errata/RHSA-2025:20145
     - https://access.redhat.com/errata/RHSA-2025:20559
     - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
@@ -3028,7 +4951,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/9/ALSA-2025-20559.html
-    - https://errata.rockylinux.org/RLSA-2025:20559
+    - https://errata.rockylinux.org/RLSA-2025:20145
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -3038,6 +4961,56 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2026-06-17T08:12:10.903Z'
+  - VulnerabilityID: CVE-2026-13595
+    PkgID: mount@2.41.3-3ubuntu2
+    PkgName: mount
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/mount@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 98c6a5d7e9e110eb
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-13595
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:daf3af049bd0085773635813317e240bf7ea0b269d2f81436b953ed446c47a5b
+    Title: 'util-linux: util-linux: heap use-after-free in libblkid nested partition probing'
+    Description: A flaw was found in the libblkid library of util-linux. During nested partition probing, the BSD, Minix, Solaris x86, and UnixWare partition probers cache a raw pointer to a parent partition entry in a dynamically allocated array. When subsequent partition additions cause the array to be reallocated, this pointer becomes stale, leading to a heap use-after-free read. An attacker who can present a crafted block device image (for example, via USB insertion or a loop-mounted disk image) can trigger this flaw without user interaction, as libblkid is invoked automatically by udev/udisks as root on block-device hot-plug events. This could lead to limited information disclosure or denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      azure: 2
+      julia: 2
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:26573
+    - https://access.redhat.com/security/cve/CVE-2026-13595
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494101
+    - https://github.com/util-linux/util-linux/commit/c0186f14fbdb02f64c8e0ba701ce727ea764ff4c
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-13595
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-13595
+    PublishedDate: '2026-06-29T09:16:28.303Z'
+    LastModifiedDate: '2026-08-31T18:17:13.083Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: mount@2.41.3-3ubuntu2
     PkgName: mount
@@ -3045,7 +5018,8 @@
       PURL: pkg:deb/ubuntu/mount@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
       UID: 98c6a5d7e9e110eb
     InstalledVersion: 2.41.3-3ubuntu2
-    Status: affected
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -3084,6 +5058,7 @@
     - https://github.com/util-linux/util-linux/releases/tag/v2.41.4
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-qq4x-vfq4-9h9g
     - https://nvd.nist.gov/vuln/detail/CVE-2026-27456
+    - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-27456
     PublishedDate: '2026-04-03T22:16:25.4Z'
     LastModifiedDate: '2026-07-24T22:10:00.14Z'
@@ -3094,7 +5069,8 @@
       PURL: pkg:deb/ubuntu/mount@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
       UID: 98c6a5d7e9e110eb
     InstalledVersion: 2.41.3-3ubuntu2
-    Status: affected
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -3128,9 +5104,144 @@
     - https://access.redhat.com/security/cve/CVE-2026-3184
     - https://bugzilla.redhat.com/show_bug.cgi?id=2442570
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3184
+    - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
-    LastModifiedDate: '2026-08-21T13:17:47.457Z'
+    LastModifiedDate: '2026-08-31T12:17:55.983Z'
+  - VulnerabilityID: CVE-2026-53612
+    PkgID: mount@2.41.3-3ubuntu2
+    PkgName: mount
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/mount@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 98c6a5d7e9e110eb
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53612
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a5a4f0142c3dad7732648be20bcf23263ec85d54c57ef44fc6d72306cb8fae64
+    Title: 'util-linux: util-linux: TOCTOU in the mount program when applying post-mount ownership/mode changes'
+    Description: A flaw was found in util-linux. When an /etc/fstab entry uses the user option together with X-mount.owner, X-mount.group, or X-mount.mode, mount(8) changes ownership or permissions on the mount target after mounting without re-verifying the path. A local unprivileged user can exploit this Time-of-Check-Time-of-Use (TOCTOU) window by swapping the target directory, redirecting the ownership/permission change to an arbitrary file and potentially escalating privileges to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53612
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-g8wm-75wr-g2vh
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53612
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53612
+  - VulnerabilityID: CVE-2026-53613
+    PkgID: mount@2.41.3-3ubuntu2
+    PkgName: mount
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/mount@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 98c6a5d7e9e110eb
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53613
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f282530f4ae9ed62f295d2a6b60cef70b63efad8b1902cae0299e3ea41766abe
+    Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
+    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53613
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-8gj5-72r3-428g
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53613
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53613
+  - VulnerabilityID: CVE-2026-53614
+    PkgID: mount@2.41.3-3ubuntu2
+    PkgName: mount
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/mount@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 98c6a5d7e9e110eb
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53614
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:022d12d5d6c5221b47d2be0ab8ee6756c57d736c4cca5fd0b2c809ef35ca9b61
+    Title: 'util-linux: util-linux: SUID mount(8) allows nosuid/noexec bypass via LIBMOUNT_FORCE_MOUNT2'
+    Description: A flaw was found in util-linux. The mount(8) SUID binary does not sanitize the LIBMOUNT_FORCE_MOUNT2 environment variable before use. A local unprivileged user can set this variable to force mount(8) to use the legacy two-step mount(2) code path, which applies security restrictions such as nosuid and noexec after the mount is already active. During this window, an attacker can execute a SUID binary from the mounted filesystem, allowing local privilege escalation to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53614
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-67r7-8m5w-22wx
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53614
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53614
+  - VulnerabilityID: CVE-2026-53615
+    PkgID: mount@2.41.3-3ubuntu2
+    PkgName: mount
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/mount@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: 98c6a5d7e9e110eb
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53615
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:111a3252e56b0937a657f49224ba9f5a37c6bb7a9468e5498d0659195ec6ee27
+    Title: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
+    Description: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 3
+      ubuntu: 2
+    References:
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-h4rw-gv36-wmp5
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53615
   - VulnerabilityID: CVE-2026-75803
     PkgID: openssl@3.5.5-1ubuntu3.4
     PkgName: openssl
@@ -3138,7 +5249,8 @@
       PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3.4?arch=amd64&distro=ubuntu-26.04
       UID: 867165f5b49e3eda
     InstalledVersion: 3.5.5-1ubuntu3.4
-    Status: affected
+    FixedVersion: 3.5.5-1ubuntu3.5
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -3185,6 +5297,7 @@
     - https://github.com/openssl/openssl/commit/bf95f5f772e9362f87b25cfa2f8cb15d984865b9
     - https://openssl-library.org/news/secadv/20260825.txt
     - https://ubuntu.com/security/notices/USN-8678-1
+    - https://ubuntu.com/security/notices/USN-8678-3
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
     LastModifiedDate: '2026-08-28T19:46:29.323Z'
@@ -3195,7 +5308,8 @@
       PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu3.4?arch=amd64&distro=ubuntu-26.04
       UID: 3589238e44de5fd
     InstalledVersion: 3.5.5-1ubuntu3.4
-    Status: affected
+    FixedVersion: 3.5.5-1ubuntu3.5
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -3242,6 +5356,7 @@
     - https://github.com/openssl/openssl/commit/bf95f5f772e9362f87b25cfa2f8cb15d984865b9
     - https://openssl-library.org/news/secadv/20260825.txt
     - https://ubuntu.com/security/notices/USN-8678-1
+    - https://ubuntu.com/security/notices/USN-8678-3
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
     LastModifiedDate: '2026-08-28T19:46:29.323Z'
@@ -3280,6 +5395,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
+    - https://access.redhat.com/errata/RHSA-2025:20145
     - https://access.redhat.com/errata/RHSA-2025:20559
     - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
@@ -3287,7 +5403,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/9/ALSA-2025-20559.html
-    - https://errata.rockylinux.org/RLSA-2025:20559
+    - https://errata.rockylinux.org/RLSA-2025:20145
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -4299,12 +6415,13 @@
         V3Score: 4.4
     References:
     - https://access.redhat.com/errata/RHSA-2026:49361
+    - https://access.redhat.com/errata/RHSA-2026:61581
     - https://access.redhat.com/security/cve/CVE-2026-18477
     - https://bugzilla.redhat.com/show_bug.cgi?id=2509735
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18477
     - https://www.cve.org/CVERecord?id=CVE-2026-18477
     PublishedDate: '2026-08-03T17:16:33.897Z'
-    LastModifiedDate: '2026-08-21T13:16:55.253Z'
+    LastModifiedDate: '2026-08-31T21:17:06.78Z'
   - VulnerabilityID: CVE-2026-18508
     PkgID: tar@1.35+dfsg-4ubuntu0.4
     PkgName: tar
@@ -4337,12 +6454,13 @@
         V3Score: 4.4
     References:
     - https://access.redhat.com/errata/RHSA-2026:50807
+    - https://access.redhat.com/errata/RHSA-2026:61581
     - https://access.redhat.com/security/cve/CVE-2026-18508
     - https://bugzilla.redhat.com/show_bug.cgi?id=2509843
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18508
     - https://www.cve.org/CVERecord?id=CVE-2026-18508
     PublishedDate: '2026-08-03T16:16:28.387Z'
-    LastModifiedDate: '2026-08-21T13:16:55.433Z'
+    LastModifiedDate: '2026-08-31T21:17:06.94Z'
   - VulnerabilityID: CVE-2021-39920
     PkgID: tshark@4.6.4-1
     PkgName: tshark
@@ -4395,6 +6513,56 @@
     - https://www.wireshark.org/security/wnpa-sec-2021-15.html
     PublishedDate: '2021-11-18T19:15:08.333Z'
     LastModifiedDate: '2026-06-17T04:04:25.67Z'
+  - VulnerabilityID: CVE-2026-13595
+    PkgID: util-linux@2.41.3-3ubuntu2
+    PkgName: util-linux
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/util-linux@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: '34e9503915630576'
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-13595
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:92b0a4ae7f372093ac9174523a716ee0fb361aea6d14258b90406c6fc257493c
+    Title: 'util-linux: util-linux: heap use-after-free in libblkid nested partition probing'
+    Description: A flaw was found in the libblkid library of util-linux. During nested partition probing, the BSD, Minix, Solaris x86, and UnixWare partition probers cache a raw pointer to a parent partition entry in a dynamically allocated array. When subsequent partition additions cause the array to be reallocated, this pointer becomes stale, leading to a heap use-after-free read. An attacker who can present a crafted block device image (for example, via USB insertion or a loop-mounted disk image) can trigger this flaw without user interaction, as libblkid is invoked automatically by udev/udisks as root on block-device hot-plug events. This could lead to limited information disclosure or denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      azure: 2
+      julia: 2
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:26573
+    - https://access.redhat.com/security/cve/CVE-2026-13595
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494101
+    - https://github.com/util-linux/util-linux/commit/c0186f14fbdb02f64c8e0ba701ce727ea764ff4c
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-13595
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-13595
+    PublishedDate: '2026-06-29T09:16:28.303Z'
+    LastModifiedDate: '2026-08-31T18:17:13.083Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: util-linux@2.41.3-3ubuntu2
     PkgName: util-linux
@@ -4402,7 +6570,8 @@
       PURL: pkg:deb/ubuntu/util-linux@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
       UID: '34e9503915630576'
     InstalledVersion: 2.41.3-3ubuntu2
-    Status: affected
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -4441,6 +6610,7 @@
     - https://github.com/util-linux/util-linux/releases/tag/v2.41.4
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-qq4x-vfq4-9h9g
     - https://nvd.nist.gov/vuln/detail/CVE-2026-27456
+    - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-27456
     PublishedDate: '2026-04-03T22:16:25.4Z'
     LastModifiedDate: '2026-07-24T22:10:00.14Z'
@@ -4451,7 +6621,8 @@
       PURL: pkg:deb/ubuntu/util-linux@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
       UID: '34e9503915630576'
     InstalledVersion: 2.41.3-3ubuntu2
-    Status: affected
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -4485,9 +6656,144 @@
     - https://access.redhat.com/security/cve/CVE-2026-3184
     - https://bugzilla.redhat.com/show_bug.cgi?id=2442570
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3184
+    - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
-    LastModifiedDate: '2026-08-21T13:17:47.457Z'
+    LastModifiedDate: '2026-08-31T12:17:55.983Z'
+  - VulnerabilityID: CVE-2026-53612
+    PkgID: util-linux@2.41.3-3ubuntu2
+    PkgName: util-linux
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/util-linux@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: '34e9503915630576'
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53612
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f0df098ec3250bb56ff998f9c3b52d3434400f272700ba78331f16323b45c714
+    Title: 'util-linux: util-linux: TOCTOU in the mount program when applying post-mount ownership/mode changes'
+    Description: A flaw was found in util-linux. When an /etc/fstab entry uses the user option together with X-mount.owner, X-mount.group, or X-mount.mode, mount(8) changes ownership or permissions on the mount target after mounting without re-verifying the path. A local unprivileged user can exploit this Time-of-Check-Time-of-Use (TOCTOU) window by swapping the target directory, redirecting the ownership/permission change to an arbitrary file and potentially escalating privileges to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53612
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-g8wm-75wr-g2vh
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53612
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53612
+  - VulnerabilityID: CVE-2026-53613
+    PkgID: util-linux@2.41.3-3ubuntu2
+    PkgName: util-linux
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/util-linux@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: '34e9503915630576'
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53613
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:979801a0118a0371fa47ddc5dd105e8b6b7df03ad1d6a3ce82746415d7f4fa08
+    Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
+    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53613
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-8gj5-72r3-428g
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53613
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53613
+  - VulnerabilityID: CVE-2026-53614
+    PkgID: util-linux@2.41.3-3ubuntu2
+    PkgName: util-linux
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/util-linux@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: '34e9503915630576'
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53614
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b12f29e984ccdfc43e60e353827a016cd130d671b800ee13c908aca5ae0a238e
+    Title: 'util-linux: util-linux: SUID mount(8) allows nosuid/noexec bypass via LIBMOUNT_FORCE_MOUNT2'
+    Description: A flaw was found in util-linux. The mount(8) SUID binary does not sanitize the LIBMOUNT_FORCE_MOUNT2 environment variable before use. A local unprivileged user can set this variable to force mount(8) to use the legacy two-step mount(2) code path, which applies security restrictions such as nosuid and noexec after the mount is already active. During this window, an attacker can execute a SUID binary from the mounted filesystem, allowing local privilege escalation to root.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-53614
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-67r7-8m5w-22wx
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-53614
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53614
+  - VulnerabilityID: CVE-2026-53615
+    PkgID: util-linux@2.41.3-3ubuntu2
+    PkgName: util-linux
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/util-linux@2.41.3-3ubuntu2?arch=amd64&distro=ubuntu-26.04
+      UID: '34e9503915630576'
+    InstalledVersion: 2.41.3-3ubuntu2
+    FixedVersion: 2.41.3-3ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-53615
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e642c334386f715f4fbe4474f981edbdc8af413167d705b7a0ccb8c81f8c2006
+    Title: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
+    Description: '[Integer Overflow or Wraparound in libblkid/src/partitions/dos.c]'
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 3
+      ubuntu: 2
+    References:
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-h4rw-gv36-wmp5
+    - https://ubuntu.com/security/notices/USN-8702-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-53615
   - VulnerabilityID: CVE-2026-51400
     PkgID: vim@2:9.1.2141-1ubuntu4.8
     PkgName: vim
@@ -4589,6 +6895,7 @@
     - CWE-94
     - CWE-829
     VendorSeverity:
+      amazon: 3
       ubuntu: 2
     References:
     - https://github.com/vim/vim/commit/2f628d8104958fa7421664f792ca6d4f7a39a10f
@@ -4699,6 +7006,7 @@
     - CWE-94
     - CWE-829
     VendorSeverity:
+      amazon: 3
       ubuntu: 2
     References:
     - https://github.com/vim/vim/commit/2f628d8104958fa7421664f792ca6d4f7a39a10f
@@ -4809,6 +7117,7 @@
     - CWE-94
     - CWE-829
     VendorSeverity:
+      amazon: 3
       ubuntu: 2
     References:
     - https://github.com/vim/vim/commit/2f628d8104958fa7421664f792ca6d4f7a39a10f
@@ -5023,6 +7332,7 @@
     - CWE-94
     - CWE-829
     VendorSeverity:
+      amazon: 3
       ubuntu: 2
     References:
     - https://github.com/vim/vim/commit/2f628d8104958fa7421664f792ca6d4f7a39a10f
@@ -5039,7 +7349,8 @@
       PURL: pkg:deb/ubuntu/zlib1g@1.3.dfsg%2Breally1.3.1-1ubuntu3?arch=amd64&distro=ubuntu-26.04&epoch=1
       UID: e6f2cecd2b667912
     InstalledVersion: 1:1.3.dfsg+really1.3.1-1ubuntu3
-    Status: affected
+    FixedVersion: 1:1.3.dfsg+really1.3.1-1ubuntu3.1
+    Status: fixed
     Layer:
       Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
       DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
@@ -5473,7 +7784,9 @@
     - CWE-400
     VendorSeverity:
       alma: 3
+      amazon: 3
       bitnami: 3
+      oracle-oval: 3
       redhat: 3
       rocky: 3
     CVSS:
@@ -5484,7 +7797,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:60304
+    - https://access.redhat.com/errata/RHSA-2026:60305
+    - https://access.redhat.com/errata/RHSA-2026:60306
     - https://access.redhat.com/security/cve/CVE-2026-33818
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
@@ -5505,11 +7819,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-60304.html
-    - https://errata.rockylinux.org/RLSA-2026:60304
+    - https://errata.almalinux.org/10/ALSA-2026-60306.html
+    - https://errata.rockylinux.org/RLSA-2026:60305
     - https://go.dev/cl/814980
     - https://go.dev/issue/80405
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://linux.oracle.com/cve/CVE-2026-33818.html
+    - https://linux.oracle.com/errata/ELSA-2026-60306-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33818
     - https://pkg.go.dev/vuln/GO-2026-5972
     - https://www.cve.org/CVERecord?id=CVE-2026-33818
@@ -5683,15 +7999,20 @@
     - https://access.redhat.com/errata/RHSA-2026:60354
     - https://access.redhat.com/errata/RHSA-2026:60387
     - https://access.redhat.com/errata/RHSA-2026:60520
+    - https://access.redhat.com/errata/RHSA-2026:61245
+    - https://access.redhat.com/errata/RHSA-2026:61253
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
+    - https://bugzilla.redhat.com/2484207
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2484207
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498152
     - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39821
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39822
-    - https://errata.almalinux.org/9/ALSA-2026-37435.html
-    - https://errata.rockylinux.org/RLSA-2026:37435
+    - https://errata.almalinux.org/10/ALSA-2026-46395.html
+    - https://errata.rockylinux.org/RLSA-2026:38995
     - https://github.com/golang/go/issues/78760
     - https://go.dev/cl/767220
     - https://go.dev/issue/78760
@@ -5705,7 +8026,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-28T16:17:48.517Z'
+    LastModifiedDate: '2026-08-31T13:18:06.777Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -5779,7 +8100,9 @@
     - CWE-770
     VendorSeverity:
       alma: 3
+      amazon: 3
       bitnami: 3
+      oracle-oval: 3
       redhat: 3
       rocky: 3
     CVSS:
@@ -5790,7 +8113,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:60304
+    - https://access.redhat.com/errata/RHSA-2026:60305
+    - https://access.redhat.com/errata/RHSA-2026:60306
     - https://access.redhat.com/security/cve/CVE-2026-56853
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
@@ -5811,11 +8135,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-60304.html
-    - https://errata.rockylinux.org/RLSA-2026:60304
+    - https://errata.almalinux.org/10/ALSA-2026-60306.html
+    - https://errata.rockylinux.org/RLSA-2026:60305
     - https://go.dev/cl/795540
     - https://go.dev/issue/80205
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://linux.oracle.com/cve/CVE-2026-56853.html
+    - https://linux.oracle.com/errata/ELSA-2026-60306-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56853
     - https://pkg.go.dev/vuln/GO-2026-6089
     - https://www.cve.org/CVERecord?id=CVE-2026-56853
@@ -5848,7 +8174,9 @@
     - CWE-79
     VendorSeverity:
       alma: 3
+      amazon: 3
       bitnami: 2
+      oracle-oval: 3
       redhat: 3
       rocky: 3
     CVSS:
@@ -5859,7 +8187,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
         V3Score: 8.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:60304
+    - https://access.redhat.com/errata/RHSA-2026:60305
+    - https://access.redhat.com/errata/RHSA-2026:60306
     - https://access.redhat.com/security/cve/CVE-2026-56858
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
@@ -5880,11 +8209,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-60304.html
-    - https://errata.rockylinux.org/RLSA-2026:60304
+    - https://errata.almalinux.org/10/ALSA-2026-60306.html
+    - https://errata.rockylinux.org/RLSA-2026:60305
     - https://go.dev/cl/807100
     - https://go.dev/issue/80435
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://linux.oracle.com/cve/CVE-2026-56858.html
+    - https://linux.oracle.com/errata/ELSA-2026-60306-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56858
     - https://pkg.go.dev/vuln/GO-2026-6091
     - https://www.cve.org/CVERecord?id=CVE-2026-56858
@@ -5917,7 +8248,9 @@
     - CWE-770
     VendorSeverity:
       alma: 3
+      amazon: 3
       bitnami: 3
+      oracle-oval: 3
       redhat: 3
       rocky: 3
     CVSS:
@@ -5928,7 +8261,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:60304
+    - https://access.redhat.com/errata/RHSA-2026:60305
+    - https://access.redhat.com/errata/RHSA-2026:60306
     - https://access.redhat.com/security/cve/CVE-2026-56859
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
@@ -5949,11 +8283,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-60304.html
-    - https://errata.rockylinux.org/RLSA-2026:60304
+    - https://errata.almalinux.org/10/ALSA-2026-60306.html
+    - https://errata.rockylinux.org/RLSA-2026:60305
     - https://go.dev/cl/803320
     - https://go.dev/issue/80481
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://linux.oracle.com/cve/CVE-2026-56859.html
+    - https://linux.oracle.com/errata/ELSA-2026-60306-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56859
     - https://pkg.go.dev/vuln/GO-2026-6088
     - https://www.cve.org/CVERecord?id=CVE-2026-56859
@@ -5986,7 +8322,9 @@
     - CWE-407
     VendorSeverity:
       alma: 3
+      amazon: 3
       bitnami: 2
+      oracle-oval: 3
       redhat: 3
       rocky: 3
     CVSS:
@@ -5997,7 +8335,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:60304
+    - https://access.redhat.com/errata/RHSA-2026:60305
+    - https://access.redhat.com/errata/RHSA-2026:60306
     - https://access.redhat.com/security/cve/CVE-2026-56860
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
@@ -6018,11 +8357,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-60304.html
-    - https://errata.rockylinux.org/RLSA-2026:60304
+    - https://errata.almalinux.org/10/ALSA-2026-60306.html
+    - https://errata.rockylinux.org/RLSA-2026:60305
     - https://go.dev/cl/803681
     - https://go.dev/issue/80494
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://linux.oracle.com/cve/CVE-2026-56860.html
+    - https://linux.oracle.com/errata/ELSA-2026-60306-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56860
     - https://pkg.go.dev/vuln/GO-2026-6218
     - https://www.cve.org/CVERecord?id=CVE-2026-56860
@@ -6055,7 +8396,9 @@
     - CWE-770
     VendorSeverity:
       alma: 3
+      amazon: 3
       bitnami: 3
+      oracle-oval: 3
       redhat: 3
       rocky: 3
     CVSS:
@@ -6066,7 +8409,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:60304
+    - https://access.redhat.com/errata/RHSA-2026:60305
+    - https://access.redhat.com/errata/RHSA-2026:60306
     - https://access.redhat.com/security/cve/CVE-2026-56862
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
@@ -6087,11 +8431,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-60304.html
-    - https://errata.rockylinux.org/RLSA-2026:60304
+    - https://errata.almalinux.org/10/ALSA-2026-60306.html
+    - https://errata.rockylinux.org/RLSA-2026:60305
     - https://go.dev/cl/804261
     - https://go.dev/issue/80528
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
+    - https://linux.oracle.com/cve/CVE-2026-56862.html
+    - https://linux.oracle.com/errata/ELSA-2026-60306-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56862
     - https://pkg.go.dev/vuln/GO-2026-6090
     - https://www.cve.org/CVERecord?id=CVE-2026-56862
