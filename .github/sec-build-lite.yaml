@@ -2,6 +2,66 @@
   Class: os-pkgs
   Type: alpine
   Packages: []
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2026-41992
+    PkgID: gzip@1.14-r2
+    PkgName: gzip
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/gzip@1.14-r2?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: 8762e7fddd35f239
+    InstalledVersion: 1.14-r2
+    FixedVersion: 1.14-r3
+    Status: fixed
+    Layer:
+      Digest: sha256:c814c1a3af23f8e66062148e02434754c67ceff89ce986557f413c3ca957ef63
+      DiffID: sha256:915e5a878cb6d76b61f107b3fc2472b915186a2e2751b2980efba4c4b028ed79
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-41992
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:56e08ff3e257d161f2144c6c5f981ea02693b4d0744124028a4af24b17c71a20
+    Title: 'gzip: gzip: Information disclosure via global buffer overflow in LZH decompression'
+    Description: "GNU gzip contains a global buffer overflow vulnerability in the LZH decompression logic caused by improper reuse of shared global state between different decompression formats within a single execution. GNU gzip maintains a global array that is shared across the LZ77, LZW, and LZH decompression routines and is not reinitialized between files processed in the same invocation.\nBy decompressing a specially crafted LZW file followed by a specially crafted LZH file in a single gzip -d command, an attacker can poison the shared global state and subsequently trigger an out‑of‑bounds read in the LZH decoder. The LZH decompression logic follows stale values left in the shared array, causing reads past the end of the allocated global buffer.\n\nThis issue has been fixed in commits 63dbf6b3b9e6e781df1a6a64e609b10e23969681 and\_e7378c2d421be6a286922374425680bbe9ad8b7d."
+    Severity: HIGH
+    CweIDs:
+    - CWE-126
+    VendorSeverity:
+      azure: 2
+      julia: 2
+      nvd: 3
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N
+        V3Score: 7.5
+        V40Score: 6.9
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L
+        V3Score: 3.6
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/23/1
+    - http://www.openwall.com/lists/oss-security/2026/08/25/1
+    - http://www.openwall.com/lists/oss-security/2026/08/27/2
+    - https://access.redhat.com/security/cve/CVE-2026-41992
+    - https://cert.pl/en/posts/2026/04/CVE-2026-41991
+    - https://cert.pl/en/posts/2026/04/CVE-2026-41991/
+    - https://cgit.git.savannah.gnu.org/cgit/gzip.git/commit/?id=63dbf6b3b9e6e781df1a6a64e609b10e23969681
+    - https://cgit.git.savannah.gnu.org/cgit/gzip.git/commit/?id=e7378c2d421be6a286922374425680bbe9ad8b7d
+    - https://github.com/advisories/GHSA-qxh4-rprf-2mmj
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-41992
+    - https://ubuntu.com/security/notices/USN-8512-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-41992
+    - https://www.gnu.org/software/gzip
+    - https://www.gnu.org/software/gzip/
+    PublishedDate: '2026-06-29T12:16:29.94Z'
+    LastModifiedDate: '2026-08-27T13:17:57.967Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
