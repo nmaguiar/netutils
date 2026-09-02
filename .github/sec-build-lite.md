@@ -3,83 +3,254 @@
 │     ├ Class          : os-pkgs 
 │     ├ Type           : alpine 
 │     ├ Packages        
-│     ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2026-41992 
-│                             ├ PkgID           : gzip@1.14-r2 
-│                             ├ PkgName         : gzip 
-│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/gzip@1.14-r2?arch=x86_64&distro=3.25.0_
-│                             │                  │       alpha20260805 
-│                             │                  ╰ UID : 8762e7fddd35f239 
-│                             ├ InstalledVersion: 1.14-r2 
-│                             ├ FixedVersion    : 1.14-r3 
+│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2026-41992 
+│                       │     ├ PkgID           : gzip@1.14-r2 
+│                       │     ├ PkgName         : gzip 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/gzip@1.14-r2?arch=x86_64&distro=3.25.0_
+│                       │     │                  │       alpha20260805 
+│                       │     │                  ╰ UID : 8762e7fddd35f239 
+│                       │     ├ InstalledVersion: 1.14-r2 
+│                       │     ├ FixedVersion    : 1.14-r3 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:c814c1a3af23f8e66062148e02434754c67ceff89ce98
+│                       │     │                  │         6557f413c3ca957ef63 
+│                       │     │                  ╰ DiffID: sha256:915e5a878cb6d76b61f107b3fc2472b915186a2e2751b
+│                       │     │                            2980efba4c4b028ed79 
+│                       │     ├ SeveritySource  : nvd 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41992 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:56e08ff3e257d161f2144c6c5f981ea02693b4d0744124028a4af2
+│                       │     │                   4b17c71a20 
+│                       │     ├ Title           : gzip: gzip: Information disclosure via global buffer overflow
+│                       │     │                    in LZH decompression 
+│                       │     ├ Description     : GNU gzip contains a global buffer overflow vulnerability in
+│                       │     │                   the LZH decompression logic caused by improper reuse of
+│                       │     │                   shared global state between different decompression formats
+│                       │     │                   within a single execution. GNU gzip maintains a global array
+│                       │     │                   that is shared across the LZ77, LZW, and LZH decompression
+│                       │     │                   routines and is not reinitialized between files processed in
+│                       │     │                   the same invocation.
+│                       │     │                   By decompressing a specially crafted LZW file followed by a
+│                       │     │                   specially crafted LZH file in a single gzip -d command, an
+│                       │     │                   attacker can poison the shared global state and subsequently
+│                       │     │                   trigger an out‑of‑bounds read in the LZH decoder. The LZH
+│                       │     │                   decompression logic follows stale values left in the shared
+│                       │     │                   array, causing reads past the end of the allocated global
+│                       │     │                   buffer.
+│                       │     │                   
+│                       │     │                   This issue has been fixed in commits
+│                       │     │                   63dbf6b3b9e6e781df1a6a64e609b10e23969681 and
+│                       │     │                   e7378c2d421be6a286922374425680bbe9ad8b7d. 
+│                       │     ├ Severity        : HIGH 
+│                       │     ├ CweIDs           ─ [0]: CWE-126 
+│                       │     ├ VendorSeverity   ╭ alma       : 2 
+│                       │     │                  ├ azure      : 2 
+│                       │     │                  ├ julia      : 2 
+│                       │     │                  ├ nvd        : 3 
+│                       │     │                  ├ oracle-oval: 2 
+│                       │     │                  ├ photon     : 3 
+│                       │     │                  ├ redhat     : 1 
+│                       │     │                  ╰ ubuntu     : 2 
+│                       │     ├ CVSS             ╭ julia  ╭ V3Vector : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
+│                       │     │                  │        │            /A:N 
+│                       │     │                  │        ├ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:H/V
+│                       │     │                  │        │            I:N/VA:N/SC:N/SI:N/SA:N 
+│                       │     │                  │        ├ V3Score  : 7.5 
+│                       │     │                  │        ╰ V40Score : 6.9 
+│                       │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/
+│                       │     │                  │        │           A:N 
+│                       │     │                  │        ╰ V3Score : 7.5 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/
+│                       │     │                           │           A:L 
+│                       │     │                           ╰ V3Score : 3.6 
+│                       │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/08/23/1 
+│                       │     │                  ├ [1] : http://www.openwall.com/lists/oss-security/2026/08/25/1 
+│                       │     │                  ├ [2] : http://www.openwall.com/lists/oss-security/2026/08/27/2 
+│                       │     │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:61623 
+│                       │     │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2026-41992 
+│                       │     │                  ├ [5] : https://bugzilla.redhat.com/2494158 
+│                       │     │                  ├ [6] : https://cert.pl/en/posts/2026/04/CVE-2026-41991 
+│                       │     │                  ├ [7] : https://cert.pl/en/posts/2026/04/CVE-2026-41991/ 
+│                       │     │                  ├ [8] : https://cgit.git.savannah.gnu.org/cgit/gzip.git/commit
+│                       │     │                  │       /?id=63dbf6b3b9e6e781df1a6a64e609b10e23969681 
+│                       │     │                  ├ [9] : https://cgit.git.savannah.gnu.org/cgit/gzip.git/commit
+│                       │     │                  │       /?id=e7378c2d421be6a286922374425680bbe9ad8b7d 
+│                       │     │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2026-61623.html 
+│                       │     │                  ├ [11]: https://github.com/advisories/GHSA-qxh4-rprf-2mmj 
+│                       │     │                  ├ [12]: https://linux.oracle.com/cve/CVE-2026-41992.html 
+│                       │     │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-61623-0.html 
+│                       │     │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2026-41992 
+│                       │     │                  ├ [15]: https://ubuntu.com/security/notices/USN-8512-1 
+│                       │     │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2026-41992 
+│                       │     │                  ├ [17]: https://www.gnu.org/software/gzip 
+│                       │     │                  ╰ [18]: https://www.gnu.org/software/gzip/ 
+│                       │     ├ PublishedDate   : 2026-06-29T12:16:29.94Z 
+│                       │     ╰ LastModifiedDate: 2026-08-27T13:17:57.967Z 
+│                       ├ [1] ╭ VulnerabilityID : CVE-2026-66046 
+│                       │     ├ PkgID           : libexpat@2.8.3-r0 
+│                       │     ├ PkgName         : libexpat 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.3-r0?arch=x86_64&distro=3.
+│                       │     │                  │       25.0_alpha20260805 
+│                       │     │                  ╰ UID : ce9910aefff25497 
+│                       │     ├ InstalledVersion: 2.8.3-r0 
+│                       │     ├ FixedVersion    : 2.8.4-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:c814c1a3af23f8e66062148e02434754c67ceff89ce98
+│                       │     │                  │         6557f413c3ca957ef63 
+│                       │     │                  ╰ DiffID: sha256:915e5a878cb6d76b61f107b3fc2472b915186a2e2751b
+│                       │     │                            2980efba4c4b028ed79 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-66046 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:9e96847d56622db641cd5bb844bc27c14eafc09f35b3e0b6796220
+│                       │     │                   b3125ba37f 
+│                       │     ├ Title           : Expat through 2.8.3 contains a denial of service
+│                       │     │                   vulnerability caused  ... 
+│                       │     ├ Description     : Expat through 2.8.3 contains a denial of service
+│                       │     │                   vulnerability caused by quadratic algorithmic complexity in
+│                       │     │                   the storeAtts() function in xmlparse.c, where processing N
+│                       │     │                   specified attributes with non-normalized values triggers an
+│                       │     │                   O(N^2) linear scan of elementType->defaultAtts to determine
+│                       │     │                   CDATA status. A remote unauthenticated attacker can supply a
+│                       │     │                   single well-formed XML document of a few megabytes to an
+│                       │     │                   application parsing untrusted XML to cause excessive CPU
+│                       │     │                   consumption, resulting in denial of service without requiring
+│                       │     │                    authentication, external entity resolution, or non-default
+│                       │     │                   parser options. 
+│                       │     ├ Severity        : HIGH 
+│                       │     ├ CweIDs           ─ [0]: CWE-407 
+│                       │     ├ VendorSeverity   ╭ amazon: 3 
+│                       │     │                  ╰ azure : 3 
+│                       │     ├ References       ╭ [0]: https://github.com/libexpat/libexpat/pull/1321 
+│                       │     │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-66046 
+│                       │     │                  ╰ [2]: https://www.vulncheck.com/advisories/expat-denial-of-se
+│                       │     │                         rvice-via-storeatts-quadratic-complexity 
+│                       │     ├ PublishedDate   : 2026-08-18T15:16:57Z 
+│                       │     ╰ LastModifiedDate: 2026-08-20T16:17:40.66Z 
+│                       ├ [2] ╭ VulnerabilityID : CVE-2026-76641 
+│                       │     ├ PkgID           : libexpat@2.8.3-r0 
+│                       │     ├ PkgName         : libexpat 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.3-r0?arch=x86_64&distro=3.
+│                       │     │                  │       25.0_alpha20260805 
+│                       │     │                  ╰ UID : ce9910aefff25497 
+│                       │     ├ InstalledVersion: 2.8.3-r0 
+│                       │     ├ FixedVersion    : 2.8.4-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:c814c1a3af23f8e66062148e02434754c67ceff89ce98
+│                       │     │                  │         6557f413c3ca957ef63 
+│                       │     │                  ╰ DiffID: sha256:915e5a878cb6d76b61f107b3fc2472b915186a2e2751b
+│                       │     │                            2980efba4c4b028ed79 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-76641 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:c12093c27832533e2da9063cc47b1201b07196e9cccacf1f6feff9
+│                       │     │                   e64ceeb1ad 
+│                       │     ├ Title           : CVE-2026-76641 affecting package expat for versions less than
+│                       │     │                    2.8.3-2 
+│                       │     ├ Description     : Expat through 2.8.3 contains an out-of-bounds read
+│                       │     │                   vulnerability that allows attackers to trigger memory
+│                       │     │                   corruption by processing XML with external entity parsers
+│                       │     │                   created via XML_ExternalEntityParserCreate. A struct size
+│                       │     │                   mismatch between ELEMENT_TYPE members causes storeAtts to
+│                       │     │                   read the attIndex member past allocated memory boundaries,
+│                       │     │                   resulting in failure to normalize whitespace in non-CDATA
+│                       │     │                   attributes or a wild pointer dereference causing a segfault.
+│                       │     │                   This vulnerability was introduced by the fix for
+│                       │     │                   CVE-2026-66046. 
+│                       │     ├ Severity        : HIGH 
+│                       │     ├ CweIDs           ─ [0]: CWE-125 
+│                       │     ├ VendorSeverity   ─ azure: 3 
+│                       │     ├ References       ╭ [0]: https://github.com/libexpat/libexpat/commit/98599f6dcc2
+│                       │     │                  │      b460410881fe420f5f55d6bec63bf 
+│                       │     │                  ├ [1]: https://github.com/libexpat/libexpat/pull/1331 
+│                       │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-76641 
+│                       │     │                  ╰ [3]: https://www.vulncheck.com/advisories/expat-out-of-bound
+│                       │     │                         s-read-via-dtdcopy 
+│                       │     ├ PublishedDate   : 2026-08-20T18:16:51.887Z 
+│                       │     ╰ LastModifiedDate: 2026-08-20T19:17:04.43Z 
+│                       ├ [3] ╭ VulnerabilityID : CVE-2026-76956 
+│                       │     ├ PkgID           : libexpat@2.8.3-r0 
+│                       │     ├ PkgName         : libexpat 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.3-r0?arch=x86_64&distro=3.
+│                       │     │                  │       25.0_alpha20260805 
+│                       │     │                  ╰ UID : ce9910aefff25497 
+│                       │     ├ InstalledVersion: 2.8.3-r0 
+│                       │     ├ FixedVersion    : 2.8.4-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:c814c1a3af23f8e66062148e02434754c67ceff89ce98
+│                       │     │                  │         6557f413c3ca957ef63 
+│                       │     │                  ╰ DiffID: sha256:915e5a878cb6d76b61f107b3fc2472b915186a2e2751b
+│                       │     │                            2980efba4c4b028ed79 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-76956 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:47a9155842741d148d6813f79efbae493072040d11deed484614c5
+│                       │     │                   9b7e7cce99 
+│                       │     ├ Title           : libexpat: libexpat: Denial of Service via hash flooding
+│                       │     │                   attack with crafted XML 
+│                       │     ├ Description     : In libexpat 2.8.2 and 2.8.3 before 2.8.4, misinterpretation
+│                       │     │                   of getentropy's return code leads to insufficient entropy,
+│                       │     │                   which results in being vulnerable to hash flooding attacks,
+│                       │     │                   causing a denial of service via crafted XML content. 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ CweIDs           ─ [0]: CWE-394 
+│                       │     ├ VendorSeverity   ╭ azure : 2 
+│                       │     │                  ╰ redhat: 2 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 5.9 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-76956 
+│                       │     │                  ├ [1]: https://github.com/libexpat/libexpat/pull/1326 
+│                       │     │                  ├ [2]: https://github.com/libexpat/libexpat/pull/1329 
+│                       │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-76956 
+│                       │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-76956 
+│                       │     ├ PublishedDate   : 2026-08-20T05:16:29.61Z 
+│                       │     ╰ LastModifiedDate: 2026-08-20T18:16:52.343Z 
+│                       ╰ [4] ╭ VulnerabilityID : CVE-2026-76957 
+│                             ├ PkgID           : libexpat@2.8.3-r0 
+│                             ├ PkgName         : libexpat 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.3-r0?arch=x86_64&distro=3.
+│                             │                  │       25.0_alpha20260805 
+│                             │                  ╰ UID : ce9910aefff25497 
+│                             ├ InstalledVersion: 2.8.3-r0 
+│                             ├ FixedVersion    : 2.8.4-r0 
 │                             ├ Status          : fixed 
 │                             ├ Layer            ╭ Digest: sha256:c814c1a3af23f8e66062148e02434754c67ceff89ce98
 │                             │                  │         6557f413c3ca957ef63 
 │                             │                  ╰ DiffID: sha256:915e5a878cb6d76b61f107b3fc2472b915186a2e2751b
 │                             │                            2980efba4c4b028ed79 
-│                             ├ SeveritySource  : nvd 
-│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41992 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-76957 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Fingerprint     : sha256:56e08ff3e257d161f2144c6c5f981ea02693b4d0744124028a4af2
-│                             │                   4b17c71a20 
-│                             ├ Title           : gzip: gzip: Information disclosure via global buffer overflow
-│                             │                    in LZH decompression 
-│                             ├ Description     : GNU gzip contains a global buffer overflow vulnerability in
-│                             │                   the LZH decompression logic caused by improper reuse of
-│                             │                   shared global state between different decompression formats
-│                             │                   within a single execution. GNU gzip maintains a global array
-│                             │                   that is shared across the LZ77, LZW, and LZH decompression
-│                             │                   routines and is not reinitialized between files processed in
-│                             │                   the same invocation.
-│                             │                   By decompressing a specially crafted LZW file followed by a
-│                             │                   specially crafted LZH file in a single gzip -d command, an
-│                             │                   attacker can poison the shared global state and subsequently
-│                             │                   trigger an out‑of‑bounds read in the LZH decoder. The LZH
-│                             │                   decompression logic follows stale values left in the shared
-│                             │                   array, causing reads past the end of the allocated global
-│                             │                   buffer.
-│                             │                   
-│                             │                   This issue has been fixed in commits
-│                             │                   63dbf6b3b9e6e781df1a6a64e609b10e23969681 and
-│                             │                   e7378c2d421be6a286922374425680bbe9ad8b7d. 
-│                             ├ Severity        : HIGH 
-│                             ├ CweIDs           ─ [0]: CWE-126 
-│                             ├ VendorSeverity   ╭ azure : 2 
-│                             │                  ├ julia : 2 
-│                             │                  ├ nvd   : 3 
-│                             │                  ├ redhat: 1 
-│                             │                  ╰ ubuntu: 2 
-│                             ├ CVSS             ╭ julia  ╭ V3Vector : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
-│                             │                  │        │            /A:N 
-│                             │                  │        ├ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:H/V
-│                             │                  │        │            I:N/VA:N/SC:N/SI:N/SA:N 
-│                             │                  │        ├ V3Score  : 7.5 
-│                             │                  │        ╰ V40Score : 6.9 
-│                             │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/
-│                             │                  │        │           A:N 
-│                             │                  │        ╰ V3Score : 7.5 
-│                             │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/
+│                             ├ Fingerprint     : sha256:bee85907d72811f090ed85d64113dd6cfe4d4a3f8c81990f911339
+│                             │                   cef9b305a7 
+│                             ├ Title           : libexpat: libexpat: Memory corruption vulnerability allows
+│                             │                   arbitrary code execution or denial of service 
+│                             ├ Description     : libexpat before 2.8.4 lacks handler call depth tracking with
+│                             │                   custom encoding callbacks. Thus, a use-after-free can occur.
+│                             │                   NOTE: this is similar to CVE-2026-50219, CVE-2026-56131 and
+│                             │                   CVE-2026-56412. 
+│                             ├ Severity        : MEDIUM 
+│                             ├ CweIDs           ─ [0]: CWE-416 
+│                             ├ VendorSeverity   ╭ amazon: 3 
+│                             │                  ├ azure : 2 
+│                             │                  ╰ redhat: 2 
+│                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/
 │                             │                           │           A:L 
-│                             │                           ╰ V3Score : 3.6 
-│                             ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/08/23/1 
-│                             │                  ├ [1] : http://www.openwall.com/lists/oss-security/2026/08/25/1 
-│                             │                  ├ [2] : http://www.openwall.com/lists/oss-security/2026/08/27/2 
-│                             │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2026-41992 
-│                             │                  ├ [4] : https://cert.pl/en/posts/2026/04/CVE-2026-41991 
-│                             │                  ├ [5] : https://cert.pl/en/posts/2026/04/CVE-2026-41991/ 
-│                             │                  ├ [6] : https://cgit.git.savannah.gnu.org/cgit/gzip.git/commit
-│                             │                  │       /?id=63dbf6b3b9e6e781df1a6a64e609b10e23969681 
-│                             │                  ├ [7] : https://cgit.git.savannah.gnu.org/cgit/gzip.git/commit
-│                             │                  │       /?id=e7378c2d421be6a286922374425680bbe9ad8b7d 
-│                             │                  ├ [8] : https://github.com/advisories/GHSA-qxh4-rprf-2mmj 
-│                             │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-41992 
-│                             │                  ├ [10]: https://ubuntu.com/security/notices/USN-8512-1 
-│                             │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2026-41992 
-│                             │                  ├ [12]: https://www.gnu.org/software/gzip 
-│                             │                  ╰ [13]: https://www.gnu.org/software/gzip/ 
-│                             ├ PublishedDate   : 2026-06-29T12:16:29.94Z 
-│                             ╰ LastModifiedDate: 2026-08-27T13:17:57.967Z 
+│                             │                           ╰ V3Score : 4.9 
+│                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-76957 
+│                             │                  ├ [1]: https://github.com/libexpat/libexpat/pull/1322 
+│                             │                  ├ [2]: https://github.com/libexpat/libexpat/pull/1329 
+│                             │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-76957 
+│                             │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-76957 
+│                             ├ PublishedDate   : 2026-08-20T05:16:29.747Z 
+│                             ╰ LastModifiedDate: 2026-08-20T16:18:30.643Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
