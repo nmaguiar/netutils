@@ -565,6 +565,49 @@
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-h4rw-gv36-wmp5
     - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-53615
+  - VulnerabilityID: CVE-2026-42250
+    PkgID: bzip2@1.0.8-6build2
+    PkgName: bzip2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bzip2@1.0.8-6build2?arch=amd64&distro=ubuntu-26.04
+      UID: 37b4d36bb65b1cf4
+    InstalledVersion: 1.0.8-6build2
+    FixedVersion: 1.0.8-6ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
+      DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42250
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e0724bd94aa0defd24a6997e9e8129a45e5605fb4c4fa2c3cec4914178e7e57c
+    Title: 'bzip2: bzip2: Denial of Service in bzip2recover via a specially crafted file'
+    Description: "bzip2 contains an off‑by‑one error in the bzip2recover utility. When processing a specially crafted file, the application performs an out‑of‑bounds write to a global buffer, resulting in memory corruption and a crash (denial of service).\n\nThis issue was fixed in bzip2 patch\_35d122a3df8b0cc4082a4d89fdc6ee99f375fe67"
+    Severity: LOW
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      azure: 2
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-42250
+    - https://cert.pl/en/posts/2026/05/CVE-2026-42250/
+    - https://inbox.sourceware.org/bzip2-devel/20260528145407.293768-1-mark@klomp.org/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42250
+    - https://sourceware.org/bzip2/
+    - https://sourceware.org/cgit/bzip2/commit/?id=35d122a3df8b0cc4082a4d89fdc6ee99f375fe67
+    - https://ubuntu.com/security/notices/USN-8685-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-42250
+    PublishedDate: '2026-05-28T14:16:19.89Z'
+    LastModifiedDate: '2026-06-17T10:47:34.687Z'
   - VulnerabilityID: CVE-2026-11856
     PkgID: curl@8.18.0-1ubuntu2.3
     PkgName: curl
@@ -697,7 +740,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19617
     - https://www.cve.org/CVERecord?id=CVE-2026-19617
     PublishedDate: '2026-08-14T06:17:14.41Z'
-    LastModifiedDate: '2026-08-31T16:17:55.557Z'
+    LastModifiedDate: '2026-09-01T13:18:13.22Z'
   - VulnerabilityID: CVE-2026-56391
     PkgID: gnu-coreutils@9.7-3ubuntu2
     PkgName: gnu-coreutils
@@ -816,8 +859,8 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5278
     - https://debbugs.gnu.org/cgi/bugreport.cgi?bug=78507
-    - https://errata.almalinux.org/10/ALSA-2026-33124.html
-    - https://errata.rockylinux.org/RLSA-2026:33124
+    - https://errata.almalinux.org/9/ALSA-2026-28911.html
+    - https://errata.rockylinux.org/RLSA-2026:28911
     - https://linux.oracle.com/cve/CVE-2025-5278.html
     - https://linux.oracle.com/errata/ELSA-2026-33124.html
     - https://lists.gnu.org/archive/html/bug-coreutils/2025-05/msg00036.html
@@ -828,7 +871,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-5278
     - https://www.openwall.com/lists/oss-security/2025/05/27/2
     PublishedDate: '2025-05-27T21:15:23.197Z'
-    LastModifiedDate: '2026-08-31T15:17:08.367Z'
+    LastModifiedDate: '2026-09-01T12:17:25.457Z'
   - VulnerabilityID: CVE-2024-52949
     PkgID: iptraf-ng@1:1.2.2-1
     PkgName: iptraf-ng
@@ -923,15 +966,14 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/06/10/2
-    - https://access.redhat.com/errata/RHSA-2026:49520
-    - https://access.redhat.com/errata/RHSA-2026:49836
+    - https://access.redhat.com/errata/RHSA-2026:50108
     - https://access.redhat.com/security/cve/CVE-2026-10846
     - https://bugzilla.redhat.com/2487437
     - https://bugzilla.redhat.com/show_bug.cgi?id=2487437
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-10846
-    - https://errata.almalinux.org/10/ALSA-2026-49836.html
-    - https://errata.rockylinux.org/RLSA-2026:49520
+    - https://errata.almalinux.org/9/ALSA-2026-50108.html
+    - https://errata.rockylinux.org/RLSA-2026:50108
     - https://linux.oracle.com/cve/CVE-2026-10846.html
     - https://linux.oracle.com/errata/ELSA-2026-50108-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-10846
@@ -980,6 +1022,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56133
     - https://access.redhat.com/errata/RHSA-2026:59380
     - https://access.redhat.com/errata/RHSA-2026:60226
+    - https://access.redhat.com/errata/RHSA-2026:61783
     - https://access.redhat.com/security/cve/CVE-2026-54371
     - https://bugzilla.redhat.com/2490283
     - https://bugzilla.redhat.com/show_bug.cgi?id=2490283
@@ -987,8 +1030,8 @@
     - https://cgit.git.savannah.nongnu.org/cgit/attr.git/commit/?id=c440855d6b33446edf4b5eb1a2d892281f15a99b
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54371
-    - https://errata.almalinux.org/10/ALSA-2026-59380.html
-    - https://errata.rockylinux.org/RLSA-2026:56133
+    - https://errata.almalinux.org/9/ALSA-2026-60226.html
+    - https://errata.rockylinux.org/RLSA-2026:60226
     - https://linux.oracle.com/cve/CVE-2026-54371.html
     - https://linux.oracle.com/errata/ELSA-2026-60226-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-54371
@@ -998,7 +1041,7 @@
     - https://www.openwall.com/lists/oss-security/2026/06/29/1
     - https://www.vulncheck.com/advisories/attr-symlink-traversal-privilege-escalation-via-getfattr-setfattr
     PublishedDate: '2026-06-29T14:16:57.823Z'
-    LastModifiedDate: '2026-08-27T13:18:24.933Z'
+    LastModifiedDate: '2026-09-01T13:19:48.13Z'
   - VulnerabilityID: CVE-2025-59529
     PkgID: libavahi-client3@0.8-18ubuntu1.1
     PkgName: libavahi-client3
@@ -1400,6 +1443,49 @@
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-h4rw-gv36-wmp5
     - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-53615
+  - VulnerabilityID: CVE-2026-42250
+    PkgID: libbz2-1.0@1.0.8-6build2
+    PkgName: libbz2-1.0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libbz2-1.0@1.0.8-6build2?arch=amd64&distro=ubuntu-26.04
+      UID: 213b0cd78c341f1b
+    InstalledVersion: 1.0.8-6build2
+    FixedVersion: 1.0.8-6ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
+      DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42250
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:66cb993527fac9cb4470870f4206a141e4d8f08fb36d933bd5d3c9135ef97a29
+    Title: 'bzip2: bzip2: Denial of Service in bzip2recover via a specially crafted file'
+    Description: "bzip2 contains an off‑by‑one error in the bzip2recover utility. When processing a specially crafted file, the application performs an out‑of‑bounds write to a global buffer, resulting in memory corruption and a crash (denial of service).\n\nThis issue was fixed in bzip2 patch\_35d122a3df8b0cc4082a4d89fdc6ee99f375fe67"
+    Severity: LOW
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      azure: 2
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-42250
+    - https://cert.pl/en/posts/2026/05/CVE-2026-42250/
+    - https://inbox.sourceware.org/bzip2-devel/20260528145407.293768-1-mark@klomp.org/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42250
+    - https://sourceware.org/bzip2/
+    - https://sourceware.org/cgit/bzip2/commit/?id=35d122a3df8b0cc4082a4d89fdc6ee99f375fe67
+    - https://ubuntu.com/security/notices/USN-8685-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-42250
+    PublishedDate: '2026-05-28T14:16:19.89Z'
+    LastModifiedDate: '2026-06-17T10:47:34.687Z'
   - VulnerabilityID: CVE-2017-7475
     PkgID: libcairo-gobject2@1.18.4-3
     PkgName: libcairo-gobject2
@@ -1694,7 +1780,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19617
     - https://www.cve.org/CVERecord?id=CVE-2026-19617
     PublishedDate: '2026-08-14T06:17:14.41Z'
-    LastModifiedDate: '2026-08-31T16:17:55.557Z'
+    LastModifiedDate: '2026-09-01T13:18:13.22Z'
   - VulnerabilityID: CVE-2025-1352
     PkgID: libelf1t64@0.194-4
     PkgName: libelf1t64
@@ -1796,6 +1882,209 @@
     - https://www.gnu.org/
     PublishedDate: '2025-02-17T05:15:09.807Z'
     LastModifiedDate: '2026-06-17T08:39:00.957Z'
+  - VulnerabilityID: CVE-2026-63381
+    PkgID: libevent-core-2.1-7t64@2.1.12-stable-10build2
+    PkgName: libevent-core-2.1-7t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libevent-core-2.1-7t64@2.1.12-stable-10build2?arch=amd64&distro=ubuntu-26.04
+      UID: 7fc8e543c3907c68
+    InstalledVersion: 2.1.12-stable-10build2
+    FixedVersion: 2.1.12-stable-10ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
+      DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-63381
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:f935293925ce3d6351feadf4e8e287ae079eb0678c486eaf4f30118c48d7999d
+    Title: 'libevent: Libevent: Memory corruption due to use-after-free'
+    Description: Libevent is an event notification library. Prior to 2.1.13 and 2.2.2-alpha, libevent has a use-after-free in buffer.c when evbuffer_add_buffer_reference processes an output buffer whose out_total_len is zero. evbuffer_free_all_chains frees the initial empty chain without resetting outbuf->first, outbuf->last, or outbuf->last_with_datap, and APPEND_CHAIN_MULTICAST subsequently dereferences the dangling chain pointer. A caller that can drive this buffer state can cause memory corruption or a process crash. This issue is fixed in versions 2.1.13 and 2.2.2-alpha.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-908
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:H
+        V3Score: 6.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-63381
+    - https://github.com/libevent/libevent/commit/5cb95ba2f804f8aff46f88d58391c71e1251cd1c
+    - https://github.com/libevent/libevent/commit/9db091b04f569be3a700fa9860ef02f90b830af9
+    - https://github.com/libevent/libevent/releases/tag/release-2.1.13-stable
+    - https://github.com/libevent/libevent/releases/tag/release-2.2.2-alpha
+    - https://github.com/libevent/libevent/security/advisories/GHSA-c2pj-cg4r-88c8
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-63381
+    - https://ubuntu.com/security/notices/USN-8710-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-63381
+    PublishedDate: '2026-08-20T18:16:35.53Z'
+    LastModifiedDate: '2026-08-21T22:16:42.327Z'
+  - VulnerabilityID: CVE-2026-63382
+    PkgID: libevent-core-2.1-7t64@2.1.12-stable-10build2
+    PkgName: libevent-core-2.1-7t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libevent-core-2.1-7t64@2.1.12-stable-10build2?arch=amd64&distro=ubuntu-26.04
+      UID: 7fc8e543c3907c68
+    InstalledVersion: 2.1.12-stable-10build2
+    FixedVersion: 2.1.12-stable-10ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
+      DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-63382
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:07efa098f4ea07aede220da3da6d04fe3f1dabc50927773ef06c30e87f2df2d9
+    Title: Libevent is an event notification library. Prior to 2.1.13 and 2.2.2-a ...
+    Description: Libevent is an event notification library. Prior to 2.1.13 and 2.2.2-alpha, the libevent evhttp parser in http.c inconsistently handles duplicate Transfer-Encoding headers, comma-separated Transfer-Encoding values, and bare line feeds in chunked framing. evhttp_find_header can select only the first header, evhttp_check_transfer_encoding_ was absent so the previous whole-string comparison fails to recognize valid lists ending in chunked, and evhttp_handle_chunked_read uses EVBUFFER_EOL_CRLF rather than EVBUFFER_EOL_CRLF_STRICT, accepting bare LF chunk terminators. When libevent is deployed behind a proxy that frames the same request differently, an unauthenticated remote attacker can desynchronize request boundaries and smuggle a second request, potentially bypassing access controls or poisoning caches. This issue is fixed in versions 2.1.13 and 2.2.2-alpha.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-444
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/libevent/libevent/commit/10abb34b8dc3e1184de315dd261ce4b77563cda6
+    - https://github.com/libevent/libevent/commit/5119ceb00557bf007f9065709e852686f3c0bb6e
+    - https://github.com/libevent/libevent/commit/83ba67373032334559b82409db035dd8c3cc1660
+    - https://github.com/libevent/libevent/commit/ac38703b2d312200c4f967f02936af0118d384a0
+    - https://github.com/libevent/libevent/releases/tag/release-2.1.13-stable
+    - https://github.com/libevent/libevent/releases/tag/release-2.2.2-alpha
+    - https://github.com/libevent/libevent/security/advisories/GHSA-q39v-w2g7-gr8j
+    - https://ubuntu.com/security/notices/USN-8710-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-63382
+    PublishedDate: '2026-08-20T18:16:35.7Z'
+    LastModifiedDate: '2026-08-20T20:17:45.063Z'
+  - VulnerabilityID: CVE-2026-63383
+    PkgID: libevent-core-2.1-7t64@2.1.12-stable-10build2
+    PkgName: libevent-core-2.1-7t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libevent-core-2.1-7t64@2.1.12-stable-10build2?arch=amd64&distro=ubuntu-26.04
+      UID: 7fc8e543c3907c68
+    InstalledVersion: 2.1.12-stable-10build2
+    FixedVersion: 2.1.12-stable-10ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
+      DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-63383
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:0a185015373518d93c816094904912d0ac75f4048a00b37fa41cc4365f112fad
+    Title: 'libevent: Libevent: Denial of Service via malformed RPC data'
+    Description: Libevent is an event notification library. Prior to 2.1.13 and 2.2.2-alpha, libevent can read beyond a contiguous evbuffer region in event_tagging.c when decode_tag_internal requests at most five bytes from evbuffer_pullup but iterates using the full logical buffer length. A fragmented evbuffer containing a six-byte malformed tag can therefore advance past the pullup window and trigger an out-of-bounds read, which can crash a process that decodes attacker-controlled tagged RPC data. This issue is fixed in versions 2.1.13 and 2.2.2-alpha.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-63383
+    - https://github.com/libevent/libevent/commit/91ed8745eebabdd27592a83d350338a8c4626321
+    - https://github.com/libevent/libevent/commit/e1f9e21887c6b104e206a718385ba3ffc75180cb
+    - https://github.com/libevent/libevent/releases/tag/release-2.1.13-stable
+    - https://github.com/libevent/libevent/releases/tag/release-2.2.2-alpha
+    - https://github.com/libevent/libevent/security/advisories/GHSA-fj29-64w6-73h6
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-63383
+    - https://ubuntu.com/security/notices/USN-8710-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-63383
+    PublishedDate: '2026-08-20T18:16:35.917Z'
+    LastModifiedDate: '2026-08-20T19:16:57.31Z'
+  - VulnerabilityID: CVE-2026-63384
+    PkgID: libevent-core-2.1-7t64@2.1.12-stable-10build2
+    PkgName: libevent-core-2.1-7t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libevent-core-2.1-7t64@2.1.12-stable-10build2?arch=amd64&distro=ubuntu-26.04
+      UID: 7fc8e543c3907c68
+    InstalledVersion: 2.1.12-stable-10build2
+    FixedVersion: 2.1.12-stable-10ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
+      DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-63384
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:7eb8ae4e8cfdf6ff0fe0ee10e979b3707fd07d2aae45c926efa9aafbf76f6884
+    Title: 'libevent: Libevent: Denial of Service via integer conversion error in `evtag_unmarshal_header`'
+    Description: Libevent is an event notification library. Prior to 2.1.13 and 2.2.2-alpha, libevent has an incorrect integer conversion in event_tagging.c when evtag_unmarshal_header uses evtag_decode_int to decode an attacker-controlled uint32 payload length and returns it as a signed int. Values above INT_MAX become negative or truncated, and evtag_unmarshal_string can use the converted value in allocation sizing, producing a wrapped large allocation request and denial of service. This issue is fixed in versions 2.1.13 and 2.2.2-alpha.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-63384
+    - https://github.com/libevent/libevent/commit/109c16499282959d70f56ec3baf4c8b1e6646bda
+    - https://github.com/libevent/libevent/commit/5e3c6ebe342b34c5a9bcf48e9a32ad6708b9c416
+    - https://github.com/libevent/libevent/releases/tag/release-2.1.13-stable
+    - https://github.com/libevent/libevent/releases/tag/release-2.2.2-alpha
+    - https://github.com/libevent/libevent/security/advisories/GHSA-45c6-qx49-89m8
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-63384
+    - https://ubuntu.com/security/notices/USN-8710-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-63384
+    PublishedDate: '2026-08-20T18:16:36.367Z'
+    LastModifiedDate: '2026-08-20T20:17:45.193Z'
+  - VulnerabilityID: CVE-2026-63385
+    PkgID: libevent-core-2.1-7t64@2.1.12-stable-10build2
+    PkgName: libevent-core-2.1-7t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libevent-core-2.1-7t64@2.1.12-stable-10build2?arch=amd64&distro=ubuntu-26.04
+      UID: 7fc8e543c3907c68
+    InstalledVersion: 2.1.12-stable-10build2
+    FixedVersion: 2.1.12-stable-10ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
+      DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-63385
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:eb71aee5b42cf1b5cc65ca85fb99e45bc9350aa576ef4bdb787f5d01c0439622
+    Title: Libevent is an event notification library. Prior to 2.1.13 and 2.2.2-a ...
+    Description: Libevent is an event notification library. Prior to 2.1.13 and 2.2.2-alpha, libevent has two HTTP parsing weaknesses in http.c. evhttp_decode_uri_internal decodes percent-encoded %00 bytes into literal NUL characters, which can cause downstream C string operations to truncate a path and bypass validation performed on a different representation. evhttp_header_is_valid_value also accepts obsolete line folding in header values containing carriage return or line feed characters, allowing a proxy and libevent to interpret headers differently and enabling header injection or access control bypass. The CRLF header acceptance is fixed in versions 2.1.13 and 2.2.2-alpha, but the reviewed patches do not clearly remediate the URI NUL-truncation condition.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-444
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/libevent/libevent/commit/758be0c0f69c1934ef9a84ab39e9f9e5fde2e6d0
+    - https://github.com/libevent/libevent/commit/9170dd35e64714613e8d13b290587cfc28e258e2
+    - https://github.com/libevent/libevent/releases/tag/release-2.1.13-stable
+    - https://github.com/libevent/libevent/releases/tag/release-2.2.2-alpha
+    - https://github.com/libevent/libevent/security/advisories/GHSA-jcwh-pvf2-73p2
+    - https://ubuntu.com/security/notices/USN-8710-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-63385
+    PublishedDate: '2026-08-20T18:16:36.543Z'
+    LastModifiedDate: '2026-08-21T22:16:42.447Z'
   - VulnerabilityID: CVE-2025-66382
     PkgID: libexpat1@2.7.4-1
     PkgName: libexpat1
@@ -1852,7 +2141,8 @@
       PURL: pkg:deb/ubuntu/libgcrypt20@1.12.0-2ubuntu1?arch=amd64&distro=ubuntu-26.04
       UID: 45e5e1ad6adb0acd
     InstalledVersion: 1.12.0-2ubuntu1
-    Status: affected
+    FixedVersion: 1.12.0-2ubuntu1.1
+    Status: fixed
     Layer:
       Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
       DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
@@ -1898,6 +2188,7 @@
     - https://linux.oracle.com/errata/ELSA-2024-9404.html
     - https://lists.gnupg.org/pipermail/gcrypt-devel/2024-March/005607.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2236
+    - https://ubuntu.com/security/notices/USN-8711-1
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2026-06-17T07:24:06.083Z'
@@ -2653,15 +2944,14 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/06/10/2
-    - https://access.redhat.com/errata/RHSA-2026:49520
-    - https://access.redhat.com/errata/RHSA-2026:49836
+    - https://access.redhat.com/errata/RHSA-2026:50108
     - https://access.redhat.com/security/cve/CVE-2026-10846
     - https://bugzilla.redhat.com/2487437
     - https://bugzilla.redhat.com/show_bug.cgi?id=2487437
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-10846
-    - https://errata.almalinux.org/10/ALSA-2026-49836.html
-    - https://errata.rockylinux.org/RLSA-2026:49520
+    - https://errata.almalinux.org/9/ALSA-2026-50108.html
+    - https://errata.rockylinux.org/RLSA-2026:50108
     - https://linux.oracle.com/cve/CVE-2026-10846.html
     - https://linux.oracle.com/errata/ELSA-2026-50108-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-10846
@@ -2970,20 +3260,27 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:63e650305b59132f8027a9f8d34c1a89be1ebf2e9f9450f303d219981692002b
-    Title: Local unprivileged users can terminate arbitrary local processes via a ...
+    Title: 'systemd: systemd-oomd: Unprivileged users can terminate arbitrary processes via IPC API'
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
     - CWE-22
     - CWE-59
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-15059
     - https://github.com/systemd/systemd/security/advisories/GHSA-652q-wxr6-h5j6
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15059
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15059
     PublishedDate: '2026-08-10T14:17:20.76Z'
-    LastModifiedDate: '2026-08-10T18:17:40.983Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-15060
     PkgID: libnss-systemd@259.5-0ubuntu3
     PkgName: libnss-systemd
@@ -3030,7 +3327,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15060
     PublishedDate: '2026-08-10T14:17:21.13Z'
-    LastModifiedDate: '2026-08-10T18:17:41.087Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-16742
     PkgID: libnss-systemd@259.5-0ubuntu3
     PkgName: libnss-systemd
@@ -3063,7 +3360,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
-    LastModifiedDate: '2026-08-10T16:19:29.157Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libnss-systemd@259.5-0ubuntu3
     PkgName: libnss-systemd
@@ -3154,8 +3451,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-13757
-    - https://errata.almalinux.org/10/ALSA-2026-49668.html
-    - https://errata.rockylinux.org/RLSA-2026:49668
+    - https://errata.almalinux.org/9/ALSA-2026-49667.html
+    - https://errata.rockylinux.org/RLSA-2026:49667
     - https://github.com/advisories/GHSA-p2wm-69qx-x25w
     - https://linux.oracle.com/cve/CVE-2026-13757.html
     - https://linux.oracle.com/errata/ELSA-2026-49668.html
@@ -3163,7 +3460,7 @@
     - https://ubuntu.com/security/notices/USN-8687-1
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-08-31T16:17:52.267Z'
+    LastModifiedDate: '2026-09-01T13:18:10.253Z'
   - VulnerabilityID: CVE-2026-15059
     PkgID: libpam-systemd@259.5-0ubuntu3
     PkgName: libpam-systemd
@@ -3183,20 +3480,27 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:3ef0a156998edd1caaaeb8ad57a9f400e04654d1dc7fe24d260aabd330d29bd0
-    Title: Local unprivileged users can terminate arbitrary local processes via a ...
+    Title: 'systemd: systemd-oomd: Unprivileged users can terminate arbitrary processes via IPC API'
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
     - CWE-22
     - CWE-59
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-15059
     - https://github.com/systemd/systemd/security/advisories/GHSA-652q-wxr6-h5j6
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15059
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15059
     PublishedDate: '2026-08-10T14:17:20.76Z'
-    LastModifiedDate: '2026-08-10T18:17:40.983Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-15060
     PkgID: libpam-systemd@259.5-0ubuntu3
     PkgName: libpam-systemd
@@ -3243,7 +3547,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15060
     PublishedDate: '2026-08-10T14:17:21.13Z'
-    LastModifiedDate: '2026-08-10T18:17:41.087Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-16742
     PkgID: libpam-systemd@259.5-0ubuntu3
     PkgName: libpam-systemd
@@ -3276,7 +3580,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
-    LastModifiedDate: '2026-08-10T16:19:29.157Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libpam-systemd@259.5-0ubuntu3
     PkgName: libpam-systemd
@@ -3905,6 +4209,8 @@
     References:
     - https://access.redhat.com/errata/RHSA-2026:42922
     - https://access.redhat.com/errata/RHSA-2026:55855
+    - https://access.redhat.com/errata/RHSA-2026:62217
+    - https://access.redhat.com/errata/RHSA-2026:62218
     - https://access.redhat.com/security/cve/CVE-2026-59843
     - https://bugzilla.redhat.com/2498168
     - https://bugzilla.redhat.com/2498176
@@ -3950,7 +4256,7 @@
     - https://www.libssh.org/2026/07/21/libssh-0-12-1-and-0-11-5-security-releases/
     - https://www.libssh.org/security/advisories/CVE-2026-59843.txt
     PublishedDate: '2026-07-21T12:18:57.86Z'
-    LastModifiedDate: '2026-08-17T22:17:15.123Z'
+    LastModifiedDate: '2026-09-01T21:18:34.337Z'
   - VulnerabilityID: CVE-2026-59844
     PkgID: libssh-4@0.11.3-1ubuntu1
     PkgName: libssh-4
@@ -3989,6 +4295,8 @@
     References:
     - https://access.redhat.com/errata/RHSA-2026:42922
     - https://access.redhat.com/errata/RHSA-2026:55855
+    - https://access.redhat.com/errata/RHSA-2026:62217
+    - https://access.redhat.com/errata/RHSA-2026:62218
     - https://access.redhat.com/security/cve/CVE-2026-59844
     - https://bugzilla.redhat.com/2498168
     - https://bugzilla.redhat.com/2498176
@@ -4034,7 +4342,7 @@
     - https://www.libssh.org/2026/07/21/libssh-0-12-1-and-0-11-5-security-releases/
     - https://www.libssh.org/security/advisories/CVE-2026-59844.txt
     PublishedDate: '2026-07-21T12:18:57.973Z'
-    LastModifiedDate: '2026-08-17T22:17:15.25Z'
+    LastModifiedDate: '2026-09-01T21:18:34.473Z'
   - VulnerabilityID: CVE-2026-59845
     PkgID: libssh-4@0.11.3-1ubuntu1
     PkgName: libssh-4
@@ -4077,6 +4385,8 @@
     References:
     - https://access.redhat.com/errata/RHSA-2026:42922
     - https://access.redhat.com/errata/RHSA-2026:55855
+    - https://access.redhat.com/errata/RHSA-2026:62217
+    - https://access.redhat.com/errata/RHSA-2026:62218
     - https://access.redhat.com/security/cve/CVE-2026-59845
     - https://bugzilla.redhat.com/2498168
     - https://bugzilla.redhat.com/2498176
@@ -4122,7 +4432,7 @@
     - https://www.libssh.org/2026/07/21/libssh-0-12-1-and-0-11-5-security-releases/
     - https://www.libssh.org/security/advisories/CVE-2026-59845.txt
     PublishedDate: '2026-07-21T12:18:58.103Z'
-    LastModifiedDate: '2026-08-17T22:17:15.38Z'
+    LastModifiedDate: '2026-09-01T21:18:34.603Z'
   - VulnerabilityID: CVE-2026-59846
     PkgID: libssh-4@0.11.3-1ubuntu1
     PkgName: libssh-4
@@ -4161,6 +4471,8 @@
     References:
     - https://access.redhat.com/errata/RHSA-2026:42922
     - https://access.redhat.com/errata/RHSA-2026:55855
+    - https://access.redhat.com/errata/RHSA-2026:62217
+    - https://access.redhat.com/errata/RHSA-2026:62218
     - https://access.redhat.com/security/cve/CVE-2026-59846
     - https://bugzilla.redhat.com/2498168
     - https://bugzilla.redhat.com/2498176
@@ -4206,7 +4518,7 @@
     - https://www.libssh.org/2026/07/21/libssh-0-12-1-and-0-11-5-security-releases/
     - https://www.libssh.org/security/advisories/CVE-2026-59846.txt
     PublishedDate: '2026-07-21T13:17:18.143Z'
-    LastModifiedDate: '2026-08-19T05:17:04.75Z'
+    LastModifiedDate: '2026-09-01T21:18:34.74Z'
   - VulnerabilityID: CVE-2026-59847
     PkgID: libssh-4@0.11.3-1ubuntu1
     PkgName: libssh-4
@@ -4250,6 +4562,8 @@
     References:
     - https://access.redhat.com/errata/RHSA-2026:42922
     - https://access.redhat.com/errata/RHSA-2026:55855
+    - https://access.redhat.com/errata/RHSA-2026:62217
+    - https://access.redhat.com/errata/RHSA-2026:62218
     - https://access.redhat.com/security/cve/CVE-2026-59847
     - https://bugzilla.redhat.com/2498168
     - https://bugzilla.redhat.com/2498176
@@ -4295,7 +4609,7 @@
     - https://www.libssh.org/2026/07/21/libssh-0-12-1-and-0-11-5-security-releases/
     - https://www.libssh.org/security/advisories/CVE-2026-59847.txt
     PublishedDate: '2026-07-21T14:16:34.657Z'
-    LastModifiedDate: '2026-08-17T22:17:15.51Z'
+    LastModifiedDate: '2026-09-01T21:18:34.877Z'
   - VulnerabilityID: CVE-2026-59848
     PkgID: libssh-4@0.11.3-1ubuntu1
     PkgName: libssh-4
@@ -4334,6 +4648,8 @@
     References:
     - https://access.redhat.com/errata/RHSA-2026:42922
     - https://access.redhat.com/errata/RHSA-2026:55855
+    - https://access.redhat.com/errata/RHSA-2026:62217
+    - https://access.redhat.com/errata/RHSA-2026:62218
     - https://access.redhat.com/security/cve/CVE-2026-59848
     - https://bugzilla.redhat.com/2498168
     - https://bugzilla.redhat.com/2498176
@@ -4379,7 +4695,7 @@
     - https://www.libssh.org/2026/07/21/libssh-0-12-1-and-0-11-5-security-releases/
     - https://www.libssh.org/security/advisories/CVE-2026-59848.txt
     PublishedDate: '2026-07-21T14:16:34.79Z'
-    LastModifiedDate: '2026-08-17T22:17:15.647Z'
+    LastModifiedDate: '2026-09-01T21:18:35.01Z'
   - VulnerabilityID: CVE-2026-59849
     PkgID: libssh-4@0.11.3-1ubuntu1
     PkgName: libssh-4
@@ -4509,6 +4825,8 @@
     References:
     - https://access.redhat.com/errata/RHSA-2026:42922
     - https://access.redhat.com/errata/RHSA-2026:55855
+    - https://access.redhat.com/errata/RHSA-2026:62217
+    - https://access.redhat.com/errata/RHSA-2026:62218
     - https://access.redhat.com/security/cve/CVE-2026-59850
     - https://bugzilla.redhat.com/2498168
     - https://bugzilla.redhat.com/2498176
@@ -4554,7 +4872,7 @@
     - https://www.libssh.org/2026/07/21/libssh-0-12-1-and-0-11-5-security-releases/
     - https://www.libssh.org/security/advisories/CVE-2026-59850.txt
     PublishedDate: '2026-07-21T15:16:37.773Z'
-    LastModifiedDate: '2026-08-17T22:17:15.77Z'
+    LastModifiedDate: '2026-09-01T21:18:35.143Z'
   - VulnerabilityID: CVE-2026-14456
     PkgID: libssl3t64@3.5.5-1ubuntu3.3
     PkgName: libssl3t64
@@ -5305,7 +5623,7 @@
     - https://ubuntu.com/security/notices/USN-8678-3
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-01T19:17:27.543Z'
   - VulnerabilityID: CVE-2026-15059
     PkgID: libsystemd-shared@259.5-0ubuntu3
     PkgName: libsystemd-shared
@@ -5325,20 +5643,27 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:8c4247e81eee14a48679ce1d69254902631e934a72e1161f195739fdbbd074d6
-    Title: Local unprivileged users can terminate arbitrary local processes via a ...
+    Title: 'systemd: systemd-oomd: Unprivileged users can terminate arbitrary processes via IPC API'
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
     - CWE-22
     - CWE-59
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-15059
     - https://github.com/systemd/systemd/security/advisories/GHSA-652q-wxr6-h5j6
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15059
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15059
     PublishedDate: '2026-08-10T14:17:20.76Z'
-    LastModifiedDate: '2026-08-10T18:17:40.983Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-15060
     PkgID: libsystemd-shared@259.5-0ubuntu3
     PkgName: libsystemd-shared
@@ -5385,7 +5710,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15060
     PublishedDate: '2026-08-10T14:17:21.13Z'
-    LastModifiedDate: '2026-08-10T18:17:41.087Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-16742
     PkgID: libsystemd-shared@259.5-0ubuntu3
     PkgName: libsystemd-shared
@@ -5418,7 +5743,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
-    LastModifiedDate: '2026-08-10T16:19:29.157Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libsystemd-shared@259.5-0ubuntu3
     PkgName: libsystemd-shared
@@ -5480,20 +5805,27 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:87f777063bcd3b10c0dd98d060e6ee697e337ec7fd92cca74d7d409629066743
-    Title: Local unprivileged users can terminate arbitrary local processes via a ...
+    Title: 'systemd: systemd-oomd: Unprivileged users can terminate arbitrary processes via IPC API'
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
     - CWE-22
     - CWE-59
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-15059
     - https://github.com/systemd/systemd/security/advisories/GHSA-652q-wxr6-h5j6
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15059
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15059
     PublishedDate: '2026-08-10T14:17:20.76Z'
-    LastModifiedDate: '2026-08-10T18:17:40.983Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-15060
     PkgID: libsystemd0@259.5-0ubuntu3
     PkgName: libsystemd0
@@ -5540,7 +5872,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15060
     PublishedDate: '2026-08-10T14:17:21.13Z'
-    LastModifiedDate: '2026-08-10T18:17:41.087Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-16742
     PkgID: libsystemd0@259.5-0ubuntu3
     PkgName: libsystemd0
@@ -5573,7 +5905,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
-    LastModifiedDate: '2026-08-10T16:19:29.157Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libsystemd0@259.5-0ubuntu3
     PkgName: libsystemd0
@@ -5745,20 +6077,27 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:8a7720c417f3b861b6b5823b7dbd14a3780d95f5753ef1d4b0a2cb745e87131f
-    Title: Local unprivileged users can terminate arbitrary local processes via a ...
+    Title: 'systemd: systemd-oomd: Unprivileged users can terminate arbitrary processes via IPC API'
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
     - CWE-22
     - CWE-59
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-15059
     - https://github.com/systemd/systemd/security/advisories/GHSA-652q-wxr6-h5j6
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15059
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15059
     PublishedDate: '2026-08-10T14:17:20.76Z'
-    LastModifiedDate: '2026-08-10T18:17:40.983Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-15060
     PkgID: libudev1@259.5-0ubuntu3
     PkgName: libudev1
@@ -5805,7 +6144,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15060
     PublishedDate: '2026-08-10T14:17:21.13Z'
-    LastModifiedDate: '2026-08-10T18:17:41.087Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-16742
     PkgID: libudev1@259.5-0ubuntu3
     PkgName: libudev1
@@ -5838,7 +6177,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
-    LastModifiedDate: '2026-08-10T16:19:29.157Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libudev1@259.5-0ubuntu3
     PkgName: libudev1
@@ -6686,7 +7025,6 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:20145
     - https://access.redhat.com/errata/RHSA-2025:20559
     - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
@@ -6694,7 +7032,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/9/ALSA-2025-20559.html
-    - https://errata.rockylinux.org/RLSA-2025:20145
+    - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -7735,7 +8073,7 @@
     - https://ubuntu.com/security/notices/USN-8678-3
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-01T19:17:27.543Z'
   - VulnerabilityID: CVE-2026-14456
     PkgID: openssl-provider-legacy@3.5.5-1ubuntu3.3
     PkgName: openssl-provider-legacy
@@ -8486,7 +8824,7 @@
     - https://ubuntu.com/security/notices/USN-8678-3
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-01T19:17:27.543Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: passwd@1:4.17.4-2ubuntu3
     PkgName: passwd
@@ -8522,7 +8860,6 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:20145
     - https://access.redhat.com/errata/RHSA-2025:20559
     - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
@@ -8530,7 +8867,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/9/ALSA-2025-20559.html
-    - https://errata.rockylinux.org/RLSA-2025:20145
+    - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -9315,20 +9652,27 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:980310c6f37dc6e5f2fd6169af4fb03c9be9e54105f97501d24d40a11dccc8ee
-    Title: Local unprivileged users can terminate arbitrary local processes via a ...
+    Title: 'systemd: systemd-oomd: Unprivileged users can terminate arbitrary processes via IPC API'
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
     - CWE-22
     - CWE-59
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-15059
     - https://github.com/systemd/systemd/security/advisories/GHSA-652q-wxr6-h5j6
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15059
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15059
     PublishedDate: '2026-08-10T14:17:20.76Z'
-    LastModifiedDate: '2026-08-10T18:17:40.983Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-15060
     PkgID: systemd@259.5-0ubuntu3
     PkgName: systemd
@@ -9375,7 +9719,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15060
     PublishedDate: '2026-08-10T14:17:21.13Z'
-    LastModifiedDate: '2026-08-10T18:17:41.087Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-16742
     PkgID: systemd@259.5-0ubuntu3
     PkgName: systemd
@@ -9408,7 +9752,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
-    LastModifiedDate: '2026-08-10T16:19:29.157Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: systemd@259.5-0ubuntu3
     PkgName: systemd
@@ -9470,20 +9814,27 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:afb21bda7d922df8cc1e768088abf5dd1e54347b9a306ead3c18f3bc4ff39b2a
-    Title: Local unprivileged users can terminate arbitrary local processes via a ...
+    Title: 'systemd: systemd-oomd: Unprivileged users can terminate arbitrary processes via IPC API'
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
     - CWE-22
     - CWE-59
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-15059
     - https://github.com/systemd/systemd/security/advisories/GHSA-652q-wxr6-h5j6
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15059
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15059
     PublishedDate: '2026-08-10T14:17:20.76Z'
-    LastModifiedDate: '2026-08-10T18:17:40.983Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-15060
     PkgID: systemd-cryptsetup@259.5-0ubuntu3
     PkgName: systemd-cryptsetup
@@ -9530,7 +9881,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15060
     PublishedDate: '2026-08-10T14:17:21.13Z'
-    LastModifiedDate: '2026-08-10T18:17:41.087Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-16742
     PkgID: systemd-cryptsetup@259.5-0ubuntu3
     PkgName: systemd-cryptsetup
@@ -9563,7 +9914,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
-    LastModifiedDate: '2026-08-10T16:19:29.157Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: systemd-cryptsetup@259.5-0ubuntu3
     PkgName: systemd-cryptsetup
@@ -9625,20 +9976,27 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:aa7a1907340d77c014618d34ff9235b70d83c36f88cc8ea34206bbe3d1278bd6
-    Title: Local unprivileged users can terminate arbitrary local processes via a ...
+    Title: 'systemd: systemd-oomd: Unprivileged users can terminate arbitrary processes via IPC API'
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
     - CWE-22
     - CWE-59
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-15059
     - https://github.com/systemd/systemd/security/advisories/GHSA-652q-wxr6-h5j6
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15059
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15059
     PublishedDate: '2026-08-10T14:17:20.76Z'
-    LastModifiedDate: '2026-08-10T18:17:40.983Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-15060
     PkgID: systemd-resolved@259.5-0ubuntu3
     PkgName: systemd-resolved
@@ -9685,7 +10043,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15060
     PublishedDate: '2026-08-10T14:17:21.13Z'
-    LastModifiedDate: '2026-08-10T18:17:41.087Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-16742
     PkgID: systemd-resolved@259.5-0ubuntu3
     PkgName: systemd-resolved
@@ -9718,7 +10076,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
-    LastModifiedDate: '2026-08-10T16:19:29.157Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: systemd-resolved@259.5-0ubuntu3
     PkgName: systemd-resolved
@@ -9780,20 +10138,27 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:ccff509550d09110ce4c3a3e36b8c26f362d9159b3350ae03747157895a0344e
-    Title: Local unprivileged users can terminate arbitrary local processes via a ...
+    Title: 'systemd: systemd-oomd: Unprivileged users can terminate arbitrary processes via IPC API'
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
     - CWE-22
     - CWE-59
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-15059
     - https://github.com/systemd/systemd/security/advisories/GHSA-652q-wxr6-h5j6
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15059
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15059
     PublishedDate: '2026-08-10T14:17:20.76Z'
-    LastModifiedDate: '2026-08-10T18:17:40.983Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-15060
     PkgID: systemd-sysv@259.5-0ubuntu3
     PkgName: systemd-sysv
@@ -9840,7 +10205,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15060
     PublishedDate: '2026-08-10T14:17:21.13Z'
-    LastModifiedDate: '2026-08-10T18:17:41.087Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-16742
     PkgID: systemd-sysv@259.5-0ubuntu3
     PkgName: systemd-sysv
@@ -9873,7 +10238,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
-    LastModifiedDate: '2026-08-10T16:19:29.157Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: systemd-sysv@259.5-0ubuntu3
     PkgName: systemd-sysv
@@ -9935,20 +10300,27 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:c077bed40a41e53066b95eee26f70f78b43555e6f8d4a8f6fe259b6cc076c70b
-    Title: Local unprivileged users can terminate arbitrary local processes via a ...
+    Title: 'systemd: systemd-oomd: Unprivileged users can terminate arbitrary processes via IPC API'
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
     - CWE-22
     - CWE-59
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-15059
     - https://github.com/systemd/systemd/security/advisories/GHSA-652q-wxr6-h5j6
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15059
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15059
     PublishedDate: '2026-08-10T14:17:20.76Z'
-    LastModifiedDate: '2026-08-10T18:17:40.983Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-15060
     PkgID: systemd-timesyncd@259.5-0ubuntu3
     PkgName: systemd-timesyncd
@@ -9995,7 +10367,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15060
     PublishedDate: '2026-08-10T14:17:21.13Z'
-    LastModifiedDate: '2026-08-10T18:17:41.087Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-16742
     PkgID: systemd-timesyncd@259.5-0ubuntu3
     PkgName: systemd-timesyncd
@@ -10028,7 +10400,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
-    LastModifiedDate: '2026-08-10T16:19:29.157Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: systemd-timesyncd@259.5-0ubuntu3
     PkgName: systemd-timesyncd
@@ -10095,6 +10467,7 @@
     CweIDs:
     - CWE-367
     VendorSeverity:
+      alma: 2
       julia: 2
       redhat: 2
       ubuntu: 2
@@ -10108,12 +10481,18 @@
     References:
     - https://access.redhat.com/errata/RHSA-2026:49361
     - https://access.redhat.com/errata/RHSA-2026:61581
+    - https://access.redhat.com/errata/RHSA-2026:61586
+    - https://access.redhat.com/errata/RHSA-2026:61783
     - https://access.redhat.com/security/cve/CVE-2026-18477
+    - https://bugzilla.redhat.com/2455360
+    - https://bugzilla.redhat.com/2509735
+    - https://bugzilla.redhat.com/2509843
     - https://bugzilla.redhat.com/show_bug.cgi?id=2509735
+    - https://errata.almalinux.org/9/ALSA-2026-61581.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18477
     - https://www.cve.org/CVERecord?id=CVE-2026-18477
     PublishedDate: '2026-08-03T17:16:33.897Z'
-    LastModifiedDate: '2026-08-31T21:17:06.78Z'
+    LastModifiedDate: '2026-09-01T15:17:12.357Z'
   - VulnerabilityID: CVE-2026-18508
     PkgID: tar@1.35+dfsg-4ubuntu0.4
     PkgName: tar
@@ -10138,6 +10517,7 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      alma: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -10147,12 +10527,18 @@
     References:
     - https://access.redhat.com/errata/RHSA-2026:50807
     - https://access.redhat.com/errata/RHSA-2026:61581
+    - https://access.redhat.com/errata/RHSA-2026:61586
+    - https://access.redhat.com/errata/RHSA-2026:61783
     - https://access.redhat.com/security/cve/CVE-2026-18508
+    - https://bugzilla.redhat.com/2455360
+    - https://bugzilla.redhat.com/2509735
+    - https://bugzilla.redhat.com/2509843
     - https://bugzilla.redhat.com/show_bug.cgi?id=2509843
+    - https://errata.almalinux.org/9/ALSA-2026-61581.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18508
     - https://www.cve.org/CVERecord?id=CVE-2026-18508
     PublishedDate: '2026-08-03T16:16:28.387Z'
-    LastModifiedDate: '2026-08-31T21:17:06.94Z'
+    LastModifiedDate: '2026-09-01T15:17:12.553Z'
   - VulnerabilityID: CVE-2021-39920
     PkgID: tshark@4.6.4-1
     PkgName: tshark
@@ -10589,6 +10975,7 @@
     VendorSeverity:
       amazon: 3
       azure: 1
+      photon: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -10633,6 +11020,7 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -10711,6 +11099,7 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -10754,6 +11143,7 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -10796,6 +11186,7 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -10839,6 +11230,7 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -10957,6 +11349,7 @@
     VendorSeverity:
       amazon: 3
       azure: 1
+      photon: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -11001,6 +11394,7 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -11079,6 +11473,7 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -11122,6 +11517,7 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -11164,6 +11560,7 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -11207,6 +11604,7 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -11325,6 +11723,7 @@
     VendorSeverity:
       amazon: 3
       azure: 1
+      photon: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -11369,6 +11768,7 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -11447,6 +11847,7 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -11490,6 +11891,7 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -11532,6 +11934,7 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -11575,6 +11978,7 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -11797,6 +12201,7 @@
     VendorSeverity:
       amazon: 3
       azure: 1
+      photon: 1
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -11841,6 +12246,7 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -11919,6 +12325,7 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -11962,6 +12369,7 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -12004,6 +12412,7 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -12047,6 +12456,7 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -12116,6 +12526,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-27171
     - https://ostif.org/zlib-audit-complete
     - https://ostif.org/zlib-audit-complete/
+    - https://ubuntu.com/security/notices/USN-8706-1
     - https://www.cve.org/CVERecord?id=CVE-2026-27171
     PublishedDate: '2026-02-18T04:16:01.263Z'
     LastModifiedDate: '2026-06-17T10:26:47.357Z'
@@ -12512,8 +12923,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:60305
-    - https://access.redhat.com/errata/RHSA-2026:60306
+    - https://access.redhat.com/errata/RHSA-2026:60304
     - https://access.redhat.com/security/cve/CVE-2026-33818
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
@@ -12534,8 +12944,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/10/ALSA-2026-60306.html
-    - https://errata.rockylinux.org/RLSA-2026:60305
+    - https://errata.almalinux.org/9/ALSA-2026-60304.html
+    - https://errata.rockylinux.org/RLSA-2026:60304
     - https://go.dev/cl/814980
     - https://go.dev/issue/80405
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
@@ -12718,16 +13128,13 @@
     - https://access.redhat.com/errata/RHSA-2026:61253
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
-    - https://bugzilla.redhat.com/2484207
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2484207
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498152
     - https://creativecommons.org/licenses/by/4.0/
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39821
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39822
-    - https://errata.almalinux.org/10/ALSA-2026-46395.html
-    - https://errata.rockylinux.org/RLSA-2026:38995
+    - https://errata.almalinux.org/9/ALSA-2026-37435.html
+    - https://errata.rockylinux.org/RLSA-2026:37435
     - https://github.com/golang/go/issues/78760
     - https://go.dev/cl/767220
     - https://go.dev/issue/78760
@@ -12828,8 +13235,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:60305
-    - https://access.redhat.com/errata/RHSA-2026:60306
+    - https://access.redhat.com/errata/RHSA-2026:60304
     - https://access.redhat.com/security/cve/CVE-2026-56853
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
@@ -12850,8 +13256,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/10/ALSA-2026-60306.html
-    - https://errata.rockylinux.org/RLSA-2026:60305
+    - https://errata.almalinux.org/9/ALSA-2026-60304.html
+    - https://errata.rockylinux.org/RLSA-2026:60304
     - https://go.dev/cl/795540
     - https://go.dev/issue/80205
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
@@ -12902,8 +13308,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
         V3Score: 8.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:60305
-    - https://access.redhat.com/errata/RHSA-2026:60306
+    - https://access.redhat.com/errata/RHSA-2026:60304
     - https://access.redhat.com/security/cve/CVE-2026-56858
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
@@ -12924,8 +13329,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/10/ALSA-2026-60306.html
-    - https://errata.rockylinux.org/RLSA-2026:60305
+    - https://errata.almalinux.org/9/ALSA-2026-60304.html
+    - https://errata.rockylinux.org/RLSA-2026:60304
     - https://go.dev/cl/807100
     - https://go.dev/issue/80435
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
@@ -12976,8 +13381,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:60305
-    - https://access.redhat.com/errata/RHSA-2026:60306
+    - https://access.redhat.com/errata/RHSA-2026:60304
     - https://access.redhat.com/security/cve/CVE-2026-56859
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
@@ -12998,8 +13402,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/10/ALSA-2026-60306.html
-    - https://errata.rockylinux.org/RLSA-2026:60305
+    - https://errata.almalinux.org/9/ALSA-2026-60304.html
+    - https://errata.rockylinux.org/RLSA-2026:60304
     - https://go.dev/cl/803320
     - https://go.dev/issue/80481
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
@@ -13050,8 +13454,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:60305
-    - https://access.redhat.com/errata/RHSA-2026:60306
+    - https://access.redhat.com/errata/RHSA-2026:60304
     - https://access.redhat.com/security/cve/CVE-2026-56860
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
@@ -13072,8 +13475,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/10/ALSA-2026-60306.html
-    - https://errata.rockylinux.org/RLSA-2026:60305
+    - https://errata.almalinux.org/9/ALSA-2026-60304.html
+    - https://errata.rockylinux.org/RLSA-2026:60304
     - https://go.dev/cl/803681
     - https://go.dev/issue/80494
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
@@ -13124,8 +13527,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:60305
-    - https://access.redhat.com/errata/RHSA-2026:60306
+    - https://access.redhat.com/errata/RHSA-2026:60304
     - https://access.redhat.com/security/cve/CVE-2026-56862
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
@@ -13146,8 +13548,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/10/ALSA-2026-60306.html
-    - https://errata.rockylinux.org/RLSA-2026:60305
+    - https://errata.almalinux.org/9/ALSA-2026-60304.html
+    - https://errata.rockylinux.org/RLSA-2026:60304
     - https://go.dev/cl/804261
     - https://go.dev/issue/80528
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
@@ -13240,18 +13642,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
         V3Score: 8.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:34357
-    - https://access.redhat.com/errata/RHSA-2026:37072
+    - https://access.redhat.com/errata/RHSA-2026:37123
     - https://access.redhat.com/security/cve/CVE-2026-25681
-    - https://bugzilla.redhat.com/2466505
-    - https://bugzilla.redhat.com/2466507
-    - https://bugzilla.redhat.com/2467822
-    - https://bugzilla.redhat.com/2480756
+    - https://bugzilla.redhat.com/2480680
+    - https://bugzilla.redhat.com/2480681
+    - https://bugzilla.redhat.com/2480685
+    - https://bugzilla.redhat.com/2480688
+    - https://bugzilla.redhat.com/2480757
     - https://bugzilla.redhat.com/2480761
-    - https://bugzilla.redhat.com/2484207
+    - https://bugzilla.redhat.com/2493620
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480680
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480681
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2480684
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480685
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480688
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480757
@@ -13261,13 +13662,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25681
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27136
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39829
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39830
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39832
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39835
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42508
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-57231
-    - https://errata.almalinux.org/10/ALSA-2026-34357.html
-    - https://errata.rockylinux.org/RLSA-2026:37072
+    - https://errata.almalinux.org/9/ALSA-2026-37123.html
+    - https://errata.rockylinux.org/RLSA-2026:37123
     - https://go.dev/cl/781703
     - https://go.dev/issue/79574
     - https://groups.google.com/g/golang-announce/c/iI-mYSI0lu8
@@ -13315,7 +13715,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
         V3Score: 8.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:37072
     - https://access.redhat.com/errata/RHSA-2026:37123
     - https://access.redhat.com/security/cve/CVE-2026-27136
     - https://bugzilla.redhat.com/2480680
@@ -13327,7 +13726,6 @@
     - https://bugzilla.redhat.com/2493620
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480680
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480681
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2480684
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480685
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480688
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480757
@@ -13337,13 +13735,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25681
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27136
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39829
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39830
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39832
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39835
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42508
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-57231
     - https://errata.almalinux.org/9/ALSA-2026-37123.html
-    - https://errata.rockylinux.org/RLSA-2026:37072
+    - https://errata.rockylinux.org/RLSA-2026:37123
     - https://go.dev/cl/781685
     - https://go.dev/issue/79575
     - https://groups.google.com/g/golang-announce/c/iI-mYSI0lu8
@@ -13434,7 +13831,12 @@
     - https://access.redhat.com/errata/RHSA-2026:57545
     - https://access.redhat.com/errata/RHSA-2026:57649
     - https://access.redhat.com/errata/RHSA-2026:57845
+    - https://access.redhat.com/errata/RHSA-2026:60441
+    - https://access.redhat.com/errata/RHSA-2026:60442
+    - https://access.redhat.com/errata/RHSA-2026:60477
+    - https://access.redhat.com/errata/RHSA-2026:60478
     - https://access.redhat.com/errata/RHSA-2026:60520
+    - https://access.redhat.com/errata/RHSA-2026:60668
     - https://access.redhat.com/errata/RHSA-2026:61253
     - https://access.redhat.com/security/cve/CVE-2026-33814
     - https://bugzilla.redhat.com/show_bug.cgi?id=2467809
@@ -13460,7 +13862,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39836
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42499
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-42501
-    - https://errata.rockylinux.org/RLSA-2026:22112
+    - https://errata.rockylinux.org/RLSA-2026:22121
     - https://github.com/golang/go/issues/78476
     - https://go-review.googlesource.com/c/go/+/761581
     - https://go-review.googlesource.com/c/net/+/761640
@@ -13479,7 +13881,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-31T13:17:46.09Z'
+    LastModifiedDate: '2026-09-01T13:18:52.72Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -13652,16 +14054,13 @@
     - https://access.redhat.com/errata/RHSA-2026:61253
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
-    - https://bugzilla.redhat.com/2484207
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2484207
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498152
     - https://creativecommons.org/licenses/by/4.0/
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39821
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39822
-    - https://errata.almalinux.org/10/ALSA-2026-46395.html
-    - https://errata.rockylinux.org/RLSA-2026:38995
+    - https://errata.almalinux.org/9/ALSA-2026-37435.html
+    - https://errata.rockylinux.org/RLSA-2026:37435
     - https://github.com/golang/go/issues/78760
     - https://go.dev/cl/767220
     - https://go.dev/issue/78760
@@ -14029,8 +14428,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:60305
-    - https://access.redhat.com/errata/RHSA-2026:60306
+    - https://access.redhat.com/errata/RHSA-2026:60304
     - https://access.redhat.com/security/cve/CVE-2026-33818
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
@@ -14051,8 +14449,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/10/ALSA-2026-60306.html
-    - https://errata.rockylinux.org/RLSA-2026:60305
+    - https://errata.almalinux.org/9/ALSA-2026-60304.html
+    - https://errata.rockylinux.org/RLSA-2026:60304
     - https://go.dev/cl/814980
     - https://go.dev/issue/80405
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
@@ -14235,16 +14633,13 @@
     - https://access.redhat.com/errata/RHSA-2026:61253
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
-    - https://bugzilla.redhat.com/2484207
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2484207
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498152
     - https://creativecommons.org/licenses/by/4.0/
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39821
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39822
-    - https://errata.almalinux.org/10/ALSA-2026-46395.html
-    - https://errata.rockylinux.org/RLSA-2026:38995
+    - https://errata.almalinux.org/9/ALSA-2026-37435.html
+    - https://errata.rockylinux.org/RLSA-2026:37435
     - https://github.com/golang/go/issues/78760
     - https://go.dev/cl/767220
     - https://go.dev/issue/78760
@@ -14301,19 +14696,14 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
-    - https://access.redhat.com/errata/RHSA-2026:38495
-    - https://access.redhat.com/errata/RHSA-2026:38995
+    - https://access.redhat.com/errata/RHSA-2026:38878
     - https://access.redhat.com/security/cve/CVE-2026-39822
     - https://bugzilla.redhat.com/2498152
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2484207
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498152
     - https://creativecommons.org/licenses/by/4.0/
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-27145
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39821
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-39822
-    - https://errata.almalinux.org/10/ALSA-2026-38495.html
-    - https://errata.rockylinux.org/RLSA-2026:38995
+    - https://errata.almalinux.org/9/ALSA-2026-38878.html
+    - https://errata.rockylinux.org/RLSA-2026:38878
     - https://go.dev/cl/797880
     - https://go.dev/issue/79005
     - https://groups.google.com/g/golang-announce/c/OrmQE_Yp5Sc
@@ -14410,8 +14800,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:60305
-    - https://access.redhat.com/errata/RHSA-2026:60306
+    - https://access.redhat.com/errata/RHSA-2026:60304
     - https://access.redhat.com/security/cve/CVE-2026-56853
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
@@ -14432,8 +14821,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/10/ALSA-2026-60306.html
-    - https://errata.rockylinux.org/RLSA-2026:60305
+    - https://errata.almalinux.org/9/ALSA-2026-60304.html
+    - https://errata.rockylinux.org/RLSA-2026:60304
     - https://go.dev/cl/795540
     - https://go.dev/issue/80205
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
@@ -14484,8 +14873,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
         V3Score: 8.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:60305
-    - https://access.redhat.com/errata/RHSA-2026:60306
+    - https://access.redhat.com/errata/RHSA-2026:60304
     - https://access.redhat.com/security/cve/CVE-2026-56858
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
@@ -14506,8 +14894,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/10/ALSA-2026-60306.html
-    - https://errata.rockylinux.org/RLSA-2026:60305
+    - https://errata.almalinux.org/9/ALSA-2026-60304.html
+    - https://errata.rockylinux.org/RLSA-2026:60304
     - https://go.dev/cl/807100
     - https://go.dev/issue/80435
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
@@ -14558,8 +14946,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:60305
-    - https://access.redhat.com/errata/RHSA-2026:60306
+    - https://access.redhat.com/errata/RHSA-2026:60304
     - https://access.redhat.com/security/cve/CVE-2026-56859
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
@@ -14580,8 +14967,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/10/ALSA-2026-60306.html
-    - https://errata.rockylinux.org/RLSA-2026:60305
+    - https://errata.almalinux.org/9/ALSA-2026-60304.html
+    - https://errata.rockylinux.org/RLSA-2026:60304
     - https://go.dev/cl/803320
     - https://go.dev/issue/80481
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
@@ -14632,8 +15019,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:60305
-    - https://access.redhat.com/errata/RHSA-2026:60306
+    - https://access.redhat.com/errata/RHSA-2026:60304
     - https://access.redhat.com/security/cve/CVE-2026-56860
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
@@ -14654,8 +15040,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/10/ALSA-2026-60306.html
-    - https://errata.rockylinux.org/RLSA-2026:60305
+    - https://errata.almalinux.org/9/ALSA-2026-60304.html
+    - https://errata.rockylinux.org/RLSA-2026:60304
     - https://go.dev/cl/803681
     - https://go.dev/issue/80494
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
@@ -14706,8 +15092,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:60305
-    - https://access.redhat.com/errata/RHSA-2026:60306
+    - https://access.redhat.com/errata/RHSA-2026:60304
     - https://access.redhat.com/security/cve/CVE-2026-56862
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
@@ -14728,8 +15113,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/10/ALSA-2026-60306.html
-    - https://errata.rockylinux.org/RLSA-2026:60305
+    - https://errata.almalinux.org/9/ALSA-2026-60304.html
+    - https://errata.rockylinux.org/RLSA-2026:60304
     - https://go.dev/cl/804261
     - https://go.dev/issue/80528
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
@@ -14780,10 +15165,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:37436
+    - https://access.redhat.com/errata/RHSA-2026:37435
     - https://access.redhat.com/security/cve/CVE-2026-42505
     - https://bugzilla.redhat.com/2480756
-    - https://errata.almalinux.org/10/ALSA-2026-37436.html
+    - https://errata.almalinux.org/9/ALSA-2026-37435.html
     - https://go.dev/cl/775960
     - https://go.dev/issue/79282
     - https://groups.google.com/g/golang-announce/c/OrmQE_Yp5Sc
