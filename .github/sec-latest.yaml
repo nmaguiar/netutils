@@ -1041,7 +1041,7 @@
     - https://www.openwall.com/lists/oss-security/2026/06/29/1
     - https://www.vulncheck.com/advisories/attr-symlink-traversal-privilege-escalation-via-getfattr-setfattr
     PublishedDate: '2026-06-29T14:16:57.823Z'
-    LastModifiedDate: '2026-09-01T13:19:48.13Z'
+    LastModifiedDate: '2026-09-02T13:18:02.227Z'
   - VulnerabilityID: CVE-2025-59529
     PkgID: libavahi-client3@0.8-18ubuntu1.1
     PkgName: libavahi-client3
@@ -3347,16 +3347,23 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:109ac89cface055f66bcdf63701b40972bb2114edf1ea39132e389da67e7d6e9
-    Title: systemd-homed contains a local privilege escalation bug via arbitrary  ...
+    Title: 'systemd: systemd-homed: Local privilege escalation via missing home-record signature verification'
     Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
     Severity: MEDIUM
     CweIDs:
     - CWE-269
     - CWE-347
     VendorSeverity:
+      redhat: 3
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 8.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-16742
     - https://github.com/systemd/systemd/security/advisories/GHSA-jm29-p7hh-vjhv
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-16742
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
@@ -3567,16 +3574,23 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:c689e5eca6756207b7e9444333bbb34583e9931f196943129760947c24cc66b9
-    Title: systemd-homed contains a local privilege escalation bug via arbitrary  ...
+    Title: 'systemd: systemd-homed: Local privilege escalation via missing home-record signature verification'
     Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
     Severity: MEDIUM
     CweIDs:
     - CWE-269
     - CWE-347
     VendorSeverity:
+      redhat: 3
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 8.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-16742
     - https://github.com/systemd/systemd/security/advisories/GHSA-jm29-p7hh-vjhv
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-16742
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
@@ -4196,7 +4210,7 @@
     - CWE-835
     - CWE-400
     VendorSeverity:
-      alma: 3
+      alma: 2
       azure: 2
       oracle-oval: 3
       redhat: 2
@@ -4212,17 +4226,13 @@
     - https://access.redhat.com/errata/RHSA-2026:62217
     - https://access.redhat.com/errata/RHSA-2026:62218
     - https://access.redhat.com/security/cve/CVE-2026-59843
-    - https://bugzilla.redhat.com/2498168
     - https://bugzilla.redhat.com/2498176
     - https://bugzilla.redhat.com/2498177
     - https://bugzilla.redhat.com/2498178
     - https://bugzilla.redhat.com/2498179
     - https://bugzilla.redhat.com/2498180
     - https://bugzilla.redhat.com/2498181
-    - https://bugzilla.redhat.com/2498182
     - https://bugzilla.redhat.com/2498183
-    - https://bugzilla.redhat.com/2498184
-    - https://bugzilla.redhat.com/2499049
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
@@ -4246,7 +4256,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59849
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59851
-    - https://errata.almalinux.org/10/ALSA-2026-55855.html
+    - https://errata.almalinux.org/9/ALSA-2026-62217.html
     - https://errata.rockylinux.org/RLSA-2026:55855
     - https://linux.oracle.com/cve/CVE-2026-59843.html
     - https://linux.oracle.com/errata/ELSA-2026-55855.html
@@ -4282,7 +4292,7 @@
     CweIDs:
     - CWE-789
     VendorSeverity:
-      alma: 3
+      alma: 2
       azure: 2
       oracle-oval: 3
       redhat: 2
@@ -4298,17 +4308,13 @@
     - https://access.redhat.com/errata/RHSA-2026:62217
     - https://access.redhat.com/errata/RHSA-2026:62218
     - https://access.redhat.com/security/cve/CVE-2026-59844
-    - https://bugzilla.redhat.com/2498168
     - https://bugzilla.redhat.com/2498176
     - https://bugzilla.redhat.com/2498177
     - https://bugzilla.redhat.com/2498178
     - https://bugzilla.redhat.com/2498179
     - https://bugzilla.redhat.com/2498180
     - https://bugzilla.redhat.com/2498181
-    - https://bugzilla.redhat.com/2498182
     - https://bugzilla.redhat.com/2498183
-    - https://bugzilla.redhat.com/2498184
-    - https://bugzilla.redhat.com/2499049
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
@@ -4332,7 +4338,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59849
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59851
-    - https://errata.almalinux.org/10/ALSA-2026-55855.html
+    - https://errata.almalinux.org/9/ALSA-2026-62217.html
     - https://errata.rockylinux.org/RLSA-2026:55855
     - https://linux.oracle.com/cve/CVE-2026-59844.html
     - https://linux.oracle.com/errata/ELSA-2026-55855.html
@@ -4368,7 +4374,7 @@
     CweIDs:
     - CWE-390
     VendorSeverity:
-      alma: 3
+      alma: 2
       azure: 2
       nvd: 2
       oracle-oval: 3
@@ -4388,17 +4394,13 @@
     - https://access.redhat.com/errata/RHSA-2026:62217
     - https://access.redhat.com/errata/RHSA-2026:62218
     - https://access.redhat.com/security/cve/CVE-2026-59845
-    - https://bugzilla.redhat.com/2498168
     - https://bugzilla.redhat.com/2498176
     - https://bugzilla.redhat.com/2498177
     - https://bugzilla.redhat.com/2498178
     - https://bugzilla.redhat.com/2498179
     - https://bugzilla.redhat.com/2498180
     - https://bugzilla.redhat.com/2498181
-    - https://bugzilla.redhat.com/2498182
     - https://bugzilla.redhat.com/2498183
-    - https://bugzilla.redhat.com/2498184
-    - https://bugzilla.redhat.com/2499049
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
@@ -4422,7 +4424,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59849
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59851
-    - https://errata.almalinux.org/10/ALSA-2026-55855.html
+    - https://errata.almalinux.org/9/ALSA-2026-62217.html
     - https://errata.rockylinux.org/RLSA-2026:55855
     - https://linux.oracle.com/cve/CVE-2026-59845.html
     - https://linux.oracle.com/errata/ELSA-2026-55855.html
@@ -4459,7 +4461,7 @@
     - CWE-78
     - CWE-77
     VendorSeverity:
-      alma: 3
+      alma: 2
       oracle-oval: 3
       redhat: 1
       rocky: 3
@@ -4474,17 +4476,13 @@
     - https://access.redhat.com/errata/RHSA-2026:62217
     - https://access.redhat.com/errata/RHSA-2026:62218
     - https://access.redhat.com/security/cve/CVE-2026-59846
-    - https://bugzilla.redhat.com/2498168
     - https://bugzilla.redhat.com/2498176
     - https://bugzilla.redhat.com/2498177
     - https://bugzilla.redhat.com/2498178
     - https://bugzilla.redhat.com/2498179
     - https://bugzilla.redhat.com/2498180
     - https://bugzilla.redhat.com/2498181
-    - https://bugzilla.redhat.com/2498182
     - https://bugzilla.redhat.com/2498183
-    - https://bugzilla.redhat.com/2498184
-    - https://bugzilla.redhat.com/2499049
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
@@ -4508,7 +4506,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59849
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59851
-    - https://errata.almalinux.org/10/ALSA-2026-55855.html
+    - https://errata.almalinux.org/9/ALSA-2026-62217.html
     - https://errata.rockylinux.org/RLSA-2026:55855
     - https://linux.oracle.com/cve/CVE-2026-59846.html
     - https://linux.oracle.com/errata/ELSA-2026-55855.html
@@ -4545,7 +4543,7 @@
     - CWE-253
     - CWE-1310
     VendorSeverity:
-      alma: 3
+      alma: 2
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -4565,17 +4563,13 @@
     - https://access.redhat.com/errata/RHSA-2026:62217
     - https://access.redhat.com/errata/RHSA-2026:62218
     - https://access.redhat.com/security/cve/CVE-2026-59847
-    - https://bugzilla.redhat.com/2498168
     - https://bugzilla.redhat.com/2498176
     - https://bugzilla.redhat.com/2498177
     - https://bugzilla.redhat.com/2498178
     - https://bugzilla.redhat.com/2498179
     - https://bugzilla.redhat.com/2498180
     - https://bugzilla.redhat.com/2498181
-    - https://bugzilla.redhat.com/2498182
     - https://bugzilla.redhat.com/2498183
-    - https://bugzilla.redhat.com/2498184
-    - https://bugzilla.redhat.com/2499049
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
@@ -4599,7 +4593,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59849
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59851
-    - https://errata.almalinux.org/10/ALSA-2026-55855.html
+    - https://errata.almalinux.org/9/ALSA-2026-62217.html
     - https://errata.rockylinux.org/RLSA-2026:55855
     - https://linux.oracle.com/cve/CVE-2026-59847.html
     - https://linux.oracle.com/errata/ELSA-2026-55855.html
@@ -4635,7 +4629,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
-      alma: 3
+      alma: 2
       azure: 2
       oracle-oval: 3
       redhat: 2
@@ -4651,17 +4645,13 @@
     - https://access.redhat.com/errata/RHSA-2026:62217
     - https://access.redhat.com/errata/RHSA-2026:62218
     - https://access.redhat.com/security/cve/CVE-2026-59848
-    - https://bugzilla.redhat.com/2498168
     - https://bugzilla.redhat.com/2498176
     - https://bugzilla.redhat.com/2498177
     - https://bugzilla.redhat.com/2498178
     - https://bugzilla.redhat.com/2498179
     - https://bugzilla.redhat.com/2498180
     - https://bugzilla.redhat.com/2498181
-    - https://bugzilla.redhat.com/2498182
     - https://bugzilla.redhat.com/2498183
-    - https://bugzilla.redhat.com/2498184
-    - https://bugzilla.redhat.com/2499049
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
@@ -4685,7 +4675,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59849
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59851
-    - https://errata.almalinux.org/10/ALSA-2026-55855.html
+    - https://errata.almalinux.org/9/ALSA-2026-62217.html
     - https://errata.rockylinux.org/RLSA-2026:55855
     - https://linux.oracle.com/cve/CVE-2026-59848.html
     - https://linux.oracle.com/errata/ELSA-2026-55855.html
@@ -4808,7 +4798,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      alma: 3
+      alma: 2
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -4828,17 +4818,13 @@
     - https://access.redhat.com/errata/RHSA-2026:62217
     - https://access.redhat.com/errata/RHSA-2026:62218
     - https://access.redhat.com/security/cve/CVE-2026-59850
-    - https://bugzilla.redhat.com/2498168
     - https://bugzilla.redhat.com/2498176
     - https://bugzilla.redhat.com/2498177
     - https://bugzilla.redhat.com/2498178
     - https://bugzilla.redhat.com/2498179
     - https://bugzilla.redhat.com/2498180
     - https://bugzilla.redhat.com/2498181
-    - https://bugzilla.redhat.com/2498182
     - https://bugzilla.redhat.com/2498183
-    - https://bugzilla.redhat.com/2498184
-    - https://bugzilla.redhat.com/2499049
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
@@ -4862,7 +4848,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59849
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59851
-    - https://errata.almalinux.org/10/ALSA-2026-55855.html
+    - https://errata.almalinux.org/9/ALSA-2026-62217.html
     - https://errata.rockylinux.org/RLSA-2026:55855
     - https://linux.oracle.com/cve/CVE-2026-59850.html
     - https://linux.oracle.com/errata/ELSA-2026-55855.html
@@ -5730,16 +5716,23 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:91b165a90871f4048cd18240fd29f11406865eebdd7ea52a9f355747a1ed2feb
-    Title: systemd-homed contains a local privilege escalation bug via arbitrary  ...
+    Title: 'systemd: systemd-homed: Local privilege escalation via missing home-record signature verification'
     Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
     Severity: MEDIUM
     CweIDs:
     - CWE-269
     - CWE-347
     VendorSeverity:
+      redhat: 3
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 8.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-16742
     - https://github.com/systemd/systemd/security/advisories/GHSA-jm29-p7hh-vjhv
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-16742
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
@@ -5892,16 +5885,23 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:4ff77bf0dd8a5ac8b71a10ebf0d769bc16f8c3c76f807fe21847c798d9ee6eab
-    Title: systemd-homed contains a local privilege escalation bug via arbitrary  ...
+    Title: 'systemd: systemd-homed: Local privilege escalation via missing home-record signature verification'
     Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
     Severity: MEDIUM
     CweIDs:
     - CWE-269
     - CWE-347
     VendorSeverity:
+      redhat: 3
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 8.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-16742
     - https://github.com/systemd/systemd/security/advisories/GHSA-jm29-p7hh-vjhv
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-16742
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
@@ -6164,16 +6164,23 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:10339947947b05e4a04e02a7b8499ea8cdbddf9a75305715e6d346acd34dde9c
-    Title: systemd-homed contains a local privilege escalation bug via arbitrary  ...
+    Title: 'systemd: systemd-homed: Local privilege escalation via missing home-record signature verification'
     Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
     Severity: MEDIUM
     CweIDs:
     - CWE-269
     - CWE-347
     VendorSeverity:
+      redhat: 3
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 8.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-16742
     - https://github.com/systemd/systemd/security/advisories/GHSA-jm29-p7hh-vjhv
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-16742
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
@@ -9739,16 +9746,23 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:ad8f06514c891c1cdd2ffd9a93d93879857f2203fd5103706b1b43f08cc44a56
-    Title: systemd-homed contains a local privilege escalation bug via arbitrary  ...
+    Title: 'systemd: systemd-homed: Local privilege escalation via missing home-record signature verification'
     Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
     Severity: MEDIUM
     CweIDs:
     - CWE-269
     - CWE-347
     VendorSeverity:
+      redhat: 3
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 8.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-16742
     - https://github.com/systemd/systemd/security/advisories/GHSA-jm29-p7hh-vjhv
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-16742
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
@@ -9901,16 +9915,23 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:2418b00c7dd1541f19f2ac466370fabe496dbe004be6b9507f4c70e26eae4171
-    Title: systemd-homed contains a local privilege escalation bug via arbitrary  ...
+    Title: 'systemd: systemd-homed: Local privilege escalation via missing home-record signature verification'
     Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
     Severity: MEDIUM
     CweIDs:
     - CWE-269
     - CWE-347
     VendorSeverity:
+      redhat: 3
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 8.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-16742
     - https://github.com/systemd/systemd/security/advisories/GHSA-jm29-p7hh-vjhv
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-16742
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
@@ -10063,16 +10084,23 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:0a746714faa8f99020d6b6614f1b0df2ba20e253cc7729b6dec94f6c87d0bd95
-    Title: systemd-homed contains a local privilege escalation bug via arbitrary  ...
+    Title: 'systemd: systemd-homed: Local privilege escalation via missing home-record signature verification'
     Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
     Severity: MEDIUM
     CweIDs:
     - CWE-269
     - CWE-347
     VendorSeverity:
+      redhat: 3
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 8.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-16742
     - https://github.com/systemd/systemd/security/advisories/GHSA-jm29-p7hh-vjhv
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-16742
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
@@ -10225,16 +10253,23 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:dca499dccec11770ec73120ac7e2dc3128560c6dc98c18f445004ed96684a8d2
-    Title: systemd-homed contains a local privilege escalation bug via arbitrary  ...
+    Title: 'systemd: systemd-homed: Local privilege escalation via missing home-record signature verification'
     Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
     Severity: MEDIUM
     CweIDs:
     - CWE-269
     - CWE-347
     VendorSeverity:
+      redhat: 3
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 8.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-16742
     - https://github.com/systemd/systemd/security/advisories/GHSA-jm29-p7hh-vjhv
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-16742
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
@@ -10387,16 +10422,23 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:c10f8d774813c10dd1787de82cc3a24abae410b6efad33491ed28d360b158b07
-    Title: systemd-homed contains a local privilege escalation bug via arbitrary  ...
+    Title: 'systemd: systemd-homed: Local privilege escalation via missing home-record signature verification'
     Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
     Severity: MEDIUM
     CweIDs:
     - CWE-269
     - CWE-347
     VendorSeverity:
+      redhat: 3
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 8.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-16742
     - https://github.com/systemd/systemd/security/advisories/GHSA-jm29-p7hh-vjhv
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-16742
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
@@ -10469,7 +10511,9 @@
     VendorSeverity:
       alma: 2
       julia: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       julia:
@@ -10487,8 +10531,17 @@
     - https://bugzilla.redhat.com/2455360
     - https://bugzilla.redhat.com/2509735
     - https://bugzilla.redhat.com/2509843
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2455360
     - https://bugzilla.redhat.com/show_bug.cgi?id=2509735
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2509843
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18477
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18508
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5704
     - https://errata.almalinux.org/9/ALSA-2026-61581.html
+    - https://errata.rockylinux.org/RLSA-2026:61581
+    - https://linux.oracle.com/cve/CVE-2026-18477.html
+    - https://linux.oracle.com/errata/ELSA-2026-61581-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18477
     - https://www.cve.org/CVERecord?id=CVE-2026-18477
     PublishedDate: '2026-08-03T17:16:33.897Z'
@@ -10518,7 +10571,9 @@
     - CWE-59
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -10533,8 +10588,17 @@
     - https://bugzilla.redhat.com/2455360
     - https://bugzilla.redhat.com/2509735
     - https://bugzilla.redhat.com/2509843
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2455360
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2509735
     - https://bugzilla.redhat.com/show_bug.cgi?id=2509843
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18477
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18508
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5704
     - https://errata.almalinux.org/9/ALSA-2026-61581.html
+    - https://errata.rockylinux.org/RLSA-2026:61581
+    - https://linux.oracle.com/cve/CVE-2026-18508.html
+    - https://linux.oracle.com/errata/ELSA-2026-61581-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18508
     - https://www.cve.org/CVERecord?id=CVE-2026-18508
     PublishedDate: '2026-08-03T16:16:28.387Z'
@@ -13833,6 +13897,9 @@
     - https://access.redhat.com/errata/RHSA-2026:57845
     - https://access.redhat.com/errata/RHSA-2026:60441
     - https://access.redhat.com/errata/RHSA-2026:60442
+    - https://access.redhat.com/errata/RHSA-2026:60446
+    - https://access.redhat.com/errata/RHSA-2026:60447
+    - https://access.redhat.com/errata/RHSA-2026:60454
     - https://access.redhat.com/errata/RHSA-2026:60477
     - https://access.redhat.com/errata/RHSA-2026:60478
     - https://access.redhat.com/errata/RHSA-2026:60520
@@ -13881,7 +13948,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-09-01T13:18:52.72Z'
+    LastModifiedDate: '2026-09-02T13:17:27.973Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
