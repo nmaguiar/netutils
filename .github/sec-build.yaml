@@ -205,7 +205,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:b895b6eceb814d04bd4f4efcfbad7b0a2de48bf0b8d7f6e10979612bdd4113b2
     Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
-    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Description: When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 3
@@ -486,7 +486,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:82b53080bac1509202f9d7e4d24d11f12b28dc5340ef5cb37a1b21adcd117ac8
     Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
-    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Description: When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 3
@@ -818,6 +818,55 @@
     - https://www.openwall.com/lists/oss-security/2025/05/27/2
     PublishedDate: '2025-05-27T21:15:23.197Z'
     LastModifiedDate: '2026-09-01T12:17:25.457Z'
+  - VulnerabilityID: CVE-2026-57062
+    PkgID: gpgv@2.4.8-4ubuntu3
+    PkgName: gpgv
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gpgv@2.4.8-4ubuntu3?arch=amd64&distro=ubuntu-26.04
+      UID: 9734b1200df7179f
+    InstalledVersion: 2.4.8-4ubuntu3
+    FixedVersion: 2.4.8-4ubuntu3.1
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-57062
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b30b262bab21a1dcd092013cbe90ea50260c95e5d1f702edd6ec386e1c9010b7
+    Title: 'GnuPG: Incorrect cryptographic message parsing'
+    Description: 'CMS (Cryptographic Message Syntax) parsing in gpgsm in GnuPG through 2.5.20 mishandles the CMS format for AES-GCM because aes-ICVlen is supposed to be 12 bytes but 4 bytes is accepted. NOTE: this is related to CVE-2026-34182.'
+    Severity: LOW
+    CweIDs:
+    - CWE-1284
+    VendorSeverity:
+      amazon: 1
+      azure: 1
+      julia: 1
+      photon: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 2.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-57062
+    - https://blog.calif.io/p/how-to-format-a-ciphertext
+    - https://github.com/advisories/GHSA-m6x2-4hhh-669j
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-57062
+    - https://ubuntu.com/security/notices/USN-8720-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-57062
+    - https://www.gnupg.org/download
+    - https://www.gnupg.org/download/
+    PublishedDate: '2026-06-23T18:18:10.973Z'
+    LastModifiedDate: '2026-06-25T20:16:05.473Z'
   - VulnerabilityID: CVE-2024-52949
     PkgID: iptraf-ng@1:1.2.2-1
     PkgName: iptraf-ng
@@ -1310,7 +1359,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:ca664f3b0fcd415548c546f09462156f1d3410bb4bc0ac4aaca53c5ecb42a280
     Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
-    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Description: When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 3
@@ -1432,6 +1481,141 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42250
     PublishedDate: '2026-05-28T14:16:19.89Z'
     LastModifiedDate: '2026-06-17T10:47:34.687Z'
+  - VulnerabilityID: CVE-2026-18374
+    PkgID: libc-bin@2.43-2ubuntu2.3
+    PkgName: libc-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc-bin@2.43-2ubuntu2.3?arch=amd64&distro=ubuntu-26.04
+      UID: b5a90107454ed975
+    InstalledVersion: 2.43-2ubuntu2.3
+    Status: affected
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-18374
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:093a90bf3865feacacbfcb9a4dec15535774e30bab65c7270cecefc608e23cc4
+    Title: 'glibc: glibc: Heap buffer overflow via attacker-controlled fopen mode string'
+    Description: |-
+      Passing an effectively empty string to the `,ccs=` syntax extension of the mode argument in the `fopen` function in the GNU C Library version 2.45 or earlier may result in a heap buffer overflow when the mode string input to the function is attacker controlled.
+
+
+
+      This usage pattern is not seen in applications in common GNU/Linux distributions and applications that process user-supplied values for `ccs` should not pass them through without validation.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 4.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/27/6
+    - https://access.redhat.com/security/cve/CVE-2026-18374
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-18374
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34574
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0015
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0015
+    - https://www.cve.org/CVERecord?id=CVE-2026-18374
+    PublishedDate: '2026-08-27T20:17:03.553Z'
+    LastModifiedDate: '2026-09-03T16:43:15.293Z'
+  - VulnerabilityID: CVE-2026-18374
+    PkgID: libc-gconv-modules-extra@2.43-2ubuntu2.3
+    PkgName: libc-gconv-modules-extra
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc-gconv-modules-extra@2.43-2ubuntu2.3?arch=amd64&distro=ubuntu-26.04
+      UID: 7b69c26113a31c8
+    InstalledVersion: 2.43-2ubuntu2.3
+    Status: affected
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-18374
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:3bd79ede82a1708657acea29a6afeb0d8210f930be011b35cca6c2c6af6c11dd
+    Title: 'glibc: glibc: Heap buffer overflow via attacker-controlled fopen mode string'
+    Description: |-
+      Passing an effectively empty string to the `,ccs=` syntax extension of the mode argument in the `fopen` function in the GNU C Library version 2.45 or earlier may result in a heap buffer overflow when the mode string input to the function is attacker controlled.
+
+
+
+      This usage pattern is not seen in applications in common GNU/Linux distributions and applications that process user-supplied values for `ccs` should not pass them through without validation.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 4.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/27/6
+    - https://access.redhat.com/security/cve/CVE-2026-18374
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-18374
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34574
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0015
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0015
+    - https://www.cve.org/CVERecord?id=CVE-2026-18374
+    PublishedDate: '2026-08-27T20:17:03.553Z'
+    LastModifiedDate: '2026-09-03T16:43:15.293Z'
+  - VulnerabilityID: CVE-2026-18374
+    PkgID: libc6@2.43-2ubuntu2.3
+    PkgName: libc6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc6@2.43-2ubuntu2.3?arch=amd64&distro=ubuntu-26.04
+      UID: 521129d431961416
+    InstalledVersion: 2.43-2ubuntu2.3
+    Status: affected
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-18374
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:995d19b23d7a22fbdca998b28229cf9cef112269ac3cced97b31393491d14f93
+    Title: 'glibc: glibc: Heap buffer overflow via attacker-controlled fopen mode string'
+    Description: |-
+      Passing an effectively empty string to the `,ccs=` syntax extension of the mode argument in the `fopen` function in the GNU C Library version 2.45 or earlier may result in a heap buffer overflow when the mode string input to the function is attacker controlled.
+
+
+
+      This usage pattern is not seen in applications in common GNU/Linux distributions and applications that process user-supplied values for `ccs` should not pass them through without validation.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 4.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/27/6
+    - https://access.redhat.com/security/cve/CVE-2026-18374
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-18374
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34574
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0015
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0015
+    - https://www.cve.org/CVERecord?id=CVE-2026-18374
+    PublishedDate: '2026-08-27T20:17:03.553Z'
+    LastModifiedDate: '2026-09-03T16:43:15.293Z'
   - VulnerabilityID: CVE-2017-7475
     PkgID: libcairo-gobject2@1.18.4-3
     PkgName: libcairo-gobject2
@@ -1799,6 +1983,7 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1836,14 +2021,21 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:6f0b2bacdb6856ba768a03bdb3637b71564fdc5d2bcf33865f885d35fb826e65
-    Title: Libevent is an event notification library. Prior to 2.1.13 and 2.2.2-a ...
+    Title: 'libevent: libevent: Multiple HTTP Parser Bugs Enable Request Smuggling'
     Description: Libevent is an event notification library. Prior to 2.1.13 and 2.2.2-alpha, the libevent evhttp parser in http.c inconsistently handles duplicate Transfer-Encoding headers, comma-separated Transfer-Encoding values, and bare line feeds in chunked framing. evhttp_find_header can select only the first header, evhttp_check_transfer_encoding_ was absent so the previous whole-string comparison fails to recognize valid lists ending in chunked, and evhttp_handle_chunked_read uses EVBUFFER_EOL_CRLF rather than EVBUFFER_EOL_CRLF_STRICT, accepting bare LF chunk terminators. When libevent is deployed behind a proxy that frames the same request differently, an unauthenticated remote attacker can desynchronize request boundaries and smuggle a second request, potentially bypassing access controls or poisoning caches. This issue is fixed in versions 2.1.13 and 2.2.2-alpha.
     Severity: MEDIUM
     CweIDs:
     - CWE-444
     VendorSeverity:
+      azure: 3
+      redhat: 3
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 7.7
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-63382
     - https://github.com/libevent/libevent/commit/10abb34b8dc3e1184de315dd261ce4b77563cda6
     - https://github.com/libevent/libevent/commit/5119ceb00557bf007f9065709e852686f3c0bb6e
     - https://github.com/libevent/libevent/commit/83ba67373032334559b82409db035dd8c3cc1660
@@ -1851,6 +2043,7 @@
     - https://github.com/libevent/libevent/releases/tag/release-2.1.13-stable
     - https://github.com/libevent/libevent/releases/tag/release-2.2.2-alpha
     - https://github.com/libevent/libevent/security/advisories/GHSA-q39v-w2g7-gr8j
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-63382
     - https://ubuntu.com/security/notices/USN-8710-1
     - https://www.cve.org/CVERecord?id=CVE-2026-63382
     PublishedDate: '2026-08-20T18:16:35.7Z'
@@ -1880,6 +2073,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1923,6 +2117,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      azure: 2
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1960,19 +2155,27 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:c7c2cafd934e6edbdc165141cee474ad200f75f3542c780a1bc49fd07472d0c1
-    Title: Libevent is an event notification library. Prior to 2.1.13 and 2.2.2-a ...
+    Title: 'libevent: Libevent: HTTP header handling bugs create risk of access control bypass.'
     Description: Libevent is an event notification library. Prior to 2.1.13 and 2.2.2-alpha, libevent has two HTTP parsing weaknesses in http.c. evhttp_decode_uri_internal decodes percent-encoded %00 bytes into literal NUL characters, which can cause downstream C string operations to truncate a path and bypass validation performed on a different representation. evhttp_header_is_valid_value also accepts obsolete line folding in header values containing carriage return or line feed characters, allowing a proxy and libevent to interpret headers differently and enabling header injection or access control bypass. The CRLF header acceptance is fixed in versions 2.1.13 and 2.2.2-alpha, but the reviewed patches do not clearly remediate the URI NUL-truncation condition.
     Severity: MEDIUM
     CweIDs:
     - CWE-444
     VendorSeverity:
+      azure: 3
+      redhat: 3
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 7.7
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-63385
     - https://github.com/libevent/libevent/commit/758be0c0f69c1934ef9a84ab39e9f9e5fde2e6d0
     - https://github.com/libevent/libevent/commit/9170dd35e64714613e8d13b290587cfc28e258e2
     - https://github.com/libevent/libevent/releases/tag/release-2.1.13-stable
     - https://github.com/libevent/libevent/releases/tag/release-2.2.2-alpha
     - https://github.com/libevent/libevent/security/advisories/GHSA-jcwh-pvf2-73p2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-63385
     - https://ubuntu.com/security/notices/USN-8710-1
     - https://www.cve.org/CVERecord?id=CVE-2026-63385
     PublishedDate: '2026-08-20T18:16:36.543Z'
@@ -2844,7 +3047,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:58113f653bb00e1a822ab90f39f4b1b9e95dcf26cb656c72d13f7f3376907f87
     Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
-    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Description: When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 3
@@ -3388,7 +3591,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:b9681c17986d6b890dd314860f22567111864bf38f51698b98842d3f4c48714a
     Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
-    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Description: When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 3
@@ -3467,6 +3670,41 @@
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-h4rw-gv36-wmp5
     - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-53615
+  - VulnerabilityID: CVE-2026-39113
+    PkgID: libsqlite3-0@3.46.1-9ubuntu0.2
+    PkgName: libsqlite3-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsqlite3-0@3.46.1-9ubuntu0.2?arch=amd64&distro=ubuntu-26.04
+      UID: 43e137998d428fb9
+    InstalledVersion: 3.46.1-9ubuntu0.2
+    Status: affected
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39113
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:2c6f48d5c4fd41e9b03e7e35ffa2b4893a839863602fc9a175db2a5934493978
+    Title: Buffer Overflow vulnerability in SQLite affected version source snapsh ...
+    Description: Buffer Overflow vulnerability in SQLite affected version source snapshots/builds containing Fossil check-in 8bdc0d485e3ad0c7a1e818da66f106951d496b05cbe61d12c2c448f2f24b6d5d (Git mirror 169f68ed88b34cb68f720191c64c058f2ccec508, 2026-03-11) and later snapshots/builds allows an attacker to cause a denial of service via the ext/misc/sqlar.c, sqlarUncompressFunc(), sqlar_uncompress(), sqlite3_value_int64(), sqlite3_malloc(int), uncompress() components
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/20000419/CVE-2026-39113
+    - https://github.com/sqlite/sqlite/blob/169f68ed88b34cb68f720191c64c058f2ccec508/ext/misc/sqlar.c
+    - https://github.com/sqlite/sqlite/commit/169f68ed88b34cb68f720191c64c058f2ccec508
+    - https://github.com/sqlite/sqlite/commit/169f68ed88b34cb68f720191c64c058f2ccec508%20%28version-3.53.0%29
+    - https://www.cve.org/CVERecord?id=CVE-2026-39113
+    - https://www.sqlite.org/
+    - https://www.sqlite.org/sqlar.html
+    PublishedDate: '2026-08-25T21:17:00.08Z'
+    LastModifiedDate: '2026-08-31T16:17:59.35Z'
   - VulnerabilityID: CVE-2026-15370
     PkgID: libssh-4@0.11.3-1ubuntu2
     PkgName: libssh-4
@@ -3582,9 +3820,9 @@
     VendorSeverity:
       alma: 2
       azure: 2
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
-      rocky: 3
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -3603,33 +3841,25 @@
     - https://bugzilla.redhat.com/2498180
     - https://bugzilla.redhat.com/2498181
     - https://bugzilla.redhat.com/2498183
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498178
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498179
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498180
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498182
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498183
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498184
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2499049
     - https://creativecommons.org/licenses/by/4.0/
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15370
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59842
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59843
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59844
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59845
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59846
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59847
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59848
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59849
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59851
     - https://errata.almalinux.org/9/ALSA-2026-62217.html
-    - https://errata.rockylinux.org/RLSA-2026:55855
+    - https://errata.rockylinux.org/RLSA-2026:62217
     - https://linux.oracle.com/cve/CVE-2026-59843.html
-    - https://linux.oracle.com/errata/ELSA-2026-55855.html
+    - https://linux.oracle.com/errata/ELSA-2026-62218-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-59843
     - https://ubuntu.com/security/notices/USN-8699-1
     - https://www.cve.org/CVERecord?id=CVE-2026-59843
@@ -3664,9 +3894,9 @@
     VendorSeverity:
       alma: 2
       azure: 2
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
-      rocky: 3
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -3685,33 +3915,25 @@
     - https://bugzilla.redhat.com/2498180
     - https://bugzilla.redhat.com/2498181
     - https://bugzilla.redhat.com/2498183
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498178
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498179
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498180
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498182
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498183
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498184
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2499049
     - https://creativecommons.org/licenses/by/4.0/
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15370
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59842
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59843
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59844
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59845
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59846
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59847
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59848
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59849
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59851
     - https://errata.almalinux.org/9/ALSA-2026-62217.html
-    - https://errata.rockylinux.org/RLSA-2026:55855
+    - https://errata.rockylinux.org/RLSA-2026:62217
     - https://linux.oracle.com/cve/CVE-2026-59844.html
-    - https://linux.oracle.com/errata/ELSA-2026-55855.html
+    - https://linux.oracle.com/errata/ELSA-2026-62218-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-59844
     - https://ubuntu.com/security/notices/USN-8699-1
     - https://www.cve.org/CVERecord?id=CVE-2026-59844
@@ -3747,9 +3969,9 @@
       alma: 2
       azure: 2
       nvd: 2
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
-      rocky: 3
+      rocky: 2
       ubuntu: 2
     CVSS:
       nvd:
@@ -3771,33 +3993,25 @@
     - https://bugzilla.redhat.com/2498180
     - https://bugzilla.redhat.com/2498181
     - https://bugzilla.redhat.com/2498183
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498178
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498179
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498180
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498182
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498183
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498184
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2499049
     - https://creativecommons.org/licenses/by/4.0/
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15370
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59842
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59843
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59844
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59845
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59846
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59847
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59848
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59849
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59851
     - https://errata.almalinux.org/9/ALSA-2026-62217.html
-    - https://errata.rockylinux.org/RLSA-2026:55855
+    - https://errata.rockylinux.org/RLSA-2026:62217
     - https://linux.oracle.com/cve/CVE-2026-59845.html
-    - https://linux.oracle.com/errata/ELSA-2026-55855.html
+    - https://linux.oracle.com/errata/ELSA-2026-62218-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-59845
     - https://ubuntu.com/security/notices/USN-8699-1
     - https://www.cve.org/CVERecord?id=CVE-2026-59845
@@ -3832,9 +4046,9 @@
     - CWE-77
     VendorSeverity:
       alma: 2
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 1
-      rocky: 3
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -3853,33 +4067,25 @@
     - https://bugzilla.redhat.com/2498180
     - https://bugzilla.redhat.com/2498181
     - https://bugzilla.redhat.com/2498183
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498178
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498179
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498180
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498182
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498183
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498184
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2499049
     - https://creativecommons.org/licenses/by/4.0/
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15370
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59842
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59843
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59844
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59845
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59846
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59847
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59848
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59849
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59851
     - https://errata.almalinux.org/9/ALSA-2026-62217.html
-    - https://errata.rockylinux.org/RLSA-2026:55855
+    - https://errata.rockylinux.org/RLSA-2026:62217
     - https://linux.oracle.com/cve/CVE-2026-59846.html
-    - https://linux.oracle.com/errata/ELSA-2026-55855.html
+    - https://linux.oracle.com/errata/ELSA-2026-62218-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-59846
     - https://ubuntu.com/security/notices/USN-8699-1
     - https://www.cve.org/CVERecord?id=CVE-2026-59846
@@ -3916,9 +4122,9 @@
       alma: 2
       azure: 2
       nvd: 3
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
-      rocky: 3
+      rocky: 2
       ubuntu: 2
     CVSS:
       nvd:
@@ -3940,33 +4146,25 @@
     - https://bugzilla.redhat.com/2498180
     - https://bugzilla.redhat.com/2498181
     - https://bugzilla.redhat.com/2498183
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498178
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498179
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498180
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498182
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498183
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498184
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2499049
     - https://creativecommons.org/licenses/by/4.0/
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15370
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59842
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59843
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59844
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59845
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59846
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59847
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59848
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59849
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59851
     - https://errata.almalinux.org/9/ALSA-2026-62217.html
-    - https://errata.rockylinux.org/RLSA-2026:55855
+    - https://errata.rockylinux.org/RLSA-2026:62217
     - https://linux.oracle.com/cve/CVE-2026-59847.html
-    - https://linux.oracle.com/errata/ELSA-2026-55855.html
+    - https://linux.oracle.com/errata/ELSA-2026-62218-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-59847
     - https://ubuntu.com/security/notices/USN-8699-1
     - https://www.cve.org/CVERecord?id=CVE-2026-59847
@@ -4001,9 +4199,9 @@
     VendorSeverity:
       alma: 2
       azure: 2
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
-      rocky: 3
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -4022,33 +4220,25 @@
     - https://bugzilla.redhat.com/2498180
     - https://bugzilla.redhat.com/2498181
     - https://bugzilla.redhat.com/2498183
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498178
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498179
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498180
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498182
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498183
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498184
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2499049
     - https://creativecommons.org/licenses/by/4.0/
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15370
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59842
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59843
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59844
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59845
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59846
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59847
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59848
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59849
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59851
     - https://errata.almalinux.org/9/ALSA-2026-62217.html
-    - https://errata.rockylinux.org/RLSA-2026:55855
+    - https://errata.rockylinux.org/RLSA-2026:62217
     - https://linux.oracle.com/cve/CVE-2026-59848.html
-    - https://linux.oracle.com/errata/ELSA-2026-55855.html
+    - https://linux.oracle.com/errata/ELSA-2026-62218-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-59848
     - https://ubuntu.com/security/notices/USN-8699-1
     - https://www.cve.org/CVERecord?id=CVE-2026-59848
@@ -4171,9 +4361,9 @@
       alma: 2
       azure: 2
       nvd: 3
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
-      rocky: 3
+      rocky: 2
       ubuntu: 2
     CVSS:
       nvd:
@@ -4195,33 +4385,25 @@
     - https://bugzilla.redhat.com/2498180
     - https://bugzilla.redhat.com/2498181
     - https://bugzilla.redhat.com/2498183
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498168
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498178
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498179
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498180
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498182
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498183
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498184
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2499049
     - https://creativecommons.org/licenses/by/4.0/
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15370
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59842
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59843
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59844
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59845
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59846
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59847
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59848
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59849
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59851
     - https://errata.almalinux.org/9/ALSA-2026-62217.html
-    - https://errata.rockylinux.org/RLSA-2026:55855
+    - https://errata.rockylinux.org/RLSA-2026:62217
     - https://linux.oracle.com/cve/CVE-2026-59850.html
-    - https://linux.oracle.com/errata/ELSA-2026-55855.html
+    - https://linux.oracle.com/errata/ELSA-2026-62218-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-59850
     - https://ubuntu.com/security/notices/USN-8699-1
     - https://www.cve.org/CVERecord?id=CVE-2026-59850
@@ -4229,6 +4411,157 @@
     - https://www.libssh.org/security/advisories/CVE-2026-59850.txt
     PublishedDate: '2026-07-21T15:16:37.773Z'
     LastModifiedDate: '2026-09-01T21:18:35.143Z'
+  - VulnerabilityID: CVE-2026-66032
+    PkgID: libssh2-1t64@1.11.1-1ubuntu0.26.04.3
+    PkgName: libssh2-1t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh2-1t64@1.11.1-1ubuntu0.26.04.3?arch=amd64&distro=ubuntu-26.04
+      UID: 457d2f2886425993
+    InstalledVersion: 1.11.1-1ubuntu0.26.04.3
+    FixedVersion: 1.11.1-1ubuntu0.26.04.4
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-66032
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:2f15e69ff2eeae668ee357cecc61a5d879c1d0791bdf7061a1dfd8f0838f07d3
+    Title: 'libssh2: libssh2: Arbitrary code execution via double-free in SFTP session'
+    Description: libssh2 through 1.11.1, fixed in commit 5e47761, contains a double-free vulnerability in the sftp_open() function in src/sftp.c that allows a malicious SSH server to corrupt the heap of any authenticated client opening an SFTP session. When a server responds to SSH_FXP_OPEN with SSH_FXP_STATUS containing FX_OK, the response data buffer is freed, and if a subsequent sftp_packet_require() call returns a specific error such as LIBSSH2_ERROR_CHANNEL_PACKET_EXCEEDED, the same pointer is freed a second time, enabling tcache dup conditions on glibc systems that allow overlapping allocations and function pointer overwrites.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-415
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      julia: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V3Score: 8.8
+        V40Score: 8.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-66032
+    - https://github.com/advisories/GHSA-83r8-6c29-8gwr
+    - https://github.com/libssh2/libssh2/commit/5e4776146552d898b9c0e1b313cd093fa8dc92d0
+    - https://github.com/libssh2/libssh2/pull/2180
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-66032
+    - https://ubuntu.com/security/notices/USN-8722-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-66032
+    - https://www.vulncheck.com/advisories/libssh2-double-free-heap-corruption-via-sftp-open
+    PublishedDate: '2026-07-24T17:17:35.12Z'
+    LastModifiedDate: '2026-08-07T01:07:10.71Z'
+  - VulnerabilityID: CVE-2026-66033
+    PkgID: libssh2-1t64@1.11.1-1ubuntu0.26.04.3
+    PkgName: libssh2-1t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh2-1t64@1.11.1-1ubuntu0.26.04.3?arch=amd64&distro=ubuntu-26.04
+      UID: 457d2f2886425993
+    InstalledVersion: 1.11.1-1ubuntu0.26.04.3
+    FixedVersion: 1.11.1-1ubuntu0.26.04.4
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-66033
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:78ba83102110294b449833eaae89e2a11fb6cd2b45c285549dfe54a7744292d8
+    Title: 'libssh2: libssh2: Denial of Service via integer underflow in AES-GCM cipher negotiation'
+    Description: libssh2 through 1.11.1, fixed in commit a2ed82d, contains a pre-authentication integer underflow vulnerability in the ssh2_cipher_crypt() function in src/openssl.c that allows a malicious SSH server to crash any connecting client by negotiating AES-GCM ciphers during handshake. Attackers can exploit the underflow in the expression computing blocksize minus aadlen minus authentication tag length to trigger an out-of-bounds read and a memcpy call with a near-SIZE_MAX length argument, causing immediate process crash before any authentication occurs.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    - CWE-191
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      julia: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N
+        V3Score: 7.5
+        V40Score: 8.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-66033
+    - https://github.com/advisories/GHSA-2g8c-wcg8-r65c
+    - https://github.com/libssh2/libssh2/commit/a2ed82d40964bbc0d64cd717aa0a5a892117d2e6
+    - https://github.com/libssh2/libssh2/pull/2401
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-66033
+    - https://ubuntu.com/security/notices/USN-8722-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-66033
+    - https://www.vulncheck.com/advisories/libssh2-integer-underflow-dos-via-aes-gcm-cipher-negotiation
+    PublishedDate: '2026-07-24T17:17:35.263Z'
+    LastModifiedDate: '2026-07-30T15:44:47.257Z'
+  - VulnerabilityID: CVE-2026-66035
+    PkgID: libssh2-1t64@1.11.1-1ubuntu0.26.04.3
+    PkgName: libssh2-1t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh2-1t64@1.11.1-1ubuntu0.26.04.3?arch=amd64&distro=ubuntu-26.04
+      UID: 457d2f2886425993
+    InstalledVersion: 1.11.1-1ubuntu0.26.04.3
+    FixedVersion: 1.11.1-1ubuntu0.26.04.4
+    Status: fixed
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-66035
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b18f4df49bcd3e422081644b2714c021287ca90e7f1fc02231a2a8339d122e04
+    Title: 'libssh2: libssh2: Arbitrary code execution via heap buffer overflow during SSH negotiation'
+    Description: libssh2 through 1.11.1, fixed in commit 42e33d8, contains a pre-authentication heap buffer overflow vulnerability that allows a malicious SSH server to corrupt heap metadata in any connecting client by sending a packet with a packet_length smaller than the cipher's block size during Encrypt-then-MAC cipher negotiation. In the fullpacket() function in src/transport.c, the ETM path allocates a buffer of packet_length bytes but copies blocksize minus one bytes via memcpy, causing an overflow that on 32-bit glibc writes attacker-controlled bytes into an adjacent chunk's SIZE field, enabling tcache bin confusion, overlapping live objects, and function pointer overwrite during the session handshake before authentication.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      julia: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V3Score: 7.5
+        V40Score: 7.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-66035
+    - https://github.com/advisories/GHSA-v6rf-8q4r-r495
+    - https://github.com/libssh2/libssh2/commit/42e33d81577ed4b95d4b4f6f845e5ee8efe5eeb4
+    - https://github.com/libssh2/libssh2/pull/2198
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-66035
+    - https://ubuntu.com/security/notices/USN-8722-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-66035
+    - https://www.vulncheck.com/advisories/libssh2-heap-buffer-overflow-via-etm-cipher-negotiation
+    PublishedDate: '2026-07-24T17:17:35.547Z'
+    LastModifiedDate: '2026-07-30T15:41:05.69Z'
   - VulnerabilityID: CVE-2026-75803
     PkgID: libssl3t64@3.5.5-1ubuntu3.4
     PkgName: libssl3t64
@@ -4616,7 +4949,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:6dd0649197405590aa8e1c75f4e75366165f8c83ce75d7ca4fb9f72491e11fb5
     Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
-    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Description: When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 3
@@ -4903,6 +5236,51 @@
     - https://www.wireshark.org/security/wnpa-sec-2021-15.html
     PublishedDate: '2021-11-18T19:15:08.333Z'
     LastModifiedDate: '2026-06-17T04:04:25.67Z'
+  - VulnerabilityID: CVE-2026-18374
+    PkgID: locales@2.43-2ubuntu2.3
+    PkgName: locales
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/locales@2.43-2ubuntu2.3?arch=all&distro=ubuntu-26.04
+      UID: 4f89211289b632ef
+    InstalledVersion: 2.43-2ubuntu2.3
+    Status: affected
+    Layer:
+      Digest: sha256:d83d3316e5b6837560629a949f937a096ab72149f2c5609240c4238f4d8f27ee
+      DiffID: sha256:8516aa723201e551046a937961e2bb60d72aa9f669fd3960b1b6e5bbfe78d0f5
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-18374
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:25e59d6cc51d95170ef9402d422cbbee68a3ae9bcbe3d26d45a88baa566a5ad7
+    Title: 'glibc: glibc: Heap buffer overflow via attacker-controlled fopen mode string'
+    Description: |-
+      Passing an effectively empty string to the `,ccs=` syntax extension of the mode argument in the `fopen` function in the GNU C Library version 2.45 or earlier may result in a heap buffer overflow when the mode string input to the function is attacker controlled.
+
+
+
+      This usage pattern is not seen in applications in common GNU/Linux distributions and applications that process user-supplied values for `ccs` should not pass them through without validation.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 4.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/27/6
+    - https://access.redhat.com/security/cve/CVE-2026-18374
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-18374
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34574
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0015
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0015
+    - https://www.cve.org/CVERecord?id=CVE-2026-18374
+    PublishedDate: '2026-08-27T20:17:03.553Z'
+    LastModifiedDate: '2026-09-03T16:43:15.293Z'
   - VulnerabilityID: CVE-2026-13595
     PkgID: login@1:4.16.0-2+really2.41.3-3ubuntu2
     PkgName: login
@@ -5105,7 +5483,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:e3ea98971c979562f5ed28e3a64f8ba98f7a6ede8504ae6bbec2e51315271e5e
     Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
-    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Description: When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 3
@@ -5438,7 +5816,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:f282530f4ae9ed62f295d2a6b60cef70b63efad8b1902cae0299e3ea41766abe
     Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
-    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Description: When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 3
@@ -7025,7 +7403,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:979801a0118a0371fa47ddc5dd105e8b6b7df03ad1d6a3ce82746415d7f4fa08
     Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
-    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Description: When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 3
@@ -7140,7 +7518,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-51400
     - https://www.cve.org/CVERecord?id=CVE-2026-51400
     PublishedDate: '2026-08-04T21:16:36.433Z'
-    LastModifiedDate: '2026-08-05T18:17:11.477Z'
+    LastModifiedDate: '2026-09-03T17:37:43.45Z'
   - VulnerabilityID: CVE-2026-51401
     PkgID: vim@2:9.1.2141-1ubuntu4.8
     PkgName: vim
@@ -7179,7 +7557,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-51401
     - https://www.cve.org/CVERecord?id=CVE-2026-51401
     PublishedDate: '2026-08-04T21:16:36.567Z'
-    LastModifiedDate: '2026-08-05T20:17:09.31Z'
+    LastModifiedDate: '2026-09-03T17:37:43.45Z'
   - VulnerabilityID: CVE-2026-73073
     PkgID: vim@2:9.1.2141-1ubuntu4.8
     PkgName: vim
@@ -7251,7 +7629,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-51400
     - https://www.cve.org/CVERecord?id=CVE-2026-51400
     PublishedDate: '2026-08-04T21:16:36.433Z'
-    LastModifiedDate: '2026-08-05T18:17:11.477Z'
+    LastModifiedDate: '2026-09-03T17:37:43.45Z'
   - VulnerabilityID: CVE-2026-51401
     PkgID: vim-common@2:9.1.2141-1ubuntu4.8
     PkgName: vim-common
@@ -7290,7 +7668,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-51401
     - https://www.cve.org/CVERecord?id=CVE-2026-51401
     PublishedDate: '2026-08-04T21:16:36.567Z'
-    LastModifiedDate: '2026-08-05T20:17:09.31Z'
+    LastModifiedDate: '2026-09-03T17:37:43.45Z'
   - VulnerabilityID: CVE-2026-73073
     PkgID: vim-common@2:9.1.2141-1ubuntu4.8
     PkgName: vim-common
@@ -7362,7 +7740,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-51400
     - https://www.cve.org/CVERecord?id=CVE-2026-51400
     PublishedDate: '2026-08-04T21:16:36.433Z'
-    LastModifiedDate: '2026-08-05T18:17:11.477Z'
+    LastModifiedDate: '2026-09-03T17:37:43.45Z'
   - VulnerabilityID: CVE-2026-51401
     PkgID: vim-runtime@2:9.1.2141-1ubuntu4.8
     PkgName: vim-runtime
@@ -7401,7 +7779,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-51401
     - https://www.cve.org/CVERecord?id=CVE-2026-51401
     PublishedDate: '2026-08-04T21:16:36.567Z'
-    LastModifiedDate: '2026-08-05T20:17:09.31Z'
+    LastModifiedDate: '2026-09-03T17:37:43.45Z'
   - VulnerabilityID: CVE-2026-73073
     PkgID: vim-runtime@2:9.1.2141-1ubuntu4.8
     PkgName: vim-runtime
@@ -7577,7 +7955,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-51400
     - https://www.cve.org/CVERecord?id=CVE-2026-51400
     PublishedDate: '2026-08-04T21:16:36.433Z'
-    LastModifiedDate: '2026-08-05T18:17:11.477Z'
+    LastModifiedDate: '2026-09-03T17:37:43.45Z'
   - VulnerabilityID: CVE-2026-51401
     PkgID: xxd@2:9.1.2141-1ubuntu4.8
     PkgName: xxd
@@ -7616,7 +7994,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-51401
     - https://www.cve.org/CVERecord?id=CVE-2026-51401
     PublishedDate: '2026-08-04T21:16:36.567Z'
-    LastModifiedDate: '2026-08-05T20:17:09.31Z'
+    LastModifiedDate: '2026-09-03T17:37:43.45Z'
   - VulnerabilityID: CVE-2026-73073
     PkgID: xxd@2:9.1.2141-1ubuntu4.8
     PkgName: xxd
@@ -8135,12 +8513,12 @@
     - https://go.dev/issue/80405
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://linux.oracle.com/cve/CVE-2026-33818.html
-    - https://linux.oracle.com/errata/ELSA-2026-60306-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-62631-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33818
     - https://pkg.go.dev/vuln/GO-2026-5972
     - https://www.cve.org/CVERecord?id=CVE-2026-33818
     PublishedDate: '2026-08-13T22:17:19.84Z'
-    LastModifiedDate: '2026-08-14T16:16:55.317Z'
+    LastModifiedDate: '2026-09-03T16:37:52.17Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -8447,12 +8825,12 @@
     - https://go.dev/issue/80205
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://linux.oracle.com/cve/CVE-2026-56853.html
-    - https://linux.oracle.com/errata/ELSA-2026-60306-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-62631-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56853
     - https://pkg.go.dev/vuln/GO-2026-6089
     - https://www.cve.org/CVERecord?id=CVE-2026-56853
     PublishedDate: '2026-08-13T22:17:22.093Z'
-    LastModifiedDate: '2026-08-14T16:16:57.21Z'
+    LastModifiedDate: '2026-09-03T16:37:52.17Z'
   - VulnerabilityID: CVE-2026-56858
     VendorIDs:
     - GO-2026-6091
@@ -8525,7 +8903,7 @@
     - https://pkg.go.dev/vuln/GO-2026-6091
     - https://www.cve.org/CVERecord?id=CVE-2026-56858
     PublishedDate: '2026-08-13T22:17:22.207Z'
-    LastModifiedDate: '2026-08-14T16:16:57.367Z'
+    LastModifiedDate: '2026-09-03T16:37:52.17Z'
   - VulnerabilityID: CVE-2026-56859
     VendorIDs:
     - GO-2026-6088
@@ -8593,12 +8971,12 @@
     - https://go.dev/issue/80481
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://linux.oracle.com/cve/CVE-2026-56859.html
-    - https://linux.oracle.com/errata/ELSA-2026-60306-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-62631-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56859
     - https://pkg.go.dev/vuln/GO-2026-6088
     - https://www.cve.org/CVERecord?id=CVE-2026-56859
     PublishedDate: '2026-08-13T22:17:22.32Z'
-    LastModifiedDate: '2026-08-14T16:16:57.523Z'
+    LastModifiedDate: '2026-09-03T16:37:52.17Z'
   - VulnerabilityID: CVE-2026-56860
     VendorIDs:
     - GO-2026-6218
@@ -8666,12 +9044,12 @@
     - https://go.dev/issue/80494
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://linux.oracle.com/cve/CVE-2026-56860.html
-    - https://linux.oracle.com/errata/ELSA-2026-60306-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-62631-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56860
     - https://pkg.go.dev/vuln/GO-2026-6218
     - https://www.cve.org/CVERecord?id=CVE-2026-56860
     PublishedDate: '2026-08-13T22:17:22.44Z'
-    LastModifiedDate: '2026-08-14T17:19:13.91Z'
+    LastModifiedDate: '2026-09-03T16:37:52.17Z'
   - VulnerabilityID: CVE-2026-56862
     VendorIDs:
     - GO-2026-6090
@@ -8739,9 +9117,9 @@
     - https://go.dev/issue/80528
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://linux.oracle.com/cve/CVE-2026-56862.html
-    - https://linux.oracle.com/errata/ELSA-2026-60306-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-62631-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56862
     - https://pkg.go.dev/vuln/GO-2026-6090
     - https://www.cve.org/CVERecord?id=CVE-2026-56862
     PublishedDate: '2026-08-13T22:17:22.55Z'
-    LastModifiedDate: '2026-08-14T16:16:57.717Z'
+    LastModifiedDate: '2026-09-03T16:37:52.17Z'
