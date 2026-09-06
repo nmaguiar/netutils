@@ -21,8 +21,8 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:63adac0f27062f4da4576fad920c8444512eaa08fc403b61e719f6d6931ad067
-    Title: Title Not Available
-    Description: Description Not Available
+    Title: OpenLDAP SASL authentication bypass
+    Description: A flaw in the libcurl SASL negotiation for LDAP authentication allows an incomplete handshake sequence to be misinterpreted as a successful cryptographic verification. An attacker executing a Man-in-the-Middle (MITM) attack can inject a premature or shortcut response that bypasses complete peer validation.
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-18924
     PkgID: curl@8.21.0-r0
@@ -42,8 +42,8 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:740d2ac661e3504140c0b1b51820f64f9a512cce7202196efef4f4ec5e2e52b9
-    Title: '[Unknown description]'
-    Description: '[Unknown description]'
+    Title: HTTP/2 server push UAF
+    Description: A flaw in libcurl's handling of HTTP/2 Server Push streams, when the parent handle is set to share connections with other handles, can lead to use-after-free in the cleanup process.
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-19931
     PkgID: curl@8.21.0-r0
@@ -105,8 +105,8 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:e28f35cd8e193fbba2c80cc758a6b857e983abb4abdbdf697709033af2498c4d
-    Title: Title Not Available
-    Description: Description Not Available
+    Title: CVE-2026-80230
+    Description: When CURLOPT_PINNEDPUBLICKEY is configured alongside options that disable standard peer verification (CURLOPT_SSL_VERIFYPEER = 0 and CURLOPT_SSL_VERIFYHOST = 0), libcurl fails to enforce public key pinning on connections established without a presented server certificate. Bypassing the pinning check under these disabled-verification conditions allows unauthenticated connections to succeed when they should be rejected.
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-80231
     PkgID: curl@8.21.0-r0
@@ -126,8 +126,8 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:815c8ade3ca5c1b680a746ba2a0ca689da1f2d749b22aa2ed6de00bac2ff88f6
-    Title: Title Not Available
-    Description: Description Not Available
+    Title: '[Unknown description]'
+    Description: '[Unknown description]'
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-80255
     PkgID: curl@8.21.0-r0
@@ -228,8 +228,8 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:4dd7150f54ea3c4f6ada4c87f3f1943079f816b9e0d01307f61a8d7334a86da6
-    Title: Title Not Available
-    Description: Description Not Available
+    Title: OpenLDAP SASL authentication bypass
+    Description: A flaw in the libcurl SASL negotiation for LDAP authentication allows an incomplete handshake sequence to be misinterpreted as a successful cryptographic verification. An attacker executing a Man-in-the-Middle (MITM) attack can inject a premature or shortcut response that bypasses complete peer validation.
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-18924
     PkgID: curl-doc@8.21.0-r0
@@ -249,8 +249,8 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:3518c36cda184c483e734511b3683e3ff22e0c199c0c8e882fb804f8e2f71870
-    Title: '[Unknown description]'
-    Description: '[Unknown description]'
+    Title: HTTP/2 server push UAF
+    Description: A flaw in libcurl's handling of HTTP/2 Server Push streams, when the parent handle is set to share connections with other handles, can lead to use-after-free in the cleanup process.
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-19931
     PkgID: curl-doc@8.21.0-r0
@@ -312,8 +312,8 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:f25d48c68c0b2ba5bc5e7d74eb315278e23df044fec53c3915ba4c5bf5e1dd10
-    Title: Title Not Available
-    Description: Description Not Available
+    Title: CVE-2026-80230
+    Description: When CURLOPT_PINNEDPUBLICKEY is configured alongside options that disable standard peer verification (CURLOPT_SSL_VERIFYPEER = 0 and CURLOPT_SSL_VERIFYHOST = 0), libcurl fails to enforce public key pinning on connections established without a presented server certificate. Bypassing the pinning check under these disabled-verification conditions allows unauthenticated connections to succeed when they should be rejected.
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-80231
     PkgID: curl-doc@8.21.0-r0
@@ -333,8 +333,8 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:1f4959a3577e5635dac2bbe28762af1d9251878902639ed38462383d46ad248e
-    Title: Title Not Available
-    Description: Description Not Available
+    Title: '[Unknown description]'
+    Description: '[Unknown description]'
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-80255
     PkgID: curl-doc@8.21.0-r0
@@ -468,7 +468,6 @@
     - http://www.openwall.com/lists/oss-security/2026/08/25/1
     - http://www.openwall.com/lists/oss-security/2026/08/27/2
     - https://access.redhat.com/errata/RHSA-2026:61623
-    - https://access.redhat.com/errata/RHSA-2026:61625
     - https://access.redhat.com/security/cve/CVE-2026-41992
     - https://bugzilla.redhat.com/2494158
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494158
@@ -481,7 +480,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-41991
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-41992
     - https://errata.almalinux.org/9/ALSA-2026-61623.html
-    - https://errata.rockylinux.org/RLSA-2026:61625
+    - https://errata.rockylinux.org/RLSA-2026:61623
     - https://github.com/advisories/GHSA-qxh4-rprf-2mmj
     - https://linux.oracle.com/cve/CVE-2026-41992.html
     - https://linux.oracle.com/errata/ELSA-2026-61625-0.html
@@ -558,6 +557,164 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-37676
     PublishedDate: '2024-06-20T16:15:13.917Z'
     LastModifiedDate: '2026-07-09T01:19:04.997Z'
+  - VulnerabilityID: CVE-2026-76642
+    PkgID: libblkid@2.42.2-r0
+    PkgName: libblkid
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libblkid@2.42.2-r0?arch=x86_64&distro=3.24.0
+      UID: 3808a1305c8f7f96
+    InstalledVersion: 2.42.2-r0
+    FixedVersion: 2.42.3-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-76642
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:ccf9b6b3badaca4196268f517168972f5db4946eddc2b3e15e875e2babffa955
+    Title: 'util-linux: util-linux: failed external mount helper still runs privileged X-mount post-hooks'
+    Description: util-linux versions through 2.41.5 and 2.42.2 fail to check mount helper exit status before running post-mount hooks, allowing unprivileged users to execute privileged operations on pre-existing filesystems. Attackers can exploit X-mount.idmap or X-mount.owner hooks to clone filesystems with inherited suid bits or modify target inode permissions after a helper fails, achieving privilege escalation.
+    Severity: HIGH
+    CweIDs:
+    - CWE-390
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-76642
+    - https://github.com/util-linux/util-linux
+    - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L476
+    - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L892
+    - https://github.com/util-linux/util-linux/commit/1d14676ea70003e9f5b2a6a76af0cadb1190411a
+    - https://github.com/util-linux/util-linux/commit/a15c00a9e545aa8b9cf6ec0f888ff6c7b3eaeedc
+    - https://github.com/util-linux/util-linux/commit/f57cea130839c0af8dc0525274267ae4cfd66bbf
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-m25x-3hj9-m26f
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-76642
+    - https://www.cve.org/CVERecord?id=CVE-2026-76642
+    - https://www.vulncheck.com/advisories/util-linux-libmount-privilege-escalation-via-failed-mount-helper
+    PublishedDate: '2026-09-03T13:06:08.44Z'
+    LastModifiedDate: '2026-09-03T15:17:33.49Z'
+  - VulnerabilityID: CVE-2026-78408
+    PkgID: libblkid@2.42.2-r0
+    PkgName: libblkid
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libblkid@2.42.2-r0?arch=x86_64&distro=3.24.0
+      UID: 3808a1305c8f7f96
+    InstalledVersion: 2.42.2-r0
+    FixedVersion: 2.42.3-r1
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-78408
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:e7c8534ce0d5311c836fd56d89c3812fa51b59ba026ab6eff4962b0e398552b5
+    Title: 'util-linux: util-linux: nsenter --join-cgroup leaks root cgroup migration authority'
+    Description: The nsenter --join-cgroup option opens the target cgroup.procs file as root and leaves that file descriptor open across later namespace and credential changes and across execve(). Because the kernel checks later cgroup migrations using the credentials from the original open, a program run in an attacker-controlled target can inherit root's ability to move host processes between cgroups. After a privileged operator uses --join-cgroup against that target, an unprivileged user can migrate and terminate unrelated root processes.
+    Severity: HIGH
+    CweIDs:
+    - CWE-775
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
+        V3Score: 7.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/05/2
+    - https://access.redhat.com/errata/RHSA-2026:63162
+    - https://access.redhat.com/security/cve/CVE-2026-78408
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2522497
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
+    - https://www.cve.org/CVERecord?id=CVE-2026-78408
+    PublishedDate: '2026-09-02T16:17:23.687Z'
+    LastModifiedDate: '2026-09-05T14:17:23.727Z'
+  - VulnerabilityID: CVE-2026-78409
+    PkgID: libblkid@2.42.2-r0
+    PkgName: libblkid
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libblkid@2.42.2-r0?arch=x86_64&distro=3.24.0
+      UID: 3808a1305c8f7f96
+    InstalledVersion: 2.42.2-r0
+    FixedVersion: 2.42.3-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-78409
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:d9b451dbca4fc89b35b2a87e1106c1012c20c559e53e83841ba8131248f42830
+    Title: 'util-linux: util-linux: X-mount.subdir detached-tree resolution can escape via intermediate symlinks'
+    Description: The X-mount.subdir option uses a detached-tree fast path on Linux 6.15 and later and passes the configured subdirectory to open_tree() with AT_SYMLINK_NOFOLLOW. That flag does not stop intermediate symlink traversal or keep resolution inside the newly mounted filesystem. A local unprivileged user with an fstab-authorized X-mount.subdir entry can attach a host path at the intended mountpoint.
+    Severity: HIGH
+    CweIDs:
+    - CWE-59
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:63162
+    - https://access.redhat.com/security/cve/CVE-2026-78409
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2522607
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-8f2p-47x3-43mv
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
+    - https://www.cve.org/CVERecord?id=CVE-2026-78409
+    PublishedDate: '2026-09-02T16:17:23.833Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
+  - VulnerabilityID: CVE-2026-78410
+    PkgID: libblkid@2.42.2-r0
+    PkgName: libblkid
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libblkid@2.42.2-r0?arch=x86_64&distro=3.24.0
+      UID: 3808a1305c8f7f96
+    InstalledVersion: 2.42.2-r0
+    FixedVersion: 2.42.3-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-78410
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:ae78f15a80f361d396f2eb788c45d92e2fd22f4147e06dc878d7568077c586c9
+    Title: 'util-linux: util-linux: restricted bind mounts do not pin the source, allowing X-mount.owner/group/mode redirection'
+    Description: A flaw was found in util-linux. Restricted bind mounts take the source path from fstab but do not pin that source before the privileged mount. A local unprivileged user who can replace the authorized source or a writable ancestor can redirect SUID mount(8) to bind another host directory. If the fstab entry also sets X-mount.owner, X-mount.group, or X-mount.mode, root then changes ownership or mode on that redirected inode.
+    Severity: HIGH
+    CweIDs:
+    - CWE-367
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:63162
+    - https://access.redhat.com/security/cve/CVE-2026-78410
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2522684
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
+    - https://www.cve.org/CVERecord?id=CVE-2026-78410
+    PublishedDate: '2026-09-02T16:17:23.983Z'
+    LastModifiedDate: '2026-09-04T19:17:27.567Z'
   - VulnerabilityID: CVE-2026-14456
     PkgID: libcrypto3@3.5.7-r0
     PkgName: libcrypto3
@@ -1317,8 +1474,8 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:abeb6ee852ac4ceaf57486b763bdbdc19415c0f33e0a282844d39adb41693cb9
-    Title: Title Not Available
-    Description: Description Not Available
+    Title: OpenLDAP SASL authentication bypass
+    Description: A flaw in the libcurl SASL negotiation for LDAP authentication allows an incomplete handshake sequence to be misinterpreted as a successful cryptographic verification. An attacker executing a Man-in-the-Middle (MITM) attack can inject a premature or shortcut response that bypasses complete peer validation.
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-18924
     PkgID: libcurl@8.21.0-r0
@@ -1338,8 +1495,8 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:8467438392cb8f91524e43ddd87318ce233bef71428cfb4afbf2542e1a9240b8
-    Title: '[Unknown description]'
-    Description: '[Unknown description]'
+    Title: HTTP/2 server push UAF
+    Description: A flaw in libcurl's handling of HTTP/2 Server Push streams, when the parent handle is set to share connections with other handles, can lead to use-after-free in the cleanup process.
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-19931
     PkgID: libcurl@8.21.0-r0
@@ -1401,8 +1558,8 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:198ce54eeadd806d54f4b42c2450dd9fb54709f99af897aea4d60edaba76cc91
-    Title: Title Not Available
-    Description: Description Not Available
+    Title: CVE-2026-80230
+    Description: When CURLOPT_PINNEDPUBLICKEY is configured alongside options that disable standard peer verification (CURLOPT_SSL_VERIFYPEER = 0 and CURLOPT_SSL_VERIFYHOST = 0), libcurl fails to enforce public key pinning on connections established without a presented server certificate. Bypassing the pinning check under these disabled-verification conditions allows unauthenticated connections to succeed when they should be rejected.
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-80231
     PkgID: libcurl@8.21.0-r0
@@ -1422,8 +1579,8 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:e9b9e3e2769455b0814b8d0f916c3aaa87929c8e492c0db8ca720bf37acd403b
-    Title: Title Not Available
-    Description: Description Not Available
+    Title: '[Unknown description]'
+    Description: '[Unknown description]'
     Severity: UNKNOWN
   - VulnerabilityID: CVE-2026-80255
     PkgID: libcurl@8.21.0-r0
@@ -1652,6 +1809,164 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-76957
     PublishedDate: '2026-08-20T05:16:29.747Z'
     LastModifiedDate: '2026-09-03T17:37:43.45Z'
+  - VulnerabilityID: CVE-2026-76642
+    PkgID: libmount@2.42.2-r0
+    PkgName: libmount
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libmount@2.42.2-r0?arch=x86_64&distro=3.24.0
+      UID: 54e66625d86847a
+    InstalledVersion: 2.42.2-r0
+    FixedVersion: 2.42.3-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-76642
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:e2df74ad7783a7fcda22ab11e7fd90a9f79829ef4ab30a48fd88123cb8f9b8aa
+    Title: 'util-linux: util-linux: failed external mount helper still runs privileged X-mount post-hooks'
+    Description: util-linux versions through 2.41.5 and 2.42.2 fail to check mount helper exit status before running post-mount hooks, allowing unprivileged users to execute privileged operations on pre-existing filesystems. Attackers can exploit X-mount.idmap or X-mount.owner hooks to clone filesystems with inherited suid bits or modify target inode permissions after a helper fails, achieving privilege escalation.
+    Severity: HIGH
+    CweIDs:
+    - CWE-390
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-76642
+    - https://github.com/util-linux/util-linux
+    - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L476
+    - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L892
+    - https://github.com/util-linux/util-linux/commit/1d14676ea70003e9f5b2a6a76af0cadb1190411a
+    - https://github.com/util-linux/util-linux/commit/a15c00a9e545aa8b9cf6ec0f888ff6c7b3eaeedc
+    - https://github.com/util-linux/util-linux/commit/f57cea130839c0af8dc0525274267ae4cfd66bbf
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-m25x-3hj9-m26f
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-76642
+    - https://www.cve.org/CVERecord?id=CVE-2026-76642
+    - https://www.vulncheck.com/advisories/util-linux-libmount-privilege-escalation-via-failed-mount-helper
+    PublishedDate: '2026-09-03T13:06:08.44Z'
+    LastModifiedDate: '2026-09-03T15:17:33.49Z'
+  - VulnerabilityID: CVE-2026-78408
+    PkgID: libmount@2.42.2-r0
+    PkgName: libmount
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libmount@2.42.2-r0?arch=x86_64&distro=3.24.0
+      UID: 54e66625d86847a
+    InstalledVersion: 2.42.2-r0
+    FixedVersion: 2.42.3-r1
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-78408
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:d26cff315378cb1796563a04b4de198dde68ff88ef6b978cde76379a667d9458
+    Title: 'util-linux: util-linux: nsenter --join-cgroup leaks root cgroup migration authority'
+    Description: The nsenter --join-cgroup option opens the target cgroup.procs file as root and leaves that file descriptor open across later namespace and credential changes and across execve(). Because the kernel checks later cgroup migrations using the credentials from the original open, a program run in an attacker-controlled target can inherit root's ability to move host processes between cgroups. After a privileged operator uses --join-cgroup against that target, an unprivileged user can migrate and terminate unrelated root processes.
+    Severity: HIGH
+    CweIDs:
+    - CWE-775
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
+        V3Score: 7.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/05/2
+    - https://access.redhat.com/errata/RHSA-2026:63162
+    - https://access.redhat.com/security/cve/CVE-2026-78408
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2522497
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
+    - https://www.cve.org/CVERecord?id=CVE-2026-78408
+    PublishedDate: '2026-09-02T16:17:23.687Z'
+    LastModifiedDate: '2026-09-05T14:17:23.727Z'
+  - VulnerabilityID: CVE-2026-78409
+    PkgID: libmount@2.42.2-r0
+    PkgName: libmount
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libmount@2.42.2-r0?arch=x86_64&distro=3.24.0
+      UID: 54e66625d86847a
+    InstalledVersion: 2.42.2-r0
+    FixedVersion: 2.42.3-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-78409
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:1d161d299ede0b96255fa0459ab0662c477642503bc4a660f34b657f1a7b5a9b
+    Title: 'util-linux: util-linux: X-mount.subdir detached-tree resolution can escape via intermediate symlinks'
+    Description: The X-mount.subdir option uses a detached-tree fast path on Linux 6.15 and later and passes the configured subdirectory to open_tree() with AT_SYMLINK_NOFOLLOW. That flag does not stop intermediate symlink traversal or keep resolution inside the newly mounted filesystem. A local unprivileged user with an fstab-authorized X-mount.subdir entry can attach a host path at the intended mountpoint.
+    Severity: HIGH
+    CweIDs:
+    - CWE-59
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:63162
+    - https://access.redhat.com/security/cve/CVE-2026-78409
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2522607
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-8f2p-47x3-43mv
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
+    - https://www.cve.org/CVERecord?id=CVE-2026-78409
+    PublishedDate: '2026-09-02T16:17:23.833Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
+  - VulnerabilityID: CVE-2026-78410
+    PkgID: libmount@2.42.2-r0
+    PkgName: libmount
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libmount@2.42.2-r0?arch=x86_64&distro=3.24.0
+      UID: 54e66625d86847a
+    InstalledVersion: 2.42.2-r0
+    FixedVersion: 2.42.3-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-78410
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:7fffe6092f70a5ecbea3e12871382d26f76893f9a4c63b0c5b80490eaf587e29
+    Title: 'util-linux: util-linux: restricted bind mounts do not pin the source, allowing X-mount.owner/group/mode redirection'
+    Description: A flaw was found in util-linux. Restricted bind mounts take the source path from fstab but do not pin that source before the privileged mount. A local unprivileged user who can replace the authorized source or a writable ancestor can redirect SUID mount(8) to bind another host directory. If the fstab entry also sets X-mount.owner, X-mount.group, or X-mount.mode, root then changes ownership or mode on that redirected inode.
+    Severity: HIGH
+    CweIDs:
+    - CWE-367
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:63162
+    - https://access.redhat.com/security/cve/CVE-2026-78410
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2522684
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
+    - https://www.cve.org/CVERecord?id=CVE-2026-78410
+    PublishedDate: '2026-09-02T16:17:23.983Z'
+    LastModifiedDate: '2026-09-04T19:17:27.567Z'
   - VulnerabilityID: CVE-2026-59843
     PkgID: libssh@0.12.1-r0
     PkgName: libssh
@@ -1716,7 +2031,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59848
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
     - https://errata.almalinux.org/9/ALSA-2026-62217.html
-    - https://errata.rockylinux.org/RLSA-2026:62218
+    - https://errata.rockylinux.org/RLSA-2026:62217
     - https://linux.oracle.com/cve/CVE-2026-59843.html
     - https://linux.oracle.com/errata/ELSA-2026-62218-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-59843
@@ -3248,7 +3563,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N
         V3Score: 7.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:56219
+    - https://access.redhat.com/errata/RHSA-2026:54268
     - https://access.redhat.com/errata/RHSA-2026:59009
     - https://access.redhat.com/security/cve/CVE-2026-11940
     - https://bugzilla.redhat.com/2491848
@@ -3256,7 +3571,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11940
     - https://errata.almalinux.org/9/ALSA-2026-59009.html
-    - https://errata.rockylinux.org/RLSA-2026:56219
+    - https://errata.rockylinux.org/RLSA-2026:54268
     - https://github.com/python/cpython/commit/0f852b3f07dd8e71e40326a51c02afbf16a42cc5
     - https://github.com/python/cpython/commit/27dd970bf6b17ebca7c8ed486a40ab043ed7af8f
     - https://github.com/python/cpython/commit/672825e2f36a57e173959b0d9d409d4560dab8df
@@ -3321,7 +3636,7 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/07/09/4
-    - https://access.redhat.com/errata/RHSA-2026:39320
+    - https://access.redhat.com/errata/RHSA-2026:39798
     - https://access.redhat.com/errata/RHSA-2026:41949
     - https://access.redhat.com/security/cve/CVE-2026-15308
     - https://bugzilla.redhat.com/2498608
@@ -3329,7 +3644,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15308
     - https://errata.almalinux.org/9/ALSA-2026-41949.html
-    - https://errata.rockylinux.org/RLSA-2026:39320
+    - https://errata.rockylinux.org/RLSA-2026:39798
     - https://github.com/python/cpython/commit/07efb08123ba9367a7107325adb9d5626dca1ca9
     - https://github.com/python/cpython/commit/1e7956f1a722df9aabc509c30f8fbdc3a2b4fdc7
     - https://github.com/python/cpython/commit/785df8f743800661961528970f8598edcd291c14
@@ -3437,7 +3752,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2128
+    - https://access.redhat.com/errata/RHSA-2026:4168
     - https://access.redhat.com/errata/RHSA-2026:4216
     - https://access.redhat.com/security/cve/CVE-2025-15366
     - https://bugzilla.redhat.com/2431368
@@ -3453,7 +3768,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/9/ALSA-2026-4216.html
-    - https://errata.rockylinux.org/RLSA-2026:2128
+    - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/298182272a740ce2016aee2f54acbd0bba1944c1
     - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
     - https://github.com/python/cpython/commit/71926d943c05bde79bd2a866933103541d91b6a2
@@ -3946,7 +4261,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N
         V3Score: 7.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:56219
+    - https://access.redhat.com/errata/RHSA-2026:54268
     - https://access.redhat.com/errata/RHSA-2026:59009
     - https://access.redhat.com/security/cve/CVE-2026-11940
     - https://bugzilla.redhat.com/2491848
@@ -3954,7 +4269,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11940
     - https://errata.almalinux.org/9/ALSA-2026-59009.html
-    - https://errata.rockylinux.org/RLSA-2026:56219
+    - https://errata.rockylinux.org/RLSA-2026:54268
     - https://github.com/python/cpython/commit/0f852b3f07dd8e71e40326a51c02afbf16a42cc5
     - https://github.com/python/cpython/commit/27dd970bf6b17ebca7c8ed486a40ab043ed7af8f
     - https://github.com/python/cpython/commit/672825e2f36a57e173959b0d9d409d4560dab8df
@@ -4019,7 +4334,7 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/07/09/4
-    - https://access.redhat.com/errata/RHSA-2026:39320
+    - https://access.redhat.com/errata/RHSA-2026:39798
     - https://access.redhat.com/errata/RHSA-2026:41949
     - https://access.redhat.com/security/cve/CVE-2026-15308
     - https://bugzilla.redhat.com/2498608
@@ -4027,7 +4342,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15308
     - https://errata.almalinux.org/9/ALSA-2026-41949.html
-    - https://errata.rockylinux.org/RLSA-2026:39320
+    - https://errata.rockylinux.org/RLSA-2026:39798
     - https://github.com/python/cpython/commit/07efb08123ba9367a7107325adb9d5626dca1ca9
     - https://github.com/python/cpython/commit/1e7956f1a722df9aabc509c30f8fbdc3a2b4fdc7
     - https://github.com/python/cpython/commit/785df8f743800661961528970f8598edcd291c14
@@ -4135,7 +4450,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2128
+    - https://access.redhat.com/errata/RHSA-2026:4168
     - https://access.redhat.com/errata/RHSA-2026:4216
     - https://access.redhat.com/security/cve/CVE-2025-15366
     - https://bugzilla.redhat.com/2431368
@@ -4151,7 +4466,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/9/ALSA-2026-4216.html
-    - https://errata.rockylinux.org/RLSA-2026:2128
+    - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/298182272a740ce2016aee2f54acbd0bba1944c1
     - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
     - https://github.com/python/cpython/commit/71926d943c05bde79bd2a866933103541d91b6a2
@@ -4644,7 +4959,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N
         V3Score: 7.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:56219
+    - https://access.redhat.com/errata/RHSA-2026:54268
     - https://access.redhat.com/errata/RHSA-2026:59009
     - https://access.redhat.com/security/cve/CVE-2026-11940
     - https://bugzilla.redhat.com/2491848
@@ -4652,7 +4967,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11940
     - https://errata.almalinux.org/9/ALSA-2026-59009.html
-    - https://errata.rockylinux.org/RLSA-2026:56219
+    - https://errata.rockylinux.org/RLSA-2026:54268
     - https://github.com/python/cpython/commit/0f852b3f07dd8e71e40326a51c02afbf16a42cc5
     - https://github.com/python/cpython/commit/27dd970bf6b17ebca7c8ed486a40ab043ed7af8f
     - https://github.com/python/cpython/commit/672825e2f36a57e173959b0d9d409d4560dab8df
@@ -4717,7 +5032,7 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/07/09/4
-    - https://access.redhat.com/errata/RHSA-2026:39320
+    - https://access.redhat.com/errata/RHSA-2026:39798
     - https://access.redhat.com/errata/RHSA-2026:41949
     - https://access.redhat.com/security/cve/CVE-2026-15308
     - https://bugzilla.redhat.com/2498608
@@ -4725,7 +5040,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15308
     - https://errata.almalinux.org/9/ALSA-2026-41949.html
-    - https://errata.rockylinux.org/RLSA-2026:39320
+    - https://errata.rockylinux.org/RLSA-2026:39798
     - https://github.com/python/cpython/commit/07efb08123ba9367a7107325adb9d5626dca1ca9
     - https://github.com/python/cpython/commit/1e7956f1a722df9aabc509c30f8fbdc3a2b4fdc7
     - https://github.com/python/cpython/commit/785df8f743800661961528970f8598edcd291c14
@@ -4833,7 +5148,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2128
+    - https://access.redhat.com/errata/RHSA-2026:4168
     - https://access.redhat.com/errata/RHSA-2026:4216
     - https://access.redhat.com/security/cve/CVE-2025-15366
     - https://bugzilla.redhat.com/2431368
@@ -4849,7 +5164,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/9/ALSA-2026-4216.html
-    - https://errata.rockylinux.org/RLSA-2026:2128
+    - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/298182272a740ce2016aee2f54acbd0bba1944c1
     - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
     - https://github.com/python/cpython/commit/71926d943c05bde79bd2a866933103541d91b6a2
@@ -5342,7 +5657,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N
         V3Score: 7.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:56219
+    - https://access.redhat.com/errata/RHSA-2026:54268
     - https://access.redhat.com/errata/RHSA-2026:59009
     - https://access.redhat.com/security/cve/CVE-2026-11940
     - https://bugzilla.redhat.com/2491848
@@ -5350,7 +5665,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11940
     - https://errata.almalinux.org/9/ALSA-2026-59009.html
-    - https://errata.rockylinux.org/RLSA-2026:56219
+    - https://errata.rockylinux.org/RLSA-2026:54268
     - https://github.com/python/cpython/commit/0f852b3f07dd8e71e40326a51c02afbf16a42cc5
     - https://github.com/python/cpython/commit/27dd970bf6b17ebca7c8ed486a40ab043ed7af8f
     - https://github.com/python/cpython/commit/672825e2f36a57e173959b0d9d409d4560dab8df
@@ -5415,7 +5730,7 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/07/09/4
-    - https://access.redhat.com/errata/RHSA-2026:39320
+    - https://access.redhat.com/errata/RHSA-2026:39798
     - https://access.redhat.com/errata/RHSA-2026:41949
     - https://access.redhat.com/security/cve/CVE-2026-15308
     - https://bugzilla.redhat.com/2498608
@@ -5423,7 +5738,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15308
     - https://errata.almalinux.org/9/ALSA-2026-41949.html
-    - https://errata.rockylinux.org/RLSA-2026:39320
+    - https://errata.rockylinux.org/RLSA-2026:39798
     - https://github.com/python/cpython/commit/07efb08123ba9367a7107325adb9d5626dca1ca9
     - https://github.com/python/cpython/commit/1e7956f1a722df9aabc509c30f8fbdc3a2b4fdc7
     - https://github.com/python/cpython/commit/785df8f743800661961528970f8598edcd291c14
@@ -5531,7 +5846,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
         V3Score: 7.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:2128
+    - https://access.redhat.com/errata/RHSA-2026:4168
     - https://access.redhat.com/errata/RHSA-2026:4216
     - https://access.redhat.com/security/cve/CVE-2025-15366
     - https://bugzilla.redhat.com/2431368
@@ -5547,7 +5862,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
     - https://errata.almalinux.org/9/ALSA-2026-4216.html
-    - https://errata.rockylinux.org/RLSA-2026:2128
+    - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/298182272a740ce2016aee2f54acbd0bba1944c1
     - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
     - https://github.com/python/cpython/commit/71926d943c05bde79bd2a866933103541d91b6a2
@@ -6000,6 +6315,164 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-6879
     PublishedDate: '2026-07-28T15:17:51.377Z'
     LastModifiedDate: '2026-08-13T01:16:55.457Z'
+  - VulnerabilityID: CVE-2026-76642
+    PkgID: util-linux-doc@2.42.2-r0
+    PkgName: util-linux-doc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/util-linux-doc@2.42.2-r0?arch=x86_64&distro=3.24.0
+      UID: e2852af54d8fd40f
+    InstalledVersion: 2.42.2-r0
+    FixedVersion: 2.42.3-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-76642
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:1be80c607651a97115efef6e15b8be2d2785f285b50094c9ea72e748b0c5095b
+    Title: 'util-linux: util-linux: failed external mount helper still runs privileged X-mount post-hooks'
+    Description: util-linux versions through 2.41.5 and 2.42.2 fail to check mount helper exit status before running post-mount hooks, allowing unprivileged users to execute privileged operations on pre-existing filesystems. Attackers can exploit X-mount.idmap or X-mount.owner hooks to clone filesystems with inherited suid bits or modify target inode permissions after a helper fails, achieving privilege escalation.
+    Severity: HIGH
+    CweIDs:
+    - CWE-390
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-76642
+    - https://github.com/util-linux/util-linux
+    - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L476
+    - https://github.com/util-linux/util-linux/blob/v2.42.2/libmount/src/context_mount.c#L892
+    - https://github.com/util-linux/util-linux/commit/1d14676ea70003e9f5b2a6a76af0cadb1190411a
+    - https://github.com/util-linux/util-linux/commit/a15c00a9e545aa8b9cf6ec0f888ff6c7b3eaeedc
+    - https://github.com/util-linux/util-linux/commit/f57cea130839c0af8dc0525274267ae4cfd66bbf
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-m25x-3hj9-m26f
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-76642
+    - https://www.cve.org/CVERecord?id=CVE-2026-76642
+    - https://www.vulncheck.com/advisories/util-linux-libmount-privilege-escalation-via-failed-mount-helper
+    PublishedDate: '2026-09-03T13:06:08.44Z'
+    LastModifiedDate: '2026-09-03T15:17:33.49Z'
+  - VulnerabilityID: CVE-2026-78408
+    PkgID: util-linux-doc@2.42.2-r0
+    PkgName: util-linux-doc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/util-linux-doc@2.42.2-r0?arch=x86_64&distro=3.24.0
+      UID: e2852af54d8fd40f
+    InstalledVersion: 2.42.2-r0
+    FixedVersion: 2.42.3-r1
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-78408
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:6256ee19e77ddfda46a257a7e764217caaa5dd9414d8bbecd30436b637cd4f29
+    Title: 'util-linux: util-linux: nsenter --join-cgroup leaks root cgroup migration authority'
+    Description: The nsenter --join-cgroup option opens the target cgroup.procs file as root and leaves that file descriptor open across later namespace and credential changes and across execve(). Because the kernel checks later cgroup migrations using the credentials from the original open, a program run in an attacker-controlled target can inherit root's ability to move host processes between cgroups. After a privileged operator uses --join-cgroup against that target, an unprivileged user can migrate and terminate unrelated root processes.
+    Severity: HIGH
+    CweIDs:
+    - CWE-775
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:H/A:H
+        V3Score: 7.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/05/2
+    - https://access.redhat.com/errata/RHSA-2026:63162
+    - https://access.redhat.com/security/cve/CVE-2026-78408
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2522497
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-55fx-f4gg-cfhj
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-78408
+    - https://www.cve.org/CVERecord?id=CVE-2026-78408
+    PublishedDate: '2026-09-02T16:17:23.687Z'
+    LastModifiedDate: '2026-09-05T14:17:23.727Z'
+  - VulnerabilityID: CVE-2026-78409
+    PkgID: util-linux-doc@2.42.2-r0
+    PkgName: util-linux-doc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/util-linux-doc@2.42.2-r0?arch=x86_64&distro=3.24.0
+      UID: e2852af54d8fd40f
+    InstalledVersion: 2.42.2-r0
+    FixedVersion: 2.42.3-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-78409
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:ee553e89953209c1ad09d7ddb8c4faea0e869bf7b3b43a034b41d294887072f6
+    Title: 'util-linux: util-linux: X-mount.subdir detached-tree resolution can escape via intermediate symlinks'
+    Description: The X-mount.subdir option uses a detached-tree fast path on Linux 6.15 and later and passes the configured subdirectory to open_tree() with AT_SYMLINK_NOFOLLOW. That flag does not stop intermediate symlink traversal or keep resolution inside the newly mounted filesystem. A local unprivileged user with an fstab-authorized X-mount.subdir entry can attach a host path at the intended mountpoint.
+    Severity: HIGH
+    CweIDs:
+    - CWE-59
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:63162
+    - https://access.redhat.com/security/cve/CVE-2026-78409
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2522607
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-8f2p-47x3-43mv
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-78409
+    - https://www.cve.org/CVERecord?id=CVE-2026-78409
+    PublishedDate: '2026-09-02T16:17:23.833Z'
+    LastModifiedDate: '2026-09-03T18:12:56.407Z'
+  - VulnerabilityID: CVE-2026-78410
+    PkgID: util-linux-doc@2.42.2-r0
+    PkgName: util-linux-doc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/util-linux-doc@2.42.2-r0?arch=x86_64&distro=3.24.0
+      UID: e2852af54d8fd40f
+    InstalledVersion: 2.42.2-r0
+    FixedVersion: 2.42.3-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-78410
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:398f82f53c8b0b76eec5dd85bbab040c66dff902d90bb207a034de9242ca6ae7
+    Title: 'util-linux: util-linux: restricted bind mounts do not pin the source, allowing X-mount.owner/group/mode redirection'
+    Description: A flaw was found in util-linux. Restricted bind mounts take the source path from fstab but do not pin that source before the privileged mount. A local unprivileged user who can replace the authorized source or a writable ancestor can redirect SUID mount(8) to bind another host directory. If the fstab entry also sets X-mount.owner, X-mount.group, or X-mount.mode, root then changes ownership or mode on that redirected inode.
+    Severity: HIGH
+    CweIDs:
+    - CWE-367
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:63162
+    - https://access.redhat.com/security/cve/CVE-2026-78410
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2522684
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-rh77-686x-2f2m
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-78410
+    - https://www.cve.org/CVERecord?id=CVE-2026-78410
+    PublishedDate: '2026-09-02T16:17:23.983Z'
+    LastModifiedDate: '2026-09-04T19:17:27.567Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
