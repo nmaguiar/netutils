@@ -34,11 +34,12 @@
 │                       │       │                   bypasses complete peer
 │                       │       │                   validation. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-923 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-13608.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-13608.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3822248 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:19.81Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:19.81Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T16:18:00.317Z 
 │                       ├ [1]   ╭ VulnerabilityID : CVE-2026-18924 
 │                       │       ├ PkgID           : curl@8.21.0-r0 
 │                       │       ├ PkgName         : curl 
@@ -66,11 +67,12 @@
 │                       │       │                   lead to
 │                       │       │                   use-after-free in the cleanup process. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-18924.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-18924.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3916059 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:20.553Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:20.553Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T16:18:06Z 
 │                       ├ [2]   ╭ VulnerabilityID : CVE-2026-19931 
 │                       │       ├ PkgID           : curl@8.21.0-r0 
 │                       │       ├ PkgName         : curl 
@@ -100,11 +102,12 @@
 │                       │       │                    sent over user A's
 │                       │       │                   previously authenticated connection. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-488 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-19931.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-19931.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3923520 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:20.733Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:20.733Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T16:18:07.08Z 
 │                       ├ [3]   ╭ VulnerabilityID : CVE-2026-80229 
 │                       │       ├ PkgID           : curl@8.21.0-r0 
 │                       │       ├ PkgName         : curl 
@@ -140,11 +143,12 @@
 │                       │       │                   heap-use-after-free
 │                       │       │                   upon subsequent I/O or post-handshake operations. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-80229.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-80229.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3969255 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.217Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:22.217Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T16:18:15.72Z 
 │                       ├ [4]   ╭ VulnerabilityID : CVE-2026-80230 
 │                       │       ├ PkgID           : curl@8.21.0-r0 
 │                       │       ├ PkgName         : curl 
@@ -179,11 +183,12 @@
 │                       │       │                   unauthenticated connections to succeed when they should be
 │                       │       │                   rejected. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-295 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-80230.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-80230.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3969300 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.327Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:22.327Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T19:19:54.063Z 
 │                       ├ [5]   ╭ VulnerabilityID : CVE-2026-80231 
 │                       │       ├ PkgID           : curl@8.21.0-r0 
 │                       │       ├ PkgName         : curl 
@@ -212,11 +217,12 @@
 │                       │       │                   (`CURLSSLOPT_NATIVE_CA`) than when the connection was
 │                       │       │                   created. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-488 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-80231.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-80231.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3969368 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.5Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:22.5Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T19:19:54.307Z 
 │                       ├ [6]   ╭ VulnerabilityID : CVE-2026-80255 
 │                       │       ├ PkgID           : curl@8.21.0-r0 
 │                       │       ├ PkgName         : curl 
@@ -247,11 +253,12 @@
 │                       │       │                   sent over plaintext HTTP on subsequent requests to the same
 │                       │       │                    host. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-201 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-80255.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-80255.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3972395 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.623Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:22.623Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T19:19:54.52Z 
 │                       ├ [7]   ╭ VulnerabilityID : CVE-2026-80256 
 │                       │       ├ PkgID           : curl@8.21.0-r0 
 │                       │       ├ PkgName         : curl 
@@ -302,11 +309,12 @@
 │                       │       │                   callback-selected store is
 │                       │       │                   then incorrectly accepted. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-295 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-82208.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-82208.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3973090 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.733Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:22.733Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T19:20:00.13Z 
 │                       ├ [9]   ╭ VulnerabilityID : CVE-2026-82209 
 │                       │       ├ PkgID           : curl@8.21.0-r0 
 │                       │       ├ PkgName         : curl 
@@ -346,11 +354,12 @@
 │                       │       │                   (e.g.,
 │                       │       │                   `attacker.co.uk`). 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-201 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-82209.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-82209.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3972385 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.847Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:22.847Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T19:20:00.313Z 
 │                       ├ [10]  ╭ VulnerabilityID : CVE-2026-13608 
 │                       │       ├ PkgID           : curl-doc@8.21.0-r0 
 │                       │       ├ PkgName         : curl-doc 
@@ -382,11 +391,12 @@
 │                       │       │                   bypasses complete peer
 │                       │       │                   validation. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-923 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-13608.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-13608.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3822248 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:19.81Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:19.81Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T16:18:00.317Z 
 │                       ├ [11]  ╭ VulnerabilityID : CVE-2026-18924 
 │                       │       ├ PkgID           : curl-doc@8.21.0-r0 
 │                       │       ├ PkgName         : curl-doc 
@@ -414,11 +424,12 @@
 │                       │       │                   lead to
 │                       │       │                   use-after-free in the cleanup process. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-18924.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-18924.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3916059 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:20.553Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:20.553Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T16:18:06Z 
 │                       ├ [12]  ╭ VulnerabilityID : CVE-2026-19931 
 │                       │       ├ PkgID           : curl-doc@8.21.0-r0 
 │                       │       ├ PkgName         : curl-doc 
@@ -448,11 +459,12 @@
 │                       │       │                    sent over user A's
 │                       │       │                   previously authenticated connection. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-488 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-19931.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-19931.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3923520 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:20.733Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:20.733Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T16:18:07.08Z 
 │                       ├ [13]  ╭ VulnerabilityID : CVE-2026-80229 
 │                       │       ├ PkgID           : curl-doc@8.21.0-r0 
 │                       │       ├ PkgName         : curl-doc 
@@ -488,11 +500,12 @@
 │                       │       │                   heap-use-after-free
 │                       │       │                   upon subsequent I/O or post-handshake operations. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-80229.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-80229.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3969255 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.217Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:22.217Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T16:18:15.72Z 
 │                       ├ [14]  ╭ VulnerabilityID : CVE-2026-80230 
 │                       │       ├ PkgID           : curl-doc@8.21.0-r0 
 │                       │       ├ PkgName         : curl-doc 
@@ -527,11 +540,12 @@
 │                       │       │                   unauthenticated connections to succeed when they should be
 │                       │       │                   rejected. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-295 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-80230.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-80230.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3969300 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.327Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:22.327Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T19:19:54.063Z 
 │                       ├ [15]  ╭ VulnerabilityID : CVE-2026-80231 
 │                       │       ├ PkgID           : curl-doc@8.21.0-r0 
 │                       │       ├ PkgName         : curl-doc 
@@ -560,11 +574,12 @@
 │                       │       │                   (`CURLSSLOPT_NATIVE_CA`) than when the connection was
 │                       │       │                   created. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-488 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-80231.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-80231.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3969368 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.5Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:22.5Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T19:19:54.307Z 
 │                       ├ [16]  ╭ VulnerabilityID : CVE-2026-80255 
 │                       │       ├ PkgID           : curl-doc@8.21.0-r0 
 │                       │       ├ PkgName         : curl-doc 
@@ -595,11 +610,12 @@
 │                       │       │                   sent over plaintext HTTP on subsequent requests to the same
 │                       │       │                    host. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-201 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-80255.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-80255.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3972395 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.623Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:22.623Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T19:19:54.52Z 
 │                       ├ [17]  ╭ VulnerabilityID : CVE-2026-80256 
 │                       │       ├ PkgID           : curl-doc@8.21.0-r0 
 │                       │       ├ PkgName         : curl-doc 
@@ -650,11 +666,12 @@
 │                       │       │                   callback-selected store is
 │                       │       │                   then incorrectly accepted. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-295 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-82208.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-82208.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3973090 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.733Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:22.733Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T19:20:00.13Z 
 │                       ├ [19]  ╭ VulnerabilityID : CVE-2026-82209 
 │                       │       ├ PkgID           : curl-doc@8.21.0-r0 
 │                       │       ├ PkgName         : curl-doc 
@@ -694,11 +711,12 @@
 │                       │       │                   (e.g.,
 │                       │       │                   `attacker.co.uk`). 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-201 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-82209.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-82209.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3972385 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.847Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:22.847Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T19:20:00.313Z 
 │                       ├ [20]  ╭ VulnerabilityID : CVE-2026-41992 
 │                       │       ├ PkgID           : gzip@1.14-r2 
 │                       │       ├ PkgName         : gzip 
@@ -790,9 +808,10 @@
 │                       │       │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2026-61625-0.html 
 │                       │       │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2026-41992 
 │                       │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-8512-1 
-│                       │       │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2026-41992 
-│                       │       │                  ├ [23]: https://www.gnu.org/software/gzip 
-│                       │       │                  ╰ [24]: https://www.gnu.org/software/gzip/ 
+│                       │       │                  ├ [22]: https://ubuntu.com/security/notices/USN-8733-1 
+│                       │       │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2026-41992 
+│                       │       │                  ├ [24]: https://www.gnu.org/software/gzip 
+│                       │       │                  ╰ [25]: https://www.gnu.org/software/gzip/ 
 │                       │       ├ PublishedDate   : 2026-06-29T12:16:29.94Z 
 │                       │       ╰ LastModifiedDate: 2026-08-27T13:17:57.967Z 
 │                       ├ [21]  ╭ VulnerabilityID : CVE-2024-37676 
@@ -1978,11 +1997,12 @@
 │                       │       │                   bypasses complete peer
 │                       │       │                   validation. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-923 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-13608.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-13608.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3822248 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:19.81Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:19.81Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T16:18:00.317Z 
 │                       ├ [38]  ╭ VulnerabilityID : CVE-2026-18924 
 │                       │       ├ PkgID           : libcurl@8.21.0-r0 
 │                       │       ├ PkgName         : libcurl 
@@ -2010,11 +2030,12 @@
 │                       │       │                   lead to
 │                       │       │                   use-after-free in the cleanup process. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-18924.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-18924.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3916059 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:20.553Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:20.553Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T16:18:06Z 
 │                       ├ [39]  ╭ VulnerabilityID : CVE-2026-19931 
 │                       │       ├ PkgID           : libcurl@8.21.0-r0 
 │                       │       ├ PkgName         : libcurl 
@@ -2044,11 +2065,12 @@
 │                       │       │                    sent over user A's
 │                       │       │                   previously authenticated connection. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-488 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-19931.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-19931.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3923520 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:20.733Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:20.733Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T16:18:07.08Z 
 │                       ├ [40]  ╭ VulnerabilityID : CVE-2026-80229 
 │                       │       ├ PkgID           : libcurl@8.21.0-r0 
 │                       │       ├ PkgName         : libcurl 
@@ -2084,11 +2106,12 @@
 │                       │       │                   heap-use-after-free
 │                       │       │                   upon subsequent I/O or post-handshake operations. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-80229.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-80229.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3969255 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.217Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:22.217Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T16:18:15.72Z 
 │                       ├ [41]  ╭ VulnerabilityID : CVE-2026-80230 
 │                       │       ├ PkgID           : libcurl@8.21.0-r0 
 │                       │       ├ PkgName         : libcurl 
@@ -2123,11 +2146,12 @@
 │                       │       │                   unauthenticated connections to succeed when they should be
 │                       │       │                   rejected. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-295 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-80230.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-80230.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3969300 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.327Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:22.327Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T19:19:54.063Z 
 │                       ├ [42]  ╭ VulnerabilityID : CVE-2026-80231 
 │                       │       ├ PkgID           : libcurl@8.21.0-r0 
 │                       │       ├ PkgName         : libcurl 
@@ -2156,11 +2180,12 @@
 │                       │       │                   (`CURLSSLOPT_NATIVE_CA`) than when the connection was
 │                       │       │                   created. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-488 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-80231.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-80231.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3969368 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.5Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:22.5Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T19:19:54.307Z 
 │                       ├ [43]  ╭ VulnerabilityID : CVE-2026-80255 
 │                       │       ├ PkgID           : libcurl@8.21.0-r0 
 │                       │       ├ PkgName         : libcurl 
@@ -2191,11 +2216,12 @@
 │                       │       │                   sent over plaintext HTTP on subsequent requests to the same
 │                       │       │                    host. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-201 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-80255.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-80255.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3972395 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.623Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:22.623Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T19:19:54.52Z 
 │                       ├ [44]  ╭ VulnerabilityID : CVE-2026-80256 
 │                       │       ├ PkgID           : libcurl@8.21.0-r0 
 │                       │       ├ PkgName         : libcurl 
@@ -2246,11 +2272,12 @@
 │                       │       │                   callback-selected store is
 │                       │       │                   then incorrectly accepted. 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-295 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-82208.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-82208.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3973090 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.733Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:22.733Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T19:20:00.13Z 
 │                       ├ [46]  ╭ VulnerabilityID : CVE-2026-82209 
 │                       │       ├ PkgID           : libcurl@8.21.0-r0 
 │                       │       ├ PkgName         : libcurl 
@@ -2290,12 +2317,104 @@
 │                       │       │                   (e.g.,
 │                       │       │                   `attacker.co.uk`). 
 │                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-201 
 │                       │       ├ References       ╭ [0]: https://curl.se/docs/CVE-2026-82209.html 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-82209.json 
 │                       │       │                  ╰ [2]: https://hackerone.com/reports/3972385 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.847Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T18:17:22.847Z 
-│                       ├ [47]  ╭ VulnerabilityID : CVE-2026-66046 
+│                       │       ╰ LastModifiedDate: 2026-09-08T19:20:00.313Z 
+│                       ├ [47]  ╭ VulnerabilityID : CVE-2026-76956 
+│                       │       ├ PkgID           : libexpat@2.8.2-r0 
+│                       │       ├ PkgName         : libexpat 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.2-r0?arch=x86_64&distro=
+│                       │       │                  │       3.24.0 
+│                       │       │                  ╰ UID : 7e1cad368446ee82 
+│                       │       ├ InstalledVersion: 2.8.2-r0 
+│                       │       ├ FixedVersion    : 2.8.4-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ SeveritySource  : nvd 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-76956 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:2b3f1304c68d006f57b280f21a75654b6fc7189006158091a3f9
+│                       │       │                   3be840a9c7c0 
+│                       │       ├ Title           : libexpat: libexpat: Denial of Service via hash flooding
+│                       │       │                   attack with crafted XML 
+│                       │       ├ Description     : In libexpat 2.8.2 and 2.8.3 before 2.8.4, misinterpretation
+│                       │       │                    of getentropy's return code leads to insufficient entropy,
+│                       │       │                    which results in being vulnerable to hash flooding
+│                       │       │                   attacks, causing a denial of service via crafted XML
+│                       │       │                   content. 
+│                       │       ├ Severity        : HIGH 
+│                       │       ├ CweIDs           ─ [0]: CWE-394 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ nvd   : 3 
+│                       │       │                  ╰ redhat: 2 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                  │        │           N/A:H 
+│                       │       │                  │        ╰ V3Score : 7.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 5.9 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-76956 
+│                       │       │                  ├ [1]: https://github.com/libexpat/libexpat/pull/1326 
+│                       │       │                  ├ [2]: https://github.com/libexpat/libexpat/pull/1329 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-76956 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-76956 
+│                       │       ├ PublishedDate   : 2026-08-20T05:16:29.61Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T21:08:20.697Z 
+│                       ├ [48]  ╭ VulnerabilityID : CVE-2026-76957 
+│                       │       ├ PkgID           : libexpat@2.8.2-r0 
+│                       │       ├ PkgName         : libexpat 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.2-r0?arch=x86_64&distro=
+│                       │       │                  │       3.24.0 
+│                       │       │                  ╰ UID : 7e1cad368446ee82 
+│                       │       ├ InstalledVersion: 2.8.2-r0 
+│                       │       ├ FixedVersion    : 2.8.4-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ SeveritySource  : nvd 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-76957 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:62f64ba0b6ae35f4ec87b772d31844739cb84ddca54e96958fcc
+│                       │       │                   27a503aca077 
+│                       │       ├ Title           : libexpat: libexpat: Memory corruption vulnerability allows
+│                       │       │                   arbitrary code execution or denial of service 
+│                       │       ├ Description     : libexpat before 2.8.4 lacks handler call depth tracking
+│                       │       │                   with custom encoding callbacks. Thus, a use-after-free can
+│                       │       │                   occur. NOTE: this is similar to CVE-2026-50219,
+│                       │       │                   CVE-2026-56131 and CVE-2026-56412. 
+│                       │       ├ Severity        : HIGH 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
+│                       │       │                  ├ nvd   : 3 
+│                       │       │                  ├ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:
+│                       │       │                  │        │           H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                       │       │                           │           L/A:L 
+│                       │       │                           ╰ V3Score : 4.9 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-76957 
+│                       │       │                  ├ [1]: https://github.com/libexpat/libexpat/pull/1322 
+│                       │       │                  ├ [2]: https://github.com/libexpat/libexpat/pull/1329 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-76957 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-76957 
+│                       │       ├ PublishedDate   : 2026-08-20T05:16:29.747Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T20:56:31.86Z 
+│                       ├ [49]  ╭ VulnerabilityID : CVE-2026-66046 
 │                       │       ├ PkgID           : libexpat@2.8.2-r0 
 │                       │       ├ PkgName         : libexpat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.2-r0?arch=x86_64&distro=
@@ -2339,7 +2458,7 @@
 │                       │       │                         service-via-storeatts-quadratic-complexity 
 │                       │       ├ PublishedDate   : 2026-08-18T15:16:57Z 
 │                       │       ╰ LastModifiedDate: 2026-08-20T16:17:40.66Z 
-│                       ├ [48]  ╭ VulnerabilityID : CVE-2026-76641 
+│                       ├ [50]  ╭ VulnerabilityID : CVE-2026-76641 
 │                       │       ├ PkgID           : libexpat@2.8.2-r0 
 │                       │       ├ PkgName         : libexpat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.2-r0?arch=x86_64&distro=
@@ -2383,87 +2502,6 @@
 │                       │       │                         nds-read-via-dtdcopy 
 │                       │       ├ PublishedDate   : 2026-08-20T18:16:51.887Z 
 │                       │       ╰ LastModifiedDate: 2026-08-20T19:17:04.43Z 
-│                       ├ [49]  ╭ VulnerabilityID : CVE-2026-76956 
-│                       │       ├ PkgID           : libexpat@2.8.2-r0 
-│                       │       ├ PkgName         : libexpat 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.2-r0?arch=x86_64&distro=
-│                       │       │                  │       3.24.0 
-│                       │       │                  ╰ UID : 7e1cad368446ee82 
-│                       │       ├ InstalledVersion: 2.8.2-r0 
-│                       │       ├ FixedVersion    : 2.8.4-r0 
-│                       │       ├ Status          : fixed 
-│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
-│                       │       │                  │         25b0eb169f0c02b0a6e9f 
-│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
-│                       │       │                            011b652f34a62a402adc5 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-76956 
-│                       │       ├ DataSource       ╭ ID  : alpine 
-│                       │       │                  ├ Name: Alpine Secdb 
-│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │       ├ Fingerprint     : sha256:2b3f1304c68d006f57b280f21a75654b6fc7189006158091a3f9
-│                       │       │                   3be840a9c7c0 
-│                       │       ├ Title           : libexpat: libexpat: Denial of Service via hash flooding
-│                       │       │                   attack with crafted XML 
-│                       │       ├ Description     : In libexpat 2.8.2 and 2.8.3 before 2.8.4, misinterpretation
-│                       │       │                    of getentropy's return code leads to insufficient entropy,
-│                       │       │                    which results in being vulnerable to hash flooding
-│                       │       │                   attacks, causing a denial of service via crafted XML
-│                       │       │                   content. 
-│                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CweIDs           ─ [0]: CWE-394 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
-│                       │       │                  ╰ redhat: 2 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-76956 
-│                       │       │                  ├ [1]: https://github.com/libexpat/libexpat/pull/1326 
-│                       │       │                  ├ [2]: https://github.com/libexpat/libexpat/pull/1329 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-76956 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-76956 
-│                       │       ├ PublishedDate   : 2026-08-20T05:16:29.61Z 
-│                       │       ╰ LastModifiedDate: 2026-09-03T17:37:43.45Z 
-│                       ├ [50]  ╭ VulnerabilityID : CVE-2026-76957 
-│                       │       ├ PkgID           : libexpat@2.8.2-r0 
-│                       │       ├ PkgName         : libexpat 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.2-r0?arch=x86_64&distro=
-│                       │       │                  │       3.24.0 
-│                       │       │                  ╰ UID : 7e1cad368446ee82 
-│                       │       ├ InstalledVersion: 2.8.2-r0 
-│                       │       ├ FixedVersion    : 2.8.4-r0 
-│                       │       ├ Status          : fixed 
-│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
-│                       │       │                  │         25b0eb169f0c02b0a6e9f 
-│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
-│                       │       │                            011b652f34a62a402adc5 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-76957 
-│                       │       ├ DataSource       ╭ ID  : alpine 
-│                       │       │                  ├ Name: Alpine Secdb 
-│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │       ├ Fingerprint     : sha256:62f64ba0b6ae35f4ec87b772d31844739cb84ddca54e96958fcc
-│                       │       │                   27a503aca077 
-│                       │       ├ Title           : libexpat: libexpat: Memory corruption vulnerability allows
-│                       │       │                   arbitrary code execution or denial of service 
-│                       │       ├ Description     : libexpat before 2.8.4 lacks handler call depth tracking
-│                       │       │                   with custom encoding callbacks. Thus, a use-after-free can
-│                       │       │                   occur. NOTE: this is similar to CVE-2026-50219,
-│                       │       │                   CVE-2026-56131 and CVE-2026-56412. 
-│                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CweIDs           ─ [0]: CWE-416 
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
-│                       │       │                  ├ azure : 2 
-│                       │       │                  ├ redhat: 2 
-│                       │       │                  ╰ ubuntu: 2 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:
-│                       │       │                           │           L/A:L 
-│                       │       │                           ╰ V3Score : 4.9 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-76957 
-│                       │       │                  ├ [1]: https://github.com/libexpat/libexpat/pull/1322 
-│                       │       │                  ├ [2]: https://github.com/libexpat/libexpat/pull/1329 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-76957 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-76957 
-│                       │       ├ PublishedDate   : 2026-08-20T05:16:29.747Z 
-│                       │       ╰ LastModifiedDate: 2026-09-03T17:37:43.45Z 
 │                       ├ [51]  ╭ VulnerabilityID : CVE-2026-76642 
 │                       │       ├ PkgID           : libmount@2.42.2-r0 
 │                       │       ├ PkgName         : libmount 
@@ -2691,7 +2729,7 @@
 │                       │       ├ References       ─ [0]: https://github.com/the-tcpdump-group/libpcap/commit/4
 │                       │       │                         8e8960a7108e9e828f9d7bdc7e97bdab841aec7 
 │                       │       ├ PublishedDate   : 2026-09-05T19:16:55.32Z 
-│                       │       ╰ LastModifiedDate: 2026-09-05T19:16:55.32Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T19:20:25.117Z 
 │                       ├ [56]  ╭ VulnerabilityID : CVE-2026-31911 
 │                       │       ├ PkgID           : libpcap@1.10.6-r1 
 │                       │       ├ PkgName         : libpcap 
@@ -2722,7 +2760,7 @@
 │                       │       ├ References       ─ [0]: https://github.com/the-tcpdump-group/libpcap/commit/a
 │                       │       │                         715bcdde830299cba4171514385cb17ec19b6e9 
 │                       │       ├ PublishedDate   : 2026-09-05T19:16:55.707Z 
-│                       │       ╰ LastModifiedDate: 2026-09-05T19:16:55.707Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T19:20:25.117Z 
 │                       ├ [57]  ╭ VulnerabilityID : CVE-2026-31912 
 │                       │       ├ PkgID           : libpcap@1.10.6-r1 
 │                       │       ├ PkgName         : libpcap 
@@ -2759,7 +2797,7 @@
 │                       │       ├ References       ─ [0]: https://github.com/the-tcpdump-group/libpcap/commit/d
 │                       │       │                         3f358d3cffbe1ecb94d5284b3e81f052a0adcb9 
 │                       │       ├ PublishedDate   : 2026-09-05T19:16:55.823Z 
-│                       │       ╰ LastModifiedDate: 2026-09-05T19:16:55.823Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T19:20:25.117Z 
 │                       ├ [58]  ╭ VulnerabilityID : CVE-2026-6244 
 │                       │       ├ PkgID           : libpcap@1.10.6-r1 
 │                       │       ├ PkgName         : libpcap 
@@ -2790,7 +2828,7 @@
 │                       │       ├ References       ─ [0]: https://github.com/the-tcpdump-group/libpcap/commit/9
 │                       │       │                         8bb921b141aa642faedbf2ac510541c76499a19 
 │                       │       ├ PublishedDate   : 2026-09-05T19:16:55.95Z 
-│                       │       ╰ LastModifiedDate: 2026-09-05T19:16:55.95Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T19:20:25.117Z 
 │                       ├ [59]  ╭ VulnerabilityID : CVE-2026-6554 
 │                       │       ├ PkgID           : libpcap@1.10.6-r1 
 │                       │       ├ PkgName         : libpcap 
@@ -2823,7 +2861,7 @@
 │                       │       ├ References       ─ [0]: https://github.com/the-tcpdump-group/libpcap/commit/f
 │                       │       │                         f3c83475ac303c6b681c52ad0b6e14795a8e0ce 
 │                       │       ├ PublishedDate   : 2026-09-05T19:16:56.067Z 
-│                       │       ╰ LastModifiedDate: 2026-09-05T19:16:56.067Z 
+│                       │       ╰ LastModifiedDate: 2026-09-08T19:20:25.117Z 
 │                       ├ [60]  ╭ VulnerabilityID : CVE-2026-59843 
 │                       │       ├ PkgID           : libssh@0.12.1-r0 
 │                       │       ├ PkgName         : libssh 
