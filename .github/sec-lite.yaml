@@ -2353,15 +2353,24 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:5cc3268bdfc9739a858bf39b6b7abae9dd9c753cc4bc6f7e60c071bd1a0d0aa0
-    Title: In BPF instructions that load/store a value from/to a scratch memory r ...
+    Title: 'libpcap: libpcap: Out-of-bounds read and write vulnerability allows arbitrary memory access'
     Description: In BPF instructions that load/store a value from/to a scratch memory register the register index is an unsigned 32-bit integer and must not exceed 15, but libpcap BPF interpreter does not validate the value.  In particular uncommon use cases a crafted filter program can cause the interpreter to try reading and writing the OS process memory in the 16GiB starting at the current stack frame on 64-bit architectures and in the entire address space on 32-bit architectures.
-    Severity: UNKNOWN
+    Severity: HIGH
     CweIDs:
     - CWE-125
     - CWE-129
     - CWE-787
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:H/A:H
+        V3Score: 8.7
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-0799
     - https://github.com/the-tcpdump-group/libpcap/commit/48e8960a7108e9e828f9d7bdc7e97bdab841aec7
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0799
+    - https://www.cve.org/CVERecord?id=CVE-2026-0799
     PublishedDate: '2026-09-05T19:16:55.32Z'
     LastModifiedDate: '2026-09-08T19:20:25.117Z'
   - VulnerabilityID: CVE-2026-31911
@@ -2382,13 +2391,22 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:4aaa352781f112639538f199bc4812d26f83742c15c898f48f3f6ed8ca8444e0
-    Title: libpcap BPF interpreter calls abort() if it encounters a BPF instructi ...
+    Title: 'libpcap: libpcap: Denial of Service via crafted BPF opcode'
     Description: libpcap BPF interpreter calls abort() if it encounters a BPF instruction that has an invalid opcode.  In particular uncommon use cases a crafted filter program can terminate the OS process.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-617
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-31911
     - https://github.com/the-tcpdump-group/libpcap/commit/a715bcdde830299cba4171514385cb17ec19b6e9
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-31911
+    - https://www.cve.org/CVERecord?id=CVE-2026-31911
     PublishedDate: '2026-09-05T19:16:55.707Z'
     LastModifiedDate: '2026-09-08T19:20:25.117Z'
   - VulnerabilityID: CVE-2026-31912
@@ -2409,15 +2427,24 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:b5759d63bef856b73147791e9eda583f91415b9212ee1c69e53312294a82d7ce
-    Title: libpcap BPF interpreter detects neither reaching the end of the filter ...
+    Title: 'libpcap: libpcap: Denial of service via crafted BPF filter program'
     Description: libpcap BPF interpreter detects neither reaching the end of the filter program buffer due to lack of a return instruction nor executing a jump instruction with an offset that translates to a pointer outside of the buffer.  In particular uncommon use cases a crafted filter program can cause the interpreter to try reading the OS process memory in the 32GiB around the buffer on 64-bit architectures and in the entire address space on 32-bit architectures.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-125
     - CWE-823
     - CWE-1285
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.1
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-31912
     - https://github.com/the-tcpdump-group/libpcap/commit/d3f358d3cffbe1ecb94d5284b3e81f052a0adcb9
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-31912
+    - https://www.cve.org/CVERecord?id=CVE-2026-31912
     PublishedDate: '2026-09-05T19:16:55.823Z'
     LastModifiedDate: '2026-09-08T19:20:25.117Z'
   - VulnerabilityID: CVE-2026-6244
@@ -2438,13 +2465,22 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:4df1ae6c27eaffa9e3f1a7f3c69925b2f4e966299399cb73ff7154ea1d1d459f
-    Title: 'libpcap BPF interpreter for the ''div #k'' and ''mod #k'' ALU instructions ...'
+    Title: 'libpcap: libpcap: Denial of Service via crafted BPF filter program'
     Description: 'libpcap BPF interpreter for the ''div #k'' and ''mod #k'' ALU instructions does not check whether the immediate value is zero.  In particular uncommon use cases a crafted filter program can cause a division by zero.'
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-369
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-6244
     - https://github.com/the-tcpdump-group/libpcap/commit/98bb921b141aa642faedbf2ac510541c76499a19
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-6244
+    - https://www.cve.org/CVERecord?id=CVE-2026-6244
     PublishedDate: '2026-09-05T19:16:55.95Z'
     LastModifiedDate: '2026-09-08T19:20:25.117Z'
   - VulnerabilityID: CVE-2026-6554
@@ -2465,89 +2501,24 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:243eb3342eceee96fa81356981abf54e4f11550deb4f0db5a77e25e1dafc7056
-    Title: libpcap BPF interpreter treats the offset in the 'ja L' BPF instructio ...
+    Title: 'libpcap: libpcap: Denial of Service via infinite loop in BPF interpreter'
     Description: libpcap BPF interpreter treats the offset in the 'ja L' BPF instruction as a signed integer to implement looping via backward jumps, but it does not limit the number of loop iterations.  In particular uncommon use cases a crafted filter program can cause the interpreter to loop infinitely.
-    Severity: UNKNOWN
-    CweIDs:
-    - CWE-835
-    References:
-    - https://github.com/the-tcpdump-group/libpcap/commit/ff3c83475ac303c6b681c52ad0b6e14795a8e0ce
-    PublishedDate: '2026-09-05T19:16:56.067Z'
-    LastModifiedDate: '2026-09-08T19:20:25.117Z'
-  - VulnerabilityID: CVE-2026-59843
-    PkgID: libssh@0.12.1-r0
-    PkgName: libssh
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/libssh@0.12.1-r0?arch=x86_64&distro=3.24.0
-      UID: 79e204fb33668f29
-    InstalledVersion: 0.12.1-r0
-    FixedVersion: 0.12.2-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
-      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59843
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:585521a63de0f82a8b7a72094fb286f37d6836844ef63dde260d6fe6777641f3
-    Title: 'libssh: libssh: denial of service via zero advertised channel packet size'
-    Description: A flaw was found in libssh. A remote authenticated peer can advertise a zero maximum packet size in SSH_MSG_CHANNEL_OPEN, causing later channel writes to loop indefinitely and consume CPU, leading to denial of service.
     Severity: MEDIUM
     CweIDs:
     - CWE-835
-    - CWE-400
     VendorSeverity:
-      alma: 2
-      azure: 2
-      oracle-oval: 2
       redhat: 2
-      rocky: 2
-      ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 6.5
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:42922
-    - https://access.redhat.com/errata/RHSA-2026:55855
-    - https://access.redhat.com/errata/RHSA-2026:62217
-    - https://access.redhat.com/errata/RHSA-2026:62218
-    - https://access.redhat.com/security/cve/CVE-2026-59843
-    - https://bugzilla.redhat.com/2498176
-    - https://bugzilla.redhat.com/2498177
-    - https://bugzilla.redhat.com/2498178
-    - https://bugzilla.redhat.com/2498179
-    - https://bugzilla.redhat.com/2498180
-    - https://bugzilla.redhat.com/2498181
-    - https://bugzilla.redhat.com/2498183
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498178
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498179
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498180
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498183
-    - https://creativecommons.org/licenses/by/4.0/
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59843
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59844
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59845
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59846
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59847
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59848
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
-    - https://errata.almalinux.org/9/ALSA-2026-62217.html
-    - https://errata.rockylinux.org/RLSA-2026:62217
-    - https://linux.oracle.com/cve/CVE-2026-59843.html
-    - https://linux.oracle.com/errata/ELSA-2026-62218-0.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-59843
-    - https://ubuntu.com/security/notices/USN-8699-1
-    - https://www.cve.org/CVERecord?id=CVE-2026-59843
-    - https://www.libssh.org/2026/07/21/libssh-0-12-1-and-0-11-5-security-releases/
-    - https://www.libssh.org/security/advisories/CVE-2026-59843.txt
-    PublishedDate: '2026-07-21T12:18:57.86Z'
-    LastModifiedDate: '2026-09-01T21:18:34.337Z'
+    - https://access.redhat.com/security/cve/CVE-2026-6554
+    - https://github.com/the-tcpdump-group/libpcap/commit/ff3c83475ac303c6b681c52ad0b6e14795a8e0ce
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-6554
+    - https://www.cve.org/CVERecord?id=CVE-2026-6554
+    PublishedDate: '2026-09-05T19:16:56.067Z'
+    LastModifiedDate: '2026-09-08T19:20:25.117Z'
   - VulnerabilityID: CVE-2026-14456
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
