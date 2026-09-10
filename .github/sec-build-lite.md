@@ -116,8 +116,8 @@
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │     ├ Fingerprint     : sha256:714cd9254aa438cf18a0c55256c68605bfc54aecf363c7b4a0b318
 │                       │     │                   1f921b2ce8 
-│                       │     ├ Title           : In BPF instructions that load/store a value from/to a scratch
-│                       │     │                    memory r ... 
+│                       │     ├ Title           : libpcap: libpcap: Out-of-bounds read and write vulnerability
+│                       │     │                   allows arbitrary memory access 
 │                       │     ├ Description     : In BPF instructions that load/store a value from/to a scratch
 │                       │     │                    memory register the register index is an unsigned 32-bit
 │                       │     │                   integer and must not exceed 15, but libpcap BPF interpreter
@@ -126,14 +126,21 @@
 │                       │     │                   try reading and writing the OS process memory in the 16GiB
 │                       │     │                   starting at the current stack frame on 64-bit architectures
 │                       │     │                   and in the entire address space on 32-bit architectures. 
-│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ Severity        : HIGH 
 │                       │     ├ CweIDs           ╭ [0]: CWE-125 
 │                       │     │                  ├ [1]: CWE-129 
 │                       │     │                  ╰ [2]: CWE-787 
-│                       │     ├ References       ─ [0]: https://github.com/the-tcpdump-group/libpcap/commit/48e
-│                       │     │                         8960a7108e9e828f9d7bdc7e97bdab841aec7 
+│                       │     ├ VendorSeverity   ─ redhat: 3 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:H/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 8.7 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-0799 
+│                       │     │                  ├ [1]: https://github.com/the-tcpdump-group/libpcap/commit/48e
+│                       │     │                  │      8960a7108e9e828f9d7bdc7e97bdab841aec7 
+│                       │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-0799 
+│                       │     │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-0799 
 │                       │     ├ PublishedDate   : 2026-09-05T19:16:55.32Z 
-│                       │     ╰ LastModifiedDate: 2026-09-05T19:16:55.32Z 
+│                       │     ╰ LastModifiedDate: 2026-09-08T19:20:25.117Z 
 │                       ├ [3] ╭ VulnerabilityID : CVE-2026-31911 
 │                       │     ├ PkgID           : libpcap@1.10.6-r1 
 │                       │     ├ PkgName         : libpcap 
@@ -153,18 +160,24 @@
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │     ├ Fingerprint     : sha256:6e9b77fec9e4f1f8943a292fb4ab69fdc6374bc20848d4f57a1359
 │                       │     │                   52aba5d2d0 
-│                       │     ├ Title           : libpcap BPF interpreter calls abort() if it encounters a BPF
-│                       │     │                   instructi ... 
+│                       │     ├ Title           : libpcap: libpcap: Denial of Service via crafted BPF opcode 
 │                       │     ├ Description     : libpcap BPF interpreter calls abort() if it encounters a BPF
 │                       │     │                   instruction that has an invalid opcode.  In particular
 │                       │     │                   uncommon use cases a crafted filter program can terminate the
 │                       │     │                    OS process. 
-│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-617 
-│                       │     ├ References       ─ [0]: https://github.com/the-tcpdump-group/libpcap/commit/a71
-│                       │     │                         5bcdde830299cba4171514385cb17ec19b6e9 
+│                       │     ├ VendorSeverity   ─ redhat: 2 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 5.5 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-31911 
+│                       │     │                  ├ [1]: https://github.com/the-tcpdump-group/libpcap/commit/a71
+│                       │     │                  │      5bcdde830299cba4171514385cb17ec19b6e9 
+│                       │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-31911 
+│                       │     │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-31911 
 │                       │     ├ PublishedDate   : 2026-09-05T19:16:55.707Z 
-│                       │     ╰ LastModifiedDate: 2026-09-05T19:16:55.707Z 
+│                       │     ╰ LastModifiedDate: 2026-09-08T19:20:25.117Z 
 │                       ├ [4] ╭ VulnerabilityID : CVE-2026-31912 
 │                       │     ├ PkgID           : libpcap@1.10.6-r1 
 │                       │     ├ PkgName         : libpcap 
@@ -184,8 +197,8 @@
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │     ├ Fingerprint     : sha256:eeb9e1ce10786b8fbc896d0499638f5daa7870d8b12b7de8652842
 │                       │     │                   0d7125910f 
-│                       │     ├ Title           : libpcap BPF interpreter detects neither reaching the end of
-│                       │     │                   the filter ... 
+│                       │     ├ Title           : libpcap: libpcap: Denial of service via crafted BPF filter
+│                       │     │                   program 
 │                       │     ├ Description     : libpcap BPF interpreter detects neither reaching the end of
 │                       │     │                   the filter program buffer due to lack of a return instruction
 │                       │     │                    nor executing a jump instruction with an offset that
@@ -194,14 +207,21 @@
 │                       │     │                   interpreter to try reading the OS process memory in the 32GiB
 │                       │     │                    around the buffer on 64-bit architectures and in the entire
 │                       │     │                   address space on 32-bit architectures. 
-│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ╭ [0]: CWE-125 
 │                       │     │                  ├ [1]: CWE-823 
 │                       │     │                  ╰ [2]: CWE-1285 
-│                       │     ├ References       ─ [0]: https://github.com/the-tcpdump-group/libpcap/commit/d3f
-│                       │     │                         358d3cffbe1ecb94d5284b3e81f052a0adcb9 
+│                       │     ├ VendorSeverity   ─ redhat: 2 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 6.1 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-31912 
+│                       │     │                  ├ [1]: https://github.com/the-tcpdump-group/libpcap/commit/d3f
+│                       │     │                  │      358d3cffbe1ecb94d5284b3e81f052a0adcb9 
+│                       │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-31912 
+│                       │     │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-31912 
 │                       │     ├ PublishedDate   : 2026-09-05T19:16:55.823Z 
-│                       │     ╰ LastModifiedDate: 2026-09-05T19:16:55.823Z 
+│                       │     ╰ LastModifiedDate: 2026-09-08T19:20:25.117Z 
 │                       ├ [5] ╭ VulnerabilityID : CVE-2026-6244 
 │                       │     ├ PkgID           : libpcap@1.10.6-r1 
 │                       │     ├ PkgName         : libpcap 
@@ -221,18 +241,25 @@
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │     ├ Fingerprint     : sha256:bd4e76f8d8c3fee7a1e1b99ec5f5073d480c0debac76f1beb4ac61
 │                       │     │                   07d50aa398 
-│                       │     ├ Title           : libpcap BPF interpreter for the 'div #k' and 'mod #k' ALU
-│                       │     │                   instructions ... 
+│                       │     ├ Title           : libpcap: libpcap: Denial of Service via crafted BPF filter
+│                       │     │                   program 
 │                       │     ├ Description     : libpcap BPF interpreter for the 'div #k' and 'mod #k' ALU
 │                       │     │                   instructions does not check whether the immediate value is
 │                       │     │                   zero.  In particular uncommon use cases a crafted filter
 │                       │     │                   program can cause a division by zero. 
-│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-369 
-│                       │     ├ References       ─ [0]: https://github.com/the-tcpdump-group/libpcap/commit/98b
-│                       │     │                         b921b141aa642faedbf2ac510541c76499a19 
+│                       │     ├ VendorSeverity   ─ redhat: 2 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 5.5 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-6244 
+│                       │     │                  ├ [1]: https://github.com/the-tcpdump-group/libpcap/commit/98b
+│                       │     │                  │      b921b141aa642faedbf2ac510541c76499a19 
+│                       │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-6244 
+│                       │     │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-6244 
 │                       │     ├ PublishedDate   : 2026-09-05T19:16:55.95Z 
-│                       │     ╰ LastModifiedDate: 2026-09-05T19:16:55.95Z 
+│                       │     ╰ LastModifiedDate: 2026-09-08T19:20:25.117Z 
 │                       ├ [6] ╭ VulnerabilityID : CVE-2026-6554 
 │                       │     ├ PkgID           : libpcap@1.10.6-r1 
 │                       │     ├ PkgName         : libpcap 
@@ -252,20 +279,27 @@
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │     ├ Fingerprint     : sha256:2d4980287ec02b858ee90d44c255f1eb423a6d84e26651690222d8
 │                       │     │                   f4304b1577 
-│                       │     ├ Title           : libpcap BPF interpreter treats the offset in the 'ja L' BPF
-│                       │     │                   instructio ... 
+│                       │     ├ Title           : libpcap: libpcap: Denial of Service via infinite loop in BPF
+│                       │     │                   interpreter 
 │                       │     ├ Description     : libpcap BPF interpreter treats the offset in the 'ja L' BPF
 │                       │     │                   instruction as a signed integer to implement looping via
 │                       │     │                   backward jumps, but it does not limit the number of loop
 │                       │     │                   iterations.  In particular uncommon use cases a crafted
 │                       │     │                   filter program can cause the interpreter to loop
 │                       │     │                   infinitely. 
-│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-835 
-│                       │     ├ References       ─ [0]: https://github.com/the-tcpdump-group/libpcap/commit/ff3
-│                       │     │                         c83475ac303c6b681c52ad0b6e14795a8e0ce 
+│                       │     ├ VendorSeverity   ─ redhat: 2 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 5.5 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-6554 
+│                       │     │                  ├ [1]: https://github.com/the-tcpdump-group/libpcap/commit/ff3
+│                       │     │                  │      c83475ac303c6b681c52ad0b6e14795a8e0ce 
+│                       │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-6554 
+│                       │     │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-6554 
 │                       │     ├ PublishedDate   : 2026-09-05T19:16:56.067Z 
-│                       │     ╰ LastModifiedDate: 2026-09-05T19:16:56.067Z 
+│                       │     ╰ LastModifiedDate: 2026-09-08T19:20:25.117Z 
 │                       ╰ [7] ╭ VulnerabilityID : CVE-2026-78408 
 │                             ├ PkgID           : util-linux-doc@2.42.3-r0 
 │                             ├ PkgName         : util-linux-doc 
