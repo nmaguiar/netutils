@@ -107,6 +107,7 @@
     - CWE-129
     - CWE-787
     VendorSeverity:
+      azure: 3
       redhat: 3
     CVSS:
       redhat:
@@ -143,6 +144,7 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      azure: 2
       redhat: 2
     CVSS:
       redhat:
@@ -181,6 +183,7 @@
     - CWE-823
     - CWE-1285
     VendorSeverity:
+      azure: 2
       redhat: 2
     CVSS:
       redhat:
@@ -217,6 +220,7 @@
     CweIDs:
     - CWE-369
     VendorSeverity:
+      azure: 2
       redhat: 2
     CVSS:
       redhat:
@@ -253,6 +257,7 @@
     CweIDs:
     - CWE-835
     VendorSeverity:
+      azure: 2
       redhat: 2
     CVSS:
       redhat:
