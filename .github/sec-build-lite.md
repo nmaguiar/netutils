@@ -130,7 +130,8 @@
 │                       │     ├ CweIDs           ╭ [0]: CWE-125 
 │                       │     │                  ├ [1]: CWE-129 
 │                       │     │                  ╰ [2]: CWE-787 
-│                       │     ├ VendorSeverity   ─ redhat: 3 
+│                       │     ├ VendorSeverity   ╭ azure : 3 
+│                       │     │                  ╰ redhat: 3 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:H/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 8.7 
@@ -167,7 +168,8 @@
 │                       │     │                    OS process. 
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-617 
-│                       │     ├ VendorSeverity   ─ redhat: 2 
+│                       │     ├ VendorSeverity   ╭ azure : 2 
+│                       │     │                  ╰ redhat: 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 5.5 
@@ -211,7 +213,8 @@
 │                       │     ├ CweIDs           ╭ [0]: CWE-125 
 │                       │     │                  ├ [1]: CWE-823 
 │                       │     │                  ╰ [2]: CWE-1285 
-│                       │     ├ VendorSeverity   ─ redhat: 2 
+│                       │     ├ VendorSeverity   ╭ azure : 2 
+│                       │     │                  ╰ redhat: 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 6.1 
@@ -249,7 +252,8 @@
 │                       │     │                   program can cause a division by zero. 
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-369 
-│                       │     ├ VendorSeverity   ─ redhat: 2 
+│                       │     ├ VendorSeverity   ╭ azure : 2 
+│                       │     │                  ╰ redhat: 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 5.5 
@@ -289,7 +293,8 @@
 │                       │     │                   infinitely. 
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-835 
-│                       │     ├ VendorSeverity   ─ redhat: 2 
+│                       │     ├ VendorSeverity   ╭ azure : 2 
+│                       │     │                  ╰ redhat: 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 5.5 
