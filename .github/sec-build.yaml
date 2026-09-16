@@ -3,6 +3,48 @@
   Type: ubuntu
   Packages: []
   Vulnerabilities:
+  - VulnerabilityID: CVE-2026-87766
+    PkgID: bubblewrap@0.11.1-1ubuntu0.1
+    PkgName: bubblewrap
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bubblewrap@0.11.1-1ubuntu0.1?arch=amd64&distro=ubuntu-26.04
+      UID: 10d4d89734826fa6
+    InstalledVersion: 0.11.1-1ubuntu0.1
+    Status: affected
+    Layer:
+      Digest: sha256:af1ad1c839ff0f896907702daf9c723f74a9225f83daecccc6c376f6eb97e6bd
+      DiffID: sha256:10a7c58c1713f899b5f8e6af03d07b6c7e2cce1d0ae8dfcc20826cb8b818c362
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-87766
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fdaf51571ba3f26f72f10291f2f8186193b86c1a03c5858d37b4a2f181529114
+    Title: 'bubblewrap: bubblewrap: symlink traversal via /oldroot allows writing files outside sandbox during setup'
+    Description: A flaw was found in bubblewrap. During sandbox setup, creating files or directories under the new root can follow a parent symlink onto the host via /oldroot, writing attacker-chosen paths outside the sandbox as the launching user. This happens before the sandboxed process starts. This issue is GHSA-pxhw-h44j-8pfx. It is fixed in bubblewrap 0.12.0.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-59
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 8.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/09/3
+    - https://access.redhat.com/security/cve/CVE-2026-87766
+    - https://bugs.debian.org/1145655
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2530542
+    - https://github.com/containers/bubblewrap/releases/tag/v0.12.0
+    - https://github.com/containers/bubblewrap/security/advisories/GHSA-pxhw-h44j-8pfx
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-87766
+    - https://www.cve.org/CVERecord?id=CVE-2026-87766
+    - https://www.openwall.com/lists/oss-security/2026/08/27/7
+    PublishedDate: '2026-09-09T09:17:12.54Z'
+    LastModifiedDate: '2026-09-09T17:17:52.587Z'
   - VulnerabilityID: CVE-2026-13608
     PkgID: curl@8.18.0-1ubuntu2.5
     PkgName: curl
@@ -40,7 +82,7 @@
     - https://hackerone.com/reports/3822248
     - https://www.cve.org/CVERecord?id=CVE-2026-13608
     PublishedDate: '2026-09-06T18:17:19.81Z'
-    LastModifiedDate: '2026-09-11T19:59:55.2Z'
+    LastModifiedDate: '2026-09-15T07:16:26.353Z'
   - VulnerabilityID: CVE-2026-18924
     PkgID: curl@8.18.0-1ubuntu2.5
     PkgName: curl
@@ -76,7 +118,7 @@
     - https://hackerone.com/reports/3916059
     - https://www.cve.org/CVERecord?id=CVE-2026-18924
     PublishedDate: '2026-09-06T18:17:20.553Z'
-    LastModifiedDate: '2026-09-11T20:01:29.6Z'
+    LastModifiedDate: '2026-09-15T07:16:27.063Z'
   - VulnerabilityID: CVE-2026-19931
     PkgID: curl@8.18.0-1ubuntu2.5
     PkgName: curl
@@ -95,7 +137,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:931e280785fdbb337436eec22a888f749e721234f0d4e47fd4c3f5d705682743
-    Title: A flaw in libcurl makes it wrongly reuse an HTTP connection setup for  ...
+    Title: 'curl: libcurl: Information disclosure via incorrect connection reuse with Negotiate authentication'
     Description: |-
       A flaw in libcurl makes it wrongly reuse an HTTP connection setup for a given
       hostname using Negotiate authentication, when the initial request is done
@@ -105,15 +147,22 @@
     CweIDs:
     - CWE-488
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-19931
     - https://curl.se/docs/CVE-2026-19931.html
     - https://curl.se/docs/CVE-2026-19931.json
     - https://github.com/curl/curl/commit/7103a93b05bc69ea98ed9d
     - https://hackerone.com/reports/3923520
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19931
     - https://www.cve.org/CVERecord?id=CVE-2026-19931
     PublishedDate: '2026-09-06T18:17:20.733Z'
-    LastModifiedDate: '2026-09-11T20:01:46.607Z'
+    LastModifiedDate: '2026-09-15T07:16:27.29Z'
   - VulnerabilityID: CVE-2026-80229
     PkgID: curl@8.18.0-1ubuntu2.5
     PkgName: curl
@@ -153,7 +202,7 @@
     - https://hackerone.com/reports/3969255
     - https://www.cve.org/CVERecord?id=CVE-2026-80229
     PublishedDate: '2026-09-06T18:17:22.217Z'
-    LastModifiedDate: '2026-09-11T20:06:12.563Z'
+    LastModifiedDate: '2026-09-15T07:16:30.157Z'
   - VulnerabilityID: CVE-2026-80230
     PkgID: curl@8.18.0-1ubuntu2.5
     PkgName: curl
@@ -192,7 +241,7 @@
     - https://hackerone.com/reports/3969300
     - https://www.cve.org/CVERecord?id=CVE-2026-80230
     PublishedDate: '2026-09-06T18:17:22.327Z'
-    LastModifiedDate: '2026-09-11T20:05:56.143Z'
+    LastModifiedDate: '2026-09-15T07:16:30.337Z'
   - VulnerabilityID: CVE-2026-80255
     PkgID: curl@8.18.0-1ubuntu2.5
     PkgName: curl
@@ -229,7 +278,7 @@
     - https://hackerone.com/reports/3972395
     - https://www.cve.org/CVERecord?id=CVE-2026-80255
     PublishedDate: '2026-09-06T18:17:22.623Z'
-    LastModifiedDate: '2026-09-11T20:02:30.16Z'
+    LastModifiedDate: '2026-09-15T07:16:30.77Z'
   - VulnerabilityID: CVE-2026-82209
     PkgID: curl@8.18.0-1ubuntu2.5
     PkgName: curl
@@ -272,7 +321,7 @@
     - https://hackerone.com/reports/3972385
     - https://www.cve.org/CVERecord?id=CVE-2026-82209
     PublishedDate: '2026-09-06T18:17:22.847Z'
-    LastModifiedDate: '2026-09-11T20:01:57.943Z'
+    LastModifiedDate: '2026-09-15T07:16:31.233Z'
   - VulnerabilityID: CVE-2026-19617
     PkgID: dmsetup@2:1.02.205-2ubuntu3
     PkgName: dmsetup
@@ -916,7 +965,7 @@
     - https://hackerone.com/reports/3822248
     - https://www.cve.org/CVERecord?id=CVE-2026-13608
     PublishedDate: '2026-09-06T18:17:19.81Z'
-    LastModifiedDate: '2026-09-11T19:59:55.2Z'
+    LastModifiedDate: '2026-09-15T07:16:26.353Z'
   - VulnerabilityID: CVE-2026-18924
     PkgID: libcurl4t64@8.18.0-1ubuntu2.5
     PkgName: libcurl4t64
@@ -952,7 +1001,7 @@
     - https://hackerone.com/reports/3916059
     - https://www.cve.org/CVERecord?id=CVE-2026-18924
     PublishedDate: '2026-09-06T18:17:20.553Z'
-    LastModifiedDate: '2026-09-11T20:01:29.6Z'
+    LastModifiedDate: '2026-09-15T07:16:27.063Z'
   - VulnerabilityID: CVE-2026-19931
     PkgID: libcurl4t64@8.18.0-1ubuntu2.5
     PkgName: libcurl4t64
@@ -971,7 +1020,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:8b1a6dabd8575628e976b0b02727d66298e8b0c546cd3a152162608f8f4df757
-    Title: A flaw in libcurl makes it wrongly reuse an HTTP connection setup for  ...
+    Title: 'curl: libcurl: Information disclosure via incorrect connection reuse with Negotiate authentication'
     Description: |-
       A flaw in libcurl makes it wrongly reuse an HTTP connection setup for a given
       hostname using Negotiate authentication, when the initial request is done
@@ -981,15 +1030,22 @@
     CweIDs:
     - CWE-488
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-19931
     - https://curl.se/docs/CVE-2026-19931.html
     - https://curl.se/docs/CVE-2026-19931.json
     - https://github.com/curl/curl/commit/7103a93b05bc69ea98ed9d
     - https://hackerone.com/reports/3923520
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19931
     - https://www.cve.org/CVERecord?id=CVE-2026-19931
     PublishedDate: '2026-09-06T18:17:20.733Z'
-    LastModifiedDate: '2026-09-11T20:01:46.607Z'
+    LastModifiedDate: '2026-09-15T07:16:27.29Z'
   - VulnerabilityID: CVE-2026-80229
     PkgID: libcurl4t64@8.18.0-1ubuntu2.5
     PkgName: libcurl4t64
@@ -1029,7 +1085,7 @@
     - https://hackerone.com/reports/3969255
     - https://www.cve.org/CVERecord?id=CVE-2026-80229
     PublishedDate: '2026-09-06T18:17:22.217Z'
-    LastModifiedDate: '2026-09-11T20:06:12.563Z'
+    LastModifiedDate: '2026-09-15T07:16:30.157Z'
   - VulnerabilityID: CVE-2026-80230
     PkgID: libcurl4t64@8.18.0-1ubuntu2.5
     PkgName: libcurl4t64
@@ -1068,7 +1124,7 @@
     - https://hackerone.com/reports/3969300
     - https://www.cve.org/CVERecord?id=CVE-2026-80230
     PublishedDate: '2026-09-06T18:17:22.327Z'
-    LastModifiedDate: '2026-09-11T20:05:56.143Z'
+    LastModifiedDate: '2026-09-15T07:16:30.337Z'
   - VulnerabilityID: CVE-2026-80255
     PkgID: libcurl4t64@8.18.0-1ubuntu2.5
     PkgName: libcurl4t64
@@ -1105,7 +1161,7 @@
     - https://hackerone.com/reports/3972395
     - https://www.cve.org/CVERecord?id=CVE-2026-80255
     PublishedDate: '2026-09-06T18:17:22.623Z'
-    LastModifiedDate: '2026-09-11T20:02:30.16Z'
+    LastModifiedDate: '2026-09-15T07:16:30.77Z'
   - VulnerabilityID: CVE-2026-82209
     PkgID: libcurl4t64@8.18.0-1ubuntu2.5
     PkgName: libcurl4t64
@@ -1148,7 +1204,7 @@
     - https://hackerone.com/reports/3972385
     - https://www.cve.org/CVERecord?id=CVE-2026-82209
     PublishedDate: '2026-09-06T18:17:22.847Z'
-    LastModifiedDate: '2026-09-11T20:01:57.943Z'
+    LastModifiedDate: '2026-09-15T07:16:31.233Z'
   - VulnerabilityID: CVE-2026-19617
     PkgID: libdevmapper1.02.1@2:1.02.205-2ubuntu3
     PkgName: libdevmapper1.02.1
@@ -2063,6 +2119,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      amazon: 3
       azure: 2
       julia: 2
       ubuntu: 2
@@ -2100,6 +2157,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      amazon: 3
       azure: 2
       julia: 2
       redhat: 2
@@ -2142,6 +2200,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      amazon: 3
       azure: 2
       julia: 2
       redhat: 2
@@ -2225,7 +2284,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:7734d87570d6f4dc92db70aa5ed39d64bf8f7e146e80da91554c7c2cb7f8b8cd
-    Title: Expat through 2.8.3 contains a denial of service vulnerability caused  ...
+    Title: 'expat: Expat: Denial of Service via quadratic complexity in attribute processing'
     Description: Expat through 2.8.3 contains a denial of service vulnerability caused by quadratic algorithmic complexity in the storeAtts() function in xmlparse.c, where processing N specified attributes with non-normalized values triggers an O(N^2) linear scan of elementType->defaultAtts to determine CDATA status. A remote unauthenticated attacker can supply a single well-formed XML document of a few megabytes to an application parsing untrusted XML to cause excessive CPU consumption, resulting in denial of service without requiring authentication, external entity resolution, or non-default parser options.
     Severity: MEDIUM
     CweIDs:
@@ -2233,8 +2292,14 @@
     VendorSeverity:
       amazon: 3
       azure: 3
+      redhat: 3
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-66046
     - https://github.com/libexpat/libexpat/pull/1321
     - https://nvd.nist.gov/vuln/detail/CVE-2026-66046
     - https://www.cve.org/CVERecord?id=CVE-2026-66046
@@ -2950,6 +3015,7 @@
     - https://access.redhat.com/errata/RHSA-2026:65771
     - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/errata/RHSA-2026:66018
+    - https://access.redhat.com/errata/RHSA-2026:66357
     - https://access.redhat.com/security/cve/CVE-2026-58014
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -2982,7 +3048,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58014
     - https://www.cve.org/CVERecord?id=CVE-2026-58014
     PublishedDate: '2026-06-30T13:19:17.58Z'
-    LastModifiedDate: '2026-09-10T18:18:03.887Z'
+    LastModifiedDate: '2026-09-15T12:17:51.327Z'
   - VulnerabilityID: CVE-2026-58015
     PkgID: libglib2.0-0t64@2.88.0-1
     PkgName: libglib2.0-0t64
@@ -3046,6 +3112,7 @@
     - https://access.redhat.com/errata/RHSA-2026:65771
     - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/errata/RHSA-2026:66018
+    - https://access.redhat.com/errata/RHSA-2026:66357
     - https://access.redhat.com/security/cve/CVE-2026-58015
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -3078,7 +3145,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58015
     - https://www.cve.org/CVERecord?id=CVE-2026-58015
     PublishedDate: '2026-06-30T13:19:17.707Z'
-    LastModifiedDate: '2026-09-10T18:18:04.19Z'
+    LastModifiedDate: '2026-09-15T12:17:51.643Z'
   - VulnerabilityID: CVE-2026-58016
     PkgID: libglib2.0-0t64@2.88.0-1
     PkgName: libglib2.0-0t64
@@ -3745,6 +3812,7 @@
     - https://access.redhat.com/errata/RHSA-2026:65771
     - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/errata/RHSA-2026:66018
+    - https://access.redhat.com/errata/RHSA-2026:66357
     - https://access.redhat.com/security/cve/CVE-2026-58014
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -3777,7 +3845,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58014
     - https://www.cve.org/CVERecord?id=CVE-2026-58014
     PublishedDate: '2026-06-30T13:19:17.58Z'
-    LastModifiedDate: '2026-09-10T18:18:03.887Z'
+    LastModifiedDate: '2026-09-15T12:17:51.327Z'
   - VulnerabilityID: CVE-2026-58015
     PkgID: libglib2.0-data@2.88.0-1
     PkgName: libglib2.0-data
@@ -3841,6 +3909,7 @@
     - https://access.redhat.com/errata/RHSA-2026:65771
     - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/errata/RHSA-2026:66018
+    - https://access.redhat.com/errata/RHSA-2026:66357
     - https://access.redhat.com/security/cve/CVE-2026-58015
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -3873,7 +3942,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58015
     - https://www.cve.org/CVERecord?id=CVE-2026-58015
     PublishedDate: '2026-06-30T13:19:17.707Z'
-    LastModifiedDate: '2026-09-10T18:18:04.19Z'
+    LastModifiedDate: '2026-09-15T12:17:51.643Z'
   - VulnerabilityID: CVE-2026-58016
     PkgID: libglib2.0-data@2.88.0-1
     PkgName: libglib2.0-data
@@ -4452,6 +4521,210 @@
     - https://www.synology.com/security/advisory/Synology_SA_19_33
     PublishedDate: '2019-08-13T21:15:12.52Z'
     LastModifiedDate: '2026-06-17T02:43:52.723Z'
+  - VulnerabilityID: CVE-2026-62291
+    PkgID: libheif-plugin-aomdec@1.21.2-3ubuntu0.4
+    PkgName: libheif-plugin-aomdec
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3ubuntu0.4?arch=amd64&distro=ubuntu-26.04
+      UID: 9b21bbe2048716e
+    InstalledVersion: 1.21.2-3ubuntu0.4
+    Status: affected
+    Layer:
+      Digest: sha256:af1ad1c839ff0f896907702daf9c723f74a9225f83daecccc6c376f6eb97e6bd
+      DiffID: sha256:10a7c58c1713f899b5f8e6af03d07b6c7e2cce1d0ae8dfcc20826cb8b818c362
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-62291
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:db980437c22720a1bf5e31782f3ff3d2a89fc712dc2a0be415e33ac3b64fc21e
+    Title: libheif is a HEIF and AVIF file format decoder and encoder. In 1.23.0  ...
+    Description: libheif is a HEIF and AVIF file format decoder and encoder. In 1.23.0 and earlier, a crafted image sequence with a 2x2 primary plane and a 256x256 auxiliary alpha plane can cause attacker-controlled heap corruption during a normal decode and re-encode workflow. Track_Visual::decode_next_image_sample() calls transfer_channel_from_image_as() without checking that the auxiliary alpha dimensions match the main frame. The resulting inconsistent image reaches heif_track_decode_next_image() and then heif_context_encode_image(). In unc_encoder::encode(), unc_encoder_component_interleave::encode_tile() sizes its buffer with compute_tile_data_size_bytes() using the primary dimensions but copies each component using its actual plane dimensions. The oversized alpha plane is therefore copied beyond the allocation, causing an out-of-bounds write; the inverse size mismatch can also produce an out-of-bounds read. This issue is fixed in version 1.23.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    - CWE-787
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/strukturag/libheif/commit/ac5521ad50399885de96bb6a0733a5d2442740f9
+    - https://github.com/strukturag/libheif/releases/tag/v1.23.1
+    - https://github.com/strukturag/libheif/security/advisories/GHSA-xpw3-9rhw-482x
+    - https://ubuntu.com/security/notices/USN-8683-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-62291
+    PublishedDate: '2026-08-18T22:17:02.877Z'
+    LastModifiedDate: '2026-09-09T21:13:25.91Z'
+  - VulnerabilityID: CVE-2026-62377
+    PkgID: libheif-plugin-aomdec@1.21.2-3ubuntu0.4
+    PkgName: libheif-plugin-aomdec
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3ubuntu0.4?arch=amd64&distro=ubuntu-26.04
+      UID: 9b21bbe2048716e
+    InstalledVersion: 1.21.2-3ubuntu0.4
+    Status: affected
+    Layer:
+      Digest: sha256:af1ad1c839ff0f896907702daf9c723f74a9225f83daecccc6c376f6eb97e6bd
+      DiffID: sha256:10a7c58c1713f899b5f8e6af03d07b6c7e2cce1d0ae8dfcc20826cb8b818c362
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-62377
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:eaacd1595b952f4642c8cc3e08ffad36cb6837dcbb8004def75bd59fe65c05c5
+    Title: libheif is a HEIF and AVIF file format decoder and encoder. In 1.23.0  ...
+    Description: libheif is a HEIF and AVIF file format decoder and encoder. In 1.23.0 and earlier, a crafted HEIF sequence accepted by heif_context_read_from_memory() can leave the context with no registered sequence tracks and crash when heif_context_get_track(ctx, 0) is called. HeifContext::get_track() in libheif/context.cc executes assert(has_sequence()) before its normal error handling, so assert-enabled builds abort instead of allowing the public wrapper in libheif/api/libheif/heif_sequences.cc to return null. In release builds, removing the assertion lets the track_id zero path dereference m_tracks.begin()->second on an empty map, which is undefined behavior and typically crashes. The issue is reachable through documented public APIs after parsing attacker-controlled bytes. This issue is fixed in version 1.23.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-617
+    - CWE-908
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/strukturag/libheif/commit/e1a0bc1c1ae74f8075eaca30a1cdb2b9bee698d3
+    - https://github.com/strukturag/libheif/issues/1844
+    - https://github.com/strukturag/libheif/releases/tag/v1.23.1
+    - https://github.com/strukturag/libheif/security/advisories/GHSA-9ww4-9v47-m7pj
+    - https://www.cve.org/CVERecord?id=CVE-2026-62377
+    PublishedDate: '2026-08-18T22:17:03.167Z'
+    LastModifiedDate: '2026-09-09T21:13:25.91Z'
+  - VulnerabilityID: CVE-2026-62291
+    PkgID: libheif-plugin-aomenc@1.21.2-3ubuntu0.4
+    PkgName: libheif-plugin-aomenc
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3ubuntu0.4?arch=amd64&distro=ubuntu-26.04
+      UID: 12d5f8adcc37e24e
+    InstalledVersion: 1.21.2-3ubuntu0.4
+    Status: affected
+    Layer:
+      Digest: sha256:af1ad1c839ff0f896907702daf9c723f74a9225f83daecccc6c376f6eb97e6bd
+      DiffID: sha256:10a7c58c1713f899b5f8e6af03d07b6c7e2cce1d0ae8dfcc20826cb8b818c362
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-62291
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:4e296d1984bb8ed46567595f6a1a2314ebe1545a530f842fc581aebc724568fd
+    Title: libheif is a HEIF and AVIF file format decoder and encoder. In 1.23.0  ...
+    Description: libheif is a HEIF and AVIF file format decoder and encoder. In 1.23.0 and earlier, a crafted image sequence with a 2x2 primary plane and a 256x256 auxiliary alpha plane can cause attacker-controlled heap corruption during a normal decode and re-encode workflow. Track_Visual::decode_next_image_sample() calls transfer_channel_from_image_as() without checking that the auxiliary alpha dimensions match the main frame. The resulting inconsistent image reaches heif_track_decode_next_image() and then heif_context_encode_image(). In unc_encoder::encode(), unc_encoder_component_interleave::encode_tile() sizes its buffer with compute_tile_data_size_bytes() using the primary dimensions but copies each component using its actual plane dimensions. The oversized alpha plane is therefore copied beyond the allocation, causing an out-of-bounds write; the inverse size mismatch can also produce an out-of-bounds read. This issue is fixed in version 1.23.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    - CWE-787
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/strukturag/libheif/commit/ac5521ad50399885de96bb6a0733a5d2442740f9
+    - https://github.com/strukturag/libheif/releases/tag/v1.23.1
+    - https://github.com/strukturag/libheif/security/advisories/GHSA-xpw3-9rhw-482x
+    - https://ubuntu.com/security/notices/USN-8683-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-62291
+    PublishedDate: '2026-08-18T22:17:02.877Z'
+    LastModifiedDate: '2026-09-09T21:13:25.91Z'
+  - VulnerabilityID: CVE-2026-62377
+    PkgID: libheif-plugin-aomenc@1.21.2-3ubuntu0.4
+    PkgName: libheif-plugin-aomenc
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3ubuntu0.4?arch=amd64&distro=ubuntu-26.04
+      UID: 12d5f8adcc37e24e
+    InstalledVersion: 1.21.2-3ubuntu0.4
+    Status: affected
+    Layer:
+      Digest: sha256:af1ad1c839ff0f896907702daf9c723f74a9225f83daecccc6c376f6eb97e6bd
+      DiffID: sha256:10a7c58c1713f899b5f8e6af03d07b6c7e2cce1d0ae8dfcc20826cb8b818c362
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-62377
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fed2df452d97109ef630c8b169e3084f392b7ded26771342e68a1df3e72fdd2e
+    Title: libheif is a HEIF and AVIF file format decoder and encoder. In 1.23.0  ...
+    Description: libheif is a HEIF and AVIF file format decoder and encoder. In 1.23.0 and earlier, a crafted HEIF sequence accepted by heif_context_read_from_memory() can leave the context with no registered sequence tracks and crash when heif_context_get_track(ctx, 0) is called. HeifContext::get_track() in libheif/context.cc executes assert(has_sequence()) before its normal error handling, so assert-enabled builds abort instead of allowing the public wrapper in libheif/api/libheif/heif_sequences.cc to return null. In release builds, removing the assertion lets the track_id zero path dereference m_tracks.begin()->second on an empty map, which is undefined behavior and typically crashes. The issue is reachable through documented public APIs after parsing attacker-controlled bytes. This issue is fixed in version 1.23.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-617
+    - CWE-908
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/strukturag/libheif/commit/e1a0bc1c1ae74f8075eaca30a1cdb2b9bee698d3
+    - https://github.com/strukturag/libheif/issues/1844
+    - https://github.com/strukturag/libheif/releases/tag/v1.23.1
+    - https://github.com/strukturag/libheif/security/advisories/GHSA-9ww4-9v47-m7pj
+    - https://www.cve.org/CVERecord?id=CVE-2026-62377
+    PublishedDate: '2026-08-18T22:17:03.167Z'
+    LastModifiedDate: '2026-09-09T21:13:25.91Z'
+  - VulnerabilityID: CVE-2026-62291
+    PkgID: libheif1@1.21.2-3ubuntu0.4
+    PkgName: libheif1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libheif1@1.21.2-3ubuntu0.4?arch=amd64&distro=ubuntu-26.04
+      UID: 1de3882127791ba0
+    InstalledVersion: 1.21.2-3ubuntu0.4
+    Status: affected
+    Layer:
+      Digest: sha256:af1ad1c839ff0f896907702daf9c723f74a9225f83daecccc6c376f6eb97e6bd
+      DiffID: sha256:10a7c58c1713f899b5f8e6af03d07b6c7e2cce1d0ae8dfcc20826cb8b818c362
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-62291
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e6468264265663ec805caf3e4424ec1a50ba55e6b79042c0c65f90ea18d81689
+    Title: libheif is a HEIF and AVIF file format decoder and encoder. In 1.23.0  ...
+    Description: libheif is a HEIF and AVIF file format decoder and encoder. In 1.23.0 and earlier, a crafted image sequence with a 2x2 primary plane and a 256x256 auxiliary alpha plane can cause attacker-controlled heap corruption during a normal decode and re-encode workflow. Track_Visual::decode_next_image_sample() calls transfer_channel_from_image_as() without checking that the auxiliary alpha dimensions match the main frame. The resulting inconsistent image reaches heif_track_decode_next_image() and then heif_context_encode_image(). In unc_encoder::encode(), unc_encoder_component_interleave::encode_tile() sizes its buffer with compute_tile_data_size_bytes() using the primary dimensions but copies each component using its actual plane dimensions. The oversized alpha plane is therefore copied beyond the allocation, causing an out-of-bounds write; the inverse size mismatch can also produce an out-of-bounds read. This issue is fixed in version 1.23.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    - CWE-787
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/strukturag/libheif/commit/ac5521ad50399885de96bb6a0733a5d2442740f9
+    - https://github.com/strukturag/libheif/releases/tag/v1.23.1
+    - https://github.com/strukturag/libheif/security/advisories/GHSA-xpw3-9rhw-482x
+    - https://ubuntu.com/security/notices/USN-8683-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-62291
+    PublishedDate: '2026-08-18T22:17:02.877Z'
+    LastModifiedDate: '2026-09-09T21:13:25.91Z'
+  - VulnerabilityID: CVE-2026-62377
+    PkgID: libheif1@1.21.2-3ubuntu0.4
+    PkgName: libheif1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libheif1@1.21.2-3ubuntu0.4?arch=amd64&distro=ubuntu-26.04
+      UID: 1de3882127791ba0
+    InstalledVersion: 1.21.2-3ubuntu0.4
+    Status: affected
+    Layer:
+      Digest: sha256:af1ad1c839ff0f896907702daf9c723f74a9225f83daecccc6c376f6eb97e6bd
+      DiffID: sha256:10a7c58c1713f899b5f8e6af03d07b6c7e2cce1d0ae8dfcc20826cb8b818c362
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-62377
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:89cf40ac06a3eb3c53a7ca8e807d99ade3e32ddbcaaa5d451b1aec8c575e7b96
+    Title: libheif is a HEIF and AVIF file format decoder and encoder. In 1.23.0  ...
+    Description: libheif is a HEIF and AVIF file format decoder and encoder. In 1.23.0 and earlier, a crafted HEIF sequence accepted by heif_context_read_from_memory() can leave the context with no registered sequence tracks and crash when heif_context_get_track(ctx, 0) is called. HeifContext::get_track() in libheif/context.cc executes assert(has_sequence()) before its normal error handling, so assert-enabled builds abort instead of allowing the public wrapper in libheif/api/libheif/heif_sequences.cc to return null. In release builds, removing the assertion lets the track_id zero path dereference m_tracks.begin()->second on an empty map, which is undefined behavior and typically crashes. The issue is reachable through documented public APIs after parsing attacker-controlled bytes. This issue is fixed in version 1.23.1.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-617
+    - CWE-908
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/strukturag/libheif/commit/e1a0bc1c1ae74f8075eaca30a1cdb2b9bee698d3
+    - https://github.com/strukturag/libheif/issues/1844
+    - https://github.com/strukturag/libheif/releases/tag/v1.23.1
+    - https://github.com/strukturag/libheif/security/advisories/GHSA-9ww4-9v47-m7pj
+    - https://www.cve.org/CVERecord?id=CVE-2026-62377
+    PublishedDate: '2026-08-18T22:17:03.167Z'
+    LastModifiedDate: '2026-09-09T21:13:25.91Z'
   - VulnerabilityID: CVE-2026-10846
     PkgID: libldns3t64@1.8.4-2build3
     PkgName: libldns3t64
@@ -4789,7 +5062,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:d086b43cd0dd1f027ed4caaa2b9cf40e563c70d1e056063b091a056c0bde85db
-    Title: Buffer Overflow vulnerability in SQLite affected version source snapsh ...
+    Title: Buffer Overflow vulnerability in SQLite affected version source s ...
     Description: Buffer Overflow vulnerability in SQLite affected version source snapshots/builds containing Fossil check-in 8bdc0d485e3ad0c7a1e818da66f106951d496b05cbe61d12c2c448f2f24b6d5d (Git mirror 169f68ed88b34cb68f720191c64c058f2ccec508, 2026-03-11) and later snapshots/builds allows an attacker to cause a denial of service via the ext/misc/sqlar.c, sqlarUncompressFunc(), sqlar_uncompress(), sqlite3_value_int64(), sqlite3_malloc(int), uncompress() components
     Severity: MEDIUM
     CweIDs:
@@ -7285,7 +7558,7 @@
     - https://go.dev/issue/80405
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://linux.oracle.com/cve/CVE-2026-33818.html
-    - https://linux.oracle.com/errata/ELSA-2026-66364-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-67161-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33818
     - https://pkg.go.dev/vuln/GO-2026-5972
     - https://www.cve.org/CVERecord?id=CVE-2026-33818
@@ -7470,12 +7743,25 @@
     - https://access.redhat.com/errata/RHSA-2026:65886
     - https://access.redhat.com/errata/RHSA-2026:66016
     - https://access.redhat.com/errata/RHSA-2026:66022
+    - https://access.redhat.com/errata/RHSA-2026:66350
     - https://access.redhat.com/errata/RHSA-2026:66432
     - https://access.redhat.com/errata/RHSA-2026:67149
     - https://access.redhat.com/errata/RHSA-2026:67159
     - https://access.redhat.com/errata/RHSA-2026:67160
+    - https://access.redhat.com/errata/RHSA-2026:67287
+    - https://access.redhat.com/errata/RHSA-2026:67319
+    - https://access.redhat.com/errata/RHSA-2026:67517
     - https://access.redhat.com/security/cve/CVE-2026-39821
+    - https://bugzilla.redhat.com/2467809
+    - https://bugzilla.redhat.com/2467820
     - https://bugzilla.redhat.com/2480756
+    - https://bugzilla.redhat.com/2484204
+    - https://bugzilla.redhat.com/2515815
+    - https://bugzilla.redhat.com/2515820
+    - https://bugzilla.redhat.com/2515827
+    - https://bugzilla.redhat.com/2515838
+    - https://bugzilla.redhat.com/2515839
+    - https://bugzilla.redhat.com/2515840
     - https://bugzilla.redhat.com/show_bug.cgi?id=2456333
     - https://bugzilla.redhat.com/show_bug.cgi?id=2456339
     - https://bugzilla.redhat.com/show_bug.cgi?id=2467809
@@ -7503,7 +7789,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-37435.html
+    - https://errata.almalinux.org/9/ALSA-2026-65153.html
     - https://errata.rockylinux.org/RLSA-2026:65886
     - https://github.com/golang/go/issues/78760
     - https://go.dev/cl/767220
@@ -7511,14 +7797,14 @@
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://groups.google.com/g/golang-announce/c/iI-mYSI0lu8
     - https://linux.oracle.com/cve/CVE-2026-39821.html
-    - https://linux.oracle.com/errata/ELSA-2026-65886-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-66432-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39821
     - https://pkg.go.dev/vuln/GO-2026-5026
     - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-39821.json
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-09-14T13:18:24.91Z'
+    LastModifiedDate: '2026-09-15T12:17:34.803Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -7606,13 +7892,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:65117
+    - https://access.redhat.com/errata/RHSA-2026:65153
     - https://access.redhat.com/errata/RHSA-2026:65886
     - https://access.redhat.com/security/cve/CVE-2026-56853
     - https://bugzilla.redhat.com/2467809
     - https://bugzilla.redhat.com/2467820
+    - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/2484204
-    - https://bugzilla.redhat.com/2484830
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
     - https://bugzilla.redhat.com/2515827
@@ -7646,7 +7932,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-65117.html
+    - https://errata.almalinux.org/9/ALSA-2026-65153.html
     - https://errata.rockylinux.org/RLSA-2026:65886
     - https://go.dev/cl/795540
     - https://go.dev/issue/80205
@@ -7699,13 +7985,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
         V3Score: 8.1
     References:
-    - https://access.redhat.com/errata/RHSA-2026:65117
+    - https://access.redhat.com/errata/RHSA-2026:65153
     - https://access.redhat.com/errata/RHSA-2026:65886
     - https://access.redhat.com/security/cve/CVE-2026-56858
     - https://bugzilla.redhat.com/2467809
     - https://bugzilla.redhat.com/2467820
+    - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/2484204
-    - https://bugzilla.redhat.com/2484830
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
     - https://bugzilla.redhat.com/2515827
@@ -7739,7 +8025,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-65117.html
+    - https://errata.almalinux.org/9/ALSA-2026-65153.html
     - https://errata.rockylinux.org/RLSA-2026:65886
     - https://go.dev/cl/807100
     - https://go.dev/issue/80435
@@ -7792,13 +8078,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:65117
+    - https://access.redhat.com/errata/RHSA-2026:65153
     - https://access.redhat.com/errata/RHSA-2026:65886
     - https://access.redhat.com/security/cve/CVE-2026-56859
     - https://bugzilla.redhat.com/2467809
     - https://bugzilla.redhat.com/2467820
+    - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/2484204
-    - https://bugzilla.redhat.com/2484830
     - https://bugzilla.redhat.com/2515815
     - https://bugzilla.redhat.com/2515820
     - https://bugzilla.redhat.com/2515827
@@ -7832,7 +8118,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56859
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
-    - https://errata.almalinux.org/9/ALSA-2026-65117.html
+    - https://errata.almalinux.org/9/ALSA-2026-65153.html
     - https://errata.rockylinux.org/RLSA-2026:65886
     - https://go.dev/cl/803320
     - https://go.dev/issue/80481
@@ -7903,7 +8189,7 @@
     - https://go.dev/issue/80494
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://linux.oracle.com/cve/CVE-2026-56860.html
-    - https://linux.oracle.com/errata/ELSA-2026-66364-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-67161-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56860
     - https://pkg.go.dev/vuln/GO-2026-6218
     - https://www.cve.org/CVERecord?id=CVE-2026-56860
@@ -7968,7 +8254,7 @@
     - https://go.dev/issue/80528
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://linux.oracle.com/cve/CVE-2026-56862.html
-    - https://linux.oracle.com/errata/ELSA-2026-66364-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-67161-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56862
     - https://pkg.go.dev/vuln/GO-2026-6090
     - https://www.cve.org/CVERecord?id=CVE-2026-56862
