@@ -40,7 +40,7 @@
     - https://hackerone.com/reports/3822248
     - https://www.cve.org/CVERecord?id=CVE-2026-13608
     PublishedDate: '2026-09-06T18:17:19.81Z'
-    LastModifiedDate: '2026-09-11T19:59:55.2Z'
+    LastModifiedDate: '2026-09-15T07:16:26.353Z'
   - VulnerabilityID: CVE-2026-18924
     PkgID: curl@8.21.0-r0
     PkgName: curl
@@ -76,7 +76,7 @@
     - https://hackerone.com/reports/3916059
     - https://www.cve.org/CVERecord?id=CVE-2026-18924
     PublishedDate: '2026-09-06T18:17:20.553Z'
-    LastModifiedDate: '2026-09-11T20:01:29.6Z'
+    LastModifiedDate: '2026-09-15T07:16:27.063Z'
   - VulnerabilityID: CVE-2026-19931
     PkgID: curl@8.21.0-r0
     PkgName: curl
@@ -95,7 +95,7 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:e14df05a2a99716a55923cb850868582a2390afccbcd215b6119971e5a8e7787
-    Title: A flaw in libcurl makes it wrongly reuse an HTTP connection setup for  ...
+    Title: 'curl: libcurl: Information disclosure via incorrect connection reuse with Negotiate authentication'
     Description: |-
       A flaw in libcurl makes it wrongly reuse an HTTP connection setup for a given
       hostname using Negotiate authentication, when the initial request is done
@@ -105,15 +105,22 @@
     CweIDs:
     - CWE-488
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-19931
     - https://curl.se/docs/CVE-2026-19931.html
     - https://curl.se/docs/CVE-2026-19931.json
     - https://github.com/curl/curl/commit/7103a93b05bc69ea98ed9d
     - https://hackerone.com/reports/3923520
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19931
     - https://www.cve.org/CVERecord?id=CVE-2026-19931
     PublishedDate: '2026-09-06T18:17:20.733Z'
-    LastModifiedDate: '2026-09-11T20:01:46.607Z'
+    LastModifiedDate: '2026-09-15T07:16:27.29Z'
   - VulnerabilityID: CVE-2026-80229
     PkgID: curl@8.21.0-r0
     PkgName: curl
@@ -153,7 +160,7 @@
     - https://hackerone.com/reports/3969255
     - https://www.cve.org/CVERecord?id=CVE-2026-80229
     PublishedDate: '2026-09-06T18:17:22.217Z'
-    LastModifiedDate: '2026-09-11T20:06:12.563Z'
+    LastModifiedDate: '2026-09-15T07:16:30.157Z'
   - VulnerabilityID: CVE-2026-80230
     PkgID: curl@8.21.0-r0
     PkgName: curl
@@ -192,7 +199,7 @@
     - https://hackerone.com/reports/3969300
     - https://www.cve.org/CVERecord?id=CVE-2026-80230
     PublishedDate: '2026-09-06T18:17:22.327Z'
-    LastModifiedDate: '2026-09-11T20:05:56.143Z'
+    LastModifiedDate: '2026-09-15T07:16:30.337Z'
   - VulnerabilityID: CVE-2026-80255
     PkgID: curl@8.21.0-r0
     PkgName: curl
@@ -229,7 +236,7 @@
     - https://hackerone.com/reports/3972395
     - https://www.cve.org/CVERecord?id=CVE-2026-80255
     PublishedDate: '2026-09-06T18:17:22.623Z'
-    LastModifiedDate: '2026-09-11T20:02:30.16Z'
+    LastModifiedDate: '2026-09-15T07:16:30.77Z'
   - VulnerabilityID: CVE-2026-82209
     PkgID: curl@8.21.0-r0
     PkgName: curl
@@ -272,7 +279,7 @@
     - https://hackerone.com/reports/3972385
     - https://www.cve.org/CVERecord?id=CVE-2026-82209
     PublishedDate: '2026-09-06T18:17:22.847Z'
-    LastModifiedDate: '2026-09-11T20:01:57.943Z'
+    LastModifiedDate: '2026-09-15T07:16:31.233Z'
   - VulnerabilityID: CVE-2026-80231
     PkgID: curl@8.21.0-r0
     PkgName: curl
@@ -304,7 +311,7 @@
     - https://curl.se/docs/CVE-2026-80231.json
     - https://hackerone.com/reports/3969368
     PublishedDate: '2026-09-06T18:17:22.5Z'
-    LastModifiedDate: '2026-09-11T20:05:37.673Z'
+    LastModifiedDate: '2026-09-15T07:16:30.57Z'
   - VulnerabilityID: CVE-2026-80256
     PkgID: curl@8.21.0-r0
     PkgName: curl
@@ -356,7 +363,7 @@
     - https://curl.se/docs/CVE-2026-82208.json
     - https://hackerone.com/reports/3973090
     PublishedDate: '2026-09-06T18:17:22.733Z'
-    LastModifiedDate: '2026-09-11T20:02:11.683Z'
+    LastModifiedDate: '2026-09-15T07:16:31.05Z'
   - VulnerabilityID: CVE-2026-13608
     PkgID: curl-doc@8.21.0-r0
     PkgName: curl-doc
@@ -394,7 +401,7 @@
     - https://hackerone.com/reports/3822248
     - https://www.cve.org/CVERecord?id=CVE-2026-13608
     PublishedDate: '2026-09-06T18:17:19.81Z'
-    LastModifiedDate: '2026-09-11T19:59:55.2Z'
+    LastModifiedDate: '2026-09-15T07:16:26.353Z'
   - VulnerabilityID: CVE-2026-18924
     PkgID: curl-doc@8.21.0-r0
     PkgName: curl-doc
@@ -430,7 +437,7 @@
     - https://hackerone.com/reports/3916059
     - https://www.cve.org/CVERecord?id=CVE-2026-18924
     PublishedDate: '2026-09-06T18:17:20.553Z'
-    LastModifiedDate: '2026-09-11T20:01:29.6Z'
+    LastModifiedDate: '2026-09-15T07:16:27.063Z'
   - VulnerabilityID: CVE-2026-19931
     PkgID: curl-doc@8.21.0-r0
     PkgName: curl-doc
@@ -449,7 +456,7 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:daf7a4d978b7e5b4ad9a9e985076d3c64fea6c67d2d98c9afe322e2e0375f2ca
-    Title: A flaw in libcurl makes it wrongly reuse an HTTP connection setup for  ...
+    Title: 'curl: libcurl: Information disclosure via incorrect connection reuse with Negotiate authentication'
     Description: |-
       A flaw in libcurl makes it wrongly reuse an HTTP connection setup for a given
       hostname using Negotiate authentication, when the initial request is done
@@ -459,15 +466,22 @@
     CweIDs:
     - CWE-488
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-19931
     - https://curl.se/docs/CVE-2026-19931.html
     - https://curl.se/docs/CVE-2026-19931.json
     - https://github.com/curl/curl/commit/7103a93b05bc69ea98ed9d
     - https://hackerone.com/reports/3923520
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19931
     - https://www.cve.org/CVERecord?id=CVE-2026-19931
     PublishedDate: '2026-09-06T18:17:20.733Z'
-    LastModifiedDate: '2026-09-11T20:01:46.607Z'
+    LastModifiedDate: '2026-09-15T07:16:27.29Z'
   - VulnerabilityID: CVE-2026-80229
     PkgID: curl-doc@8.21.0-r0
     PkgName: curl-doc
@@ -507,7 +521,7 @@
     - https://hackerone.com/reports/3969255
     - https://www.cve.org/CVERecord?id=CVE-2026-80229
     PublishedDate: '2026-09-06T18:17:22.217Z'
-    LastModifiedDate: '2026-09-11T20:06:12.563Z'
+    LastModifiedDate: '2026-09-15T07:16:30.157Z'
   - VulnerabilityID: CVE-2026-80230
     PkgID: curl-doc@8.21.0-r0
     PkgName: curl-doc
@@ -546,7 +560,7 @@
     - https://hackerone.com/reports/3969300
     - https://www.cve.org/CVERecord?id=CVE-2026-80230
     PublishedDate: '2026-09-06T18:17:22.327Z'
-    LastModifiedDate: '2026-09-11T20:05:56.143Z'
+    LastModifiedDate: '2026-09-15T07:16:30.337Z'
   - VulnerabilityID: CVE-2026-80255
     PkgID: curl-doc@8.21.0-r0
     PkgName: curl-doc
@@ -583,7 +597,7 @@
     - https://hackerone.com/reports/3972395
     - https://www.cve.org/CVERecord?id=CVE-2026-80255
     PublishedDate: '2026-09-06T18:17:22.623Z'
-    LastModifiedDate: '2026-09-11T20:02:30.16Z'
+    LastModifiedDate: '2026-09-15T07:16:30.77Z'
   - VulnerabilityID: CVE-2026-82209
     PkgID: curl-doc@8.21.0-r0
     PkgName: curl-doc
@@ -626,7 +640,7 @@
     - https://hackerone.com/reports/3972385
     - https://www.cve.org/CVERecord?id=CVE-2026-82209
     PublishedDate: '2026-09-06T18:17:22.847Z'
-    LastModifiedDate: '2026-09-11T20:01:57.943Z'
+    LastModifiedDate: '2026-09-15T07:16:31.233Z'
   - VulnerabilityID: CVE-2026-80231
     PkgID: curl-doc@8.21.0-r0
     PkgName: curl-doc
@@ -658,7 +672,7 @@
     - https://curl.se/docs/CVE-2026-80231.json
     - https://hackerone.com/reports/3969368
     PublishedDate: '2026-09-06T18:17:22.5Z'
-    LastModifiedDate: '2026-09-11T20:05:37.673Z'
+    LastModifiedDate: '2026-09-15T07:16:30.57Z'
   - VulnerabilityID: CVE-2026-80256
     PkgID: curl-doc@8.21.0-r0
     PkgName: curl-doc
@@ -710,7 +724,7 @@
     - https://curl.se/docs/CVE-2026-82208.json
     - https://hackerone.com/reports/3973090
     PublishedDate: '2026-09-06T18:17:22.733Z'
-    LastModifiedDate: '2026-09-11T20:02:11.683Z'
+    LastModifiedDate: '2026-09-15T07:16:31.05Z'
   - VulnerabilityID: CVE-2026-41992
     PkgID: gzip@1.14-r2
     PkgName: gzip
@@ -1065,6 +1079,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
       amazon: 3
       oracle-oval: 3
       photon: 3
@@ -1076,7 +1091,18 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/08/13/4
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-14456
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/08e7756c3900bcfd77a720e7b74e27d6e4ed01a9
     - https://github.com/openssl/openssl/commit/4084152e040329ca0194c4c1750b9b46d00a5b6b
     - https://github.com/openssl/openssl/commit/f2f1465f2d2e5c61dfeac4d20fd093797d821139
@@ -1141,6 +1167,8 @@
     CweIDs:
     - CWE-415
     VendorSeverity:
+      alma: 3
+      amazon: 3
       oracle-oval: 3
       redhat: 2
       ubuntu: 2
@@ -1149,7 +1177,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-18798
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/70cebd74d3592f5272945501b58a60374c4e13af
     - https://github.com/openssl/openssl/commit/967582d5037f01a26b6d19beae19af62a1b15c3c
     - https://github.com/openssl/openssl/commit/a14a1deac403522fbeafabcb198503cf6caa7dc4
@@ -1216,6 +1255,8 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       redhat: 2
@@ -1225,7 +1266,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63072
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/2a3dac874c8057c1f0186849bf1ede1ae7b6b756
     - https://github.com/openssl/openssl/commit/87784ad619af36b8807c2044b3940006fccc1e42
     - https://github.com/openssl/openssl/commit/9530a5fd1aacaeccdced4478ea2340a480613335
@@ -1297,6 +1349,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      alma: 3
+      amazon: 3
       azure: 3
       oracle-oval: 3
       redhat: 2
@@ -1306,7 +1360,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63076
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/37882aa2e0256e1072442a8f62f7db45b995c45b
     - https://github.com/openssl/openssl/commit/a17cc8d612ecff6d94a9b7ca8b5283ddf5ff570e
     - https://github.com/openssl/openssl/commit/a1f348ccb328c3afbd4ba6883f9b7c813c043259
@@ -1321,6 +1386,73 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-63076
     PublishedDate: '2026-08-25T13:19:26.543Z'
     LastModifiedDate: '2026-09-11T21:17:12.46Z'
+  - VulnerabilityID: CVE-2026-75803
+    PkgID: libcrypto3@3.5.7-r0
+    PkgName: libcrypto3
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcrypto3@3.5.7-r0?arch=x86_64&distro=3.24.0
+      UID: fff7b040c4179550
+    InstalledVersion: 3.5.7-r0
+    FixedVersion: 3.5.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75803
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:64fd8b151d43b12bfeb13b1be47250cdba3e8b96cb6680ba802fd6efc6933df8
+    Title: 'openssl: openssl: AEAD forgeries possible with empty ciphertext in EVP_Cipher()'
+    Description: |-
+      Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty
+      ciphertext can report success without verifying the supplied authentication
+      tag when the operation is finalized by calling the EVP_Cipher() function.
+
+      Impact summary: Applications calling EVP_Cipher() on an empty ciphertext and
+      expecting the call to check the AEAD tag may accept forged messages.
+
+      CWE: CWE-354 (Improper Validation of Integrity Check Value)
+
+      Description: The EVP_Cipher() API call for AEAD ciphers behaves like a one
+      shot encryption and decryption call. It also verifies the AEAD tag after the
+      decryption operation. However for AES-OCB and ChaCha20-Poly1305 ciphers
+      it skipped the AEAD tag verification when an empty ciphertext was passed to
+      the function. The callers of this function might believe that a successful
+      return indicates a valid AEAD tag for these ciphers, even when that has not
+      truly been validated in this case.
+
+      FIPS impact: no
+      The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are not affected by this CVE
+      as the affected algorithms are not FIPS approved and thus not implemented
+      in the FIPS module.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-354
+    VendorSeverity:
+      amazon: 3
+      azure: 2
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-75803
+    - https://github.com/openssl/openssl/commit/119ab9555dc62275bbd71f6f49529b1a44feba42
+    - https://github.com/openssl/openssl/commit/3621257986e27e540bf96a11570929a6e5a9e05b
+    - https://github.com/openssl/openssl/commit/6c7aa6f8f6449b7fe0137ee8be65fcd239bd7d6a
+    - https://github.com/openssl/openssl/commit/bdeb0cd994d915342787f117ee75044f0dc36f34
+    - https://github.com/openssl/openssl/commit/bf95f5f772e9362f87b25cfa2f8cb15d984865b9
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-75803
+    - https://openssl-library.org/news/secadv/20260825.txt
+    - https://ubuntu.com/security/notices/USN-8678-1
+    - https://ubuntu.com/security/notices/USN-8678-3
+    - https://www.cve.org/CVERecord?id=CVE-2026-75803
+    PublishedDate: '2026-08-25T13:19:29.57Z'
+    LastModifiedDate: '2026-09-11T21:17:17.823Z'
   - VulnerabilityID: CVE-2026-14457
     PkgID: libcrypto3@3.5.7-r0
     PkgName: libcrypto3
@@ -1373,6 +1505,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      alma: 3
+      amazon: 3
       oracle-oval: 3
       redhat: 1
       ubuntu: 1
@@ -1381,7 +1515,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-14457
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/1e8c398db67404babd3e5af999bb6bd86f720c76
     - https://github.com/openssl/openssl/commit/581aaa0f0a35d214740f0fe1f5283ec41f1212e1
     - https://github.com/openssl/openssl/commit/d0af20478688a6aa2f59d61caa3f82136b181d7f
@@ -1476,6 +1621,8 @@
     CweIDs:
     - CWE-405
     VendorSeverity:
+      alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       redhat: 1
@@ -1485,7 +1632,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-54874
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/4808b5d64176451f3d93d87d0ac9c81a9b13fb23
     - https://github.com/openssl/openssl/commit/7110cb2f75806d0bf809eb2f90790d477900be40
     - https://github.com/openssl/openssl/commit/a0c8ec557d9cac078f032d76cdf684fe743eb382
@@ -1553,6 +1711,8 @@
     CweIDs:
     - CWE-134
     VendorSeverity:
+      alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       redhat: 1
@@ -1562,7 +1722,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63073
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/0cc20b322639919aa423e90799d9a57c3b4b76ca
     - https://github.com/openssl/openssl/commit/6a0acc072b4d37a7cac1252a29c1ce1f00c5ec29
     - https://github.com/openssl/openssl/commit/7eb2e3ec9d1d4f35c8022fccd4b03398b3f33e21
@@ -1626,6 +1797,8 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       redhat: 1
@@ -1635,7 +1808,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63074
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/01e567978a55fba18142a230380c31296049fae7
     - https://github.com/openssl/openssl/commit/21a5d9658b0c66daace60e10ea18ff32a448de9f
     - https://github.com/openssl/openssl/commit/74ae7f6df47a5767c1010b88c47507dfc5b32c46
@@ -1704,6 +1888,8 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       redhat: 1
@@ -1713,7 +1899,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63075
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/7308946576b12e64b8be53bcf0a120354b2b42bc
     - https://github.com/openssl/openssl/commit/7c98d79738549df92868e7dd9be4bbf061eed709
     - https://github.com/openssl/openssl/commit/bf84721c2548351176e367e6de505792f0118dc6
@@ -1726,66 +1923,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-63075
     PublishedDate: '2026-08-25T13:19:26.413Z'
     LastModifiedDate: '2026-09-11T21:17:05.403Z'
-  - VulnerabilityID: CVE-2026-75803
-    PkgID: libcrypto3@3.5.7-r0
-    PkgName: libcrypto3
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/libcrypto3@3.5.7-r0?arch=x86_64&distro=3.24.0
-      UID: fff7b040c4179550
-    InstalledVersion: 3.5.7-r0
-    FixedVersion: 3.5.8-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
-      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75803
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:64fd8b151d43b12bfeb13b1be47250cdba3e8b96cb6680ba802fd6efc6933df8
-    Title: 'Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty  ...'
-    Description: |-
-      Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty
-      ciphertext can report success without verifying the supplied authentication
-      tag when the operation is finalized by calling the EVP_Cipher() function.
-
-      Impact summary: Applications calling EVP_Cipher() on an empty ciphertext and
-      expecting the call to check the AEAD tag may accept forged messages.
-
-      CWE: CWE-354 (Improper Validation of Integrity Check Value)
-
-      Description: The EVP_Cipher() API call for AEAD ciphers behaves like a one
-      shot encryption and decryption call. It also verifies the AEAD tag after the
-      decryption operation. However for AES-OCB and ChaCha20-Poly1305 ciphers
-      it skipped the AEAD tag verification when an empty ciphertext was passed to
-      the function. The callers of this function might believe that a successful
-      return indicates a valid AEAD tag for these ciphers, even when that has not
-      truly been validated in this case.
-
-      FIPS impact: no
-      The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are not affected by this CVE
-      as the affected algorithms are not FIPS approved and thus not implemented
-      in the FIPS module.
-    Severity: LOW
-    CweIDs:
-    - CWE-354
-    VendorSeverity:
-      azure: 2
-      ubuntu: 1
-    References:
-    - https://github.com/openssl/openssl/commit/119ab9555dc62275bbd71f6f49529b1a44feba42
-    - https://github.com/openssl/openssl/commit/3621257986e27e540bf96a11570929a6e5a9e05b
-    - https://github.com/openssl/openssl/commit/6c7aa6f8f6449b7fe0137ee8be65fcd239bd7d6a
-    - https://github.com/openssl/openssl/commit/bdeb0cd994d915342787f117ee75044f0dc36f34
-    - https://github.com/openssl/openssl/commit/bf95f5f772e9362f87b25cfa2f8cb15d984865b9
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-75803
-    - https://openssl-library.org/news/secadv/20260825.txt
-    - https://ubuntu.com/security/notices/USN-8678-1
-    - https://ubuntu.com/security/notices/USN-8678-3
-    - https://www.cve.org/CVERecord?id=CVE-2026-75803
-    PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-09-11T21:17:17.823Z'
   - VulnerabilityID: CVE-2026-13608
     PkgID: libcurl@8.21.0-r0
     PkgName: libcurl
@@ -1823,7 +1960,7 @@
     - https://hackerone.com/reports/3822248
     - https://www.cve.org/CVERecord?id=CVE-2026-13608
     PublishedDate: '2026-09-06T18:17:19.81Z'
-    LastModifiedDate: '2026-09-11T19:59:55.2Z'
+    LastModifiedDate: '2026-09-15T07:16:26.353Z'
   - VulnerabilityID: CVE-2026-18924
     PkgID: libcurl@8.21.0-r0
     PkgName: libcurl
@@ -1859,7 +1996,7 @@
     - https://hackerone.com/reports/3916059
     - https://www.cve.org/CVERecord?id=CVE-2026-18924
     PublishedDate: '2026-09-06T18:17:20.553Z'
-    LastModifiedDate: '2026-09-11T20:01:29.6Z'
+    LastModifiedDate: '2026-09-15T07:16:27.063Z'
   - VulnerabilityID: CVE-2026-19931
     PkgID: libcurl@8.21.0-r0
     PkgName: libcurl
@@ -1878,7 +2015,7 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:618fc1fef8c3f34316d251e9ce8e922c945011cf8ece82d77453850415864002
-    Title: A flaw in libcurl makes it wrongly reuse an HTTP connection setup for  ...
+    Title: 'curl: libcurl: Information disclosure via incorrect connection reuse with Negotiate authentication'
     Description: |-
       A flaw in libcurl makes it wrongly reuse an HTTP connection setup for a given
       hostname using Negotiate authentication, when the initial request is done
@@ -1888,15 +2025,22 @@
     CweIDs:
     - CWE-488
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-19931
     - https://curl.se/docs/CVE-2026-19931.html
     - https://curl.se/docs/CVE-2026-19931.json
     - https://github.com/curl/curl/commit/7103a93b05bc69ea98ed9d
     - https://hackerone.com/reports/3923520
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19931
     - https://www.cve.org/CVERecord?id=CVE-2026-19931
     PublishedDate: '2026-09-06T18:17:20.733Z'
-    LastModifiedDate: '2026-09-11T20:01:46.607Z'
+    LastModifiedDate: '2026-09-15T07:16:27.29Z'
   - VulnerabilityID: CVE-2026-80229
     PkgID: libcurl@8.21.0-r0
     PkgName: libcurl
@@ -1936,7 +2080,7 @@
     - https://hackerone.com/reports/3969255
     - https://www.cve.org/CVERecord?id=CVE-2026-80229
     PublishedDate: '2026-09-06T18:17:22.217Z'
-    LastModifiedDate: '2026-09-11T20:06:12.563Z'
+    LastModifiedDate: '2026-09-15T07:16:30.157Z'
   - VulnerabilityID: CVE-2026-80230
     PkgID: libcurl@8.21.0-r0
     PkgName: libcurl
@@ -1975,7 +2119,7 @@
     - https://hackerone.com/reports/3969300
     - https://www.cve.org/CVERecord?id=CVE-2026-80230
     PublishedDate: '2026-09-06T18:17:22.327Z'
-    LastModifiedDate: '2026-09-11T20:05:56.143Z'
+    LastModifiedDate: '2026-09-15T07:16:30.337Z'
   - VulnerabilityID: CVE-2026-80255
     PkgID: libcurl@8.21.0-r0
     PkgName: libcurl
@@ -2012,7 +2156,7 @@
     - https://hackerone.com/reports/3972395
     - https://www.cve.org/CVERecord?id=CVE-2026-80255
     PublishedDate: '2026-09-06T18:17:22.623Z'
-    LastModifiedDate: '2026-09-11T20:02:30.16Z'
+    LastModifiedDate: '2026-09-15T07:16:30.77Z'
   - VulnerabilityID: CVE-2026-82209
     PkgID: libcurl@8.21.0-r0
     PkgName: libcurl
@@ -2055,7 +2199,7 @@
     - https://hackerone.com/reports/3972385
     - https://www.cve.org/CVERecord?id=CVE-2026-82209
     PublishedDate: '2026-09-06T18:17:22.847Z'
-    LastModifiedDate: '2026-09-11T20:01:57.943Z'
+    LastModifiedDate: '2026-09-15T07:16:31.233Z'
   - VulnerabilityID: CVE-2026-80231
     PkgID: libcurl@8.21.0-r0
     PkgName: libcurl
@@ -2087,7 +2231,7 @@
     - https://curl.se/docs/CVE-2026-80231.json
     - https://hackerone.com/reports/3969368
     PublishedDate: '2026-09-06T18:17:22.5Z'
-    LastModifiedDate: '2026-09-11T20:05:37.673Z'
+    LastModifiedDate: '2026-09-15T07:16:30.57Z'
   - VulnerabilityID: CVE-2026-80256
     PkgID: libcurl@8.21.0-r0
     PkgName: libcurl
@@ -2139,7 +2283,47 @@
     - https://curl.se/docs/CVE-2026-82208.json
     - https://hackerone.com/reports/3973090
     PublishedDate: '2026-09-06T18:17:22.733Z'
-    LastModifiedDate: '2026-09-11T20:02:11.683Z'
+    LastModifiedDate: '2026-09-15T07:16:31.05Z'
+  - VulnerabilityID: CVE-2026-66046
+    PkgID: libexpat@2.8.2-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.8.2-r0?arch=x86_64&distro=3.24.0
+      UID: 7e1cad368446ee82
+    InstalledVersion: 2.8.2-r0
+    FixedVersion: 2.8.4-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-66046
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:2f2b9495bbf08ce6e050dd3a689071091d38548a25e3b3ccb0392da24d15bf71
+    Title: 'expat: Expat: Denial of Service via quadratic complexity in attribute processing'
+    Description: Expat through 2.8.3 contains a denial of service vulnerability caused by quadratic algorithmic complexity in the storeAtts() function in xmlparse.c, where processing N specified attributes with non-normalized values triggers an O(N^2) linear scan of elementType->defaultAtts to determine CDATA status. A remote unauthenticated attacker can supply a single well-formed XML document of a few megabytes to an application parsing untrusted XML to cause excessive CPU consumption, resulting in denial of service without requiring authentication, external entity resolution, or non-default parser options.
+    Severity: HIGH
+    CweIDs:
+    - CWE-407
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-66046
+    - https://github.com/libexpat/libexpat/pull/1321
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-66046
+    - https://www.cve.org/CVERecord?id=CVE-2026-66046
+    - https://www.vulncheck.com/advisories/expat-denial-of-service-via-storeatts-quadratic-complexity
+    PublishedDate: '2026-08-18T15:16:57Z'
+    LastModifiedDate: '2026-08-20T16:17:40.66Z'
   - VulnerabilityID: CVE-2026-76956
     PkgID: libexpat@2.8.2-r0
     PkgName: libexpat
@@ -2228,40 +2412,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-76957
     PublishedDate: '2026-08-20T05:16:29.747Z'
     LastModifiedDate: '2026-09-08T20:56:31.86Z'
-  - VulnerabilityID: CVE-2026-66046
-    PkgID: libexpat@2.8.2-r0
-    PkgName: libexpat
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/libexpat@2.8.2-r0?arch=x86_64&distro=3.24.0
-      UID: 7e1cad368446ee82
-    InstalledVersion: 2.8.2-r0
-    FixedVersion: 2.8.4-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
-      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-66046
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:2f2b9495bbf08ce6e050dd3a689071091d38548a25e3b3ccb0392da24d15bf71
-    Title: Expat through 2.8.3 contains a denial of service vulnerability caused  ...
-    Description: Expat through 2.8.3 contains a denial of service vulnerability caused by quadratic algorithmic complexity in the storeAtts() function in xmlparse.c, where processing N specified attributes with non-normalized values triggers an O(N^2) linear scan of elementType->defaultAtts to determine CDATA status. A remote unauthenticated attacker can supply a single well-formed XML document of a few megabytes to an application parsing untrusted XML to cause excessive CPU consumption, resulting in denial of service without requiring authentication, external entity resolution, or non-default parser options.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-407
-    VendorSeverity:
-      amazon: 3
-      azure: 3
-      ubuntu: 2
-    References:
-    - https://github.com/libexpat/libexpat/pull/1321
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-66046
-    - https://www.cve.org/CVERecord?id=CVE-2026-66046
-    - https://www.vulncheck.com/advisories/expat-denial-of-service-via-storeatts-quadratic-complexity
-    PublishedDate: '2026-08-18T15:16:57Z'
-    LastModifiedDate: '2026-08-20T16:17:40.66Z'
   - VulnerabilityID: CVE-2026-76641
     PkgID: libexpat@2.8.2-r0
     PkgName: libexpat
@@ -2772,6 +2922,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
       amazon: 3
       oracle-oval: 3
       photon: 3
@@ -2783,7 +2934,18 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/08/13/4
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-14456
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/08e7756c3900bcfd77a720e7b74e27d6e4ed01a9
     - https://github.com/openssl/openssl/commit/4084152e040329ca0194c4c1750b9b46d00a5b6b
     - https://github.com/openssl/openssl/commit/f2f1465f2d2e5c61dfeac4d20fd093797d821139
@@ -2848,6 +3010,8 @@
     CweIDs:
     - CWE-415
     VendorSeverity:
+      alma: 3
+      amazon: 3
       oracle-oval: 3
       redhat: 2
       ubuntu: 2
@@ -2856,7 +3020,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-18798
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/70cebd74d3592f5272945501b58a60374c4e13af
     - https://github.com/openssl/openssl/commit/967582d5037f01a26b6d19beae19af62a1b15c3c
     - https://github.com/openssl/openssl/commit/a14a1deac403522fbeafabcb198503cf6caa7dc4
@@ -2923,6 +3098,8 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       redhat: 2
@@ -2932,7 +3109,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63072
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/2a3dac874c8057c1f0186849bf1ede1ae7b6b756
     - https://github.com/openssl/openssl/commit/87784ad619af36b8807c2044b3940006fccc1e42
     - https://github.com/openssl/openssl/commit/9530a5fd1aacaeccdced4478ea2340a480613335
@@ -3004,6 +3192,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      alma: 3
+      amazon: 3
       azure: 3
       oracle-oval: 3
       redhat: 2
@@ -3013,7 +3203,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63076
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/37882aa2e0256e1072442a8f62f7db45b995c45b
     - https://github.com/openssl/openssl/commit/a17cc8d612ecff6d94a9b7ca8b5283ddf5ff570e
     - https://github.com/openssl/openssl/commit/a1f348ccb328c3afbd4ba6883f9b7c813c043259
@@ -3028,6 +3229,73 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-63076
     PublishedDate: '2026-08-25T13:19:26.543Z'
     LastModifiedDate: '2026-09-11T21:17:12.46Z'
+  - VulnerabilityID: CVE-2026-75803
+    PkgID: libssl3@3.5.7-r0
+    PkgName: libssl3
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssl3@3.5.7-r0?arch=x86_64&distro=3.24.0
+      UID: bb71d8f8e07d4a4a
+    InstalledVersion: 3.5.7-r0
+    FixedVersion: 3.5.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75803
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:b56e9a6889d19eba29120982da8abc0e60bb7d340ccf4a3242931a2083fa96b6
+    Title: 'openssl: openssl: AEAD forgeries possible with empty ciphertext in EVP_Cipher()'
+    Description: |-
+      Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty
+      ciphertext can report success without verifying the supplied authentication
+      tag when the operation is finalized by calling the EVP_Cipher() function.
+
+      Impact summary: Applications calling EVP_Cipher() on an empty ciphertext and
+      expecting the call to check the AEAD tag may accept forged messages.
+
+      CWE: CWE-354 (Improper Validation of Integrity Check Value)
+
+      Description: The EVP_Cipher() API call for AEAD ciphers behaves like a one
+      shot encryption and decryption call. It also verifies the AEAD tag after the
+      decryption operation. However for AES-OCB and ChaCha20-Poly1305 ciphers
+      it skipped the AEAD tag verification when an empty ciphertext was passed to
+      the function. The callers of this function might believe that a successful
+      return indicates a valid AEAD tag for these ciphers, even when that has not
+      truly been validated in this case.
+
+      FIPS impact: no
+      The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are not affected by this CVE
+      as the affected algorithms are not FIPS approved and thus not implemented
+      in the FIPS module.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-354
+    VendorSeverity:
+      amazon: 3
+      azure: 2
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-75803
+    - https://github.com/openssl/openssl/commit/119ab9555dc62275bbd71f6f49529b1a44feba42
+    - https://github.com/openssl/openssl/commit/3621257986e27e540bf96a11570929a6e5a9e05b
+    - https://github.com/openssl/openssl/commit/6c7aa6f8f6449b7fe0137ee8be65fcd239bd7d6a
+    - https://github.com/openssl/openssl/commit/bdeb0cd994d915342787f117ee75044f0dc36f34
+    - https://github.com/openssl/openssl/commit/bf95f5f772e9362f87b25cfa2f8cb15d984865b9
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-75803
+    - https://openssl-library.org/news/secadv/20260825.txt
+    - https://ubuntu.com/security/notices/USN-8678-1
+    - https://ubuntu.com/security/notices/USN-8678-3
+    - https://www.cve.org/CVERecord?id=CVE-2026-75803
+    PublishedDate: '2026-08-25T13:19:29.57Z'
+    LastModifiedDate: '2026-09-11T21:17:17.823Z'
   - VulnerabilityID: CVE-2026-14457
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -3080,6 +3348,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      alma: 3
+      amazon: 3
       oracle-oval: 3
       redhat: 1
       ubuntu: 1
@@ -3088,7 +3358,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-14457
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/1e8c398db67404babd3e5af999bb6bd86f720c76
     - https://github.com/openssl/openssl/commit/581aaa0f0a35d214740f0fe1f5283ec41f1212e1
     - https://github.com/openssl/openssl/commit/d0af20478688a6aa2f59d61caa3f82136b181d7f
@@ -3183,6 +3464,8 @@
     CweIDs:
     - CWE-405
     VendorSeverity:
+      alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       redhat: 1
@@ -3192,7 +3475,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-54874
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/4808b5d64176451f3d93d87d0ac9c81a9b13fb23
     - https://github.com/openssl/openssl/commit/7110cb2f75806d0bf809eb2f90790d477900be40
     - https://github.com/openssl/openssl/commit/a0c8ec557d9cac078f032d76cdf684fe743eb382
@@ -3260,6 +3554,8 @@
     CweIDs:
     - CWE-134
     VendorSeverity:
+      alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       redhat: 1
@@ -3269,7 +3565,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63073
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/0cc20b322639919aa423e90799d9a57c3b4b76ca
     - https://github.com/openssl/openssl/commit/6a0acc072b4d37a7cac1252a29c1ce1f00c5ec29
     - https://github.com/openssl/openssl/commit/7eb2e3ec9d1d4f35c8022fccd4b03398b3f33e21
@@ -3333,6 +3640,8 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       redhat: 1
@@ -3342,7 +3651,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63074
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/01e567978a55fba18142a230380c31296049fae7
     - https://github.com/openssl/openssl/commit/21a5d9658b0c66daace60e10ea18ff32a448de9f
     - https://github.com/openssl/openssl/commit/74ae7f6df47a5767c1010b88c47507dfc5b32c46
@@ -3411,6 +3731,8 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       redhat: 1
@@ -3420,7 +3742,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63075
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/7308946576b12e64b8be53bcf0a120354b2b42bc
     - https://github.com/openssl/openssl/commit/7c98d79738549df92868e7dd9be4bbf061eed709
     - https://github.com/openssl/openssl/commit/bf84721c2548351176e367e6de505792f0118dc6
@@ -3433,66 +3766,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-63075
     PublishedDate: '2026-08-25T13:19:26.413Z'
     LastModifiedDate: '2026-09-11T21:17:05.403Z'
-  - VulnerabilityID: CVE-2026-75803
-    PkgID: libssl3@3.5.7-r0
-    PkgName: libssl3
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/libssl3@3.5.7-r0?arch=x86_64&distro=3.24.0
-      UID: bb71d8f8e07d4a4a
-    InstalledVersion: 3.5.7-r0
-    FixedVersion: 3.5.8-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
-      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75803
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:b56e9a6889d19eba29120982da8abc0e60bb7d340ccf4a3242931a2083fa96b6
-    Title: 'Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty  ...'
-    Description: |-
-      Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty
-      ciphertext can report success without verifying the supplied authentication
-      tag when the operation is finalized by calling the EVP_Cipher() function.
-
-      Impact summary: Applications calling EVP_Cipher() on an empty ciphertext and
-      expecting the call to check the AEAD tag may accept forged messages.
-
-      CWE: CWE-354 (Improper Validation of Integrity Check Value)
-
-      Description: The EVP_Cipher() API call for AEAD ciphers behaves like a one
-      shot encryption and decryption call. It also verifies the AEAD tag after the
-      decryption operation. However for AES-OCB and ChaCha20-Poly1305 ciphers
-      it skipped the AEAD tag verification when an empty ciphertext was passed to
-      the function. The callers of this function might believe that a successful
-      return indicates a valid AEAD tag for these ciphers, even when that has not
-      truly been validated in this case.
-
-      FIPS impact: no
-      The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are not affected by this CVE
-      as the affected algorithms are not FIPS approved and thus not implemented
-      in the FIPS module.
-    Severity: LOW
-    CweIDs:
-    - CWE-354
-    VendorSeverity:
-      azure: 2
-      ubuntu: 1
-    References:
-    - https://github.com/openssl/openssl/commit/119ab9555dc62275bbd71f6f49529b1a44feba42
-    - https://github.com/openssl/openssl/commit/3621257986e27e540bf96a11570929a6e5a9e05b
-    - https://github.com/openssl/openssl/commit/6c7aa6f8f6449b7fe0137ee8be65fcd239bd7d6a
-    - https://github.com/openssl/openssl/commit/bdeb0cd994d915342787f117ee75044f0dc36f34
-    - https://github.com/openssl/openssl/commit/bf95f5f772e9362f87b25cfa2f8cb15d984865b9
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-75803
-    - https://openssl-library.org/news/secadv/20260825.txt
-    - https://ubuntu.com/security/notices/USN-8678-1
-    - https://ubuntu.com/security/notices/USN-8678-3
-    - https://www.cve.org/CVERecord?id=CVE-2026-75803
-    PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-09-11T21:17:17.823Z'
   - VulnerabilityID: CVE-2026-14456
     PkgID: openssl@3.5.7-r0
     PkgName: openssl
@@ -3548,6 +3821,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
       amazon: 3
       oracle-oval: 3
       photon: 3
@@ -3559,7 +3833,18 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/08/13/4
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-14456
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/08e7756c3900bcfd77a720e7b74e27d6e4ed01a9
     - https://github.com/openssl/openssl/commit/4084152e040329ca0194c4c1750b9b46d00a5b6b
     - https://github.com/openssl/openssl/commit/f2f1465f2d2e5c61dfeac4d20fd093797d821139
@@ -3624,6 +3909,8 @@
     CweIDs:
     - CWE-415
     VendorSeverity:
+      alma: 3
+      amazon: 3
       oracle-oval: 3
       redhat: 2
       ubuntu: 2
@@ -3632,7 +3919,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-18798
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/70cebd74d3592f5272945501b58a60374c4e13af
     - https://github.com/openssl/openssl/commit/967582d5037f01a26b6d19beae19af62a1b15c3c
     - https://github.com/openssl/openssl/commit/a14a1deac403522fbeafabcb198503cf6caa7dc4
@@ -3699,6 +3997,8 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       redhat: 2
@@ -3708,7 +4008,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63072
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/2a3dac874c8057c1f0186849bf1ede1ae7b6b756
     - https://github.com/openssl/openssl/commit/87784ad619af36b8807c2044b3940006fccc1e42
     - https://github.com/openssl/openssl/commit/9530a5fd1aacaeccdced4478ea2340a480613335
@@ -3780,6 +4091,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      alma: 3
+      amazon: 3
       azure: 3
       oracle-oval: 3
       redhat: 2
@@ -3789,7 +4102,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63076
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/37882aa2e0256e1072442a8f62f7db45b995c45b
     - https://github.com/openssl/openssl/commit/a17cc8d612ecff6d94a9b7ca8b5283ddf5ff570e
     - https://github.com/openssl/openssl/commit/a1f348ccb328c3afbd4ba6883f9b7c813c043259
@@ -3804,6 +4128,73 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-63076
     PublishedDate: '2026-08-25T13:19:26.543Z'
     LastModifiedDate: '2026-09-11T21:17:12.46Z'
+  - VulnerabilityID: CVE-2026-75803
+    PkgID: openssl@3.5.7-r0
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openssl@3.5.7-r0?arch=x86_64&distro=3.24.0
+      UID: b09000de20f41fd2
+    InstalledVersion: 3.5.7-r0
+    FixedVersion: 3.5.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75803
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:38b7ecaa96726f6017ea7b52ede4759c1528b88ea5c486bb180b5d97881af7c0
+    Title: 'openssl: openssl: AEAD forgeries possible with empty ciphertext in EVP_Cipher()'
+    Description: |-
+      Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty
+      ciphertext can report success without verifying the supplied authentication
+      tag when the operation is finalized by calling the EVP_Cipher() function.
+
+      Impact summary: Applications calling EVP_Cipher() on an empty ciphertext and
+      expecting the call to check the AEAD tag may accept forged messages.
+
+      CWE: CWE-354 (Improper Validation of Integrity Check Value)
+
+      Description: The EVP_Cipher() API call for AEAD ciphers behaves like a one
+      shot encryption and decryption call. It also verifies the AEAD tag after the
+      decryption operation. However for AES-OCB and ChaCha20-Poly1305 ciphers
+      it skipped the AEAD tag verification when an empty ciphertext was passed to
+      the function. The callers of this function might believe that a successful
+      return indicates a valid AEAD tag for these ciphers, even when that has not
+      truly been validated in this case.
+
+      FIPS impact: no
+      The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are not affected by this CVE
+      as the affected algorithms are not FIPS approved and thus not implemented
+      in the FIPS module.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-354
+    VendorSeverity:
+      amazon: 3
+      azure: 2
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-75803
+    - https://github.com/openssl/openssl/commit/119ab9555dc62275bbd71f6f49529b1a44feba42
+    - https://github.com/openssl/openssl/commit/3621257986e27e540bf96a11570929a6e5a9e05b
+    - https://github.com/openssl/openssl/commit/6c7aa6f8f6449b7fe0137ee8be65fcd239bd7d6a
+    - https://github.com/openssl/openssl/commit/bdeb0cd994d915342787f117ee75044f0dc36f34
+    - https://github.com/openssl/openssl/commit/bf95f5f772e9362f87b25cfa2f8cb15d984865b9
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-75803
+    - https://openssl-library.org/news/secadv/20260825.txt
+    - https://ubuntu.com/security/notices/USN-8678-1
+    - https://ubuntu.com/security/notices/USN-8678-3
+    - https://www.cve.org/CVERecord?id=CVE-2026-75803
+    PublishedDate: '2026-08-25T13:19:29.57Z'
+    LastModifiedDate: '2026-09-11T21:17:17.823Z'
   - VulnerabilityID: CVE-2026-14457
     PkgID: openssl@3.5.7-r0
     PkgName: openssl
@@ -3856,6 +4247,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      alma: 3
+      amazon: 3
       oracle-oval: 3
       redhat: 1
       ubuntu: 1
@@ -3864,7 +4257,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-14457
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/1e8c398db67404babd3e5af999bb6bd86f720c76
     - https://github.com/openssl/openssl/commit/581aaa0f0a35d214740f0fe1f5283ec41f1212e1
     - https://github.com/openssl/openssl/commit/d0af20478688a6aa2f59d61caa3f82136b181d7f
@@ -3959,6 +4363,8 @@
     CweIDs:
     - CWE-405
     VendorSeverity:
+      alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       redhat: 1
@@ -3968,7 +4374,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-54874
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/4808b5d64176451f3d93d87d0ac9c81a9b13fb23
     - https://github.com/openssl/openssl/commit/7110cb2f75806d0bf809eb2f90790d477900be40
     - https://github.com/openssl/openssl/commit/a0c8ec557d9cac078f032d76cdf684fe743eb382
@@ -4036,6 +4453,8 @@
     CweIDs:
     - CWE-134
     VendorSeverity:
+      alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       redhat: 1
@@ -4045,7 +4464,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63073
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/0cc20b322639919aa423e90799d9a57c3b4b76ca
     - https://github.com/openssl/openssl/commit/6a0acc072b4d37a7cac1252a29c1ce1f00c5ec29
     - https://github.com/openssl/openssl/commit/7eb2e3ec9d1d4f35c8022fccd4b03398b3f33e21
@@ -4109,6 +4539,8 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       redhat: 1
@@ -4118,7 +4550,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63074
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/01e567978a55fba18142a230380c31296049fae7
     - https://github.com/openssl/openssl/commit/21a5d9658b0c66daace60e10ea18ff32a448de9f
     - https://github.com/openssl/openssl/commit/74ae7f6df47a5767c1010b88c47507dfc5b32c46
@@ -4187,6 +4630,8 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       redhat: 1
@@ -4196,7 +4641,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63075
+    - https://bugzilla.redhat.com/2515348
+    - https://bugzilla.redhat.com/2517559
+    - https://bugzilla.redhat.com/2517560
+    - https://bugzilla.redhat.com/2517561
+    - https://bugzilla.redhat.com/2517562
+    - https://bugzilla.redhat.com/2517564
+    - https://bugzilla.redhat.com/2517565
+    - https://bugzilla.redhat.com/2517566
+    - https://bugzilla.redhat.com/2517570
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://github.com/openssl/openssl/commit/7308946576b12e64b8be53bcf0a120354b2b42bc
     - https://github.com/openssl/openssl/commit/7c98d79738549df92868e7dd9be4bbf061eed709
     - https://github.com/openssl/openssl/commit/bf84721c2548351176e367e6de505792f0118dc6
@@ -4209,66 +4665,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-63075
     PublishedDate: '2026-08-25T13:19:26.413Z'
     LastModifiedDate: '2026-09-11T21:17:05.403Z'
-  - VulnerabilityID: CVE-2026-75803
-    PkgID: openssl@3.5.7-r0
-    PkgName: openssl
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/openssl@3.5.7-r0?arch=x86_64&distro=3.24.0
-      UID: b09000de20f41fd2
-    InstalledVersion: 3.5.7-r0
-    FixedVersion: 3.5.8-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
-      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75803
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:38b7ecaa96726f6017ea7b52ede4759c1528b88ea5c486bb180b5d97881af7c0
-    Title: 'Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty  ...'
-    Description: |-
-      Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty
-      ciphertext can report success without verifying the supplied authentication
-      tag when the operation is finalized by calling the EVP_Cipher() function.
-
-      Impact summary: Applications calling EVP_Cipher() on an empty ciphertext and
-      expecting the call to check the AEAD tag may accept forged messages.
-
-      CWE: CWE-354 (Improper Validation of Integrity Check Value)
-
-      Description: The EVP_Cipher() API call for AEAD ciphers behaves like a one
-      shot encryption and decryption call. It also verifies the AEAD tag after the
-      decryption operation. However for AES-OCB and ChaCha20-Poly1305 ciphers
-      it skipped the AEAD tag verification when an empty ciphertext was passed to
-      the function. The callers of this function might believe that a successful
-      return indicates a valid AEAD tag for these ciphers, even when that has not
-      truly been validated in this case.
-
-      FIPS impact: no
-      The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are not affected by this CVE
-      as the affected algorithms are not FIPS approved and thus not implemented
-      in the FIPS module.
-    Severity: LOW
-    CweIDs:
-    - CWE-354
-    VendorSeverity:
-      azure: 2
-      ubuntu: 1
-    References:
-    - https://github.com/openssl/openssl/commit/119ab9555dc62275bbd71f6f49529b1a44feba42
-    - https://github.com/openssl/openssl/commit/3621257986e27e540bf96a11570929a6e5a9e05b
-    - https://github.com/openssl/openssl/commit/6c7aa6f8f6449b7fe0137ee8be65fcd239bd7d6a
-    - https://github.com/openssl/openssl/commit/bdeb0cd994d915342787f117ee75044f0dc36f34
-    - https://github.com/openssl/openssl/commit/bf95f5f772e9362f87b25cfa2f8cb15d984865b9
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-75803
-    - https://openssl-library.org/news/secadv/20260825.txt
-    - https://ubuntu.com/security/notices/USN-8678-1
-    - https://ubuntu.com/security/notices/USN-8678-3
-    - https://www.cve.org/CVERecord?id=CVE-2026-75803
-    PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-09-11T21:17:17.823Z'
   - VulnerabilityID: CVE-2026-11940
     PkgID: pyc@3.14.5-r2
     PkgName: pyc
