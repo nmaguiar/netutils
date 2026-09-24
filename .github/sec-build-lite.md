@@ -1,8 +1,52 @@
 ```yaml
-╭ [0] ╭ Target  : nmaguiar/netutils:build-lite (alpine 3.25.0_alpha20260805) 
-│     ├ Class   : os-pkgs 
-│     ├ Type    : alpine 
-│     ╰ Packages 
+╭ [0] ╭ Target         : nmaguiar/netutils:build-lite (alpine 3.25.0_alpha20260805) 
+│     ├ Class          : os-pkgs 
+│     ├ Type           : alpine 
+│     ├ Packages        
+│     ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2026-93990 
+│                             ├ PkgID           : libexpat@2.8.4-r0 
+│                             ├ PkgName         : libexpat 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.4-r0?arch=x86_64&distro=3.
+│                             │                  │       25.0_alpha20260805 
+│                             │                  ╰ UID : 5e84ac2bd5184bed 
+│                             ├ InstalledVersion: 2.8.4-r0 
+│                             ├ FixedVersion    : 2.8.5-r0 
+│                             ├ Status          : fixed 
+│                             ├ Layer            ╭ Digest: sha256:59d14467a4202e68faf3ad19ad62a64394463afa7fd11
+│                             │                  │         ea16b3a6ffe197d208a 
+│                             │                  ╰ DiffID: sha256:f0afab2a6160e85bbb77f737db783978da98a69b088e0
+│                             │                            0d8b8969e8b81b64905 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-93990 
+│                             ├ DataSource       ╭ ID  : alpine 
+│                             │                  ├ Name: Alpine Secdb 
+│                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                             ├ Fingerprint     : sha256:115013b212a86d484def4f03680ea66e87250138b14a69ba311992
+│                             │                   ad4047e4e3 
+│                             ├ Title           : expat: Expat: XML Injection via Malformed UTF-16 Input 
+│                             ├ Description     : Expat through 2.8.4 fails to validate low surrogates
+│                             │                   following high surrogates in UTF-16 input, allowing malformed
+│                             │                    UTF-16 sequences to be accepted. Attackers can craft UTF-16
+│                             │                   encoded XML with lone high surrogates that consume following
+│                             │                   code units, hiding markup characters from the parser and
+│                             │                   enabling XML injection attacks. 
+│                             ├ Severity        : HIGH 
+│                             ├ CweIDs           ─ [0]: CWE-176 
+│                             ├ VendorSeverity   ─ redhat: 3 
+│                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/
+│                             │                           │           A:N 
+│                             │                           ╰ V3Score : 7.5 
+│                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-93990 
+│                             │                  ├ [1]: https://github.com/libexpat/libexpat 
+│                             │                  ├ [2]: https://github.com/libexpat/libexpat/commit/ff6e1d7e750
+│                             │                  │      bbe245178f51a47a965dc8342861a 
+│                             │                  ├ [3]: https://github.com/libexpat/libexpat/pull/1282 
+│                             │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-93990 
+│                             │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2026-93990 
+│                             │                  ╰ [6]: https://www.vulncheck.com/advisories/expat-through-2.8.
+│                             │                         4-malformed-utf-16-acceptance-via-unchecked-surrogate[
+│                             │                         m 
+│                             ├ PublishedDate   : 2026-09-19T23:17:10.203Z 
+│                             ╰ LastModifiedDate: 2026-09-22T20:25:55.87Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
