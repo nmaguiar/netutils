@@ -34,19 +34,16 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-488 
 │                       │       ├ VendorSeverity   ╭ photon: 4 
-│                       │       │                  ├ redhat: 2 
-│                       │       │                  ╰ ubuntu: 2 
+│                       │       │                  ╰ redhat: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 6.5 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-19931 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-19931.html 
 │                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-19931.json 
-│                       │       │                  ├ [3]: https://github.com/curl/curl/commit/7103a93b05bc69ea9
-│                       │       │                  │      8ed9d 
-│                       │       │                  ├ [4]: https://hackerone.com/reports/3923520 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-19931 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-19931 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3923520 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-19931 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-19931 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:20.733Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:27.29Z 
 │                       ├ [1]   ╭ VulnerabilityID : CVE-2026-80229 
@@ -92,7 +89,8 @@
 │                       │       │                  ├ [2]: https://github.com/curl/curl/commit/7ea37abc6ac0120ba
 │                       │       │                  │      5f6d9 
 │                       │       │                  ├ [3]: https://hackerone.com/reports/3969255 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-80229 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8820-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-80229 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.217Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:30.157Z 
 │                       ├ [2]   ╭ VulnerabilityID : CVE-2026-82208 
@@ -181,11 +179,12 @@
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-13608 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-13608.html 
 │                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-13608.json 
-│                       │       │                  ├ [3]: https://github.com/curl/curl/pull/22213/changes/1a00e
-│                       │       │                  │      2a73675c9521d214aafd6c02b553bfeb022 
+│                       │       │                  ├ [3]: https://github.com/curl/curl/commit/ea71c3b6b60e56365
+│                       │       │                  │      1ea8596a9 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3822248 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-13608 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-13608 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8820-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-13608 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:19.81Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:26.353Z 
 │                       ├ [4]   ╭ VulnerabilityID : CVE-2026-18924 
@@ -229,7 +228,8 @@
 │                       │       │                  │      68bda5d26d6 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3916059 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-18924 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-18924 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8820-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-18924 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:20.553Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:27.063Z 
 │                       ├ [5]   ╭ VulnerabilityID : CVE-2026-80230 
@@ -280,7 +280,8 @@
 │                       │       │                  │      0c21 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3969300 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-80230 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-80230 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8820-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-80230 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.327Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:30.337Z 
 │                       ├ [6]   ╭ VulnerabilityID : CVE-2026-80231 
@@ -369,7 +370,8 @@
 │                       │       │                  │      76677 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3972395 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-80255 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-80255 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8820-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-80255 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.623Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:30.77Z 
 │                       ├ [8]   ╭ VulnerabilityID : CVE-2026-82209 
@@ -425,7 +427,8 @@
 │                       │       │                  │      bd753fd47f 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3972385 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-82209 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-82209 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8820-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-82209 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.847Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:31.233Z 
 │                       ├ [9]   ╭ VulnerabilityID : CVE-2026-80256 
@@ -481,19 +484,16 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-488 
 │                       │       ├ VendorSeverity   ╭ photon: 4 
-│                       │       │                  ├ redhat: 2 
-│                       │       │                  ╰ ubuntu: 2 
+│                       │       │                  ╰ redhat: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 6.5 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-19931 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-19931.html 
 │                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-19931.json 
-│                       │       │                  ├ [3]: https://github.com/curl/curl/commit/7103a93b05bc69ea9
-│                       │       │                  │      8ed9d 
-│                       │       │                  ├ [4]: https://hackerone.com/reports/3923520 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-19931 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-19931 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3923520 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-19931 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-19931 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:20.733Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:27.29Z 
 │                       ├ [11]  ╭ VulnerabilityID : CVE-2026-80229 
@@ -539,7 +539,8 @@
 │                       │       │                  ├ [2]: https://github.com/curl/curl/commit/7ea37abc6ac0120ba
 │                       │       │                  │      5f6d9 
 │                       │       │                  ├ [3]: https://hackerone.com/reports/3969255 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-80229 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8820-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-80229 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.217Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:30.157Z 
 │                       ├ [12]  ╭ VulnerabilityID : CVE-2026-82208 
@@ -628,11 +629,12 @@
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-13608 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-13608.html 
 │                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-13608.json 
-│                       │       │                  ├ [3]: https://github.com/curl/curl/pull/22213/changes/1a00e
-│                       │       │                  │      2a73675c9521d214aafd6c02b553bfeb022 
+│                       │       │                  ├ [3]: https://github.com/curl/curl/commit/ea71c3b6b60e56365
+│                       │       │                  │      1ea8596a9 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3822248 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-13608 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-13608 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8820-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-13608 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:19.81Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:26.353Z 
 │                       ├ [14]  ╭ VulnerabilityID : CVE-2026-18924 
@@ -676,7 +678,8 @@
 │                       │       │                  │      68bda5d26d6 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3916059 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-18924 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-18924 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8820-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-18924 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:20.553Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:27.063Z 
 │                       ├ [15]  ╭ VulnerabilityID : CVE-2026-80230 
@@ -727,7 +730,8 @@
 │                       │       │                  │      0c21 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3969300 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-80230 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-80230 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8820-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-80230 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.327Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:30.337Z 
 │                       ├ [16]  ╭ VulnerabilityID : CVE-2026-80231 
@@ -816,7 +820,8 @@
 │                       │       │                  │      76677 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3972395 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-80255 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-80255 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8820-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-80255 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.623Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:30.77Z 
 │                       ├ [18]  ╭ VulnerabilityID : CVE-2026-82209 
@@ -872,7 +877,8 @@
 │                       │       │                  │      bd753fd47f 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3972385 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-82209 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-82209 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8820-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-82209 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.847Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:31.233Z 
 │                       ├ [19]  ╭ VulnerabilityID : CVE-2026-80256 
@@ -1120,7 +1126,7 @@
 │                       │       │                  ╰ [10]: https://www.vulncheck.com/advisories/util-linux-libm
 │                       │       │                          ount-privilege-escalation-via-failed-mount-helper 
 │                       │       ├ PublishedDate   : 2026-09-03T13:06:08.44Z 
-│                       │       ╰ LastModifiedDate: 2026-09-03T15:17:33.49Z 
+│                       │       ╰ LastModifiedDate: 2026-09-24T20:28:01.78Z 
 │                       ├ [24]  ╭ VulnerabilityID : CVE-2026-78408 
 │                       │       ├ PkgID           : libblkid@2.42.2-r0 
 │                       │       ├ PkgName         : libblkid 
@@ -2617,19 +2623,16 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-488 
 │                       │       ├ VendorSeverity   ╭ photon: 4 
-│                       │       │                  ├ redhat: 2 
-│                       │       │                  ╰ ubuntu: 2 
+│                       │       │                  ╰ redhat: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 6.5 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-19931 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-19931.html 
 │                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-19931.json 
-│                       │       │                  ├ [3]: https://github.com/curl/curl/commit/7103a93b05bc69ea9
-│                       │       │                  │      8ed9d 
-│                       │       │                  ├ [4]: https://hackerone.com/reports/3923520 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-19931 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-19931 
+│                       │       │                  ├ [3]: https://hackerone.com/reports/3923520 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-19931 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-19931 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:20.733Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:27.29Z 
 │                       ├ [38]  ╭ VulnerabilityID : CVE-2026-80229 
@@ -2675,7 +2678,8 @@
 │                       │       │                  ├ [2]: https://github.com/curl/curl/commit/7ea37abc6ac0120ba
 │                       │       │                  │      5f6d9 
 │                       │       │                  ├ [3]: https://hackerone.com/reports/3969255 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-80229 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8820-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-80229 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.217Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:30.157Z 
 │                       ├ [39]  ╭ VulnerabilityID : CVE-2026-82208 
@@ -2764,11 +2768,12 @@
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-13608 
 │                       │       │                  ├ [1]: https://curl.se/docs/CVE-2026-13608.html 
 │                       │       │                  ├ [2]: https://curl.se/docs/CVE-2026-13608.json 
-│                       │       │                  ├ [3]: https://github.com/curl/curl/pull/22213/changes/1a00e
-│                       │       │                  │      2a73675c9521d214aafd6c02b553bfeb022 
+│                       │       │                  ├ [3]: https://github.com/curl/curl/commit/ea71c3b6b60e56365
+│                       │       │                  │      1ea8596a9 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3822248 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-13608 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-13608 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8820-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-13608 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:19.81Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:26.353Z 
 │                       ├ [41]  ╭ VulnerabilityID : CVE-2026-18924 
@@ -2812,7 +2817,8 @@
 │                       │       │                  │      68bda5d26d6 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3916059 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-18924 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-18924 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8820-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-18924 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:20.553Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:27.063Z 
 │                       ├ [42]  ╭ VulnerabilityID : CVE-2026-80230 
@@ -2863,7 +2869,8 @@
 │                       │       │                  │      0c21 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3969300 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-80230 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-80230 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8820-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-80230 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.327Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:30.337Z 
 │                       ├ [43]  ╭ VulnerabilityID : CVE-2026-80231 
@@ -2952,7 +2959,8 @@
 │                       │       │                  │      76677 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3972395 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-80255 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-80255 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8820-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-80255 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.623Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:30.77Z 
 │                       ├ [45]  ╭ VulnerabilityID : CVE-2026-82209 
@@ -3008,7 +3016,8 @@
 │                       │       │                  │      bd753fd47f 
 │                       │       │                  ├ [4]: https://hackerone.com/reports/3972385 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-82209 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-82209 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-8820-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-82209 
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.847Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:31.233Z 
 │                       ├ [46]  ╭ VulnerabilityID : CVE-2026-80256 
@@ -3077,8 +3086,9 @@
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-66046 
 │                       │       │                  ├ [1]: https://github.com/libexpat/libexpat/pull/1321 
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-66046 
-│                       │       │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2026-66046 
-│                       │       │                  ╰ [4]: https://www.vulncheck.com/advisories/expat-denial-of-
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8813-1 
+│                       │       │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2026-66046 
+│                       │       │                  ╰ [5]: https://www.vulncheck.com/advisories/expat-denial-of-
 │                       │       │                         service-via-storeatts-quadratic-complexity 
 │                       │       ├ PublishedDate   : 2026-08-18T15:16:57Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T15:07:24.37Z 
@@ -3126,11 +3136,12 @@
 │                       │       │                  │      c2b460410881fe420f5f55d6bec63bf 
 │                       │       │                  ├ [2]: https://github.com/libexpat/libexpat/pull/1331 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-76641 
-│                       │       │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2026-76641 
-│                       │       │                  ╰ [5]: https://www.vulncheck.com/advisories/expat-out-of-bou
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8813-1 
+│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2026-76641 
+│                       │       │                  ╰ [6]: https://www.vulncheck.com/advisories/expat-out-of-bou
 │                       │       │                         nds-read-via-dtdcopy 
 │                       │       ├ PublishedDate   : 2026-08-20T18:16:51.887Z 
-│                       │       ╰ LastModifiedDate: 2026-08-20T19:17:04.43Z 
+│                       │       ╰ LastModifiedDate: 2026-09-24T20:02:50.26Z 
 │                       ├ [49]  ╭ VulnerabilityID : CVE-2026-76956 
 │                       │       ├ PkgID           : libexpat@2.8.2-r0 
 │                       │       ├ PkgName         : libexpat 
@@ -3219,7 +3230,8 @@
 │                       │       │                  ├ [1]: https://github.com/libexpat/libexpat/pull/1322 
 │                       │       │                  ├ [2]: https://github.com/libexpat/libexpat/pull/1329 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-76957 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-76957 
+│                       │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-8813-1 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-76957 
 │                       │       ├ PublishedDate   : 2026-08-20T05:16:29.747Z 
 │                       │       ╰ LastModifiedDate: 2026-09-08T20:56:31.86Z 
 │                       ├ [51]  ╭ VulnerabilityID : CVE-2026-93990 
@@ -3322,7 +3334,7 @@
 │                       │       │                  ╰ [10]: https://www.vulncheck.com/advisories/util-linux-libm
 │                       │       │                          ount-privilege-escalation-via-failed-mount-helper 
 │                       │       ├ PublishedDate   : 2026-09-03T13:06:08.44Z 
-│                       │       ╰ LastModifiedDate: 2026-09-03T15:17:33.49Z 
+│                       │       ╰ LastModifiedDate: 2026-09-24T20:28:01.78Z 
 │                       ├ [53]  ╭ VulnerabilityID : CVE-2026-78408 
 │                       │       ├ PkgID           : libmount@2.42.2-r0 
 │                       │       ├ PkgName         : libmount 
@@ -3495,7 +3507,8 @@
 │                       │       │                  ├ [1]: CWE-129 
 │                       │       │                  ╰ [2]: CWE-787 
 │                       │       ├ VendorSeverity   ╭ azure : 3 
-│                       │       │                  ╰ redhat: 3 
+│                       │       │                  ├ redhat: 3 
+│                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:
 │                       │       │                           │           H/A:H 
 │                       │       │                           ╰ V3Score : 8.7 
@@ -3503,7 +3516,8 @@
 │                       │       │                  ├ [1]: https://github.com/the-tcpdump-group/libpcap/commit/4
 │                       │       │                  │      8e8960a7108e9e828f9d7bdc7e97bdab841aec7 
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-0799 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-0799 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8824-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-0799 
 │                       │       ├ PublishedDate   : 2026-09-05T19:16:55.32Z 
 │                       │       ╰ LastModifiedDate: 2026-09-08T19:20:25.117Z 
 │                       ├ [57]  ╭ VulnerabilityID : CVE-2026-31911 
@@ -9837,7 +9851,7 @@
 │                       │       │                  ╰ [10]: https://www.vulncheck.com/advisories/util-linux-libm
 │                       │       │                          ount-privilege-escalation-via-failed-mount-helper 
 │                       │       ├ PublishedDate   : 2026-09-03T13:06:08.44Z 
-│                       │       ╰ LastModifiedDate: 2026-09-03T15:17:33.49Z 
+│                       │       ╰ LastModifiedDate: 2026-09-24T20:28:01.78Z 
 │                       ├ [130] ╭ VulnerabilityID : CVE-2026-78408 
 │                       │       ├ PkgID           : util-linux-doc@2.42.2-r0 
 │                       │       ├ PkgName         : util-linux-doc 
