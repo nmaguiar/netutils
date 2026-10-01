@@ -179,14 +179,13 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/06/10/2
-    - https://access.redhat.com/errata/RHSA-2026:49520
     - https://access.redhat.com/errata/RHSA-2026:50108
     - https://access.redhat.com/security/cve/CVE-2026-10846
     - https://bugzilla.redhat.com/2487437
     - https://bugzilla.redhat.com/show_bug.cgi?id=2487437
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-10846
-    - https://errata.almalinux.org/8/ALSA-2026-49520.html
+    - https://errata.almalinux.org/9/ALSA-2026-50108.html
     - https://errata.rockylinux.org/RLSA-2026:50108
     - https://linux.oracle.com/cve/CVE-2026-10846.html
     - https://linux.oracle.com/errata/ELSA-2026-50108-0.html
@@ -1010,14 +1009,15 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H
         V3Score: 8.6
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67908
     - https://access.redhat.com/errata/RHSA-2026:67910
     - https://access.redhat.com/security/cve/CVE-2026-63387
     - https://bugzilla.redhat.com/2520654
     - https://bugzilla.redhat.com/2520655
+    - https://bugzilla.redhat.com/2520657
     - https://bugzilla.redhat.com/2520658
     - https://bugzilla.redhat.com/2520661
     - https://bugzilla.redhat.com/2520666
+    - https://bugzilla.redhat.com/2520667
     - https://bugzilla.redhat.com/show_bug.cgi?id=2520654
     - https://bugzilla.redhat.com/show_bug.cgi?id=2520655
     - https://bugzilla.redhat.com/show_bug.cgi?id=2520657
@@ -1035,7 +1035,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63385
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63387
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63388
-    - https://errata.almalinux.org/8/ALSA-2026-67908.html
+    - https://errata.almalinux.org/9/ALSA-2026-67910.html
     - https://errata.rockylinux.org/RLSA-2026:67910
     - https://github.com/libevent/libevent/releases/tag/release-2.1.13-stable
     - https://github.com/libevent/libevent/releases/tag/release-2.2.2-alpha
@@ -1084,14 +1084,15 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67908
     - https://access.redhat.com/errata/RHSA-2026:67910
     - https://access.redhat.com/security/cve/CVE-2026-63388
     - https://bugzilla.redhat.com/2520654
     - https://bugzilla.redhat.com/2520655
+    - https://bugzilla.redhat.com/2520657
     - https://bugzilla.redhat.com/2520658
     - https://bugzilla.redhat.com/2520661
     - https://bugzilla.redhat.com/2520666
+    - https://bugzilla.redhat.com/2520667
     - https://bugzilla.redhat.com/show_bug.cgi?id=2520654
     - https://bugzilla.redhat.com/show_bug.cgi?id=2520655
     - https://bugzilla.redhat.com/show_bug.cgi?id=2520657
@@ -1109,7 +1110,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63385
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63387
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63388
-    - https://errata.almalinux.org/8/ALSA-2026-67908.html
+    - https://errata.almalinux.org/9/ALSA-2026-67910.html
     - https://errata.rockylinux.org/RLSA-2026:67910
     - https://github.com/libevent/libevent/commit/52057cb33d0c20c0a0453fbabe6c0c96854931b9
     - https://github.com/libevent/libevent/commit/ef38f926e9cd1f082416c6fff13587bc1f431d72
@@ -2179,14 +2180,13 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/06/10/2
-    - https://access.redhat.com/errata/RHSA-2026:49520
     - https://access.redhat.com/errata/RHSA-2026:50108
     - https://access.redhat.com/security/cve/CVE-2026-10846
     - https://bugzilla.redhat.com/2487437
     - https://bugzilla.redhat.com/show_bug.cgi?id=2487437
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-10846
-    - https://errata.almalinux.org/8/ALSA-2026-49520.html
+    - https://errata.almalinux.org/9/ALSA-2026-50108.html
     - https://errata.rockylinux.org/RLSA-2026:50108
     - https://linux.oracle.com/cve/CVE-2026-10846.html
     - https://linux.oracle.com/errata/ELSA-2026-50108-0.html
@@ -2293,7 +2293,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-13757
-    - https://errata.almalinux.org/10/ALSA-2026-49668.html
+    - https://errata.almalinux.org/9/ALSA-2026-49667.html
     - https://errata.rockylinux.org/RLSA-2026:49667
     - https://github.com/advisories/GHSA-p2wm-69qx-x25w
     - https://linux.oracle.com/cve/CVE-2026-13757.html
@@ -2636,6 +2636,7 @@
     - https://openssl-library.org/news/secadv/20260929.txt
     - https://openssl-library.org/news/vulnerabilities/#CVE-2026-84782
     - https://ubuntu.com/security/notices/USN-8847-1
+    - https://ubuntu.com/security/notices/USN-8847-2
     - https://www.cve.org/CVERecord?id=CVE-2026-84782
     PublishedDate: '2026-09-29T16:17:12.5Z'
     LastModifiedDate: '2026-09-29T21:27:41.13Z'
@@ -2703,9 +2704,10 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35189
     - https://openssl-library.org/news/secadv/20260929.txt
     - https://ubuntu.com/security/notices/USN-8847-1
+    - https://ubuntu.com/security/notices/USN-8847-2
     - https://www.cve.org/CVERecord?id=CVE-2026-35189
     PublishedDate: '2026-09-29T16:17:07.33Z'
-    LastModifiedDate: '2026-09-29T21:27:41.13Z'
+    LastModifiedDate: '2026-09-30T21:17:10.43Z'
   - VulnerabilityID: CVE-2026-35191
     PkgID: libssl3t64@3.5.5-1ubuntu3.5
     PkgName: libssl3t64
@@ -2778,7 +2780,72 @@
     - https://ubuntu.com/security/notices/USN-8847-1
     - https://www.cve.org/CVERecord?id=CVE-2026-35191
     PublishedDate: '2026-09-29T16:17:07.49Z'
-    LastModifiedDate: '2026-09-29T21:27:41.13Z'
+    LastModifiedDate: '2026-09-30T21:17:10.617Z'
+  - VulnerabilityID: CVE-2026-42772
+    PkgID: libssl3t64@3.5.5-1ubuntu3.5
+    PkgName: libssl3t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssl3t64@3.5.5-1ubuntu3.5?arch=amd64&distro=ubuntu-26.04
+      UID: 74f80fcbcce3ad82
+    InstalledVersion: 3.5.5-1ubuntu3.5
+    Status: affected
+    Layer:
+      Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
+      DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42772
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:6d3941fa63b84f9558f42eee7bcc587108c79bbc634d6cb6b3260d06fdf5de0a
+    Title: 'openssl: openssl: Denial of Service via inefficient QUIC stream reassembly'
+    Description: |-
+      Issue summary: The QUIC stream reassembly algorithm performance deteriorates
+      progressively as packets are arriving out of order. The worst case has
+      a quadratic complexity proportional to the number of stream frames kept in
+      the buffer for the received stream data.
+
+      Impact summary: A remote QUIC peer that completes the handshake can create
+      a connection-scoped CPU pressure and potentially a Denial of Service using
+      compliant STREAM frames inside the advertised receive window, with low
+      attacker bandwidth.
+
+      CWE: CWE-407: Inefficient Algorithmic Complexity
+
+      Description: OpenSSL manages received QUIC stream fragments using a
+      doubly-linked list. While it optimizes for append operations (at the end of
+      the list), it falls back to a head-to-tail linear search for any fragment
+      that does not immediately follow the current `tail`.
+
+      By manipulating the sequence of offsets, an attacker can force the server
+      to perform O(n^2) operations, consuming excessive CPU time for the
+      QUIC process.
+
+      FIPS impact: no
+      The FIPS module is not affected as the QUIC implementation is outside of
+      the OpenSSL FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-407
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-42772
+    - https://github.com/openssl/openssl/commit/32d0ed8afe1b8c3e7ece725b44663da3d7087a09
+    - https://github.com/openssl/openssl/commit/ca8402e273af4de5b3f04fa61a0f0c02ce3ae20e
+    - https://github.com/openssl/openssl/commit/eb2becc0a4baea7f3050a247834d0e5c2ebe1773
+    - https://github.com/openssl/openssl/commit/f42ae513bbda513b3c121d54834040ee4a0eae1a
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42772
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-42772
+    PublishedDate: '2026-09-29T16:17:07.64Z'
+    LastModifiedDate: '2026-09-30T21:17:10.803Z'
   - VulnerabilityID: CVE-2026-54872
     PkgID: libssl3t64@3.5.5-1ubuntu3.5
     PkgName: libssl3t64
@@ -2850,9 +2917,85 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-54872
     - https://openssl-library.org/news/secadv/20260929.txt
     - https://ubuntu.com/security/notices/USN-8847-1
+    - https://ubuntu.com/security/notices/USN-8847-2
     - https://www.cve.org/CVERecord?id=CVE-2026-54872
     PublishedDate: '2026-09-29T16:17:08.623Z'
     LastModifiedDate: '2026-09-29T21:27:41.13Z'
+  - VulnerabilityID: CVE-2026-54873
+    PkgID: libssl3t64@3.5.5-1ubuntu3.5
+    PkgName: libssl3t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssl3t64@3.5.5-1ubuntu3.5?arch=amd64&distro=ubuntu-26.04
+      UID: 74f80fcbcce3ad82
+    InstalledVersion: 3.5.5-1ubuntu3.5
+    Status: affected
+    Layer:
+      Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
+      DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54873
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:6bfbcd5072e09b15d1b72ffa62d0a7516761e28579f64aa59c122d8974330fe4
+    Title: 'openssl: openssl: Denial of Service via excessive QUIC packet buffer retention'
+    Description: |-
+      Issue summary: QUIC process may keep memory for QUIC packet
+      buffer for much longer period than necessary.
+
+      Impact summary: Remote peer can exploit this vulnerability
+      by sending maliciously crafted packets, making the local
+      QUIC stack to keep the memory for packet buffers allocated.
+      The time for which the memory remains allocated is entirely
+      under the control of the potentially malicious remote peer.
+
+      CWE: CWE-770: Allocation of Resources Without Limits or Throttling
+
+      Description: To save copy operation from the packet buffer to the
+      stream reassemble buffer the QUIC stack leaves the stream data
+      on the packet buffer waiting to be copied to a buffer provided
+      by the local receiving application. The QUIC stack releases
+      a reference to the packet buffer only after the data are copied
+      to the application buffer. This design is more efficient for
+      legitimate data transfers but enables an attacker to allocate a lot
+      more memory than actually required by the data kept in the receiving
+      stream buffer.
+
+      To mitigate the vulnerability, the QUIC stack now calculates
+      and monitors memory overhead for every stream. The memory overhead
+      for a single stream frame is calculated as a difference between the
+      size of the whole packet that carries the stream frame and the size
+      of the stream frame itself. The memory overhead for a single stream
+      frame is added to the total (cumulative) memory overhead QUIC stack
+      keeps for each stream. Once the cumulative memory overhead exceeds
+      64kB, the QUIC stack moves the stream frame data from the packet
+      buffer to the stream buffer, starting with the next packet received.
+
+      FIPS impact: no
+      The FIPS module is not affected as the QUIC implementation is outside of
+      the OpenSSL FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-54873
+    - https://github.com/openssl/openssl/commit/1f643b8bc735487b500a1f68a7fb3a22d5e38e23
+    - https://github.com/openssl/openssl/commit/279e7ee1392af98785746788168749491c74bd53
+    - https://github.com/openssl/openssl/commit/3ea6213e050e938ecbbf8c4eff32bec2736780eb
+    - https://github.com/openssl/openssl/commit/7127fb10888b49711c63128a09e524c0d2d5d0b2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54873
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-54873
+    PublishedDate: '2026-09-29T16:17:08.763Z'
+    LastModifiedDate: '2026-09-30T21:17:13.18Z'
   - VulnerabilityID: CVE-2026-54875
     PkgID: libssl3t64@3.5.5-1ubuntu3.5
     PkgName: libssl3t64
@@ -3317,6 +3460,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-77696
     - https://openssl-library.org/news/secadv/20260929.txt
     - https://ubuntu.com/security/notices/USN-8847-1
+    - https://ubuntu.com/security/notices/USN-8847-2
     - https://www.cve.org/CVERecord?id=CVE-2026-77696
     PublishedDate: '2026-09-29T16:17:11.493Z'
     LastModifiedDate: '2026-09-29T21:27:41.13Z'
@@ -3999,6 +4143,7 @@
     - https://openssl-library.org/news/secadv/20260929.txt
     - https://openssl-library.org/news/vulnerabilities/#CVE-2026-84782
     - https://ubuntu.com/security/notices/USN-8847-1
+    - https://ubuntu.com/security/notices/USN-8847-2
     - https://www.cve.org/CVERecord?id=CVE-2026-84782
     PublishedDate: '2026-09-29T16:17:12.5Z'
     LastModifiedDate: '2026-09-29T21:27:41.13Z'
@@ -4066,9 +4211,10 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35189
     - https://openssl-library.org/news/secadv/20260929.txt
     - https://ubuntu.com/security/notices/USN-8847-1
+    - https://ubuntu.com/security/notices/USN-8847-2
     - https://www.cve.org/CVERecord?id=CVE-2026-35189
     PublishedDate: '2026-09-29T16:17:07.33Z'
-    LastModifiedDate: '2026-09-29T21:27:41.13Z'
+    LastModifiedDate: '2026-09-30T21:17:10.43Z'
   - VulnerabilityID: CVE-2026-35191
     PkgID: openssl@3.5.5-1ubuntu3.5
     PkgName: openssl
@@ -4141,7 +4287,72 @@
     - https://ubuntu.com/security/notices/USN-8847-1
     - https://www.cve.org/CVERecord?id=CVE-2026-35191
     PublishedDate: '2026-09-29T16:17:07.49Z'
-    LastModifiedDate: '2026-09-29T21:27:41.13Z'
+    LastModifiedDate: '2026-09-30T21:17:10.617Z'
+  - VulnerabilityID: CVE-2026-42772
+    PkgID: openssl@3.5.5-1ubuntu3.5
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3.5?arch=amd64&distro=ubuntu-26.04
+      UID: 6c24167998129d
+    InstalledVersion: 3.5.5-1ubuntu3.5
+    Status: affected
+    Layer:
+      Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
+      DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42772
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:430c802c756ac7ce343377c38c4ad9a36ff8e9ff3483a4e368f65dc65a310867
+    Title: 'openssl: openssl: Denial of Service via inefficient QUIC stream reassembly'
+    Description: |-
+      Issue summary: The QUIC stream reassembly algorithm performance deteriorates
+      progressively as packets are arriving out of order. The worst case has
+      a quadratic complexity proportional to the number of stream frames kept in
+      the buffer for the received stream data.
+
+      Impact summary: A remote QUIC peer that completes the handshake can create
+      a connection-scoped CPU pressure and potentially a Denial of Service using
+      compliant STREAM frames inside the advertised receive window, with low
+      attacker bandwidth.
+
+      CWE: CWE-407: Inefficient Algorithmic Complexity
+
+      Description: OpenSSL manages received QUIC stream fragments using a
+      doubly-linked list. While it optimizes for append operations (at the end of
+      the list), it falls back to a head-to-tail linear search for any fragment
+      that does not immediately follow the current `tail`.
+
+      By manipulating the sequence of offsets, an attacker can force the server
+      to perform O(n^2) operations, consuming excessive CPU time for the
+      QUIC process.
+
+      FIPS impact: no
+      The FIPS module is not affected as the QUIC implementation is outside of
+      the OpenSSL FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-407
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-42772
+    - https://github.com/openssl/openssl/commit/32d0ed8afe1b8c3e7ece725b44663da3d7087a09
+    - https://github.com/openssl/openssl/commit/ca8402e273af4de5b3f04fa61a0f0c02ce3ae20e
+    - https://github.com/openssl/openssl/commit/eb2becc0a4baea7f3050a247834d0e5c2ebe1773
+    - https://github.com/openssl/openssl/commit/f42ae513bbda513b3c121d54834040ee4a0eae1a
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42772
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-42772
+    PublishedDate: '2026-09-29T16:17:07.64Z'
+    LastModifiedDate: '2026-09-30T21:17:10.803Z'
   - VulnerabilityID: CVE-2026-54872
     PkgID: openssl@3.5.5-1ubuntu3.5
     PkgName: openssl
@@ -4213,9 +4424,85 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-54872
     - https://openssl-library.org/news/secadv/20260929.txt
     - https://ubuntu.com/security/notices/USN-8847-1
+    - https://ubuntu.com/security/notices/USN-8847-2
     - https://www.cve.org/CVERecord?id=CVE-2026-54872
     PublishedDate: '2026-09-29T16:17:08.623Z'
     LastModifiedDate: '2026-09-29T21:27:41.13Z'
+  - VulnerabilityID: CVE-2026-54873
+    PkgID: openssl@3.5.5-1ubuntu3.5
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3.5?arch=amd64&distro=ubuntu-26.04
+      UID: 6c24167998129d
+    InstalledVersion: 3.5.5-1ubuntu3.5
+    Status: affected
+    Layer:
+      Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
+      DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54873
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:77accfdf81762a5a33beabfd6fc0e1bfce97073a4c549cdae08a74fee1df541e
+    Title: 'openssl: openssl: Denial of Service via excessive QUIC packet buffer retention'
+    Description: |-
+      Issue summary: QUIC process may keep memory for QUIC packet
+      buffer for much longer period than necessary.
+
+      Impact summary: Remote peer can exploit this vulnerability
+      by sending maliciously crafted packets, making the local
+      QUIC stack to keep the memory for packet buffers allocated.
+      The time for which the memory remains allocated is entirely
+      under the control of the potentially malicious remote peer.
+
+      CWE: CWE-770: Allocation of Resources Without Limits or Throttling
+
+      Description: To save copy operation from the packet buffer to the
+      stream reassemble buffer the QUIC stack leaves the stream data
+      on the packet buffer waiting to be copied to a buffer provided
+      by the local receiving application. The QUIC stack releases
+      a reference to the packet buffer only after the data are copied
+      to the application buffer. This design is more efficient for
+      legitimate data transfers but enables an attacker to allocate a lot
+      more memory than actually required by the data kept in the receiving
+      stream buffer.
+
+      To mitigate the vulnerability, the QUIC stack now calculates
+      and monitors memory overhead for every stream. The memory overhead
+      for a single stream frame is calculated as a difference between the
+      size of the whole packet that carries the stream frame and the size
+      of the stream frame itself. The memory overhead for a single stream
+      frame is added to the total (cumulative) memory overhead QUIC stack
+      keeps for each stream. Once the cumulative memory overhead exceeds
+      64kB, the QUIC stack moves the stream frame data from the packet
+      buffer to the stream buffer, starting with the next packet received.
+
+      FIPS impact: no
+      The FIPS module is not affected as the QUIC implementation is outside of
+      the OpenSSL FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-54873
+    - https://github.com/openssl/openssl/commit/1f643b8bc735487b500a1f68a7fb3a22d5e38e23
+    - https://github.com/openssl/openssl/commit/279e7ee1392af98785746788168749491c74bd53
+    - https://github.com/openssl/openssl/commit/3ea6213e050e938ecbbf8c4eff32bec2736780eb
+    - https://github.com/openssl/openssl/commit/7127fb10888b49711c63128a09e524c0d2d5d0b2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54873
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-54873
+    PublishedDate: '2026-09-29T16:17:08.763Z'
+    LastModifiedDate: '2026-09-30T21:17:13.18Z'
   - VulnerabilityID: CVE-2026-54875
     PkgID: openssl@3.5.5-1ubuntu3.5
     PkgName: openssl
@@ -4680,6 +4967,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-77696
     - https://openssl-library.org/news/secadv/20260929.txt
     - https://ubuntu.com/security/notices/USN-8847-1
+    - https://ubuntu.com/security/notices/USN-8847-2
     - https://www.cve.org/CVERecord?id=CVE-2026-77696
     PublishedDate: '2026-09-29T16:17:11.493Z'
     LastModifiedDate: '2026-09-29T21:27:41.13Z'
@@ -4854,6 +5142,7 @@
     - https://openssl-library.org/news/secadv/20260929.txt
     - https://openssl-library.org/news/vulnerabilities/#CVE-2026-84782
     - https://ubuntu.com/security/notices/USN-8847-1
+    - https://ubuntu.com/security/notices/USN-8847-2
     - https://www.cve.org/CVERecord?id=CVE-2026-84782
     PublishedDate: '2026-09-29T16:17:12.5Z'
     LastModifiedDate: '2026-09-29T21:27:41.13Z'
@@ -4921,9 +5210,10 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-35189
     - https://openssl-library.org/news/secadv/20260929.txt
     - https://ubuntu.com/security/notices/USN-8847-1
+    - https://ubuntu.com/security/notices/USN-8847-2
     - https://www.cve.org/CVERecord?id=CVE-2026-35189
     PublishedDate: '2026-09-29T16:17:07.33Z'
-    LastModifiedDate: '2026-09-29T21:27:41.13Z'
+    LastModifiedDate: '2026-09-30T21:17:10.43Z'
   - VulnerabilityID: CVE-2026-35191
     PkgID: openssl-provider-legacy@3.5.5-1ubuntu3.5
     PkgName: openssl-provider-legacy
@@ -4996,7 +5286,72 @@
     - https://ubuntu.com/security/notices/USN-8847-1
     - https://www.cve.org/CVERecord?id=CVE-2026-35191
     PublishedDate: '2026-09-29T16:17:07.49Z'
-    LastModifiedDate: '2026-09-29T21:27:41.13Z'
+    LastModifiedDate: '2026-09-30T21:17:10.617Z'
+  - VulnerabilityID: CVE-2026-42772
+    PkgID: openssl-provider-legacy@3.5.5-1ubuntu3.5
+    PkgName: openssl-provider-legacy
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu3.5?arch=amd64&distro=ubuntu-26.04
+      UID: c3a89c1b147c7d7b
+    InstalledVersion: 3.5.5-1ubuntu3.5
+    Status: affected
+    Layer:
+      Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
+      DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42772
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:7c902420e4168512ec999a26cba906b2e3d9d458b77fc5fcaecb9c02b1393bbb
+    Title: 'openssl: openssl: Denial of Service via inefficient QUIC stream reassembly'
+    Description: |-
+      Issue summary: The QUIC stream reassembly algorithm performance deteriorates
+      progressively as packets are arriving out of order. The worst case has
+      a quadratic complexity proportional to the number of stream frames kept in
+      the buffer for the received stream data.
+
+      Impact summary: A remote QUIC peer that completes the handshake can create
+      a connection-scoped CPU pressure and potentially a Denial of Service using
+      compliant STREAM frames inside the advertised receive window, with low
+      attacker bandwidth.
+
+      CWE: CWE-407: Inefficient Algorithmic Complexity
+
+      Description: OpenSSL manages received QUIC stream fragments using a
+      doubly-linked list. While it optimizes for append operations (at the end of
+      the list), it falls back to a head-to-tail linear search for any fragment
+      that does not immediately follow the current `tail`.
+
+      By manipulating the sequence of offsets, an attacker can force the server
+      to perform O(n^2) operations, consuming excessive CPU time for the
+      QUIC process.
+
+      FIPS impact: no
+      The FIPS module is not affected as the QUIC implementation is outside of
+      the OpenSSL FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-407
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-42772
+    - https://github.com/openssl/openssl/commit/32d0ed8afe1b8c3e7ece725b44663da3d7087a09
+    - https://github.com/openssl/openssl/commit/ca8402e273af4de5b3f04fa61a0f0c02ce3ae20e
+    - https://github.com/openssl/openssl/commit/eb2becc0a4baea7f3050a247834d0e5c2ebe1773
+    - https://github.com/openssl/openssl/commit/f42ae513bbda513b3c121d54834040ee4a0eae1a
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42772
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-42772
+    PublishedDate: '2026-09-29T16:17:07.64Z'
+    LastModifiedDate: '2026-09-30T21:17:10.803Z'
   - VulnerabilityID: CVE-2026-54872
     PkgID: openssl-provider-legacy@3.5.5-1ubuntu3.5
     PkgName: openssl-provider-legacy
@@ -5068,9 +5423,85 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-54872
     - https://openssl-library.org/news/secadv/20260929.txt
     - https://ubuntu.com/security/notices/USN-8847-1
+    - https://ubuntu.com/security/notices/USN-8847-2
     - https://www.cve.org/CVERecord?id=CVE-2026-54872
     PublishedDate: '2026-09-29T16:17:08.623Z'
     LastModifiedDate: '2026-09-29T21:27:41.13Z'
+  - VulnerabilityID: CVE-2026-54873
+    PkgID: openssl-provider-legacy@3.5.5-1ubuntu3.5
+    PkgName: openssl-provider-legacy
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu3.5?arch=amd64&distro=ubuntu-26.04
+      UID: c3a89c1b147c7d7b
+    InstalledVersion: 3.5.5-1ubuntu3.5
+    Status: affected
+    Layer:
+      Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
+      DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54873
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:9c5180c7545c819f51056b9237fbe5d577dfd2ccc0dfb9aec90dc1f8fb60c198
+    Title: 'openssl: openssl: Denial of Service via excessive QUIC packet buffer retention'
+    Description: |-
+      Issue summary: QUIC process may keep memory for QUIC packet
+      buffer for much longer period than necessary.
+
+      Impact summary: Remote peer can exploit this vulnerability
+      by sending maliciously crafted packets, making the local
+      QUIC stack to keep the memory for packet buffers allocated.
+      The time for which the memory remains allocated is entirely
+      under the control of the potentially malicious remote peer.
+
+      CWE: CWE-770: Allocation of Resources Without Limits or Throttling
+
+      Description: To save copy operation from the packet buffer to the
+      stream reassemble buffer the QUIC stack leaves the stream data
+      on the packet buffer waiting to be copied to a buffer provided
+      by the local receiving application. The QUIC stack releases
+      a reference to the packet buffer only after the data are copied
+      to the application buffer. This design is more efficient for
+      legitimate data transfers but enables an attacker to allocate a lot
+      more memory than actually required by the data kept in the receiving
+      stream buffer.
+
+      To mitigate the vulnerability, the QUIC stack now calculates
+      and monitors memory overhead for every stream. The memory overhead
+      for a single stream frame is calculated as a difference between the
+      size of the whole packet that carries the stream frame and the size
+      of the stream frame itself. The memory overhead for a single stream
+      frame is added to the total (cumulative) memory overhead QUIC stack
+      keeps for each stream. Once the cumulative memory overhead exceeds
+      64kB, the QUIC stack moves the stream frame data from the packet
+      buffer to the stream buffer, starting with the next packet received.
+
+      FIPS impact: no
+      The FIPS module is not affected as the QUIC implementation is outside of
+      the OpenSSL FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-54873
+    - https://github.com/openssl/openssl/commit/1f643b8bc735487b500a1f68a7fb3a22d5e38e23
+    - https://github.com/openssl/openssl/commit/279e7ee1392af98785746788168749491c74bd53
+    - https://github.com/openssl/openssl/commit/3ea6213e050e938ecbbf8c4eff32bec2736780eb
+    - https://github.com/openssl/openssl/commit/7127fb10888b49711c63128a09e524c0d2d5d0b2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-54873
+    - https://openssl-library.org/news/secadv/20260929.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-54873
+    PublishedDate: '2026-09-29T16:17:08.763Z'
+    LastModifiedDate: '2026-09-30T21:17:13.18Z'
   - VulnerabilityID: CVE-2026-54875
     PkgID: openssl-provider-legacy@3.5.5-1ubuntu3.5
     PkgName: openssl-provider-legacy
@@ -5535,6 +5966,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-77696
     - https://openssl-library.org/news/secadv/20260929.txt
     - https://ubuntu.com/security/notices/USN-8847-1
+    - https://ubuntu.com/security/notices/USN-8847-2
     - https://www.cve.org/CVERecord?id=CVE-2026-77696
     PublishedDate: '2026-09-29T16:17:11.493Z'
     LastModifiedDate: '2026-09-29T21:27:41.13Z'
@@ -6686,7 +7118,6 @@
     - https://access.redhat.com/errata/RHSA-2026:66018
     - https://access.redhat.com/errata/RHSA-2026:70390
     - https://access.redhat.com/security/cve/CVE-2026-18477
-    - https://bugzilla.redhat.com/2379592
     - https://bugzilla.redhat.com/2455360
     - https://bugzilla.redhat.com/2509735
     - https://bugzilla.redhat.com/2509843
@@ -6697,7 +7128,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18477
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18508
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5704
-    - https://errata.almalinux.org/8/ALSA-2026-70390.html
+    - https://errata.almalinux.org/9/ALSA-2026-61581.html
     - https://errata.rockylinux.org/RLSA-2026:61581
     - https://linux.oracle.com/cve/CVE-2026-18477.html
     - https://linux.oracle.com/errata/ELSA-2026-70390.html
@@ -6746,7 +7177,6 @@
     - https://access.redhat.com/errata/RHSA-2026:66018
     - https://access.redhat.com/errata/RHSA-2026:70390
     - https://access.redhat.com/security/cve/CVE-2026-18508
-    - https://bugzilla.redhat.com/2379592
     - https://bugzilla.redhat.com/2455360
     - https://bugzilla.redhat.com/2509735
     - https://bugzilla.redhat.com/2509843
@@ -6757,7 +7187,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18477
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18508
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5704
-    - https://errata.almalinux.org/8/ALSA-2026-70390.html
+    - https://errata.almalinux.org/9/ALSA-2026-61581.html
     - https://errata.rockylinux.org/RLSA-2026:61581
     - https://linux.oracle.com/cve/CVE-2026-18508.html
     - https://linux.oracle.com/errata/ELSA-2026-70390.html
