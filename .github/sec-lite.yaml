@@ -918,7 +918,6 @@
     - http://www.openwall.com/lists/oss-security/2026/08/25/1
     - http://www.openwall.com/lists/oss-security/2026/08/27/2
     - https://access.redhat.com/errata/RHSA-2026:61623
-    - https://access.redhat.com/errata/RHSA-2026:65998
     - https://access.redhat.com/security/cve/CVE-2026-41992
     - https://bugzilla.redhat.com/2494158
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494158
@@ -930,7 +929,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-41991
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-41992
-    - https://errata.almalinux.org/8/ALSA-2026-65998.html
+    - https://errata.almalinux.org/9/ALSA-2026-61623.html
     - https://errata.rockylinux.org/RLSA-2026:61623
     - https://github.com/advisories/GHSA-qxh4-rprf-2mmj
     - https://linux.oracle.com/cve/CVE-2026-41992.html
@@ -1240,7 +1239,6 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/08/13/4
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-14456
     - https://bugzilla.redhat.com/2515348
@@ -1271,7 +1269,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/08e7756c3900bcfd77a720e7b74e27d6e4ed01a9
     - https://github.com/openssl/openssl/commit/4084152e040329ca0194c4c1750b9b46d00a5b6b
@@ -1349,7 +1347,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-18798
     - https://bugzilla.redhat.com/2515348
@@ -1380,7 +1377,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/70cebd74d3592f5272945501b58a60374c4e13af
     - https://github.com/openssl/openssl/commit/967582d5037f01a26b6d19beae19af62a1b15c3c
@@ -1461,7 +1458,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63072
     - https://bugzilla.redhat.com/2515348
@@ -1492,7 +1488,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/2a3dac874c8057c1f0186849bf1ede1ae7b6b756
     - https://github.com/openssl/openssl/commit/87784ad619af36b8807c2044b3940006fccc1e42
@@ -1578,7 +1574,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63076
     - https://bugzilla.redhat.com/2515348
@@ -1609,7 +1604,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/37882aa2e0256e1072442a8f62f7db45b995c45b
     - https://github.com/openssl/openssl/commit/a17cc8d612ecff6d94a9b7ca8b5283ddf5ff570e
@@ -1689,7 +1684,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-14457
     - https://bugzilla.redhat.com/2515348
@@ -1720,7 +1714,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/1e8c398db67404babd3e5af999bb6bd86f720c76
     - https://github.com/openssl/openssl/commit/581aaa0f0a35d214740f0fe1f5283ec41f1212e1
@@ -1829,7 +1823,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-54874
     - https://bugzilla.redhat.com/2515348
@@ -1860,7 +1853,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/4808b5d64176451f3d93d87d0ac9c81a9b13fb23
     - https://github.com/openssl/openssl/commit/7110cb2f75806d0bf809eb2f90790d477900be40
@@ -1942,7 +1935,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63073
     - https://bugzilla.redhat.com/2515348
@@ -1973,7 +1965,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/0cc20b322639919aa423e90799d9a57c3b4b76ca
     - https://github.com/openssl/openssl/commit/6a0acc072b4d37a7cac1252a29c1ce1f00c5ec29
@@ -2050,7 +2042,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63074
     - https://bugzilla.redhat.com/2515348
@@ -2081,7 +2072,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/01e567978a55fba18142a230380c31296049fae7
     - https://github.com/openssl/openssl/commit/21a5d9658b0c66daace60e10ea18ff32a448de9f
@@ -2164,7 +2155,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63075
     - https://bugzilla.redhat.com/2515348
@@ -2195,7 +2185,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/7308946576b12e64b8be53bcf0a120354b2b42bc
     - https://github.com/openssl/openssl/commit/7c98d79738549df92868e7dd9be4bbf061eed709
@@ -2737,6 +2727,7 @@
       azure: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -2746,7 +2737,13 @@
     - https://access.redhat.com/errata/RHSA-2026:72448
     - https://access.redhat.com/security/cve/CVE-2026-66046
     - https://bugzilla.redhat.com/2538967
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2517901
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2538967
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-66046
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-93990
     - https://errata.almalinux.org/8/ALSA-2026-72448.html
+    - https://errata.rockylinux.org/RLSA-2026:72448
     - https://github.com/libexpat/libexpat/pull/1321
     - https://linux.oracle.com/cve/CVE-2026-66046.html
     - https://linux.oracle.com/errata/ELSA-2026-72663.html
@@ -2913,6 +2910,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
@@ -2922,7 +2920,13 @@
     - https://access.redhat.com/security/cve/CVE-2026-93990
     - https://blog.hartwork.org/posts/expat-2-8-5-released/
     - https://bugzilla.redhat.com/2538967
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2517901
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2538967
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-66046
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-93990
     - https://errata.almalinux.org/8/ALSA-2026-72448.html
+    - https://errata.rockylinux.org/RLSA-2026:72448
     - https://github.com/libexpat/libexpat
     - https://github.com/libexpat/libexpat/commit/ff6e1d7e750bbe245178f51a47a965dc8342861a
     - https://github.com/libexpat/libexpat/pull/1282
@@ -3355,7 +3359,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59847
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59848
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
-    - https://errata.almalinux.org/8/ALSA-2026-62218.html
+    - https://errata.almalinux.org/9/ALSA-2026-62217.html
     - https://errata.rockylinux.org/RLSA-2026:62217
     - https://linux.oracle.com/cve/CVE-2026-59843.html
     - https://linux.oracle.com/errata/ELSA-2026-62218-0.html
@@ -3434,7 +3438,6 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/08/13/4
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-14456
     - https://bugzilla.redhat.com/2515348
@@ -3465,7 +3468,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/08e7756c3900bcfd77a720e7b74e27d6e4ed01a9
     - https://github.com/openssl/openssl/commit/4084152e040329ca0194c4c1750b9b46d00a5b6b
@@ -3543,7 +3546,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-18798
     - https://bugzilla.redhat.com/2515348
@@ -3574,7 +3576,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/70cebd74d3592f5272945501b58a60374c4e13af
     - https://github.com/openssl/openssl/commit/967582d5037f01a26b6d19beae19af62a1b15c3c
@@ -3655,7 +3657,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63072
     - https://bugzilla.redhat.com/2515348
@@ -3686,7 +3687,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/2a3dac874c8057c1f0186849bf1ede1ae7b6b756
     - https://github.com/openssl/openssl/commit/87784ad619af36b8807c2044b3940006fccc1e42
@@ -3772,7 +3773,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63076
     - https://bugzilla.redhat.com/2515348
@@ -3803,7 +3803,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/37882aa2e0256e1072442a8f62f7db45b995c45b
     - https://github.com/openssl/openssl/commit/a17cc8d612ecff6d94a9b7ca8b5283ddf5ff570e
@@ -3883,7 +3883,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-14457
     - https://bugzilla.redhat.com/2515348
@@ -3914,7 +3913,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/1e8c398db67404babd3e5af999bb6bd86f720c76
     - https://github.com/openssl/openssl/commit/581aaa0f0a35d214740f0fe1f5283ec41f1212e1
@@ -4023,7 +4022,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-54874
     - https://bugzilla.redhat.com/2515348
@@ -4054,7 +4052,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/4808b5d64176451f3d93d87d0ac9c81a9b13fb23
     - https://github.com/openssl/openssl/commit/7110cb2f75806d0bf809eb2f90790d477900be40
@@ -4136,7 +4134,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63073
     - https://bugzilla.redhat.com/2515348
@@ -4167,7 +4164,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/0cc20b322639919aa423e90799d9a57c3b4b76ca
     - https://github.com/openssl/openssl/commit/6a0acc072b4d37a7cac1252a29c1ce1f00c5ec29
@@ -4244,7 +4241,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63074
     - https://bugzilla.redhat.com/2515348
@@ -4275,7 +4271,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/01e567978a55fba18142a230380c31296049fae7
     - https://github.com/openssl/openssl/commit/21a5d9658b0c66daace60e10ea18ff32a448de9f
@@ -4358,7 +4354,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63075
     - https://bugzilla.redhat.com/2515348
@@ -4389,7 +4384,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/7308946576b12e64b8be53bcf0a120354b2b42bc
     - https://github.com/openssl/openssl/commit/7c98d79738549df92868e7dd9be4bbf061eed709
@@ -4538,7 +4533,6 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/08/13/4
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-14456
     - https://bugzilla.redhat.com/2515348
@@ -4569,7 +4563,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/08e7756c3900bcfd77a720e7b74e27d6e4ed01a9
     - https://github.com/openssl/openssl/commit/4084152e040329ca0194c4c1750b9b46d00a5b6b
@@ -4647,7 +4641,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-18798
     - https://bugzilla.redhat.com/2515348
@@ -4678,7 +4671,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/70cebd74d3592f5272945501b58a60374c4e13af
     - https://github.com/openssl/openssl/commit/967582d5037f01a26b6d19beae19af62a1b15c3c
@@ -4759,7 +4752,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63072
     - https://bugzilla.redhat.com/2515348
@@ -4790,7 +4782,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/2a3dac874c8057c1f0186849bf1ede1ae7b6b756
     - https://github.com/openssl/openssl/commit/87784ad619af36b8807c2044b3940006fccc1e42
@@ -4876,7 +4868,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63076
     - https://bugzilla.redhat.com/2515348
@@ -4907,7 +4898,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/37882aa2e0256e1072442a8f62f7db45b995c45b
     - https://github.com/openssl/openssl/commit/a17cc8d612ecff6d94a9b7ca8b5283ddf5ff570e
@@ -4987,7 +4978,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-14457
     - https://bugzilla.redhat.com/2515348
@@ -5018,7 +5008,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/1e8c398db67404babd3e5af999bb6bd86f720c76
     - https://github.com/openssl/openssl/commit/581aaa0f0a35d214740f0fe1f5283ec41f1212e1
@@ -5127,7 +5117,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-54874
     - https://bugzilla.redhat.com/2515348
@@ -5158,7 +5147,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/4808b5d64176451f3d93d87d0ac9c81a9b13fb23
     - https://github.com/openssl/openssl/commit/7110cb2f75806d0bf809eb2f90790d477900be40
@@ -5240,7 +5229,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63073
     - https://bugzilla.redhat.com/2515348
@@ -5271,7 +5259,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/0cc20b322639919aa423e90799d9a57c3b4b76ca
     - https://github.com/openssl/openssl/commit/6a0acc072b4d37a7cac1252a29c1ce1f00c5ec29
@@ -5348,7 +5336,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63074
     - https://bugzilla.redhat.com/2515348
@@ -5379,7 +5366,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/01e567978a55fba18142a230380c31296049fae7
     - https://github.com/openssl/openssl/commit/21a5d9658b0c66daace60e10ea18ff32a448de9f
@@ -5462,7 +5449,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:67154
     - https://access.redhat.com/errata/RHSA-2026:67165
     - https://access.redhat.com/security/cve/CVE-2026-63075
     - https://bugzilla.redhat.com/2515348
@@ -5493,7 +5479,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
-    - https://errata.almalinux.org/10/ALSA-2026-67154.html
+    - https://errata.almalinux.org/9/ALSA-2026-67165.html
     - https://errata.rockylinux.org/RLSA-2026:67165
     - https://github.com/openssl/openssl/commit/7308946576b12e64b8be53bcf0a120354b2b42bc
     - https://github.com/openssl/openssl/commit/7c98d79738549df92868e7dd9be4bbf061eed709
@@ -5574,6 +5560,341 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
     LastModifiedDate: '2026-09-11T21:17:17.823Z'
+  - VulnerabilityID: CVE-2026-103111
+    PkgID: pcre2@10.47-r1
+    PkgName: pcre2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/pcre2@10.47-r1?arch=x86_64&distro=3.24.0
+      UID: ac141a1d132fce5b
+    InstalledVersion: 10.47-r1
+    FixedVersion: 10.49-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-103111
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:add470b8b16ef2d474f767a9d67ec11fadc77fe109c0e762a0bf0e67ab8ab883
+    Title: 'pcre2: pcre2: Out-of-bounds write via crafted regular expression'
+    Description: PCRE2 before 10.49, when there is an attacker-controlled regular expression and certain JIT API usage, allows an out-of-bounds write with arbitrary data.
+    Severity: HIGH
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L
+        V3Score: 7.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-103111
+    - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-r9hj-j2rw-4q3m
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-103111
+    - https://www.cve.org/CVERecord?id=CVE-2026-103111
+    PublishedDate: '2026-09-30T05:16:45.863Z'
+    LastModifiedDate: '2026-09-30T20:17:29.847Z'
+  - VulnerabilityID: CVE-2026-86145
+    PkgID: pcre2@10.47-r1
+    PkgName: pcre2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/pcre2@10.47-r1?arch=x86_64&distro=3.24.0
+      UID: ac141a1d132fce5b
+    InstalledVersion: 10.47-r1
+    FixedVersion: 10.48-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86145
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:6e40bee0fc9e6b0b42ab3c5427ab84d0c9f5cee196cf9735f9bd6f7ac24c7a6d
+    Title: 'pcre2: PCRE2: Out-of-bounds write allows arbitrary code execution via crafted regular expressions'
+    Description: PCRE2 before 10.48 allows a pcre2_dfa_match out-of-bounds write because reuse of a cached workspace block, in a recursive DFA matching workspace, lacks a size check (even though a newly allocated block, for the same purpose, does have a size check). This outcome requires an attacker-controlled regular expression, or a recursive pattern in conjunction with a small heap limit (this can be set through the API).
+    Severity: HIGH
+    CweIDs:
+    - CWE-424
+    VendorSeverity:
+      azure: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L
+        V3Score: 8.2
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/05/3
+    - https://access.redhat.com/security/cve/CVE-2026-86145
+    - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
+    - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-3r4p-g7gg-ppmf
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86145
+    - https://www.cve.org/CVERecord?id=CVE-2026-86145
+    PublishedDate: '2026-09-05T06:17:10.37Z'
+    LastModifiedDate: '2026-09-09T16:04:24.933Z'
+  - VulnerabilityID: CVE-2026-89157
+    PkgID: pcre2@10.47-r1
+    PkgName: pcre2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/pcre2@10.47-r1?arch=x86_64&distro=3.24.0
+      UID: ac141a1d132fce5b
+    InstalledVersion: 10.47-r1
+    FixedVersion: 10.48-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-89157
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:93612ae001c3220b163265f9f5872d9456e29e74eda96d66ac6c1524eaf90fec
+    Title: 'pcre2: PCRE2: Out-of-bounds write via large pattern input'
+    Description: PCRE2 before 10.48, on 32-bit platforms, has a pcre2_pattern_convert out-of-bounds write when an attacker can provide a large pattern.
+    Severity: HIGH
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      azure: 2
+      nvd: 3
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 7.4
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L
+        V3Score: 5.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-89157
+    - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
+    - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-q8g2-wprr-34m9
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-89157
+    - https://www.cve.org/CVERecord?id=CVE-2026-89157
+    PublishedDate: '2026-09-11T04:18:03.753Z'
+    LastModifiedDate: '2026-09-16T19:25:08.88Z'
+  - VulnerabilityID: CVE-2026-89161
+    PkgID: pcre2@10.47-r1
+    PkgName: pcre2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/pcre2@10.47-r1?arch=x86_64&distro=3.24.0
+      UID: ac141a1d132fce5b
+    InstalledVersion: 10.47-r1
+    FixedVersion: 10.48-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-89161
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:4af3290546a57d7b2724d74534f8400f5d41bcfef47d482bc89150d16e797321
+    Title: 'pcre2: PCRE2: Memory corruption vulnerability in pcre2_jit_match'
+    Description: In PCRE2 before 10.48, pcre2_jit_match mishandles a previously copied subject being passed in as a context. An incorrect free operation can occur.
+    Severity: HIGH
+    CweIDs:
+    - CWE-590
+    VendorSeverity:
+      amazon: 3
+      nvd: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-89161
+    - https://github.com/PCRE2Project/pcre2/commit/1dcd0cf42a6a7cb62cc9a7c024196733abcfda95%20%28pcre2-10.48-RC1%29
+    - https://github.com/PCRE2Project/pcre2/pull/937
+    - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-89161
+    - https://www.cve.org/CVERecord?id=CVE-2026-89161
+    PublishedDate: '2026-09-11T04:18:04.47Z'
+    LastModifiedDate: '2026-09-16T19:10:47.78Z'
+  - VulnerabilityID: CVE-2026-89156
+    PkgID: pcre2@10.47-r1
+    PkgName: pcre2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/pcre2@10.47-r1?arch=x86_64&distro=3.24.0
+      UID: ac141a1d132fce5b
+    InstalledVersion: 10.47-r1
+    FixedVersion: 10.48-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-89156
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:7a983e4e7cf17e069a751295fc5765313e3a8d9c1f2ddbdf833fce905c1f73d1
+    Title: 'PCRE2: PCRE2: Out-of-bounds read via invalid UTF data during JIT fallback'
+    Description: PCRE2 before 10.48 has a pcre2_match out-of-bounds read after a JIT fallback when an attacker can provide invalid UTF data.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      azure: 1
+      nvd: 2
+      redhat: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-89156
+    - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
+    - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-2p8c-ff85-vh9x
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-89156
+    - https://www.cve.org/CVERecord?id=CVE-2026-89156
+    PublishedDate: '2026-09-11T04:18:03.23Z'
+    LastModifiedDate: '2026-09-16T19:27:01.327Z'
+  - VulnerabilityID: CVE-2026-89158
+    PkgID: pcre2@10.47-r1
+    PkgName: pcre2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/pcre2@10.47-r1?arch=x86_64&distro=3.24.0
+      UID: ac141a1d132fce5b
+    InstalledVersion: 10.47-r1
+    FixedVersion: 10.48-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-89158
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:bb09dabf739a788dba3a8835e9d24404af47816910bd78a54a246da5ddf16121
+    Title: 'PCRE2: PCRE2: Out-of-bounds write via integer overflow on 32-bit platforms'
+    Description: PCRE2 before 10.48, on 32-bit platforms, has a pcre2_compile_32 integer overflow and resultant out-of-bounds write.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      azure: 2
+      nvd: 2
+      redhat: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-89158
+    - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
+    - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-fmgr-6ggq-9859
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-89158
+    - https://www.cve.org/CVERecord?id=CVE-2026-89158
+    PublishedDate: '2026-09-11T04:18:03.97Z'
+    LastModifiedDate: '2026-09-16T19:23:41.45Z'
+  - VulnerabilityID: CVE-2026-89160
+    PkgID: pcre2@10.47-r1
+    PkgName: pcre2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/pcre2@10.47-r1?arch=x86_64&distro=3.24.0
+      UID: ac141a1d132fce5b
+    InstalledVersion: 10.47-r1
+    FixedVersion: 10.48-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-89160
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:410f02cb634cc1676339a2bf8fbf89fd11e643380d95eb582a2313e34bbd263e
+    Title: 'pcre2: PCRE2: Denial of Service via out-of-bounds read during invalid UTF matching'
+    Description: PCRE2 before 10.48 has a pcre2_match out-of-bounds read during the PCRE2_MATCH_INVALID_UTF matching of an invalid UTF subject.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      azure: 1
+      nvd: 2
+      redhat: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-89160
+    - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
+    - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-9qww-pwc4-77qq
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-89160
+    - https://www.cve.org/CVERecord?id=CVE-2026-89160
+    PublishedDate: '2026-09-11T04:18:04.343Z'
+    LastModifiedDate: '2026-09-16T19:15:29.443Z'
+  - VulnerabilityID: CVE-2026-89162
+    PkgID: pcre2@10.47-r1
+    PkgName: pcre2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/pcre2@10.47-r1?arch=x86_64&distro=3.24.0
+      UID: ac141a1d132fce5b
+    InstalledVersion: 10.47-r1
+    FixedVersion: 10.48-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-89162
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:91d8e61e28b106ec4a716f73f079cb9049178e74909d1621202b05deb48c26a2
+    Title: 'pcre2: PCRE2: Information disclosure via pcre2_serialize_encode'
+    Description: In PCRE2 before 10.48, pcre2_serialize_encode might disclose two bytes to an adversary, typically in a situation where the access available to the adversary is already unsafe.
+    Severity: LOW
+    CweIDs:
+    - CWE-669
+    VendorSeverity:
+      nvd: 1
+      redhat: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-89162
+    - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
+    - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-q7rw-r7qq-2hx6
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-89162
+    - https://www.cve.org/CVERecord?id=CVE-2026-89162
+    PublishedDate: '2026-09-11T05:16:38.697Z'
+    LastModifiedDate: '2026-09-16T18:56:28.643Z'
   - VulnerabilityID: CVE-2026-11940
     PkgID: pyc@3.14.5-r2
     PkgName: pyc
@@ -5615,13 +5936,13 @@
         V3Score: 7.3
     References:
     - https://access.redhat.com/errata/RHSA-2026:54268
-    - https://access.redhat.com/errata/RHSA-2026:58971
+    - https://access.redhat.com/errata/RHSA-2026:59009
     - https://access.redhat.com/security/cve/CVE-2026-11940
     - https://bugzilla.redhat.com/2491848
     - https://bugzilla.redhat.com/show_bug.cgi?id=2491848
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11940
-    - https://errata.almalinux.org/8/ALSA-2026-58971.html
+    - https://errata.almalinux.org/9/ALSA-2026-59009.html
     - https://errata.rockylinux.org/RLSA-2026:54268
     - https://github.com/python/cpython/commit/0f852b3f07dd8e71e40326a51c02afbf16a42cc5
     - https://github.com/python/cpython/commit/27dd970bf6b17ebca7c8ed486a40ab043ed7af8f
@@ -5690,13 +6011,13 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/07/09/4
     - https://access.redhat.com/errata/RHSA-2026:39798
-    - https://access.redhat.com/errata/RHSA-2026:39893
+    - https://access.redhat.com/errata/RHSA-2026:41949
     - https://access.redhat.com/security/cve/CVE-2026-15308
     - https://bugzilla.redhat.com/2498608
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498608
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15308
-    - https://errata.almalinux.org/8/ALSA-2026-39893.html
+    - https://errata.almalinux.org/9/ALSA-2026-41949.html
     - https://errata.rockylinux.org/RLSA-2026:39798
     - https://github.com/python/cpython/commit/07efb08123ba9367a7107325adb9d5626dca1ca9
     - https://github.com/python/cpython/commit/1e7956f1a722df9aabc509c30f8fbdc3a2b4fdc7
@@ -5860,9 +6181,8 @@
         V3Score: 7.1
     References:
     - https://access.redhat.com/errata/RHSA-2026:4168
-    - https://access.redhat.com/errata/RHSA-2026:4473
+    - https://access.redhat.com/errata/RHSA-2026:4216
     - https://access.redhat.com/security/cve/CVE-2025-15366
-    - https://bugzilla.redhat.com/2431367
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
@@ -5875,7 +6195,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/8/ALSA-2026-4473.html
+    - https://errata.almalinux.org/9/ALSA-2026-4216.html
     - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/298182272a740ce2016aee2f54acbd0bba1944c1
     - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
@@ -6324,13 +6644,13 @@
         V3Score: 7.3
     References:
     - https://access.redhat.com/errata/RHSA-2026:54268
-    - https://access.redhat.com/errata/RHSA-2026:58971
+    - https://access.redhat.com/errata/RHSA-2026:59009
     - https://access.redhat.com/security/cve/CVE-2026-11940
     - https://bugzilla.redhat.com/2491848
     - https://bugzilla.redhat.com/show_bug.cgi?id=2491848
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11940
-    - https://errata.almalinux.org/8/ALSA-2026-58971.html
+    - https://errata.almalinux.org/9/ALSA-2026-59009.html
     - https://errata.rockylinux.org/RLSA-2026:54268
     - https://github.com/python/cpython/commit/0f852b3f07dd8e71e40326a51c02afbf16a42cc5
     - https://github.com/python/cpython/commit/27dd970bf6b17ebca7c8ed486a40ab043ed7af8f
@@ -6399,13 +6719,13 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/07/09/4
     - https://access.redhat.com/errata/RHSA-2026:39798
-    - https://access.redhat.com/errata/RHSA-2026:39893
+    - https://access.redhat.com/errata/RHSA-2026:41949
     - https://access.redhat.com/security/cve/CVE-2026-15308
     - https://bugzilla.redhat.com/2498608
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498608
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15308
-    - https://errata.almalinux.org/8/ALSA-2026-39893.html
+    - https://errata.almalinux.org/9/ALSA-2026-41949.html
     - https://errata.rockylinux.org/RLSA-2026:39798
     - https://github.com/python/cpython/commit/07efb08123ba9367a7107325adb9d5626dca1ca9
     - https://github.com/python/cpython/commit/1e7956f1a722df9aabc509c30f8fbdc3a2b4fdc7
@@ -6569,9 +6889,8 @@
         V3Score: 7.1
     References:
     - https://access.redhat.com/errata/RHSA-2026:4168
-    - https://access.redhat.com/errata/RHSA-2026:4473
+    - https://access.redhat.com/errata/RHSA-2026:4216
     - https://access.redhat.com/security/cve/CVE-2025-15366
-    - https://bugzilla.redhat.com/2431367
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
@@ -6584,7 +6903,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/8/ALSA-2026-4473.html
+    - https://errata.almalinux.org/9/ALSA-2026-4216.html
     - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/298182272a740ce2016aee2f54acbd0bba1944c1
     - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
@@ -7033,13 +7352,13 @@
         V3Score: 7.3
     References:
     - https://access.redhat.com/errata/RHSA-2026:54268
-    - https://access.redhat.com/errata/RHSA-2026:58971
+    - https://access.redhat.com/errata/RHSA-2026:59009
     - https://access.redhat.com/security/cve/CVE-2026-11940
     - https://bugzilla.redhat.com/2491848
     - https://bugzilla.redhat.com/show_bug.cgi?id=2491848
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11940
-    - https://errata.almalinux.org/8/ALSA-2026-58971.html
+    - https://errata.almalinux.org/9/ALSA-2026-59009.html
     - https://errata.rockylinux.org/RLSA-2026:54268
     - https://github.com/python/cpython/commit/0f852b3f07dd8e71e40326a51c02afbf16a42cc5
     - https://github.com/python/cpython/commit/27dd970bf6b17ebca7c8ed486a40ab043ed7af8f
@@ -7108,13 +7427,13 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/07/09/4
     - https://access.redhat.com/errata/RHSA-2026:39798
-    - https://access.redhat.com/errata/RHSA-2026:39893
+    - https://access.redhat.com/errata/RHSA-2026:41949
     - https://access.redhat.com/security/cve/CVE-2026-15308
     - https://bugzilla.redhat.com/2498608
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498608
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15308
-    - https://errata.almalinux.org/8/ALSA-2026-39893.html
+    - https://errata.almalinux.org/9/ALSA-2026-41949.html
     - https://errata.rockylinux.org/RLSA-2026:39798
     - https://github.com/python/cpython/commit/07efb08123ba9367a7107325adb9d5626dca1ca9
     - https://github.com/python/cpython/commit/1e7956f1a722df9aabc509c30f8fbdc3a2b4fdc7
@@ -7278,9 +7597,8 @@
         V3Score: 7.1
     References:
     - https://access.redhat.com/errata/RHSA-2026:4168
-    - https://access.redhat.com/errata/RHSA-2026:4473
+    - https://access.redhat.com/errata/RHSA-2026:4216
     - https://access.redhat.com/security/cve/CVE-2025-15366
-    - https://bugzilla.redhat.com/2431367
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
@@ -7293,7 +7611,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/8/ALSA-2026-4473.html
+    - https://errata.almalinux.org/9/ALSA-2026-4216.html
     - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/298182272a740ce2016aee2f54acbd0bba1944c1
     - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
@@ -7742,13 +8060,13 @@
         V3Score: 7.3
     References:
     - https://access.redhat.com/errata/RHSA-2026:54268
-    - https://access.redhat.com/errata/RHSA-2026:58971
+    - https://access.redhat.com/errata/RHSA-2026:59009
     - https://access.redhat.com/security/cve/CVE-2026-11940
     - https://bugzilla.redhat.com/2491848
     - https://bugzilla.redhat.com/show_bug.cgi?id=2491848
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11940
-    - https://errata.almalinux.org/8/ALSA-2026-58971.html
+    - https://errata.almalinux.org/9/ALSA-2026-59009.html
     - https://errata.rockylinux.org/RLSA-2026:54268
     - https://github.com/python/cpython/commit/0f852b3f07dd8e71e40326a51c02afbf16a42cc5
     - https://github.com/python/cpython/commit/27dd970bf6b17ebca7c8ed486a40ab043ed7af8f
@@ -7817,13 +8135,13 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/07/09/4
     - https://access.redhat.com/errata/RHSA-2026:39798
-    - https://access.redhat.com/errata/RHSA-2026:39893
+    - https://access.redhat.com/errata/RHSA-2026:41949
     - https://access.redhat.com/security/cve/CVE-2026-15308
     - https://bugzilla.redhat.com/2498608
     - https://bugzilla.redhat.com/show_bug.cgi?id=2498608
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15308
-    - https://errata.almalinux.org/8/ALSA-2026-39893.html
+    - https://errata.almalinux.org/9/ALSA-2026-41949.html
     - https://errata.rockylinux.org/RLSA-2026:39798
     - https://github.com/python/cpython/commit/07efb08123ba9367a7107325adb9d5626dca1ca9
     - https://github.com/python/cpython/commit/1e7956f1a722df9aabc509c30f8fbdc3a2b4fdc7
@@ -7987,9 +8305,8 @@
         V3Score: 7.1
     References:
     - https://access.redhat.com/errata/RHSA-2026:4168
-    - https://access.redhat.com/errata/RHSA-2026:4473
+    - https://access.redhat.com/errata/RHSA-2026:4216
     - https://access.redhat.com/security/cve/CVE-2025-15366
-    - https://bugzilla.redhat.com/2431367
     - https://bugzilla.redhat.com/2431368
     - https://bugzilla.redhat.com/2431373
     - https://bugzilla.redhat.com/2432437
@@ -8002,7 +8319,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15367
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1299
-    - https://errata.almalinux.org/8/ALSA-2026-4473.html
+    - https://errata.almalinux.org/9/ALSA-2026-4216.html
     - https://errata.rockylinux.org/RLSA-2026:4168
     - https://github.com/python/cpython/commit/298182272a740ce2016aee2f54acbd0bba1944c1
     - https://github.com/python/cpython/commit/6262704b134db2a4ba12e85ecfbd968534f28b45
@@ -8629,6 +8946,97 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-68497
     PublishedDate: '2026-09-11T16:17:39.61Z'
     LastModifiedDate: '2026-09-18T19:34:36.657Z'
+  - VulnerabilityID: CVE-2026-91776
+    VendorIDs:
+    - GHSA-wv8q-qhhj-9h54
+    PkgName: com.fasterxml.jackson.core:jackson-databind
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.22.1
+      UID: eda04677809202ba
+    InstalledVersion: 2.22.1
+    FixedVersion: 2.18.11, 2.21.7, 2.22.3
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91776
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:fea6782e2c67f04cd1e6cb4e380da8ea7edab27041590f092509fb665d7ca86a
+    Title: TypeDeserializerBase._findDeserializer() in FasterXML jackson-databind ...
+    Description: TypeDeserializerBase._findDeserializer() in FasterXML jackson-databind caches the resolved deserializer under the raw, attacker-supplied type ID. When name-based polymorphism is configured with a fallback, for example @JsonTypeInfo(use = Id.NAME, defaultImpl = ...), every distinct unrecognized type ID resolves to the same fallback deserializer but is retained as its own key in the _deserializers map. That map has no configurable bound and lives for the lifetime of the type deserializer, so an attacker who can repeatedly supply fresh unknown type IDs causes monotonic memory retention across requests. The reporter observed 10,000 retained entries from 10,000 distinct unknown IDs, against a single entry for a control that repeated one unknown ID the same number of times, isolating attacker-controlled key cardinality from request volume. Exploitation requires an application that enables name-based polymorphism with a defaultImpl or equivalent fallback, accepts attacker-influenced type IDs, and reuses a long-lived ObjectMapper across requests. The fix stops caching fallback resolutions for unrecognized IDs and bounds both the number of cached entries and the length of a cacheable type ID.
+    Severity: HIGH
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      ghsa: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://github.com/FasterXML/jackson-databind
+    - https://github.com/FasterXML/jackson-databind/commit/2870d1d6dc1b7e1c07ee11dd5b04ab71cddbb577
+    - https://github.com/FasterXML/jackson-databind/issues/6203
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.18.11
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.21.7
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.22.3
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.1.7
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.2.3
+    - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-wv8q-qhhj-9h54
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91776
+    PublishedDate: '2026-09-23T03:17:04.62Z'
+    LastModifiedDate: '2026-09-24T20:43:32.537Z'
+  - VulnerabilityID: CVE-2026-91777
+    VendorIDs:
+    - GHSA-cxp5-3px4-pw24
+    PkgName: com.fasterxml.jackson.core:jackson-databind
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.22.1
+      UID: eda04677809202ba
+    InstalledVersion: 2.22.1
+    FixedVersion: 2.21.7, 2.18.11, 2.22.3
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91777
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:3d470ea65edce68b0d3413daddd213254c5ed37cf7d72d99d9cabfd0ee9d6f4a
+    Title: Forward-reference completion for @JsonIdentityInfo object IDs in Faste ...
+    Description: Forward-reference completion for @JsonIdentityInfo object IDs in FasterXML jackson-databind performs a linear scan of the pending-reference accumulator for every resolved ID. The affected paths are CollectionDeserializer.CollectionReferringAccumulator.resolveForwardReference() and the equivalent implementation in MapDeserializer. When a document first creates N unresolved object-ID references in an identity-enabled collection or map and then defines those same IDs in reverse order, completion performs on the order of N * (N + 1) / 2 identity comparisons, so a shallow document whose size grows linearly causes quadratic CPU work during deserialization. The reporter instrumented equals() calls on the ID class and measured exactly 2,003,000 comparisons at N = 2,000, against zero comparisons in the pending-reference lookup path for an equally sized control in which every reference was already resolved. The input requires no deep nesting and no syntactically unusual JSON. Exploitation requires an application that deserializes attacker-influenced JSON into an identity-enabled collection or map. The fix replaces the repeated linear lookup with a keyed pending-reference structure.
+    Severity: HIGH
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      ghsa: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://github.com/FasterXML/jackson-databind
+    - https://github.com/FasterXML/jackson-databind/commit/37ad9b81712cbb9fb62c2d2c1813593252a24b67
+    - https://github.com/FasterXML/jackson-databind/issues/6204
+    - https://github.com/FasterXML/jackson-databind/pull/6204
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.18.11
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.21.7
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-2.22.3
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.1.7
+    - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.2.3
+    - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-cxp5-3px4-pw24
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91777
+    PublishedDate: '2026-09-23T03:17:04.783Z'
+    LastModifiedDate: '2026-09-24T20:43:32.537Z'
   - VulnerabilityID: CVE-2026-19032
     VendorIDs:
     - GHSA-wjgm-6hv5-3cvf
