@@ -1581,6 +1581,7 @@
     - https://access.redhat.com/errata/RHSA-2026:71398
     - https://access.redhat.com/errata/RHSA-2026:71399
     - https://access.redhat.com/errata/RHSA-2026:71401
+    - https://access.redhat.com/errata/RHSA-2026:74771
     - https://access.redhat.com/security/cve/CVE-2026-56208
     - https://aomedia.googlesource.com/aom/+/243f8ae84b
     - https://aomedia.googlesource.com/aom/+/243f8ae84bfbc495b3a3c12948abc4dff3af2f84
@@ -1694,7 +1695,7 @@
     - https://ubuntu.com/security/notices/USN-8772-1
     - https://www.cve.org/CVERecord?id=CVE-2026-56208
     PublishedDate: '2026-06-19T17:16:30.297Z'
-    LastModifiedDate: '2026-09-24T09:17:05.19Z'
+    LastModifiedDate: '2026-10-02T02:17:04.05Z'
   - VulnerabilityID: CVE-2026-56209
     PkgID: libaom3@3.13.1-2
     PkgName: libaom3
@@ -1764,6 +1765,7 @@
     - https://access.redhat.com/errata/RHSA-2026:71398
     - https://access.redhat.com/errata/RHSA-2026:71399
     - https://access.redhat.com/errata/RHSA-2026:71401
+    - https://access.redhat.com/errata/RHSA-2026:74771
     - https://access.redhat.com/security/cve/CVE-2026-56209
     - https://aomedia.googlesource.com/aom/+/a93ba0ffaa
     - https://aomedia.googlesource.com/aom/+/a93ba0ffaacd5f576a241bf739110e65287e516d
@@ -1774,7 +1776,7 @@
     - https://ubuntu.com/security/notices/USN-8772-1
     - https://www.cve.org/CVERecord?id=CVE-2026-56209
     PublishedDate: '2026-06-19T17:16:30.427Z'
-    LastModifiedDate: '2026-09-24T09:17:06.007Z'
+    LastModifiedDate: '2026-10-02T02:17:04.883Z'
   - VulnerabilityID: CVE-2026-56210
     PkgID: libaom3@3.13.1-2
     PkgName: libaom3
@@ -1845,6 +1847,7 @@
     - https://access.redhat.com/errata/RHSA-2026:71398
     - https://access.redhat.com/errata/RHSA-2026:71399
     - https://access.redhat.com/errata/RHSA-2026:71401
+    - https://access.redhat.com/errata/RHSA-2026:74771
     - https://access.redhat.com/security/cve/CVE-2026-56210
     - https://aomedia.googlesource.com/aom/+/a93ba0ffaa
     - https://aomedia.googlesource.com/aom/+/a93ba0ffaacd5f576a241bf739110e65287e516d
@@ -1855,7 +1858,7 @@
     - https://ubuntu.com/security/notices/USN-8772-1
     - https://www.cve.org/CVERecord?id=CVE-2026-56210
     PublishedDate: '2026-06-19T17:16:30.557Z'
-    LastModifiedDate: '2026-09-24T09:17:06.64Z'
+    LastModifiedDate: '2026-10-02T02:17:05.54Z'
   - VulnerabilityID: CVE-2026-56211
     PkgID: libaom3@3.13.1-2
     PkgName: libaom3
@@ -1926,6 +1929,7 @@
     - https://access.redhat.com/errata/RHSA-2026:71398
     - https://access.redhat.com/errata/RHSA-2026:71399
     - https://access.redhat.com/errata/RHSA-2026:71401
+    - https://access.redhat.com/errata/RHSA-2026:74771
     - https://access.redhat.com/security/cve/CVE-2026-56211
     - https://aomedia.googlesource.com/aom/+/a93ba0ffaa
     - https://aomedia.googlesource.com/aom/+/a93ba0ffaacd5f576a241bf739110e65287e516d
@@ -1936,7 +1940,7 @@
     - https://ubuntu.com/security/notices/USN-8772-1
     - https://www.cve.org/CVERecord?id=CVE-2026-56211
     PublishedDate: '2026-06-19T17:16:30.68Z'
-    LastModifiedDate: '2026-09-24T09:17:07.25Z'
+    LastModifiedDate: '2026-10-02T02:17:06.177Z'
   - VulnerabilityID: CVE-2026-54371
     PkgID: libattr1@1:2.5.2-4
     PkgName: libattr1
@@ -5874,7 +5878,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:72448
+    - https://access.redhat.com/errata/RHSA-2026:72663
     - https://access.redhat.com/security/cve/CVE-2026-66046
     - https://bugzilla.redhat.com/2538967
     - https://bugzilla.redhat.com/show_bug.cgi?id=2517901
@@ -5882,11 +5886,11 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-66046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-93990
-    - https://errata.almalinux.org/8/ALSA-2026-72448.html
-    - https://errata.rockylinux.org/RLSA-2026:72448
+    - https://errata.almalinux.org/9/ALSA-2026-72663.html
+    - https://errata.rockylinux.org/RLSA-2026:72663
     - https://github.com/libexpat/libexpat/pull/1321
     - https://linux.oracle.com/cve/CVE-2026-66046.html
-    - https://linux.oracle.com/errata/ELSA-2026-72663.html
+    - https://linux.oracle.com/errata/ELSA-2026-74001.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-66046
     - https://ubuntu.com/security/notices/USN-8813-1
     - https://www.cve.org/CVERecord?id=CVE-2026-66046
@@ -6154,6 +6158,22 @@
     - https://access.redhat.com/errata/RHSA-2026:73960
     - https://access.redhat.com/errata/RHSA-2026:73961
     - https://access.redhat.com/errata/RHSA-2026:73962
+    - https://access.redhat.com/errata/RHSA-2026:74458
+    - https://access.redhat.com/errata/RHSA-2026:74459
+    - https://access.redhat.com/errata/RHSA-2026:74460
+    - https://access.redhat.com/errata/RHSA-2026:74461
+    - https://access.redhat.com/errata/RHSA-2026:74462
+    - https://access.redhat.com/errata/RHSA-2026:74463
+    - https://access.redhat.com/errata/RHSA-2026:74674
+    - https://access.redhat.com/errata/RHSA-2026:74677
+    - https://access.redhat.com/errata/RHSA-2026:74678
+    - https://access.redhat.com/errata/RHSA-2026:74679
+    - https://access.redhat.com/errata/RHSA-2026:74681
+    - https://access.redhat.com/errata/RHSA-2026:74683
+    - https://access.redhat.com/errata/RHSA-2026:74685
+    - https://access.redhat.com/errata/RHSA-2026:74687
+    - https://access.redhat.com/errata/RHSA-2026:74688
+    - https://access.redhat.com/errata/RHSA-2026:74771
     - https://access.redhat.com/security/cve/CVE-2026-15588
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -6188,7 +6208,7 @@
     - https://ubuntu.com/security/notices/USN-8794-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15588
     PublishedDate: '2026-07-20T12:17:55.22Z'
-    LastModifiedDate: '2026-09-30T17:16:44.17Z'
+    LastModifiedDate: '2026-10-02T03:16:40.72Z'
   - VulnerabilityID: CVE-2026-16118
     PkgID: libglib2.0-0t64@2.88.0-1
     PkgName: libglib2.0-0t64
@@ -6248,6 +6268,30 @@
     - https://access.redhat.com/errata/RHSA-2026:73960
     - https://access.redhat.com/errata/RHSA-2026:73961
     - https://access.redhat.com/errata/RHSA-2026:73962
+    - https://access.redhat.com/errata/RHSA-2026:74359
+    - https://access.redhat.com/errata/RHSA-2026:74360
+    - https://access.redhat.com/errata/RHSA-2026:74361
+    - https://access.redhat.com/errata/RHSA-2026:74362
+    - https://access.redhat.com/errata/RHSA-2026:74363
+    - https://access.redhat.com/errata/RHSA-2026:74364
+    - https://access.redhat.com/errata/RHSA-2026:74365
+    - https://access.redhat.com/errata/RHSA-2026:74450
+    - https://access.redhat.com/errata/RHSA-2026:74458
+    - https://access.redhat.com/errata/RHSA-2026:74459
+    - https://access.redhat.com/errata/RHSA-2026:74460
+    - https://access.redhat.com/errata/RHSA-2026:74461
+    - https://access.redhat.com/errata/RHSA-2026:74462
+    - https://access.redhat.com/errata/RHSA-2026:74463
+    - https://access.redhat.com/errata/RHSA-2026:74674
+    - https://access.redhat.com/errata/RHSA-2026:74677
+    - https://access.redhat.com/errata/RHSA-2026:74678
+    - https://access.redhat.com/errata/RHSA-2026:74679
+    - https://access.redhat.com/errata/RHSA-2026:74681
+    - https://access.redhat.com/errata/RHSA-2026:74683
+    - https://access.redhat.com/errata/RHSA-2026:74685
+    - https://access.redhat.com/errata/RHSA-2026:74687
+    - https://access.redhat.com/errata/RHSA-2026:74688
+    - https://access.redhat.com/errata/RHSA-2026:74771
     - https://access.redhat.com/security/cve/CVE-2026-16118
     - https://bugzilla.redhat.com/2501732
     - https://bugzilla.redhat.com/show_bug.cgi?id=2501732
@@ -6263,7 +6307,7 @@
     - https://ubuntu.com/security/notices/USN-8794-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16118
     PublishedDate: '2026-07-17T20:17:16.167Z'
-    LastModifiedDate: '2026-09-30T17:16:44.553Z'
+    LastModifiedDate: '2026-10-02T03:16:41.18Z'
   - VulnerabilityID: CVE-2026-58010
     PkgID: libglib2.0-0t64@2.88.0-1
     PkgName: libglib2.0-0t64
@@ -6343,6 +6387,22 @@
     - https://access.redhat.com/errata/RHSA-2026:73960
     - https://access.redhat.com/errata/RHSA-2026:73961
     - https://access.redhat.com/errata/RHSA-2026:73962
+    - https://access.redhat.com/errata/RHSA-2026:74458
+    - https://access.redhat.com/errata/RHSA-2026:74459
+    - https://access.redhat.com/errata/RHSA-2026:74460
+    - https://access.redhat.com/errata/RHSA-2026:74461
+    - https://access.redhat.com/errata/RHSA-2026:74462
+    - https://access.redhat.com/errata/RHSA-2026:74463
+    - https://access.redhat.com/errata/RHSA-2026:74674
+    - https://access.redhat.com/errata/RHSA-2026:74677
+    - https://access.redhat.com/errata/RHSA-2026:74678
+    - https://access.redhat.com/errata/RHSA-2026:74679
+    - https://access.redhat.com/errata/RHSA-2026:74681
+    - https://access.redhat.com/errata/RHSA-2026:74683
+    - https://access.redhat.com/errata/RHSA-2026:74685
+    - https://access.redhat.com/errata/RHSA-2026:74687
+    - https://access.redhat.com/errata/RHSA-2026:74688
+    - https://access.redhat.com/errata/RHSA-2026:74771
     - https://access.redhat.com/security/cve/CVE-2026-58010
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -6376,7 +6436,7 @@
     - https://ubuntu.com/security/notices/USN-8794-1
     - https://www.cve.org/CVERecord?id=CVE-2026-58010
     PublishedDate: '2026-06-30T13:19:17.067Z'
-    LastModifiedDate: '2026-09-30T17:16:47.253Z'
+    LastModifiedDate: '2026-10-02T03:16:47.1Z'
   - VulnerabilityID: CVE-2026-58011
     PkgID: libglib2.0-0t64@2.88.0-1
     PkgName: libglib2.0-0t64
@@ -6456,6 +6516,22 @@
     - https://access.redhat.com/errata/RHSA-2026:73960
     - https://access.redhat.com/errata/RHSA-2026:73961
     - https://access.redhat.com/errata/RHSA-2026:73962
+    - https://access.redhat.com/errata/RHSA-2026:74458
+    - https://access.redhat.com/errata/RHSA-2026:74459
+    - https://access.redhat.com/errata/RHSA-2026:74460
+    - https://access.redhat.com/errata/RHSA-2026:74461
+    - https://access.redhat.com/errata/RHSA-2026:74462
+    - https://access.redhat.com/errata/RHSA-2026:74463
+    - https://access.redhat.com/errata/RHSA-2026:74674
+    - https://access.redhat.com/errata/RHSA-2026:74677
+    - https://access.redhat.com/errata/RHSA-2026:74678
+    - https://access.redhat.com/errata/RHSA-2026:74679
+    - https://access.redhat.com/errata/RHSA-2026:74681
+    - https://access.redhat.com/errata/RHSA-2026:74683
+    - https://access.redhat.com/errata/RHSA-2026:74685
+    - https://access.redhat.com/errata/RHSA-2026:74687
+    - https://access.redhat.com/errata/RHSA-2026:74688
+    - https://access.redhat.com/errata/RHSA-2026:74771
     - https://access.redhat.com/security/cve/CVE-2026-58011
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -6490,7 +6566,7 @@
     - https://ubuntu.com/security/notices/USN-8794-1
     - https://www.cve.org/CVERecord?id=CVE-2026-58011
     PublishedDate: '2026-06-30T13:19:17.2Z'
-    LastModifiedDate: '2026-09-30T17:16:47.613Z'
+    LastModifiedDate: '2026-10-02T03:16:47.547Z'
   - VulnerabilityID: CVE-2026-58012
     PkgID: libglib2.0-0t64@2.88.0-1
     PkgName: libglib2.0-0t64
@@ -6570,6 +6646,22 @@
     - https://access.redhat.com/errata/RHSA-2026:73960
     - https://access.redhat.com/errata/RHSA-2026:73961
     - https://access.redhat.com/errata/RHSA-2026:73962
+    - https://access.redhat.com/errata/RHSA-2026:74458
+    - https://access.redhat.com/errata/RHSA-2026:74459
+    - https://access.redhat.com/errata/RHSA-2026:74460
+    - https://access.redhat.com/errata/RHSA-2026:74461
+    - https://access.redhat.com/errata/RHSA-2026:74462
+    - https://access.redhat.com/errata/RHSA-2026:74463
+    - https://access.redhat.com/errata/RHSA-2026:74674
+    - https://access.redhat.com/errata/RHSA-2026:74677
+    - https://access.redhat.com/errata/RHSA-2026:74678
+    - https://access.redhat.com/errata/RHSA-2026:74679
+    - https://access.redhat.com/errata/RHSA-2026:74681
+    - https://access.redhat.com/errata/RHSA-2026:74683
+    - https://access.redhat.com/errata/RHSA-2026:74685
+    - https://access.redhat.com/errata/RHSA-2026:74687
+    - https://access.redhat.com/errata/RHSA-2026:74688
+    - https://access.redhat.com/errata/RHSA-2026:74771
     - https://access.redhat.com/security/cve/CVE-2026-58012
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -6603,7 +6695,7 @@
     - https://ubuntu.com/security/notices/USN-8794-1
     - https://www.cve.org/CVERecord?id=CVE-2026-58012
     PublishedDate: '2026-06-30T13:19:17.33Z'
-    LastModifiedDate: '2026-09-30T17:16:47.97Z'
+    LastModifiedDate: '2026-10-02T03:16:47.99Z'
   - VulnerabilityID: CVE-2026-58013
     PkgID: libglib2.0-0t64@2.88.0-1
     PkgName: libglib2.0-0t64
@@ -6683,6 +6775,22 @@
     - https://access.redhat.com/errata/RHSA-2026:73960
     - https://access.redhat.com/errata/RHSA-2026:73961
     - https://access.redhat.com/errata/RHSA-2026:73962
+    - https://access.redhat.com/errata/RHSA-2026:74458
+    - https://access.redhat.com/errata/RHSA-2026:74459
+    - https://access.redhat.com/errata/RHSA-2026:74460
+    - https://access.redhat.com/errata/RHSA-2026:74461
+    - https://access.redhat.com/errata/RHSA-2026:74462
+    - https://access.redhat.com/errata/RHSA-2026:74463
+    - https://access.redhat.com/errata/RHSA-2026:74674
+    - https://access.redhat.com/errata/RHSA-2026:74677
+    - https://access.redhat.com/errata/RHSA-2026:74678
+    - https://access.redhat.com/errata/RHSA-2026:74679
+    - https://access.redhat.com/errata/RHSA-2026:74681
+    - https://access.redhat.com/errata/RHSA-2026:74683
+    - https://access.redhat.com/errata/RHSA-2026:74685
+    - https://access.redhat.com/errata/RHSA-2026:74687
+    - https://access.redhat.com/errata/RHSA-2026:74688
+    - https://access.redhat.com/errata/RHSA-2026:74771
     - https://access.redhat.com/security/cve/CVE-2026-58013
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -6716,7 +6824,7 @@
     - https://ubuntu.com/security/notices/USN-8794-1
     - https://www.cve.org/CVERecord?id=CVE-2026-58013
     PublishedDate: '2026-06-30T13:19:17.457Z'
-    LastModifiedDate: '2026-09-30T17:16:48.327Z'
+    LastModifiedDate: '2026-10-02T03:16:48.433Z'
   - VulnerabilityID: CVE-2026-58014
     PkgID: libglib2.0-0t64@2.88.0-1
     PkgName: libglib2.0-0t64
@@ -6782,6 +6890,8 @@
     - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/errata/RHSA-2026:66018
     - https://access.redhat.com/errata/RHSA-2026:66357
+    - https://access.redhat.com/errata/RHSA-2026:70586
+    - https://access.redhat.com/errata/RHSA-2026:70646
     - https://access.redhat.com/errata/RHSA-2026:72394
     - https://access.redhat.com/errata/RHSA-2026:72395
     - https://access.redhat.com/errata/RHSA-2026:72399
@@ -6797,6 +6907,22 @@
     - https://access.redhat.com/errata/RHSA-2026:73960
     - https://access.redhat.com/errata/RHSA-2026:73961
     - https://access.redhat.com/errata/RHSA-2026:73962
+    - https://access.redhat.com/errata/RHSA-2026:74458
+    - https://access.redhat.com/errata/RHSA-2026:74459
+    - https://access.redhat.com/errata/RHSA-2026:74460
+    - https://access.redhat.com/errata/RHSA-2026:74461
+    - https://access.redhat.com/errata/RHSA-2026:74462
+    - https://access.redhat.com/errata/RHSA-2026:74463
+    - https://access.redhat.com/errata/RHSA-2026:74674
+    - https://access.redhat.com/errata/RHSA-2026:74677
+    - https://access.redhat.com/errata/RHSA-2026:74678
+    - https://access.redhat.com/errata/RHSA-2026:74679
+    - https://access.redhat.com/errata/RHSA-2026:74681
+    - https://access.redhat.com/errata/RHSA-2026:74683
+    - https://access.redhat.com/errata/RHSA-2026:74685
+    - https://access.redhat.com/errata/RHSA-2026:74687
+    - https://access.redhat.com/errata/RHSA-2026:74688
+    - https://access.redhat.com/errata/RHSA-2026:74771
     - https://access.redhat.com/security/cve/CVE-2026-58014
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -6830,7 +6956,7 @@
     - https://ubuntu.com/security/notices/USN-8794-1
     - https://www.cve.org/CVERecord?id=CVE-2026-58014
     PublishedDate: '2026-06-30T13:19:17.58Z'
-    LastModifiedDate: '2026-09-30T17:16:48.683Z'
+    LastModifiedDate: '2026-10-02T03:16:48.87Z'
   - VulnerabilityID: CVE-2026-58015
     PkgID: libglib2.0-0t64@2.88.0-1
     PkgName: libglib2.0-0t64
@@ -6896,6 +7022,7 @@
     - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/errata/RHSA-2026:66018
     - https://access.redhat.com/errata/RHSA-2026:66357
+    - https://access.redhat.com/errata/RHSA-2026:70646
     - https://access.redhat.com/errata/RHSA-2026:72394
     - https://access.redhat.com/errata/RHSA-2026:72395
     - https://access.redhat.com/errata/RHSA-2026:72399
@@ -6911,6 +7038,22 @@
     - https://access.redhat.com/errata/RHSA-2026:73960
     - https://access.redhat.com/errata/RHSA-2026:73961
     - https://access.redhat.com/errata/RHSA-2026:73962
+    - https://access.redhat.com/errata/RHSA-2026:74458
+    - https://access.redhat.com/errata/RHSA-2026:74459
+    - https://access.redhat.com/errata/RHSA-2026:74460
+    - https://access.redhat.com/errata/RHSA-2026:74461
+    - https://access.redhat.com/errata/RHSA-2026:74462
+    - https://access.redhat.com/errata/RHSA-2026:74463
+    - https://access.redhat.com/errata/RHSA-2026:74674
+    - https://access.redhat.com/errata/RHSA-2026:74677
+    - https://access.redhat.com/errata/RHSA-2026:74678
+    - https://access.redhat.com/errata/RHSA-2026:74679
+    - https://access.redhat.com/errata/RHSA-2026:74681
+    - https://access.redhat.com/errata/RHSA-2026:74683
+    - https://access.redhat.com/errata/RHSA-2026:74685
+    - https://access.redhat.com/errata/RHSA-2026:74687
+    - https://access.redhat.com/errata/RHSA-2026:74688
+    - https://access.redhat.com/errata/RHSA-2026:74771
     - https://access.redhat.com/security/cve/CVE-2026-58015
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -6944,7 +7087,7 @@
     - https://ubuntu.com/security/notices/USN-8794-1
     - https://www.cve.org/CVERecord?id=CVE-2026-58015
     PublishedDate: '2026-06-30T13:19:17.707Z'
-    LastModifiedDate: '2026-09-30T17:16:49.05Z'
+    LastModifiedDate: '2026-10-02T03:16:49.32Z'
   - VulnerabilityID: CVE-2026-58016
     PkgID: libglib2.0-0t64@2.88.0-1
     PkgName: libglib2.0-0t64
@@ -7019,6 +7162,13 @@
     - https://access.redhat.com/errata/RHSA-2026:73960
     - https://access.redhat.com/errata/RHSA-2026:73961
     - https://access.redhat.com/errata/RHSA-2026:73962
+    - https://access.redhat.com/errata/RHSA-2026:74458
+    - https://access.redhat.com/errata/RHSA-2026:74459
+    - https://access.redhat.com/errata/RHSA-2026:74460
+    - https://access.redhat.com/errata/RHSA-2026:74461
+    - https://access.redhat.com/errata/RHSA-2026:74462
+    - https://access.redhat.com/errata/RHSA-2026:74463
+    - https://access.redhat.com/errata/RHSA-2026:74674
     - https://access.redhat.com/security/cve/CVE-2026-58016
     - https://bugzilla.redhat.com/2492257
     - https://bugzilla.redhat.com/show_bug.cgi?id=2492257
@@ -7034,7 +7184,7 @@
     - https://ubuntu.com/security/notices/USN-8794-1
     - https://www.cve.org/CVERecord?id=CVE-2026-58016
     PublishedDate: '2026-06-30T13:19:17.84Z'
-    LastModifiedDate: '2026-09-30T16:17:32.15Z'
+    LastModifiedDate: '2026-10-02T03:16:49.82Z'
   - VulnerabilityID: CVE-2026-86469
     PkgID: libglib2.0-0t64@2.88.0-1
     PkgName: libglib2.0-0t64
@@ -7146,6 +7296,22 @@
     - https://access.redhat.com/errata/RHSA-2026:73960
     - https://access.redhat.com/errata/RHSA-2026:73961
     - https://access.redhat.com/errata/RHSA-2026:73962
+    - https://access.redhat.com/errata/RHSA-2026:74458
+    - https://access.redhat.com/errata/RHSA-2026:74459
+    - https://access.redhat.com/errata/RHSA-2026:74460
+    - https://access.redhat.com/errata/RHSA-2026:74461
+    - https://access.redhat.com/errata/RHSA-2026:74462
+    - https://access.redhat.com/errata/RHSA-2026:74463
+    - https://access.redhat.com/errata/RHSA-2026:74674
+    - https://access.redhat.com/errata/RHSA-2026:74677
+    - https://access.redhat.com/errata/RHSA-2026:74678
+    - https://access.redhat.com/errata/RHSA-2026:74679
+    - https://access.redhat.com/errata/RHSA-2026:74681
+    - https://access.redhat.com/errata/RHSA-2026:74683
+    - https://access.redhat.com/errata/RHSA-2026:74685
+    - https://access.redhat.com/errata/RHSA-2026:74687
+    - https://access.redhat.com/errata/RHSA-2026:74688
+    - https://access.redhat.com/errata/RHSA-2026:74771
     - https://access.redhat.com/security/cve/CVE-2026-15588
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -7180,7 +7346,7 @@
     - https://ubuntu.com/security/notices/USN-8794-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15588
     PublishedDate: '2026-07-20T12:17:55.22Z'
-    LastModifiedDate: '2026-09-30T17:16:44.17Z'
+    LastModifiedDate: '2026-10-02T03:16:40.72Z'
   - VulnerabilityID: CVE-2026-16118
     PkgID: libglib2.0-data@2.88.0-1
     PkgName: libglib2.0-data
@@ -7240,6 +7406,30 @@
     - https://access.redhat.com/errata/RHSA-2026:73960
     - https://access.redhat.com/errata/RHSA-2026:73961
     - https://access.redhat.com/errata/RHSA-2026:73962
+    - https://access.redhat.com/errata/RHSA-2026:74359
+    - https://access.redhat.com/errata/RHSA-2026:74360
+    - https://access.redhat.com/errata/RHSA-2026:74361
+    - https://access.redhat.com/errata/RHSA-2026:74362
+    - https://access.redhat.com/errata/RHSA-2026:74363
+    - https://access.redhat.com/errata/RHSA-2026:74364
+    - https://access.redhat.com/errata/RHSA-2026:74365
+    - https://access.redhat.com/errata/RHSA-2026:74450
+    - https://access.redhat.com/errata/RHSA-2026:74458
+    - https://access.redhat.com/errata/RHSA-2026:74459
+    - https://access.redhat.com/errata/RHSA-2026:74460
+    - https://access.redhat.com/errata/RHSA-2026:74461
+    - https://access.redhat.com/errata/RHSA-2026:74462
+    - https://access.redhat.com/errata/RHSA-2026:74463
+    - https://access.redhat.com/errata/RHSA-2026:74674
+    - https://access.redhat.com/errata/RHSA-2026:74677
+    - https://access.redhat.com/errata/RHSA-2026:74678
+    - https://access.redhat.com/errata/RHSA-2026:74679
+    - https://access.redhat.com/errata/RHSA-2026:74681
+    - https://access.redhat.com/errata/RHSA-2026:74683
+    - https://access.redhat.com/errata/RHSA-2026:74685
+    - https://access.redhat.com/errata/RHSA-2026:74687
+    - https://access.redhat.com/errata/RHSA-2026:74688
+    - https://access.redhat.com/errata/RHSA-2026:74771
     - https://access.redhat.com/security/cve/CVE-2026-16118
     - https://bugzilla.redhat.com/2501732
     - https://bugzilla.redhat.com/show_bug.cgi?id=2501732
@@ -7255,7 +7445,7 @@
     - https://ubuntu.com/security/notices/USN-8794-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16118
     PublishedDate: '2026-07-17T20:17:16.167Z'
-    LastModifiedDate: '2026-09-30T17:16:44.553Z'
+    LastModifiedDate: '2026-10-02T03:16:41.18Z'
   - VulnerabilityID: CVE-2026-58010
     PkgID: libglib2.0-data@2.88.0-1
     PkgName: libglib2.0-data
@@ -7335,6 +7525,22 @@
     - https://access.redhat.com/errata/RHSA-2026:73960
     - https://access.redhat.com/errata/RHSA-2026:73961
     - https://access.redhat.com/errata/RHSA-2026:73962
+    - https://access.redhat.com/errata/RHSA-2026:74458
+    - https://access.redhat.com/errata/RHSA-2026:74459
+    - https://access.redhat.com/errata/RHSA-2026:74460
+    - https://access.redhat.com/errata/RHSA-2026:74461
+    - https://access.redhat.com/errata/RHSA-2026:74462
+    - https://access.redhat.com/errata/RHSA-2026:74463
+    - https://access.redhat.com/errata/RHSA-2026:74674
+    - https://access.redhat.com/errata/RHSA-2026:74677
+    - https://access.redhat.com/errata/RHSA-2026:74678
+    - https://access.redhat.com/errata/RHSA-2026:74679
+    - https://access.redhat.com/errata/RHSA-2026:74681
+    - https://access.redhat.com/errata/RHSA-2026:74683
+    - https://access.redhat.com/errata/RHSA-2026:74685
+    - https://access.redhat.com/errata/RHSA-2026:74687
+    - https://access.redhat.com/errata/RHSA-2026:74688
+    - https://access.redhat.com/errata/RHSA-2026:74771
     - https://access.redhat.com/security/cve/CVE-2026-58010
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -7368,7 +7574,7 @@
     - https://ubuntu.com/security/notices/USN-8794-1
     - https://www.cve.org/CVERecord?id=CVE-2026-58010
     PublishedDate: '2026-06-30T13:19:17.067Z'
-    LastModifiedDate: '2026-09-30T17:16:47.253Z'
+    LastModifiedDate: '2026-10-02T03:16:47.1Z'
   - VulnerabilityID: CVE-2026-58011
     PkgID: libglib2.0-data@2.88.0-1
     PkgName: libglib2.0-data
@@ -7448,6 +7654,22 @@
     - https://access.redhat.com/errata/RHSA-2026:73960
     - https://access.redhat.com/errata/RHSA-2026:73961
     - https://access.redhat.com/errata/RHSA-2026:73962
+    - https://access.redhat.com/errata/RHSA-2026:74458
+    - https://access.redhat.com/errata/RHSA-2026:74459
+    - https://access.redhat.com/errata/RHSA-2026:74460
+    - https://access.redhat.com/errata/RHSA-2026:74461
+    - https://access.redhat.com/errata/RHSA-2026:74462
+    - https://access.redhat.com/errata/RHSA-2026:74463
+    - https://access.redhat.com/errata/RHSA-2026:74674
+    - https://access.redhat.com/errata/RHSA-2026:74677
+    - https://access.redhat.com/errata/RHSA-2026:74678
+    - https://access.redhat.com/errata/RHSA-2026:74679
+    - https://access.redhat.com/errata/RHSA-2026:74681
+    - https://access.redhat.com/errata/RHSA-2026:74683
+    - https://access.redhat.com/errata/RHSA-2026:74685
+    - https://access.redhat.com/errata/RHSA-2026:74687
+    - https://access.redhat.com/errata/RHSA-2026:74688
+    - https://access.redhat.com/errata/RHSA-2026:74771
     - https://access.redhat.com/security/cve/CVE-2026-58011
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -7482,7 +7704,7 @@
     - https://ubuntu.com/security/notices/USN-8794-1
     - https://www.cve.org/CVERecord?id=CVE-2026-58011
     PublishedDate: '2026-06-30T13:19:17.2Z'
-    LastModifiedDate: '2026-09-30T17:16:47.613Z'
+    LastModifiedDate: '2026-10-02T03:16:47.547Z'
   - VulnerabilityID: CVE-2026-58012
     PkgID: libglib2.0-data@2.88.0-1
     PkgName: libglib2.0-data
@@ -7562,6 +7784,22 @@
     - https://access.redhat.com/errata/RHSA-2026:73960
     - https://access.redhat.com/errata/RHSA-2026:73961
     - https://access.redhat.com/errata/RHSA-2026:73962
+    - https://access.redhat.com/errata/RHSA-2026:74458
+    - https://access.redhat.com/errata/RHSA-2026:74459
+    - https://access.redhat.com/errata/RHSA-2026:74460
+    - https://access.redhat.com/errata/RHSA-2026:74461
+    - https://access.redhat.com/errata/RHSA-2026:74462
+    - https://access.redhat.com/errata/RHSA-2026:74463
+    - https://access.redhat.com/errata/RHSA-2026:74674
+    - https://access.redhat.com/errata/RHSA-2026:74677
+    - https://access.redhat.com/errata/RHSA-2026:74678
+    - https://access.redhat.com/errata/RHSA-2026:74679
+    - https://access.redhat.com/errata/RHSA-2026:74681
+    - https://access.redhat.com/errata/RHSA-2026:74683
+    - https://access.redhat.com/errata/RHSA-2026:74685
+    - https://access.redhat.com/errata/RHSA-2026:74687
+    - https://access.redhat.com/errata/RHSA-2026:74688
+    - https://access.redhat.com/errata/RHSA-2026:74771
     - https://access.redhat.com/security/cve/CVE-2026-58012
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -7595,7 +7833,7 @@
     - https://ubuntu.com/security/notices/USN-8794-1
     - https://www.cve.org/CVERecord?id=CVE-2026-58012
     PublishedDate: '2026-06-30T13:19:17.33Z'
-    LastModifiedDate: '2026-09-30T17:16:47.97Z'
+    LastModifiedDate: '2026-10-02T03:16:47.99Z'
   - VulnerabilityID: CVE-2026-58013
     PkgID: libglib2.0-data@2.88.0-1
     PkgName: libglib2.0-data
@@ -7675,6 +7913,22 @@
     - https://access.redhat.com/errata/RHSA-2026:73960
     - https://access.redhat.com/errata/RHSA-2026:73961
     - https://access.redhat.com/errata/RHSA-2026:73962
+    - https://access.redhat.com/errata/RHSA-2026:74458
+    - https://access.redhat.com/errata/RHSA-2026:74459
+    - https://access.redhat.com/errata/RHSA-2026:74460
+    - https://access.redhat.com/errata/RHSA-2026:74461
+    - https://access.redhat.com/errata/RHSA-2026:74462
+    - https://access.redhat.com/errata/RHSA-2026:74463
+    - https://access.redhat.com/errata/RHSA-2026:74674
+    - https://access.redhat.com/errata/RHSA-2026:74677
+    - https://access.redhat.com/errata/RHSA-2026:74678
+    - https://access.redhat.com/errata/RHSA-2026:74679
+    - https://access.redhat.com/errata/RHSA-2026:74681
+    - https://access.redhat.com/errata/RHSA-2026:74683
+    - https://access.redhat.com/errata/RHSA-2026:74685
+    - https://access.redhat.com/errata/RHSA-2026:74687
+    - https://access.redhat.com/errata/RHSA-2026:74688
+    - https://access.redhat.com/errata/RHSA-2026:74771
     - https://access.redhat.com/security/cve/CVE-2026-58013
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -7708,7 +7962,7 @@
     - https://ubuntu.com/security/notices/USN-8794-1
     - https://www.cve.org/CVERecord?id=CVE-2026-58013
     PublishedDate: '2026-06-30T13:19:17.457Z'
-    LastModifiedDate: '2026-09-30T17:16:48.327Z'
+    LastModifiedDate: '2026-10-02T03:16:48.433Z'
   - VulnerabilityID: CVE-2026-58014
     PkgID: libglib2.0-data@2.88.0-1
     PkgName: libglib2.0-data
@@ -7774,6 +8028,8 @@
     - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/errata/RHSA-2026:66018
     - https://access.redhat.com/errata/RHSA-2026:66357
+    - https://access.redhat.com/errata/RHSA-2026:70586
+    - https://access.redhat.com/errata/RHSA-2026:70646
     - https://access.redhat.com/errata/RHSA-2026:72394
     - https://access.redhat.com/errata/RHSA-2026:72395
     - https://access.redhat.com/errata/RHSA-2026:72399
@@ -7789,6 +8045,22 @@
     - https://access.redhat.com/errata/RHSA-2026:73960
     - https://access.redhat.com/errata/RHSA-2026:73961
     - https://access.redhat.com/errata/RHSA-2026:73962
+    - https://access.redhat.com/errata/RHSA-2026:74458
+    - https://access.redhat.com/errata/RHSA-2026:74459
+    - https://access.redhat.com/errata/RHSA-2026:74460
+    - https://access.redhat.com/errata/RHSA-2026:74461
+    - https://access.redhat.com/errata/RHSA-2026:74462
+    - https://access.redhat.com/errata/RHSA-2026:74463
+    - https://access.redhat.com/errata/RHSA-2026:74674
+    - https://access.redhat.com/errata/RHSA-2026:74677
+    - https://access.redhat.com/errata/RHSA-2026:74678
+    - https://access.redhat.com/errata/RHSA-2026:74679
+    - https://access.redhat.com/errata/RHSA-2026:74681
+    - https://access.redhat.com/errata/RHSA-2026:74683
+    - https://access.redhat.com/errata/RHSA-2026:74685
+    - https://access.redhat.com/errata/RHSA-2026:74687
+    - https://access.redhat.com/errata/RHSA-2026:74688
+    - https://access.redhat.com/errata/RHSA-2026:74771
     - https://access.redhat.com/security/cve/CVE-2026-58014
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -7822,7 +8094,7 @@
     - https://ubuntu.com/security/notices/USN-8794-1
     - https://www.cve.org/CVERecord?id=CVE-2026-58014
     PublishedDate: '2026-06-30T13:19:17.58Z'
-    LastModifiedDate: '2026-09-30T17:16:48.683Z'
+    LastModifiedDate: '2026-10-02T03:16:48.87Z'
   - VulnerabilityID: CVE-2026-58015
     PkgID: libglib2.0-data@2.88.0-1
     PkgName: libglib2.0-data
@@ -7888,6 +8160,7 @@
     - https://access.redhat.com/errata/RHSA-2026:65773
     - https://access.redhat.com/errata/RHSA-2026:66018
     - https://access.redhat.com/errata/RHSA-2026:66357
+    - https://access.redhat.com/errata/RHSA-2026:70646
     - https://access.redhat.com/errata/RHSA-2026:72394
     - https://access.redhat.com/errata/RHSA-2026:72395
     - https://access.redhat.com/errata/RHSA-2026:72399
@@ -7903,6 +8176,22 @@
     - https://access.redhat.com/errata/RHSA-2026:73960
     - https://access.redhat.com/errata/RHSA-2026:73961
     - https://access.redhat.com/errata/RHSA-2026:73962
+    - https://access.redhat.com/errata/RHSA-2026:74458
+    - https://access.redhat.com/errata/RHSA-2026:74459
+    - https://access.redhat.com/errata/RHSA-2026:74460
+    - https://access.redhat.com/errata/RHSA-2026:74461
+    - https://access.redhat.com/errata/RHSA-2026:74462
+    - https://access.redhat.com/errata/RHSA-2026:74463
+    - https://access.redhat.com/errata/RHSA-2026:74674
+    - https://access.redhat.com/errata/RHSA-2026:74677
+    - https://access.redhat.com/errata/RHSA-2026:74678
+    - https://access.redhat.com/errata/RHSA-2026:74679
+    - https://access.redhat.com/errata/RHSA-2026:74681
+    - https://access.redhat.com/errata/RHSA-2026:74683
+    - https://access.redhat.com/errata/RHSA-2026:74685
+    - https://access.redhat.com/errata/RHSA-2026:74687
+    - https://access.redhat.com/errata/RHSA-2026:74688
+    - https://access.redhat.com/errata/RHSA-2026:74771
     - https://access.redhat.com/security/cve/CVE-2026-58015
     - https://bugzilla.redhat.com/2492243
     - https://bugzilla.redhat.com/2492245
@@ -7936,7 +8225,7 @@
     - https://ubuntu.com/security/notices/USN-8794-1
     - https://www.cve.org/CVERecord?id=CVE-2026-58015
     PublishedDate: '2026-06-30T13:19:17.707Z'
-    LastModifiedDate: '2026-09-30T17:16:49.05Z'
+    LastModifiedDate: '2026-10-02T03:16:49.32Z'
   - VulnerabilityID: CVE-2026-58016
     PkgID: libglib2.0-data@2.88.0-1
     PkgName: libglib2.0-data
@@ -8011,6 +8300,13 @@
     - https://access.redhat.com/errata/RHSA-2026:73960
     - https://access.redhat.com/errata/RHSA-2026:73961
     - https://access.redhat.com/errata/RHSA-2026:73962
+    - https://access.redhat.com/errata/RHSA-2026:74458
+    - https://access.redhat.com/errata/RHSA-2026:74459
+    - https://access.redhat.com/errata/RHSA-2026:74460
+    - https://access.redhat.com/errata/RHSA-2026:74461
+    - https://access.redhat.com/errata/RHSA-2026:74462
+    - https://access.redhat.com/errata/RHSA-2026:74463
+    - https://access.redhat.com/errata/RHSA-2026:74674
     - https://access.redhat.com/security/cve/CVE-2026-58016
     - https://bugzilla.redhat.com/2492257
     - https://bugzilla.redhat.com/show_bug.cgi?id=2492257
@@ -8026,7 +8322,7 @@
     - https://ubuntu.com/security/notices/USN-8794-1
     - https://www.cve.org/CVERecord?id=CVE-2026-58016
     PublishedDate: '2026-06-30T13:19:17.84Z'
-    LastModifiedDate: '2026-09-30T16:17:32.15Z'
+    LastModifiedDate: '2026-10-02T03:16:49.82Z'
   - VulnerabilityID: CVE-2026-86469
     PkgID: libglib2.0-data@2.88.0-1
     PkgName: libglib2.0-data
@@ -8719,7 +9015,8 @@
       PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3ubuntu0.3?arch=amd64&distro=ubuntu-26.04
       UID: d184bdac1ade918a
     InstalledVersion: 1.21.2-3ubuntu0.3
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
       DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
@@ -8741,6 +9038,7 @@
     - https://github.com/strukturag/libheif/commit/21893e8f66c8b79363ca2809391b07d35e1a95ec
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-24wx-9w62-c96w
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84384
     PublishedDate: '2026-09-18T16:17:11.9Z'
     LastModifiedDate: '2026-09-18T18:17:16.907Z'
@@ -8751,7 +9049,8 @@
       PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3ubuntu0.3?arch=amd64&distro=ubuntu-26.04
       UID: d184bdac1ade918a
     InstalledVersion: 1.21.2-3ubuntu0.3
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
       DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
@@ -8773,6 +9072,7 @@
     - https://github.com/strukturag/libheif/commit/3a7a69ae325f652e48c026b8241ab25bedf44d9b
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-xw34-mjcp-jqh8
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84446
     PublishedDate: '2026-09-18T16:17:12.513Z'
     LastModifiedDate: '2026-09-21T21:17:13.683Z'
@@ -8783,7 +9083,8 @@
       PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3ubuntu0.3?arch=amd64&distro=ubuntu-26.04
       UID: d184bdac1ade918a
     InstalledVersion: 1.21.2-3ubuntu0.3
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
       DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
@@ -8805,6 +9106,7 @@
     - https://github.com/strukturag/libheif/commit/30b52a4e829efe0ee6d7208e8500b99f664af5e9
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-x8xm-cm2c-cfc8
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84447
     PublishedDate: '2026-09-18T16:17:12.677Z'
     LastModifiedDate: '2026-09-18T18:17:17.017Z'
@@ -8815,7 +9117,8 @@
       PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3ubuntu0.3?arch=amd64&distro=ubuntu-26.04
       UID: d184bdac1ade918a
     InstalledVersion: 1.21.2-3ubuntu0.3
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
       DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
@@ -8838,6 +9141,7 @@
     - https://github.com/strukturag/libheif/commit/646d85fbf5bd18fc3cdc516e915e59072de2d510
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-p58j-h3vm-3fp5
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84448
     PublishedDate: '2026-09-18T16:17:12.84Z'
     LastModifiedDate: '2026-09-24T21:18:55.407Z'
@@ -8992,7 +9296,8 @@
       PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3ubuntu0.3?arch=amd64&distro=ubuntu-26.04
       UID: cba12cb4eeb67cf6
     InstalledVersion: 1.21.2-3ubuntu0.3
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
       DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
@@ -9014,6 +9319,7 @@
     - https://github.com/strukturag/libheif/commit/21893e8f66c8b79363ca2809391b07d35e1a95ec
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-24wx-9w62-c96w
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84384
     PublishedDate: '2026-09-18T16:17:11.9Z'
     LastModifiedDate: '2026-09-18T18:17:16.907Z'
@@ -9024,7 +9330,8 @@
       PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3ubuntu0.3?arch=amd64&distro=ubuntu-26.04
       UID: cba12cb4eeb67cf6
     InstalledVersion: 1.21.2-3ubuntu0.3
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
       DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
@@ -9046,6 +9353,7 @@
     - https://github.com/strukturag/libheif/commit/3a7a69ae325f652e48c026b8241ab25bedf44d9b
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-xw34-mjcp-jqh8
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84446
     PublishedDate: '2026-09-18T16:17:12.513Z'
     LastModifiedDate: '2026-09-21T21:17:13.683Z'
@@ -9056,7 +9364,8 @@
       PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3ubuntu0.3?arch=amd64&distro=ubuntu-26.04
       UID: cba12cb4eeb67cf6
     InstalledVersion: 1.21.2-3ubuntu0.3
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
       DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
@@ -9078,6 +9387,7 @@
     - https://github.com/strukturag/libheif/commit/30b52a4e829efe0ee6d7208e8500b99f664af5e9
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-x8xm-cm2c-cfc8
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84447
     PublishedDate: '2026-09-18T16:17:12.677Z'
     LastModifiedDate: '2026-09-18T18:17:17.017Z'
@@ -9088,7 +9398,8 @@
       PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3ubuntu0.3?arch=amd64&distro=ubuntu-26.04
       UID: cba12cb4eeb67cf6
     InstalledVersion: 1.21.2-3ubuntu0.3
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
       DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
@@ -9111,6 +9422,7 @@
     - https://github.com/strukturag/libheif/commit/646d85fbf5bd18fc3cdc516e915e59072de2d510
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-p58j-h3vm-3fp5
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84448
     PublishedDate: '2026-09-18T16:17:12.84Z'
     LastModifiedDate: '2026-09-24T21:18:55.407Z'
@@ -9265,7 +9577,8 @@
       PURL: pkg:deb/ubuntu/libheif1@1.21.2-3ubuntu0.3?arch=amd64&distro=ubuntu-26.04
       UID: d99c70eaf66d166
     InstalledVersion: 1.21.2-3ubuntu0.3
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
       DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
@@ -9287,6 +9600,7 @@
     - https://github.com/strukturag/libheif/commit/21893e8f66c8b79363ca2809391b07d35e1a95ec
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-24wx-9w62-c96w
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84384
     PublishedDate: '2026-09-18T16:17:11.9Z'
     LastModifiedDate: '2026-09-18T18:17:16.907Z'
@@ -9297,7 +9611,8 @@
       PURL: pkg:deb/ubuntu/libheif1@1.21.2-3ubuntu0.3?arch=amd64&distro=ubuntu-26.04
       UID: d99c70eaf66d166
     InstalledVersion: 1.21.2-3ubuntu0.3
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
       DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
@@ -9319,6 +9634,7 @@
     - https://github.com/strukturag/libheif/commit/3a7a69ae325f652e48c026b8241ab25bedf44d9b
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-xw34-mjcp-jqh8
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84446
     PublishedDate: '2026-09-18T16:17:12.513Z'
     LastModifiedDate: '2026-09-21T21:17:13.683Z'
@@ -9329,7 +9645,8 @@
       PURL: pkg:deb/ubuntu/libheif1@1.21.2-3ubuntu0.3?arch=amd64&distro=ubuntu-26.04
       UID: d99c70eaf66d166
     InstalledVersion: 1.21.2-3ubuntu0.3
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
       DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
@@ -9351,6 +9668,7 @@
     - https://github.com/strukturag/libheif/commit/30b52a4e829efe0ee6d7208e8500b99f664af5e9
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-x8xm-cm2c-cfc8
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84447
     PublishedDate: '2026-09-18T16:17:12.677Z'
     LastModifiedDate: '2026-09-18T18:17:17.017Z'
@@ -9361,7 +9679,8 @@
       PURL: pkg:deb/ubuntu/libheif1@1.21.2-3ubuntu0.3?arch=amd64&distro=ubuntu-26.04
       UID: d99c70eaf66d166
     InstalledVersion: 1.21.2-3ubuntu0.3
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
       DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
@@ -9384,6 +9703,7 @@
     - https://github.com/strukturag/libheif/commit/646d85fbf5bd18fc3cdc516e915e59072de2d510
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-p58j-h3vm-3fp5
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84448
     PublishedDate: '2026-09-18T16:17:12.84Z'
     LastModifiedDate: '2026-09-24T21:18:55.407Z'
@@ -10161,8 +10481,10 @@
     - CWE-129
     - CWE-787
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -10170,8 +10492,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:H/A:H
         V3Score: 8.7
     References:
+    - https://access.redhat.com/errata/RHSA-2026:74442
     - https://access.redhat.com/security/cve/CVE-2026-0799
+    - https://bugzilla.redhat.com/2529093
+    - https://errata.almalinux.org/10/ALSA-2026-74442.html
     - https://github.com/the-tcpdump-group/libpcap/commit/48e8960a7108e9e828f9d7bdc7e97bdab841aec7
+    - https://linux.oracle.com/cve/CVE-2026-0799.html
+    - https://linux.oracle.com/errata/ELSA-2026-74442.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0799
     - https://ubuntu.com/security/notices/USN-8824-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0799
@@ -12232,6 +12559,7 @@
       amazon: 3
       azure: 3
       julia: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -12335,6 +12663,7 @@
       amazon: 3
       azure: 3
       julia: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -13157,7 +13486,8 @@
       PURL: pkg:deb/ubuntu/libssl3t64@3.5.5-1ubuntu3.3?arch=amd64&distro=ubuntu-26.04
       UID: 644b35a23c374d86
     InstalledVersion: 3.5.5-1ubuntu3.3
-    Status: affected
+    FixedVersion: 3.5.5-1ubuntu3.7
+    Status: fixed
     Layer:
       Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
       DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
@@ -13212,6 +13542,7 @@
     - https://github.com/openssl/openssl/commit/f42ae513bbda513b3c121d54834040ee4a0eae1a
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42772
     - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8861-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42772
     PublishedDate: '2026-09-29T16:17:07.64Z'
     LastModifiedDate: '2026-09-30T21:17:10.803Z'
@@ -13297,7 +13628,8 @@
       PURL: pkg:deb/ubuntu/libssl3t64@3.5.5-1ubuntu3.3?arch=amd64&distro=ubuntu-26.04
       UID: 644b35a23c374d86
     InstalledVersion: 3.5.5-1ubuntu3.3
-    Status: affected
+    FixedVersion: 3.5.5-1ubuntu3.7
+    Status: fixed
     Layer:
       Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
       DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
@@ -13362,6 +13694,7 @@
     - https://github.com/openssl/openssl/commit/7127fb10888b49711c63128a09e524c0d2d5d0b2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-54873
     - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8861-1
     - https://www.cve.org/CVERecord?id=CVE-2026-54873
     PublishedDate: '2026-09-29T16:17:08.763Z'
     LastModifiedDate: '2026-09-30T21:17:13.18Z'
@@ -17523,7 +17856,8 @@
       PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3.3?arch=amd64&distro=ubuntu-26.04
       UID: 25612e3c0a66b920
     InstalledVersion: 3.5.5-1ubuntu3.3
-    Status: affected
+    FixedVersion: 3.5.5-1ubuntu3.7
+    Status: fixed
     Layer:
       Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
       DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
@@ -17578,6 +17912,7 @@
     - https://github.com/openssl/openssl/commit/f42ae513bbda513b3c121d54834040ee4a0eae1a
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42772
     - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8861-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42772
     PublishedDate: '2026-09-29T16:17:07.64Z'
     LastModifiedDate: '2026-09-30T21:17:10.803Z'
@@ -17663,7 +17998,8 @@
       PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3.3?arch=amd64&distro=ubuntu-26.04
       UID: 25612e3c0a66b920
     InstalledVersion: 3.5.5-1ubuntu3.3
-    Status: affected
+    FixedVersion: 3.5.5-1ubuntu3.7
+    Status: fixed
     Layer:
       Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
       DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
@@ -17728,6 +18064,7 @@
     - https://github.com/openssl/openssl/commit/7127fb10888b49711c63128a09e524c0d2d5d0b2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-54873
     - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8861-1
     - https://www.cve.org/CVERecord?id=CVE-2026-54873
     PublishedDate: '2026-09-29T16:17:08.763Z'
     LastModifiedDate: '2026-09-30T21:17:13.18Z'
@@ -19627,7 +19964,8 @@
       PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu3.3?arch=amd64&distro=ubuntu-26.04
       UID: 7334ac7b6ba90f96
     InstalledVersion: 3.5.5-1ubuntu3.3
-    Status: affected
+    FixedVersion: 3.5.5-1ubuntu3.7
+    Status: fixed
     Layer:
       Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
       DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
@@ -19682,6 +20020,7 @@
     - https://github.com/openssl/openssl/commit/f42ae513bbda513b3c121d54834040ee4a0eae1a
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42772
     - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8861-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42772
     PublishedDate: '2026-09-29T16:17:07.64Z'
     LastModifiedDate: '2026-09-30T21:17:10.803Z'
@@ -19767,7 +20106,8 @@
       PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu3.3?arch=amd64&distro=ubuntu-26.04
       UID: 7334ac7b6ba90f96
     InstalledVersion: 3.5.5-1ubuntu3.3
-    Status: affected
+    FixedVersion: 3.5.5-1ubuntu3.7
+    Status: fixed
     Layer:
       Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
       DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
@@ -19832,6 +20172,7 @@
     - https://github.com/openssl/openssl/commit/7127fb10888b49711c63128a09e524c0d2d5d0b2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-54873
     - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8861-1
     - https://www.cve.org/CVERecord?id=CVE-2026-54873
     PublishedDate: '2026-09-29T16:17:08.763Z'
     LastModifiedDate: '2026-09-30T21:17:13.18Z'
@@ -26643,6 +26984,105 @@
   Type: jar
   Packages: []
   Vulnerabilities:
+  - VulnerabilityID: CVE-2026-89407
+    VendorIDs:
+    - GHSA-p6pp-m3f8-5c89
+    PkgName: com.fasterxml.jackson.core:jackson-core
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.22.1
+      UID: e24a19b34bffd75d
+    InstalledVersion: 2.22.1
+    FixedVersion: 2.18.11, 2.21.7, 2.22.3
+    Status: fixed
+    Layer:
+      Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
+      DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-89407
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:a749f85d27ee8922b719c3f8937bb259ddba08985f6f7fd881ca3816c7f49ec0
+    Title: 'com.fasterxml.jackson/jackson-core: tools.jackson.core/jackson-core: Jackson-core: Denial of Service via regular expression backtracking'
+    Description: "NumberInput.looksLikeValidNumber() in FasterXML jackson-core pre-validates \"stringified numbers\" with two regular expressions: PATTERN_FLOAT ([+-]?[0-9]*[\\.]?[0-9]+([eE][+-]?[0-9]+)?), present since 2.17.0, and PATTERN_FLOAT_TRAILING_DOT, added in 2.17.2. PATTERN_FLOAT places adjacent quantifiers over the same character class -- an optional [0-9]* run, an optional dot, then a required [0-9]+ run -- so input that ultimately fails to match forces Java's backtracking engine to retry every possible split point of the digit run.\_\n\n\n\nMatching cost therefore grows with the square of the input length.\_\n\n\n\nAn attacker who can supply JSON that an application deserializes into a numeric target type reaches this method through jackson-databind's default String-to-number coercion (StdDeserializer and NumberDeserializers for BigDecimal, BigInteger, Double and Float).\_\n\n\n\nBecause StreamReadConstraints.maxStringLength defaults to 20,000,000 characters, no constraint bounds the input before it reaches the regex.\_\n\n\n\nTesting by the reporter confirmed O(n^2) growth across five consecutive input-size doublings, with a single 160,000-character string consuming roughly 74 seconds in one call; a small number of concurrent requests of ordinary body size can therefore exhaust a server's request-handling thread pool.\_\n\n\n\nThe affected method does not exist before 2.17.0, so 2.16.x and earlier releases are not affected.\_\n\n\n\nThe fix replaces both regular expressions with a hand-rolled single-pass scan."
+    Severity: HIGH
+    CweIDs:
+    - CWE-400
+    - CWE-1333
+    VendorSeverity:
+      ghsa: 3
+      redhat: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-89407
+    - https://github.com/FasterXML/jackson-core
+    - https://github.com/FasterXML/jackson-core/commit/731e794f62623aa0d86ced52490166be903fbb1d
+    - https://github.com/FasterXML/jackson-core/commit/e7acd64cc99bd346704423dc2bfea1ab0a08ddff
+    - https://github.com/FasterXML/jackson-core/issues/1649
+    - https://github.com/FasterXML/jackson-core/pull/1650
+    - https://github.com/FasterXML/jackson-core/pull/1701
+    - https://github.com/FasterXML/jackson-core/security/advisories/GHSA-p6pp-m3f8-5c89
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-89407
+    - https://www.cve.org/CVERecord?id=CVE-2026-89407
+    PublishedDate: '2026-09-22T15:17:21.053Z'
+    LastModifiedDate: '2026-09-22T20:00:03.713Z'
+  - VulnerabilityID: CVE-2026-89425
+    VendorIDs:
+    - GHSA-7hhh-6rmp-j9qf
+    PkgName: com.fasterxml.jackson.core:jackson-core
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.22.1
+      UID: e24a19b34bffd75d
+    InstalledVersion: 2.22.1
+    FixedVersion: 2.21.7, 2.22.3, 2.18.11
+    Status: fixed
+    Layer:
+      Digest: sha256:6e2d67a492c0f5e1509bf69138beffaed366771e8be15da3ca46c215253cc2cd
+      DiffID: sha256:1fe68c866dd7dd1af4ce50d8be948107e0d27a701d92ecd3bdbfeed54bcfbc7d
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-89425
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:0ec219edac1e4eb661461991c235caa3117f8734ee39ca4ac00772566ed185db
+    Title: 'com.fasterxml.jackson.core/jackson-core: Jackson-core: Denial of Service via unbounded StringBuilder growth during malformed token processing'
+    Description: 'UTF8DataInputJsonParser._reportInvalidToken() in FasterXML jackson-core builds the offending-token text for its error message by appending Java identifier characters to a StringBuilder in a loop that has no upper bound. Unlike the three sibling parser implementations, including UTF8StreamJsonParser, it never consults ErrorReportConfiguration.getMaxErrorTokenLength() (default 256). A malformed token supplied to a parser created through JsonFactory.createParser(DataInput) is therefore accumulated in full. No StreamReadConstraints setting mitigates this: maxDocumentLength cannot be applied to DataInput sources at all, and maxStringLength does not cover this path because the accumulation bypasses ReadConstrainedTextBuffer. The reporter measured a 20,000,109-character exception message from a 20-million-character malformed token on the DataInput path, against 367 characters for identical input on the InputStream path. Scaling the payload drives the StringBuilder, which also incurs byte-to-char expansion and internal array doubling, to many times the raw payload size and can trigger OutOfMemoryError for the whole JVM. UTF8DataInputJsonParser was introduced in 2.8.0 together with createParser(DataInput); releases before 2.8.0 do not contain the affected class.'
+    Severity: HIGH
+    CweIDs:
+    - CWE-400
+    - CWE-770
+    VendorSeverity:
+      ghsa: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-89425
+    - https://github.com/FasterXML/jackson-core
+    - https://github.com/FasterXML/jackson-core/commit/211cf2c5d91abbec38067f37efc1363cd4e88ee3
+    - https://github.com/FasterXML/jackson-core/pull/1698
+    - https://github.com/FasterXML/jackson-core/releases/tag/jackson-core-2.18.11
+    - https://github.com/FasterXML/jackson-core/releases/tag/jackson-core-3.2.3
+    - https://github.com/FasterXML/jackson-core/security/advisories/GHSA-7hhh-6rmp-j9qf
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-89425
+    - https://www.cve.org/CVERecord?id=CVE-2026-89425
+    PublishedDate: '2026-09-23T03:17:04.357Z'
+    LastModifiedDate: '2026-09-24T20:43:32.537Z'
   - VulnerabilityID: CVE-2026-68497
     VendorIDs:
     - GHSA-q4xh-88c3-wmh7
@@ -26716,18 +27156,23 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:fda3383c7afb8802985dfae976fc55ef36b0d19a2b97c437a430526b9cee67e8
-    Title: TypeDeserializerBase._findDeserializer() in FasterXML jackson-databind ...
+    Title: 'jackson-databind: com.fasterxml.jackson/jackson-core: jackson-databind: Denial of Service via unbounded cache growth in TypeDeserializerBase'
     Description: TypeDeserializerBase._findDeserializer() in FasterXML jackson-databind caches the resolved deserializer under the raw, attacker-supplied type ID. When name-based polymorphism is configured with a fallback, for example @JsonTypeInfo(use = Id.NAME, defaultImpl = ...), every distinct unrecognized type ID resolves to the same fallback deserializer but is retained as its own key in the _deserializers map. That map has no configurable bound and lives for the lifetime of the type deserializer, so an attacker who can repeatedly supply fresh unknown type IDs causes monotonic memory retention across requests. The reporter observed 10,000 retained entries from 10,000 distinct unknown IDs, against a single entry for a control that repeated one unknown ID the same number of times, isolating attacker-controlled key cardinality from request volume. Exploitation requires an application that enables name-based polymorphism with a defaultImpl or equivalent fallback, accepts attacker-influenced type IDs, and reuses a long-lived ObjectMapper across requests. The fix stops caching fallback resolutions for unrecognized IDs and bounds both the number of cached entries and the length of a cacheable type ID.
     Severity: HIGH
     CweIDs:
     - CWE-400
     VendorSeverity:
       ghsa: 3
+      redhat: 3
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-91776
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/2870d1d6dc1b7e1c07ee11dd5b04ab71cddbb577
     - https://github.com/FasterXML/jackson-databind/issues/6203
@@ -26738,6 +27183,7 @@
     - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.2.3
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-wv8q-qhhj-9h54
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91776
+    - https://www.cve.org/CVERecord?id=CVE-2026-91776
     PublishedDate: '2026-09-23T03:17:04.62Z'
     LastModifiedDate: '2026-09-24T20:43:32.537Z'
   - VulnerabilityID: CVE-2026-91777
@@ -27388,7 +27834,7 @@
       oracle-oval: 3
       redhat: 3
       rocky: 3
-      ubuntu: 2
+      ubuntu: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N
@@ -28393,7 +28839,7 @@
       oracle-oval: 3
       redhat: 3
       rocky: 3
-      ubuntu: 2
+      ubuntu: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N
@@ -29039,7 +29485,7 @@
       oracle-oval: 3
       redhat: 3
       rocky: 3
-      ubuntu: 2
+      ubuntu: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N
