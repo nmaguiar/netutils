@@ -2734,7 +2734,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:72448
+    - https://access.redhat.com/errata/RHSA-2026:72663
     - https://access.redhat.com/security/cve/CVE-2026-66046
     - https://bugzilla.redhat.com/2538967
     - https://bugzilla.redhat.com/show_bug.cgi?id=2517901
@@ -2742,11 +2742,11 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-66046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-93990
-    - https://errata.almalinux.org/8/ALSA-2026-72448.html
-    - https://errata.rockylinux.org/RLSA-2026:72448
+    - https://errata.almalinux.org/9/ALSA-2026-72663.html
+    - https://errata.rockylinux.org/RLSA-2026:72663
     - https://github.com/libexpat/libexpat/pull/1321
     - https://linux.oracle.com/cve/CVE-2026-66046.html
-    - https://linux.oracle.com/errata/ELSA-2026-72663.html
+    - https://linux.oracle.com/errata/ELSA-2026-74001.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-66046
     - https://ubuntu.com/security/notices/USN-8813-1
     - https://www.cve.org/CVERecord?id=CVE-2026-66046
@@ -2916,7 +2916,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:72448
+    - https://access.redhat.com/errata/RHSA-2026:72663
     - https://access.redhat.com/security/cve/CVE-2026-93990
     - https://blog.hartwork.org/posts/expat-2-8-5-released/
     - https://bugzilla.redhat.com/2538967
@@ -2925,14 +2925,14 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-66046
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-93990
-    - https://errata.almalinux.org/8/ALSA-2026-72448.html
-    - https://errata.rockylinux.org/RLSA-2026:72448
+    - https://errata.almalinux.org/9/ALSA-2026-72663.html
+    - https://errata.rockylinux.org/RLSA-2026:72663
     - https://github.com/libexpat/libexpat
     - https://github.com/libexpat/libexpat/commit/ff6e1d7e750bbe245178f51a47a965dc8342861a
     - https://github.com/libexpat/libexpat/pull/1282
     - https://github.com/libexpat/libexpat/releases/tag/R_2_8_5
     - https://linux.oracle.com/cve/CVE-2026-93990.html
-    - https://linux.oracle.com/errata/ELSA-2026-72663.html
+    - https://linux.oracle.com/errata/ELSA-2026-74001.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-93990
     - https://www.cve.org/CVERecord?id=CVE-2026-93990
     - https://www.vulncheck.com/advisories/expat-through-2.8.4-malformed-utf-16-acceptance-via-unchecked-surrogate
@@ -3126,8 +3126,10 @@
     - CWE-129
     - CWE-787
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -3135,8 +3137,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:H/A:H
         V3Score: 8.7
     References:
+    - https://access.redhat.com/errata/RHSA-2026:74442
     - https://access.redhat.com/security/cve/CVE-2026-0799
+    - https://bugzilla.redhat.com/2529093
+    - https://errata.almalinux.org/10/ALSA-2026-74442.html
     - https://github.com/the-tcpdump-group/libpcap/commit/48e8960a7108e9e828f9d7bdc7e97bdab841aec7
+    - https://linux.oracle.com/cve/CVE-2026-0799.html
+    - https://linux.oracle.com/errata/ELSA-2026-74442.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0799
     - https://ubuntu.com/security/notices/USN-8824-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0799
@@ -3296,80 +3303,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-6554
     PublishedDate: '2026-09-05T19:16:56.067Z'
     LastModifiedDate: '2026-09-08T19:20:25.117Z'
-  - VulnerabilityID: CVE-2026-59843
-    PkgID: libssh@0.12.1-r0
-    PkgName: libssh
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/libssh@0.12.1-r0?arch=x86_64&distro=3.24.0
-      UID: 79e204fb33668f29
-    InstalledVersion: 0.12.1-r0
-    FixedVersion: 0.12.2-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
-      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59843
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:585521a63de0f82a8b7a72094fb286f37d6836844ef63dde260d6fe6777641f3
-    Title: 'libssh: libssh: denial of service via zero advertised channel packet size'
-    Description: A flaw was found in libssh. A remote authenticated peer can advertise a zero maximum packet size in SSH_MSG_CHANNEL_OPEN, causing later channel writes to loop indefinitely and consume CPU, leading to denial of service.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-835
-    - CWE-400
-    VendorSeverity:
-      alma: 2
-      azure: 2
-      oracle-oval: 2
-      redhat: 2
-      rocky: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/errata/RHSA-2026:42922
-    - https://access.redhat.com/errata/RHSA-2026:55855
-    - https://access.redhat.com/errata/RHSA-2026:62217
-    - https://access.redhat.com/errata/RHSA-2026:62218
-    - https://access.redhat.com/security/cve/CVE-2026-59843
-    - https://bugzilla.redhat.com/2498176
-    - https://bugzilla.redhat.com/2498177
-    - https://bugzilla.redhat.com/2498178
-    - https://bugzilla.redhat.com/2498179
-    - https://bugzilla.redhat.com/2498180
-    - https://bugzilla.redhat.com/2498181
-    - https://bugzilla.redhat.com/2498183
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498178
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498179
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498180
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498181
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2498183
-    - https://creativecommons.org/licenses/by/4.0/
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59843
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59844
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59845
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59846
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59847
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59848
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
-    - https://errata.almalinux.org/9/ALSA-2026-62217.html
-    - https://errata.rockylinux.org/RLSA-2026:62217
-    - https://linux.oracle.com/cve/CVE-2026-59843.html
-    - https://linux.oracle.com/errata/ELSA-2026-62218-0.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-59843
-    - https://ubuntu.com/security/notices/USN-8699-1
-    - https://www.cve.org/CVERecord?id=CVE-2026-59843
-    - https://www.libssh.org/2026/07/21/libssh-0-12-1-and-0-11-5-security-releases/
-    - https://www.libssh.org/security/advisories/CVE-2026-59843.txt
-    PublishedDate: '2026-07-21T12:18:57.86Z'
-    LastModifiedDate: '2026-09-01T21:18:34.337Z'
   - VulnerabilityID: CVE-2026-14456
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -6036,6 +5969,77 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-15308
     PublishedDate: '2026-07-09T17:16:58.26Z'
     LastModifiedDate: '2026-08-20T17:02:59.313Z'
+  - VulnerabilityID: CVE-2026-19553
+    PkgID: pyc@3.14.5-r2
+    PkgName: pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: e6d0016acae69172
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19553
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:6d6307e9bf4a48dc6880583bd3cf0a5f84a95f37835aab7b6c71b76ba982de42
+    Title: 'python: python: Certificate verification bypass via missing server_hostname validation in SSLContext.wrap_bio()'
+    Description: |-
+      ssl.SSLContext.wrap_bio() didn't require the server_hostname argument
+      to not be None if ssl.SSLContext.check_hostname was set. Due to a
+      missing parameter check in SSLObject, if the server_hostname argument
+      isn't supplied then hostname verification would be silently skipped.
+
+
+      This defect could lead to programs where certificate hostname verification
+      *appeared* to be succeeding with SSLContext.check_hostname = True and no
+      ValueError being raised due to misconfiguration.
+
+
+      If the program passes a server_hostname value that isn't an empty string
+      or None to any of these APIs then certificate hostname verification
+      proceeds as expected and the program is not affected by this vulnerability.
+
+
+      Mitigating this vulnerability doesn't require updating Python or applying
+      the patch. To mitigate, pass a valid non-None and non-empty
+      server_hostname value to SSLContext.wrap_bio(),
+      asyncio.create_connection(), or asyncio.loop.start_tls() and
+      certificate hostname verification will proceed as expected. Upgrading to
+      the latest version of Python or applying the patch only changes the
+      behavior from silently skipping hostname verification to raising a
+      ValueError, similar to SSLContext.wrap_socket(), when server_hostname
+      isn't supplied.
+    Severity: HIGH
+    CweIDs:
+    - CWE-297
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/30/16
+    - https://access.redhat.com/security/cve/CVE-2026-19553
+    - https://github.com/python/cpython/commit/1697ea386c707142555d98a1263176bbbc014a96
+    - https://github.com/python/cpython/commit/5867d4e4ae6d1062352baf6b497a4026e8578ccf
+    - https://github.com/python/cpython/commit/641390146a16a38e6701923f4ee4f1940ae77082
+    - https://github.com/python/cpython/commit/869069d52ce0efab2f8c38197e92cdaaa312f1ed
+    - https://github.com/python/cpython/commit/966bf426d0b6c31c1b0a255ff14a17143a466ced
+    - https://github.com/python/cpython/commit/bdebbf9b366ec91e9cd9daa0b3510c9e84b60b80
+    - https://github.com/python/cpython/commit/f4e43ba525187282f2011da0e6ffc0d2b08d8062
+    - https://github.com/python/cpython/issues/156793
+    - https://github.com/python/cpython/pull/158503
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QNZRG3YOAMTHDCMVCICXGY6YEFPY2VDL/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19553
+    - https://www.cve.org/CVERecord?id=CVE-2026-19553
+    PublishedDate: '2026-09-30T17:16:45.88Z'
+    LastModifiedDate: '2026-10-02T01:16:44.057Z'
   - VulnerabilityID: CVE-2026-7210
     PkgID: pyc@3.14.5-r2
     PkgName: pyc
@@ -6093,7 +6097,57 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-7210
     - https://www.cve.org/CVERecord?id=CVE-2026-7210
     PublishedDate: '2026-05-11T18:16:42.413Z'
-    LastModifiedDate: '2026-08-14T01:19:08.237Z'
+    LastModifiedDate: '2026-10-02T01:16:44.32Z'
+  - VulnerabilityID: CVE-2026-82049
+    PkgID: pyc@3.14.5-r2
+    PkgName: pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: e6d0016acae69172
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-82049
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:2e20f31595984e35f31a3ef4e806ad984e41d2cfcf5583d48db44c75f9ffd415
+    Title: 'python: Python tarfile module: File modification and content disclosure via crafted archives'
+    Description: "In CPython 3.13 and earlier, the tarfile\_module's data\_and tar extraction filters are vulnerable to crafted archives containing a hard link to a symbolic link. Such archives may cause extraction to modify the permissions or modification time of a file outside the destination directory, or expose the contents of that file within the extracted tree."
+    Severity: HIGH
+    CweIDs:
+    - CWE-59
+    VendorSeverity:
+      bitnami: 3
+      redhat: 3
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 8.4
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+        V3Score: 7.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/14/27
+    - https://access.redhat.com/security/cve/CVE-2026-82049
+    - https://github.com/python/cpython/commit/197663d63afed27f66e10e23c194e8a634e60913
+    - https://github.com/python/cpython/commit/28f315486b3da0352b9a1de1c3c97f4127ba4771
+    - https://github.com/python/cpython/commit/5a57248b22ad3b9aafcaaadae2c304a1923daeca
+    - https://github.com/python/cpython/commit/b38be2e6cf9d989075ab73412c63e003ebad4ff3
+    - https://github.com/python/cpython/commit/b8f23e307097552eaea2604383a12ab280520d0d
+    - https://github.com/python/cpython/commit/c66df4e70435d257fd488b35ea129c6f317433a8
+    - https://github.com/python/cpython/commit/cc1689830c6b9aaddded2fb9f2fe8116867e2c0e
+    - https://github.com/python/cpython/issues/157190
+    - https://github.com/python/cpython/pull/157191
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/EFJWGAZJA56AKSBR2WHMHQZO7RRLZPRH/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-82049
+    - https://www.cve.org/CVERecord?id=CVE-2026-82049
+    PublishedDate: '2026-09-14T19:17:50.927Z'
+    LastModifiedDate: '2026-10-02T01:16:44.52Z'
   - VulnerabilityID: CVE-2026-8328
     PkgID: pyc@3.14.5-r2
     PkgName: pyc
@@ -6325,6 +6379,174 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-11972
     PublishedDate: '2026-06-23T23:16:49.033Z'
     LastModifiedDate: '2026-08-13T01:16:51.78Z'
+  - VulnerabilityID: CVE-2026-15806
+    PkgID: pyc@3.14.5-r2
+    PkgName: pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: e6d0016acae69172
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15806
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:ea79a046797512c00dc0189a4a6b3b0dbb1b3deb8ee7adb9a87590ec7c74a08e
+    Title: 'python: Python: Information disclosure due to incorrect URL scheme matching'
+    Description: |-
+      The HTTPPasswordMgr class in the urllib.request module, along with its subclasses HTTPPasswordMgrWithDefaultRealm and HTTPPasswordMgrWithPriorAuth, did not take the URL scheme into account when matching stored credentials against a requested URL. Credentials added for an https:// URL were also used for requests to the same host over http://, so an attacker able to redirect or downgrade a client to plain HTTP (for example, via an HTTPS-to-HTTP redirect or an on-path position) could capture credentials in cleartext. Credentials added for http:// URLs could likewise be sent over https://.
+
+      Credential matching is now scoped by URL scheme. Credentials registered with a URL that includes a scheme are only used for requests with the same scheme. Credentials registered with a bare authority (such as example.com or example.com:8080) continue to match any scheme, preserving compatibility with existing code, including proxy authentication.
+
+      Users who cannot upgrade immediately can mitigate by ensuring that applications never make plain http:// requests to hosts for which credentials are registered, for example by not following redirects to http:// URLs.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-319
+    - CWE-522
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:P/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/18/3
+    - https://access.redhat.com/security/cve/CVE-2026-15806
+    - https://github.com/python/cpython/commit/641be42bb07921ba0f8bffe228b1dc706b092ef6
+    - https://github.com/python/cpython/commit/851cf9a7142ecbdd39f831055533f58284ad2bcc
+    - https://github.com/python/cpython/commit/95355ee3a8e1d3c3d4858d1973aa42a9b91a2801
+    - https://github.com/python/cpython/commit/a0d023fbd23773e24b35d8368789470e22cda5d8
+    - https://github.com/python/cpython/commit/a2773a34183b7d94a243bb98fd658926cc5348ce
+    - https://github.com/python/cpython/commit/a7bb524fef61f77ede01f660ffbd591e1d5837ce
+    - https://github.com/python/cpython/commit/dac88d8615078c55f1304ea4c7a2d822700d4e5a
+    - https://github.com/python/cpython/issues/155694
+    - https://github.com/python/cpython/pull/155696
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/3OKPE5S75KDNA7FY7AI3PL2MXM2X5RB3/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15806
+    - https://www.cve.org/CVERecord?id=CVE-2026-15806
+    PublishedDate: '2026-08-18T16:17:02.22Z'
+    LastModifiedDate: '2026-10-02T01:16:43.523Z'
+  - VulnerabilityID: CVE-2026-17084
+    PkgID: pyc@3.14.5-r2
+    PkgName: pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: e6d0016acae69172
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-17084
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:f0a16c7664bb84bbca4187ee24de8f957fb9bca0cba2612e21379cd1d21c8c7c
+    Title: 'python: Python stringprep module: Incorrect domain name processing breaks IDNA interoperability'
+    Description: |-
+      The "stringprep" module didn't process characters from RFC 3454 tables 
+      B.2 or B.3 correctly: the latest Unicode codepoint attributes were used 
+      instead of the specified Unicode 3.2.0. This behavior would cause 
+      mismatches when processing domain names using IDNA 2003 (the "idna" 
+      codec) and the in_table_b2() function of the "stringprep" module. This 
+      only affects domain names containing characters that were not previously
+       registered or had their Unicode attributes such as case-folding 
+      behavior updated since Unicode 3.2.0.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-436
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:P/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 6.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/18/2
+    - https://access.redhat.com/security/cve/CVE-2026-17084
+    - https://github.com/python/cpython/commit/1e54caa096678a38afcabecabb1ff72400dd6bae
+    - https://github.com/python/cpython/commit/5181304bcec9cfc3c15311741c9154cdff2e3fd7
+    - https://github.com/python/cpython/commit/69f92ebaec681e9149dfd70fd02d4ed52d2a6296
+    - https://github.com/python/cpython/commit/7e109d084d55e7eb25837a5f3b47ef9beee547bc
+    - https://github.com/python/cpython/commit/c016c2535b74227fddf2cf7334dbfead6c930214
+    - https://github.com/python/cpython/commit/c28b121a4f0b975937c8b5a1b4934bb361d84296
+    - https://github.com/python/cpython/commit/c42790b34f634051750e5da340d17c7da19e4784
+    - https://github.com/python/cpython/commit/d397a4979cfc80a8cd6c73838aa10e9c8cf5ef72
+    - https://github.com/python/cpython/issues/155292
+    - https://github.com/python/cpython/pull/155293
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/EUHHTC6EV7HCLSUHP25C5VHSV4V2MUZN/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-17084
+    - https://www.cve.org/CVERecord?id=CVE-2026-17084
+    PublishedDate: '2026-08-18T14:16:56.29Z'
+    LastModifiedDate: '2026-10-02T01:16:43.723Z'
+  - VulnerabilityID: CVE-2026-19672
+    PkgID: pyc@3.14.5-r2
+    PkgName: pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: e6d0016acae69172
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19672
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:92750acbd1e110e107ce2369274334896e57aa34bc0054b9dd11229ed5c04cc6
+    Title: 'python: Python tarfile module: Directory traversal allows creation of empty directories outside extraction destination'
+    Description: |-
+      The tarfile module's tar and data
+       extraction filters created directories outside the destination for 
+      members whose name leaves the destination and returns to it, such as ../evil/../dest/sub/file. The containment check used the resolved path, but intermediate directories were created from the name as given.
+
+      Only
+       empty directories are created outside the destination. Member contents 
+      are still extracted inside it. To return to the destination the member's
+       name must contain the destination directory's own final component, so 
+      extraction into a secure randomised directory is not affected.
+
+      This affects POSIX platforms only. On Windows, .. components are collapsed before the path reaches the filesystem, so the directories outside the destination are never created.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:N/SC:N/SI:L/SA:N
+        V40Score: 6.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/25/10
+    - https://access.redhat.com/security/cve/CVE-2026-19672
+    - https://github.com/python/cpython/pull/156000
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/J2WT2ALRWEXQJOB3C7Q2HYWUXP3CINWO/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19672
+    - https://www.cve.org/CVERecord?id=CVE-2026-19672
+    PublishedDate: '2026-08-19T16:17:06.593Z'
+    LastModifiedDate: '2026-08-28T21:16:15.74Z'
   - VulnerabilityID: CVE-2026-3276
     PkgID: pyc@3.14.5-r2
     PkgName: pyc
@@ -6552,6 +6774,57 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-9669
     PublishedDate: '2026-06-08T23:17:25.17Z'
     LastModifiedDate: '2026-08-13T01:16:56.087Z'
+  - VulnerabilityID: CVE-2026-15310
+    PkgID: pyc@3.14.5-r2
+    PkgName: pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: e6d0016acae69172
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15310
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:16dcee6bd4e14df1428012b2bfe6d8eaa1ce335b72b1595f7f2c88b33d0398cf
+    Title: When decompressing crafted zip files using the bzip/LZMA/Zstandard   c ...
+    Description: |-
+      When decompressing crafted zip files using the bzip/LZMA/Zstandard 
+
+      compressions, Python could use an attacker-controlled size to 
+
+      pre-allocate memory, possibly resulting in memory exhaustion.
+    Severity: LOW
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      bitnami: 1
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:A/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N
+        V40Score: 2.1
+    References:
+    - https://github.com/python/cpython/commit/09a2e7e6678b4f65449e7ad8f112c48f944591e2
+    - https://github.com/python/cpython/commit/1b424c0178a01e155fd0267dc28a8fc1159b33a8
+    - https://github.com/python/cpython/commit/31980e84b9a708424a0a1dfecde3fc991e313f89
+    - https://github.com/python/cpython/commit/6257029de42ef89b67f3d20137de87d43e197530
+    - https://github.com/python/cpython/commit/9d167992b59cf5e23c66b9ed742b13f5925f7d70
+    - https://github.com/python/cpython/commit/c2bfbcdd1a11690507a10bc0998f95b8dc6b6fac
+    - https://github.com/python/cpython/commit/dcdd406ddbfc4cb29b24c3df17cbabe21d316ce1
+    - https://github.com/python/cpython/commit/e2311cfb3dd518f008f312fe0631f4f7490d237a
+    - https://github.com/python/cpython/commit/f507e6946a3194e83e1d7b8ee6e14567175e46de
+    - https://github.com/python/cpython/commit/f897dbf2f36a5935700b7c2d94d4681d2136b7d4
+    - https://github.com/python/cpython/issues/156002
+    - https://github.com/python/cpython/pull/156003
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/YUHXURX2WZGKGNA4ANYBQS2VZRYQ5JNK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15310
+    PublishedDate: '2026-08-25T15:16:30.027Z'
+    LastModifiedDate: '2026-10-02T01:16:43.337Z'
   - VulnerabilityID: CVE-2026-6879
     PkgID: pyc@3.14.5-r2
     PkgName: pyc
@@ -6603,6 +6876,54 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-6879
     PublishedDate: '2026-07-28T15:17:51.377Z'
     LastModifiedDate: '2026-08-13T01:16:55.457Z'
+  - VulnerabilityID: CVE-2026-19445
+    PkgID: pyc@3.14.5-r2
+    PkgName: pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: e6d0016acae69172
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19445
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:b3ea7237c55992206028516b2109a36c9ecd80fbf3654909b4fc5da6e8fbdd34
+    Title: A remote, unauthenticated TLS client can make a server crash or call t ...
+    Description: |-
+      A remote, unauthenticated TLS client can make a server crash or call
+      through a freed pointer if its sni_callback assigns a different context to
+      SSLSocket.context (the documented way to select a certificate per server
+      name) and nothing else keeps the original ssl.SSLContext alive. Typical
+      cases are servers that create an SSLContext per connection or replace it
+      while connections are open; servers that wrap their listening socket with
+      it are not affected.
+
+
+      Mitigation: keep a reference to every SSLContext that sets sni_callback for
+      the lifetime of the server. TLS clients are not affected.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-416
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/30/17
+    - https://github.com/python/cpython/commit/34a53dce8174da2fceb12fe084a4def02a10053d
+    - https://github.com/python/cpython/commit/46133cd57d309652139ada74014aca7665ac552b
+    - https://github.com/python/cpython/commit/63fab143d94cafae71850831acfb52041ba44af7
+    - https://github.com/python/cpython/commit/b12968cefe69ca1dcb8606c832ff73ee7dbf4ba8
+    - https://github.com/python/cpython/commit/cd7e51e7d4563866fbaa1e2521ae69b45daf3698
+    - https://github.com/python/cpython/commit/d8717ed01717a9641686e6e6f83f0ab8af235e2c
+    - https://github.com/python/cpython/commit/ec44b5a3258cbda947d5e07242ee562ed05ef24b
+    - https://github.com/python/cpython/issues/156293
+    - https://github.com/python/cpython/pull/158504
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3/
+    PublishedDate: '2026-09-30T17:16:45.72Z'
+    LastModifiedDate: '2026-10-02T01:16:43.903Z'
   - VulnerabilityID: CVE-2026-11940
     PkgID: python3@3.14.5-r2
     PkgName: python3
@@ -6744,6 +7065,77 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-15308
     PublishedDate: '2026-07-09T17:16:58.26Z'
     LastModifiedDate: '2026-08-20T17:02:59.313Z'
+  - VulnerabilityID: CVE-2026-19553
+    PkgID: python3@3.14.5-r2
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: 37c00fbc48ca6124
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19553
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:a702ed36ae20e517c92baa0dcd792df0543a4d9b702aa1949e8e35be61d59b20
+    Title: 'python: python: Certificate verification bypass via missing server_hostname validation in SSLContext.wrap_bio()'
+    Description: |-
+      ssl.SSLContext.wrap_bio() didn't require the server_hostname argument
+      to not be None if ssl.SSLContext.check_hostname was set. Due to a
+      missing parameter check in SSLObject, if the server_hostname argument
+      isn't supplied then hostname verification would be silently skipped.
+
+
+      This defect could lead to programs where certificate hostname verification
+      *appeared* to be succeeding with SSLContext.check_hostname = True and no
+      ValueError being raised due to misconfiguration.
+
+
+      If the program passes a server_hostname value that isn't an empty string
+      or None to any of these APIs then certificate hostname verification
+      proceeds as expected and the program is not affected by this vulnerability.
+
+
+      Mitigating this vulnerability doesn't require updating Python or applying
+      the patch. To mitigate, pass a valid non-None and non-empty
+      server_hostname value to SSLContext.wrap_bio(),
+      asyncio.create_connection(), or asyncio.loop.start_tls() and
+      certificate hostname verification will proceed as expected. Upgrading to
+      the latest version of Python or applying the patch only changes the
+      behavior from silently skipping hostname verification to raising a
+      ValueError, similar to SSLContext.wrap_socket(), when server_hostname
+      isn't supplied.
+    Severity: HIGH
+    CweIDs:
+    - CWE-297
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/30/16
+    - https://access.redhat.com/security/cve/CVE-2026-19553
+    - https://github.com/python/cpython/commit/1697ea386c707142555d98a1263176bbbc014a96
+    - https://github.com/python/cpython/commit/5867d4e4ae6d1062352baf6b497a4026e8578ccf
+    - https://github.com/python/cpython/commit/641390146a16a38e6701923f4ee4f1940ae77082
+    - https://github.com/python/cpython/commit/869069d52ce0efab2f8c38197e92cdaaa312f1ed
+    - https://github.com/python/cpython/commit/966bf426d0b6c31c1b0a255ff14a17143a466ced
+    - https://github.com/python/cpython/commit/bdebbf9b366ec91e9cd9daa0b3510c9e84b60b80
+    - https://github.com/python/cpython/commit/f4e43ba525187282f2011da0e6ffc0d2b08d8062
+    - https://github.com/python/cpython/issues/156793
+    - https://github.com/python/cpython/pull/158503
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QNZRG3YOAMTHDCMVCICXGY6YEFPY2VDL/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19553
+    - https://www.cve.org/CVERecord?id=CVE-2026-19553
+    PublishedDate: '2026-09-30T17:16:45.88Z'
+    LastModifiedDate: '2026-10-02T01:16:44.057Z'
   - VulnerabilityID: CVE-2026-7210
     PkgID: python3@3.14.5-r2
     PkgName: python3
@@ -6801,7 +7193,57 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-7210
     - https://www.cve.org/CVERecord?id=CVE-2026-7210
     PublishedDate: '2026-05-11T18:16:42.413Z'
-    LastModifiedDate: '2026-08-14T01:19:08.237Z'
+    LastModifiedDate: '2026-10-02T01:16:44.32Z'
+  - VulnerabilityID: CVE-2026-82049
+    PkgID: python3@3.14.5-r2
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: 37c00fbc48ca6124
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-82049
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:8adbd41291edb53d397e7d2e154c73c1749bd2f8fc9c0d6133f82d5e574329c4
+    Title: 'python: Python tarfile module: File modification and content disclosure via crafted archives'
+    Description: "In CPython 3.13 and earlier, the tarfile\_module's data\_and tar extraction filters are vulnerable to crafted archives containing a hard link to a symbolic link. Such archives may cause extraction to modify the permissions or modification time of a file outside the destination directory, or expose the contents of that file within the extracted tree."
+    Severity: HIGH
+    CweIDs:
+    - CWE-59
+    VendorSeverity:
+      bitnami: 3
+      redhat: 3
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 8.4
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+        V3Score: 7.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/14/27
+    - https://access.redhat.com/security/cve/CVE-2026-82049
+    - https://github.com/python/cpython/commit/197663d63afed27f66e10e23c194e8a634e60913
+    - https://github.com/python/cpython/commit/28f315486b3da0352b9a1de1c3c97f4127ba4771
+    - https://github.com/python/cpython/commit/5a57248b22ad3b9aafcaaadae2c304a1923daeca
+    - https://github.com/python/cpython/commit/b38be2e6cf9d989075ab73412c63e003ebad4ff3
+    - https://github.com/python/cpython/commit/b8f23e307097552eaea2604383a12ab280520d0d
+    - https://github.com/python/cpython/commit/c66df4e70435d257fd488b35ea129c6f317433a8
+    - https://github.com/python/cpython/commit/cc1689830c6b9aaddded2fb9f2fe8116867e2c0e
+    - https://github.com/python/cpython/issues/157190
+    - https://github.com/python/cpython/pull/157191
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/EFJWGAZJA56AKSBR2WHMHQZO7RRLZPRH/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-82049
+    - https://www.cve.org/CVERecord?id=CVE-2026-82049
+    PublishedDate: '2026-09-14T19:17:50.927Z'
+    LastModifiedDate: '2026-10-02T01:16:44.52Z'
   - VulnerabilityID: CVE-2026-8328
     PkgID: python3@3.14.5-r2
     PkgName: python3
@@ -7033,6 +7475,174 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-11972
     PublishedDate: '2026-06-23T23:16:49.033Z'
     LastModifiedDate: '2026-08-13T01:16:51.78Z'
+  - VulnerabilityID: CVE-2026-15806
+    PkgID: python3@3.14.5-r2
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: 37c00fbc48ca6124
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15806
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:b53662e7f2719bb27a9bb76e53309d39717fd4dc1301aacf768b429badcc5c37
+    Title: 'python: Python: Information disclosure due to incorrect URL scheme matching'
+    Description: |-
+      The HTTPPasswordMgr class in the urllib.request module, along with its subclasses HTTPPasswordMgrWithDefaultRealm and HTTPPasswordMgrWithPriorAuth, did not take the URL scheme into account when matching stored credentials against a requested URL. Credentials added for an https:// URL were also used for requests to the same host over http://, so an attacker able to redirect or downgrade a client to plain HTTP (for example, via an HTTPS-to-HTTP redirect or an on-path position) could capture credentials in cleartext. Credentials added for http:// URLs could likewise be sent over https://.
+
+      Credential matching is now scoped by URL scheme. Credentials registered with a URL that includes a scheme are only used for requests with the same scheme. Credentials registered with a bare authority (such as example.com or example.com:8080) continue to match any scheme, preserving compatibility with existing code, including proxy authentication.
+
+      Users who cannot upgrade immediately can mitigate by ensuring that applications never make plain http:// requests to hosts for which credentials are registered, for example by not following redirects to http:// URLs.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-319
+    - CWE-522
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:P/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/18/3
+    - https://access.redhat.com/security/cve/CVE-2026-15806
+    - https://github.com/python/cpython/commit/641be42bb07921ba0f8bffe228b1dc706b092ef6
+    - https://github.com/python/cpython/commit/851cf9a7142ecbdd39f831055533f58284ad2bcc
+    - https://github.com/python/cpython/commit/95355ee3a8e1d3c3d4858d1973aa42a9b91a2801
+    - https://github.com/python/cpython/commit/a0d023fbd23773e24b35d8368789470e22cda5d8
+    - https://github.com/python/cpython/commit/a2773a34183b7d94a243bb98fd658926cc5348ce
+    - https://github.com/python/cpython/commit/a7bb524fef61f77ede01f660ffbd591e1d5837ce
+    - https://github.com/python/cpython/commit/dac88d8615078c55f1304ea4c7a2d822700d4e5a
+    - https://github.com/python/cpython/issues/155694
+    - https://github.com/python/cpython/pull/155696
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/3OKPE5S75KDNA7FY7AI3PL2MXM2X5RB3/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15806
+    - https://www.cve.org/CVERecord?id=CVE-2026-15806
+    PublishedDate: '2026-08-18T16:17:02.22Z'
+    LastModifiedDate: '2026-10-02T01:16:43.523Z'
+  - VulnerabilityID: CVE-2026-17084
+    PkgID: python3@3.14.5-r2
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: 37c00fbc48ca6124
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-17084
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:42f066ecea429beafeb1c3e1f3368530ab8e95b571b2de62dd040f4c9a287585
+    Title: 'python: Python stringprep module: Incorrect domain name processing breaks IDNA interoperability'
+    Description: |-
+      The "stringprep" module didn't process characters from RFC 3454 tables 
+      B.2 or B.3 correctly: the latest Unicode codepoint attributes were used 
+      instead of the specified Unicode 3.2.0. This behavior would cause 
+      mismatches when processing domain names using IDNA 2003 (the "idna" 
+      codec) and the in_table_b2() function of the "stringprep" module. This 
+      only affects domain names containing characters that were not previously
+       registered or had their Unicode attributes such as case-folding 
+      behavior updated since Unicode 3.2.0.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-436
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:P/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 6.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/18/2
+    - https://access.redhat.com/security/cve/CVE-2026-17084
+    - https://github.com/python/cpython/commit/1e54caa096678a38afcabecabb1ff72400dd6bae
+    - https://github.com/python/cpython/commit/5181304bcec9cfc3c15311741c9154cdff2e3fd7
+    - https://github.com/python/cpython/commit/69f92ebaec681e9149dfd70fd02d4ed52d2a6296
+    - https://github.com/python/cpython/commit/7e109d084d55e7eb25837a5f3b47ef9beee547bc
+    - https://github.com/python/cpython/commit/c016c2535b74227fddf2cf7334dbfead6c930214
+    - https://github.com/python/cpython/commit/c28b121a4f0b975937c8b5a1b4934bb361d84296
+    - https://github.com/python/cpython/commit/c42790b34f634051750e5da340d17c7da19e4784
+    - https://github.com/python/cpython/commit/d397a4979cfc80a8cd6c73838aa10e9c8cf5ef72
+    - https://github.com/python/cpython/issues/155292
+    - https://github.com/python/cpython/pull/155293
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/EUHHTC6EV7HCLSUHP25C5VHSV4V2MUZN/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-17084
+    - https://www.cve.org/CVERecord?id=CVE-2026-17084
+    PublishedDate: '2026-08-18T14:16:56.29Z'
+    LastModifiedDate: '2026-10-02T01:16:43.723Z'
+  - VulnerabilityID: CVE-2026-19672
+    PkgID: python3@3.14.5-r2
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: 37c00fbc48ca6124
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19672
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:97c624507dac181a7ce0f46eb1675ee80b7aae093b254f82400acb9c1472fe33
+    Title: 'python: Python tarfile module: Directory traversal allows creation of empty directories outside extraction destination'
+    Description: |-
+      The tarfile module's tar and data
+       extraction filters created directories outside the destination for 
+      members whose name leaves the destination and returns to it, such as ../evil/../dest/sub/file. The containment check used the resolved path, but intermediate directories were created from the name as given.
+
+      Only
+       empty directories are created outside the destination. Member contents 
+      are still extracted inside it. To return to the destination the member's
+       name must contain the destination directory's own final component, so 
+      extraction into a secure randomised directory is not affected.
+
+      This affects POSIX platforms only. On Windows, .. components are collapsed before the path reaches the filesystem, so the directories outside the destination are never created.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:N/SC:N/SI:L/SA:N
+        V40Score: 6.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/25/10
+    - https://access.redhat.com/security/cve/CVE-2026-19672
+    - https://github.com/python/cpython/pull/156000
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/J2WT2ALRWEXQJOB3C7Q2HYWUXP3CINWO/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19672
+    - https://www.cve.org/CVERecord?id=CVE-2026-19672
+    PublishedDate: '2026-08-19T16:17:06.593Z'
+    LastModifiedDate: '2026-08-28T21:16:15.74Z'
   - VulnerabilityID: CVE-2026-3276
     PkgID: python3@3.14.5-r2
     PkgName: python3
@@ -7260,6 +7870,57 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-9669
     PublishedDate: '2026-06-08T23:17:25.17Z'
     LastModifiedDate: '2026-08-13T01:16:56.087Z'
+  - VulnerabilityID: CVE-2026-15310
+    PkgID: python3@3.14.5-r2
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: 37c00fbc48ca6124
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15310
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:d6e5509afa7117a8bb810d3df40fa7b558ce5f6b2bc97f7050489ee1328261ba
+    Title: When decompressing crafted zip files using the bzip/LZMA/Zstandard   c ...
+    Description: |-
+      When decompressing crafted zip files using the bzip/LZMA/Zstandard 
+
+      compressions, Python could use an attacker-controlled size to 
+
+      pre-allocate memory, possibly resulting in memory exhaustion.
+    Severity: LOW
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      bitnami: 1
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:A/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N
+        V40Score: 2.1
+    References:
+    - https://github.com/python/cpython/commit/09a2e7e6678b4f65449e7ad8f112c48f944591e2
+    - https://github.com/python/cpython/commit/1b424c0178a01e155fd0267dc28a8fc1159b33a8
+    - https://github.com/python/cpython/commit/31980e84b9a708424a0a1dfecde3fc991e313f89
+    - https://github.com/python/cpython/commit/6257029de42ef89b67f3d20137de87d43e197530
+    - https://github.com/python/cpython/commit/9d167992b59cf5e23c66b9ed742b13f5925f7d70
+    - https://github.com/python/cpython/commit/c2bfbcdd1a11690507a10bc0998f95b8dc6b6fac
+    - https://github.com/python/cpython/commit/dcdd406ddbfc4cb29b24c3df17cbabe21d316ce1
+    - https://github.com/python/cpython/commit/e2311cfb3dd518f008f312fe0631f4f7490d237a
+    - https://github.com/python/cpython/commit/f507e6946a3194e83e1d7b8ee6e14567175e46de
+    - https://github.com/python/cpython/commit/f897dbf2f36a5935700b7c2d94d4681d2136b7d4
+    - https://github.com/python/cpython/issues/156002
+    - https://github.com/python/cpython/pull/156003
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/YUHXURX2WZGKGNA4ANYBQS2VZRYQ5JNK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15310
+    PublishedDate: '2026-08-25T15:16:30.027Z'
+    LastModifiedDate: '2026-10-02T01:16:43.337Z'
   - VulnerabilityID: CVE-2026-6879
     PkgID: python3@3.14.5-r2
     PkgName: python3
@@ -7311,6 +7972,54 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-6879
     PublishedDate: '2026-07-28T15:17:51.377Z'
     LastModifiedDate: '2026-08-13T01:16:55.457Z'
+  - VulnerabilityID: CVE-2026-19445
+    PkgID: python3@3.14.5-r2
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: 37c00fbc48ca6124
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19445
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:9fb0a6bac323a77c2c6270247f52be6be848f49476b719b881d514533577eaab
+    Title: A remote, unauthenticated TLS client can make a server crash or call t ...
+    Description: |-
+      A remote, unauthenticated TLS client can make a server crash or call
+      through a freed pointer if its sni_callback assigns a different context to
+      SSLSocket.context (the documented way to select a certificate per server
+      name) and nothing else keeps the original ssl.SSLContext alive. Typical
+      cases are servers that create an SSLContext per connection or replace it
+      while connections are open; servers that wrap their listening socket with
+      it are not affected.
+
+
+      Mitigation: keep a reference to every SSLContext that sets sni_callback for
+      the lifetime of the server. TLS clients are not affected.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-416
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/30/17
+    - https://github.com/python/cpython/commit/34a53dce8174da2fceb12fe084a4def02a10053d
+    - https://github.com/python/cpython/commit/46133cd57d309652139ada74014aca7665ac552b
+    - https://github.com/python/cpython/commit/63fab143d94cafae71850831acfb52041ba44af7
+    - https://github.com/python/cpython/commit/b12968cefe69ca1dcb8606c832ff73ee7dbf4ba8
+    - https://github.com/python/cpython/commit/cd7e51e7d4563866fbaa1e2521ae69b45daf3698
+    - https://github.com/python/cpython/commit/d8717ed01717a9641686e6e6f83f0ab8af235e2c
+    - https://github.com/python/cpython/commit/ec44b5a3258cbda947d5e07242ee562ed05ef24b
+    - https://github.com/python/cpython/issues/156293
+    - https://github.com/python/cpython/pull/158504
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3/
+    PublishedDate: '2026-09-30T17:16:45.72Z'
+    LastModifiedDate: '2026-10-02T01:16:43.903Z'
   - VulnerabilityID: CVE-2026-11940
     PkgID: python3-pyc@3.14.5-r2
     PkgName: python3-pyc
@@ -7452,6 +8161,77 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-15308
     PublishedDate: '2026-07-09T17:16:58.26Z'
     LastModifiedDate: '2026-08-20T17:02:59.313Z'
+  - VulnerabilityID: CVE-2026-19553
+    PkgID: python3-pyc@3.14.5-r2
+    PkgName: python3-pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: dce4b4bcd0b8d00f
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19553
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:885d9ee8d1770bd9d04cd13d62b42e2b13f341b2ac643fe8d824b56cdf8562a8
+    Title: 'python: python: Certificate verification bypass via missing server_hostname validation in SSLContext.wrap_bio()'
+    Description: |-
+      ssl.SSLContext.wrap_bio() didn't require the server_hostname argument
+      to not be None if ssl.SSLContext.check_hostname was set. Due to a
+      missing parameter check in SSLObject, if the server_hostname argument
+      isn't supplied then hostname verification would be silently skipped.
+
+
+      This defect could lead to programs where certificate hostname verification
+      *appeared* to be succeeding with SSLContext.check_hostname = True and no
+      ValueError being raised due to misconfiguration.
+
+
+      If the program passes a server_hostname value that isn't an empty string
+      or None to any of these APIs then certificate hostname verification
+      proceeds as expected and the program is not affected by this vulnerability.
+
+
+      Mitigating this vulnerability doesn't require updating Python or applying
+      the patch. To mitigate, pass a valid non-None and non-empty
+      server_hostname value to SSLContext.wrap_bio(),
+      asyncio.create_connection(), or asyncio.loop.start_tls() and
+      certificate hostname verification will proceed as expected. Upgrading to
+      the latest version of Python or applying the patch only changes the
+      behavior from silently skipping hostname verification to raising a
+      ValueError, similar to SSLContext.wrap_socket(), when server_hostname
+      isn't supplied.
+    Severity: HIGH
+    CweIDs:
+    - CWE-297
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/30/16
+    - https://access.redhat.com/security/cve/CVE-2026-19553
+    - https://github.com/python/cpython/commit/1697ea386c707142555d98a1263176bbbc014a96
+    - https://github.com/python/cpython/commit/5867d4e4ae6d1062352baf6b497a4026e8578ccf
+    - https://github.com/python/cpython/commit/641390146a16a38e6701923f4ee4f1940ae77082
+    - https://github.com/python/cpython/commit/869069d52ce0efab2f8c38197e92cdaaa312f1ed
+    - https://github.com/python/cpython/commit/966bf426d0b6c31c1b0a255ff14a17143a466ced
+    - https://github.com/python/cpython/commit/bdebbf9b366ec91e9cd9daa0b3510c9e84b60b80
+    - https://github.com/python/cpython/commit/f4e43ba525187282f2011da0e6ffc0d2b08d8062
+    - https://github.com/python/cpython/issues/156793
+    - https://github.com/python/cpython/pull/158503
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QNZRG3YOAMTHDCMVCICXGY6YEFPY2VDL/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19553
+    - https://www.cve.org/CVERecord?id=CVE-2026-19553
+    PublishedDate: '2026-09-30T17:16:45.88Z'
+    LastModifiedDate: '2026-10-02T01:16:44.057Z'
   - VulnerabilityID: CVE-2026-7210
     PkgID: python3-pyc@3.14.5-r2
     PkgName: python3-pyc
@@ -7509,7 +8289,57 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-7210
     - https://www.cve.org/CVERecord?id=CVE-2026-7210
     PublishedDate: '2026-05-11T18:16:42.413Z'
-    LastModifiedDate: '2026-08-14T01:19:08.237Z'
+    LastModifiedDate: '2026-10-02T01:16:44.32Z'
+  - VulnerabilityID: CVE-2026-82049
+    PkgID: python3-pyc@3.14.5-r2
+    PkgName: python3-pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: dce4b4bcd0b8d00f
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-82049
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:30e8af41330c3ca08b38f8504369c501576579189ff9c7ec291267f29738739a
+    Title: 'python: Python tarfile module: File modification and content disclosure via crafted archives'
+    Description: "In CPython 3.13 and earlier, the tarfile\_module's data\_and tar extraction filters are vulnerable to crafted archives containing a hard link to a symbolic link. Such archives may cause extraction to modify the permissions or modification time of a file outside the destination directory, or expose the contents of that file within the extracted tree."
+    Severity: HIGH
+    CweIDs:
+    - CWE-59
+    VendorSeverity:
+      bitnami: 3
+      redhat: 3
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 8.4
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+        V3Score: 7.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/14/27
+    - https://access.redhat.com/security/cve/CVE-2026-82049
+    - https://github.com/python/cpython/commit/197663d63afed27f66e10e23c194e8a634e60913
+    - https://github.com/python/cpython/commit/28f315486b3da0352b9a1de1c3c97f4127ba4771
+    - https://github.com/python/cpython/commit/5a57248b22ad3b9aafcaaadae2c304a1923daeca
+    - https://github.com/python/cpython/commit/b38be2e6cf9d989075ab73412c63e003ebad4ff3
+    - https://github.com/python/cpython/commit/b8f23e307097552eaea2604383a12ab280520d0d
+    - https://github.com/python/cpython/commit/c66df4e70435d257fd488b35ea129c6f317433a8
+    - https://github.com/python/cpython/commit/cc1689830c6b9aaddded2fb9f2fe8116867e2c0e
+    - https://github.com/python/cpython/issues/157190
+    - https://github.com/python/cpython/pull/157191
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/EFJWGAZJA56AKSBR2WHMHQZO7RRLZPRH/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-82049
+    - https://www.cve.org/CVERecord?id=CVE-2026-82049
+    PublishedDate: '2026-09-14T19:17:50.927Z'
+    LastModifiedDate: '2026-10-02T01:16:44.52Z'
   - VulnerabilityID: CVE-2026-8328
     PkgID: python3-pyc@3.14.5-r2
     PkgName: python3-pyc
@@ -7741,6 +8571,174 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-11972
     PublishedDate: '2026-06-23T23:16:49.033Z'
     LastModifiedDate: '2026-08-13T01:16:51.78Z'
+  - VulnerabilityID: CVE-2026-15806
+    PkgID: python3-pyc@3.14.5-r2
+    PkgName: python3-pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: dce4b4bcd0b8d00f
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15806
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:522ccc41132dc81d4f39306fae782c515d909f9465a4e4a49bfa23ef1609be2b
+    Title: 'python: Python: Information disclosure due to incorrect URL scheme matching'
+    Description: |-
+      The HTTPPasswordMgr class in the urllib.request module, along with its subclasses HTTPPasswordMgrWithDefaultRealm and HTTPPasswordMgrWithPriorAuth, did not take the URL scheme into account when matching stored credentials against a requested URL. Credentials added for an https:// URL were also used for requests to the same host over http://, so an attacker able to redirect or downgrade a client to plain HTTP (for example, via an HTTPS-to-HTTP redirect or an on-path position) could capture credentials in cleartext. Credentials added for http:// URLs could likewise be sent over https://.
+
+      Credential matching is now scoped by URL scheme. Credentials registered with a URL that includes a scheme are only used for requests with the same scheme. Credentials registered with a bare authority (such as example.com or example.com:8080) continue to match any scheme, preserving compatibility with existing code, including proxy authentication.
+
+      Users who cannot upgrade immediately can mitigate by ensuring that applications never make plain http:// requests to hosts for which credentials are registered, for example by not following redirects to http:// URLs.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-319
+    - CWE-522
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:P/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/18/3
+    - https://access.redhat.com/security/cve/CVE-2026-15806
+    - https://github.com/python/cpython/commit/641be42bb07921ba0f8bffe228b1dc706b092ef6
+    - https://github.com/python/cpython/commit/851cf9a7142ecbdd39f831055533f58284ad2bcc
+    - https://github.com/python/cpython/commit/95355ee3a8e1d3c3d4858d1973aa42a9b91a2801
+    - https://github.com/python/cpython/commit/a0d023fbd23773e24b35d8368789470e22cda5d8
+    - https://github.com/python/cpython/commit/a2773a34183b7d94a243bb98fd658926cc5348ce
+    - https://github.com/python/cpython/commit/a7bb524fef61f77ede01f660ffbd591e1d5837ce
+    - https://github.com/python/cpython/commit/dac88d8615078c55f1304ea4c7a2d822700d4e5a
+    - https://github.com/python/cpython/issues/155694
+    - https://github.com/python/cpython/pull/155696
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/3OKPE5S75KDNA7FY7AI3PL2MXM2X5RB3/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15806
+    - https://www.cve.org/CVERecord?id=CVE-2026-15806
+    PublishedDate: '2026-08-18T16:17:02.22Z'
+    LastModifiedDate: '2026-10-02T01:16:43.523Z'
+  - VulnerabilityID: CVE-2026-17084
+    PkgID: python3-pyc@3.14.5-r2
+    PkgName: python3-pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: dce4b4bcd0b8d00f
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-17084
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:9bc30d1d8a2acfaf015ebc0563c789a26df89cbf740082325f8a644b87c66d4e
+    Title: 'python: Python stringprep module: Incorrect domain name processing breaks IDNA interoperability'
+    Description: |-
+      The "stringprep" module didn't process characters from RFC 3454 tables 
+      B.2 or B.3 correctly: the latest Unicode codepoint attributes were used 
+      instead of the specified Unicode 3.2.0. This behavior would cause 
+      mismatches when processing domain names using IDNA 2003 (the "idna" 
+      codec) and the in_table_b2() function of the "stringprep" module. This 
+      only affects domain names containing characters that were not previously
+       registered or had their Unicode attributes such as case-folding 
+      behavior updated since Unicode 3.2.0.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-436
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:P/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 6.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/18/2
+    - https://access.redhat.com/security/cve/CVE-2026-17084
+    - https://github.com/python/cpython/commit/1e54caa096678a38afcabecabb1ff72400dd6bae
+    - https://github.com/python/cpython/commit/5181304bcec9cfc3c15311741c9154cdff2e3fd7
+    - https://github.com/python/cpython/commit/69f92ebaec681e9149dfd70fd02d4ed52d2a6296
+    - https://github.com/python/cpython/commit/7e109d084d55e7eb25837a5f3b47ef9beee547bc
+    - https://github.com/python/cpython/commit/c016c2535b74227fddf2cf7334dbfead6c930214
+    - https://github.com/python/cpython/commit/c28b121a4f0b975937c8b5a1b4934bb361d84296
+    - https://github.com/python/cpython/commit/c42790b34f634051750e5da340d17c7da19e4784
+    - https://github.com/python/cpython/commit/d397a4979cfc80a8cd6c73838aa10e9c8cf5ef72
+    - https://github.com/python/cpython/issues/155292
+    - https://github.com/python/cpython/pull/155293
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/EUHHTC6EV7HCLSUHP25C5VHSV4V2MUZN/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-17084
+    - https://www.cve.org/CVERecord?id=CVE-2026-17084
+    PublishedDate: '2026-08-18T14:16:56.29Z'
+    LastModifiedDate: '2026-10-02T01:16:43.723Z'
+  - VulnerabilityID: CVE-2026-19672
+    PkgID: python3-pyc@3.14.5-r2
+    PkgName: python3-pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: dce4b4bcd0b8d00f
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19672
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:bf8db2570c6cc9f181e43ccceeb73070b714f6374219680ac6482a63384000ac
+    Title: 'python: Python tarfile module: Directory traversal allows creation of empty directories outside extraction destination'
+    Description: |-
+      The tarfile module's tar and data
+       extraction filters created directories outside the destination for 
+      members whose name leaves the destination and returns to it, such as ../evil/../dest/sub/file. The containment check used the resolved path, but intermediate directories were created from the name as given.
+
+      Only
+       empty directories are created outside the destination. Member contents 
+      are still extracted inside it. To return to the destination the member's
+       name must contain the destination directory's own final component, so 
+      extraction into a secure randomised directory is not affected.
+
+      This affects POSIX platforms only. On Windows, .. components are collapsed before the path reaches the filesystem, so the directories outside the destination are never created.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:N/SC:N/SI:L/SA:N
+        V40Score: 6.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/25/10
+    - https://access.redhat.com/security/cve/CVE-2026-19672
+    - https://github.com/python/cpython/pull/156000
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/J2WT2ALRWEXQJOB3C7Q2HYWUXP3CINWO/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19672
+    - https://www.cve.org/CVERecord?id=CVE-2026-19672
+    PublishedDate: '2026-08-19T16:17:06.593Z'
+    LastModifiedDate: '2026-08-28T21:16:15.74Z'
   - VulnerabilityID: CVE-2026-3276
     PkgID: python3-pyc@3.14.5-r2
     PkgName: python3-pyc
@@ -7968,6 +8966,57 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-9669
     PublishedDate: '2026-06-08T23:17:25.17Z'
     LastModifiedDate: '2026-08-13T01:16:56.087Z'
+  - VulnerabilityID: CVE-2026-15310
+    PkgID: python3-pyc@3.14.5-r2
+    PkgName: python3-pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: dce4b4bcd0b8d00f
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15310
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:7a92bfa0e0d23ae107416738b29971760c3d70564d701366bbdd4d9c5c19947f
+    Title: When decompressing crafted zip files using the bzip/LZMA/Zstandard   c ...
+    Description: |-
+      When decompressing crafted zip files using the bzip/LZMA/Zstandard 
+
+      compressions, Python could use an attacker-controlled size to 
+
+      pre-allocate memory, possibly resulting in memory exhaustion.
+    Severity: LOW
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      bitnami: 1
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:A/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N
+        V40Score: 2.1
+    References:
+    - https://github.com/python/cpython/commit/09a2e7e6678b4f65449e7ad8f112c48f944591e2
+    - https://github.com/python/cpython/commit/1b424c0178a01e155fd0267dc28a8fc1159b33a8
+    - https://github.com/python/cpython/commit/31980e84b9a708424a0a1dfecde3fc991e313f89
+    - https://github.com/python/cpython/commit/6257029de42ef89b67f3d20137de87d43e197530
+    - https://github.com/python/cpython/commit/9d167992b59cf5e23c66b9ed742b13f5925f7d70
+    - https://github.com/python/cpython/commit/c2bfbcdd1a11690507a10bc0998f95b8dc6b6fac
+    - https://github.com/python/cpython/commit/dcdd406ddbfc4cb29b24c3df17cbabe21d316ce1
+    - https://github.com/python/cpython/commit/e2311cfb3dd518f008f312fe0631f4f7490d237a
+    - https://github.com/python/cpython/commit/f507e6946a3194e83e1d7b8ee6e14567175e46de
+    - https://github.com/python/cpython/commit/f897dbf2f36a5935700b7c2d94d4681d2136b7d4
+    - https://github.com/python/cpython/issues/156002
+    - https://github.com/python/cpython/pull/156003
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/YUHXURX2WZGKGNA4ANYBQS2VZRYQ5JNK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15310
+    PublishedDate: '2026-08-25T15:16:30.027Z'
+    LastModifiedDate: '2026-10-02T01:16:43.337Z'
   - VulnerabilityID: CVE-2026-6879
     PkgID: python3-pyc@3.14.5-r2
     PkgName: python3-pyc
@@ -8019,6 +9068,54 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-6879
     PublishedDate: '2026-07-28T15:17:51.377Z'
     LastModifiedDate: '2026-08-13T01:16:55.457Z'
+  - VulnerabilityID: CVE-2026-19445
+    PkgID: python3-pyc@3.14.5-r2
+    PkgName: python3-pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: dce4b4bcd0b8d00f
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19445
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:3d06939f78256b937e5e34ac3107b3e6a18e52f021a05147c0248c1980883830
+    Title: A remote, unauthenticated TLS client can make a server crash or call t ...
+    Description: |-
+      A remote, unauthenticated TLS client can make a server crash or call
+      through a freed pointer if its sni_callback assigns a different context to
+      SSLSocket.context (the documented way to select a certificate per server
+      name) and nothing else keeps the original ssl.SSLContext alive. Typical
+      cases are servers that create an SSLContext per connection or replace it
+      while connections are open; servers that wrap their listening socket with
+      it are not affected.
+
+
+      Mitigation: keep a reference to every SSLContext that sets sni_callback for
+      the lifetime of the server. TLS clients are not affected.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-416
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/30/17
+    - https://github.com/python/cpython/commit/34a53dce8174da2fceb12fe084a4def02a10053d
+    - https://github.com/python/cpython/commit/46133cd57d309652139ada74014aca7665ac552b
+    - https://github.com/python/cpython/commit/63fab143d94cafae71850831acfb52041ba44af7
+    - https://github.com/python/cpython/commit/b12968cefe69ca1dcb8606c832ff73ee7dbf4ba8
+    - https://github.com/python/cpython/commit/cd7e51e7d4563866fbaa1e2521ae69b45daf3698
+    - https://github.com/python/cpython/commit/d8717ed01717a9641686e6e6f83f0ab8af235e2c
+    - https://github.com/python/cpython/commit/ec44b5a3258cbda947d5e07242ee562ed05ef24b
+    - https://github.com/python/cpython/issues/156293
+    - https://github.com/python/cpython/pull/158504
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3/
+    PublishedDate: '2026-09-30T17:16:45.72Z'
+    LastModifiedDate: '2026-10-02T01:16:43.903Z'
   - VulnerabilityID: CVE-2026-11940
     PkgID: python3-pycache-pyc0@3.14.5-r2
     PkgName: python3-pycache-pyc0
@@ -8160,6 +9257,77 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-15308
     PublishedDate: '2026-07-09T17:16:58.26Z'
     LastModifiedDate: '2026-08-20T17:02:59.313Z'
+  - VulnerabilityID: CVE-2026-19553
+    PkgID: python3-pycache-pyc0@3.14.5-r2
+    PkgName: python3-pycache-pyc0
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: 4be41ea8f1de2d19
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19553
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:cddb3f706a59f8aa44f32a5fb5121915cd51ad80f425118c2bc4fbd8088eb9e3
+    Title: 'python: python: Certificate verification bypass via missing server_hostname validation in SSLContext.wrap_bio()'
+    Description: |-
+      ssl.SSLContext.wrap_bio() didn't require the server_hostname argument
+      to not be None if ssl.SSLContext.check_hostname was set. Due to a
+      missing parameter check in SSLObject, if the server_hostname argument
+      isn't supplied then hostname verification would be silently skipped.
+
+
+      This defect could lead to programs where certificate hostname verification
+      *appeared* to be succeeding with SSLContext.check_hostname = True and no
+      ValueError being raised due to misconfiguration.
+
+
+      If the program passes a server_hostname value that isn't an empty string
+      or None to any of these APIs then certificate hostname verification
+      proceeds as expected and the program is not affected by this vulnerability.
+
+
+      Mitigating this vulnerability doesn't require updating Python or applying
+      the patch. To mitigate, pass a valid non-None and non-empty
+      server_hostname value to SSLContext.wrap_bio(),
+      asyncio.create_connection(), or asyncio.loop.start_tls() and
+      certificate hostname verification will proceed as expected. Upgrading to
+      the latest version of Python or applying the patch only changes the
+      behavior from silently skipping hostname verification to raising a
+      ValueError, similar to SSLContext.wrap_socket(), when server_hostname
+      isn't supplied.
+    Severity: HIGH
+    CweIDs:
+    - CWE-297
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/30/16
+    - https://access.redhat.com/security/cve/CVE-2026-19553
+    - https://github.com/python/cpython/commit/1697ea386c707142555d98a1263176bbbc014a96
+    - https://github.com/python/cpython/commit/5867d4e4ae6d1062352baf6b497a4026e8578ccf
+    - https://github.com/python/cpython/commit/641390146a16a38e6701923f4ee4f1940ae77082
+    - https://github.com/python/cpython/commit/869069d52ce0efab2f8c38197e92cdaaa312f1ed
+    - https://github.com/python/cpython/commit/966bf426d0b6c31c1b0a255ff14a17143a466ced
+    - https://github.com/python/cpython/commit/bdebbf9b366ec91e9cd9daa0b3510c9e84b60b80
+    - https://github.com/python/cpython/commit/f4e43ba525187282f2011da0e6ffc0d2b08d8062
+    - https://github.com/python/cpython/issues/156793
+    - https://github.com/python/cpython/pull/158503
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QNZRG3YOAMTHDCMVCICXGY6YEFPY2VDL/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19553
+    - https://www.cve.org/CVERecord?id=CVE-2026-19553
+    PublishedDate: '2026-09-30T17:16:45.88Z'
+    LastModifiedDate: '2026-10-02T01:16:44.057Z'
   - VulnerabilityID: CVE-2026-7210
     PkgID: python3-pycache-pyc0@3.14.5-r2
     PkgName: python3-pycache-pyc0
@@ -8217,7 +9385,57 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-7210
     - https://www.cve.org/CVERecord?id=CVE-2026-7210
     PublishedDate: '2026-05-11T18:16:42.413Z'
-    LastModifiedDate: '2026-08-14T01:19:08.237Z'
+    LastModifiedDate: '2026-10-02T01:16:44.32Z'
+  - VulnerabilityID: CVE-2026-82049
+    PkgID: python3-pycache-pyc0@3.14.5-r2
+    PkgName: python3-pycache-pyc0
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: 4be41ea8f1de2d19
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-82049
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:19928b2366b046124b9adc748c70436ba2792d568c7bb39ab500a63a8504edae
+    Title: 'python: Python tarfile module: File modification and content disclosure via crafted archives'
+    Description: "In CPython 3.13 and earlier, the tarfile\_module's data\_and tar extraction filters are vulnerable to crafted archives containing a hard link to a symbolic link. Such archives may cause extraction to modify the permissions or modification time of a file outside the destination directory, or expose the contents of that file within the extracted tree."
+    Severity: HIGH
+    CweIDs:
+    - CWE-59
+    VendorSeverity:
+      bitnami: 3
+      redhat: 3
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 8.4
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N
+        V3Score: 7.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/14/27
+    - https://access.redhat.com/security/cve/CVE-2026-82049
+    - https://github.com/python/cpython/commit/197663d63afed27f66e10e23c194e8a634e60913
+    - https://github.com/python/cpython/commit/28f315486b3da0352b9a1de1c3c97f4127ba4771
+    - https://github.com/python/cpython/commit/5a57248b22ad3b9aafcaaadae2c304a1923daeca
+    - https://github.com/python/cpython/commit/b38be2e6cf9d989075ab73412c63e003ebad4ff3
+    - https://github.com/python/cpython/commit/b8f23e307097552eaea2604383a12ab280520d0d
+    - https://github.com/python/cpython/commit/c66df4e70435d257fd488b35ea129c6f317433a8
+    - https://github.com/python/cpython/commit/cc1689830c6b9aaddded2fb9f2fe8116867e2c0e
+    - https://github.com/python/cpython/issues/157190
+    - https://github.com/python/cpython/pull/157191
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/EFJWGAZJA56AKSBR2WHMHQZO7RRLZPRH/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-82049
+    - https://www.cve.org/CVERecord?id=CVE-2026-82049
+    PublishedDate: '2026-09-14T19:17:50.927Z'
+    LastModifiedDate: '2026-10-02T01:16:44.52Z'
   - VulnerabilityID: CVE-2026-8328
     PkgID: python3-pycache-pyc0@3.14.5-r2
     PkgName: python3-pycache-pyc0
@@ -8449,6 +9667,174 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-11972
     PublishedDate: '2026-06-23T23:16:49.033Z'
     LastModifiedDate: '2026-08-13T01:16:51.78Z'
+  - VulnerabilityID: CVE-2026-15806
+    PkgID: python3-pycache-pyc0@3.14.5-r2
+    PkgName: python3-pycache-pyc0
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: 4be41ea8f1de2d19
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15806
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:201320a5e2189d0d5f8d7233e9e72869771d202d13178fe3ec46e0267a6cdc6b
+    Title: 'python: Python: Information disclosure due to incorrect URL scheme matching'
+    Description: |-
+      The HTTPPasswordMgr class in the urllib.request module, along with its subclasses HTTPPasswordMgrWithDefaultRealm and HTTPPasswordMgrWithPriorAuth, did not take the URL scheme into account when matching stored credentials against a requested URL. Credentials added for an https:// URL were also used for requests to the same host over http://, so an attacker able to redirect or downgrade a client to plain HTTP (for example, via an HTTPS-to-HTTP redirect or an on-path position) could capture credentials in cleartext. Credentials added for http:// URLs could likewise be sent over https://.
+
+      Credential matching is now scoped by URL scheme. Credentials registered with a URL that includes a scheme are only used for requests with the same scheme. Credentials registered with a bare authority (such as example.com or example.com:8080) continue to match any scheme, preserving compatibility with existing code, including proxy authentication.
+
+      Users who cannot upgrade immediately can mitigate by ensuring that applications never make plain http:// requests to hosts for which credentials are registered, for example by not following redirects to http:// URLs.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-319
+    - CWE-522
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:P/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/18/3
+    - https://access.redhat.com/security/cve/CVE-2026-15806
+    - https://github.com/python/cpython/commit/641be42bb07921ba0f8bffe228b1dc706b092ef6
+    - https://github.com/python/cpython/commit/851cf9a7142ecbdd39f831055533f58284ad2bcc
+    - https://github.com/python/cpython/commit/95355ee3a8e1d3c3d4858d1973aa42a9b91a2801
+    - https://github.com/python/cpython/commit/a0d023fbd23773e24b35d8368789470e22cda5d8
+    - https://github.com/python/cpython/commit/a2773a34183b7d94a243bb98fd658926cc5348ce
+    - https://github.com/python/cpython/commit/a7bb524fef61f77ede01f660ffbd591e1d5837ce
+    - https://github.com/python/cpython/commit/dac88d8615078c55f1304ea4c7a2d822700d4e5a
+    - https://github.com/python/cpython/issues/155694
+    - https://github.com/python/cpython/pull/155696
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/3OKPE5S75KDNA7FY7AI3PL2MXM2X5RB3/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15806
+    - https://www.cve.org/CVERecord?id=CVE-2026-15806
+    PublishedDate: '2026-08-18T16:17:02.22Z'
+    LastModifiedDate: '2026-10-02T01:16:43.523Z'
+  - VulnerabilityID: CVE-2026-17084
+    PkgID: python3-pycache-pyc0@3.14.5-r2
+    PkgName: python3-pycache-pyc0
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: 4be41ea8f1de2d19
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-17084
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:ff555bc4534ee5e4cad6901402c2f85400ff2b9e6ad42e105bb2448d2241b555
+    Title: 'python: Python stringprep module: Incorrect domain name processing breaks IDNA interoperability'
+    Description: |-
+      The "stringprep" module didn't process characters from RFC 3454 tables 
+      B.2 or B.3 correctly: the latest Unicode codepoint attributes were used 
+      instead of the specified Unicode 3.2.0. This behavior would cause 
+      mismatches when processing domain names using IDNA 2003 (the "idna" 
+      codec) and the in_table_b2() function of the "stringprep" module. This 
+      only affects domain names containing characters that were not previously
+       registered or had their Unicode attributes such as case-folding 
+      behavior updated since Unicode 3.2.0.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-436
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:P/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 6.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/18/2
+    - https://access.redhat.com/security/cve/CVE-2026-17084
+    - https://github.com/python/cpython/commit/1e54caa096678a38afcabecabb1ff72400dd6bae
+    - https://github.com/python/cpython/commit/5181304bcec9cfc3c15311741c9154cdff2e3fd7
+    - https://github.com/python/cpython/commit/69f92ebaec681e9149dfd70fd02d4ed52d2a6296
+    - https://github.com/python/cpython/commit/7e109d084d55e7eb25837a5f3b47ef9beee547bc
+    - https://github.com/python/cpython/commit/c016c2535b74227fddf2cf7334dbfead6c930214
+    - https://github.com/python/cpython/commit/c28b121a4f0b975937c8b5a1b4934bb361d84296
+    - https://github.com/python/cpython/commit/c42790b34f634051750e5da340d17c7da19e4784
+    - https://github.com/python/cpython/commit/d397a4979cfc80a8cd6c73838aa10e9c8cf5ef72
+    - https://github.com/python/cpython/issues/155292
+    - https://github.com/python/cpython/pull/155293
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/EUHHTC6EV7HCLSUHP25C5VHSV4V2MUZN/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-17084
+    - https://www.cve.org/CVERecord?id=CVE-2026-17084
+    PublishedDate: '2026-08-18T14:16:56.29Z'
+    LastModifiedDate: '2026-10-02T01:16:43.723Z'
+  - VulnerabilityID: CVE-2026-19672
+    PkgID: python3-pycache-pyc0@3.14.5-r2
+    PkgName: python3-pycache-pyc0
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: 4be41ea8f1de2d19
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19672
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:d09bc89aa919fa315d17288ae2b3b178315108f6683ced8ad6c58a2738103868
+    Title: 'python: Python tarfile module: Directory traversal allows creation of empty directories outside extraction destination'
+    Description: |-
+      The tarfile module's tar and data
+       extraction filters created directories outside the destination for 
+      members whose name leaves the destination and returns to it, such as ../evil/../dest/sub/file. The containment check used the resolved path, but intermediate directories were created from the name as given.
+
+      Only
+       empty directories are created outside the destination. Member contents 
+      are still extracted inside it. To return to the destination the member's
+       name must contain the destination directory's own final component, so 
+      extraction into a secure randomised directory is not affected.
+
+      This affects POSIX platforms only. On Windows, .. components are collapsed before the path reaches the filesystem, so the directories outside the destination are never created.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      bitnami: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:N/SC:N/SI:L/SA:N
+        V40Score: 6.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/25/10
+    - https://access.redhat.com/security/cve/CVE-2026-19672
+    - https://github.com/python/cpython/pull/156000
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/J2WT2ALRWEXQJOB3C7Q2HYWUXP3CINWO/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19672
+    - https://www.cve.org/CVERecord?id=CVE-2026-19672
+    PublishedDate: '2026-08-19T16:17:06.593Z'
+    LastModifiedDate: '2026-08-28T21:16:15.74Z'
   - VulnerabilityID: CVE-2026-3276
     PkgID: python3-pycache-pyc0@3.14.5-r2
     PkgName: python3-pycache-pyc0
@@ -8676,6 +10062,57 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-9669
     PublishedDate: '2026-06-08T23:17:25.17Z'
     LastModifiedDate: '2026-08-13T01:16:56.087Z'
+  - VulnerabilityID: CVE-2026-15310
+    PkgID: python3-pycache-pyc0@3.14.5-r2
+    PkgName: python3-pycache-pyc0
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: 4be41ea8f1de2d19
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15310
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:551bd26f15b812f6818b3233f18999288fe8b75456f65ec9b8f2e2fcb026bb02
+    Title: When decompressing crafted zip files using the bzip/LZMA/Zstandard   c ...
+    Description: |-
+      When decompressing crafted zip files using the bzip/LZMA/Zstandard 
+
+      compressions, Python could use an attacker-controlled size to 
+
+      pre-allocate memory, possibly resulting in memory exhaustion.
+    Severity: LOW
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      bitnami: 1
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:A/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N
+        V40Score: 2.1
+    References:
+    - https://github.com/python/cpython/commit/09a2e7e6678b4f65449e7ad8f112c48f944591e2
+    - https://github.com/python/cpython/commit/1b424c0178a01e155fd0267dc28a8fc1159b33a8
+    - https://github.com/python/cpython/commit/31980e84b9a708424a0a1dfecde3fc991e313f89
+    - https://github.com/python/cpython/commit/6257029de42ef89b67f3d20137de87d43e197530
+    - https://github.com/python/cpython/commit/9d167992b59cf5e23c66b9ed742b13f5925f7d70
+    - https://github.com/python/cpython/commit/c2bfbcdd1a11690507a10bc0998f95b8dc6b6fac
+    - https://github.com/python/cpython/commit/dcdd406ddbfc4cb29b24c3df17cbabe21d316ce1
+    - https://github.com/python/cpython/commit/e2311cfb3dd518f008f312fe0631f4f7490d237a
+    - https://github.com/python/cpython/commit/f507e6946a3194e83e1d7b8ee6e14567175e46de
+    - https://github.com/python/cpython/commit/f897dbf2f36a5935700b7c2d94d4681d2136b7d4
+    - https://github.com/python/cpython/issues/156002
+    - https://github.com/python/cpython/pull/156003
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/YUHXURX2WZGKGNA4ANYBQS2VZRYQ5JNK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15310
+    PublishedDate: '2026-08-25T15:16:30.027Z'
+    LastModifiedDate: '2026-10-02T01:16:43.337Z'
   - VulnerabilityID: CVE-2026-6879
     PkgID: python3-pycache-pyc0@3.14.5-r2
     PkgName: python3-pycache-pyc0
@@ -8727,6 +10164,54 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-6879
     PublishedDate: '2026-07-28T15:17:51.377Z'
     LastModifiedDate: '2026-08-13T01:16:55.457Z'
+  - VulnerabilityID: CVE-2026-19445
+    PkgID: python3-pycache-pyc0@3.14.5-r2
+    PkgName: python3-pycache-pyc0
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x86_64&distro=3.24.0
+      UID: 4be41ea8f1de2d19
+    InstalledVersion: 3.14.5-r2
+    FixedVersion: 3.14.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19445
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:12c015b878c0258616173fadb3f7240e14c117be85562be71d113e038a6e5b0c
+    Title: A remote, unauthenticated TLS client can make a server crash or call t ...
+    Description: |-
+      A remote, unauthenticated TLS client can make a server crash or call
+      through a freed pointer if its sni_callback assigns a different context to
+      SSLSocket.context (the documented way to select a certificate per server
+      name) and nothing else keeps the original ssl.SSLContext alive. Typical
+      cases are servers that create an SSLContext per connection or replace it
+      while connections are open; servers that wrap their listening socket with
+      it are not affected.
+
+
+      Mitigation: keep a reference to every SSLContext that sets sni_callback for
+      the lifetime of the server. TLS clients are not affected.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-416
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/30/17
+    - https://github.com/python/cpython/commit/34a53dce8174da2fceb12fe084a4def02a10053d
+    - https://github.com/python/cpython/commit/46133cd57d309652139ada74014aca7665ac552b
+    - https://github.com/python/cpython/commit/63fab143d94cafae71850831acfb52041ba44af7
+    - https://github.com/python/cpython/commit/b12968cefe69ca1dcb8606c832ff73ee7dbf4ba8
+    - https://github.com/python/cpython/commit/cd7e51e7d4563866fbaa1e2521ae69b45daf3698
+    - https://github.com/python/cpython/commit/d8717ed01717a9641686e6e6f83f0ab8af235e2c
+    - https://github.com/python/cpython/commit/ec44b5a3258cbda947d5e07242ee562ed05ef24b
+    - https://github.com/python/cpython/issues/156293
+    - https://github.com/python/cpython/pull/158504
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3/
+    PublishedDate: '2026-09-30T17:16:45.72Z'
+    LastModifiedDate: '2026-10-02T01:16:43.903Z'
   - VulnerabilityID: CVE-2026-76642
     PkgID: util-linux-doc@2.42.2-r0
     PkgName: util-linux-doc
@@ -8894,6 +10379,105 @@
   Type: jar
   Packages: []
   Vulnerabilities:
+  - VulnerabilityID: CVE-2026-89407
+    VendorIDs:
+    - GHSA-p6pp-m3f8-5c89
+    PkgName: com.fasterxml.jackson.core:jackson-core
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.22.1
+      UID: e24a19b34bffd75d
+    InstalledVersion: 2.22.1
+    FixedVersion: 2.18.11, 2.21.7, 2.22.3
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-89407
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:3f08e4920a81dc4010ba4098c8d90b574e01cd593c30e40ead1c6726eb90e34e
+    Title: 'com.fasterxml.jackson/jackson-core: tools.jackson.core/jackson-core: Jackson-core: Denial of Service via regular expression backtracking'
+    Description: "NumberInput.looksLikeValidNumber() in FasterXML jackson-core pre-validates \"stringified numbers\" with two regular expressions: PATTERN_FLOAT ([+-]?[0-9]*[\\.]?[0-9]+([eE][+-]?[0-9]+)?), present since 2.17.0, and PATTERN_FLOAT_TRAILING_DOT, added in 2.17.2. PATTERN_FLOAT places adjacent quantifiers over the same character class -- an optional [0-9]* run, an optional dot, then a required [0-9]+ run -- so input that ultimately fails to match forces Java's backtracking engine to retry every possible split point of the digit run.\_\n\n\n\nMatching cost therefore grows with the square of the input length.\_\n\n\n\nAn attacker who can supply JSON that an application deserializes into a numeric target type reaches this method through jackson-databind's default String-to-number coercion (StdDeserializer and NumberDeserializers for BigDecimal, BigInteger, Double and Float).\_\n\n\n\nBecause StreamReadConstraints.maxStringLength defaults to 20,000,000 characters, no constraint bounds the input before it reaches the regex.\_\n\n\n\nTesting by the reporter confirmed O(n^2) growth across five consecutive input-size doublings, with a single 160,000-character string consuming roughly 74 seconds in one call; a small number of concurrent requests of ordinary body size can therefore exhaust a server's request-handling thread pool.\_\n\n\n\nThe affected method does not exist before 2.17.0, so 2.16.x and earlier releases are not affected.\_\n\n\n\nThe fix replaces both regular expressions with a hand-rolled single-pass scan."
+    Severity: HIGH
+    CweIDs:
+    - CWE-400
+    - CWE-1333
+    VendorSeverity:
+      ghsa: 3
+      redhat: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-89407
+    - https://github.com/FasterXML/jackson-core
+    - https://github.com/FasterXML/jackson-core/commit/731e794f62623aa0d86ced52490166be903fbb1d
+    - https://github.com/FasterXML/jackson-core/commit/e7acd64cc99bd346704423dc2bfea1ab0a08ddff
+    - https://github.com/FasterXML/jackson-core/issues/1649
+    - https://github.com/FasterXML/jackson-core/pull/1650
+    - https://github.com/FasterXML/jackson-core/pull/1701
+    - https://github.com/FasterXML/jackson-core/security/advisories/GHSA-p6pp-m3f8-5c89
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-89407
+    - https://www.cve.org/CVERecord?id=CVE-2026-89407
+    PublishedDate: '2026-09-22T15:17:21.053Z'
+    LastModifiedDate: '2026-09-22T20:00:03.713Z'
+  - VulnerabilityID: CVE-2026-89425
+    VendorIDs:
+    - GHSA-7hhh-6rmp-j9qf
+    PkgName: com.fasterxml.jackson.core:jackson-core
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.22.1
+      UID: e24a19b34bffd75d
+    InstalledVersion: 2.22.1
+    FixedVersion: 2.21.7, 2.22.3, 2.18.11
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-89425
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:b399ed8728ea0f36ce8f56e7e571eeb3823cde864dc565d16fa5aa36d0a7b0f1
+    Title: 'com.fasterxml.jackson.core/jackson-core: Jackson-core: Denial of Service via unbounded StringBuilder growth during malformed token processing'
+    Description: 'UTF8DataInputJsonParser._reportInvalidToken() in FasterXML jackson-core builds the offending-token text for its error message by appending Java identifier characters to a StringBuilder in a loop that has no upper bound. Unlike the three sibling parser implementations, including UTF8StreamJsonParser, it never consults ErrorReportConfiguration.getMaxErrorTokenLength() (default 256). A malformed token supplied to a parser created through JsonFactory.createParser(DataInput) is therefore accumulated in full. No StreamReadConstraints setting mitigates this: maxDocumentLength cannot be applied to DataInput sources at all, and maxStringLength does not cover this path because the accumulation bypasses ReadConstrainedTextBuffer. The reporter measured a 20,000,109-character exception message from a 20-million-character malformed token on the DataInput path, against 367 characters for identical input on the InputStream path. Scaling the payload drives the StringBuilder, which also incurs byte-to-char expansion and internal array doubling, to many times the raw payload size and can trigger OutOfMemoryError for the whole JVM. UTF8DataInputJsonParser was introduced in 2.8.0 together with createParser(DataInput); releases before 2.8.0 do not contain the affected class.'
+    Severity: HIGH
+    CweIDs:
+    - CWE-400
+    - CWE-770
+    VendorSeverity:
+      ghsa: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-89425
+    - https://github.com/FasterXML/jackson-core
+    - https://github.com/FasterXML/jackson-core/commit/211cf2c5d91abbec38067f37efc1363cd4e88ee3
+    - https://github.com/FasterXML/jackson-core/pull/1698
+    - https://github.com/FasterXML/jackson-core/releases/tag/jackson-core-2.18.11
+    - https://github.com/FasterXML/jackson-core/releases/tag/jackson-core-3.2.3
+    - https://github.com/FasterXML/jackson-core/security/advisories/GHSA-7hhh-6rmp-j9qf
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-89425
+    - https://www.cve.org/CVERecord?id=CVE-2026-89425
+    PublishedDate: '2026-09-23T03:17:04.357Z'
+    LastModifiedDate: '2026-09-24T20:43:32.537Z'
   - VulnerabilityID: CVE-2026-68497
     VendorIDs:
     - GHSA-q4xh-88c3-wmh7
@@ -8967,18 +10551,23 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:fea6782e2c67f04cd1e6cb4e380da8ea7edab27041590f092509fb665d7ca86a
-    Title: TypeDeserializerBase._findDeserializer() in FasterXML jackson-databind ...
+    Title: 'jackson-databind: com.fasterxml.jackson/jackson-core: jackson-databind: Denial of Service via unbounded cache growth in TypeDeserializerBase'
     Description: TypeDeserializerBase._findDeserializer() in FasterXML jackson-databind caches the resolved deserializer under the raw, attacker-supplied type ID. When name-based polymorphism is configured with a fallback, for example @JsonTypeInfo(use = Id.NAME, defaultImpl = ...), every distinct unrecognized type ID resolves to the same fallback deserializer but is retained as its own key in the _deserializers map. That map has no configurable bound and lives for the lifetime of the type deserializer, so an attacker who can repeatedly supply fresh unknown type IDs causes monotonic memory retention across requests. The reporter observed 10,000 retained entries from 10,000 distinct unknown IDs, against a single entry for a control that repeated one unknown ID the same number of times, isolating attacker-controlled key cardinality from request volume. Exploitation requires an application that enables name-based polymorphism with a defaultImpl or equivalent fallback, accepts attacker-influenced type IDs, and reuses a long-lived ObjectMapper across requests. The fix stops caching fallback resolutions for unrecognized IDs and bounds both the number of cached entries and the length of a cacheable type ID.
     Severity: HIGH
     CweIDs:
     - CWE-400
     VendorSeverity:
       ghsa: 3
+      redhat: 3
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-91776
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/2870d1d6dc1b7e1c07ee11dd5b04ab71cddbb577
     - https://github.com/FasterXML/jackson-databind/issues/6203
@@ -8989,6 +10578,7 @@
     - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.2.3
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-wv8q-qhhj-9h54
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91776
+    - https://www.cve.org/CVERecord?id=CVE-2026-91776
     PublishedDate: '2026-09-23T03:17:04.62Z'
     LastModifiedDate: '2026-09-24T20:43:32.537Z'
   - VulnerabilityID: CVE-2026-91777
