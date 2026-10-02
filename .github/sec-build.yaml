@@ -1760,7 +1760,8 @@
       PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3ubuntu0.5?arch=amd64&distro=ubuntu-26.04
       UID: de80eb45e66fdf03
     InstalledVersion: 1.21.2-3ubuntu0.5
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
       DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
@@ -1782,6 +1783,7 @@
     - https://github.com/strukturag/libheif/commit/21893e8f66c8b79363ca2809391b07d35e1a95ec
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-24wx-9w62-c96w
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84384
     PublishedDate: '2026-09-18T16:17:11.9Z'
     LastModifiedDate: '2026-09-18T18:17:16.907Z'
@@ -1792,7 +1794,8 @@
       PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3ubuntu0.5?arch=amd64&distro=ubuntu-26.04
       UID: de80eb45e66fdf03
     InstalledVersion: 1.21.2-3ubuntu0.5
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
       DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
@@ -1814,6 +1817,7 @@
     - https://github.com/strukturag/libheif/commit/3a7a69ae325f652e48c026b8241ab25bedf44d9b
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-xw34-mjcp-jqh8
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84446
     PublishedDate: '2026-09-18T16:17:12.513Z'
     LastModifiedDate: '2026-09-21T21:17:13.683Z'
@@ -1824,7 +1828,8 @@
       PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3ubuntu0.5?arch=amd64&distro=ubuntu-26.04
       UID: de80eb45e66fdf03
     InstalledVersion: 1.21.2-3ubuntu0.5
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
       DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
@@ -1846,6 +1851,7 @@
     - https://github.com/strukturag/libheif/commit/30b52a4e829efe0ee6d7208e8500b99f664af5e9
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-x8xm-cm2c-cfc8
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84447
     PublishedDate: '2026-09-18T16:17:12.677Z'
     LastModifiedDate: '2026-09-18T18:17:17.017Z'
@@ -1856,7 +1862,8 @@
       PURL: pkg:deb/ubuntu/libheif-plugin-aomdec@1.21.2-3ubuntu0.5?arch=amd64&distro=ubuntu-26.04
       UID: de80eb45e66fdf03
     InstalledVersion: 1.21.2-3ubuntu0.5
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
       DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
@@ -1879,6 +1886,7 @@
     - https://github.com/strukturag/libheif/commit/646d85fbf5bd18fc3cdc516e915e59072de2d510
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-p58j-h3vm-3fp5
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84448
     PublishedDate: '2026-09-18T16:17:12.84Z'
     LastModifiedDate: '2026-09-24T21:18:55.407Z'
@@ -1889,7 +1897,8 @@
       PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3ubuntu0.5?arch=amd64&distro=ubuntu-26.04
       UID: 33d06468ec176ab3
     InstalledVersion: 1.21.2-3ubuntu0.5
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
       DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
@@ -1911,6 +1920,7 @@
     - https://github.com/strukturag/libheif/commit/21893e8f66c8b79363ca2809391b07d35e1a95ec
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-24wx-9w62-c96w
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84384
     PublishedDate: '2026-09-18T16:17:11.9Z'
     LastModifiedDate: '2026-09-18T18:17:16.907Z'
@@ -1921,7 +1931,8 @@
       PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3ubuntu0.5?arch=amd64&distro=ubuntu-26.04
       UID: 33d06468ec176ab3
     InstalledVersion: 1.21.2-3ubuntu0.5
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
       DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
@@ -1943,6 +1954,7 @@
     - https://github.com/strukturag/libheif/commit/3a7a69ae325f652e48c026b8241ab25bedf44d9b
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-xw34-mjcp-jqh8
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84446
     PublishedDate: '2026-09-18T16:17:12.513Z'
     LastModifiedDate: '2026-09-21T21:17:13.683Z'
@@ -1953,7 +1965,8 @@
       PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3ubuntu0.5?arch=amd64&distro=ubuntu-26.04
       UID: 33d06468ec176ab3
     InstalledVersion: 1.21.2-3ubuntu0.5
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
       DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
@@ -1975,6 +1988,7 @@
     - https://github.com/strukturag/libheif/commit/30b52a4e829efe0ee6d7208e8500b99f664af5e9
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-x8xm-cm2c-cfc8
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84447
     PublishedDate: '2026-09-18T16:17:12.677Z'
     LastModifiedDate: '2026-09-18T18:17:17.017Z'
@@ -1985,7 +1999,8 @@
       PURL: pkg:deb/ubuntu/libheif-plugin-aomenc@1.21.2-3ubuntu0.5?arch=amd64&distro=ubuntu-26.04
       UID: 33d06468ec176ab3
     InstalledVersion: 1.21.2-3ubuntu0.5
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
       DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
@@ -2008,6 +2023,7 @@
     - https://github.com/strukturag/libheif/commit/646d85fbf5bd18fc3cdc516e915e59072de2d510
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-p58j-h3vm-3fp5
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84448
     PublishedDate: '2026-09-18T16:17:12.84Z'
     LastModifiedDate: '2026-09-24T21:18:55.407Z'
@@ -2018,7 +2034,8 @@
       PURL: pkg:deb/ubuntu/libheif1@1.21.2-3ubuntu0.5?arch=amd64&distro=ubuntu-26.04
       UID: aad234c6774dd2de
     InstalledVersion: 1.21.2-3ubuntu0.5
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
       DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
@@ -2040,6 +2057,7 @@
     - https://github.com/strukturag/libheif/commit/21893e8f66c8b79363ca2809391b07d35e1a95ec
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-24wx-9w62-c96w
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84384
     PublishedDate: '2026-09-18T16:17:11.9Z'
     LastModifiedDate: '2026-09-18T18:17:16.907Z'
@@ -2050,7 +2068,8 @@
       PURL: pkg:deb/ubuntu/libheif1@1.21.2-3ubuntu0.5?arch=amd64&distro=ubuntu-26.04
       UID: aad234c6774dd2de
     InstalledVersion: 1.21.2-3ubuntu0.5
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
       DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
@@ -2072,6 +2091,7 @@
     - https://github.com/strukturag/libheif/commit/3a7a69ae325f652e48c026b8241ab25bedf44d9b
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-xw34-mjcp-jqh8
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84446
     PublishedDate: '2026-09-18T16:17:12.513Z'
     LastModifiedDate: '2026-09-21T21:17:13.683Z'
@@ -2082,7 +2102,8 @@
       PURL: pkg:deb/ubuntu/libheif1@1.21.2-3ubuntu0.5?arch=amd64&distro=ubuntu-26.04
       UID: aad234c6774dd2de
     InstalledVersion: 1.21.2-3ubuntu0.5
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
       DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
@@ -2104,6 +2125,7 @@
     - https://github.com/strukturag/libheif/commit/30b52a4e829efe0ee6d7208e8500b99f664af5e9
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-x8xm-cm2c-cfc8
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84447
     PublishedDate: '2026-09-18T16:17:12.677Z'
     LastModifiedDate: '2026-09-18T18:17:17.017Z'
@@ -2114,7 +2136,8 @@
       PURL: pkg:deb/ubuntu/libheif1@1.21.2-3ubuntu0.5?arch=amd64&distro=ubuntu-26.04
       UID: aad234c6774dd2de
     InstalledVersion: 1.21.2-3ubuntu0.5
-    Status: affected
+    FixedVersion: 1.21.2-3ubuntu0.6
+    Status: fixed
     Layer:
       Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
       DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
@@ -2137,6 +2160,7 @@
     - https://github.com/strukturag/libheif/commit/646d85fbf5bd18fc3cdc516e915e59072de2d510
     - https://github.com/strukturag/libheif/releases/tag/v1.23.2
     - https://github.com/strukturag/libheif/security/advisories/GHSA-p58j-h3vm-3fp5
+    - https://ubuntu.com/security/notices/USN-8846-1
     - https://www.cve.org/CVERecord?id=CVE-2026-84448
     PublishedDate: '2026-09-18T16:17:12.84Z'
     LastModifiedDate: '2026-09-24T21:18:55.407Z'
@@ -2788,7 +2812,8 @@
       PURL: pkg:deb/ubuntu/libssl3t64@3.5.5-1ubuntu3.5?arch=amd64&distro=ubuntu-26.04
       UID: 74f80fcbcce3ad82
     InstalledVersion: 3.5.5-1ubuntu3.5
-    Status: affected
+    FixedVersion: 3.5.5-1ubuntu3.7
+    Status: fixed
     Layer:
       Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
       DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
@@ -2843,6 +2868,7 @@
     - https://github.com/openssl/openssl/commit/f42ae513bbda513b3c121d54834040ee4a0eae1a
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42772
     - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8861-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42772
     PublishedDate: '2026-09-29T16:17:07.64Z'
     LastModifiedDate: '2026-09-30T21:17:10.803Z'
@@ -2928,7 +2954,8 @@
       PURL: pkg:deb/ubuntu/libssl3t64@3.5.5-1ubuntu3.5?arch=amd64&distro=ubuntu-26.04
       UID: 74f80fcbcce3ad82
     InstalledVersion: 3.5.5-1ubuntu3.5
-    Status: affected
+    FixedVersion: 3.5.5-1ubuntu3.7
+    Status: fixed
     Layer:
       Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
       DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
@@ -2993,6 +3020,7 @@
     - https://github.com/openssl/openssl/commit/7127fb10888b49711c63128a09e524c0d2d5d0b2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-54873
     - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8861-1
     - https://www.cve.org/CVERecord?id=CVE-2026-54873
     PublishedDate: '2026-09-29T16:17:08.763Z'
     LastModifiedDate: '2026-09-30T21:17:13.18Z'
@@ -4295,7 +4323,8 @@
       PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3.5?arch=amd64&distro=ubuntu-26.04
       UID: 6c24167998129d
     InstalledVersion: 3.5.5-1ubuntu3.5
-    Status: affected
+    FixedVersion: 3.5.5-1ubuntu3.7
+    Status: fixed
     Layer:
       Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
       DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
@@ -4350,6 +4379,7 @@
     - https://github.com/openssl/openssl/commit/f42ae513bbda513b3c121d54834040ee4a0eae1a
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42772
     - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8861-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42772
     PublishedDate: '2026-09-29T16:17:07.64Z'
     LastModifiedDate: '2026-09-30T21:17:10.803Z'
@@ -4435,7 +4465,8 @@
       PURL: pkg:deb/ubuntu/openssl@3.5.5-1ubuntu3.5?arch=amd64&distro=ubuntu-26.04
       UID: 6c24167998129d
     InstalledVersion: 3.5.5-1ubuntu3.5
-    Status: affected
+    FixedVersion: 3.5.5-1ubuntu3.7
+    Status: fixed
     Layer:
       Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
       DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
@@ -4500,6 +4531,7 @@
     - https://github.com/openssl/openssl/commit/7127fb10888b49711c63128a09e524c0d2d5d0b2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-54873
     - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8861-1
     - https://www.cve.org/CVERecord?id=CVE-2026-54873
     PublishedDate: '2026-09-29T16:17:08.763Z'
     LastModifiedDate: '2026-09-30T21:17:13.18Z'
@@ -5294,7 +5326,8 @@
       PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu3.5?arch=amd64&distro=ubuntu-26.04
       UID: c3a89c1b147c7d7b
     InstalledVersion: 3.5.5-1ubuntu3.5
-    Status: affected
+    FixedVersion: 3.5.5-1ubuntu3.7
+    Status: fixed
     Layer:
       Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
       DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
@@ -5349,6 +5382,7 @@
     - https://github.com/openssl/openssl/commit/f42ae513bbda513b3c121d54834040ee4a0eae1a
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42772
     - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8861-1
     - https://www.cve.org/CVERecord?id=CVE-2026-42772
     PublishedDate: '2026-09-29T16:17:07.64Z'
     LastModifiedDate: '2026-09-30T21:17:10.803Z'
@@ -5434,7 +5468,8 @@
       PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.5-1ubuntu3.5?arch=amd64&distro=ubuntu-26.04
       UID: c3a89c1b147c7d7b
     InstalledVersion: 3.5.5-1ubuntu3.5
-    Status: affected
+    FixedVersion: 3.5.5-1ubuntu3.7
+    Status: fixed
     Layer:
       Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765dd21795db19c2defebb22
       DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80b9ac86f88a5c78eec099d
@@ -5499,6 +5534,7 @@
     - https://github.com/openssl/openssl/commit/7127fb10888b49711c63128a09e524c0d2d5d0b2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-54873
     - https://openssl-library.org/news/secadv/20260929.txt
+    - https://ubuntu.com/security/notices/USN-8861-1
     - https://www.cve.org/CVERecord?id=CVE-2026-54873
     PublishedDate: '2026-09-29T16:17:08.763Z'
     LastModifiedDate: '2026-09-30T21:17:13.18Z'
