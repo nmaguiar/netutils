@@ -2251,7 +2251,8 @@
 │                       │       │                  │       .5?arch=amd64&distro=ubuntu-26.04 
 │                       │       │                  ╰ UID : de80eb45e66fdf03 
 │                       │       ├ InstalledVersion: 1.21.2-3ubuntu0.5 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 1.21.2-3ubuntu0.6 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765
 │                       │       │                  │         dd21795db19c2defebb22 
 │                       │       │                  ╰ DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80
@@ -2288,7 +2289,8 @@
 │                       │       │                  │      .23.2 
 │                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
 │                       │       │                  │      ries/GHSA-24wx-9w62-c96w 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-84384 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8846-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-84384 
 │                       │       ├ PublishedDate   : 2026-09-18T16:17:11.9Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:16.907Z 
 │                       ├ [31]  ╭ VulnerabilityID : CVE-2026-84446 
@@ -2298,7 +2300,8 @@
 │                       │       │                  │       .5?arch=amd64&distro=ubuntu-26.04 
 │                       │       │                  ╰ UID : de80eb45e66fdf03 
 │                       │       ├ InstalledVersion: 1.21.2-3ubuntu0.5 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 1.21.2-3ubuntu0.6 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765
 │                       │       │                  │         dd21795db19c2defebb22 
 │                       │       │                  ╰ DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80
@@ -2336,7 +2339,8 @@
 │                       │       │                  │      .23.2 
 │                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
 │                       │       │                  │      ries/GHSA-xw34-mjcp-jqh8 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-84446 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8846-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-84446 
 │                       │       ├ PublishedDate   : 2026-09-18T16:17:12.513Z 
 │                       │       ╰ LastModifiedDate: 2026-09-21T21:17:13.683Z 
 │                       ├ [32]  ╭ VulnerabilityID : CVE-2026-84447 
@@ -2346,7 +2350,8 @@
 │                       │       │                  │       .5?arch=amd64&distro=ubuntu-26.04 
 │                       │       │                  ╰ UID : de80eb45e66fdf03 
 │                       │       ├ InstalledVersion: 1.21.2-3ubuntu0.5 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 1.21.2-3ubuntu0.6 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765
 │                       │       │                  │         dd21795db19c2defebb22 
 │                       │       │                  ╰ DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80
@@ -2375,7 +2380,8 @@
 │                       │       │                  │      .23.2 
 │                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
 │                       │       │                  │      ries/GHSA-x8xm-cm2c-cfc8 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-84447 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8846-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-84447 
 │                       │       ├ PublishedDate   : 2026-09-18T16:17:12.677Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:17.017Z 
 │                       ├ [33]  ╭ VulnerabilityID : CVE-2026-84448 
@@ -2385,7 +2391,8 @@
 │                       │       │                  │       .5?arch=amd64&distro=ubuntu-26.04 
 │                       │       │                  ╰ UID : de80eb45e66fdf03 
 │                       │       ├ InstalledVersion: 1.21.2-3ubuntu0.5 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 1.21.2-3ubuntu0.6 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765
 │                       │       │                  │         dd21795db19c2defebb22 
 │                       │       │                  ╰ DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80
@@ -2424,7 +2431,8 @@
 │                       │       │                  │      .23.2 
 │                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
 │                       │       │                  │      ries/GHSA-p58j-h3vm-3fp5 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-84448 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8846-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-84448 
 │                       │       ├ PublishedDate   : 2026-09-18T16:17:12.84Z 
 │                       │       ╰ LastModifiedDate: 2026-09-24T21:18:55.407Z 
 │                       ├ [34]  ╭ VulnerabilityID : CVE-2026-84384 
@@ -2434,7 +2442,8 @@
 │                       │       │                  │       .5?arch=amd64&distro=ubuntu-26.04 
 │                       │       │                  ╰ UID : 33d06468ec176ab3 
 │                       │       ├ InstalledVersion: 1.21.2-3ubuntu0.5 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 1.21.2-3ubuntu0.6 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765
 │                       │       │                  │         dd21795db19c2defebb22 
 │                       │       │                  ╰ DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80
@@ -2471,7 +2480,8 @@
 │                       │       │                  │      .23.2 
 │                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
 │                       │       │                  │      ries/GHSA-24wx-9w62-c96w 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-84384 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8846-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-84384 
 │                       │       ├ PublishedDate   : 2026-09-18T16:17:11.9Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:16.907Z 
 │                       ├ [35]  ╭ VulnerabilityID : CVE-2026-84446 
@@ -2481,7 +2491,8 @@
 │                       │       │                  │       .5?arch=amd64&distro=ubuntu-26.04 
 │                       │       │                  ╰ UID : 33d06468ec176ab3 
 │                       │       ├ InstalledVersion: 1.21.2-3ubuntu0.5 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 1.21.2-3ubuntu0.6 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765
 │                       │       │                  │         dd21795db19c2defebb22 
 │                       │       │                  ╰ DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80
@@ -2519,7 +2530,8 @@
 │                       │       │                  │      .23.2 
 │                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
 │                       │       │                  │      ries/GHSA-xw34-mjcp-jqh8 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-84446 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8846-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-84446 
 │                       │       ├ PublishedDate   : 2026-09-18T16:17:12.513Z 
 │                       │       ╰ LastModifiedDate: 2026-09-21T21:17:13.683Z 
 │                       ├ [36]  ╭ VulnerabilityID : CVE-2026-84447 
@@ -2529,7 +2541,8 @@
 │                       │       │                  │       .5?arch=amd64&distro=ubuntu-26.04 
 │                       │       │                  ╰ UID : 33d06468ec176ab3 
 │                       │       ├ InstalledVersion: 1.21.2-3ubuntu0.5 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 1.21.2-3ubuntu0.6 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765
 │                       │       │                  │         dd21795db19c2defebb22 
 │                       │       │                  ╰ DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80
@@ -2558,7 +2571,8 @@
 │                       │       │                  │      .23.2 
 │                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
 │                       │       │                  │      ries/GHSA-x8xm-cm2c-cfc8 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-84447 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8846-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-84447 
 │                       │       ├ PublishedDate   : 2026-09-18T16:17:12.677Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:17.017Z 
 │                       ├ [37]  ╭ VulnerabilityID : CVE-2026-84448 
@@ -2568,7 +2582,8 @@
 │                       │       │                  │       .5?arch=amd64&distro=ubuntu-26.04 
 │                       │       │                  ╰ UID : 33d06468ec176ab3 
 │                       │       ├ InstalledVersion: 1.21.2-3ubuntu0.5 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 1.21.2-3ubuntu0.6 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765
 │                       │       │                  │         dd21795db19c2defebb22 
 │                       │       │                  ╰ DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80
@@ -2607,7 +2622,8 @@
 │                       │       │                  │      .23.2 
 │                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
 │                       │       │                  │      ries/GHSA-p58j-h3vm-3fp5 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-84448 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8846-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-84448 
 │                       │       ├ PublishedDate   : 2026-09-18T16:17:12.84Z 
 │                       │       ╰ LastModifiedDate: 2026-09-24T21:18:55.407Z 
 │                       ├ [38]  ╭ VulnerabilityID : CVE-2026-84384 
@@ -2617,7 +2633,8 @@
 │                       │       │                  │       &distro=ubuntu-26.04 
 │                       │       │                  ╰ UID : aad234c6774dd2de 
 │                       │       ├ InstalledVersion: 1.21.2-3ubuntu0.5 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 1.21.2-3ubuntu0.6 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765
 │                       │       │                  │         dd21795db19c2defebb22 
 │                       │       │                  ╰ DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80
@@ -2654,7 +2671,8 @@
 │                       │       │                  │      .23.2 
 │                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
 │                       │       │                  │      ries/GHSA-24wx-9w62-c96w 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-84384 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8846-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-84384 
 │                       │       ├ PublishedDate   : 2026-09-18T16:17:11.9Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:16.907Z 
 │                       ├ [39]  ╭ VulnerabilityID : CVE-2026-84446 
@@ -2664,7 +2682,8 @@
 │                       │       │                  │       &distro=ubuntu-26.04 
 │                       │       │                  ╰ UID : aad234c6774dd2de 
 │                       │       ├ InstalledVersion: 1.21.2-3ubuntu0.5 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 1.21.2-3ubuntu0.6 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765
 │                       │       │                  │         dd21795db19c2defebb22 
 │                       │       │                  ╰ DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80
@@ -2702,7 +2721,8 @@
 │                       │       │                  │      .23.2 
 │                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
 │                       │       │                  │      ries/GHSA-xw34-mjcp-jqh8 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-84446 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8846-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-84446 
 │                       │       ├ PublishedDate   : 2026-09-18T16:17:12.513Z 
 │                       │       ╰ LastModifiedDate: 2026-09-21T21:17:13.683Z 
 │                       ├ [40]  ╭ VulnerabilityID : CVE-2026-84447 
@@ -2712,7 +2732,8 @@
 │                       │       │                  │       &distro=ubuntu-26.04 
 │                       │       │                  ╰ UID : aad234c6774dd2de 
 │                       │       ├ InstalledVersion: 1.21.2-3ubuntu0.5 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 1.21.2-3ubuntu0.6 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765
 │                       │       │                  │         dd21795db19c2defebb22 
 │                       │       │                  ╰ DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80
@@ -2741,7 +2762,8 @@
 │                       │       │                  │      .23.2 
 │                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
 │                       │       │                  │      ries/GHSA-x8xm-cm2c-cfc8 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-84447 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8846-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-84447 
 │                       │       ├ PublishedDate   : 2026-09-18T16:17:12.677Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:17.017Z 
 │                       ├ [41]  ╭ VulnerabilityID : CVE-2026-84448 
@@ -2751,7 +2773,8 @@
 │                       │       │                  │       &distro=ubuntu-26.04 
 │                       │       │                  ╰ UID : aad234c6774dd2de 
 │                       │       ├ InstalledVersion: 1.21.2-3ubuntu0.5 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 1.21.2-3ubuntu0.6 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765
 │                       │       │                  │         dd21795db19c2defebb22 
 │                       │       │                  ╰ DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80
@@ -2790,7 +2813,8 @@
 │                       │       │                  │      .23.2 
 │                       │       │                  ├ [2]: https://github.com/strukturag/libheif/security/adviso
 │                       │       │                  │      ries/GHSA-p58j-h3vm-3fp5 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-84448 
+│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8846-1 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-84448 
 │                       │       ├ PublishedDate   : 2026-09-18T16:17:12.84Z 
 │                       │       ╰ LastModifiedDate: 2026-09-24T21:18:55.407Z 
 │                       ├ [42]  ╭ VulnerabilityID : CVE-2026-10846 
@@ -3541,7 +3565,8 @@
 │                       │       │                  │       4&distro=ubuntu-26.04 
 │                       │       │                  ╰ UID : 74f80fcbcce3ad82 
 │                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.5 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765
 │                       │       │                  │         dd21795db19c2defebb22 
 │                       │       │                  ╰ DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80
@@ -3605,7 +3630,8 @@
 │                       │       │                  │      a513b3c121d54834040ee4a0eae1a 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-42772 
 │                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260929.txt 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-42772 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8861-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-42772 
 │                       │       ├ PublishedDate   : 2026-09-29T16:17:07.64Z 
 │                       │       ╰ LastModifiedDate: 2026-09-30T21:17:10.803Z 
 │                       ├ [55]  ╭ VulnerabilityID : CVE-2026-54872 
@@ -3701,7 +3727,8 @@
 │                       │       │                  │       4&distro=ubuntu-26.04 
 │                       │       │                  ╰ UID : 74f80fcbcce3ad82 
 │                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.5 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765
 │                       │       │                  │         dd21795db19c2defebb22 
 │                       │       │                  ╰ DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80
@@ -3785,7 +3812,8 @@
 │                       │       │                  │      b49711c63128a09e524c0d2d5d0b2 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-54873 
 │                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260929.txt 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-54873 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8861-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-54873 
 │                       │       ├ PublishedDate   : 2026-09-29T16:17:08.763Z 
 │                       │       ╰ LastModifiedDate: 2026-09-30T21:17:13.18Z 
 │                       ├ [57]  ╭ VulnerabilityID : CVE-2026-54875 
@@ -5332,7 +5360,8 @@
 │                       │       │                  │       istro=ubuntu-26.04 
 │                       │       │                  ╰ UID : 6c24167998129d 
 │                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.5 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765
 │                       │       │                  │         dd21795db19c2defebb22 
 │                       │       │                  ╰ DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80
@@ -5396,7 +5425,8 @@
 │                       │       │                  │      a513b3c121d54834040ee4a0eae1a 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-42772 
 │                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260929.txt 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-42772 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8861-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-42772 
 │                       │       ├ PublishedDate   : 2026-09-29T16:17:07.64Z 
 │                       │       ╰ LastModifiedDate: 2026-09-30T21:17:10.803Z 
 │                       ├ [79]  ╭ VulnerabilityID : CVE-2026-54872 
@@ -5492,7 +5522,8 @@
 │                       │       │                  │       istro=ubuntu-26.04 
 │                       │       │                  ╰ UID : 6c24167998129d 
 │                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.5 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765
 │                       │       │                  │         dd21795db19c2defebb22 
 │                       │       │                  ╰ DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80
@@ -5576,7 +5607,8 @@
 │                       │       │                  │      b49711c63128a09e524c0d2d5d0b2 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-54873 
 │                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260929.txt 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-54873 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8861-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-54873 
 │                       │       ├ PublishedDate   : 2026-09-29T16:17:08.763Z 
 │                       │       ╰ LastModifiedDate: 2026-09-30T21:17:13.18Z 
 │                       ├ [81]  ╭ VulnerabilityID : CVE-2026-54875 
@@ -6539,7 +6571,8 @@
 │                       │       │                  │       3.5?arch=amd64&distro=ubuntu-26.04 
 │                       │       │                  ╰ UID : c3a89c1b147c7d7b 
 │                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.5 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765
 │                       │       │                  │         dd21795db19c2defebb22 
 │                       │       │                  ╰ DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80
@@ -6603,7 +6636,8 @@
 │                       │       │                  │      a513b3c121d54834040ee4a0eae1a 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-42772 
 │                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260929.txt 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-42772 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8861-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-42772 
 │                       │       ├ PublishedDate   : 2026-09-29T16:17:07.64Z 
 │                       │       ╰ LastModifiedDate: 2026-09-30T21:17:10.803Z 
 │                       ├ [92]  ╭ VulnerabilityID : CVE-2026-54872 
@@ -6699,7 +6733,8 @@
 │                       │       │                  │       3.5?arch=amd64&distro=ubuntu-26.04 
 │                       │       │                  ╰ UID : c3a89c1b147c7d7b 
 │                       │       ├ InstalledVersion: 3.5.5-1ubuntu3.5 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 3.5.5-1ubuntu3.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:df3ee8fa153f7a9ed09535f98f1f339d84b342d3765
 │                       │       │                  │         dd21795db19c2defebb22 
 │                       │       │                  ╰ DiffID: sha256:6ddaeb8cb3d5df32310f5558491b206bd2fe4a25c80
@@ -6783,7 +6818,8 @@
 │                       │       │                  │      b49711c63128a09e524c0d2d5d0b2 
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-54873 
 │                       │       │                  ├ [6]: https://openssl-library.org/news/secadv/20260929.txt 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-54873 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-8861-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-54873 
 │                       │       ├ PublishedDate   : 2026-09-29T16:17:08.763Z 
 │                       │       ╰ LastModifiedDate: 2026-09-30T21:17:13.18Z 
 │                       ├ [94]  ╭ VulnerabilityID : CVE-2026-54875 
