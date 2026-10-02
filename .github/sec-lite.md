@@ -3092,7 +3092,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
 │                       │       │                           ╰ V3Score : 7.5 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:72448 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:72663 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-66046 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2538967 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2517901 
@@ -3102,11 +3102,11 @@
 │                       │       │                  │       026-66046 
 │                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-93990 
-│                       │       │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2026-72448.html 
-│                       │       │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:72448 
+│                       │       │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-72663.html 
+│                       │       │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:72663 
 │                       │       │                  ├ [10]: https://github.com/libexpat/libexpat/pull/1321 
 │                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2026-66046.html 
-│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2026-72663.html 
+│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2026-74001.html 
 │                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-66046 
 │                       │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-8813-1 
 │                       │       │                  ├ [15]: https://www.cve.org/CVERecord?id=CVE-2026-66046 
@@ -3293,7 +3293,7 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 7.5 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:72448 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:72663 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-93990 
 │                       │       │                  ├ [2] : https://blog.hartwork.org/posts/expat-2-8-5-released/ 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2538967 
@@ -3304,8 +3304,8 @@
 │                       │       │                  │       026-66046 
 │                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
 │                       │       │                  │       026-93990 
-│                       │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2026-72448.html 
-│                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:72448 
+│                       │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2026-72663.html 
+│                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:72663 
 │                       │       │                  ├ [11]: https://github.com/libexpat/libexpat 
 │                       │       │                  ├ [12]: https://github.com/libexpat/libexpat/commit/ff6e1d7e
 │                       │       │                  │       750bbe245178f51a47a965dc8342861a 
@@ -3313,7 +3313,7 @@
 │                       │       │                  ├ [14]: https://github.com/libexpat/libexpat/releases/tag/R_
 │                       │       │                  │       2_8_5 
 │                       │       │                  ├ [15]: https://linux.oracle.com/cve/CVE-2026-93990.html 
-│                       │       │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2026-72663.html 
+│                       │       │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2026-74001.html 
 │                       │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2026-93990 
 │                       │       │                  ├ [18]: https://www.cve.org/CVERecord?id=CVE-2026-93990 
 │                       │       │                  ╰ [19]: https://www.vulncheck.com/advisories/expat-through-2
@@ -3549,19 +3549,26 @@
 │                       │       ├ CweIDs           ╭ [0]: CWE-125 
 │                       │       │                  ├ [1]: CWE-129 
 │                       │       │                  ╰ [2]: CWE-787 
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
-│                       │       │                  ├ azure : 3 
-│                       │       │                  ├ redhat: 3 
-│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ VendorSeverity   ╭ alma       : 3 
+│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ azure      : 3 
+│                       │       │                  ├ oracle-oval: 3 
+│                       │       │                  ├ redhat     : 3 
+│                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:
 │                       │       │                           │           H/A:H 
 │                       │       │                           ╰ V3Score : 8.7 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-0799 
-│                       │       │                  ├ [1]: https://github.com/the-tcpdump-group/libpcap/commit/4
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:74442 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-0799 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/2529093 
+│                       │       │                  ├ [3]: https://errata.almalinux.org/10/ALSA-2026-74442.html 
+│                       │       │                  ├ [4]: https://github.com/the-tcpdump-group/libpcap/commit/4
 │                       │       │                  │      8e8960a7108e9e828f9d7bdc7e97bdab841aec7 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-0799 
-│                       │       │                  ├ [3]: https://ubuntu.com/security/notices/USN-8824-1 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-0799 
+│                       │       │                  ├ [5]: https://linux.oracle.com/cve/CVE-2026-0799.html 
+│                       │       │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2026-74442.html 
+│                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-0799 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-8824-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-0799 
 │                       │       ├ PublishedDate   : 2026-09-05T19:16:55.32Z 
 │                       │       ╰ LastModifiedDate: 2026-09-08T19:20:25.117Z 
 │                       ├ [57]  ╭ VulnerabilityID : CVE-2026-31911 
@@ -3731,92 +3738,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-6554 
 │                       │       ├ PublishedDate   : 2026-09-05T19:16:56.067Z 
 │                       │       ╰ LastModifiedDate: 2026-09-08T19:20:25.117Z 
-│                       ├ [61]  ╭ VulnerabilityID : CVE-2026-59843 
-│                       │       ├ PkgID           : libssh@0.12.1-r0 
-│                       │       ├ PkgName         : libssh 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh@0.12.1-r0?arch=x86_64&distro=3
-│                       │       │                  │       .24.0 
-│                       │       │                  ╰ UID : 79e204fb33668f29 
-│                       │       ├ InstalledVersion: 0.12.1-r0 
-│                       │       ├ FixedVersion    : 0.12.2-r0 
-│                       │       ├ Status          : fixed 
-│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
-│                       │       │                  │         25b0eb169f0c02b0a6e9f 
-│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
-│                       │       │                            011b652f34a62a402adc5 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59843 
-│                       │       ├ DataSource       ╭ ID  : alpine 
-│                       │       │                  ├ Name: Alpine Secdb 
-│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │       ├ Fingerprint     : sha256:585521a63de0f82a8b7a72094fb286f37d6836844ef63dde260d
-│                       │       │                   6fe6777641f3 
-│                       │       ├ Title           : libssh: libssh: denial of service via zero advertised
-│                       │       │                   channel packet size 
-│                       │       ├ Description     : A flaw was found in libssh. A remote authenticated peer can
-│                       │       │                    advertise a zero maximum packet size in
-│                       │       │                   SSH_MSG_CHANNEL_OPEN, causing later channel writes to loop
-│                       │       │                   indefinitely and consume CPU, leading to denial of
-│                       │       │                   service. 
-│                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CweIDs           ╭ [0]: CWE-835 
-│                       │       │                  ╰ [1]: CWE-400 
-│                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ azure      : 2 
-│                       │       │                  ├ oracle-oval: 2 
-│                       │       │                  ├ redhat     : 2 
-│                       │       │                  ├ rocky      : 2 
-│                       │       │                  ╰ ubuntu     : 2 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 6.5 
-│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42922 
-│                       │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:55855 
-│                       │       │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:62217 
-│                       │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:62218 
-│                       │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2026-59843 
-│                       │       │                  ├ [5] : https://bugzilla.redhat.com/2498176 
-│                       │       │                  ├ [6] : https://bugzilla.redhat.com/2498177 
-│                       │       │                  ├ [7] : https://bugzilla.redhat.com/2498178 
-│                       │       │                  ├ [8] : https://bugzilla.redhat.com/2498179 
-│                       │       │                  ├ [9] : https://bugzilla.redhat.com/2498180 
-│                       │       │                  ├ [10]: https://bugzilla.redhat.com/2498181 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/2498183 
-│                       │       │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2498176 
-│                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2498177 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2498178 
-│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2498179 
-│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2498180 
-│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2498181 
-│                       │       │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2498183 
-│                       │       │                  ├ [19]: https://creativecommons.org/licenses/by/4.0/ 
-│                       │       │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-59843 
-│                       │       │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-59844 
-│                       │       │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-59845 
-│                       │       │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-59846 
-│                       │       │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-59847 
-│                       │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-59848 
-│                       │       │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
-│                       │       │                  │       026-59850 
-│                       │       │                  ├ [27]: https://errata.almalinux.org/9/ALSA-2026-62217.html 
-│                       │       │                  ├ [28]: https://errata.rockylinux.org/RLSA-2026:62217 
-│                       │       │                  ├ [29]: https://linux.oracle.com/cve/CVE-2026-59843.html 
-│                       │       │                  ├ [30]: https://linux.oracle.com/errata/ELSA-2026-62218-0.html 
-│                       │       │                  ├ [31]: https://nvd.nist.gov/vuln/detail/CVE-2026-59843 
-│                       │       │                  ├ [32]: https://ubuntu.com/security/notices/USN-8699-1 
-│                       │       │                  ├ [33]: https://www.cve.org/CVERecord?id=CVE-2026-59843 
-│                       │       │                  ├ [34]: https://www.libssh.org/2026/07/21/libssh-0-12-1-and-
-│                       │       │                  │       0-11-5-security-releases/ 
-│                       │       │                  ╰ [35]: https://www.libssh.org/security/advisories/CVE-2026-
-│                       │       │                          59843.txt 
-│                       │       ├ PublishedDate   : 2026-07-21T12:18:57.86Z 
-│                       │       ╰ LastModifiedDate: 2026-09-01T21:18:34.337Z 
-│                       ├ [62]  ╭ VulnerabilityID : CVE-2026-14456 
+│                       ├ [61]  ╭ VulnerabilityID : CVE-2026-14456 
 │                       │       ├ PkgID           : libssl3@3.5.7-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.7-r0?arch=x86_64&distro=3
@@ -3954,7 +3876,7 @@
 │                       │       │                  ╰ [41]: https://www.cve.org/CVERecord?id=CVE-2026-14456 
 │                       │       ├ PublishedDate   : 2026-08-13T15:19:31.82Z 
 │                       │       ╰ LastModifiedDate: 2026-08-28T19:46:29.323Z 
-│                       ├ [63]  ╭ VulnerabilityID : CVE-2026-18798 
+│                       ├ [62]  ╭ VulnerabilityID : CVE-2026-18798 
 │                       │       ├ PkgID           : libssl3@3.5.7-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.7-r0?arch=x86_64&distro=3
@@ -4084,7 +4006,7 @@
 │                       │       │                  ╰ [40]: https://www.cve.org/CVERecord?id=CVE-2026-18798 
 │                       │       ├ PublishedDate   : 2026-08-25T13:17:49.813Z 
 │                       │       ╰ LastModifiedDate: 2026-09-23T16:07:09.323Z 
-│                       ├ [64]  ╭ VulnerabilityID : CVE-2026-63072 
+│                       ├ [63]  ╭ VulnerabilityID : CVE-2026-63072 
 │                       │       ├ PkgID           : libssl3@3.5.7-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.7-r0?arch=x86_64&distro=3
@@ -4221,7 +4143,7 @@
 │                       │       │                  ╰ [43]: https://www.cve.org/CVERecord?id=CVE-2026-63072 
 │                       │       ├ PublishedDate   : 2026-08-25T13:19:26.01Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T21:16:34.287Z 
-│                       ├ [65]  ╭ VulnerabilityID : CVE-2026-63076 
+│                       ├ [64]  ╭ VulnerabilityID : CVE-2026-63076 
 │                       │       ├ PkgID           : libssl3@3.5.7-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.7-r0?arch=x86_64&distro=3
@@ -4367,7 +4289,7 @@
 │                       │       │                  ╰ [43]: https://www.cve.org/CVERecord?id=CVE-2026-63076 
 │                       │       ├ PublishedDate   : 2026-08-25T13:19:26.543Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T21:17:12.46Z 
-│                       ├ [66]  ╭ VulnerabilityID : CVE-2026-14457 
+│                       ├ [65]  ╭ VulnerabilityID : CVE-2026-14457 
 │                       │       ├ PkgID           : libssl3@3.5.7-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.7-r0?arch=x86_64&distro=3
@@ -4494,7 +4416,7 @@
 │                       │       │                  ╰ [41]: https://www.cve.org/CVERecord?id=CVE-2026-14457 
 │                       │       ├ PublishedDate   : 2026-08-25T13:17:49.533Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T21:14:35.873Z 
-│                       ├ [67]  ╭ VulnerabilityID : CVE-2026-54874 
+│                       ├ [66]  ╭ VulnerabilityID : CVE-2026-54874 
 │                       │       ├ PkgID           : libssl3@3.5.7-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.7-r0?arch=x86_64&distro=3
@@ -4661,7 +4583,7 @@
 │                       │       │                  ╰ [43]: https://www.cve.org/CVERecord?id=CVE-2026-54874 
 │                       │       ├ PublishedDate   : 2026-08-25T13:19:24.033Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T21:16:28.067Z 
-│                       ├ [68]  ╭ VulnerabilityID : CVE-2026-63073 
+│                       ├ [67]  ╭ VulnerabilityID : CVE-2026-63073 
 │                       │       ├ PkgID           : libssl3@3.5.7-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.7-r0?arch=x86_64&distro=3
@@ -4794,7 +4716,7 @@
 │                       │       │                  ╰ [41]: https://www.cve.org/CVERecord?id=CVE-2026-63073 
 │                       │       ├ PublishedDate   : 2026-08-25T13:19:26.147Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T21:16:45.633Z 
-│                       ├ [69]  ╭ VulnerabilityID : CVE-2026-63074 
+│                       ├ [68]  ╭ VulnerabilityID : CVE-2026-63074 
 │                       │       ├ PkgID           : libssl3@3.5.7-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.7-r0?arch=x86_64&distro=3
@@ -4927,7 +4849,7 @@
 │                       │       │                  ╰ [43]: https://www.cve.org/CVERecord?id=CVE-2026-63074 
 │                       │       ├ PublishedDate   : 2026-08-25T13:19:26.283Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T21:16:58.127Z 
-│                       ├ [70]  ╭ VulnerabilityID : CVE-2026-63075 
+│                       ├ [69]  ╭ VulnerabilityID : CVE-2026-63075 
 │                       │       ├ PkgID           : libssl3@3.5.7-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.7-r0?arch=x86_64&distro=3
@@ -5064,7 +4986,7 @@
 │                       │       │                  ╰ [41]: https://www.cve.org/CVERecord?id=CVE-2026-63075 
 │                       │       ├ PublishedDate   : 2026-08-25T13:19:26.413Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T21:17:05.403Z 
-│                       ├ [71]  ╭ VulnerabilityID : CVE-2026-75803 
+│                       ├ [70]  ╭ VulnerabilityID : CVE-2026-75803 
 │                       │       ├ PkgID           : libssl3@3.5.7-r0 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.5.7-r0?arch=x86_64&distro=3
@@ -5144,7 +5066,7 @@
 │                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-75803 
 │                       │       ├ PublishedDate   : 2026-08-25T13:19:29.57Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T21:17:17.823Z 
-│                       ├ [72]  ╭ VulnerabilityID : CVE-2026-14456 
+│                       ├ [71]  ╭ VulnerabilityID : CVE-2026-14456 
 │                       │       ├ PkgID           : openssl@3.5.7-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.7-r0?arch=x86_64&distro=3
@@ -5282,7 +5204,7 @@
 │                       │       │                  ╰ [41]: https://www.cve.org/CVERecord?id=CVE-2026-14456 
 │                       │       ├ PublishedDate   : 2026-08-13T15:19:31.82Z 
 │                       │       ╰ LastModifiedDate: 2026-08-28T19:46:29.323Z 
-│                       ├ [73]  ╭ VulnerabilityID : CVE-2026-18798 
+│                       ├ [72]  ╭ VulnerabilityID : CVE-2026-18798 
 │                       │       ├ PkgID           : openssl@3.5.7-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.7-r0?arch=x86_64&distro=3
@@ -5412,7 +5334,7 @@
 │                       │       │                  ╰ [40]: https://www.cve.org/CVERecord?id=CVE-2026-18798 
 │                       │       ├ PublishedDate   : 2026-08-25T13:17:49.813Z 
 │                       │       ╰ LastModifiedDate: 2026-09-23T16:07:09.323Z 
-│                       ├ [74]  ╭ VulnerabilityID : CVE-2026-63072 
+│                       ├ [73]  ╭ VulnerabilityID : CVE-2026-63072 
 │                       │       ├ PkgID           : openssl@3.5.7-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.7-r0?arch=x86_64&distro=3
@@ -5549,7 +5471,7 @@
 │                       │       │                  ╰ [43]: https://www.cve.org/CVERecord?id=CVE-2026-63072 
 │                       │       ├ PublishedDate   : 2026-08-25T13:19:26.01Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T21:16:34.287Z 
-│                       ├ [75]  ╭ VulnerabilityID : CVE-2026-63076 
+│                       ├ [74]  ╭ VulnerabilityID : CVE-2026-63076 
 │                       │       ├ PkgID           : openssl@3.5.7-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.7-r0?arch=x86_64&distro=3
@@ -5695,7 +5617,7 @@
 │                       │       │                  ╰ [43]: https://www.cve.org/CVERecord?id=CVE-2026-63076 
 │                       │       ├ PublishedDate   : 2026-08-25T13:19:26.543Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T21:17:12.46Z 
-│                       ├ [76]  ╭ VulnerabilityID : CVE-2026-14457 
+│                       ├ [75]  ╭ VulnerabilityID : CVE-2026-14457 
 │                       │       ├ PkgID           : openssl@3.5.7-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.7-r0?arch=x86_64&distro=3
@@ -5822,7 +5744,7 @@
 │                       │       │                  ╰ [41]: https://www.cve.org/CVERecord?id=CVE-2026-14457 
 │                       │       ├ PublishedDate   : 2026-08-25T13:17:49.533Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T21:14:35.873Z 
-│                       ├ [77]  ╭ VulnerabilityID : CVE-2026-54874 
+│                       ├ [76]  ╭ VulnerabilityID : CVE-2026-54874 
 │                       │       ├ PkgID           : openssl@3.5.7-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.7-r0?arch=x86_64&distro=3
@@ -5989,7 +5911,7 @@
 │                       │       │                  ╰ [43]: https://www.cve.org/CVERecord?id=CVE-2026-54874 
 │                       │       ├ PublishedDate   : 2026-08-25T13:19:24.033Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T21:16:28.067Z 
-│                       ├ [78]  ╭ VulnerabilityID : CVE-2026-63073 
+│                       ├ [77]  ╭ VulnerabilityID : CVE-2026-63073 
 │                       │       ├ PkgID           : openssl@3.5.7-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.7-r0?arch=x86_64&distro=3
@@ -6122,7 +6044,7 @@
 │                       │       │                  ╰ [41]: https://www.cve.org/CVERecord?id=CVE-2026-63073 
 │                       │       ├ PublishedDate   : 2026-08-25T13:19:26.147Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T21:16:45.633Z 
-│                       ├ [79]  ╭ VulnerabilityID : CVE-2026-63074 
+│                       ├ [78]  ╭ VulnerabilityID : CVE-2026-63074 
 │                       │       ├ PkgID           : openssl@3.5.7-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.7-r0?arch=x86_64&distro=3
@@ -6255,7 +6177,7 @@
 │                       │       │                  ╰ [43]: https://www.cve.org/CVERecord?id=CVE-2026-63074 
 │                       │       ├ PublishedDate   : 2026-08-25T13:19:26.283Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T21:16:58.127Z 
-│                       ├ [80]  ╭ VulnerabilityID : CVE-2026-63075 
+│                       ├ [79]  ╭ VulnerabilityID : CVE-2026-63075 
 │                       │       ├ PkgID           : openssl@3.5.7-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.7-r0?arch=x86_64&distro=3
@@ -6392,7 +6314,7 @@
 │                       │       │                  ╰ [41]: https://www.cve.org/CVERecord?id=CVE-2026-63075 
 │                       │       ├ PublishedDate   : 2026-08-25T13:19:26.413Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T21:17:05.403Z 
-│                       ├ [81]  ╭ VulnerabilityID : CVE-2026-75803 
+│                       ├ [80]  ╭ VulnerabilityID : CVE-2026-75803 
 │                       │       ├ PkgID           : openssl@3.5.7-r0 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.5.7-r0?arch=x86_64&distro=3
@@ -6472,7 +6394,7 @@
 │                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2026-75803 
 │                       │       ├ PublishedDate   : 2026-08-25T13:19:29.57Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T21:17:17.823Z 
-│                       ├ [82]  ╭ VulnerabilityID : CVE-2026-103111 
+│                       ├ [81]  ╭ VulnerabilityID : CVE-2026-103111 
 │                       │       ├ PkgID           : pcre2@10.47-r1 
 │                       │       ├ PkgName         : pcre2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pcre2@10.47-r1?arch=x86_64&distro=3.2
@@ -6509,7 +6431,7 @@
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-103111 
 │                       │       ├ PublishedDate   : 2026-09-30T05:16:45.863Z 
 │                       │       ╰ LastModifiedDate: 2026-09-30T20:17:29.847Z 
-│                       ├ [83]  ╭ VulnerabilityID : CVE-2026-86145 
+│                       ├ [82]  ╭ VulnerabilityID : CVE-2026-86145 
 │                       │       ├ PkgID           : pcre2@10.47-r1 
 │                       │       ├ PkgName         : pcre2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pcre2@10.47-r1?arch=x86_64&distro=3.2
@@ -6556,7 +6478,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-86145 
 │                       │       ├ PublishedDate   : 2026-09-05T06:17:10.37Z 
 │                       │       ╰ LastModifiedDate: 2026-09-09T16:04:24.933Z 
-│                       ├ [84]  ╭ VulnerabilityID : CVE-2026-89157 
+│                       ├ [83]  ╭ VulnerabilityID : CVE-2026-89157 
 │                       │       ├ PkgID           : pcre2@10.47-r1 
 │                       │       ├ PkgName         : pcre2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pcre2@10.47-r1?arch=x86_64&distro=3.2
@@ -6600,7 +6522,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-89157 
 │                       │       ├ PublishedDate   : 2026-09-11T04:18:03.753Z 
 │                       │       ╰ LastModifiedDate: 2026-09-16T19:25:08.88Z 
-│                       ├ [85]  ╭ VulnerabilityID : CVE-2026-89161 
+│                       ├ [84]  ╭ VulnerabilityID : CVE-2026-89161 
 │                       │       ├ PkgID           : pcre2@10.47-r1 
 │                       │       ├ PkgName         : pcre2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pcre2@10.47-r1?arch=x86_64&distro=3.2
@@ -6648,7 +6570,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-89161 
 │                       │       ├ PublishedDate   : 2026-09-11T04:18:04.47Z 
 │                       │       ╰ LastModifiedDate: 2026-09-16T19:10:47.78Z 
-│                       ├ [86]  ╭ VulnerabilityID : CVE-2026-89156 
+│                       ├ [85]  ╭ VulnerabilityID : CVE-2026-89156 
 │                       │       ├ PkgID           : pcre2@10.47-r1 
 │                       │       ├ PkgName         : pcre2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pcre2@10.47-r1?arch=x86_64&distro=3.2
@@ -6693,7 +6615,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-89156 
 │                       │       ├ PublishedDate   : 2026-09-11T04:18:03.23Z 
 │                       │       ╰ LastModifiedDate: 2026-09-16T19:27:01.327Z 
-│                       ├ [87]  ╭ VulnerabilityID : CVE-2026-89158 
+│                       ├ [86]  ╭ VulnerabilityID : CVE-2026-89158 
 │                       │       ├ PkgID           : pcre2@10.47-r1 
 │                       │       ├ PkgName         : pcre2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pcre2@10.47-r1?arch=x86_64&distro=3.2
@@ -6738,7 +6660,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-89158 
 │                       │       ├ PublishedDate   : 2026-09-11T04:18:03.97Z 
 │                       │       ╰ LastModifiedDate: 2026-09-16T19:23:41.45Z 
-│                       ├ [88]  ╭ VulnerabilityID : CVE-2026-89160 
+│                       ├ [87]  ╭ VulnerabilityID : CVE-2026-89160 
 │                       │       ├ PkgID           : pcre2@10.47-r1 
 │                       │       ├ PkgName         : pcre2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pcre2@10.47-r1?arch=x86_64&distro=3.2
@@ -6783,7 +6705,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-89160 
 │                       │       ├ PublishedDate   : 2026-09-11T04:18:04.343Z 
 │                       │       ╰ LastModifiedDate: 2026-09-16T19:15:29.443Z 
-│                       ├ [89]  ╭ VulnerabilityID : CVE-2026-89162 
+│                       ├ [88]  ╭ VulnerabilityID : CVE-2026-89162 
 │                       │       ├ PkgID           : pcre2@10.47-r1 
 │                       │       ├ PkgName         : pcre2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pcre2@10.47-r1?arch=x86_64&distro=3.2
@@ -6828,7 +6750,7 @@
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-89162 
 │                       │       ├ PublishedDate   : 2026-09-11T05:16:38.697Z 
 │                       │       ╰ LastModifiedDate: 2026-09-16T18:56:28.643Z 
-│                       ├ [90]  ╭ VulnerabilityID : CVE-2026-11940 
+│                       ├ [89]  ╭ VulnerabilityID : CVE-2026-11940 
 │                       │       ├ PkgID           : pyc@3.14.5-r2 
 │                       │       ├ PkgName         : pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0 
@@ -6915,7 +6837,7 @@
 │                       │       │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2026-11940 
 │                       │       ├ PublishedDate   : 2026-06-23T17:16:40.847Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:51.627Z 
-│                       ├ [91]  ╭ VulnerabilityID : CVE-2026-15308 
+│                       ├ [90]  ╭ VulnerabilityID : CVE-2026-15308 
 │                       │       ├ PkgID           : pyc@3.14.5-r2 
 │                       │       ├ PkgName         : pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0 
@@ -7000,6 +6922,93 @@
 │                       │       │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2026-15308 
 │                       │       ├ PublishedDate   : 2026-07-09T17:16:58.26Z 
 │                       │       ╰ LastModifiedDate: 2026-08-20T17:02:59.313Z 
+│                       ├ [91]  ╭ VulnerabilityID : CVE-2026-19553 
+│                       │       ├ PkgID           : pyc@3.14.5-r2 
+│                       │       ├ PkgName         : pyc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0 
+│                       │       │                  ╰ UID : e6d0016acae69172 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19553 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:6d6307e9bf4a48dc6880583bd3cf0a5f84a95f37835aab7b6c71
+│                       │       │                   b76ba982de42 
+│                       │       ├ Title           : python: python: Certificate verification bypass via missing
+│                       │       │                    server_hostname validation in SSLContext.wrap_bio() 
+│                       │       ├ Description     : ssl.SSLContext.wrap_bio() didn't require the
+│                       │       │                   server_hostname argument
+│                       │       │                   to not be None if ssl.SSLContext.check_hostname was set.
+│                       │       │                   Due to a
+│                       │       │                   missing parameter check in SSLObject, if the
+│                       │       │                   isn't supplied then hostname verification would be silently
+│                       │       │                    skipped.
+│                       │       │                   
+│                       │       │                   This defect could lead to programs where certificate
+│                       │       │                   hostname verification
+│                       │       │                   *appeared* to be succeeding with SSLContext.check_hostname
+│                       │       │                   = True and no
+│                       │       │                   ValueError being raised due to misconfiguration.
+│                       │       │                   If the program passes a server_hostname value that isn't an
+│                       │       │                    empty string
+│                       │       │                   or None to any of these APIs then certificate hostname
+│                       │       │                   verification
+│                       │       │                   proceeds as expected and the program is not affected by
+│                       │       │                   this vulnerability.
+│                       │       │                   Mitigating this vulnerability doesn't require updating
+│                       │       │                   Python or applying
+│                       │       │                   the patch. To mitigate, pass a valid non-None and
+│                       │       │                   non-empty
+│                       │       │                   server_hostname value to SSLContext.wrap_bio(),
+│                       │       │                   asyncio.create_connection(), or asyncio.loop.start_tls()
+│                       │       │                   and
+│                       │       │                   certificate hostname verification will proceed as expected.
+│                       │       │                    Upgrading to
+│                       │       │                   the latest version of Python or applying the patch only
+│                       │       │                   changes the
+│                       │       │                   behavior from silently skipping hostname verification to
+│                       │       │                   raising a
+│                       │       │                   ValueError, similar to SSLContext.wrap_socket(), when
+│                       │       │                   server_hostname
+│                       │       │                   isn't supplied. 
+│                       │       ├ Severity        : HIGH 
+│                       │       ├ CweIDs           ─ [0]: CWE-297 
+│                       │       ├ VendorSeverity   ─ redhat: 3 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
+│                       │       │                           │           H/A:N 
+│                       │       │                           ╰ V3Score : 7.4 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/09/3
+│                       │       │                  │       0/16 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-19553 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/1697ea386c7
+│                       │       │                  │       07142555d98a1263176bbbc014a96 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/5867d4e4ae6
+│                       │       │                  │       d1062352baf6b497a4026e8578ccf 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/641390146a1
+│                       │       │                  │       6a38e6701923f4ee4f1940ae77082 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/869069d52ce
+│                       │       │                  │       0efab2f8c38197e92cdaaa312f1ed 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/966bf426d0b
+│                       │       │                  │       6c31c1b0a255ff14a17143a466ced 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/bdebbf9b366
+│                       │       │                  │       ec91e9cd9daa0b3510c9e84b60b80 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/f4e43ba5251
+│                       │       │                  │       87282f2011da0e6ffc0d2b08d8062 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/issues/156793 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/pull/158503 
+│                       │       │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/QNZRG3YOAMTHDCMVCICXGY6YEFPY2V
+│                       │       │                  │       DL/ 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-19553 
+│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-19553 
+│                       │       ├ PublishedDate   : 2026-09-30T17:16:45.88Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:44.057Z 
 │                       ├ [92]  ╭ VulnerabilityID : CVE-2026-7210 
 │                       │       ├ PkgID           : pyc@3.14.5-r2 
 │                       │       ├ PkgName         : pyc 
@@ -7070,8 +7079,71 @@
 │                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-7210 
 │                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-7210 
 │                       │       ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
-│                       │       ╰ LastModifiedDate: 2026-08-14T01:19:08.237Z 
-│                       ├ [93]  ╭ VulnerabilityID : CVE-2026-8328 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:44.32Z 
+│                       ├ [93]  ╭ VulnerabilityID : CVE-2026-82049 
+│                       │       ├ PkgID           : pyc@3.14.5-r2 
+│                       │       ├ PkgName         : pyc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0 
+│                       │       │                  ╰ UID : e6d0016acae69172 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-82049 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:2e20f31595984e35f31a3ef4e806ad984e41d2cfcf5583d48db4
+│                       │       │                   4c75f9ffd415 
+│                       │       ├ Title           : python: Python tarfile module: File modification and
+│                       │       │                   content disclosure via crafted archives 
+│                       │       ├ Description     : In CPython 3.13 and earlier, the tarfile module's data and
+│                       │       │                   tar extraction filters are vulnerable to crafted archives
+│                       │       │                   containing a hard link to a symbolic link. Such archives
+│                       │       │                   may cause extraction to modify the permissions or
+│                       │       │                   modification time of a file outside the destination
+│                       │       │                   directory, or expose the contents of that file within the
+│                       │       │                   extracted tree. 
+│                       │       ├ Severity        : HIGH 
+│                       │       ├ CweIDs           ─ [0]: CWE-59 
+│                       │       ├ VendorSeverity   ╭ bitnami: 3 
+│                       │       │                  ╰ redhat : 3 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:
+│                       │       │                  │         │            H/VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │       │                  │         ╰ V40Score : 8.4 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I
+│                       │       │                            │           :H/A:N 
+│                       │       │                            ╰ V3Score : 7.1 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/09/1
+│                       │       │                  │       4/27 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-82049 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/197663d63af
+│                       │       │                  │       ed27f66e10e23c194e8a634e60913 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/28f315486b3
+│                       │       │                  │       da0352b9a1de1c3c97f4127ba4771 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/5a57248b22a
+│                       │       │                  │       d3b9aafcaaadae2c304a1923daeca 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/b38be2e6cf9
+│                       │       │                  │       d989075ab73412c63e003ebad4ff3 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/b8f23e30709
+│                       │       │                  │       7552eaea2604383a12ab280520d0d 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/c66df4e7043
+│                       │       │                  │       5d257fd488b35ea129c6f317433a8 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/cc1689830c6
+│                       │       │                  │       b9aaddded2fb9f2fe8116867e2c0e 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/issues/157190 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/pull/157191 
+│                       │       │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/EFJWGAZJA56AKSBR2WHMHQZO7RRLZP
+│                       │       │                  │       RH/ 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-82049 
+│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-82049 
+│                       │       ├ PublishedDate   : 2026-09-14T19:17:50.927Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:44.52Z 
+│                       ├ [94]  ╭ VulnerabilityID : CVE-2026-8328 
 │                       │       ├ PkgID           : pyc@3.14.5-r2 
 │                       │       ├ PkgName         : pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0 
@@ -7140,7 +7212,7 @@
 │                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-8328 
 │                       │       ├ PublishedDate   : 2026-05-13T21:16:50.167Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.95Z 
-│                       ├ [94]  ╭ VulnerabilityID : CVE-2025-15366 
+│                       ├ [95]  ╭ VulnerabilityID : CVE-2025-15366 
 │                       │       ├ PkgID           : pyc@3.14.5-r2 
 │                       │       ├ PkgName         : pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0 
@@ -7214,7 +7286,7 @@
 │                       │       │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2025-15366 
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:51.023Z 
 │                       │       ╰ LastModifiedDate: 2026-08-06T01:16:27.563Z 
-│                       ├ [95]  ╭ VulnerabilityID : CVE-2026-0864 
+│                       ├ [96]  ╭ VulnerabilityID : CVE-2026-0864 
 │                       │       ├ PkgID           : pyc@3.14.5-r2 
 │                       │       ├ PkgName         : pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0 
@@ -7282,7 +7354,7 @@
 │                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-0864 
 │                       │       ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
 │                       │       ╰ LastModifiedDate: 2026-08-18T17:52:03.23Z 
-│                       ├ [96]  ╭ VulnerabilityID : CVE-2026-11972 
+│                       ├ [97]  ╭ VulnerabilityID : CVE-2026-11972 
 │                       │       ├ PkgID           : pyc@3.14.5-r2 
 │                       │       ├ PkgName         : pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0 
@@ -7345,7 +7417,223 @@
 │                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-11972 
 │                       │       ├ PublishedDate   : 2026-06-23T23:16:49.033Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:51.78Z 
-│                       ├ [97]  ╭ VulnerabilityID : CVE-2026-3276 
+│                       ├ [98]  ╭ VulnerabilityID : CVE-2026-15806 
+│                       │       ├ PkgID           : pyc@3.14.5-r2 
+│                       │       ├ PkgName         : pyc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0 
+│                       │       │                  ╰ UID : e6d0016acae69172 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-15806 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:ea79a046797512c00dc0189a4a6b3b0dbb1b3deb8ee7adb9a875
+│                       │       │                   90ec7c74a08e 
+│                       │       ├ Title           : python: Python: Information disclosure due to incorrect URL
+│                       │       │                    scheme matching 
+│                       │       ├ Description     : The HTTPPasswordMgr class in the urllib.request module,
+│                       │       │                   along with its subclasses HTTPPasswordMgrWithDefaultRealm
+│                       │       │                   and HTTPPasswordMgrWithPriorAuth, did not take the URL
+│                       │       │                   scheme into account when matching stored credentials
+│                       │       │                   against a requested URL. Credentials added for an https://
+│                       │       │                   URL were also used for requests to the same host over
+│                       │       │                   http://, so an attacker able to redirect or downgrade a
+│                       │       │                   client to plain HTTP (for example, via an HTTPS-to-HTTP
+│                       │       │                   redirect or an on-path position) could capture credentials
+│                       │       │                   in cleartext. Credentials added for http:// URLs could
+│                       │       │                   likewise be sent over https://.
+│                       │       │                   
+│                       │       │                   Credential matching is now scoped by URL scheme.
+│                       │       │                   Credentials registered with a URL that includes a scheme
+│                       │       │                   are only used for requests with the same scheme.
+│                       │       │                   Credentials registered with a bare authority (such as
+│                       │       │                   example.com or example.com:8080) continue to match any
+│                       │       │                   scheme, preserving compatibility with existing code,
+│                       │       │                   including proxy authentication.
+│                       │       │                   Users who cannot upgrade immediately can mitigate by
+│                       │       │                   ensuring that applications never make plain http://
+│                       │       │                   requests to hosts for which credentials are registered, for
+│                       │       │                    example by not following redirects to http:// URLs. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ╭ [0]: CWE-319 
+│                       │       │                  ╰ [1]: CWE-522 
+│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       │                  ╰ redhat : 2 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:P/VC:
+│                       │       │                  │         │            H/VI:N/VA:N/SC:N/SI:N/SA:N 
+│                       │       │                  │         ╰ V40Score : 6 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I
+│                       │       │                            │           :N/A:N 
+│                       │       │                            ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/08/1
+│                       │       │                  │       8/3 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-15806 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/641be42bb07
+│                       │       │                  │       921ba0f8bffe228b1dc706b092ef6 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/851cf9a7142
+│                       │       │                  │       ecbdd39f831055533f58284ad2bcc 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/95355ee3a8e
+│                       │       │                  │       1d3c3d4858d1973aa42a9b91a2801 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/a0d023fbd23
+│                       │       │                  │       773e24b35d8368789470e22cda5d8 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/a2773a34183
+│                       │       │                  │       b7d94a243bb98fd658926cc5348ce 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/a7bb524fef6
+│                       │       │                  │       1f77ede01f660ffbd591e1d5837ce 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/dac88d86150
+│                       │       │                  │       78c55f1304ea4c7a2d822700d4e5a 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/issues/155694 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/pull/155696 
+│                       │       │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/3OKPE5S75KDNA7FY7AI3PL2MXM2X5R
+│                       │       │                  │       B3/ 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-15806 
+│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-15806 
+│                       │       ├ PublishedDate   : 2026-08-18T16:17:02.22Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:43.523Z 
+│                       ├ [99]  ╭ VulnerabilityID : CVE-2026-17084 
+│                       │       ├ PkgID           : pyc@3.14.5-r2 
+│                       │       ├ PkgName         : pyc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0 
+│                       │       │                  ╰ UID : e6d0016acae69172 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-17084 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:f0a16c7664bb84bbca4187ee24de8f957fb9bca0cba2612e2137
+│                       │       │                   9cd1d21c8c7c 
+│                       │       ├ Title           : python: Python stringprep module: Incorrect domain name
+│                       │       │                   processing breaks IDNA interoperability 
+│                       │       ├ Description     : The "stringprep" module didn't process characters from RFC
+│                       │       │                   3454 tables 
+│                       │       │                   B.2 or B.3 correctly: the latest Unicode codepoint
+│                       │       │                   attributes were used 
+│                       │       │                   instead of the specified Unicode 3.2.0. This behavior would
+│                       │       │                    cause 
+│                       │       │                   mismatches when processing domain names using IDNA 2003
+│                       │       │                   (the "idna" 
+│                       │       │                   codec) and the in_table_b2() function of the "stringprep"
+│                       │       │                   module. This 
+│                       │       │                   only affects domain names containing characters that were
+│                       │       │                   not previously
+│                       │       │                    registered or had their Unicode attributes such as
+│                       │       │                   case-folding 
+│                       │       │                   behavior updated since Unicode 3.2.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-436 
+│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       │                  ╰ redhat : 2 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:P/VC:
+│                       │       │                  │         │            N/VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │       │                  │         ╰ V40Score : 6 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                       │       │                            │           :H/A:N 
+│                       │       │                            ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/08/1
+│                       │       │                  │       8/2 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-17084 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/1e54caa0966
+│                       │       │                  │       78a38afcabecabb1ff72400dd6bae 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/5181304bcec
+│                       │       │                  │       9cfc3c15311741c9154cdff2e3fd7 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/69f92ebaec6
+│                       │       │                  │       81e9149dfd70fd02d4ed52d2a6296 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/7e109d084d5
+│                       │       │                  │       5e7eb25837a5f3b47ef9beee547bc 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/c016c2535b7
+│                       │       │                  │       4227fddf2cf7334dbfead6c930214 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/c28b121a4f0
+│                       │       │                  │       b975937c8b5a1b4934bb361d84296 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/c42790b34f6
+│                       │       │                  │       34051750e5da340d17c7da19e4784 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/commit/d397a4979cf
+│                       │       │                  │       c80a8cd6c73838aa10e9c8cf5ef72 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/issues/155292 
+│                       │       │                  ├ [11]: https://github.com/python/cpython/pull/155293 
+│                       │       │                  ├ [12]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/EUHHTC6EV7HCLSUHP25C5VHSV4V2MU
+│                       │       │                  │       ZN/ 
+│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-17084 
+│                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-17084 
+│                       │       ├ PublishedDate   : 2026-08-18T14:16:56.29Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:43.723Z 
+│                       ├ [100] ╭ VulnerabilityID : CVE-2026-19672 
+│                       │       ├ PkgID           : pyc@3.14.5-r2 
+│                       │       ├ PkgName         : pyc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0 
+│                       │       │                  ╰ UID : e6d0016acae69172 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19672 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:92750acbd1e110e107ce2369274334896e57aa34bc0054b9dd11
+│                       │       │                   229ed5c04cc6 
+│                       │       ├ Title           : python: Python tarfile module: Directory traversal allows
+│                       │       │                   creation of empty directories outside extraction
+│                       │       │                   destination 
+│                       │       ├ Description     : The tarfile module's tar and data
+│                       │       │                    extraction filters created directories outside the
+│                       │       │                   destination for 
+│                       │       │                   members whose name leaves the destination and returns to
+│                       │       │                   it, such as ../evil/../dest/sub/file. The containment check
+│                       │       │                    used the resolved path, but intermediate directories were
+│                       │       │                   created from the name as given.
+│                       │       │                   
+│                       │       │                   Only
+│                       │       │                    empty directories are created outside the destination.
+│                       │       │                   Member contents 
+│                       │       │                   are still extracted inside it. To return to the destination
+│                       │       │                    the member's
+│                       │       │                    name must contain the destination directory's own final
+│                       │       │                   component, so 
+│                       │       │                   extraction into a secure randomised directory is not
+│                       │       │                   affected.
+│                       │       │                   This affects POSIX platforms only. On Windows, ..
+│                       │       │                   components are collapsed before the path reaches the
+│                       │       │                   filesystem, so the directories outside the destination are
+│                       │       │                   never created. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-22 
+│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       │                  ╰ redhat : 2 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:
+│                       │       │                  │         │            N/VI:N/VA:N/SC:N/SI:L/SA:N 
+│                       │       │                  │         ╰ V40Score : 6.3 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :L/A:N 
+│                       │       │                            ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/08/25
+│                       │       │                  │      /10 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-19672 
+│                       │       │                  ├ [2]: https://github.com/python/cpython/pull/156000 
+│                       │       │                  ├ [3]: https://mail.python.org/archives/list/security-announ
+│                       │       │                  │      ce@python.org/thread/J2WT2ALRWEXQJOB3C7Q2HYWUXP3CINWO
+│                       │       │                  │      / 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-19672 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-19672 
+│                       │       ├ PublishedDate   : 2026-08-19T16:17:06.593Z 
+│                       │       ╰ LastModifiedDate: 2026-08-28T21:16:15.74Z 
+│                       ├ [101] ╭ VulnerabilityID : CVE-2026-3276 
 │                       │       ├ PkgID           : pyc@3.14.5-r2 
 │                       │       ├ PkgName         : pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0 
@@ -7415,7 +7703,7 @@
 │                       │       │                          03/15 
 │                       │       ├ PublishedDate   : 2026-06-03T16:16:29.253Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.847Z 
-│                       ├ [98]  ╭ VulnerabilityID : CVE-2026-4360 
+│                       ├ [102] ╭ VulnerabilityID : CVE-2026-4360 
 │                       │       ├ PkgID           : pyc@3.14.5-r2 
 │                       │       ├ PkgName         : pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0 
@@ -7484,7 +7772,7 @@
 │                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-4360 
 │                       │       ├ PublishedDate   : 2026-06-30T15:16:57.193Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.42Z 
-│                       ├ [99]  ╭ VulnerabilityID : CVE-2026-7774 
+│                       ├ [103] ╭ VulnerabilityID : CVE-2026-7774 
 │                       │       ├ PkgID           : pyc@3.14.5-r2 
 │                       │       ├ PkgName         : pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0 
@@ -7553,7 +7841,7 @@
 │                       │       │                          04/9 
 │                       │       ├ PublishedDate   : 2026-06-04T16:16:42.103Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.783Z 
-│                       ├ [100] ╭ VulnerabilityID : CVE-2026-9669 
+│                       ├ [104] ╭ VulnerabilityID : CVE-2026-9669 
 │                       │       ├ PkgID           : pyc@3.14.5-r2 
 │                       │       ├ PkgName         : pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0 
@@ -7620,7 +7908,68 @@
 │                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-9669 
 │                       │       ├ PublishedDate   : 2026-06-08T23:17:25.17Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:56.087Z 
-│                       ├ [101] ╭ VulnerabilityID : CVE-2026-6879 
+│                       ├ [105] ╭ VulnerabilityID : CVE-2026-15310 
+│                       │       ├ PkgID           : pyc@3.14.5-r2 
+│                       │       ├ PkgName         : pyc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0 
+│                       │       │                  ╰ UID : e6d0016acae69172 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-15310 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:16dcee6bd4e14df1428012b2bfe6d8eaa1ce335b72b1595f7f2c
+│                       │       │                   88b33d0398cf 
+│                       │       ├ Title           : When decompressing crafted zip files using the
+│                       │       │                   bzip/LZMA/Zstandard   c ... 
+│                       │       ├ Description     : When decompressing crafted zip files using the
+│                       │       │                   bzip/LZMA/Zstandard 
+│                       │       │                   
+│                       │       │                   compressions, Python could use an attacker-controlled size
+│                       │       │                   to 
+│                       │       │                   pre-allocate memory, possibly resulting in memory
+│                       │       │                   exhaustion. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-400 
+│                       │       ├ VendorSeverity   ─ bitnami: 1 
+│                       │       ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:A/VC:
+│                       │       │                            │            N/VI:N/VA:L/SC:N/SI:N/SA:N 
+│                       │       │                            ╰ V40Score : 2.1 
+│                       │       ├ References       ╭ [0] : https://github.com/python/cpython/commit/09a2e7e6678
+│                       │       │                  │       b4f65449e7ad8f112c48f944591e2 
+│                       │       │                  ├ [1] : https://github.com/python/cpython/commit/1b424c0178a
+│                       │       │                  │       01e155fd0267dc28a8fc1159b33a8 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/31980e84b9a
+│                       │       │                  │       708424a0a1dfecde3fc991e313f89 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/6257029de42
+│                       │       │                  │       ef89b67f3d20137de87d43e197530 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/9d167992b59
+│                       │       │                  │       cf5e23c66b9ed742b13f5925f7d70 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/c2bfbcdd1a1
+│                       │       │                  │       1690507a10bc0998f95b8dc6b6fac 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/dcdd406ddbf
+│                       │       │                  │       c4cb29b24c3df17cbabe21d316ce1 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/e2311cfb3dd
+│                       │       │                  │       518f008f312fe0631f4f7490d237a 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/f507e6946a3
+│                       │       │                  │       194e83e1d7b8ee6e14567175e46de 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/commit/f897dbf2f36
+│                       │       │                  │       a5935700b7c2d94d4681d2136b7d4 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/issues/156002 
+│                       │       │                  ├ [11]: https://github.com/python/cpython/pull/156003 
+│                       │       │                  ├ [12]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/YUHXURX2WZGKGNA4ANYBQS2VZRYQ5J
+│                       │       │                  │       NK/ 
+│                       │       │                  ╰ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-15310 
+│                       │       ├ PublishedDate   : 2026-08-25T15:16:30.027Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:43.337Z 
+│                       ├ [106] ╭ VulnerabilityID : CVE-2026-6879 
 │                       │       ├ PkgID           : pyc@3.14.5-r2 
 │                       │       ├ PkgName         : pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0 
@@ -7683,7 +8032,70 @@
 │                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-6879 
 │                       │       ├ PublishedDate   : 2026-07-28T15:17:51.377Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.457Z 
-│                       ├ [102] ╭ VulnerabilityID : CVE-2026-11940 
+│                       ├ [107] ╭ VulnerabilityID : CVE-2026-19445 
+│                       │       ├ PkgID           : pyc@3.14.5-r2 
+│                       │       ├ PkgName         : pyc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.5-r2?arch=x86_64&distro=3.24.0 
+│                       │       │                  ╰ UID : e6d0016acae69172 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19445 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:b3ea7237c55992206028516b2109a36c9ecd80fbf3654909b4fc
+│                       │       │                   5da6e8fbdd34 
+│                       │       ├ Title           : A remote, unauthenticated TLS client can make a server
+│                       │       │                   crash or call t ... 
+│                       │       ├ Description     : A remote, unauthenticated TLS client can make a server
+│                       │       │                   crash or call
+│                       │       │                   through a freed pointer if its sni_callback assigns a
+│                       │       │                   different context to
+│                       │       │                   SSLSocket.context (the documented way to select a
+│                       │       │                   certificate per server
+│                       │       │                   name) and nothing else keeps the original ssl.SSLContext
+│                       │       │                   alive. Typical
+│                       │       │                   cases are servers that create an SSLContext per connection
+│                       │       │                   or replace it
+│                       │       │                   while connections are open; servers that wrap their
+│                       │       │                   listening socket with
+│                       │       │                   it are not affected.
+│                       │       │                   
+│                       │       │                   Mitigation: keep a reference to every SSLContext that sets
+│                       │       │                   sni_callback for
+│                       │       │                   the lifetime of the server. TLS clients are not affected.[
+│                       │       │                   m 
+│                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/09/3
+│                       │       │                  │       0/17 
+│                       │       │                  ├ [1] : https://github.com/python/cpython/commit/34a53dce817
+│                       │       │                  │       4da2fceb12fe084a4def02a10053d 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/46133cd57d3
+│                       │       │                  │       09652139ada74014aca7665ac552b 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/63fab143d94
+│                       │       │                  │       cafae71850831acfb52041ba44af7 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/b12968cefe6
+│                       │       │                  │       9ca1dcb8606c832ff73ee7dbf4ba8 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/cd7e51e7d45
+│                       │       │                  │       63866fbaa1e2521ae69b45daf3698 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/d8717ed0171
+│                       │       │                  │       7a9641686e6e6f83f0ab8af235e2c 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/ec44b5a3258
+│                       │       │                  │       cbda947d5e07242ee562ed05ef24b 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/issues/156293 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/pull/158504 
+│                       │       │                  ╰ [10]: https://mail.python.org/archives/list/security-annou
+│                       │       │                          nce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPP
+│                       │       │                          S3/ 
+│                       │       ├ PublishedDate   : 2026-09-30T17:16:45.72Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:43.903Z 
+│                       ├ [108] ╭ VulnerabilityID : CVE-2026-11940 
 │                       │       ├ PkgID           : python3@3.14.5-r2 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=
@@ -7771,7 +8183,7 @@
 │                       │       │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2026-11940 
 │                       │       ├ PublishedDate   : 2026-06-23T17:16:40.847Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:51.627Z 
-│                       ├ [103] ╭ VulnerabilityID : CVE-2026-15308 
+│                       ├ [109] ╭ VulnerabilityID : CVE-2026-15308 
 │                       │       ├ PkgID           : python3@3.14.5-r2 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=
@@ -7857,7 +8269,95 @@
 │                       │       │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2026-15308 
 │                       │       ├ PublishedDate   : 2026-07-09T17:16:58.26Z 
 │                       │       ╰ LastModifiedDate: 2026-08-20T17:02:59.313Z 
-│                       ├ [104] ╭ VulnerabilityID : CVE-2026-7210 
+│                       ├ [110] ╭ VulnerabilityID : CVE-2026-19553 
+│                       │       ├ PkgID           : python3@3.14.5-r2 
+│                       │       ├ PkgName         : python3 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=
+│                       │       │                  │       3.24.0 
+│                       │       │                  ╰ UID : 37c00fbc48ca6124 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19553 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:a702ed36ae20e517c92baa0dcd792df0543a4d9b702aa1949e8e
+│                       │       │                   35be61d59b20 
+│                       │       ├ Title           : python: python: Certificate verification bypass via missing
+│                       │       │                    server_hostname validation in SSLContext.wrap_bio() 
+│                       │       ├ Description     : ssl.SSLContext.wrap_bio() didn't require the
+│                       │       │                   server_hostname argument
+│                       │       │                   to not be None if ssl.SSLContext.check_hostname was set.
+│                       │       │                   Due to a
+│                       │       │                   missing parameter check in SSLObject, if the
+│                       │       │                   isn't supplied then hostname verification would be silently
+│                       │       │                    skipped.
+│                       │       │                   
+│                       │       │                   This defect could lead to programs where certificate
+│                       │       │                   hostname verification
+│                       │       │                   *appeared* to be succeeding with SSLContext.check_hostname
+│                       │       │                   = True and no
+│                       │       │                   ValueError being raised due to misconfiguration.
+│                       │       │                   If the program passes a server_hostname value that isn't an
+│                       │       │                    empty string
+│                       │       │                   or None to any of these APIs then certificate hostname
+│                       │       │                   verification
+│                       │       │                   proceeds as expected and the program is not affected by
+│                       │       │                   this vulnerability.
+│                       │       │                   Mitigating this vulnerability doesn't require updating
+│                       │       │                   Python or applying
+│                       │       │                   the patch. To mitigate, pass a valid non-None and
+│                       │       │                   non-empty
+│                       │       │                   server_hostname value to SSLContext.wrap_bio(),
+│                       │       │                   asyncio.create_connection(), or asyncio.loop.start_tls()
+│                       │       │                   and
+│                       │       │                   certificate hostname verification will proceed as expected.
+│                       │       │                    Upgrading to
+│                       │       │                   the latest version of Python or applying the patch only
+│                       │       │                   changes the
+│                       │       │                   behavior from silently skipping hostname verification to
+│                       │       │                   raising a
+│                       │       │                   ValueError, similar to SSLContext.wrap_socket(), when
+│                       │       │                   server_hostname
+│                       │       │                   isn't supplied. 
+│                       │       ├ Severity        : HIGH 
+│                       │       ├ CweIDs           ─ [0]: CWE-297 
+│                       │       ├ VendorSeverity   ─ redhat: 3 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
+│                       │       │                           │           H/A:N 
+│                       │       │                           ╰ V3Score : 7.4 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/09/3
+│                       │       │                  │       0/16 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-19553 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/1697ea386c7
+│                       │       │                  │       07142555d98a1263176bbbc014a96 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/5867d4e4ae6
+│                       │       │                  │       d1062352baf6b497a4026e8578ccf 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/641390146a1
+│                       │       │                  │       6a38e6701923f4ee4f1940ae77082 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/869069d52ce
+│                       │       │                  │       0efab2f8c38197e92cdaaa312f1ed 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/966bf426d0b
+│                       │       │                  │       6c31c1b0a255ff14a17143a466ced 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/bdebbf9b366
+│                       │       │                  │       ec91e9cd9daa0b3510c9e84b60b80 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/f4e43ba5251
+│                       │       │                  │       87282f2011da0e6ffc0d2b08d8062 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/issues/156793 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/pull/158503 
+│                       │       │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/QNZRG3YOAMTHDCMVCICXGY6YEFPY2V
+│                       │       │                  │       DL/ 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-19553 
+│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-19553 
+│                       │       ├ PublishedDate   : 2026-09-30T17:16:45.88Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:44.057Z 
+│                       ├ [111] ╭ VulnerabilityID : CVE-2026-7210 
 │                       │       ├ PkgID           : python3@3.14.5-r2 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=
@@ -7928,8 +8428,72 @@
 │                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-7210 
 │                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-7210 
 │                       │       ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
-│                       │       ╰ LastModifiedDate: 2026-08-14T01:19:08.237Z 
-│                       ├ [105] ╭ VulnerabilityID : CVE-2026-8328 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:44.32Z 
+│                       ├ [112] ╭ VulnerabilityID : CVE-2026-82049 
+│                       │       ├ PkgID           : python3@3.14.5-r2 
+│                       │       ├ PkgName         : python3 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=
+│                       │       │                  │       3.24.0 
+│                       │       │                  ╰ UID : 37c00fbc48ca6124 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-82049 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:8adbd41291edb53d397e7d2e154c73c1749bd2f8fc9c0d6133f8
+│                       │       │                   2d5e574329c4 
+│                       │       ├ Title           : python: Python tarfile module: File modification and
+│                       │       │                   content disclosure via crafted archives 
+│                       │       ├ Description     : In CPython 3.13 and earlier, the tarfile module's data and
+│                       │       │                   tar extraction filters are vulnerable to crafted archives
+│                       │       │                   containing a hard link to a symbolic link. Such archives
+│                       │       │                   may cause extraction to modify the permissions or
+│                       │       │                   modification time of a file outside the destination
+│                       │       │                   directory, or expose the contents of that file within the
+│                       │       │                   extracted tree. 
+│                       │       ├ Severity        : HIGH 
+│                       │       ├ CweIDs           ─ [0]: CWE-59 
+│                       │       ├ VendorSeverity   ╭ bitnami: 3 
+│                       │       │                  ╰ redhat : 3 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:
+│                       │       │                  │         │            H/VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │       │                  │         ╰ V40Score : 8.4 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I
+│                       │       │                            │           :H/A:N 
+│                       │       │                            ╰ V3Score : 7.1 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/09/1
+│                       │       │                  │       4/27 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-82049 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/197663d63af
+│                       │       │                  │       ed27f66e10e23c194e8a634e60913 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/28f315486b3
+│                       │       │                  │       da0352b9a1de1c3c97f4127ba4771 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/5a57248b22a
+│                       │       │                  │       d3b9aafcaaadae2c304a1923daeca 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/b38be2e6cf9
+│                       │       │                  │       d989075ab73412c63e003ebad4ff3 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/b8f23e30709
+│                       │       │                  │       7552eaea2604383a12ab280520d0d 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/c66df4e7043
+│                       │       │                  │       5d257fd488b35ea129c6f317433a8 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/cc1689830c6
+│                       │       │                  │       b9aaddded2fb9f2fe8116867e2c0e 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/issues/157190 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/pull/157191 
+│                       │       │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/EFJWGAZJA56AKSBR2WHMHQZO7RRLZP
+│                       │       │                  │       RH/ 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-82049 
+│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-82049 
+│                       │       ├ PublishedDate   : 2026-09-14T19:17:50.927Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:44.52Z 
+│                       ├ [113] ╭ VulnerabilityID : CVE-2026-8328 
 │                       │       ├ PkgID           : python3@3.14.5-r2 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=
@@ -7999,7 +8563,7 @@
 │                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-8328 
 │                       │       ├ PublishedDate   : 2026-05-13T21:16:50.167Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.95Z 
-│                       ├ [106] ╭ VulnerabilityID : CVE-2025-15366 
+│                       ├ [114] ╭ VulnerabilityID : CVE-2025-15366 
 │                       │       ├ PkgID           : python3@3.14.5-r2 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=
@@ -8074,7 +8638,7 @@
 │                       │       │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2025-15366 
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:51.023Z 
 │                       │       ╰ LastModifiedDate: 2026-08-06T01:16:27.563Z 
-│                       ├ [107] ╭ VulnerabilityID : CVE-2026-0864 
+│                       ├ [115] ╭ VulnerabilityID : CVE-2026-0864 
 │                       │       ├ PkgID           : python3@3.14.5-r2 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=
@@ -8143,7 +8707,7 @@
 │                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-0864 
 │                       │       ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
 │                       │       ╰ LastModifiedDate: 2026-08-18T17:52:03.23Z 
-│                       ├ [108] ╭ VulnerabilityID : CVE-2026-11972 
+│                       ├ [116] ╭ VulnerabilityID : CVE-2026-11972 
 │                       │       ├ PkgID           : python3@3.14.5-r2 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=
@@ -8207,7 +8771,226 @@
 │                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-11972 
 │                       │       ├ PublishedDate   : 2026-06-23T23:16:49.033Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:51.78Z 
-│                       ├ [109] ╭ VulnerabilityID : CVE-2026-3276 
+│                       ├ [117] ╭ VulnerabilityID : CVE-2026-15806 
+│                       │       ├ PkgID           : python3@3.14.5-r2 
+│                       │       ├ PkgName         : python3 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=
+│                       │       │                  │       3.24.0 
+│                       │       │                  ╰ UID : 37c00fbc48ca6124 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-15806 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:b53662e7f2719bb27a9bb76e53309d39717fd4dc1301aacf768b
+│                       │       │                   429badcc5c37 
+│                       │       ├ Title           : python: Python: Information disclosure due to incorrect URL
+│                       │       │                    scheme matching 
+│                       │       ├ Description     : The HTTPPasswordMgr class in the urllib.request module,
+│                       │       │                   along with its subclasses HTTPPasswordMgrWithDefaultRealm
+│                       │       │                   and HTTPPasswordMgrWithPriorAuth, did not take the URL
+│                       │       │                   scheme into account when matching stored credentials
+│                       │       │                   against a requested URL. Credentials added for an https://
+│                       │       │                   URL were also used for requests to the same host over
+│                       │       │                   http://, so an attacker able to redirect or downgrade a
+│                       │       │                   client to plain HTTP (for example, via an HTTPS-to-HTTP
+│                       │       │                   redirect or an on-path position) could capture credentials
+│                       │       │                   in cleartext. Credentials added for http:// URLs could
+│                       │       │                   likewise be sent over https://.
+│                       │       │                   
+│                       │       │                   Credential matching is now scoped by URL scheme.
+│                       │       │                   Credentials registered with a URL that includes a scheme
+│                       │       │                   are only used for requests with the same scheme.
+│                       │       │                   Credentials registered with a bare authority (such as
+│                       │       │                   example.com or example.com:8080) continue to match any
+│                       │       │                   scheme, preserving compatibility with existing code,
+│                       │       │                   including proxy authentication.
+│                       │       │                   Users who cannot upgrade immediately can mitigate by
+│                       │       │                   ensuring that applications never make plain http://
+│                       │       │                   requests to hosts for which credentials are registered, for
+│                       │       │                    example by not following redirects to http:// URLs. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ╭ [0]: CWE-319 
+│                       │       │                  ╰ [1]: CWE-522 
+│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       │                  ╰ redhat : 2 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:P/VC:
+│                       │       │                  │         │            H/VI:N/VA:N/SC:N/SI:N/SA:N 
+│                       │       │                  │         ╰ V40Score : 6 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I
+│                       │       │                            │           :N/A:N 
+│                       │       │                            ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/08/1
+│                       │       │                  │       8/3 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-15806 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/641be42bb07
+│                       │       │                  │       921ba0f8bffe228b1dc706b092ef6 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/851cf9a7142
+│                       │       │                  │       ecbdd39f831055533f58284ad2bcc 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/95355ee3a8e
+│                       │       │                  │       1d3c3d4858d1973aa42a9b91a2801 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/a0d023fbd23
+│                       │       │                  │       773e24b35d8368789470e22cda5d8 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/a2773a34183
+│                       │       │                  │       b7d94a243bb98fd658926cc5348ce 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/a7bb524fef6
+│                       │       │                  │       1f77ede01f660ffbd591e1d5837ce 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/dac88d86150
+│                       │       │                  │       78c55f1304ea4c7a2d822700d4e5a 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/issues/155694 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/pull/155696 
+│                       │       │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/3OKPE5S75KDNA7FY7AI3PL2MXM2X5R
+│                       │       │                  │       B3/ 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-15806 
+│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-15806 
+│                       │       ├ PublishedDate   : 2026-08-18T16:17:02.22Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:43.523Z 
+│                       ├ [118] ╭ VulnerabilityID : CVE-2026-17084 
+│                       │       ├ PkgID           : python3@3.14.5-r2 
+│                       │       ├ PkgName         : python3 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=
+│                       │       │                  │       3.24.0 
+│                       │       │                  ╰ UID : 37c00fbc48ca6124 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-17084 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:42f066ecea429beafeb1c3e1f3368530ab8e95b571b2de62dd04
+│                       │       │                   0f4c9a287585 
+│                       │       ├ Title           : python: Python stringprep module: Incorrect domain name
+│                       │       │                   processing breaks IDNA interoperability 
+│                       │       ├ Description     : The "stringprep" module didn't process characters from RFC
+│                       │       │                   3454 tables 
+│                       │       │                   B.2 or B.3 correctly: the latest Unicode codepoint
+│                       │       │                   attributes were used 
+│                       │       │                   instead of the specified Unicode 3.2.0. This behavior would
+│                       │       │                    cause 
+│                       │       │                   mismatches when processing domain names using IDNA 2003
+│                       │       │                   (the "idna" 
+│                       │       │                   codec) and the in_table_b2() function of the "stringprep"
+│                       │       │                   module. This 
+│                       │       │                   only affects domain names containing characters that were
+│                       │       │                   not previously
+│                       │       │                    registered or had their Unicode attributes such as
+│                       │       │                   case-folding 
+│                       │       │                   behavior updated since Unicode 3.2.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-436 
+│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       │                  ╰ redhat : 2 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:P/VC:
+│                       │       │                  │         │            N/VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │       │                  │         ╰ V40Score : 6 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                       │       │                            │           :H/A:N 
+│                       │       │                            ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/08/1
+│                       │       │                  │       8/2 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-17084 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/1e54caa0966
+│                       │       │                  │       78a38afcabecabb1ff72400dd6bae 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/5181304bcec
+│                       │       │                  │       9cfc3c15311741c9154cdff2e3fd7 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/69f92ebaec6
+│                       │       │                  │       81e9149dfd70fd02d4ed52d2a6296 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/7e109d084d5
+│                       │       │                  │       5e7eb25837a5f3b47ef9beee547bc 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/c016c2535b7
+│                       │       │                  │       4227fddf2cf7334dbfead6c930214 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/c28b121a4f0
+│                       │       │                  │       b975937c8b5a1b4934bb361d84296 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/c42790b34f6
+│                       │       │                  │       34051750e5da340d17c7da19e4784 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/commit/d397a4979cf
+│                       │       │                  │       c80a8cd6c73838aa10e9c8cf5ef72 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/issues/155292 
+│                       │       │                  ├ [11]: https://github.com/python/cpython/pull/155293 
+│                       │       │                  ├ [12]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/EUHHTC6EV7HCLSUHP25C5VHSV4V2MU
+│                       │       │                  │       ZN/ 
+│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-17084 
+│                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-17084 
+│                       │       ├ PublishedDate   : 2026-08-18T14:16:56.29Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:43.723Z 
+│                       ├ [119] ╭ VulnerabilityID : CVE-2026-19672 
+│                       │       ├ PkgID           : python3@3.14.5-r2 
+│                       │       ├ PkgName         : python3 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=
+│                       │       │                  │       3.24.0 
+│                       │       │                  ╰ UID : 37c00fbc48ca6124 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19672 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:97c624507dac181a7ce0f46eb1675ee80b7aae093b254f82400a
+│                       │       │                   cb9c1472fe33 
+│                       │       ├ Title           : python: Python tarfile module: Directory traversal allows
+│                       │       │                   creation of empty directories outside extraction
+│                       │       │                   destination 
+│                       │       ├ Description     : The tarfile module's tar and data
+│                       │       │                    extraction filters created directories outside the
+│                       │       │                   destination for 
+│                       │       │                   members whose name leaves the destination and returns to
+│                       │       │                   it, such as ../evil/../dest/sub/file. The containment check
+│                       │       │                    used the resolved path, but intermediate directories were
+│                       │       │                   created from the name as given.
+│                       │       │                   
+│                       │       │                   Only
+│                       │       │                    empty directories are created outside the destination.
+│                       │       │                   Member contents 
+│                       │       │                   are still extracted inside it. To return to the destination
+│                       │       │                    the member's
+│                       │       │                    name must contain the destination directory's own final
+│                       │       │                   component, so 
+│                       │       │                   extraction into a secure randomised directory is not
+│                       │       │                   affected.
+│                       │       │                   This affects POSIX platforms only. On Windows, ..
+│                       │       │                   components are collapsed before the path reaches the
+│                       │       │                   filesystem, so the directories outside the destination are
+│                       │       │                   never created. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-22 
+│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       │                  ╰ redhat : 2 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:
+│                       │       │                  │         │            N/VI:N/VA:N/SC:N/SI:L/SA:N 
+│                       │       │                  │         ╰ V40Score : 6.3 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :L/A:N 
+│                       │       │                            ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/08/25
+│                       │       │                  │      /10 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-19672 
+│                       │       │                  ├ [2]: https://github.com/python/cpython/pull/156000 
+│                       │       │                  ├ [3]: https://mail.python.org/archives/list/security-announ
+│                       │       │                  │      ce@python.org/thread/J2WT2ALRWEXQJOB3C7Q2HYWUXP3CINWO
+│                       │       │                  │      / 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-19672 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-19672 
+│                       │       ├ PublishedDate   : 2026-08-19T16:17:06.593Z 
+│                       │       ╰ LastModifiedDate: 2026-08-28T21:16:15.74Z 
+│                       ├ [120] ╭ VulnerabilityID : CVE-2026-3276 
 │                       │       ├ PkgID           : python3@3.14.5-r2 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=
@@ -8278,7 +9061,7 @@
 │                       │       │                          03/15 
 │                       │       ├ PublishedDate   : 2026-06-03T16:16:29.253Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.847Z 
-│                       ├ [110] ╭ VulnerabilityID : CVE-2026-4360 
+│                       ├ [121] ╭ VulnerabilityID : CVE-2026-4360 
 │                       │       ├ PkgID           : python3@3.14.5-r2 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=
@@ -8348,7 +9131,7 @@
 │                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-4360 
 │                       │       ├ PublishedDate   : 2026-06-30T15:16:57.193Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.42Z 
-│                       ├ [111] ╭ VulnerabilityID : CVE-2026-7774 
+│                       ├ [122] ╭ VulnerabilityID : CVE-2026-7774 
 │                       │       ├ PkgID           : python3@3.14.5-r2 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=
@@ -8418,7 +9201,7 @@
 │                       │       │                          04/9 
 │                       │       ├ PublishedDate   : 2026-06-04T16:16:42.103Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.783Z 
-│                       ├ [112] ╭ VulnerabilityID : CVE-2026-9669 
+│                       ├ [123] ╭ VulnerabilityID : CVE-2026-9669 
 │                       │       ├ PkgID           : python3@3.14.5-r2 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=
@@ -8486,7 +9269,69 @@
 │                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-9669 
 │                       │       ├ PublishedDate   : 2026-06-08T23:17:25.17Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:56.087Z 
-│                       ├ [113] ╭ VulnerabilityID : CVE-2026-6879 
+│                       ├ [124] ╭ VulnerabilityID : CVE-2026-15310 
+│                       │       ├ PkgID           : python3@3.14.5-r2 
+│                       │       ├ PkgName         : python3 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=
+│                       │       │                  │       3.24.0 
+│                       │       │                  ╰ UID : 37c00fbc48ca6124 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-15310 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:d6e5509afa7117a8bb810d3df40fa7b558ce5f6b2bc97f705048
+│                       │       │                   9ee1328261ba 
+│                       │       ├ Title           : When decompressing crafted zip files using the
+│                       │       │                   bzip/LZMA/Zstandard   c ... 
+│                       │       ├ Description     : When decompressing crafted zip files using the
+│                       │       │                   bzip/LZMA/Zstandard 
+│                       │       │                   
+│                       │       │                   compressions, Python could use an attacker-controlled size
+│                       │       │                   to 
+│                       │       │                   pre-allocate memory, possibly resulting in memory
+│                       │       │                   exhaustion. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-400 
+│                       │       ├ VendorSeverity   ─ bitnami: 1 
+│                       │       ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:A/VC:
+│                       │       │                            │            N/VI:N/VA:L/SC:N/SI:N/SA:N 
+│                       │       │                            ╰ V40Score : 2.1 
+│                       │       ├ References       ╭ [0] : https://github.com/python/cpython/commit/09a2e7e6678
+│                       │       │                  │       b4f65449e7ad8f112c48f944591e2 
+│                       │       │                  ├ [1] : https://github.com/python/cpython/commit/1b424c0178a
+│                       │       │                  │       01e155fd0267dc28a8fc1159b33a8 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/31980e84b9a
+│                       │       │                  │       708424a0a1dfecde3fc991e313f89 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/6257029de42
+│                       │       │                  │       ef89b67f3d20137de87d43e197530 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/9d167992b59
+│                       │       │                  │       cf5e23c66b9ed742b13f5925f7d70 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/c2bfbcdd1a1
+│                       │       │                  │       1690507a10bc0998f95b8dc6b6fac 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/dcdd406ddbf
+│                       │       │                  │       c4cb29b24c3df17cbabe21d316ce1 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/e2311cfb3dd
+│                       │       │                  │       518f008f312fe0631f4f7490d237a 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/f507e6946a3
+│                       │       │                  │       194e83e1d7b8ee6e14567175e46de 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/commit/f897dbf2f36
+│                       │       │                  │       a5935700b7c2d94d4681d2136b7d4 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/issues/156002 
+│                       │       │                  ├ [11]: https://github.com/python/cpython/pull/156003 
+│                       │       │                  ├ [12]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/YUHXURX2WZGKGNA4ANYBQS2VZRYQ5J
+│                       │       │                  │       NK/ 
+│                       │       │                  ╰ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-15310 
+│                       │       ├ PublishedDate   : 2026-08-25T15:16:30.027Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:43.337Z 
+│                       ├ [125] ╭ VulnerabilityID : CVE-2026-6879 
 │                       │       ├ PkgID           : python3@3.14.5-r2 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=
@@ -8550,7 +9395,71 @@
 │                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-6879 
 │                       │       ├ PublishedDate   : 2026-07-28T15:17:51.377Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.457Z 
-│                       ├ [114] ╭ VulnerabilityID : CVE-2026-11940 
+│                       ├ [126] ╭ VulnerabilityID : CVE-2026-19445 
+│                       │       ├ PkgID           : python3@3.14.5-r2 
+│                       │       ├ PkgName         : python3 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.5-r2?arch=x86_64&distro=
+│                       │       │                  │       3.24.0 
+│                       │       │                  ╰ UID : 37c00fbc48ca6124 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19445 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:9fb0a6bac323a77c2c6270247f52be6be848f49476b719b881d5
+│                       │       │                   14533577eaab 
+│                       │       ├ Title           : A remote, unauthenticated TLS client can make a server
+│                       │       │                   crash or call t ... 
+│                       │       ├ Description     : A remote, unauthenticated TLS client can make a server
+│                       │       │                   crash or call
+│                       │       │                   through a freed pointer if its sni_callback assigns a
+│                       │       │                   different context to
+│                       │       │                   SSLSocket.context (the documented way to select a
+│                       │       │                   certificate per server
+│                       │       │                   name) and nothing else keeps the original ssl.SSLContext
+│                       │       │                   alive. Typical
+│                       │       │                   cases are servers that create an SSLContext per connection
+│                       │       │                   or replace it
+│                       │       │                   while connections are open; servers that wrap their
+│                       │       │                   listening socket with
+│                       │       │                   it are not affected.
+│                       │       │                   
+│                       │       │                   Mitigation: keep a reference to every SSLContext that sets
+│                       │       │                   sni_callback for
+│                       │       │                   the lifetime of the server. TLS clients are not affected.[
+│                       │       │                   m 
+│                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/09/3
+│                       │       │                  │       0/17 
+│                       │       │                  ├ [1] : https://github.com/python/cpython/commit/34a53dce817
+│                       │       │                  │       4da2fceb12fe084a4def02a10053d 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/46133cd57d3
+│                       │       │                  │       09652139ada74014aca7665ac552b 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/63fab143d94
+│                       │       │                  │       cafae71850831acfb52041ba44af7 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/b12968cefe6
+│                       │       │                  │       9ca1dcb8606c832ff73ee7dbf4ba8 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/cd7e51e7d45
+│                       │       │                  │       63866fbaa1e2521ae69b45daf3698 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/d8717ed0171
+│                       │       │                  │       7a9641686e6e6f83f0ab8af235e2c 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/ec44b5a3258
+│                       │       │                  │       cbda947d5e07242ee562ed05ef24b 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/issues/156293 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/pull/158504 
+│                       │       │                  ╰ [10]: https://mail.python.org/archives/list/security-annou
+│                       │       │                          nce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPP
+│                       │       │                          S3/ 
+│                       │       ├ PublishedDate   : 2026-09-30T17:16:45.72Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:43.903Z 
+│                       ├ [127] ╭ VulnerabilityID : CVE-2026-11940 
 │                       │       ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dis
@@ -8638,7 +9547,7 @@
 │                       │       │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2026-11940 
 │                       │       ├ PublishedDate   : 2026-06-23T17:16:40.847Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:51.627Z 
-│                       ├ [115] ╭ VulnerabilityID : CVE-2026-15308 
+│                       ├ [128] ╭ VulnerabilityID : CVE-2026-15308 
 │                       │       ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dis
@@ -8724,7 +9633,95 @@
 │                       │       │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2026-15308 
 │                       │       ├ PublishedDate   : 2026-07-09T17:16:58.26Z 
 │                       │       ╰ LastModifiedDate: 2026-08-20T17:02:59.313Z 
-│                       ├ [116] ╭ VulnerabilityID : CVE-2026-7210 
+│                       ├ [129] ╭ VulnerabilityID : CVE-2026-19553 
+│                       │       ├ PkgID           : python3-pyc@3.14.5-r2 
+│                       │       ├ PkgName         : python3-pyc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dis
+│                       │       │                  │       tro=3.24.0 
+│                       │       │                  ╰ UID : dce4b4bcd0b8d00f 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19553 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:885d9ee8d1770bd9d04cd13d62b42e2b13f341b2ac643fe8d824
+│                       │       │                   b56cdf8562a8 
+│                       │       ├ Title           : python: python: Certificate verification bypass via missing
+│                       │       │                    server_hostname validation in SSLContext.wrap_bio() 
+│                       │       ├ Description     : ssl.SSLContext.wrap_bio() didn't require the
+│                       │       │                   server_hostname argument
+│                       │       │                   to not be None if ssl.SSLContext.check_hostname was set.
+│                       │       │                   Due to a
+│                       │       │                   missing parameter check in SSLObject, if the
+│                       │       │                   isn't supplied then hostname verification would be silently
+│                       │       │                    skipped.
+│                       │       │                   
+│                       │       │                   This defect could lead to programs where certificate
+│                       │       │                   hostname verification
+│                       │       │                   *appeared* to be succeeding with SSLContext.check_hostname
+│                       │       │                   = True and no
+│                       │       │                   ValueError being raised due to misconfiguration.
+│                       │       │                   If the program passes a server_hostname value that isn't an
+│                       │       │                    empty string
+│                       │       │                   or None to any of these APIs then certificate hostname
+│                       │       │                   verification
+│                       │       │                   proceeds as expected and the program is not affected by
+│                       │       │                   this vulnerability.
+│                       │       │                   Mitigating this vulnerability doesn't require updating
+│                       │       │                   Python or applying
+│                       │       │                   the patch. To mitigate, pass a valid non-None and
+│                       │       │                   non-empty
+│                       │       │                   server_hostname value to SSLContext.wrap_bio(),
+│                       │       │                   asyncio.create_connection(), or asyncio.loop.start_tls()
+│                       │       │                   and
+│                       │       │                   certificate hostname verification will proceed as expected.
+│                       │       │                    Upgrading to
+│                       │       │                   the latest version of Python or applying the patch only
+│                       │       │                   changes the
+│                       │       │                   behavior from silently skipping hostname verification to
+│                       │       │                   raising a
+│                       │       │                   ValueError, similar to SSLContext.wrap_socket(), when
+│                       │       │                   server_hostname
+│                       │       │                   isn't supplied. 
+│                       │       ├ Severity        : HIGH 
+│                       │       ├ CweIDs           ─ [0]: CWE-297 
+│                       │       ├ VendorSeverity   ─ redhat: 3 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
+│                       │       │                           │           H/A:N 
+│                       │       │                           ╰ V3Score : 7.4 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/09/3
+│                       │       │                  │       0/16 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-19553 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/1697ea386c7
+│                       │       │                  │       07142555d98a1263176bbbc014a96 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/5867d4e4ae6
+│                       │       │                  │       d1062352baf6b497a4026e8578ccf 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/641390146a1
+│                       │       │                  │       6a38e6701923f4ee4f1940ae77082 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/869069d52ce
+│                       │       │                  │       0efab2f8c38197e92cdaaa312f1ed 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/966bf426d0b
+│                       │       │                  │       6c31c1b0a255ff14a17143a466ced 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/bdebbf9b366
+│                       │       │                  │       ec91e9cd9daa0b3510c9e84b60b80 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/f4e43ba5251
+│                       │       │                  │       87282f2011da0e6ffc0d2b08d8062 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/issues/156793 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/pull/158503 
+│                       │       │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/QNZRG3YOAMTHDCMVCICXGY6YEFPY2V
+│                       │       │                  │       DL/ 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-19553 
+│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-19553 
+│                       │       ├ PublishedDate   : 2026-09-30T17:16:45.88Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:44.057Z 
+│                       ├ [130] ╭ VulnerabilityID : CVE-2026-7210 
 │                       │       ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dis
@@ -8795,8 +9792,72 @@
 │                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-7210 
 │                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-7210 
 │                       │       ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
-│                       │       ╰ LastModifiedDate: 2026-08-14T01:19:08.237Z 
-│                       ├ [117] ╭ VulnerabilityID : CVE-2026-8328 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:44.32Z 
+│                       ├ [131] ╭ VulnerabilityID : CVE-2026-82049 
+│                       │       ├ PkgID           : python3-pyc@3.14.5-r2 
+│                       │       ├ PkgName         : python3-pyc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dis
+│                       │       │                  │       tro=3.24.0 
+│                       │       │                  ╰ UID : dce4b4bcd0b8d00f 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-82049 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:30e8af41330c3ca08b38f8504369c501576579189ff9c7ec2912
+│                       │       │                   67f29738739a 
+│                       │       ├ Title           : python: Python tarfile module: File modification and
+│                       │       │                   content disclosure via crafted archives 
+│                       │       ├ Description     : In CPython 3.13 and earlier, the tarfile module's data and
+│                       │       │                   tar extraction filters are vulnerable to crafted archives
+│                       │       │                   containing a hard link to a symbolic link. Such archives
+│                       │       │                   may cause extraction to modify the permissions or
+│                       │       │                   modification time of a file outside the destination
+│                       │       │                   directory, or expose the contents of that file within the
+│                       │       │                   extracted tree. 
+│                       │       ├ Severity        : HIGH 
+│                       │       ├ CweIDs           ─ [0]: CWE-59 
+│                       │       ├ VendorSeverity   ╭ bitnami: 3 
+│                       │       │                  ╰ redhat : 3 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:
+│                       │       │                  │         │            H/VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │       │                  │         ╰ V40Score : 8.4 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I
+│                       │       │                            │           :H/A:N 
+│                       │       │                            ╰ V3Score : 7.1 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/09/1
+│                       │       │                  │       4/27 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-82049 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/197663d63af
+│                       │       │                  │       ed27f66e10e23c194e8a634e60913 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/28f315486b3
+│                       │       │                  │       da0352b9a1de1c3c97f4127ba4771 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/5a57248b22a
+│                       │       │                  │       d3b9aafcaaadae2c304a1923daeca 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/b38be2e6cf9
+│                       │       │                  │       d989075ab73412c63e003ebad4ff3 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/b8f23e30709
+│                       │       │                  │       7552eaea2604383a12ab280520d0d 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/c66df4e7043
+│                       │       │                  │       5d257fd488b35ea129c6f317433a8 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/cc1689830c6
+│                       │       │                  │       b9aaddded2fb9f2fe8116867e2c0e 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/issues/157190 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/pull/157191 
+│                       │       │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/EFJWGAZJA56AKSBR2WHMHQZO7RRLZP
+│                       │       │                  │       RH/ 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-82049 
+│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-82049 
+│                       │       ├ PublishedDate   : 2026-09-14T19:17:50.927Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:44.52Z 
+│                       ├ [132] ╭ VulnerabilityID : CVE-2026-8328 
 │                       │       ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dis
@@ -8866,7 +9927,7 @@
 │                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-8328 
 │                       │       ├ PublishedDate   : 2026-05-13T21:16:50.167Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.95Z 
-│                       ├ [118] ╭ VulnerabilityID : CVE-2025-15366 
+│                       ├ [133] ╭ VulnerabilityID : CVE-2025-15366 
 │                       │       ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dis
@@ -8941,7 +10002,7 @@
 │                       │       │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2025-15366 
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:51.023Z 
 │                       │       ╰ LastModifiedDate: 2026-08-06T01:16:27.563Z 
-│                       ├ [119] ╭ VulnerabilityID : CVE-2026-0864 
+│                       ├ [134] ╭ VulnerabilityID : CVE-2026-0864 
 │                       │       ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dis
@@ -9010,7 +10071,7 @@
 │                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-0864 
 │                       │       ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
 │                       │       ╰ LastModifiedDate: 2026-08-18T17:52:03.23Z 
-│                       ├ [120] ╭ VulnerabilityID : CVE-2026-11972 
+│                       ├ [135] ╭ VulnerabilityID : CVE-2026-11972 
 │                       │       ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dis
@@ -9074,7 +10135,226 @@
 │                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-11972 
 │                       │       ├ PublishedDate   : 2026-06-23T23:16:49.033Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:51.78Z 
-│                       ├ [121] ╭ VulnerabilityID : CVE-2026-3276 
+│                       ├ [136] ╭ VulnerabilityID : CVE-2026-15806 
+│                       │       ├ PkgID           : python3-pyc@3.14.5-r2 
+│                       │       ├ PkgName         : python3-pyc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dis
+│                       │       │                  │       tro=3.24.0 
+│                       │       │                  ╰ UID : dce4b4bcd0b8d00f 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-15806 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:522ccc41132dc81d4f39306fae782c515d909f9465a4e4a49bfa
+│                       │       │                   23ef1609be2b 
+│                       │       ├ Title           : python: Python: Information disclosure due to incorrect URL
+│                       │       │                    scheme matching 
+│                       │       ├ Description     : The HTTPPasswordMgr class in the urllib.request module,
+│                       │       │                   along with its subclasses HTTPPasswordMgrWithDefaultRealm
+│                       │       │                   and HTTPPasswordMgrWithPriorAuth, did not take the URL
+│                       │       │                   scheme into account when matching stored credentials
+│                       │       │                   against a requested URL. Credentials added for an https://
+│                       │       │                   URL were also used for requests to the same host over
+│                       │       │                   http://, so an attacker able to redirect or downgrade a
+│                       │       │                   client to plain HTTP (for example, via an HTTPS-to-HTTP
+│                       │       │                   redirect or an on-path position) could capture credentials
+│                       │       │                   in cleartext. Credentials added for http:// URLs could
+│                       │       │                   likewise be sent over https://.
+│                       │       │                   
+│                       │       │                   Credential matching is now scoped by URL scheme.
+│                       │       │                   Credentials registered with a URL that includes a scheme
+│                       │       │                   are only used for requests with the same scheme.
+│                       │       │                   Credentials registered with a bare authority (such as
+│                       │       │                   example.com or example.com:8080) continue to match any
+│                       │       │                   scheme, preserving compatibility with existing code,
+│                       │       │                   including proxy authentication.
+│                       │       │                   Users who cannot upgrade immediately can mitigate by
+│                       │       │                   ensuring that applications never make plain http://
+│                       │       │                   requests to hosts for which credentials are registered, for
+│                       │       │                    example by not following redirects to http:// URLs. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ╭ [0]: CWE-319 
+│                       │       │                  ╰ [1]: CWE-522 
+│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       │                  ╰ redhat : 2 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:P/VC:
+│                       │       │                  │         │            H/VI:N/VA:N/SC:N/SI:N/SA:N 
+│                       │       │                  │         ╰ V40Score : 6 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I
+│                       │       │                            │           :N/A:N 
+│                       │       │                            ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/08/1
+│                       │       │                  │       8/3 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-15806 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/641be42bb07
+│                       │       │                  │       921ba0f8bffe228b1dc706b092ef6 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/851cf9a7142
+│                       │       │                  │       ecbdd39f831055533f58284ad2bcc 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/95355ee3a8e
+│                       │       │                  │       1d3c3d4858d1973aa42a9b91a2801 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/a0d023fbd23
+│                       │       │                  │       773e24b35d8368789470e22cda5d8 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/a2773a34183
+│                       │       │                  │       b7d94a243bb98fd658926cc5348ce 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/a7bb524fef6
+│                       │       │                  │       1f77ede01f660ffbd591e1d5837ce 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/dac88d86150
+│                       │       │                  │       78c55f1304ea4c7a2d822700d4e5a 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/issues/155694 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/pull/155696 
+│                       │       │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/3OKPE5S75KDNA7FY7AI3PL2MXM2X5R
+│                       │       │                  │       B3/ 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-15806 
+│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-15806 
+│                       │       ├ PublishedDate   : 2026-08-18T16:17:02.22Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:43.523Z 
+│                       ├ [137] ╭ VulnerabilityID : CVE-2026-17084 
+│                       │       ├ PkgID           : python3-pyc@3.14.5-r2 
+│                       │       ├ PkgName         : python3-pyc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dis
+│                       │       │                  │       tro=3.24.0 
+│                       │       │                  ╰ UID : dce4b4bcd0b8d00f 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-17084 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:9bc30d1d8a2acfaf015ebc0563c789a26df89cbf740082325f8a
+│                       │       │                   644b87c66d4e 
+│                       │       ├ Title           : python: Python stringprep module: Incorrect domain name
+│                       │       │                   processing breaks IDNA interoperability 
+│                       │       ├ Description     : The "stringprep" module didn't process characters from RFC
+│                       │       │                   3454 tables 
+│                       │       │                   B.2 or B.3 correctly: the latest Unicode codepoint
+│                       │       │                   attributes were used 
+│                       │       │                   instead of the specified Unicode 3.2.0. This behavior would
+│                       │       │                    cause 
+│                       │       │                   mismatches when processing domain names using IDNA 2003
+│                       │       │                   (the "idna" 
+│                       │       │                   codec) and the in_table_b2() function of the "stringprep"
+│                       │       │                   module. This 
+│                       │       │                   only affects domain names containing characters that were
+│                       │       │                   not previously
+│                       │       │                    registered or had their Unicode attributes such as
+│                       │       │                   case-folding 
+│                       │       │                   behavior updated since Unicode 3.2.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-436 
+│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       │                  ╰ redhat : 2 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:P/VC:
+│                       │       │                  │         │            N/VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │       │                  │         ╰ V40Score : 6 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                       │       │                            │           :H/A:N 
+│                       │       │                            ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/08/1
+│                       │       │                  │       8/2 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-17084 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/1e54caa0966
+│                       │       │                  │       78a38afcabecabb1ff72400dd6bae 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/5181304bcec
+│                       │       │                  │       9cfc3c15311741c9154cdff2e3fd7 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/69f92ebaec6
+│                       │       │                  │       81e9149dfd70fd02d4ed52d2a6296 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/7e109d084d5
+│                       │       │                  │       5e7eb25837a5f3b47ef9beee547bc 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/c016c2535b7
+│                       │       │                  │       4227fddf2cf7334dbfead6c930214 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/c28b121a4f0
+│                       │       │                  │       b975937c8b5a1b4934bb361d84296 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/c42790b34f6
+│                       │       │                  │       34051750e5da340d17c7da19e4784 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/commit/d397a4979cf
+│                       │       │                  │       c80a8cd6c73838aa10e9c8cf5ef72 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/issues/155292 
+│                       │       │                  ├ [11]: https://github.com/python/cpython/pull/155293 
+│                       │       │                  ├ [12]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/EUHHTC6EV7HCLSUHP25C5VHSV4V2MU
+│                       │       │                  │       ZN/ 
+│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-17084 
+│                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-17084 
+│                       │       ├ PublishedDate   : 2026-08-18T14:16:56.29Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:43.723Z 
+│                       ├ [138] ╭ VulnerabilityID : CVE-2026-19672 
+│                       │       ├ PkgID           : python3-pyc@3.14.5-r2 
+│                       │       ├ PkgName         : python3-pyc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dis
+│                       │       │                  │       tro=3.24.0 
+│                       │       │                  ╰ UID : dce4b4bcd0b8d00f 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19672 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:bf8db2570c6cc9f181e43ccceeb73070b714f6374219680ac648
+│                       │       │                   2a63384000ac 
+│                       │       ├ Title           : python: Python tarfile module: Directory traversal allows
+│                       │       │                   creation of empty directories outside extraction
+│                       │       │                   destination 
+│                       │       ├ Description     : The tarfile module's tar and data
+│                       │       │                    extraction filters created directories outside the
+│                       │       │                   destination for 
+│                       │       │                   members whose name leaves the destination and returns to
+│                       │       │                   it, such as ../evil/../dest/sub/file. The containment check
+│                       │       │                    used the resolved path, but intermediate directories were
+│                       │       │                   created from the name as given.
+│                       │       │                   
+│                       │       │                   Only
+│                       │       │                    empty directories are created outside the destination.
+│                       │       │                   Member contents 
+│                       │       │                   are still extracted inside it. To return to the destination
+│                       │       │                    the member's
+│                       │       │                    name must contain the destination directory's own final
+│                       │       │                   component, so 
+│                       │       │                   extraction into a secure randomised directory is not
+│                       │       │                   affected.
+│                       │       │                   This affects POSIX platforms only. On Windows, ..
+│                       │       │                   components are collapsed before the path reaches the
+│                       │       │                   filesystem, so the directories outside the destination are
+│                       │       │                   never created. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-22 
+│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       │                  ╰ redhat : 2 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:
+│                       │       │                  │         │            N/VI:N/VA:N/SC:N/SI:L/SA:N 
+│                       │       │                  │         ╰ V40Score : 6.3 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :L/A:N 
+│                       │       │                            ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/08/25
+│                       │       │                  │      /10 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-19672 
+│                       │       │                  ├ [2]: https://github.com/python/cpython/pull/156000 
+│                       │       │                  ├ [3]: https://mail.python.org/archives/list/security-announ
+│                       │       │                  │      ce@python.org/thread/J2WT2ALRWEXQJOB3C7Q2HYWUXP3CINWO
+│                       │       │                  │      / 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-19672 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-19672 
+│                       │       ├ PublishedDate   : 2026-08-19T16:17:06.593Z 
+│                       │       ╰ LastModifiedDate: 2026-08-28T21:16:15.74Z 
+│                       ├ [139] ╭ VulnerabilityID : CVE-2026-3276 
 │                       │       ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dis
@@ -9145,7 +10425,7 @@
 │                       │       │                          03/15 
 │                       │       ├ PublishedDate   : 2026-06-03T16:16:29.253Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.847Z 
-│                       ├ [122] ╭ VulnerabilityID : CVE-2026-4360 
+│                       ├ [140] ╭ VulnerabilityID : CVE-2026-4360 
 │                       │       ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dis
@@ -9215,7 +10495,7 @@
 │                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-4360 
 │                       │       ├ PublishedDate   : 2026-06-30T15:16:57.193Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.42Z 
-│                       ├ [123] ╭ VulnerabilityID : CVE-2026-7774 
+│                       ├ [141] ╭ VulnerabilityID : CVE-2026-7774 
 │                       │       ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dis
@@ -9285,7 +10565,7 @@
 │                       │       │                          04/9 
 │                       │       ├ PublishedDate   : 2026-06-04T16:16:42.103Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.783Z 
-│                       ├ [124] ╭ VulnerabilityID : CVE-2026-9669 
+│                       ├ [142] ╭ VulnerabilityID : CVE-2026-9669 
 │                       │       ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dis
@@ -9353,7 +10633,69 @@
 │                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-9669 
 │                       │       ├ PublishedDate   : 2026-06-08T23:17:25.17Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:56.087Z 
-│                       ├ [125] ╭ VulnerabilityID : CVE-2026-6879 
+│                       ├ [143] ╭ VulnerabilityID : CVE-2026-15310 
+│                       │       ├ PkgID           : python3-pyc@3.14.5-r2 
+│                       │       ├ PkgName         : python3-pyc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dis
+│                       │       │                  │       tro=3.24.0 
+│                       │       │                  ╰ UID : dce4b4bcd0b8d00f 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-15310 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:7a92bfa0e0d23ae107416738b29971760c3d70564d701366bbdd
+│                       │       │                   4d9c5c19947f 
+│                       │       ├ Title           : When decompressing crafted zip files using the
+│                       │       │                   bzip/LZMA/Zstandard   c ... 
+│                       │       ├ Description     : When decompressing crafted zip files using the
+│                       │       │                   bzip/LZMA/Zstandard 
+│                       │       │                   
+│                       │       │                   compressions, Python could use an attacker-controlled size
+│                       │       │                   to 
+│                       │       │                   pre-allocate memory, possibly resulting in memory
+│                       │       │                   exhaustion. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-400 
+│                       │       ├ VendorSeverity   ─ bitnami: 1 
+│                       │       ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:A/VC:
+│                       │       │                            │            N/VI:N/VA:L/SC:N/SI:N/SA:N 
+│                       │       │                            ╰ V40Score : 2.1 
+│                       │       ├ References       ╭ [0] : https://github.com/python/cpython/commit/09a2e7e6678
+│                       │       │                  │       b4f65449e7ad8f112c48f944591e2 
+│                       │       │                  ├ [1] : https://github.com/python/cpython/commit/1b424c0178a
+│                       │       │                  │       01e155fd0267dc28a8fc1159b33a8 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/31980e84b9a
+│                       │       │                  │       708424a0a1dfecde3fc991e313f89 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/6257029de42
+│                       │       │                  │       ef89b67f3d20137de87d43e197530 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/9d167992b59
+│                       │       │                  │       cf5e23c66b9ed742b13f5925f7d70 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/c2bfbcdd1a1
+│                       │       │                  │       1690507a10bc0998f95b8dc6b6fac 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/dcdd406ddbf
+│                       │       │                  │       c4cb29b24c3df17cbabe21d316ce1 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/e2311cfb3dd
+│                       │       │                  │       518f008f312fe0631f4f7490d237a 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/f507e6946a3
+│                       │       │                  │       194e83e1d7b8ee6e14567175e46de 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/commit/f897dbf2f36
+│                       │       │                  │       a5935700b7c2d94d4681d2136b7d4 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/issues/156002 
+│                       │       │                  ├ [11]: https://github.com/python/cpython/pull/156003 
+│                       │       │                  ├ [12]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/YUHXURX2WZGKGNA4ANYBQS2VZRYQ5J
+│                       │       │                  │       NK/ 
+│                       │       │                  ╰ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-15310 
+│                       │       ├ PublishedDate   : 2026-08-25T15:16:30.027Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:43.337Z 
+│                       ├ [144] ╭ VulnerabilityID : CVE-2026-6879 
 │                       │       ├ PkgID           : python3-pyc@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pyc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dis
@@ -9417,7 +10759,71 @@
 │                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-6879 
 │                       │       ├ PublishedDate   : 2026-07-28T15:17:51.377Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.457Z 
-│                       ├ [126] ╭ VulnerabilityID : CVE-2026-11940 
+│                       ├ [145] ╭ VulnerabilityID : CVE-2026-19445 
+│                       │       ├ PkgID           : python3-pyc@3.14.5-r2 
+│                       │       ├ PkgName         : python3-pyc 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.5-r2?arch=x86_64&dis
+│                       │       │                  │       tro=3.24.0 
+│                       │       │                  ╰ UID : dce4b4bcd0b8d00f 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19445 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:3d06939f78256b937e5e34ac3107b3e6a18e52f021a05147c024
+│                       │       │                   8c1980883830 
+│                       │       ├ Title           : A remote, unauthenticated TLS client can make a server
+│                       │       │                   crash or call t ... 
+│                       │       ├ Description     : A remote, unauthenticated TLS client can make a server
+│                       │       │                   crash or call
+│                       │       │                   through a freed pointer if its sni_callback assigns a
+│                       │       │                   different context to
+│                       │       │                   SSLSocket.context (the documented way to select a
+│                       │       │                   certificate per server
+│                       │       │                   name) and nothing else keeps the original ssl.SSLContext
+│                       │       │                   alive. Typical
+│                       │       │                   cases are servers that create an SSLContext per connection
+│                       │       │                   or replace it
+│                       │       │                   while connections are open; servers that wrap their
+│                       │       │                   listening socket with
+│                       │       │                   it are not affected.
+│                       │       │                   
+│                       │       │                   Mitigation: keep a reference to every SSLContext that sets
+│                       │       │                   sni_callback for
+│                       │       │                   the lifetime of the server. TLS clients are not affected.[
+│                       │       │                   m 
+│                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/09/3
+│                       │       │                  │       0/17 
+│                       │       │                  ├ [1] : https://github.com/python/cpython/commit/34a53dce817
+│                       │       │                  │       4da2fceb12fe084a4def02a10053d 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/46133cd57d3
+│                       │       │                  │       09652139ada74014aca7665ac552b 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/63fab143d94
+│                       │       │                  │       cafae71850831acfb52041ba44af7 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/b12968cefe6
+│                       │       │                  │       9ca1dcb8606c832ff73ee7dbf4ba8 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/cd7e51e7d45
+│                       │       │                  │       63866fbaa1e2521ae69b45daf3698 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/d8717ed0171
+│                       │       │                  │       7a9641686e6e6f83f0ab8af235e2c 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/ec44b5a3258
+│                       │       │                  │       cbda947d5e07242ee562ed05ef24b 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/issues/156293 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/pull/158504 
+│                       │       │                  ╰ [10]: https://mail.python.org/archives/list/security-annou
+│                       │       │                          nce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPP
+│                       │       │                          S3/ 
+│                       │       ├ PublishedDate   : 2026-09-30T17:16:45.72Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:43.903Z 
+│                       ├ [146] ╭ VulnerabilityID : CVE-2026-11940 
 │                       │       ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pycache-pyc0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x
@@ -9505,7 +10911,7 @@
 │                       │       │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2026-11940 
 │                       │       ├ PublishedDate   : 2026-06-23T17:16:40.847Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:51.627Z 
-│                       ├ [127] ╭ VulnerabilityID : CVE-2026-15308 
+│                       ├ [147] ╭ VulnerabilityID : CVE-2026-15308 
 │                       │       ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pycache-pyc0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x
@@ -9591,7 +10997,95 @@
 │                       │       │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2026-15308 
 │                       │       ├ PublishedDate   : 2026-07-09T17:16:58.26Z 
 │                       │       ╰ LastModifiedDate: 2026-08-20T17:02:59.313Z 
-│                       ├ [128] ╭ VulnerabilityID : CVE-2026-7210 
+│                       ├ [148] ╭ VulnerabilityID : CVE-2026-19553 
+│                       │       ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
+│                       │       ├ PkgName         : python3-pycache-pyc0 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x
+│                       │       │                  │       86_64&distro=3.24.0 
+│                       │       │                  ╰ UID : 4be41ea8f1de2d19 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19553 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:cddb3f706a59f8aa44f32a5fb5121915cd51ad80f425118c2bc4
+│                       │       │                   fbd8088eb9e3 
+│                       │       ├ Title           : python: python: Certificate verification bypass via missing
+│                       │       │                    server_hostname validation in SSLContext.wrap_bio() 
+│                       │       ├ Description     : ssl.SSLContext.wrap_bio() didn't require the
+│                       │       │                   server_hostname argument
+│                       │       │                   to not be None if ssl.SSLContext.check_hostname was set.
+│                       │       │                   Due to a
+│                       │       │                   missing parameter check in SSLObject, if the
+│                       │       │                   isn't supplied then hostname verification would be silently
+│                       │       │                    skipped.
+│                       │       │                   
+│                       │       │                   This defect could lead to programs where certificate
+│                       │       │                   hostname verification
+│                       │       │                   *appeared* to be succeeding with SSLContext.check_hostname
+│                       │       │                   = True and no
+│                       │       │                   ValueError being raised due to misconfiguration.
+│                       │       │                   If the program passes a server_hostname value that isn't an
+│                       │       │                    empty string
+│                       │       │                   or None to any of these APIs then certificate hostname
+│                       │       │                   verification
+│                       │       │                   proceeds as expected and the program is not affected by
+│                       │       │                   this vulnerability.
+│                       │       │                   Mitigating this vulnerability doesn't require updating
+│                       │       │                   Python or applying
+│                       │       │                   the patch. To mitigate, pass a valid non-None and
+│                       │       │                   non-empty
+│                       │       │                   server_hostname value to SSLContext.wrap_bio(),
+│                       │       │                   asyncio.create_connection(), or asyncio.loop.start_tls()
+│                       │       │                   and
+│                       │       │                   certificate hostname verification will proceed as expected.
+│                       │       │                    Upgrading to
+│                       │       │                   the latest version of Python or applying the patch only
+│                       │       │                   changes the
+│                       │       │                   behavior from silently skipping hostname verification to
+│                       │       │                   raising a
+│                       │       │                   ValueError, similar to SSLContext.wrap_socket(), when
+│                       │       │                   server_hostname
+│                       │       │                   isn't supplied. 
+│                       │       ├ Severity        : HIGH 
+│                       │       ├ CweIDs           ─ [0]: CWE-297 
+│                       │       ├ VendorSeverity   ─ redhat: 3 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
+│                       │       │                           │           H/A:N 
+│                       │       │                           ╰ V3Score : 7.4 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/09/3
+│                       │       │                  │       0/16 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-19553 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/1697ea386c7
+│                       │       │                  │       07142555d98a1263176bbbc014a96 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/5867d4e4ae6
+│                       │       │                  │       d1062352baf6b497a4026e8578ccf 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/641390146a1
+│                       │       │                  │       6a38e6701923f4ee4f1940ae77082 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/869069d52ce
+│                       │       │                  │       0efab2f8c38197e92cdaaa312f1ed 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/966bf426d0b
+│                       │       │                  │       6c31c1b0a255ff14a17143a466ced 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/bdebbf9b366
+│                       │       │                  │       ec91e9cd9daa0b3510c9e84b60b80 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/f4e43ba5251
+│                       │       │                  │       87282f2011da0e6ffc0d2b08d8062 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/issues/156793 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/pull/158503 
+│                       │       │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/QNZRG3YOAMTHDCMVCICXGY6YEFPY2V
+│                       │       │                  │       DL/ 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-19553 
+│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-19553 
+│                       │       ├ PublishedDate   : 2026-09-30T17:16:45.88Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:44.057Z 
+│                       ├ [149] ╭ VulnerabilityID : CVE-2026-7210 
 │                       │       ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pycache-pyc0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x
@@ -9662,8 +11156,72 @@
 │                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-7210 
 │                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-7210 
 │                       │       ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
-│                       │       ╰ LastModifiedDate: 2026-08-14T01:19:08.237Z 
-│                       ├ [129] ╭ VulnerabilityID : CVE-2026-8328 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:44.32Z 
+│                       ├ [150] ╭ VulnerabilityID : CVE-2026-82049 
+│                       │       ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
+│                       │       ├ PkgName         : python3-pycache-pyc0 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x
+│                       │       │                  │       86_64&distro=3.24.0 
+│                       │       │                  ╰ UID : 4be41ea8f1de2d19 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-82049 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:19928b2366b046124b9adc748c70436ba2792d568c7bb39ab500
+│                       │       │                   a63a8504edae 
+│                       │       ├ Title           : python: Python tarfile module: File modification and
+│                       │       │                   content disclosure via crafted archives 
+│                       │       ├ Description     : In CPython 3.13 and earlier, the tarfile module's data and
+│                       │       │                   tar extraction filters are vulnerable to crafted archives
+│                       │       │                   containing a hard link to a symbolic link. Such archives
+│                       │       │                   may cause extraction to modify the permissions or
+│                       │       │                   modification time of a file outside the destination
+│                       │       │                   directory, or expose the contents of that file within the
+│                       │       │                   extracted tree. 
+│                       │       ├ Severity        : HIGH 
+│                       │       ├ CweIDs           ─ [0]: CWE-59 
+│                       │       ├ VendorSeverity   ╭ bitnami: 3 
+│                       │       │                  ╰ redhat : 3 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:
+│                       │       │                  │         │            H/VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │       │                  │         ╰ V40Score : 8.4 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I
+│                       │       │                            │           :H/A:N 
+│                       │       │                            ╰ V3Score : 7.1 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/09/1
+│                       │       │                  │       4/27 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-82049 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/197663d63af
+│                       │       │                  │       ed27f66e10e23c194e8a634e60913 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/28f315486b3
+│                       │       │                  │       da0352b9a1de1c3c97f4127ba4771 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/5a57248b22a
+│                       │       │                  │       d3b9aafcaaadae2c304a1923daeca 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/b38be2e6cf9
+│                       │       │                  │       d989075ab73412c63e003ebad4ff3 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/b8f23e30709
+│                       │       │                  │       7552eaea2604383a12ab280520d0d 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/c66df4e7043
+│                       │       │                  │       5d257fd488b35ea129c6f317433a8 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/cc1689830c6
+│                       │       │                  │       b9aaddded2fb9f2fe8116867e2c0e 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/issues/157190 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/pull/157191 
+│                       │       │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/EFJWGAZJA56AKSBR2WHMHQZO7RRLZP
+│                       │       │                  │       RH/ 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-82049 
+│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-82049 
+│                       │       ├ PublishedDate   : 2026-09-14T19:17:50.927Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:44.52Z 
+│                       ├ [151] ╭ VulnerabilityID : CVE-2026-8328 
 │                       │       ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pycache-pyc0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x
@@ -9733,7 +11291,7 @@
 │                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-8328 
 │                       │       ├ PublishedDate   : 2026-05-13T21:16:50.167Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.95Z 
-│                       ├ [130] ╭ VulnerabilityID : CVE-2025-15366 
+│                       ├ [152] ╭ VulnerabilityID : CVE-2025-15366 
 │                       │       ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pycache-pyc0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x
@@ -9808,7 +11366,7 @@
 │                       │       │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2025-15366 
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:51.023Z 
 │                       │       ╰ LastModifiedDate: 2026-08-06T01:16:27.563Z 
-│                       ├ [131] ╭ VulnerabilityID : CVE-2026-0864 
+│                       ├ [153] ╭ VulnerabilityID : CVE-2026-0864 
 │                       │       ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pycache-pyc0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x
@@ -9877,7 +11435,7 @@
 │                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-0864 
 │                       │       ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
 │                       │       ╰ LastModifiedDate: 2026-08-18T17:52:03.23Z 
-│                       ├ [132] ╭ VulnerabilityID : CVE-2026-11972 
+│                       ├ [154] ╭ VulnerabilityID : CVE-2026-11972 
 │                       │       ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pycache-pyc0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x
@@ -9941,7 +11499,226 @@
 │                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-11972 
 │                       │       ├ PublishedDate   : 2026-06-23T23:16:49.033Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:51.78Z 
-│                       ├ [133] ╭ VulnerabilityID : CVE-2026-3276 
+│                       ├ [155] ╭ VulnerabilityID : CVE-2026-15806 
+│                       │       ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
+│                       │       ├ PkgName         : python3-pycache-pyc0 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x
+│                       │       │                  │       86_64&distro=3.24.0 
+│                       │       │                  ╰ UID : 4be41ea8f1de2d19 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-15806 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:201320a5e2189d0d5f8d7233e9e72869771d202d13178fe3ec46
+│                       │       │                   e0267a6cdc6b 
+│                       │       ├ Title           : python: Python: Information disclosure due to incorrect URL
+│                       │       │                    scheme matching 
+│                       │       ├ Description     : The HTTPPasswordMgr class in the urllib.request module,
+│                       │       │                   along with its subclasses HTTPPasswordMgrWithDefaultRealm
+│                       │       │                   and HTTPPasswordMgrWithPriorAuth, did not take the URL
+│                       │       │                   scheme into account when matching stored credentials
+│                       │       │                   against a requested URL. Credentials added for an https://
+│                       │       │                   URL were also used for requests to the same host over
+│                       │       │                   http://, so an attacker able to redirect or downgrade a
+│                       │       │                   client to plain HTTP (for example, via an HTTPS-to-HTTP
+│                       │       │                   redirect or an on-path position) could capture credentials
+│                       │       │                   in cleartext. Credentials added for http:// URLs could
+│                       │       │                   likewise be sent over https://.
+│                       │       │                   
+│                       │       │                   Credential matching is now scoped by URL scheme.
+│                       │       │                   Credentials registered with a URL that includes a scheme
+│                       │       │                   are only used for requests with the same scheme.
+│                       │       │                   Credentials registered with a bare authority (such as
+│                       │       │                   example.com or example.com:8080) continue to match any
+│                       │       │                   scheme, preserving compatibility with existing code,
+│                       │       │                   including proxy authentication.
+│                       │       │                   Users who cannot upgrade immediately can mitigate by
+│                       │       │                   ensuring that applications never make plain http://
+│                       │       │                   requests to hosts for which credentials are registered, for
+│                       │       │                    example by not following redirects to http:// URLs. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ╭ [0]: CWE-319 
+│                       │       │                  ╰ [1]: CWE-522 
+│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       │                  ╰ redhat : 2 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:P/VC:
+│                       │       │                  │         │            H/VI:N/VA:N/SC:N/SI:N/SA:N 
+│                       │       │                  │         ╰ V40Score : 6 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I
+│                       │       │                            │           :N/A:N 
+│                       │       │                            ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/08/1
+│                       │       │                  │       8/3 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-15806 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/641be42bb07
+│                       │       │                  │       921ba0f8bffe228b1dc706b092ef6 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/851cf9a7142
+│                       │       │                  │       ecbdd39f831055533f58284ad2bcc 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/95355ee3a8e
+│                       │       │                  │       1d3c3d4858d1973aa42a9b91a2801 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/a0d023fbd23
+│                       │       │                  │       773e24b35d8368789470e22cda5d8 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/a2773a34183
+│                       │       │                  │       b7d94a243bb98fd658926cc5348ce 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/a7bb524fef6
+│                       │       │                  │       1f77ede01f660ffbd591e1d5837ce 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/dac88d86150
+│                       │       │                  │       78c55f1304ea4c7a2d822700d4e5a 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/issues/155694 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/pull/155696 
+│                       │       │                  ├ [11]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/3OKPE5S75KDNA7FY7AI3PL2MXM2X5R
+│                       │       │                  │       B3/ 
+│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2026-15806 
+│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-15806 
+│                       │       ├ PublishedDate   : 2026-08-18T16:17:02.22Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:43.523Z 
+│                       ├ [156] ╭ VulnerabilityID : CVE-2026-17084 
+│                       │       ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
+│                       │       ├ PkgName         : python3-pycache-pyc0 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x
+│                       │       │                  │       86_64&distro=3.24.0 
+│                       │       │                  ╰ UID : 4be41ea8f1de2d19 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-17084 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:ff555bc4534ee5e4cad6901402c2f85400ff2b9e6ad42e105bb2
+│                       │       │                   448d2241b555 
+│                       │       ├ Title           : python: Python stringprep module: Incorrect domain name
+│                       │       │                   processing breaks IDNA interoperability 
+│                       │       ├ Description     : The "stringprep" module didn't process characters from RFC
+│                       │       │                   3454 tables 
+│                       │       │                   B.2 or B.3 correctly: the latest Unicode codepoint
+│                       │       │                   attributes were used 
+│                       │       │                   instead of the specified Unicode 3.2.0. This behavior would
+│                       │       │                    cause 
+│                       │       │                   mismatches when processing domain names using IDNA 2003
+│                       │       │                   (the "idna" 
+│                       │       │                   codec) and the in_table_b2() function of the "stringprep"
+│                       │       │                   module. This 
+│                       │       │                   only affects domain names containing characters that were
+│                       │       │                   not previously
+│                       │       │                    registered or had their Unicode attributes such as
+│                       │       │                   case-folding 
+│                       │       │                   behavior updated since Unicode 3.2.0. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-436 
+│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       │                  ╰ redhat : 2 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:P/VC:
+│                       │       │                  │         │            N/VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │       │                  │         ╰ V40Score : 6 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
+│                       │       │                            │           :H/A:N 
+│                       │       │                            ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/08/1
+│                       │       │                  │       8/2 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-17084 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/1e54caa0966
+│                       │       │                  │       78a38afcabecabb1ff72400dd6bae 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/5181304bcec
+│                       │       │                  │       9cfc3c15311741c9154cdff2e3fd7 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/69f92ebaec6
+│                       │       │                  │       81e9149dfd70fd02d4ed52d2a6296 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/7e109d084d5
+│                       │       │                  │       5e7eb25837a5f3b47ef9beee547bc 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/c016c2535b7
+│                       │       │                  │       4227fddf2cf7334dbfead6c930214 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/c28b121a4f0
+│                       │       │                  │       b975937c8b5a1b4934bb361d84296 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/c42790b34f6
+│                       │       │                  │       34051750e5da340d17c7da19e4784 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/commit/d397a4979cf
+│                       │       │                  │       c80a8cd6c73838aa10e9c8cf5ef72 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/issues/155292 
+│                       │       │                  ├ [11]: https://github.com/python/cpython/pull/155293 
+│                       │       │                  ├ [12]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/EUHHTC6EV7HCLSUHP25C5VHSV4V2MU
+│                       │       │                  │       ZN/ 
+│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-17084 
+│                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-17084 
+│                       │       ├ PublishedDate   : 2026-08-18T14:16:56.29Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:43.723Z 
+│                       ├ [157] ╭ VulnerabilityID : CVE-2026-19672 
+│                       │       ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
+│                       │       ├ PkgName         : python3-pycache-pyc0 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x
+│                       │       │                  │       86_64&distro=3.24.0 
+│                       │       │                  ╰ UID : 4be41ea8f1de2d19 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19672 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:d09bc89aa919fa315d17288ae2b3b178315108f6683ced8ad6c5
+│                       │       │                   8a2738103868 
+│                       │       ├ Title           : python: Python tarfile module: Directory traversal allows
+│                       │       │                   creation of empty directories outside extraction
+│                       │       │                   destination 
+│                       │       ├ Description     : The tarfile module's tar and data
+│                       │       │                    extraction filters created directories outside the
+│                       │       │                   destination for 
+│                       │       │                   members whose name leaves the destination and returns to
+│                       │       │                   it, such as ../evil/../dest/sub/file. The containment check
+│                       │       │                    used the resolved path, but intermediate directories were
+│                       │       │                   created from the name as given.
+│                       │       │                   
+│                       │       │                   Only
+│                       │       │                    empty directories are created outside the destination.
+│                       │       │                   Member contents 
+│                       │       │                   are still extracted inside it. To return to the destination
+│                       │       │                    the member's
+│                       │       │                    name must contain the destination directory's own final
+│                       │       │                   component, so 
+│                       │       │                   extraction into a secure randomised directory is not
+│                       │       │                   affected.
+│                       │       │                   This affects POSIX platforms only. On Windows, ..
+│                       │       │                   components are collapsed before the path reaches the
+│                       │       │                   filesystem, so the directories outside the destination are
+│                       │       │                   never created. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-22 
+│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       │                  ╰ redhat : 2 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:
+│                       │       │                  │         │            N/VI:N/VA:N/SC:N/SI:L/SA:N 
+│                       │       │                  │         ╰ V40Score : 6.3 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :L/A:N 
+│                       │       │                            ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/08/25
+│                       │       │                  │      /10 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-19672 
+│                       │       │                  ├ [2]: https://github.com/python/cpython/pull/156000 
+│                       │       │                  ├ [3]: https://mail.python.org/archives/list/security-announ
+│                       │       │                  │      ce@python.org/thread/J2WT2ALRWEXQJOB3C7Q2HYWUXP3CINWO
+│                       │       │                  │      / 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-19672 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-19672 
+│                       │       ├ PublishedDate   : 2026-08-19T16:17:06.593Z 
+│                       │       ╰ LastModifiedDate: 2026-08-28T21:16:15.74Z 
+│                       ├ [158] ╭ VulnerabilityID : CVE-2026-3276 
 │                       │       ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pycache-pyc0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x
@@ -10012,7 +11789,7 @@
 │                       │       │                          03/15 
 │                       │       ├ PublishedDate   : 2026-06-03T16:16:29.253Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.847Z 
-│                       ├ [134] ╭ VulnerabilityID : CVE-2026-4360 
+│                       ├ [159] ╭ VulnerabilityID : CVE-2026-4360 
 │                       │       ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pycache-pyc0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x
@@ -10082,7 +11859,7 @@
 │                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-4360 
 │                       │       ├ PublishedDate   : 2026-06-30T15:16:57.193Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.42Z 
-│                       ├ [135] ╭ VulnerabilityID : CVE-2026-7774 
+│                       ├ [160] ╭ VulnerabilityID : CVE-2026-7774 
 │                       │       ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pycache-pyc0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x
@@ -10152,7 +11929,7 @@
 │                       │       │                          04/9 
 │                       │       ├ PublishedDate   : 2026-06-04T16:16:42.103Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.783Z 
-│                       ├ [136] ╭ VulnerabilityID : CVE-2026-9669 
+│                       ├ [161] ╭ VulnerabilityID : CVE-2026-9669 
 │                       │       ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pycache-pyc0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x
@@ -10220,7 +11997,69 @@
 │                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-9669 
 │                       │       ├ PublishedDate   : 2026-06-08T23:17:25.17Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:56.087Z 
-│                       ├ [137] ╭ VulnerabilityID : CVE-2026-6879 
+│                       ├ [162] ╭ VulnerabilityID : CVE-2026-15310 
+│                       │       ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
+│                       │       ├ PkgName         : python3-pycache-pyc0 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x
+│                       │       │                  │       86_64&distro=3.24.0 
+│                       │       │                  ╰ UID : 4be41ea8f1de2d19 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-15310 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:551bd26f15b812f6818b3233f18999288fe8b75456f65ec9b8f2
+│                       │       │                   e2fcb026bb02 
+│                       │       ├ Title           : When decompressing crafted zip files using the
+│                       │       │                   bzip/LZMA/Zstandard   c ... 
+│                       │       ├ Description     : When decompressing crafted zip files using the
+│                       │       │                   bzip/LZMA/Zstandard 
+│                       │       │                   
+│                       │       │                   compressions, Python could use an attacker-controlled size
+│                       │       │                   to 
+│                       │       │                   pre-allocate memory, possibly resulting in memory
+│                       │       │                   exhaustion. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-400 
+│                       │       ├ VendorSeverity   ─ bitnami: 1 
+│                       │       ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:A/VC:
+│                       │       │                            │            N/VI:N/VA:L/SC:N/SI:N/SA:N 
+│                       │       │                            ╰ V40Score : 2.1 
+│                       │       ├ References       ╭ [0] : https://github.com/python/cpython/commit/09a2e7e6678
+│                       │       │                  │       b4f65449e7ad8f112c48f944591e2 
+│                       │       │                  ├ [1] : https://github.com/python/cpython/commit/1b424c0178a
+│                       │       │                  │       01e155fd0267dc28a8fc1159b33a8 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/31980e84b9a
+│                       │       │                  │       708424a0a1dfecde3fc991e313f89 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/6257029de42
+│                       │       │                  │       ef89b67f3d20137de87d43e197530 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/9d167992b59
+│                       │       │                  │       cf5e23c66b9ed742b13f5925f7d70 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/c2bfbcdd1a1
+│                       │       │                  │       1690507a10bc0998f95b8dc6b6fac 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/dcdd406ddbf
+│                       │       │                  │       c4cb29b24c3df17cbabe21d316ce1 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/e2311cfb3dd
+│                       │       │                  │       518f008f312fe0631f4f7490d237a 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/commit/f507e6946a3
+│                       │       │                  │       194e83e1d7b8ee6e14567175e46de 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/commit/f897dbf2f36
+│                       │       │                  │       a5935700b7c2d94d4681d2136b7d4 
+│                       │       │                  ├ [10]: https://github.com/python/cpython/issues/156002 
+│                       │       │                  ├ [11]: https://github.com/python/cpython/pull/156003 
+│                       │       │                  ├ [12]: https://mail.python.org/archives/list/security-annou
+│                       │       │                  │       nce@python.org/thread/YUHXURX2WZGKGNA4ANYBQS2VZRYQ5J
+│                       │       │                  │       NK/ 
+│                       │       │                  ╰ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-15310 
+│                       │       ├ PublishedDate   : 2026-08-25T15:16:30.027Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:43.337Z 
+│                       ├ [163] ╭ VulnerabilityID : CVE-2026-6879 
 │                       │       ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
 │                       │       ├ PkgName         : python3-pycache-pyc0 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x
@@ -10284,7 +12123,71 @@
 │                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-6879 
 │                       │       ├ PublishedDate   : 2026-07-28T15:17:51.377Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.457Z 
-│                       ├ [138] ╭ VulnerabilityID : CVE-2026-76642 
+│                       ├ [164] ╭ VulnerabilityID : CVE-2026-19445 
+│                       │       ├ PkgID           : python3-pycache-pyc0@3.14.5-r2 
+│                       │       ├ PkgName         : python3-pycache-pyc0 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.5-r2?arch=x
+│                       │       │                  │       86_64&distro=3.24.0 
+│                       │       │                  ╰ UID : 4be41ea8f1de2d19 
+│                       │       ├ InstalledVersion: 3.14.5-r2 
+│                       │       ├ FixedVersion    : 3.14.8-r0 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab995
+│                       │       │                  │         25b0eb169f0c02b0a6e9f 
+│                       │       │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007
+│                       │       │                            011b652f34a62a402adc5 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19445 
+│                       │       ├ DataSource       ╭ ID  : alpine 
+│                       │       │                  ├ Name: Alpine Secdb 
+│                       │       │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │       ├ Fingerprint     : sha256:12c015b878c0258616173fadb3f7240e14c117be85562be71d11
+│                       │       │                   3e038a6e5b0c 
+│                       │       ├ Title           : A remote, unauthenticated TLS client can make a server
+│                       │       │                   crash or call t ... 
+│                       │       ├ Description     : A remote, unauthenticated TLS client can make a server
+│                       │       │                   crash or call
+│                       │       │                   through a freed pointer if its sni_callback assigns a
+│                       │       │                   different context to
+│                       │       │                   SSLSocket.context (the documented way to select a
+│                       │       │                   certificate per server
+│                       │       │                   name) and nothing else keeps the original ssl.SSLContext
+│                       │       │                   alive. Typical
+│                       │       │                   cases are servers that create an SSLContext per connection
+│                       │       │                   or replace it
+│                       │       │                   while connections are open; servers that wrap their
+│                       │       │                   listening socket with
+│                       │       │                   it are not affected.
+│                       │       │                   
+│                       │       │                   Mitigation: keep a reference to every SSLContext that sets
+│                       │       │                   sni_callback for
+│                       │       │                   the lifetime of the server. TLS clients are not affected.[
+│                       │       │                   m 
+│                       │       ├ Severity        : UNKNOWN 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/09/3
+│                       │       │                  │       0/17 
+│                       │       │                  ├ [1] : https://github.com/python/cpython/commit/34a53dce817
+│                       │       │                  │       4da2fceb12fe084a4def02a10053d 
+│                       │       │                  ├ [2] : https://github.com/python/cpython/commit/46133cd57d3
+│                       │       │                  │       09652139ada74014aca7665ac552b 
+│                       │       │                  ├ [3] : https://github.com/python/cpython/commit/63fab143d94
+│                       │       │                  │       cafae71850831acfb52041ba44af7 
+│                       │       │                  ├ [4] : https://github.com/python/cpython/commit/b12968cefe6
+│                       │       │                  │       9ca1dcb8606c832ff73ee7dbf4ba8 
+│                       │       │                  ├ [5] : https://github.com/python/cpython/commit/cd7e51e7d45
+│                       │       │                  │       63866fbaa1e2521ae69b45daf3698 
+│                       │       │                  ├ [6] : https://github.com/python/cpython/commit/d8717ed0171
+│                       │       │                  │       7a9641686e6e6f83f0ab8af235e2c 
+│                       │       │                  ├ [7] : https://github.com/python/cpython/commit/ec44b5a3258
+│                       │       │                  │       cbda947d5e07242ee562ed05ef24b 
+│                       │       │                  ├ [8] : https://github.com/python/cpython/issues/156293 
+│                       │       │                  ├ [9] : https://github.com/python/cpython/pull/158504 
+│                       │       │                  ╰ [10]: https://mail.python.org/archives/list/security-annou
+│                       │       │                          nce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPP
+│                       │       │                          S3/ 
+│                       │       ├ PublishedDate   : 2026-09-30T17:16:45.72Z 
+│                       │       ╰ LastModifiedDate: 2026-10-02T01:16:43.903Z 
+│                       ├ [165] ╭ VulnerabilityID : CVE-2026-76642 
 │                       │       ├ PkgID           : util-linux-doc@2.42.2-r0 
 │                       │       ├ PkgName         : util-linux-doc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/util-linux-doc@2.42.2-r0?arch=x86_64&
@@ -10341,7 +12244,7 @@
 │                       │       │                          ount-privilege-escalation-via-failed-mount-helper 
 │                       │       ├ PublishedDate   : 2026-09-03T13:06:08.44Z 
 │                       │       ╰ LastModifiedDate: 2026-09-24T20:28:01.78Z 
-│                       ├ [139] ╭ VulnerabilityID : CVE-2026-78408 
+│                       ├ [166] ╭ VulnerabilityID : CVE-2026-78408 
 │                       │       ├ PkgID           : util-linux-doc@2.42.2-r0 
 │                       │       ├ PkgName         : util-linux-doc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/util-linux-doc@2.42.2-r0?arch=x86_64&
@@ -10389,7 +12292,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-78408 
 │                       │       ├ PublishedDate   : 2026-09-02T16:17:23.687Z 
 │                       │       ╰ LastModifiedDate: 2026-09-05T14:17:23.727Z 
-│                       ├ [140] ╭ VulnerabilityID : CVE-2026-78409 
+│                       ├ [167] ╭ VulnerabilityID : CVE-2026-78409 
 │                       │       ├ PkgID           : util-linux-doc@2.42.2-r0 
 │                       │       ├ PkgName         : util-linux-doc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/util-linux-doc@2.42.2-r0?arch=x86_64&
@@ -10432,7 +12335,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-78409 
 │                       │       ├ PublishedDate   : 2026-09-02T16:17:23.833Z 
 │                       │       ╰ LastModifiedDate: 2026-09-03T18:12:56.407Z 
-│                       ╰ [141] ╭ VulnerabilityID : CVE-2026-78410 
+│                       ╰ [168] ╭ VulnerabilityID : CVE-2026-78410 
 │                               ├ PkgID           : util-linux-doc@2.42.2-r0 
 │                               ├ PkgName         : util-linux-doc 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/util-linux-doc@2.42.2-r0?arch=x86_64&
@@ -10482,7 +12385,161 @@
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
       ├ Packages        
-      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2026-68497 
+      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2026-89407 
+                        │     ├ VendorIDs        ─ [0]: GHSA-p6pp-m3f8-5c89 
+                        │     ├ PkgName         : com.fasterxml.jackson.core:jackson-core 
+                        │     ├ PkgPath         : openaf/openaf.jar 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.22.1 
+                        │     │                  ╰ UID : e24a19b34bffd75d 
+                        │     ├ InstalledVersion: 2.22.1 
+                        │     ├ FixedVersion    : 2.18.11, 2.21.7, 2.22.3 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525
+                        │     │                  │         b0eb169f0c02b0a6e9f 
+                        │     │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c09800701
+                        │     │                            1b652f34a62a402adc5 
+                        │     ├ SeveritySource  : ghsa 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-89407 
+                        │     ├ DataSource       ╭ ID  : ghsa 
+                        │     │                  ├ Name: GitHub Security Advisory Maven 
+                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+                        │     │                          osystem%3Amaven 
+                        │     ├ Fingerprint     : sha256:3f08e4920a81dc4010ba4098c8d90b574e01cd593c30e40ead1c67
+                        │     │                   26eb90e34e 
+                        │     ├ Title           : com.fasterxml.jackson/jackson-core:
+                        │     │                   tools.jackson.core/jackson-core: Jackson-core: Denial of
+                        │     │                   Service via regular expression backtracking 
+                        │     ├ Description     : NumberInput.looksLikeValidNumber() in FasterXML jackson-core
+                        │     │                   pre-validates "stringified numbers" with two regular
+                        │     │                   expressions: PATTERN_FLOAT
+                        │     │                   ([+-]?[0-9]*[\.]?[0-9]+([eE][+-]?[0-9]+)?), present since
+                        │     │                   2.17.0, and PATTERN_FLOAT_TRAILING_DOT, added in 2.17.2.
+                        │     │                   PATTERN_FLOAT places adjacent quantifiers over the same
+                        │     │                   character class -- an optional [0-9]* run, an optional dot,
+                        │     │                   then a required [0-9]+ run -- so input that ultimately fails
+                        │     │                   to match forces Java's backtracking engine to retry every
+                        │     │                   possible split point of the digit run. 
+                        │     │                   
+                        │     │                   Matching cost therefore grows with the square of the input
+                        │     │                   length. 
+                        │     │                   An attacker who can supply JSON that an application
+                        │     │                   deserializes into a numeric target type reaches this method
+                        │     │                   through jackson-databind's default String-to-number coercion
+                        │     │                   (StdDeserializer and NumberDeserializers for BigDecimal,
+                        │     │                   BigInteger, Double and Float). 
+                        │     │                   Because StreamReadConstraints.maxStringLength defaults to
+                        │     │                   20,000,000 characters, no constraint bounds the input before
+                        │     │                   it reaches the regex. 
+                        │     │                   Testing by the reporter confirmed O(n^2) growth across five
+                        │     │                   consecutive input-size doublings, with a single
+                        │     │                   160,000-character string consuming roughly 74 seconds in one
+                        │     │                   call; a small number of concurrent requests of ordinary body
+                        │     │                   size can therefore exhaust a server's request-handling thread
+                        │     │                    pool. 
+                        │     │                   The affected method does not exist before 2.17.0, so 2.16.x
+                        │     │                   and earlier releases are not affected. 
+                        │     │                   The fix replaces both regular expressions with a hand-rolled
+                        │     │                   single-pass scan. 
+                        │     ├ Severity        : HIGH 
+                        │     ├ CweIDs           ╭ [0]: CWE-400 
+                        │     │                  ╰ [1]: CWE-1333 
+                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     │                  ╰ redhat: 2 
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+                        │     │                  │        │           A:H 
+                        │     │                  │        ╰ V3Score : 7.5 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
+                        │     │                           │           A:H 
+                        │     │                           ╰ V3Score : 5.9 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-89407 
+                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-core 
+                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-core/commit/731e79
+                        │     │                  │      4f62623aa0d86ced52490166be903fbb1d 
+                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-core/commit/e7acd6
+                        │     │                  │      4cc99bd346704423dc2bfea1ab0a08ddff 
+                        │     │                  ├ [4]: https://github.com/FasterXML/jackson-core/issues/1649 
+                        │     │                  ├ [5]: https://github.com/FasterXML/jackson-core/pull/1650 
+                        │     │                  ├ [6]: https://github.com/FasterXML/jackson-core/pull/1701 
+                        │     │                  ├ [7]: https://github.com/FasterXML/jackson-core/security/advi
+                        │     │                  │      sories/GHSA-p6pp-m3f8-5c89 
+                        │     │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2026-89407 
+                        │     │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-89407 
+                        │     ├ PublishedDate   : 2026-09-22T15:17:21.053Z 
+                        │     ╰ LastModifiedDate: 2026-09-22T20:00:03.713Z 
+                        ├ [1] ╭ VulnerabilityID : CVE-2026-89425 
+                        │     ├ VendorIDs        ─ [0]: GHSA-7hhh-6rmp-j9qf 
+                        │     ├ PkgName         : com.fasterxml.jackson.core:jackson-core 
+                        │     ├ PkgPath         : openaf/openaf.jar 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.22.1 
+                        │     │                  ╰ UID : e24a19b34bffd75d 
+                        │     ├ InstalledVersion: 2.22.1 
+                        │     ├ FixedVersion    : 2.21.7, 2.22.3, 2.18.11 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525
+                        │     │                  │         b0eb169f0c02b0a6e9f 
+                        │     │                  ╰ DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c09800701
+                        │     │                            1b652f34a62a402adc5 
+                        │     ├ SeveritySource  : ghsa 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-89425 
+                        │     ├ DataSource       ╭ ID  : ghsa 
+                        │     │                  ├ Name: GitHub Security Advisory Maven 
+                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+                        │     │                          osystem%3Amaven 
+                        │     ├ Fingerprint     : sha256:b399ed8728ea0f36ce8f56e7e571eeb3823cde864dc565d16fa5aa
+                        │     │                   36d0a7b0f1 
+                        │     ├ Title           : com.fasterxml.jackson.core/jackson-core: Jackson-core: Denial
+                        │     │                    of Service via unbounded StringBuilder growth during
+                        │     │                   malformed token processing 
+                        │     ├ Description     : UTF8DataInputJsonParser._reportInvalidToken() in FasterXML
+                        │     │                   jackson-core builds the offending-token text for its error
+                        │     │                   message by appending Java identifier characters to a
+                        │     │                   StringBuilder in a loop that has no upper bound. Unlike the
+                        │     │                   three sibling parser implementations, including
+                        │     │                   UTF8StreamJsonParser, it never consults
+                        │     │                   ErrorReportConfiguration.getMaxErrorTokenLength() (default
+                        │     │                   256). A malformed token supplied to a parser created through
+                        │     │                   JsonFactory.createParser(DataInput) is therefore accumulated
+                        │     │                   in full. No StreamReadConstraints setting mitigates this:
+                        │     │                   maxDocumentLength cannot be applied to DataInput sources at
+                        │     │                   all, and maxStringLength does not cover this path because the
+                        │     │                    accumulation bypasses ReadConstrainedTextBuffer. The
+                        │     │                   reporter measured a 20,000,109-character exception message
+                        │     │                   from a 20-million-character malformed token on the DataInput
+                        │     │                   path, against 367 characters for identical input on the
+                        │     │                   InputStream path. Scaling the payload drives the
+                        │     │                   StringBuilder, which also incurs byte-to-char expansion and
+                        │     │                   internal array doubling, to many times the raw payload size
+                        │     │                   and can trigger OutOfMemoryError for the whole JVM.
+                        │     │                   UTF8DataInputJsonParser was introduced in 2.8.0 together with
+                        │     │                    createParser(DataInput); releases before 2.8.0 do not
+                        │     │                   contain the affected class. 
+                        │     ├ Severity        : HIGH 
+                        │     ├ CweIDs           ╭ [0]: CWE-400 
+                        │     │                  ╰ [1]: CWE-770 
+                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     │                  ╰ redhat: 3 
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+                        │     │                  │        │           A:H 
+                        │     │                  │        ╰ V3Score : 7.5 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+                        │     │                           │           A:H 
+                        │     │                           ╰ V3Score : 7.5 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-89425 
+                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-core 
+                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-core/commit/211cf2
+                        │     │                  │      c5d91abbec38067f37efc1363cd4e88ee3 
+                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-core/pull/1698 
+                        │     │                  ├ [4]: https://github.com/FasterXML/jackson-core/releases/tag/
+                        │     │                  │      jackson-core-2.18.11 
+                        │     │                  ├ [5]: https://github.com/FasterXML/jackson-core/releases/tag/
+                        │     │                  │      jackson-core-3.2.3 
+                        │     │                  ├ [6]: https://github.com/FasterXML/jackson-core/security/advi
+                        │     │                  │      sories/GHSA-7hhh-6rmp-j9qf 
+                        │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-89425 
+                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-89425 
+                        │     ├ PublishedDate   : 2026-09-23T03:17:04.357Z 
+                        │     ╰ LastModifiedDate: 2026-09-24T20:43:32.537Z 
+                        ├ [2] ╭ VulnerabilityID : CVE-2026-68497 
                         │     ├ VendorIDs        ─ [0]: GHSA-q4xh-88c3-wmh7 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
                         │     ├ PkgPath         : openaf/openaf.jar 
@@ -10569,7 +12626,7 @@
                         │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2026-68497 
                         │     ├ PublishedDate   : 2026-09-11T16:17:39.61Z 
                         │     ╰ LastModifiedDate: 2026-09-18T19:34:36.657Z 
-                        ├ [1] ╭ VulnerabilityID : CVE-2026-91776 
+                        ├ [3] ╭ VulnerabilityID : CVE-2026-91776 
                         │     ├ VendorIDs        ─ [0]: GHSA-wv8q-qhhj-9h54 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
                         │     ├ PkgPath         : openaf/openaf.jar 
@@ -10591,8 +12648,9 @@
                         │     │                          osystem%3Amaven 
                         │     ├ Fingerprint     : sha256:fea6782e2c67f04cd1e6cb4e380da8ea7edab27041590f092509fb
                         │     │                   665d7ca86a 
-                        │     ├ Title           : TypeDeserializerBase._findDeserializer() in FasterXML
-                        │     │                   jackson-databind ... 
+                        │     ├ Title           : jackson-databind: com.fasterxml.jackson/jackson-core:
+                        │     │                   jackson-databind: Denial of Service via unbounded cache
+                        │     │                   growth in TypeDeserializerBase 
                         │     ├ Description     : TypeDeserializerBase._findDeserializer() in FasterXML
                         │     │                   jackson-databind caches the resolved deserializer under the
                         │     │                   raw, attacker-supplied type ID. When name-based polymorphism
@@ -10616,29 +12674,37 @@
                         │     │                   of cached entries and the length of a cacheable type ID. 
                         │     ├ Severity        : HIGH 
                         │     ├ CweIDs           ─ [0]: CWE-400 
-                        │     ├ VendorSeverity   ─ ghsa: 3 
-                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
-                        │     │                         ╰ V3Score : 7.5 
-                        │     ├ References       ╭ [0]: https://github.com/FasterXML/jackson-databind 
-                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind/commit/28
-                        │     │                  │      70d1d6dc1b7e1c07ee11dd5b04ab71cddbb577 
-                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/issues/6203 
-                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-databind/releases/
-                        │     │                  │      tag/jackson-databind-2.18.11 
-                        │     │                  ├ [4]: https://github.com/FasterXML/jackson-databind/releases/
-                        │     │                  │      tag/jackson-databind-2.21.7 
-                        │     │                  ├ [5]: https://github.com/FasterXML/jackson-databind/releases/
-                        │     │                  │      tag/jackson-databind-2.22.3 
-                        │     │                  ├ [6]: https://github.com/FasterXML/jackson-databind/releases/
-                        │     │                  │      tag/jackson-databind-3.1.7 
-                        │     │                  ├ [7]: https://github.com/FasterXML/jackson-databind/releases/
-                        │     │                  │      tag/jackson-databind-3.2.3 
-                        │     │                  ├ [8]: https://github.com/FasterXML/jackson-databind/security/
-                        │     │                  │      advisories/GHSA-wv8q-qhhj-9h54 
-                        │     │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-91776 
+                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     │                  ╰ redhat: 3 
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+                        │     │                  │        │           A:H 
+                        │     │                  │        ╰ V3Score : 7.5 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+                        │     │                           │           A:H 
+                        │     │                           ╰ V3Score : 7.5 
+                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-91776 
+                        │     │                  ├ [1] : https://github.com/FasterXML/jackson-databind 
+                        │     │                  ├ [2] : https://github.com/FasterXML/jackson-databind/commit/2
+                        │     │                  │       870d1d6dc1b7e1c07ee11dd5b04ab71cddbb577 
+                        │     │                  ├ [3] : https://github.com/FasterXML/jackson-databind/issues/6
+                        │     │                  │       203 
+                        │     │                  ├ [4] : https://github.com/FasterXML/jackson-databind/releases
+                        │     │                  │       /tag/jackson-databind-2.18.11 
+                        │     │                  ├ [5] : https://github.com/FasterXML/jackson-databind/releases
+                        │     │                  │       /tag/jackson-databind-2.21.7 
+                        │     │                  ├ [6] : https://github.com/FasterXML/jackson-databind/releases
+                        │     │                  │       /tag/jackson-databind-2.22.3 
+                        │     │                  ├ [7] : https://github.com/FasterXML/jackson-databind/releases
+                        │     │                  │       /tag/jackson-databind-3.1.7 
+                        │     │                  ├ [8] : https://github.com/FasterXML/jackson-databind/releases
+                        │     │                  │       /tag/jackson-databind-3.2.3 
+                        │     │                  ├ [9] : https://github.com/FasterXML/jackson-databind/security
+                        │     │                  │       /advisories/GHSA-wv8q-qhhj-9h54 
+                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-91776 
+                        │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2026-91776 
                         │     ├ PublishedDate   : 2026-09-23T03:17:04.62Z 
                         │     ╰ LastModifiedDate: 2026-09-24T20:43:32.537Z 
-                        ├ [2] ╭ VulnerabilityID : CVE-2026-91777 
+                        ├ [4] ╭ VulnerabilityID : CVE-2026-91777 
                         │     ├ VendorIDs        ─ [0]: GHSA-cxp5-3px4-pw24 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
                         │     ├ PkgPath         : openaf/openaf.jar 
@@ -10710,7 +12776,7 @@
                         │     │                  ╰ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-91777 
                         │     ├ PublishedDate   : 2026-09-23T03:17:04.783Z 
                         │     ╰ LastModifiedDate: 2026-09-24T20:43:32.537Z 
-                        ├ [3] ╭ VulnerabilityID : CVE-2026-19032 
+                        ├ [5] ╭ VulnerabilityID : CVE-2026-19032 
                         │     ├ VendorIDs        ─ [0]: GHSA-wjgm-6hv5-3cvf 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
                         │     ├ PkgPath         : openaf/openaf.jar 
@@ -10795,7 +12861,7 @@
                         │     │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-19032 
                         │     ├ PublishedDate   : 2026-09-01T04:18:00.433Z 
                         │     ╰ LastModifiedDate: 2026-09-08T19:29:32.2Z 
-                        ╰ [4] ╭ VulnerabilityID : CVE-2026-83557 
+                        ╰ [6] ╭ VulnerabilityID : CVE-2026-83557 
                               ├ VendorIDs        ─ [0]: GHSA-gx83-3vf8-gh7j 
                               ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
                               ├ PkgPath         : openaf/openaf.jar 
