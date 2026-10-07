@@ -180,15 +180,15 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/06/10/2
-    - https://access.redhat.com/errata/RHSA-2026:49520
+    - https://access.redhat.com/errata/RHSA-2026:49836
     - https://access.redhat.com/errata/RHSA-2026:50108
     - https://access.redhat.com/security/cve/CVE-2026-10846
     - https://bugzilla.redhat.com/2487437
     - https://bugzilla.redhat.com/show_bug.cgi?id=2487437
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-10846
-    - https://errata.almalinux.org/9/ALSA-2026-50108.html
-    - https://errata.rockylinux.org/RLSA-2026:49520
+    - https://errata.almalinux.org/10/ALSA-2026-49836.html
+    - https://errata.rockylinux.org/RLSA-2026:50108
     - https://linux.oracle.com/cve/CVE-2026-10846.html
     - https://linux.oracle.com/errata/ELSA-2026-50108-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-10846
@@ -964,6 +964,47 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-66382
     PublishedDate: '2025-11-28T07:15:57.9Z'
     LastModifiedDate: '2026-06-17T09:56:45.24Z'
+  - VulnerabilityID: CVE-2026-95512
+    PkgID: libfreetype6@2.14.2+dfsg-1ubuntu0.1
+    PkgName: libfreetype6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libfreetype6@2.14.2%2Bdfsg-1ubuntu0.1?arch=amd64&distro=ubuntu-26.04
+      UID: 7a23c480f5933004
+    InstalledVersion: 2.14.2+dfsg-1ubuntu0.1
+    FixedVersion: 2.14.2+dfsg-1ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ed8ec2a903f046122abfc23d4b378816841995eda048161862ac1075a25b7753
+      DiffID: sha256:6cd9129fd4d90a1f071b2804eaf271ff3eaf83273876931e4152b65a3cf4fa38
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-95512
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:9fc7d5d62bc50fbaaa3ead504878f1c15a649169d0e763523038da20d5fff12a
+    Title: 'freetype: FreeType: Denial of Service via repeated subroutine allocations in CID font loader'
+    Description: A flaw was found in FreeType, specifically within its CID font loader. A remote attacker could exploit this vulnerability by tricking a user into opening content that embeds or references a specially crafted CID-keyed font. This crafted font can cause repeated allocations and decryptions of subroutine data across multiple font dictionaries, leading to excessive memory and CPU consumption. This can result in a denial of service (DoS) for the application or service processing the font, potentially causing it to hang or terminate.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:74952
+    - https://access.redhat.com/security/cve/CVE-2026-95512
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2462295
+    - https://gitlab.freedesktop.org/freetype/freetype/-/commit/f3ca71c9900fe860849b3163a6e2c1e765b291d9
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-95512
+    - https://ubuntu.com/security/notices/USN-8881-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-95512
+    PublishedDate: '2026-10-02T09:16:45.3Z'
+    LastModifiedDate: '2026-10-06T03:17:09.75Z'
   - VulnerabilityID: CVE-2026-86469
     PkgID: libglib2.0-0t64@2.88.0-1ubuntu0.1
     PkgName: libglib2.0-0t64
@@ -1584,15 +1625,15 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/06/10/2
-    - https://access.redhat.com/errata/RHSA-2026:49520
+    - https://access.redhat.com/errata/RHSA-2026:49836
     - https://access.redhat.com/errata/RHSA-2026:50108
     - https://access.redhat.com/security/cve/CVE-2026-10846
     - https://bugzilla.redhat.com/2487437
     - https://bugzilla.redhat.com/show_bug.cgi?id=2487437
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-10846
-    - https://errata.almalinux.org/9/ALSA-2026-50108.html
-    - https://errata.rockylinux.org/RLSA-2026:49520
+    - https://errata.almalinux.org/10/ALSA-2026-49836.html
+    - https://errata.rockylinux.org/RLSA-2026:50108
     - https://linux.oracle.com/cve/CVE-2026-10846.html
     - https://linux.oracle.com/errata/ELSA-2026-50108-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-10846
@@ -1698,8 +1739,8 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-13757
-    - https://errata.almalinux.org/9/ALSA-2026-49667.html
-    - https://errata.rockylinux.org/RLSA-2026:49668
+    - https://errata.almalinux.org/10/ALSA-2026-49668.html
+    - https://errata.rockylinux.org/RLSA-2026:49667
     - https://github.com/advisories/GHSA-p2wm-69qx-x25w
     - https://linux.oracle.com/cve/CVE-2026-13757.html
     - https://linux.oracle.com/errata/ELSA-2026-49668.html
@@ -1989,7 +2030,8 @@
       PURL: pkg:deb/ubuntu/librsvg2-2@2.61.3%2Bdfsg-3?arch=amd64&distro=ubuntu-26.04
       UID: db981aaa7debfb3
     InstalledVersion: 2.61.3+dfsg-3
-    Status: affected
+    FixedVersion: 2.61.3+dfsg-3ubuntu0.1
+    Status: fixed
     Layer:
       Digest: sha256:ed8ec2a903f046122abfc23d4b378816841995eda048161862ac1075a25b7753
       DiffID: sha256:6cd9129fd4d90a1f071b2804eaf271ff3eaf83273876931e4152b65a3cf4fa38
@@ -2019,6 +2061,7 @@
     - https://gitlab.gnome.org/GNOME/librsvg/-/work_items/1241
     - https://nvd.nist.gov/vuln/detail/CVE-2026-96889
     - https://rustsec.org/advisories/RUSTSEC-2026-0305.html
+    - https://ubuntu.com/security/notices/USN-8891-1
     - https://www.cve.org/CVERecord?id=CVE-2026-96889
     PublishedDate: '2026-09-23T20:17:27.587Z'
     LastModifiedDate: '2026-09-25T18:17:34.24Z'
@@ -2029,7 +2072,8 @@
       PURL: pkg:deb/ubuntu/librsvg2-common@2.61.3%2Bdfsg-3?arch=amd64&distro=ubuntu-26.04
       UID: d32268c7c3dcebb7
     InstalledVersion: 2.61.3+dfsg-3
-    Status: affected
+    FixedVersion: 2.61.3+dfsg-3ubuntu0.1
+    Status: fixed
     Layer:
       Digest: sha256:ed8ec2a903f046122abfc23d4b378816841995eda048161862ac1075a25b7753
       DiffID: sha256:6cd9129fd4d90a1f071b2804eaf271ff3eaf83273876931e4152b65a3cf4fa38
@@ -2059,6 +2103,7 @@
     - https://gitlab.gnome.org/GNOME/librsvg/-/work_items/1241
     - https://nvd.nist.gov/vuln/detail/CVE-2026-96889
     - https://rustsec.org/advisories/RUSTSEC-2026-0305.html
+    - https://ubuntu.com/security/notices/USN-8891-1
     - https://www.cve.org/CVERecord?id=CVE-2026-96889
     PublishedDate: '2026-09-23T20:17:27.587Z'
     LastModifiedDate: '2026-09-25T18:17:34.24Z'
@@ -2553,7 +2598,6 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:20145
     - https://access.redhat.com/errata/RHSA-2025:20559
     - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
@@ -2561,7 +2605,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/9/ALSA-2025-20559.html
-    - https://errata.rockylinux.org/RLSA-2025:20145
+    - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -2606,7 +2650,6 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:20145
     - https://access.redhat.com/errata/RHSA-2025:20559
     - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
@@ -2614,7 +2657,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/9/ALSA-2025-20559.html
-    - https://errata.rockylinux.org/RLSA-2025:20145
+    - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -3638,17 +3681,15 @@
     - https://bugzilla.redhat.com/2455360
     - https://bugzilla.redhat.com/2509735
     - https://bugzilla.redhat.com/2509843
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2379592
     - https://bugzilla.redhat.com/show_bug.cgi?id=2455360
     - https://bugzilla.redhat.com/show_bug.cgi?id=2509735
     - https://bugzilla.redhat.com/show_bug.cgi?id=2509843
     - https://creativecommons.org/licenses/by/4.0/
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-45582
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18477
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18508
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5704
-    - https://errata.almalinux.org/9/ALSA-2026-61581.html
-    - https://errata.rockylinux.org/RLSA-2026:70390
+    - https://errata.almalinux.org/10/ALSA-2026-61586.html
+    - https://errata.rockylinux.org/RLSA-2026:61581
     - https://linux.oracle.com/cve/CVE-2026-18477.html
     - https://linux.oracle.com/errata/ELSA-2026-70390.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18477
@@ -3699,17 +3740,15 @@
     - https://bugzilla.redhat.com/2455360
     - https://bugzilla.redhat.com/2509735
     - https://bugzilla.redhat.com/2509843
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2379592
     - https://bugzilla.redhat.com/show_bug.cgi?id=2455360
     - https://bugzilla.redhat.com/show_bug.cgi?id=2509735
     - https://bugzilla.redhat.com/show_bug.cgi?id=2509843
     - https://creativecommons.org/licenses/by/4.0/
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-45582
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18477
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18508
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5704
-    - https://errata.almalinux.org/9/ALSA-2026-61581.html
-    - https://errata.rockylinux.org/RLSA-2026:70390
+    - https://errata.almalinux.org/10/ALSA-2026-61586.html
+    - https://errata.rockylinux.org/RLSA-2026:61581
     - https://linux.oracle.com/cve/CVE-2026-18508.html
     - https://linux.oracle.com/errata/ELSA-2026-70390.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18508
@@ -4030,7 +4069,7 @@
       cbl-mariner: 2
       julia: 2
       nvd: 2
-      photon: 2
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
