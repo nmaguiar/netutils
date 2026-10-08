@@ -49,28 +49,68 @@
 │                       │     │                         ough-2.8.5-integer-overflow-in-expat-realloc 
 │                       │     ├ PublishedDate   : 2026-09-29T17:17:06.98Z 
 │                       │     ╰ LastModifiedDate: 2026-09-29T21:32:59.833Z 
-│                       ╰ [1] ╭ VulnerabilityID : CVE-2026-77214 
-│                             ├ PkgID           : libexpat@2.8.5-r0 
-│                             ├ PkgName         : libexpat 
-│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.5-r0?arch=x86_64&distro=3.
-│                             │                  │       25.0_alpha20260805 
-│                             │                  ╰ UID : a6514e0c30e7be32 
-│                             ├ InstalledVersion: 2.8.5-r0 
-│                             ├ FixedVersion    : 2.9.0-r0 
+│                       ├ [1] ╭ VulnerabilityID : CVE-2026-77214 
+│                       │     ├ PkgID           : libexpat@2.8.5-r0 
+│                       │     ├ PkgName         : libexpat 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.8.5-r0?arch=x86_64&distro=3.
+│                       │     │                  │       25.0_alpha20260805 
+│                       │     │                  ╰ UID : a6514e0c30e7be32 
+│                       │     ├ InstalledVersion: 2.8.5-r0 
+│                       │     ├ FixedVersion    : 2.9.0-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:d5b2cd2c53642d35f78eaa6585ffdcef59b3c8736c86b
+│                       │     │                  │         98e28ff1461ac0adc46 
+│                       │     │                  ╰ DiffID: sha256:69bb24fb796a0e402b844e958c0d240603968585a7cde
+│                       │     │                            d3fc08df7be9ba5fe38 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-77214 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:7b5da94e3dd04fe1ec5927920dc6ef941208afd47980d67f0e7580
+│                       │     │                   0051dd4c68 
+│                       │     ├ Title           : [Unknown description] 
+│                       │     ├ Description     : [Unknown description] 
+│                       │     ╰ Severity        : UNKNOWN 
+│                       ╰ [2] ╭ VulnerabilityID : CVE-2026-85091 
+│                             ├ PkgID           : zlib@1.3.2-r0 
+│                             ├ PkgName         : zlib 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.2-r0?arch=x86_64&distro=3.25.0
+│                             │                  │       _alpha20260805 
+│                             │                  ╰ UID : daa5976344ad0b9e 
+│                             ├ InstalledVersion: 1.3.2-r0 
+│                             ├ FixedVersion    : 1.3.2-r1 
 │                             ├ Status          : fixed 
 │                             ├ Layer            ╭ Digest: sha256:d5b2cd2c53642d35f78eaa6585ffdcef59b3c8736c86b
 │                             │                  │         98e28ff1461ac0adc46 
 │                             │                  ╰ DiffID: sha256:69bb24fb796a0e402b844e958c0d240603968585a7cde
 │                             │                            d3fc08df7be9ba5fe38 
-│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-77214 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-85091 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Fingerprint     : sha256:7b5da94e3dd04fe1ec5927920dc6ef941208afd47980d67f0e7580
-│                             │                   0051dd4c68 
-│                             ├ Title           : [Unknown description] 
-│                             ├ Description     : [Unknown description] 
-│                             ╰ Severity        : UNKNOWN 
+│                             ├ Fingerprint     : sha256:1743097d7fb4ed9235eb7ff3569695099a82ee603a5b5198a96313
+│                             │                   6c4e386723 
+│                             ├ Title           : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
+│                             │                   overflow vul ... 
+│                             ├ Description     : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
+│                             │                   overflow vulnerability in the gz_vacate() function when
+│                             │                   processing non-blocking gzwrite() operations with stale
+│                             │                   external buffer pointers. Attackers can trigger the overflow
+│                             │                   by calling gzprintf() or gzvprintf() after a write stall,
+│                             │                   causing an unchecked memmove() to write beyond the internal
+│                             │                   input buffer boundary. 
+│                             ├ Severity        : MEDIUM 
+│                             ├ CweIDs           ─ [0]: CWE-787 
+│                             ├ VendorSeverity   ─ ubuntu: 2 
+│                             ├ References       ╭ [0]: https://gist.github.com/thesmartshadow/e0b9481792afb7c3
+│                             │                  │      1e86fee1ff084490 
+│                             │                  ├ [1]: https://github.com/madler/zlib 
+│                             │                  ├ [2]: https://github.com/madler/zlib/blob/v1.3.2/gzwrite.c#L393 
+│                             │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2026-85091 
+│                             │                  ╰ [4]: https://www.vulncheck.com/advisories/zlib-1.3.1.2-throu
+│                             │                         gh-1.3.2-heap-buffer-overflow-via-gz-vacate 
+│                             ├ PublishedDate   : 2026-09-03T13:06:20.573Z 
+│                             ╰ LastModifiedDate: 2026-09-09T20:41:07.123Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
