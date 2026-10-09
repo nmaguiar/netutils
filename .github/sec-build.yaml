@@ -2046,6 +2046,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -2088,6 +2089,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      azure: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -3421,6 +3423,62 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-35377
     PublishedDate: '2026-04-22T17:16:42.577Z'
     LastModifiedDate: '2026-06-17T10:40:29.357Z'
+  - VulnerabilityID: CVE-2026-96512
+    PkgID: sudo@1.9.17p2-1ubuntu3.1
+    PkgName: sudo
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/sudo@1.9.17p2-1ubuntu3.1?arch=amd64&distro=ubuntu-26.04
+      UID: fee291dd6b78bbc8
+    InstalledVersion: 1.9.17p2-1ubuntu3.1
+    FixedVersion: 1.9.17p2-1ubuntu3.2
+    Status: fixed
+    Layer:
+      Digest: sha256:ed8ec2a903f046122abfc23d4b378816841995eda048161862ac1075a25b7753
+      DiffID: sha256:6cd9129fd4d90a1f071b2804eaf271ff3eaf83273876931e4152b65a3cf4fa38
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-96512
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:8d27f36abec0f1ec9853de26c52c88743ca98181284cde19cc2cfe85561300de
+    Title: 'sudo: sudo: TZ environment variable allows bypass of NOTBEFORE/NOTAFTER time-based authorization'
+    Description: A flaw was found in sudo. When sudoers rules use NOTBEFORE or NOTAFTER time-based access restrictions with timestamps that omit the trailing 'Z' timezone indicator, the time evaluation relies on the TZ environment variable inherited from the calling user. Because sudo is a setuid-root program, an unprivileged local user can set TZ to an extreme timezone offset to shift the authorization window by up to approximately 25 hours, causing expired rules to be treated as valid. This allows the user to execute commands outside the intended time window. Authentication is not bypassed; only the time-based authorization check is affected.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-863
+    VendorSeverity:
+      alma: 3
+      azure: 3
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/09/24/4
+    - https://access.redhat.com/errata/RHSA-2026:71609
+    - https://access.redhat.com/errata/RHSA-2026:75571
+    - https://access.redhat.com/errata/RHSA-2026:75579
+    - https://access.redhat.com/errata/RHSA-2026:75580
+    - https://access.redhat.com/security/cve/CVE-2026-96512
+    - https://bugzilla.redhat.com/2539327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2539327
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-96512
+    - https://errata.almalinux.org/9/ALSA-2026-75571.html
+    - https://errata.rockylinux.org/RLSA-2026:75571
+    - https://github.com/sudo-project/sudo/commit/1820a349687522f51023d1ae5925125f59679a8c
+    - https://linux.oracle.com/cve/CVE-2026-96512.html
+    - https://linux.oracle.com/errata/ELSA-2026-75580.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-96512
+    - https://ubuntu.com/security/notices/USN-8895-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-96512
+    PublishedDate: '2026-09-23T14:17:10.747Z'
+    LastModifiedDate: '2026-10-05T11:17:01.93Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: systemd@259.5-0ubuntu3.4
     PkgName: systemd
@@ -4067,7 +4125,7 @@
       cbl-mariner: 2
       julia: 2
       nvd: 2
-      photon: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -4648,6 +4706,35 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-56852
     PublishedDate: '2026-07-21T20:17:02.867Z'
     LastModifiedDate: '2026-07-23T18:27:48.877Z'
+  - VulnerabilityID: CVE-2026-56851
+    VendorIDs:
+    - GO-2026-6629
+    PkgID: golang.org/x/text@v0.16.0
+    PkgName: golang.org/x/text
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/text@v0.16.0
+      UID: 9af16a0db3fdc1ec
+    InstalledVersion: v0.16.0
+    FixedVersion: 0.41.0
+    Status: fixed
+    Layer:
+      Digest: sha256:ed8ec2a903f046122abfc23d4b378816841995eda048161862ac1075a25b7753
+      DiffID: sha256:6cd9129fd4d90a1f071b2804eaf271ff3eaf83273876931e4152b65a3cf4fa38
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56851
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:22ed9e1944a868c69a6ca2367c8185ad5e6836ddb315d85ef56933efdbc1e005
+    Title: The Nickname profile can panic with an out-of-bounds slice error when  ...
+    Description: The Nickname profile can panic with an out-of-bounds slice error when transforming crafted input into a short destination buffer.
+    Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/793360
+    - https://go.dev/issue/80112
+    - https://pkg.go.dev/vuln/GO-2026-6629
+    PublishedDate: '2026-10-07T18:17:20.903Z'
+    LastModifiedDate: '2026-10-07T18:17:20.903Z'
 - Target: usr/bin/pebble
   Class: lang-pkgs
   Type: gobinary
