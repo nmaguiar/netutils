@@ -1009,6 +1009,168 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-37676
     PublishedDate: '2024-06-20T16:15:13.917Z'
     LastModifiedDate: '2026-07-09T01:19:04.997Z'
+  - VulnerabilityID: CVE-2026-24061
+    PkgID: inetutils-telnet@2.7-r0
+    PkgName: inetutils-telnet
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/inetutils-telnet@2.7-r0?arch=x86_64&distro=3.24.0
+      UID: daceb59fc4792ef1
+    InstalledVersion: 2.7-r0
+    FixedVersion: 2.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-24061
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:aca65e4b91e6b54317ec4b8f1c3b2a167205e6079aa453eed7052c184daf69af
+    Title: telnetd in GNU Inetutils through 2.7 allows remote authentication bypa ...
+    Description: telnetd in GNU Inetutils through 2.7 allows remote authentication bypass via a "-f root" value for the USER environment variable.
+    Severity: HIGH
+    CweIDs:
+    - CWE-88
+    VendorSeverity:
+      ubuntu: 3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/22/1
+    - https://codeberg.org/inetutils/inetutils/commit/ccba9f748aa8d50a38d7748e2e60362edd6a32cc
+    - https://codeberg.org/inetutils/inetutils/commit/fd702c02497b2f398e739e3119bed0b23dd7aa7b
+    - https://lists.debian.org/debian-lts-announce/2026/01/msg00025.html
+    - https://lists.gnu.org/archive/html/bug-inetutils/2026-01/msg00004.html
+    - https://redteam.ae/blog/cve-2026-24061-inetutils-telnetd-root-bypass
+    - https://ubuntu.com/security/notices/USN-7992-1
+    - https://ubuntu.com/security/notices/USN-7992-2
+    - https://www.cisa.gov/known-exploited-vulnerabilities-catalog
+    - https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-24061
+    - https://www.cve.org/CVERecord?id=CVE-2026-24061
+    - https://www.gnu.org/software/inetutils/
+    - https://www.labs.greynoise.io/grimoire/2026-01-22-f-around-and-find-out-18-hours-of-unsolicited-houseguests/index.html
+    - https://www.openwall.com/lists/oss-security/2026/01/20/2
+    - https://www.openwall.com/lists/oss-security/2026/01/20/2#:~:text=root@...a%3A~%20USER='
+    - https://www.openwall.com/lists/oss-security/2026/01/20/8
+    - https://www.vicarius.io/vsociety/posts/cve-2026-24061-detection-script-remote-authentication-bypass-in-gnu-inetutils-package
+    - https://www.vicarius.io/vsociety/posts/cve-2026-24061-mitigation-script-remote-authentication-bypass-in-gnu-inetutils-package
+    PublishedDate: '2026-01-21T07:16:01.597Z'
+    LastModifiedDate: '2026-09-30T11:47:02.427Z'
+  - VulnerabilityID: CVE-2026-28372
+    PkgID: inetutils-telnet@2.7-r0
+    PkgName: inetutils-telnet
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/inetutils-telnet@2.7-r0?arch=x86_64&distro=3.24.0
+      UID: daceb59fc4792ef1
+    InstalledVersion: 2.7-r0
+    FixedVersion: 2.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28372
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:5eeedbda37a70ad962a27eeef12f8ba306388f027775ef7d1512853c3ca8ae61
+    Title: telnetd in GNU inetutils through 2.7 allows privilege escalation that  ...
+    Description: telnetd in GNU inetutils through 2.7 allows privilege escalation that can be exploited by abusing systemd service credentials support added to the login(1) implementation of util-linux in release 2.40. This is related to client control over the CREDENTIALS_DIRECTORY environment variable, and requires an unprivileged local user to create a login.noauth file.
+    Severity: HIGH
+    CweIDs:
+    - CWE-829
+    VendorSeverity:
+      nvd: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/27/3
+    - http://www.openwall.com/lists/oss-security/2026/03/06/2
+    - http://www.openwall.com/lists/oss-security/2026/03/06/3
+    - http://www.openwall.com/lists/oss-security/2026/03/07/1
+    - http://www.openwall.com/lists/oss-security/2026/03/07/2
+    - https://git.hadrons.org/cgit/debian/pkgs/inetutils.git/commit/?id=3953943d8296310485f98963883a798545ab9a6c
+    - https://lists.gnu.org/archive/html/bug-inetutils/2026-02/msg00000.html
+    - https://lists.gnu.org/archive/html/bug-inetutils/2026-02/msg00012.html
+    - https://ubuntu.com/security/notices/USN-8387-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-28372
+    - https://www.openwall.com/lists/oss-security/2026/02/24/1
+    PublishedDate: '2026-02-27T06:18:00.077Z'
+    LastModifiedDate: '2026-06-17T10:28:30.07Z'
+  - VulnerabilityID: CVE-2026-32746
+    PkgID: inetutils-telnet@2.7-r0
+    PkgName: inetutils-telnet
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/inetutils-telnet@2.7-r0?arch=x86_64&distro=3.24.0
+      UID: daceb59fc4792ef1
+    InstalledVersion: 2.7-r0
+    FixedVersion: 2.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-32746
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:c9ea95b7272f2e80515897cadfbf2c41a8aa9cebc4592f1f6db4088aa0ecf88a
+    Title: telnetd in GNU inetutils through 2.7 allows an out-of-bounds write in  ...
+    Description: telnetd in GNU inetutils through 2.7 allows an out-of-bounds write in the LINEMODE SLC (Set Local Characters) suboption handler because add_slc does not check whether the buffer is full.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-120
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/14/1
+    - https://github.com/watchtowrlabs/watchtowr-vs-telnetd-CVE-2026-32746
+    - https://lists.gnu.org/archive/html/bug-inetutils/2026-03/msg00031.html
+    - https://ubuntu.com/security/notices/USN-8387-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-32746
+    - https://www.openwall.com/lists/oss-security/2026/03/12/4
+    PublishedDate: '2026-03-13T19:55:10.147Z'
+    LastModifiedDate: '2026-06-17T10:36:18.783Z'
+  - VulnerabilityID: CVE-2026-32772
+    PkgID: inetutils-telnet@2.7-r0
+    PkgName: inetutils-telnet
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/inetutils-telnet@2.7-r0?arch=x86_64&distro=3.24.0
+      UID: daceb59fc4792ef1
+    InstalledVersion: 2.7-r0
+    FixedVersion: 2.8-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-32772
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:4169ca091e4a9b5a83f8b85411cbbac4b5e528f363a5617e99c6cc0b13481733
+    Title: telnet in GNU inetutils through 2.7 allows servers to read arbitrary e ...
+    Description: telnet in GNU inetutils through 2.7 allows servers to read arbitrary environment variables from clients via NEW_ENVIRON SEND USERVAR.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-669
+    VendorSeverity:
+      nvd: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N
+        V3Score: 4.7
+    References:
+    - https://ubuntu.com/security/notices/USN-8387-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-32772
+    - https://www.openwall.com/lists/oss-security/2026/03/13/1
+    PublishedDate: '2026-03-16T14:19:44.023Z'
+    LastModifiedDate: '2026-06-17T10:36:21.553Z'
   - VulnerabilityID: CVE-2026-76642
     PkgID: libblkid@2.42.2-r0
     PkgName: libblkid
@@ -2912,6 +3074,7 @@
     - CWE-176
     VendorSeverity:
       alma: 3
+      azure: 3
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -3000,9 +3163,17 @@
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
     Fingerprint: sha256:3f5a6ed151c7b403780c3f6e5a6209a9a9a19cd9fcc3f356168bb9a0736cd12b
-    Title: '[Unknown description]'
-    Description: '[Unknown description]'
+    Title: libexpat before commit 13c5f63 contains a heap buffer over-read vulner ...
+    Description: libexpat before commit 13c5f63 contains a heap buffer over-read vulnerability in xmlparse.c. XML_ParseBuffer advances the parse buffer end with parser->m_bufferEnd += len using a caller-supplied length that is not validated against the allocated buffer size, so repeated XML_ParseBuffer calls move m_bufferEnd past the end of the heap allocation and subsequent parsing reads out of bounds. Reaching this path requires a parse buffer to already be present; otherwise XML_ParseBuffer returns XML_ERROR_NO_BUFFER. A buffer is present after a prior call to XML_GetBuffer, either directly (the common case) or indirectly through a prior XML_Parse call that allocates the buffer internally. The over-read discloses adjacent heap memory to the calling application, recovering heap pointers, libc function pointers, and code pointers sufficient to defeat ASLR and build further exploitation primitives.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-125
+    References:
+    - https://github.com/libexpat/libexpat/commit/13c5f63a7f1c52c2feee3b16a1134d4fb68e9ea0
+    - https://github.com/libexpat/libexpat/pull/1393
+    - https://www.vulncheck.com/advisories/libexpat-heap-buffer-over-read-in-xmlparse-c-via-xml-parsebuffer
+    PublishedDate: '2026-10-07T15:17:53.327Z'
+    LastModifiedDate: '2026-10-07T15:57:20.793Z'
   - VulnerabilityID: CVE-2026-76642
     PkgID: libmount@2.42.2-r0
     PkgName: libmount
@@ -3373,6 +3544,80 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-6554
     PublishedDate: '2026-09-05T19:16:56.067Z'
     LastModifiedDate: '2026-09-08T19:20:25.117Z'
+  - VulnerabilityID: CVE-2026-59843
+    PkgID: libssh@0.12.1-r0
+    PkgName: libssh
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssh@0.12.1-r0?arch=x86_64&distro=3.24.0
+      UID: 79e204fb33668f29
+    InstalledVersion: 0.12.1-r0
+    FixedVersion: 0.12.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:dc69a76a1338f3486519e225489b45d2765514ab99525b0eb169f0c02b0a6e9f
+      DiffID: sha256:6cc77966159bb7ecf297ac1b55d86176f893c098007011b652f34a62a402adc5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-59843
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:585521a63de0f82a8b7a72094fb286f37d6836844ef63dde260d6fe6777641f3
+    Title: 'libssh: libssh: denial of service via zero advertised channel packet size'
+    Description: A flaw was found in libssh. A remote authenticated peer can advertise a zero maximum packet size in SSH_MSG_CHANNEL_OPEN, causing later channel writes to loop indefinitely and consume CPU, leading to denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    - CWE-400
+    VendorSeverity:
+      alma: 2
+      azure: 2
+      oracle-oval: 2
+      redhat: 2
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:42922
+    - https://access.redhat.com/errata/RHSA-2026:55855
+    - https://access.redhat.com/errata/RHSA-2026:62217
+    - https://access.redhat.com/errata/RHSA-2026:62218
+    - https://access.redhat.com/security/cve/CVE-2026-59843
+    - https://bugzilla.redhat.com/2498176
+    - https://bugzilla.redhat.com/2498177
+    - https://bugzilla.redhat.com/2498178
+    - https://bugzilla.redhat.com/2498179
+    - https://bugzilla.redhat.com/2498180
+    - https://bugzilla.redhat.com/2498181
+    - https://bugzilla.redhat.com/2498183
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498176
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498177
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498178
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498179
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498180
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498181
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2498183
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59843
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59844
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59845
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59846
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59847
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59848
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-59850
+    - https://errata.almalinux.org/9/ALSA-2026-62217.html
+    - https://errata.rockylinux.org/RLSA-2026:62217
+    - https://linux.oracle.com/cve/CVE-2026-59843.html
+    - https://linux.oracle.com/errata/ELSA-2026-62218-0.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-59843
+    - https://ubuntu.com/security/notices/USN-8699-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-59843
+    - https://www.libssh.org/2026/07/21/libssh-0-12-1-and-0-11-5-security-releases/
+    - https://www.libssh.org/security/advisories/CVE-2026-59843.txt
+    PublishedDate: '2026-07-21T12:18:57.86Z'
+    LastModifiedDate: '2026-09-01T21:18:34.337Z'
   - VulnerabilityID: CVE-2026-14456
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -6083,6 +6328,9 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      alma: 3
+      azure: 4
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -6090,7 +6338,11 @@
         V3Score: 8.1
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/30/17
+    - https://access.redhat.com/errata/RHSA-2026:77028
     - https://access.redhat.com/security/cve/CVE-2026-19445
+    - https://bugzilla.redhat.com/2544127
+    - https://bugzilla.redhat.com/2544138
+    - https://errata.almalinux.org/8/ALSA-2026-77028.html
     - https://github.com/python/cpython/commit/34a53dce8174da2fceb12fe084a4def02a10053d
     - https://github.com/python/cpython/commit/46133cd57d309652139ada74014aca7665ac552b
     - https://github.com/python/cpython/commit/63fab143d94cafae71850831acfb52041ba44af7
@@ -6100,6 +6352,8 @@
     - https://github.com/python/cpython/commit/ec44b5a3258cbda947d5e07242ee562ed05ef24b
     - https://github.com/python/cpython/issues/156293
     - https://github.com/python/cpython/pull/158504
+    - https://linux.oracle.com/cve/CVE-2026-19445.html
+    - https://linux.oracle.com/errata/ELSA-2026-77028.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19445
     - https://www.cve.org/CVERecord?id=CVE-2026-19445
@@ -6154,6 +6408,9 @@
     CweIDs:
     - CWE-297
     VendorSeverity:
+      alma: 3
+      azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -6161,7 +6418,11 @@
         V3Score: 7.4
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/30/16
+    - https://access.redhat.com/errata/RHSA-2026:77028
     - https://access.redhat.com/security/cve/CVE-2026-19553
+    - https://bugzilla.redhat.com/2544127
+    - https://bugzilla.redhat.com/2544138
+    - https://errata.almalinux.org/8/ALSA-2026-77028.html
     - https://github.com/python/cpython/commit/1697ea386c707142555d98a1263176bbbc014a96
     - https://github.com/python/cpython/commit/5867d4e4ae6d1062352baf6b497a4026e8578ccf
     - https://github.com/python/cpython/commit/641390146a16a38e6701923f4ee4f1940ae77082
@@ -6171,6 +6432,8 @@
     - https://github.com/python/cpython/commit/f4e43ba525187282f2011da0e6ffc0d2b08d8062
     - https://github.com/python/cpython/issues/156793
     - https://github.com/python/cpython/pull/158503
+    - https://linux.oracle.com/cve/CVE-2026-19553.html
+    - https://linux.oracle.com/errata/ELSA-2026-77028.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QNZRG3YOAMTHDCMVCICXGY6YEFPY2VDL/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19553
     - https://www.cve.org/CVERecord?id=CVE-2026-19553
@@ -6258,6 +6521,7 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      azure: 2
       bitnami: 3
       redhat: 3
     CVSS:
@@ -6604,6 +6868,7 @@
     CweIDs:
     - CWE-436
     VendorSeverity:
+      azure: 2
       bitnami: 2
       redhat: 2
     CVSS:
@@ -6941,6 +7206,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      azure: 1
       bitnami: 1
     CVSS:
       bitnami:
@@ -7190,6 +7456,9 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      alma: 3
+      azure: 4
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -7197,7 +7466,11 @@
         V3Score: 8.1
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/30/17
+    - https://access.redhat.com/errata/RHSA-2026:77028
     - https://access.redhat.com/security/cve/CVE-2026-19445
+    - https://bugzilla.redhat.com/2544127
+    - https://bugzilla.redhat.com/2544138
+    - https://errata.almalinux.org/8/ALSA-2026-77028.html
     - https://github.com/python/cpython/commit/34a53dce8174da2fceb12fe084a4def02a10053d
     - https://github.com/python/cpython/commit/46133cd57d309652139ada74014aca7665ac552b
     - https://github.com/python/cpython/commit/63fab143d94cafae71850831acfb52041ba44af7
@@ -7207,6 +7480,8 @@
     - https://github.com/python/cpython/commit/ec44b5a3258cbda947d5e07242ee562ed05ef24b
     - https://github.com/python/cpython/issues/156293
     - https://github.com/python/cpython/pull/158504
+    - https://linux.oracle.com/cve/CVE-2026-19445.html
+    - https://linux.oracle.com/errata/ELSA-2026-77028.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19445
     - https://www.cve.org/CVERecord?id=CVE-2026-19445
@@ -7261,6 +7536,9 @@
     CweIDs:
     - CWE-297
     VendorSeverity:
+      alma: 3
+      azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -7268,7 +7546,11 @@
         V3Score: 7.4
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/30/16
+    - https://access.redhat.com/errata/RHSA-2026:77028
     - https://access.redhat.com/security/cve/CVE-2026-19553
+    - https://bugzilla.redhat.com/2544127
+    - https://bugzilla.redhat.com/2544138
+    - https://errata.almalinux.org/8/ALSA-2026-77028.html
     - https://github.com/python/cpython/commit/1697ea386c707142555d98a1263176bbbc014a96
     - https://github.com/python/cpython/commit/5867d4e4ae6d1062352baf6b497a4026e8578ccf
     - https://github.com/python/cpython/commit/641390146a16a38e6701923f4ee4f1940ae77082
@@ -7278,6 +7560,8 @@
     - https://github.com/python/cpython/commit/f4e43ba525187282f2011da0e6ffc0d2b08d8062
     - https://github.com/python/cpython/issues/156793
     - https://github.com/python/cpython/pull/158503
+    - https://linux.oracle.com/cve/CVE-2026-19553.html
+    - https://linux.oracle.com/errata/ELSA-2026-77028.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QNZRG3YOAMTHDCMVCICXGY6YEFPY2VDL/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19553
     - https://www.cve.org/CVERecord?id=CVE-2026-19553
@@ -7365,6 +7649,7 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      azure: 2
       bitnami: 3
       redhat: 3
     CVSS:
@@ -7711,6 +7996,7 @@
     CweIDs:
     - CWE-436
     VendorSeverity:
+      azure: 2
       bitnami: 2
       redhat: 2
     CVSS:
@@ -8048,6 +8334,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      azure: 1
       bitnami: 1
     CVSS:
       bitnami:
@@ -8297,6 +8584,9 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      alma: 3
+      azure: 4
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -8304,7 +8594,11 @@
         V3Score: 8.1
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/30/17
+    - https://access.redhat.com/errata/RHSA-2026:77028
     - https://access.redhat.com/security/cve/CVE-2026-19445
+    - https://bugzilla.redhat.com/2544127
+    - https://bugzilla.redhat.com/2544138
+    - https://errata.almalinux.org/8/ALSA-2026-77028.html
     - https://github.com/python/cpython/commit/34a53dce8174da2fceb12fe084a4def02a10053d
     - https://github.com/python/cpython/commit/46133cd57d309652139ada74014aca7665ac552b
     - https://github.com/python/cpython/commit/63fab143d94cafae71850831acfb52041ba44af7
@@ -8314,6 +8608,8 @@
     - https://github.com/python/cpython/commit/ec44b5a3258cbda947d5e07242ee562ed05ef24b
     - https://github.com/python/cpython/issues/156293
     - https://github.com/python/cpython/pull/158504
+    - https://linux.oracle.com/cve/CVE-2026-19445.html
+    - https://linux.oracle.com/errata/ELSA-2026-77028.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19445
     - https://www.cve.org/CVERecord?id=CVE-2026-19445
@@ -8368,6 +8664,9 @@
     CweIDs:
     - CWE-297
     VendorSeverity:
+      alma: 3
+      azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -8375,7 +8674,11 @@
         V3Score: 7.4
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/30/16
+    - https://access.redhat.com/errata/RHSA-2026:77028
     - https://access.redhat.com/security/cve/CVE-2026-19553
+    - https://bugzilla.redhat.com/2544127
+    - https://bugzilla.redhat.com/2544138
+    - https://errata.almalinux.org/8/ALSA-2026-77028.html
     - https://github.com/python/cpython/commit/1697ea386c707142555d98a1263176bbbc014a96
     - https://github.com/python/cpython/commit/5867d4e4ae6d1062352baf6b497a4026e8578ccf
     - https://github.com/python/cpython/commit/641390146a16a38e6701923f4ee4f1940ae77082
@@ -8385,6 +8688,8 @@
     - https://github.com/python/cpython/commit/f4e43ba525187282f2011da0e6ffc0d2b08d8062
     - https://github.com/python/cpython/issues/156793
     - https://github.com/python/cpython/pull/158503
+    - https://linux.oracle.com/cve/CVE-2026-19553.html
+    - https://linux.oracle.com/errata/ELSA-2026-77028.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QNZRG3YOAMTHDCMVCICXGY6YEFPY2VDL/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19553
     - https://www.cve.org/CVERecord?id=CVE-2026-19553
@@ -8472,6 +8777,7 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      azure: 2
       bitnami: 3
       redhat: 3
     CVSS:
@@ -8818,6 +9124,7 @@
     CweIDs:
     - CWE-436
     VendorSeverity:
+      azure: 2
       bitnami: 2
       redhat: 2
     CVSS:
@@ -9155,6 +9462,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      azure: 1
       bitnami: 1
     CVSS:
       bitnami:
@@ -9404,6 +9712,9 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      alma: 3
+      azure: 4
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -9411,7 +9722,11 @@
         V3Score: 8.1
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/30/17
+    - https://access.redhat.com/errata/RHSA-2026:77028
     - https://access.redhat.com/security/cve/CVE-2026-19445
+    - https://bugzilla.redhat.com/2544127
+    - https://bugzilla.redhat.com/2544138
+    - https://errata.almalinux.org/8/ALSA-2026-77028.html
     - https://github.com/python/cpython/commit/34a53dce8174da2fceb12fe084a4def02a10053d
     - https://github.com/python/cpython/commit/46133cd57d309652139ada74014aca7665ac552b
     - https://github.com/python/cpython/commit/63fab143d94cafae71850831acfb52041ba44af7
@@ -9421,6 +9736,8 @@
     - https://github.com/python/cpython/commit/ec44b5a3258cbda947d5e07242ee562ed05ef24b
     - https://github.com/python/cpython/issues/156293
     - https://github.com/python/cpython/pull/158504
+    - https://linux.oracle.com/cve/CVE-2026-19445.html
+    - https://linux.oracle.com/errata/ELSA-2026-77028.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19445
     - https://www.cve.org/CVERecord?id=CVE-2026-19445
@@ -9475,6 +9792,9 @@
     CweIDs:
     - CWE-297
     VendorSeverity:
+      alma: 3
+      azure: 3
+      oracle-oval: 3
       redhat: 3
     CVSS:
       redhat:
@@ -9482,7 +9802,11 @@
         V3Score: 7.4
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/30/16
+    - https://access.redhat.com/errata/RHSA-2026:77028
     - https://access.redhat.com/security/cve/CVE-2026-19553
+    - https://bugzilla.redhat.com/2544127
+    - https://bugzilla.redhat.com/2544138
+    - https://errata.almalinux.org/8/ALSA-2026-77028.html
     - https://github.com/python/cpython/commit/1697ea386c707142555d98a1263176bbbc014a96
     - https://github.com/python/cpython/commit/5867d4e4ae6d1062352baf6b497a4026e8578ccf
     - https://github.com/python/cpython/commit/641390146a16a38e6701923f4ee4f1940ae77082
@@ -9492,6 +9816,8 @@
     - https://github.com/python/cpython/commit/f4e43ba525187282f2011da0e6ffc0d2b08d8062
     - https://github.com/python/cpython/issues/156793
     - https://github.com/python/cpython/pull/158503
+    - https://linux.oracle.com/cve/CVE-2026-19553.html
+    - https://linux.oracle.com/errata/ELSA-2026-77028.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QNZRG3YOAMTHDCMVCICXGY6YEFPY2VDL/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19553
     - https://www.cve.org/CVERecord?id=CVE-2026-19553
@@ -9579,6 +9905,7 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      azure: 2
       bitnami: 3
       redhat: 3
     CVSS:
@@ -9925,6 +10252,7 @@
     CweIDs:
     - CWE-436
     VendorSeverity:
+      azure: 2
       bitnami: 2
       redhat: 2
     CVSS:
@@ -10262,6 +10590,7 @@
     CweIDs:
     - CWE-400
     VendorSeverity:
+      azure: 1
       bitnami: 1
     CVSS:
       bitnami:
@@ -10664,6 +10993,7 @@
     VendorSeverity:
       ghsa: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
