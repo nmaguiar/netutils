@@ -180,6 +180,7 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/06/10/2
+    - https://access.redhat.com/errata/RHSA-2026:49520
     - https://access.redhat.com/errata/RHSA-2026:50108
     - https://access.redhat.com/security/cve/CVE-2026-10846
     - https://bugzilla.redhat.com/2487437
@@ -187,7 +188,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-10846
     - https://errata.almalinux.org/9/ALSA-2026-50108.html
-    - https://errata.rockylinux.org/RLSA-2026:50108
+    - https://errata.rockylinux.org/RLSA-2026:49520
     - https://linux.oracle.com/cve/CVE-2026-10846.html
     - https://linux.oracle.com/errata/ELSA-2026-50108-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-10846
@@ -235,7 +236,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-59529
     - https://zeropath.com/blog/avahi-simple-protocol-server-dos-cve-2025-59529
     PublishedDate: '2025-12-18T21:15:53.637Z'
-    LastModifiedDate: '2026-06-17T09:46:20.71Z'
+    LastModifiedDate: '2026-10-13T11:10:00.203Z'
   - VulnerabilityID: CVE-2025-59529
     PkgID: libavahi-common-data@0.8-18ubuntu1.1
     PkgName: libavahi-common-data
@@ -275,7 +276,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-59529
     - https://zeropath.com/blog/avahi-simple-protocol-server-dos-cve-2025-59529
     PublishedDate: '2025-12-18T21:15:53.637Z'
-    LastModifiedDate: '2026-06-17T09:46:20.71Z'
+    LastModifiedDate: '2026-10-13T11:10:00.203Z'
   - VulnerabilityID: CVE-2025-59529
     PkgID: libavahi-common3@0.8-18ubuntu1.1
     PkgName: libavahi-common3
@@ -315,7 +316,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-59529
     - https://zeropath.com/blog/avahi-simple-protocol-server-dos-cve-2025-59529
     PublishedDate: '2025-12-18T21:15:53.637Z'
-    LastModifiedDate: '2026-06-17T09:46:20.71Z'
+    LastModifiedDate: '2026-10-13T11:10:00.203Z'
   - VulnerabilityID: CVE-2026-18374
     PkgID: libc-bin@2.43-2ubuntu2.4
     PkgName: libc-bin
@@ -1652,6 +1653,7 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/06/10/2
+    - https://access.redhat.com/errata/RHSA-2026:49520
     - https://access.redhat.com/errata/RHSA-2026:50108
     - https://access.redhat.com/security/cve/CVE-2026-10846
     - https://bugzilla.redhat.com/2487437
@@ -1659,7 +1661,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-10846
     - https://errata.almalinux.org/9/ALSA-2026-50108.html
-    - https://errata.rockylinux.org/RLSA-2026:50108
+    - https://errata.rockylinux.org/RLSA-2026:49520
     - https://linux.oracle.com/cve/CVE-2026-10846.html
     - https://linux.oracle.com/errata/ELSA-2026-50108-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-10846
@@ -1760,13 +1762,20 @@
     - https://access.redhat.com/errata/RHSA-2026:72475
     - https://access.redhat.com/errata/RHSA-2026:72476
     - https://access.redhat.com/errata/RHSA-2026:72502
+    - https://access.redhat.com/errata/RHSA-2026:81201
+    - https://access.redhat.com/errata/RHSA-2026:82304
+    - https://access.redhat.com/errata/RHSA-2026:82322
+    - https://access.redhat.com/errata/RHSA-2026:82336
+    - https://access.redhat.com/errata/RHSA-2026:82347
+    - https://access.redhat.com/errata/RHSA-2026:82354
+    - https://access.redhat.com/errata/RHSA-2026:82372
     - https://access.redhat.com/security/cve/CVE-2026-13757
     - https://bugzilla.redhat.com/2494556
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-13757
     - https://errata.almalinux.org/9/ALSA-2026-49667.html
-    - https://errata.rockylinux.org/RLSA-2026:49667
+    - https://errata.rockylinux.org/RLSA-2026:49668
     - https://github.com/advisories/GHSA-p2wm-69qx-x25w
     - https://linux.oracle.com/cve/CVE-2026-13757.html
     - https://linux.oracle.com/errata/ELSA-2026-49668.html
@@ -1774,7 +1783,7 @@
     - https://ubuntu.com/security/notices/USN-8687-1
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-09-29T01:16:45.04Z'
+    LastModifiedDate: '2026-10-14T03:17:21.047Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libpam-systemd@259.5-0ubuntu3.4
     PkgName: libpam-systemd
@@ -1817,6 +1826,57 @@
     - https://www.openwall.com/lists/oss-security/2026/04/08/1
     PublishedDate: '2026-04-10T16:16:33.753Z'
     LastModifiedDate: '2026-06-17T10:44:53.31Z'
+  - VulnerabilityID: CVE-2026-103111
+    PkgID: libpcre2-8-0@10.46-1build1
+    PkgName: libpcre2-8-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpcre2-8-0@10.46-1build1?arch=amd64&distro=ubuntu-26.04
+      UID: c9d0d8772a6e5e1d
+    InstalledVersion: 10.46-1build1
+    Status: affected
+    Layer:
+      Digest: sha256:f7bd25107f193931262fcb1582e0ca34fa8b996d777adb2eb82ba15943cadfb1
+      DiffID: sha256:79594fcd8f5aba01249be03580e5545388b74ec19d34f83272774855b367dffd
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-103111
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:62097d7c26356db390a2a11d04038da2b89f573da345b7e6b68ddb82548f46cc
+    Title: 'pcre2: pcre2: Out-of-bounds write via crafted regular expression'
+    Description: PCRE2 before 10.49, when there is an attacker-controlled regular expression and certain JIT API usage, allows an out-of-bounds write with arbitrary data.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      alma: 3
+      oracle-oval: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L
+        V3Score: 7.6
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:81532
+    - https://access.redhat.com/security/cve/CVE-2026-103111
+    - https://bugzilla.redhat.com/2528993
+    - https://bugzilla.redhat.com/2531743
+    - https://bugzilla.redhat.com/2531744
+    - https://bugzilla.redhat.com/2531745
+    - https://bugzilla.redhat.com/2531746
+    - https://bugzilla.redhat.com/2531747
+    - https://bugzilla.redhat.com/2543797
+    - https://errata.almalinux.org/9/ALSA-2026-81532.html
+    - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-r9hj-j2rw-4q3m
+    - https://linux.oracle.com/cve/CVE-2026-103111.html
+    - https://linux.oracle.com/errata/ELSA-2026-81613.html
+    - https://lists.debian.org/debian-lts-announce/2026/10/msg00008.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-103111
+    - https://www.cve.org/CVERecord?id=CVE-2026-103111
+    PublishedDate: '2026-09-30T05:16:45.863Z'
+    LastModifiedDate: '2026-10-04T00:16:35.563Z'
   - VulnerabilityID: CVE-2026-86145
     PkgID: libpcre2-8-0@10.46-1build1
     PkgName: libpcre2-8-0
@@ -1841,7 +1901,9 @@
     CweIDs:
     - CWE-424
     VendorSeverity:
+      alma: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1850,13 +1912,248 @@
         V3Score: 8.2
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/05/3
+    - https://access.redhat.com/errata/RHSA-2026:81532
     - https://access.redhat.com/security/cve/CVE-2026-86145
+    - https://bugzilla.redhat.com/2528993
+    - https://bugzilla.redhat.com/2531743
+    - https://bugzilla.redhat.com/2531744
+    - https://bugzilla.redhat.com/2531745
+    - https://bugzilla.redhat.com/2531746
+    - https://bugzilla.redhat.com/2531747
+    - https://bugzilla.redhat.com/2543797
+    - https://errata.almalinux.org/9/ALSA-2026-81532.html
     - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
     - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-3r4p-g7gg-ppmf
+    - https://linux.oracle.com/cve/CVE-2026-86145.html
+    - https://linux.oracle.com/errata/ELSA-2026-81613.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-86145
     - https://www.cve.org/CVERecord?id=CVE-2026-86145
     PublishedDate: '2026-09-05T06:17:10.37Z'
     LastModifiedDate: '2026-09-09T16:04:24.933Z'
+  - VulnerabilityID: CVE-2026-89156
+    PkgID: libpcre2-8-0@10.46-1build1
+    PkgName: libpcre2-8-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpcre2-8-0@10.46-1build1?arch=amd64&distro=ubuntu-26.04
+      UID: c9d0d8772a6e5e1d
+    InstalledVersion: 10.46-1build1
+    Status: affected
+    Layer:
+      Digest: sha256:f7bd25107f193931262fcb1582e0ca34fa8b996d777adb2eb82ba15943cadfb1
+      DiffID: sha256:79594fcd8f5aba01249be03580e5545388b74ec19d34f83272774855b367dffd
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-89156
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:0d89304a051c56418dccace1e6fc672632a2d45ba535e7ae647e982b4beee546
+    Title: 'PCRE2: PCRE2: Out-of-bounds read via invalid UTF data during JIT fallback'
+    Description: PCRE2 before 10.48 has a pcre2_match out-of-bounds read after a JIT fallback when an attacker can provide invalid UTF data.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      alma: 3
+      azure: 1
+      nvd: 2
+      oracle-oval: 3
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:81532
+    - https://access.redhat.com/security/cve/CVE-2026-89156
+    - https://bugzilla.redhat.com/2528993
+    - https://bugzilla.redhat.com/2531743
+    - https://bugzilla.redhat.com/2531744
+    - https://bugzilla.redhat.com/2531745
+    - https://bugzilla.redhat.com/2531746
+    - https://bugzilla.redhat.com/2531747
+    - https://bugzilla.redhat.com/2543797
+    - https://errata.almalinux.org/9/ALSA-2026-81532.html
+    - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
+    - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-2p8c-ff85-vh9x
+    - https://linux.oracle.com/cve/CVE-2026-89156.html
+    - https://linux.oracle.com/errata/ELSA-2026-81522.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-89156
+    - https://www.cve.org/CVERecord?id=CVE-2026-89156
+    PublishedDate: '2026-09-11T04:18:03.23Z'
+    LastModifiedDate: '2026-09-16T19:27:01.327Z'
+  - VulnerabilityID: CVE-2026-89157
+    PkgID: libpcre2-8-0@10.46-1build1
+    PkgName: libpcre2-8-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpcre2-8-0@10.46-1build1?arch=amd64&distro=ubuntu-26.04
+      UID: c9d0d8772a6e5e1d
+    InstalledVersion: 10.46-1build1
+    Status: affected
+    Layer:
+      Digest: sha256:f7bd25107f193931262fcb1582e0ca34fa8b996d777adb2eb82ba15943cadfb1
+      DiffID: sha256:79594fcd8f5aba01249be03580e5545388b74ec19d34f83272774855b367dffd
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-89157
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:574f1582b1009a7b36569749d222e8397bb1329f14724bc1765e4b472d447fa6
+    Title: 'pcre2: PCRE2: Out-of-bounds write via large pattern input'
+    Description: PCRE2 before 10.48, on 32-bit platforms, has a pcre2_pattern_convert out-of-bounds write when an attacker can provide a large pattern.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      alma: 3
+      azure: 2
+      nvd: 3
+      oracle-oval: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 7.4
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L
+        V3Score: 5.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:81532
+    - https://access.redhat.com/security/cve/CVE-2026-89157
+    - https://bugzilla.redhat.com/2528993
+    - https://bugzilla.redhat.com/2531743
+    - https://bugzilla.redhat.com/2531744
+    - https://bugzilla.redhat.com/2531745
+    - https://bugzilla.redhat.com/2531746
+    - https://bugzilla.redhat.com/2531747
+    - https://bugzilla.redhat.com/2543797
+    - https://errata.almalinux.org/9/ALSA-2026-81532.html
+    - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
+    - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-q8g2-wprr-34m9
+    - https://linux.oracle.com/cve/CVE-2026-89157.html
+    - https://linux.oracle.com/errata/ELSA-2026-81613.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-89157
+    - https://www.cve.org/CVERecord?id=CVE-2026-89157
+    PublishedDate: '2026-09-11T04:18:03.753Z'
+    LastModifiedDate: '2026-09-16T19:25:08.88Z'
+  - VulnerabilityID: CVE-2026-89158
+    PkgID: libpcre2-8-0@10.46-1build1
+    PkgName: libpcre2-8-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpcre2-8-0@10.46-1build1?arch=amd64&distro=ubuntu-26.04
+      UID: c9d0d8772a6e5e1d
+    InstalledVersion: 10.46-1build1
+    Status: affected
+    Layer:
+      Digest: sha256:f7bd25107f193931262fcb1582e0ca34fa8b996d777adb2eb82ba15943cadfb1
+      DiffID: sha256:79594fcd8f5aba01249be03580e5545388b74ec19d34f83272774855b367dffd
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-89158
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:79c50c3c64df5af27b1f2cdd4940c98733da32bb96d1da28829fd68400289042
+    Title: 'PCRE2: PCRE2: Out-of-bounds write via integer overflow on 32-bit platforms'
+    Description: PCRE2 before 10.48, on 32-bit platforms, has a pcre2_compile_32 integer overflow and resultant out-of-bounds write.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      alma: 3
+      azure: 2
+      nvd: 2
+      oracle-oval: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:81532
+    - https://access.redhat.com/security/cve/CVE-2026-89158
+    - https://bugzilla.redhat.com/2528993
+    - https://bugzilla.redhat.com/2531743
+    - https://bugzilla.redhat.com/2531744
+    - https://bugzilla.redhat.com/2531745
+    - https://bugzilla.redhat.com/2531746
+    - https://bugzilla.redhat.com/2531747
+    - https://bugzilla.redhat.com/2543797
+    - https://errata.almalinux.org/9/ALSA-2026-81532.html
+    - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
+    - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-fmgr-6ggq-9859
+    - https://linux.oracle.com/cve/CVE-2026-89158.html
+    - https://linux.oracle.com/errata/ELSA-2026-81613.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-89158
+    - https://www.cve.org/CVERecord?id=CVE-2026-89158
+    PublishedDate: '2026-09-11T04:18:03.97Z'
+    LastModifiedDate: '2026-09-16T19:23:41.45Z'
+  - VulnerabilityID: CVE-2026-89160
+    PkgID: libpcre2-8-0@10.46-1build1
+    PkgName: libpcre2-8-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpcre2-8-0@10.46-1build1?arch=amd64&distro=ubuntu-26.04
+      UID: c9d0d8772a6e5e1d
+    InstalledVersion: 10.46-1build1
+    Status: affected
+    Layer:
+      Digest: sha256:f7bd25107f193931262fcb1582e0ca34fa8b996d777adb2eb82ba15943cadfb1
+      DiffID: sha256:79594fcd8f5aba01249be03580e5545388b74ec19d34f83272774855b367dffd
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-89160
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a8707e13fd492c429ac1616e9d0a517f503a49a8e0e6bc7c49507762b592a537
+    Title: 'pcre2: PCRE2: Denial of Service via out-of-bounds read during invalid UTF matching'
+    Description: PCRE2 before 10.48 has a pcre2_match out-of-bounds read during the PCRE2_MATCH_INVALID_UTF matching of an invalid UTF subject.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      alma: 3
+      azure: 1
+      nvd: 2
+      oracle-oval: 3
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:81532
+    - https://access.redhat.com/security/cve/CVE-2026-89160
+    - https://bugzilla.redhat.com/2528993
+    - https://bugzilla.redhat.com/2531743
+    - https://bugzilla.redhat.com/2531744
+    - https://bugzilla.redhat.com/2531745
+    - https://bugzilla.redhat.com/2531746
+    - https://bugzilla.redhat.com/2531747
+    - https://bugzilla.redhat.com/2543797
+    - https://errata.almalinux.org/9/ALSA-2026-81532.html
+    - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
+    - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-9qww-pwc4-77qq
+    - https://linux.oracle.com/cve/CVE-2026-89160.html
+    - https://linux.oracle.com/errata/ELSA-2026-81522.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-89160
+    - https://www.cve.org/CVERecord?id=CVE-2026-89160
+    PublishedDate: '2026-09-11T04:18:04.343Z'
+    LastModifiedDate: '2026-09-16T19:15:29.443Z'
   - VulnerabilityID: CVE-2026-89161
     PkgID: libpcre2-8-0@10.46-1build1
     PkgName: libpcre2-8-0
@@ -1881,8 +2178,10 @@
     CweIDs:
     - CWE-590
     VendorSeverity:
+      alma: 3
       amazon: 3
       nvd: 3
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1893,14 +2192,68 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:81532
     - https://access.redhat.com/security/cve/CVE-2026-89161
+    - https://bugzilla.redhat.com/2528993
+    - https://bugzilla.redhat.com/2531743
+    - https://bugzilla.redhat.com/2531744
+    - https://bugzilla.redhat.com/2531745
+    - https://bugzilla.redhat.com/2531746
+    - https://bugzilla.redhat.com/2531747
+    - https://bugzilla.redhat.com/2543797
+    - https://errata.almalinux.org/9/ALSA-2026-81532.html
     - https://github.com/PCRE2Project/pcre2/commit/1dcd0cf42a6a7cb62cc9a7c024196733abcfda95%20%28pcre2-10.48-RC1%29
     - https://github.com/PCRE2Project/pcre2/pull/937
     - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
+    - https://linux.oracle.com/cve/CVE-2026-89161.html
+    - https://linux.oracle.com/errata/ELSA-2026-81522.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-89161
     - https://www.cve.org/CVERecord?id=CVE-2026-89161
     PublishedDate: '2026-09-11T04:18:04.47Z'
     LastModifiedDate: '2026-09-16T19:10:47.78Z'
+  - VulnerabilityID: CVE-2026-89162
+    PkgID: libpcre2-8-0@10.46-1build1
+    PkgName: libpcre2-8-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpcre2-8-0@10.46-1build1?arch=amd64&distro=ubuntu-26.04
+      UID: c9d0d8772a6e5e1d
+    InstalledVersion: 10.46-1build1
+    Status: affected
+    Layer:
+      Digest: sha256:f7bd25107f193931262fcb1582e0ca34fa8b996d777adb2eb82ba15943cadfb1
+      DiffID: sha256:79594fcd8f5aba01249be03580e5545388b74ec19d34f83272774855b367dffd
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-89162
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:1579417df9fa1b51eb2df885f74dc393b8e2c6f7628b7e3fd8ce965510e39f57
+    Title: 'pcre2: PCRE2: Information disclosure via pcre2_serialize_encode'
+    Description: In PCRE2 before 10.48, pcre2_serialize_encode might disclose two bytes to an adversary, typically in a situation where the access available to the adversary is already unsafe.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-669
+    VendorSeverity:
+      nvd: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-89162
+    - https://github.com/PCRE2Project/pcre2/commit/edc111a6831591f68b5355a08cc9df8be8f35304%20%28pcre2-10.48-RC1%29
+    - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
+    - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-q7rw-r7qq-2hx6
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-89162
+    - https://www.cve.org/CVERecord?id=CVE-2026-89162
+    PublishedDate: '2026-09-11T05:16:38.697Z'
+    LastModifiedDate: '2026-09-16T18:56:28.643Z'
   - VulnerabilityID: CVE-2023-37769
     PkgID: libpixman-1-0@0.46.4-1
     PkgName: libpixman-1-0
@@ -2356,6 +2709,326 @@
     - https://www.wireshark.org/security/wnpa-sec-2021-15.html
     PublishedDate: '2021-11-18T19:15:08.333Z'
     LastModifiedDate: '2026-06-17T04:04:25.67Z'
+  - VulnerabilityID: CVE-2026-88806
+    PkgID: libx11-6@2:1.8.13-1
+    PkgName: libx11-6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libx11-6@1.8.13-1?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 146102fe9dff90c
+    InstalledVersion: 2:1.8.13-1
+    FixedVersion: 2:1.8.13-1ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:f7bd25107f193931262fcb1582e0ca34fa8b996d777adb2eb82ba15943cadfb1
+      DiffID: sha256:79594fcd8f5aba01249be03580e5545388b74ec19d34f83272774855b367dffd
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-88806
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a912f4549ddd090f3303ddb35454ea5889d8125fbf90a4ddae54dad58ba72040
+    Title: 'libX11: libX11: Heap-based buffer overflow via malicious X server'
+    Description: A malicious X server could exploit a buffer overflow in libX11 before 1.8.14 during handling of XkbGetMap overflowing the key_sym_map.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      amazon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-88806
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/309
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-88806
+    - https://ubuntu.com/security/notices/USN-8913-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-88806
+    PublishedDate: '2026-09-21T14:17:22.273Z'
+    LastModifiedDate: '2026-09-22T19:40:05.87Z'
+  - VulnerabilityID: CVE-2026-94283
+    PkgID: libx11-6@2:1.8.13-1
+    PkgName: libx11-6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libx11-6@1.8.13-1?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 146102fe9dff90c
+    InstalledVersion: 2:1.8.13-1
+    FixedVersion: 2:1.8.13-1ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:f7bd25107f193931262fcb1582e0ca34fa8b996d777adb2eb82ba15943cadfb1
+      DiffID: sha256:79594fcd8f5aba01249be03580e5545388b74ec19d34f83272774855b367dffd
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-94283
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:5fc5b1c637f35ec1193090f3028ed0ecab0f83bf36f7c446b03f6e8dfc776e16
+    Title: 'libX11: libX11: Denial of Service via out-of-bounds read in XIM attribute parser'
+    Description: An out-of-bounds read vulnerability in libX11's XIM (X Input Method) attribute parser in libX11 before 1.8.14 could be used by malicious X servers to crash attached X clients.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-94283
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310/diffs?commit_id=42d0303f243002a9856c76060569a61893c670dd
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-94283
+    - https://ubuntu.com/security/notices/USN-8913-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-94283
+    PublishedDate: '2026-09-28T09:17:08.133Z'
+    LastModifiedDate: '2026-09-30T13:17:26.27Z'
+  - VulnerabilityID: CVE-2026-94284
+    PkgID: libx11-6@2:1.8.13-1
+    PkgName: libx11-6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libx11-6@1.8.13-1?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 146102fe9dff90c
+    InstalledVersion: 2:1.8.13-1
+    FixedVersion: 2:1.8.13-1ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:f7bd25107f193931262fcb1582e0ca34fa8b996d777adb2eb82ba15943cadfb1
+      DiffID: sha256:79594fcd8f5aba01249be03580e5545388b74ec19d34f83272774855b367dffd
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-94284
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:103e9f91ec2fad62e80926b54e041a84ac261ec0fd34c62f9826afd9d799a475
+    Title: 'libX11: libX11: Denial of Service via out-of-bounds read in XIM trigger-key registration parser'
+    Description: An out-of-bounds read vulnerability in libX11's XIM trigger-key registration parser in libX11 before 1.8.14 could be used by malicious X servers to crash attached X clients.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-94284
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310/diffs?commit_id=1b7904002d212eed40949ccf4e8e7156f9fec0e2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-94284
+    - https://ubuntu.com/security/notices/USN-8913-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-94284
+    PublishedDate: '2026-09-28T09:17:08.247Z'
+    LastModifiedDate: '2026-09-30T13:17:26.41Z'
+  - VulnerabilityID: CVE-2026-94285
+    PkgID: libx11-6@2:1.8.13-1
+    PkgName: libx11-6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libx11-6@1.8.13-1?arch=amd64&distro=ubuntu-26.04&epoch=2
+      UID: 146102fe9dff90c
+    InstalledVersion: 2:1.8.13-1
+    FixedVersion: 2:1.8.13-1ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:f7bd25107f193931262fcb1582e0ca34fa8b996d777adb2eb82ba15943cadfb1
+      DiffID: sha256:79594fcd8f5aba01249be03580e5545388b74ec19d34f83272774855b367dffd
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-94285
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:7ef6920acad966e3b8e3545d74921740eb18cdfee1b611e75747d440cae72eae
+    Title: 'libX11: libX11: Denial of Service via out-of-bounds read in byte-oriented codeset parser'
+    Description: An out-of-bounds read in libX11's byte-oriented codeset parser in libX11 before 1.8.14 could be used by malicious X servers to crash attached X clients.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L
+        V3Score: 5.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-94285
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310/diffs?commit_id=980868483446f24f9658d26aa5bfa42f3da6dd3a
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-94285
+    - https://ubuntu.com/security/notices/USN-8913-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-94285
+    PublishedDate: '2026-09-28T09:17:08.353Z'
+    LastModifiedDate: '2026-09-30T13:17:26.57Z'
+  - VulnerabilityID: CVE-2026-88806
+    PkgID: libx11-data@2:1.8.13-1
+    PkgName: libx11-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libx11-data@1.8.13-1?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: 7f46e7852179fee
+    InstalledVersion: 2:1.8.13-1
+    FixedVersion: 2:1.8.13-1ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:f7bd25107f193931262fcb1582e0ca34fa8b996d777adb2eb82ba15943cadfb1
+      DiffID: sha256:79594fcd8f5aba01249be03580e5545388b74ec19d34f83272774855b367dffd
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-88806
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:b3acb4e4ddeef124d29ac7ec871cac99b6928fc7f16e776b28dfa3e142c70497
+    Title: 'libX11: libX11: Heap-based buffer overflow via malicious X server'
+    Description: A malicious X server could exploit a buffer overflow in libX11 before 1.8.14 during handling of XkbGetMap overflowing the key_sym_map.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      amazon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-88806
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/309
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-88806
+    - https://ubuntu.com/security/notices/USN-8913-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-88806
+    PublishedDate: '2026-09-21T14:17:22.273Z'
+    LastModifiedDate: '2026-09-22T19:40:05.87Z'
+  - VulnerabilityID: CVE-2026-94283
+    PkgID: libx11-data@2:1.8.13-1
+    PkgName: libx11-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libx11-data@1.8.13-1?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: 7f46e7852179fee
+    InstalledVersion: 2:1.8.13-1
+    FixedVersion: 2:1.8.13-1ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:f7bd25107f193931262fcb1582e0ca34fa8b996d777adb2eb82ba15943cadfb1
+      DiffID: sha256:79594fcd8f5aba01249be03580e5545388b74ec19d34f83272774855b367dffd
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-94283
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:7c293853f3aa454ff40cab22cca6af996298d4a971de25b6d2b2a2f7554c622d
+    Title: 'libX11: libX11: Denial of Service via out-of-bounds read in XIM attribute parser'
+    Description: An out-of-bounds read vulnerability in libX11's XIM (X Input Method) attribute parser in libX11 before 1.8.14 could be used by malicious X servers to crash attached X clients.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-94283
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310/diffs?commit_id=42d0303f243002a9856c76060569a61893c670dd
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-94283
+    - https://ubuntu.com/security/notices/USN-8913-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-94283
+    PublishedDate: '2026-09-28T09:17:08.133Z'
+    LastModifiedDate: '2026-09-30T13:17:26.27Z'
+  - VulnerabilityID: CVE-2026-94284
+    PkgID: libx11-data@2:1.8.13-1
+    PkgName: libx11-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libx11-data@1.8.13-1?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: 7f46e7852179fee
+    InstalledVersion: 2:1.8.13-1
+    FixedVersion: 2:1.8.13-1ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:f7bd25107f193931262fcb1582e0ca34fa8b996d777adb2eb82ba15943cadfb1
+      DiffID: sha256:79594fcd8f5aba01249be03580e5545388b74ec19d34f83272774855b367dffd
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-94284
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:37574d97477ec3ef41b2240e5c70e5779b54d2efa68db5db81bdf81341ab35fa
+    Title: 'libX11: libX11: Denial of Service via out-of-bounds read in XIM trigger-key registration parser'
+    Description: An out-of-bounds read vulnerability in libX11's XIM trigger-key registration parser in libX11 before 1.8.14 could be used by malicious X servers to crash attached X clients.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-94284
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310/diffs?commit_id=1b7904002d212eed40949ccf4e8e7156f9fec0e2
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-94284
+    - https://ubuntu.com/security/notices/USN-8913-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-94284
+    PublishedDate: '2026-09-28T09:17:08.247Z'
+    LastModifiedDate: '2026-09-30T13:17:26.41Z'
+  - VulnerabilityID: CVE-2026-94285
+    PkgID: libx11-data@2:1.8.13-1
+    PkgName: libx11-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libx11-data@1.8.13-1?arch=all&distro=ubuntu-26.04&epoch=2
+      UID: 7f46e7852179fee
+    InstalledVersion: 2:1.8.13-1
+    FixedVersion: 2:1.8.13-1ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:f7bd25107f193931262fcb1582e0ca34fa8b996d777adb2eb82ba15943cadfb1
+      DiffID: sha256:79594fcd8f5aba01249be03580e5545388b74ec19d34f83272774855b367dffd
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-94285
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:3acfee61fa11ec2f8d816b78820ad8eb33bf3fae01eb22f1e58fa96344dfb266
+    Title: 'libX11: libX11: Denial of Service via out-of-bounds read in byte-oriented codeset parser'
+    Description: An out-of-bounds read in libX11's byte-oriented codeset parser in libX11 before 1.8.14 could be used by malicious X servers to crash attached X clients.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L
+        V3Score: 5.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-94285
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310
+    - https://gitlab.freedesktop.org/xorg/lib/libx11/-/merge_requests/310/diffs?commit_id=980868483446f24f9658d26aa5bfa42f3da6dd3a
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-94285
+    - https://ubuntu.com/security/notices/USN-8913-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-94285
+    PublishedDate: '2026-09-28T09:17:08.353Z'
+    LastModifiedDate: '2026-09-30T13:17:26.57Z'
   - VulnerabilityID: CVE-2026-88807
     PkgID: libxrender1@1:0.9.12-1build1
     PkgName: libxrender1
@@ -2380,6 +3053,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      amazon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -2536,6 +3210,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
+    - https://access.redhat.com/errata/RHSA-2025:20145
     - https://access.redhat.com/errata/RHSA-2025:20559
     - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
@@ -2543,7 +3218,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/9/ALSA-2025-20559.html
-    - https://errata.rockylinux.org/RLSA-2025:20559
+    - https://errata.rockylinux.org/RLSA-2025:20145
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -2588,6 +3263,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
+    - https://access.redhat.com/errata/RHSA-2025:20145
     - https://access.redhat.com/errata/RHSA-2025:20559
     - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
@@ -2595,7 +3271,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/9/ALSA-2025-20559.html
-    - https://errata.rockylinux.org/RLSA-2025:20559
+    - https://errata.rockylinux.org/RLSA-2025:20145
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -3619,15 +4295,17 @@
     - https://bugzilla.redhat.com/2455360
     - https://bugzilla.redhat.com/2509735
     - https://bugzilla.redhat.com/2509843
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2379592
     - https://bugzilla.redhat.com/show_bug.cgi?id=2455360
     - https://bugzilla.redhat.com/show_bug.cgi?id=2509735
     - https://bugzilla.redhat.com/show_bug.cgi?id=2509843
     - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-45582
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18477
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18508
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5704
     - https://errata.almalinux.org/9/ALSA-2026-61581.html
-    - https://errata.rockylinux.org/RLSA-2026:61581
+    - https://errata.rockylinux.org/RLSA-2026:70390
     - https://linux.oracle.com/cve/CVE-2026-18477.html
     - https://linux.oracle.com/errata/ELSA-2026-70390.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18477
@@ -3678,15 +4356,17 @@
     - https://bugzilla.redhat.com/2455360
     - https://bugzilla.redhat.com/2509735
     - https://bugzilla.redhat.com/2509843
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2379592
     - https://bugzilla.redhat.com/show_bug.cgi?id=2455360
     - https://bugzilla.redhat.com/show_bug.cgi?id=2509735
     - https://bugzilla.redhat.com/show_bug.cgi?id=2509843
     - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-45582
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18477
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18508
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5704
     - https://errata.almalinux.org/9/ALSA-2026-61581.html
-    - https://errata.rockylinux.org/RLSA-2026:61581
+    - https://errata.rockylinux.org/RLSA-2026:70390
     - https://linux.oracle.com/cve/CVE-2026-18508.html
     - https://linux.oracle.com/errata/ELSA-2026-70390.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18508
@@ -4685,7 +5365,7 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:07de42b2a218d3ab8dbf51c483198574fe5dbcc617a523d6e2f5037110240d41
-    Title: 'net/http: net/http/internal/http2: golang: golang.org/x/net/http2: net/http: Denial of Service via excessive HTTP/2 SETTINGS frames'
+    Title: 'net/http: net/http/internal/http2: golang.org/x/net/http2: net/http: Denial of Service via excessive HTTP/2 SETTINGS frames'
     Description: A malicious HTTP/2 peer can cause excessive CPU consumption in the client or server by opening a large number of streams and then sending many small SETTINGS frames containing SETTINGS_INITIAL_WINDOW_SIZE values.
     Severity: HIGH
     CweIDs:
