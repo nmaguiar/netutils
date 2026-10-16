@@ -5866,6 +5866,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -5873,6 +5874,7 @@
         V3Score: 7.6
     References:
     - https://access.redhat.com/errata/RHSA-2026:81532
+    - https://access.redhat.com/errata/RHSA-2026:81613
     - https://access.redhat.com/security/cve/CVE-2026-103111
     - https://bugzilla.redhat.com/2528993
     - https://bugzilla.redhat.com/2531743
@@ -5881,7 +5883,17 @@
     - https://bugzilla.redhat.com/2531746
     - https://bugzilla.redhat.com/2531747
     - https://bugzilla.redhat.com/2543797
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528993
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531744
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531746
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2543797
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-103111
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89157
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89158
     - https://errata.almalinux.org/9/ALSA-2026-81532.html
+    - https://errata.rockylinux.org/RLSA-2026:81613
     - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-r9hj-j2rw-4q3m
     - https://linux.oracle.com/cve/CVE-2026-103111.html
     - https://linux.oracle.com/errata/ELSA-2026-81613.html
@@ -5918,6 +5930,7 @@
       azure: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -5926,6 +5939,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/05/3
     - https://access.redhat.com/errata/RHSA-2026:81532
+    - https://access.redhat.com/errata/RHSA-2026:81613
     - https://access.redhat.com/security/cve/CVE-2026-86145
     - https://bugzilla.redhat.com/2528993
     - https://bugzilla.redhat.com/2531743
@@ -5934,7 +5948,17 @@
     - https://bugzilla.redhat.com/2531746
     - https://bugzilla.redhat.com/2531747
     - https://bugzilla.redhat.com/2543797
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528993
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531744
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531746
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2543797
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-103111
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89157
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89158
     - https://errata.almalinux.org/9/ALSA-2026-81532.html
+    - https://errata.rockylinux.org/RLSA-2026:81613
     - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
     - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-3r4p-g7gg-ppmf
     - https://linux.oracle.com/cve/CVE-2026-86145.html
@@ -5973,6 +5997,7 @@
       nvd: 3
       oracle-oval: 3
       redhat: 2
+      rocky: 3
       ubuntu: 2
     CVSS:
       nvd:
@@ -5983,6 +6008,7 @@
         V3Score: 5.7
     References:
     - https://access.redhat.com/errata/RHSA-2026:81532
+    - https://access.redhat.com/errata/RHSA-2026:81613
     - https://access.redhat.com/security/cve/CVE-2026-89157
     - https://bugzilla.redhat.com/2528993
     - https://bugzilla.redhat.com/2531743
@@ -5991,7 +6017,17 @@
     - https://bugzilla.redhat.com/2531746
     - https://bugzilla.redhat.com/2531747
     - https://bugzilla.redhat.com/2543797
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528993
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531744
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531746
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2543797
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-103111
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89157
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89158
     - https://errata.almalinux.org/9/ALSA-2026-81532.html
+    - https://errata.rockylinux.org/RLSA-2026:81613
     - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
     - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-q8g2-wprr-34m9
     - https://linux.oracle.com/cve/CVE-2026-89157.html
@@ -6030,6 +6066,7 @@
       nvd: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       nvd:
@@ -6048,12 +6085,28 @@
     - https://bugzilla.redhat.com/2531746
     - https://bugzilla.redhat.com/2531747
     - https://bugzilla.redhat.com/2543797
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528993
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531743
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531744
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531745
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531746
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531747
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2543797
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-103111
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89157
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89158
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89160
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89161
     - https://errata.almalinux.org/9/ALSA-2026-81532.html
+    - https://errata.rockylinux.org/RLSA-2026:81532
     - https://github.com/PCRE2Project/pcre2/commit/1dcd0cf42a6a7cb62cc9a7c024196733abcfda95%20%28pcre2-10.48-RC1%29
     - https://github.com/PCRE2Project/pcre2/pull/937
     - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
     - https://linux.oracle.com/cve/CVE-2026-89161.html
-    - https://linux.oracle.com/errata/ELSA-2026-81522.html
+    - https://linux.oracle.com/errata/ELSA-2026-81532.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-89161
     - https://www.cve.org/CVERecord?id=CVE-2026-89161
     PublishedDate: '2026-09-11T04:18:04.47Z'
@@ -6088,6 +6141,7 @@
       nvd: 2
       oracle-oval: 3
       redhat: 1
+      rocky: 3
       ubuntu: 2
     CVSS:
       nvd:
@@ -6106,11 +6160,27 @@
     - https://bugzilla.redhat.com/2531746
     - https://bugzilla.redhat.com/2531747
     - https://bugzilla.redhat.com/2543797
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528993
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531743
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531744
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531745
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531746
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531747
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2543797
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-103111
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89157
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89158
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89160
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89161
     - https://errata.almalinux.org/9/ALSA-2026-81532.html
+    - https://errata.rockylinux.org/RLSA-2026:81532
     - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
     - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-2p8c-ff85-vh9x
     - https://linux.oracle.com/cve/CVE-2026-89156.html
-    - https://linux.oracle.com/errata/ELSA-2026-81522.html
+    - https://linux.oracle.com/errata/ELSA-2026-81532.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-89156
     - https://www.cve.org/CVERecord?id=CVE-2026-89156
     PublishedDate: '2026-09-11T04:18:03.23Z'
@@ -6145,6 +6215,7 @@
       nvd: 2
       oracle-oval: 3
       redhat: 2
+      rocky: 3
       ubuntu: 2
     CVSS:
       nvd:
@@ -6155,6 +6226,7 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/errata/RHSA-2026:81532
+    - https://access.redhat.com/errata/RHSA-2026:81613
     - https://access.redhat.com/security/cve/CVE-2026-89158
     - https://bugzilla.redhat.com/2528993
     - https://bugzilla.redhat.com/2531743
@@ -6163,7 +6235,17 @@
     - https://bugzilla.redhat.com/2531746
     - https://bugzilla.redhat.com/2531747
     - https://bugzilla.redhat.com/2543797
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528993
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531744
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531746
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2543797
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-103111
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89157
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89158
     - https://errata.almalinux.org/9/ALSA-2026-81532.html
+    - https://errata.rockylinux.org/RLSA-2026:81613
     - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
     - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-fmgr-6ggq-9859
     - https://linux.oracle.com/cve/CVE-2026-89158.html
@@ -6202,6 +6284,7 @@
       nvd: 2
       oracle-oval: 3
       redhat: 1
+      rocky: 3
       ubuntu: 2
     CVSS:
       nvd:
@@ -6220,11 +6303,27 @@
     - https://bugzilla.redhat.com/2531746
     - https://bugzilla.redhat.com/2531747
     - https://bugzilla.redhat.com/2543797
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528993
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531743
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531744
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531745
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531746
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2531747
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2543797
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-103111
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89157
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89158
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89160
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89161
     - https://errata.almalinux.org/9/ALSA-2026-81532.html
+    - https://errata.rockylinux.org/RLSA-2026:81532
     - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
     - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-9qww-pwc4-77qq
     - https://linux.oracle.com/cve/CVE-2026-89160.html
-    - https://linux.oracle.com/errata/ELSA-2026-81522.html
+    - https://linux.oracle.com/errata/ELSA-2026-81532.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-89160
     - https://www.cve.org/CVERecord?id=CVE-2026-89160
     PublishedDate: '2026-09-11T04:18:04.343Z'
