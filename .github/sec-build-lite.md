@@ -35,15 +35,17 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 8.1 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-92392 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-92392.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-92392.json 
-│                       │      │                  ├ [3]: https://hackerone.com/reports/4030333 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-92392 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8927-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-92392 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/10/18/5 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2026/10/18/6 
+│                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2026-92392 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2026-92392.html 
+│                       │      │                  ├ [4]: https://curl.se/docs/CVE-2026-92392.json 
+│                       │      │                  ├ [5]: https://hackerone.com/reports/4030333 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-92392 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8927-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-92392 
 │                       │      ├ PublishedDate   : 2026-10-14T08:17:05.997Z 
-│                       │      ╰ LastModifiedDate: 2026-10-16T16:00:33.533Z 
+│                       │      ╰ LastModifiedDate: 2026-10-18T23:16:57.163Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2026-92388 
 │                       │      ├ PkgID           : curl@8.22.0-r0 
 │                       │      ├ PkgName         : curl 
@@ -961,15 +963,17 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 8.1 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-92392 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-92392.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-92392.json 
-│                       │      │                  ├ [3]: https://hackerone.com/reports/4030333 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-92392 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8927-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-92392 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/10/18/5 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2026/10/18/6 
+│                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2026-92392 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2026-92392.html 
+│                       │      │                  ├ [4]: https://curl.se/docs/CVE-2026-92392.json 
+│                       │      │                  ├ [5]: https://hackerone.com/reports/4030333 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-92392 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8927-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-92392 
 │                       │      ├ PublishedDate   : 2026-10-14T08:17:05.997Z 
-│                       │      ╰ LastModifiedDate: 2026-10-16T16:00:33.533Z 
+│                       │      ╰ LastModifiedDate: 2026-10-18T23:16:57.163Z 
 │                       ├ [25] ╭ VulnerabilityID : CVE-2026-92388 
 │                       │      ├ PkgID           : curl-doc@8.22.0-r0 
 │                       │      ├ PkgName         : curl-doc 
@@ -1887,15 +1891,17 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 8.1 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-92392 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-92392.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-92392.json 
-│                       │      │                  ├ [3]: https://hackerone.com/reports/4030333 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-92392 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8927-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-92392 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/10/18/5 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2026/10/18/6 
+│                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2026-92392 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2026-92392.html 
+│                       │      │                  ├ [4]: https://curl.se/docs/CVE-2026-92392.json 
+│                       │      │                  ├ [5]: https://hackerone.com/reports/4030333 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-92392 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8927-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-92392 
 │                       │      ├ PublishedDate   : 2026-10-14T08:17:05.997Z 
-│                       │      ╰ LastModifiedDate: 2026-10-16T16:00:33.533Z 
+│                       │      ╰ LastModifiedDate: 2026-10-18T23:16:57.163Z 
 │                       ├ [49] ╭ VulnerabilityID : CVE-2026-92388 
 │                       │      ├ PkgID           : libcurl@8.22.0-r0 
 │                       │      ├ PkgName         : libcurl 
