@@ -2747,46 +2747,555 @@
 │                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-94265 
 │                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2026-94265 
 │                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-94265 
-│                       ╰ [71] ╭ VulnerabilityID : CVE-2026-94266 
-│                              ├ PkgID           : libcurl@8.22.0-r0 
-│                              ├ PkgName         : libcurl 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.22.0-r0?arch=x86_64&distro=3
+│                       ├ [71] ╭ VulnerabilityID : CVE-2026-94266 
+│                       │      ├ PkgID           : libcurl@8.22.0-r0 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.22.0-r0?arch=x86_64&distro=3
+│                       │      │                  │       .25.0_alpha20260805 
+│                       │      │                  ╰ UID : 78ea930965a4d995 
+│                       │      ├ InstalledVersion: 8.22.0-r0 
+│                       │      ├ FixedVersion    : 8.23.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:74ea17cc8753dc05143760c8afb2ff022fc9da6cde28
+│                       │      │                  │         0603b6c70ba48989e349 
+│                       │      │                  ╰ DiffID: sha256:742bec09167b1a544b6ce42bb9d74349b04e32899c05
+│                       │      │                            2a3ff52492d70e560a99 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-94266 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:c8398b01b67d7367f92cf0d9265ac611253caeddb4fc0ac32e4e7
+│                       │      │                   6e334529c28 
+│                       │      ├ Title           : curl: curl: password leak in CURLINFO_EFFECTIVE_URL 
+│                       │      ├ Description     : A flaw was found in curl. This vulnerability can lead to
+│                       │      │                   information disclosure by inadvertently revealing
+│                       │      │                   authentication credentials. When curl retrieves credentials
+│                       │      │                   from a local configuration file (such as a .netrc file),
+│                       │      │                   requesting the effective URL metadata can cause the returned
+│                       │      │                    destination address to improperly include those secret
+│                       │      │                   credentials. A local user may exploit this issue to view
+│                       │      │                   sensitive authentication tokens if an application or script
+│                       │      │                   queries and logs or displays the resolved URL. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.3 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-94266 
+│                       │                         ├ [1]: https://curl.se/docs/CVE-2026-94266.html 
+│                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-94266 
+│                       │                         ├ [3]: https://ubuntu.com/security/notices/USN-8927-1 
+│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-94266 
+│                       ├ [72] ╭ VulnerabilityID : CVE-2026-58050 
+│                       │      ├ PkgID           : libssh2@1.11.1-r3 
+│                       │      ├ PkgName         : libssh2 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh2@1.11.1-r3?arch=x86_64&distro=3
+│                       │      │                  │       .25.0_alpha20260805 
+│                       │      │                  ╰ UID : af68d293bd29897 
+│                       │      ├ InstalledVersion: 1.11.1-r3 
+│                       │      ├ FixedVersion    : 1.11.1-r4 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:74ea17cc8753dc05143760c8afb2ff022fc9da6cde28
+│                       │      │                  │         0603b6c70ba48989e349 
+│                       │      │                  ╰ DiffID: sha256:742bec09167b1a544b6ce42bb9d74349b04e32899c05
+│                       │      │                            2a3ff52492d70e560a99 
+│                       │      ├ SeveritySource  : nvd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-58050 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:133c4407f27d83ea58e5935e90ffad215ea030fb6e82dd1e6793a
+│                       │      │                   1531b9748f9 
+│                       │      ├ Title           : libssh2: libssh2: Heap buffer overflow via integer overflow
+│                       │      │                   in publickey attribute allocation 
+│                       │      ├ Description     : libssh2 through 1.11.1 reads an attacker-controlled 32-bit
+│                       │      │                   attribute count from a publickey-subsystem response and uses
+│                       │      │                    it in the allocation num_attrs *
+│                       │      │                   sizeof(libssh2_publickey_attribute) without bounds checking,
+│                       │      │                    so on 32-bit platforms the multiplication overflows to an
+│                       │      │                   undersized buffer. A malicious SSH server can then drive the
+│                       │      │                    attribute-parsing loop to write past the allocation,
+│                       │      │                   causing a heap buffer overflow in a connecting libssh2
+│                       │      │                   client. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-190 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ azure : 3 
+│                       │      │                  ├ julia : 3 
+│                       │      │                  ├ nvd   : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                  │        │            N/A:H 
+│                       │      │                  │        ├ V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:L/
+│                       │      │                  │        │            VI:L/VA:H/SC:N/SI:N/SA:N 
+│                       │      │                  │        ├ V3Score  : 7.5 
+│                       │      │                  │        ╰ V40Score : 8.3 
+│                       │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-58050 
+│                       │      │                  ├ [1]: https://github.com/advisories/GHSA-mf77-5hj2-98w9 
+│                       │      │                  ├ [2]: https://github.com/bikini/exploitarium/tree/main/libss
+│                       │      │                  │      h2-publickey-list-calc-poc 
+│                       │      │                  ├ [3]: https://github.com/libssh2/libssh2/blob/master/src/pub
+│                       │      │                  │      lickey.c 
+│                       │      │                  ├ [4]: https://github.com/libssh2/libssh2/pull/2205#discussio
+│                       │      │                  │      n_r3523193089 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-58050 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8532-1 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8799-1 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2026-58050 
+│                       │      │                  ╰ [9]: https://www.vulncheck.com/advisories/libssh2-integer-o
+│                       │      │                         verflow-in-publickey-subsystem-attribute-allocation 
+│                       │      ├ PublishedDate   : 2026-06-28T02:16:32.017Z 
+│                       │      ╰ LastModifiedDate: 2026-06-30T20:27:36.86Z 
+│                       ├ [73] ╭ VulnerabilityID : CVE-2025-15661 
+│                       │      ├ PkgID           : libssh2@1.11.1-r3 
+│                       │      ├ PkgName         : libssh2 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh2@1.11.1-r3?arch=x86_64&distro=3
+│                       │      │                  │       .25.0_alpha20260805 
+│                       │      │                  ╰ UID : af68d293bd29897 
+│                       │      ├ InstalledVersion: 1.11.1-r3 
+│                       │      ├ FixedVersion    : 1.11.1-r4 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:74ea17cc8753dc05143760c8afb2ff022fc9da6cde28
+│                       │      │                  │         0603b6c70ba48989e349 
+│                       │      │                  ╰ DiffID: sha256:742bec09167b1a544b6ce42bb9d74349b04e32899c05
+│                       │      │                            2a3ff52492d70e560a99 
+│                       │      ├ SeveritySource  : nvd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15661 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:abec5a8e04b96a63dc4086459d6f74a6787cf971202addee3c3cb
+│                       │      │                   e503da05ccd 
+│                       │      ├ Title           : libssh2: libssh2: Information disclosure and denial of
+│                       │      │                   service via crafted SFTP response 
+│                       │      ├ Description     : libssh2 through 1.11.1, fixed in commit 2dae302, contains an
+│                       │      │                    out-of-bounds heap read vulnerability in the sftp_symlink()
+│                       │      │                    function in src/sftp.c that allows a malicious SSH server
+│                       │      │                   or man-in-the-middle attacker to disclose heap memory
+│                       │      │                   contents or cause a crash by sending a crafted SSH_FXP_NAME
+│                       │      │                   response. Attackers can supply a link_len value larger than
+│                       │      │                   the actual packet data in SSH_FXP_NAME responses for SFTP
+│                       │      │                   READLINK and REALPATH operations, triggering a heap buffer
+│                       │      │                   over-read of up to target_len minus one bytes due to the
+│                       │      │                   missing validation of available packet buffer size before
+│                       │      │                   the memcpy operation. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ julia : 3 
+│                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector : CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
+│                       │      │                  │        │            N/A:H 
+│                       │      │                  │        ├ V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:L/
+│                       │      │                  │        │            VI:N/VA:H/SC:N/SI:N/SA:N 
+│                       │      │                  │        ├ V3Score  : 6.5 
+│                       │      │                  │        ╰ V40Score : 8.3 
+│                       │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 6.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-15661 
+│                       │      │                  ├ [1]: https://github.com/advisories/GHSA-3wqh-87fg-ffgg 
+│                       │      │                  ├ [2]: https://github.com/libssh2/libssh2/commit/2dae3024897e
+│                       │      │                  │      1898d389835151f4e9606227721d 
+│                       │      │                  ├ [3]: https://github.com/libssh2/libssh2/pull/1705 
+│                       │      │                  ├ [4]: https://github.com/libssh2/libssh2/pull/1717 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-15661 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8486-1 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-15661 
+│                       │      │                  ╰ [8]: https://www.vulncheck.com/advisories/libssh2-heap-buff
+│                       │      │                         er-over-read-via-sftp-symlink-in-sftp-c 
+│                       │      ├ PublishedDate   : 2026-06-18T21:16:27.143Z 
+│                       │      ╰ LastModifiedDate: 2026-10-12T22:10:00.247Z 
+│                       ├ [74] ╭ VulnerabilityID : CVE-2026-58051 
+│                       │      ├ PkgID           : libssh2@1.11.1-r3 
+│                       │      ├ PkgName         : libssh2 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh2@1.11.1-r3?arch=x86_64&distro=3
+│                       │      │                  │       .25.0_alpha20260805 
+│                       │      │                  ╰ UID : af68d293bd29897 
+│                       │      ├ InstalledVersion: 1.11.1-r3 
+│                       │      ├ FixedVersion    : 1.11.1-r4 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:74ea17cc8753dc05143760c8afb2ff022fc9da6cde28
+│                       │      │                  │         0603b6c70ba48989e349 
+│                       │      │                  ╰ DiffID: sha256:742bec09167b1a544b6ce42bb9d74349b04e32899c05
+│                       │      │                            2a3ff52492d70e560a99 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-58051 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:bfc24a01ba9a20dda628d3c11bacab9487f46b459e2d5fefaff88
+│                       │      │                   7b85a9c280c 
+│                       │      ├ Title           : libssh2: libssh2: Denial of service or information
+│                       │      │                   disclosure via malformed SSH publickey response 
+│                       │      ├ Description     : libssh2 through 1.11.1 grows its publickey list with
+│                       │      │                   SSH2_REALLOC but does not zero-initialize new entries before
+│                       │      │                    parsing populates them, so a parse failure reaching the
+│                       │      │                   cleanup path leaves libssh2_publickey_list_free operating on
+│                       │      │                    an uninitialized entry. A malicious SSH server offering the
+│                       │      │                    publickey subsystem can use a malformed response to make
+│                       │      │                   cleanup free an uninitialized, attacker-influenceable attrs
+│                       │      │                   pointer in a connecting libssh2 client. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-908 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ azure : 3 
+│                       │      │                  ├ julia : 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector : CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                  │        │            L/A:H 
+│                       │      │                  │        ├ V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:N/
+│                       │      │                  │        │            VI:L/VA:H/SC:N/SI:N/SA:N 
+│                       │      │                  │        ├ V3Score  : 6.5 
+│                       │      │                  │        ╰ V40Score : 8.3 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-58051 
+│                       │      │                  ├ [1]: https://github.com/advisories/GHSA-c5f3-hwj2-xp5p 
+│                       │      │                  ├ [2]: https://github.com/bikini/exploitarium/tree/main/libss
+│                       │      │                  │      h2-publickey-list-calc-poc 
+│                       │      │                  ├ [3]: https://github.com/libssh2/libssh2/blob/master/src/pub
+│                       │      │                  │      lickey.c 
+│                       │      │                  ├ [4]: https://github.com/libssh2/libssh2/pull/2202 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-58051 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8532-1 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-8799-1 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2026-58051 
+│                       │      │                  ╰ [9]: https://www.vulncheck.com/advisories/libssh2-free-of-u
+│                       │      │                         ninitialized-pointer-in-publickey-list-cleanup 
+│                       │      ├ PublishedDate   : 2026-06-28T02:16:32.153Z 
+│                       │      ╰ LastModifiedDate: 2026-06-30T17:42:04.473Z 
+│                       ├ [75] ╭ VulnerabilityID : CVE-2026-66032 
+│                       │      ├ PkgID           : libssh2@1.11.1-r3 
+│                       │      ├ PkgName         : libssh2 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh2@1.11.1-r3?arch=x86_64&distro=3
+│                       │      │                  │       .25.0_alpha20260805 
+│                       │      │                  ╰ UID : af68d293bd29897 
+│                       │      ├ InstalledVersion: 1.11.1-r3 
+│                       │      ├ FixedVersion    : 1.11.1-r4 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:74ea17cc8753dc05143760c8afb2ff022fc9da6cde28
+│                       │      │                  │         0603b6c70ba48989e349 
+│                       │      │                  ╰ DiffID: sha256:742bec09167b1a544b6ce42bb9d74349b04e32899c05
+│                       │      │                            2a3ff52492d70e560a99 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-66032 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:69793ca9fd263b29d8c9db29da2d47243b60d10b160426582ac50
+│                       │      │                   9f603a4c35d 
+│                       │      ├ Title           : libssh2: libssh2: Arbitrary code execution via double-free
+│                       │      │                   in SFTP session 
+│                       │      ├ Description     : libssh2 through 1.11.1, fixed in commit 5e47761, contains a
+│                       │      │                   double-free vulnerability in the sftp_open() function in
+│                       │      │                   src/sftp.c that allows a malicious SSH server to corrupt the
+│                       │      │                    heap of any authenticated client opening an SFTP session.
+│                       │      │                   When a server responds to SSH_FXP_OPEN with SSH_FXP_STATUS
+│                       │      │                   containing FX_OK, the response data buffer is freed, and if
+│                       │      │                   a subsequent sftp_packet_require() call returns a specific
+│                       │      │                   error such as LIBSSH2_ERROR_CHANNEL_PACKET_EXCEEDED, the
+│                       │      │                   same pointer is freed a second time, enabling tcache dup
+│                       │      │                   conditions on glibc systems that allow overlapping
+│                       │      │                   allocations and function pointer overwrites. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-415 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ azure : 3 
+│                       │      │                  ├ julia : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector : CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │      │                  │        │            H/A:H 
+│                       │      │                  │        ├ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H/
+│                       │      │                  │        │            VI:H/VA:H/SC:N/SI:N/SA:N 
+│                       │      │                  │        ├ V3Score  : 8.8 
+│                       │      │                  │        ╰ V40Score : 8.7 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-66032 
+│                       │      │                  ├ [1]: https://github.com/advisories/GHSA-83r8-6c29-8gwr 
+│                       │      │                  ├ [2]: https://github.com/libssh2/libssh2/commit/5e4776146552
+│                       │      │                  │      d898b9c0e1b313cd093fa8dc92d0 
+│                       │      │                  ├ [3]: https://github.com/libssh2/libssh2/pull/2180 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-66032 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8722-1 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8799-1 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2026-66032 
+│                       │      │                  ╰ [8]: https://www.vulncheck.com/advisories/libssh2-double-fr
+│                       │      │                         ee-heap-corruption-via-sftp-open 
+│                       │      ├ PublishedDate   : 2026-07-24T17:17:35.12Z 
+│                       │      ╰ LastModifiedDate: 2026-08-07T01:07:10.71Z 
+│                       ├ [76] ╭ VulnerabilityID : CVE-2026-66033 
+│                       │      ├ PkgID           : libssh2@1.11.1-r3 
+│                       │      ├ PkgName         : libssh2 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh2@1.11.1-r3?arch=x86_64&distro=3
+│                       │      │                  │       .25.0_alpha20260805 
+│                       │      │                  ╰ UID : af68d293bd29897 
+│                       │      ├ InstalledVersion: 1.11.1-r3 
+│                       │      ├ FixedVersion    : 1.11.1-r4 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:74ea17cc8753dc05143760c8afb2ff022fc9da6cde28
+│                       │      │                  │         0603b6c70ba48989e349 
+│                       │      │                  ╰ DiffID: sha256:742bec09167b1a544b6ce42bb9d74349b04e32899c05
+│                       │      │                            2a3ff52492d70e560a99 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-66033 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:ce1263f46ca38cbc52b14760a1c16ae1a6bdf072826f8c0382599
+│                       │      │                   322091fd513 
+│                       │      ├ Title           : libssh2: libssh2: Denial of Service via integer underflow in
+│                       │      │                    AES-GCM cipher negotiation 
+│                       │      ├ Description     : libssh2 through 1.11.1, fixed in commit a2ed82d, contains a
+│                       │      │                   pre-authentication integer underflow vulnerability in the
+│                       │      │                   ssh2_cipher_crypt() function in src/openssl.c that allows a
+│                       │      │                   malicious SSH server to crash any connecting client by
+│                       │      │                   negotiating AES-GCM ciphers during handshake. Attackers can
+│                       │      │                   exploit the underflow in the expression computing blocksize
+│                       │      │                   minus aadlen minus authentication tag length to trigger an
+│                       │      │                   out-of-bounds read and a memcpy call with a near-SIZE_MAX
+│                       │      │                   length argument, causing immediate process crash before any
+│                       │      │                   authentication occurs. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-125 
+│                       │      │                  ╰ [1]: CWE-191 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ azure : 3 
+│                       │      │                  ├ julia : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                  │        │            N/A:H 
+│                       │      │                  │        ├ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/
+│                       │      │                  │        │            VI:N/VA:H/SC:N/SI:N/SA:N 
+│                       │      │                  │        ├ V3Score  : 7.5 
+│                       │      │                  │        ╰ V40Score : 8.7 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-66033 
+│                       │      │                  ├ [1]: https://github.com/advisories/GHSA-2g8c-wcg8-r65c 
+│                       │      │                  ├ [2]: https://github.com/libssh2/libssh2/commit/a2ed82d40964
+│                       │      │                  │      bbc0d64cd717aa0a5a892117d2e6 
+│                       │      │                  ├ [3]: https://github.com/libssh2/libssh2/pull/2401 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-66033 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8722-1 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2026-66033 
+│                       │      │                  ╰ [7]: https://www.vulncheck.com/advisories/libssh2-integer-u
+│                       │      │                         nderflow-dos-via-aes-gcm-cipher-negotiation 
+│                       │      ├ PublishedDate   : 2026-07-24T17:17:35.263Z 
+│                       │      ╰ LastModifiedDate: 2026-07-30T15:44:47.257Z 
+│                       ├ [77] ╭ VulnerabilityID : CVE-2026-66034 
+│                       │      ├ PkgID           : libssh2@1.11.1-r3 
+│                       │      ├ PkgName         : libssh2 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh2@1.11.1-r3?arch=x86_64&distro=3
+│                       │      │                  │       .25.0_alpha20260805 
+│                       │      │                  ╰ UID : af68d293bd29897 
+│                       │      ├ InstalledVersion: 1.11.1-r3 
+│                       │      ├ FixedVersion    : 1.11.1-r4 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:74ea17cc8753dc05143760c8afb2ff022fc9da6cde28
+│                       │      │                  │         0603b6c70ba48989e349 
+│                       │      │                  ╰ DiffID: sha256:742bec09167b1a544b6ce42bb9d74349b04e32899c05
+│                       │      │                            2a3ff52492d70e560a99 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-66034 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:29fc1d7cc88aa96e2ade4d57e6b9ec80f2b05a6ac43eb42877fc8
+│                       │      │                   87cd4fde785 
+│                       │      ├ Title           : libssh2: libssh2: Information disclosure and potential
+│                       │      │                   arbitrary code execution via heap out-of-bounds read 
+│                       │      ├ Description     : libssh2 through 1.11.1, fixed in commit a13bb6c, contains a
+│                       │      │                   missing bounds check vulnerability that allows a malicious
+│                       │      │                   SSH server to trigger an arbitrary-length heap out-of-bounds
+│                       │      │                    read and a free of an uninitialized pointer via the
+│                       │      │                   publickey subsystem. In libssh2_publickey_list_fetch(), the
+│                       │      │                   version 1 response parser reads a server-controlled
+│                       │      │                   comment_len value and advances the parse pointer without
+│                       │      │                   verifying sufficient bytes remain in the buffer, causing the
+│                       │      │                    out-of-bounds read to leak heap pointers from adjacent
+│                       │      │                   allocations defeating ASLR, followed by heap allocator state
+│                       │      │                    corruption when the error cleanup path frees an
+│                       │      │                   uninitialized pointer from a non-zeroed realloc() region. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-125 
+│                       │      │                  ╰ [1]: CWE-908 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ azure : 3 
+│                       │      │                  ├ julia : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector : CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
+│                       │      │                  │        │            H/A:H 
+│                       │      │                  │        ├ V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:P/VC:H/
+│                       │      │                  │        │            VI:H/VA:H/SC:N/SI:N/SA:N 
+│                       │      │                  │        ├ V3Score  : 7.5 
+│                       │      │                  │        ╰ V40Score : 7.7 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-66034 
+│                       │      │                  ├ [1]: https://github.com/advisories/GHSA-6h6q-9mwg-r6x7 
+│                       │      │                  ├ [2]: https://github.com/libssh2/libssh2/commit/a13bb6c773f0
+│                       │      │                  │      d55ad1628cede57e99803cd898d9 
+│                       │      │                  ├ [3]: https://github.com/libssh2/libssh2/pull/2202 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-66034 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8799-1 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2026-66034 
+│                       │      │                  ╰ [7]: https://www.vulncheck.com/advisories/libssh2-heap-out-
+│                       │      │                         of-bounds-read-via-publickey-subsystem 
+│                       │      ├ PublishedDate   : 2026-07-24T17:17:35.407Z 
+│                       │      ╰ LastModifiedDate: 2026-07-30T15:44:38.17Z 
+│                       ├ [78] ╭ VulnerabilityID : CVE-2026-66035 
+│                       │      ├ PkgID           : libssh2@1.11.1-r3 
+│                       │      ├ PkgName         : libssh2 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssh2@1.11.1-r3?arch=x86_64&distro=3
+│                       │      │                  │       .25.0_alpha20260805 
+│                       │      │                  ╰ UID : af68d293bd29897 
+│                       │      ├ InstalledVersion: 1.11.1-r3 
+│                       │      ├ FixedVersion    : 1.11.1-r4 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:74ea17cc8753dc05143760c8afb2ff022fc9da6cde28
+│                       │      │                  │         0603b6c70ba48989e349 
+│                       │      │                  ╰ DiffID: sha256:742bec09167b1a544b6ce42bb9d74349b04e32899c05
+│                       │      │                            2a3ff52492d70e560a99 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-66035 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:9d309fec33c8a08bfe6c8fd1f4c1cc056f639049381354483eb96
+│                       │      │                   4e9d194190d 
+│                       │      ├ Title           : libssh2: libssh2: Arbitrary code execution via heap buffer
+│                       │      │                   overflow during SSH negotiation 
+│                       │      ├ Description     : libssh2 through 1.11.1, fixed in commit 42e33d8, contains a
+│                       │      │                   pre-authentication heap buffer overflow vulnerability that
+│                       │      │                   allows a malicious SSH server to corrupt heap metadata in
+│                       │      │                   any connecting client by sending a packet with a
+│                       │      │                   packet_length smaller than the cipher's block size during
+│                       │      │                   Encrypt-then-MAC cipher negotiation. In the fullpacket()
+│                       │      │                   function in src/transport.c, the ETM path allocates a buffer
+│                       │      │                    of packet_length bytes but copies blocksize minus one bytes
+│                       │      │                    via memcpy, causing an overflow that on 32-bit glibc writes
+│                       │      │                    attacker-controlled bytes into an adjacent chunk's SIZE
+│                       │      │                   field, enabling tcache bin confusion, overlapping live
+│                       │      │                   objects, and function pointer overwrite during the session
+│                       │      │                   handshake before authentication. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-122 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ azure : 3 
+│                       │      │                  ├ julia : 3 
+│                       │      │                  ├ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector : CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
+│                       │      │                  │        │            H/A:H 
+│                       │      │                  │        ├ V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:P/VC:H/
+│                       │      │                  │        │            VI:H/VA:H/SC:N/SI:N/SA:N 
+│                       │      │                  │        ├ V3Score  : 7.5 
+│                       │      │                  │        ╰ V40Score : 7.7 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-66035 
+│                       │      │                  ├ [1]: https://github.com/advisories/GHSA-v6rf-8q4r-r495 
+│                       │      │                  ├ [2]: https://github.com/libssh2/libssh2/commit/42e33d81577e
+│                       │      │                  │      d4b95d4b4f6f845e5ee8efe5eeb4 
+│                       │      │                  ├ [3]: https://github.com/libssh2/libssh2/pull/2198 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-66035 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8722-1 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2026-66035 
+│                       │      │                  ╰ [7]: https://www.vulncheck.com/advisories/libssh2-heap-buff
+│                       │      │                         er-overflow-via-etm-cipher-negotiation 
+│                       │      ├ PublishedDate   : 2026-07-24T17:17:35.547Z 
+│                       │      ╰ LastModifiedDate: 2026-07-30T15:41:05.69Z 
+│                       ╰ [79] ╭ VulnerabilityID : CVE-2026-96512 
+│                              ├ PkgID           : sudo@1.9.17_p2-r3 
+│                              ├ PkgName         : sudo 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sudo@1.9.17_p2-r3?arch=x86_64&distro=3
 │                              │                  │       .25.0_alpha20260805 
-│                              │                  ╰ UID : 78ea930965a4d995 
-│                              ├ InstalledVersion: 8.22.0-r0 
-│                              ├ FixedVersion    : 8.23.0-r0 
+│                              │                  ╰ UID : 853e629c1333dfb7 
+│                              ├ InstalledVersion: 1.9.17_p2-r3 
+│                              ├ FixedVersion    : 1.9.17_p2-r4 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:74ea17cc8753dc05143760c8afb2ff022fc9da6cde28
 │                              │                  │         0603b6c70ba48989e349 
 │                              │                  ╰ DiffID: sha256:742bec09167b1a544b6ce42bb9d74349b04e32899c05
 │                              │                            2a3ff52492d70e560a99 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-94266 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-96512 
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                              ├ Fingerprint     : sha256:c8398b01b67d7367f92cf0d9265ac611253caeddb4fc0ac32e4e7
-│                              │                   6e334529c28 
-│                              ├ Title           : curl: curl: password leak in CURLINFO_EFFECTIVE_URL 
-│                              ├ Description     : A flaw was found in curl. This vulnerability can lead to
-│                              │                   information disclosure by inadvertently revealing
-│                              │                   authentication credentials. When curl retrieves credentials
-│                              │                   from a local configuration file (such as a .netrc file),
-│                              │                   requesting the effective URL metadata can cause the returned
-│                              │                    destination address to improperly include those secret
-│                              │                   credentials. A local user may exploit this issue to view
-│                              │                   sensitive authentication tokens if an application or script
-│                              │                   queries and logs or displays the resolved URL. 
-│                              ├ Severity        : LOW 
-│                              ├ VendorSeverity   ╭ redhat: 1 
-│                              │                  ╰ ubuntu: 1 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N
-│                              │                           │           /A:N 
-│                              │                           ╰ V3Score : 3.3 
-│                              ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-94266 
-│                                                 ├ [1]: https://curl.se/docs/CVE-2026-94266.html 
-│                                                 ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-94266 
-│                                                 ├ [3]: https://ubuntu.com/security/notices/USN-8927-1 
-│                                                 ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-94266 
+│                              ├ Fingerprint     : sha256:e79eb5007e1393ead0869fa7b2dc168de476388063fbc530ce200
+│                              │                   43457f512ac 
+│                              ├ Title           : sudo: sudo: TZ environment variable allows bypass of
+│                              │                   NOTBEFORE/NOTAFTER time-based authorization 
+│                              ├ Description     : A flaw was found in sudo. When sudoers rules use NOTBEFORE
+│                              │                   or NOTAFTER time-based access restrictions with timestamps
+│                              │                   that omit the trailing 'Z' timezone indicator, the time
+│                              │                   evaluation relies on the TZ environment variable inherited
+│                              │                   from the calling user. Because sudo is a setuid-root
+│                              │                   program, an unprivileged local user can set TZ to an extreme
+│                              │                    timezone offset to shift the authorization window by up to
+│                              │                   approximately 25 hours, causing expired rules to be treated
+│                              │                   as valid. This allows the user to execute commands outside
+│                              │                   the intended time window. Authentication is not bypassed;
+│                              │                   only the time-based authorization check is affected. 
+│                              ├ Severity        : HIGH 
+│                              ├ CweIDs           ─ [0]: CWE-863 
+│                              ├ VendorSeverity   ╭ alma       : 3 
+│                              │                  ├ amazon     : 3 
+│                              │                  ├ azure      : 3 
+│                              │                  ├ oracle-oval: 3 
+│                              │                  ├ redhat     : 3 
+│                              │                  ├ rocky      : 3 
+│                              │                  ╰ ubuntu     : 2 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
+│                              │                           │           /A:H 
+│                              │                           ╰ V3Score : 7.8 
+│                              ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/09/24/4 
+│                              │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:71609 
+│                              │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:75571 
+│                              │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:75579 
+│                              │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:75580 
+│                              │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:82939 
+│                              │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2026-96512 
+│                              │                  ├ [7] : https://bugzilla.redhat.com/2539327 
+│                              │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2539327 
+│                              │                  ├ [9] : https://creativecommons.org/licenses/by/4.0/ 
+│                              │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                              │                  │       26-96512 
+│                              │                  ├ [11]: https://errata.almalinux.org/10/ALSA-2026-75579.html 
+│                              │                  ├ [12]: https://errata.rockylinux.org/RLSA-2026:75571 
+│                              │                  ├ [13]: https://github.com/sudo-project/sudo/commit/1820a3496
+│                              │                  │       87522f51023d1ae5925125f59679a8c 
+│                              │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-96512.html 
+│                              │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-75580.html 
+│                              │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-96512 
+│                              │                  ├ [17]: https://ubuntu.com/security/notices/USN-8895-1 
+│                              │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2026-96512 
+│                              ├ PublishedDate   : 2026-09-23T14:17:10.747Z 
+│                              ╰ LastModifiedDate: 2026-10-14T19:17:23.22Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
