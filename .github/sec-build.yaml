@@ -27,8 +27,10 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 3
+      oracle-oval: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -38,16 +40,30 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/09/3
     - http://www.openwall.com/lists/oss-security/2026/09/22/23
+    - https://access.redhat.com/errata/RHSA-2026:85306
+    - https://access.redhat.com/errata/RHSA-2026:85308
+    - https://access.redhat.com/errata/RHSA-2026:85309
+    - https://access.redhat.com/errata/RHSA-2026:85312
+    - https://access.redhat.com/errata/RHSA-2026:85313
+    - https://access.redhat.com/errata/RHSA-2026:85317
+    - https://access.redhat.com/errata/RHSA-2026:85319
+    - https://access.redhat.com/errata/RHSA-2026:85322
+    - https://access.redhat.com/errata/RHSA-2026:85324
+    - https://access.redhat.com/errata/RHSA-2026:85325
     - https://access.redhat.com/security/cve/CVE-2026-87766
     - https://bugs.debian.org/1145655
+    - https://bugzilla.redhat.com/2530542
     - https://bugzilla.redhat.com/show_bug.cgi?id=2530542
+    - https://errata.almalinux.org/9/ALSA-2026-85309.html
     - https://github.com/containers/bubblewrap/releases/tag/v0.12.0
     - https://github.com/containers/bubblewrap/security/advisories/GHSA-pxhw-h44j-8pfx
+    - https://linux.oracle.com/cve/CVE-2026-87766.html
+    - https://linux.oracle.com/errata/ELSA-2026-85309.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-87766
     - https://www.cve.org/CVERecord?id=CVE-2026-87766
     - https://www.openwall.com/lists/oss-security/2026/08/27/7
     PublishedDate: '2026-09-09T09:17:12.54Z'
-    LastModifiedDate: '2026-09-22T23:17:07.763Z'
+    LastModifiedDate: '2026-10-20T00:19:01.237Z'
   - VulnerabilityID: CVE-2026-102473
     PkgID: dash@0.5.12-12ubuntu3
     PkgName: dash
@@ -254,14 +270,13 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/06/10/2
-    - https://access.redhat.com/errata/RHSA-2026:49836
     - https://access.redhat.com/errata/RHSA-2026:50108
     - https://access.redhat.com/security/cve/CVE-2026-10846
     - https://bugzilla.redhat.com/2487437
     - https://bugzilla.redhat.com/show_bug.cgi?id=2487437
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-10846
-    - https://errata.almalinux.org/10/ALSA-2026-49836.html
+    - https://errata.almalinux.org/9/ALSA-2026-50108.html
     - https://errata.rockylinux.org/RLSA-2026:50108
     - https://linux.oracle.com/cve/CVE-2026-10846.html
     - https://linux.oracle.com/errata/ELSA-2026-50108-0.html
@@ -919,6 +934,94 @@
     - https://www.cve.org/CVERecord?id=CVE-2018-18064
     PublishedDate: '2018-10-08T18:29:00.27Z'
     LastModifiedDate: '2026-06-17T01:46:43.463Z'
+  - VulnerabilityID: CVE-2026-69184
+    PkgID: libcares2@1.34.6-1ubuntu0.1
+    PkgName: libcares2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcares2@1.34.6-1ubuntu0.1?arch=amd64&distro=ubuntu-26.04
+      UID: 124b6c6adaace4ec
+    InstalledVersion: 1.34.6-1ubuntu0.1
+    Status: affected
+    Layer:
+      Digest: sha256:542ab76396186871a6541dd7bf0462fa529d3e07c0c2b1473191bec2021e14e3
+      DiffID: sha256:b1093330d61a90ab9e2bdadcf9d183efbaef562fbd2a521b3341adff4ef20e91
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-69184
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a194c5f62d38b789f32945d293102639fde1d6c04d191707b4ef181e4148e7cc
+    Title: 'c-ares: c-ares: CPU exhaustion denial of service via unbounded DNS name compression pointer chains'
+    Description: c-ares is an asynchronous resolver library. Prior to 1.34.7, ares_dns_name_parse() enforces backward DNS compression pointers but does not bound the total pointer hops or assembled name length. A malicious DNS server can send a response containing a long descending pointer chain and many resource records whose NAME or RDATA fields refer to the chain, causing repeated decompression work that grows quadratically with message size. A single crafted response can stall the single-threaded c-ares event loop and deny DNS resolution, without causing memory corruption or information disclosure. This issue is fixed in version 1.34.7.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-407
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-69184
+    - https://github.com/c-ares/c-ares/commit/5c8341ba6ff3a8e4e4dfd616f8ed0418838b8b7b
+    - https://github.com/c-ares/c-ares/commit/f1288bbc70e9a1e0a77134c2382157e52d326aea
+    - https://github.com/c-ares/c-ares/pull/1164
+    - https://github.com/c-ares/c-ares/pull/1210
+    - https://github.com/c-ares/c-ares/releases/tag/v1.34.7
+    - https://github.com/c-ares/c-ares/security/advisories/GHSA-pjmc-gx33-gc76
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-69184
+    - https://www.cve.org/CVERecord?id=CVE-2026-69184
+    - https://www.openwall.com/lists/oss-security/2026/07/06/8
+    PublishedDate: '2026-09-18T18:17:11.477Z'
+    LastModifiedDate: '2026-09-24T21:16:28.12Z'
+  - VulnerabilityID: CVE-2026-69186
+    PkgID: libcares2@1.34.6-1ubuntu0.1
+    PkgName: libcares2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcares2@1.34.6-1ubuntu0.1?arch=amd64&distro=ubuntu-26.04
+      UID: 124b6c6adaace4ec
+    InstalledVersion: 1.34.6-1ubuntu0.1
+    Status: affected
+    Layer:
+      Digest: sha256:542ab76396186871a6541dd7bf0462fa529d3e07c0c2b1473191bec2021e14e3
+      DiffID: sha256:b1093330d61a90ab9e2bdadcf9d183efbaef562fbd2a521b3341adff4ef20e91
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-69186
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:28d05679d3ed494ea4da4c729208d241a9dc50501800a1e3ce4bba8aa24c26ca
+    Title: 'c-ares: c-ares: Denial of Service via unvalidated DNS header record counts'
+    Description: c-ares is an asynchronous resolver library. Prior to 1.34.7, ares_dns_parse() trusts the attacker-controlled ANCOUNT, NSCOUNT, and ARCOUNT fields before confirming that the DNS response contains enough bytes for the claimed records. Because process_answer() invokes parsing before transaction ID and question validation, a malicious DNS response can cause ares_dns_record_rr_prealloc() and ares_array_set_size() to reserve disproportionate heap memory for a tiny message. Repeated responses create large allocation and release cycles that can degrade or deny name resolution, without causing memory corruption or information disclosure. This issue is fixed in version 1.34.7.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      azure: 2
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-69186
+    - https://github.com/c-ares/c-ares/commit/e47c203f91cd8b749c8736bc18d75a31ffdec8f4
+    - https://github.com/c-ares/c-ares/commit/eaded4cb200b2a5f8d73f11021ff7c8d6968aaab
+    - https://github.com/c-ares/c-ares/pull/1134
+    - https://github.com/c-ares/c-ares/releases/tag/v1.34.7
+    - https://github.com/c-ares/c-ares/security/advisories/GHSA-jv8r-gqr9-68wj
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-69186
+    - https://www.cve.org/CVERecord?id=CVE-2026-69186
+    - https://www.openwall.com/lists/oss-security/2026/07/06/8
+    PublishedDate: '2026-09-18T18:17:11.637Z'
+    LastModifiedDate: '2026-09-23T18:12:04.247Z'
   - VulnerabilityID: CVE-2026-19617
     PkgID: libdevmapper1.02.1@2:1.02.205-2ubuntu3
     PkgName: libdevmapper1.02.1
@@ -1903,14 +2006,13 @@
         V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2026/06/10/2
-    - https://access.redhat.com/errata/RHSA-2026:49836
     - https://access.redhat.com/errata/RHSA-2026:50108
     - https://access.redhat.com/security/cve/CVE-2026-10846
     - https://bugzilla.redhat.com/2487437
     - https://bugzilla.redhat.com/show_bug.cgi?id=2487437
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-10846
-    - https://errata.almalinux.org/10/ALSA-2026-49836.html
+    - https://errata.almalinux.org/9/ALSA-2026-50108.html
     - https://errata.rockylinux.org/RLSA-2026:50108
     - https://linux.oracle.com/cve/CVE-2026-10846.html
     - https://linux.oracle.com/errata/ELSA-2026-50108-0.html
@@ -2026,7 +2128,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-13757
-    - https://errata.almalinux.org/10/ALSA-2026-49668.html
+    - https://errata.almalinux.org/9/ALSA-2026-49667.html
     - https://errata.rockylinux.org/RLSA-2026:49667
     - https://github.com/advisories/GHSA-p2wm-69qx-x25w
     - https://linux.oracle.com/cve/CVE-2026-13757.html
@@ -2113,7 +2215,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L
         V3Score: 7.6
     References:
-    - https://access.redhat.com/errata/RHSA-2026:81522
     - https://access.redhat.com/errata/RHSA-2026:81532
     - https://access.redhat.com/security/cve/CVE-2026-103111
     - https://bugzilla.redhat.com/2528993
@@ -2138,7 +2239,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89158
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89160
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89161
-    - https://errata.almalinux.org/10/ALSA-2026-81522.html
+    - https://errata.almalinux.org/9/ALSA-2026-81532.html
     - https://errata.rockylinux.org/RLSA-2026:81532
     - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-r9hj-j2rw-4q3m
     - https://linux.oracle.com/cve/CVE-2026-103111.html
@@ -2184,7 +2285,6 @@
         V3Score: 8.2
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/05/3
-    - https://access.redhat.com/errata/RHSA-2026:81522
     - https://access.redhat.com/errata/RHSA-2026:81532
     - https://access.redhat.com/security/cve/CVE-2026-86145
     - https://bugzilla.redhat.com/2528993
@@ -2209,7 +2309,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89158
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89160
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89161
-    - https://errata.almalinux.org/10/ALSA-2026-81522.html
+    - https://errata.almalinux.org/9/ALSA-2026-81532.html
     - https://errata.rockylinux.org/RLSA-2026:81532
     - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
     - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-3r4p-g7gg-ppmf
@@ -2258,7 +2358,6 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 2.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:81522
     - https://access.redhat.com/errata/RHSA-2026:81532
     - https://access.redhat.com/security/cve/CVE-2026-89156
     - https://bugzilla.redhat.com/2528993
@@ -2283,7 +2382,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89158
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89160
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89161
-    - https://errata.almalinux.org/10/ALSA-2026-81522.html
+    - https://errata.almalinux.org/9/ALSA-2026-81532.html
     - https://errata.rockylinux.org/RLSA-2026:81532
     - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
     - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-2p8c-ff85-vh9x
@@ -2333,7 +2432,6 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L
         V3Score: 5.7
     References:
-    - https://access.redhat.com/errata/RHSA-2026:81522
     - https://access.redhat.com/errata/RHSA-2026:81532
     - https://access.redhat.com/security/cve/CVE-2026-89157
     - https://bugzilla.redhat.com/2528993
@@ -2358,7 +2456,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89158
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89160
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89161
-    - https://errata.almalinux.org/10/ALSA-2026-81522.html
+    - https://errata.almalinux.org/9/ALSA-2026-81532.html
     - https://errata.rockylinux.org/RLSA-2026:81532
     - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
     - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-q8g2-wprr-34m9
@@ -2407,7 +2505,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2026:81522
     - https://access.redhat.com/errata/RHSA-2026:81532
     - https://access.redhat.com/security/cve/CVE-2026-89158
     - https://bugzilla.redhat.com/2528993
@@ -2432,7 +2529,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89158
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89160
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89161
-    - https://errata.almalinux.org/10/ALSA-2026-81522.html
+    - https://errata.almalinux.org/9/ALSA-2026-81532.html
     - https://errata.rockylinux.org/RLSA-2026:81532
     - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
     - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-fmgr-6ggq-9859
@@ -2481,7 +2578,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2026:81522
     - https://access.redhat.com/errata/RHSA-2026:81532
     - https://access.redhat.com/security/cve/CVE-2026-89160
     - https://bugzilla.redhat.com/2528993
@@ -2506,7 +2602,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89158
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89160
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89161
-    - https://errata.almalinux.org/10/ALSA-2026-81522.html
+    - https://errata.almalinux.org/9/ALSA-2026-81532.html
     - https://errata.rockylinux.org/RLSA-2026:81532
     - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.48
     - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-9qww-pwc4-77qq
@@ -2556,7 +2652,6 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.4
     References:
-    - https://access.redhat.com/errata/RHSA-2026:81522
     - https://access.redhat.com/errata/RHSA-2026:81532
     - https://access.redhat.com/security/cve/CVE-2026-89161
     - https://bugzilla.redhat.com/2528993
@@ -2581,7 +2676,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89158
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89160
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-89161
-    - https://errata.almalinux.org/10/ALSA-2026-81522.html
+    - https://errata.almalinux.org/9/ALSA-2026-81532.html
     - https://errata.rockylinux.org/RLSA-2026:81532
     - https://github.com/PCRE2Project/pcre2/commit/1dcd0cf42a6a7cb62cc9a7c024196733abcfda95%20%28pcre2-10.48-RC1%29
     - https://github.com/PCRE2Project/pcre2/pull/937
@@ -3252,7 +3347,8 @@
       PURL: pkg:deb/ubuntu/libxtst6@1.2.5-1build1?arch=amd64&distro=ubuntu-26.04&epoch=2
       UID: 281b4e68aabcafaf
     InstalledVersion: 2:1.2.5-1build1
-    Status: affected
+    FixedVersion: 2:1.2.5-1ubuntu0.1
+    Status: fixed
     Layer:
       Digest: sha256:542ab76396186871a6541dd7bf0462fa529d3e07c0c2b1473191bec2021e14e3
       DiffID: sha256:b1093330d61a90ab9e2bdadcf9d183efbaef562fbd2a521b3341adff4ef20e91
@@ -3280,6 +3376,7 @@
     - https://gitlab.freedesktop.org/xorg/lib/libxtst/-/merge_requests/10
     - https://gitlab.freedesktop.org/xorg/lib/libxtst/-/merge_requests/10/diffs?commit_id=16023c86070e6af9407330deea3938fcef75815b
     - https://nvd.nist.gov/vuln/detail/CVE-2026-94286
+    - https://ubuntu.com/security/notices/USN-8939-1
     - https://www.cve.org/CVERecord?id=CVE-2026-94286
     PublishedDate: '2026-09-28T09:17:08.463Z'
     LastModifiedDate: '2026-09-30T13:17:26.71Z'
@@ -4518,7 +4615,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18477
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18508
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5704
-    - https://errata.almalinux.org/10/ALSA-2026-61586.html
+    - https://errata.almalinux.org/9/ALSA-2026-61581.html
     - https://errata.rockylinux.org/RLSA-2026:61581
     - https://linux.oracle.com/cve/CVE-2026-18477.html
     - https://linux.oracle.com/errata/ELSA-2026-70390.html
@@ -4577,7 +4674,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18477
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18508
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5704
-    - https://errata.almalinux.org/10/ALSA-2026-61586.html
+    - https://errata.almalinux.org/9/ALSA-2026-61581.html
     - https://errata.rockylinux.org/RLSA-2026:61581
     - https://linux.oracle.com/cve/CVE-2026-18508.html
     - https://linux.oracle.com/errata/ELSA-2026-70390.html
@@ -5417,18 +5514,25 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:f95f2810a5d3f2265677d4472e553f99de4cf4f70a263092faf579a7e9ff8211
-    Title: The Nickname profile can panic with an out-of-bounds slice error when  ...
+    Title: 'golang.org/x/text: golang.org/x/text: Denial of Service via out-of-bounds slice error in Nickname profile'
     Description: The Nickname profile can panic with an out-of-bounds slice error when transforming crafted input into a short destination buffer.
     Severity: HIGH
     CweIDs:
     - CWE-787
     VendorSeverity:
       azure: 3
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-56851
     - https://go.dev/cl/793360
     - https://go.dev/issue/80112
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56851
     - https://pkg.go.dev/vuln/GO-2026-6629
+    - https://www.cve.org/CVERecord?id=CVE-2026-56851
     PublishedDate: '2026-10-07T18:17:20.903Z'
     LastModifiedDate: '2026-10-08T21:35:53.89Z'
   - VulnerabilityID: CVE-2026-56852
@@ -5563,6 +5667,7 @@
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78667
     - https://pkg.go.dev/vuln/GO-2026-6609
+    - https://ubuntu.com/security/notices/USN-8935-1
     - https://www.cve.org/CVERecord?id=CVE-2026-78667
     - https://www.openwall.com/lists/oss-security/2026/10/08/9
     PublishedDate: '2026-10-08T23:17:03.88Z'
@@ -5614,6 +5719,7 @@
     - https://groups.google.com/g/golang-announce/c/ZPwCyRUuGBs
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78669
     - https://pkg.go.dev/vuln/GO-2026-6611
+    - https://ubuntu.com/security/notices/USN-8935-1
     - https://www.cve.org/CVERecord?id=CVE-2026-78669
     - https://www.openwall.com/lists/oss-security/2026/10/08/9
     PublishedDate: '2026-10-08T23:17:04.01Z'
@@ -5707,6 +5813,7 @@
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56866
     - https://pkg.go.dev/vuln/GO-2026-6605
+    - https://ubuntu.com/security/notices/USN-8935-1
     - https://www.cve.org/CVERecord?id=CVE-2026-56866
     - https://www.openwall.com/lists/oss-security/2026/10/08/9
     PublishedDate: '2026-10-08T23:17:01.62Z'
@@ -5753,6 +5860,7 @@
     - https://groups.google.com/g/golang-announce/c/ZPwCyRUuGBs
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78659
     - https://pkg.go.dev/vuln/GO-2026-6603
+    - https://ubuntu.com/security/notices/USN-8935-1
     - https://www.cve.org/CVERecord?id=CVE-2026-78659
     - https://www.openwall.com/lists/oss-security/2026/10/08/9
     PublishedDate: '2026-10-08T23:17:03.27Z'
@@ -5798,6 +5906,7 @@
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78660
     - https://pkg.go.dev/vuln/GO-2026-6610
+    - https://ubuntu.com/security/notices/USN-8935-1
     - https://www.cve.org/CVERecord?id=CVE-2026-78660
     - https://www.openwall.com/lists/oss-security/2026/10/08/9
     PublishedDate: '2026-10-08T23:17:03.51Z'
@@ -5849,6 +5958,7 @@
     - https://groups.google.com/g/golang-announce/c/ZPwCyRUuGBs
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78663
     - https://pkg.go.dev/vuln/GO-2026-6612
+    - https://ubuntu.com/security/notices/USN-8935-1
     - https://www.cve.org/CVERecord?id=CVE-2026-78663
     - https://www.openwall.com/lists/oss-security/2026/10/08/9
     PublishedDate: '2026-10-08T23:17:03.647Z'
@@ -5897,6 +6007,7 @@
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://nvd.nist.gov/vuln/detail/CVE-2026-94439
     - https://pkg.go.dev/vuln/GO-2026-6613
+    - https://ubuntu.com/security/notices/USN-8935-1
     - https://www.cve.org/CVERecord?id=CVE-2026-94439
     - https://www.openwall.com/lists/oss-security/2026/10/08/9
     PublishedDate: '2026-10-08T23:17:04.76Z'
@@ -5940,6 +6051,7 @@
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://nvd.nist.gov/vuln/detail/CVE-2026-94440
     - https://pkg.go.dev/vuln/GO-2026-6608
+    - https://ubuntu.com/security/notices/USN-8935-1
     - https://www.cve.org/CVERecord?id=CVE-2026-94440
     - https://www.openwall.com/lists/oss-security/2026/10/08/9
     PublishedDate: '2026-10-08T23:17:04.917Z'
