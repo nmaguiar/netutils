@@ -145,10 +145,10 @@ RUN gzip /USAGE.md\
  && echo "#!/bin/sh" > /usr/bin/examples-help\
  && echo "#!/bin/sh" > /usr/bin/mitm-help\
  && echo "#!/bin/sh" > /usr/bin/posting-help\
- && echo "zcat /USAGE.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/usage-help\
- && echo "zcat /EXAMPLES.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/examples-help\
- && echo "zcat /openaf/MITM.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/mitm-help\
- && echo "zcat /openaf/POSTING.md.gz | oafp in=md mdtemplate=true | less -r" >> /usr/bin/posting-help\
+ && echo "oafp /USAGE.md.gzp in=md mdtemplate=true -p" >> /usr/bin/usage-help\
+ && echo "oafp /EXAMPLES.md.gz in=md mdtemplate=true -p" >> /usr/bin/examples-help\
+ && echo "oafp /openaf/MITM.md.gz in=md mdtemplate=true -p" >> /usr/bin/mitm-help\
+ && echo "oafp /openaf/POSTING.md.gz in=md mdtemplate=true -p" >> /usr/bin/posting-help\
  && chmod a+x /usr/bin/usage-help\
  && chmod a+x /usr/bin/examples-help\
  && chmod a+x /usr/bin/mitm-help\
