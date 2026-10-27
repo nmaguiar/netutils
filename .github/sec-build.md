@@ -537,7 +537,7 @@
                         │      ├ Severity        : HIGH 
                         │      ├ VendorSeverity   ╭ alma       : 4 
                         │      │                  ├ amazon     : 2 
-                        │      │                  ├ oracle-oval: 4 
+                        │      │                  ├ oracle-oval: 3 
                         │      │                  ├ redhat     : 3 
                         │      │                  ╰ rocky      : 4 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H
@@ -569,7 +569,7 @@
                         │      │                  │       aQek 
                         │      │                  ├ [19]: https://groups.google.com/g/golang-nuts/c/K22sG2AYnKU 
                         │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2026-111943.html 
-                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-88354.html 
+                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-89761.html 
                         │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2026-111943 
                         │      │                  ├ [23]: https://pkg.go.dev/vuln/GO-2026-6809 
                         │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2026-111943 
@@ -674,7 +674,7 @@
                         │      │                  ├ [42]: https://groups.google.com/g/golang-announce/c/U2fTuyD
                         │      │                  │       JznI 
                         │      │                  ├ [43]: https://linux.oracle.com/cve/CVE-2026-78667.html 
-                        │      │                  ├ [44]: https://linux.oracle.com/errata/ELSA-2026-88336.html 
+                        │      │                  ├ [44]: https://linux.oracle.com/errata/ELSA-2026-89761.html 
                         │      │                  ├ [45]: https://nvd.nist.gov/vuln/detail/CVE-2026-78667 
                         │      │                  ├ [46]: https://pkg.go.dev/vuln/GO-2026-6609 
                         │      │                  ├ [47]: https://ubuntu.com/security/notices/USN-8935-1 
@@ -751,7 +751,7 @@
                         │      │                  ├ [19]: https://groups.google.com/g/golang-announce/c/ZPwCyRU
                         │      │                  │       uGBs 
                         │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2026-78669.html 
-                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-88354.html 
+                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-89744.html 
                         │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2026-78669 
                         │      │                  ├ [23]: https://pkg.go.dev/vuln/GO-2026-6611 
                         │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-8935-1 
@@ -823,7 +823,7 @@
                         │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/U2fTuyD
                         │      │                  │       JznI 
                         │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2026-97031.html 
-                        │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2026-88354.html 
+                        │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2026-89744.html 
                         │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2026-97031 
                         │      │                  ├ [20]: https://pkg.go.dev/vuln/GO-2026-6607 
                         │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2026-97031 
@@ -1430,12 +1430,13 @@
                         │      │                   limit at the start of a part is less than 400 bytes. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-770 
-                        │      ├ VendorSeverity   ╭ alma   : 3 
-                        │      │                  ├ amazon : 3 
-                        │      │                  ├ bitnami: 3 
-                        │      │                  ├ redhat : 2 
-                        │      │                  ├ rocky  : 3 
-                        │      │                  ╰ ubuntu : 2 
+                        │      ├ VendorSeverity   ╭ alma       : 3 
+                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ bitnami    : 3 
+                        │      │                  ├ oracle-oval: 3 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ├ rocky      : 3 
+                        │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
                         │      │                  │         │           N/A:H 
                         │      │                  │         ╰ V3Score : 7.5 
@@ -1501,11 +1502,13 @@
                         │      │                  ├ [41]: https://go.dev/issue/81741 
                         │      │                  ├ [42]: https://groups.google.com/g/golang-announce/c/U2fTuyD
                         │      │                  │       JznI 
-                        │      │                  ├ [43]: https://nvd.nist.gov/vuln/detail/CVE-2026-94440 
-                        │      │                  ├ [44]: https://pkg.go.dev/vuln/GO-2026-6608 
-                        │      │                  ├ [45]: https://ubuntu.com/security/notices/USN-8935-1 
-                        │      │                  ├ [46]: https://www.cve.org/CVERecord?id=CVE-2026-94440 
-                        │      │                  ╰ [47]: https://www.openwall.com/lists/oss-security/2026/10/0
+                        │      │                  ├ [43]: https://linux.oracle.com/cve/CVE-2026-94440.html 
+                        │      │                  ├ [44]: https://linux.oracle.com/errata/ELSA-2026-89732.html 
+                        │      │                  ├ [45]: https://nvd.nist.gov/vuln/detail/CVE-2026-94440 
+                        │      │                  ├ [46]: https://pkg.go.dev/vuln/GO-2026-6608 
+                        │      │                  ├ [47]: https://ubuntu.com/security/notices/USN-8935-1 
+                        │      │                  ├ [48]: https://www.cve.org/CVERecord?id=CVE-2026-94440 
+                        │      │                  ╰ [49]: https://www.openwall.com/lists/oss-security/2026/10/0
                         │      │                          8/9 
                         │      ├ PublishedDate   : 2026-10-08T23:17:04.917Z 
                         │      ╰ LastModifiedDate: 2026-10-09T17:16:50.907Z 
