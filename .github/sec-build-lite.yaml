@@ -73,7 +73,13 @@
       tarfile.tar_filter could be bypassed using crafted link entries, including symlinks with empty or directory-like names, to redirect later archive members outside the intended extraction directory. This allowed a malicious tar archive to cause tarfile.extractall() with filter="tar" to write files outside the destination directory, subject to the permissions of the extracting process.
 
       This is the tarfile.tar_filter counterpart of CVE-2026-7774, which covered tarfile.data_filter.
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6.9
     References:
     - https://github.com/python/cpython/commit/04d8fca7da2cf3ebc0881fec8a53a1330c3b665d
     - https://github.com/python/cpython/commit/0901ad4ffb22605f12b705d1c1197f0a01f0ba0b
@@ -84,6 +90,7 @@
     - https://github.com/python/cpython/issues/160097
     - https://github.com/python/cpython/pull/160098
     - https://mail.python.org/archives/list/security-announce@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-114583
     PublishedDate: '2026-10-22T21:17:16.543Z'
     LastModifiedDate: '2026-10-27T01:19:05.42Z'
   - VulnerabilityID: CVE-2026-115557
@@ -156,7 +163,13 @@
       tarfile.tar_filter could be bypassed using crafted link entries, including symlinks with empty or directory-like names, to redirect later archive members outside the intended extraction directory. This allowed a malicious tar archive to cause tarfile.extractall() with filter="tar" to write files outside the destination directory, subject to the permissions of the extracting process.
 
       This is the tarfile.tar_filter counterpart of CVE-2026-7774, which covered tarfile.data_filter.
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6.9
     References:
     - https://github.com/python/cpython/commit/04d8fca7da2cf3ebc0881fec8a53a1330c3b665d
     - https://github.com/python/cpython/commit/0901ad4ffb22605f12b705d1c1197f0a01f0ba0b
@@ -167,6 +180,7 @@
     - https://github.com/python/cpython/issues/160097
     - https://github.com/python/cpython/pull/160098
     - https://mail.python.org/archives/list/security-announce@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-114583
     PublishedDate: '2026-10-22T21:17:16.543Z'
     LastModifiedDate: '2026-10-27T01:19:05.42Z'
   - VulnerabilityID: CVE-2026-115557
@@ -239,7 +253,13 @@
       tarfile.tar_filter could be bypassed using crafted link entries, including symlinks with empty or directory-like names, to redirect later archive members outside the intended extraction directory. This allowed a malicious tar archive to cause tarfile.extractall() with filter="tar" to write files outside the destination directory, subject to the permissions of the extracting process.
 
       This is the tarfile.tar_filter counterpart of CVE-2026-7774, which covered tarfile.data_filter.
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6.9
     References:
     - https://github.com/python/cpython/commit/04d8fca7da2cf3ebc0881fec8a53a1330c3b665d
     - https://github.com/python/cpython/commit/0901ad4ffb22605f12b705d1c1197f0a01f0ba0b
@@ -250,6 +270,7 @@
     - https://github.com/python/cpython/issues/160097
     - https://github.com/python/cpython/pull/160098
     - https://mail.python.org/archives/list/security-announce@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-114583
     PublishedDate: '2026-10-22T21:17:16.543Z'
     LastModifiedDate: '2026-10-27T01:19:05.42Z'
   - VulnerabilityID: CVE-2026-115557
@@ -322,7 +343,13 @@
       tarfile.tar_filter could be bypassed using crafted link entries, including symlinks with empty or directory-like names, to redirect later archive members outside the intended extraction directory. This allowed a malicious tar archive to cause tarfile.extractall() with filter="tar" to write files outside the destination directory, subject to the permissions of the extracting process.
 
       This is the tarfile.tar_filter counterpart of CVE-2026-7774, which covered tarfile.data_filter.
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6.9
     References:
     - https://github.com/python/cpython/commit/04d8fca7da2cf3ebc0881fec8a53a1330c3b665d
     - https://github.com/python/cpython/commit/0901ad4ffb22605f12b705d1c1197f0a01f0ba0b
@@ -333,6 +360,7 @@
     - https://github.com/python/cpython/issues/160097
     - https://github.com/python/cpython/pull/160098
     - https://mail.python.org/archives/list/security-announce@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-114583
     PublishedDate: '2026-10-22T21:17:16.543Z'
     LastModifiedDate: '2026-10-27T01:19:05.42Z'
 - Target: Java
