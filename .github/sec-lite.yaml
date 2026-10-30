@@ -50,6 +50,49 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-115557
     PublishedDate: '2026-10-24T15:17:33.6Z'
     LastModifiedDate: '2026-10-27T01:19:05.56Z'
+  - VulnerabilityID: CVE-2026-114583
+    PkgID: pyc@3.14.8-r0
+    PkgName: pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/pyc@3.14.8-r0?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: 8165f8c9ea5cf734
+    InstalledVersion: 3.14.8-r0
+    FixedVersion: 3.14.10-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a4489095da1010f5b0ac28f
+      DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec7d178d228448d8a4bb0a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-114583
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:96df405d66876065b3c5a865d80aca13aea402a9ce56a8aa7665a4a005d7bd7a
+    Title: tarfile.tar_filter could be bypassed using crafted link entries, inclu ...
+    Description: |-
+      tarfile.tar_filter could be bypassed using crafted link entries, including symlinks with empty or directory-like names, to redirect later archive members outside the intended extraction directory. This allowed a malicious tar archive to cause tarfile.extractall() with filter="tar" to write files outside the destination directory, subject to the permissions of the extracting process.
+
+      This is the tarfile.tar_filter counterpart of CVE-2026-7774, which covered tarfile.data_filter.
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6.9
+    References:
+    - https://github.com/python/cpython/commit/04d8fca7da2cf3ebc0881fec8a53a1330c3b665d
+    - https://github.com/python/cpython/commit/0901ad4ffb22605f12b705d1c1197f0a01f0ba0b
+    - https://github.com/python/cpython/commit/bc93f8ad4c4a0f92d184ec8fccc8ff8a651dcec2
+    - https://github.com/python/cpython/commit/c6ada40177436e4e2533a7b252082b5f0c043477
+    - https://github.com/python/cpython/commit/e7e0b3523ad6ba8472873dda594cf4021a16f8b5
+    - https://github.com/python/cpython/commit/f4401da82e2baec5dab06cf070fbca77d53220f0
+    - https://github.com/python/cpython/issues/160097
+    - https://github.com/python/cpython/pull/160098
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-114583
+    PublishedDate: '2026-10-22T21:17:16.543Z'
+    LastModifiedDate: '2026-10-27T01:19:05.42Z'
   - VulnerabilityID: CVE-2026-12345
     PkgID: pyc@3.14.8-r0
     PkgName: pyc
@@ -88,6 +131,7 @@
         V3Score: 6.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
+    - https://access.redhat.com/errata/RHSA-2026:85239
     - https://access.redhat.com/errata/RHSA-2026:89742
     - https://access.redhat.com/security/cve/CVE-2026-12345
     - https://bugzilla.redhat.com/2543492
@@ -100,7 +144,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-12345
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
-    - https://errata.almalinux.org/9/ALSA-2026-89742.html
+    - https://errata.almalinux.org/8/ALSA-2026-85239.html
     - https://errata.rockylinux.org/RLSA-2026:89742
     - https://github.com/python/cpython/commit/0478b52788117db4b831b3efd648f56b777628aa
     - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
@@ -117,42 +161,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-12345
     PublishedDate: '2026-09-29T18:17:14.707Z'
     LastModifiedDate: '2026-10-26T01:17:15.94Z'
-  - VulnerabilityID: CVE-2026-114583
-    PkgID: pyc@3.14.8-r0
-    PkgName: pyc
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/pyc@3.14.8-r0?arch=x86_64&distro=3.25.0_alpha20260805
-      UID: 8165f8c9ea5cf734
-    InstalledVersion: 3.14.8-r0
-    FixedVersion: 3.14.10-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a4489095da1010f5b0ac28f
-      DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec7d178d228448d8a4bb0a
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-114583
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:96df405d66876065b3c5a865d80aca13aea402a9ce56a8aa7665a4a005d7bd7a
-    Title: tarfile.tar_filter could be bypassed using crafted link entries, inclu ...
-    Description: |-
-      tarfile.tar_filter could be bypassed using crafted link entries, including symlinks with empty or directory-like names, to redirect later archive members outside the intended extraction directory. This allowed a malicious tar archive to cause tarfile.extractall() with filter="tar" to write files outside the destination directory, subject to the permissions of the extracting process.
-
-      This is the tarfile.tar_filter counterpart of CVE-2026-7774, which covered tarfile.data_filter.
-    Severity: UNKNOWN
-    References:
-    - https://github.com/python/cpython/commit/04d8fca7da2cf3ebc0881fec8a53a1330c3b665d
-    - https://github.com/python/cpython/commit/0901ad4ffb22605f12b705d1c1197f0a01f0ba0b
-    - https://github.com/python/cpython/commit/bc93f8ad4c4a0f92d184ec8fccc8ff8a651dcec2
-    - https://github.com/python/cpython/commit/c6ada40177436e4e2533a7b252082b5f0c043477
-    - https://github.com/python/cpython/commit/e7e0b3523ad6ba8472873dda594cf4021a16f8b5
-    - https://github.com/python/cpython/commit/f4401da82e2baec5dab06cf070fbca77d53220f0
-    - https://github.com/python/cpython/issues/160097
-    - https://github.com/python/cpython/pull/160098
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
-    PublishedDate: '2026-10-22T21:17:16.543Z'
-    LastModifiedDate: '2026-10-27T01:19:05.42Z'
   - VulnerabilityID: CVE-2026-115557
     PkgID: python3@3.14.8-r0
     PkgName: python3
@@ -200,6 +208,49 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-115557
     PublishedDate: '2026-10-24T15:17:33.6Z'
     LastModifiedDate: '2026-10-27T01:19:05.56Z'
+  - VulnerabilityID: CVE-2026-114583
+    PkgID: python3@3.14.8-r0
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3@3.14.8-r0?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: aedecb761ac500db
+    InstalledVersion: 3.14.8-r0
+    FixedVersion: 3.14.10-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a4489095da1010f5b0ac28f
+      DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec7d178d228448d8a4bb0a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-114583
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:e582948bef7c8833ac2fcf41b58f03596006201ce516f364f6655e864f140840
+    Title: tarfile.tar_filter could be bypassed using crafted link entries, inclu ...
+    Description: |-
+      tarfile.tar_filter could be bypassed using crafted link entries, including symlinks with empty or directory-like names, to redirect later archive members outside the intended extraction directory. This allowed a malicious tar archive to cause tarfile.extractall() with filter="tar" to write files outside the destination directory, subject to the permissions of the extracting process.
+
+      This is the tarfile.tar_filter counterpart of CVE-2026-7774, which covered tarfile.data_filter.
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6.9
+    References:
+    - https://github.com/python/cpython/commit/04d8fca7da2cf3ebc0881fec8a53a1330c3b665d
+    - https://github.com/python/cpython/commit/0901ad4ffb22605f12b705d1c1197f0a01f0ba0b
+    - https://github.com/python/cpython/commit/bc93f8ad4c4a0f92d184ec8fccc8ff8a651dcec2
+    - https://github.com/python/cpython/commit/c6ada40177436e4e2533a7b252082b5f0c043477
+    - https://github.com/python/cpython/commit/e7e0b3523ad6ba8472873dda594cf4021a16f8b5
+    - https://github.com/python/cpython/commit/f4401da82e2baec5dab06cf070fbca77d53220f0
+    - https://github.com/python/cpython/issues/160097
+    - https://github.com/python/cpython/pull/160098
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-114583
+    PublishedDate: '2026-10-22T21:17:16.543Z'
+    LastModifiedDate: '2026-10-27T01:19:05.42Z'
   - VulnerabilityID: CVE-2026-12345
     PkgID: python3@3.14.8-r0
     PkgName: python3
@@ -238,6 +289,7 @@
         V3Score: 6.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
+    - https://access.redhat.com/errata/RHSA-2026:85239
     - https://access.redhat.com/errata/RHSA-2026:89742
     - https://access.redhat.com/security/cve/CVE-2026-12345
     - https://bugzilla.redhat.com/2543492
@@ -250,7 +302,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-12345
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
-    - https://errata.almalinux.org/9/ALSA-2026-89742.html
+    - https://errata.almalinux.org/8/ALSA-2026-85239.html
     - https://errata.rockylinux.org/RLSA-2026:89742
     - https://github.com/python/cpython/commit/0478b52788117db4b831b3efd648f56b777628aa
     - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
@@ -267,42 +319,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-12345
     PublishedDate: '2026-09-29T18:17:14.707Z'
     LastModifiedDate: '2026-10-26T01:17:15.94Z'
-  - VulnerabilityID: CVE-2026-114583
-    PkgID: python3@3.14.8-r0
-    PkgName: python3
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/python3@3.14.8-r0?arch=x86_64&distro=3.25.0_alpha20260805
-      UID: aedecb761ac500db
-    InstalledVersion: 3.14.8-r0
-    FixedVersion: 3.14.10-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a4489095da1010f5b0ac28f
-      DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec7d178d228448d8a4bb0a
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-114583
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:e582948bef7c8833ac2fcf41b58f03596006201ce516f364f6655e864f140840
-    Title: tarfile.tar_filter could be bypassed using crafted link entries, inclu ...
-    Description: |-
-      tarfile.tar_filter could be bypassed using crafted link entries, including symlinks with empty or directory-like names, to redirect later archive members outside the intended extraction directory. This allowed a malicious tar archive to cause tarfile.extractall() with filter="tar" to write files outside the destination directory, subject to the permissions of the extracting process.
-
-      This is the tarfile.tar_filter counterpart of CVE-2026-7774, which covered tarfile.data_filter.
-    Severity: UNKNOWN
-    References:
-    - https://github.com/python/cpython/commit/04d8fca7da2cf3ebc0881fec8a53a1330c3b665d
-    - https://github.com/python/cpython/commit/0901ad4ffb22605f12b705d1c1197f0a01f0ba0b
-    - https://github.com/python/cpython/commit/bc93f8ad4c4a0f92d184ec8fccc8ff8a651dcec2
-    - https://github.com/python/cpython/commit/c6ada40177436e4e2533a7b252082b5f0c043477
-    - https://github.com/python/cpython/commit/e7e0b3523ad6ba8472873dda594cf4021a16f8b5
-    - https://github.com/python/cpython/commit/f4401da82e2baec5dab06cf070fbca77d53220f0
-    - https://github.com/python/cpython/issues/160097
-    - https://github.com/python/cpython/pull/160098
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
-    PublishedDate: '2026-10-22T21:17:16.543Z'
-    LastModifiedDate: '2026-10-27T01:19:05.42Z'
   - VulnerabilityID: CVE-2026-115557
     PkgID: python3-pyc@3.14.8-r0
     PkgName: python3-pyc
@@ -350,6 +366,49 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-115557
     PublishedDate: '2026-10-24T15:17:33.6Z'
     LastModifiedDate: '2026-10-27T01:19:05.56Z'
+  - VulnerabilityID: CVE-2026-114583
+    PkgID: python3-pyc@3.14.8-r0
+    PkgName: python3-pyc
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pyc@3.14.8-r0?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: 264f009a68490993
+    InstalledVersion: 3.14.8-r0
+    FixedVersion: 3.14.10-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a4489095da1010f5b0ac28f
+      DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec7d178d228448d8a4bb0a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-114583
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:d4fcf9d5386707a6b392db7539080e5ef61b01685ae9ddf5536ed886219393c8
+    Title: tarfile.tar_filter could be bypassed using crafted link entries, inclu ...
+    Description: |-
+      tarfile.tar_filter could be bypassed using crafted link entries, including symlinks with empty or directory-like names, to redirect later archive members outside the intended extraction directory. This allowed a malicious tar archive to cause tarfile.extractall() with filter="tar" to write files outside the destination directory, subject to the permissions of the extracting process.
+
+      This is the tarfile.tar_filter counterpart of CVE-2026-7774, which covered tarfile.data_filter.
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6.9
+    References:
+    - https://github.com/python/cpython/commit/04d8fca7da2cf3ebc0881fec8a53a1330c3b665d
+    - https://github.com/python/cpython/commit/0901ad4ffb22605f12b705d1c1197f0a01f0ba0b
+    - https://github.com/python/cpython/commit/bc93f8ad4c4a0f92d184ec8fccc8ff8a651dcec2
+    - https://github.com/python/cpython/commit/c6ada40177436e4e2533a7b252082b5f0c043477
+    - https://github.com/python/cpython/commit/e7e0b3523ad6ba8472873dda594cf4021a16f8b5
+    - https://github.com/python/cpython/commit/f4401da82e2baec5dab06cf070fbca77d53220f0
+    - https://github.com/python/cpython/issues/160097
+    - https://github.com/python/cpython/pull/160098
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-114583
+    PublishedDate: '2026-10-22T21:17:16.543Z'
+    LastModifiedDate: '2026-10-27T01:19:05.42Z'
   - VulnerabilityID: CVE-2026-12345
     PkgID: python3-pyc@3.14.8-r0
     PkgName: python3-pyc
@@ -388,6 +447,7 @@
         V3Score: 6.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
+    - https://access.redhat.com/errata/RHSA-2026:85239
     - https://access.redhat.com/errata/RHSA-2026:89742
     - https://access.redhat.com/security/cve/CVE-2026-12345
     - https://bugzilla.redhat.com/2543492
@@ -400,7 +460,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-12345
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
-    - https://errata.almalinux.org/9/ALSA-2026-89742.html
+    - https://errata.almalinux.org/8/ALSA-2026-85239.html
     - https://errata.rockylinux.org/RLSA-2026:89742
     - https://github.com/python/cpython/commit/0478b52788117db4b831b3efd648f56b777628aa
     - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
@@ -417,42 +477,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-12345
     PublishedDate: '2026-09-29T18:17:14.707Z'
     LastModifiedDate: '2026-10-26T01:17:15.94Z'
-  - VulnerabilityID: CVE-2026-114583
-    PkgID: python3-pyc@3.14.8-r0
-    PkgName: python3-pyc
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/python3-pyc@3.14.8-r0?arch=x86_64&distro=3.25.0_alpha20260805
-      UID: 264f009a68490993
-    InstalledVersion: 3.14.8-r0
-    FixedVersion: 3.14.10-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a4489095da1010f5b0ac28f
-      DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec7d178d228448d8a4bb0a
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-114583
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:d4fcf9d5386707a6b392db7539080e5ef61b01685ae9ddf5536ed886219393c8
-    Title: tarfile.tar_filter could be bypassed using crafted link entries, inclu ...
-    Description: |-
-      tarfile.tar_filter could be bypassed using crafted link entries, including symlinks with empty or directory-like names, to redirect later archive members outside the intended extraction directory. This allowed a malicious tar archive to cause tarfile.extractall() with filter="tar" to write files outside the destination directory, subject to the permissions of the extracting process.
-
-      This is the tarfile.tar_filter counterpart of CVE-2026-7774, which covered tarfile.data_filter.
-    Severity: UNKNOWN
-    References:
-    - https://github.com/python/cpython/commit/04d8fca7da2cf3ebc0881fec8a53a1330c3b665d
-    - https://github.com/python/cpython/commit/0901ad4ffb22605f12b705d1c1197f0a01f0ba0b
-    - https://github.com/python/cpython/commit/bc93f8ad4c4a0f92d184ec8fccc8ff8a651dcec2
-    - https://github.com/python/cpython/commit/c6ada40177436e4e2533a7b252082b5f0c043477
-    - https://github.com/python/cpython/commit/e7e0b3523ad6ba8472873dda594cf4021a16f8b5
-    - https://github.com/python/cpython/commit/f4401da82e2baec5dab06cf070fbca77d53220f0
-    - https://github.com/python/cpython/issues/160097
-    - https://github.com/python/cpython/pull/160098
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
-    PublishedDate: '2026-10-22T21:17:16.543Z'
-    LastModifiedDate: '2026-10-27T01:19:05.42Z'
   - VulnerabilityID: CVE-2026-115557
     PkgID: python3-pycache-pyc0@3.14.8-r0
     PkgName: python3-pycache-pyc0
@@ -500,6 +524,49 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-115557
     PublishedDate: '2026-10-24T15:17:33.6Z'
     LastModifiedDate: '2026-10-27T01:19:05.56Z'
+  - VulnerabilityID: CVE-2026-114583
+    PkgID: python3-pycache-pyc0@3.14.8-r0
+    PkgName: python3-pycache-pyc0
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.8-r0?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: ee5752011416038f
+    InstalledVersion: 3.14.8-r0
+    FixedVersion: 3.14.10-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a4489095da1010f5b0ac28f
+      DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec7d178d228448d8a4bb0a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-114583
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:32fc6f25c9f7d95d6b388a0135ce6b96797fb1b8cf86c227ee1fd3175aeb7d02
+    Title: tarfile.tar_filter could be bypassed using crafted link entries, inclu ...
+    Description: |-
+      tarfile.tar_filter could be bypassed using crafted link entries, including symlinks with empty or directory-like names, to redirect later archive members outside the intended extraction directory. This allowed a malicious tar archive to cause tarfile.extractall() with filter="tar" to write files outside the destination directory, subject to the permissions of the extracting process.
+
+      This is the tarfile.tar_filter counterpart of CVE-2026-7774, which covered tarfile.data_filter.
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 6.9
+    References:
+    - https://github.com/python/cpython/commit/04d8fca7da2cf3ebc0881fec8a53a1330c3b665d
+    - https://github.com/python/cpython/commit/0901ad4ffb22605f12b705d1c1197f0a01f0ba0b
+    - https://github.com/python/cpython/commit/bc93f8ad4c4a0f92d184ec8fccc8ff8a651dcec2
+    - https://github.com/python/cpython/commit/c6ada40177436e4e2533a7b252082b5f0c043477
+    - https://github.com/python/cpython/commit/e7e0b3523ad6ba8472873dda594cf4021a16f8b5
+    - https://github.com/python/cpython/commit/f4401da82e2baec5dab06cf070fbca77d53220f0
+    - https://github.com/python/cpython/issues/160097
+    - https://github.com/python/cpython/pull/160098
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-114583
+    PublishedDate: '2026-10-22T21:17:16.543Z'
+    LastModifiedDate: '2026-10-27T01:19:05.42Z'
   - VulnerabilityID: CVE-2026-12345
     PkgID: python3-pycache-pyc0@3.14.8-r0
     PkgName: python3-pycache-pyc0
@@ -538,6 +605,7 @@
         V3Score: 6.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
+    - https://access.redhat.com/errata/RHSA-2026:85239
     - https://access.redhat.com/errata/RHSA-2026:89742
     - https://access.redhat.com/security/cve/CVE-2026-12345
     - https://bugzilla.redhat.com/2543492
@@ -550,7 +618,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-12345
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
-    - https://errata.almalinux.org/9/ALSA-2026-89742.html
+    - https://errata.almalinux.org/8/ALSA-2026-85239.html
     - https://errata.rockylinux.org/RLSA-2026:89742
     - https://github.com/python/cpython/commit/0478b52788117db4b831b3efd648f56b777628aa
     - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
@@ -567,42 +635,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-12345
     PublishedDate: '2026-09-29T18:17:14.707Z'
     LastModifiedDate: '2026-10-26T01:17:15.94Z'
-  - VulnerabilityID: CVE-2026-114583
-    PkgID: python3-pycache-pyc0@3.14.8-r0
-    PkgName: python3-pycache-pyc0
-    PkgIdentifier:
-      PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.8-r0?arch=x86_64&distro=3.25.0_alpha20260805
-      UID: ee5752011416038f
-    InstalledVersion: 3.14.8-r0
-    FixedVersion: 3.14.10-r0
-    Status: fixed
-    Layer:
-      Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a4489095da1010f5b0ac28f
-      DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec7d178d228448d8a4bb0a
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-114583
-    DataSource:
-      ID: alpine
-      Name: Alpine Secdb
-      URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:32fc6f25c9f7d95d6b388a0135ce6b96797fb1b8cf86c227ee1fd3175aeb7d02
-    Title: tarfile.tar_filter could be bypassed using crafted link entries, inclu ...
-    Description: |-
-      tarfile.tar_filter could be bypassed using crafted link entries, including symlinks with empty or directory-like names, to redirect later archive members outside the intended extraction directory. This allowed a malicious tar archive to cause tarfile.extractall() with filter="tar" to write files outside the destination directory, subject to the permissions of the extracting process.
-
-      This is the tarfile.tar_filter counterpart of CVE-2026-7774, which covered tarfile.data_filter.
-    Severity: UNKNOWN
-    References:
-    - https://github.com/python/cpython/commit/04d8fca7da2cf3ebc0881fec8a53a1330c3b665d
-    - https://github.com/python/cpython/commit/0901ad4ffb22605f12b705d1c1197f0a01f0ba0b
-    - https://github.com/python/cpython/commit/bc93f8ad4c4a0f92d184ec8fccc8ff8a651dcec2
-    - https://github.com/python/cpython/commit/c6ada40177436e4e2533a7b252082b5f0c043477
-    - https://github.com/python/cpython/commit/e7e0b3523ad6ba8472873dda594cf4021a16f8b5
-    - https://github.com/python/cpython/commit/f4401da82e2baec5dab06cf070fbca77d53220f0
-    - https://github.com/python/cpython/issues/160097
-    - https://github.com/python/cpython/pull/160098
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
-    PublishedDate: '2026-10-22T21:17:16.543Z'
-    LastModifiedDate: '2026-10-27T01:19:05.42Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
