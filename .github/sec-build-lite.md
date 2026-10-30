@@ -98,7 +98,11 @@
 │                       │     │                   
 │                       │     │                   This is the tarfile.tar_filter counterpart of CVE-2026-7774,
 │                       │     │                   which covered tarfile.data_filter. 
-│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ VendorSeverity   ─ bitnami: 2 
+│                       │     ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/
+│                       │     │                            │            VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │     │                            ╰ V40Score : 6.9 
 │                       │     ├ References       ╭ [0]: https://github.com/python/cpython/commit/04d8fca7da2cf3
 │                       │     │                  │      ebc0881fec8a53a1330c3b665d 
 │                       │     │                  ├ [1]: https://github.com/python/cpython/commit/0901ad4ffb2260
@@ -113,8 +117,9 @@
 │                       │     │                  │      c5dab06cf070fbca77d53220f0 
 │                       │     │                  ├ [6]: https://github.com/python/cpython/issues/160097 
 │                       │     │                  ├ [7]: https://github.com/python/cpython/pull/160098 
-│                       │     │                  ╰ [8]: https://mail.python.org/archives/list/security-announce
-│                       │     │                         @python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/ 
+│                       │     │                  ├ [8]: https://mail.python.org/archives/list/security-announce
+│                       │     │                  │      @python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/ 
+│                       │     │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
 │                       │     ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
 │                       │     ╰ LastModifiedDate: 2026-10-27T01:19:05.42Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2026-115557 
@@ -212,7 +217,11 @@
 │                       │     │                   
 │                       │     │                   This is the tarfile.tar_filter counterpart of CVE-2026-7774,
 │                       │     │                   which covered tarfile.data_filter. 
-│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ VendorSeverity   ─ bitnami: 2 
+│                       │     ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/
+│                       │     │                            │            VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │     │                            ╰ V40Score : 6.9 
 │                       │     ├ References       ╭ [0]: https://github.com/python/cpython/commit/04d8fca7da2cf3
 │                       │     │                  │      ebc0881fec8a53a1330c3b665d 
 │                       │     │                  ├ [1]: https://github.com/python/cpython/commit/0901ad4ffb2260
@@ -227,8 +236,9 @@
 │                       │     │                  │      c5dab06cf070fbca77d53220f0 
 │                       │     │                  ├ [6]: https://github.com/python/cpython/issues/160097 
 │                       │     │                  ├ [7]: https://github.com/python/cpython/pull/160098 
-│                       │     │                  ╰ [8]: https://mail.python.org/archives/list/security-announce
-│                       │     │                         @python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/ 
+│                       │     │                  ├ [8]: https://mail.python.org/archives/list/security-announce
+│                       │     │                  │      @python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/ 
+│                       │     │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
 │                       │     ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
 │                       │     ╰ LastModifiedDate: 2026-10-27T01:19:05.42Z 
 │                       ├ [4] ╭ VulnerabilityID : CVE-2026-115557 
@@ -326,7 +336,11 @@
 │                       │     │                   
 │                       │     │                   This is the tarfile.tar_filter counterpart of CVE-2026-7774,
 │                       │     │                   which covered tarfile.data_filter. 
-│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ VendorSeverity   ─ bitnami: 2 
+│                       │     ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/
+│                       │     │                            │            VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │     │                            ╰ V40Score : 6.9 
 │                       │     ├ References       ╭ [0]: https://github.com/python/cpython/commit/04d8fca7da2cf3
 │                       │     │                  │      ebc0881fec8a53a1330c3b665d 
 │                       │     │                  ├ [1]: https://github.com/python/cpython/commit/0901ad4ffb2260
@@ -341,8 +355,9 @@
 │                       │     │                  │      c5dab06cf070fbca77d53220f0 
 │                       │     │                  ├ [6]: https://github.com/python/cpython/issues/160097 
 │                       │     │                  ├ [7]: https://github.com/python/cpython/pull/160098 
-│                       │     │                  ╰ [8]: https://mail.python.org/archives/list/security-announce
-│                       │     │                         @python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/ 
+│                       │     │                  ├ [8]: https://mail.python.org/archives/list/security-announce
+│                       │     │                  │      @python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/ 
+│                       │     │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
 │                       │     ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
 │                       │     ╰ LastModifiedDate: 2026-10-27T01:19:05.42Z 
 │                       ├ [6] ╭ VulnerabilityID : CVE-2026-115557 
@@ -440,7 +455,11 @@
 │                             │                   
 │                             │                   This is the tarfile.tar_filter counterpart of CVE-2026-7774,
 │                             │                   which covered tarfile.data_filter. 
-│                             ├ Severity        : UNKNOWN 
+│                             ├ Severity        : MEDIUM 
+│                             ├ VendorSeverity   ─ bitnami: 2 
+│                             ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/
+│                             │                            │            VI:H/VA:N/SC:N/SI:N/SA:N 
+│                             │                            ╰ V40Score : 6.9 
 │                             ├ References       ╭ [0]: https://github.com/python/cpython/commit/04d8fca7da2cf3
 │                             │                  │      ebc0881fec8a53a1330c3b665d 
 │                             │                  ├ [1]: https://github.com/python/cpython/commit/0901ad4ffb2260
@@ -455,8 +474,9 @@
 │                             │                  │      c5dab06cf070fbca77d53220f0 
 │                             │                  ├ [6]: https://github.com/python/cpython/issues/160097 
 │                             │                  ├ [7]: https://github.com/python/cpython/pull/160098 
-│                             │                  ╰ [8]: https://mail.python.org/archives/list/security-announce
-│                             │                         @python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/ 
+│                             │                  ├ [8]: https://mail.python.org/archives/list/security-announce
+│                             │                  │      @python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/ 
+│                             │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
 │                             ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
 │                             ╰ LastModifiedDate: 2026-10-27T01:19:05.42Z 
 ╰ [1] ╭ Target  : Java 
