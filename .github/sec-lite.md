@@ -3,7 +3,65 @@
 │     ├ Class          : os-pkgs 
 │     ├ Type           : alpine 
 │     ├ Packages        
-│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2026-115557 
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2026-114583 
+│                       │      ├ PkgID           : pyc@3.14.8-r0 
+│                       │      ├ PkgName         : pyc 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.8-r0?arch=x86_64&distro=3.25.
+│                       │      │                  │       0_alpha20260805 
+│                       │      │                  ╰ UID : 8165f8c9ea5cf734 
+│                       │      ├ InstalledVersion: 3.14.8-r0 
+│                       │      ├ FixedVersion    : 3.14.10-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a44
+│                       │      │                  │         89095da1010f5b0ac28f 
+│                       │      │                  ╰ DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec
+│                       │      │                            7d178d228448d8a4bb0a 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114583 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:96df405d66876065b3c5a865d80aca13aea402a9ce56a8aa7665a
+│                       │      │                   4a005d7bd7a 
+│                       │      ├ Title           : tarfile.tar_filter could be bypassed using crafted link
+│                       │      │                   entries, inclu ... 
+│                       │      ├ Description     : tarfile.tar_filter could be bypassed using crafted link
+│                       │      │                   entries, including symlinks with empty or directory-like
+│                       │      │                   names, to redirect later archive members outside the
+│                       │      │                   intended extraction directory. This allowed a malicious tar
+│                       │      │                   archive to cause tarfile.extractall() with filter="tar" to
+│                       │      │                   write files outside the destination directory, subject to
+│                       │      │                   the permissions of the extracting process.
+│                       │      │                   
+│                       │      │                   This is the tarfile.tar_filter counterpart of CVE-2026-7774,
+│                       │      │                    which covered tarfile.data_filter. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ amazon : 2 
+│                       │      │                  ├ azure  : 2 
+│                       │      │                  ╰ bitnami: 2 
+│                       │      ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N
+│                       │      │                            │            /VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │      │                            ╰ V40Score : 6.9 
+│                       │      ├ References       ╭ [0]: https://github.com/python/cpython/commit/04d8fca7da2cf
+│                       │      │                  │      3ebc0881fec8a53a1330c3b665d 
+│                       │      │                  ├ [1]: https://github.com/python/cpython/commit/0901ad4ffb226
+│                       │      │                  │      05f12b705d1c1197f0a01f0ba0b 
+│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/bc93f8ad4c4a0
+│                       │      │                  │      f92d184ec8fccc8ff8a651dcec2 
+│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/c6ada40177436
+│                       │      │                  │      e4e2533a7b252082b5f0c043477 
+│                       │      │                  ├ [4]: https://github.com/python/cpython/commit/e7e0b3523ad6b
+│                       │      │                  │      a8472873dda594cf4021a16f8b5 
+│                       │      │                  ├ [5]: https://github.com/python/cpython/commit/f4401da82e2ba
+│                       │      │                  │      ec5dab06cf070fbca77d53220f0 
+│                       │      │                  ├ [6]: https://github.com/python/cpython/issues/160097 
+│                       │      │                  ├ [7]: https://github.com/python/cpython/pull/160098 
+│                       │      │                  ├ [8]: https://mail.python.org/archives/list/security-announc
+│                       │      │                  │      e@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
+│                       │      │                  │      [m 
+│                       │      │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
+│                       │      ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
+│                       │      ╰ LastModifiedDate: 2026-10-27T01:19:05.42Z 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2026-115557 
 │                       │      ├ PkgID           : pyc@3.14.8-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.8-r0?arch=x86_64&distro=3.25.
@@ -29,9 +87,14 @@
 │                       │      │                   without certificate revocation configured. Known compromised
 │                       │      │                    certificates will automatically be rejected regardless of
 │                       │      │                   the SSLContext policy configuration. 
-│                       │      ├ Severity        : CRITICAL 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-299 
-│                       │      ├ VendorSeverity   ─ azure: 4 
+│                       │      ├ VendorSeverity   ╭ amazon : 2 
+│                       │      │                  ├ azure  : 4 
+│                       │      │                  ╰ bitnami: 4 
+│                       │      ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H
+│                       │      │                            │            /VI:H/VA:H/SC:H/SI:H/SA:H 
+│                       │      │                            ╰ V40Score : 9.4 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/10/20
 │                       │      │                  │       /29 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2026/10/24/5 
@@ -68,62 +131,6 @@
 │                       │      │                  ╰ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-115557 
 │                       │      ├ PublishedDate   : 2026-10-24T15:17:33.6Z 
 │                       │      ╰ LastModifiedDate: 2026-10-27T01:19:05.56Z 
-│                       ├ [1]  ╭ VulnerabilityID : CVE-2026-114583 
-│                       │      ├ PkgID           : pyc@3.14.8-r0 
-│                       │      ├ PkgName         : pyc 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.8-r0?arch=x86_64&distro=3.25.
-│                       │      │                  │       0_alpha20260805 
-│                       │      │                  ╰ UID : 8165f8c9ea5cf734 
-│                       │      ├ InstalledVersion: 3.14.8-r0 
-│                       │      ├ FixedVersion    : 3.14.10-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a44
-│                       │      │                  │         89095da1010f5b0ac28f 
-│                       │      │                  ╰ DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec
-│                       │      │                            7d178d228448d8a4bb0a 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114583 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:96df405d66876065b3c5a865d80aca13aea402a9ce56a8aa7665a
-│                       │      │                   4a005d7bd7a 
-│                       │      ├ Title           : tarfile.tar_filter could be bypassed using crafted link
-│                       │      │                   entries, inclu ... 
-│                       │      ├ Description     : tarfile.tar_filter could be bypassed using crafted link
-│                       │      │                   entries, including symlinks with empty or directory-like
-│                       │      │                   names, to redirect later archive members outside the
-│                       │      │                   intended extraction directory. This allowed a malicious tar
-│                       │      │                   archive to cause tarfile.extractall() with filter="tar" to
-│                       │      │                   write files outside the destination directory, subject to
-│                       │      │                   the permissions of the extracting process.
-│                       │      │                   
-│                       │      │                   This is the tarfile.tar_filter counterpart of CVE-2026-7774,
-│                       │      │                    which covered tarfile.data_filter. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ bitnami: 2 
-│                       │      ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N
-│                       │      │                            │            /VI:H/VA:N/SC:N/SI:N/SA:N 
-│                       │      │                            ╰ V40Score : 6.9 
-│                       │      ├ References       ╭ [0]: https://github.com/python/cpython/commit/04d8fca7da2cf
-│                       │      │                  │      3ebc0881fec8a53a1330c3b665d 
-│                       │      │                  ├ [1]: https://github.com/python/cpython/commit/0901ad4ffb226
-│                       │      │                  │      05f12b705d1c1197f0a01f0ba0b 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/bc93f8ad4c4a0
-│                       │      │                  │      f92d184ec8fccc8ff8a651dcec2 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/c6ada40177436
-│                       │      │                  │      e4e2533a7b252082b5f0c043477 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/commit/e7e0b3523ad6b
-│                       │      │                  │      a8472873dda594cf4021a16f8b5 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/commit/f4401da82e2ba
-│                       │      │                  │      ec5dab06cf070fbca77d53220f0 
-│                       │      │                  ├ [6]: https://github.com/python/cpython/issues/160097 
-│                       │      │                  ├ [7]: https://github.com/python/cpython/pull/160098 
-│                       │      │                  ├ [8]: https://mail.python.org/archives/list/security-announc
-│                       │      │                  │      e@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
-│                       │      │                  │      [m 
-│                       │      │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
-│                       │      ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
-│                       │      ╰ LastModifiedDate: 2026-10-27T01:19:05.42Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2026-12345 
 │                       │      ├ PkgID           : pyc@3.14.8-r0 
 │                       │      ├ PkgName         : pyc 
@@ -157,6 +164,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-59 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ azure      : 1 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
@@ -208,7 +216,65 @@
 │                       │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2026-12345 
 │                       │      ├ PublishedDate   : 2026-09-29T18:17:14.707Z 
 │                       │      ╰ LastModifiedDate: 2026-10-26T01:17:15.94Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2026-115557 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2026-114583 
+│                       │      ├ PkgID           : python3@3.14.8-r0 
+│                       │      ├ PkgName         : python3 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.8-r0?arch=x86_64&distro=3
+│                       │      │                  │       .25.0_alpha20260805 
+│                       │      │                  ╰ UID : aedecb761ac500db 
+│                       │      ├ InstalledVersion: 3.14.8-r0 
+│                       │      ├ FixedVersion    : 3.14.10-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a44
+│                       │      │                  │         89095da1010f5b0ac28f 
+│                       │      │                  ╰ DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec
+│                       │      │                            7d178d228448d8a4bb0a 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114583 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:e582948bef7c8833ac2fcf41b58f03596006201ce516f364f6655
+│                       │      │                   e864f140840 
+│                       │      ├ Title           : tarfile.tar_filter could be bypassed using crafted link
+│                       │      │                   entries, inclu ... 
+│                       │      ├ Description     : tarfile.tar_filter could be bypassed using crafted link
+│                       │      │                   entries, including symlinks with empty or directory-like
+│                       │      │                   names, to redirect later archive members outside the
+│                       │      │                   intended extraction directory. This allowed a malicious tar
+│                       │      │                   archive to cause tarfile.extractall() with filter="tar" to
+│                       │      │                   write files outside the destination directory, subject to
+│                       │      │                   the permissions of the extracting process.
+│                       │      │                   
+│                       │      │                   This is the tarfile.tar_filter counterpart of CVE-2026-7774,
+│                       │      │                    which covered tarfile.data_filter. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ amazon : 2 
+│                       │      │                  ├ azure  : 2 
+│                       │      │                  ╰ bitnami: 2 
+│                       │      ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N
+│                       │      │                            │            /VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │      │                            ╰ V40Score : 6.9 
+│                       │      ├ References       ╭ [0]: https://github.com/python/cpython/commit/04d8fca7da2cf
+│                       │      │                  │      3ebc0881fec8a53a1330c3b665d 
+│                       │      │                  ├ [1]: https://github.com/python/cpython/commit/0901ad4ffb226
+│                       │      │                  │      05f12b705d1c1197f0a01f0ba0b 
+│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/bc93f8ad4c4a0
+│                       │      │                  │      f92d184ec8fccc8ff8a651dcec2 
+│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/c6ada40177436
+│                       │      │                  │      e4e2533a7b252082b5f0c043477 
+│                       │      │                  ├ [4]: https://github.com/python/cpython/commit/e7e0b3523ad6b
+│                       │      │                  │      a8472873dda594cf4021a16f8b5 
+│                       │      │                  ├ [5]: https://github.com/python/cpython/commit/f4401da82e2ba
+│                       │      │                  │      ec5dab06cf070fbca77d53220f0 
+│                       │      │                  ├ [6]: https://github.com/python/cpython/issues/160097 
+│                       │      │                  ├ [7]: https://github.com/python/cpython/pull/160098 
+│                       │      │                  ├ [8]: https://mail.python.org/archives/list/security-announc
+│                       │      │                  │      e@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
+│                       │      │                  │      [m 
+│                       │      │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
+│                       │      ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
+│                       │      ╰ LastModifiedDate: 2026-10-27T01:19:05.42Z 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2026-115557 
 │                       │      ├ PkgID           : python3@3.14.8-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.8-r0?arch=x86_64&distro=3
@@ -234,9 +300,14 @@
 │                       │      │                   without certificate revocation configured. Known compromised
 │                       │      │                    certificates will automatically be rejected regardless of
 │                       │      │                   the SSLContext policy configuration. 
-│                       │      ├ Severity        : CRITICAL 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-299 
-│                       │      ├ VendorSeverity   ─ azure: 4 
+│                       │      ├ VendorSeverity   ╭ amazon : 2 
+│                       │      │                  ├ azure  : 4 
+│                       │      │                  ╰ bitnami: 4 
+│                       │      ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H
+│                       │      │                            │            /VI:H/VA:H/SC:H/SI:H/SA:H 
+│                       │      │                            ╰ V40Score : 9.4 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/10/20
 │                       │      │                  │       /29 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2026/10/24/5 
@@ -273,62 +344,6 @@
 │                       │      │                  ╰ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-115557 
 │                       │      ├ PublishedDate   : 2026-10-24T15:17:33.6Z 
 │                       │      ╰ LastModifiedDate: 2026-10-27T01:19:05.56Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2026-114583 
-│                       │      ├ PkgID           : python3@3.14.8-r0 
-│                       │      ├ PkgName         : python3 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.8-r0?arch=x86_64&distro=3
-│                       │      │                  │       .25.0_alpha20260805 
-│                       │      │                  ╰ UID : aedecb761ac500db 
-│                       │      ├ InstalledVersion: 3.14.8-r0 
-│                       │      ├ FixedVersion    : 3.14.10-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a44
-│                       │      │                  │         89095da1010f5b0ac28f 
-│                       │      │                  ╰ DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec
-│                       │      │                            7d178d228448d8a4bb0a 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114583 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e582948bef7c8833ac2fcf41b58f03596006201ce516f364f6655
-│                       │      │                   e864f140840 
-│                       │      ├ Title           : tarfile.tar_filter could be bypassed using crafted link
-│                       │      │                   entries, inclu ... 
-│                       │      ├ Description     : tarfile.tar_filter could be bypassed using crafted link
-│                       │      │                   entries, including symlinks with empty or directory-like
-│                       │      │                   names, to redirect later archive members outside the
-│                       │      │                   intended extraction directory. This allowed a malicious tar
-│                       │      │                   archive to cause tarfile.extractall() with filter="tar" to
-│                       │      │                   write files outside the destination directory, subject to
-│                       │      │                   the permissions of the extracting process.
-│                       │      │                   
-│                       │      │                   This is the tarfile.tar_filter counterpart of CVE-2026-7774,
-│                       │      │                    which covered tarfile.data_filter. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ bitnami: 2 
-│                       │      ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N
-│                       │      │                            │            /VI:H/VA:N/SC:N/SI:N/SA:N 
-│                       │      │                            ╰ V40Score : 6.9 
-│                       │      ├ References       ╭ [0]: https://github.com/python/cpython/commit/04d8fca7da2cf
-│                       │      │                  │      3ebc0881fec8a53a1330c3b665d 
-│                       │      │                  ├ [1]: https://github.com/python/cpython/commit/0901ad4ffb226
-│                       │      │                  │      05f12b705d1c1197f0a01f0ba0b 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/bc93f8ad4c4a0
-│                       │      │                  │      f92d184ec8fccc8ff8a651dcec2 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/c6ada40177436
-│                       │      │                  │      e4e2533a7b252082b5f0c043477 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/commit/e7e0b3523ad6b
-│                       │      │                  │      a8472873dda594cf4021a16f8b5 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/commit/f4401da82e2ba
-│                       │      │                  │      ec5dab06cf070fbca77d53220f0 
-│                       │      │                  ├ [6]: https://github.com/python/cpython/issues/160097 
-│                       │      │                  ├ [7]: https://github.com/python/cpython/pull/160098 
-│                       │      │                  ├ [8]: https://mail.python.org/archives/list/security-announc
-│                       │      │                  │      e@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
-│                       │      │                  │      [m 
-│                       │      │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
-│                       │      ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
-│                       │      ╰ LastModifiedDate: 2026-10-27T01:19:05.42Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2026-12345 
 │                       │      ├ PkgID           : python3@3.14.8-r0 
 │                       │      ├ PkgName         : python3 
@@ -362,6 +377,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-59 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ azure      : 1 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
@@ -413,7 +429,65 @@
 │                       │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2026-12345 
 │                       │      ├ PublishedDate   : 2026-09-29T18:17:14.707Z 
 │                       │      ╰ LastModifiedDate: 2026-10-26T01:17:15.94Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-115557 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-114583 
+│                       │      ├ PkgID           : python3-pyc@3.14.8-r0 
+│                       │      ├ PkgName         : python3-pyc 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.8-r0?arch=x86_64&dist
+│                       │      │                  │       ro=3.25.0_alpha20260805 
+│                       │      │                  ╰ UID : 264f009a68490993 
+│                       │      ├ InstalledVersion: 3.14.8-r0 
+│                       │      ├ FixedVersion    : 3.14.10-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a44
+│                       │      │                  │         89095da1010f5b0ac28f 
+│                       │      │                  ╰ DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec
+│                       │      │                            7d178d228448d8a4bb0a 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114583 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:d4fcf9d5386707a6b392db7539080e5ef61b01685ae9ddf5536ed
+│                       │      │                   886219393c8 
+│                       │      ├ Title           : tarfile.tar_filter could be bypassed using crafted link
+│                       │      │                   entries, inclu ... 
+│                       │      ├ Description     : tarfile.tar_filter could be bypassed using crafted link
+│                       │      │                   entries, including symlinks with empty or directory-like
+│                       │      │                   names, to redirect later archive members outside the
+│                       │      │                   intended extraction directory. This allowed a malicious tar
+│                       │      │                   archive to cause tarfile.extractall() with filter="tar" to
+│                       │      │                   write files outside the destination directory, subject to
+│                       │      │                   the permissions of the extracting process.
+│                       │      │                   
+│                       │      │                   This is the tarfile.tar_filter counterpart of CVE-2026-7774,
+│                       │      │                    which covered tarfile.data_filter. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ amazon : 2 
+│                       │      │                  ├ azure  : 2 
+│                       │      │                  ╰ bitnami: 2 
+│                       │      ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N
+│                       │      │                            │            /VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │      │                            ╰ V40Score : 6.9 
+│                       │      ├ References       ╭ [0]: https://github.com/python/cpython/commit/04d8fca7da2cf
+│                       │      │                  │      3ebc0881fec8a53a1330c3b665d 
+│                       │      │                  ├ [1]: https://github.com/python/cpython/commit/0901ad4ffb226
+│                       │      │                  │      05f12b705d1c1197f0a01f0ba0b 
+│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/bc93f8ad4c4a0
+│                       │      │                  │      f92d184ec8fccc8ff8a651dcec2 
+│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/c6ada40177436
+│                       │      │                  │      e4e2533a7b252082b5f0c043477 
+│                       │      │                  ├ [4]: https://github.com/python/cpython/commit/e7e0b3523ad6b
+│                       │      │                  │      a8472873dda594cf4021a16f8b5 
+│                       │      │                  ├ [5]: https://github.com/python/cpython/commit/f4401da82e2ba
+│                       │      │                  │      ec5dab06cf070fbca77d53220f0 
+│                       │      │                  ├ [6]: https://github.com/python/cpython/issues/160097 
+│                       │      │                  ├ [7]: https://github.com/python/cpython/pull/160098 
+│                       │      │                  ├ [8]: https://mail.python.org/archives/list/security-announc
+│                       │      │                  │      e@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
+│                       │      │                  │      [m 
+│                       │      │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
+│                       │      ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
+│                       │      ╰ LastModifiedDate: 2026-10-27T01:19:05.42Z 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-115557 
 │                       │      ├ PkgID           : python3-pyc@3.14.8-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.8-r0?arch=x86_64&dist
@@ -439,9 +513,14 @@
 │                       │      │                   without certificate revocation configured. Known compromised
 │                       │      │                    certificates will automatically be rejected regardless of
 │                       │      │                   the SSLContext policy configuration. 
-│                       │      ├ Severity        : CRITICAL 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-299 
-│                       │      ├ VendorSeverity   ─ azure: 4 
+│                       │      ├ VendorSeverity   ╭ amazon : 2 
+│                       │      │                  ├ azure  : 4 
+│                       │      │                  ╰ bitnami: 4 
+│                       │      ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H
+│                       │      │                            │            /VI:H/VA:H/SC:H/SI:H/SA:H 
+│                       │      │                            ╰ V40Score : 9.4 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/10/20
 │                       │      │                  │       /29 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2026/10/24/5 
@@ -478,62 +557,6 @@
 │                       │      │                  ╰ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-115557 
 │                       │      ├ PublishedDate   : 2026-10-24T15:17:33.6Z 
 │                       │      ╰ LastModifiedDate: 2026-10-27T01:19:05.56Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-114583 
-│                       │      ├ PkgID           : python3-pyc@3.14.8-r0 
-│                       │      ├ PkgName         : python3-pyc 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.8-r0?arch=x86_64&dist
-│                       │      │                  │       ro=3.25.0_alpha20260805 
-│                       │      │                  ╰ UID : 264f009a68490993 
-│                       │      ├ InstalledVersion: 3.14.8-r0 
-│                       │      ├ FixedVersion    : 3.14.10-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a44
-│                       │      │                  │         89095da1010f5b0ac28f 
-│                       │      │                  ╰ DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec
-│                       │      │                            7d178d228448d8a4bb0a 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114583 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:d4fcf9d5386707a6b392db7539080e5ef61b01685ae9ddf5536ed
-│                       │      │                   886219393c8 
-│                       │      ├ Title           : tarfile.tar_filter could be bypassed using crafted link
-│                       │      │                   entries, inclu ... 
-│                       │      ├ Description     : tarfile.tar_filter could be bypassed using crafted link
-│                       │      │                   entries, including symlinks with empty or directory-like
-│                       │      │                   names, to redirect later archive members outside the
-│                       │      │                   intended extraction directory. This allowed a malicious tar
-│                       │      │                   archive to cause tarfile.extractall() with filter="tar" to
-│                       │      │                   write files outside the destination directory, subject to
-│                       │      │                   the permissions of the extracting process.
-│                       │      │                   
-│                       │      │                   This is the tarfile.tar_filter counterpart of CVE-2026-7774,
-│                       │      │                    which covered tarfile.data_filter. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ bitnami: 2 
-│                       │      ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N
-│                       │      │                            │            /VI:H/VA:N/SC:N/SI:N/SA:N 
-│                       │      │                            ╰ V40Score : 6.9 
-│                       │      ├ References       ╭ [0]: https://github.com/python/cpython/commit/04d8fca7da2cf
-│                       │      │                  │      3ebc0881fec8a53a1330c3b665d 
-│                       │      │                  ├ [1]: https://github.com/python/cpython/commit/0901ad4ffb226
-│                       │      │                  │      05f12b705d1c1197f0a01f0ba0b 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/bc93f8ad4c4a0
-│                       │      │                  │      f92d184ec8fccc8ff8a651dcec2 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/c6ada40177436
-│                       │      │                  │      e4e2533a7b252082b5f0c043477 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/commit/e7e0b3523ad6b
-│                       │      │                  │      a8472873dda594cf4021a16f8b5 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/commit/f4401da82e2ba
-│                       │      │                  │      ec5dab06cf070fbca77d53220f0 
-│                       │      │                  ├ [6]: https://github.com/python/cpython/issues/160097 
-│                       │      │                  ├ [7]: https://github.com/python/cpython/pull/160098 
-│                       │      │                  ├ [8]: https://mail.python.org/archives/list/security-announc
-│                       │      │                  │      e@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
-│                       │      │                  │      [m 
-│                       │      │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
-│                       │      ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
-│                       │      ╰ LastModifiedDate: 2026-10-27T01:19:05.42Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2026-12345 
 │                       │      ├ PkgID           : python3-pyc@3.14.8-r0 
 │                       │      ├ PkgName         : python3-pyc 
@@ -567,6 +590,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-59 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ azure      : 1 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
@@ -618,7 +642,65 @@
 │                       │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2026-12345 
 │                       │      ├ PublishedDate   : 2026-09-29T18:17:14.707Z 
 │                       │      ╰ LastModifiedDate: 2026-10-26T01:17:15.94Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-115557 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-114583 
+│                       │      ├ PkgID           : python3-pycache-pyc0@3.14.8-r0 
+│                       │      ├ PkgName         : python3-pycache-pyc0 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.8-r0?arch=x8
+│                       │      │                  │       6_64&distro=3.25.0_alpha20260805 
+│                       │      │                  ╰ UID : ee5752011416038f 
+│                       │      ├ InstalledVersion: 3.14.8-r0 
+│                       │      ├ FixedVersion    : 3.14.10-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a44
+│                       │      │                  │         89095da1010f5b0ac28f 
+│                       │      │                  ╰ DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec
+│                       │      │                            7d178d228448d8a4bb0a 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114583 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:32fc6f25c9f7d95d6b388a0135ce6b96797fb1b8cf86c227ee1fd
+│                       │      │                   3175aeb7d02 
+│                       │      ├ Title           : tarfile.tar_filter could be bypassed using crafted link
+│                       │      │                   entries, inclu ... 
+│                       │      ├ Description     : tarfile.tar_filter could be bypassed using crafted link
+│                       │      │                   entries, including symlinks with empty or directory-like
+│                       │      │                   names, to redirect later archive members outside the
+│                       │      │                   intended extraction directory. This allowed a malicious tar
+│                       │      │                   archive to cause tarfile.extractall() with filter="tar" to
+│                       │      │                   write files outside the destination directory, subject to
+│                       │      │                   the permissions of the extracting process.
+│                       │      │                   
+│                       │      │                   This is the tarfile.tar_filter counterpart of CVE-2026-7774,
+│                       │      │                    which covered tarfile.data_filter. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ amazon : 2 
+│                       │      │                  ├ azure  : 2 
+│                       │      │                  ╰ bitnami: 2 
+│                       │      ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N
+│                       │      │                            │            /VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │      │                            ╰ V40Score : 6.9 
+│                       │      ├ References       ╭ [0]: https://github.com/python/cpython/commit/04d8fca7da2cf
+│                       │      │                  │      3ebc0881fec8a53a1330c3b665d 
+│                       │      │                  ├ [1]: https://github.com/python/cpython/commit/0901ad4ffb226
+│                       │      │                  │      05f12b705d1c1197f0a01f0ba0b 
+│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/bc93f8ad4c4a0
+│                       │      │                  │      f92d184ec8fccc8ff8a651dcec2 
+│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/c6ada40177436
+│                       │      │                  │      e4e2533a7b252082b5f0c043477 
+│                       │      │                  ├ [4]: https://github.com/python/cpython/commit/e7e0b3523ad6b
+│                       │      │                  │      a8472873dda594cf4021a16f8b5 
+│                       │      │                  ├ [5]: https://github.com/python/cpython/commit/f4401da82e2ba
+│                       │      │                  │      ec5dab06cf070fbca77d53220f0 
+│                       │      │                  ├ [6]: https://github.com/python/cpython/issues/160097 
+│                       │      │                  ├ [7]: https://github.com/python/cpython/pull/160098 
+│                       │      │                  ├ [8]: https://mail.python.org/archives/list/security-announc
+│                       │      │                  │      e@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
+│                       │      │                  │      [m 
+│                       │      │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
+│                       │      ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
+│                       │      ╰ LastModifiedDate: 2026-10-27T01:19:05.42Z 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2026-115557 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.14.8-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.8-r0?arch=x8
@@ -644,9 +726,14 @@
 │                       │      │                   without certificate revocation configured. Known compromised
 │                       │      │                    certificates will automatically be rejected regardless of
 │                       │      │                   the SSLContext policy configuration. 
-│                       │      ├ Severity        : CRITICAL 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-299 
-│                       │      ├ VendorSeverity   ─ azure: 4 
+│                       │      ├ VendorSeverity   ╭ amazon : 2 
+│                       │      │                  ├ azure  : 4 
+│                       │      │                  ╰ bitnami: 4 
+│                       │      ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H
+│                       │      │                            │            /VI:H/VA:H/SC:H/SI:H/SA:H 
+│                       │      │                            ╰ V40Score : 9.4 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/10/20
 │                       │      │                  │       /29 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2026/10/24/5 
@@ -683,62 +770,6 @@
 │                       │      │                  ╰ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-115557 
 │                       │      ├ PublishedDate   : 2026-10-24T15:17:33.6Z 
 │                       │      ╰ LastModifiedDate: 2026-10-27T01:19:05.56Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2026-114583 
-│                       │      ├ PkgID           : python3-pycache-pyc0@3.14.8-r0 
-│                       │      ├ PkgName         : python3-pycache-pyc0 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.8-r0?arch=x8
-│                       │      │                  │       6_64&distro=3.25.0_alpha20260805 
-│                       │      │                  ╰ UID : ee5752011416038f 
-│                       │      ├ InstalledVersion: 3.14.8-r0 
-│                       │      ├ FixedVersion    : 3.14.10-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a44
-│                       │      │                  │         89095da1010f5b0ac28f 
-│                       │      │                  ╰ DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec
-│                       │      │                            7d178d228448d8a4bb0a 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114583 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:32fc6f25c9f7d95d6b388a0135ce6b96797fb1b8cf86c227ee1fd
-│                       │      │                   3175aeb7d02 
-│                       │      ├ Title           : tarfile.tar_filter could be bypassed using crafted link
-│                       │      │                   entries, inclu ... 
-│                       │      ├ Description     : tarfile.tar_filter could be bypassed using crafted link
-│                       │      │                   entries, including symlinks with empty or directory-like
-│                       │      │                   names, to redirect later archive members outside the
-│                       │      │                   intended extraction directory. This allowed a malicious tar
-│                       │      │                   archive to cause tarfile.extractall() with filter="tar" to
-│                       │      │                   write files outside the destination directory, subject to
-│                       │      │                   the permissions of the extracting process.
-│                       │      │                   
-│                       │      │                   This is the tarfile.tar_filter counterpart of CVE-2026-7774,
-│                       │      │                    which covered tarfile.data_filter. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ bitnami: 2 
-│                       │      ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N
-│                       │      │                            │            /VI:H/VA:N/SC:N/SI:N/SA:N 
-│                       │      │                            ╰ V40Score : 6.9 
-│                       │      ├ References       ╭ [0]: https://github.com/python/cpython/commit/04d8fca7da2cf
-│                       │      │                  │      3ebc0881fec8a53a1330c3b665d 
-│                       │      │                  ├ [1]: https://github.com/python/cpython/commit/0901ad4ffb226
-│                       │      │                  │      05f12b705d1c1197f0a01f0ba0b 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/bc93f8ad4c4a0
-│                       │      │                  │      f92d184ec8fccc8ff8a651dcec2 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/c6ada40177436
-│                       │      │                  │      e4e2533a7b252082b5f0c043477 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/commit/e7e0b3523ad6b
-│                       │      │                  │      a8472873dda594cf4021a16f8b5 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/commit/f4401da82e2ba
-│                       │      │                  │      ec5dab06cf070fbca77d53220f0 
-│                       │      │                  ├ [6]: https://github.com/python/cpython/issues/160097 
-│                       │      │                  ├ [7]: https://github.com/python/cpython/pull/160098 
-│                       │      │                  ├ [8]: https://mail.python.org/archives/list/security-announc
-│                       │      │                  │      e@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
-│                       │      │                  │      [m 
-│                       │      │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
-│                       │      ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
-│                       │      ╰ LastModifiedDate: 2026-10-27T01:19:05.42Z 
 │                       ╰ [11] ╭ VulnerabilityID : CVE-2026-12345 
 │                              ├ PkgID           : python3-pycache-pyc0@3.14.8-r0 
 │                              ├ PkgName         : python3-pycache-pyc0 
@@ -772,6 +803,7 @@
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-59 
 │                              ├ VendorSeverity   ╭ alma       : 3 
+│                              │                  ├ azure      : 1 
 │                              │                  ├ bitnami    : 2 
 │                              │                  ├ oracle-oval: 3 
 │                              │                  ├ redhat     : 2 
