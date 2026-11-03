@@ -35,6 +35,7 @@
 │                       │      │                   This is the tarfile.tar_filter counterpart of CVE-2026-7774,
 │                       │      │                    which covered tarfile.data_filter. 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-22 
 │                       │      ├ VendorSeverity   ╭ amazon : 2 
 │                       │      │                  ├ azure  : 2 
 │                       │      │                  ╰ bitnami: 2 
@@ -60,7 +61,7 @@
 │                       │      │                  │      [m 
 │                       │      │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
 │                       │      ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
-│                       │      ╰ LastModifiedDate: 2026-10-27T01:19:05.42Z 
+│                       │      ╰ LastModifiedDate: 2026-11-02T13:17:35.597Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2026-115557 
 │                       │      ├ PkgID           : pyc@3.14.8-r0 
 │                       │      ├ PkgName         : pyc 
@@ -130,7 +131,7 @@
 │                       │      │                  │       / 
 │                       │      │                  ╰ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-115557 
 │                       │      ├ PublishedDate   : 2026-10-24T15:17:33.6Z 
-│                       │      ╰ LastModifiedDate: 2026-10-27T01:19:05.56Z 
+│                       │      ╰ LastModifiedDate: 2026-11-02T15:17:15Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2026-12345 
 │                       │      ├ PkgID           : pyc@3.14.8-r0 
 │                       │      ├ PkgName         : pyc 
@@ -248,6 +249,7 @@
 │                       │      │                   This is the tarfile.tar_filter counterpart of CVE-2026-7774,
 │                       │      │                    which covered tarfile.data_filter. 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-22 
 │                       │      ├ VendorSeverity   ╭ amazon : 2 
 │                       │      │                  ├ azure  : 2 
 │                       │      │                  ╰ bitnami: 2 
@@ -273,7 +275,7 @@
 │                       │      │                  │      [m 
 │                       │      │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
 │                       │      ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
-│                       │      ╰ LastModifiedDate: 2026-10-27T01:19:05.42Z 
+│                       │      ╰ LastModifiedDate: 2026-11-02T13:17:35.597Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2026-115557 
 │                       │      ├ PkgID           : python3@3.14.8-r0 
 │                       │      ├ PkgName         : python3 
@@ -343,7 +345,7 @@
 │                       │      │                  │       / 
 │                       │      │                  ╰ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-115557 
 │                       │      ├ PublishedDate   : 2026-10-24T15:17:33.6Z 
-│                       │      ╰ LastModifiedDate: 2026-10-27T01:19:05.56Z 
+│                       │      ╰ LastModifiedDate: 2026-11-02T15:17:15Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2026-12345 
 │                       │      ├ PkgID           : python3@3.14.8-r0 
 │                       │      ├ PkgName         : python3 
@@ -461,6 +463,7 @@
 │                       │      │                   This is the tarfile.tar_filter counterpart of CVE-2026-7774,
 │                       │      │                    which covered tarfile.data_filter. 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-22 
 │                       │      ├ VendorSeverity   ╭ amazon : 2 
 │                       │      │                  ├ azure  : 2 
 │                       │      │                  ╰ bitnami: 2 
@@ -486,7 +489,7 @@
 │                       │      │                  │      [m 
 │                       │      │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
 │                       │      ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
-│                       │      ╰ LastModifiedDate: 2026-10-27T01:19:05.42Z 
+│                       │      ╰ LastModifiedDate: 2026-11-02T13:17:35.597Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2026-115557 
 │                       │      ├ PkgID           : python3-pyc@3.14.8-r0 
 │                       │      ├ PkgName         : python3-pyc 
@@ -556,7 +559,7 @@
 │                       │      │                  │       / 
 │                       │      │                  ╰ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-115557 
 │                       │      ├ PublishedDate   : 2026-10-24T15:17:33.6Z 
-│                       │      ╰ LastModifiedDate: 2026-10-27T01:19:05.56Z 
+│                       │      ╰ LastModifiedDate: 2026-11-02T15:17:15Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2026-12345 
 │                       │      ├ PkgID           : python3-pyc@3.14.8-r0 
 │                       │      ├ PkgName         : python3-pyc 
@@ -674,6 +677,7 @@
 │                       │      │                   This is the tarfile.tar_filter counterpart of CVE-2026-7774,
 │                       │      │                    which covered tarfile.data_filter. 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-22 
 │                       │      ├ VendorSeverity   ╭ amazon : 2 
 │                       │      │                  ├ azure  : 2 
 │                       │      │                  ╰ bitnami: 2 
@@ -699,7 +703,7 @@
 │                       │      │                  │      [m 
 │                       │      │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
 │                       │      ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
-│                       │      ╰ LastModifiedDate: 2026-10-27T01:19:05.42Z 
+│                       │      ╰ LastModifiedDate: 2026-11-02T13:17:35.597Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2026-115557 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.14.8-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
@@ -769,7 +773,7 @@
 │                       │      │                  │       / 
 │                       │      │                  ╰ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-115557 
 │                       │      ├ PublishedDate   : 2026-10-24T15:17:33.6Z 
-│                       │      ╰ LastModifiedDate: 2026-10-27T01:19:05.56Z 
+│                       │      ╰ LastModifiedDate: 2026-11-02T15:17:15Z 
 │                       ╰ [11] ╭ VulnerabilityID : CVE-2026-12345 
 │                              ├ PkgID           : python3-pycache-pyc0@3.14.8-r0 
 │                              ├ PkgName         : python3-pycache-pyc0 
