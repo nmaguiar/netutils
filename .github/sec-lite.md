@@ -3,7 +3,192 @@
 │     ├ Class          : os-pkgs 
 │     ├ Type           : alpine 
 │     ├ Packages        
-│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2026-114583 
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2026-113351 
+│                       │      ├ PkgID           : libexpat@2.9.0-r0 
+│                       │      ├ PkgName         : libexpat 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.9.0-r0?arch=x86_64&distro=3
+│                       │      │                  │       .25.0_alpha20260805 
+│                       │      │                  ╰ UID : f82f4662e57daf87 
+│                       │      ├ InstalledVersion: 2.9.0-r0 
+│                       │      ├ FixedVersion    : 2.10.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a44
+│                       │      │                  │         89095da1010f5b0ac28f 
+│                       │      │                  ╰ DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec
+│                       │      │                            7d178d228448d8a4bb0a 
+│                       │      ├ SeveritySource  : nvd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-113351 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:8dd66cc5230fd2ca2ece4b17966af2a2e30076f4c3735fd097714
+│                       │      │                   8a046a15878 
+│                       │      ├ Title           : expat: expat: Denial of Service via improper memory tracking
+│                       │      │                    in XML_ParserReset 
+│                       │      ├ Description     : libexpat 2.7.2 through 2.9.0 contains a denial of service
+│                       │      │                   vulnerability because XML_ParserReset zeroes the direct byte
+│                       │      │                    count but never offsets tracked heap allocations. Attackers
+│                       │      │                    can submit a large XML document so later documents on the
+│                       │      │                   same reset parser fail with XML_ERROR_NO_MEMORY until it is
+│                       │      │                   recreated. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-909 
+│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      │                  ╰ redhat: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-113351 
+│                       │      │                  ├ [1]: https://github.com/libexpat/libexpat 
+│                       │      │                  ├ [2]: https://github.com/libexpat/libexpat/blob/a76b1174c1ea
+│                       │      │                  │      52abb639a4c69d52b630a8a106a2/expat/lib/xmlparse.c#L156
+│                       │      │                  │      0 
+│                       │      │                  ├ [3]: https://github.com/libexpat/libexpat/blob/a76b1174c1ea
+│                       │      │                  │      52abb639a4c69d52b630a8a106a2/expat/lib/xmlparse.c#L860
+│                       │      │                  │      -L884 
+│                       │      │                  ├ [4]: https://github.com/libexpat/libexpat/pull/1431 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-113351 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2026-113351 
+│                       │      │                  ╰ [7]: https://www.vulncheck.com/advisories/libexpat-2.7.2-th
+│                       │      │                         rough-2.9.0-denial-of-service-via-xml-parserreset 
+│                       │      ├ PublishedDate   : 2026-10-20T11:17:19.363Z 
+│                       │      ╰ LastModifiedDate: 2026-11-03T21:26:47.25Z 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2026-117610 
+│                       │      ├ PkgID           : libexpat@2.9.0-r0 
+│                       │      ├ PkgName         : libexpat 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.9.0-r0?arch=x86_64&distro=3
+│                       │      │                  │       .25.0_alpha20260805 
+│                       │      │                  ╰ UID : f82f4662e57daf87 
+│                       │      ├ InstalledVersion: 2.9.0-r0 
+│                       │      ├ FixedVersion    : 2.10.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a44
+│                       │      │                  │         89095da1010f5b0ac28f 
+│                       │      │                  ╰ DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec
+│                       │      │                            7d178d228448d8a4bb0a 
+│                       │      ├ SeveritySource  : nvd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-117610 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:45d1861a2d24a1afb91697d758c1a21212fde659f8bdbbb8ccfb2
+│                       │      │                   50b71a6e086 
+│                       │      ├ Title           : libexpat through 2.9.0 contains a NULL pointer dereference
+│                       │      │                   vulnerabili ... 
+│                       │      ├ Description     : libexpat through 2.9.0 contains a NULL pointer dereference
+│                       │      │                   vulnerability in externalEntityInitProcessor2() in
+│                       │      │                   lib/xmlparse.c that mishandles the XML_TOK_NONE token from
+│                       │      │                   empty input. Attackers who control stream chunking can force
+│                       │      │                    an empty non-final first parse on an external entity
+│                       │      │                   subparser, causing a later parse to crash the application.[
+│                       │      │                   m 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-476 
+│                       │      ├ VendorSeverity   ─ nvd: 3 
+│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+│                       │      │                        ╰ V3Score : 7.5 
+│                       │      ├ References       ╭ [0]: https://github.com/libexpat/libexpat 
+│                       │      │                  ├ [1]: https://github.com/libexpat/libexpat/blob/a76b1174c1ea
+│                       │      │                  │      52abb639a4c69d52b630a8a106a2/expat/lib/xmlparse.c#L346
+│                       │      │                  │      8-L3510 
+│                       │      │                  ├ [2]: https://github.com/libexpat/libexpat/commit/7b0d50e4b1
+│                       │      │                  │      d16fafd55876260701e04279a7489d 
+│                       │      │                  ├ [3]: https://github.com/libexpat/libexpat/pull/1444 
+│                       │      │                  ╰ [4]: https://www.vulncheck.com/advisories/libexpat-through-
+│                       │      │                         2.9.0-null-pointer-dereference-via-external-entity-sub
+│                       │      │                         parser 
+│                       │      ├ PublishedDate   : 2026-10-28T03:17:12.777Z 
+│                       │      ╰ LastModifiedDate: 2026-11-02T15:37:20.433Z 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2026-118370 
+│                       │      ├ PkgID           : libexpat@2.9.0-r0 
+│                       │      ├ PkgName         : libexpat 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.9.0-r0?arch=x86_64&distro=3
+│                       │      │                  │       .25.0_alpha20260805 
+│                       │      │                  ╰ UID : f82f4662e57daf87 
+│                       │      ├ InstalledVersion: 2.9.0-r0 
+│                       │      ├ FixedVersion    : 2.10.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a44
+│                       │      │                  │         89095da1010f5b0ac28f 
+│                       │      │                  ╰ DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec
+│                       │      │                            7d178d228448d8a4bb0a 
+│                       │      ├ SeveritySource  : nvd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-118370 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:f89fc1a093b3adaae663a4489f3019e4f977411072591098b2704
+│                       │      │                   f574adeeda4 
+│                       │      ├ Title           : libexpat through 2.9.0 contains a signed integer overflow
+│                       │      │                   vulnerabilit ... 
+│                       │      ├ Description     : libexpat through 2.9.0 contains a signed integer overflow
+│                       │      │                   vulnerability in storeAtts() in lib/xmlparse.c that allows
+│                       │      │                   attackers to trigger out-of-bounds writes via oversized
+│                       │      │                   attribute counts. Attackers can supply a multi-gigabyte
+│                       │      │                   document with a start tag carrying over 2^30 attributes to
+│                       │      │                   overflow attIndex and nPrefixes, crashing applications or
+│                       │      │                   corrupting heap memory. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-190 
+│                       │      ├ VendorSeverity   ─ nvd: 3 
+│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H 
+│                       │      │                        ╰ V3Score : 8.2 
+│                       │      ├ References       ╭ [0]: https://github.com/libexpat/libexpat 
+│                       │      │                  ├ [1]: https://github.com/libexpat/libexpat/blob/a76b1174c1ea
+│                       │      │                  │      52abb639a4c69d52b630a8a106a2/expat/lib/xmlparse.c#L413
+│                       │      │                  │      8-L4140 
+│                       │      │                  ├ [2]: https://github.com/libexpat/libexpat/commit/1bac53c4fc
+│                       │      │                  │      460a03cd9860f39501c7979f6750ae 
+│                       │      │                  ├ [3]: https://github.com/libexpat/libexpat/commit/621cb2c78b
+│                       │      │                  │      253ee023a86bc91d6ddb048481c04c 
+│                       │      │                  ├ [4]: https://github.com/libexpat/libexpat/pull/1450 
+│                       │      │                  ╰ [5]: https://www.vulncheck.com/advisories/libexpat-through-
+│                       │      │                         2.9.0-integer-overflow-in-storeatts-via-attindex-and-n
+│                       │      │                         prefixes 
+│                       │      ├ PublishedDate   : 2026-10-28T03:17:13.293Z 
+│                       │      ╰ LastModifiedDate: 2026-11-02T20:17:37.377Z 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2026-115506 
+│                       │      ├ PkgID           : libexpat@2.9.0-r0 
+│                       │      ├ PkgName         : libexpat 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.9.0-r0?arch=x86_64&distro=3
+│                       │      │                  │       .25.0_alpha20260805 
+│                       │      │                  ╰ UID : f82f4662e57daf87 
+│                       │      ├ InstalledVersion: 2.9.0-r0 
+│                       │      ├ FixedVersion    : 2.10.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a44
+│                       │      │                  │         89095da1010f5b0ac28f 
+│                       │      │                  ╰ DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec
+│                       │      │                            7d178d228448d8a4bb0a 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-115506 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:95c81d8fc8e07830fe7b41903ae6951ef922014663af25763eea7
+│                       │      │                   1a42a87359e 
+│                       │      ├ Title           : libexpat through 2.9.0 contains a denial of service
+│                       │      │                   vulnerability beca ... 
+│                       │      ├ Description     : libexpat through 2.9.0 contains a denial of service
+│                       │      │                   vulnerability because billion laughs protection in
+│                       │      │                   accountingDiffTolerated() in xmlparse.c detects entity
+│                       │      │                   amplification too late. Attackers can supply a moderately
+│                       │      │                   sized XML document with a large DTD and nested entity
+│                       │      │                   expansions to consume tens of seconds of CPU per parse. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-776 
+│                       │      ├ References       ╭ [0]: https://github.com/hannob/lololol 
+│                       │      │                  ├ [1]: https://github.com/libexpat/libexpat 
+│                       │      │                  ├ [2]: https://github.com/libexpat/libexpat/issues/1160 
+│                       │      │                  ├ [3]: https://github.com/libexpat/libexpat/pull/1433 
+│                       │      │                  ╰ [4]: https://www.vulncheck.com/advisories/libexpat-through-
+│                       │      │                         2.9.0-denial-of-service-via-billion-laughs-detection-d
+│                       │      │                         elay 
+│                       │      ├ PublishedDate   : 2026-10-22T20:17:06.62Z 
+│                       │      ╰ LastModifiedDate: 2026-11-02T18:27:06.127Z 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2026-114583 
 │                       │      ├ PkgID           : pyc@3.14.8-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.8-r0?arch=x86_64&distro=3.25.
@@ -62,7 +247,7 @@
 │                       │      │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
 │                       │      ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
 │                       │      ╰ LastModifiedDate: 2026-11-02T13:17:35.597Z 
-│                       ├ [1]  ╭ VulnerabilityID : CVE-2026-115557 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-115557 
 │                       │      ├ PkgID           : pyc@3.14.8-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.8-r0?arch=x86_64&distro=3.25.
@@ -132,7 +317,7 @@
 │                       │      │                  ╰ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-115557 
 │                       │      ├ PublishedDate   : 2026-10-24T15:17:33.6Z 
 │                       │      ╰ LastModifiedDate: 2026-11-02T15:17:15Z 
-│                       ├ [2]  ╭ VulnerabilityID : CVE-2026-12345 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-12345 
 │                       │      ├ PkgID           : pyc@3.14.8-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.14.8-r0?arch=x86_64&distro=3.25.
@@ -217,7 +402,7 @@
 │                       │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2026-12345 
 │                       │      ├ PublishedDate   : 2026-09-29T18:17:14.707Z 
 │                       │      ╰ LastModifiedDate: 2026-10-26T01:17:15.94Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2026-114583 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-114583 
 │                       │      ├ PkgID           : python3@3.14.8-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.8-r0?arch=x86_64&distro=3
@@ -276,7 +461,7 @@
 │                       │      │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
 │                       │      ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
 │                       │      ╰ LastModifiedDate: 2026-11-02T13:17:35.597Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2026-115557 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-115557 
 │                       │      ├ PkgID           : python3@3.14.8-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.8-r0?arch=x86_64&distro=3
@@ -346,7 +531,7 @@
 │                       │      │                  ╰ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-115557 
 │                       │      ├ PublishedDate   : 2026-10-24T15:17:33.6Z 
 │                       │      ╰ LastModifiedDate: 2026-11-02T15:17:15Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-12345 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-12345 
 │                       │      ├ PkgID           : python3@3.14.8-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.14.8-r0?arch=x86_64&distro=3
@@ -431,7 +616,7 @@
 │                       │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2026-12345 
 │                       │      ├ PublishedDate   : 2026-09-29T18:17:14.707Z 
 │                       │      ╰ LastModifiedDate: 2026-10-26T01:17:15.94Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-114583 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2026-114583 
 │                       │      ├ PkgID           : python3-pyc@3.14.8-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.8-r0?arch=x86_64&dist
@@ -490,7 +675,7 @@
 │                       │      │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
 │                       │      ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
 │                       │      ╰ LastModifiedDate: 2026-11-02T13:17:35.597Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-115557 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2026-115557 
 │                       │      ├ PkgID           : python3-pyc@3.14.8-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.8-r0?arch=x86_64&dist
@@ -560,7 +745,7 @@
 │                       │      │                  ╰ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-115557 
 │                       │      ├ PublishedDate   : 2026-10-24T15:17:33.6Z 
 │                       │      ╰ LastModifiedDate: 2026-11-02T15:17:15Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-12345 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2026-12345 
 │                       │      ├ PkgID           : python3-pyc@3.14.8-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.14.8-r0?arch=x86_64&dist
@@ -645,7 +830,7 @@
 │                       │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2026-12345 
 │                       │      ├ PublishedDate   : 2026-09-29T18:17:14.707Z 
 │                       │      ╰ LastModifiedDate: 2026-10-26T01:17:15.94Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-114583 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2026-114583 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.14.8-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.8-r0?arch=x8
@@ -704,7 +889,7 @@
 │                       │      │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
 │                       │      ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
 │                       │      ╰ LastModifiedDate: 2026-11-02T13:17:35.597Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2026-115557 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2026-115557 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.14.8-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.8-r0?arch=x8
@@ -774,7 +959,7 @@
 │                       │      │                  ╰ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-115557 
 │                       │      ├ PublishedDate   : 2026-10-24T15:17:33.6Z 
 │                       │      ╰ LastModifiedDate: 2026-11-02T15:17:15Z 
-│                       ╰ [11] ╭ VulnerabilityID : CVE-2026-12345 
+│                       ╰ [15] ╭ VulnerabilityID : CVE-2026-12345 
 │                              ├ PkgID           : python3-pycache-pyc0@3.14.8-r0 
 │                              ├ PkgName         : python3-pycache-pyc0 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.14.8-r0?arch=x8
