@@ -76,8 +76,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:45d1861a2d24a1afb91697d758c1a21212fde659f8bdbbb8ccfb2
 │                       │      │                   50b71a6e086 
-│                       │      ├ Title           : libexpat through 2.9.0 contains a NULL pointer dereference
-│                       │      │                   vulnerabili ... 
+│                       │      ├ Title           : expat: expat: Denial of Service via NULL pointer dereference
+│                       │      │                    in external entity parsing 
 │                       │      ├ Description     : libexpat through 2.9.0 contains a NULL pointer dereference
 │                       │      │                   vulnerability in externalEntityInitProcessor2() in
 │                       │      │                   lib/xmlparse.c that mishandles the XML_TOK_NONE token from
@@ -87,21 +87,29 @@
 │                       │      │                   m 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ─ nvd: 3 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
-│                       │      │                        ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0]: https://github.com/libexpat/libexpat 
-│                       │      │                  ├ [1]: https://github.com/libexpat/libexpat/blob/a76b1174c1ea
+│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      │                  ╰ redhat: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-117610 
+│                       │      │                  ├ [1]: https://github.com/libexpat/libexpat 
+│                       │      │                  ├ [2]: https://github.com/libexpat/libexpat/blob/a76b1174c1ea
 │                       │      │                  │      52abb639a4c69d52b630a8a106a2/expat/lib/xmlparse.c#L346
 │                       │      │                  │      8-L3510 
-│                       │      │                  ├ [2]: https://github.com/libexpat/libexpat/commit/7b0d50e4b1
+│                       │      │                  ├ [3]: https://github.com/libexpat/libexpat/commit/7b0d50e4b1
 │                       │      │                  │      d16fafd55876260701e04279a7489d 
-│                       │      │                  ├ [3]: https://github.com/libexpat/libexpat/pull/1444 
-│                       │      │                  ╰ [4]: https://www.vulncheck.com/advisories/libexpat-through-
+│                       │      │                  ├ [4]: https://github.com/libexpat/libexpat/pull/1444 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-117610 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2026-117610 
+│                       │      │                  ╰ [7]: https://www.vulncheck.com/advisories/libexpat-through-
 │                       │      │                         2.9.0-null-pointer-dereference-via-external-entity-sub
 │                       │      │                         parser 
 │                       │      ├ PublishedDate   : 2026-10-28T03:17:12.777Z 
-│                       │      ╰ LastModifiedDate: 2026-11-02T15:37:20.433Z 
+│                       │      ╰ LastModifiedDate: 2026-11-05T16:17:35.787Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2026-118370 
 │                       │      ├ PkgID           : libexpat@2.9.0-r0 
 │                       │      ├ PkgName         : libexpat 
@@ -122,8 +130,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:f89fc1a093b3adaae663a4489f3019e4f977411072591098b2704
 │                       │      │                   f574adeeda4 
-│                       │      ├ Title           : libexpat through 2.9.0 contains a signed integer overflow
-│                       │      │                   vulnerabilit ... 
+│                       │      ├ Title           : expat: expat: Denial of Service via integer overflow during
+│                       │      │                   XML attribute parsing 
 │                       │      ├ Description     : libexpat through 2.9.0 contains a signed integer overflow
 │                       │      │                   vulnerability in storeAtts() in lib/xmlparse.c that allows
 │                       │      │                   attackers to trigger out-of-bounds writes via oversized
@@ -133,19 +141,27 @@
 │                       │      │                   corrupting heap memory. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-190 
-│                       │      ├ VendorSeverity   ─ nvd: 3 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H 
-│                       │      │                        ╰ V3Score : 8.2 
-│                       │      ├ References       ╭ [0]: https://github.com/libexpat/libexpat 
-│                       │      │                  ├ [1]: https://github.com/libexpat/libexpat/blob/a76b1174c1ea
+│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      │                  ╰ redhat: 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 8.2 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-118370 
+│                       │      │                  ├ [1]: https://github.com/libexpat/libexpat 
+│                       │      │                  ├ [2]: https://github.com/libexpat/libexpat/blob/a76b1174c1ea
 │                       │      │                  │      52abb639a4c69d52b630a8a106a2/expat/lib/xmlparse.c#L413
 │                       │      │                  │      8-L4140 
-│                       │      │                  ├ [2]: https://github.com/libexpat/libexpat/commit/1bac53c4fc
+│                       │      │                  ├ [3]: https://github.com/libexpat/libexpat/commit/1bac53c4fc
 │                       │      │                  │      460a03cd9860f39501c7979f6750ae 
-│                       │      │                  ├ [3]: https://github.com/libexpat/libexpat/commit/621cb2c78b
+│                       │      │                  ├ [4]: https://github.com/libexpat/libexpat/commit/621cb2c78b
 │                       │      │                  │      253ee023a86bc91d6ddb048481c04c 
-│                       │      │                  ├ [4]: https://github.com/libexpat/libexpat/pull/1450 
-│                       │      │                  ╰ [5]: https://www.vulncheck.com/advisories/libexpat-through-
+│                       │      │                  ├ [5]: https://github.com/libexpat/libexpat/pull/1450 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-118370 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2026-118370 
+│                       │      │                  ╰ [8]: https://www.vulncheck.com/advisories/libexpat-through-
 │                       │      │                         2.9.0-integer-overflow-in-storeatts-via-attindex-and-n
 │                       │      │                         prefixes 
 │                       │      ├ PublishedDate   : 2026-10-28T03:17:13.293Z 
@@ -207,8 +223,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:96df405d66876065b3c5a865d80aca13aea402a9ce56a8aa7665a
 │                       │      │                   4a005d7bd7a 
-│                       │      ├ Title           : tarfile.tar_filter could be bypassed using crafted link
-│                       │      │                   entries, inclu ... 
+│                       │      ├ Title           : python: python: Arbitrary file write via tarfile extraction
+│                       │      │                   filter bypass 
 │                       │      ├ Description     : tarfile.tar_filter could be bypassed using crafted link
 │                       │      │                   entries, including symlinks with empty or directory-like
 │                       │      │                   names, to redirect later archive members outside the
@@ -223,28 +239,34 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-22 
 │                       │      ├ VendorSeverity   ╭ amazon : 2 
 │                       │      │                  ├ azure  : 2 
-│                       │      │                  ╰ bitnami: 2 
-│                       │      ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N
-│                       │      │                            │            /VI:H/VA:N/SC:N/SI:N/SA:N 
-│                       │      │                            ╰ V40Score : 6.9 
-│                       │      ├ References       ╭ [0]: https://github.com/python/cpython/commit/04d8fca7da2cf
-│                       │      │                  │      3ebc0881fec8a53a1330c3b665d 
-│                       │      │                  ├ [1]: https://github.com/python/cpython/commit/0901ad4ffb226
-│                       │      │                  │      05f12b705d1c1197f0a01f0ba0b 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/bc93f8ad4c4a0
-│                       │      │                  │      f92d184ec8fccc8ff8a651dcec2 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/c6ada40177436
-│                       │      │                  │      e4e2533a7b252082b5f0c043477 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/commit/e7e0b3523ad6b
-│                       │      │                  │      a8472873dda594cf4021a16f8b5 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/commit/f4401da82e2ba
-│                       │      │                  │      ec5dab06cf070fbca77d53220f0 
-│                       │      │                  ├ [6]: https://github.com/python/cpython/issues/160097 
-│                       │      │                  ├ [7]: https://github.com/python/cpython/pull/160098 
-│                       │      │                  ├ [8]: https://mail.python.org/archives/list/security-announc
-│                       │      │                  │      e@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
-│                       │      │                  │      [m 
-│                       │      │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
+│                       │      │                  ├ bitnami: 2 
+│                       │      │                  ╰ redhat : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N
+│                       │      │                  │         │            /VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │      │                  │         ╰ V40Score : 6.9 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                            │           H/A:N 
+│                       │      │                            ╰ V3Score : 6.2 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-114583 
+│                       │      │                  ├ [1] : https://github.com/python/cpython/commit/04d8fca7da2c
+│                       │      │                  │       f3ebc0881fec8a53a1330c3b665d 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/0901ad4ffb22
+│                       │      │                  │       605f12b705d1c1197f0a01f0ba0b 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/bc93f8ad4c4a
+│                       │      │                  │       0f92d184ec8fccc8ff8a651dcec2 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/c6ada4017743
+│                       │      │                  │       6e4e2533a7b252082b5f0c043477 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/e7e0b3523ad6
+│                       │      │                  │       ba8472873dda594cf4021a16f8b5 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/f4401da82e2b
+│                       │      │                  │       aec5dab06cf070fbca77d53220f0 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/issues/160097 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/pull/160098 
+│                       │      │                  ├ [9] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK
+│                       │      │                  │       / 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2026-114583 
 │                       │      ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
 │                       │      ╰ LastModifiedDate: 2026-11-02T13:17:35.597Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2026-115557 
@@ -266,8 +288,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:c39a9610f6711443f5861b59644b175bd2b184436d1f5a9db5667
 │                       │      │                   70c757e7bcd 
-│                       │      ├ Title           : Python has added a denylist for known compromised
-│                       │      │                   certificates to the  ... 
+│                       │      ├ Title           : python: Distrust compromised eMudhra intermediate
+│                       │      │                   certificates in Python ssl module 
 │                       │      ├ Description     : Python has added a denylist for known compromised
 │                       │      │                   certificates to the "ssl" module to ensure user safety even
 │                       │      │                   without certificate revocation configured. Known compromised
@@ -277,44 +299,50 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-299 
 │                       │      ├ VendorSeverity   ╭ amazon : 2 
 │                       │      │                  ├ azure  : 4 
-│                       │      │                  ╰ bitnami: 4 
-│                       │      ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H
-│                       │      │                            │            /VI:H/VA:H/SC:H/SI:H/SA:H 
-│                       │      │                            ╰ V40Score : 9.4 
+│                       │      │                  ├ bitnami: 4 
+│                       │      │                  ╰ redhat : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H
+│                       │      │                  │         │            /VI:H/VA:H/SC:H/SI:H/SA:H 
+│                       │      │                  │         ╰ V40Score : 9.4 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
+│                       │      │                            │           H/A:N 
+│                       │      │                            ╰ V3Score : 6.8 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/10/20
 │                       │      │                  │       /29 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2026/10/24/5 
-│                       │      │                  ├ [2] : https://emudhra.we-have-a-problem.com/ 
-│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/21a50891ab4b
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-115557 
+│                       │      │                  ├ [3] : https://emudhra.we-have-a-problem.com/ 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/21a50891ab4b
 │                       │      │                  │       e2e9955239e625ae2b40c6b1854d 
-│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/36cd295f32fc
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/36cd295f32fc
 │                       │      │                  │       9ba19399e01abee91231440a41dd 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/48d9b2712cd5
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/48d9b2712cd5
 │                       │      │                  │       2206c7a5882d0fdca4863ed65e93 
-│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/7dd8b4736a14
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/7dd8b4736a14
 │                       │      │                  │       19750b94a388e6d158be15836fe6 
-│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/98f0e4ed349f
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/98f0e4ed349f
 │                       │      │                  │       370dc8a00366da1a9797e11c9ed5 
-│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/a17d9ef54900
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/a17d9ef54900
 │                       │      │                  │       8133eadf20689b1f4787902efe5b 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/af52b41afa43
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/af52b41afa43
 │                       │      │                  │       30fb38583db553631baa2f122f90 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/c7fd7edf7e0d
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/c7fd7edf7e0d
 │                       │      │                  │       122a3973cf676fae21b6aaa650a8 
-│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/e2a9dd97ef95
+│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/e2a9dd97ef95
 │                       │      │                  │       71c710ac0afaa834c8879aebce78 
-│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/e4500d8a437e
+│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/e4500d8a437e
 │                       │      │                  │       e5b988a5410cb9b59d177aa01370 
-│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/e4f63e65a93c
+│                       │      │                  ├ [14]: https://github.com/python/cpython/commit/e4f63e65a93c
 │                       │      │                  │       f44c14274aa987e644b8c003625e 
-│                       │      │                  ├ [14]: https://github.com/python/cpython/commit/e9bf2cf84eeb
+│                       │      │                  ├ [15]: https://github.com/python/cpython/commit/e9bf2cf84eeb
 │                       │      │                  │       f838a1edaa1c648c2b36345b99d3 
-│                       │      │                  ├ [15]: https://github.com/python/cpython/issues/160040 
-│                       │      │                  ├ [16]: https://github.com/python/cpython/pull/160042 
-│                       │      │                  ├ [17]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [16]: https://github.com/python/cpython/issues/160040 
+│                       │      │                  ├ [17]: https://github.com/python/cpython/pull/160042 
+│                       │      │                  ├ [18]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/FNAJMZV6XQYLVPABNINDMF3VF66AYLW4
 │                       │      │                  │       / 
-│                       │      │                  ╰ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-115557 
+│                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2026-115557 
+│                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2026-115557 
 │                       │      ├ PublishedDate   : 2026-10-24T15:17:33.6Z 
 │                       │      ╰ LastModifiedDate: 2026-11-02T15:17:15Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2026-12345 
@@ -421,8 +449,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:e582948bef7c8833ac2fcf41b58f03596006201ce516f364f6655
 │                       │      │                   e864f140840 
-│                       │      ├ Title           : tarfile.tar_filter could be bypassed using crafted link
-│                       │      │                   entries, inclu ... 
+│                       │      ├ Title           : python: python: Arbitrary file write via tarfile extraction
+│                       │      │                   filter bypass 
 │                       │      ├ Description     : tarfile.tar_filter could be bypassed using crafted link
 │                       │      │                   entries, including symlinks with empty or directory-like
 │                       │      │                   names, to redirect later archive members outside the
@@ -437,28 +465,34 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-22 
 │                       │      ├ VendorSeverity   ╭ amazon : 2 
 │                       │      │                  ├ azure  : 2 
-│                       │      │                  ╰ bitnami: 2 
-│                       │      ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N
-│                       │      │                            │            /VI:H/VA:N/SC:N/SI:N/SA:N 
-│                       │      │                            ╰ V40Score : 6.9 
-│                       │      ├ References       ╭ [0]: https://github.com/python/cpython/commit/04d8fca7da2cf
-│                       │      │                  │      3ebc0881fec8a53a1330c3b665d 
-│                       │      │                  ├ [1]: https://github.com/python/cpython/commit/0901ad4ffb226
-│                       │      │                  │      05f12b705d1c1197f0a01f0ba0b 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/bc93f8ad4c4a0
-│                       │      │                  │      f92d184ec8fccc8ff8a651dcec2 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/c6ada40177436
-│                       │      │                  │      e4e2533a7b252082b5f0c043477 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/commit/e7e0b3523ad6b
-│                       │      │                  │      a8472873dda594cf4021a16f8b5 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/commit/f4401da82e2ba
-│                       │      │                  │      ec5dab06cf070fbca77d53220f0 
-│                       │      │                  ├ [6]: https://github.com/python/cpython/issues/160097 
-│                       │      │                  ├ [7]: https://github.com/python/cpython/pull/160098 
-│                       │      │                  ├ [8]: https://mail.python.org/archives/list/security-announc
-│                       │      │                  │      e@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
-│                       │      │                  │      [m 
-│                       │      │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
+│                       │      │                  ├ bitnami: 2 
+│                       │      │                  ╰ redhat : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N
+│                       │      │                  │         │            /VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │      │                  │         ╰ V40Score : 6.9 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                            │           H/A:N 
+│                       │      │                            ╰ V3Score : 6.2 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-114583 
+│                       │      │                  ├ [1] : https://github.com/python/cpython/commit/04d8fca7da2c
+│                       │      │                  │       f3ebc0881fec8a53a1330c3b665d 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/0901ad4ffb22
+│                       │      │                  │       605f12b705d1c1197f0a01f0ba0b 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/bc93f8ad4c4a
+│                       │      │                  │       0f92d184ec8fccc8ff8a651dcec2 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/c6ada4017743
+│                       │      │                  │       6e4e2533a7b252082b5f0c043477 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/e7e0b3523ad6
+│                       │      │                  │       ba8472873dda594cf4021a16f8b5 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/f4401da82e2b
+│                       │      │                  │       aec5dab06cf070fbca77d53220f0 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/issues/160097 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/pull/160098 
+│                       │      │                  ├ [9] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK
+│                       │      │                  │       / 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2026-114583 
 │                       │      ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
 │                       │      ╰ LastModifiedDate: 2026-11-02T13:17:35.597Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2026-115557 
@@ -480,8 +514,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:eec9311133ffe1c0d418586845d434ccc2b88e48b7d8c38b71445
 │                       │      │                   5aeb54e313e 
-│                       │      ├ Title           : Python has added a denylist for known compromised
-│                       │      │                   certificates to the  ... 
+│                       │      ├ Title           : python: Distrust compromised eMudhra intermediate
+│                       │      │                   certificates in Python ssl module 
 │                       │      ├ Description     : Python has added a denylist for known compromised
 │                       │      │                   certificates to the "ssl" module to ensure user safety even
 │                       │      │                   without certificate revocation configured. Known compromised
@@ -491,44 +525,50 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-299 
 │                       │      ├ VendorSeverity   ╭ amazon : 2 
 │                       │      │                  ├ azure  : 4 
-│                       │      │                  ╰ bitnami: 4 
-│                       │      ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H
-│                       │      │                            │            /VI:H/VA:H/SC:H/SI:H/SA:H 
-│                       │      │                            ╰ V40Score : 9.4 
+│                       │      │                  ├ bitnami: 4 
+│                       │      │                  ╰ redhat : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H
+│                       │      │                  │         │            /VI:H/VA:H/SC:H/SI:H/SA:H 
+│                       │      │                  │         ╰ V40Score : 9.4 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
+│                       │      │                            │           H/A:N 
+│                       │      │                            ╰ V3Score : 6.8 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/10/20
 │                       │      │                  │       /29 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2026/10/24/5 
-│                       │      │                  ├ [2] : https://emudhra.we-have-a-problem.com/ 
-│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/21a50891ab4b
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-115557 
+│                       │      │                  ├ [3] : https://emudhra.we-have-a-problem.com/ 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/21a50891ab4b
 │                       │      │                  │       e2e9955239e625ae2b40c6b1854d 
-│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/36cd295f32fc
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/36cd295f32fc
 │                       │      │                  │       9ba19399e01abee91231440a41dd 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/48d9b2712cd5
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/48d9b2712cd5
 │                       │      │                  │       2206c7a5882d0fdca4863ed65e93 
-│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/7dd8b4736a14
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/7dd8b4736a14
 │                       │      │                  │       19750b94a388e6d158be15836fe6 
-│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/98f0e4ed349f
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/98f0e4ed349f
 │                       │      │                  │       370dc8a00366da1a9797e11c9ed5 
-│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/a17d9ef54900
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/a17d9ef54900
 │                       │      │                  │       8133eadf20689b1f4787902efe5b 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/af52b41afa43
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/af52b41afa43
 │                       │      │                  │       30fb38583db553631baa2f122f90 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/c7fd7edf7e0d
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/c7fd7edf7e0d
 │                       │      │                  │       122a3973cf676fae21b6aaa650a8 
-│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/e2a9dd97ef95
+│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/e2a9dd97ef95
 │                       │      │                  │       71c710ac0afaa834c8879aebce78 
-│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/e4500d8a437e
+│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/e4500d8a437e
 │                       │      │                  │       e5b988a5410cb9b59d177aa01370 
-│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/e4f63e65a93c
+│                       │      │                  ├ [14]: https://github.com/python/cpython/commit/e4f63e65a93c
 │                       │      │                  │       f44c14274aa987e644b8c003625e 
-│                       │      │                  ├ [14]: https://github.com/python/cpython/commit/e9bf2cf84eeb
+│                       │      │                  ├ [15]: https://github.com/python/cpython/commit/e9bf2cf84eeb
 │                       │      │                  │       f838a1edaa1c648c2b36345b99d3 
-│                       │      │                  ├ [15]: https://github.com/python/cpython/issues/160040 
-│                       │      │                  ├ [16]: https://github.com/python/cpython/pull/160042 
-│                       │      │                  ├ [17]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [16]: https://github.com/python/cpython/issues/160040 
+│                       │      │                  ├ [17]: https://github.com/python/cpython/pull/160042 
+│                       │      │                  ├ [18]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/FNAJMZV6XQYLVPABNINDMF3VF66AYLW4
 │                       │      │                  │       / 
-│                       │      │                  ╰ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-115557 
+│                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2026-115557 
+│                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2026-115557 
 │                       │      ├ PublishedDate   : 2026-10-24T15:17:33.6Z 
 │                       │      ╰ LastModifiedDate: 2026-11-02T15:17:15Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2026-12345 
@@ -635,8 +675,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:d4fcf9d5386707a6b392db7539080e5ef61b01685ae9ddf5536ed
 │                       │      │                   886219393c8 
-│                       │      ├ Title           : tarfile.tar_filter could be bypassed using crafted link
-│                       │      │                   entries, inclu ... 
+│                       │      ├ Title           : python: python: Arbitrary file write via tarfile extraction
+│                       │      │                   filter bypass 
 │                       │      ├ Description     : tarfile.tar_filter could be bypassed using crafted link
 │                       │      │                   entries, including symlinks with empty or directory-like
 │                       │      │                   names, to redirect later archive members outside the
@@ -651,28 +691,34 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-22 
 │                       │      ├ VendorSeverity   ╭ amazon : 2 
 │                       │      │                  ├ azure  : 2 
-│                       │      │                  ╰ bitnami: 2 
-│                       │      ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N
-│                       │      │                            │            /VI:H/VA:N/SC:N/SI:N/SA:N 
-│                       │      │                            ╰ V40Score : 6.9 
-│                       │      ├ References       ╭ [0]: https://github.com/python/cpython/commit/04d8fca7da2cf
-│                       │      │                  │      3ebc0881fec8a53a1330c3b665d 
-│                       │      │                  ├ [1]: https://github.com/python/cpython/commit/0901ad4ffb226
-│                       │      │                  │      05f12b705d1c1197f0a01f0ba0b 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/bc93f8ad4c4a0
-│                       │      │                  │      f92d184ec8fccc8ff8a651dcec2 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/c6ada40177436
-│                       │      │                  │      e4e2533a7b252082b5f0c043477 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/commit/e7e0b3523ad6b
-│                       │      │                  │      a8472873dda594cf4021a16f8b5 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/commit/f4401da82e2ba
-│                       │      │                  │      ec5dab06cf070fbca77d53220f0 
-│                       │      │                  ├ [6]: https://github.com/python/cpython/issues/160097 
-│                       │      │                  ├ [7]: https://github.com/python/cpython/pull/160098 
-│                       │      │                  ├ [8]: https://mail.python.org/archives/list/security-announc
-│                       │      │                  │      e@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
-│                       │      │                  │      [m 
-│                       │      │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
+│                       │      │                  ├ bitnami: 2 
+│                       │      │                  ╰ redhat : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N
+│                       │      │                  │         │            /VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │      │                  │         ╰ V40Score : 6.9 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                            │           H/A:N 
+│                       │      │                            ╰ V3Score : 6.2 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-114583 
+│                       │      │                  ├ [1] : https://github.com/python/cpython/commit/04d8fca7da2c
+│                       │      │                  │       f3ebc0881fec8a53a1330c3b665d 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/0901ad4ffb22
+│                       │      │                  │       605f12b705d1c1197f0a01f0ba0b 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/bc93f8ad4c4a
+│                       │      │                  │       0f92d184ec8fccc8ff8a651dcec2 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/c6ada4017743
+│                       │      │                  │       6e4e2533a7b252082b5f0c043477 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/e7e0b3523ad6
+│                       │      │                  │       ba8472873dda594cf4021a16f8b5 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/f4401da82e2b
+│                       │      │                  │       aec5dab06cf070fbca77d53220f0 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/issues/160097 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/pull/160098 
+│                       │      │                  ├ [9] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK
+│                       │      │                  │       / 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2026-114583 
 │                       │      ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
 │                       │      ╰ LastModifiedDate: 2026-11-02T13:17:35.597Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2026-115557 
@@ -694,8 +740,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:24cf48239c46841ff4d2f98ba1450da94cbb71e17aef054b54f12
 │                       │      │                   80c8af312bc 
-│                       │      ├ Title           : Python has added a denylist for known compromised
-│                       │      │                   certificates to the  ... 
+│                       │      ├ Title           : python: Distrust compromised eMudhra intermediate
+│                       │      │                   certificates in Python ssl module 
 │                       │      ├ Description     : Python has added a denylist for known compromised
 │                       │      │                   certificates to the "ssl" module to ensure user safety even
 │                       │      │                   without certificate revocation configured. Known compromised
@@ -705,44 +751,50 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-299 
 │                       │      ├ VendorSeverity   ╭ amazon : 2 
 │                       │      │                  ├ azure  : 4 
-│                       │      │                  ╰ bitnami: 4 
-│                       │      ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H
-│                       │      │                            │            /VI:H/VA:H/SC:H/SI:H/SA:H 
-│                       │      │                            ╰ V40Score : 9.4 
+│                       │      │                  ├ bitnami: 4 
+│                       │      │                  ╰ redhat : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H
+│                       │      │                  │         │            /VI:H/VA:H/SC:H/SI:H/SA:H 
+│                       │      │                  │         ╰ V40Score : 9.4 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
+│                       │      │                            │           H/A:N 
+│                       │      │                            ╰ V3Score : 6.8 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/10/20
 │                       │      │                  │       /29 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2026/10/24/5 
-│                       │      │                  ├ [2] : https://emudhra.we-have-a-problem.com/ 
-│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/21a50891ab4b
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-115557 
+│                       │      │                  ├ [3] : https://emudhra.we-have-a-problem.com/ 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/21a50891ab4b
 │                       │      │                  │       e2e9955239e625ae2b40c6b1854d 
-│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/36cd295f32fc
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/36cd295f32fc
 │                       │      │                  │       9ba19399e01abee91231440a41dd 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/48d9b2712cd5
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/48d9b2712cd5
 │                       │      │                  │       2206c7a5882d0fdca4863ed65e93 
-│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/7dd8b4736a14
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/7dd8b4736a14
 │                       │      │                  │       19750b94a388e6d158be15836fe6 
-│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/98f0e4ed349f
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/98f0e4ed349f
 │                       │      │                  │       370dc8a00366da1a9797e11c9ed5 
-│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/a17d9ef54900
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/a17d9ef54900
 │                       │      │                  │       8133eadf20689b1f4787902efe5b 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/af52b41afa43
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/af52b41afa43
 │                       │      │                  │       30fb38583db553631baa2f122f90 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/c7fd7edf7e0d
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/c7fd7edf7e0d
 │                       │      │                  │       122a3973cf676fae21b6aaa650a8 
-│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/e2a9dd97ef95
+│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/e2a9dd97ef95
 │                       │      │                  │       71c710ac0afaa834c8879aebce78 
-│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/e4500d8a437e
+│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/e4500d8a437e
 │                       │      │                  │       e5b988a5410cb9b59d177aa01370 
-│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/e4f63e65a93c
+│                       │      │                  ├ [14]: https://github.com/python/cpython/commit/e4f63e65a93c
 │                       │      │                  │       f44c14274aa987e644b8c003625e 
-│                       │      │                  ├ [14]: https://github.com/python/cpython/commit/e9bf2cf84eeb
+│                       │      │                  ├ [15]: https://github.com/python/cpython/commit/e9bf2cf84eeb
 │                       │      │                  │       f838a1edaa1c648c2b36345b99d3 
-│                       │      │                  ├ [15]: https://github.com/python/cpython/issues/160040 
-│                       │      │                  ├ [16]: https://github.com/python/cpython/pull/160042 
-│                       │      │                  ├ [17]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [16]: https://github.com/python/cpython/issues/160040 
+│                       │      │                  ├ [17]: https://github.com/python/cpython/pull/160042 
+│                       │      │                  ├ [18]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/FNAJMZV6XQYLVPABNINDMF3VF66AYLW4
 │                       │      │                  │       / 
-│                       │      │                  ╰ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-115557 
+│                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2026-115557 
+│                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2026-115557 
 │                       │      ├ PublishedDate   : 2026-10-24T15:17:33.6Z 
 │                       │      ╰ LastModifiedDate: 2026-11-02T15:17:15Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2026-12345 
@@ -849,8 +901,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:32fc6f25c9f7d95d6b388a0135ce6b96797fb1b8cf86c227ee1fd
 │                       │      │                   3175aeb7d02 
-│                       │      ├ Title           : tarfile.tar_filter could be bypassed using crafted link
-│                       │      │                   entries, inclu ... 
+│                       │      ├ Title           : python: python: Arbitrary file write via tarfile extraction
+│                       │      │                   filter bypass 
 │                       │      ├ Description     : tarfile.tar_filter could be bypassed using crafted link
 │                       │      │                   entries, including symlinks with empty or directory-like
 │                       │      │                   names, to redirect later archive members outside the
@@ -865,28 +917,34 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-22 
 │                       │      ├ VendorSeverity   ╭ amazon : 2 
 │                       │      │                  ├ azure  : 2 
-│                       │      │                  ╰ bitnami: 2 
-│                       │      ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N
-│                       │      │                            │            /VI:H/VA:N/SC:N/SI:N/SA:N 
-│                       │      │                            ╰ V40Score : 6.9 
-│                       │      ├ References       ╭ [0]: https://github.com/python/cpython/commit/04d8fca7da2cf
-│                       │      │                  │      3ebc0881fec8a53a1330c3b665d 
-│                       │      │                  ├ [1]: https://github.com/python/cpython/commit/0901ad4ffb226
-│                       │      │                  │      05f12b705d1c1197f0a01f0ba0b 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/bc93f8ad4c4a0
-│                       │      │                  │      f92d184ec8fccc8ff8a651dcec2 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/c6ada40177436
-│                       │      │                  │      e4e2533a7b252082b5f0c043477 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/commit/e7e0b3523ad6b
-│                       │      │                  │      a8472873dda594cf4021a16f8b5 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/commit/f4401da82e2ba
-│                       │      │                  │      ec5dab06cf070fbca77d53220f0 
-│                       │      │                  ├ [6]: https://github.com/python/cpython/issues/160097 
-│                       │      │                  ├ [7]: https://github.com/python/cpython/pull/160098 
-│                       │      │                  ├ [8]: https://mail.python.org/archives/list/security-announc
-│                       │      │                  │      e@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
-│                       │      │                  │      [m 
-│                       │      │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
+│                       │      │                  ├ bitnami: 2 
+│                       │      │                  ╰ redhat : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N
+│                       │      │                  │         │            /VI:H/VA:N/SC:N/SI:N/SA:N 
+│                       │      │                  │         ╰ V40Score : 6.9 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                            │           H/A:N 
+│                       │      │                            ╰ V3Score : 6.2 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-114583 
+│                       │      │                  ├ [1] : https://github.com/python/cpython/commit/04d8fca7da2c
+│                       │      │                  │       f3ebc0881fec8a53a1330c3b665d 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/0901ad4ffb22
+│                       │      │                  │       605f12b705d1c1197f0a01f0ba0b 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/bc93f8ad4c4a
+│                       │      │                  │       0f92d184ec8fccc8ff8a651dcec2 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/c6ada4017743
+│                       │      │                  │       6e4e2533a7b252082b5f0c043477 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/e7e0b3523ad6
+│                       │      │                  │       ba8472873dda594cf4021a16f8b5 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/f4401da82e2b
+│                       │      │                  │       aec5dab06cf070fbca77d53220f0 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/issues/160097 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/pull/160098 
+│                       │      │                  ├ [9] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK
+│                       │      │                  │       / 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-114583 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2026-114583 
 │                       │      ├ PublishedDate   : 2026-10-22T21:17:16.543Z 
 │                       │      ╰ LastModifiedDate: 2026-11-02T13:17:35.597Z 
 │                       ├ [14] ╭ VulnerabilityID : CVE-2026-115557 
@@ -908,8 +966,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:43f15b5687d54ed1b3c0e9a3635372c816b949835bfeb20ccf1cb
 │                       │      │                   babffab51c2 
-│                       │      ├ Title           : Python has added a denylist for known compromised
-│                       │      │                   certificates to the  ... 
+│                       │      ├ Title           : python: Distrust compromised eMudhra intermediate
+│                       │      │                   certificates in Python ssl module 
 │                       │      ├ Description     : Python has added a denylist for known compromised
 │                       │      │                   certificates to the "ssl" module to ensure user safety even
 │                       │      │                   without certificate revocation configured. Known compromised
@@ -919,44 +977,50 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-299 
 │                       │      ├ VendorSeverity   ╭ amazon : 2 
 │                       │      │                  ├ azure  : 4 
-│                       │      │                  ╰ bitnami: 4 
-│                       │      ├ CVSS             ─ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H
-│                       │      │                            │            /VI:H/VA:H/SC:H/SI:H/SA:H 
-│                       │      │                            ╰ V40Score : 9.4 
+│                       │      │                  ├ bitnami: 4 
+│                       │      │                  ╰ redhat : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H
+│                       │      │                  │         │            /VI:H/VA:H/SC:H/SI:H/SA:H 
+│                       │      │                  │         ╰ V40Score : 9.4 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
+│                       │      │                            │           H/A:N 
+│                       │      │                            ╰ V3Score : 6.8 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/10/20
 │                       │      │                  │       /29 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2026/10/24/5 
-│                       │      │                  ├ [2] : https://emudhra.we-have-a-problem.com/ 
-│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/21a50891ab4b
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-115557 
+│                       │      │                  ├ [3] : https://emudhra.we-have-a-problem.com/ 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/21a50891ab4b
 │                       │      │                  │       e2e9955239e625ae2b40c6b1854d 
-│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/36cd295f32fc
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/36cd295f32fc
 │                       │      │                  │       9ba19399e01abee91231440a41dd 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/48d9b2712cd5
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/48d9b2712cd5
 │                       │      │                  │       2206c7a5882d0fdca4863ed65e93 
-│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/7dd8b4736a14
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/7dd8b4736a14
 │                       │      │                  │       19750b94a388e6d158be15836fe6 
-│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/98f0e4ed349f
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/98f0e4ed349f
 │                       │      │                  │       370dc8a00366da1a9797e11c9ed5 
-│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/a17d9ef54900
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/a17d9ef54900
 │                       │      │                  │       8133eadf20689b1f4787902efe5b 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/af52b41afa43
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/af52b41afa43
 │                       │      │                  │       30fb38583db553631baa2f122f90 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/c7fd7edf7e0d
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/c7fd7edf7e0d
 │                       │      │                  │       122a3973cf676fae21b6aaa650a8 
-│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/e2a9dd97ef95
+│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/e2a9dd97ef95
 │                       │      │                  │       71c710ac0afaa834c8879aebce78 
-│                       │      │                  ├ [12]: https://github.com/python/cpython/commit/e4500d8a437e
+│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/e4500d8a437e
 │                       │      │                  │       e5b988a5410cb9b59d177aa01370 
-│                       │      │                  ├ [13]: https://github.com/python/cpython/commit/e4f63e65a93c
+│                       │      │                  ├ [14]: https://github.com/python/cpython/commit/e4f63e65a93c
 │                       │      │                  │       f44c14274aa987e644b8c003625e 
-│                       │      │                  ├ [14]: https://github.com/python/cpython/commit/e9bf2cf84eeb
+│                       │      │                  ├ [15]: https://github.com/python/cpython/commit/e9bf2cf84eeb
 │                       │      │                  │       f838a1edaa1c648c2b36345b99d3 
-│                       │      │                  ├ [15]: https://github.com/python/cpython/issues/160040 
-│                       │      │                  ├ [16]: https://github.com/python/cpython/pull/160042 
-│                       │      │                  ├ [17]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [16]: https://github.com/python/cpython/issues/160040 
+│                       │      │                  ├ [17]: https://github.com/python/cpython/pull/160042 
+│                       │      │                  ├ [18]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/FNAJMZV6XQYLVPABNINDMF3VF66AYLW4
 │                       │      │                  │       / 
-│                       │      │                  ╰ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-115557 
+│                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2026-115557 
+│                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2026-115557 
 │                       │      ├ PublishedDate   : 2026-10-24T15:17:33.6Z 
 │                       │      ╰ LastModifiedDate: 2026-11-02T15:17:15Z 
 │                       ╰ [15] ╭ VulnerabilityID : CVE-2026-12345 
