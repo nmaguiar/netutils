@@ -76,8 +76,8 @@
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │     ├ Fingerprint     : sha256:9c8ffbdad1a015d93fdf58c2ffce513ae444bb5c264472ff9aed8f
 │                       │     │                   de6b3ab175 
-│                       │     ├ Title           : libexpat through 2.9.0 contains a NULL pointer dereference
-│                       │     │                   vulnerabili ... 
+│                       │     ├ Title           : expat: expat: Denial of Service via NULL pointer dereference
+│                       │     │                   in external entity parsing 
 │                       │     ├ Description     : libexpat through 2.9.0 contains a NULL pointer dereference
 │                       │     │                   vulnerability in externalEntityInitProcessor2() in
 │                       │     │                   lib/xmlparse.c that mishandles the XML_TOK_NONE token from
@@ -86,21 +86,29 @@
 │                       │     │                   subparser, causing a later parse to crash the application. 
 │                       │     ├ Severity        : HIGH 
 │                       │     ├ CweIDs           ─ [0]: CWE-476 
-│                       │     ├ VendorSeverity   ─ nvd: 3 
-│                       │     ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
-│                       │     │                        ╰ V3Score : 7.5 
-│                       │     ├ References       ╭ [0]: https://github.com/libexpat/libexpat 
-│                       │     │                  ├ [1]: https://github.com/libexpat/libexpat/blob/a76b1174c1ea5
+│                       │     ├ VendorSeverity   ╭ nvd   : 3 
+│                       │     │                  ╰ redhat: 2 
+│                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+│                       │     │                  │        │           A:H 
+│                       │     │                  │        ╰ V3Score : 7.5 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 5.9 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-117610 
+│                       │     │                  ├ [1]: https://github.com/libexpat/libexpat 
+│                       │     │                  ├ [2]: https://github.com/libexpat/libexpat/blob/a76b1174c1ea5
 │                       │     │                  │      2abb639a4c69d52b630a8a106a2/expat/lib/xmlparse.c#L3468-
 │                       │     │                  │      L3510 
-│                       │     │                  ├ [2]: https://github.com/libexpat/libexpat/commit/7b0d50e4b1d
+│                       │     │                  ├ [3]: https://github.com/libexpat/libexpat/commit/7b0d50e4b1d
 │                       │     │                  │      16fafd55876260701e04279a7489d 
-│                       │     │                  ├ [3]: https://github.com/libexpat/libexpat/pull/1444 
-│                       │     │                  ╰ [4]: https://www.vulncheck.com/advisories/libexpat-through-2
+│                       │     │                  ├ [4]: https://github.com/libexpat/libexpat/pull/1444 
+│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-117610 
+│                       │     │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2026-117610 
+│                       │     │                  ╰ [7]: https://www.vulncheck.com/advisories/libexpat-through-2
 │                       │     │                         .9.0-null-pointer-dereference-via-external-entity-subpa
 │                       │     │                         rser 
 │                       │     ├ PublishedDate   : 2026-10-28T03:17:12.777Z 
-│                       │     ╰ LastModifiedDate: 2026-11-02T15:37:20.433Z 
+│                       │     ╰ LastModifiedDate: 2026-11-05T16:17:35.787Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2026-118370 
 │                       │     ├ PkgID           : libexpat@2.9.0-r0 
 │                       │     ├ PkgName         : libexpat 
@@ -121,8 +129,8 @@
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │     ├ Fingerprint     : sha256:c495015d068507aa123e7e90bff698685696bd0dde19cb010302ef
 │                       │     │                   d50cf254da 
-│                       │     ├ Title           : libexpat through 2.9.0 contains a signed integer overflow
-│                       │     │                   vulnerabilit ... 
+│                       │     ├ Title           : expat: expat: Denial of Service via integer overflow during
+│                       │     │                   XML attribute parsing 
 │                       │     ├ Description     : libexpat through 2.9.0 contains a signed integer overflow
 │                       │     │                   vulnerability in storeAtts() in lib/xmlparse.c that allows
 │                       │     │                   attackers to trigger out-of-bounds writes via oversized
@@ -132,19 +140,27 @@
 │                       │     │                   corrupting heap memory. 
 │                       │     ├ Severity        : HIGH 
 │                       │     ├ CweIDs           ─ [0]: CWE-190 
-│                       │     ├ VendorSeverity   ─ nvd: 3 
-│                       │     ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H 
-│                       │     │                        ╰ V3Score : 8.2 
-│                       │     ├ References       ╭ [0]: https://github.com/libexpat/libexpat 
-│                       │     │                  ├ [1]: https://github.com/libexpat/libexpat/blob/a76b1174c1ea5
+│                       │     ├ VendorSeverity   ╭ nvd   : 3 
+│                       │     │                  ╰ redhat: 2 
+│                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/
+│                       │     │                  │        │           A:H 
+│                       │     │                  │        ╰ V3Score : 8.2 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 5.9 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-118370 
+│                       │     │                  ├ [1]: https://github.com/libexpat/libexpat 
+│                       │     │                  ├ [2]: https://github.com/libexpat/libexpat/blob/a76b1174c1ea5
 │                       │     │                  │      2abb639a4c69d52b630a8a106a2/expat/lib/xmlparse.c#L4138-
 │                       │     │                  │      L4140 
-│                       │     │                  ├ [2]: https://github.com/libexpat/libexpat/commit/1bac53c4fc4
+│                       │     │                  ├ [3]: https://github.com/libexpat/libexpat/commit/1bac53c4fc4
 │                       │     │                  │      60a03cd9860f39501c7979f6750ae 
-│                       │     │                  ├ [3]: https://github.com/libexpat/libexpat/commit/621cb2c78b2
+│                       │     │                  ├ [4]: https://github.com/libexpat/libexpat/commit/621cb2c78b2
 │                       │     │                  │      53ee023a86bc91d6ddb048481c04c 
-│                       │     │                  ├ [4]: https://github.com/libexpat/libexpat/pull/1450 
-│                       │     │                  ╰ [5]: https://www.vulncheck.com/advisories/libexpat-through-2
+│                       │     │                  ├ [5]: https://github.com/libexpat/libexpat/pull/1450 
+│                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-118370 
+│                       │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2026-118370 
+│                       │     │                  ╰ [8]: https://www.vulncheck.com/advisories/libexpat-through-2
 │                       │     │                         .9.0-integer-overflow-in-storeatts-via-attindex-and-npr
 │                       │     │                         efixes 
 │                       │     ├ PublishedDate   : 2026-10-28T03:17:13.293Z 
