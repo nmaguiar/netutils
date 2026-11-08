@@ -24,18 +24,18 @@
 │                       │     ├ InstalledVersion: v27.1.1+incompatible 
 │                       │     ├ FixedVersion    : 29.2.0 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:7c64d65e71c8c2f7fbaaad8c9fdfb3b026088d882c473
-│                       │     │                  │         00c221b55417d791d79 
-│                       │     │                  ╰ DiffID: sha256:c1b024c3c98be963e8e36fdaf4a27882e9dcd2f1ed56d
-│                       │     │                            537113cf1ab2d810f31 
+│                       │     ├ Layer            ╭ Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba95474
+│                       │     │                  │         9ec19869d0239e3c4dd 
+│                       │     │                  ╰ DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984
+│                       │     │                            616642eabaa1fc26514 
 │                       │     ├ SeveritySource  : ghsa 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15558 
 │                       │     ├ DataSource       ╭ ID  : ghsa 
 │                       │     │                  ├ Name: GitHub Security Advisory Go 
 │                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
 │                       │     │                          osystem%3Ago 
-│                       │     ├ Fingerprint     : sha256:4254b82cfdb7f6bbb6ce2d529d028dae8217f15e69a9bdc2415e68
-│                       │     │                   0a48055b66 
+│                       │     ├ Fingerprint     : sha256:e5371edddf1fdee5b60effa04292af193f68250eca52733f533e3d
+│                       │     │                   11f6854d32 
 │                       │     ├ Title           : docker/cli: Docker CLI for Windows: Privilege escalation via
 │                       │     │                   malicious plugin binaries 
 │                       │     ├ Description     : Docker CLI for Windows searches for plugin binaries in
@@ -102,18 +102,18 @@
 │                       │     │                  ╰ UID : 19bdebda0d8ffb51 
 │                       │     ├ InstalledVersion: v28.5.2+incompatible 
 │                       │     ├ Status          : affected 
-│                       │     ├ Layer            ╭ Digest: sha256:7c64d65e71c8c2f7fbaaad8c9fdfb3b026088d882c473
-│                       │     │                  │         00c221b55417d791d79 
-│                       │     │                  ╰ DiffID: sha256:c1b024c3c98be963e8e36fdaf4a27882e9dcd2f1ed56d
-│                       │     │                            537113cf1ab2d810f31 
+│                       │     ├ Layer            ╭ Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba95474
+│                       │     │                  │         9ec19869d0239e3c4dd 
+│                       │     │                  ╰ DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984
+│                       │     │                            616642eabaa1fc26514 
 │                       │     ├ SeveritySource  : ghsa 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41567 
 │                       │     ├ DataSource       ╭ ID  : ghsa 
 │                       │     │                  ├ Name: GitHub Security Advisory Go 
 │                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
 │                       │     │                          osystem%3Ago 
-│                       │     ├ Fingerprint     : sha256:81ef0176cdd81b93826c9d85d307112cb5cf3dd859dc4f2ac3820d
-│                       │     │                   f37160b4a6 
+│                       │     ├ Fingerprint     : sha256:aa39e08f0d1f521cf4ba2a0098286efe19658f0652d02dda95eb69
+│                       │     │                   19648615a4 
 │                       │     ├ Title           : docker: Moby/Docker Engine: Arbitrary Code Execution via
 │                       │     │                   malicious container image and compressed archive upload 
 │                       │     ├ Description     : Moby is an open source container framework. In versions prior
@@ -171,18 +171,18 @@
 │                       │     │                  ╰ UID : 19bdebda0d8ffb51 
 │                       │     ├ InstalledVersion: v28.5.2+incompatible 
 │                       │     ├ Status          : affected 
-│                       │     ├ Layer            ╭ Digest: sha256:7c64d65e71c8c2f7fbaaad8c9fdfb3b026088d882c473
-│                       │     │                  │         00c221b55417d791d79 
-│                       │     │                  ╰ DiffID: sha256:c1b024c3c98be963e8e36fdaf4a27882e9dcd2f1ed56d
-│                       │     │                            537113cf1ab2d810f31 
+│                       │     ├ Layer            ╭ Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba95474
+│                       │     │                  │         9ec19869d0239e3c4dd 
+│                       │     │                  ╰ DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984
+│                       │     │                            616642eabaa1fc26514 
 │                       │     ├ SeveritySource  : ghsa 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42306 
 │                       │     ├ DataSource       ╭ ID  : ghsa 
 │                       │     │                  ├ Name: GitHub Security Advisory Go 
 │                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
 │                       │     │                          osystem%3Ago 
-│                       │     ├ Fingerprint     : sha256:1819531a74957793fc11b1e41e5a90a9f719e1f6d7c17a08fbaad4
-│                       │     │                   40857d4bac 
+│                       │     ├ Fingerprint     : sha256:cbbc35bbf62a654fbbfdc110ab99f4a3cecf526dd2506fd0d8db0b
+│                       │     │                   ed06078069 
 │                       │     ├ Title           : github.com/docker/docker: github.com/moby/moby: Moby
 │                       │     │                   container framework: Host file overwrite via race condition
 │                       │     │                   in docker cp mount setup 
@@ -230,18 +230,18 @@
 │                       │     ├ InstalledVersion: v28.5.2+incompatible 
 │                       │     ├ FixedVersion    : 29.3.1 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:7c64d65e71c8c2f7fbaaad8c9fdfb3b026088d882c473
-│                       │     │                  │         00c221b55417d791d79 
-│                       │     │                  ╰ DiffID: sha256:c1b024c3c98be963e8e36fdaf4a27882e9dcd2f1ed56d
-│                       │     │                            537113cf1ab2d810f31 
+│                       │     ├ Layer            ╭ Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba95474
+│                       │     │                  │         9ec19869d0239e3c4dd 
+│                       │     │                  ╰ DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984
+│                       │     │                            616642eabaa1fc26514 
 │                       │     ├ SeveritySource  : ghsa 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33997 
 │                       │     ├ DataSource       ╭ ID  : ghsa 
 │                       │     │                  ├ Name: GitHub Security Advisory Go 
 │                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
 │                       │     │                          osystem%3Ago 
-│                       │     ├ Fingerprint     : sha256:ddc07d063f8e1381f4c46220c18010eb2d21b031ef000d997fb530
-│                       │     │                   2fd39ed621 
+│                       │     ├ Fingerprint     : sha256:52458b3ba1e1d3b6be8ee3454c7aad61dd8084c4a8c35043235674
+│                       │     │                   42450ee744 
 │                       │     ├ Title           : moby: docker: github.com/moby/moby: Moby: Privilege
 │                       │     │                   validation bypass during plugin installation 
 │                       │     ├ Description     : Moby is an open source container framework. Prior to version
@@ -297,18 +297,18 @@
 │                       │     │                  ╰ UID : 19bdebda0d8ffb51 
 │                       │     ├ InstalledVersion: v28.5.2+incompatible 
 │                       │     ├ Status          : affected 
-│                       │     ├ Layer            ╭ Digest: sha256:7c64d65e71c8c2f7fbaaad8c9fdfb3b026088d882c473
-│                       │     │                  │         00c221b55417d791d79 
-│                       │     │                  ╰ DiffID: sha256:c1b024c3c98be963e8e36fdaf4a27882e9dcd2f1ed56d
-│                       │     │                            537113cf1ab2d810f31 
+│                       │     ├ Layer            ╭ Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba95474
+│                       │     │                  │         9ec19869d0239e3c4dd 
+│                       │     │                  ╰ DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984
+│                       │     │                            616642eabaa1fc26514 
 │                       │     ├ SeveritySource  : ghsa 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41568 
 │                       │     ├ DataSource       ╭ ID  : ghsa 
 │                       │     │                  ├ Name: GitHub Security Advisory Go 
 │                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
 │                       │     │                          osystem%3Ago 
-│                       │     ├ Fingerprint     : sha256:cc3e02c8dd27e682dd7fca9aebd1ca487addebe46147007cf56fea
-│                       │     │                   b413b38269 
+│                       │     ├ Fingerprint     : sha256:2591487c1a13095cb6cab4c3f5a12ff7afd5c99583bfc3239f7005
+│                       │     │                   9a6e2925f9 
 │                       │     ├ Title           : github.com/docker/docker: github.com/moby/moby: Moby: Denial
 │                       │     │                   of Service via race condition in docker cp mount setup 
 │                       │     ├ Description     : Moby is an open source container framework. In Docker Engine
@@ -347,16 +347,16 @@
 │                       │     ├ InstalledVersion: v0.24.0 
 │                       │     ├ FixedVersion    : 0.44.0 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:7c64d65e71c8c2f7fbaaad8c9fdfb3b026088d882c473
-│                       │     │                  │         00c221b55417d791d79 
-│                       │     │                  ╰ DiffID: sha256:c1b024c3c98be963e8e36fdaf4a27882e9dcd2f1ed56d
-│                       │     │                            537113cf1ab2d810f31 
+│                       │     ├ Layer            ╭ Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba95474
+│                       │     │                  │         9ec19869d0239e3c4dd 
+│                       │     │                  ╰ DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984
+│                       │     │                            616642eabaa1fc26514 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-39824 
 │                       │     ├ DataSource       ╭ ID  : govulndb 
 │                       │     │                  ├ Name: The Go Vulnerability Database 
 │                       │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                       │     ├ Fingerprint     : sha256:1a658f3680fd9ce011d7da32123fd20ebbdf4549dbb262ee1e3332
-│                       │     │                   eb73c49eae 
+│                       │     ├ Fingerprint     : sha256:2e4ff3426411ad7e70f7928eb6b24c93fb3f297c170b700022c6cd
+│                       │     │                   01e0cb3a3a 
 │                       │     ├ Title           : Invoking integer overflow in NewNTUnicodeString in
 │                       │     │                   golang.org/x/sys/windows 
 │                       │     ├ Description     : NewNTUnicodeString does not check for string length overflow.
@@ -380,16 +380,16 @@
 │                       │     ├ InstalledVersion: v0.16.0 
 │                       │     ├ FixedVersion    : 0.41.0 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:7c64d65e71c8c2f7fbaaad8c9fdfb3b026088d882c473
-│                       │     │                  │         00c221b55417d791d79 
-│                       │     │                  ╰ DiffID: sha256:c1b024c3c98be963e8e36fdaf4a27882e9dcd2f1ed56d
-│                       │     │                            537113cf1ab2d810f31 
+│                       │     ├ Layer            ╭ Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba95474
+│                       │     │                  │         9ec19869d0239e3c4dd 
+│                       │     │                  ╰ DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984
+│                       │     │                            616642eabaa1fc26514 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56851 
 │                       │     ├ DataSource       ╭ ID  : govulndb 
 │                       │     │                  ├ Name: The Go Vulnerability Database 
 │                       │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                       │     ├ Fingerprint     : sha256:8760cb81efc7e0716ec8ca61e4a7fe2d42d832a3c7254e7c0fabbc
-│                       │     │                   6ce43db10f 
+│                       │     ├ Fingerprint     : sha256:b10a7699dd889211f892e82839e0782db8c7932487ae92732a7e96
+│                       │     │                   4d38ef26bf 
 │                       │     ├ Title           : golang.org/x/text: golang.org/x/text: Denial of Service via
 │                       │     │                   out-of-bounds slice error in Nickname profile 
 │                       │     ├ Description     : The Nickname profile can panic with an out-of-bounds slice
@@ -419,16 +419,16 @@
 │                             ├ InstalledVersion: v0.16.0 
 │                             ├ FixedVersion    : 0.39.0 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:7c64d65e71c8c2f7fbaaad8c9fdfb3b026088d882c473
-│                             │                  │         00c221b55417d791d79 
-│                             │                  ╰ DiffID: sha256:c1b024c3c98be963e8e36fdaf4a27882e9dcd2f1ed56d
-│                             │                            537113cf1ab2d810f31 
+│                             ├ Layer            ╭ Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba95474
+│                             │                  │         9ec19869d0239e3c4dd 
+│                             │                  ╰ DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984
+│                             │                            616642eabaa1fc26514 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56852 
 │                             ├ DataSource       ╭ ID  : govulndb 
 │                             │                  ├ Name: The Go Vulnerability Database 
 │                             │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                             ├ Fingerprint     : sha256:6c517b3cbb2846d6cea844151de39c698c2434bb0c82eb63df81a6
-│                             │                   2ed2f3979f 
+│                             ├ Fingerprint     : sha256:080e46c8ad8b6c40ef4436f612cdc300e507b1f9c87d867ba3f7e1
+│                             │                   f0074cdc3e 
 │                             ├ Title           : golang.org/x/text: golang.org/x/text: Denial of Service via
 │                             │                   invalid UTF-8 input 
 │                             ├ Description     : A norm.Iter can enter an infinite loop when handling input
