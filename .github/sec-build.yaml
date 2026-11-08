@@ -27,15 +27,15 @@
     FixedVersion: 29.2.0
     Status: fixed
     Layer:
-      Digest: sha256:7c64d65e71c8c2f7fbaaad8c9fdfb3b026088d882c47300c221b55417d791d79
-      DiffID: sha256:c1b024c3c98be963e8e36fdaf4a27882e9dcd2f1ed56d537113cf1ab2d810f31
+      Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba954749ec19869d0239e3c4dd
+      DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984616642eabaa1fc26514
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15558
     DataSource:
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Fingerprint: sha256:4254b82cfdb7f6bbb6ce2d529d028dae8217f15e69a9bdc2415e680a48055b66
+    Fingerprint: sha256:e5371edddf1fdee5b60effa04292af193f68250eca52733f533e3d11f6854d32
     Title: 'docker/cli: Docker CLI for Windows: Privilege escalation via malicious plugin binaries'
     Description: "Docker CLI for Windows searches for plugin binaries in C:\\ProgramData\\Docker\\cli-plugins, a directory that does not exist by default. A low-privileged attacker can create this directory and place malicious CLI plugin binaries (docker-compose.exe, docker-buildx.exe, etc.) that are executed when a victim user opens Docker Desktop or invokes Docker CLI plugin features, and allow privilege-escalation if the docker\_CLI is executed as a privileged user.\n\nThis issue affects Docker CLI: through 29.1.5 and Windows binaries acting as a CLI-plugin manager using the  github.com/docker/cli/cli-plugins/manager https://pkg.go.dev/github.com/docker/cli@v29.1.5+incompatible/cli-plugins/manager \_package, such as Docker Compose.\n\nThis issue does not impact non-Windows binaries, and projects not using the plugin-manager code."
     Severity: HIGH
@@ -87,15 +87,15 @@
     InstalledVersion: v28.5.2+incompatible
     Status: affected
     Layer:
-      Digest: sha256:7c64d65e71c8c2f7fbaaad8c9fdfb3b026088d882c47300c221b55417d791d79
-      DiffID: sha256:c1b024c3c98be963e8e36fdaf4a27882e9dcd2f1ed56d537113cf1ab2d810f31
+      Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba954749ec19869d0239e3c4dd
+      DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984616642eabaa1fc26514
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-41567
     DataSource:
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Fingerprint: sha256:81ef0176cdd81b93826c9d85d307112cb5cf3dd859dc4f2ac3820df37160b4a6
+    Fingerprint: sha256:aa39e08f0d1f521cf4ba2a0098286efe19658f0652d02dda95eb6919648615a4
     Title: 'docker: Moby/Docker Engine: Arbitrary Code Execution via malicious container image and compressed archive upload'
     Description: Moby is an open source container framework. In versions prior to 29.5.1 and in moby/moby v2 prior to v2.0.0-beta.14, when a compressed archive is uploaded to a container via `PUT /containers/{id}/archive` or piped through `docker cp -`, the daemon resolves decompression binaries (such as `xz` or `unpigz`) from the container's filesystem rather than the host's due to incorrect ordering of operations. A malicious container image containing a trojanized decompression binary can achieve arbitrary code execution with full daemon privileges, including host root UID and unrestricted capabilities, when a user uploads a compressed (xz or gzip) archive into that container. This issue is fixed in Docker Engine 29.5.1 and moby/moby v2.0.0-beta.14. Workarounds include only running containers from trusted images, using authorization plugins to restrict access to the `PUT /containers/{id}/archive` endpoint, and avoiding piping compressed archives into containers created from untrusted images
     Severity: HIGH
@@ -139,15 +139,15 @@
     InstalledVersion: v28.5.2+incompatible
     Status: affected
     Layer:
-      Digest: sha256:7c64d65e71c8c2f7fbaaad8c9fdfb3b026088d882c47300c221b55417d791d79
-      DiffID: sha256:c1b024c3c98be963e8e36fdaf4a27882e9dcd2f1ed56d537113cf1ab2d810f31
+      Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba954749ec19869d0239e3c4dd
+      DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984616642eabaa1fc26514
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42306
     DataSource:
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Fingerprint: sha256:1819531a74957793fc11b1e41e5a90a9f719e1f6d7c17a08fbaad440857d4bac
+    Fingerprint: sha256:cbbc35bbf62a654fbbfdc110ab99f4a3cecf526dd2506fd0d8db0bed06078069
     Title: 'github.com/docker/docker: github.com/moby/moby: Moby container framework: Host file overwrite via race condition in docker cp mount setup'
     Description: Moby is an open source container framework. In Docker Engine prior to version 29.5.1, Docker Daemon versions 28.5.2 and prior, and Moby Daemon prior to version 2.0.0-beta.14, a race condition during docker cp mount setup allows a malicious container to redirect a bind mount target to an arbitrary host path, potentially overwriting host files or causing denial of service. This issue has been patched in Docker Engine version 29.5.1 and Moby Daemon version 2.0.0-beta.14.
     Severity: HIGH
@@ -190,15 +190,15 @@
     FixedVersion: 29.3.1
     Status: fixed
     Layer:
-      Digest: sha256:7c64d65e71c8c2f7fbaaad8c9fdfb3b026088d882c47300c221b55417d791d79
-      DiffID: sha256:c1b024c3c98be963e8e36fdaf4a27882e9dcd2f1ed56d537113cf1ab2d810f31
+      Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba954749ec19869d0239e3c4dd
+      DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984616642eabaa1fc26514
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33997
     DataSource:
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Fingerprint: sha256:ddc07d063f8e1381f4c46220c18010eb2d21b031ef000d997fb5302fd39ed621
+    Fingerprint: sha256:52458b3ba1e1d3b6be8ee3454c7aad61dd8084c4a8c3504323567442450ee744
     Title: 'moby: docker: github.com/moby/moby: Moby: Privilege validation bypass during plugin installation'
     Description: Moby is an open source container framework. Prior to version 29.3.1, a security vulnerability has been detected that allows plugins privilege validation to be bypassed during docker plugin install. Due to an error in the daemon's privilege comparison logic, the daemon may incorrectly accept a privilege set that differs from the one approved by the user. Plugins that request exactly one privilege are also affected, because no comparison is performed at all. This issue has been patched in version 29.3.1.
     Severity: MEDIUM
@@ -248,15 +248,15 @@
     InstalledVersion: v28.5.2+incompatible
     Status: affected
     Layer:
-      Digest: sha256:7c64d65e71c8c2f7fbaaad8c9fdfb3b026088d882c47300c221b55417d791d79
-      DiffID: sha256:c1b024c3c98be963e8e36fdaf4a27882e9dcd2f1ed56d537113cf1ab2d810f31
+      Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba954749ec19869d0239e3c4dd
+      DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984616642eabaa1fc26514
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-41568
     DataSource:
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Fingerprint: sha256:cc3e02c8dd27e682dd7fca9aebd1ca487addebe46147007cf56feab413b38269
+    Fingerprint: sha256:2591487c1a13095cb6cab4c3f5a12ff7afd5c99583bfc3239f70059a6e2925f9
     Title: 'github.com/docker/docker: github.com/moby/moby: Moby: Denial of Service via race condition in docker cp mount setup'
     Description: Moby is an open source container framework. In Docker Engine prior to version 29.5.1, Docker Daemon versions 28.5.2 and prior, and Moby Daemon prior to version 2.0.0-beta.14, a race condition during docker cp mount setup allows a malicious container to create empty files or directories at arbitrary absolute paths on the host filesystem. This issue has been patched in Docker Engine version 29.5.1 and Moby Daemon version 2.0.0-beta.14.
     Severity: MEDIUM
@@ -293,14 +293,14 @@
     FixedVersion: 0.44.0
     Status: fixed
     Layer:
-      Digest: sha256:7c64d65e71c8c2f7fbaaad8c9fdfb3b026088d882c47300c221b55417d791d79
-      DiffID: sha256:c1b024c3c98be963e8e36fdaf4a27882e9dcd2f1ed56d537113cf1ab2d810f31
+      Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba954749ec19869d0239e3c4dd
+      DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984616642eabaa1fc26514
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39824
     DataSource:
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Fingerprint: sha256:1a658f3680fd9ce011d7da32123fd20ebbdf4549dbb262ee1e3332eb73c49eae
+    Fingerprint: sha256:2e4ff3426411ad7e70f7928eb6b24c93fb3f297c170b700022c6cd01e0cb3a3a
     Title: Invoking integer overflow in NewNTUnicodeString in golang.org/x/sys/windows
     Description: NewNTUnicodeString does not check for string length overflow. When provided with a string that overflows the maximum size of a NTUnicodeString (a 16-bit number of bytes), it returns a truncated string rather than an error.
     Severity: UNKNOWN
@@ -325,14 +325,14 @@
     FixedVersion: 0.41.0
     Status: fixed
     Layer:
-      Digest: sha256:7c64d65e71c8c2f7fbaaad8c9fdfb3b026088d882c47300c221b55417d791d79
-      DiffID: sha256:c1b024c3c98be963e8e36fdaf4a27882e9dcd2f1ed56d537113cf1ab2d810f31
+      Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba954749ec19869d0239e3c4dd
+      DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984616642eabaa1fc26514
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56851
     DataSource:
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Fingerprint: sha256:8760cb81efc7e0716ec8ca61e4a7fe2d42d832a3c7254e7c0fabbc6ce43db10f
+    Fingerprint: sha256:b10a7699dd889211f892e82839e0782db8c7932487ae92732a7e964d38ef26bf
     Title: 'golang.org/x/text: golang.org/x/text: Denial of Service via out-of-bounds slice error in Nickname profile'
     Description: The Nickname profile can panic with an out-of-bounds slice error when transforming crafted input into a short destination buffer.
     Severity: HIGH
@@ -366,14 +366,14 @@
     FixedVersion: 0.39.0
     Status: fixed
     Layer:
-      Digest: sha256:7c64d65e71c8c2f7fbaaad8c9fdfb3b026088d882c47300c221b55417d791d79
-      DiffID: sha256:c1b024c3c98be963e8e36fdaf4a27882e9dcd2f1ed56d537113cf1ab2d810f31
+      Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba954749ec19869d0239e3c4dd
+      DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984616642eabaa1fc26514
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-56852
     DataSource:
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Fingerprint: sha256:6c517b3cbb2846d6cea844151de39c698c2434bb0c82eb63df81a62ed2f3979f
+    Fingerprint: sha256:080e46c8ad8b6c40ef4436f612cdc300e507b1f9c87d867ba3f7e1f0074cdc3e
     Title: 'golang.org/x/text: golang.org/x/text: Denial of Service via invalid UTF-8 input'
     Description: A norm.Iter can enter an infinite loop when handling input containing invalid UTF-8 bytes.
     Severity: HIGH
