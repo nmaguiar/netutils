@@ -341,12 +341,14 @@
     VendorSeverity:
       azure: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-56851
+    - https://github.com/golang/go/issues/80112
     - https://go.dev/cl/793360
     - https://go.dev/issue/80112
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56851
