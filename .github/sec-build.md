@@ -398,16 +398,18 @@
 │                       │     ├ Severity        : HIGH 
 │                       │     ├ CweIDs           ─ [0]: CWE-787 
 │                       │     ├ VendorSeverity   ╭ azure : 3 
-│                       │     │                  ╰ redhat: 3 
+│                       │     │                  ├ redhat: 3 
+│                       │     │                  ╰ ubuntu: 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 7.5 
 │                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-56851 
-│                       │     │                  ├ [1]: https://go.dev/cl/793360 
-│                       │     │                  ├ [2]: https://go.dev/issue/80112 
-│                       │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-56851 
-│                       │     │                  ├ [4]: https://pkg.go.dev/vuln/GO-2026-6629 
-│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-56851 
+│                       │     │                  ├ [1]: https://github.com/golang/go/issues/80112 
+│                       │     │                  ├ [2]: https://go.dev/cl/793360 
+│                       │     │                  ├ [3]: https://go.dev/issue/80112 
+│                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-56851 
+│                       │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2026-6629 
+│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-56851 
 │                       │     ├ PublishedDate   : 2026-10-07T18:17:20.903Z 
 │                       │     ╰ LastModifiedDate: 2026-10-08T21:35:53.89Z 
 │                       ╰ [7] ╭ VulnerabilityID : CVE-2026-56852 
