@@ -64,12 +64,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:99624
+    - https://access.redhat.com/errata/RHSA-2026:99625
     - https://access.redhat.com/security/cve/CVE-2026-112315
     - https://bugzilla.redhat.com/show_bug.cgi?id=2479403
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112315
     - https://www.cve.org/CVERecord?id=CVE-2026-112315
     PublishedDate: '2026-11-09T19:16:40.077Z'
-    LastModifiedDate: '2026-11-09T19:16:40.203Z'
+    LastModifiedDate: '2026-11-12T17:17:22.227Z'
   - VulnerabilityID: CVE-2026-112316
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -100,12 +102,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:99624
+    - https://access.redhat.com/errata/RHSA-2026:99625
     - https://access.redhat.com/security/cve/CVE-2026-112316
     - https://bugzilla.redhat.com/show_bug.cgi?id=2479331
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112316
     - https://www.cve.org/CVERecord?id=CVE-2026-112316
     PublishedDate: '2026-11-09T19:16:40.243Z'
-    LastModifiedDate: '2026-11-09T23:17:11.73Z'
+    LastModifiedDate: '2026-11-12T17:17:22.363Z'
   - VulnerabilityID: CVE-2026-112317
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -136,12 +140,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:99624
+    - https://access.redhat.com/errata/RHSA-2026:99625
     - https://access.redhat.com/security/cve/CVE-2026-112317
     - https://bugzilla.redhat.com/show_bug.cgi?id=2479209
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112317
     - https://www.cve.org/CVERecord?id=CVE-2026-112317
     PublishedDate: '2026-11-09T19:16:40.407Z'
-    LastModifiedDate: '2026-11-09T19:16:40.527Z'
+    LastModifiedDate: '2026-11-12T17:17:22.53Z'
   - VulnerabilityID: CVE-2026-112318
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -172,12 +178,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:99624
+    - https://access.redhat.com/errata/RHSA-2026:99625
     - https://access.redhat.com/security/cve/CVE-2026-112318
     - https://bugzilla.redhat.com/show_bug.cgi?id=2478792
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112318
     - https://www.cve.org/CVERecord?id=CVE-2026-112318
     PublishedDate: '2026-11-09T19:16:40.56Z'
-    LastModifiedDate: '2026-11-09T19:16:40.687Z'
+    LastModifiedDate: '2026-11-12T17:17:22.68Z'
   - VulnerabilityID: CVE-2026-112319
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -208,12 +216,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:99624
+    - https://access.redhat.com/errata/RHSA-2026:99625
     - https://access.redhat.com/security/cve/CVE-2026-112319
     - https://bugzilla.redhat.com/show_bug.cgi?id=2478684
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112319
     - https://www.cve.org/CVERecord?id=CVE-2026-112319
     PublishedDate: '2026-11-09T19:16:40.727Z'
-    LastModifiedDate: '2026-11-09T20:18:04.357Z'
+    LastModifiedDate: '2026-11-12T17:17:22.83Z'
   - VulnerabilityID: CVE-2026-112320
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -244,12 +254,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:99624
+    - https://access.redhat.com/errata/RHSA-2026:99625
     - https://access.redhat.com/security/cve/CVE-2026-112320
     - https://bugzilla.redhat.com/show_bug.cgi?id=2478449
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112320
     - https://www.cve.org/CVERecord?id=CVE-2026-112320
     PublishedDate: '2026-11-09T19:16:40.887Z'
-    LastModifiedDate: '2026-11-09T19:16:41.017Z'
+    LastModifiedDate: '2026-11-12T17:17:22.977Z'
   - VulnerabilityID: CVE-2026-112321
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -280,12 +292,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:99624
+    - https://access.redhat.com/errata/RHSA-2026:99625
     - https://access.redhat.com/security/cve/CVE-2026-112321
     - https://bugzilla.redhat.com/show_bug.cgi?id=2478448
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112321
     - https://www.cve.org/CVERecord?id=CVE-2026-112321
     PublishedDate: '2026-11-09T19:16:41.05Z'
-    LastModifiedDate: '2026-11-09T23:17:11.867Z'
+    LastModifiedDate: '2026-11-12T17:17:23.127Z'
   - VulnerabilityID: CVE-2026-112322
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -316,12 +330,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:99624
+    - https://access.redhat.com/errata/RHSA-2026:99625
     - https://access.redhat.com/security/cve/CVE-2026-112322
     - https://bugzilla.redhat.com/show_bug.cgi?id=2478445
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112322
     - https://www.cve.org/CVERecord?id=CVE-2026-112322
     PublishedDate: '2026-11-09T19:16:41.207Z'
-    LastModifiedDate: '2026-11-09T23:17:12Z'
+    LastModifiedDate: '2026-11-12T17:17:23.28Z'
   - VulnerabilityID: CVE-2026-112323
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -352,12 +368,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:99624
+    - https://access.redhat.com/errata/RHSA-2026:99625
     - https://access.redhat.com/security/cve/CVE-2026-112323
     - https://bugzilla.redhat.com/show_bug.cgi?id=2478440
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112323
     - https://www.cve.org/CVERecord?id=CVE-2026-112323
     PublishedDate: '2026-11-09T19:16:41.36Z'
-    LastModifiedDate: '2026-11-09T19:16:41.473Z'
+    LastModifiedDate: '2026-11-12T17:17:23.43Z'
   - VulnerabilityID: CVE-2026-118380
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -419,12 +437,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:99624
+    - https://access.redhat.com/errata/RHSA-2026:99625
     - https://access.redhat.com/security/cve/CVE-2026-119079
     - https://bugzilla.redhat.com/show_bug.cgi?id=2479231
     - https://nvd.nist.gov/vuln/detail/CVE-2026-119079
     - https://www.cve.org/CVERecord?id=CVE-2026-119079
     PublishedDate: '2026-11-09T19:16:43.023Z'
-    LastModifiedDate: '2026-11-09T19:16:43.16Z'
+    LastModifiedDate: '2026-11-12T17:17:26.85Z'
   - VulnerabilityID: CVE-2026-40355
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -471,7 +491,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19145
     - https://access.redhat.com/errata/RHSA-2026:19357
     - https://access.redhat.com/security/cve/CVE-2026-40355
     - https://bugzilla.redhat.com/2463368
@@ -485,7 +504,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-40355
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-40356
-    - https://errata.almalinux.org/10/ALSA-2026-19145.html
+    - https://errata.almalinux.org/9/ALSA-2026-19357.html
     - https://errata.rockylinux.org/RLSA-2026:19357
     - https://github.com/advisories/GHSA-8qgv-wm66-hrmc
     - https://github.com/krb5/krb5/commit/2e75f0d9362fb979f5fc92829431a590a130929f
@@ -544,7 +563,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2026:19145
     - https://access.redhat.com/errata/RHSA-2026:19357
     - https://access.redhat.com/security/cve/CVE-2026-40356
     - https://bugzilla.redhat.com/2463368
@@ -555,7 +573,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-40355
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-40356
-    - https://errata.almalinux.org/10/ALSA-2026-19145.html
+    - https://errata.almalinux.org/9/ALSA-2026-19357.html
     - https://errata.rockylinux.org/RLSA-2026:19357
     - https://github.com/advisories/GHSA-f7p3-6rhj-p7jv
     - https://github.com/krb5/krb5/commit/2e75f0d9362fb979f5fc92829431a590a130929f
@@ -806,12 +824,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:99624
     - https://access.redhat.com/security/cve/CVE-2026-112314
     - https://bugzilla.redhat.com/show_bug.cgi?id=2478446
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112314
     - https://www.cve.org/CVERecord?id=CVE-2026-112314
     PublishedDate: '2026-11-09T19:16:39.867Z'
-    LastModifiedDate: '2026-11-09T20:18:04.227Z'
+    LastModifiedDate: '2026-11-12T13:17:09.79Z'
   - VulnerabilityID: CVE-2026-107496
     PkgID: libcrypto3@3.5.9-r0
     PkgName: libcrypto3
