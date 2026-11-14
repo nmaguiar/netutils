@@ -1,4 +1,4 @@
-[0.004s][warning][cds] The shared archive file was created by a different version or build of HotSpot
+[0.003s][warning][cds] The shared archive file was created by a different version or build of HotSpot
 [0.004s][error  ][cds] An error has occurred while processing the shared archive file. Run with -Xlog:aot,cds for details.
 [0.004s][error  ][cds] Loading static archive failed.
 | tool | buildVersion | latestVersion | buildLiteVersion | liteVersion |
@@ -29,7 +29,7 @@
 | nmap | 7.99 | 7.99 | 7.992 | 7.992 |
 | nsenter | n/a | n/a | 1.38.0 | 1.38.0 |
 | nstat | 7.2.0 | 7.2.0 | 7.3.0 | 7.2.0 |
-| openaf | 20261107 | 20261021 | 20261107 | 20261021 |
+| openaf | 20261113 | 20261021 | 20261113 | 20261021 |
 | pidstat | 12.7.7 | 12.7.7 | 12.7.8 | 12.7.8 |
 | ping | 20250605 | 20250605 | 20250605 | 20250605 |
 | posting | 3.12 | 3.12 | n/a | 3.12 |
@@ -45,6 +45,6 @@
 | telnet | 2.8 | 2.8 | 2.8 | 2.8 |
 | termshark | 4.6.6 | 4.6.6 | 4.6.9 | 4.6.9 |
 | tracepath | 20250605 | 20250605 | 20250605 | 20250605 |
-| websocat | 1.14.1 | 1.14.1 | 1.14.1 | 1.14.1 |
+| websocat | 1.14.2 | 1.14.1 | 1.14.1 | 1.14.1 |
 | whois | n/a | n/a | 1.38.0 | 1.38.0 |
 
