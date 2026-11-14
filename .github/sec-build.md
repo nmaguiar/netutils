@@ -24,18 +24,18 @@
 │                       │     ├ InstalledVersion: v27.1.1+incompatible 
 │                       │     ├ FixedVersion    : 29.2.0 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba95474
-│                       │     │                  │         9ec19869d0239e3c4dd 
-│                       │     │                  ╰ DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984
-│                       │     │                            616642eabaa1fc26514 
+│                       │     ├ Layer            ╭ Digest: sha256:b011d669c54202d6c9897b7f385b8117c0bce45ed5936
+│                       │     │                  │         33faf50596badc00a25 
+│                       │     │                  ╰ DiffID: sha256:ebfd1ebee68f49e07f46c4f9fcf94fc9acacdd9e702ae
+│                       │     │                            7a5b2e55b2ac56f5ea5 
 │                       │     ├ SeveritySource  : ghsa 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15558 
 │                       │     ├ DataSource       ╭ ID  : ghsa 
 │                       │     │                  ├ Name: GitHub Security Advisory Go 
 │                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
 │                       │     │                          osystem%3Ago 
-│                       │     ├ Fingerprint     : sha256:e5371edddf1fdee5b60effa04292af193f68250eca52733f533e3d
-│                       │     │                   11f6854d32 
+│                       │     ├ Fingerprint     : sha256:d8f2232d5aee11391fcbb7e7e44a2bc04f3c473d9eb75d80e84994
+│                       │     │                   b9c9a2f832 
 │                       │     ├ Title           : docker/cli: Docker CLI for Windows: Privilege escalation via
 │                       │     │                   malicious plugin binaries 
 │                       │     ├ Description     : Docker CLI for Windows searches for plugin binaries in
@@ -102,18 +102,18 @@
 │                       │     │                  ╰ UID : 19bdebda0d8ffb51 
 │                       │     ├ InstalledVersion: v28.5.2+incompatible 
 │                       │     ├ Status          : affected 
-│                       │     ├ Layer            ╭ Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba95474
-│                       │     │                  │         9ec19869d0239e3c4dd 
-│                       │     │                  ╰ DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984
-│                       │     │                            616642eabaa1fc26514 
+│                       │     ├ Layer            ╭ Digest: sha256:b011d669c54202d6c9897b7f385b8117c0bce45ed5936
+│                       │     │                  │         33faf50596badc00a25 
+│                       │     │                  ╰ DiffID: sha256:ebfd1ebee68f49e07f46c4f9fcf94fc9acacdd9e702ae
+│                       │     │                            7a5b2e55b2ac56f5ea5 
 │                       │     ├ SeveritySource  : ghsa 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41567 
 │                       │     ├ DataSource       ╭ ID  : ghsa 
 │                       │     │                  ├ Name: GitHub Security Advisory Go 
 │                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
 │                       │     │                          osystem%3Ago 
-│                       │     ├ Fingerprint     : sha256:aa39e08f0d1f521cf4ba2a0098286efe19658f0652d02dda95eb69
-│                       │     │                   19648615a4 
+│                       │     ├ Fingerprint     : sha256:c27c2a60e17fa21baa457df8a405e70b1a4d2b99b52a3defd843cf
+│                       │     │                   078ed12c99 
 │                       │     ├ Title           : docker: Moby/Docker Engine: Arbitrary Code Execution via
 │                       │     │                   malicious container image and compressed archive upload 
 │                       │     ├ Description     : Moby is an open source container framework. In versions prior
@@ -171,18 +171,18 @@
 │                       │     │                  ╰ UID : 19bdebda0d8ffb51 
 │                       │     ├ InstalledVersion: v28.5.2+incompatible 
 │                       │     ├ Status          : affected 
-│                       │     ├ Layer            ╭ Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba95474
-│                       │     │                  │         9ec19869d0239e3c4dd 
-│                       │     │                  ╰ DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984
-│                       │     │                            616642eabaa1fc26514 
+│                       │     ├ Layer            ╭ Digest: sha256:b011d669c54202d6c9897b7f385b8117c0bce45ed5936
+│                       │     │                  │         33faf50596badc00a25 
+│                       │     │                  ╰ DiffID: sha256:ebfd1ebee68f49e07f46c4f9fcf94fc9acacdd9e702ae
+│                       │     │                            7a5b2e55b2ac56f5ea5 
 │                       │     ├ SeveritySource  : ghsa 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42306 
 │                       │     ├ DataSource       ╭ ID  : ghsa 
 │                       │     │                  ├ Name: GitHub Security Advisory Go 
 │                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
 │                       │     │                          osystem%3Ago 
-│                       │     ├ Fingerprint     : sha256:cbbc35bbf62a654fbbfdc110ab99f4a3cecf526dd2506fd0d8db0b
-│                       │     │                   ed06078069 
+│                       │     ├ Fingerprint     : sha256:98d55217d2e54bb4a714789407422f87089c55f1fabe155367ee31
+│                       │     │                   e3dcfed98a 
 │                       │     ├ Title           : github.com/docker/docker: github.com/moby/moby: Moby
 │                       │     │                   container framework: Host file overwrite via race condition
 │                       │     │                   in docker cp mount setup 
@@ -230,18 +230,18 @@
 │                       │     ├ InstalledVersion: v28.5.2+incompatible 
 │                       │     ├ FixedVersion    : 29.3.1 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba95474
-│                       │     │                  │         9ec19869d0239e3c4dd 
-│                       │     │                  ╰ DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984
-│                       │     │                            616642eabaa1fc26514 
+│                       │     ├ Layer            ╭ Digest: sha256:b011d669c54202d6c9897b7f385b8117c0bce45ed5936
+│                       │     │                  │         33faf50596badc00a25 
+│                       │     │                  ╰ DiffID: sha256:ebfd1ebee68f49e07f46c4f9fcf94fc9acacdd9e702ae
+│                       │     │                            7a5b2e55b2ac56f5ea5 
 │                       │     ├ SeveritySource  : ghsa 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33997 
 │                       │     ├ DataSource       ╭ ID  : ghsa 
 │                       │     │                  ├ Name: GitHub Security Advisory Go 
 │                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
 │                       │     │                          osystem%3Ago 
-│                       │     ├ Fingerprint     : sha256:52458b3ba1e1d3b6be8ee3454c7aad61dd8084c4a8c35043235674
-│                       │     │                   42450ee744 
+│                       │     ├ Fingerprint     : sha256:d650f13df1cb9e7c6ea0f38b2b12ea2040fd5f9094b62be6ef1134
+│                       │     │                   32dd8af37f 
 │                       │     ├ Title           : moby: docker: github.com/moby/moby: Moby: Privilege
 │                       │     │                   validation bypass during plugin installation 
 │                       │     ├ Description     : Moby is an open source container framework. Prior to version
@@ -297,18 +297,18 @@
 │                       │     │                  ╰ UID : 19bdebda0d8ffb51 
 │                       │     ├ InstalledVersion: v28.5.2+incompatible 
 │                       │     ├ Status          : affected 
-│                       │     ├ Layer            ╭ Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba95474
-│                       │     │                  │         9ec19869d0239e3c4dd 
-│                       │     │                  ╰ DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984
-│                       │     │                            616642eabaa1fc26514 
+│                       │     ├ Layer            ╭ Digest: sha256:b011d669c54202d6c9897b7f385b8117c0bce45ed5936
+│                       │     │                  │         33faf50596badc00a25 
+│                       │     │                  ╰ DiffID: sha256:ebfd1ebee68f49e07f46c4f9fcf94fc9acacdd9e702ae
+│                       │     │                            7a5b2e55b2ac56f5ea5 
 │                       │     ├ SeveritySource  : ghsa 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41568 
 │                       │     ├ DataSource       ╭ ID  : ghsa 
 │                       │     │                  ├ Name: GitHub Security Advisory Go 
 │                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
 │                       │     │                          osystem%3Ago 
-│                       │     ├ Fingerprint     : sha256:2591487c1a13095cb6cab4c3f5a12ff7afd5c99583bfc3239f7005
-│                       │     │                   9a6e2925f9 
+│                       │     ├ Fingerprint     : sha256:97645cfd9c5badad09beac278b7a6d4eb82f69f1af636f244c9045
+│                       │     │                   e1131aea9f 
 │                       │     ├ Title           : github.com/docker/docker: github.com/moby/moby: Moby: Denial
 │                       │     │                   of Service via race condition in docker cp mount setup 
 │                       │     ├ Description     : Moby is an open source container framework. In Docker Engine
@@ -347,16 +347,16 @@
 │                       │     ├ InstalledVersion: v0.24.0 
 │                       │     ├ FixedVersion    : 0.44.0 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba95474
-│                       │     │                  │         9ec19869d0239e3c4dd 
-│                       │     │                  ╰ DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984
-│                       │     │                            616642eabaa1fc26514 
+│                       │     ├ Layer            ╭ Digest: sha256:b011d669c54202d6c9897b7f385b8117c0bce45ed5936
+│                       │     │                  │         33faf50596badc00a25 
+│                       │     │                  ╰ DiffID: sha256:ebfd1ebee68f49e07f46c4f9fcf94fc9acacdd9e702ae
+│                       │     │                            7a5b2e55b2ac56f5ea5 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-39824 
 │                       │     ├ DataSource       ╭ ID  : govulndb 
 │                       │     │                  ├ Name: The Go Vulnerability Database 
 │                       │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                       │     ├ Fingerprint     : sha256:2e4ff3426411ad7e70f7928eb6b24c93fb3f297c170b700022c6cd
-│                       │     │                   01e0cb3a3a 
+│                       │     ├ Fingerprint     : sha256:542ef0a513e3c2ccfe331f5efd22e9919f348f8d73a1899c3ebdbd
+│                       │     │                   4e5f0ddce8 
 │                       │     ├ Title           : Invoking integer overflow in NewNTUnicodeString in
 │                       │     │                   golang.org/x/sys/windows 
 │                       │     ├ Description     : NewNTUnicodeString does not check for string length overflow.
@@ -380,16 +380,16 @@
 │                       │     ├ InstalledVersion: v0.16.0 
 │                       │     ├ FixedVersion    : 0.41.0 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba95474
-│                       │     │                  │         9ec19869d0239e3c4dd 
-│                       │     │                  ╰ DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984
-│                       │     │                            616642eabaa1fc26514 
+│                       │     ├ Layer            ╭ Digest: sha256:b011d669c54202d6c9897b7f385b8117c0bce45ed5936
+│                       │     │                  │         33faf50596badc00a25 
+│                       │     │                  ╰ DiffID: sha256:ebfd1ebee68f49e07f46c4f9fcf94fc9acacdd9e702ae
+│                       │     │                            7a5b2e55b2ac56f5ea5 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56851 
 │                       │     ├ DataSource       ╭ ID  : govulndb 
 │                       │     │                  ├ Name: The Go Vulnerability Database 
 │                       │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                       │     ├ Fingerprint     : sha256:b10a7699dd889211f892e82839e0782db8c7932487ae92732a7e96
-│                       │     │                   4d38ef26bf 
+│                       │     ├ Fingerprint     : sha256:2c96d3222437ba832d51783532d3ab3be4c2c37a6a60bf6d4a6859
+│                       │     │                   b040ed0af9 
 │                       │     ├ Title           : golang.org/x/text: golang.org/x/text: Denial of Service via
 │                       │     │                   out-of-bounds slice error in Nickname profile 
 │                       │     ├ Description     : The Nickname profile can panic with an out-of-bounds slice
@@ -412,132 +412,97 @@
 │                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-56851 
 │                       │     ├ PublishedDate   : 2026-10-07T18:17:20.903Z 
 │                       │     ╰ LastModifiedDate: 2026-10-08T21:35:53.89Z 
-│                       ├ [7] ╭ VulnerabilityID : CVE-2026-56852 
-│                       │     ├ VendorIDs        ─ [0]: GO-2026-5970 
-│                       │     ├ PkgID           : golang.org/x/text@v0.16.0 
-│                       │     ├ PkgName         : golang.org/x/text 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/text@v0.16.0 
-│                       │     │                  ╰ UID : 9af16a0db3fdc1ec 
-│                       │     ├ InstalledVersion: v0.16.0 
-│                       │     ├ FixedVersion    : 0.39.0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba95474
-│                       │     │                  │         9ec19869d0239e3c4dd 
-│                       │     │                  ╰ DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984
-│                       │     │                            616642eabaa1fc26514 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56852 
-│                       │     ├ DataSource       ╭ ID  : govulndb 
-│                       │     │                  ├ Name: The Go Vulnerability Database 
-│                       │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                       │     ├ Fingerprint     : sha256:080e46c8ad8b6c40ef4436f612cdc300e507b1f9c87d867ba3f7e1
-│                       │     │                   f0074cdc3e 
-│                       │     ├ Title           : golang.org/x/text: golang.org/x/text: Denial of Service via
-│                       │     │                   invalid UTF-8 input 
-│                       │     ├ Description     : A norm.Iter can enter an infinite loop when handling input
-│                       │     │                   containing invalid UTF-8 bytes. 
-│                       │     ├ Severity        : HIGH 
-│                       │     ├ CweIDs           ─ [0]: CWE-835 
-│                       │     ├ VendorSeverity   ╭ alma       : 3 
-│                       │     │                  ├ amazon     : 3 
-│                       │     │                  ├ azure      : 3 
-│                       │     │                  ├ oracle-oval: 3 
-│                       │     │                  ├ redhat     : 3 
-│                       │     │                  ╰ rocky      : 3 
-│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
-│                       │     │                           │           A:H 
-│                       │     │                           ╰ V3Score : 7.5 
-│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:70201 
-│                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-56852 
-│                       │     │                  ├ [2] : https://bugzilla.redhat.com/2456335 
-│                       │     │                  ├ [3] : https://bugzilla.redhat.com/2467809 
-│                       │     │                  ├ [4] : https://bugzilla.redhat.com/2504233 
-│                       │     │                  ├ [5] : https://bugzilla.redhat.com/2508234 
-│                       │     │                  ├ [6] : https://bugzilla.redhat.com/2515815 
-│                       │     │                  ├ [7] : https://bugzilla.redhat.com/2515820 
-│                       │     │                  ├ [8] : https://bugzilla.redhat.com/2515827 
-│                       │     │                  ├ [9] : https://bugzilla.redhat.com/2515838 
-│                       │     │                  ├ [10]: https://bugzilla.redhat.com/2515839 
-│                       │     │                  ├ [11]: https://bugzilla.redhat.com/2515840 
-│                       │     │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2456335 
-│                       │     │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2467809 
-│                       │     │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2504233 
-│                       │     │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2508234 
-│                       │     │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2515815 
-│                       │     │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2515820 
-│                       │     │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2515827 
-│                       │     │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2515838 
-│                       │     │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2515839 
-│                       │     │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2515840 
-│                       │     │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2518147 
-│                       │     │                  ├ [23]: https://creativecommons.org/licenses/by/4.0/ 
-│                       │     │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
-│                       │     │                  │       6-17106 
-│                       │     │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
-│                       │     │                  │       6-19730 
-│                       │     │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
-│                       │     │                  │       6-33810 
-│                       │     │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
-│                       │     │                  │       6-33818 
-│                       │     │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
-│                       │     │                  │       6-42499 
-│                       │     │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
-│                       │     │                  │       6-56852 
-│                       │     │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
-│                       │     │                  │       6-56853 
-│                       │     │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
-│                       │     │                  │       6-56858 
-│                       │     │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
-│                       │     │                  │       6-56859 
-│                       │     │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
-│                       │     │                  │       6-56860 
-│                       │     │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
-│                       │     │                  │       6-56862 
-│                       │     │                  ├ [35]: https://errata.almalinux.org/10/ALSA-2026-70201.html 
-│                       │     │                  ├ [36]: https://errata.rockylinux.org/RLSA-2026:70201 
-│                       │     │                  ├ [37]: https://go.dev/cl/794100 
-│                       │     │                  ├ [38]: https://go.dev/issue/80142 
-│                       │     │                  ├ [39]: https://linux.oracle.com/cve/CVE-2026-56852.html 
-│                       │     │                  ├ [40]: https://linux.oracle.com/errata/ELSA-2026-70201.html 
-│                       │     │                  ├ [41]: https://nvd.nist.gov/vuln/detail/CVE-2026-56852 
-│                       │     │                  ├ [42]: https://pkg.go.dev/vuln/GO-2026-5970 
-│                       │     │                  ╰ [43]: https://www.cve.org/CVERecord?id=CVE-2026-56852 
-│                       │     ├ PublishedDate   : 2026-07-21T20:17:02.867Z 
-│                       │     ╰ LastModifiedDate: 2026-10-24T19:10:00.127Z 
-│                       ╰ [8] ╭ VulnerabilityID : CVE-2026-97054 
-│                             ├ VendorIDs        ─ [0]: GO-2026-6859 
-│                             ├ PkgID           : stdlib@v1.27.3 
-│                             ├ PkgName         : stdlib 
-│                             ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.27.3 
-│                             │                  ╰ UID : b9def374056946f1 
-│                             ├ InstalledVersion: v1.27.3 
-│                             ├ FixedVersion    : 1.26.11, 1.27.4 
+│                       ╰ [7] ╭ VulnerabilityID : CVE-2026-56852 
+│                             ├ VendorIDs        ─ [0]: GO-2026-5970 
+│                             ├ PkgID           : golang.org/x/text@v0.16.0 
+│                             ├ PkgName         : golang.org/x/text 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/text@v0.16.0 
+│                             │                  ╰ UID : 9af16a0db3fdc1ec 
+│                             ├ InstalledVersion: v0.16.0 
+│                             ├ FixedVersion    : 0.39.0 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba95474
-│                             │                  │         9ec19869d0239e3c4dd 
-│                             │                  ╰ DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984
-│                             │                            616642eabaa1fc26514 
-│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-97054 
+│                             ├ Layer            ╭ Digest: sha256:b011d669c54202d6c9897b7f385b8117c0bce45ed5936
+│                             │                  │         33faf50596badc00a25 
+│                             │                  ╰ DiffID: sha256:ebfd1ebee68f49e07f46c4f9fcf94fc9acacdd9e702ae
+│                             │                            7a5b2e55b2ac56f5ea5 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56852 
 │                             ├ DataSource       ╭ ID  : govulndb 
 │                             │                  ├ Name: The Go Vulnerability Database 
 │                             │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                             ├ Fingerprint     : sha256:b8fc1589501ba5f13c67b8cde15f002a0740b210d9c207d43671d4
-│                             │                   2d58d1dbd9 
-│                             ├ Title           : For HTTP/1 servers, when MaxBytesReader's limit is exceeded,
-│                             │                   "Connecti ... 
-│                             ├ Description     : For HTTP/1 servers, when MaxBytesReader's limit is exceeded,
-│                             │                   "Connection: close" header is automatically set without
-│                             │                   synchronization, which might race with another header being
-│                             │                   set explicitly in the server handler. As a result, an HTTP/1
-│                             │                   server that utilizes MaxBytesReader or MaxBytesHandler can
-│                             │                   crash due to runtime panic if its handler reads the request
-│                             │                   body concurrently with writing the response header. 
-│                             ├ Severity        : UNKNOWN 
-│                             ├ References       ╭ [0]: https://go.dev/cl/862185 
-│                             │                  ├ [1]: https://go.dev/issue/82563 
-│                             │                  ├ [2]: https://groups.google.com/g/golang-announce/c/iY8TY0wWgbM 
-│                             │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6859 
-│                             ├ PublishedDate   : 2026-11-11T05:19:58.943Z 
-│                             ╰ LastModifiedDate: 2026-11-11T05:19:58.943Z 
+│                             ├ Fingerprint     : sha256:0b0f05971fb91acc3bef6679e404a05b2687f1d41d648d4bef93d7
+│                             │                   419e436428 
+│                             ├ Title           : golang.org/x/text: golang.org/x/text: Denial of Service via
+│                             │                   invalid UTF-8 input 
+│                             ├ Description     : A norm.Iter can enter an infinite loop when handling input
+│                             │                   containing invalid UTF-8 bytes. 
+│                             ├ Severity        : HIGH 
+│                             ├ CweIDs           ─ [0]: CWE-835 
+│                             ├ VendorSeverity   ╭ alma       : 3 
+│                             │                  ├ amazon     : 3 
+│                             │                  ├ azure      : 3 
+│                             │                  ├ oracle-oval: 3 
+│                             │                  ├ redhat     : 3 
+│                             │                  ╰ rocky      : 3 
+│                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+│                             │                           │           A:H 
+│                             │                           ╰ V3Score : 7.5 
+│                             ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:70201 
+│                             │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-56852 
+│                             │                  ├ [2] : https://bugzilla.redhat.com/2456335 
+│                             │                  ├ [3] : https://bugzilla.redhat.com/2467809 
+│                             │                  ├ [4] : https://bugzilla.redhat.com/2504233 
+│                             │                  ├ [5] : https://bugzilla.redhat.com/2508234 
+│                             │                  ├ [6] : https://bugzilla.redhat.com/2515815 
+│                             │                  ├ [7] : https://bugzilla.redhat.com/2515820 
+│                             │                  ├ [8] : https://bugzilla.redhat.com/2515827 
+│                             │                  ├ [9] : https://bugzilla.redhat.com/2515838 
+│                             │                  ├ [10]: https://bugzilla.redhat.com/2515839 
+│                             │                  ├ [11]: https://bugzilla.redhat.com/2515840 
+│                             │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2456335 
+│                             │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2467809 
+│                             │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2504233 
+│                             │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2508234 
+│                             │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2515815 
+│                             │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2515820 
+│                             │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2515827 
+│                             │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2515838 
+│                             │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2515839 
+│                             │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2515840 
+│                             │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2518147 
+│                             │                  ├ [23]: https://creativecommons.org/licenses/by/4.0/ 
+│                             │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
+│                             │                  │       6-17106 
+│                             │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
+│                             │                  │       6-19730 
+│                             │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
+│                             │                  │       6-33810 
+│                             │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
+│                             │                  │       6-33818 
+│                             │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
+│                             │                  │       6-42499 
+│                             │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
+│                             │                  │       6-56852 
+│                             │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
+│                             │                  │       6-56853 
+│                             │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
+│                             │                  │       6-56858 
+│                             │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
+│                             │                  │       6-56859 
+│                             │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
+│                             │                  │       6-56860 
+│                             │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
+│                             │                  │       6-56862 
+│                             │                  ├ [35]: https://errata.almalinux.org/10/ALSA-2026-70201.html 
+│                             │                  ├ [36]: https://errata.rockylinux.org/RLSA-2026:70201 
+│                             │                  ├ [37]: https://go.dev/cl/794100 
+│                             │                  ├ [38]: https://go.dev/issue/80142 
+│                             │                  ├ [39]: https://linux.oracle.com/cve/CVE-2026-56852.html 
+│                             │                  ├ [40]: https://linux.oracle.com/errata/ELSA-2026-70201.html 
+│                             │                  ├ [41]: https://nvd.nist.gov/vuln/detail/CVE-2026-56852 
+│                             │                  ├ [42]: https://pkg.go.dev/vuln/GO-2026-5970 
+│                             │                  ╰ [43]: https://www.cve.org/CVERecord?id=CVE-2026-56852 
+│                             ├ PublishedDate   : 2026-07-21T20:17:02.867Z 
+│                             ╰ LastModifiedDate: 2026-10-24T19:10:00.127Z 
 ╰ [4] ╭ Target         : usr/bin/pebble 
       ├ Class          : lang-pkgs 
       ├ Type           : gobinary 
@@ -551,16 +516,16 @@
                               ├ InstalledVersion: v1.27.3 
                               ├ FixedVersion    : 1.26.11, 1.27.4 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:44e5b224edb1aac456d94a91fc331db76528e4ba95474
-                              │                  │         9ec19869d0239e3c4dd 
-                              │                  ╰ DiffID: sha256:eb74de27b6a2770834291c77408b28e31ccfc82daf984
-                              │                            616642eabaa1fc26514 
+                              ├ Layer            ╭ Digest: sha256:b011d669c54202d6c9897b7f385b8117c0bce45ed5936
+                              │                  │         33faf50596badc00a25 
+                              │                  ╰ DiffID: sha256:ebfd1ebee68f49e07f46c4f9fcf94fc9acacdd9e702ae
+                              │                            7a5b2e55b2ac56f5ea5 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-97054 
                               ├ DataSource       ╭ ID  : govulndb 
                               │                  ├ Name: The Go Vulnerability Database 
                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                              ├ Fingerprint     : sha256:2c57790916a7cbdb96d50371f7e72dc6c4ec98f924237b3a4ba9aa
-                              │                   586d193e20 
+                              ├ Fingerprint     : sha256:e9c2cbf338c3d49ed66e528398829f1660344310af1c5e78241b66
+                              │                   f2539f481f 
                               ├ Title           : For HTTP/1 servers, when MaxBytesReader's limit is exceeded,
                               │                   "Connecti ... 
                               ├ Description     : For HTTP/1 servers, when MaxBytesReader's limit is exceeded,
@@ -576,5 +541,5 @@
                               │                  ├ [2]: https://groups.google.com/g/golang-announce/c/iY8TY0wWgbM 
                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6859 
                               ├ PublishedDate   : 2026-11-11T05:19:58.943Z 
-                              ╰ LastModifiedDate: 2026-11-11T05:19:58.943Z 
+                              ╰ LastModifiedDate: 2026-11-12T22:09:39.233Z 
 ```
