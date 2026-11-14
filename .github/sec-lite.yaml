@@ -64,14 +64,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:97811
     - https://access.redhat.com/errata/RHSA-2026:99624
     - https://access.redhat.com/errata/RHSA-2026:99625
+    - https://access.redhat.com/errata/RHSA-2026:99715
+    - https://access.redhat.com/errata/RHSA-2026:99716
     - https://access.redhat.com/security/cve/CVE-2026-112315
     - https://bugzilla.redhat.com/show_bug.cgi?id=2479403
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112315
     - https://www.cve.org/CVERecord?id=CVE-2026-112315
     PublishedDate: '2026-11-09T19:16:40.077Z'
-    LastModifiedDate: '2026-11-12T17:17:22.227Z'
+    LastModifiedDate: '2026-11-13T13:17:41.65Z'
   - VulnerabilityID: CVE-2026-112316
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -102,14 +105,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:97811
     - https://access.redhat.com/errata/RHSA-2026:99624
     - https://access.redhat.com/errata/RHSA-2026:99625
+    - https://access.redhat.com/errata/RHSA-2026:99715
+    - https://access.redhat.com/errata/RHSA-2026:99716
     - https://access.redhat.com/security/cve/CVE-2026-112316
     - https://bugzilla.redhat.com/show_bug.cgi?id=2479331
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112316
     - https://www.cve.org/CVERecord?id=CVE-2026-112316
     PublishedDate: '2026-11-09T19:16:40.243Z'
-    LastModifiedDate: '2026-11-12T17:17:22.363Z'
+    LastModifiedDate: '2026-11-13T13:17:42.697Z'
   - VulnerabilityID: CVE-2026-112317
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -140,14 +146,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:97811
     - https://access.redhat.com/errata/RHSA-2026:99624
     - https://access.redhat.com/errata/RHSA-2026:99625
+    - https://access.redhat.com/errata/RHSA-2026:99715
+    - https://access.redhat.com/errata/RHSA-2026:99716
     - https://access.redhat.com/security/cve/CVE-2026-112317
     - https://bugzilla.redhat.com/show_bug.cgi?id=2479209
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112317
     - https://www.cve.org/CVERecord?id=CVE-2026-112317
     PublishedDate: '2026-11-09T19:16:40.407Z'
-    LastModifiedDate: '2026-11-12T17:17:22.53Z'
+    LastModifiedDate: '2026-11-13T13:17:43.77Z'
   - VulnerabilityID: CVE-2026-112318
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -178,14 +187,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:97811
     - https://access.redhat.com/errata/RHSA-2026:99624
     - https://access.redhat.com/errata/RHSA-2026:99625
+    - https://access.redhat.com/errata/RHSA-2026:99715
+    - https://access.redhat.com/errata/RHSA-2026:99716
     - https://access.redhat.com/security/cve/CVE-2026-112318
     - https://bugzilla.redhat.com/show_bug.cgi?id=2478792
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112318
     - https://www.cve.org/CVERecord?id=CVE-2026-112318
     PublishedDate: '2026-11-09T19:16:40.56Z'
-    LastModifiedDate: '2026-11-12T17:17:22.68Z'
+    LastModifiedDate: '2026-11-13T14:17:47.69Z'
   - VulnerabilityID: CVE-2026-112319
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -216,14 +228,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:97811
     - https://access.redhat.com/errata/RHSA-2026:99624
     - https://access.redhat.com/errata/RHSA-2026:99625
+    - https://access.redhat.com/errata/RHSA-2026:99715
+    - https://access.redhat.com/errata/RHSA-2026:99716
     - https://access.redhat.com/security/cve/CVE-2026-112319
     - https://bugzilla.redhat.com/show_bug.cgi?id=2478684
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112319
     - https://www.cve.org/CVERecord?id=CVE-2026-112319
     PublishedDate: '2026-11-09T19:16:40.727Z'
-    LastModifiedDate: '2026-11-12T17:17:22.83Z'
+    LastModifiedDate: '2026-11-13T13:17:44.057Z'
   - VulnerabilityID: CVE-2026-112320
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -254,14 +269,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:97811
     - https://access.redhat.com/errata/RHSA-2026:99624
     - https://access.redhat.com/errata/RHSA-2026:99625
+    - https://access.redhat.com/errata/RHSA-2026:99715
+    - https://access.redhat.com/errata/RHSA-2026:99716
     - https://access.redhat.com/security/cve/CVE-2026-112320
     - https://bugzilla.redhat.com/show_bug.cgi?id=2478449
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112320
     - https://www.cve.org/CVERecord?id=CVE-2026-112320
     PublishedDate: '2026-11-09T19:16:40.887Z'
-    LastModifiedDate: '2026-11-12T17:17:22.977Z'
+    LastModifiedDate: '2026-11-13T13:17:45.12Z'
   - VulnerabilityID: CVE-2026-112321
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -292,14 +310,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:97811
     - https://access.redhat.com/errata/RHSA-2026:99624
     - https://access.redhat.com/errata/RHSA-2026:99625
+    - https://access.redhat.com/errata/RHSA-2026:99715
+    - https://access.redhat.com/errata/RHSA-2026:99716
     - https://access.redhat.com/security/cve/CVE-2026-112321
     - https://bugzilla.redhat.com/show_bug.cgi?id=2478448
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112321
     - https://www.cve.org/CVERecord?id=CVE-2026-112321
     PublishedDate: '2026-11-09T19:16:41.05Z'
-    LastModifiedDate: '2026-11-12T17:17:23.127Z'
+    LastModifiedDate: '2026-11-13T13:17:46.167Z'
   - VulnerabilityID: CVE-2026-112322
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -330,14 +351,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:97811
     - https://access.redhat.com/errata/RHSA-2026:99624
     - https://access.redhat.com/errata/RHSA-2026:99625
+    - https://access.redhat.com/errata/RHSA-2026:99715
+    - https://access.redhat.com/errata/RHSA-2026:99716
     - https://access.redhat.com/security/cve/CVE-2026-112322
     - https://bugzilla.redhat.com/show_bug.cgi?id=2478445
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112322
     - https://www.cve.org/CVERecord?id=CVE-2026-112322
     PublishedDate: '2026-11-09T19:16:41.207Z'
-    LastModifiedDate: '2026-11-12T17:17:23.28Z'
+    LastModifiedDate: '2026-11-13T13:17:47.197Z'
   - VulnerabilityID: CVE-2026-112323
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -368,14 +392,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:97811
     - https://access.redhat.com/errata/RHSA-2026:99624
     - https://access.redhat.com/errata/RHSA-2026:99625
+    - https://access.redhat.com/errata/RHSA-2026:99715
+    - https://access.redhat.com/errata/RHSA-2026:99716
     - https://access.redhat.com/security/cve/CVE-2026-112323
     - https://bugzilla.redhat.com/show_bug.cgi?id=2478440
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112323
     - https://www.cve.org/CVERecord?id=CVE-2026-112323
     PublishedDate: '2026-11-09T19:16:41.36Z'
-    LastModifiedDate: '2026-11-12T17:17:23.43Z'
+    LastModifiedDate: '2026-11-13T13:17:48.237Z'
   - VulnerabilityID: CVE-2026-118380
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -437,14 +464,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:97811
     - https://access.redhat.com/errata/RHSA-2026:99624
     - https://access.redhat.com/errata/RHSA-2026:99625
+    - https://access.redhat.com/errata/RHSA-2026:99715
+    - https://access.redhat.com/errata/RHSA-2026:99716
     - https://access.redhat.com/security/cve/CVE-2026-119079
     - https://bugzilla.redhat.com/show_bug.cgi?id=2479231
     - https://nvd.nist.gov/vuln/detail/CVE-2026-119079
     - https://www.cve.org/CVERecord?id=CVE-2026-119079
     PublishedDate: '2026-11-09T19:16:43.023Z'
-    LastModifiedDate: '2026-11-12T17:17:26.85Z'
+    LastModifiedDate: '2026-11-13T13:17:53.137Z'
   - VulnerabilityID: CVE-2026-40355
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -491,6 +521,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:16799
     - https://access.redhat.com/errata/RHSA-2026:19357
     - https://access.redhat.com/security/cve/CVE-2026-40355
     - https://bugzilla.redhat.com/2463368
@@ -505,7 +536,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-40355
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-40356
     - https://errata.almalinux.org/9/ALSA-2026-19357.html
-    - https://errata.rockylinux.org/RLSA-2026:19357
+    - https://errata.rockylinux.org/RLSA-2026:16799
     - https://github.com/advisories/GHSA-8qgv-wm66-hrmc
     - https://github.com/krb5/krb5/commit/2e75f0d9362fb979f5fc92829431a590a130929f
     - https://linux.oracle.com/cve/CVE-2026-40355.html
@@ -563,6 +594,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:16799
     - https://access.redhat.com/errata/RHSA-2026:19357
     - https://access.redhat.com/security/cve/CVE-2026-40356
     - https://bugzilla.redhat.com/2463368
@@ -574,7 +606,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-40355
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-40356
     - https://errata.almalinux.org/9/ALSA-2026-19357.html
-    - https://errata.rockylinux.org/RLSA-2026:19357
+    - https://errata.rockylinux.org/RLSA-2026:16799
     - https://github.com/advisories/GHSA-f7p3-6rhj-p7jv
     - https://github.com/krb5/krb5/commit/2e75f0d9362fb979f5fc92829431a590a130929f
     - https://linux.oracle.com/cve/CVE-2026-40356.html
@@ -824,13 +856,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:97811
     - https://access.redhat.com/errata/RHSA-2026:99624
+    - https://access.redhat.com/errata/RHSA-2026:99625
+    - https://access.redhat.com/errata/RHSA-2026:99715
+    - https://access.redhat.com/errata/RHSA-2026:99716
     - https://access.redhat.com/security/cve/CVE-2026-112314
     - https://bugzilla.redhat.com/show_bug.cgi?id=2478446
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112314
     - https://www.cve.org/CVERecord?id=CVE-2026-112314
     PublishedDate: '2026-11-09T19:16:39.867Z'
-    LastModifiedDate: '2026-11-12T13:17:09.79Z'
+    LastModifiedDate: '2026-11-13T14:17:47.533Z'
   - VulnerabilityID: CVE-2026-107496
     PkgID: libcrypto3@3.5.9-r0
     PkgName: libcrypto3
@@ -889,14 +925,17 @@
       does not support arbitrary explicit EC domain parameters, so an order-1 group
       is rejected during key import before the vulnerable key generation path is
       reached.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-835
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://github.com/openssl/openssl/commit/36e15b618decdff1b116eead6747718e6e729ad2
     - https://github.com/openssl/openssl/commit/a0051cfe699bf5a047bc1c4faef65f80f7987366
     - https://github.com/openssl/openssl/commit/a8531368ddb1f86d2a2782a8b693926bb67b59e7
     - https://openssl-library.org/news/secadv/20261110.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-107496
     PublishedDate: '2026-11-10T19:18:02.583Z'
     LastModifiedDate: '2026-11-10T22:10:04.727Z'
   - VulnerabilityID: CVE-2026-88822
@@ -944,14 +983,17 @@
       FIPS impact: no
       The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are not affected by this CVE as
       the affected protocol is not implemented in the FIPS module.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-457
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://github.com/openssl/openssl/commit/1a73dc590cbad62d6f0329ea4779eadaa8d8fd75
     - https://github.com/openssl/openssl/commit/7b4f5344aa0401e7b777640050b5257ed2a70e88
     - https://github.com/openssl/openssl/commit/911eee8eb7550b95a206f1ad8cbdb986098982f3
     - https://openssl-library.org/news/secadv/20261110.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-88822
     PublishedDate: '2026-11-10T19:21:34.623Z'
     LastModifiedDate: '2026-11-10T22:10:04.727Z'
   - VulnerabilityID: CVE-2026-88823
@@ -1001,14 +1043,17 @@
       The FIPS modules are not affected, as AES-GCM-SIV is not a FIPS approved
       algorithm and is implemented only in the default provider, outside the
       OpenSSL FIPS module boundary.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-325
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://github.com/openssl/openssl/commit/159e1de0c448d7b9f09ad768c8e141def4aa1eb4
     - https://github.com/openssl/openssl/commit/2f5fc833ff9b5bfe00b32f8b5c74f73c5773c682
     - https://github.com/openssl/openssl/commit/6747b1a278816dd7db46438040a70b0b5e5e0a90
     - https://openssl-library.org/news/secadv/20261110.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-88823
     PublishedDate: '2026-11-10T19:21:34.847Z'
     LastModifiedDate: '2026-11-10T22:10:04.727Z'
   - VulnerabilityID: CVE-2026-95691
@@ -1056,14 +1101,17 @@
       FIPS impact: no
       The FIPS module is not affected as the QUIC implementation is outside of
       the OpenSSL FIPS module boundary.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-416
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://github.com/openssl/openssl/commit/dd90ceb99a3c2ddba336bb4a00be9ebabd84c2a1
     - https://github.com/openssl/openssl/commit/ec9d4de9d03989b29db5a3d7efdb4c285deaf386
     - https://github.com/openssl/openssl/commit/f6244675833e097c2429a40d1b206d95385bd42f
     - https://openssl-library.org/news/secadv/20261110.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-95691
     PublishedDate: '2026-11-10T19:21:39.377Z'
     LastModifiedDate: '2026-11-10T22:10:04.727Z'
   - VulnerabilityID: CVE-2026-95692
@@ -1122,14 +1170,17 @@
       FIPS impact: no
       The FIPS modules are not affected by this issue, as AES-GCM-SIV is not an
       approved algorithm.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-125
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://github.com/openssl/openssl/commit/257a3427aa0ef8d9dd2ef5b3e2d1c021a221b116
     - https://github.com/openssl/openssl/commit/510872388f5d145cf870868b3d288a23822cb776
     - https://github.com/openssl/openssl/commit/70a47ac78b6f3be1b22fb1551bd0bfcff4f29613
     - https://openssl-library.org/news/secadv/20261110.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-95692
     PublishedDate: '2026-11-10T19:21:39.53Z'
     LastModifiedDate: '2026-11-10T22:10:04.727Z'
   - VulnerabilityID: CVE-2026-113351
@@ -1367,14 +1418,17 @@
       does not support arbitrary explicit EC domain parameters, so an order-1 group
       is rejected during key import before the vulnerable key generation path is
       reached.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-835
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://github.com/openssl/openssl/commit/36e15b618decdff1b116eead6747718e6e729ad2
     - https://github.com/openssl/openssl/commit/a0051cfe699bf5a047bc1c4faef65f80f7987366
     - https://github.com/openssl/openssl/commit/a8531368ddb1f86d2a2782a8b693926bb67b59e7
     - https://openssl-library.org/news/secadv/20261110.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-107496
     PublishedDate: '2026-11-10T19:18:02.583Z'
     LastModifiedDate: '2026-11-10T22:10:04.727Z'
   - VulnerabilityID: CVE-2026-88822
@@ -1422,14 +1476,17 @@
       FIPS impact: no
       The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are not affected by this CVE as
       the affected protocol is not implemented in the FIPS module.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-457
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://github.com/openssl/openssl/commit/1a73dc590cbad62d6f0329ea4779eadaa8d8fd75
     - https://github.com/openssl/openssl/commit/7b4f5344aa0401e7b777640050b5257ed2a70e88
     - https://github.com/openssl/openssl/commit/911eee8eb7550b95a206f1ad8cbdb986098982f3
     - https://openssl-library.org/news/secadv/20261110.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-88822
     PublishedDate: '2026-11-10T19:21:34.623Z'
     LastModifiedDate: '2026-11-10T22:10:04.727Z'
   - VulnerabilityID: CVE-2026-88823
@@ -1479,14 +1536,17 @@
       The FIPS modules are not affected, as AES-GCM-SIV is not a FIPS approved
       algorithm and is implemented only in the default provider, outside the
       OpenSSL FIPS module boundary.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-325
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://github.com/openssl/openssl/commit/159e1de0c448d7b9f09ad768c8e141def4aa1eb4
     - https://github.com/openssl/openssl/commit/2f5fc833ff9b5bfe00b32f8b5c74f73c5773c682
     - https://github.com/openssl/openssl/commit/6747b1a278816dd7db46438040a70b0b5e5e0a90
     - https://openssl-library.org/news/secadv/20261110.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-88823
     PublishedDate: '2026-11-10T19:21:34.847Z'
     LastModifiedDate: '2026-11-10T22:10:04.727Z'
   - VulnerabilityID: CVE-2026-95691
@@ -1534,14 +1594,17 @@
       FIPS impact: no
       The FIPS module is not affected as the QUIC implementation is outside of
       the OpenSSL FIPS module boundary.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-416
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://github.com/openssl/openssl/commit/dd90ceb99a3c2ddba336bb4a00be9ebabd84c2a1
     - https://github.com/openssl/openssl/commit/ec9d4de9d03989b29db5a3d7efdb4c285deaf386
     - https://github.com/openssl/openssl/commit/f6244675833e097c2429a40d1b206d95385bd42f
     - https://openssl-library.org/news/secadv/20261110.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-95691
     PublishedDate: '2026-11-10T19:21:39.377Z'
     LastModifiedDate: '2026-11-10T22:10:04.727Z'
   - VulnerabilityID: CVE-2026-95692
@@ -1600,14 +1663,17 @@
       FIPS impact: no
       The FIPS modules are not affected by this issue, as AES-GCM-SIV is not an
       approved algorithm.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-125
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://github.com/openssl/openssl/commit/257a3427aa0ef8d9dd2ef5b3e2d1c021a221b116
     - https://github.com/openssl/openssl/commit/510872388f5d145cf870868b3d288a23822cb776
     - https://github.com/openssl/openssl/commit/70a47ac78b6f3be1b22fb1551bd0bfcff4f29613
     - https://openssl-library.org/news/secadv/20261110.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-95692
     PublishedDate: '2026-11-10T19:21:39.53Z'
     LastModifiedDate: '2026-11-10T22:10:04.727Z'
   - VulnerabilityID: CVE-2026-107496
@@ -1668,14 +1734,17 @@
       does not support arbitrary explicit EC domain parameters, so an order-1 group
       is rejected during key import before the vulnerable key generation path is
       reached.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-835
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://github.com/openssl/openssl/commit/36e15b618decdff1b116eead6747718e6e729ad2
     - https://github.com/openssl/openssl/commit/a0051cfe699bf5a047bc1c4faef65f80f7987366
     - https://github.com/openssl/openssl/commit/a8531368ddb1f86d2a2782a8b693926bb67b59e7
     - https://openssl-library.org/news/secadv/20261110.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-107496
     PublishedDate: '2026-11-10T19:18:02.583Z'
     LastModifiedDate: '2026-11-10T22:10:04.727Z'
   - VulnerabilityID: CVE-2026-88822
@@ -1723,14 +1792,17 @@
       FIPS impact: no
       The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are not affected by this CVE as
       the affected protocol is not implemented in the FIPS module.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-457
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://github.com/openssl/openssl/commit/1a73dc590cbad62d6f0329ea4779eadaa8d8fd75
     - https://github.com/openssl/openssl/commit/7b4f5344aa0401e7b777640050b5257ed2a70e88
     - https://github.com/openssl/openssl/commit/911eee8eb7550b95a206f1ad8cbdb986098982f3
     - https://openssl-library.org/news/secadv/20261110.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-88822
     PublishedDate: '2026-11-10T19:21:34.623Z'
     LastModifiedDate: '2026-11-10T22:10:04.727Z'
   - VulnerabilityID: CVE-2026-88823
@@ -1780,14 +1852,17 @@
       The FIPS modules are not affected, as AES-GCM-SIV is not a FIPS approved
       algorithm and is implemented only in the default provider, outside the
       OpenSSL FIPS module boundary.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-325
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://github.com/openssl/openssl/commit/159e1de0c448d7b9f09ad768c8e141def4aa1eb4
     - https://github.com/openssl/openssl/commit/2f5fc833ff9b5bfe00b32f8b5c74f73c5773c682
     - https://github.com/openssl/openssl/commit/6747b1a278816dd7db46438040a70b0b5e5e0a90
     - https://openssl-library.org/news/secadv/20261110.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-88823
     PublishedDate: '2026-11-10T19:21:34.847Z'
     LastModifiedDate: '2026-11-10T22:10:04.727Z'
   - VulnerabilityID: CVE-2026-95691
@@ -1835,14 +1910,17 @@
       FIPS impact: no
       The FIPS module is not affected as the QUIC implementation is outside of
       the OpenSSL FIPS module boundary.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-416
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://github.com/openssl/openssl/commit/dd90ceb99a3c2ddba336bb4a00be9ebabd84c2a1
     - https://github.com/openssl/openssl/commit/ec9d4de9d03989b29db5a3d7efdb4c285deaf386
     - https://github.com/openssl/openssl/commit/f6244675833e097c2429a40d1b206d95385bd42f
     - https://openssl-library.org/news/secadv/20261110.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-95691
     PublishedDate: '2026-11-10T19:21:39.377Z'
     LastModifiedDate: '2026-11-10T22:10:04.727Z'
   - VulnerabilityID: CVE-2026-95692
@@ -1901,14 +1979,17 @@
       FIPS impact: no
       The FIPS modules are not affected by this issue, as AES-GCM-SIV is not an
       approved algorithm.
-    Severity: UNKNOWN
+    Severity: MEDIUM
     CweIDs:
     - CWE-125
+    VendorSeverity:
+      ubuntu: 2
     References:
     - https://github.com/openssl/openssl/commit/257a3427aa0ef8d9dd2ef5b3e2d1c021a221b116
     - https://github.com/openssl/openssl/commit/510872388f5d145cf870868b3d288a23822cb776
     - https://github.com/openssl/openssl/commit/70a47ac78b6f3be1b22fb1551bd0bfcff4f29613
     - https://openssl-library.org/news/secadv/20261110.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-95692
     PublishedDate: '2026-11-10T19:21:39.53Z'
     LastModifiedDate: '2026-11-10T22:10:04.727Z'
   - VulnerabilityID: CVE-2026-114583
@@ -2063,6 +2144,7 @@
         V3Score: 6.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
+    - https://access.redhat.com/errata/RHSA-2026:85239
     - https://access.redhat.com/errata/RHSA-2026:89742
     - https://access.redhat.com/security/cve/CVE-2026-12345
     - https://bugzilla.redhat.com/2543492
@@ -2076,7 +2158,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
     - https://errata.almalinux.org/9/ALSA-2026-89742.html
-    - https://errata.rockylinux.org/RLSA-2026:89742
+    - https://errata.rockylinux.org/RLSA-2026:85239
     - https://github.com/python/cpython/commit/0478b52788117db4b831b3efd648f56b777628aa
     - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
     - https://github.com/python/cpython/commit/458e7134a5af7f86aee9d21b51cf499b41aa4420
@@ -2244,6 +2326,7 @@
         V3Score: 6.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
+    - https://access.redhat.com/errata/RHSA-2026:85239
     - https://access.redhat.com/errata/RHSA-2026:89742
     - https://access.redhat.com/security/cve/CVE-2026-12345
     - https://bugzilla.redhat.com/2543492
@@ -2257,7 +2340,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
     - https://errata.almalinux.org/9/ALSA-2026-89742.html
-    - https://errata.rockylinux.org/RLSA-2026:89742
+    - https://errata.rockylinux.org/RLSA-2026:85239
     - https://github.com/python/cpython/commit/0478b52788117db4b831b3efd648f56b777628aa
     - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
     - https://github.com/python/cpython/commit/458e7134a5af7f86aee9d21b51cf499b41aa4420
@@ -2425,6 +2508,7 @@
         V3Score: 6.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
+    - https://access.redhat.com/errata/RHSA-2026:85239
     - https://access.redhat.com/errata/RHSA-2026:89742
     - https://access.redhat.com/security/cve/CVE-2026-12345
     - https://bugzilla.redhat.com/2543492
@@ -2438,7 +2522,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
     - https://errata.almalinux.org/9/ALSA-2026-89742.html
-    - https://errata.rockylinux.org/RLSA-2026:89742
+    - https://errata.rockylinux.org/RLSA-2026:85239
     - https://github.com/python/cpython/commit/0478b52788117db4b831b3efd648f56b777628aa
     - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
     - https://github.com/python/cpython/commit/458e7134a5af7f86aee9d21b51cf499b41aa4420
@@ -2606,6 +2690,7 @@
         V3Score: 6.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
+    - https://access.redhat.com/errata/RHSA-2026:85239
     - https://access.redhat.com/errata/RHSA-2026:89742
     - https://access.redhat.com/security/cve/CVE-2026-12345
     - https://bugzilla.redhat.com/2543492
@@ -2619,7 +2704,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
     - https://errata.almalinux.org/9/ALSA-2026-89742.html
-    - https://errata.rockylinux.org/RLSA-2026:89742
+    - https://errata.rockylinux.org/RLSA-2026:85239
     - https://github.com/python/cpython/commit/0478b52788117db4b831b3efd648f56b777628aa
     - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
     - https://github.com/python/cpython/commit/458e7134a5af7f86aee9d21b51cf499b41aa4420
