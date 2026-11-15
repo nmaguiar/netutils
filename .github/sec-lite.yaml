@@ -156,7 +156,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112317
     - https://www.cve.org/CVERecord?id=CVE-2026-112317
     PublishedDate: '2026-11-09T19:16:40.407Z'
-    LastModifiedDate: '2026-11-13T13:17:43.77Z'
+    LastModifiedDate: '2026-11-14T02:16:46.1Z'
   - VulnerabilityID: CVE-2026-112318
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -402,7 +402,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112323
     - https://www.cve.org/CVERecord?id=CVE-2026-112323
     PublishedDate: '2026-11-09T19:16:41.36Z'
-    LastModifiedDate: '2026-11-13T13:17:48.237Z'
+    LastModifiedDate: '2026-11-14T02:16:46.623Z'
   - VulnerabilityID: CVE-2026-118380
     PkgID: krb5-libs@1.22.2-r1
     PkgName: krb5-libs
@@ -1676,6 +1676,79 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-95692
     PublishedDate: '2026-11-10T19:21:39.53Z'
     LastModifiedDate: '2026-11-10T22:10:04.727Z'
+  - VulnerabilityID: CVE-2026-86144
+    PkgID: libxml2@2.13.9-r2
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r2?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: 9f178a80be2c8448
+    InstalledVersion: 2.13.9-r2
+    FixedVersion: 2.13.9-r3
+    Status: fixed
+    Layer:
+      Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a4489095da1010f5b0ac28f
+      DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec7d178d228448d8a4bb0a
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86144
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:c75850bb9b7e3daa2065c66d4edfdd5f02893ef8e580cf6cbbe227b5bcfc14e2
+    Title: 'libxml2: libxml2: Information disclosure, SSRF, or denial of service due to improper parseFlags propagation.'
+    Description: In xinclude in libxml2 before 2.15.4, xmlXIncludeProcess and xmlXIncludeProcessTree do not propagate parseFlags. This has security relevance for, for example, the XML_PARSE_NONET flag, if (without it) a custom resource loader accesses the internet and triggers XML external entity injection, SSRF, or a denial of service (e.g., for an attacker-controlled internet resource that is intentionally slow).
+    Severity: HIGH
+    CweIDs:
+    - CWE-669
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      azure: 2
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 2
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L
+        V3Score: 5.6
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:71585
+    - https://access.redhat.com/errata/RHSA-2026:71641
+    - https://access.redhat.com/security/cve/CVE-2026-86144
+    - https://bugzilla.redhat.com/2528986
+    - https://bugzilla.redhat.com/2528987
+    - https://bugzilla.redhat.com/2528989
+    - https://bugzilla.redhat.com/2528990
+    - https://bugzilla.redhat.com/2528992
+    - https://bugzilla.redhat.com/2529697
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528986
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528987
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528989
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528992
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2529697
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-74860
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86143
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86144
+    - https://errata.almalinux.org/9/ALSA-2026-71585.html
+    - https://errata.rockylinux.org/RLSA-2026:71641
+    - https://github.com/GNOME/libxml2/commit/b63cd517afecb76582dd9488c55e54ceaf50de61
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://linux.oracle.com/cve/CVE-2026-86144.html
+    - https://linux.oracle.com/errata/ELSA-2026-71641.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86144
+    - https://ubuntu.com/security/notices/USN-8910-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-86144
+    PublishedDate: '2026-09-05T05:17:13.407Z'
+    LastModifiedDate: '2026-09-15T19:20:15.06Z'
   - VulnerabilityID: CVE-2026-107496
     PkgID: openssl@3.5.9-r0
     PkgName: openssl
@@ -2022,6 +2095,7 @@
       amazon: 2
       azure: 2
       bitnami: 2
+      oracle-oval: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -2040,6 +2114,8 @@
     - https://github.com/python/cpython/commit/f4401da82e2baec5dab06cf070fbca77d53220f0
     - https://github.com/python/cpython/issues/160097
     - https://github.com/python/cpython/pull/160098
+    - https://linux.oracle.com/cve/CVE-2026-114583.html
+    - https://linux.oracle.com/errata/ELSA-2026-99691.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114583
     - https://www.cve.org/CVERecord?id=CVE-2026-114583
@@ -2204,6 +2280,7 @@
       amazon: 2
       azure: 2
       bitnami: 2
+      oracle-oval: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -2222,6 +2299,8 @@
     - https://github.com/python/cpython/commit/f4401da82e2baec5dab06cf070fbca77d53220f0
     - https://github.com/python/cpython/issues/160097
     - https://github.com/python/cpython/pull/160098
+    - https://linux.oracle.com/cve/CVE-2026-114583.html
+    - https://linux.oracle.com/errata/ELSA-2026-99691.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114583
     - https://www.cve.org/CVERecord?id=CVE-2026-114583
@@ -2386,6 +2465,7 @@
       amazon: 2
       azure: 2
       bitnami: 2
+      oracle-oval: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -2404,6 +2484,8 @@
     - https://github.com/python/cpython/commit/f4401da82e2baec5dab06cf070fbca77d53220f0
     - https://github.com/python/cpython/issues/160097
     - https://github.com/python/cpython/pull/160098
+    - https://linux.oracle.com/cve/CVE-2026-114583.html
+    - https://linux.oracle.com/errata/ELSA-2026-99691.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114583
     - https://www.cve.org/CVERecord?id=CVE-2026-114583
@@ -2568,6 +2650,7 @@
       amazon: 2
       azure: 2
       bitnami: 2
+      oracle-oval: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -2586,6 +2669,8 @@
     - https://github.com/python/cpython/commit/f4401da82e2baec5dab06cf070fbca77d53220f0
     - https://github.com/python/cpython/issues/160097
     - https://github.com/python/cpython/pull/160098
+    - https://linux.oracle.com/cve/CVE-2026-114583.html
+    - https://linux.oracle.com/errata/ELSA-2026-99691.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-114583
     - https://www.cve.org/CVERecord?id=CVE-2026-114583
