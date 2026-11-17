@@ -536,10 +536,12 @@
                               │                   crash due to runtime panic if its handler reads the request
                               │                   body concurrently with writing the response header. 
                               ├ Severity        : UNKNOWN 
+                              ├ CweIDs           ╭ [0]: CWE-362 
+                              │                  ╰ [1]: CWE-820 
                               ├ References       ╭ [0]: https://go.dev/cl/862185 
                               │                  ├ [1]: https://go.dev/issue/82563 
                               │                  ├ [2]: https://groups.google.com/g/golang-announce/c/iY8TY0wWgbM 
                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6859 
                               ├ PublishedDate   : 2026-11-11T05:19:58.943Z 
-                              ╰ LastModifiedDate: 2026-11-12T22:09:39.233Z 
+                              ╰ LastModifiedDate: 2026-11-16T16:17:56.29Z 
 ```
