@@ -1,8 +1,106 @@
 ```yaml
-╭ [0] ╭ Target  : nmaguiar/netutils:build-lite (alpine 3.25.0_alpha20260805) 
-│     ├ Class   : os-pkgs 
-│     ├ Type    : alpine 
-│     ╰ Packages 
+╭ [0] ╭ Target         : nmaguiar/netutils:build-lite (alpine 3.25.0_alpha20260805) 
+│     ├ Class          : os-pkgs 
+│     ├ Type           : alpine 
+│     ├ Packages        
+│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2026-127039 
+│                       │     ├ PkgID           : gnutls@3.8.13-r0 
+│                       │     ├ PkgName         : gnutls 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/gnutls@3.8.13-r0?arch=x86_64&distro=3.2
+│                       │     │                  │       5.0_alpha20260805 
+│                       │     │                  ╰ UID : fcf55f3020020a38 
+│                       │     ├ InstalledVersion: 3.8.13-r0 
+│                       │     ├ FixedVersion    : 3.8.14-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:9466884d0cd4bfa169ec7574d37b01bf76fff59573be7
+│                       │     │                  │         0c6fc296efd7672c054 
+│                       │     │                  ╰ DiffID: sha256:d69c5e987d8f13731d0b3f766d0b2cb7f5293624bf701
+│                       │     │                            2bb16a13f098ff58e1a 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-127039 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:8e584a49c2fbe06686728081cbd4349be2bd8ed72137afc381618f
+│                       │     │                   5b57549802 
+│                       │     ├ Title           : [GNUTLS-SA-2026-11-18-1] 
+│                       │     ├ Description     : The certificate authentication info handling in gnutls from
+│                       │     │                   2.5.9 up to 3.8.13 does not reset the certificate count and
+│                       │     │                   list pointer when re-allocation of raw_certificate_list
+│                       │     │                   fails, which allows remote attackers to cause a denial of
+│                       │     │                   service for a peer under heap pressure. 
+│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ CweIDs           ─ [0]: CWE-476 
+│                       │     ├ References       ╭ [0]: https://gitlab.com/gnutls/gnutls/-/work_items/1863 
+│                       │     │                  ╰ [1]: https://gnutls.org/security-new.html 
+│                       │     ├ PublishedDate   : 2026-11-19T00:17:41.443Z 
+│                       │     ╰ LastModifiedDate: 2026-11-19T16:19:41.727Z 
+│                       ├ [1] ╭ VulnerabilityID : CVE-2026-127040 
+│                       │     ├ PkgID           : gnutls@3.8.13-r0 
+│                       │     ├ PkgName         : gnutls 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/gnutls@3.8.13-r0?arch=x86_64&distro=3.2
+│                       │     │                  │       5.0_alpha20260805 
+│                       │     │                  ╰ UID : fcf55f3020020a38 
+│                       │     ├ InstalledVersion: 3.8.13-r0 
+│                       │     ├ FixedVersion    : 3.8.14-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:9466884d0cd4bfa169ec7574d37b01bf76fff59573be7
+│                       │     │                  │         0c6fc296efd7672c054 
+│                       │     │                  ╰ DiffID: sha256:d69c5e987d8f13731d0b3f766d0b2cb7f5293624bf701
+│                       │     │                            2bb16a13f098ff58e1a 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-127040 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:00b096ec4be7e958e2f2dfe4f57e5b150814f45a11f29a73fbc4f1
+│                       │     │                   4a9c82554a 
+│                       │     ├ Title           : [GNUTLS-SA-2026-11-18-2] 
+│                       │     ├ Description     : The RSA-PSK ClientKeyExchange handler in gnutls before 3.8.14
+│                       │     │                    does not return after detecting a memory allocation failure
+│                       │     │                   when copying the PSK username, which allows remote attackers
+│                       │     │                   to cause a denial of service for a peer under heap
+│                       │     │                   pressure. 
+│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ CweIDs           ─ [0]: CWE-476 
+│                       │     ├ References       ╭ [0]: https://gitlab.com/gnutls/gnutls/-/work_items/1868 
+│                       │     │                  ╰ [1]: https://gnutls.org/security-new.html 
+│                       │     ├ PublishedDate   : 2026-11-19T00:17:41.597Z 
+│                       │     ╰ LastModifiedDate: 2026-11-19T16:19:42.75Z 
+│                       ╰ [2] ╭ VulnerabilityID : CVE-2026-127231 
+│                             ├ PkgID           : gnutls@3.8.13-r0 
+│                             ├ PkgName         : gnutls 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/gnutls@3.8.13-r0?arch=x86_64&distro=3.2
+│                             │                  │       5.0_alpha20260805 
+│                             │                  ╰ UID : fcf55f3020020a38 
+│                             ├ InstalledVersion: 3.8.13-r0 
+│                             ├ FixedVersion    : 3.8.14-r0 
+│                             ├ Status          : fixed 
+│                             ├ Layer            ╭ Digest: sha256:9466884d0cd4bfa169ec7574d37b01bf76fff59573be7
+│                             │                  │         0c6fc296efd7672c054 
+│                             │                  ╰ DiffID: sha256:d69c5e987d8f13731d0b3f766d0b2cb7f5293624bf701
+│                             │                            2bb16a13f098ff58e1a 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-127231 
+│                             ├ DataSource       ╭ ID  : alpine 
+│                             │                  ├ Name: Alpine Secdb 
+│                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                             ├ Fingerprint     : sha256:8982f6d454c436f03267b52a2c7ccc996831ea2f0720a1a781d82d
+│                             │                   5630683d2d 
+│                             ├ Title           : [GNUTLS-SA-2026-11-18-3] 
+│                             ├ Description     : A double free in the X.509 name constraints enforcement of
+│                             │                   GnuTLS 3.8.13 on all platforms allows a remote attacker to
+│                             │                   cause a denial of service (application crash) via a
+│                             │                   certificate chain containing a NameConstraints extension
+│                             │                   processed while the application is under memory pressure.
+│                             │                   When an already populated name constraints object is
+│                             │                   reinitialized, previously freed list pointers are not
+│                             │                   cleared, so a memory allocation failure precisely at
+│                             │                   reinitialization leaves a dangling pointer that is freed
+│                             │                   again during a later cleanup. 
+│                             ├ Severity        : UNKNOWN 
+│                             ├ CweIDs           ─ [0]: CWE-415 
+│                             ├ References       ╭ [0]: https://gitlab.com/gnutls/gnutls/-/work_items/1906 
+│                             │                  ╰ [1]: https://gnutls.org/security-new.html 
+│                             ├ PublishedDate   : 2026-11-19T00:17:41.717Z 
+│                             ╰ LastModifiedDate: 2026-11-19T16:19:44.783Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
