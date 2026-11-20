@@ -102,6 +102,7 @@
     CweIDs:
     - CWE-427
     VendorSeverity:
+      alma: 3
       amazon: 3
       ghsa: 3
       oracle-oval: 3
@@ -121,13 +122,16 @@
     - https://access.redhat.com/errata/RHSA-2026:42852
     - https://access.redhat.com/errata/RHSA-2026:44622
     - https://access.redhat.com/errata/RHSA-2026:51057
+    - https://access.redhat.com/errata/RHSA-2026:97229
     - https://access.redhat.com/errata/RHSA-2026:97562
     - https://access.redhat.com/security/cve/CVE-2026-41567
+    - https://bugzilla.redhat.com/2485356
     - https://bugzilla.redhat.com/show_bug.cgi?id=2467822
     - https://bugzilla.redhat.com/show_bug.cgi?id=2485356
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33811
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-41567
+    - https://errata.almalinux.org/10/ALSA-2026-97229.html
     - https://errata.rockylinux.org/RLSA-2026:97562
     - https://github.com/moby/moby
     - https://github.com/moby/moby/security/advisories/GHSA-x86f-5xw2-fm2r
@@ -479,12 +483,12 @@
     Fingerprint: sha256:e9c2cbf338c3d49ed66e528398829f1660344310af1c5e78241b66f2539f481f
     Title: For HTTP/1 servers, when MaxBytesReader's limit is exceeded, "Connecti ...
     Description: 'For HTTP/1 servers, when MaxBytesReader''s limit is exceeded, "Connection: close" header is automatically set without synchronization, which might race with another header being set explicitly in the server handler. As a result, an HTTP/1 server that utilizes MaxBytesReader or MaxBytesHandler can crash due to runtime panic if its handler reads the request body concurrently with writing the response header.'
-    Severity: MEDIUM
+    Severity: HIGH
     CweIDs:
     - CWE-362
     - CWE-820
     VendorSeverity:
-      amazon: 2
+      amazon: 3
     References:
     - https://go.dev/cl/862185
     - https://go.dev/issue/82563
