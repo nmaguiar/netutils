@@ -136,7 +136,8 @@
 │                       │     │                   images 
 │                       │     ├ Severity        : HIGH 
 │                       │     ├ CweIDs           ─ [0]: CWE-427 
-│                       │     ├ VendorSeverity   ╭ amazon     : 3 
+│                       │     ├ VendorSeverity   ╭ alma       : 3 
+│                       │     │                  ├ amazon     : 3 
 │                       │     │                  ├ ghsa       : 3 
 │                       │     │                  ├ oracle-oval: 3 
 │                       │     │                  ├ photon     : 3 
@@ -153,25 +154,28 @@
 │                       │     │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:42852 
 │                       │     │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:44622 
 │                       │     │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:51057 
-│                       │     │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:97562 
-│                       │     │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2026-41567 
-│                       │     │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2467822 
-│                       │     │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2485356 
-│                       │     │                  ├ [9] : https://creativecommons.org/licenses/by/4.0/ 
-│                       │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
+│                       │     │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:97229 
+│                       │     │                  ├ [6] : https://access.redhat.com/errata/RHSA-2026:97562 
+│                       │     │                  ├ [7] : https://access.redhat.com/security/cve/CVE-2026-41567 
+│                       │     │                  ├ [8] : https://bugzilla.redhat.com/2485356 
+│                       │     │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2467822 
+│                       │     │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2485356 
+│                       │     │                  ├ [11]: https://creativecommons.org/licenses/by/4.0/ 
+│                       │     │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
 │                       │     │                  │       6-33811 
-│                       │     │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
+│                       │     │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
 │                       │     │                  │       6-41567 
-│                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2026:97562 
-│                       │     │                  ├ [13]: https://github.com/moby/moby 
-│                       │     │                  ├ [14]: https://github.com/moby/moby/security/advisories/GHSA-
+│                       │     │                  ├ [14]: https://errata.almalinux.org/10/ALSA-2026-97229.html 
+│                       │     │                  ├ [15]: https://errata.rockylinux.org/RLSA-2026:97562 
+│                       │     │                  ├ [16]: https://github.com/moby/moby 
+│                       │     │                  ├ [17]: https://github.com/moby/moby/security/advisories/GHSA-
 │                       │     │                  │       x86f-5xw2-fm2r 
-│                       │     │                  ├ [15]: https://linux.oracle.com/cve/CVE-2026-41567.html 
-│                       │     │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2026-97562.html 
-│                       │     │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2026-41567 
-│                       │     │                  ├ [18]: https://security.access.redhat.com/data/csaf/v2/vex/20
+│                       │     │                  ├ [18]: https://linux.oracle.com/cve/CVE-2026-41567.html 
+│                       │     │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2026-97562.html 
+│                       │     │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2026-41567 
+│                       │     │                  ├ [21]: https://security.access.redhat.com/data/csaf/v2/vex/20
 │                       │     │                  │       26/cve-2026-41567.json 
-│                       │     │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2026-41567 
+│                       │     │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2026-41567 
 │                       │     ├ PublishedDate   : 2026-06-05T02:17:13.817Z 
 │                       │     ╰ LastModifiedDate: 2026-09-09T13:19:53.313Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2026-42306 
@@ -550,10 +554,10 @@
                               │                   server that utilizes MaxBytesReader or MaxBytesHandler can
                               │                   crash due to runtime panic if its handler reads the request
                               │                   body concurrently with writing the response header. 
-                              ├ Severity        : MEDIUM 
+                              ├ Severity        : HIGH 
                               ├ CweIDs           ╭ [0]: CWE-362 
                               │                  ╰ [1]: CWE-820 
-                              ├ VendorSeverity   ─ amazon: 2 
+                              ├ VendorSeverity   ─ amazon: 3 
                               ├ References       ╭ [0]: https://go.dev/cl/862185 
                               │                  ├ [1]: https://go.dev/issue/82563 
                               │                  ├ [2]: https://groups.google.com/g/golang-announce/c/iY8TY0wWgbM 
