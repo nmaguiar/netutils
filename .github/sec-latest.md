@@ -550,10 +550,10 @@
 │                             │                   server that utilizes MaxBytesReader or MaxBytesHandler can
 │                             │                   crash due to runtime panic if its handler reads the request
 │                             │                   body concurrently with writing the response header. 
-│                             ├ Severity        : HIGH 
+│                             ├ Severity        : MEDIUM 
 │                             ├ CweIDs           ╭ [0]: CWE-362 
 │                             │                  ╰ [1]: CWE-820 
-│                             ├ VendorSeverity   ─ amazon: 3 
+│                             ├ VendorSeverity   ─ amazon: 2 
 │                             ├ References       ╭ [0]: https://go.dev/cl/862185 
 │                             │                  ├ [1]: https://go.dev/issue/82563 
 │                             │                  ├ [2]: https://groups.google.com/g/golang-announce/c/iY8TY0wWgbM 
@@ -625,7 +625,7 @@
                         │      │                  │       aQek 
                         │      │                  ├ [13]: https://groups.google.com/g/golang-nuts/c/K22sG2AYnKU 
                         │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-111943.html 
-                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-97877.html 
+                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-98539.html 
                         │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-111943 
                         │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2026-6809 
                         │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2026-111943 
@@ -709,7 +709,7 @@
                         │      │                  ├ [29]: https://groups.google.com/g/golang-announce/c/U2fTuyD
                         │      │                  │       JznI 
                         │      │                  ├ [30]: https://linux.oracle.com/cve/CVE-2026-78667.html 
-                        │      │                  ├ [31]: https://linux.oracle.com/errata/ELSA-2026-95519.html 
+                        │      │                  ├ [31]: https://linux.oracle.com/errata/ELSA-2026-98502.html 
                         │      │                  ├ [32]: https://nvd.nist.gov/vuln/detail/CVE-2026-78667 
                         │      │                  ├ [33]: https://pkg.go.dev/vuln/GO-2026-6609 
                         │      │                  ├ [34]: https://ubuntu.com/security/notices/USN-8935-1 
@@ -892,52 +892,13 @@
                         │      │                  ├ [28]: https://groups.google.com/g/golang-announce/c/U2fTuyD
                         │      │                  │       JznI 
                         │      │                  ├ [29]: https://linux.oracle.com/cve/CVE-2026-97031.html 
-                        │      │                  ├ [30]: https://linux.oracle.com/errata/ELSA-2026-97877.html 
+                        │      │                  ├ [30]: https://linux.oracle.com/errata/ELSA-2026-98502.html 
                         │      │                  ├ [31]: https://nvd.nist.gov/vuln/detail/CVE-2026-97031 
                         │      │                  ├ [32]: https://pkg.go.dev/vuln/GO-2026-6607 
                         │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2026-97031 
                         │      ├ PublishedDate   : 2026-10-08T23:17:06.037Z 
                         │      ╰ LastModifiedDate: 2026-10-09T16:35:35.9Z 
-                        ├ [4]  ╭ VulnerabilityID : CVE-2026-97054 
-                        │      ├ VendorIDs        ─ [0]: GO-2026-6859 
-                        │      ├ PkgID           : stdlib@v1.27.1 
-                        │      ├ PkgName         : stdlib 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.27.1 
-                        │      │                  ╰ UID : c9698e88b56a1f6e 
-                        │      ├ InstalledVersion: v1.27.1 
-                        │      ├ FixedVersion    : 1.26.11, 1.27.4 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:6f3dfcf075d8901601865574f47b0666219f85a9166b
-                        │      │                  │         21e6f50baec8f57d1d29 
-                        │      │                  ╰ DiffID: sha256:69ab8f1e324dfb8fa6b0a225934cb1475ed8ee658047
-                        │      │                            85492b8a8638e930d7a9 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-97054 
-                        │      ├ DataSource       ╭ ID  : govulndb 
-                        │      │                  ├ Name: The Go Vulnerability Database 
-                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                        │      ├ Fingerprint     : sha256:70185fcf88767392ed14758c383e418d22be68261093809d38d3b
-                        │      │                   52f46d42bf9 
-                        │      ├ Title           : For HTTP/1 servers, when MaxBytesReader's limit is exceeded,
-                        │      │                    "Connecti ... 
-                        │      ├ Description     : For HTTP/1 servers, when MaxBytesReader's limit is exceeded,
-                        │      │                    "Connection: close" header is automatically set without
-                        │      │                   synchronization, which might race with another header being
-                        │      │                   set explicitly in the server handler. As a result, an HTTP/1
-                        │      │                    server that utilizes MaxBytesReader or MaxBytesHandler can
-                        │      │                   crash due to runtime panic if its handler reads the request
-                        │      │                   body concurrently with writing the response header. 
-                        │      ├ Severity        : HIGH 
-                        │      ├ CweIDs           ╭ [0]: CWE-362 
-                        │      │                  ╰ [1]: CWE-820 
-                        │      ├ VendorSeverity   ─ amazon: 3 
-                        │      ├ References       ╭ [0]: https://go.dev/cl/862185 
-                        │      │                  ├ [1]: https://go.dev/issue/82563 
-                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/iY8TY0wW
-                        │      │                  │      gbM 
-                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6859 
-                        │      ├ PublishedDate   : 2026-11-11T05:19:58.943Z 
-                        │      ╰ LastModifiedDate: 2026-11-16T16:17:56.29Z 
-                        ├ [5]  ╭ VulnerabilityID : CVE-2026-56866 
+                        ├ [4]  ╭ VulnerabilityID : CVE-2026-56866 
                         │      ├ VendorIDs        ─ [0]: GO-2026-6605 
                         │      ├ PkgID           : stdlib@v1.27.1 
                         │      ├ PkgName         : stdlib 
@@ -1053,7 +1014,7 @@
                         │      │                          8/9 
                         │      ├ PublishedDate   : 2026-10-08T23:17:01.62Z 
                         │      ╰ LastModifiedDate: 2026-10-09T16:35:35.9Z 
-                        ├ [6]  ╭ VulnerabilityID : CVE-2026-78659 
+                        ├ [5]  ╭ VulnerabilityID : CVE-2026-78659 
                         │      ├ VendorIDs        ─ [0]: GO-2026-6603 
                         │      ├ PkgID           : stdlib@v1.27.1 
                         │      ├ PkgName         : stdlib 
@@ -1172,7 +1133,7 @@
                         │      │                          8/9 
                         │      ├ PublishedDate   : 2026-10-08T23:17:03.27Z 
                         │      ╰ LastModifiedDate: 2026-10-09T16:35:35.9Z 
-                        ├ [7]  ╭ VulnerabilityID : CVE-2026-78660 
+                        ├ [6]  ╭ VulnerabilityID : CVE-2026-78660 
                         │      ├ VendorIDs        ─ [0]: GO-2026-6610 
                         │      ├ PkgID           : stdlib@v1.27.1 
                         │      ├ PkgName         : stdlib 
@@ -1284,7 +1245,7 @@
                         │      │                          8/9 
                         │      ├ PublishedDate   : 2026-10-08T23:17:03.51Z 
                         │      ╰ LastModifiedDate: 2026-10-09T17:16:49.243Z 
-                        ├ [8]  ╭ VulnerabilityID : CVE-2026-78663 
+                        ├ [7]  ╭ VulnerabilityID : CVE-2026-78663 
                         │      ├ VendorIDs        ─ [0]: GO-2026-6612 
                         │      ├ PkgID           : stdlib@v1.27.1 
                         │      ├ PkgName         : stdlib 
@@ -1318,7 +1279,7 @@
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-675 
                         │      ├ VendorSeverity   ╭ alma   : 3 
-                        │      │                  ├ amazon : 3 
+                        │      │                  ├ amazon : 2 
                         │      │                  ├ azure  : 3 
                         │      │                  ├ bitnami: 4 
                         │      │                  ├ redhat : 2 
@@ -1400,7 +1361,7 @@
                         │      │                          8/9 
                         │      ├ PublishedDate   : 2026-10-08T23:17:03.647Z 
                         │      ╰ LastModifiedDate: 2026-10-09T17:16:49.42Z 
-                        ├ [9]  ╭ VulnerabilityID : CVE-2026-94439 
+                        ├ [8]  ╭ VulnerabilityID : CVE-2026-94439 
                         │      ├ VendorIDs        ─ [0]: GO-2026-6613 
                         │      ├ PkgID           : stdlib@v1.27.1 
                         │      ├ PkgName         : stdlib 
@@ -1434,7 +1395,7 @@
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-444 
                         │      ├ VendorSeverity   ╭ alma   : 3 
-                        │      │                  ├ amazon : 3 
+                        │      │                  ├ amazon : 2 
                         │      │                  ├ bitnami: 3 
                         │      │                  ├ redhat : 2 
                         │      │                  ├ rocky  : 3 
@@ -1512,7 +1473,7 @@
                         │      │                          8/9 
                         │      ├ PublishedDate   : 2026-10-08T23:17:04.76Z 
                         │      ╰ LastModifiedDate: 2026-10-09T17:16:50.703Z 
-                        ├ [10] ╭ VulnerabilityID : CVE-2026-94440 
+                        ├ [9]  ╭ VulnerabilityID : CVE-2026-94440 
                         │      ├ VendorIDs        ─ [0]: GO-2026-6608 
                         │      ├ PkgID           : stdlib@v1.27.1 
                         │      ├ PkgName         : stdlib 
@@ -1590,7 +1551,7 @@
                         │      │                  ├ [29]: https://groups.google.com/g/golang-announce/c/U2fTuyD
                         │      │                  │       JznI 
                         │      │                  ├ [30]: https://linux.oracle.com/cve/CVE-2026-94440.html 
-                        │      │                  ├ [31]: https://linux.oracle.com/errata/ELSA-2026-95519.html 
+                        │      │                  ├ [31]: https://linux.oracle.com/errata/ELSA-2026-98502.html 
                         │      │                  ├ [32]: https://nvd.nist.gov/vuln/detail/CVE-2026-94440 
                         │      │                  ├ [33]: https://pkg.go.dev/vuln/GO-2026-6608 
                         │      │                  ├ [34]: https://ubuntu.com/security/notices/USN-8935-1 
@@ -1599,7 +1560,7 @@
                         │      │                          8/9 
                         │      ├ PublishedDate   : 2026-10-08T23:17:04.917Z 
                         │      ╰ LastModifiedDate: 2026-10-09T17:16:50.907Z 
-                        ├ [11] ╭ VulnerabilityID : CVE-2026-94448 
+                        ├ [10] ╭ VulnerabilityID : CVE-2026-94448 
                         │      ├ VendorIDs        ─ [0]: GO-2026-6599 
                         │      ├ PkgID           : stdlib@v1.27.1 
                         │      ├ PkgName         : stdlib 
@@ -1629,7 +1590,7 @@
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-79 
                         │      ├ VendorSeverity   ╭ alma   : 3 
-                        │      │                  ├ amazon : 3 
+                        │      │                  ├ amazon : 2 
                         │      │                  ├ bitnami: 2 
                         │      │                  ├ redhat : 2 
                         │      │                  ╰ rocky  : 3 
@@ -1702,7 +1663,7 @@
                         │      │                  ╰ [44]: https://www.cve.org/CVERecord?id=CVE-2026-94448 
                         │      ├ PublishedDate   : 2026-10-08T23:17:05.3Z 
                         │      ╰ LastModifiedDate: 2026-10-15T16:18:24.327Z 
-                        ├ [12] ╭ VulnerabilityID : CVE-2026-97030 
+                        ├ [11] ╭ VulnerabilityID : CVE-2026-97030 
                         │      ├ VendorIDs        ─ [0]: GO-2026-6600 
                         │      ├ PkgID           : stdlib@v1.27.1 
                         │      ├ PkgName         : stdlib 
@@ -1730,7 +1691,7 @@
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-79 
                         │      ├ VendorSeverity   ╭ alma   : 3 
-                        │      │                  ├ amazon : 3 
+                        │      │                  ├ amazon : 2 
                         │      │                  ├ bitnami: 2 
                         │      │                  ├ redhat : 2 
                         │      │                  ╰ rocky  : 3 
@@ -1803,7 +1764,7 @@
                         │      │                  ╰ [44]: https://www.cve.org/CVERecord?id=CVE-2026-97030 
                         │      ├ PublishedDate   : 2026-10-08T23:17:05.91Z 
                         │      ╰ LastModifiedDate: 2026-10-15T16:18:24.817Z 
-                        ├ [13] ╭ VulnerabilityID : CVE-2026-97032 
+                        ├ [12] ╭ VulnerabilityID : CVE-2026-97032 
                         │      ├ VendorIDs        ─ [0]: GO-2026-6617 
                         │      ├ PkgID           : stdlib@v1.27.1 
                         │      ├ PkgName         : stdlib 
@@ -1919,6 +1880,45 @@
                         │      │                          8/9 
                         │      ├ PublishedDate   : 2026-10-08T23:17:06.213Z 
                         │      ╰ LastModifiedDate: 2026-10-15T16:18:24.967Z 
+                        ├ [13] ╭ VulnerabilityID : CVE-2026-97054 
+                        │      ├ VendorIDs        ─ [0]: GO-2026-6859 
+                        │      ├ PkgID           : stdlib@v1.27.1 
+                        │      ├ PkgName         : stdlib 
+                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@v1.27.1 
+                        │      │                  ╰ UID : c9698e88b56a1f6e 
+                        │      ├ InstalledVersion: v1.27.1 
+                        │      ├ FixedVersion    : 1.26.11, 1.27.4 
+                        │      ├ Status          : fixed 
+                        │      ├ Layer            ╭ Digest: sha256:6f3dfcf075d8901601865574f47b0666219f85a9166b
+                        │      │                  │         21e6f50baec8f57d1d29 
+                        │      │                  ╰ DiffID: sha256:69ab8f1e324dfb8fa6b0a225934cb1475ed8ee658047
+                        │      │                            85492b8a8638e930d7a9 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-97054 
+                        │      ├ DataSource       ╭ ID  : govulndb 
+                        │      │                  ├ Name: The Go Vulnerability Database 
+                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+                        │      ├ Fingerprint     : sha256:70185fcf88767392ed14758c383e418d22be68261093809d38d3b
+                        │      │                   52f46d42bf9 
+                        │      ├ Title           : For HTTP/1 servers, when MaxBytesReader's limit is exceeded,
+                        │      │                    "Connecti ... 
+                        │      ├ Description     : For HTTP/1 servers, when MaxBytesReader's limit is exceeded,
+                        │      │                    "Connection: close" header is automatically set without
+                        │      │                   synchronization, which might race with another header being
+                        │      │                   set explicitly in the server handler. As a result, an HTTP/1
+                        │      │                    server that utilizes MaxBytesReader or MaxBytesHandler can
+                        │      │                   crash due to runtime panic if its handler reads the request
+                        │      │                   body concurrently with writing the response header. 
+                        │      ├ Severity        : MEDIUM 
+                        │      ├ CweIDs           ╭ [0]: CWE-362 
+                        │      │                  ╰ [1]: CWE-820 
+                        │      ├ VendorSeverity   ─ amazon: 2 
+                        │      ├ References       ╭ [0]: https://go.dev/cl/862185 
+                        │      │                  ├ [1]: https://go.dev/issue/82563 
+                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/iY8TY0wW
+                        │      │                  │      gbM 
+                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6859 
+                        │      ├ PublishedDate   : 2026-11-11T05:19:58.943Z 
+                        │      ╰ LastModifiedDate: 2026-11-16T16:17:56.29Z 
                         ╰ [14] ╭ VulnerabilityID : CVE-2026-56857 
                                ├ VendorIDs        ─ [0]: GO-2026-6604 
                                ├ PkgID           : stdlib@v1.27.1 
