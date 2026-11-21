@@ -22,7 +22,8 @@
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │     ├ Fingerprint     : sha256:8e584a49c2fbe06686728081cbd4349be2bd8ed72137afc381618f
 │                       │     │                   5b57549802 
-│                       │     ├ Title           : [GNUTLS-SA-2026-11-18-1] 
+│                       │     ├ Title           : The certificate authentication info handling in gnutls from
+│                       │     │                   2.5.9 up t ... 
 │                       │     ├ Description     : The certificate authentication info handling in gnutls from
 │                       │     │                   2.5.9 up to 3.8.13 does not reset the certificate count and
 │                       │     │                   list pointer when re-allocation of raw_certificate_list
@@ -53,7 +54,8 @@
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │     ├ Fingerprint     : sha256:00b096ec4be7e958e2f2dfe4f57e5b150814f45a11f29a73fbc4f1
 │                       │     │                   4a9c82554a 
-│                       │     ├ Title           : [GNUTLS-SA-2026-11-18-2] 
+│                       │     ├ Title           : The RSA-PSK ClientKeyExchange handler in gnutls before 3.8.14
+│                       │     │                    does not ... 
 │                       │     ├ Description     : The RSA-PSK ClientKeyExchange handler in gnutls before 3.8.14
 │                       │     │                    does not return after detecting a memory allocation failure
 │                       │     │                   when copying the PSK username, which allows remote attackers
@@ -84,7 +86,8 @@
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                             ├ Fingerprint     : sha256:8982f6d454c436f03267b52a2c7ccc996831ea2f0720a1a781d82d
 │                             │                   5630683d2d 
-│                             ├ Title           : [GNUTLS-SA-2026-11-18-3] 
+│                             ├ Title           : A double free in the X.509 name constraints enforcement of
+│                             │                   GnuTLS 3.8. ... 
 │                             ├ Description     : A double free in the X.509 name constraints enforcement of
 │                             │                   GnuTLS 3.8.13 on all platforms allows a remote attacker to
 │                             │                   cause a denial of service (application crash) via a
