@@ -478,12 +478,12 @@
     Fingerprint: sha256:f7a684bb3fbe8e4dc21be3c8633901dd6be492d40639ef4008198d58e05441d0
     Title: For HTTP/1 servers, when MaxBytesReader's limit is exceeded, "Connecti ...
     Description: 'For HTTP/1 servers, when MaxBytesReader''s limit is exceeded, "Connection: close" header is automatically set without synchronization, which might race with another header being set explicitly in the server handler. As a result, an HTTP/1 server that utilizes MaxBytesReader or MaxBytesHandler can crash due to runtime panic if its handler reads the request body concurrently with writing the response header.'
-    Severity: HIGH
+    Severity: MEDIUM
     CweIDs:
     - CWE-362
     - CWE-820
     VendorSeverity:
-      amazon: 3
+      amazon: 2
     References:
     - https://go.dev/cl/862185
     - https://go.dev/issue/82563
@@ -551,7 +551,7 @@
     - https://groups.google.com/g/golang-announce/c/66pojueaQek
     - https://groups.google.com/g/golang-nuts/c/K22sG2AYnKU
     - https://linux.oracle.com/cve/CVE-2026-111943.html
-    - https://linux.oracle.com/errata/ELSA-2026-97877.html
+    - https://linux.oracle.com/errata/ELSA-2026-98539.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-111943
     - https://pkg.go.dev/vuln/GO-2026-6809
     - https://www.cve.org/CVERecord?id=CVE-2026-111943
@@ -629,7 +629,7 @@
     - https://go.dev/issue/81858
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://linux.oracle.com/cve/CVE-2026-78667.html
-    - https://linux.oracle.com/errata/ELSA-2026-95519.html
+    - https://linux.oracle.com/errata/ELSA-2026-98502.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78667
     - https://pkg.go.dev/vuln/GO-2026-6609
     - https://ubuntu.com/security/notices/USN-8935-1
@@ -791,47 +791,12 @@
     - https://go.dev/issue/81855
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://linux.oracle.com/cve/CVE-2026-97031.html
-    - https://linux.oracle.com/errata/ELSA-2026-97877.html
+    - https://linux.oracle.com/errata/ELSA-2026-98502.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-97031
     - https://pkg.go.dev/vuln/GO-2026-6607
     - https://www.cve.org/CVERecord?id=CVE-2026-97031
     PublishedDate: '2026-10-08T23:17:06.037Z'
     LastModifiedDate: '2026-10-09T16:35:35.9Z'
-  - VulnerabilityID: CVE-2026-97054
-    VendorIDs:
-    - GO-2026-6859
-    PkgID: stdlib@v1.27.1
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@v1.27.1
-      UID: c9698e88b56a1f6e
-    InstalledVersion: v1.27.1
-    FixedVersion: 1.26.11, 1.27.4
-    Status: fixed
-    Layer:
-      Digest: sha256:6f3dfcf075d8901601865574f47b0666219f85a9166b21e6f50baec8f57d1d29
-      DiffID: sha256:69ab8f1e324dfb8fa6b0a225934cb1475ed8ee65804785492b8a8638e930d7a9
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-97054
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Fingerprint: sha256:70185fcf88767392ed14758c383e418d22be68261093809d38d3b52f46d42bf9
-    Title: For HTTP/1 servers, when MaxBytesReader's limit is exceeded, "Connecti ...
-    Description: 'For HTTP/1 servers, when MaxBytesReader''s limit is exceeded, "Connection: close" header is automatically set without synchronization, which might race with another header being set explicitly in the server handler. As a result, an HTTP/1 server that utilizes MaxBytesReader or MaxBytesHandler can crash due to runtime panic if its handler reads the request body concurrently with writing the response header.'
-    Severity: HIGH
-    CweIDs:
-    - CWE-362
-    - CWE-820
-    VendorSeverity:
-      amazon: 3
-    References:
-    - https://go.dev/cl/862185
-    - https://go.dev/issue/82563
-    - https://groups.google.com/g/golang-announce/c/iY8TY0wWgbM
-    - https://pkg.go.dev/vuln/GO-2026-6859
-    PublishedDate: '2026-11-11T05:19:58.943Z'
-    LastModifiedDate: '2026-11-16T16:17:56.29Z'
   - VulnerabilityID: CVE-2026-56866
     VendorIDs:
     - GO-2026-6605
@@ -1134,7 +1099,7 @@
     - CWE-675
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 3
       bitnami: 4
       redhat: 2
@@ -1227,7 +1192,7 @@
     - CWE-444
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 3
       redhat: 2
       rocky: 3
@@ -1362,7 +1327,7 @@
     - https://go.dev/issue/81741
     - https://groups.google.com/g/golang-announce/c/U2fTuyDJznI
     - https://linux.oracle.com/cve/CVE-2026-94440.html
-    - https://linux.oracle.com/errata/ELSA-2026-95519.html
+    - https://linux.oracle.com/errata/ELSA-2026-98502.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-94440
     - https://pkg.go.dev/vuln/GO-2026-6608
     - https://ubuntu.com/security/notices/USN-8935-1
@@ -1397,7 +1362,7 @@
     - CWE-79
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       redhat: 2
       rocky: 3
@@ -1483,7 +1448,7 @@
     - CWE-79
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       redhat: 2
       rocky: 3
@@ -1634,6 +1599,41 @@
     - https://www.openwall.com/lists/oss-security/2026/10/08/9
     PublishedDate: '2026-10-08T23:17:06.213Z'
     LastModifiedDate: '2026-10-15T16:18:24.967Z'
+  - VulnerabilityID: CVE-2026-97054
+    VendorIDs:
+    - GO-2026-6859
+    PkgID: stdlib@v1.27.1
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@v1.27.1
+      UID: c9698e88b56a1f6e
+    InstalledVersion: v1.27.1
+    FixedVersion: 1.26.11, 1.27.4
+    Status: fixed
+    Layer:
+      Digest: sha256:6f3dfcf075d8901601865574f47b0666219f85a9166b21e6f50baec8f57d1d29
+      DiffID: sha256:69ab8f1e324dfb8fa6b0a225934cb1475ed8ee65804785492b8a8638e930d7a9
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-97054
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Fingerprint: sha256:70185fcf88767392ed14758c383e418d22be68261093809d38d3b52f46d42bf9
+    Title: For HTTP/1 servers, when MaxBytesReader's limit is exceeded, "Connecti ...
+    Description: 'For HTTP/1 servers, when MaxBytesReader''s limit is exceeded, "Connection: close" header is automatically set without synchronization, which might race with another header being set explicitly in the server handler. As a result, an HTTP/1 server that utilizes MaxBytesReader or MaxBytesHandler can crash due to runtime panic if its handler reads the request body concurrently with writing the response header.'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-362
+    - CWE-820
+    VendorSeverity:
+      amazon: 2
+    References:
+    - https://go.dev/cl/862185
+    - https://go.dev/issue/82563
+    - https://groups.google.com/g/golang-announce/c/iY8TY0wWgbM
+    - https://pkg.go.dev/vuln/GO-2026-6859
+    PublishedDate: '2026-11-11T05:19:58.943Z'
+    LastModifiedDate: '2026-11-16T16:17:56.29Z'
   - VulnerabilityID: CVE-2026-56857
     VendorIDs:
     - GO-2026-6604
