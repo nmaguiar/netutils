@@ -483,12 +483,12 @@
     Fingerprint: sha256:e9c2cbf338c3d49ed66e528398829f1660344310af1c5e78241b66f2539f481f
     Title: For HTTP/1 servers, when MaxBytesReader's limit is exceeded, "Connecti ...
     Description: 'For HTTP/1 servers, when MaxBytesReader''s limit is exceeded, "Connection: close" header is automatically set without synchronization, which might race with another header being set explicitly in the server handler. As a result, an HTTP/1 server that utilizes MaxBytesReader or MaxBytesHandler can crash due to runtime panic if its handler reads the request body concurrently with writing the response header.'
-    Severity: HIGH
+    Severity: MEDIUM
     CweIDs:
     - CWE-362
     - CWE-820
     VendorSeverity:
-      amazon: 3
+      amazon: 2
     References:
     - https://go.dev/cl/862185
     - https://go.dev/issue/82563
