@@ -545,8 +545,8 @@
                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
                               ├ Fingerprint     : sha256:e9c2cbf338c3d49ed66e528398829f1660344310af1c5e78241b66
                               │                   f2539f481f 
-                              ├ Title           : For HTTP/1 servers, when MaxBytesReader's limit is exceeded,
-                              │                   "Connecti ... 
+                              ├ Title           : net/http: golang: net/http: Denial of Service via race
+                              │                   condition when handling oversized HTTP/1 requests 
                               ├ Description     : For HTTP/1 servers, when MaxBytesReader's limit is exceeded,
                               │                   "Connection: close" header is automatically set without
                               │                   synchronization, which might race with another header being
@@ -557,11 +557,19 @@
                               ├ Severity        : MEDIUM 
                               ├ CweIDs           ╭ [0]: CWE-362 
                               │                  ╰ [1]: CWE-820 
-                              ├ VendorSeverity   ─ amazon: 2 
-                              ├ References       ╭ [0]: https://go.dev/cl/862185 
-                              │                  ├ [1]: https://go.dev/issue/82563 
-                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/iY8TY0wWgbM 
-                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6859 
+                              ├ VendorSeverity   ╭ amazon: 2 
+                              │                  ├ photon: 2 
+                              │                  ╰ redhat: 2 
+                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
+                              │                           │           A:H 
+                              │                           ╰ V3Score : 5.9 
+                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-97054 
+                              │                  ├ [1]: https://go.dev/cl/862185 
+                              │                  ├ [2]: https://go.dev/issue/82563 
+                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/iY8TY0wWgbM 
+                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-97054 
+                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2026-6859 
+                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-97054 
                               ├ PublishedDate   : 2026-11-11T05:19:58.943Z 
                               ╰ LastModifiedDate: 2026-11-16T16:17:56.29Z 
 ```
