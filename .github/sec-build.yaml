@@ -122,16 +122,16 @@
     - https://access.redhat.com/errata/RHSA-2026:42852
     - https://access.redhat.com/errata/RHSA-2026:44622
     - https://access.redhat.com/errata/RHSA-2026:51057
-    - https://access.redhat.com/errata/RHSA-2026:97229
     - https://access.redhat.com/errata/RHSA-2026:97562
     - https://access.redhat.com/security/cve/CVE-2026-41567
+    - https://bugzilla.redhat.com/2467822
     - https://bugzilla.redhat.com/2485356
     - https://bugzilla.redhat.com/show_bug.cgi?id=2467822
     - https://bugzilla.redhat.com/show_bug.cgi?id=2485356
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33811
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-41567
-    - https://errata.almalinux.org/10/ALSA-2026-97229.html
+    - https://errata.almalinux.org/9/ALSA-2026-97562.html
     - https://errata.rockylinux.org/RLSA-2026:97562
     - https://github.com/moby/moby
     - https://github.com/moby/moby/security/advisories/GHSA-x86f-5xw2-fm2r
