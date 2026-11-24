@@ -34,7 +34,7 @@
 │                       │     ├ References       ╭ [0]: https://gitlab.com/gnutls/gnutls/-/work_items/1863 
 │                       │     │                  ╰ [1]: https://gnutls.org/security-new.html 
 │                       │     ├ PublishedDate   : 2026-11-19T00:17:41.443Z 
-│                       │     ╰ LastModifiedDate: 2026-11-19T16:19:41.727Z 
+│                       │     ╰ LastModifiedDate: 2026-11-23T16:06:05.54Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2026-127040 
 │                       │     ├ PkgID           : gnutls@3.8.13-r0 
 │                       │     ├ PkgName         : gnutls 
@@ -66,7 +66,7 @@
 │                       │     ├ References       ╭ [0]: https://gitlab.com/gnutls/gnutls/-/work_items/1868 
 │                       │     │                  ╰ [1]: https://gnutls.org/security-new.html 
 │                       │     ├ PublishedDate   : 2026-11-19T00:17:41.597Z 
-│                       │     ╰ LastModifiedDate: 2026-11-19T16:19:42.75Z 
+│                       │     ╰ LastModifiedDate: 2026-11-23T16:06:05.54Z 
 │                       ╰ [2] ╭ VulnerabilityID : CVE-2026-127231 
 │                             ├ PkgID           : gnutls@3.8.13-r0 
 │                             ├ PkgName         : gnutls 
@@ -103,7 +103,7 @@
 │                             ├ References       ╭ [0]: https://gitlab.com/gnutls/gnutls/-/work_items/1906 
 │                             │                  ╰ [1]: https://gnutls.org/security-new.html 
 │                             ├ PublishedDate   : 2026-11-19T00:17:41.717Z 
-│                             ╰ LastModifiedDate: 2026-11-19T16:19:44.783Z 
+│                             ╰ LastModifiedDate: 2026-11-23T16:06:05.54Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
