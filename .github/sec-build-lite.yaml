@@ -87,6 +87,97 @@
     - https://gnutls.org/security-new.html
     PublishedDate: '2026-11-19T00:17:41.717Z'
     LastModifiedDate: '2026-11-23T16:06:05.54Z'
+  - VulnerabilityID: CVE-2026-124317
+    PkgID: libexpat@2.10.0-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.10.0-r0?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: bccd83166fe90d68
+    InstalledVersion: 2.10.0-r0
+    FixedVersion: 2.11.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:9466884d0cd4bfa169ec7574d37b01bf76fff59573be70c6fc296efd7672c054
+      DiffID: sha256:d69c5e987d8f13731d0b3f766d0b2cb7f5293624bf7012bb16a13f098ff58e1a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-124317
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:859b10a4a47bc2f0b779370a7798f49cccfd87c562d215b5c05d346d9139ab20
+    Title: libexpat through 2.10.0 contains an out-of-bounds read vulnerability i ...
+    Description: libexpat through 2.10.0 contains an out-of-bounds read vulnerability in unknown_toUtf8() and unknown_toUtf16() in xmltok.c when handling application-registered unknown encodings. Attackers can supply a document ending in a truncated multibyte sequence so the convert callback reads past the parse buffer, leaking adjacent memory or crashing applications.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-126
+    References:
+    - https://github.com/libexpat/libexpat
+    - https://github.com/libexpat/libexpat/blob/a70841d9ffa64ddde29ab824ed6305035ebe4c47/expat/lib/xmltok.c#L1274-L1322
+    - https://github.com/libexpat/libexpat/pull/1492
+    - https://www.vulncheck.com/advisories/libexpat-through-2.10.0-out-of-bounds-read-via-unknown-toutf8-and-unknown-toutf16
+    PublishedDate: '2026-11-07T15:17:16.08Z'
+    LastModifiedDate: '2026-11-11T05:19:36.56Z'
+  - VulnerabilityID: CVE-2026-128241
+    PkgID: libexpat@2.10.0-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.10.0-r0?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: bccd83166fe90d68
+    InstalledVersion: 2.10.0-r0
+    FixedVersion: 2.11.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:9466884d0cd4bfa169ec7574d37b01bf76fff59573be70c6fc296efd7672c054
+      DiffID: sha256:d69c5e987d8f13731d0b3f766d0b2cb7f5293624bf7012bb16a13f098ff58e1a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-128241
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:a293fc779bf6aac89d477197740f49f1c86818c7c587b2303a7f9b9ad47bf2c9
+    Title: The xmlwf tool in libexpat through 2.10.0 contains a symlink following ...
+    Description: The xmlwf tool in libexpat through 2.10.0 contains a symlink following vulnerability because -d output mode opens files with fopen("wb"), which follows symbolic links. Local attackers with write access to the output directory can plant a symlink at the expected output name to truncate or overwrite files writable by the xmlwf user.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-59
+    References:
+    - https://github.com/libexpat/libexpat
+    - https://github.com/libexpat/libexpat/blob/R_2_10_0/expat/xmlwf/xmlwf.c#L1272-L1275
+    - https://github.com/libexpat/libexpat/blob/R_2_10_0/expat/xmlwf/xmlwf.c#L1338-L1347
+    - https://github.com/libexpat/libexpat/pull/1502
+    - https://www.vulncheck.com/advisories/libexpat-xmlwf-through-2.10.0-symlink-following-via-d-output-directory
+    PublishedDate: '2026-11-13T10:18:12.01Z'
+    LastModifiedDate: '2026-11-17T14:17:38.427Z'
+  - VulnerabilityID: CVE-2026-134703
+    PkgID: libexpat@2.10.0-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.10.0-r0?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: bccd83166fe90d68
+    InstalledVersion: 2.10.0-r0
+    FixedVersion: 2.11.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:9466884d0cd4bfa169ec7574d37b01bf76fff59573be70c6fc296efd7672c054
+      DiffID: sha256:d69c5e987d8f13731d0b3f766d0b2cb7f5293624bf7012bb16a13f098ff58e1a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-134703
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:fb798544f028df02548a6390991546f002a7db5e3e7545156d2ad5e178788af9
+    Title: libexpat through 2.10.0 contains an improper Unicode handling vulnerab ...
+    Description: libexpat through 2.10.0 contains an improper Unicode handling vulnerability in DEFINE_UTF16_TO_UTF16 conversion functions in xmltok.c that can split valid surrogate pairs when output space is limited. In XML_UNICODE builds parsing non-native byte order UTF-16 input, attackers can supply crafted documents that deliver lone high surrogates to character data and default handlers.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-176
+    References:
+    - https://github.com/libexpat/libexpat/blob/R_2_10_0/expat/lib/xmltok.c
+    - https://github.com/libexpat/libexpat/commit/702389c818cb402f2423fa998fa11907d621959f
+    - https://github.com/libexpat/libexpat/pull/1519
+    - https://www.vulncheck.com/advisories/libexpat-through-2.10.0-isolated-high-surrogate-via-utf-16-conversion
+    PublishedDate: '2026-11-22T02:17:09.447Z'
+    LastModifiedDate: '2026-11-23T21:17:01.093Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
