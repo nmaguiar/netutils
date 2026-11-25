@@ -154,9 +154,9 @@
 │                       │     │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:42852 
 │                       │     │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:44622 
 │                       │     │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:51057 
-│                       │     │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:97562 
-│                       │     │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2026-41567 
-│                       │     │                  ├ [7] : https://bugzilla.redhat.com/2467822 
+│                       │     │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:97229 
+│                       │     │                  ├ [6] : https://access.redhat.com/errata/RHSA-2026:97562 
+│                       │     │                  ├ [7] : https://access.redhat.com/security/cve/CVE-2026-41567 
 │                       │     │                  ├ [8] : https://bugzilla.redhat.com/2485356 
 │                       │     │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2467822 
 │                       │     │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2485356 
@@ -165,7 +165,7 @@
 │                       │     │                  │       6-33811 
 │                       │     │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
 │                       │     │                  │       6-41567 
-│                       │     │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2026-97562.html 
+│                       │     │                  ├ [14]: https://errata.almalinux.org/10/ALSA-2026-97229.html 
 │                       │     │                  ├ [15]: https://errata.rockylinux.org/RLSA-2026:97562 
 │                       │     │                  ├ [16]: https://github.com/moby/moby 
 │                       │     │                  ├ [17]: https://github.com/moby/moby/security/advisories/GHSA-
@@ -557,19 +557,35 @@
                               ├ Severity        : MEDIUM 
                               ├ CweIDs           ╭ [0]: CWE-362 
                               │                  ╰ [1]: CWE-820 
-                              ├ VendorSeverity   ╭ amazon: 2 
+                              ├ VendorSeverity   ╭ alma  : 2 
+                              │                  ├ amazon: 2 
                               │                  ├ photon: 2 
                               │                  ╰ redhat: 2 
                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
                               │                           │           A:H 
                               │                           ╰ V3Score : 5.9 
-                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-97054 
-                              │                  ├ [1]: https://go.dev/cl/862185 
-                              │                  ├ [2]: https://go.dev/issue/82563 
-                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/iY8TY0wWgbM 
-                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-97054 
-                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2026-6859 
-                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-97054 
+                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:102587 
+                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-97054 
+                              │                  ├ [2] : https://bugzilla.redhat.com/2571442 
+                              │                  ├ [3] : https://bugzilla.redhat.com/2571443 
+                              │                  ├ [4] : https://bugzilla.redhat.com/2571444 
+                              │                  ├ [5] : https://bugzilla.redhat.com/2571445 
+                              │                  ├ [6] : https://bugzilla.redhat.com/2571446 
+                              │                  ├ [7] : https://bugzilla.redhat.com/2571447 
+                              │                  ├ [8] : https://bugzilla.redhat.com/2571448 
+                              │                  ├ [9] : https://bugzilla.redhat.com/2571449 
+                              │                  ├ [10]: https://bugzilla.redhat.com/2571450 
+                              │                  ├ [11]: https://bugzilla.redhat.com/2571451 
+                              │                  ├ [12]: https://bugzilla.redhat.com/2571452 
+                              │                  ├ [13]: https://bugzilla.redhat.com/2571453 
+                              │                  ├ [14]: https://errata.almalinux.org/10/ALSA-2026-102587.html 
+                              │                  ├ [15]: https://go.dev/cl/862185 
+                              │                  ├ [16]: https://go.dev/issue/82563 
+                              │                  ├ [17]: https://groups.google.com/g/golang-announce/c/iY8TY0wW
+                              │                  │       gbM 
+                              │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2026-97054 
+                              │                  ├ [19]: https://pkg.go.dev/vuln/GO-2026-6859 
+                              │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2026-97054 
                               ├ PublishedDate   : 2026-11-11T05:19:58.943Z 
                               ╰ LastModifiedDate: 2026-11-16T16:17:56.29Z 
 ```
