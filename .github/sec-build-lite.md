@@ -132,14 +132,16 @@
 │                       │     │                   truncated multibyte sequence so the convert callback reads
 │                       │     │                   past the parse buffer, leaking adjacent memory or crashing
 │                       │     │                   applications. 
-│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-126 
+│                       │     ├ VendorSeverity   ─ ubuntu: 2 
 │                       │     ├ References       ╭ [0]: https://github.com/libexpat/libexpat 
 │                       │     │                  ├ [1]: https://github.com/libexpat/libexpat/blob/a70841d9ffa64
 │                       │     │                  │      ddde29ab824ed6305035ebe4c47/expat/lib/xmltok.c#L1274-L1
 │                       │     │                  │      322 
 │                       │     │                  ├ [2]: https://github.com/libexpat/libexpat/pull/1492 
-│                       │     │                  ╰ [3]: https://www.vulncheck.com/advisories/libexpat-through-2
+│                       │     │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2026-124317 
+│                       │     │                  ╰ [4]: https://www.vulncheck.com/advisories/libexpat-through-2
 │                       │     │                         .10.0-out-of-bounds-read-via-unknown-toutf8-and-unknown
 │                       │     │                         -toutf16 
 │                       │     ├ PublishedDate   : 2026-11-07T15:17:16.08Z 
@@ -171,15 +173,17 @@
 │                       │     │                   attackers with write access to the output directory can plant
 │                       │     │                    a symlink at the expected output name to truncate or
 │                       │     │                   overwrite files writable by the xmlwf user. 
-│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-59 
+│                       │     ├ VendorSeverity   ─ ubuntu: 2 
 │                       │     ├ References       ╭ [0]: https://github.com/libexpat/libexpat 
 │                       │     │                  ├ [1]: https://github.com/libexpat/libexpat/blob/R_2_10_0/expa
 │                       │     │                  │      t/xmlwf/xmlwf.c#L1272-L1275 
 │                       │     │                  ├ [2]: https://github.com/libexpat/libexpat/blob/R_2_10_0/expa
 │                       │     │                  │      t/xmlwf/xmlwf.c#L1338-L1347 
 │                       │     │                  ├ [3]: https://github.com/libexpat/libexpat/pull/1502 
-│                       │     │                  ╰ [4]: https://www.vulncheck.com/advisories/libexpat-xmlwf-thr
+│                       │     │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2026-128241 
+│                       │     │                  ╰ [5]: https://www.vulncheck.com/advisories/libexpat-xmlwf-thr
 │                       │     │                         ough-2.10.0-symlink-following-via-d-output-directory 
 │                       │     ├ PublishedDate   : 2026-11-13T10:18:12.01Z 
 │                       │     ╰ LastModifiedDate: 2026-11-17T14:17:38.427Z 
@@ -211,14 +215,16 @@
 │                             │                   byte order UTF-16 input, attackers can supply crafted
 │                             │                   documents that deliver lone high surrogates to character data
 │                             │                    and default handlers. 
-│                             ├ Severity        : UNKNOWN 
+│                             ├ Severity        : MEDIUM 
 │                             ├ CweIDs           ─ [0]: CWE-176 
+│                             ├ VendorSeverity   ─ ubuntu: 2 
 │                             ├ References       ╭ [0]: https://github.com/libexpat/libexpat/blob/R_2_10_0/expa
 │                             │                  │      t/lib/xmltok.c 
 │                             │                  ├ [1]: https://github.com/libexpat/libexpat/commit/702389c818c
 │                             │                  │      b402f2423fa998fa11907d621959f 
 │                             │                  ├ [2]: https://github.com/libexpat/libexpat/pull/1519 
-│                             │                  ╰ [3]: https://www.vulncheck.com/advisories/libexpat-through-2
+│                             │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2026-134703 
+│                             │                  ╰ [4]: https://www.vulncheck.com/advisories/libexpat-through-2
 │                             │                         .10.0-isolated-high-surrogate-via-utf-16-conversion 
 │                             ├ PublishedDate   : 2026-11-22T02:17:09.447Z 
 │                             ╰ LastModifiedDate: 2026-11-23T21:17:01.093Z 
