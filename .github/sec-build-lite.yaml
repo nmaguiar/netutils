@@ -116,6 +116,7 @@
     - https://github.com/libexpat/libexpat
     - https://github.com/libexpat/libexpat/blob/a70841d9ffa64ddde29ab824ed6305035ebe4c47/expat/lib/xmltok.c#L1274-L1322
     - https://github.com/libexpat/libexpat/pull/1492
+    - https://ubuntu.com/security/notices/USN-9196-1
     - https://www.cve.org/CVERecord?id=CVE-2026-124317
     - https://www.vulncheck.com/advisories/libexpat-through-2.10.0-out-of-bounds-read-via-unknown-toutf8-and-unknown-toutf16
     PublishedDate: '2026-11-07T15:17:16.08Z'
@@ -150,6 +151,7 @@
     - https://github.com/libexpat/libexpat/blob/R_2_10_0/expat/xmlwf/xmlwf.c#L1272-L1275
     - https://github.com/libexpat/libexpat/blob/R_2_10_0/expat/xmlwf/xmlwf.c#L1338-L1347
     - https://github.com/libexpat/libexpat/pull/1502
+    - https://ubuntu.com/security/notices/USN-9196-1
     - https://www.cve.org/CVERecord?id=CVE-2026-128241
     - https://www.vulncheck.com/advisories/libexpat-xmlwf-through-2.10.0-symlink-following-via-d-output-directory
     PublishedDate: '2026-11-13T10:18:12.01Z'
@@ -183,10 +185,728 @@
     - https://github.com/libexpat/libexpat/blob/R_2_10_0/expat/lib/xmltok.c
     - https://github.com/libexpat/libexpat/commit/702389c818cb402f2423fa998fa11907d621959f
     - https://github.com/libexpat/libexpat/pull/1519
+    - https://ubuntu.com/security/notices/USN-9196-1
     - https://www.cve.org/CVERecord?id=CVE-2026-134703
     - https://www.vulncheck.com/advisories/libexpat-through-2.10.0-isolated-high-surrogate-via-utf-16-conversion
     PublishedDate: '2026-11-22T02:17:09.447Z'
     LastModifiedDate: '2026-11-23T21:17:01.093Z'
+  - VulnerabilityID: CVE-2026-11979
+    PkgID: libxml2@2.13.9-r3
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r3?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: f2e0a6b4185abd84
+    InstalledVersion: 2.13.9-r3
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:9466884d0cd4bfa169ec7574d37b01bf76fff59573be70c6fc296efd7672c054
+      DiffID: sha256:d69c5e987d8f13731d0b3f766d0b2cb7f5293624bf7012bb16a13f098ff58e1a
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-11979
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:4a2b7f90a072ade194320d160122730c68023fd8dbc4e6a5c66a72fae3a0aa72
+    Title: 'libxml2: libxml2: Arbitrary code execution in xmlcatalog utility via buffer overflow'
+    Description: |-
+      libxml2 is vulnerable to multiple stack-based buffer overflows in the xmlcatalog utility when running in --shell mode. The usershell() function processes user input using fixed-size stack buffers without proper bounds checking.
+      By supplying an overly long input line, an attacker can overflow internal buffers (command, arg, and argv) during input parsing. This results in memory corruption within the stack frame.
+      Successful exploitation may cause a crash or potentially allow arbitrary code execution in the context of the xmlcatalog process.
+
+      This issue has been fixed in the commit c2e233fc.
+
+      NOTE:
+      The maintainers of this project did not agree that this issue is a vulnerability and considered it a bug.
+    Severity: HIGH
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 2
+      rocky: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:98468
+    - https://access.redhat.com/errata/RHSA-2026:98572
+    - https://access.redhat.com/security/cve/CVE-2026-11979
+    - https://bugzilla.redhat.com/2494191
+    - https://bugzilla.redhat.com/2528987
+    - https://bugzilla.redhat.com/2528989
+    - https://bugzilla.redhat.com/2528990
+    - https://bugzilla.redhat.com/2528992
+    - https://bugzilla.redhat.com/2529697
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2491354
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494191
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528986
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528987
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528989
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528990
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528992
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2529697
+    - https://cert.pl/en/posts/2026/06/CVE-2026-11979
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11979
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6653
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-74860
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86142
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86143
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86144
+    - https://errata.almalinux.org/10/ALSA-2026-98572.html
+    - https://errata.rockylinux.org/RLSA-2026:98468
+    - https://gitlab.gnome.org/GNOME/libxml2/-/commit/c2e233fc1b341685fc99621b2768b503f777a72e
+    - https://linux.oracle.com/cve/CVE-2026-11979.html
+    - https://linux.oracle.com/errata/ELSA-2026-98572.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-11979
+    - https://www.cve.org/CVERecord?id=CVE-2026-11979
+    PublishedDate: '2026-06-29T14:16:40.593Z'
+    LastModifiedDate: '2026-10-25T21:10:00.77Z'
+  - VulnerabilityID: CVE-2026-86138
+    PkgID: libxml2@2.13.9-r3
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r3?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: f2e0a6b4185abd84
+    InstalledVersion: 2.13.9-r3
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:9466884d0cd4bfa169ec7574d37b01bf76fff59573be70c6fc296efd7672c054
+      DiffID: sha256:d69c5e987d8f13731d0b3f766d0b2cb7f5293624bf7012bb16a13f098ff58e1a
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86138
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:5febc0d255f9d65655f683b25beae563b726c1bcf170e8aa9f17821fe470aa9d
+    Title: 'libxml2: libxml2: Arbitrary code execution via heap-based buffer overflow'
+    Description: In libxml2 before 2.15.4, xmlDictAddQString in dict.c has an integer overflow and resultant heap-based buffer overflow.
+    Severity: HIGH
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      azure: 2
+      julia: 3
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 2
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:98468
+    - https://access.redhat.com/security/cve/CVE-2026-86138
+    - https://bugzilla.redhat.com/2491354
+    - https://bugzilla.redhat.com/2494191
+    - https://bugzilla.redhat.com/2528986
+    - https://bugzilla.redhat.com/2528987
+    - https://bugzilla.redhat.com/2528989
+    - https://bugzilla.redhat.com/2528990
+    - https://bugzilla.redhat.com/2528992
+    - https://bugzilla.redhat.com/2529697
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2491354
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494191
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528986
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528987
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528989
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528990
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528992
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2529697
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11979
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6653
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-74860
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86142
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86143
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86144
+    - https://errata.almalinux.org/9/ALSA-2026-98468.html
+    - https://errata.rockylinux.org/RLSA-2026:98468
+    - https://github.com/GNOME/libxml2/commit/a4cba4b5b5a8c42e155ed42d2d2a44955465a2e4
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://github.com/advisories/GHSA-v4gg-2cxp-fc23
+    - https://linux.oracle.com/cve/CVE-2026-86138.html
+    - https://linux.oracle.com/errata/ELSA-2026-98468.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86138
+    - https://ubuntu.com/security/notices/USN-8910-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-86138
+    PublishedDate: '2026-09-05T05:17:12.6Z'
+    LastModifiedDate: '2026-09-15T19:40:47.56Z'
+  - VulnerabilityID: CVE-2026-86139
+    PkgID: libxml2@2.13.9-r3
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r3?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: f2e0a6b4185abd84
+    InstalledVersion: 2.13.9-r3
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:9466884d0cd4bfa169ec7574d37b01bf76fff59573be70c6fc296efd7672c054
+      DiffID: sha256:d69c5e987d8f13731d0b3f766d0b2cb7f5293624bf7012bb16a13f098ff58e1a
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86139
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:8d68b1f06bf8c6588ea582cf4a9b3961de144ce9190cd735d7c8420a5e829090
+    Title: 'libxml2: libxml2: Integer overflow in xmlURIEscapeStr may lead to arbitrary code execution'
+    Description: In libxml2 before 2.15.4, xmlURIEscapeStr in uri.c has an integer overflow.
+    Severity: HIGH
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      julia: 3
+      nvd: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-86139
+    - https://github.com/GNOME/libxml2/commit/8edbbdb09f24d26a2f900141fddc2b9d014f53b0
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://github.com/advisories/GHSA-xvw4-gjw8-rw38
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86139
+    - https://ubuntu.com/security/notices/USN-8910-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-86139
+    PublishedDate: '2026-09-05T05:17:12.73Z'
+    LastModifiedDate: '2026-09-15T19:39:45.267Z'
+  - VulnerabilityID: CVE-2026-86140
+    PkgID: libxml2@2.13.9-r3
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r3?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: f2e0a6b4185abd84
+    InstalledVersion: 2.13.9-r3
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:9466884d0cd4bfa169ec7574d37b01bf76fff59573be70c6fc296efd7672c054
+      DiffID: sha256:d69c5e987d8f13731d0b3f766d0b2cb7f5293624bf7012bb16a13f098ff58e1a
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86140
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:bb5333cdd8f9693c11237c6581a62c608ebda34d6adb0fe10024e126701e24e8
+    Title: 'libxml2: libxml2: Arbitrary code execution via stack-based buffer overflow in xmlSnprintfElements'
+    Description: In libxml2 before 2.15.4, xmlSnprintfElements in valid.c has a strcat stack-based buffer overflow.
+    Severity: HIGH
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      azure: 3
+      julia: 3
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:98468
+    - https://access.redhat.com/errata/RHSA-2026:98572
+    - https://access.redhat.com/security/cve/CVE-2026-86140
+    - https://bugzilla.redhat.com/2494191
+    - https://bugzilla.redhat.com/2528987
+    - https://bugzilla.redhat.com/2528989
+    - https://bugzilla.redhat.com/2528990
+    - https://bugzilla.redhat.com/2528992
+    - https://bugzilla.redhat.com/2529697
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2491354
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494191
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528986
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528987
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528989
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528990
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528992
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2529697
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11979
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6653
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-74860
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86142
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86143
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86144
+    - https://errata.almalinux.org/10/ALSA-2026-98572.html
+    - https://errata.rockylinux.org/RLSA-2026:98468
+    - https://github.com/GNOME/libxml2/commit/d1686f91dbda141a752200419d35639fd6b38340
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://github.com/advisories/GHSA-6wmc-mmch-49h7
+    - https://linux.oracle.com/cve/CVE-2026-86140.html
+    - https://linux.oracle.com/errata/ELSA-2026-98572.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86140
+    - https://ubuntu.com/security/notices/USN-8787-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-86140
+    PublishedDate: '2026-09-05T05:17:12.877Z'
+    LastModifiedDate: '2026-09-15T19:39:17.01Z'
+  - VulnerabilityID: CVE-2026-86142
+    PkgID: libxml2@2.13.9-r3
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r3?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: f2e0a6b4185abd84
+    InstalledVersion: 2.13.9-r3
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:9466884d0cd4bfa169ec7574d37b01bf76fff59573be70c6fc296efd7672c054
+      DiffID: sha256:d69c5e987d8f13731d0b3f766d0b2cb7f5293624bf7012bb16a13f098ff58e1a
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86142
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:9802ac13a19dda55a7ce41c1f80f871ca2e7d3ea3f8cdb2f7699d0f396b66ae8
+    Title: 'libxml2: libxml2: Heap-based buffer overflow in xmlXPtrEval due to xpointer length saturation'
+    Description: In libxml2 before 2.15.4, there is a heap-based buffer overflow in xmlXPtrEvalXPtrPart because of xmlXPtrEval xpointer length saturation.
+    Severity: HIGH
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      azure: 2
+      julia: 3
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 2
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:98468
+    - https://access.redhat.com/errata/RHSA-2026:98572
+    - https://access.redhat.com/security/cve/CVE-2026-86142
+    - https://bugzilla.redhat.com/2494191
+    - https://bugzilla.redhat.com/2528987
+    - https://bugzilla.redhat.com/2528989
+    - https://bugzilla.redhat.com/2528990
+    - https://bugzilla.redhat.com/2528992
+    - https://bugzilla.redhat.com/2529697
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2491354
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494191
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528986
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528987
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528989
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528990
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528992
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2529697
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11979
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6653
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-74860
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86142
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86143
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86144
+    - https://errata.almalinux.org/10/ALSA-2026-98572.html
+    - https://errata.rockylinux.org/RLSA-2026:98468
+    - https://github.com/GNOME/libxml2/commit/6b3a736c0edc74ceec3d82f5252499d7911b3a58
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://github.com/advisories/GHSA-499q-6rmh-w6p7
+    - https://gitlab.gnome.org/GNOME/libxml2/-/work_items/1113
+    - https://linux.oracle.com/cve/CVE-2026-86142.html
+    - https://linux.oracle.com/errata/ELSA-2026-98572.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86142
+    - https://ubuntu.com/security/notices/USN-8910-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-86142
+    PublishedDate: '2026-09-05T05:17:13.133Z'
+    LastModifiedDate: '2026-09-15T19:35:48.663Z'
+  - VulnerabilityID: CVE-2026-86143
+    PkgID: libxml2@2.13.9-r3
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r3?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: f2e0a6b4185abd84
+    InstalledVersion: 2.13.9-r3
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:9466884d0cd4bfa169ec7574d37b01bf76fff59573be70c6fc296efd7672c054
+      DiffID: sha256:d69c5e987d8f13731d0b3f766d0b2cb7f5293624bf7012bb16a13f098ff58e1a
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86143
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:b8fcdec1eb4cc0cfb1720d39a3fbb7e31a3d42d2462cb34288febfdac47d25a1
+    Title: 'libxml2: libxml2: Data integrity issues due to integer overflow in write callbacks'
+    Description: In xmlIO in libxml2 before 2.15.4, an inconsistency in xmlOutputWriteCallback and xmlBufUse causes negative lengths to reach write callbacks, aka a lack of a check for integer overflow before calling writecallback. This has security relevance for many types of uses of that length value within a callback.
+    Severity: HIGH
+    CweIDs:
+    - CWE-192
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      azure: 2
+      julia: 3
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 2
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 7.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 7.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:98468
+    - https://access.redhat.com/errata/RHSA-2026:98572
+    - https://access.redhat.com/security/cve/CVE-2026-86143
+    - https://bugzilla.redhat.com/2494191
+    - https://bugzilla.redhat.com/2528987
+    - https://bugzilla.redhat.com/2528989
+    - https://bugzilla.redhat.com/2528990
+    - https://bugzilla.redhat.com/2528992
+    - https://bugzilla.redhat.com/2529697
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2491354
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494191
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528986
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528987
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528989
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528990
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528992
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2529697
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11979
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6653
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-74860
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86142
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86143
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86144
+    - https://errata.almalinux.org/10/ALSA-2026-98572.html
+    - https://errata.rockylinux.org/RLSA-2026:98468
+    - https://github.com/GNOME/libxml2/commit/90f293ba74d28b1d570920382e707586f68ebf35
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://github.com/advisories/GHSA-r2q6-6v35-773j
+    - https://gitlab.gnome.org/GNOME/libxml2/-/work_items/1111
+    - https://linux.oracle.com/cve/CVE-2026-86143.html
+    - https://linux.oracle.com/errata/ELSA-2026-98572.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86143
+    - https://ubuntu.com/security/notices/USN-8910-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-86143
+    PublishedDate: '2026-09-05T05:17:13.27Z'
+    LastModifiedDate: '2026-09-15T19:31:15.857Z'
+  - VulnerabilityID: CVE-2026-0990
+    PkgID: libxml2@2.13.9-r3
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r3?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: f2e0a6b4185abd84
+    InstalledVersion: 2.13.9-r3
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:9466884d0cd4bfa169ec7574d37b01bf76fff59573be70c6fc296efd7672c054
+      DiffID: sha256:d69c5e987d8f13731d0b3f766d0b2cb7f5293624bf7012bb16a13f098ff58e1a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0990
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:377d152743c45470368a9c14f92ce0b2002d6ae009170bf4eb94c699d894f851
+    Title: 'libxml2: libxml2: Denial of Service via uncontrolled recursion in XML catalog processing'
+    Description: A flaw was found in libxml2, an XML parsing library. This uncontrolled recursion vulnerability occurs in the xmlCatalogXMLResolveURI function when an XML catalog contains a delegate URI entry that references itself. A remote attacker could exploit this configuration-dependent issue by providing a specially crafted XML catalog, leading to infinite recursion and call stack exhaustion. This ultimately results in a segmentation fault, causing a Denial of Service (DoS) by crashing affected applications.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      julia: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:7519
+    - https://access.redhat.com/security/cve/CVE-2026-0990
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429959
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/1018
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0990
+    - https://ubuntu.com/security/notices/USN-7974-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-0990
+    PublishedDate: '2026-01-15T15:15:52.503Z'
+    LastModifiedDate: '2026-11-24T10:17:36.157Z'
+  - VulnerabilityID: CVE-2026-86137
+    PkgID: libxml2@2.13.9-r3
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r3?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: f2e0a6b4185abd84
+    InstalledVersion: 2.13.9-r3
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:9466884d0cd4bfa169ec7574d37b01bf76fff59573be70c6fc296efd7672c054
+      DiffID: sha256:d69c5e987d8f13731d0b3f766d0b2cb7f5293624bf7012bb16a13f098ff58e1a
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86137
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:2779910c4030e68c7c29d875a86a2b7012923dfde3a57e0f151458e68cbdfbdf
+    Title: 'libxml2: libxml2: Denial of Service via out-of-bounds read in xmlFAParsePosCharGroup'
+    Description: In libxml2 before 2.15.4, xmlFAParsePosCharGroup has an out-of-bounds read, aka an out-of-bounds read in the NXT macro in xmlregexp.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      amazon: 2
+      azure: 1
+      julia: 2
+      nvd: 2
+      photon: 2
+      redhat: 1
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L
+        V3Score: 6.1
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L
+        V3Score: 6.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-86137
+    - https://github.com/GNOME/libxml2/commit/76fe08d97de88bfaef2f7d5cd27f11954cc5bee2
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://github.com/advisories/GHSA-cq7w-3xjv-g47g
+    - https://gitlab.gnome.org/GNOME/libxml2/-/work_items/1099
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86137
+    - https://www.cve.org/CVERecord?id=CVE-2026-86137
+    PublishedDate: '2026-09-05T05:17:11.49Z'
+    LastModifiedDate: '2026-09-15T19:46:11.827Z'
+  - VulnerabilityID: CVE-2026-0989
+    PkgID: libxml2@2.13.9-r3
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r3?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: f2e0a6b4185abd84
+    InstalledVersion: 2.13.9-r3
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:9466884d0cd4bfa169ec7574d37b01bf76fff59573be70c6fc296efd7672c054
+      DiffID: sha256:d69c5e987d8f13731d0b3f766d0b2cb7f5293624bf7012bb16a13f098ff58e1a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0989
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:590848740465f26b448bc65d8d1c6792fc97785f3b54bbcef73feac495987238
+    Title: 'libxml2: Unbounded RelaxNG Include Recursion Leading to Stack Overflow'
+    Description: A flaw was identified in the RelaxNG parser of libxml2 related to how external schema inclusions are handled. The parser does not enforce a limit on inclusion depth when resolving nested <include> directives. Specially crafted or overly complex schemas can cause excessive recursion during parsing. This may lead to stack exhaustion and application crashes, creating a denial-of-service risk.
+    Severity: LOW
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      amazon: 1
+      azure: 1
+      julia: 1
+      photon: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:7519
+    - https://access.redhat.com/security/cve/CVE-2026-0989
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429933
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/998
+    - https://gitlab.gnome.org/GNOME/libxml2/-/merge_requests/374
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0989
+    - https://ubuntu.com/security/notices/USN-7974-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-0989
+    PublishedDate: '2026-01-15T15:15:52.35Z'
+    LastModifiedDate: '2026-11-25T16:17:32.657Z'
+  - VulnerabilityID: CVE-2026-0992
+    PkgID: libxml2@2.13.9-r3
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r3?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: f2e0a6b4185abd84
+    InstalledVersion: 2.13.9-r3
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:9466884d0cd4bfa169ec7574d37b01bf76fff59573be70c6fc296efd7672c054
+      DiffID: sha256:d69c5e987d8f13731d0b3f766d0b2cb7f5293624bf7012bb16a13f098ff58e1a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0992
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:71db3bddf4a9394ed2b4c3a50357eda6ec1d5c4b828ae379130826f4be24bd00
+    Title: 'libxml2: libxml2: Denial of Service via crafted XML catalogs'
+    Description: A flaw was found in the libxml2 library. This uncontrolled resource consumption vulnerability occurs when processing XML catalogs that contain repeated <nextCatalog> elements pointing to the same downstream catalog. A remote attacker can exploit this by supplying crafted catalogs, causing the parser to redundantly traverse catalog chains. This leads to excessive CPU consumption and degrades application availability, resulting in a denial-of-service condition.
+    Severity: LOW
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      amazon: 2
+      azure: 1
+      cbl-mariner: 1
+      julia: 1
+      photon: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:7519
+    - https://access.redhat.com/security/cve/CVE-2026-0992
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429975
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/1019
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0992
+    - https://ubuntu.com/security/notices/USN-7974-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-0992
+    PublishedDate: '2026-01-15T15:15:52.657Z'
+    LastModifiedDate: '2026-11-25T16:17:32.9Z'
+  - VulnerabilityID: CVE-2026-86141
+    PkgID: libxml2@2.13.9-r3
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r3?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: f2e0a6b4185abd84
+    InstalledVersion: 2.13.9-r3
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:9466884d0cd4bfa169ec7574d37b01bf76fff59573be70c6fc296efd7672c054
+      DiffID: sha256:d69c5e987d8f13731d0b3f766d0b2cb7f5293624bf7012bb16a13f098ff58e1a
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86141
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:96a803ffb336a572d7ddcb0d6f2d7560581565bde987392665b914de50566d7b
+    Title: 'libxml2: libxml2: Denial of Service due to NULL pointer dereference in xmlRegNewParserCtxt'
+    Description: xmlregexp in libxml2 before 2.15.4 has a NULL pointer dereference in xmlRegNewParserCtxt after a strdup failure, i.e., it does not calculate a string length after NULL checking.
+    Severity: LOW
+    CweIDs:
+    - CWE-252
+    VendorSeverity:
+      julia: 1
+      nvd: 1
+      photon: 1
+      redhat: 1
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-86141
+    - https://github.com/GNOME/libxml2/commit/e89a8aae4c9b40cdafcf66b3f9e57c62db37bb55
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://github.com/advisories/GHSA-7g6w-jj32-qj92
+    - https://gitlab.gnome.org/GNOME/libxml2/-/work_items/1107
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86141
+    - https://www.cve.org/CVERecord?id=CVE-2026-86141
+    PublishedDate: '2026-09-05T05:17:13.007Z'
+    LastModifiedDate: '2026-09-15T19:37:41.44Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
