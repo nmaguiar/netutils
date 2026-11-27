@@ -119,6 +119,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:99624
     - https://access.redhat.com/errata/RHSA-2026:99715
     - https://access.redhat.com/security/cve/CVE-2026-107364
     - https://bugzilla.redhat.com/2478440
@@ -179,12 +180,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119079
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71199
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71200
-    - https://errata.almalinux.org/9/ALSA-2026-99715.html
+    - https://errata.almalinux.org/10/ALSA-2026-99624.html
     - https://errata.rockylinux.org/RLSA-2026:99715
     - https://linux.oracle.com/cve/CVE-2026-107364.html
     - https://linux.oracle.com/errata/ELSA-2026-99715.html
     - https://mailman.mit.edu/pipermail/kerberos-announce/2026q4/000212.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-107364
+    - https://ubuntu.com/security/notices/USN-9202-1
     - https://www.cve.org/CVERecord?id=CVE-2026-107364
   - VulnerabilityID: CVE-2026-112315
     PkgID: krb5-libs@1.22.2-r1
@@ -287,11 +289,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119079
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71199
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71200
-    - https://errata.almalinux.org/9/ALSA-2026-99715.html
+    - https://errata.almalinux.org/10/ALSA-2026-99624.html
     - https://errata.rockylinux.org/RLSA-2026:99715
     - https://linux.oracle.com/cve/CVE-2026-112315.html
     - https://linux.oracle.com/errata/ELSA-2026-99715.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112315
+    - https://ubuntu.com/security/notices/USN-9202-1
     - https://www.cve.org/CVERecord?id=CVE-2026-112315
     PublishedDate: '2026-11-09T19:16:40.077Z'
     LastModifiedDate: '2026-11-24T19:17:45.673Z'
@@ -396,11 +399,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119079
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71199
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71200
-    - https://errata.almalinux.org/9/ALSA-2026-99715.html
+    - https://errata.almalinux.org/10/ALSA-2026-99624.html
     - https://errata.rockylinux.org/RLSA-2026:99715
     - https://linux.oracle.com/cve/CVE-2026-112316.html
     - https://linux.oracle.com/errata/ELSA-2026-99715.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112316
+    - https://ubuntu.com/security/notices/USN-9202-1
     - https://www.cve.org/CVERecord?id=CVE-2026-112316
     PublishedDate: '2026-11-09T19:16:40.243Z'
     LastModifiedDate: '2026-11-24T19:17:45.967Z'
@@ -505,11 +509,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119079
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71199
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71200
-    - https://errata.almalinux.org/9/ALSA-2026-99715.html
+    - https://errata.almalinux.org/10/ALSA-2026-99624.html
     - https://errata.rockylinux.org/RLSA-2026:99715
     - https://linux.oracle.com/cve/CVE-2026-112317.html
     - https://linux.oracle.com/errata/ELSA-2026-99715.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112317
+    - https://ubuntu.com/security/notices/USN-9202-1
     - https://www.cve.org/CVERecord?id=CVE-2026-112317
     PublishedDate: '2026-11-09T19:16:40.407Z'
     LastModifiedDate: '2026-11-24T19:17:49.187Z'
@@ -614,11 +619,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119079
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71199
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71200
-    - https://errata.almalinux.org/9/ALSA-2026-99715.html
+    - https://errata.almalinux.org/10/ALSA-2026-99624.html
     - https://errata.rockylinux.org/RLSA-2026:99715
     - https://linux.oracle.com/cve/CVE-2026-112318.html
     - https://linux.oracle.com/errata/ELSA-2026-99715.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112318
+    - https://ubuntu.com/security/notices/USN-9202-1
     - https://www.cve.org/CVERecord?id=CVE-2026-112318
     PublishedDate: '2026-11-09T19:16:40.56Z'
     LastModifiedDate: '2026-11-24T19:17:49.407Z'
@@ -723,11 +729,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119079
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71199
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71200
-    - https://errata.almalinux.org/9/ALSA-2026-99715.html
+    - https://errata.almalinux.org/10/ALSA-2026-99624.html
     - https://errata.rockylinux.org/RLSA-2026:99715
     - https://linux.oracle.com/cve/CVE-2026-112319.html
     - https://linux.oracle.com/errata/ELSA-2026-99715.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112319
+    - https://ubuntu.com/security/notices/USN-9202-1
     - https://www.cve.org/CVERecord?id=CVE-2026-112319
     PublishedDate: '2026-11-09T19:16:40.727Z'
     LastModifiedDate: '2026-11-24T19:17:49.59Z'
@@ -832,11 +839,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119079
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71199
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71200
-    - https://errata.almalinux.org/9/ALSA-2026-99715.html
+    - https://errata.almalinux.org/10/ALSA-2026-99624.html
     - https://errata.rockylinux.org/RLSA-2026:99715
     - https://linux.oracle.com/cve/CVE-2026-112320.html
     - https://linux.oracle.com/errata/ELSA-2026-99715.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112320
+    - https://ubuntu.com/security/notices/USN-9202-1
     - https://www.cve.org/CVERecord?id=CVE-2026-112320
     PublishedDate: '2026-11-09T19:16:40.887Z'
     LastModifiedDate: '2026-11-24T19:17:49.783Z'
@@ -942,11 +950,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119079
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71199
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71200
-    - https://errata.almalinux.org/9/ALSA-2026-99715.html
+    - https://errata.almalinux.org/10/ALSA-2026-99624.html
     - https://errata.rockylinux.org/RLSA-2026:99715
     - https://linux.oracle.com/cve/CVE-2026-112321.html
     - https://linux.oracle.com/errata/ELSA-2026-99715.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112321
+    - https://ubuntu.com/security/notices/USN-9202-1
     - https://www.cve.org/CVERecord?id=CVE-2026-112321
     - security-tracker.debian.org/tracker/cve-2026-112321
     PublishedDate: '2026-11-09T19:16:41.05Z'
@@ -1054,11 +1063,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119079
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71199
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71200
-    - https://errata.almalinux.org/9/ALSA-2026-99715.html
+    - https://errata.almalinux.org/10/ALSA-2026-99624.html
     - https://errata.rockylinux.org/RLSA-2026:99715
     - https://linux.oracle.com/cve/CVE-2026-112322.html
     - https://linux.oracle.com/errata/ELSA-2026-99715.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112322
+    - https://ubuntu.com/security/notices/USN-9202-1
     - https://www.cve.org/CVERecord?id=CVE-2026-112322
     - security-tracker.debian.org/tracker/cve-2026-112322
     PublishedDate: '2026-11-09T19:16:41.207Z'
@@ -1166,11 +1176,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119079
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71199
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71200
-    - https://errata.almalinux.org/9/ALSA-2026-99715.html
+    - https://errata.almalinux.org/10/ALSA-2026-99624.html
     - https://errata.rockylinux.org/RLSA-2026:99715
     - https://linux.oracle.com/cve/CVE-2026-112323.html
     - https://linux.oracle.com/errata/ELSA-2026-99715.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112323
+    - https://ubuntu.com/security/notices/USN-9202-1
     - https://www.cve.org/CVERecord?id=CVE-2026-112323
     - security-tracker.debian.org/tracker/cve-2026-112323
     PublishedDate: '2026-11-09T19:16:41.36Z'
@@ -1207,6 +1218,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 7.4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:99624
     - https://access.redhat.com/errata/RHSA-2026:99715
     - https://access.redhat.com/security/cve/CVE-2026-118380
     - https://bugzilla.redhat.com/2478440
@@ -1267,12 +1279,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119079
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71199
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71200
-    - https://errata.almalinux.org/9/ALSA-2026-99715.html
+    - https://errata.almalinux.org/10/ALSA-2026-99624.html
     - https://errata.rockylinux.org/RLSA-2026:99715
     - https://linux.oracle.com/cve/CVE-2026-118380.html
     - https://linux.oracle.com/errata/ELSA-2026-99715.html
     - https://mailman.mit.edu/pipermail/kerberos-announce/2026q4/000212.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-118380
+    - https://ubuntu.com/security/notices/USN-9202-1
     - https://www.cve.org/CVERecord?id=CVE-2026-118380
   - VulnerabilityID: CVE-2026-119079
     PkgID: krb5-libs@1.22.2-r1
@@ -1377,11 +1390,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119079
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71199
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71200
-    - https://errata.almalinux.org/9/ALSA-2026-99715.html
+    - https://errata.almalinux.org/10/ALSA-2026-99624.html
     - https://errata.rockylinux.org/RLSA-2026:99715
     - https://linux.oracle.com/cve/CVE-2026-119079.html
     - https://linux.oracle.com/errata/ELSA-2026-99715.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-119079
+    - https://ubuntu.com/security/notices/USN-9202-1
     - https://www.cve.org/CVERecord?id=CVE-2026-119079
     - security-tracker.debian.org/tracker/cve-2026-119079
     PublishedDate: '2026-11-09T19:16:43.023Z'
@@ -1561,6 +1575,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
         V3Score: 8.1
     References:
+    - https://access.redhat.com/errata/RHSA-2026:99624
     - https://access.redhat.com/errata/RHSA-2026:99715
     - https://access.redhat.com/security/cve/CVE-2026-71199
     - https://bugzilla.redhat.com/2478440
@@ -1621,12 +1636,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119079
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71199
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71200
-    - https://errata.almalinux.org/9/ALSA-2026-99715.html
+    - https://errata.almalinux.org/10/ALSA-2026-99624.html
     - https://errata.rockylinux.org/RLSA-2026:99715
     - https://linux.oracle.com/cve/CVE-2026-71199.html
     - https://linux.oracle.com/errata/ELSA-2026-99715.html
     - https://mailman.mit.edu/pipermail/kerberos-announce/2026q4/000212.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-71199
+    - https://ubuntu.com/security/notices/USN-9202-1
     - https://www.cve.org/CVERecord?id=CVE-2026-71199
   - VulnerabilityID: CVE-2026-71200
     PkgID: krb5-libs@1.22.2-r1
@@ -1660,6 +1676,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:99624
     - https://access.redhat.com/errata/RHSA-2026:99715
     - https://access.redhat.com/security/cve/CVE-2026-71200
     - https://bugzilla.redhat.com/2478440
@@ -1720,12 +1737,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119079
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71199
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71200
-    - https://errata.almalinux.org/9/ALSA-2026-99715.html
+    - https://errata.almalinux.org/10/ALSA-2026-99624.html
     - https://errata.rockylinux.org/RLSA-2026:99715
     - https://linux.oracle.com/cve/CVE-2026-71200.html
     - https://linux.oracle.com/errata/ELSA-2026-99715.html
     - https://mailman.mit.edu/pipermail/kerberos-announce/2026q4/000212.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-71200
+    - https://ubuntu.com/security/notices/USN-9202-1
     - https://www.cve.org/CVERecord?id=CVE-2026-71200
   - VulnerabilityID: CVE-2026-107708
     PkgID: krb5-libs@1.22.2-r1
@@ -1761,6 +1779,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H
         V3Score: 4.9
     References:
+    - https://access.redhat.com/errata/RHSA-2026:99624
     - https://access.redhat.com/errata/RHSA-2026:99715
     - https://access.redhat.com/security/cve/CVE-2026-107708
     - https://bugzilla.redhat.com/2478440
@@ -1821,7 +1840,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119079
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71199
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71200
-    - https://errata.almalinux.org/9/ALSA-2026-99715.html
+    - https://errata.almalinux.org/10/ALSA-2026-99624.html
     - https://errata.rockylinux.org/RLSA-2026:99715
     - https://github.com/krb5/krb5
     - https://github.com/krb5/krb5/blob/krb5-1.22.2-final/src/kdc/kdc_util.c#L639-L676
@@ -1831,6 +1850,7 @@
     - https://linux.oracle.com/cve/CVE-2026-107708.html
     - https://linux.oracle.com/errata/ELSA-2026-99715.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-107708
+    - https://ubuntu.com/security/notices/USN-9202-1
     - https://www.cve.org/CVERecord?id=CVE-2026-107708
     - https://www.vulncheck.com/advisories/mit-krb5-through-1.22.2-kdc-null-pointer-dereference-via-s4u2proxy-pac
     PublishedDate: '2026-10-08T21:17:52.223Z'
@@ -1870,6 +1890,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2026:99624
     - https://access.redhat.com/errata/RHSA-2026:99715
     - https://access.redhat.com/security/cve/CVE-2026-107778
     - https://bugzilla.redhat.com/2478440
@@ -1930,7 +1951,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119079
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71199
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71200
-    - https://errata.almalinux.org/9/ALSA-2026-99715.html
+    - https://errata.almalinux.org/10/ALSA-2026-99624.html
     - https://errata.rockylinux.org/RLSA-2026:99715
     - https://github.com/krb5/krb5
     - https://github.com/krb5/krb5/blob/krb5-1.22.2-final/src/lib/krb5/krb/rd_cred.c#L77-L112
@@ -1940,6 +1961,7 @@
     - https://linux.oracle.com/cve/CVE-2026-107778.html
     - https://linux.oracle.com/errata/ELSA-2026-99715.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-107778
+    - https://ubuntu.com/security/notices/USN-9202-1
     - https://www.cve.org/CVERecord?id=CVE-2026-107778
     - https://www.vulncheck.com/advisories/mit-krb5-through-1.22.2-null-pointer-dereference-via-krb5-rd-cred
     PublishedDate: '2026-10-08T21:17:52.63Z'
@@ -1976,6 +1998,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:L
         V3Score: 6.7
     References:
+    - https://access.redhat.com/errata/RHSA-2026:99624
     - https://access.redhat.com/errata/RHSA-2026:99715
     - https://access.redhat.com/security/cve/CVE-2026-107884
     - https://bugzilla.redhat.com/2478440
@@ -2036,12 +2059,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119079
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71199
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71200
-    - https://errata.almalinux.org/9/ALSA-2026-99715.html
+    - https://errata.almalinux.org/10/ALSA-2026-99624.html
     - https://errata.rockylinux.org/RLSA-2026:99715
     - https://linux.oracle.com/cve/CVE-2026-107884.html
     - https://linux.oracle.com/errata/ELSA-2026-99715.html
     - https://mailman.mit.edu/pipermail/kerberos-announce/2026q4/000212.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-107884
+    - https://ubuntu.com/security/notices/USN-9202-1
     - https://www.cve.org/CVERecord?id=CVE-2026-107884
   - VulnerabilityID: CVE-2026-111423
     PkgID: krb5-libs@1.22.2-r1
@@ -2075,6 +2099,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.2
     References:
+    - https://access.redhat.com/errata/RHSA-2026:99624
     - https://access.redhat.com/errata/RHSA-2026:99715
     - https://access.redhat.com/security/cve/CVE-2026-111423
     - https://bugzilla.redhat.com/2478440
@@ -2135,12 +2160,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119079
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71199
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71200
-    - https://errata.almalinux.org/9/ALSA-2026-99715.html
+    - https://errata.almalinux.org/10/ALSA-2026-99624.html
     - https://errata.rockylinux.org/RLSA-2026:99715
     - https://linux.oracle.com/cve/CVE-2026-111423.html
     - https://linux.oracle.com/errata/ELSA-2026-99715.html
     - https://mailman.mit.edu/pipermail/kerberos-announce/2026q4/000212.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-111423
+    - https://ubuntu.com/security/notices/USN-9202-1
     - https://www.cve.org/CVERecord?id=CVE-2026-111423
   - VulnerabilityID: CVE-2026-112314
     PkgID: krb5-libs@1.22.2-r1
@@ -2243,11 +2269,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-119079
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71199
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-71200
-    - https://errata.almalinux.org/9/ALSA-2026-99715.html
+    - https://errata.almalinux.org/10/ALSA-2026-99624.html
     - https://errata.rockylinux.org/RLSA-2026:99715
     - https://linux.oracle.com/cve/CVE-2026-112314.html
     - https://linux.oracle.com/errata/ELSA-2026-99715.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-112314
+    - https://ubuntu.com/security/notices/USN-9202-1
     - https://www.cve.org/CVERecord?id=CVE-2026-112314
     PublishedDate: '2026-11-09T19:16:39.867Z'
     LastModifiedDate: '2026-11-25T03:17:27.71Z'
@@ -2650,6 +2677,7 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2026:100679
+    - https://access.redhat.com/errata/RHSA-2026:100681
     - https://access.redhat.com/security/cve/CVE-2026-113351
     - https://advisory.echohq.com/cve/cve-2026-113351
     - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1151840
@@ -2666,7 +2694,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-117610
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-118370
     - https://docs.bell-sw.com/security/cves/cve-2026-113351
-    - https://errata.almalinux.org/9/ALSA-2026-100679.html
+    - https://errata.almalinux.org/10/ALSA-2026-100681.html
     - https://errata.rockylinux.org/RLSA-2026:100679
     - https://github.com/cveproject/cvelistv5/tree/main/cves/2026/113xxx/cve-2026-113351.json
     - https://github.com/libexpat/libexpat
@@ -2676,10 +2704,11 @@
     - https://github.com/libexpat/libexpat/blob/a76b1174c1ea52abb639a4c69d52b630a8a106a2/expat/lib/xmlparse.c#l860-l884
     - https://github.com/libexpat/libexpat/pull/1431
     - https://linux.oracle.com/cve/CVE-2026-113351.html
-    - https://linux.oracle.com/errata/ELSA-2026-100679.html
+    - https://linux.oracle.com/errata/ELSA-2026-100681.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-113351
     - https://nvd.nist.gov/vuln/detail/cve-2026-113351
     - https://security-tracker.debian.org/tracker/cve-2026-113351
+    - https://ubuntu.com/security/notices/USN-9196-1
     - https://www.cve.org/CVERecord?id=CVE-2026-113351
     - https://www.vulncheck.com/advisories/libexpat-2.7.2-through-2.9.0-denial-of-service-via-xml-parserreset
     PublishedDate: '2026-10-20T11:17:19.363Z'
@@ -2728,6 +2757,7 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/errata/RHSA-2026:100679
+    - https://access.redhat.com/errata/RHSA-2026:100681
     - https://access.redhat.com/security/cve/CVE-2026-115506
     - https://bugzilla.redhat.com/2556110
     - https://bugzilla.redhat.com/2562538
@@ -2741,7 +2771,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-115506
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-117610
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-118370
-    - https://errata.almalinux.org/9/ALSA-2026-100679.html
+    - https://errata.almalinux.org/10/ALSA-2026-100681.html
     - https://errata.rockylinux.org/RLSA-2026:100679
     - https://github.com/hannob/lololol
     - https://github.com/libexpat/libexpat
@@ -2750,6 +2780,7 @@
     - https://linux.oracle.com/cve/CVE-2026-115506.html
     - https://linux.oracle.com/errata/ELSA-2026-102193.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-115506
+    - https://ubuntu.com/security/notices/USN-9196-1
     - https://www.cve.org/CVERecord?id=CVE-2026-115506
     - https://www.vulncheck.com/advisories/libexpat-through-2.9.0-denial-of-service-via-billion-laughs-detection-delay
     PublishedDate: '2026-10-22T20:17:06.62Z'
@@ -2803,6 +2834,7 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2026:100679
+    - https://access.redhat.com/errata/RHSA-2026:100681
     - https://access.redhat.com/security/cve/CVE-2026-117610
     - https://bugzilla.redhat.com/2556110
     - https://bugzilla.redhat.com/2562538
@@ -2816,7 +2848,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-115506
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-117610
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-118370
-    - https://errata.almalinux.org/9/ALSA-2026-100679.html
+    - https://errata.almalinux.org/10/ALSA-2026-100681.html
     - https://errata.rockylinux.org/RLSA-2026:100679
     - https://github.com/libexpat/libexpat
     - https://github.com/libexpat/libexpat/blob/a76b1174c1ea52abb639a4c69d52b630a8a106a2/expat/lib/xmlparse.c#L3468-L3510
@@ -2827,6 +2859,7 @@
     - https://linux.oracle.com/cve/CVE-2026-117610.html
     - https://linux.oracle.com/errata/ELSA-2026-102193.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-117610
+    - https://ubuntu.com/security/notices/USN-9196-1
     - https://www.cve.org/CVERecord?id=CVE-2026-117610
     - https://www.vulncheck.com/advisories/libexpat-through-2.9.0-null-pointer-dereference-via-external-entity-subparser
     PublishedDate: '2026-10-28T03:17:12.777Z'
@@ -2880,6 +2913,7 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2026:100679
+    - https://access.redhat.com/errata/RHSA-2026:100681
     - https://access.redhat.com/security/cve/CVE-2026-118370
     - https://bugzilla.redhat.com/2556110
     - https://bugzilla.redhat.com/2562538
@@ -2893,7 +2927,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-115506
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-117610
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-118370
-    - https://errata.almalinux.org/9/ALSA-2026-100679.html
+    - https://errata.almalinux.org/10/ALSA-2026-100681.html
     - https://errata.rockylinux.org/RLSA-2026:100679
     - https://github.com/libexpat/libexpat
     - https://github.com/libexpat/libexpat/blob/a76b1174c1ea52abb639a4c69d52b630a8a106a2/expat/lib/xmlparse.c#L4138-L4140
@@ -2903,6 +2937,7 @@
     - https://linux.oracle.com/cve/CVE-2026-118370.html
     - https://linux.oracle.com/errata/ELSA-2026-102193.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-118370
+    - https://ubuntu.com/security/notices/USN-9196-1
     - https://www.cve.org/CVERecord?id=CVE-2026-118370
     - https://www.vulncheck.com/advisories/libexpat-through-2.9.0-integer-overflow-in-storeatts-via-attindex-and-nprefixes
     PublishedDate: '2026-10-28T03:17:13.293Z'
@@ -2936,6 +2971,7 @@
     - https://github.com/libexpat/libexpat
     - https://github.com/libexpat/libexpat/blob/a70841d9ffa64ddde29ab824ed6305035ebe4c47/expat/lib/xmltok.c#L1274-L1322
     - https://github.com/libexpat/libexpat/pull/1492
+    - https://ubuntu.com/security/notices/USN-9196-1
     - https://www.cve.org/CVERecord?id=CVE-2026-124317
     - https://www.vulncheck.com/advisories/libexpat-through-2.10.0-out-of-bounds-read-via-unknown-toutf8-and-unknown-toutf16
     PublishedDate: '2026-11-07T15:17:16.08Z'
@@ -2970,6 +3006,7 @@
     - https://github.com/libexpat/libexpat/blob/R_2_10_0/expat/xmlwf/xmlwf.c#L1272-L1275
     - https://github.com/libexpat/libexpat/blob/R_2_10_0/expat/xmlwf/xmlwf.c#L1338-L1347
     - https://github.com/libexpat/libexpat/pull/1502
+    - https://ubuntu.com/security/notices/USN-9196-1
     - https://www.cve.org/CVERecord?id=CVE-2026-128241
     - https://www.vulncheck.com/advisories/libexpat-xmlwf-through-2.10.0-symlink-following-via-d-output-directory
     PublishedDate: '2026-11-13T10:18:12.01Z'
@@ -3003,6 +3040,7 @@
     - https://github.com/libexpat/libexpat/blob/R_2_10_0/expat/lib/xmltok.c
     - https://github.com/libexpat/libexpat/commit/702389c818cb402f2423fa998fa11907d621959f
     - https://github.com/libexpat/libexpat/pull/1519
+    - https://ubuntu.com/security/notices/USN-9196-1
     - https://www.cve.org/CVERecord?id=CVE-2026-134703
     - https://www.vulncheck.com/advisories/libexpat-through-2.10.0-isolated-high-surrogate-via-utf-16-conversion
     PublishedDate: '2026-11-22T02:17:09.447Z'
@@ -3358,6 +3396,479 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-88823
     PublishedDate: '2026-11-10T19:21:34.847Z'
     LastModifiedDate: '2026-11-16T20:19:17.89Z'
+  - VulnerabilityID: CVE-2026-11979
+    PkgID: libxml2@2.13.9-r2
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r2?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: 9f178a80be2c8448
+    InstalledVersion: 2.13.9-r2
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a4489095da1010f5b0ac28f
+      DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec7d178d228448d8a4bb0a
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-11979
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:b184740260d9de63c6893aee65bc21ed08b828f5134ec61ed11a75c4d7b6ce0e
+    Title: 'libxml2: libxml2: Arbitrary code execution in xmlcatalog utility via buffer overflow'
+    Description: |-
+      libxml2 is vulnerable to multiple stack-based buffer overflows in the xmlcatalog utility when running in --shell mode. The usershell() function processes user input using fixed-size stack buffers without proper bounds checking.
+      By supplying an overly long input line, an attacker can overflow internal buffers (command, arg, and argv) during input parsing. This results in memory corruption within the stack frame.
+      Successful exploitation may cause a crash or potentially allow arbitrary code execution in the context of the xmlcatalog process.
+
+      This issue has been fixed in the commit c2e233fc.
+
+      NOTE:
+      The maintainers of this project did not agree that this issue is a vulnerability and considered it a bug.
+    Severity: HIGH
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 2
+      rocky: 3
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:98468
+    - https://access.redhat.com/errata/RHSA-2026:98572
+    - https://access.redhat.com/security/cve/CVE-2026-11979
+    - https://bugzilla.redhat.com/2494191
+    - https://bugzilla.redhat.com/2528987
+    - https://bugzilla.redhat.com/2528989
+    - https://bugzilla.redhat.com/2528990
+    - https://bugzilla.redhat.com/2528992
+    - https://bugzilla.redhat.com/2529697
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2491354
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494191
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528986
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528987
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528989
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528990
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528992
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2529697
+    - https://cert.pl/en/posts/2026/06/CVE-2026-11979
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11979
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6653
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-74860
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86142
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86143
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86144
+    - https://errata.almalinux.org/10/ALSA-2026-98572.html
+    - https://errata.rockylinux.org/RLSA-2026:98468
+    - https://gitlab.gnome.org/GNOME/libxml2/-/commit/c2e233fc1b341685fc99621b2768b503f777a72e
+    - https://linux.oracle.com/cve/CVE-2026-11979.html
+    - https://linux.oracle.com/errata/ELSA-2026-98572.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-11979
+    - https://www.cve.org/CVERecord?id=CVE-2026-11979
+    PublishedDate: '2026-06-29T14:16:40.593Z'
+    LastModifiedDate: '2026-10-25T21:10:00.77Z'
+  - VulnerabilityID: CVE-2026-86138
+    PkgID: libxml2@2.13.9-r2
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r2?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: 9f178a80be2c8448
+    InstalledVersion: 2.13.9-r2
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a4489095da1010f5b0ac28f
+      DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec7d178d228448d8a4bb0a
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86138
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:aa35fa23a95da92f359e274e12523bbe612fda70051e299179452eb6ad0744be
+    Title: 'libxml2: libxml2: Arbitrary code execution via heap-based buffer overflow'
+    Description: In libxml2 before 2.15.4, xmlDictAddQString in dict.c has an integer overflow and resultant heap-based buffer overflow.
+    Severity: HIGH
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      azure: 2
+      julia: 3
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 2
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:98468
+    - https://access.redhat.com/security/cve/CVE-2026-86138
+    - https://bugzilla.redhat.com/2491354
+    - https://bugzilla.redhat.com/2494191
+    - https://bugzilla.redhat.com/2528986
+    - https://bugzilla.redhat.com/2528987
+    - https://bugzilla.redhat.com/2528989
+    - https://bugzilla.redhat.com/2528990
+    - https://bugzilla.redhat.com/2528992
+    - https://bugzilla.redhat.com/2529697
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2491354
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494191
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528986
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528987
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528989
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528990
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528992
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2529697
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11979
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6653
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-74860
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86142
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86143
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86144
+    - https://errata.almalinux.org/9/ALSA-2026-98468.html
+    - https://errata.rockylinux.org/RLSA-2026:98468
+    - https://github.com/GNOME/libxml2/commit/a4cba4b5b5a8c42e155ed42d2d2a44955465a2e4
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://github.com/advisories/GHSA-v4gg-2cxp-fc23
+    - https://linux.oracle.com/cve/CVE-2026-86138.html
+    - https://linux.oracle.com/errata/ELSA-2026-98468.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86138
+    - https://ubuntu.com/security/notices/USN-8910-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-86138
+    PublishedDate: '2026-09-05T05:17:12.6Z'
+    LastModifiedDate: '2026-09-15T19:40:47.56Z'
+  - VulnerabilityID: CVE-2026-86139
+    PkgID: libxml2@2.13.9-r2
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r2?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: 9f178a80be2c8448
+    InstalledVersion: 2.13.9-r2
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a4489095da1010f5b0ac28f
+      DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec7d178d228448d8a4bb0a
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86139
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:e02caae72adf73c66c858531c0f9cc399c40506cef7bb0922d7cbad2e7f8bcf3
+    Title: 'libxml2: libxml2: Integer overflow in xmlURIEscapeStr may lead to arbitrary code execution'
+    Description: In libxml2 before 2.15.4, xmlURIEscapeStr in uri.c has an integer overflow.
+    Severity: HIGH
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      julia: 3
+      nvd: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-86139
+    - https://github.com/GNOME/libxml2/commit/8edbbdb09f24d26a2f900141fddc2b9d014f53b0
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://github.com/advisories/GHSA-xvw4-gjw8-rw38
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86139
+    - https://ubuntu.com/security/notices/USN-8910-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-86139
+    PublishedDate: '2026-09-05T05:17:12.73Z'
+    LastModifiedDate: '2026-09-15T19:39:45.267Z'
+  - VulnerabilityID: CVE-2026-86140
+    PkgID: libxml2@2.13.9-r2
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r2?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: 9f178a80be2c8448
+    InstalledVersion: 2.13.9-r2
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a4489095da1010f5b0ac28f
+      DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec7d178d228448d8a4bb0a
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86140
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:b0f129ba22f909e74dd87feebf3c8234744ab4cc8658f6df11797ba2c3c9242b
+    Title: 'libxml2: libxml2: Arbitrary code execution via stack-based buffer overflow in xmlSnprintfElements'
+    Description: In libxml2 before 2.15.4, xmlSnprintfElements in valid.c has a strcat stack-based buffer overflow.
+    Severity: HIGH
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      azure: 3
+      julia: 3
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:98468
+    - https://access.redhat.com/errata/RHSA-2026:98572
+    - https://access.redhat.com/security/cve/CVE-2026-86140
+    - https://bugzilla.redhat.com/2494191
+    - https://bugzilla.redhat.com/2528987
+    - https://bugzilla.redhat.com/2528989
+    - https://bugzilla.redhat.com/2528990
+    - https://bugzilla.redhat.com/2528992
+    - https://bugzilla.redhat.com/2529697
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2491354
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494191
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528986
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528987
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528989
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528990
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528992
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2529697
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11979
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6653
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-74860
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86142
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86143
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86144
+    - https://errata.almalinux.org/10/ALSA-2026-98572.html
+    - https://errata.rockylinux.org/RLSA-2026:98468
+    - https://github.com/GNOME/libxml2/commit/d1686f91dbda141a752200419d35639fd6b38340
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://github.com/advisories/GHSA-6wmc-mmch-49h7
+    - https://linux.oracle.com/cve/CVE-2026-86140.html
+    - https://linux.oracle.com/errata/ELSA-2026-98572.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86140
+    - https://ubuntu.com/security/notices/USN-8787-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-86140
+    PublishedDate: '2026-09-05T05:17:12.877Z'
+    LastModifiedDate: '2026-09-15T19:39:17.01Z'
+  - VulnerabilityID: CVE-2026-86142
+    PkgID: libxml2@2.13.9-r2
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r2?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: 9f178a80be2c8448
+    InstalledVersion: 2.13.9-r2
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a4489095da1010f5b0ac28f
+      DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec7d178d228448d8a4bb0a
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86142
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:709716af0535e9520f054508f243a88f21505399f81b53f1c9947804b6e9ab8d
+    Title: 'libxml2: libxml2: Heap-based buffer overflow in xmlXPtrEval due to xpointer length saturation'
+    Description: In libxml2 before 2.15.4, there is a heap-based buffer overflow in xmlXPtrEvalXPtrPart because of xmlXPtrEval xpointer length saturation.
+    Severity: HIGH
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      azure: 2
+      julia: 3
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 2
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:98468
+    - https://access.redhat.com/errata/RHSA-2026:98572
+    - https://access.redhat.com/security/cve/CVE-2026-86142
+    - https://bugzilla.redhat.com/2494191
+    - https://bugzilla.redhat.com/2528987
+    - https://bugzilla.redhat.com/2528989
+    - https://bugzilla.redhat.com/2528990
+    - https://bugzilla.redhat.com/2528992
+    - https://bugzilla.redhat.com/2529697
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2491354
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494191
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528986
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528987
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528989
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528990
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528992
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2529697
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11979
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6653
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-74860
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86142
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86143
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86144
+    - https://errata.almalinux.org/10/ALSA-2026-98572.html
+    - https://errata.rockylinux.org/RLSA-2026:98468
+    - https://github.com/GNOME/libxml2/commit/6b3a736c0edc74ceec3d82f5252499d7911b3a58
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://github.com/advisories/GHSA-499q-6rmh-w6p7
+    - https://gitlab.gnome.org/GNOME/libxml2/-/work_items/1113
+    - https://linux.oracle.com/cve/CVE-2026-86142.html
+    - https://linux.oracle.com/errata/ELSA-2026-98572.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86142
+    - https://ubuntu.com/security/notices/USN-8910-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-86142
+    PublishedDate: '2026-09-05T05:17:13.133Z'
+    LastModifiedDate: '2026-09-15T19:35:48.663Z'
+  - VulnerabilityID: CVE-2026-86143
+    PkgID: libxml2@2.13.9-r2
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r2?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: 9f178a80be2c8448
+    InstalledVersion: 2.13.9-r2
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a4489095da1010f5b0ac28f
+      DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec7d178d228448d8a4bb0a
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86143
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:f3d7b4bf1f0f3cbb7bb7c97340074ddb356d600735d2162580431154c93cdfe0
+    Title: 'libxml2: libxml2: Data integrity issues due to integer overflow in write callbacks'
+    Description: In xmlIO in libxml2 before 2.15.4, an inconsistency in xmlOutputWriteCallback and xmlBufUse causes negative lengths to reach write callbacks, aka a lack of a check for integer overflow before calling writecallback. This has security relevance for many types of uses of that length value within a callback.
+    Severity: HIGH
+    CweIDs:
+    - CWE-192
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      azure: 2
+      julia: 3
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 2
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 7.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 7.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 6.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:98468
+    - https://access.redhat.com/errata/RHSA-2026:98572
+    - https://access.redhat.com/security/cve/CVE-2026-86143
+    - https://bugzilla.redhat.com/2494191
+    - https://bugzilla.redhat.com/2528987
+    - https://bugzilla.redhat.com/2528989
+    - https://bugzilla.redhat.com/2528990
+    - https://bugzilla.redhat.com/2528992
+    - https://bugzilla.redhat.com/2529697
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2491354
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2494191
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528986
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528987
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528989
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528990
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2528992
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2529697
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11979
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6653
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-74860
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86142
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86143
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86144
+    - https://errata.almalinux.org/10/ALSA-2026-98572.html
+    - https://errata.rockylinux.org/RLSA-2026:98468
+    - https://github.com/GNOME/libxml2/commit/90f293ba74d28b1d570920382e707586f68ebf35
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://github.com/advisories/GHSA-r2q6-6v35-773j
+    - https://gitlab.gnome.org/GNOME/libxml2/-/work_items/1111
+    - https://linux.oracle.com/cve/CVE-2026-86143.html
+    - https://linux.oracle.com/errata/ELSA-2026-98572.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86143
+    - https://ubuntu.com/security/notices/USN-8910-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-86143
+    PublishedDate: '2026-09-05T05:17:13.27Z'
+    LastModifiedDate: '2026-09-15T19:31:15.857Z'
   - VulnerabilityID: CVE-2026-86144
     PkgID: libxml2@2.13.9-r2
     PkgName: libxml2
@@ -3405,10 +3916,9 @@
         V3Score: 5.6
     References:
     - https://access.redhat.com/errata/RHSA-2026:98468
+    - https://access.redhat.com/errata/RHSA-2026:98572
     - https://access.redhat.com/security/cve/CVE-2026-86144
-    - https://bugzilla.redhat.com/2491354
     - https://bugzilla.redhat.com/2494191
-    - https://bugzilla.redhat.com/2528986
     - https://bugzilla.redhat.com/2528987
     - https://bugzilla.redhat.com/2528989
     - https://bugzilla.redhat.com/2528990
@@ -3431,7 +3941,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86142
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86143
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86144
-    - https://errata.almalinux.org/9/ALSA-2026-98468.html
+    - https://errata.almalinux.org/10/ALSA-2026-98572.html
     - https://errata.rockylinux.org/RLSA-2026:98468
     - https://github.com/GNOME/libxml2/commit/b63cd517afecb76582dd9488c55e54ceaf50de61
     - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
@@ -3443,6 +3953,250 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-86144
     PublishedDate: '2026-09-05T05:17:13.407Z'
     LastModifiedDate: '2026-09-15T19:20:15.06Z'
+  - VulnerabilityID: CVE-2026-0990
+    PkgID: libxml2@2.13.9-r2
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r2?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: 9f178a80be2c8448
+    InstalledVersion: 2.13.9-r2
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a4489095da1010f5b0ac28f
+      DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec7d178d228448d8a4bb0a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0990
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:fb8972fa6ae46330b4c46282b23465e8de7859d3cb472d1d5bdbe843b3be3760
+    Title: 'libxml2: libxml2: Denial of Service via uncontrolled recursion in XML catalog processing'
+    Description: A flaw was found in libxml2, an XML parsing library. This uncontrolled recursion vulnerability occurs in the xmlCatalogXMLResolveURI function when an XML catalog contains a delegate URI entry that references itself. A remote attacker could exploit this configuration-dependent issue by providing a specially crafted XML catalog, leading to infinite recursion and call stack exhaustion. This ultimately results in a segmentation fault, causing a Denial of Service (DoS) by crashing affected applications.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      julia: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:7519
+    - https://access.redhat.com/security/cve/CVE-2026-0990
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429959
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/1018
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0990
+    - https://ubuntu.com/security/notices/USN-7974-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-0990
+    PublishedDate: '2026-01-15T15:15:52.503Z'
+    LastModifiedDate: '2026-11-24T10:17:36.157Z'
+  - VulnerabilityID: CVE-2026-86137
+    PkgID: libxml2@2.13.9-r2
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r2?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: 9f178a80be2c8448
+    InstalledVersion: 2.13.9-r2
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a4489095da1010f5b0ac28f
+      DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec7d178d228448d8a4bb0a
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86137
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:6a5143e9248af718e2e4813be162d8fe58ad9cf7632af4c9230b30af1e3175cd
+    Title: 'libxml2: libxml2: Denial of Service via out-of-bounds read in xmlFAParsePosCharGroup'
+    Description: In libxml2 before 2.15.4, xmlFAParsePosCharGroup has an out-of-bounds read, aka an out-of-bounds read in the NXT macro in xmlregexp.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      amazon: 2
+      azure: 1
+      julia: 2
+      nvd: 2
+      photon: 2
+      redhat: 1
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L
+        V3Score: 6.1
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L
+        V3Score: 6.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-86137
+    - https://github.com/GNOME/libxml2/commit/76fe08d97de88bfaef2f7d5cd27f11954cc5bee2
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://github.com/advisories/GHSA-cq7w-3xjv-g47g
+    - https://gitlab.gnome.org/GNOME/libxml2/-/work_items/1099
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86137
+    - https://www.cve.org/CVERecord?id=CVE-2026-86137
+    PublishedDate: '2026-09-05T05:17:11.49Z'
+    LastModifiedDate: '2026-09-15T19:46:11.827Z'
+  - VulnerabilityID: CVE-2026-0989
+    PkgID: libxml2@2.13.9-r2
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r2?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: 9f178a80be2c8448
+    InstalledVersion: 2.13.9-r2
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a4489095da1010f5b0ac28f
+      DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec7d178d228448d8a4bb0a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0989
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:dd689ebba27aa0105786bd4323778fb044eab0925e13f580c48cdaa5ac5d1516
+    Title: 'libxml2: Unbounded RelaxNG Include Recursion Leading to Stack Overflow'
+    Description: A flaw was identified in the RelaxNG parser of libxml2 related to how external schema inclusions are handled. The parser does not enforce a limit on inclusion depth when resolving nested <include> directives. Specially crafted or overly complex schemas can cause excessive recursion during parsing. This may lead to stack exhaustion and application crashes, creating a denial-of-service risk.
+    Severity: LOW
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      amazon: 1
+      azure: 1
+      julia: 1
+      photon: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:7519
+    - https://access.redhat.com/security/cve/CVE-2026-0989
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429933
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/998
+    - https://gitlab.gnome.org/GNOME/libxml2/-/merge_requests/374
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0989
+    - https://ubuntu.com/security/notices/USN-7974-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-0989
+    PublishedDate: '2026-01-15T15:15:52.35Z'
+    LastModifiedDate: '2026-11-25T16:17:32.657Z'
+  - VulnerabilityID: CVE-2026-0992
+    PkgID: libxml2@2.13.9-r2
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r2?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: 9f178a80be2c8448
+    InstalledVersion: 2.13.9-r2
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a4489095da1010f5b0ac28f
+      DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec7d178d228448d8a4bb0a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0992
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:7846ae8b3ee7703f433915e6df1ecf0a7b7fe25d6db38e1221f15171c5b21e56
+    Title: 'libxml2: libxml2: Denial of Service via crafted XML catalogs'
+    Description: A flaw was found in the libxml2 library. This uncontrolled resource consumption vulnerability occurs when processing XML catalogs that contain repeated <nextCatalog> elements pointing to the same downstream catalog. A remote attacker can exploit this by supplying crafted catalogs, causing the parser to redundantly traverse catalog chains. This leads to excessive CPU consumption and degrades application availability, resulting in a denial-of-service condition.
+    Severity: LOW
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      amazon: 2
+      azure: 1
+      cbl-mariner: 1
+      julia: 1
+      photon: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:7519
+    - https://access.redhat.com/security/cve/CVE-2026-0992
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429975
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/1019
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0992
+    - https://ubuntu.com/security/notices/USN-7974-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-0992
+    PublishedDate: '2026-01-15T15:15:52.657Z'
+    LastModifiedDate: '2026-11-25T16:17:32.9Z'
+  - VulnerabilityID: CVE-2026-86141
+    PkgID: libxml2@2.13.9-r2
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libxml2@2.13.9-r2?arch=x86_64&distro=3.25.0_alpha20260805
+      UID: 9f178a80be2c8448
+    InstalledVersion: 2.13.9-r2
+    FixedVersion: 2.13.9-r4
+    Status: fixed
+    Layer:
+      Digest: sha256:77623dd71058ef7aa9ad89cc4d9752075b71ede95a4489095da1010f5b0ac28f
+      DiffID: sha256:b38a822c52d0dd5873ed17a4228883fd975ff11791ec7d178d228448d8a4bb0a
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86141
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:c83cf28ea4f20246b07ba88b28fd6eba14602ad31da3dd14e9ae47f9e0ad1738
+    Title: 'libxml2: libxml2: Denial of Service due to NULL pointer dereference in xmlRegNewParserCtxt'
+    Description: xmlregexp in libxml2 before 2.15.4 has a NULL pointer dereference in xmlRegNewParserCtxt after a strdup failure, i.e., it does not calculate a string length after NULL checking.
+    Severity: LOW
+    CweIDs:
+    - CWE-252
+    VendorSeverity:
+      julia: 1
+      nvd: 1
+      photon: 1
+      redhat: 1
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-86141
+    - https://github.com/GNOME/libxml2/commit/e89a8aae4c9b40cdafcf66b3f9e57c62db37bb55
+    - https://github.com/GNOME/libxml2/compare/v2.15.3...v2.15.4
+    - https://github.com/advisories/GHSA-7g6w-jj32-qj92
+    - https://gitlab.gnome.org/GNOME/libxml2/-/work_items/1107
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-86141
+    - https://www.cve.org/CVERecord?id=CVE-2026-86141
+    PublishedDate: '2026-09-05T05:17:13.007Z'
+    LastModifiedDate: '2026-09-15T19:37:41.44Z'
   - VulnerabilityID: CVE-2026-107496
     PkgID: openssl@3.5.9-r0
     PkgName: openssl
@@ -3963,7 +4717,7 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 2
       azure: 1
       bitnami: 2
@@ -3981,10 +4735,9 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
     - https://access.redhat.com/errata/RHSA-2026:89742
+    - https://access.redhat.com/errata/RHSA-2026:98615
     - https://access.redhat.com/security/cve/CVE-2026-12345
     - https://bugzilla.redhat.com/2543492
-    - https://bugzilla.redhat.com/2544127
-    - https://bugzilla.redhat.com/2544138
     - https://bugzilla.redhat.com/show_bug.cgi?id=2543492
     - https://bugzilla.redhat.com/show_bug.cgi?id=2544127
     - https://bugzilla.redhat.com/show_bug.cgi?id=2544138
@@ -3992,7 +4745,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-12345
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
-    - https://errata.almalinux.org/9/ALSA-2026-89742.html
+    - https://errata.almalinux.org/10/ALSA-2026-98615.html
     - https://errata.rockylinux.org/RLSA-2026:89742
     - https://github.com/python/cpython/commit/0478b52788117db4b831b3efd648f56b777628aa
     - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
@@ -4179,7 +4932,7 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 2
       azure: 1
       bitnami: 2
@@ -4197,10 +4950,9 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
     - https://access.redhat.com/errata/RHSA-2026:89742
+    - https://access.redhat.com/errata/RHSA-2026:98615
     - https://access.redhat.com/security/cve/CVE-2026-12345
     - https://bugzilla.redhat.com/2543492
-    - https://bugzilla.redhat.com/2544127
-    - https://bugzilla.redhat.com/2544138
     - https://bugzilla.redhat.com/show_bug.cgi?id=2543492
     - https://bugzilla.redhat.com/show_bug.cgi?id=2544127
     - https://bugzilla.redhat.com/show_bug.cgi?id=2544138
@@ -4208,7 +4960,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-12345
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
-    - https://errata.almalinux.org/9/ALSA-2026-89742.html
+    - https://errata.almalinux.org/10/ALSA-2026-98615.html
     - https://errata.rockylinux.org/RLSA-2026:89742
     - https://github.com/python/cpython/commit/0478b52788117db4b831b3efd648f56b777628aa
     - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
@@ -4395,7 +5147,7 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 2
       azure: 1
       bitnami: 2
@@ -4413,10 +5165,9 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
     - https://access.redhat.com/errata/RHSA-2026:89742
+    - https://access.redhat.com/errata/RHSA-2026:98615
     - https://access.redhat.com/security/cve/CVE-2026-12345
     - https://bugzilla.redhat.com/2543492
-    - https://bugzilla.redhat.com/2544127
-    - https://bugzilla.redhat.com/2544138
     - https://bugzilla.redhat.com/show_bug.cgi?id=2543492
     - https://bugzilla.redhat.com/show_bug.cgi?id=2544127
     - https://bugzilla.redhat.com/show_bug.cgi?id=2544138
@@ -4424,7 +5175,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-12345
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
-    - https://errata.almalinux.org/9/ALSA-2026-89742.html
+    - https://errata.almalinux.org/10/ALSA-2026-98615.html
     - https://errata.rockylinux.org/RLSA-2026:89742
     - https://github.com/python/cpython/commit/0478b52788117db4b831b3efd648f56b777628aa
     - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
@@ -4611,7 +5362,7 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 2
       azure: 1
       bitnami: 2
@@ -4629,10 +5380,9 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
     - https://access.redhat.com/errata/RHSA-2026:89742
+    - https://access.redhat.com/errata/RHSA-2026:98615
     - https://access.redhat.com/security/cve/CVE-2026-12345
     - https://bugzilla.redhat.com/2543492
-    - https://bugzilla.redhat.com/2544127
-    - https://bugzilla.redhat.com/2544138
     - https://bugzilla.redhat.com/show_bug.cgi?id=2543492
     - https://bugzilla.redhat.com/show_bug.cgi?id=2544127
     - https://bugzilla.redhat.com/show_bug.cgi?id=2544138
@@ -4640,7 +5390,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-12345
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
-    - https://errata.almalinux.org/9/ALSA-2026-89742.html
+    - https://errata.almalinux.org/10/ALSA-2026-98615.html
     - https://errata.rockylinux.org/RLSA-2026:89742
     - https://github.com/python/cpython/commit/0478b52788117db4b831b3efd648f56b777628aa
     - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
