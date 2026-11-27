@@ -154,9 +154,9 @@
 │                       │     │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:42852 
 │                       │     │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:44622 
 │                       │     │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:51057 
-│                       │     │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:97562 
-│                       │     │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2026-41567 
-│                       │     │                  ├ [7] : https://bugzilla.redhat.com/2467822 
+│                       │     │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:97229 
+│                       │     │                  ├ [6] : https://access.redhat.com/errata/RHSA-2026:97562 
+│                       │     │                  ├ [7] : https://access.redhat.com/security/cve/CVE-2026-41567 
 │                       │     │                  ├ [8] : https://bugzilla.redhat.com/2485356 
 │                       │     │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2467822 
 │                       │     │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2485356 
@@ -165,7 +165,7 @@
 │                       │     │                  │       6-33811 
 │                       │     │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
 │                       │     │                  │       6-41567 
-│                       │     │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2026-97562.html 
+│                       │     │                  ├ [14]: https://errata.almalinux.org/10/ALSA-2026-97229.html 
 │                       │     │                  ├ [15]: https://errata.rockylinux.org/RLSA-2026:97562 
 │                       │     │                  ├ [16]: https://github.com/moby/moby 
 │                       │     │                  ├ [17]: https://github.com/moby/moby/security/advisories/GHSA-
@@ -618,8 +618,8 @@
                               │                  │       6-97043 
                               │                  ├ [39]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
                               │                  │       6-97054 
-                              │                  ├ [40]: https://errata.almalinux.org/9/ALSA-2026-102586.html 
-                              │                  ├ [41]: https://errata.rockylinux.org/RLSA-2026:102587 
+                              │                  ├ [40]: https://errata.almalinux.org/10/ALSA-2026-102587.html 
+                              │                  ├ [41]: https://errata.rockylinux.org/RLSA-2026:102586 
                               │                  ├ [42]: https://go.dev/cl/862185 
                               │                  ├ [43]: https://go.dev/issue/82563 
                               │                  ├ [44]: https://groups.google.com/g/golang-announce/c/iY8TY0wW
